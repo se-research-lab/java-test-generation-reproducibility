@@ -1,0 +1,129 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: DebugProcedures
+Element-Type: context
+Element-Version: 2.0
+Id: _2Q6oEPOSEeaWpbE3jg39cA
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 1/24/20 1:53 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc "wait-for-thread" [val file] [val times 8]{
+	try -times $times -delay 1000 -command{
+		get-view Debug | get-tree | get-item 
+		    -path [format "%s \\[Robot\\]/<suspended>Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread" $file]  | get-property childCount -raw | gt 0 | verify-true
+
+	}
+}
+
+proc "wait-for-thread-in-remote" [val child_count 1]{
+	get-view Debug | get-tree | get-item 
+	    -path "RemoteProject \\[Robot Remote\\]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread" 
+	    | get-property childCount | equals $child_count | verify-true
+}    
+    
+proc "wait-for-remote-connection"{
+	try -times 8 -delay 1000 -command{
+		with [get-view Debug | get-tree] {
+	    	get-item ".* \\[Robot Remote\\]/TCP connection using 127.0.0.1@43981" | get-property caption 
+	       		 | equals "TCP connection using 127.0.0.1@43981" | verify-true
+		}
+	}
+}
+
+proc "check-debug-marker-on-ruler" [val line] [val script_name]{
+	get-tab-folder -index 1 | get-property activePage | equals $script_name | verify-true
+ 	loop [val index 0]{
+	 	try -times 1 -command{
+			get-editor $script_name | get-text-viewer | get-property [format "markers['%s'][%s].Type" $line $index] -raw
+			| let [val marker -input]{
+				if [ $marker | not-eq "org.eclipse.debug.ui.currentIP" ] {  
+					recur [$index | plus 1]
+				}
+			}
+ 		}-catch{
+ 			str "a" | equals "b" |assert-true -message [format "There was no debug marker in line %s!! " $line]
+ 		}
+	}
+
+}
+
+// checking breakpoint marker for special line in debug perspective (list of Breakpoint tab)
+proc "check-breakpoint-marker-in-line" [val line] [val script_name] [val index]{
+	with [get-view Breakpoints | get-tree] {
+		get-property [format "getItems().TreeItem[%s].getText()" $index] | equals [format "%s [line: %s]" $script_name $line] | verify-true
+	}
+}
+
+
+proc "wait-for-specific-nr-of-threads" [val nr_items_in_thread 3]{	
+	try -times 5 -delay 1000 -command{
+		get-view Debug | get-tree 
+		    | get-item ".* \\[Robot\\]/<suspended>Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread" 
+		    | get-property childCount | equals $nr_items_in_thread | verify-true
+	}
+	try -times 3 -delay 1000 -command{
+		with [get-view Debug | get-tree] {
+		   get-view Debug | get-tree | get-item ".* \\[Robot\\]/<suspended>Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread"   -index 0
+		        | get-property [format "getItems().TreeItem[%s].getText()" [minus $nr_items_in_thread 1]] -raw|  not-eq "" | verify-true
+		}
+	}
+	
+}
+
+proc "wait-for-specified_line-in-first-thread" [val line] [val nr_of_frames] [val debug_type ""][val times 5]{
+	//set selector for remote/normal run
+	$debug_type|  switch [case "Remote" {
+		echo ".* \\[Robot Remote\\]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread" 
+	}] [case "" {
+		echo ".* \\[Robot\\]/<suspended>Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread" 
+	}] - default {
+		echo "Unknown item"
+	} | let [val selector -input] {
+			try -times $times -delay 1000 -command{
+				get-view Debug | get-tree 
+				    | get-item $selector
+				    | get-property "getItems().TreeItem[0].getText()" | equals [format ".*\[line: %s\]" $line]| verify-true
+			}
+			try -times 3 -delay 1000 -command{
+				with [get-view Debug | get-tree] {
+					get-item $selector | get-property "getItems().TreeItem[0].getText()" -raw|  not-eq "" | verify-true			  		
+			        get-item $selector | get-property [format "getItems().TreeItem[%s].getText()" [minus $nr_of_frames 1]] -raw|  not-eq "" | verify-true
+			}
+		}
+	}
+}
+
+proc "wait-for-variables"{
+	try -times 4 -delay 500 -command{
+			get-view Variables | get-tree | get-property itemCount | equals 0 | verify-false
+		}	
+}
+
+proc "wait-for-value-in-varaibles-view" [val item] [val value] {
+	try -times 4 -delay 500  -command{
+		get-view Variables | get-tree | get-item $item | get-property "values['Value']" | equals $value | verify-true
+	}
+}
+
+
+proc "check-library-kw-editor" [val kw_name]{
+	try -times 6 -delay 500 -command{
+		get-editor $kw_name
+	}
+    
+    get-editor  $kw_name| get-canvas | get-property text 
+	    | equals [format "The keyword %s is not a User Keyword but is written in external library.RED debugger alone is not able to debug both Robot and python code however it ispossible to setup cooperation with other debugger (PyDev for example).\r\n"
+	    + "For more information on setting up Robot and Python debugging sessions please referto RED user guide in help system.\r\n"
+	    + "\r\n"
+	    + "Click here to try opening source of this keyword.\r\n"
+	    + "\r\n"
+	    + "Note: if you don't want to see this page you can configure debugger in Preferencesso that it will never suspend inside library keywords when stepping.\r\n"   $kw_name]
+	    | verify-true
+}
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

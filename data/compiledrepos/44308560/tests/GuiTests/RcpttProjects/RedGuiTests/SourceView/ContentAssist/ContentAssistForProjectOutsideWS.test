@@ -1,0 +1,135 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _ngFKcJ2ZEeWVv_UItyy1RQ,_cBeEIMN4Eeat3OoBX2X2jQ
+Element-Name: ContentAssistForProjectOutsideWS
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _KcAh0J2aEeWVv_UItyy1RQ
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/24/18 10:07 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//import project outside of workspace
+get-menu "File/Import..." | click
+get-window Import | get-tree | select "General/Existing Projects into Workspace" | double-click
+set-dialog-result Folder [concat $user_folder "/Project1"]
+with [get-window Import] {
+    get-button "Browse..." | click
+    get-button Finish | click
+}
+
+//add resource to project in workspace
+get-view "Project Explorer" | get-tree | select RobotProject | get-menu "New/Robot Resource file" | click
+with [get-window "New Robot Resource file"] {
+    get-editbox -after [get-label "File name:"] | set-text "res_from_ws"
+    get-button Finish | click
+}
+
+
+//open editor in test outsiede ws
+with [get-view "Project Explorer" | get-tree] {
+    select "MediumRobotTest/Script.robot" | double-click
+}
+get-tab-folder -index 4 | get-tab-item Problems | click
+
+wait-for-zero-items -times 4 -delay 500
+
+//add res2.tsv file
+with [get-editor "Script.robot" | get-text-viewer] {
+    set-caret-pos 5 30
+    key-type Enter
+    type-text Re
+    key-type "M1+SPACE"
+    key-type Enter
+    wait 300
+}
+with [get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table] {
+    get-property "getItems().TableItem[0].getText()" | equals "Resources/res1.robot" | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "Resources 2/res2.tsv" | verify-true
+    get-property "getItems().TableItem[2].getText()" | equals  ".*/RobotProject/res_from_ws.robot" | verify-true
+    get-property "getItems().TableItem[3].getText()" | equals "${var_from_python}" | verify-true
+    get-property "getItems().TableItem[4].getText()" | equals "${/}" | verify-true
+    
+    //list are at the end
+    get-property "getItems().TableItem[28].getText()" | equals "${True}" | verify-true
+    get-property "getItems().TableItem[29].getText()" | equals "@{list_from_py}" | verify-true
+    get-property "getItems().TableItem[30].getText()" | equals "@{EMPTY}" | verify-true
+    get-property "getItems().TableItem[31].getText()" | equals "&{EMPTY}" | verify-true
+    get-property "getItems().TableItem[32].getText()" | equals "&{SUITE_METADATA}" | verify-true
+}
+
+wait 200
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table 
+    | select "Resources 2\\/res2.tsv" | click -default
+
+wait 2000    
+//add Log to test with var: "${from_res2}" 
+with [get-editor "Script.robot" | get-text-viewer] {
+    set-caret-pos 11 27
+    key-type Enter
+    type-text "Log  "
+    key-type "M1+SPACE"
+    type-text "$"
+    wait 200
+}
+with [get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table] {
+    get-property "getItems().TableItem[0].getText()" | equals "${from_res2}" | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "${var_from_python}" | verify-true
+    get-property "getItems().TableItem[2].getText()" | equals "${/}" | verify-true
+}
+
+wait 200
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select "${from_res2}" | click -default
+
+
+//add second Resource file and keyword from it
+with [get-editor "Script.robot" | get-text-viewer] {
+    set-caret-pos 6 33
+    key-type "NUMPAD_ENTER" "\\u000D"
+    type-text Re
+    key-type "M1+SPACE"
+    wait 200
+    key-type Enter
+    wait 500
+    key-type Enter
+    wait 3000
+    set-caret-pos 13 22
+    key-type "NUMPAD_ENTER" "\\u000D"
+    type-text kw
+    key-type "M1+SPACE"
+    wait 200
+}
+
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | get-property itemCount | equals 2 
+    | verify-true
+    
+with [get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table] {
+    get-property "getItems().TableItem[0].getText()" | equals "kw from res 1 - res1.robot" | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "kw from res 2 - res2.tsv" | verify-true
+}
+
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select "kw from res 1 - res1.robot" 
+    | click -default
+
+with [get-editor "Script.robot" | get-text-viewer] {
+    type-text "  "
+    key-type "M1+SPACE" -times 3
+}
+    
+check-automatic-variables-for-test-case -start_index 3 -count_items false
+
+with [get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table] {
+    get-property "getItems().TableItem[30].getText()" | equals "@{list_from_py}" | verify-true
+    get-property "getItems().TableItem[31].getText()" | equals "@{EMPTY}" | verify-true
+    get-property "getItems().TableItem[32].getText()" | equals "@{TEST_TAGS}" | verify-true
+    get-property "getItems().TableItem[33].getText()" | equals "&{EMPTY}" | verify-true
+    get-property "getItems().TableItem[34].getText()" | equals "&{SUITE_METADATA}" | verify-true
+}
+
+wait-for-zero-items -times 4 -delay 500
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

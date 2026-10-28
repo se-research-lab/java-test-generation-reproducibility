@@ -1,0 +1,7 @@
+*** Variables ***
+^{incorrect_var}	updated
+^{new_incorrect}	new
+*** Test Cases ***
+T1
+	Log_first	ok_f
+	Log_second	ok_s

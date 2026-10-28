@@ -1,0 +1,72 @@
+package org.codehaus.httpcache4j;
+
+import java.util.Objects;
+
+/**
+ * @author <a href="mailto:hamnis@codehaus.org">Erlend Hamnaberg</a>
+ * @version $Revision: $
+ */
+public final class StatusLine {
+    private final HTTPVersion version;
+    private final String message;
+    private final Status status;
+
+    public StatusLine(Status status, String message) {
+        this(HTTPVersion.HTTP_1_1, status, message);
+    }
+
+    public StatusLine(Status status) {
+        this(HTTPVersion.HTTP_1_1, status, null);
+    }
+
+    public StatusLine(HTTPVersion version, Status status, String message) {
+        this.version = Objects.requireNonNull(version, "Version may not be null");
+        this.status = Objects.requireNonNull(status, "Status may not be null");
+        this.message = message == null ? status.getName() : message;
+    }
+
+    public HTTPVersion getVersion() {
+        return version;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        StatusLine that = (StatusLine) o;
+
+        if (status != null ? !status.equals(that.status) : that.status != null) {
+            return false;
+        }
+        if (version != that.version) {
+            return false;
+        }
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = version != null ? version.hashCode() : 0;
+        result = 31 * result + (status != null ? status.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "HTTP/" + version.toString() + " " + status.getCode() + " " + message;
+    }
+}

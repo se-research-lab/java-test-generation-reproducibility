@@ -1,0 +1,12 @@
+*** Settings ***
+Metadata	a
+
+
+Metadata	c
+
+
+
+
+Metadata	b
+
+*** Test Cases ***

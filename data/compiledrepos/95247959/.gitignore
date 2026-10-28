@@ -1,0 +1,37 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# Intellij
+.idea/*
+*.iml
+*.ipr
+*.iws
+# IntelliJ un-ignore
+!.idea/codeStyles/
+!.idea/copyright/
+!.idea/inspectionProfiles/
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+# JEnv
+.java-version
+
+# Shade
+**/dependency-reduced-pom.xml
+
+*.pyc
+*.swp
+
+# VS Code
+.vscode/*
+bin/
+
+# Other
+.attach_pid*

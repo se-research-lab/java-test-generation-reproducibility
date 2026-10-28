@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Virtualbox File System",
+    "connector": {
+      "id": "local-file-system"
+    },
+    "template": {
+      "paths": [
+        "file:///opt/kylo"
+      ]
+    }
+  },
+  {
+    "title": "Hive",
+    "connector": {
+      "id": "hive"
+    }
+  },
+  {
+    "title": "Local Files",
+    "connector": {
+      "id": "file-upload"
+    },
+    "template": {
+      "paths": [
+        "file:/tmp/kylo-upload"
+      ]
+    }
+  }
+]

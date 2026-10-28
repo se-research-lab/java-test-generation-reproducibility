@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article id="main">
+    <header class="container documentation">
+        <h2>Documentation</h2>
+    </header>
+    <section class="wrapper style3 container">
+        <ul class="posts">
+          {% for post in site.posts %}
+              <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+                  <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                  {{ post.excerpt }}
+                  <br>
+                  <a href="{{ post.url | prepend: site.baseurl }}" class="button">Read more</a>
+              </li>
+          {% endfor %}
+        </ul>
+    </section>
+</article>

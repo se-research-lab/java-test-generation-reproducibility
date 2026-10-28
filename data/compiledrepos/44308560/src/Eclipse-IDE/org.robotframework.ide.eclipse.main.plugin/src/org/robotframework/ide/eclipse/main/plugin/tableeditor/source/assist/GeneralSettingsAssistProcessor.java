@@ -1,0 +1,74 @@
+/*
+ * Copyright 2015 Nokia Solutions and Networks
+ * Licensed under the Apache License, Version 2.0,
+ * see license.txt file for details.
+ */
+package org.robotframework.ide.eclipse.main.plugin.tableeditor.source.assist;
+
+import static com.google.common.collect.Lists.newArrayList;
+
+import java.util.List;
+
+import org.eclipse.jface.text.BadLocationException;
+import org.eclipse.jface.text.IDocument;
+import org.eclipse.jface.text.Position;
+import org.eclipse.jface.text.contentassist.ICompletionProposal;
+import org.robotframework.ide.eclipse.main.plugin.assist.AssistProposal;
+import org.robotframework.ide.eclipse.main.plugin.assist.RedSettingProposals;
+import org.robotframework.ide.eclipse.main.plugin.assist.RedSettingProposals.SettingTarget;
+import org.robotframework.ide.eclipse.main.plugin.tableeditor.source.SuiteSourcePartitionScanner;
+import org.robotframework.ide.eclipse.main.plugin.tableeditor.source.assist.RedCompletionProposalAdapter.DocumentModification;
+
+/**
+ * @author Michal Anglart
+ */
+public class GeneralSettingsAssistProcessor extends RedContentAssistProcessor {
+
+    public GeneralSettingsAssistProcessor(final AssistantContext assist) {
+        super(assist);
+    }
+
+    @Override
+    public String getProposalsTitle() {
+        return "Settings";
+    }
+
+    @Override
+    public List<String> getApplicableContentTypes() {
+        return newArrayList(SuiteSourcePartitionScanner.SETTINGS_SECTION);
+    }
+
+    @Override
+    protected boolean shouldShowProposals(final IDocument document, final int offset, final String lineContent)
+            throws BadLocationException {
+        return isInApplicableContentType(document, offset) && isInFirstCellOfTheLine(document, offset);
+    }
+
+    @Override
+    protected List<? extends ICompletionProposal> computeProposals(final IDocument document, final int offset,
+            final int cellLength, final String userContent, final boolean atTheEndOfLine) throws BadLocationException {
+
+        final String contentSuffix = atTheEndOfLine ? assist.getSeparatorToFollow() : "";
+
+        final SettingTarget target = assist.getModel().isRpaSuiteFile() ? SettingTarget.GENERAL_TASKS
+                : SettingTarget.GENERAL_TESTS;
+        final List<? extends AssistProposal> settingsProposals = new RedSettingProposals(target)
+                .getSettingsProposals(userContent);
+
+        final List<ICompletionProposal> proposals = newArrayList();
+        for (final AssistProposal settingProposal : settingsProposals) {
+            final DocumentModification modification = new DocumentModification(contentSuffix,
+                    new Position(offset - userContent.length(), cellLength),
+                    shouldActivate(settingProposal.getContent()));
+
+            proposals.add(new RedCompletionProposalAdapter(assist, settingProposal, modification));
+        }
+        return proposals;
+    }
+
+    private boolean shouldActivate(final String settingName) {
+        return newArrayList("library", "resource", "variables", "test setup", "test teardown", "task setup",
+                "task teardown", "suite setup", "suite teardown", "test template", "task template")
+                        .contains(settingName.toLowerCase());
+    }
+}

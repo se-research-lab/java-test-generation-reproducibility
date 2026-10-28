@@ -1,0 +1,45 @@
+<html>
+<head>
+<link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<h2>Table Editors - general usage hints</h2>
+
+<h3>Jump to Source, View in Table Editor</h3>
+Clicking on element in Source and pressing F4 key will open respectful Table editor.<br>
+The same work other way around - element from Table editor is shown in Source.
+
+<h3>Undo - CTRL+Z actions in Table Editors</h3>
+Those table actions groups are independent from each other which means that CTRL+Z reverts only in active table editor even when there were other actions performed in another table editor in between.<br>
+Each table editor stores theirs list of performed actions which can be reverted by CTRL+Z. <br>
+Note that due to table to source synchronization, revertible actions are discarded when switching to Source editor. </br>
+
+<h3>Changing default type in Add new Variable</h3>
+Type of new variable in Variable Editor can be controlled by small green arrow next to "...add new xxx":
+<br><br><img src="images/add_new_var.png"> <br><br>
+Scalar type is displayed as default on add action element. Other types are: list and dictionary.<br>
+
+<h3>Table preferences</h3>
+All table related preferences (cell text folding, number of columns, default behaviors) can be configured at <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.editor)')">
+Window -&gt; Preferences -&gt; Robot Framework -&gt; Editor</a></code> in <b>Tables</b> section.
+<br><br><img src="images/table_preferences.png"> <br><br>
+
+<h3>Keyword argument highlighting</h3>
+<p>RED allows to automatically color required, optional and redundant keyword arguments cells in any of table editors.<br><br>
+Ambiguous keyword finding strategy (<code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.editor.assist)')">
+Window -&gt; Preferences -&gt; Robot Framework -&gt; Editor -&gt; Content Assist</a></code>) is used here when keyword name conflict exists.
+</p><br>
+
+<h3>Default number of columns in table editors</h3>
+<p>To make table editors tidy, RED creates predefined numbers of columns.</p><br>
+
+<h3>To long cell text behavior</h3>
+<p>Too long cell content can be cut or wrapped.</p><br>
+
+<h3>Enter key - what to do after Enter key press during cell edition</h3>
+<p>Enter key type can behave in two ways in RED while editing cell in any of table editors.<br>
+By default, pressing Enter will close cell editor and move cursor to next cell to the right. If the cell is last one in the row (for instance in the comment cell), pressing Enter will move cursor to next row.<br>
+Additionally it can be configured that Enter will close cell editor and cursor will stay on current cell.<br>
+<b>Hint:</b> by pressing Shift+Enter, cursor will move backwards.</p>
+</body>
+</html>

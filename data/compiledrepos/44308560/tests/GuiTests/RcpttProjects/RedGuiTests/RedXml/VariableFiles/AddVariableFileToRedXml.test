@@ -1,0 +1,84 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _rNY3QJKkEeWGA6GsgqW2Mw
+Element-Name: AddVariableFileToRedXml
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _XgSTEJNrEeWXp4iZQnTw0A
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 11/27/19 12:02 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/TestSuite.robot" | double-click
+// add to test Log ${external_val} which is defined in external var.py file
+with [get-editor "TestSuite.robot" | get-text-viewer] {
+    hover-text 3 11
+    set-caret-pos 3 20
+    key-type Enter
+    type-text Log
+    key-type Tab
+    type-text "${externalvar}"
+	key-type "M1+s"
+}
+
+// check if error exists for not known variable
+get-tab-folder -index 4 | get-tab-item Problems | click
+get-view Problems | get-tree | get-item "Errors \\(1 item\\)/Variable 'externalvar' is used, but not defined" 
+    | get-property caption | equals "Variable 'externalvar' is used, but not defined" | verify-true
+
+
+// open Red.xml editor and add external var.py
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/red.xml" | double-click
+get-editor "ProjectWithResource/red.xml" | get-tab-folder | get-tab-item Variables | click
+
+set-dialog-result File "platform:/resource/ProjectWithResource/external_var/var.py"
+get-editor "ProjectWithResource/red.xml" | get-section "Variable files" | get-table | get-item "...add new file" | double-click
+
+get-button "Save \((Ctrl|M1)\+S\)" | click
+
+// force validation
+with [get-editor "TestSuite.robot" | get-text-viewer] {
+    set-caret-pos 5 1
+    type-text " "
+}
+
+get-button "Save \((Ctrl|M1)\+S\)" | click
+get-tab-folder -index 4 | get-tab-item Problems | click
+
+wait-for-zero-items -times 4 -delay 500
+
+get-tab-folder -index 1 | get-tab-item "TestSuite.robot" | click
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/TestSuite.robot" | get-menu "Run As/1 Robot Test" 
+    | click
+    
+wait-for-console 
+    
+get-view Console | get-text-viewer | get-property text 
+    | equals "Command: .*\n"
+    + "Suite Executor:.*\n"
+    + "==============================================================================\n"
+    + "ProjectWithResource                                                           \n"
+    + "==============================================================================\n"
+    + "ProjectWithResource.TestSuite                                                 \n"
+    + "==============================================================================\n"
+    + "Test                                                                  \| FAIL \|\n"
+    + "Variable '\$\{externalvar\}' not found.\n"
+    + "------------------------------------------------------------------------------\n"
+    + "ProjectWithResource.TestSuite                                         \| FAIL \|\n"
+    + "1 critical test, 0 passed, 1 failed\n"
+    + "1 test total, 0 passed, 1 failed\n"
+    + "==============================================================================\n"
+    + "ProjectWithResource                                                   \| FAIL \|\n"
+    + "1 critical test, 0 passed, 1 failed\n"
+    + "1 test total, 0 passed, 1 failed\n"
+    + "==============================================================================\n"
+    + "Output:  .*output.xml\n"
+    + "Log:     .*\n"
+    + "Report:  .*" | verify-true
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

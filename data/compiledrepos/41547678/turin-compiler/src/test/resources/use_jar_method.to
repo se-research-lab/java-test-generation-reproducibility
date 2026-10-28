@@ -1,0 +1,7 @@
+namespace foo
+
+import com.github.javaparser.ast.comments.Comment
+
+String foo(Comment comment) {
+    return comment.getContent()
+}

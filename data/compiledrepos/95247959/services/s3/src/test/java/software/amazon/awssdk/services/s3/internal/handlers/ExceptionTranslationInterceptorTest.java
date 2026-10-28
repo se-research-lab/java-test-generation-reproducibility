@@ -1,0 +1,184 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.services.s3.internal.handlers;
+
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import software.amazon.awssdk.awscore.exception.AwsErrorDetails;
+import software.amazon.awssdk.core.SdkRequest;
+import software.amazon.awssdk.core.interceptor.Context;
+import software.amazon.awssdk.core.interceptor.ExecutionAttributes;
+import software.amazon.awssdk.core.interceptor.InterceptorContext;
+import software.amazon.awssdk.core.internal.interceptor.DefaultFailedExecutionContext;
+import software.amazon.awssdk.http.SdkHttpFullResponse;
+import software.amazon.awssdk.services.s3.model.HeadBucketRequest;
+import software.amazon.awssdk.services.s3.model.HeadObjectRequest;
+import software.amazon.awssdk.services.s3.model.NoSuchBucketException;
+import software.amazon.awssdk.services.s3.model.NoSuchKeyException;
+import software.amazon.awssdk.services.s3.model.PutObjectRequest;
+import software.amazon.awssdk.services.s3.model.S3Exception;
+
+public class ExceptionTranslationInterceptorTest {
+
+    private static ExceptionTranslationInterceptor interceptor;
+
+    @BeforeAll
+    public static void setup() {
+        interceptor = new ExceptionTranslationInterceptor();
+    }
+
+    @Test
+    public void headBucket404_shouldTranslateException() {
+        S3Exception s3Exception = create404S3Exception();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadBucketRequest.builder().build());
+
+        assertThat(interceptor.modifyException(failedExecution, new ExecutionAttributes()))
+            .isExactlyInstanceOf(NoSuchBucketException.class);
+    }
+
+    @Test
+    public void headObject404_shouldTranslateException() {
+        S3Exception s3Exception = create404S3Exception();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadObjectRequest.builder().build());
+
+        assertThat(interceptor.modifyException(failedExecution, new ExecutionAttributes()))
+            .isExactlyInstanceOf(NoSuchKeyException.class);
+    }
+
+    @Test
+    public void headObject403_shouldTranslateException() {
+        S3Exception s3Exception = create403S3Exception();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadObjectRequest.builder().build());
+
+        assertThat(interceptor.modifyException(failedExecution, new ExecutionAttributes()))
+            .isExactlyInstanceOf(S3Exception.class)
+            .hasMessageStartingWith("No can do")
+            .satisfies(e -> assertThat(((S3Exception) e).awsErrorDetails().errorMessage()).isEqualTo("No can do"));
+    }
+
+    @Test
+    public void headObjectOtherException_shouldNotThrowException() {
+        S3Exception s3Exception = (S3Exception) S3Exception.builder().statusCode(500).build();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadObjectRequest.builder().build());
+
+        assertThat(interceptor.modifyException(failedExecution, new ExecutionAttributes())).isEqualTo(s3Exception);
+    }
+
+    private Context.FailedExecution getFailedExecution(S3Exception s3Exception, SdkRequest sdkRequest) {
+        return DefaultFailedExecutionContext.builder().interceptorContext(InterceptorContext.builder()
+                                                                                            .request(sdkRequest)
+                                                                                            .build()).exception(s3Exception).build();
+    }
+
+    @Test
+    public void otherRequest_shouldNotThrowException() {
+        S3Exception s3Exception = create404S3Exception();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     PutObjectRequest.builder().build());
+        assertThat(interceptor.modifyException(failedExecution, new ExecutionAttributes())).isEqualTo(s3Exception);
+    }
+
+    @Test
+    public void headObject503SlowDown_shouldBeThrottlingException() {
+        S3Exception s3Exception = create503ThrottlingException();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadObjectRequest.builder().build());
+        S3Exception modifiedException = (S3Exception) interceptor.modifyException(failedExecution, new ExecutionAttributes());
+        assertThat(modifiedException.awsErrorDetails().errorCode()).isEqualTo("SlowDown");
+        assertThat(modifiedException.isThrottlingException()).isTrue();
+    }
+
+    @Test
+    public void headBucket503SlowDown_shouldBeThrottlingException() {
+        S3Exception s3Exception = create503ThrottlingException();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadBucketRequest.builder().build());
+        S3Exception modifiedException = (S3Exception) interceptor.modifyException(failedExecution, new ExecutionAttributes());
+        assertThat(modifiedException.awsErrorDetails().errorCode()).isEqualTo("SlowDown");
+        assertThat(modifiedException.isThrottlingException()).isTrue();
+    }
+
+    @Test
+    public void headBucket503ServiceUnavailable_shouldNotBeThrottlingException() {
+        S3Exception s3Exception = create503NonThrottlingException();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadBucketRequest.builder().build());
+        S3Exception modifiedException = (S3Exception) interceptor.modifyException(failedExecution, new ExecutionAttributes());
+        assertThat(modifiedException.awsErrorDetails().errorCode()).isNull();
+        assertThat(modifiedException.isThrottlingException()).isFalse();
+    }
+
+    @Test
+    public void headObject503ServiceUnavailable_shouldNotBeThrottlingException() {
+        S3Exception s3Exception = create503NonThrottlingException();
+        Context.FailedExecution failedExecution = getFailedExecution(s3Exception,
+                                                                     HeadObjectRequest.builder().build());
+        S3Exception modifiedException = (S3Exception) interceptor.modifyException(failedExecution, new ExecutionAttributes());
+        assertThat(modifiedException.awsErrorDetails().errorCode()).isNull();
+        assertThat(modifiedException.isThrottlingException()).isFalse();
+    }
+
+    private S3Exception create404S3Exception() {
+        return (S3Exception) S3Exception.builder()
+                                        .awsErrorDetails(AwsErrorDetails.builder()
+                                                                        .sdkHttpResponse(SdkHttpFullResponse.builder()
+                                                                                                            .build())
+                                                                        .build())
+                                        .statusCode(404)
+                                        .build();
+    }
+
+    private S3Exception create403S3Exception() {
+        return (S3Exception) S3Exception.builder()
+                                        .awsErrorDetails(AwsErrorDetails.builder()
+                                                                        .sdkHttpResponse(SdkHttpFullResponse.builder()
+                                                                                                            .statusText("No can do")
+                                                                                                            .build())
+                                                                        .build())
+                                        .statusCode(403)
+                                        .build();
+    }
+
+    private S3Exception create503ThrottlingException() {
+        return (S3Exception) S3Exception.builder()
+                                        .awsErrorDetails(AwsErrorDetails.builder()
+                                                                        .sdkHttpResponse(SdkHttpFullResponse.builder()
+                                                                                                            .statusText(
+                                                                                                                "Slow Down")
+                                                                                                            .build())
+                                                                        .build())
+                                        .statusCode(503)
+                                        .build();
+    }
+
+    private S3Exception create503NonThrottlingException() {
+        return (S3Exception) S3Exception.builder()
+                                        .awsErrorDetails(AwsErrorDetails.builder()
+                                                                        .sdkHttpResponse(SdkHttpFullResponse.builder()
+                                                                                            .statusText("Service Unavailable")
+                                                                                            .build())
+                                                                        .build())
+                                        .statusCode(503)
+                                        .build();
+    }
+}

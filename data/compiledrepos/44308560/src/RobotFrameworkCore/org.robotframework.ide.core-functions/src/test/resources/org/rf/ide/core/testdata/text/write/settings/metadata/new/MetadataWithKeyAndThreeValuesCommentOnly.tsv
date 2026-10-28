@@ -1,0 +1,2 @@
+*** Settings ***
+Metadata	key	val1	val2	val3	#cm1	cm2	cm3

@@ -1,0 +1,1129 @@
+RED 0.9.5 - 2020/07/24
+
+Enhancement
+
+	[RED-1286] - Adding error for "..." KW/TC name
+	[RED-1404] - Variables in assignments is not validated for = character
+	[RED-1419] - Quick Fix - show message about empty fixer
+	[RED-1437] - [GitHub #377] Launch configuration to use custom connection settings from preferences
+
+Bug
+
+	[RED-915] - Content assist - incorrect resource proposal when separator variable used in import
+	[RED-1015] - Missing link when variable is in path in Variable Mapping for Libraries
+	[RED-1165] - Adding QF for wrong settings
+	[RED-1418] - Exception after switching to Variable mode in Debug shell
+	[RED-1438] - [GitHub #309] Handle ClassCastException in status bar
+
+Task
+
+	[RED-1019] - Remove RED custom support for Zoom In/Zoom Out
+	[RED-1431] - Drop support for Eclipse Oxygen
+	[RED-1432] - Prepare for Eclipse 2020-06
+	[RED-1433] - Drop support for Robot Framework 2.9.x
+
+
+RED 0.9.4 - 2020/04/28
+
+Feature
+
+	[RED-884] - Cheat sheets - quick start for newbies
+
+Enhancement
+
+	[RED-1399] - RED hangs for some time when Robot nature is added to project
+	[RED-1406] - Validation should report variables syntax errors
+	[RED-1411] - Move library related timeouts to preferences
+	[RED-1413] - Unify error/warning messages for parameterized remote library imports
+	[RED-1425] - Change rerun buttons names in Execution View tab
+
+Bug
+
+	[RED-292] - When user switch to jython than PE is not refresh
+	[RED-1052] - Coloring list/dict in Setting section when is set as KW name
+	[RED-1173] - Unify adding remote libraries from qick fix and Autodiscovery
+	[RED-1376] - Non-executed rerun with selected tests from many suites
+	[RED-1389] - [GitHub #361] remote library import errors
+	[RED-1395] - Python interpreters can't be switched in preferences when executables are in the same directory
+	[RED-1405] - Wrongly parsed (and coloured) variables for RF 3.1 and older
+	[RED-1407] - Inserts tab instead of user defined separator
+	[RED-1410] - Exception for hyperlink in source
+	[RED-1412] - Remote library timeout is not validated for libraries added to red.xml
+	[RED-1415] - Error when user adds space and open content assist in Debug shell
+	[RED-1426] - Invalid coloring when tab and space is used
+
+Task
+
+	[RED-1222] - Check Jython under Java 9+ issues when Jython 2.7.2 is released
+	[RED-1336] - Support for RF 3.2
+	[RED-1396] - Investigate why session server start exception is not displayed in RED logs
+	[RED-1401] - Update Win10 images
+	[RED-1421] - Check and update any RED related processes documentations
+	[RED-1422] - Jenkins backup
+	[RED-1423] - Update platform to eclipse 2020-03 once it is released
+	[RED-1424] - Unify comment RobotTokenTypes
+
+Sub-task
+
+	[RED-1344] - Add deprecation warning for accessing list/dict items using syntax `@{var}[item]` and `&{var}[item]`
+	[RED-1351] - Inline Python evaluation support using `${{expression}}` syntax
+	[RED-1352] - Strict variable parsing logic
+	[RED-1416] - Provide Quick Fix for similar local & general setting names
+	[RED-1420] - Check how libspec file changes affect us (if it does)
+	[RED-1427] - Show library/keyword source should use data from libspec file
+	[RED-1428] - Library scope element is deprecated and attribute is used instead
+
+
+RED 0.9.3 - 2020/02/04
+
+Feature
+
+	[RED-1377] - Argument coloring in overloading case in Table Mode
+
+Enhancement
+
+	[RED-1380] - [GitHub #100] Table should display header column names
+	[RED-1385] - [GitHub #360] Add YAML filter in red.xml editor / variable files
+	[RED-1386] - Line continuation marker insertion idea
+	[RED-1393] - Breakpoint toggling in multi-line calls should be more coherent
+
+Bug
+
+	[RED-838] - Show library source is not working for pth library
+	[RED-1328] - Fix ContentAssistForNewTrigger RCPTT test
+	[RED-1353] - Extended variable syntax problem
+	[RED-1374] - Debugger does not stop on breakpoint in a keyword indirectly called by "run keyword"
+	[RED-1383] - [GitHub #359] Exception thrown in TestRunnerAgent under Python 3.5.x
+	[RED-1384] - Exception for TC table in History
+
+Task
+
+	[RED-1339] - Switch Python from 2.x to 3.x on machines and make it default in our environments
+	[RED-1341] - Switch to Windows 10
+	[RED-1378] - Update platform to eclipse 2019-12 (4.14)
+	[RED-1379] - Update GitHub release scripts
+	[RED-1382] - Migrate from JUnit 4 to JUnit 5
+	[RED-1390] - Jenkins: no tests report when some fails
+
+Sub-task
+
+	[RED-1345] - Add deprecation warning for for loop without end
+	[RED-1347] - Remove support for additional spaces in settings and sections names
+	[RED-1354] - Support variable in test case name
+	[RED-1357] - Remove support for TSV format
+
+
+RED 0.9.2 - 2019/12/17
+
+Enhancement
+
+	[RED-1236] - Keyword Argument Highlight Enhancement in Table Mode
+	[RED-1258] - [GitHub #289] Possibility to evaluate expressions while debugging
+	[RED-1362] - [GitHub #348] messages/var values truncation limit is not configurable
+	[RED-1370] - Only fix proposals for single problem are shown
+
+Bug
+
+	[RED-1178] - Consistency of creating new section in table
+	[RED-1180] - Quick fix doesn't work for Timeout setting in KW/TC
+	[RED-1294] - Template name merge QuickFix works only for settings table
+	[RED-1304] - Equal sign is wrong colored after preference changing
+	[RED-1329] - Name (--name) robot argument does not work in launch configuration
+	[RED-1363] - [GitHub #350] Debugger is lost when IBM Jazz source control is used
+	[RED-1364] - Quick Assist for return value assignment
+	[RED-1365] - Added library marked as faulty until open
+	[RED-1367] - Line continuation marker is not inserting in some cases
+	[RED-1372] - Cannot set breakpoint in the new "FOR-END" loop
+	[RED-1373] - Debugger does not stop on breakpoint set on multi line keyword
+	[RED-1375] - [GitHub #357] documentation view shows wrong input when something is folded
+
+Task
+
+	[RED-1342] - Check if Jython 2.7.1 is working
+	[RED-1358] - Log RED version in .log/session server logs
+
+Sub-task
+
+	[RED-1349] - Remove case insensitive for loop separators support
+	[RED-1350] - Remove custom timeout message support
+	[RED-1369] - [GitHub #353] Debugger does not work under 3.2
+
+
+RED 0.9.1 - 2019/11/14
+
+Feature
+
+	[RED-1343] - Extend preferences export
+
+Enhancement
+
+	[RED-1279] - [GitHub #305] RED & PyDev wizard unable to install redpydevd without root access rights
+	[RED-1321] - Adding yaml files to content assist for Variable section
+	[RED-1322] - Library alias coloring improvements
+	[RED-1332] - [GitHub #295] RED Unable to start XML-RPC
+
+Bug
+
+	[RED-546] - Wrong problems in pipe script
+	[RED-801] - [GitHub #338] Marker about correct setting when pipe is set as separator in table view
+	[RED-1216] - Backslash is visible in grayout cell for FOR loop
+	[RED-1305] - General task settings are not validated
+	[RED-1310] - Incorrect keyword call coloring for new rows
+	[RED-1327] - Fix Execution view actions enablement
+	[RED-1330] - [GitHub #333] Execution view problems with dynamically modified suites
+	[RED-1331] - RFLint add rule issue
+	[RED-1333] - Update RfLint integration to reflect changes done in RfLint 1.0
+	[RED-1335] - [GitHub #339] trailing spaces in pipe-separated format leads to wrong content type
+
+Task
+
+	[RED-1334] - Update NatTable to version 1.6
+	[RED-1338] - Update Jenkins
+
+Sub-task
+
+	[RED-1337] - Investigate what are the changes in RF 3.2 which require us to change
+
+
+RED 0.9.0 - 2019/10/11
+
+Feature
+
+	[RED-1285] - Empty argument cell handling in source mode
+	[RED-1319] - Remove library import "tag" from multiple keyword occurrences
+	[RED-1324] - Add new elements to Robot Framework > Errors/Warnings > Validation
+
+Enhancement
+
+	[RED-565] - GitHub #47 Add possibility to provide arguments for library imports in red.xml
+	[RED-709] - (GitHub #77) Add possibility to declare breakpoint as stop on keyword failure.
+	[RED-1155] - Validate templated test cases
+	[RED-1290] - [GitHub #320] Library prefix colouring
+	[RED-1291] - Need to Add a button which need to rerun the test case when
+	[RED-1292] - [GitHub #322] Modal windows are blocking each other when changing lib externally
+	[RED-1301] - Unify keyword content assistant for settings
+	[RED-1302] - Templates content assistant improvements
+	[RED-1303] - Add "NONE" to content assistant propositions for global and local settings
+	[RED-1306] - Different syntax highlighting for Robot based keyword and Python based ones
+	[RED-1308] - Speed up edition in tables
+
+Bug
+
+	[RED-452] - Incorrect color for Template arguments
+	[RED-477] - Tables repainting exception under GTK3
+	[RED-961] - GitHub #146 -Table editor can not deal with "a | b" as arg - cell is locked
+	[RED-1269] - [GitHub #302] Validation problem with continuation
+	[RED-1273] - Cannot change the value of existing variable in Variable mappings section
+	[RED-1282] - [GitHub #312] NONE in setup/teardown is validated as keyword
+	[RED-1284] - GitHub #325 CoreException with Eclipse 2019-06
+	[RED-1287] - [GitHub #314] Embedded args with regular expression problems
+	[RED-1288] - [GitHub #315 #316] Chinese characters issues
+	[RED-1289] - Checking error: 'An internal error occurred during: "Label Job"' from regression
+	[RED-1295] - Creating new setting comment in table view with tab NPE
+	[RED-1296] - Undo in tables does not work for empty row created from executable row
+	[RED-1298] - SettingsSectionTableDumper does not support task settings
+	[RED-1299] - NPE for empty setting in Settings table
+	[RED-1309] - [GitHub #330] CCE when running tests with dynamic library imports
+	[RED-1311] - [GitHub #328] Column resizing glitches
+	[RED-1312] - [GitHub #324] Exceptions when using 2019.09
+	[RED-1313] - Library alias is not displayed in settings table editor
+	[RED-1314] - Indentation error in new syntax FOR loop
+	[RED-1315] - [GitHub #331] change working directory when importing variable file
+	[RED-1318] - Exception for wrong settings
+	[RED-1325] - Split Additional Robot Framework arguments (debug/run configurations window)
+
+Task
+
+	[RED-762] - Execution view re-run failed should not use -R launching
+	[RED-1307] - Update platform
+	[RED-1323] - [GitHub #321] document workspace-external libs portability solution
+
+
+RED 0.8.13 - 2019/07/18
+
+Enhancement
+
+	[RED-928] - Support for libraries with the same name as python standard libraries
+	[RED-1193] - [GitHub #247] Enhance source formatting
+	[RED-1242] - [Discussion]: Snippet (like) functionality
+	[RED-1249] - Improve online documentation on GitHub
+	[RED-1252] - Editor problems with files opened from history view
+	[RED-1255] - Possibility to skip built-in RFLint rules
+	[RED-1256] - RFLint rule selection
+	[RED-1257] - Find a way to check the available RFLint rules documentation
+	[RED-1262] - [GitHub #293] Simplify libdoc reload error stacktrace
+	[RED-1271] - [GitHub #303] Variable mappings for Remote Library imports
+	[RED-1278] - [GitHub #308] support libraries using gevent in debugger sessions and autodiscovery
+	[RED-1280] - [GitHub #307] Make Error field in Execution view visible only when needed
+	[RED-1281] - [GitHub #311] Session server does not take python path when reading variables from vars files
+
+Bug
+
+	[RED-483] - Content Proposal window is closed when double clicking on proposal under GTK2
+	[RED-583] - Importing libraries in Setting table adds to red.xml but not to test file
+	[RED-1263] - Removing old libspecs
+	[RED-1270] - GitHub online help navigation links does not work as expected
+	[RED-1276] - Error for not recognized library with full path
+	[RED-1277] - Invalid pythonpath entries for libraries with name module.class
+
+Task
+
+	[RED-1246] - [GitHub #278] Investigate what to do with GTK2/3 issues
+	[RED-1265] - Cloud maintenance
+	[RED-1274] - Installing Robot 3.1.2
+
+Sub-task
+
+	[RED-1243] - Implement proof-of-concept for templates in source part of editor
+
+
+RED 0.8.12 - 2019/05/21
+
+Feature
+
+	[RED-1232] - Provide quick variables typing in editor
+	[RED-1241] - Remove trailing whitespaces
+
+Enhancement
+
+	[RED-1184] - Configure/Deconfigure as Robot nature - change question so YES would keep red.xml
+	[RED-1230] - Simplify UI regarding variable files in red.xml
+	[RED-1234] - Change the way of finding interpreter execution file in python scripts
+	[RED-1235] - [GitHub #255] Check PyDev debugging documentation
+	[RED-1239] - [Github #273] Default env variables for launch configs
+	[RED-1247] - [GitHub #279] Scroll table to the top when revealing the element
+	[RED-1250] - Adding possibility to remove all libs from red.xml
+	[RED-1260] - [GitHub #291] WM_Class is empty
+
+Bug
+
+	[RED-294] - Cannot add library with the same name but from different path
+	[RED-962] - [GitHub #145] In case empty line in test starts with tabulator it is propagated to table view wrongly
+	[RED-1130] - Autodiscovery should not find windows paths when is run from Project Explorer
+	[RED-1142] - Coloring line when "\" is first in line
+	[RED-1233] - Problem with importing python classes from .jar
+	[RED-1240] - RED loads the referenced libraries with absolute path instead of relative ones
+	[RED-1244] - [GitHub #281] Problem with libdoc generation when python library redirect also console msg from server
+	[RED-1251] - [GitHub #284] Command line with unicode letters causes TestRunnerAgent exception
+	[RED-1254] - [GitHub #286] Libdoc generation problem for SikuliLibrary
+	[RED-1261] - CTRL+Z does not work correctly for scalar variable
+	[RED-1266] - [GitHub #295] Unable to start session server when path contains non-ASCII chars
+	[RED-1267] - [GitHub #296] Null Pointer Exception during validation
+
+Task
+
+	[RED-1191] - Adding tests for Tasks when RF 3.1 will be released
+	[RED-1201] - Update platform to Eclipse 2018-09 (4.9)
+	[RED-1205] - Investigate issues with OpenStack clouds
+	[RED-1214] - Consider dropping RF 2.8.x support
+	[RED-1253] - Investigate if support for extensions written in capital letter exist
+	[RED-1259] - [GitHub #290] Revise and update building instructions
+
+Sub-task
+
+	[RED-1199] - Red.xml should have full python library path
+
+RED 0.8.11 - 2019/01/31
+Feature
+
+	[RED-941] - Launching parameters for run/debug - defined by user and from Env
+
+Enhancement
+
+	[RED-307] - Remove all files that are not test from run configuration
+	[RED-370] - [GitHub #27] Unselected Test Suites are automatically removed from Run Configurations
+	[RED-1061] - [GitHub #186] - double click for multiword KW should select whole KW, not item between space
+	[RED-1194] - Provide alternative way to generate libdocs
+	[RED-1210] - [Github #263] Console retrieving problem with 2018-12
+	[RED-1220] - [Github #266] Parser exception is thrown when extracting variables
+	[RED-1228] - Provide quick fix for nested library keyword warning
+	[RED-1229] - Variable files defined in red.xml should not be taken to tests execution
+
+Bug
+
+	[RED-590] - Red.xml is dirty after clicking on variable mapping
+	[RED-703] - Content assist is closed in last line in resource file
+	[RED-919] - Better handle projects without red.xml - building & validation
+	[RED-1116] - Documentation view when there is no interpreter
+	[RED-1147] - [Github #231] pandas library hangs XML-RPC server
+	[RED-1149] - [Github #217] pymouse library raises AssertionError
+	[RED-1185] - [GitHub #245] JSONLibrary import by autodiscovery fails, QuickFix works fine
+	[RED-1197] - Exception for Variables file with windows path
+	[RED-1213] - Launch configuration problem when adding new suite
+	[RED-1215] - Upgrade to 0.8.9 from 0.8.2: libs cannot be loaded anymore
+	[RED-1217] - [Github #264] Missing library file for external library
+	[RED-1219] - Some libs can't be loaded
+	[RED-1223] - [GitHub #269] Wrong validation problem when keyword uses dot character in name
+	[RED-1224] - Documentation with empty lines is not generated correctly
+	[RED-1225] - Keyword source finding does not always work for RF3.1
+	[RED-1227] - red.xml is not excluded from validation
+
+Task
+
+	[RED-1221] - Analyze E2E-SC-Robot project problems
+
+Sub-task
+
+	[RED-1226] - Retrieve python names from library without importing
+
+RED 0.8.10 - 2018/12/17
+Enhancement
+
+	[RED-1207] - RF3.1 - Support for FOR loops END
+
+Bug
+
+	[RED-531] - \s is added to variable name after pasting cell from variable value
+	[RED-1012] - Debugger enters erroneous state when breakpoint is set in robot init file and init file name is not in lower case
+	[RED-1089] - Removing commented variables from Outline
+	[RED-1095] - Marker disappears when writing and saving file
+	[RED-1117] - Error after saving file when there is no intrerpreter
+	[RED-1206] - [Github #262] Wrong arguments when running suites with dots in name
+
+RED 0.8.9 - 2018/11/20
+Feature
+
+    [RED-1198] - [github #257] use default launch configuration preferences for failed tests rerun
+
+Enhancement
+
+    [RED-1078] - When running tests from linked folders, ask user to change to "run single suite using suite path" in launching method
+    [RED-1166] - RF 3.1 new section COMMENTS - provide common actions
+    [RED-1196] - [github #251] add version info to About RED window
+
+Bug
+
+    [RED-733] - Validation for :FOR kw with space inside
+    [RED-1094] - Coloring embedded kw name in table
+
+Task
+
+    [RED-1018] - Update platform to Photon (4.8)
+    [RED-1096] - Github #200 - Planned changes in RF 3.1, which affects RED
+    [RED-1101] - GitHub #200 - 5 - For Loop using FOR
+    [RED-1099] - GitHub #200 - 3 - Robotic Process Automation - new Task table
+    [RED-1102] - GitHub #200 - 6 - deprecated syntax for RF 3.1
+    [RED-1103] - GitHub #200 - 7 - remove Pyt2.6 and Pyt3.3 support from RF
+    [RED-1167] - RF 3.1 - robot will support only .robot and .resource extensions (depreciated txt html tsv extensions)
+    [RED-1188] - Function annotations are visible in libdoc specification file
+    [RED-1189] - Support for keyword-only arguments
+    [RED-1192] - Investigate RED on Java 11
+
+RED 0.8.8 - 2018/09/28
+Enhancement
+
+    [RED-200] - Changing colours in editor immediately after changing preference
+    [RED-704] - Mark timeout setting messages as deprecated for RF >= 3.0.1
+    [RED-1036] - Too many problems are reported when duplicated settings are combined
+    [RED-1074] - Gherkin prefixes used in setting calls
+    [RED-1163] - [GitHub #237] Provide QuickFix of suggestion for cases when Keywords are not found if the resource with this Keywords is outside the project
+    [RED-1168] - [GitHub #239] Add editor color setting for strings
+    [RED-1171] - Remote library autodiscovering on save trigger
+
+Bug
+
+    [RED-135] - Cannot remove duplicated keyword by Quick fix
+    [RED-539] - Focus and edition of cell are in different place after adding [section] in tables
+    [RED-777] - Double errors after saving suite with problematic imported file
+    [RED-1051] - Coloring kw name if is in the same line as test case name
+    [RED-1058] - How to color special cases for variables?
+    [RED-1105] - GitHub #201 handle URI other than "file- "Validation not working when project is connected to Jazz source control
+    [RED-1135] - In table view number of arguments is shown as is in preference
+    [RED-1181] - QuckFix for resources located outside of workspace is not working for PYTHONPATH
+    [RED-1186] - [GitHub #243] imported variables are always lower cased
+    [RED-1187] - [GitHub #242] classes as variables are filtered out from proposals
+
+Task
+
+    [RED-943] - Remove unused compatibility Java properties
+
+
+RED 0.8.7 - 2018/08/06
+Enhancement
+
+    [RED-672] - [github #28] Keyword not checked after Run Keyword If...
+    [RED-1056] - in content assist for Library import show list of folders from python/lib/site-packages
+    [RED-1075] - Variables used in setting calls
+    [RED-1087] - add handling for %{env_vars}
+    [RED-1106] - GitHub #197 - set deprecated attribute message in Timeout settings in RF 3.0.1
+    [RED-1124] - table editor - what to do when not enough columns
+    [RED-1148] - Environment variables in keywords should be just a plaintext
+    [RED-1154] - remove direct robot command executor
+    [RED-1156] - [GitHub #221] Coloring of nested keywords
+
+Bug
+
+    [RED-1084] - GitHub #179 - A wrong error message when using embedding arguments keyword name
+    [RED-1126] - #208 GitHub: argument file starting from home directory is not working
+    [RED-1136] - Problems with "\" in first column - coloring and insert cell
+    [RED-1137] - Insert cell on empty cell after comments makes file dirty
+    [RED-1145] - GitHub #227 runPyDevDebug.py script fixes
+    [RED-1146] - [Github #229] Integer as arguments is recognized as undefined variabe
+    [RED-1150] - General Settings tab adds empty cell after comment in new setting
+    [RED-1158] - Focus is in the same line after moving lin up/down is Imports table
+
+
+RED 0.8.6 - 2018/06/18
+Enhancement
+
+    [RED-711] - GitHub #73 - red.xml - relative paths for RobotExec and ReferencedLibs
+    [RED-1113] - GitHub #204 Handle environment variables in red.xml for classpath and pythonpaths
+    [RED-1120] - [github #203] reload libraries with RobotCommandRpcExecutor
+    [RED-1123] - Remove raw field from RobotToken as unnecessary
+
+Bug
+
+    [RED-616] - Embedded KW with regex is not recogized
+    [RED-1034] - Marker should be shown when variables doesn't exist in nested variables
+    [RED-1079] - QuickFix for absolute paths in linked folders does wrong thing
+    [RED-1084] - GitHub #179 - A wrong error message when using embedding arguments keyword name
+    [RED-1091] - GitHub #96 - Positional argument cannot be used after named arguments for usual KW (examples from RED_781)
+    [RED-1121] - Timeout argument validation for Remote lib import
+    [RED-1122] - URI protocol validation in Remote lib import
+    [RED-1125] - #210 GitHub - Autodiscovery don't work for RemoteSwingLibrary in RED 0.8.5
+    [RED-1131] - GitHub #220 Editor throws exception when opening specific .robot file
+    [RED-1140] - [github #225] Problems with unicode keywords using embedded variables
+
+
+RED 0.8.5 - 2018/05/16
+Enhancement
+
+    [RED-1022] - allow html libdoc to be used in RED to support text formatting from robot
+    [RED-1035] - GitHub #194 - Coloring variables using square brackets
+    [RED-1040] - GitHub #125 - try to look for python2/python3 filenames when looking for python installations
+    [RED-1043] - Github #180 - Add command line filed to Rflint
+    [RED-1068] - Github #184 - Resolve Eclipse parameters in fields for launching stuff (rflint,run configs)
+    [RED-1085] - Provide part cell variable coloring in table view
+    [RED-1093] - Provide part cell gherkin coloring in table view
+    [RED-1110] - library source opening for python modules
+    [RED-1112] - [Github #170] interrupt tests processes instead of killing them
+
+Bug
+
+    [RED-557] - Documentation is not shown after clicking on test name in Source
+    [RED-559] - GitHub #187 - Keyword with parameterized name coloring
+    [RED-995] - Importing python module libraries by path is handled by Quick Fix, but validation reports marker
+    [RED-1042] - wrong Console url coloring when argumentFile preference is disabled
+    [RED-1044] - GitHub #185 Libdoc view from PE - does not show docs when doc contains &lt; and &gt; strings
+    [RED-1063] - Python Debug does not open python file
+    [RED-1065] - Coloring text to black when cell is edited
+    [RED-1072] - Exception when Remote library is imported without args and with alias
+    [RED-1076] - Exception when Remote library is imported with invalid URI
+    [RED-1080] - Remote import with two arguments: URI and timeout
+    [RED-1081] - moving linked folders/files in Project breaks "go to definition" of res and libs
+    [RED-1086] - Path to project is not added to pythonpath during autodiscovering
+    [RED-1088] - Variable coloring is changed to keyword color after modification
+    [RED-1090] - Variable is not colored when inside apostrophes
+    [RED-1118] - Invalid URI handling during Remote import
+
+Task
+
+    [RED-1114] - Debug in RF 3.0.2 and 3.0.3 is not consistent
+
+
+RED 0.8.4 - 2018/03/19
+Enhancement
+
+    [RED-998] - Adding remote libraries during AutoDiscovery
+    [RED-1024] - Provide coloring for table editors for keywords the same as in source editors
+    [RED-1025] - table editor - add arguments after selecting/using kw
+    [RED-1038] - job to recreate Help screenshots to have is up to date.
+    [RED-1045] - GitHub #177 - Support for TODO / Tasks
+    [RED-1073] - Variable mappings for env vars %{ENV_VARS}
+
+Bug
+
+    [RED-1023] - in tables, doc view does not show libdoc from kw not in the first cell
+    [RED-1039] - in TSV, QuickFix for adding library does not use TAB as separator
+    [RED-1060] - GitHub #189_init__.py in lib folder breaks QuickFix/autodicovery
+    [RED-1062] - GitHub #188 - python library module and class name different, cannot be added to red.xml
+    [RED-1066] - GitHub #191 - calling robot logger with also_console=True in init breaks lib refreash
+    [RED-1067] - Unit tests for - Lib in folder "keyword" cannot be added to red.xml in RED 0.8.3 - is fixed in trunk
+
+
+RED 0.8.3 - 2018/02/06
+Enhancement
+
+    [RED-549] - Autodiscovering - handling __init__ importers paths
+    [RED-840] - Removing or changing window for Settings->Imports
+    [RED-902] - Autodiscovery on PE could work like Quick Fix on lib in Editor
+    [RED-985] - add a action for force line wrapping in libdoc window for non-wrappable strings(html links)
+    [RED-991] - GitHub #155 - resolve value of ${EXECDIR} in VM when used in mappings to another variable
+    [RED-994] - for resources outside of workspace, provide additional marker: no KW from this res will be visible
+    [RED-1003] - QuickFix for incorrect windows paths separator
+    [RED-1005] - Skip excluded project parts in features other than validation
+    [RED-1006] - Preferences - Errors/Warning - on/off for whole validation and change Runtime errors levels
+    [RED-1009] - Report problem in red.xml when libspec was not generated
+    [RED-1013] - Improve suite collecting in handlers for project explorer
+    [RED-1029] - Resizing of 'Add Remote location' dialog window in red.xml
+    [RED-1033] - update validation & library discovering topics in RED user guide
+
+Bug
+    [RED-258] - Showing error when libspec from BuildIn was not generated
+    [RED-772] - Wrong saving to source when setting is in one line with KW/TC name
+    [RED-913] - User cannot change variable value in debug mode for variable with unicode
+    [RED-914] - UTF-8 support in RPC server
+    [RED-946] - Warning is removed when empty line is below empty [Doc] section
+    [RED-971] - In table editors in tsv file,when adding new line, spearator left side of special kw like [TAG] is removed
+    [RED-979] - Slash is added in inserted cell after trying to insert next cell
+    [RED-980] - Column disappears after inserting cell in general settings
+    [RED-982] - Cannot delete cell in Settings table
+    [RED-993] - Adding __init__.py from SshLibrary returns robot_session exception when adding lib from red.xml
+    [RED-1002] - Quick fix for libraries shows the same path as is defined
+    [RED-1008] - Github #166 - exception thrown by debugger
+    [RED-1010] - GitHub #167 - allow to change text size in Source by [ctrl] + [=] and [ctrl] + [-]
+    [RED-1011] - Github #162 - incorrect "Invalid Variable syntax" error with list and dictionary variables
+    [RED-1017] - GitHub #169 - rflint/session server does not work with non-asci chars in filename
+    [RED-1026] - GitHub #160 - console output encoding problems
+
+Task
+
+    [RED-996] - Provide missing junits for insert/delete cell
+
+
+RED 0.8.2 - 2017/12/18
+Enhancement
+
+    [RED-965] - Importing remote library validation
+    [RED-990] - Help topic - what to do when python+robot now found automatically
+
+Bug
+
+    [RED-999] - Robot libraries are collapsed in project explorer when libraries changed in red xml
+
+Task
+
+    [RED-987] - Replace ViewerSorter with ViewerComparator
+    [RED-992] - Set RED feature to not allow install to non-Oxygen Eclipse
+
+Sub-task
+
+    [RED-960] - Font color is not changed in KW table
+    [RED-981] - Implement good-looking scrollbars for nattable in dark themes
+    [RED-988] - Hook into css themes engine to change colors from preferences for dark themes
+
+
+RED 0.8.1 - 2017/11/23
+Feature
+
+    [RED-939] - Provide profiles for Syntax Coloring under Preferences->RF->Editor to handle theme changes
+    [RED-353] - Integrate reports from RfLint to RED
+
+Enhancement
+
+    [RED-142] - Warning when variable is defined but not assign a value
+    [RED-749] - Add possibility to disconnect from running tests
+    [RED-750] - Terminate should work in run mode of remote launch
+    [RED-905] - Update NatTable to 1.5
+    [RED-923] - make Robot links in console output html even when non accesible
+    [RED-924] - Links from console - update regex to catch links if Output is not first one in line
+    [RED-942] - GitHub #141 - Provide handy way of pausing test
+    [RED-968] - GitHub #149 - quickfix for #149 - limit Message log launching history
+    [RED-969] - GitHub #149 - Message log - add button+action to clear message log view/data container
+    [RED-970] - GitHub #148 - Source focuses on currently edited cell
+
+Bug
+
+    [RED-584] - Warning/Error should be shown for variable as KW name
+    [RED-860] - Exception is thrown when project/folder is renamed with opened red.xml
+    [RED-864] - GitHub #112 - lib in red.xml will be change when rename a file with UTF-8
+    [RED-906] - Showing all run tests in execution view for Linux
+    [RED-927] - GitHub #136 - insert cell/delete cell does not work
+    [RED-931] - Exception is thrown when comment is added to new line in Keywords
+    [RED-934] - Cannot paste empty row in Keywords and Test Cases
+    [RED-949] - Wrong displaying of UTF-8 charset in red.xml
+    [RED-953] - GitHub #132 - RED does not work with python 2.6
+    [RED-958] - Error in regression causing crashing editor
+    [RED-964] - Error when variable have no name (${}) should be shown 
+    [RED-965] - Dryrun freezes on multiple inherited folders structure
+    [RED-967] - GitHub #149 - Java memory leak during use of the message log
+
+Task
+
+    [RED-766] - Check and fix tables and other graphical elements when dark theme is used
+    [RED-959] - Exchange FindBugs with SpotBugs
+
+
+RED 0.8.0 - 2017/10/04
+Bugs
+
+    [RED-536] - Pasted row with [doc] setting is set in wrong place in source
+    [RED-687] - Debug does not stop in correct file when keywords with same names defined
+    [RED-791] - Remote debug is lost when there are suites with same names in project
+    [RED-769] - Wrong error is shown after uncomment KW set after variable in table view
+    [RED-798] - New empty rows in Test Cases table after deleting and saving are restored
+    [RED-819] - Uncomment problem with [Teardown] in Test Cases table
+    [RED-822] - Undo is executed only one time when setting is comment and uncomment many times
+    [RED-845] - Autodiscovery recognizes wrong relative path
+    [RED-873] - Wrong file displayed when stopping on a breakpoint set in a file with duplicated name
+    [RED-877] - Too many class name combinations are found during adding python library to red.xml
+    [RED-880] - Unknown variables are not reported for Set Test Variable but reported for Suite/Global
+    [RED-882] - [GitHub #118] use preference for content assistant trigger
+    [RED-895] - [GitHub #122] red.xml charsets issues
+    [RED-898] - [GitHub #128] better handle projects without red.xml
+    [RED-901] - Disconnect from XML-RPC server while lib autodiscovering in big repo
+    [RED-912] - in RED 0.8.0 pre parameters in dryrun subprocess may be too long and fail autodiscovery on windows
+    [RED-917] - autodiscovery fails (dryrun) when custom libs has the same name as python - eg . abc.py or random.py
+    [RED-932] - [GitHub #138] do not override existing red.xml file
+
+Enhancement
+
+    [RED-719] - [GitHub #84] References menu in source view
+    [RED-803] - [GitHub #95] Empty lines get removed when test case is edited from TestCases tab
+    [RED-861] - allow to use Keywords from libs from generated libsec in content assist when lib is not imported
+    [RED-862] - Remote debugger tasks for RED-791 and RED-687
+    [RED-883] - Content assits - change item filtering
+    [RED-892] - [GitHub #120] variable mapping could use already mapped vars in consecutive entries
+    [RED-909] - Discovered libraries summary - make error pane resizable + add horizontal scroll
+    [RED-910] - add parent directory to filename in editor tab as preference.
+    [RED-911] - autodiscovery summary - allow to copy list of libs in summary
+    [RED-925] - Autodiscover progress bar improvements
+    [RED-929] - Add ability to sort displayed variables according to their name or value.
+
+Task
+
+    [RED-867] - [GitHub #114] - Add help content for Content Assist -> Auto activation triggers
+    [RED-881] - Check RED + Oxygen
+
+Sub-task
+
+    [RED-737] - Unable to change value inside nested list/dictionaries
+    [RED-738] - When variable is updated during updated the state of memory is inconsistent
+    [RED-848] - Github #111 In Debug Variable Panel difference between Robot Dict and Python Dict not visible.
+    [RED-875] - With RF 2.9 keywords started under setup/teardown are wrongly reported
+    [RED-879] - Present variables during debugging in a consistent way
+    [RED-885] - Check performance of debugger
+    [RED-886] - Provide JUnits for new classes in debugger area
+    [RED-887] - Update user guide regarding debugger
+    [RED-888] - Add debugger pause on errors
+    [RED-889] - Update stackframe presentations
+    [RED-890] - Make it possible to omit libraries keywords when debugging
+    [RED-903] - Improve performance of Execution and Message Log views
+    [RED-904] - Debugger should find keywords coming from dynamically loaded resources
+    [RED-908] - Fix all the tests-related glitches and problems with debugger
+
+
+RED 0.7.9 - 2017/06/29
+** Bug
+    [RED-496] - Order is changed in source after converting setting in table view
+    [RED-800] - User cannot go to Source/table view using F4 for commented line
+    [RED-809] - Autodiscovery is not working in included resource
+    [RED-844] - Variable mapping in red.xml is not taken in to account during autodiscovery
+    [RED-868] - Order in source should be the same in table view
+    [RED-872] - Autodiscover does not work from resource
+
+**  Enhancement
+    [RED-652] - Adding python libraries to content assist
+    [RED-780] - Autodiscovering should use remote session server
+    [RED-823] - Different order of settings in Source after comment and uncomment in Test Case
+    [RED-878] - Enable link to debug file for robot console log - found while #117
+
+** Task
+    [RED-664] - Investigate if RED can open .py files in editor instead of interpreter for the first time
+    [RED-871] - revert/remove Project Rename from src for release 0.7.9 - fix for #112
+
+RED 0.7.8 - 2017/06/01
+
+** Bug
+
+    [RED-126] - Resources are not visible in project outside of workspace
+    [RED-201] - Adding support for esceping space in path
+    [RED-252] - Hanging up of editors for marking many occurrence
+    [RED-262] - Quick Fix with adding missing variable should not be in Settings section
+    [RED-275] - Error window while changing Installed frameworks
+    [RED-290] - Folding is not working when are two identical section
+    [RED-306] - Quick Fix on lib from PythonPath cerates wrong entry in red.xml - adds filename to path
+    [RED-360] - [table] show in Source F4 in dirty file performance drop
+    [RED-375] - No error when path is incorrect and is relative to other project
+    [RED-381] - "\" is not shown in Setting table when tab/Enter is used
+    [RED-399] - Lib is not accessable for the new class in new project for the same lib name
+    [RED-541] - Wrong paths in Quick fix window after selecting file from pythonpath
+    [RED-569] - Error after selecting 'Show library source' for lib from site-packages
+    [RED-578] - Exception after closing and opening Documentation view
+    [RED-592] - Exeption in test during opening libdoc
+    [RED-765] - KWs are copied after removing comment in table view
+    [RED-768] - Exception during undo in commented setting in table
+    [RED-770] - Not adding comment to second cell after commenting first cell
+    [RED-774] - Common space handling in tsv file for spaces in table
+    [RED-786] - Commenting problems in table view
+    [RED-795] - Commented line with error in table view still shows error
+    [RED-797] - Wrong coloring for commented Library in source
+    [RED-820] - Adding triple dots after commenting/uncommenting in table
+    [RED-826] - Refactoring of <referencedLibrary/> tags in red.xml
+    [RED-834] - GitHub #107 - Settings KWs should not be case sensitive
+    [RED-846] - Focus is set on last cell after block selection and commenting
+    [RED-851] - Setting focus after block comment
+    [RED-854] - Wrong focus and seclection after changing value in commented cell
+
+** Enhancement
+
+    [RED-85] - Inserting variable should activate cell edit just like adding new variable
+    [RED-166] - Changing red.xml file after renaming of project
+    [RED-237] - Headless RED project validation customized output about progress
+    [RED-378] - Variables taken from external python file are not reloaded after edition
+    [RED-636] - Variable file extension should be checked
+    [RED-763] - Message Log view could wrap its content
+    [RED-764] - Message Log view content could be saveable
+    [RED-782] - [github #98] it should be possible to launch tests event without interpreter defined
+    [RED-802] - GitHub #99 Font size not changing in TestCases and Keywords tab
+    [RED-816] - Adding Clear view for execution view
+    [RED-818] - Handling old red.xml version
+    [RED-827] - Use different path to suite and test to run for Scout team
+    [RED-849] - Display python/robot internal error with Error marker on Variable files when something goes wrong
+
+** Feature
+
+    [RED-835] - Remove/rewrite test with tag notTestable in regression
+
+** Task
+
+    [RED-742] - Add Total covarage reports (jUnits+rcptt) for every build
+    [RED-842] - Github #108 - update docs with red.xml and how to use Remote Server for libs
+
+** Sub-task
+
+    [RED-741] - Execution view can show all the childrens of running suite
+
+
+RED 0.7.7-fix - 2017/04/27
+
+** Bug
+    [RED-825] - GitHub #105 - ClassPath in sys env causes error while running tests
+
+
+RED 0.7.7 - 2017/04/20
+
+** Bug
+
+    [RED-337] - Incorrectly generation of libdoc for the same library name defined in different project
+    [RED-351] - Libs are not reload for project with the same name as was deleted
+    [RED-725] - Debug - hit counts/conditional problems
+    [RED-787] - User cannot comment fully selected line in table
+    [RED-811] - [GitHub #101] - Testcase Debugging Error
+    [RED-812] - [GitHub #102] - TestRunnerAgent crashes with error "No enum constant org.rf.ide.core.execution.LogLevel.ERROR"
+
+** Enhancement
+
+    [RED-385] - Adding action "comment out selected lines" in tables
+    [RED-630] - Add marker in case variables file in test suite was not imported correctly
+    [RED-707] - [GitHub #78] Breakpoint setting in debug perspective
+    [RED-760] - RED session server should not generate files directly
+    [RED-767] - It should be configurable how arguments are passed to scripts when launching tests
+    [RED-788] - Publish GitHub pages
+    [RED-806] - AutoDiscoveringLibraries - spiting the test
+    [RED-807] - Handling old Run/Debug configuration gracefully
+    [RED-813] - provide lib/resource name in content assist in Settings under Suite setup
+
+** Task
+
+    [RED-778] - move GitHub help from red_help to GitHub Pages
+    [RED-783] - Robot session server should unload modules loaded during libdoc creation
+    [RED-810] - add animations to gh-pages
+
+** Sub-task
+
+    [RED-720] - Activate Remote tab in Run configuration so localIP and localPort is used in Run
+    [RED-721] - Create new Robot Script Configuration to allow to execute custom script instead of local interpreter.
+    [RED-722] - Script handling
+
+
+RED 0.7.6 - 2017/03/30
+
+** Bug
+    [RED-299] - User can run tests from closed project
+    [RED-315] - Adding prints to console in one order
+    [RED-680] - Server error after terminating script during debug
+    [RED-690] - Wizard should be aware of already existing python files and folder
+    [RED-697] - Wrong coloring for comment
+    [RED-700] - Removing error: Unable to create occurrences markers
+    [RED-706] - Comment coloring changes depending on text
+    [RED-715] - (github #81) Autodiscovery function does not work correctly
+    [RED-724] - Run configuration history doesn't show previous launches
+    [RED-726] - Debug error from TestRunner after fast terminating script
+    [RED-730] - RED recognizes every token beginning with "in" as IN_TOKEN
+    [RED-731] - RED recognizes every token including "with name" on Libraries declaration as WITH_NAME token
+    [RED-747] - Change editor to Source when running Debug if user uses Table Editors
+    [RED-754] - [github #91] jython lib decoration in red.xml editor is displaying when jython is used but should otherwise
+    [RED-761] - Remote connection problem hangs AgentConnectionServerJob
+
+** Enhancement
+    [RED-148] - Run configuration keeps deleted testcases to be run
+    [RED-385] - Adding action "comment out selected lines" in tables
+    [RED-493] - Add possibility in table for F3 or CTRL + LF Mouse button to go to declaration of keyword
+    [RED-649] - New Wizard not to allow create Robot files when no Project in Workspace
+    [RED-650] - Code assistance - provide res name when entering res filename
+    [RED-658] - Ask user if he really wants to proceed project execution with unresolved errors
+    [RED-718] - Make Toolbar Run/Debug buttons contextual sensitive
+    [RED-723] - Removing error about run configuration from .log
+    [RED-753] - [github #86] it should be possible to wrap contents of cells in table
+
+** Feature
+    [RED-717] - Run tests with user scripts - github #70
+
+** Task
+    [RED-685] - Migrate to Java 8
+    [RED-746] - Update docs with info and examples for RED-721 - Robot Script Configuration, change screens as some of the GUI and TestRunner params are updated
+    [RED-756] - Use argument file for launching tests
+
+** Sub-task
+    [RED-720] - Activate Remote tab in Run configuration so localIP and localPort is used in Run
+    [RED-721] - Create new Robot Script Configuration to allow to execute custom script instead of local interpreter.
+    [RED-722] - Script handling
+    [RED-735] - Docs about interfaces and RED remote architecture
+
+    
+RED 0.7.5-fix - 2017/02/22
+** Feature
+
+    #81 - Fix for auto-discovery of SeleniumLibrary
+
+RED 0.7.5 - 2017/02/07
+** Feature
+
+    [RED-259] - [github #54] Going to line in python file where keyword is defined 
+
+** Enhancement
+
+    [RED-255] - Wizard should be aware of already existing files
+    [RED-484] - Content proposals in table should work similarly to source content proposal
+    [RED-600] - Include/exclude validation - revalidate or remove markers without Project Clean
+    [RED-601] - WITH NAME - code assistance and coloring
+    [RED-646] - (github #66) run/debug actions on test cases in outline
+    [RED-660] - (github #67) provide possibility pass env vars to python interpreter
+    [RED-677] - FOR loop errors are marked as "Unknown keyword" at FOR keyword instead of real location
+    [RED-682] - Support 64-bits IronPython (github #71)
+    [RED-683] - Run configuration template (github #55)
+
+** Bug
+
+    [RED-131] - Variables from Arguments are not in content assist - verify first
+    [RED-330] - Quick Fix makes keyword name to camel case
+    [RED-466] - Colouring sections in TSV
+    [RED-540] - Error occurs when Library file doesn't exist and user uses Quick fix
+    [RED-571] - On save libraries detection is not really triggered by save operation
+    [RED-595] - Variable section is not colored when space is afer section name
+    [RED-644] - Source is not coloring on yellow for wrong section
+    [RED-661] - Some breakpoints are not taken into account
+    [RED-662] - RED doesn't stop on breakpoints in robot library file
+    [RED-666] - coloring dispersers in large file due to buffer size
+    [RED-674] - Unable to "step into" (F5)
+    [RED-676] - Variables used to initialize other variables should be validated
+    [RED-678] - Context menu in Project Explorer for robot file sections (e.g. "Test Cases") has enabled run/debug options for the first time
+    [RED-684] - Debug does not stop on Suite Teardown line in __init__ file
+    [RED-695] - Autodiscover does not add libs to red.xml when it is opened
+
+** Task
+
+    [RED-612] - Refactoring of LinksToResourceInSourceView test
+    [RED-655] - Check RobotFramework 3.0.1 with RED
+    [RED-673] - Eclipse IDE for Eclipse Committers Mars - cannot install any RED above 0.6.5
+    [RED-691] - Shorten the paths to some files
+
+** Sub-task
+
+    [RED-699] - Run action should be different for Project Explorer and Toolbar
+
+
+RED 0.7.4 - 2017/01/10
+** Enhancement
+
+    [RED-172] - Disable code formating CTRL SHIFT F for TSV files
+    [RED-377] - Implement import assistance in settings table
+    [RED-573] - validate on file focus change - RED-554 addition
+    [RED-589] - Properly inform user that RED do not support step into action for Library keywords
+    [RED-599] - Include/exclude validation for files
+    [RED-603] - Quick fix for missing resources - create new resource under path specified
+    [RED-632] - WITH NAME - provide marker when written in lower case (ERROR)
+    [RED-641] - Enabling automatically checking for new updates in preferences
+    [RED-645] - do not allow include folder/files when parent folder is excluded
+
+** Bug
+
+    [RED-153] - For command is not in content assist
+    [RED-336] - Button Check for updates in Product doesn't show newest version
+    [RED-474] - GUI freezes while opening content assistant
+    [RED-476] - Setting one order in content assist
+    [RED-485] - When user chooses variable proposal in table whole cell content gets replaced
+    [RED-579] - GitHub #57 Validation of environment variables like %{PATH} should be disabled
+    [RED-581] - Wrong path to resource when project is not in workspace
+    [RED-602] - Make Lib error window revisable,allow copy/paste
+    [RED-604] - blinking screen when working with VNC
+    [RED-609] - Clicking on Problems item does not show place with error
+    [RED-622] - RED wrongly sees prefixed keywords from aliased libs
+    [RED-623] - RPC-XML errors on startup [Claude case]
+    [RED-624] - GitHub #63 - validation error on variable file
+    [RED-669] - low performance on content assist
+
+** Sub-task
+
+    [RED-269] - Content assist to provide resource and lib names for KW prefixes
+    [RED-279] - After changing keyword from Content assist arguments are appended
+
+
+RED 0.7.3 - 2016/12/08
+** Feature
+    * [RED-394] - [table] display comments-only line from left side with formatting
+    * [RED-560] - GitHub #50 - configurable list of problems/warnings
+** Enhancement
+    * [RED-77] - Provide user-friendly way of adding external Resources (libraries etc) in Settings section
+    * [RED-401] - Comment hash special function
+    * [RED-501] - Table when adding variable from "..add new" option, change name according to type
+    * [RED-520] - Source- Documentation tag - allow multi-line break with enter - add ... in new line when in Doc
+    * [RED-554] - Static Analysis in RED should NOT be performed ONLY when saving a file
+    * [RED-561] - Automatically add indentation after :FOR loop and [Documentation] line continuation
+    * [RED-585] - Problem severities help
+    * [RED-594] - Create generic keyword finder which contains support for BDD, embedded arguments and multiple dots in resource filename
+** Bug
+    * [RED-256] - Some expressions are still validated as it would be the variable
+    * [RED-521] - TC/KW Doc text is not multi-line in hover but is displayed correctly in Doc View
+    * [RED-538] - GitHub #45 - resolve resource files from PythonPath
+    * [RED-566] - GitHub #56 Unknown keyword when calling keyword and having '.'
+    * [RED-568] - RED.xml - Referenced Libraries tab - Classpath is not visible on small screen
+    * [RED-591] - GitHub issue #58 [Debug] No possibility to debug keywords with embedded arguments
+    * [RED-593] - GitHub issue #59 no possibility to step into when debug keyword resource file has name with dot
+    * [RED-606] - GitHub #60 Debugging is stuck and doesn't reach breakpoint if list variable has element with None value
+    * [RED-608] - GitHub issue #61 Variables unavailable when debugging if any are not serializable
+    * [RED-613] - GitHub issue #62 From scope reason issue debug is stuck in case the same keyword exists in test suite file and currently executed resource file
+    * [RED-627] - GitHub issue #63 RED gives validation error for variables file
+** Task
+    * [RED-65] - Check RED compatibility with other eclipse plug-ins
+    * [RED-528] - [table] CTRL+Z - tests in RCPTT 
+    * [RED-628] - Debian DEB package
+    * [RED-629] - Update RED&Python debug help
+
+
+RED 0.7.2 - 2016/10/21
+** Enhancement
+    * [RED-136] - Adding sorting ascending to resources in content assist
+    * [RED-302] - Autodiscovering - possibility to open available files from Importer and Source labels.
+    * [RED-448] - [table] Removing/implementing option in menu: Open Declaration
+    * [RED-527] - Change coloring of Given/When/And/Then
+    * [RED-547] - extend_pythonpath.py script doesn't support pth files directories to be modules
+    * [RED-548] - Libs Autodiscovering should not add all modules in project recursively when virtualenv is used
+
+** Bug
+    * [RED-438] - Triple dots as TC/KW name
+    * [RED-524] - Documentation view - no libdoc from TC and KW when Settings has Documentation entry
+    * [RED-532] - LineBegin_Space_PIPE_Space shouldn't be treat as start of PIPE separated value
+    * [RED-533] - LineContinue in Keywords and Test Cases should take in account if separator before exists
+    * [RED-555] - #48 GitHub issue: Debugger not working if :FOR in main suite __init__ file.
+    * [RED-556] - #49 Github issue: Running single test not possible if eclipse project named different than main test directory.
+    * [RED-558] - PyDev & RED nature conflicts - unable to set RED nature when project is PyDev type
+
+
+RED 0.7.1 - 2016/10/04
+** Feature
+    * [RED-357] - [table] Ctr+z in Documentation works slow or does not allow to reenter anything 
+    * [RED-368] - [table] ctrl+z in tables
+    * [RED-497] - github #37 - add info about lib reloading and reset robot env
+
+** Enhancement
+    * [RED-92]  - double click on item on Outline focus this item in respective editor
+    * [RED-261] - Validation for duplicated settings in Keyword and Test Case tables - compatibility with RF 2.9 - 3.0
+    * [RED-364] - [table] var tsv - nothing displayed when invalid vars are entered in source ${var}<space>text<tab>text2
+    * [RED-391] - product - set default preferences in product
+    * [RED-510] - Add actions to switch off editor linking and expand tree inside outline view
+    * [RED-518] - [github #41] investigate possibility to run tests in user-defined order
+
+** Bug
+    * [RED-278] - Incorrect colors of text in editor for scripts with pipes
+    * [RED-341] - Include pythonpath and classpath from red.xml in Quick Fix
+    * [RED-395] - Errors in regression from dumping to source
+    * [RED-414] - Not aggregating errors in table view markers
+    * [RED-460] - In KW/TC table preference with s|s as separator is not take into account
+    * [RED-462] - [table] table issues to polish
+    * [RED-468] - [Test problem] Wrong amount of errors
+    * [RED-473] - Content assistant does not show keywords when one of BDD prefixes is used
+    * [RED-475] - Empty test case names are not reported
+    * [RED-494] - Adding possibility to collaps entire sections in Source
+    * [RED-503] - Different behviour of row operation in TC/KW table
+    * [RED-507] - Table Variable - new line with comment in source and editing empty list name
+    * [RED-514] - IllegalArgumentException when user click on Setting Documentation after editor open
+    * [RED-523] - Libraries Autodiscovering does not work with library alias
+    * [RED-526] - [table] Settings => Ctrl+z in Doc field and Settings undo by groups
+
+** Sub-task
+    * [RED-410] - EditingDocumentation - exception while entering text
+    * [RED-411] - many errors
+    * [RED-422] - Coping button "..." in KW cause error
+    * [RED-426] - Sorting KW with the same name
+    * [RED-451] - Adding menu in KW and Source tab to open Documentation view
+    * [RED-458] - Wrong place after pasting cut row
+    * [RED-459] - No active row menu on new added line
+    * [RED-488] - Content Assist should be the same as in Source for writing variable
+    * [RED-490] - Disabling editing cell when content assit is on after setting focus by outline
+    * [RED-500] - Setting focus after collapsing/expanding items in table
+    * [RED-516] - [KW] kw is pasted at the end of whole table when pasting it on element inside other keyword
+    * [RED-517] - 'Settings first' order should be preserved inside keywords or test cases
+
+
+RED 0.7.0 - 2016/07/14
+
+** Feature
+    Documentation view
+	Testcase view on Nebula
+    Keywords table on Nebula
+	
+** Enhancement
+    Setting order in Outline
+    It should be possible to add/remove RED project nature without editing project file
+    Elements order in navigator is different than in outline view
+    PREFERENCES - cell selection can stay in same cell after commiting editor
+    [table] disable space as first and last char in cell
+    [table] resize column width
+    Possibility to remove settings from keyword and test cases
+    [docs] add how to install and use red with pydev & pylint
+    [table] run testcase by rightclick
+    [table] Keyword and testcase issue list
+    Documentation view - mode to show current libdoc instead of parent tc/kw
+    Documentation view - show docs from kw/tc body without need on clicking on [Doc] section
+    [table] Removing/implementing option in menu: Open Declaration
+	GitHub #33 #34 enhencments covered 
+
+	
+	** Bug
+    Error when path has  ${/} on Windows
+    Selecting variable in Outline when selection is moving in variable table
+    When keyword name starts with digits than those digits are not bold as rest of keyword
+    Model errors
+    GitHub #30 - Very slow performance of RED addon for many TestCases
+    GitHub #31 - Failed to create the part's controls 'Revalidating model' has encountered a problem
+    For Loop Parsing problem in case Line Continue, Comment Hash and Empty Cells
+    GitHub #32 - Listener errors in console: selenium.webdriver.chrome.webdriver.WebDriver is not JSON serializable 
+    Variables from python file are not recognize in test
+    Problem with ExecutableRowView when argument of keyword is variable with space
+    GitHub #38 - horizontal slider dance in Souce when testcase is too wide
+	
+** Task
+    Add to docs debug python&robot - Breakpoints set in Python keywords definition not taken into account when launched by Robot testcase
+
+** Sub-task
+    Adding Documentation to menu: Window->Show view
+    Error when in line only comment is added 
+    No backslash in first column after adding arguments to column greater than 2
+    Showing equal sign when is used as assigmant in KW table
+    Shifting arguments KW/TC table after removing cell
+    Adding backslach when TC/KW name will be removed
+    Settings section should be first in Source
+    Adding all main items to menu in TC
+    Removing all empty lines after editing table
+    Disabling cells next to test case name
+    Removig second duplicated setting line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

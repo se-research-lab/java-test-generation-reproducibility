@@ -1,0 +1,153 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _VzYJ0KEAEea9Cvae3yWo1A
+Element-Name: InsertCellOnTheRightInTestCase
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _IcayMHoSEei-nLLniRADXQ
+Runtime-Version: 2.4.1.201903190000
+Save-Time: 4/26/19 12:59 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Test Cases ***\n"
+    + "test 1\n"
+    + "    [Documentation]    test 1\n"
+    + "    Catenate    11    22    33    44\n"
+    + "    \\   #comment\n"
+    + "   \n"
+    + "test 2\n"
+    + "    [Setup]    log  8\n"
+    + "    But Convert To Hex    89  99\n"
+    + "    [Timeout]    56s\n"
+    + "    \n"
+    + "test\n"
+    + "    \\    Convert To Boolean    66\n"
+    + "    #com2" 
+with [get-editor "TestFile.robot"] {
+    with [get-text-viewer] {
+        set-caret-pos 14 10
+        key-type "M1+s"
+    }
+    get-tab-folder | get-tab-item "Test Cases" | click
+}
+
+
+
+get-view Outline | get-tree | select "TestFile.robot/Test Cases/test 1/Catenate" | click
+wait 200
+
+with [get-editor "TestFile.robot" | get-canvas -after [get-label "Test Cases"] -index 1] {
+	// add cell in comment
+    key-type Down
+    get-menu -path "Table/Insert cell to the right" | click
+    //add 2 cell after "22" for Catenate
+    key-type Up
+    key-type Right -times 2
+    get-menu -path "Table/Insert cell to the right" | click
+    get-menu -path "Table/Insert cell to the right" | click
+    
+    //add cell after [setup]
+    key-type Down -times 5
+    key-type Left -times 2
+    get-menu -path "Table/Insert cell to the right" | click
+    
+    //add cell after "56s" - nothing should happen
+    key-type Down -times 2
+    key-type Right
+    key-type "M1+M2+i"
+    
+    //add cell after COnvert to boolean
+    key-type Down -times 4
+    key-type "M1+M2+i"
+    
+    //check if for Doc this menu is disbaled
+    key-type Up -times 12
+    key-type Left
+}
+get-editor "TestFile.robot" | get-canvas -after [get-label "Test Cases"] -index 1 | get-menu 
+    -path "Table/Insert cell to the right" | get-property enablement | equals false | verify-true
+    
+    
+//add cell after right and left       
+with [get-editor "TestFile.robot" | get-canvas -after [get-label "Test Cases"] -index 1] {
+    key-type Down -times 7
+    get-menu -path "Table/Insert cell to the right" | click
+    get-menu -path "Table/Insert cell" | click
+}    
+
+get-editor "TestFile.robot" | maximize
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 0 -ref_table [list "" "" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 1 -ref_table [list "test 1" "" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 2 -ref_table [list "[Documentation]" "test 1" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 3 -ref_table [list "Catenate" "11" "22" "" "" "33" "44" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 4 -ref_table [list "\\" "" "#comment" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 5 -ref_table [list "" "" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 6 -ref_table [list "..." "" "" "" "" "" "" "" ]
+
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 7 -ref_table [list "test 2" "" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 8 -ref_table [list "[Setup]" "" "log" "8" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 9 -ref_table [list "" "But Convert To Hex" "" "89" "99" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 10 -ref_table [list "[Timeout]" "56s" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 11 -ref_table [list "" "" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 12 -ref_table [list "..." "" "" "" "" "" "" "" ]
+
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 13 -ref_table [list "test" "" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 14 -ref_table [list "\\" "Convert To Boolean" "" "66" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 15 -ref_table [list "#com2" "" "" "" "" "" "" "" ]
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 16 -ref_table [list "..." "" "" "" "" "" "" "" ]
+
+//go to source
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+    + "test 1\n"
+    + "    [Documentation]    test 1\n"
+    + "    Catenate    11    22    \\    \\    33    44\n"
+    + "    \\    \\    #comment\n"
+    + "   \n"
+    + "test 2\n"
+    + "    [Setup]    \\    log  8\n"
+    + "    \\    But Convert To Hex    \\    89  99\n"
+    + "    [Timeout]    56s\n"
+    + "    \n"
+    + "test\n"
+    + "    \\    Convert To Boolean    \\    66\n"
+    + "    #com2" | verify-true
+
+
+//automaticly adding new cell
+get-button "Save (M1+S)" | click
+wait 500
+with [get-editor "TestFile.robot"] {
+    with [get-text-viewer] {
+        set-caret-pos 4 8
+        key-type F4
+    }
+    wait 1000
+    
+    //adding 3 new cells
+    with [get-canvas -after [get-label "Test Cases"] -index 1] {
+        key-type Right -times 7
+        key-type Enter
+    }
+    with [get-editbox -after [get-label "Test Cases"] -index 1] {
+        type-text 55
+        key-type "NUMPAD_ENTER" "\\u000D"
+    }
+    with [get-editbox -after [get-label "Test Cases"] -index 1] {
+        type-text 66
+        key-type "NUMPAD_ENTER" "\\u000D"
+    }
+    get-editbox -after [get-label "Test Cases"] -index 1 | key-type "TRAVERSE_ESCAPE"
+} 
+
+get-editor "TestFile.robot" | maximize
+compare-row-with-list -file "TestFile.robot" -table "Test Cases" -row 3 -ref_table [list "Catenate" "11" "22" "\\" "\\" "33" "44"  "55" "66"  ""]
+get-editor "TestFile.robot" | restore
+   
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

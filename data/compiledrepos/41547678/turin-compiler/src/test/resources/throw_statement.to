@@ -1,0 +1,5 @@
+namespace manga
+
+void parse(String path) {
+	throw UnsupportedOperationException("To be implemented")
+}

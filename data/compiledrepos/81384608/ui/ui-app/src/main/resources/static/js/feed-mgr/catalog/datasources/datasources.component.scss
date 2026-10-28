@@ -1,0 +1,31 @@
+.connectors-empty {
+  height: 100%;
+
+  ng-md-icon {
+    height: 96px;
+    margin: 0;
+    width: 96px;
+  }
+}
+
+.datasource-icon {
+  color: #607D8B;
+  fill: #607D8B;
+}
+
+.action-icons {
+
+  mat-icon {
+    color: #989898;
+    fill: #989898;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  :hover {
+    color: #607D8B;
+    fill: #607D8B;
+    font-size: 25px;
+  }
+}
+

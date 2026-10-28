@@ -1,0 +1,252 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _ur0DkAf5Eee0EKWnoBYU9g,_d8aMACuvEeW667Afdo4DcA,_OCxtEBRGEeWWV9IuysVI_A,_2Q6oEPOSEeaWpbE3jg39cA,_s-ctEA4_EeePcNCRX_abWA,_pjyZ0Af5Eee0EKWnoBYU9g,_hb89IDvxEeiDC73Fvf4wHA
+Element-Name: ErroneousStateForPartialyWrongTest
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _PmmBEH5zEeeUiMBqkyjlBQ
+Runtime-Version: 2.4.1.201903190000
+Save-Time: 10/7/19 10:46 AM
+Tags: Debug
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+proc "check-if-red-marker-is-not-shown" [val line]{
+	verify-error { get-editor "TestFile.robot" | get-text-viewer
+	    | get-property [format "markers['%s'][0].Type" $line] | equals "org.robotframework.red.debug.currentErrorIP" | verify-true
+	}
+}	
+
+
+proc "check-if-red-marker-is-shown" [val text] [val line] [val is_secondary false]{
+	if [ $is_secondary | eq  true]{
+		try -command{
+			get-editor "TestFile.robot" | get-text-viewer
+				| get-property [format "markers['%s'][0].Type" $line] | equals "org.robotframework.red.debug.secondaryErrorIP" | verify-true
+		}-catch{
+			get-editor "TestFile.robot" | get-text-viewer
+				| get-property [format "markers['%s'][1].Type" $line] | equals "org.robotframework.red.debug.secondaryErrorIP" | verify-true
+		
+		}
+		
+	}-else{
+		try -command{
+			get-editor "TestFile.robot" | get-text-viewer
+			    | get-property [format "markers['%s'][0].Type" $line] | equals "org.robotframework.red.debug.currentErrorIP" | verify-true
+		}-catch{
+			get-editor "TestFile.robot" | get-text-viewer
+			    | get-property [format "markers['%s'][1].Type" $line] | equals "org.robotframework.red.debug.currentErrorIP" | verify-true
+		}		    
+	}
+	try -command{
+		//text
+		get-editor "TestFile.robot" | get-text-viewer
+			| get-property [format "markers['%s'][0].text" $line] | equals [replace $text -old "\\\\n" -new "\n" ] | verify-true
+	}-catch{
+		get-editor "TestFile.robot" | get-text-viewer
+			| get-property [format "markers['%s'][1].text" $line] | equals [replace $text -old "\\\\n" -new "\n" ] | verify-true
+	}
+}		
+
+
+proc "check-error-in-editor-and-marker" [val text] [val line]{
+	get-editor "TestFile.robot" | get-text-viewer | hover-text $line 10
+	check-error-in-information-window $text
+	check-if-red-marker-is-shown -text $text -line $line
+}
+
+
+proc "check-decorators-on-frames"  [val error_list] [val suite] [val project]{
+	$error_list| each [val index]{
+		get-view Debug | get-tree |get-item "RemoteProject \\[Robot Remote\\]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/.*" -index $index | get-property "image.decorations[0].path" 
+			| equals ".*/error.png" | verify-true
+	}
+	with [get-view Debug | get-tree] {	
+	    get-item "RemoteProject \\[Robot Remote\\]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/.*" -index $suite | get-property "image.decorations[0].path" 
+	        | equals ".*/decorator_robot.png" | verify-true
+	    get-item "RemoteProject \\[Robot Remote\\]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/.*" -index $project | get-property "image.decorations[0].path"  
+	        | equals ".*decorator_folder.png" | verify-true
+	}
+}	
+
+proc "check-thread-list"  [val first_items]{
+	let [val last_items [list "[Suite] TestFile" "[Suite] RemoteProject"]]{
+		let [val all_items [emit [$first_items | invoke getElements] [$last_items | invoke getElements] | to-list]]{
+			$all_items | each [val thread] [val index]{
+	
+				with [get-view Debug | get-tree] {
+				    get-item "RemoteProject \\[Robot Remote\\]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread" 
+				        | get-property [format "getItems().TreeItem[%s].getText()" $index] | equals  $thread| verify-true
+				}
+			
+			get-view Debug | get-tree 
+				| get-item "RemoteProject \\[Robot Remote\\]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread" 
+			    	| get-property childCount | equals [$all_items | invoke getElements | invoke size]| verify-true
+			}	
+		}		        
+	}		        
+}
+
+//decrease timeout in preference
+get-preferences-menu | click
+with [get-window Preferences] {
+    get-tree | select "Robot Framework/Launching/Default Launch Configurations"
+    get-tab-item "Listener" | click
+    get-editbox -after [get-label "Server connection timeout [s]:"] | set-text 15
+    get-button Apply | click
+    get-button $Apply_and_OK_in_preference | click
+}
+//change test content - now there part of test is different
+get-view "Project Explorer" | get-tree | select "RemoteProject/TestFile.robot" | double-click
+get-editor "TestFile.robot" | get-text-viewer | set-text  "*** Settings ***\n"
+    + "Resource    res.robot\n\n"
+    + "*** Test cases ***\n"
+    + "test 1\n"
+    + "    Should Be Equal    1    1    \n"
+    + "    \n"
+    + "test 2\n"
+    + "    kw from res new"
+
+    + "    Catenate    5   6" 
+
+//save and BP
+get-button "Save \((Ctrl|M1)\+S\)" | click
+get-editor "TestFile.robot" | get-left-ruler | get-ruler-column AnnotationColumn | double-click-ruler 7
+
+
+let [val remote_project_path  [format "%s/Remote" $user_folder] ]{
+	//export listener
+	export-agent-to-folder -folder $remote_project_path
+	
+	
+	// ----------------------------------- prompt -------------------------------------------------
+	//run test
+	exec-with-options -disableJobWaiting -command {
+		get-view "Project Explorer" | get-tree | select "RemoteProject/TestFile.robot" 
+		    | get-menu "Debug As/2 Robot Remote Test" | click
+		
+		wait-for-remote-connection 
+		run-remote-test-in-background -path $remote_project_path -project_name "RemoteProject"
+		
+		try -times 3 -delay 1000 -command{
+			get-window "Debugger error"
+		}
+		//suspend test always
+		with [get-window "Debugger error"] {
+		    get-button "Remember my decision" | check
+		    get-button Suspend | click
+		}
+		wait-for-specified_line-in-first-thread -line 6 -nr_of_frames 3 -debug_type Remote
+		
+		//check if varaibles from file are shown
+		with [get-view Variables | get-tree] {
+		    get-item "${var from remote}" | get-property "values['Name']" | equals "${var from remote}" | verify-true
+		    get-item "${var from remote}" | get-property "values['Value']" | equals 9 | verify-true
+		}
+		with [get-view Variables | get-tree] {
+		    get-item "&{animals}" | get-property childCount | equals 2 | verify-true
+		    
+		    get-item "&{animals}" | get-property "values['Name']" | equals "&{animals}" | verify-true
+		    get-item "&{animals}" | get-property "values['Value']" | equals "DotDict[2]" | verify-true
+		    
+		    get-item "&{animals}/cat" | get-property "values['Name']" | equals cat | verify-true
+		    get-item "&{animals}/cat" | get-property "values['Value']" | equals 3 | verify-true
+		    
+		    get-item "&{animals}/tiger" | get-property "values['Name']" | equals tiger | verify-true
+    		get-item "&{animals}/tiger" | get-property "values['Value']" | equals 1 | verify-true
+    
+		    get-item "@{newList}" | get-property childCount | equals 3 | verify-true
+		    get-item "@{newList}" | expand
+		    wait-for-value-in-varaibles-view -item "@{newList}/\\[2\\]" -value a3
+		    
+		    get-item "@{newList}" | get-property "values['Name']" | equals "@{newList}" | verify-true
+		    get-item "@{newList}" | get-property "values['Value']" | equals "list[3]" | verify-true
+		    get-item "@{newList}/\\[0\\]" | get-property "values['Name']" | equals "[0]" | verify-true
+		    get-item "@{newList}/\\[0\\]" | get-property "values['Value']" | equals a1 | verify-true
+		   
+		    get-item "@{newList}/\\[1\\]" | get-property "values['Name']" | equals "[1]" | verify-true
+		    get-item "@{newList}/\\[1\\]" | get-property "values['Value']" | equals a2 | verify-true
+		    
+		    get-item "@{newList}/\\[2\\]" | get-property "values['Name']" | equals "[2]" | verify-true
+		    get-item "@{newList}/\\[2\\]" | get-property "values['Value']" | equals a3 | verify-true
+    
+		    
+		}
+		
+		check-error-in-editor-and-marker  -line 6 -text "RED debugger: Unable to find executable call of 'BuiltIn.Log' keyword\\\\n"
+        + "An executable was found but seem to call non-matching keyword 'Should Be Equal'\\\\n" 
+	
+		check-thread-list [list "[Test] test 1 [line: 6]"]
+		
+		//check that maker is not shown in other frames: suite
+		get-view Debug | get-tree 
+    		| select "RemoteProject [Robot Remote]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/[Suite] TestFile"
+		check-if-red-marker-is-not-shown -line 6
+		get-button "Step Into (F5)" | get-property enablement | equals false | verify-true
+		
+		//project
+		get-view Debug | get-tree 
+    		| select "RemoteProject [Robot Remote]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/[Suite] RemoteProject"
+    	check-if-red-marker-is-not-shown -line 6	
+    	get-button "Step Into (F5)" | get-property enablement | equals false | verify-true
+    	
+    	//back to test
+    	get-view Debug | get-tree 
+   			 | select "RemoteProject [Robot Remote]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/[Test] test 1 [line: 6]"	
+   		
+   		//go to kw
+   		get-button "Step Into (F5)" | click
+   		
+   		//window with Log kw is shown
+   	
+   		check-library-kw-editor "BuiltIn.Log"
+   		
+   		check-thread-list  [list "BuiltIn.Log" "[Test] test 1 [line: 6]" ]		
+   		get-button "Step Into (F5)" | click
+   		wait-for-specified_line-in-first-thread -line 6 -nr_of_frames 3  -debug_type "Remote"
+   		 
+   		check-error-in-editor-and-marker -line 6 -text "RED debugger: Unable to find executable call of 'BuiltIn.Log' keyword\\\\n"
+	        + "An executable was found but seem to call non-matching keyword 'Should Be Equal'\\\\n"
+	   
+	   //go to kw in resource - resouce in local file has wrong name
+	   get-button "Step Into (F5)" | click
+	   wait-for-specified_line-in-first-thread -line 9 -nr_of_frames 3  -debug_type "Remote"
+	   
+	   check-error-in-editor-and-marker -line 9 -text "RED debugger: Unable to find executable call of 'res.kw from res' keyword\\\\n"
+    		+ "An executable was found but seem to call non-matching keyword 'kw from res new'\\\\n"
+    		
+	  //resource has the same name as is in remote test - it will be open
+		get-button "Step Into (F5)" | click
+	   	wait-for-specified_line-in-first-thread -line 2 -nr_of_frames 4  -debug_type "Remote"
+		  get-editor "res.robot" | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+			    + "kw from res\n"
+			    + "    log  9" | verify-true  
+			    
+		// go to main test and check if secondary pointer is visible	     
+		get-view Debug | get-tree 
+	    	| select "RemoteProject [Robot Remote]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/[Test] test 2 [line: 9]"	
+	    		       
+		check-if-red-marker-is-shown -line 9 -is_secondary true -text "RED debugger: Unable to find executable call of 'res.kw from res' keyword\n"
+	        + "An executable was found but seem to call non-matching keyword 'kw from res new'\n"
+				
+		//back to main frame
+		get-view Debug | get-tree 
+	    | select "RemoteProject [Robot Remote]/<suspended>Remote Robot Test at 127.0.0.1:\d{1,5}/Tests execution thread/res.kw from res [line: 2]"
+		with [get-button "Step Into (F5)"] {
+		    click
+		    wait 1000
+		    click
+		}
+		
+		//Log window is shown - this kw is the same in both file
+		check-library-kw-editor "BuiltIn.Log"
+		
+		get-button "Step Over (F6)" | click
+	}
+}
+		
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

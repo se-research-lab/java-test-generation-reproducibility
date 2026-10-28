@@ -1,0 +1,42 @@
+<h2 mat-dialog-title>{{title}}</h2>
+<div mat-dialog-content class="mat-dialog-content">
+  <form class="layout-column" [formGroup]="form">
+    <p *ngIf="message">{{message}}</p>
+
+    <mat-form-field>
+      <mat-select placeholder="Join Type"  formControlName="joinType" required>
+        <mat-option *ngFor="let joinType of joinTypes" [value]="joinType.value">
+          {{joinType.name}}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="joinTypeControl.hasError('required')">Required</mat-error>
+    </mat-form-field>
+
+    <div fxLayout="row">
+      <mat-form-field>
+        <mat-select placeholder="Source"  formControlName="source" required>
+          <mat-option *ngFor="let attr of data.source.data.nodeAttributes.attributes" [value]="attr.name">
+            {{attr.name}}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="sourceControl.hasError('required')">Required</mat-error>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Destination"  formControlName="dest" required>
+          <mat-option *ngFor="let attr of data.dest.data.nodeAttributes.attributes" [value]="attr.name">
+            {{attr.name}}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="destControl.hasError('required')">Required</mat-error>
+      </mat-form-field>
+    </div>
+
+  </form>
+</div>
+<div mat-dialog-actions class="mat-dialog-actions">
+  <button mat-button (click)="cancel()">Cancel</button>
+  <button mat-raised-button [color]="['warn']" [disabled]="isNew" (click)="deleteConnection()">Delete</button>
+  <button mat-raised-button [color]="['primary']" [disabled]="!form.valid" (click)="apply()">Apply</button>
+</div>
+

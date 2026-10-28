@@ -1,0 +1,291 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _zPR4wDb1EeaJIKJT0Mv9ow,_2rVvIENaEeaEVfxTnoQ14g
+Element-Name: DifferentSeparatorInMetadata
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _xbGiMDbxEeaJIKJT0Mv9ow
+Runtime-Version: 2.3.0.201806262310
+Save-Time: 3/8/19 5:12 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+added workaround
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//preferred resolution is 1920x1080 (test was recorded it this resolution). It will pass on 1600x900 too
+
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+get-editor "TestFile.robot"|  get-tab-folder | get-tab-item Settings | click
+
+
+//for resolution 1600x900 only 5 elements are visible - maximize added
+get-editor "TestFile.robot" | maximize
+
+//check Setting table
+check-row-for-test-setup-default -file "TestFile.robot" -row 1 -setting "Suite Setup" -c1 "Convert To Binary" -c2 "58"
+check-row-for-test-setup-default -file "TestFile.robot" -row 2 -setting "Suite Teardown"
+check-row-for-test-setup-default -file "TestFile.robot" -row 3 -setting "Test Setup" -c1 "Catenate" -c2 "text" -c3 "2"
+check-row-for-test-setup-default -file "TestFile.robot" -row 4 -setting "Test Teardown" 
+check-row-for-test-setup-default -file "TestFile.robot" -row 5 -setting "Test Template"
+check-row-for-test-setup-default -file "TestFile.robot" -row 6 -setting "Test Timeout" -c1 "5s"
+check-row-for-test-setup-default -file "TestFile.robot" -row 7 -setting "Force Tags" -c1 "music" -c6 "#this is tag" 
+check-row-for-test-setup-default -file "TestFile.robot" -row 8 -setting "Default Tags" 
+
+get-editor "TestFile.robot" | restore
+
+
+with [get-editor "TestFile.robot"] {
+    get-tab-folder | get-tab-item Settings | click
+    get-section General | click
+    with [get-section Metadata] {
+        click
+	}
+}
+
+check-metadata-layer-size
+generate-coordinates -setting Metadata
+
+get-editor "TestFile.robot" | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 1 1|  invoke getDataValue| eq "zorro" |verify-true
+get-editor "TestFile.robot" | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 2 1|  invoke getDataValue| eq "" |verify-true
+get-editor "TestFile.robot" | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 3 1|  invoke getDataValue| eq "" |verify-true
+
+
+get-editor "TestFile.robot" | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 1 2|  invoke getDataValue| eq "abc" |verify-true
+get-editor "TestFile.robot" | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 2 2|  invoke getDataValue| eq "" |verify-true
+get-editor "TestFile.robot" | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 3 2|  invoke getDataValue| eq "" |verify-true
+    
+    
+   
+//add value to first Metadata
+with [get-editor "TestFile.robot"] {
+//    get-tab-folder | get-tab-item Settings | click
+//    get-section General | click
+    with [get-section Metadata] {
+        //click
+        with [get-canvas] {
+            mouse-move $x2 $y1
+            mouse-press $x2 $y1 button1
+            mouse-release $x2 $y1 button1 524288
+            mouse-press $x2 $y1 button1
+            mouse-double-click $x2 $y1 button1
+            mouse-release $x2 $y1 button1 524288
+        }
+        //add 1 to zorro
+        with [get-editbox] {
+            type-text 1
+            key-type Enter
+        }
+        get-canvas | mouse-move 257 418
+    }
+    get-tab-folder | get-tab-item Source | click
+}
+
+//check Source (value with pipe should be added)
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "| Library | relative/path/PythonDirLib/file.py  | possible | arguments\n"
+    + "| Resource | res.robot    \n\n"
+    + "| Force Tags |  music | #this is tag\n"
+    + "| Suite Setup | Convert To Binary | 58    \n\n"
+    + "| Metadata | zorro | 1\n\n"
+    + "| Test Timeout | 5s\n"
+    + " Test Setup    Catenate  text   2\n"
+    + "Metadata  abc\n\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7" | verify-true
+
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Settings | click
+//// add value and comment to second Metadata   
+with [get-editor "TestFile.robot"] {
+    with [get-section Metadata] {
+        with [get-canvas] {
+            mouse-press $x2 $y2 button1
+            mouse-release $x2 $y2 button1 524288
+            mouse-press $x2 $y2 button1
+            mouse-double-click $x2 $y2 button1
+            mouse-release $x2 $y2 button1 524288
+        }
+        //add 2 as rag
+        with [get-editbox] {
+            type-text 2
+            key-type Enter
+        }
+        with [get-editbox] {
+            type-text comment
+        }
+        get-canvas | mouse-move 374 426
+    }
+    get-tab-folder | get-tab-item Source | click
+}
+//check Source (no pipes)
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "| Library | relative/path/PythonDirLib/file.py  | possible | arguments\n"
+    + "| Resource | res.robot    \n\n"
+    + "| Force Tags |  music | #this is tag\n"
+    + "| Suite Setup | Convert To Binary | 58    \n\n"
+    + "| Metadata | zorro | 1\n\n"
+    + "| Test Timeout | 5s\n"
+    + " Test Setup    Catenate  text   2\n"
+    + "Metadata  abc    2    #comment\n\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7" | verify-true
+    
+//add new Metadata
+
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Settings | click
+wait 500
+with [get-editor "TestFile.robot" | get-section Metadata] {
+    with [get-canvas] {
+    	//data
+        mouse-press 136 [minus $y3 2] button1
+        mouse-release 136 [minus $y3 2] button1 524288
+        mouse-press 136 [minus $y3 2] button1
+        mouse-double-click 136 [minus $y3 2] button1
+        mouse-release 136 [minus $y3 2] button1 524288
+        
+        
+        mouse-move [plus $cell_width 30] $y3
+        mouse-press [plus $cell_width 3] $y3 button1
+        mouse-release [plus $cell_width 30] $y3 button1 524288
+        mouse-press [plus $cell_width 30] $y3 button1
+        mouse-double-click [plus $cell_width 30] $y3 button1
+        mouse-release [plus $cell_width 30] $y3 button1 524288
+    }
+    with [get-editbox] {
+        type-text 3
+        key-type Enter
+    }
+    get-canvas | mouse-move 961 126
+}
+
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+
+//check that in Source default separator is added
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "| Library | relative/path/PythonDirLib/file.py  | possible | arguments\n"
+    + "| Resource | res.robot    \n\n"
+    + "| Force Tags |  music | #this is tag\n"
+    + "| Suite Setup | Convert To Binary | 58    \n\n"
+    + "| Metadata | zorro | 1\n\n"
+    + "| Test Timeout | 5s\n"
+    + " Test Setup    Catenate  text   2\n"
+    + "Metadata  abc    2    #comment\n\n"
+    + "Metadata    data    3\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7" | verify-true
+    
+//change preference to  pipe    
+get-preferences-menu | click
+get-window Preferences |get-tree | select "Robot Framework/Editor"
+with [get-window Preferences] {
+    get-group Source | get-editbox -after [get-label "User defined separator (use '|', 's' for space or 't' for tab)"] 
+        | set-text "s|s"
+    get-button $Apply_and_OK_in_preference  | click
+}
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Settings | click
+
+////add next Matadata
+//with [get-editor "TestFile.robot"] {
+//    with [get-section Metadata] {
+//        with [get-canvas] {
+//            mouse-press 89 98 button1
+//            mouse-release 89 98 button1 524288
+//            mouse-press 89 98 button1
+//            mouse-double-click 89 98 button1
+//            mouse-release 89 98 button1 524288
+//        }
+//        get-editbox | set-text meta
+//        with [get-canvas] {
+//            mouse-move 332 105
+//            mouse-press 332 105 button1
+//            mouse-release 332 105 button1 524288
+//            type-text 4
+//        }
+//        get-editbox | set-text 55
+//        with [get-canvas] {
+//            mouse-move 640 102
+//            mouse-press 640 102 button1
+//            mouse-release 640 102 button1 524288
+//            type-text text
+//        }
+//        get-editbox | set-text text
+//        get-canvas | mouse-move 398 422
+//    }
+//}
+
+
+//workaround
+with [get-editor "TestFile.robot" | get-section Metadata] {
+    with [get-canvas] {
+    	//add new metadata
+        mouse-press [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1
+        mouse-release [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1 524288
+        mouse-press [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1
+        mouse-double-click [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1
+        mouse-release [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1 524288
+        mouse-press [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1
+        mouse-release [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1 524288
+        mouse-press [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1
+        mouse-double-click [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1
+        mouse-release [minus $cell_width 10] [mult 4 $cell_height| plus 3] button1 524288
+    }
+    //chane value to meta
+    get-editbox | set-text meta
+    
+    //add value = 55
+    with [get-canvas] {
+        mouse-move $x2 $y4
+        mouse-press $x2 $y4 button1
+        mouse-release $x2 $y4 button1 524288
+        mouse-press $x2 $y4 button1
+        mouse-double-click $x2 $y4 button1
+        mouse-release $x2 $y4 button1 524288
+    }
+    get-editbox | set-text 55
+    with [get-canvas] {
+        mouse-move $x3 $y4
+        mouse-press $x3 $y4 button1
+        mouse-release $x3 $y4 button1 524288
+        mouse-press $x3 $y4 button1
+        mouse-double-click $x3 $y4 button1
+        mouse-release $x3 $y4 button1 524288
+    }
+    //set comment and click on Value cell
+    get-editbox | set-text text
+    with [get-canvas] {
+        mouse-move [plus $x2 30] [minus $y4 7]
+        mouse-press [plus $x2 30] [minus $y4 7] button1
+        mouse-release [plus $x2 30] [minus $y4 7] button1 524288
+        mouse-move 1035 196
+    }
+}
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+
+//check if was added with pipes
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "| Library | relative/path/PythonDirLib/file.py  | possible | arguments\n"
+    + "| Resource | res.robot    \n\n"
+    + "| Force Tags |  music | #this is tag\n"
+    + "| Suite Setup | Convert To Binary | 58    \n\n"
+    + "| Metadata | zorro | 1\n\n"
+    + "| Test Timeout | 5s\n"
+    + " Test Setup    Catenate  text   2\n"
+    + "Metadata  abc    2    #comment\n\n"
+    + "Metadata    data    3\n"
+    + "| Metadata | meta | 55 | #text\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7" | verify-true
+    
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

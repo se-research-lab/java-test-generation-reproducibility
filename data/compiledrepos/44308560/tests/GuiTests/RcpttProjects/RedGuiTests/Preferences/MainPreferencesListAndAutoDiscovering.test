@@ -1,0 +1,114 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: MainPreferencesListAndAutoDiscovering
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _srvewJQcEeWNpL9oeriwCw
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 3/2/20 11:23 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-preferences-menu | click
+get-window Preferences | get-tree | select "Robot Framework"
+
+get-window Preferences | get-tree | get-item "Robot Framework" | expand-all
+
+//check list of all Robot preferences
+with [get-window Preferences | get-tree] {
+    get-item "Robot Framework" | get-property childCount | equals 6 | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getItems().length" | equals 6 | verify-true
+    
+    //editor
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" 
+        | equals "Code Formatter" | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" 
+        | equals "Content Assist" | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getItems().TreeItem[2].getText()" 
+        | equals "Folding" | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getItems().TreeItem[3].getText()" 
+        | equals "Save Actions" | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getItems().TreeItem[4].getText()" 
+        | equals "Syntax Coloring" | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getItems().TreeItem[5].getText()" 
+        | equals "Templates" | verify-true    
+        
+                
+    get-item "Robot Framework" | get-property "getItems().TreeItem[0].getText()" | equals Editor | verify-true
+    
+    
+    get-item "Robot Framework" | get-property "getItems().TreeItem[1].getText()" | equals "Errors/Warnings" 
+        | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[2].getText()" | equals "Installed frameworks" 
+        | verify-true
+        
+        // launching
+    get-item "Robot Framework" | get-property "getItems().TreeItem[3].getItems().length" | equals 3 | verify-true
+    
+    get-item "Robot Framework" | get-property "getItems().TreeItem[3].getItems().TreeItem[0].getText()" 
+        | equals "Active String Substitution sets" | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[3].getItems().TreeItem[1].getText()" 
+        | equals Debugger | verify-true
+                
+    get-item "Robot Framework" | get-property "getItems().TreeItem[3].getItems().TreeItem[2].getText()" 
+        | equals "Default Launch Configurations" | verify-true
+    get-item "Robot Framework" | get-property "getItems().TreeItem[3].getText()" | equals Launching | verify-true
+    
+    // Libraries
+    get-item "Robot Framework" | get-property "getItems().TreeItem[4].getText()" | equals Libraries | verify-true
+    
+    get-window Preferences | get-tree | get-item -path "Robot Framework" | get-property "getItems().TreeItem[5].getText()" 
+    	| equals "Task Tags" | verify-true
+}
+
+
+get-window Preferences | get-tree | select "Robot Framework/Libraries"
+with [get-window Preferences | get-control Any -after [get-label Libraries] -index 10] {
+    get-property "getChildren().length" | equals 2 | verify-true
+    
+    // add paths
+    get-property "getChildren().Control[0].getText()" | equals "Libraries autodiscovering" | verify-true
+    get-property "getChildren().Control[0].getChildren().length" | equals 3 | verify-true
+    
+    //add to Pythonpath
+    get-property "getChildren().Control[0].getChildren().Control[0].getText()" 
+        | equals "Add project modules recursively to PYTHONPATH/CLASSPATH during autodiscovering on virtualenv" 
+        | verify-true
+    get-property "getChildren().Control[0].getChildren().Control[0].getSelection()" | equals false | verify-true
+    
+    // Gevent
+    get-property "getChildren().Control[0].getChildren().Control[1].getSelection()" | equals false | verify-true
+    get-property "getChildren().Control[0].getChildren().Control[1].getText()" 
+        | equals "Support Gevent during autodiscovery" | verify-true
+        
+    // link
+    get-property "getChildren().Control[0].getChildren().Control[2].getText()" 
+        | equals "See <a href=\"org.robotframework.ide.eclipse.main.plugin.preferences.editor.save\">'Save Actions'</a> to trigger library autodiscovering on save." 
+        | verify-true
+        
+    // generating    
+       get-property "getChildren().Control[1].getText()" | equals "Libdoc generating" | verify-true
+    get-property "getChildren().Control[1].getChildren().length" | equals 4 | verify-true
+    
+    get-property "getChildren().Control[1].getChildren().Control[0].getText()" 
+        | equals "Automatically reload changed libraries" | verify-true
+    get-property "getChildren().Control[1].getChildren().Control[1].getText()" 
+        | equals "Generate Python libraries libdocs in separate process" | verify-true
+    get-property "getChildren().Control[1].getChildren().Control[2].getText()" | equals "Timeout (seconds)" 
+        | verify-true
+    get-property "getChildren().Control[1].getChildren().Control[3].getText()" | equals 30 | verify-true
+    
+     with [get-group "Libdoc generating"] {
+        get-button "Automatically reload changed libraries" | get-property selected | equals true | verify-true
+        get-button "Generate Python libraries libdocs in separate process" | get-property selected | equals true 
+            | verify-true
+    }
+    
+}
+get-window Preferences | get-button Cancel | click
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

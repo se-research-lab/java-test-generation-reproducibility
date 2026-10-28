@@ -1,0 +1,87 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to you under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+plugins {
+    `java-platform`
+}
+
+val String.v: String get() = rootProject.extra["$this.version"] as String
+
+// Note: Gradle allows to declare dependency on "bom" as "api",
+// and it makes the contraints to be transitively visible
+// However Maven can't express that, so the approach is to use Gradle resolution
+// and generate pom files with resolved versions
+// See https://github.com/gradle/gradle/issues/9866
+
+fun DependencyConstraintHandlerScope.apiv(
+    notation: String,
+    versionProp: String = notation.substringAfterLast(':')
+) =
+    "api"(notation + ":" + versionProp.v)
+
+fun DependencyConstraintHandlerScope.runtimev(
+    notation: String,
+    versionProp: String = notation.substringAfterLast(':')
+) =
+    "runtime"(notation + ":" + versionProp.v)
+
+dependencies {
+    constraints {
+        // api means "the dependency is for both compilation and runtime"
+        // runtime means "the dependency is only for runtime, not for compilation"
+        // In other words, marking dependency as "runtime" would avoid accidental
+        // dependency on it during compilation
+        apiv("com.beust:jcommander")
+        apiv("org.checkerframework:checker-qual", "checkerframework")
+        apiv("com.fasterxml.jackson:jackson-bom", "jackson")
+        apiv("com.github.stephenc.jcip:jcip-annotations")
+        apiv("com.google.guava:guava")
+        apiv("com.google.protobuf:protobuf-java", "protobuf")
+        apiv("com.h2database:h2")
+        apiv("javax.servlet:javax.servlet-api", "servlet")
+        apiv("org.jooq:joou-java-6", "joou-java-6")
+        apiv("junit:junit")
+        apiv("net.bytebuddy:byte-buddy", "bytebuddy")
+        apiv("net.bytebuddy:byte-buddy-agent", "bytebuddy")
+        apiv("net.hydromatic:scott-data-hsqldb")
+        apiv("org.apache.httpcomponents.client5:httpclient5")
+        apiv("org.apache.httpcomponents.core5:httpcore5")
+        apiv("org.apache.kerby:kerb-client", "kerby")
+        apiv("org.apache.kerby:kerb-core", "kerby")
+        apiv("org.apache.kerby:kerb-simplekdc", "kerby")
+        apiv("org.bouncycastle:bcpkix-jdk15on", "bouncycastle")
+        apiv("org.bouncycastle:bcprov-jdk15on", "bouncycastle")
+        apiv("org.eclipse.jetty:jetty-http", "jetty")
+        apiv("org.eclipse.jetty:jetty-security", "jetty")
+        apiv("org.eclipse.jetty:jetty-server", "jetty")
+        apiv("org.eclipse.jetty:jetty-util", "jetty")
+        apiv("org.hamcrest:hamcrest-core", "hamcrest")
+        apiv("org.hsqldb:hsqldb")
+        apiv("org.mockito:mockito-core", "mockito")
+        apiv("org.mockito:mockito-inline", "mockito")
+        apiv("org.ow2.asm:asm")
+        apiv("org.ow2.asm:asm-all", "asm")
+        apiv("org.ow2.asm:asm-analysis", "asm")
+        apiv("org.ow2.asm:asm-commons", "asm")
+        apiv("org.ow2.asm:asm-tree", "asm")
+        apiv("org.ow2.asm:asm-util", "asm")
+        apiv("org.slf4j:slf4j-api", "slf4j")
+        apiv("commons-io:commons-io")
+        // The log4j2 binding should be a runtime dependency but given that
+        // some modules shade this dependency we need to keep it as api
+        apiv("org.apache.logging.log4j:log4j-slf4j-impl", "log4j2")
+    }
+}

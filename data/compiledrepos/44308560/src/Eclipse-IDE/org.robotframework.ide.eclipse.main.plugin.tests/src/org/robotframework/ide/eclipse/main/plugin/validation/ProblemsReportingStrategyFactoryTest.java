@@ -1,0 +1,33 @@
+/*
+* Copyright 2017 Nokia Solutions and Networks
+* Licensed under the Apache License, Version 2.0,
+* see license.txt file for details.
+*/
+package org.robotframework.ide.eclipse.main.plugin.validation;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.mock;
+
+import org.junit.jupiter.api.Test;
+import org.robotframework.ide.eclipse.main.plugin.validation.ProblemsReportingStrategyFactory.HeadlessValidationReportingStrategy;
+
+public class ProblemsReportingStrategyFactoryTest {
+
+    @Test
+    public void properNormalStrategyIsCreated() {
+        final HeadlessValidationReportingStrategy strategy = ProblemsReportingStrategyFactory.checkstyleReporter("filepath", mock(Logger.class));
+
+        assertThat(strategy).isInstanceOf(CheckstyleReportingStrategy.class);
+        assertThat(strategy).hasFieldOrPropertyWithValue("shouldPanic", false);
+    }
+
+    @Test
+    public void properPanickingStrategyIsCreated() {
+        final HeadlessValidationReportingStrategy strategy = ProblemsReportingStrategyFactory
+                .checkstylePanicReporter("filepath", mock(Logger.class));
+
+        assertThat(strategy).isInstanceOf(CheckstyleReportingStrategy.class);
+        assertThat(strategy).hasFieldOrPropertyWithValue("shouldPanic", true);
+    }
+
+}

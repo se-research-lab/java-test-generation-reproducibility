@@ -1,0 +1,29 @@
+namespace field_constraints
+
+type Options {
+    int indentationSize : _ >= 1 and _ <= 20 | "#{_name} should be between 1 and 20, instead it is #{_}"
+}
+
+void foo1() {
+    Options(indentationSize=0)
+}
+
+void foo2() {
+    Options(indentationSize=-10)
+}
+
+void foo3() {
+    Options(indentationSize=50)
+}
+
+void foo4() {
+    Options(indentationSize=10)
+}
+
+void foo5() {
+    Options(indentationSize=10).setIndentationSize(-2)
+}
+
+void foo6() {
+    Options(indentationSize=10).setIndentationSize(2)
+}

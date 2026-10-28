@@ -1,0 +1,9 @@
+namespace foo
+
+type MyClass {
+
+    int sum(int a, int b) {
+        return a + b
+    }
+
+}

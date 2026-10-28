@@ -1,0 +1,243 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: CommonActionScripts
+Element-Type: context
+Element-Version: 2.0
+Id: _Qh0yIA9TEeWFTuCZGHkLuQ
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 5/28/20 2:32 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+//--------------------------- settings actions -----------------------------------------------------------------------------------------------------------------------
+//make full screen
+get-eclipse-window | maximize 
+
+proc "restore-interpreters"{
+	get-preferences-menu | click
+	get-window Preferences| get-tree | select "Robot Framework/Installed frameworks"
+	try -times 10 -delay 2000 -command {
+//		get-window Preferences | get-table | get-property enablement | equals true | verify-true
+		get-window Preferences | get-button "Add..." | get-property enablement | equals true | verify-true
+	}
+	if [get-window Preferences | get-table | get-property itemCount -raw | equals 0 ]{
+		with [get-window Preferences] {
+			try -times 10 -delay 1500 -command{
+			    get-button Discover | click
+			}
+		}		
+	}	
+	try -times 10 -delay 2000 -command {
+//		get-window Preferences | get-table | get-property enablement | equals true | verify-true
+		get-window Preferences | get-button "Add..." | get-property enablement | equals true | verify-true
+	}
+	if [get-window Preferences | get-table | get-item -path [format "Robot Framework.*\\(Python %s.*\\)" $python_version]
+       | get-property checked -raw | not-eq true ]{	
+		try -times 10 -delay 1500 -command{
+			get-window Preferences | get-table | get-item [format "Robot Framework .*\(Python %s.*\)" $python_version]| check
+		}
+		
+		get-window Preferences | get-button $Apply_and_OK_in_preference | click
+	    get-window "Rebuild required" | get-button OK | click		
+	}-else{
+		get-window Preferences | get-button $Apply_and_OK_in_preference | click
+	}
+}
+restore-interpreters
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+proc "run-process-and-trim"  [val process ""] [val arg1 ""] [val arg2 ""] [val arg3 ""] [val ignoreStderr false ] [val ignoreExitCode false] {
+	exec-process  $process $arg1 $arg2 $arg3  -ignoreStderr $ignoreStderr -ignoreExitCode $ignoreExitCode|  get stdout  |invoke trim 
+}
+
+
+//select path depends to operating system
+proc "os-specific" [val windowsValue] [val linuxValue] 
+{
+	echo [get-by-os -win $windowsValue -linux $linuxValue]
+}
+
+proc replace [val input] [val old] [val new]{
+	$input |str| invoke replace $old $new
+
+}
+
+//get python path: "C:\Pyhon27"
+global [val python_exe_path [run-process-and-trim  
+	[os-specific -windowsValue "python"  -linuxValue "python3"] "-c"  "import sys,os.path; print(os.path.dirname(sys.executable))" ]]
+	
+//get jython path: "d:\jyton\jython2.7.0\bin\"
+global [val jython_path [os-specific -windowsValue "C:\\jython\\bin" -linuxValue "/usr/local/lib/jython/bin"]]
+
+
+//get robot version:  "Robot Framework 3.0 (Python 2.7.8 on win32)" 
+global [val robot_version [	run-process-and-trim  
+	[os-specific -windowsValue "python"  -linuxValue "python3"] "-c" "from robot import version; print('Robot Framework ' + version.get_full_version())"]]
+
+//check default pytohn - sometimes are 2 and one is linked to "python"
+global [val default_python_version [exec-process  "python" "--version" -ignoreExitCode True -ignoreStderr True  | get stderr | invoke trim ]]
+
+//set parameter is_product
+substitute-variables "${eclipse_home}" | let [val eclipse_home_path -input]{
+	global [val is_product [get-file [uri-from-path [concat $eclipse_home_path [os-specific -windowsValue "RED.exe" -linuxValue  "RED"]]]| get exists ]]
+}
+
+global [val RED_workspace_path [get-workspace-location]]
+global [val RED_workspace_path_unix_style [replace $RED_workspace_path -old "\\" -new "/"]]
+global [val RED_workspace_path_double_slaches [replace $RED_workspace_path -old "\\" -new "\\\\"]]
+global [val user_folder [get-java-property "user.home"]]
+
+global [val sys_sep [os-specific "\\" "/"]]
+global [val regex_sys_sep [os-specific "\\\\" "/"]]
+
+global [val doc_editbox_selector "-index 1"]
+
+
+//--------------------------------------------------------------------------------------------
+
+//concatenate strings in list with regex to check MEssage Log view (for short log)
+proc concat_str_with_regex [val log_list]
+{
+	concat [$log_list |each [val single ] 
+	{
+		concat $msg_log_regex_INFO $single
+	}] 
+
+}
+
+proc "concat-list-with-str" [val list] [val prefix ""] [val sufix ""]
+{
+	concat [$list |each [val item ] 
+	{
+		concat $prefix $item $sufix
+	}] 
+
+}
+
+proc "compare-message-log2" [val ref_content]{
+	get-view "Message Log" | get-editbox | get-property text -raw| let [val original_content -input]
+	{
+		if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{
+			exec-process [format "\"python.exe\"  \"%s/Settings/PythonScripts/compare_msg_log_as_strings.py\"  \"%s\" \"%s\""   $user_RCPTT_project_path $original_content $ref_content ]
+			| let [val result [ get stdout] ]{
+			 $result | equals "OK!\r\n" | assert-true -message [format "Message was: %s" $result]
+			 }
+	
+		}-else{
+			exec-process [format "python"  "%s/Settings/PythonScripts/compare_msg_log_as_strings.py"  "%s" "%s"   $user_RCPTT_project_path $original_content $ref_content ]
+			| let [val result [ get stdout] ]{
+			 $result | equals "OK!\n" | assert-true -message [format "Message was: %s" $result]
+			 }
+		}	
+	}
+
+}
+
+proc "wait-for-errors"[val amount] [val times 4 ] [val delay 1000]{
+	try -times $times -delay $delay -command{
+		get-view Problems | get-label ".* error.*" | get-property caption 
+	    | equals [format "%s error.*"  $amount ]| verify-true
+	}
+}
+
+proc "wait-for-warnings"[val amount] [val times 4] [val delay 1000]{
+	try -times $times -delay $delay -command{
+		get-view Problems | get-label ".* warning.*" | get-property caption 
+	    | equals [format ".* %s warning.*"  $amount ]| verify-true
+	}
+}
+
+proc "wait-for-zero-items"[val times] [val delay]{
+	try -times $times -delay $delay -command{
+	    get-view Problems | get-tree | get-property itemCount | equals 0 | verify-true
+	}-finally{
+		if[get-view Problems | get-tree | get-property itemCount -raw | not-eq 0]{
+			get-view Problems | get-tree | get-item "Errors \\(.*\\)" | expand
+		}	
+	}
+}
+
+
+proc "wait-for-console" [val times 4] [val delay 1000]{
+	try -times $times -delay $delay -command{
+		get-view Console | get-button Terminate | get-property "isEnabled()" | equals false | verify-true
+	}
+}
+
+
+proc "wait-for-message-log" [val times 4] [val delay 1000] [val last_line ".*"] [val test_type "test"]{
+	try -times $times -delay $delay -command{
+		get-view "Message Log" | get-editbox | get-property text | equals "" | verify-false
+		get-view "Message Log" | get-editbox | get-property text | matches [format "(.*\n)+Ending %s: %s" $test_type $last_line]| verify-true
+
+	}
+}
+
+proc "wait-for-loading-red-xml" [val editor_name]{
+	try -times 10 -delay 1000 -command{
+		get-editor $editor_name | get-canvas -after [get-label "RED Project"] | get-property "isBusy()" | equals false 
+	    | verify-true
+	}
+} 
+
+proc "wait-for-discover-window" [val times 4]{
+	try -times $times -delay 1000 -command{
+		get-window "Discovering libraries summary"
+	}
+}
+
+proc "wait-for-progress-view-to-disappear" [val times 4] [val delay 500] {
+	try -times $times -delay $delay -command {
+		verify-error  {get-button "Shows background operations in Progress view" | get-property enablement | equals true | verify-true}
+	}
+}
+
+proc "get-arg-file-path"{
+	get-view Console | get-text-viewer | get-property text  -raw | let [val arg_path -input]{
+		$arg_path | invoke substring [$arg_path | invoke lastIndexOf "--argumentfile" | int | plus 15 ]
+		      [$arg_path | invoke lastIndexOf ".arg" | int | plus 4] 
+	}
+}
+
+// release files handle when files are locked under Windows. Proc used in Jython tests
+proc "release-files-handle" [val path ""] [val project_name ""]{
+	if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{
+		exec-process  "powershell.exe" "-command"  [format "Start-Process 'c:\\Handle\\RemoveFilesHandle.bat' -ArgumentList '%s\\%s' -Verb runas -Wait" $RED_workspace_path  $project_name] -timeout 120 | log
+		if [$path | not-eq ""]{
+			exec-process   "powershell.exe" "-command"  [format "Start-Process 'c:\\Handle\\RemoveFilesHandle.bat' -ArgumentList '%s' -Verb runas -Wait" $path ] -timeout 120| log
+		}		
+    }
+}
+
+proc "check-tab-folder"  [val tab_index 1] [val active_page] [val pages] {
+	$pages | invoke getElements  | invoke size | let [val col_amount -input]{
+		get-tab-folder -index [$tab_index | int] | get-property tabCount | equals $col_amount | verify-true
+		get-tab-folder -index [$tab_index | int] | get-property activePage | equals $active_page | verify-true
+	
+		repeat [val index] -times $col_amount -command{
+			get-tab-folder -index [$tab_index | int] | get-property [format "pages[%s]" $index] | equals[$pages | get $index]  | verify-true
+	
+		}
+	}  
+}
+
+proc "wait-for-empty-progress"{
+	// open Progress bar tab
+	get-menu "Window/Show View/Other..." | click
+	with [get-window "Show View"] {
+	    get-tree | select "General/Progress"
+	    get-button $Open_Perspective_button | click
+	}
+	try -times 60 -delay 1000 -command{
+		with [get-view Progress] {
+		    get-control Any -index 5 | get-property "getChildren().Control[0].getText()" 
+		        | equals "No operations to display at this time." | verify-true
+		}
+	}
+}
+
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

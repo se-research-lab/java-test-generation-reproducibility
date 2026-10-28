@@ -1,0 +1,2 @@
+*** Settings ***
+Documentation	text1	text2	text3	#cm1	cm2	cm3

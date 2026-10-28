@@ -1,0 +1,2 @@
+*** Variables ***
+@{list}	value1	value2	value3	#cm1	cm2	cm3

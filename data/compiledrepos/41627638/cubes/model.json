@@ -1,0 +1,27 @@
+{
+  "dimensions": [{
+    "name": "record",
+    "levels": [{
+      "name": "type",
+      "label": "type",
+      "attributes": ["type", "amount"]
+    }]
+  }, {
+    "name": "year",
+    "role": "time"
+  }],
+  "cubes": [{
+    "name": "personal_finance",
+    "dimensions": ["record", "year"],
+    "aggregates": [{
+      "name": "amount_sum",
+      "function": "sum",
+      "measure": "record.amount"
+    }],
+    "mappings": {
+      "record.type": "type",
+      "record.amount": "amount",
+      "year": "time"
+    }
+  }]
+}

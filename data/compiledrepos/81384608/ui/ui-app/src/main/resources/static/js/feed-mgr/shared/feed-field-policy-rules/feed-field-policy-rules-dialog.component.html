@@ -1,0 +1,93 @@
+<!--
+  #%L
+  thinkbig-ui-feed-manager
+  %%
+  Copyright (C) 2017 ThinkBig Analytics
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  #L%
+  -->
+
+<h2 mat-dialog-title>{{viewText.title}}  {{data.field.name}}</h2>
+<mat-dialog-content>
+
+    <div *ngIf="policyRules != null && policyRules.length >0 ">
+        <ul dnd-list
+            [dndList]
+            [dndModel]="policyRules" class="simple-dnd-list">
+                <li
+                    *ngFor="let rule of policyRules; let i = index"
+                    [dndDraggable]
+                    [dndObject]="rule"
+                    (dndMoved)="onMovedPolicyRule(rule, policyRules)">
+                    <div fxLayout="row" fxLayoutAlign="start">
+                        <div fxLayout="column" fxFlex>
+                            <span class="md-list-item-text">{{i+1}}. {{rule.name}}</span>
+                            <span class="md-list-item-text hint">{{rule.type}}</span>
+                        </div>
+                        <div fxLayout="row">
+                            <button mat-icon-button  (click)="editPolicy(i,rule)">
+                                <ng-md-icon icon="edit" style="fill:grey"></ng-md-icon>
+                            </button>
+                            <button mat-icon-button  (click)="deletePolicy(i)">
+                                <ng-md-icon icon="delete" style="fill:grey" ></ng-md-icon>
+                            </button>
+                        </div>
+                      <mat-icon dndHandle class="mat-24 kylo-mat-list-color kylo-mat-list-handle">drag_handle</mat-icon>
+                    </div>
+                </li>
+        </ul>
+    </div>
+        <!-- if loading -->
+
+        <div class="edit-form" fxLayout="column">
+            <mat-progress-bar mode="indeterminate" *ngIf="loading" class="accent"></mat-progress-bar>
+
+            <div class="mat-title">{{viewText.titleText}}</div>
+
+            <mat-radio-group [(ngModel)]="selectedOptionType" (change)="onChangedOptionType($event)" *ngIf="optionTypes != null" [ngModelOptions]="{standalone: true}">
+                <ng-template ngFor let-optionType let-index="index" let-last="last" [ngForOf]="optionTypes">
+                    <mat-radio-button ngClass="push-right-md" [value]="optionType.type">{{optionType.name}}</mat-radio-button>
+                </ng-template>
+            </mat-radio-group>
+
+            <mat-form-field  class="pad-top-sm">
+                <mat-select [(ngModel)]="selectedRuleTypeName" placeholder="Select a policy" (change)="onRuleTypeChange($event)" [ngModelOptions]="{standalone: true}">
+                    <mat-option *ngFor="let opt of options" [value]="opt.name">
+                        {{opt.name}}
+                    </mat-option>
+                </mat-select>
+                <mat-hint *ngIf="selectedRuleTypeName">{{editRule.description}}</mat-hint>
+            </mat-form-field>
+
+             <policy-input-form #policyInputForm [parentFormGroup]="policyForm" [(rule)]="editRule" (onFormControlsAdded)="onFormControlsAdded($event)" ></policy-input-form>
+
+            <div fxLayoutAlign="end" fxFlex class="push-top-md push-bottom-md">
+              <span fxFlex></span>
+                <button mat-raised-button ngClass="push-right-md" (click)="cancelEdit()">{{viewText.cancelText}}</button>
+                <button mat-raised-button color="primary" (click)="addPolicy()" [disabled]="!policyFormIsValid || !selectedRuleTypeName" >{{viewText.addText}}</button>
+            </div>
+        </div>
+ <mat-divider class="mat-divider" role="separator" aria-orientation="horizontal"></mat-divider>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <mat-divider></mat-divider>
+    <span fxFlex=""></span>
+    <button mat-raised-button (click)="onCancelClick()">
+        Cancel
+    </button>
+    <button mat-raised-button color="primary" (click)="done()" [disabled]="!pendingEdits || !policyFormIsValid">
+       Done
+    </button>
+</mat-dialog-actions>
+

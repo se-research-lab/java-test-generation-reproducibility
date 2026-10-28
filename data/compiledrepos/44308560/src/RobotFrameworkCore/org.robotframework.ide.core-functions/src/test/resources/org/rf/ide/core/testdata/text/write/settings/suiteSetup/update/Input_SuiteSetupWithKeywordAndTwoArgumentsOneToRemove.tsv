@@ -1,0 +1,2 @@
+*** Settings ***
+Suite Setup	key1	arg1	arg2

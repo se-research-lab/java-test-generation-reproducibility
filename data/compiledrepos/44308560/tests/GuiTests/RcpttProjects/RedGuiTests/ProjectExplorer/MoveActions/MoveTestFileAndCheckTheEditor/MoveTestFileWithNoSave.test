@@ -1,0 +1,78 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: MoveTestFileWithNoSave
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _sebHYPfPEeSx2Y7ZMEilqw
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 7/3/17 10:57 AM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+RED-82 , if fised it will pass
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+
+// create file
+get-view "Project Explorer" | get-tree | select RobotProject | get-menu "New/Robot Test Suite" | click
+with [get-window "New Robot Test Suite"] {
+    with [get-editbox -after [get-label "File name:"]] {
+        set-text "TestFileToMove.robot"
+    }
+    get-button Finish | click
+}
+
+// edit file and do not save
+// edit file and save
+with [get-editor "TestFileToMove.robot" | get-text-viewer] {
+    set-caret-pos 1 19
+    key-type Enter
+    key-type "M1+SPACE"
+    key-type Enter
+}
+
+
+
+// move file 
+
+with [get-view "Project Explorer" | get-tree] {
+    select "RobotProject/TestFileToMove.robot"
+    get-item "RobotProject/TestFileToMove.robot" | drag-start 35 12
+    get-item "RobotProject/red.xml" | drag-enter 35 16 -detail move
+    get-item "RobotProject/red.xml" | drag-over 39 0 -detail copy
+    get-item "RobotProject/TestSuiteFolder" | drag-over 41 3 -detail move
+    get-item "RobotProject/red.xml" | drag-exit
+    get-item "RobotProject/TestSuiteFolder" | drag-accept 41 3 -detail move
+    drag-set-data
+    get-item "RobotProject/TestSuiteFolder" | drop 41 3 -detail move
+    drag-end -detail move
+}
+
+// save file
+get-window "Save Resource" | get-button "(Yes)|(Save)" | click
+
+
+
+// try to open the same file from new location, only one editor should be opened 
+get-view "Project Explorer" | get-tree | select "RobotProject/TestSuiteFolder/TestFileToMove.robot" | double-click
+get-tab-folder -index 1 | get-property tabCount | equals 1 | verify-true
+
+// close editor and reopen moved file
+get-editor "TestFileToMove.robot" | close
+get-view "Project Explorer" | get-tree | select "RobotProject/TestSuiteFolder/TestFileToMove.robot" | double-click
+get-editor "TestFileToMove.robot" | get-tab-folder | get-tab-item Variables | click
+
+// check if file consist saved changes
+get-view "Project Explorer" | get-tree | get-item "RobotProject/TestSuiteFolder/TestFileToMove.robot" 
+    | get-property caption | equals "TestFileToMove.robot" | verify-true
+
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

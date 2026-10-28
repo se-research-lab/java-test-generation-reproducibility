@@ -1,0 +1,26 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _KaLdEIkmEeWHhtZu19MBKw,_9Bte8NYSEeijg6yKwqEQmw,_cBDNYMN4Eeat3OoBX2X2jQ,_wdMmkIk5EeWHhtZu19MBKw
+Element-Name: ContentAssistInINIT
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _TgaBwIkmEeWHhtZu19MBKw
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 10/23/18 3:41 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+with [get-view "Project Explorer" | get-tree] {
+    select "RobotProject/tsv_init_file/__init__.tsv" | double-click
+    select "RobotProject/robot_init_file/__init__.robot" | double-click
+}
+
+add-init-content -file_name "__init__.tsv" -is_tsv true
+add-init-content -file_name "__init__.robot" -is_tsv false 
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

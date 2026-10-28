@@ -1,0 +1,42 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: CreateTestcaseFolders
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _QIBU0PPlEeSRSqmeMHfJYA
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 10/1/18 1:44 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select RobotProject | get-menu "New/Robot suites folder" | click
+with [get-window "New Robot suites folder"] {
+    with [get-editbox -after [get-label "Folder name:"]] {
+
+        set-text CreateSuiteFolderWithoutInitFile
+    }
+    get-button Finish | click
+}
+get-view "Project Explorer" | get-tree | select "RobotProject/CreateSuiteFolderWithoutInitFile" 
+    | get-menu "New/Robot suites folder" | click
+with [get-window "New Robot suites folder"] {
+    get-button "Create suite initialization file" | check
+    with [get-editbox -after [get-label "Folder name:"]] {
+
+        set-text CreateSuiteFolderWithInitFile
+    }
+    get-button Finish | click
+}
+with [get-view "Project Explorer" | get-tree] {
+    get-item "RobotProject/CreateSuiteFolderWithoutInitFile" | get-property caption 
+        | equals CreateSuiteFolderWithoutInitFile | verify-true
+    get-item "RobotProject/CreateSuiteFolderWithoutInitFile" | get-property "getItems().TreeItem[0].getText()" 
+        | equals CreateSuiteFolderWithInitFile | verify-true
+    get-item "RobotProject/CreateSuiteFolderWithoutInitFile" 
+        | get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals "__init__.robot" | verify-true
+}
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

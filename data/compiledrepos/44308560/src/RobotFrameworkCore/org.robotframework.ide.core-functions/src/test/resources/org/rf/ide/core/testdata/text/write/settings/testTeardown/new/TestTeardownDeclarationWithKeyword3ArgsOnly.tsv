@@ -1,0 +1,2 @@
+*** Settings ***
+Test Teardown	keyword	arg1	arg2	arg3

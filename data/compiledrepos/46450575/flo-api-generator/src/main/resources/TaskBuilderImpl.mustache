@@ -1,0 +1,171 @@
+package {{packageName}};
+
+import java.util.List;
+
+import javax.annotation.Generated;
+
+import com.spotify.flo.EvalContext.Value;
+import com.spotify.flo.TaskBuilder.*;
+
+import static com.spotify.flo.BuilderUtils.appendToList;
+import static com.spotify.flo.BuilderUtils.contextArg;
+import static com.spotify.flo.BuilderUtils.inputArg;
+import static com.spotify.flo.BuilderUtils.inputsArg;
+import static com.spotify.flo.BuilderUtils.lazyFlatten;
+import static com.spotify.flo.BuilderUtils.lazyList;
+import static com.spotify.flo.Serialization.requireSerializable;
+import static com.spotify.flo.Values.toValueList;
+
+/**
+ * Package local implementation of the {@link TaskBuilder} tree.
+ */
+@Generated("com.spotify.flo.gen.ApiGeneratorProcessor")
+final class {{implClassName}} {
+
+  private static final long serialVersionUID = 1L;
+
+  static <Z> {{interfaceName}}<Z> rootBuilder(TaskId taskId, Class<Z> type) {
+    return new Builder0<>(taskId, type);
+  }
+
+  private static class Builder0<Z> extends BaseRefs<Z> implements {{interfaceName}}<Z> {
+
+    private static final long serialVersionUID = 1L;
+
+    Builder0(TaskId taskId, Class<Z> type) {
+      super(taskId, type);
+    }
+
+    @Override
+    public Task<Z> process(F0<Z> f) {
+      final F0<Z> sf = requireSerializable(f, "process fn");
+      final Invokable code = a -> sf.get();
+      return Task.create(inputs, taskContexts, type, taskId, code, args);
+    }
+
+    @Override
+    public <A> TaskBuilder1<A, Z, Z> context(TaskContextGeneric<A> context) {
+      return context_(requireSerializable(context, "context"));
+    }
+
+    @Override
+    public <A> TaskBuilder1<A, Z, Z> output(TaskOutput<A, Z> output) {
+      return context_(requireSerializable(output, "output"));
+    }
+
+    @Override
+    public <A, Y> TaskBuilder1<A, Y, Z> operator(TaskOperator<A, Y, Z> operator) {
+      return context_(requireSerializable(operator, "operator"));
+    }
+
+    private <A, Y> TaskBuilder1<A, Y, Z> context_(TaskContext<A, ? super Z> taskContext) {
+      return new Builder1<>(
+          inputs, appendToList(taskContexts, taskContext), taskId, type,
+          appendToList(args, contextArg(taskContext)));
+    }
+
+    @Override
+    public <A> {{interfaceName}}1<A, Z, Z> input(Fn<Task<A>> aTask) {
+      final Fn<Task<A>> aTaskSingleton = Singleton.create(requireSerializable(aTask, "input"));
+      return new Builder1<>(
+          lazyFlatten(inputs, lazyList(aTaskSingleton)),
+          taskContexts, taskId, type, appendToList(args, inputArg(aTaskSingleton)));
+    }
+
+    @Override
+    public <A> {{interfaceName}}1<List<A>, Z, Z> inputs(Fn<List<Task<A>>> aTasks) {
+      Fn<List<Task<A>>> aTasksSingleton = Singleton.create(requireSerializable(aTasks, "inputs"));
+      return new Builder1<>(
+          lazyFlatten(inputs, lazyFlatten(aTasksSingleton)),
+          taskContexts, taskId, type,
+          appendToList(args, inputsArg(aTasksSingleton)));
+    }
+  }
+
+{{#genBuilder}}
+  // #############################################################################################
+  // {{arity}}<{{typeArgs}}, Z>
+
+  private static class Builder{{arity}}<{{typeArgs}}, Y, Z> extends BaseRefs<Z> implements {{interfaceName}}{{arity}}<{{typeArgs}}, Y, Z> {
+
+    private static final long serialVersionUID = 1L;
+
+    Builder{{arity}}(
+        Fn<List<Task<?>>> inputs,
+        List<TaskContext<?, ? super Z>> taskContexts,
+        TaskId taskId,
+        Class<Z> type,
+        List<ProcessFnArg> args) {
+      super(inputs, taskContexts, args, taskId, type);
+    }
+
+    @Override
+    public Task<Z> process(F{{arity}}<{{typeArgs}}, Y> f) {
+      final F{{arity}}<{{typeArgs}}, Y> sf = requireSerializable(f, "process fn");
+      @SuppressWarnings("unchecked")
+      final Invokable code = a -> sf.apply({{processArgs}});
+      return Task.create(inputs, taskContexts, type, taskId, code, args);
+    }
+
+    @Override
+    public <{{nextArg}}> {{interfaceName}}{{arityPlus}}<{{typeArgs}}, {{nextArg}}, Y, Z> context(TaskContextGeneric<{{nextArg}}> context) {
+      return context_(requireSerializable(context, "context"));
+    }
+
+    @Override
+    public <{{nextArg}}> {{interfaceName}}{{arityPlus}}<{{typeArgs}}, {{nextArg}}, Y, Z> output(TaskOutput<{{nextArg}}, Z> output) {
+      return context_(requireSerializable(output, "output"));
+    }
+
+    @Override
+    public <{{nextArg}}, YN> {{interfaceName}}{{arityPlus}}<{{typeArgs}}, {{nextArg}}, YN, Z> operator(TaskOperator<{{nextArg}}, YN, Z> operator) {
+      return context_(requireSerializable(operator, "operator"));
+    }
+
+    private <{{nextArg}}, YN> {{interfaceName}}{{arityPlus}}<{{typeArgs}}, {{nextArg}}, YN, Z> context_(TaskContext<{{nextArg}}, ? super Z> taskContext) {
+      return new Builder{{arityPlus}}<>(
+          inputs, appendToList(taskContexts, taskContext), taskId, type,
+          appendToList(args, contextArg(taskContext)));
+    }
+
+    @Override
+    public <{{nextArg}}> {{interfaceName}}{{arityPlus}}<{{typeArgs}}, {{nextArg}}, Y, Z> input(Fn<Task<{{nextArg}}>> nextTask) {
+      Fn<Task<{{nextArg}}>> nextTaskSingleton = Singleton.create(requireSerializable(nextTask, "input"));
+      return new Builder{{arityPlus}}<>(
+          lazyFlatten(inputs, lazyList(nextTaskSingleton)),
+          taskContexts, taskId, type,
+          appendToList(args, inputArg(nextTaskSingleton)));
+    }
+
+    @Override
+    public <{{nextArg}}> {{interfaceName}}{{arityPlus}}<{{typeArgs}}, List<{{nextArg}}>, Y, Z> inputs(Fn<List<Task<{{nextArg}}>>> nextTasks) {
+      Fn<List<Task<{{nextArg}}>>> nextTasksSingleton = Singleton.create(requireSerializable(nextTasks, "inputs"));
+      return new Builder{{arityPlus}}<>(
+          lazyFlatten(inputs, lazyFlatten(nextTasksSingleton)),
+          taskContexts, taskId, type,
+          appendToList(args, inputsArg(nextTasksSingleton)));
+    }
+  }
+{{/genBuilder}}
+
+  private static class Builder{{lastArity}}<{{lastTypeArgs}}, Y, Z> extends BaseRefs<Z> implements {{interfaceName}}{{lastArity}}<{{lastTypeArgs}}, Y, Z> {
+
+    private static final long serialVersionUID = 1L;
+
+    Builder{{lastArity}}(
+        Fn<List<Task<?>>> inputs,
+        List<TaskContext<?, ? super Z>> taskContexts,
+        TaskId taskId,
+        Class<Z> type,
+        List<ProcessFnArg> args) {
+      super(inputs, taskContexts, args, taskId, type);
+    }
+
+    @Override
+    public Task<Z> process(F{{lastArity}}<{{lastTypeArgs}}, Y> f) {
+      @SuppressWarnings("unchecked")
+      final Invokable code = a -> f.apply({{lastProcessArgs}});
+      return Task.create(inputs, taskContexts, type, taskId, code, args);
+    }
+  }
+}

@@ -1,0 +1,141 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _ps4noO0WEeWqTNBmS5Gi4w
+Element-Name: AutomaticReloadAfterRemovingProject
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _fGM4sOxZEeWqTNBmS5Gi4w
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 3/2/20 4:23 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+proc "wait-for-disapearing_progressbar"{	
+	try -times 5 -delay 1000 -command{
+		verify-error {get-window "Progress Information"}
+	}
+}
+
+//open python file and change function name
+get-view "Project Explorer" | get-tree | select "RemovingProject/file1.py" | select "RemovingProject/file1.py" 
+    | select "RemovingProject/file1.py" | get-menu "Open With/Text Editor" | click
+with [get-editor "file1.py" | get-text-viewer] {
+    set-caret-pos 1 8
+    type-text 2
+    wait 1000
+    key-type "M1+s"
+}
+wait 2000
+wait-for-disapearing_progressbar
+
+//see if new value is in PE
+get-view "Project Explorer" | get-tree | get-item 
+    -path "RemovingProject/Robot Referenced libraries/file1 RemovingProject\\/file1.py \\(1\\)/Sum 2" 
+    | get-property index | equals 0 | verify-true
+    
+get-view "Project Explorer" | get-tree | select "SecondProject/file2.py" | select "SecondProject/file2.py" 
+    | get-menu "Open With/Text Editor" | click
+
+//change function name in second project    
+with [get-editor "file2.py" | get-text-viewer] {
+    set-caret-pos 1 13
+    type-text 2
+    key-type "M1+s"
+}
+
+wait-for-disapearing_progressbar
+
+//check PE
+get-view "Project Explorer" | get-tree | get-item 
+    -path "SecondProject/Robot Referenced libraries/file2 SecondProject\\/file2.py \\(1\\)/Multiply 2" 
+    | get-property index | equals 0 | verify-true
+    
+//delete first project    
+with [get-view "Project Explorer" | get-tree] {
+    select RemovingProject | get-menu Refresh | click
+    select RemovingProject | get-menu Delete | click
+}
+with [get-window "Delete Resources"] {
+    get-button "Delete project contents on disk (cannot be undone)" | check
+    get-button OK | click
+}
+
+//clear to set watcher on second project
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+
+//change python file one more time
+with [get-editor "file2.py" | get-text-viewer] {
+    set-caret-pos 1 14
+    key-type BackSpace
+    type-text 3
+    key-type "M1+s"
+}
+wait-for-disapearing_progressbar
+
+//check if new lib was generated
+get-view "Project Explorer" | get-tree | get-item 
+    -path "SecondProject/Robot Referenced libraries/file2 SecondProject\\/file2.py \\(1\\)/Multiply 3" 
+    | get-property index | equals 0 | verify-true
+    
+    
+//add the same project as was removed
+get-view "Project Explorer" | get-tree | select SecondProject | get-menu "New/Robot Project" | click
+with [get-window "New Robot project"] {
+    get-editbox -after [get-label "Project name:"] | set-text RemovingProject
+    get-button Finish | click
+}
+
+//add the same file
+get-view "Project Explorer" | get-tree | select RemovingProject | get-menu "New/Robot python file" | click
+with [get-window "New Robot python file"] {
+    get-editbox -after [get-label "File name:"] | set-text "file1.py"
+    get-button Finish | click
+}
+
+//add new function
+with [get-editor "file1.py" | get-text-viewer] {
+    type-text "def new_fun():"
+    key-type Enter
+    key-type Tab
+    type-text "return 17"
+    key-type "M1+s"
+}
+
+//add lib to red.xml
+get-view "Project Explorer" | get-tree | select "RemovingProject/red.xml" | double-click
+get-editor "RemovingProject/red.xml" | get-tab-folder | get-tab-item "Libraries" | click
+set-dialog-result File "platform:/resource/RemovingProject/file1.py"
+get-editor "RemovingProject/red.xml" | get-section Libraries | get-tree | get-item "...add new library file" | double-click
+get-editor "RemovingProject/red.xml" | get-section Libraries | get-tree | key-type "M1+s"
+
+wait-for-disapearing_progressbar
+
+//check if new lib is in PE
+get-view "Project Explorer" | get-tree | get-item 
+    -path "RemovingProject/Robot Referenced libraries/file1 RemovingProject\\/file1.py \\(1\\)/New Fun" 
+    | get-property index | equals 0 | verify-true
+   
+    
+with [get-view "Project Explorer" | get-tree] {
+    get-item -path "RemovingProject/Robot Referenced libraries" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "file1 RemovingProject/file1.py (1)" | verify-true
+    get-item -path "RemovingProject/Robot Referenced libraries" | get-property "getText()" 
+        | equals "Robot Referenced libraries" | verify-true
+}
+
+
+//cleanup - sometimes next test is blocked by workspace
+with [get-editor "RemovingProject/red.xml" | get-section Libraries | get-tree] {
+    select "file1 - RemovingProject\\/file1.py"
+    key-type Del
+    key-type "M1+s"
+}
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

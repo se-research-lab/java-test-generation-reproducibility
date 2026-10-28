@@ -1,0 +1,7 @@
+namespace examples
+
+type A {
+    boolean foo1() = false
+    boolean foo2() = true
+}
+

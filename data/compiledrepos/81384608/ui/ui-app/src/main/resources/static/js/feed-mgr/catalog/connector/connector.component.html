@@ -1,0 +1,105 @@
+<ng-container>
+
+  <mat-card>
+    <mat-card-title fxLayout="row" fxLayoutAlign=" center">
+      <div>
+        <ng-md-icon
+            class="card-title-icon"
+            [icon]="connector.icon ? connector.icon : 'fa-database'"
+            [ngClass]="connector.color ? 'tc-'+connector.color : 'tc-accent'" size="30"></ng-md-icon>
+      </div>
+      <div class="card-title-text">{{connector.title}}</div>
+    </mat-card-title>
+    <mat-card-subtitle>{{datasource ? 'Edit existing' : 'Create new'}} '{{connector.title}}' data source</mat-card-subtitle>
+    <mat-divider></mat-divider>
+
+    <mat-card-content>
+      <form [formGroup]="form">
+        <div fxLayout="column">
+          <mat-form-field fxFlex="100">
+            <input #title
+                matInput type="text"
+                placeholder="Title"
+                required
+                autocomplete="new-password"
+                [formControl]="titleControl"/>
+            <mat-error *ngIf="titleControl.hasError('required')">Required</mat-error>
+          </mat-form-field>
+
+          <ng-template let-element let-last="last" ngFor [ngForOf]="plugin.options">
+            <mat-form-field fxFlex="{{element.flex ? element.flex : 100}}" class="pad-bottom">
+              <input
+                  *ngIf="isInputType(element)"
+                  matInput type="{{element.type}}"
+                  placeholder="{{element.label}}"
+                  [required]="element.required !== false"
+                  autocomplete="new-password"
+                  [formControl]="getControl(element)"/>
+
+              <mat-select
+                  *ngIf="isSelectType(element)"
+                  placeholder="{{element.label}}"
+                  [required]="element.required !== false"
+                  [formControl]="getControl(element)">
+                <ng-template let-option ngFor [ngForOf]="element.selections">
+                  <mat-option value="{{option.value}}">{{option.label}}</mat-option>
+                </ng-template>
+              </mat-select>
+
+
+              <mat-error *ngIf="getControl(element).hasError('required')">Required</mat-error>
+              <mat-error *ngIf="getControl(element).hasError('url')">Invalid Url</mat-error>
+              <mat-error *ngIf="getControl(element).hasError('url-protocol')">Invalid Url Protocol</mat-error>
+              <mat-hint *ngIf="element.hint">{{element.hint}}</mat-hint>
+            </mat-form-field>
+          </ng-template>
+        </div>
+        <div fxLayout="row" fxLayoutAlign="start center" class="test-section" *ngIf="isTestAvailable()">
+          <button mat-button mat-raised-button class="text-upper"
+                  [disabled]="isFormInvalid() || isLoading"
+                  (click)="test()">Test</button>
+          <span *ngIf="testStatus && testError" class="test-status status-error">{{testError}}</span>
+          <span>
+            <ng-md-icon *ngIf="testStatus && !testError" icon="check" size="30" class="test-status status-ok"></ng-md-icon>
+          </span>
+        </div>
+        <div *ngIf="controllerServiceConflictError != null">
+          <div class="pad-top mat-subheading-1" fxLayout="row" fxLayoutAlign="start center">
+            <mat-icon color="accent">info</mat-icon>
+            <span translate class="pad-left-sm">CATALOG.DATA_SOURCES.NIFI_CONTROLLER_SERVICE_CONFILCT_MSG</span>
+          </div>
+          <mat-selection-list formControlName="matchingControllerService" (selectionChange)="controllerServiceConflictChanged($event, service)" #matchingControllerService >
+            <mat-list-option value="">
+              <div matLine><span translate>CATALOG.DATA_SOURCES.NIFI_CONTROLLER_SERVICE_CONFLICT_CREATE_NEW</span>{{title.value}}</div>
+            </mat-list-option>
+            <mat-list-option *ngFor="let service of controllerServiceConflictError.matchingServices" [value]="service.id">
+              <div matLine>{{service.name}}</div>
+              <div matLine>State: {{service.state}}, used by: {{service.referencingComponents.length}} processors</div>
+              <div matLine class="mat-hint">{{service.identityPropertyString}}</div>
+            </mat-list-option>
+          </mat-selection-list>
+        </div>
+
+        <entity-access-control-ng2 *ngIf="allowAdmin && datasource" [entity]="datasource" entityType="datasource" [parentForm]="form" [readonly]="false" class="block pad-top">
+        </entity-access-control-ng2>
+      </form>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-button mat-raised-button color="primary" class="text-upper"
+              [disabled]="isFormInvalid() || isLoading"
+              (click)="saveDatasource()">Save
+      </button>
+      <button mat-button mat-raised-button class="text-upper"
+              [disabled]="isLoading"
+              *ngIf="datasource"
+              (click)="cancel()">Cancel
+      </button>
+      <button mat-button mat-raised-button class="text-upper"
+              [disabled]="isLoading"
+              *ngIf="datasource"
+              (click)="deleteDatasource()">Delete
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</ng-container>

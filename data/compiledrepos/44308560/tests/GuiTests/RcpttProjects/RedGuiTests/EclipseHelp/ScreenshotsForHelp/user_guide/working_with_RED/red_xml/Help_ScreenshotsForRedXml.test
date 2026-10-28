@@ -1,0 +1,31 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _i5HT0BFhEei5lb3IGvxDdQ
+Element-Name: Help_ScreenshotsForRedXml
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _pnAdgBDEEeiccMTRvAu1GQ
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 2/16/18 3:00 PM
+Tags: help
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+global [val screenshot_local_folder [concat $sys_sep "help_scr" $sys_sep "user_guide" $sys_sep "working_with_RED" $sys_sep "red_xml" $sys_sep ]]
+create-sub-folders [concat $screenshot_base_folder $sys_sep $screenshot_local_folder]
+ 
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+wait 200
+gui-view-screenshot "RobotProject/red.xml" "general_tab.png"
+
+with [get-editor "RobotProject/red.xml" | get-tab-folder] {   get-tab-item "Referenced libraries" | click}
+gui-view-screenshot "RobotProject/red.xml" "ref_libs.png"
+with [get-editor "RobotProject/red.xml" | get-tab-folder] {get-tab-item "Variable files" | click}
+gui-view-screenshot "RobotProject/red.xml" "var_files.png"
+with [get-editor "RobotProject/red.xml" | get-tab-folder] {get-tab-item Validation | click}
+gui-view-screenshot "RobotProject/red.xml" "validation_tab.png"
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

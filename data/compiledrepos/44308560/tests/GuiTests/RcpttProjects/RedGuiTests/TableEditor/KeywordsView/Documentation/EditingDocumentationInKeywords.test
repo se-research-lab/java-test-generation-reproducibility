@@ -1,0 +1,127 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _hb89IDvxEeiDC73Fvf4wHA
+Element-Name: EditingDocumentationInKeywords
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _PIa6YFiWEeaKPZp2wD-8qw
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 8/22/18 5:55 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//add simple Doc
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+get-editor "TestFile.robot" | get-text-viewer | set-text  "*** Test Cases ***\n"
+    + "*** Setting ***\n"
+    + "*** Keyword ***\n"
+    + "test1\n"
+    + "    [Documentation]    Single line doc\n"
+    + "    Log  6" 
+    
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    key-type "M1+s"
+}
+
+//open doc view
+get-menu "Window/Show View/Other..." | click
+with [get-window "Show View"] {
+    get-editbox | set-text doc
+    get-tree | select "Robot/Documentation View" | double-click
+}
+
+get-view "Documentation View" | get-button "Link with Selection" | click
+
+//set focus on first KW    
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Keywords | click
+wait 500
+get-view Outline | get-tree | select "TestFile.robot/Keywords/test1" | click
+
+//set doc to empty
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Right
+        key-type Down
+        key-type Enter
+    }
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text ""
+        key-type Enter
+    }
+}
+with [get-editor "TestFile.robot"] {
+    get-editbox -after [get-label "User Keywords"] -index 1 | key-type "TRAVERSE_ESCAPE"
+    get-canvas -after [get-label "User Keywords"] -index 1 | key-type Up
+}
+
+//check Doc view
+check-documentation-view-for-user-kw -kw_name "test1" -path "/RobotProject/TestFile.robot"
+
+with [get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1] {
+    key-type Right
+    key-type Enter
+}
+
+//add doc with special characters    
+with [get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1] {
+    type-text "line1\\n"
+        + "lin2 with \\t tab and param ${a}"
+    key-type Enter
+}
+
+get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1 | key-type "TRAVERSE_ESCAPE"
+get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1 | key-type Up
+
+check-documentation-view-for-user-kw  -kw_name "test1" -path "/RobotProject/TestFile.robot"  -spec "line1 lin2 with \\\t tab and param \$\{a\}"
+
+//add new text and go to Source - here was NPE   
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Right
+        key-type Enter
+    }
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text "new text"
+        key-type Enter
+    }
+}
+exec-with-options {
+    get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+} -allowStatusDialog
+
+
+
+//add new KW with doc
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Keywords | click
+
+
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Down -times 2
+        key-type Enter
+    }
+}
+
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Down
+        key-type Enter
+        type-text "["
+    }
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text "Documentation]"
+        key-type Enter
+    }
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text "second doc"
+        key-type Enter
+    }
+}
+
+check-documentation-view-for-user-kw  -kw_name "Keyword" -path "/RobotProject/TestFile.robot"  -spec "second doc"
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

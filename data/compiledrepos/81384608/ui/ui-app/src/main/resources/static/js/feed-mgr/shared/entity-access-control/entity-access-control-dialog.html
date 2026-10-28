@@ -1,0 +1,48 @@
+<md-dialog aria-label="Access Control" style="min-width:700px;max-width:700px;">
+
+  <form name="theForm">
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Access Control for {{entityTitle}}</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="onCancel()">
+          <ng-md-icon icon="close" size="20"></ng-md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content" >
+        <entity-access-control entity="entity" entity-type="{{entityType}}" model="model" the-form="theForm" query-for-entity-access="true"></entity-access-control>
+        <div layout="row" layout-padding>
+          <div flex="40" style="align-self:center;">
+            <span>Index feed metadata and schema</span>
+            <div class="hint">
+              Index metadata and schema for the feed in a search engine. (Unchecking will disable indexing of feed's metadata and schema, and also delete the feed's existing metadata and schema from index.)
+            </div>
+          </div>
+          <div flex class="">
+            <md-checkbox
+                ng-model="allowIndexing"
+                aria-label="Indexing Allowed"
+                ng-true-value=true
+              ng-false-value=false
+                ng-disabled="false"
+                class="md-primary md-align-top-left" flex>
+            </md-checkbox>
+          </div>
+        </div>
+      </div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row" layout-align="start stretch" flex>
+      <span flex></span>
+      <md-button ng-click="onCancel($event)">
+        Cancel
+      </md-button>
+      <md-button class="md-raised md-primary" ng-click="onSave($event)" ng-disabled="preconditionForm.$invalid">
+        Done
+      </md-button>
+    </md-dialog-actions>
+  </form>
+
+</md-dialog>

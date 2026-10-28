@@ -1,0 +1,61 @@
+package software.amazon.awssdk.stability.tests.s3;
+
+import static software.amazon.awssdk.testutils.service.S3BucketUtils.temporaryBucketName;
+
+import java.time.Duration;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import software.amazon.awssdk.http.async.SdkAsyncHttpClient;
+import software.amazon.awssdk.http.crt.AwsCrtAsyncHttpClient;
+import software.amazon.awssdk.retries.DefaultRetryStrategy;
+import software.amazon.awssdk.services.s3.S3AsyncClient;
+import software.amazon.awssdk.stability.tests.exceptions.StabilityTestsRetryableException;
+import software.amazon.awssdk.testutils.retry.RetryableTest;
+
+/**
+ * Stability tests for {@link S3AsyncClient} using {@link AwsCrtAsyncHttpClient}
+ */
+public class S3AsyncWithCrtAsyncHttpClientStabilityTest extends S3AsyncBaseStabilityTest {
+
+    private static String bucketName = temporaryBucketName(S3AsyncWithCrtAsyncHttpClientStabilityTest.class);
+
+    private static S3AsyncClient s3CrtClient;
+
+    static {
+        int numThreads = Runtime.getRuntime().availableProcessors();
+        SdkAsyncHttpClient.Builder httpClientBuilder = AwsCrtAsyncHttpClient.builder()
+                .connectionMaxIdleTime(Duration.ofSeconds(5));
+
+        s3CrtClient = S3AsyncClient.builder()
+                .httpClientBuilder(httpClientBuilder)
+                .credentialsProvider(CREDENTIALS_PROVIDER_CHAIN)
+                .overrideConfiguration(b -> b.apiCallTimeout(Duration.ofMinutes(10))
+                        // Retry at test level
+                        .retryStrategy(DefaultRetryStrategy.doNotRetry()))
+                .build();
+    }
+
+    public S3AsyncWithCrtAsyncHttpClientStabilityTest() {
+        super(s3CrtClient);
+    }
+
+    @BeforeAll
+    public static void setup() {
+        s3CrtClient.createBucket(b -> b.bucket(bucketName)
+                                       .createBucketConfiguration(cfg -> cfg.tags(integTestTag()))).join();
+    }
+
+    @AfterAll
+    public static void cleanup() {
+        deleteBucketAndAllContents(s3CrtClient, bucketName);
+        s3CrtClient.close();
+    }
+
+    @Override
+    protected String getTestBucketName() { return bucketName; }
+
+    @RetryableTest(maxRetries = 3, retryableException = StabilityTestsRetryableException.class)
+    public void getBucketAcl_lowTpsLongInterval_Crt() {
+        doGetBucketAcl_lowTpsLongInterval();
+    }
+}

@@ -1,0 +1,41 @@
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to you under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+services:
+  dev:
+    image: ruby:3.3.7-slim-bullseye
+    working_dir: /root
+    command: sh -c "apt-get update && apt-get install -y build-essential git libssl-dev zlib1g-dev ruby-dev bundler && ./add-avatica-go-docs.sh && bundle install && bundle exec jekyll serve --host=0.0.0.0 --watch --force_polling"
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/root
+  build-site:
+    image: ruby:3.3.7-slim-bullseye
+    command:  sh -c "rm -rf /home/jekyll/.bundle /home/jekyll/Gemfile.lock /home/jekyll/.jekyll-cache /home/target/ && apt-get update && apt-get install -y build-essential git libssl-dev zlib1g-dev ruby-dev bundler && cd /home/jekyll && ./add-avatica-go-docs.sh && bundle install && bundle exec jekyll build && chmod -R 777 ."
+    volumes:
+      - .:/home/jekyll
+  generate-javadoc:
+    image: eclipse-temurin:8
+    working_dir: /usr/src/calcite-avatica
+    command: sh -c "./gradlew javadocAggregate; rm -rf site/target/avatica/javadocAggregate; mkdir -p site/target/avatica; mv build/docs/javadocAggregate site/target/avatica"
+    volumes:
+      - ../:/usr/src/calcite-avatica
+      - gradle-cache:/home/gradle/.gradle
+volumes:
+  gradle-cache:
+
+# End docker-compose.yml

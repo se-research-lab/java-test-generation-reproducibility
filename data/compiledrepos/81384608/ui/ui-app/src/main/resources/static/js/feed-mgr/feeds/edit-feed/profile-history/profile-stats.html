@@ -1,0 +1,7 @@
+<div>
+  <div ng-if="vm.loading">
+    <md-progress-linear class="md-accent" md-mode="indeterminate"></md-progress-linear>
+    <span flex>Loading...</span>
+  </div>
+  <profile-stats model="vm.data" hide-columns="vm.hideColumns"></profile-stats>
+</div>

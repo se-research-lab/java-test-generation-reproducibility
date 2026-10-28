@@ -1,0 +1,3 @@
+*** Test Cases ***
+TestCase
+	[Documentation]	w1	w2	w3

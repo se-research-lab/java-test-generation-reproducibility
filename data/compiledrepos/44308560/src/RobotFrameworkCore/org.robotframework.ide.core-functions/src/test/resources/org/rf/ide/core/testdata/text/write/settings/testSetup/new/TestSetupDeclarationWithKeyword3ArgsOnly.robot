@@ -1,0 +1,2 @@
+*** Settings ***
+Test Setup	keyword	arg1	arg2	arg3

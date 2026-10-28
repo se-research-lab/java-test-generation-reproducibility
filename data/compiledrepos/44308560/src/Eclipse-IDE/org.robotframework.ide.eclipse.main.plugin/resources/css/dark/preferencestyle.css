@@ -1,0 +1,49 @@
+IEclipsePreferences#org-robotframework-ide-eclipse-main-plugin {
+    preferences:
+        'red.editor.syntaxColoring.comment=128,128,128,0'
+        'red.editor.syntaxColoring.gherkin=128,255,255,1'
+        'red.editor.syntaxColoring.call=148,100,1,1'
+        'red.editor.syntaxColoring.call_lib_kw=148,100,1,1'
+        'red.editor.syntaxColoring.quote=148,100,1,1'
+        'red.editor.syntaxColoring.library=148,100,1,1'
+        'red.editor.syntaxColoring.definition=64,128,191,1'
+        'red.editor.syntaxColoring.section=233,97,148,0'
+        'red.editor.syntaxColoring.setting=255,255,128,0'
+        'red.editor.syntaxColoring.special=128,255,255,1'
+        'red.editor.syntaxColoring.default=113,193,2,2'
+        'red.editor.syntaxColoring.var=160,245,46,0'
+        'red.editor.syntaxColoring.tasks=150,140,124,1'
+}
+
+IEclipsePreferences#org-eclipse-ui-editors:org-robotframework-ide-eclipse-main-plugin {
+    preferences:
+        'org.robotframework.ide.texteditor.occurrencesMark.color=100,90,130'
+        'org.robotframework.red.cellHighlighting.color=60,55,75'
+        'org.robotframework.red.debug.currentErrorIP.color=130,40,40'
+        'org.robotframework.red.debug.secondaryErrorIP.color=80,25,25'
+}
+
+IEclipsePreferences#org-eclipse-ui-workbench:org-robot-framework-ide-eclipse-main-plugin {
+    preferences:
+        'org.robotframework.red.robotConsoleRedStream=204,204,204'
+        
+        'org.robotframework.red.table.header.grid=50,52,55'
+        'org.robotframework.red.table.header.background=82,87,91'
+        'org.robotframework.red.table.header.foreground=204,204,204'
+        'org.robotframework.red.table.header.highlighted.background=44,47,50'
+        'org.robotframework.red.table.header.underline=127,100,0'
+        
+        'org.robotframework.red.table.body.grid=60,60,60'
+        'org.robotframework.red.table.body.grid.selected=127,100,0'
+        'org.robotframework.red.table.body.selection.border=0,0,0'
+        'org.robotframework.red.table.body.foreground=204,204,204'
+        'org.robotframework.red.table.body.row.odd.background=47,47,47'
+        'org.robotframework.red.table.body.row.even.background=58,62,66'
+        'org.robotframework.red.table.body.row.highlight=57,79,34'
+        'org.robotframework.red.table.body.cell.highlight=183,165,62'
+        'org.robotframework.red.table.body.cell.inactive.background=30,30,30'
+        'org.robotframework.red.table.body.cell.inactive.foreground=80,80,80'
+        'org.robotframework.red.table.body.cell.missing.arg.background=153,62,51'
+        'org.robotframework.red.table.body.cell.optional.arg.background=109,109,90'
+        'org.robotframework.red.table.body.cell.redundant.arg.background=83,83,83'
+}

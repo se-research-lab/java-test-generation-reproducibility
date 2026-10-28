@@ -1,0 +1,583 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.codegen.poet.client;
+
+import static javax.lang.model.element.Modifier.PRIVATE;
+import static software.amazon.awssdk.codegen.poet.PoetUtils.classNameFromFqcn;
+
+import com.squareup.javapoet.ClassName;
+import com.squareup.javapoet.CodeBlock;
+import com.squareup.javapoet.MethodSpec;
+import com.squareup.javapoet.ParameterSpec;
+import com.squareup.javapoet.ParameterizedTypeName;
+import com.squareup.javapoet.TypeName;
+import com.squareup.javapoet.TypeVariableName;
+import com.squareup.javapoet.WildcardTypeName;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.Set;
+import java.util.concurrent.CompletionException;
+import java.util.function.Consumer;
+import java.util.stream.Collectors;
+import javax.lang.model.element.Modifier;
+import software.amazon.awssdk.arns.Arn;
+import software.amazon.awssdk.auth.signer.EventStreamAws4Signer;
+import software.amazon.awssdk.awscore.AwsRequestOverrideConfiguration;
+import software.amazon.awssdk.awscore.endpoints.AwsEndpointAttribute;
+import software.amazon.awssdk.awscore.endpoints.authscheme.EndpointAuthScheme;
+import software.amazon.awssdk.awscore.retry.AwsRetryStrategy;
+import software.amazon.awssdk.codegen.model.config.customization.S3ArnableFieldConfig;
+import software.amazon.awssdk.codegen.model.intermediate.IntermediateModel;
+import software.amazon.awssdk.codegen.model.intermediate.MemberModel;
+import software.amazon.awssdk.codegen.model.intermediate.OperationModel;
+import software.amazon.awssdk.codegen.model.intermediate.ShapeModel;
+import software.amazon.awssdk.codegen.model.service.ClientContextParam;
+import software.amazon.awssdk.codegen.model.service.HostPrefixProcessor;
+import software.amazon.awssdk.codegen.poet.PoetExtension;
+import software.amazon.awssdk.codegen.poet.PoetUtils;
+import software.amazon.awssdk.codegen.poet.auth.scheme.AuthSchemeSpecUtils;
+import software.amazon.awssdk.codegen.poet.rules.EndpointRulesSpecUtils;
+import software.amazon.awssdk.core.SdkClient;
+import software.amazon.awssdk.core.SdkPlugin;
+import software.amazon.awssdk.core.SdkRequest;
+import software.amazon.awssdk.core.SelectedAuthScheme;
+import software.amazon.awssdk.core.client.config.ClientOverrideConfiguration;
+import software.amazon.awssdk.core.client.config.SdkClientConfiguration;
+import software.amazon.awssdk.core.client.config.SdkClientOption;
+import software.amazon.awssdk.core.exception.SdkClientException;
+import software.amazon.awssdk.core.interceptor.ExecutionAttributes;
+import software.amazon.awssdk.core.interceptor.SdkExecutionAttribute;
+import software.amazon.awssdk.core.interceptor.SdkInternalExecutionAttribute;
+import software.amazon.awssdk.core.retry.RetryMode;
+import software.amazon.awssdk.core.signer.Signer;
+import software.amazon.awssdk.endpoints.Endpoint;
+import software.amazon.awssdk.http.auth.spi.scheme.AuthSchemeOption;
+import software.amazon.awssdk.retries.api.RetryStrategy;
+import software.amazon.awssdk.utils.AttributeMap;
+import software.amazon.awssdk.utils.CollectionUtils;
+import software.amazon.awssdk.utils.HostnameValidator;
+import software.amazon.awssdk.utils.StringUtils;
+import software.amazon.awssdk.utils.Validate;
+
+public final class ClientClassUtils {
+
+    private ClientClassUtils() {
+    }
+
+    static MethodSpec consumerBuilderVariant(MethodSpec spec, String javadoc) {
+        Validate.validState(spec.parameters.size() > 0, "A first parameter is required to generate a consumer-builder method.");
+        Validate.validState(spec.parameters.get(0).type instanceof ClassName, "The first parameter must be a class.");
+
+        ParameterSpec firstParameter = spec.parameters.get(0);
+        ClassName firstParameterClass = (ClassName) firstParameter.type;
+        TypeName consumer = ParameterizedTypeName.get(ClassName.get(Consumer.class), firstParameterClass.nestedClass("Builder"));
+
+        MethodSpec.Builder result = MethodSpec.methodBuilder(spec.name)
+                                              .returns(spec.returnType)
+                                              .addExceptions(spec.exceptions)
+                                              .addAnnotations(spec.annotations)
+                                              .addJavadoc(javadoc)
+                                              .addModifiers(Modifier.PUBLIC, Modifier.DEFAULT)
+                                              .addTypeVariables(spec.typeVariables)
+                                              .addParameter(ParameterSpec.builder(consumer, firstParameter.name).build());
+
+
+        // Parameters
+        StringBuilder methodBody = new StringBuilder("return $L($T.builder().applyMutation($L).build()");
+        for (int i = 1; i < spec.parameters.size(); i++) {
+            ParameterSpec parameter = spec.parameters.get(i);
+            methodBody.append(", ").append(parameter.name);
+            result.addParameter(parameter);
+        }
+        methodBody.append(")");
+
+        result.addStatement(methodBody.toString(), spec.name, firstParameterClass, firstParameter.name);
+
+        return result.build();
+    }
+
+    static MethodSpec applySignerOverrideMethod(PoetExtension poetExtensions, IntermediateModel model) {
+        String signerOverrideVariable = "signerOverride";
+
+        TypeVariableName typeVariableName =
+            TypeVariableName.get("T", poetExtensions.getModelClass(model.getSdkRequestBaseClassName()));
+
+        ParameterizedTypeName parameterizedTypeName = ParameterizedTypeName
+            .get(ClassName.get(Consumer.class), ClassName.get(AwsRequestOverrideConfiguration.Builder.class));
+
+        CodeBlock codeBlock = CodeBlock.builder()
+                                       .beginControlFlow("if (request.overrideConfiguration().flatMap(c -> c.signer())"
+                                                         + ".isPresent())")
+                                       .addStatement("return request")
+                                       .endControlFlow()
+                                       .addStatement("$T $L = b -> b.signer(signer).build()",
+                                                     parameterizedTypeName,
+                                                     signerOverrideVariable)
+                                       .addStatement("$1T overrideConfiguration =\n"
+                                                     + "            request.overrideConfiguration().map(c -> c.toBuilder()"
+                                                     + ".applyMutation($2L).build())\n"
+                                                     + "            .orElse((AwsRequestOverrideConfiguration.builder()"
+                                                     + ".applyMutation($2L).build()))",
+                                                     AwsRequestOverrideConfiguration.class,
+                                                     signerOverrideVariable)
+                                       .addStatement("return (T) request.toBuilder().overrideConfiguration"
+                                                     + "(overrideConfiguration).build()")
+                                       .build();
+
+        return MethodSpec.methodBuilder("applySignerOverride")
+                         .addModifiers(Modifier.PRIVATE)
+                         .addParameter(typeVariableName, "request")
+                         .addParameter(Signer.class, "signer")
+                         .addTypeVariable(typeVariableName)
+                         .addCode(codeBlock)
+                         .returns(typeVariableName)
+                         .build();
+    }
+
+    static CodeBlock callApplySignerOverrideMethod(OperationModel opModel) {
+        CodeBlock.Builder code = CodeBlock.builder();
+        ShapeModel inputShape = opModel.getInputShape();
+
+        if (inputShape.getRequestSignerClassFqcn() != null) {
+            code.addStatement("$1L = applySignerOverride($1L, $2T.create())",
+                              opModel.getInput().getVariableName(),
+                              PoetUtils.classNameFromFqcn(inputShape.getRequestSignerClassFqcn()));
+        } else if (opModel.hasEventStreamInput()) {
+            code.addStatement("$1L = applySignerOverride($1L, $2T.create())",
+                              opModel.getInput().getVariableName(), EventStreamAws4Signer.class);
+        }
+
+        return code.build();
+    }
+
+    static CodeBlock addEndpointTraitCode(OperationModel opModel) {
+        CodeBlock.Builder builder = CodeBlock.builder();
+
+        if (opModel.getEndpointTrait() != null && !StringUtils.isEmpty(opModel.getEndpointTrait().getHostPrefix())) {
+            String hostPrefix = opModel.getEndpointTrait().getHostPrefix();
+            HostPrefixProcessor processor = new HostPrefixProcessor(hostPrefix);
+
+            builder.addStatement("String hostPrefix = $S", hostPrefix);
+
+            if (processor.c2jNames().isEmpty()) {
+                builder.addStatement("String resolvedHostExpression = $S", processor.hostWithStringSpecifier());
+            } else {
+                processor.c2jNames()
+                         .forEach(name -> builder.addStatement("$T.validateHostnameCompliant($L, $S, $S)",
+                                                               HostnameValidator.class,
+                                                               inputShapeMemberGetter(opModel, name),
+                                                               name, opModel.getInput().getVariableName()));
+
+                builder.addStatement("String resolvedHostExpression = String.format($S, $L)",
+                                     processor.hostWithStringSpecifier(),
+                                     processor.c2jNames().stream()
+                                              .map(n -> inputShapeMemberGetter(opModel, n))
+                                              .collect(Collectors.joining(",")));
+            }
+        }
+
+        return builder.build();
+    }
+
+    static MethodSpec updateSdkClientConfigurationMethod(
+        TypeName serviceClientConfigurationBuilderClassName, IntermediateModel model) {
+        MethodSpec.Builder builder = MethodSpec.methodBuilder("updateSdkClientConfiguration")
+                                               .addModifiers(PRIVATE)
+                                               .addParameter(SdkRequest.class, "request")
+                                               .addParameter(SdkClientConfiguration.class, "clientConfiguration")
+                                               .returns(SdkClientConfiguration.class);
+
+        builder.addStatement("$T plugins = request.overrideConfiguration()\n"
+                             + ".map(c -> c.plugins()).orElse(Collections.emptyList())",
+                             ParameterizedTypeName.get(List.class, SdkPlugin.class));
+
+        builder.beginControlFlow("if (plugins.isEmpty())")
+               .addStatement("return clientConfiguration")
+               .endControlFlow();
+
+        builder.addStatement("$T configuration = clientConfiguration.toBuilder()", SdkClientConfiguration.Builder.class)
+               .addStatement("$1T serviceConfigBuilder = new $1T(configuration)", serviceClientConfigurationBuilderClassName)
+               .beginControlFlow("for ($T plugin : plugins)", SdkPlugin.class)
+               .addStatement("plugin.configureClient(serviceConfigBuilder)")
+               .endControlFlow();
+        EndpointRulesSpecUtils endpointRulesSpecUtils = new EndpointRulesSpecUtils(model);
+
+        if (model.getCustomizationConfig() == null ||
+            CollectionUtils.isNullOrEmpty(model.getCustomizationConfig().getCustomClientContextParams())) {
+            builder.addStatement("updateRetryStrategyClientConfiguration(configuration)");
+            builder.addStatement("return configuration.build()");
+            return builder.build();
+        }
+
+        Map<String, ClientContextParam> customClientConfigParams = model.getCustomizationConfig().getCustomClientContextParams();
+
+        builder.addCode("$1T newContextParams = configuration.option($2T.CLIENT_CONTEXT_PARAMS);\n"
+                        + "$1T originalContextParams = clientConfiguration.option($2T.CLIENT_CONTEXT_PARAMS);",
+                        AttributeMap.class, SdkClientOption.class);
+
+        builder.addCode("newContextParams = (newContextParams != null) ? newContextParams : $1T.empty();\n"
+                        + "originalContextParams = originalContextParams != null ? originalContextParams : $1T.empty();",
+                        AttributeMap.class);
+
+        customClientConfigParams.forEach((n, m) -> {
+            String keyName = model.getNamingStrategy().getEnumValueName(n);
+            builder.addStatement("$1T.validState($2T.equals(originalContextParams.get($3T.$4N), newContextParams.get($3T.$4N)),"
+                                 + " $5S)",
+                                 Validate.class, Objects.class, endpointRulesSpecUtils.clientContextParamsName(), keyName,
+                                 keyName + " cannot be modified by request level plugins");
+        });
+        builder.addStatement("updateRetryStrategyClientConfiguration(configuration)");
+        builder.addStatement("return configuration.build()");
+        return builder.build();
+    }
+
+    static Optional<CodeBlock> addS3ArnableFieldCode(OperationModel opModel, IntermediateModel model) {
+        CodeBlock.Builder builder = CodeBlock.builder();
+        Map<String, S3ArnableFieldConfig> s3ArnableFields = model.getCustomizationConfig().getS3ArnableFields();
+
+        if (s3ArnableFields != null &&
+            s3ArnableFields.containsKey(opModel.getInputShape().getShapeName())) {
+            S3ArnableFieldConfig s3ArnableField = s3ArnableFields.get(opModel.getInputShape().getShapeName());
+            String fieldName = s3ArnableField.getField();
+            MemberModel arnableMember = opModel.getInputShape().tryFindMemberModelByC2jName(fieldName, true);
+            ClassName arnResourceFqcn = classNameFromFqcn(s3ArnableField.getArnResourceFqcn());
+
+            builder.addStatement("String $N = $N.$N()", fieldName,
+                                 opModel.getInput().getVariableName(), arnableMember.getFluentGetterMethodName());
+            builder.addStatement("$T arn = null", Arn.class);
+            builder.beginControlFlow("if ($N != null && $N.startsWith(\"arn:\"))", fieldName, fieldName)
+                   .addStatement("arn = $T.fromString($N)", Arn.class, fieldName)
+                   .addStatement("$T s3Resource = $T.getInstance().convertArn(arn)",
+                                 classNameFromFqcn(s3ArnableField.getBaseArnResourceFqcn()),
+                                 classNameFromFqcn(s3ArnableField.getArnConverterFqcn()))
+                   .beginControlFlow("if (!(s3Resource instanceof $T))", arnResourceFqcn)
+                   .addStatement("throw new $T(String.format(\"Unsupported ARN type: %s\", s3Resource.type()))",
+                                 IllegalArgumentException.class)
+                   .endControlFlow()
+                   .addStatement("$T resource = ($T) s3Resource", arnResourceFqcn, arnResourceFqcn);
+
+            Map<String, String> otherFieldsToPopulate = s3ArnableField.getOtherFieldsToPopulate();
+
+            for (Map.Entry<String, String> entry : otherFieldsToPopulate.entrySet()) {
+                MemberModel memberModel = opModel.getInputShape().tryFindMemberModelByC2jName(entry.getKey(), true);
+                String variableName = memberModel.getVariable().getVariableName();
+                String arnVariableName = variableName + "InArn";
+                builder.addStatement("String $N = $N.$N()", variableName,
+                                     opModel.getInput().getVariableName(),
+                                     memberModel.getFluentGetterMethodName());
+                builder.addStatement("String $N = resource.$N",
+                                     arnVariableName,
+                                     entry.getValue());
+                builder.beginControlFlow("if ($N != null && !$N.equals($N))",
+                                         variableName,
+                                         variableName,
+                                         arnVariableName)
+                       .addStatement("throw new $T(String.format(\"%s field provided from the request (%s) is different from "
+                                     + "the one in the ARN (%s)\", $S, $N, $N))",
+                                     IllegalArgumentException.class,
+                                     variableName,
+                                     variableName, arnVariableName)
+                       .endControlFlow();
+            }
+
+            builder.add("$N = $N.toBuilder().$N(resource.$N())",
+                        opModel.getInput().getVariableName(),
+                        opModel.getInput().getVariableName(),
+                        arnableMember.getFluentSetterMethodName(),
+                        s3ArnableField.getArnResourceSubstitutionGetter());
+
+            for (Map.Entry<String, String> entry : otherFieldsToPopulate.entrySet()) {
+                MemberModel memberModel = opModel.getInputShape().tryFindMemberModelByC2jName(entry.getKey(), true);
+                String variableName = memberModel.getVariable().getVariableName();
+                String arnVariableName = variableName + "InArn";
+                builder.add(".$N($N)", memberModel.getFluentSetterMethodName(), arnVariableName);
+            }
+
+            return Optional.of(builder.addStatement(".build()").endControlFlow().build());
+        }
+        return Optional.empty();
+    }
+
+    /**
+     * Given operation and c2j name, returns the String that represents calling the
+     * c2j member's getter method in the opmodel input shape.
+     *
+     * For example, Operation is CreateConnection and c2j name is CatalogId,
+     * returns "createConnectionRequest.catalogId()"
+     */
+    private static String inputShapeMemberGetter(OperationModel opModel, String c2jName) {
+        return opModel.getInput().getVariableName() + "." +
+               opModel.getInputShape().getMemberByC2jName(c2jName).getFluentGetterMethodName() + "()";
+    }
+
+    public static MethodSpec updateRetryStrategyClientConfigurationMethod() {
+        MethodSpec.Builder builder = MethodSpec.methodBuilder("updateRetryStrategyClientConfiguration")
+                                               .addModifiers(Modifier.PRIVATE)
+                                               .addParameter(SdkClientConfiguration.Builder.class, "configuration");
+        builder.addStatement("$T builder = configuration.asOverrideConfigurationBuilder()",
+                             ClientOverrideConfiguration.Builder.class);
+        builder.addStatement("$T retryMode = builder.retryMode()", RetryMode.class);
+        builder.beginControlFlow("if (retryMode != null)")
+               .addStatement("configuration.option($T.RETRY_STRATEGY, $T.forRetryMode(retryMode))", SdkClientOption.class,
+                             AwsRetryStrategy.class);
+        builder.nextControlFlow("else");
+        builder.addStatement("$T<$T<?, ?>> configurator = builder.retryStrategyConfigurator()", Consumer.class,
+                             RetryStrategy.Builder.class);
+        builder.beginControlFlow("if (configurator != null)")
+               .addStatement("$T<?, ?>  defaultBuilder = $T.defaultRetryStrategy().toBuilder()", RetryStrategy.Builder.class,
+                             AwsRetryStrategy.class)
+               .addStatement("configurator.accept(defaultBuilder)")
+               .addStatement("configuration.option($T.RETRY_STRATEGY, defaultBuilder.build())", SdkClientOption.class);
+        builder.nextControlFlow("else");
+        builder.addStatement("$T retryStrategy = builder.retryStrategy()", RetryStrategy.class);
+        builder.beginControlFlow("if (retryStrategy != null)")
+               .addStatement("configuration.option($T.RETRY_STRATEGY, retryStrategy)", SdkClientOption.class)
+               .endControlFlow();
+        builder.endControlFlow();
+        builder.endControlFlow();
+        builder.addStatement("configuration.option($T.CONFIGURED_RETRY_MODE, null)", SdkClientOption.class);
+        builder.addStatement("configuration.option($T.CONFIGURED_RETRY_STRATEGY, null)", SdkClientOption.class);
+        builder.addStatement("configuration.option($T.CONFIGURED_RETRY_CONFIGURATOR, null)", SdkClientOption.class);
+        return builder.build();
+    }
+
+    // According to User Agent 2.0 spec, replace spaces with underscores
+    static String transformServiceId(String serviceId) {
+        return serviceId.replace(" ", "_");
+    }
+
+    static MethodSpec resolveAuthSchemeOptionsMethod(AuthSchemeSpecUtils authSchemeSpecUtils,
+                                                     EndpointRulesSpecUtils endpointRulesSpecUtils) {
+        MethodSpec.Builder builder = MethodSpec.methodBuilder("resolveAuthSchemeOptions")
+                .addModifiers(PRIVATE)
+                .returns(ParameterizedTypeName.get(ClassName.get(List.class), ClassName.get(AuthSchemeOption.class)))
+                .addParameter(SdkRequest.class, "request")
+                .addParameter(ExecutionAttributes.class, "executionAttributes");
+
+        ClassName providerInterface = authSchemeSpecUtils.providerInterfaceName();
+
+        builder.addStatement("String operationName = executionAttributes.getAttribute($T.OPERATION_NAME)",
+                             SdkExecutionAttribute.class);
+
+        // Check for request-level authSchemeProvider override
+        builder.addStatement("$T requestAuthSchemeProvider = request.overrideConfiguration()"
+                             + ".flatMap(c -> c.authSchemeProvider())"
+                             + ".map(p -> $T.isInstanceOf($T.class, p, $S))"
+                             + ".orElse(null)",
+                             providerInterface, Validate.class, providerInterface,
+                             "Expected an instance of " + authSchemeSpecUtils.providerInterfaceName().simpleName());
+        builder.addStatement("$T authSchemeProvider = requestAuthSchemeProvider != null "
+                             + "? requestAuthSchemeProvider "
+                             + ": $T.isInstanceOf($T.class, "
+                             + "executionAttributes.getAttribute($T.AUTH_SCHEME_RESOLVER), $S)",
+                             providerInterface, Validate.class, providerInterface,
+                             SdkInternalExecutionAttribute.class,
+                             "Expected an instance of " + authSchemeSpecUtils.providerInterfaceName().simpleName());
+
+        if (authSchemeSpecUtils.useEndpointBasedAuthProvider()) {
+            addEndpointBasedAuthSchemeResolution(builder, authSchemeSpecUtils, endpointRulesSpecUtils);
+        } else {
+            addSimpleAuthSchemeResolution(builder, authSchemeSpecUtils);
+        }
+
+        if (endpointRulesSpecUtils.isS3()) {
+            ClassName sdkIdentityProperty = ClassName.get("software.amazon.awssdk.core.identity", "SdkIdentityProperty");
+            builder.addStatement("$T sdkClient = executionAttributes.getAttribute($T.SDK_CLIENT)",
+                                 SdkClient.class, SdkInternalExecutionAttribute.class);
+            builder.addStatement("return options.stream().map(o -> o.toBuilder()"
+                                 + ".putIdentityProperty($T.SDK_CLIENT, sdkClient).build())"
+                                 + ".collect($T.toList())",
+                                 sdkIdentityProperty, Collectors.class);
+        } else {
+            builder.addStatement("return options");
+        }
+
+        return builder.build();
+    }
+
+    private static void addSimpleAuthSchemeResolution(MethodSpec.Builder builder,
+                                                      AuthSchemeSpecUtils authSchemeSpecUtils) {
+        ClassName paramsInterface = authSchemeSpecUtils.parametersInterfaceName();
+        ClassName awsExecutionAttribute = ClassName.get("software.amazon.awssdk.awscore", "AwsExecutionAttribute");
+
+        builder.addStatement("$T.Builder paramsBuilder = $T.builder().operation(operationName)",
+                             paramsInterface, paramsInterface);
+
+        if (authSchemeSpecUtils.usesSigV4()) {
+            builder.addStatement("paramsBuilder.region(executionAttributes.getAttribute($T.AWS_REGION))",
+                                 awsExecutionAttribute);
+        }
+
+        if (authSchemeSpecUtils.hasSigV4aSupport()) {
+            ClassName regionSet = ClassName.get("software.amazon.awssdk.http.auth.aws.signer", "RegionSet");
+            builder.addStatement("$T<String> sigv4aRegionSet = executionAttributes"
+                                     + ".getAttribute($T.AWS_SIGV4A_SIGNING_REGION_SET)",
+                                 ClassName.get(Set.class), awsExecutionAttribute);
+            builder.beginControlFlow("if (!$T.isNullOrEmpty(sigv4aRegionSet))", CollectionUtils.class);
+            builder.addStatement("paramsBuilder.regionSet($T.create(sigv4aRegionSet))", regionSet);
+            builder.endControlFlow();
+        }
+
+        builder.addStatement("$T<$T> options = authSchemeProvider.resolveAuthScheme(paramsBuilder.build())",
+                             List.class, AuthSchemeOption.class);
+    }
+
+    private static void addEndpointBasedAuthSchemeResolution(MethodSpec.Builder builder,
+                                                             AuthSchemeSpecUtils authSchemeSpecUtils,
+                                                             EndpointRulesSpecUtils endpointRulesSpecUtils) {
+        ClassName paramsInterface = authSchemeSpecUtils.parametersInterfaceName();
+        ClassName awsExecutionAttribute = ClassName.get("software.amazon.awssdk.awscore", "AwsExecutionAttribute");
+        ClassName endpointParamsClass = endpointRulesSpecUtils.parametersClassName();
+        ClassName endpointResolverUtils = endpointRulesSpecUtils.endpointResolverUtilsName();
+        ClassName sdkInternalExecutionAttribute = ClassName.get("software.amazon.awssdk.core.interceptor",
+                                                                "SdkInternalExecutionAttribute");
+
+        builder.addStatement("$T endpointParams = $T.ruleParams(request, executionAttributes)",
+                             endpointParamsClass, endpointResolverUtils);
+
+        builder.addStatement("$T.Builder paramsBuilder = $T.builder()", paramsInterface, paramsInterface);
+
+        boolean regionIncluded = false;
+        for (String paramName : endpointRulesSpecUtils.parameters().keySet()) {
+            if (!authSchemeSpecUtils.includeParamForProvider(paramName)) {
+                continue;
+            }
+            regionIncluded = regionIncluded || paramName.equalsIgnoreCase("region");
+            String methodName = endpointRulesSpecUtils.paramMethodName(paramName);
+            builder.addStatement("paramsBuilder.$1N(endpointParams.$1N())", methodName);
+        }
+
+        builder.addStatement("paramsBuilder.operation(operationName)");
+
+        if (authSchemeSpecUtils.usesSigV4() && !regionIncluded) {
+            builder.addStatement("paramsBuilder.region(executionAttributes.getAttribute($T.AWS_REGION))",
+                                 awsExecutionAttribute);
+        }
+
+        if (authSchemeSpecUtils.hasSigV4aSupport()) {
+            ClassName regionSet = ClassName.get("software.amazon.awssdk.http.auth.aws.signer", "RegionSet");
+            builder.addStatement("$T<String> sigv4aRegionSet = executionAttributes"
+                                     + ".getAttribute($T.AWS_SIGV4A_SIGNING_REGION_SET)",
+                                 ClassName.get(Set.class), awsExecutionAttribute);
+            builder.beginControlFlow("if (!$T.isNullOrEmpty(sigv4aRegionSet))", CollectionUtils.class);
+            builder.addStatement("paramsBuilder.regionSet($T.create(sigv4aRegionSet))", regionSet);
+            builder.endControlFlow();
+        }
+
+        ClassName paramsBuilderClass = authSchemeSpecUtils.parametersEndpointAwareDefaultImplName().nestedClass("Builder");
+        ClassName endpointProviderInterface = endpointRulesSpecUtils.providerInterfaceName();
+
+        builder.beginControlFlow("if (paramsBuilder instanceof $T)", paramsBuilderClass);
+        builder.addStatement("$T endpointProvider = ($T) executionAttributes.getAttribute($T.ENDPOINT_PROVIDER)",
+                             ClassName.get("software.amazon.awssdk.endpoints", "EndpointProvider"),
+                             ClassName.get("software.amazon.awssdk.endpoints", "EndpointProvider"),
+                             sdkInternalExecutionAttribute);
+        builder.beginControlFlow("if (endpointProvider instanceof $T)", endpointProviderInterface);
+        builder.addStatement("(($T) paramsBuilder).endpointProvider(($T) endpointProvider)",
+                             paramsBuilderClass, endpointProviderInterface);
+        builder.endControlFlow();
+        builder.endControlFlow();
+
+        builder.addStatement("$T<$T> options = authSchemeProvider.resolveAuthScheme(paramsBuilder.build())",
+                             List.class, AuthSchemeOption.class);
+    }
+
+    static MethodSpec resolveEndpointMethod(AuthSchemeSpecUtils authSchemeSpecUtils,
+                                            EndpointRulesSpecUtils endpointRulesSpecUtils) {
+        ClassName utilsClass = endpointRulesSpecUtils.endpointResolverUtilsName();
+        ClassName endpointParamsClass = endpointRulesSpecUtils.parametersClassName();
+        ClassName providerInterface = endpointRulesSpecUtils.providerInterfaceName();
+        ClassName awsEndpointProviderUtils = endpointRulesSpecUtils.sharedAwsEndpointProviderUtilsName();
+        ClassName awsEndpointAttribute = ClassName.get(AwsEndpointAttribute.class);
+        ClassName endpointAuthScheme = ClassName.get(EndpointAuthScheme.class);
+
+        MethodSpec.Builder b = MethodSpec.methodBuilder("resolveEndpoint")
+                         .addModifiers(PRIVATE)
+                         .returns(Endpoint.class)
+                         .addParameter(SdkRequest.class, "request")
+                         .addParameter(ExecutionAttributes.class, "executionAttributes");
+
+        b.addStatement("String operationName = executionAttributes.getAttribute($T.OPERATION_NAME)", SdkExecutionAttribute.class);
+
+        b.addStatement("$1T provider = ($1T) executionAttributes.getAttribute($2T.ENDPOINT_PROVIDER)",
+                       providerInterface, SdkInternalExecutionAttribute.class);
+
+        b.beginControlFlow("try");
+        b.addStatement("$T endpointParams = $T.ruleParams(request, executionAttributes)",
+                       endpointParamsClass, utilsClass);
+        b.addStatement("$T endpoint = provider.resolveEndpoint(endpointParams).join()", Endpoint.class);
+
+        b.beginControlFlow("if (!$T.disableHostPrefixInjection(executionAttributes))", awsEndpointProviderUtils);
+        b.addStatement("$T hostPrefix = $T.hostPrefix(operationName, request)",
+                       ParameterizedTypeName.get(Optional.class, String.class), utilsClass);
+        b.beginControlFlow("if (hostPrefix.isPresent())");
+        b.addStatement("endpoint = $T.addHostPrefix(endpoint, hostPrefix.get())", awsEndpointProviderUtils);
+        b.endControlFlow();
+        b.endControlFlow();
+
+        b.addStatement("$T endpointAuthSchemes = endpoint.attribute($T.AUTH_SCHEMES)",
+                       ParameterizedTypeName.get(ClassName.get(List.class), endpointAuthScheme),
+                       awsEndpointAttribute);
+        b.addStatement("$T selectedAuthScheme = executionAttributes.getAttribute($T.SELECTED_AUTH_SCHEME)",
+                       ParameterizedTypeName.get(ClassName.get(SelectedAuthScheme.class),
+                                                WildcardTypeName.subtypeOf(Object.class)),
+                       SdkInternalExecutionAttribute.class);
+        b.beginControlFlow("if (endpointAuthSchemes != null && selectedAuthScheme != null)");
+        b.addStatement("selectedAuthScheme = $T.authSchemeWithEndpointSignerProperties(endpointAuthSchemes, selectedAuthScheme)",
+                       utilsClass);
+
+        if (authSchemeSpecUtils.usesSigV4a() || authSchemeSpecUtils.generateEndpointBasedParams()) {
+            ClassName awsV4aAuthScheme = ClassName.get("software.amazon.awssdk.http.auth.aws.scheme", "AwsV4aAuthScheme");
+            ClassName awsV4aHttpSigner = ClassName.get("software.amazon.awssdk.http.auth.aws.signer", "AwsV4aHttpSigner");
+            ClassName regionSet = ClassName.get("software.amazon.awssdk.http.auth.aws.signer", "RegionSet");
+            ClassName authSchemeOption = ClassName.get("software.amazon.awssdk.http.auth.spi.scheme", "AuthSchemeOption");
+
+            b.addComment("Precedence of SigV4a RegionSet is set according to multi-auth SigV4a specifications");
+            b.beginControlFlow("if (selectedAuthScheme.authSchemeOption().schemeId().equals($T.SCHEME_ID) "
+                               + "&& selectedAuthScheme.authSchemeOption().signerProperty($T.REGION_SET) == null)",
+                               awsV4aAuthScheme, awsV4aHttpSigner);
+            b.addStatement("$T optionBuilder = selectedAuthScheme.authSchemeOption().toBuilder()",
+                           authSchemeOption.nestedClass("Builder"));
+            b.addStatement("$1T rs = $1T.create(endpointParams.region().id())", regionSet);
+            b.addStatement("optionBuilder.putSignerProperty($T.REGION_SET, rs)", awsV4aHttpSigner);
+            b.addStatement("selectedAuthScheme = new $T(selectedAuthScheme.identity(), selectedAuthScheme.signer(), "
+                           + "optionBuilder.build())", SelectedAuthScheme.class);
+            b.endControlFlow();
+        }
+
+        b.addStatement("executionAttributes.putAttribute($T.SELECTED_AUTH_SCHEME, selectedAuthScheme)",
+                       SdkInternalExecutionAttribute.class);
+        b.endControlFlow();
+
+        b.addStatement("$T.setMetricValues(endpoint, executionAttributes)", utilsClass);
+
+        b.addStatement("return endpoint");
+
+        b.nextControlFlow("catch ($T e)", CompletionException.class);
+        b.addStatement("$T cause = e.getCause()", Throwable.class);
+        b.beginControlFlow("if (cause instanceof $T)", SdkClientException.class);
+        b.addStatement("throw ($T) cause", SdkClientException.class);
+        b.endControlFlow();
+        b.addStatement("throw $T.create($S + cause.getMessage(), cause)",
+                       SdkClientException.class, "Endpoint resolution failed: ");
+        b.endControlFlow();
+
+        return b.build();
+    }
+
+}

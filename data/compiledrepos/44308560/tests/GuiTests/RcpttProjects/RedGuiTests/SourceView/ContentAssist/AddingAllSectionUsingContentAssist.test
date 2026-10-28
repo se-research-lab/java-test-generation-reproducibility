@@ -1,0 +1,133 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _9Bte8NYSEeijg6yKwqEQmw
+Element-Name: AddingAllSectionUsingContentAssist
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _0soLkHJoEeWGwMKsQg8irg
+Runtime-Version: 2.3.0.201806262310
+Save-Time: 2/20/19 12:13 PM
+Tags: Quick
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+with [get-view "Project Explorer" | get-tree] {
+    select RobotProject | select RobotProject | double-click
+    select "RobotProject/TestFile.robot" | select "RobotProject/TestFile.robot" | double-click
+}
+
+with [get-editor "TestFile.robot" | get-text-viewer] {
+	//remove all
+    set-caret-pos 1 1
+    key-type "M1+a"
+    key-type BackSpace
+    
+    //add Settings
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSections | get "Settings"]
+    key-type Enter
+    
+    //add Library
+    key-type "M1+SPACE"
+    key-type Down -times [$SettingsItems | get "Library"]  
+    wait 500
+    key-type Enter
+    wait 500
+    key-type Enter -times 3
+    
+    //add Test cases
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSectionsAfterSettings | get "Test Cases"]
+    key-type Enter
+    
+    //type new test
+    type-text "test 1"
+    key-type Enter
+
+	//add Log many
+    type-text LM
+    key-type "M1+SPACE"
+    key-type Enter
+    type-text "this is log many"
+    key-type Enter
+    wait 100
+    key-type Enter -times 2
+    
+    //add Variables
+    type-text bles
+    key-type "M1+SPACE"
+    key-type Enter
+    type-text "@{list}  1  2  3"
+    
+    //add new line to test and use new variable
+    key-type Up -times 2
+    
+    //add Append to list
+    type-text ATL
+    key-type "M1+SPACE"
+    wait 300
+    key-type Enter
+    wait 300
+    type-text "@"
+    key-type "M1+SPACE"
+    wait 300
+    key-type Enter
+    wait 200
+    key-type Enter
+    key-type Down -times 2
+    key-type End
+    set-caret-pos 9 17
+    key-type Enter -times 2
+    
+    //add new keyword
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSectionsAfterVariables | get "Keywords"]  
+    key-type Enter
+    type-text "My keyword"
+    key-type Enter
+
+	//add Should be equal
+    type-text "Be Equal"
+    key-type "M1+SPACE"
+    wait 300
+    key-type Down -times 2
+    key-type Enter
+    type-text 1
+    key-type Tab
+    type-text 2
+    key-type Enter
+    
+    //wait for adding keyword to content assist (time is needed if test was not saved)
+    wait 3000
+    //add this new keyword to test
+    set-caret-pos 7 34
+    key-type Enter
+    type-text My
+    key-type "M1+SPACE"
+    wait 300
+    key-type Enter 
+    wait 300
+    key-type Enter 
+
+}
+
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "Library    Collections    \n\n"
+    + "*** Test Cases ***\n"
+    + "test 1\n"
+    + "    Log Many    this is log many\n"
+    + "    Append To List    @{list}    \n"
+    + "    My keyword\n"
+    + "    \n"
+    + "*** Variables ***\n"
+    + "@{list}  1  2  3\n\n"
+    + "*** Keywords ***\n"
+    + "My keyword\n"
+    + "    Should Be Equal    1    2" | verify-true
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

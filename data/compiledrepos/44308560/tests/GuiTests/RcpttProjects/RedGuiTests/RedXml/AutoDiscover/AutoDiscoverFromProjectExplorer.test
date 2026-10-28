@@ -1,0 +1,216 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _eXb6MPp7EeW7_PzjO98BIw,_2JCD4B3CEeehL98jfxP8Sw,_SeyjkFVfEem357czkDciHA
+Element-Name: AutoDiscoverFromProjectExplorer
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _5wbGUP_mEeWRL4nRKA71zA
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 4/21/20 4:34 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+// don't do autodiscovery after sacing file
+select-to-not-run-autodiscover-after-save
+
+//select Suite to disocver
+get-view "Project Explorer" | get-tree | select "RobotProject/lib_with_variable.robot" 
+    | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" | click
+    
+//check windows with summary    
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-item multiply | get-property index | equals 0 | verify-true
+    get-item multiply | get-property "image.path" 
+        | equals "org.robotframework.ide.eclipse.main.plugin/resources/success_big.png" | verify-true
+       
+    get-item "${not_existing}\\/path\\/file.py" | get-property index | equals 1 | verify-true
+    get-item "${not_existing}\\/path\\/file.py" | get-property "image.path" 
+        | equals "org.robotframework.ide.eclipse.main.plugin/resources/error_fatal.png" | verify-true
+    get-item "lib1.py" | get-property index | equals 2 | verify-true
+    get-item "lib1.py" | get-property "image.path" 
+        | equals "org.robotframework.ide.eclipse.main.plugin/resources/error_fatal.png" | verify-true
+    get-property itemCount | equals 3 | verify-true
+}
+get-window "Discovering libraries summary" | get-button OK | click
+
+//check that lib was added to red.xml
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+get-editor "RobotProject/red.xml" | get-tab-folder | get-tab-item "Libraries" | click
+with [get-editor "RobotProject/red.xml" | get-section "Libraries" | get-tree] {
+    get-property itemCount | equals 3 | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "multiply - RobotProject\\/multiply.py" | verify-true
+}
+
+//edit and save
+get-view "Project Explorer" | get-tree | select "RobotProject/tests/test_with_relative_paths.robot" | double-click
+with [get-editor "test_with_relative_paths.robot" | get-text-viewer] {
+    set-caret-pos 2 10
+    type-text "."
+    set-caret-pos 3 10
+    type-text "."
+    set-caret-pos 4 10
+    type-text "."
+    key-type "M1+s"
+}
+get-editor "test_with_relative_paths.robot" | close
+
+get-view "Project Explorer" | get-tree | select "RobotProject/resources/resource.robot" | double-click
+with [get-editor "resource.robot" | get-text-viewer] {
+    set-caret-pos 2 12
+    type-text "../"
+    key-type "M1+s"
+}
+get-editor "resource.robot" | close
+//remove lib from red.xml
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+remove-all-libraries-from-xml
+
+//use autodiscover on folder
+get-view "Project Explorer" | get-tree | select "RobotProject/tests" 
+    | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" | click
+
+wait-for-discover-window
+   
+//check window    
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-property itemCount | equals 6 | verify-true
+    get-property "getItems().TreeItem[0].getText()" | equals add | verify-true
+    get-property "getItems().TreeItem[1].getText()" | equals divide | verify-true
+    get-property "getItems().TreeItem[2].getText()" | equals "lib_with_args" | verify-true
+    get-property "getItems().TreeItem[3].getText()" | equals multiply | verify-true
+    get-property "getItems().TreeItem[4].getText()" | equals res1 | verify-true
+    get-property "getItems().TreeItem[5].getText()" | equals "c:\\folder\\file.py" | verify-true
+}
+get-window "Discovering libraries summary" | get-button OK | click
+
+//check red.xml if all libs were added
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+with [get-editor "RobotProject/red.xml" | get-section Libraries | get-tree] {
+    get-property "getItems().length" | equals 7 | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "add - RobotProject/libs/add.py" | verify-true
+    get-property "getItems().TableItem[2].getText()" | equals "divide - RobotProject/libs/t/divide.py" | verify-true
+    get-property "getItems().TableItem[3].getText()" | equals "lib_with_args - RobotProject/libs/lib_with_args.py" 
+        | verify-true
+    get-property "getItems().TableItem[4].getText()" | equals "multiply - RobotProject/multiply.py" | verify-true
+    get-property "getItems().TableItem[5].getText()" | equals "res1 - RobotProject/libs/for_resource/res1.py" 
+        | verify-true
+    get-property "getItems().TableItem[6].getText()" | equals "...add new library file" | verify-true
+}
+//use autodiscver on .py - is  disable
+get-view "Project Explorer" | get-tree | select "RobotProject/libs/add.py"
+exec-with-options {
+    get-view "Project Explorer" | get-tree | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" 
+      | get-property enablement | equals false | verify-true
+	verify-error{get-window "Problem Occurred"}
+} -allowStatusDialog
+
+//red.xml -disable
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml"
+get-view "Project Explorer" | get-tree | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" 
+    | get-property enablement | equals false | verify-true
+    
+//.txt - enable
+get-view "Project Explorer" | get-tree | select "RobotProject/other_tests/text_file.txt"
+get-view "Project Explorer" | get-tree | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" 
+    | get-property enablement | equals true | verify-true    
+
+//.txt - enable
+get-view "Project Explorer" | get-tree | select "RobotProject/other_tests/lib_with_many_classes.robot"
+get-view "Project Explorer" | get-tree | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" 
+    | get-property enablement | equals true | verify-true    
+        
+//.ROBOT - enable
+get-view "Project Explorer" | get-tree | select "RobotProject/other_tests/capital_letter.ROBOT"
+get-view "Project Explorer" | get-tree | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" 
+    | get-property enablement | equals true | verify-true      
+
+//entire project
+get-view "Project Explorer" | get-tree | select RobotProject
+get-view "Project Explorer" | get-tree | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" 
+    | get-property enablement | equals true | verify-true
+
+//autodiscover on suite with no libs
+get-view "Project Explorer" | get-tree | select "RobotProject/other_tests/no_lib.robot" 
+    | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" | click
+wait 3000
+    
+with [get-window "Discovering libraries summary"] {
+    get-label "Discovered libraries (0):" | get-property caption | equals "Discovered libraries (0):" | verify-true
+    get-tree | get-property itemCount | equals 0 | verify-true
+}
+get-window "Discovering libraries summary" | get-button OK | click
+
+// remove referenced libraries from red.xml
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+with [get-editor "RobotProject/red.xml" | get-section "Libraries" | get-tree] {
+    key-type "M1+a"
+    key-type Del
+    key-type "M1+s"
+}
+get-view "Project Explorer" | click
+get-editor "RobotProject/red.xml" | close
+
+// run autodiscovery on resource folder
+get-view "Project Explorer" | get-tree | select "RobotProject/resources" 
+    | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" | click
+ 
+// verify if res1 is added
+get-window "Discovering libraries summary" | get-tree | get-item res1 | get-property caption | equals res1 | verify-true
+get-window "Discovering libraries summary" | get-button OK | click
+get-view "Project Explorer" | get-tree | get-item 
+    -path "RobotProject/Robot Referenced libraries/res1 RobotProject\\/libs\\/for_resource\\/res1.py \\(1\\)" 
+    | get-property caption | equals "res1 RobotProject/libs/for_resource/res1.py (1)" | verify-true
+    
+// remove referenced libraries from red.xml
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+with [get-editor "RobotProject/red.xml" | get-section "Libraries" | get-tree] {
+    select  "res1 - RobotProject\\/libs\\/for_resource\\/res1.py" | key-type Del
+    key-type "M1+s"
+}
+get-view "Project Explorer" | click
+get-editor "RobotProject/red.xml" | close
+
+// run autodiscovery on RobotProject
+get-view "Project Explorer" | get-tree | select RobotProject 
+    | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" | click
+    
+wait-for-discover-window    
+get-window "Discovering libraries summary" | get-button OK | click
+
+// verify if res1 is added
+get-view "Project Explorer" | get-tree | get-item 
+    -path "RobotProject/Robot Referenced libraries/res1 RobotProject\\/libs\\/for_resource\\/res1.py \\(1\\)" 
+    | get-property caption | equals "res1 RobotProject/libs/for_resource/res1.py (1)" | verify-true
+    
+wait-for-progress-view-to-disappear
+    
+// remove referenced libraries from red.xml
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+with [get-editor "RobotProject/red.xml" | get-section "Libraries" | get-tree] {
+    select "multiply - RobotProject\\/multiply.py"
+		"many_classes - RobotProject\\/libs\\/subfolder\\/many_classes.py"
+		"lib_with_args - RobotProject\\/libs\\/lib_with_args.py"
+		"divide - RobotProject\\/libs\\/t\\/divide.py"
+		"discover_lib - RobotProject\\/Tests_wit_lib\\/discover_lib.py"
+		 "add - RobotProject\\/libs\\/add.py" 
+		"res1 - RobotProject\\/libs\\/for_resource\\/res1.py"
+    key-type Del
+    key-type "M1+s"
+}
+get-view "Project Explorer" | click
+get-editor "RobotProject/red.xml" | close
+// run autodiscovery on resource.robot
+get-view "Project Explorer" | get-tree | select "RobotProject/resources/resource.robot" 
+    | get-menu "Robot Framework/Automatically discover and add libraries to red.xml" | click
+get-window "Discovering libraries summary" | get-button OK | click
+
+// verify if res1 is added
+get-view "Project Explorer" | get-tree | get-item 
+    -path "RobotProject/Robot Referenced libraries/res1 RobotProject\\/libs\\/for_resource\\/res1.py \\(1\\)" 
+    | get-property caption | equals "res1 RobotProject/libs/for_resource/res1.py (1)" | verify-true
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

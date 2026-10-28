@@ -1,0 +1,283 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _nus0MPsuEeW7_PzjO98BIw,_d8aMACuvEeW667Afdo4DcA
+Element-Name: MainRunConfigurationTab
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _9aBo4JQ7EeWNpL9oeriwCw
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 4/20/20 4:47 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+// run script to get Script.robot run configuration
+get-view "Project Explorer" | get-tree | select  "MediumRobotTest/Script.robot" | get-menu "Run As/1 Robot Test" | click
+
+// check if Robot entry is visible in Run Configurations
+get-menu "Run/Run Configurations..." | click
+get-window "Run Configurations" | get-tree | select "Robot/Script.robot" |click
+
+get-window "Run Configurations" | get-editbox -after [get-label "Create, manage, and run configurations"] 
+    | get-property text | equals "Edit Robot Framework parameters for launch configuration" | verify-true
+
+//check tabs
+with [get-window "Run Configurations"] {
+    with [get-tab-folder] {
+        get-property "pages[0]" | equals Robot | verify-true
+        get-property "pages[1]" | equals Listener | verify-true
+        get-property "pages[2]" | equals Executor | verify-true
+        get-property "pages[3]" | equals Environment | verify-true
+        get-property "pages[4]" | equals "&Common" | verify-true
+        get-property activePage | equals Robot | verify-true
+        get-property tabCount | equals 5 | verify-true
+    }
+    
+}
+with [get-window "Run Configurations"] {
+	//check how many groups are
+    with [get-control Any -after [get-label "Name:"] -index 8] {
+        get-property "getChildren().length" | equals 4 | verify-true
+        get-property "getChildren().Control[0].getText()" | equals Project | verify-true
+        get-property "getChildren().Control[1].getText()" | equals "Suite(s)" | verify-true
+        get-property "getChildren().Control[2].getText()" | equals Tags | verify-true
+        get-property "getChildren().Control[3].getText()" | equals Arguments | verify-true
+    }
+    
+    //check project
+    with [get-group Project] {
+        get-property "getChildren().length" | equals 1 | verify-true
+        get-property "getChildren().Control[0].getChildren().length" | equals 2 | verify-true
+        get-property "getChildren().Control[0].getChildren().Control[0].getText()" | equals MediumRobotTest 
+            | verify-true
+    }
+}
+
+//check test suites
+with [get-window "Run Configurations"] {
+    with [get-group "Suite(s)"] {
+        with [get-tree] {
+           get-item "Script.robot" | expand-all
+            get-property "getItems().TreeItem[0].getItems().length" | equals 2 | verify-true
+            get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals "CAPITAL LETTER" 
+                | verify-true
+            get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" | equals test1 | verify-true
+            get-property "getItems().TreeItem[0].getText()" | equals "Script.robot" | verify-true
+        }
+        with [get-button "Browse..."] {
+            get-property enablement | equals true | verify-true
+            get-property caption | equals "Browse..." | verify-true
+        }
+        with [get-button Remove] {
+            get-property enablement | equals true | verify-true
+            get-property caption | equals Remove | verify-true
+        }
+        with [get-button "Select All"] {
+            get-property enablement | equals true | verify-true
+            get-property caption | equals "Select All" | verify-true
+        }
+        get-button "Deselect All" | get-property enablement | equals true | verify-true
+    }
+    
+    //check tags
+    with [get-group Tags] {
+        get-property "getChildren().length" | equals 1 | verify-true
+        get-property "getChildren().Control[0].getChildren().length" | equals 4 | verify-true
+        get-button "Only run tests with these tags:" | get-property selected | equals false | verify-true
+        get-button "Skip tests with these tags:" | get-property selected | equals false | verify-true
+        get-editbox | get-property text | equals "" | verify-true
+        get-editbox -index 1 | get-property text | equals "" | verify-true
+        with [get-button "Add new tag"] {
+            get-property enablement | equals true | verify-true
+            get-property tooltip | equals "Add new tag" | verify-true
+        }
+        with [get-button "Add new tag" -index 1] {
+            get-property enablement | equals true | verify-true
+            get-property tooltip | equals "Add new tag" | verify-true
+        }
+    }
+    
+    
+}
+//arguments
+with [get-window "Run Configurations" | get-group Arguments] {
+    get-property "getChildren().length" | equals 2 | verify-true
+    get-property "getChildren().Control[0].getText()" | equals "Additional Robot Framework arguments:" | verify-true
+    
+    get-property "getChildren().Control[1].getChildren().length" | equals 2 | verify-true
+    get-property "getChildren().Control[1].getChildren().Control[0].getText()" | equals "" | verify-true
+    get-property "getChildren().Control[1].getChildren().Control[0].getEditable()" | equals true | verify-true
+    get-property "getChildren().Control[1].getChildren().Control[1].getChildren().length" | equals 1 | verify-true
+    get-property "getChildren().Control[1].getChildren().Control[1].getChildren().Control[0].getText()" | equals "Variables..." | verify-true
+}
+
+//open variables window
+with [get-window "Run Configurations"] {
+    get-group Arguments | get-button "Variables..." | click
+}
+
+get-window "Run Configurations" | get-window "Select Variable" 
+    | get-label "Choose a variable (? = any character, * = any string):" | get-property caption 
+    | equals "&Choose a variable (? = any character, * = any string):" | verify-true
+get-window "Run Configurations" | get-window "Select Variable" | get-button Cancel | click
+
+//change configuration name an run test
+get-menu "Run/Run Configurations..." | click
+get-window "Run Configurations" | get-tree | select "Robot/Script.robot"
+with [get-window "Run Configurations"] {
+    get-editbox -after [get-label "Name:"] | set-text "newName.robot"
+    get-button Apply | click
+    get-button Run | click
+}
+//check execution view
+wait 3000
+with [get-view "Execution View" | get-tree] {
+    get-item "MediumRobotTest \\(.* s\\)/Script \\(.* s\\)/CAPITAL LETTER \\(.* s\\)" | get-property childCount 
+        | equals 0 | verify-true
+    get-item "MediumRobotTest \\(.* s\\)/Script \\(.* s\\)/test1 \\(.* s\\)" | get-property index | equals 1 
+        | verify-true
+    get-item "MediumRobotTest \\(.* s\\)/Script \\(.* s\\)" | get-property childCount | equals 2 | verify-true
+}
+
+//add new empty run configuration
+get-menu "Run/Run Configurations..." | click
+get-window "Run Configurations" | get-button "New launch configuration" | click
+with [get-window "Run Configurations"] {
+    with [get-editbox -after [get-label "Name:"]] {
+        get-property enablement | equals true | verify-true
+        get-property text | equals "New_configuration" | verify-true
+    }
+    with [get-group Tags] {
+        get-button "Only run tests with these tags:" | get-property selected | equals false | verify-true
+        get-button "Skip tests with these tags:" | get-property selected | equals false | verify-true
+    }
+    get-group Project | get-editbox | get-property text | equals "" | verify-true
+    get-group "Suite(s)" | get-tree | get-property itemCount | equals 0 | verify-true
+    
+    get-group Arguments | get-editbox  -after [get-label "Additional Robot Framework arguments:"] | get-property text | equals "" | verify-true
+}
+
+//select test without selecting project
+get-window "Run Configurations" | get-group "Suite(s)" | get-button "Browse..." | click
+with [get-window "Run Configurations" | get-window "Select suite"] {
+    get-tree | get-property itemCount | equals 0 | verify-true
+    get-label "No entries available." | get-property caption | equals "No entries available." | verify-true
+    get-button OK | get-property enablement | equals false | verify-true
+    get-button Cancel | get-property enablement | equals true | verify-true
+    get-button Cancel | click
+}
+
+//select project
+with [get-window "Run Configurations"] {
+    get-group Project | get-button "Browse..." | click
+}
+
+//check that are 2 projects
+with [get-window "Run Configurations" | get-window "Select project" | get-tree] {
+    get-property itemCount | equals 2 | verify-true
+    get-property "getItems().TreeItem[0].getText()" | equals MediumRobotTest | verify-true
+    get-property "getItems().TreeItem[1].getText()" | equals SecondProject | verify-true
+}
+//select second project
+with [get-window "Run Configurations"] {
+    with [get-window "Select project"] {
+        get-tree | select SecondProject
+        get-button OK | click
+    }
+    
+    //select test from project
+    get-group "Suite(s)" | get-button "Browse..." | click
+}
+
+//check that is only one project in window
+with [get-window "Run Configurations" | get-window "Select suite" | get-tree] {
+    get-property itemCount | equals 1 | verify-true
+    get-property "getItems().length" | equals 1 | verify-true
+}
+
+//check how many items from project are shown
+get-window "Run Configurations" | get-window "Select suite" | get-tree | select "SecondProject/SingleTest.robot"
+get-window "Run Configurations" | get-window "Select suite" | get-tree 
+    | get-property "getItems().TreeItem[0].getItemCount()" | equals 1 | verify-true
+    
+//select tsv file    
+get-window "Run Configurations" | get-window "Select suite" | get-tree | select "SecondProject/SingleTest.robot" 
+    | double-click
+
+//check that 2 tests are shown to be selected    
+with [get-window "Run Configurations" | get-group "Suite(s)" | get-tree] {
+    get-item "SingleTest.robot" | get-property checked | equals true | verify-true
+    get-item "SingleTest.robot/test1" | get-property checked | equals true | verify-true
+    get-item "SingleTest.robot/test2" | get-property checked | equals true | verify-true
+}
+with [get-window "Run Configurations" | get-group "Suite(s)" | get-tree] {
+    get-property "getItems().TreeItem[0].getText()" | equals "SingleTest.robot" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals test1 | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" | equals test2 | verify-true
+    get-property "getItems().TreeItem[0].getItemCount()" | equals 2 | verify-true
+}
+//select only on test (test1) and run 
+with [get-window "Run Configurations"] {
+    get-group "Suite(s)" | get-tree | get-item "SingleTest.robot/test2" | uncheck
+    get-button Apply | click
+    get-button Run | click
+}
+
+wait 2000
+//check execution view
+with [get-view "Execution View" | get-tree] {
+    get-item "SecondProject \\(.* s\\)/SingleTest \\(.* s\\)" | get-property childCount | equals 1 | verify-true
+    get-item "SecondProject \\(.* s\\)/SingleTest \\(.* s\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "test1 \\(.* s\\)" | verify-true
+}
+
+// add tests form SecondSuit to MediumRobotTest project run configuration
+get-menu -path "Run/Run Configurations..." | click
+with [get-window "Run Configurations"] {
+    get-tree | select "Robot/newName.robot"
+    get-group "Suite(s)" | get-button "Browse..." | click
+    with [get-window "Select suite"] {
+        get-tree | select "MediumRobotTest/SecondSuite.robot"
+        get-button OK | click
+    }
+}
+// verify if test from SecondProject ware aded
+with [get-window "Run Configurations" | get-group "Suite(s)" | get-tree] {
+    get-item -path "SecondSuite.robot" | get-property caption | equals "SecondSuite.robot" | verify-true
+    get-item -path "SecondSuite.robot/test1" | get-property caption | equals test1 | verify-true
+    get-item -path "SecondSuite.robot/test2" | get-property caption | equals test2 | verify-true
+}
+// aply and run tests
+with [get-window "Run Configurations"] {
+    get-button Apply | click
+    get-button Run | click
+}
+//check execution view
+wait 3500
+// verify if all test passed
+with [get-view "Execution View"] {
+    get-label "Tests: 4/4" | get-property caption | equals "Tests: 4/4" | verify-true
+    get-label "Passed: 4" | get-property caption | equals "Passed: 4" | verify-true
+    get-label "Failed: 0" | get-property caption | equals "Failed: 0" | verify-true
+}
+// verify if all test are on the Execution View
+get-view "Execution View" | get-button "Expand All" | click
+with [get-view "Execution View" | get-tree] {
+    get-property "getItems().TreeItem[0].getText()" | equals "MediumRobotTest \\(.* s\\)" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals "Script \\(.* s\\)" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[0].getText()" 
+        | equals "CAPITAL LETTER \\(.* s\\)" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[1].getText()" 
+        | equals "test1 \\(.* s\\)" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" | equals "SecondSuite \\(.* s\\)" 
+        | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getItems().TreeItem[0].getText()" 
+        | equals "test1 \\(.* s\\)" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getItems().TreeItem[1].getText()" 
+        | equals "test2 \\(.* s\\)" | verify-true
+}
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

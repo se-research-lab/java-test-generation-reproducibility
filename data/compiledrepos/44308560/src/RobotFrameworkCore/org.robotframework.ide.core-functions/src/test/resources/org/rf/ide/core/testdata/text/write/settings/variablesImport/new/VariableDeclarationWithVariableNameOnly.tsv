@@ -1,0 +1,2 @@
+*** Settings ***
+Variables	newVar.py

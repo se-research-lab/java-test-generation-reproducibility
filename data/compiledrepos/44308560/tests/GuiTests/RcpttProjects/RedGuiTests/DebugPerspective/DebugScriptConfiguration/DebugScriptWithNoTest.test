@@ -1,0 +1,98 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _xG4GMBU-EeeZSZgUeG7ZOA,_OCxtEBRGEeWWV9IuysVI_A,_2Q6oEPOSEeaWpbE3jg39cA,_d8aMACuvEeW667Afdo4DcA,_s-ctEA4_EeePcNCRX_abWA,_YLsq8BVSEeeZSZgUeG7ZOA
+Element-Name: DebugScriptWithNoTest
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: __tiIYBVQEeeZSZgUeG7ZOA
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 1/17/18 11:40 AM
+Tags: Debug
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+prepere-run-config
+
+let [val script_name [os-specific "script_win.bat" "script_lin.sh"]]{
+	//Add BP
+	get-view "Project Explorer" | get-tree | select "ScriptProject/TestFile.robot" | double-click
+	get-editor "TestFile.robot" | get-left-ruler | get-ruler-column AnnotationColumn | double-click-ruler 5
+	
+	//open file annd chanage content
+	get-view "Project Explorer" | get-tree | select [format "ScriptProject/scripts/%s" $script_name ] | get-menu "Open With/Text Editor" | click
+    
+	    
+	//add echo
+
+	with [get-editor $script_name | get-text-viewer] {
+	    set-caret-pos 1 1
+	    key-type "M1+a"
+	    key-type BackSpace
+	    type-text [os-specific "@echo off" "#!/usr/bin/env bash"]
+	    key-type Enter
+	    type-text "echo Hello!"
+	    key-type "M1+s"
+	}
+
+	//debug test
+	get-view "Project Explorer" | get-tree | select "ScriptProject/TestFile.robot" | get-menu "Debug As/1 Robot Test" 
+	    | click
+	try - -times 4 -delay 500 -command{
+		get-view Console | get-text-viewer | get-property "getLineCount()" | equals 4 | verify-true
+	}
+	
+	//check console    
+	try -command{
+		get-view Console | get-text-viewer | get-property text 
+		    | equals [format "Command: .*%s .* .*python.* -m robot.run --listener .*TestRunnerAgent.py:43981 --argumentfile .*\.arg .*ScriptProject\n"
+		    + "Suite Executor: <unknown>\n"
+		    + "Hello!" $script_name] | verify-true
+	}-catch{
+		get-view Console | get-text-viewer | get-property text 
+		    | equals [format "Hello!\n"
+		    + "Command: .*%s .* .*python.* -m robot.run --listener .*TestRunnerAgent.py:43981 --argumentfile .*\.arg .*ScriptProject\n"
+		    + "Suite Executor: <unknown>" $script_name] | verify-true
+	}    
+	get-view "Execution View" | get-tree | get-property itemCount | equals 0 | verify-true
+	
+	get-view "Message Log" | click
+	get-view "Message Log" | get-editbox | get-property text | equals "" | verify-true
+	
+	//check that devug perspective is open
+	get-view Debug | get-tree | select "<terminated>TestFile.robot [Robot]/Robot Test at 127.0.0.1:43981"
+	get-view Debug | get-tree | get-item "<terminated>TestFile.robot \\[Robot\\]/Robot Test at 127.0.0.1:43981" 
+	    | get-property caption | equals "Robot Test at 127.0.0.1:43981" | verify-true    
+
+
+
+	//RED-750
+//	//change to incorrect commend
+//	get-button Robot | click	    
+//    with [get-editor $script_name | get-text-viewer] {
+//	    set-caret-pos 1 7
+//	    key-type "M1+a"
+//	    key-type Del
+//	    type-text "wrong_command"
+//	    key-type "M1+s"
+//	}
+//	
+//	//debug
+//	exec-with-options {
+//		get-button "Debug.*" | click
+//		if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{
+//			get-view Console | get-text-viewer | get-property text 
+//			    | contains"'wrong_command' is not recognized as an internal or external command,\n"
+//			    + "operable program or batch file." | verify-true
+//	
+//		}-else{
+//			get-view Console | get-text-viewer | get-property text 
+//			    | contains"line 1: wrong_command: command not found" | verify-true
+//		}
+//	} -allowStatusDialog
+} 
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

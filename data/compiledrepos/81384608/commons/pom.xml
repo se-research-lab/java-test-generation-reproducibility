@@ -1,0 +1,36 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.thinkbiganalytics.kylo</groupId>
+    <artifactId>kylo</artifactId>
+    <version>0.10.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>kylo-commons</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+    <plugin.license.parentRelative>../</plugin.license.parentRelative>
+  </properties>
+
+  <modules>
+    <module>commons-security</module>
+    <module>commons-util7</module>
+    <module>commons-util</module>
+    <module>commons-feed-util</module>
+    <module>commons-rest-model</module>
+    <module>commons-rest-client</module>
+    <module>commons-jdbc</module>
+    <module>commons-jpa</module>
+    <module>commons-spark</module>
+    <module>commons-hive</module>
+    <module>commons-spring</module>
+    <module>commons-test-persistence</module>
+    <module>commons-test</module>
+    <module>commons-velocity-api</module>
+    <module>commons-velocity-core</module>
+    <module>commons-hadoop</module>
+  </modules>
+</project>

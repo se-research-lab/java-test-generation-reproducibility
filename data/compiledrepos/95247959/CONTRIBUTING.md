@@ -1,0 +1,223 @@
+# Contributing to the AWS SDK for Java
+Thank you for your interest in contributing the AWS SDK for Java! We work hard
+to provide a high quality and useful SDK for our customers, and we appreciate
+your interest in helping us and the rest of our community of users. We welcome
+bug reports, feature requests, and code contributions.
+
+__Jump To:__
+* [Bug Reports](#bug-reports)
+* [Feature Requests](#feature-requests)
+* [Code Contributions](#code-contributions)
+* [Running CI Checks Locally](#running-ci-checks-locally)
+* [Automated Tools](#automated-tools)
+* [Additional Resources](#additional-resources)
+
+## Bug Reports
+Bug reports are accepted through [this][bug-report] page.
+
+The following labels are used to track bug related issues: [Bug][label-bug],
+[Documentation Issue][label-doc-issue].
+
+### Before Submitting a Bug Report
+Before submitting a bug report, please do the following:
+
+1. Do a search through the existing issues to make sure it has not already been
+   reported. If there's an existing one, be sure give a 👍 reaction which will
+   help us prioritize which issues to address first.
+
+2. If possible, upgrade to the latest release of the SDK. The SDK has a near
+   daily release cadence so it's possible the bug has already been fixed in the
+   latest version. We maintain a strong backwards compatibility guarantee
+   between patch version releases so you can be confident that your application
+   will continue to work as expected with the newer version.
+
+If, after doing the above steps, you determine that you need to submit a bug
+report, refer to the next section.
+
+### Submitting a Bug Report
+So that we are able to assist you as effectively as possible with the issue, 
+please ensure that your bug report has the following:
+
+* A short, descriptive title. Ideally, other community members should be able
+  to get a good idea of the issue just from reading the title.
+* A succinct, detailed description of the problem you're experiencing. This
+  should include:
+  * Expected behavior of the SDK and the actual behavior exhibited.
+  * Any details of your application environment that may be relevant. At
+    minimum, this should include the __SDK version__ and __JRE version__.
+  * If applicable, the exception stacktrace.
+  * If you are able to create one, include a [Minimal Working Example][mwe]
+    that reproduces the issue.
+* [Markdown][markdown] formatting as appropriate to make the report easier to
+  read; for example use code blocks when pasting a code snippet and exception
+  stacktraces.
+
+## Feature Requests
+Feature requests are submitted through [this][feature-request] page.
+
+As with Bug Reports, please do a search of the open requests first before
+submitting a new one to avoid duplicates. If you find an existing one, give it
+a +1.
+
+__NOTE:__ If this is a feature you intend to implement, please be sure to
+submit the feature request *before* working on any code changes. This will
+allow members on the SDK team to have a discussion with you to ensure that it's
+the right design and that it makes sense to include in the SDK. Keep in mind
+that other concerns like source and binary compatibility will also play a
+deciding factor.
+
+Feature requests are labeled with [feature-request][label-feature-request].
+
+### Submitting a Feature Request
+Open an [issue][issues] with the following:
+
+* A short, descriptive title. Ideally, other community members should be able
+  to get a good idea of the feature just from reading the title.
+* A detailed description of the proposed feature. Include justification for
+  why it should be added to the SDK, and possibly example code to illustrate
+  how it should work.
+* [Markdown][markdown] formatting as appropriate to make the request easier to
+  read.
+* If you intend to implement this feature, check the "I may be able to
+  implement this feature request" option in the issue template
+
+## Code Contributions
+Code contributions to the SDK are done through [Pull Requests][pull-requests].
+Please keep the following in mind when considering a code contribution:
+
+* The SDK is released under the [Apache 2.0 License][license].
+
+   Any code you submit will be released under this license. If you are
+   contributing a large/substantial feature, you may be asked to sign a
+   Contributor License Agreement (CLA).
+* For anything but very small or quick changes, you should always start by
+  checking the [Issues][issues] page to see if the work is already being done
+  by another person.
+
+  If you're working on a bug fix, check to see if the bug has already been
+  reported. If it has, comment on the issue to indicate you intend to submit a
+  fix. If you're confident the bug hasn't been reported yet, create a new [Bug
+  Report](#bug-reports).
+
+  If you are thinking about adding entirely new functionality, open a [Feature
+  Request](#feature-requests) to ask for feedback first before beginning work;
+  again this is to make sure that no one else is already working on it, and
+  also that it makes sense to be included in the SDK.
+* All code contributions must be accompanied with new or modified tests that
+  verify that the code works as expected; i.e. that the issue has been fixed or
+  that the functionality works as intended.
+
+### Your First Code Change
+For detailed information on getting started building and making code changes to
+the SDK, refer to our [Working on the SDK](./docs/GettingStarted.md) doc
+
+### Pull Request Readiness
+Before submitting your pull request, refer to the pull request readiness
+checklist below:
+
+* [ ] Includes tests to exercise the new behavior
+* [ ] Code is documented, especially public and user-facing constructs
+* [ ] Local run of `./mvnw package`(Linux) or `./mvnw.cmd package`(Windows) succeeds
+* [ ] Git commit message is detailed and includes context behind the change
+* [ ] If the change is related to an existing Bug Report or Feature Request,
+  the issue number is referenced
+* [ ] A short description of the change added to
+  [CHANGELOG.md](./CHANGELOG.md). Adding a new entry must be accomplished by
+  running the `scripts/new-change` script and following the instructions.
+  Commit the new file created by the script in `.changes/next-release` with
+  your changes.
+
+__Note__: Some changes have additional requirements. Refer to the section below
+to see if your change will require additional work to be accepted.
+
+#### Additional Pull Request Requirements
+##### Reactive Streams
+If the change includes implementations of the [Reactive Streams
+interfaces](https://github.com/reactive-streams/reactive-streams-jvm), the
+change must also contain verification tests using the [Reactive Streams
+Technology Compatibility
+Kit](https://github.com/reactive-streams/reactive-streams-jvm/tree/master/tck)
+to ensure specification compliance.
+
+### Getting Your Pull Request Merged
+All Pull Requests must be approved by at least one member of the SDK team
+before it can be merged in. The members only have limited bandwidth to review
+Pull Requests so it's not unusual for a Pull Request to go unreviewed for a few
+days, especially if it's a large or complex one. If, after a week, your Pull
+Request has not had any engagement from the SDK team, feel free to ping a
+member to ask for a review.
+
+### Running CI Checks Locally
+
+CI runs unit tests, integration tests, Checkstyle, and SpotBugs on every PR. 
+While not required before opening a PR, running these locally helps catch issues early and speeds up the code review cycle.
+
+#### Unit Tests (Full Build)
+
+```sh
+mvn clean install
+```
+
+To iterate faster, build only the modules you're working on:
+
+```sh
+mvn clean install -pl :dynamodb-enhanced -am
+```
+
+#### Integration Tests
+
+Integration tests make real AWS API calls and will incur costs to the account owner. 
+They require an `aws-test-account` profile in `~/.aws/credentials`:
+
+```
+[aws-test-account]
+aws_access_key_id = <your-access-key>
+aws_secret_access_key = <your-secret-key>
+```
+
+If this profile is not found, the tests fall back to the default credential provider chain.
+
+```sh
+# All integration tests
+mvn clean install -Dskip.unit.tests -P integration-tests -Dfindbugs.skip -Dcheckstyle.skip
+
+# Specific module
+mvn clean install -pl :dynamodb-enhanced -am -Dskip.unit.tests -P integration-tests -Dfindbugs.skip -Dcheckstyle.skip
+```
+
+## Automated Tools
+
+The use of AI tooling for assisted development work is accepted and encouraged
+in this repository, but due to the volume of submissions we ask that you observe
+the following rules:
+
+- All issue and pull request submissions to this repository that are sourced by
+  AI must first be reviewed by a human before submitting to the repository.
+  Items reviewed in this way must include a statement like "generated by AI
+  tools, and reviewed by <person>"
+- Please ensure that your submissions are actually improvements. While we are
+  grateful for any proposed fixes, even if they are very small, behavior that
+  looks like creating nuisance PRs or artificially inflating submission counts
+  is not acceptable.
+- We may close issues or pull requests, or limit your ability to interact with
+  this repository, for behavior that in our estimation violates these rules or
+  any of the other rules in this repository's
+  [Code of Conduct](CODE_OF_CONDUCT.md)
+
+## Additional Resources
+We maintain [docs](docs/README.md) where information like design decisions, internal
+architecture, and style conventions are documented that you may find helpful
+when contributing to the SDK.
+
+
+[license]: ./LICENSE.txt
+[mwe]: https://en.wikipedia.org/wiki/Minimal_Working_Example
+[markdown]: https://guides.github.com/features/mastering-markdown/
+[issues]: https://github.com/aws/aws-sdk-java-v2/issues
+[pull-requests]: https://github.com/aws/aws-sdk-java-v2/pulls
+[label-bug]: https://github.com/aws/aws-sdk-java-v2/labels/bug
+[label-doc-issue]: https://github.com/aws/aws-sdk-java-v2/labels/documentation
+[label-feature-request]: https://github.com/aws/aws-sdk-java-v2/labels/feature-request
+[git-rewriting-history]: https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
+[bug-report]: https://github.com/aws/aws-sdk-java-v2/issues/new?assignees=&labels=bug%2Cneeds-triage&template=bug-report.yml&title=%28short+issue+description%29
+[feature-request]: https://github.com/aws/aws-sdk-java-v2/issues/new?assignees=&labels=feature-request%2Cneeds-triage&template=feature-request.yml&title=%28short+issue+description%29

@@ -1,0 +1,84 @@
+<!--
+  #%L
+  template-info.component.html
+  %%
+  Copyright (C) 2017 ThinkBig Analytics
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  #L%
+  -->
+<td-layout-nav color="none">
+  <div td-toolbar-content>
+    <div class="cursor-pointer" (click)="cancel()">Templates</div>
+  </div>
+  <mat-progress-bar mode="indeterminate" color="accent" *ngIf="loading || enabling || disabling"></mat-progress-bar>
+  <div fxLayout="row" class="centered push-top">
+    <mat-card fxFlex="65%" *ngIf="!loading">
+      <div layout="row">
+        <div class="card-title push-top push-left tc-grey-800 push-bottom">{{template.templateName}}</div>
+        <span flex></span>
+        <ng-md-icon *ngIf="template.icon && template.state != 'NOT REGISTERED'" [icon]="template.icon" class="push-right" size="30" [style.fill]="template.iconColor"></ng-md-icon>
+      </div>
+      <mat-card-subtitle>{{template.description}}</mat-card-subtitle>
+      <mat-divider></mat-divider>
+      <mat-card-content>
+        <div layout="column">
+          <div layout="column" class="layout-padding-top-bottom">
+            <div class="hint">State</div>
+            <div ng-class="{'enabled':template.state == 'ENABLED','disabled':template.state != 'ENABLED'}">
+              <ng-md-icon [icon]="template.state == 'ENABLED' ? 'check_circle' : 'block'" size="20" [class]="template.state == 'ENABLED' ? 'tc-positive' : 'disabled'">
+              </ng-md-icon>
+              {{template.state}}
+            </div>
+          </div>
+
+          <div layout="column" class="layout-padding-top-bottom">
+            <div class="hint">Last Updated</div>
+            <div>{{template.updateDate | date: 'MM/dd/yyyy h:mm:ssa'}}</div>
+          </div>
+          <div layout="column" class="layout-padding-top-bottom">
+            <div class="hint">Feeds</div>
+            <div>{{template.feedsCount}}</div>
+          </div>
+          <div layout="column" class="layout-padding-top-bottom" *ngIf="template.changeComments && template.changeComments.length > 0">
+            <div class="hint">Change History</div>
+            <div>
+              <template-change-comments [updates]="template.changeComments"></template-change-comments>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+      <mat-divider inset="false"></mat-divider>
+      <mat-card-actions>
+        <div fxLayout="row" fxLayoutAlign="end center">
+          <button mat-button color="primary" class="text-upper" *ngIf="allowEdit" (click)="editTemplate()">
+            <ng-md-icon icon="edit" size="20" class="tc-accent"></ng-md-icon>
+            <span>Edit</span>
+          </button>
+          <button mat-button color="primary"  class="text-upper"  *ngIf="template.state == 'DISABLED'" (click)="enableTemplate()">
+            <ng-md-icon icon="check_circle" size="20"></ng-md-icon>
+            <span>Enable</span>
+          </button>
+          <button mat-button color="primary"  class="text-upper"  *ngIf="template.state == 'ENABLED'" (click)="disableTemplate()">
+            <ng-md-icon icon="block" size="20"></ng-md-icon>
+            <span>Disable</span>
+          </button>
+          <button mat-button color="primary" class="text-upper"   *ngIf="allowExport" (click)="confirmPublish()">
+            <ng-md-icon icon="publish" size="20" ></ng-md-icon>
+            <span>Publish</span>
+          </button>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</td-layout-nav>

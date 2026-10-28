@@ -1,0 +1,1 @@
+<li><a href="/wiki" class="button">Open (in Czech)</a></li>

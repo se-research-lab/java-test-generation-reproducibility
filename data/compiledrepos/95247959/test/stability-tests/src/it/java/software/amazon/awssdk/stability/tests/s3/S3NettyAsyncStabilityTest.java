@@ -1,0 +1,55 @@
+package software.amazon.awssdk.stability.tests.s3;
+
+import static software.amazon.awssdk.testutils.service.S3BucketUtils.temporaryBucketName;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import software.amazon.awssdk.http.nio.netty.NettyNioAsyncHttpClient;
+import software.amazon.awssdk.retries.DefaultRetryStrategy;
+import software.amazon.awssdk.services.s3.S3AsyncClient;
+import software.amazon.awssdk.stability.tests.exceptions.StabilityTestsRetryableException;
+import software.amazon.awssdk.testutils.retry.RetryableTest;
+
+import java.time.Duration;
+
+public class S3NettyAsyncStabilityTest extends S3AsyncBaseStabilityTest {
+
+    private static String bucketName = temporaryBucketName(S3NettyAsyncStabilityTest.class);
+
+    private static S3AsyncClient s3NettyClient;
+
+    static {
+        s3NettyClient = S3AsyncClient.builder()
+                .httpClientBuilder(NettyNioAsyncHttpClient.builder()
+                        .maxConcurrency(CONCURRENCY))
+                .credentialsProvider(CREDENTIALS_PROVIDER_CHAIN)
+                .overrideConfiguration(b -> b.apiCallTimeout(Duration.ofMinutes(10))
+                        // Retry at test level
+                        .retryStrategy(DefaultRetryStrategy.doNotRetry()))
+                .build();
+    }
+
+    public S3NettyAsyncStabilityTest() {
+        super(s3NettyClient);
+    }
+
+    @BeforeAll
+    public static void setup() {
+        s3NettyClient.createBucket(b -> b.bucket(bucketName)
+                                         .createBucketConfiguration(cfg -> cfg.tags(integTestTag()))).join();
+    }
+
+    @AfterAll
+    public static void cleanup() {
+        deleteBucketAndAllContents(s3NettyClient, bucketName);
+        s3NettyClient.close();
+    }
+
+    @Override
+    protected String getTestBucketName() { return bucketName; }
+
+    @RetryableTest(maxRetries = 3, retryableException = StabilityTestsRetryableException.class)
+    public void getBucketAcl_lowTpsLongInterval_Netty() {
+        doGetBucketAcl_lowTpsLongInterval();
+    }
+}

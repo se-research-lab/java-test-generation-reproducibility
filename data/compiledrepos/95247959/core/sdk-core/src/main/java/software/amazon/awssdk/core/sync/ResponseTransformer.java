@@ -1,0 +1,366 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.core.sync;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.nio.ByteBuffer;
+import java.nio.file.AccessDeniedException;
+import java.nio.file.DirectoryNotEmptyException;
+import java.nio.file.FileAlreadyExistsException;
+import java.nio.file.Files;
+import java.nio.file.NoSuchFileException;
+import java.nio.file.Path;
+import java.time.Duration;
+import java.util.Map;
+import software.amazon.awssdk.annotations.SdkProtectedApi;
+import software.amazon.awssdk.annotations.SdkPublicApi;
+import software.amazon.awssdk.core.ResponseBytes;
+import software.amazon.awssdk.core.ResponseInputStream;
+import software.amazon.awssdk.core.exception.RetryableException;
+import software.amazon.awssdk.core.exception.SdkClientException;
+import software.amazon.awssdk.core.exception.SdkException;
+import software.amazon.awssdk.core.internal.http.InterruptMonitor;
+import software.amazon.awssdk.core.retry.RetryPolicy;
+import software.amazon.awssdk.http.AbortableInputStream;
+import software.amazon.awssdk.utils.IoUtils;
+import software.amazon.awssdk.utils.Logger;
+import software.amazon.awssdk.utils.internal.EnumUtils;
+
+/**
+ * Interface for processing a streaming response from a service in a synchronous fashion. This interfaces gives
+ * access to the unmarshalled response POJO which may contain metadata about the streamed contents. It also provides access
+ * to the content via an {@link AbortableInputStream}. Callers do not need to worry about calling {@link InputStream#close()}
+ * on the content, but if they wish to stop reading data from the stream {@link AbortableInputStream#abort()} may be called
+ * to kill the underlying HTTP connection. This is generally not recommended and should only be done when the cost of reading
+ * the rest of the data exceeds the cost of establishing a new connection. If callers do not call abort and do not read all
+ * of the data in the stream, then the content will be drained by the SDK and the underlying HTTP connection will be returned to
+ * the connection pool (if applicable).
+ * <h3>Retries</h3>
+ * <p>
+ * Exceptions thrown from the transformer's {@link #transform(Object, AbortableInputStream)} method are not automatically retried
+ * by the RetryPolicy of the client. Since we can't know if a transformer implementation is idempotent or safe to retry, if you
+ * wish to retry on the event of a failure you must throw a {@link SdkException} with retryable set to true from the transformer.
+ * This exception can wrap the original exception that was thrown. Note that throwing a {@link
+ * SdkException} that is marked retryable from the transformer does not guarantee the request will be retried,
+ * retries are still limited by the max retry attempts and retry throttling
+ * feature of the {@link RetryPolicy}.
+ *
+ * <h3>Thread Interrupts</h3>
+ * <p>
+ * Implementations should have proper handling of Thread interrupts. For long running, non-interruptible tasks, it is recommended
+ * to check the thread interrupt status periodically and throw an {@link InterruptedException} if set. When an {@link
+ * InterruptedException} is thrown from a interruptible task, you should either re-interrupt the current thread and return or
+ * throw that {@link InterruptedException} from the {@link #transform(Object, AbortableInputStream)} method. Failure to do these
+ * things may prevent the SDK from stopping the request in a timely manner in the event the thread is interrupted externally.
+ *
+ * @param <ResponseT> Type of unmarshalled POJO response.
+ * @param <ReturnT>   Return type of the {@link #transform(Object, AbortableInputStream)} method. Implementations are free to
+ * perform whatever transformations are appropriate.
+ */
+@FunctionalInterface
+@SdkPublicApi
+public interface ResponseTransformer<ResponseT, ReturnT> {
+    /**
+     * Process the response contents.
+     *
+     * @param response    Unmarshalled POJO response
+     * @param inputStream Input stream of streamed data.
+     * @return Transformed type.
+     * @throws Exception if any error occurs during processing of the response. This will be re-thrown by the SDK, possibly
+     *                   wrapped in an {@link SdkClientException}.
+     */
+    ReturnT transform(ResponseT response, AbortableInputStream inputStream) throws Exception;
+
+    /**
+     * Hook to allow connection to be left open after the SDK returns a response. Useful for returning the InputStream to
+     * the response content from the transformer.
+     *
+     * @return True if connection (and InputStream) should be left open after the SDK returns a response, false otherwise.
+     */
+    default boolean needsConnectionLeftOpen() {
+        return false;
+    }
+
+    /**
+     * Each ResponseTransformer should return a well-formed name that can be used to identify the implementation.
+     * The Transformer name should only include alphanumeric characters.
+     *
+     * @return String containing the identifying name of this RequestTransformer.
+     */
+    default String name() {
+        return TransformerType.UNKNOWN.name();
+    }
+
+    /**
+     * Creates a response transformer that writes all response content to the specified file. If the file already exists
+     * then a {@link FileAlreadyExistsException} will be thrown.
+     *
+     * <p>The file's parent directories must already exist. The SDK will not auto-create directories, and a
+     * {@link NoSuchFileException} will be thrown if they are missing.
+     *
+     * @param path        Path to file to write to.
+     * @param <ResponseT> Type of unmarshalled response POJO.
+     * @return ResponseTransformer instance.
+     */
+    static <ResponseT> ResponseTransformer<ResponseT, ResponseT> toFile(Path path) {
+        return new ResponseTransformer<ResponseT, ResponseT>() {
+            @Override
+            public ResponseT transform(ResponseT response, AbortableInputStream inputStream) throws Exception {
+                try {
+                    InterruptMonitor.checkInterrupted();
+                    Files.copy(inputStream, path);
+                    return response;
+                } catch (IOException copyException) {
+                    String copyError = copyErrorMessage(path, copyException);
+
+                    if (shouldThrowIOException(copyException)) {
+                        throw new IOException(copyError, copyException);
+                    }
+
+                    // Try to clean up the file so that we can retry the request. If we can't delete it, don't retry the request.
+                    try {
+                        Files.deleteIfExists(path);
+                    } catch (IOException deletionException) {
+                        Logger.loggerFor(ResponseTransformer.class)
+                              .error(() -> "Failed to delete destination file '" + path +
+                                           "' after reading the service response " +
+                                           "failed.", deletionException);
+
+                        throw new IOException(copyError + ". Additionally, the file could not be cleaned up (" +
+                                              deletionException.getMessage() + "), so the request will not be retried.",
+                                              copyException);
+                    }
+
+                    // Retry the request
+                    throw RetryableException.builder().message(copyError).cause(copyException).build();
+                }
+            }
+
+            @Override
+            public String name() {
+                return TransformerType.FILE.getName();
+            }
+        };
+    }
+
+    /**
+     * If the write failed because of the state of the file, if the specified directory doesn't exist, or if the specified
+     * directory does not have write permissions, don't retry the request.
+     */
+    static boolean shouldThrowIOException(IOException copyException) {
+        return copyException instanceof FileAlreadyExistsException ||
+               copyException instanceof DirectoryNotEmptyException ||
+               copyException instanceof NoSuchFileException ||
+               copyException instanceof AccessDeniedException;
+    }
+
+    static String copyErrorMessage(Path path, IOException copyException) {
+        String baseMessage = "Failed to read response into file: " + path;
+        if (copyException instanceof NoSuchFileException) {
+            return baseMessage + ". Verify that the file's parent directories exist."
+                   + " The SDK will not auto-create them.";
+        }
+        return baseMessage;
+    }
+
+    /**
+     * Creates a response transformer that writes all response content to the specified file. If the file already exists
+     * then a {@link FileAlreadyExistsException} will be thrown.
+     *
+     * <p>The file's parent directories must already exist. The SDK will not auto-create directories, and a
+     * {@link NoSuchFileException} will be thrown if they are missing.
+     *
+     * @param file        File to write to.
+     * @param <ResponseT> Type of unmarshalled response POJO.
+     * @return ResponseTransformer instance.
+     */
+    static <ResponseT> ResponseTransformer<ResponseT, ResponseT> toFile(File file) {
+        return toFile(file.toPath());
+    }
+
+    /**
+     * Creates a response transformer that writes all response content to the given {@link OutputStream}. Note that
+     * the {@link OutputStream} is not closed or flushed after writing.
+     *
+     * @param outputStream Output stream to write data to.
+     * @param <ResponseT>  Type of unmarshalled response POJO.
+     * @return ResponseTransformer instance.
+     */
+    static <ResponseT> ResponseTransformer<ResponseT, ResponseT> toOutputStream(OutputStream outputStream) {
+        return new ResponseTransformer<ResponseT, ResponseT>() {
+            @Override
+            public ResponseT transform(ResponseT response, AbortableInputStream inputStream) throws Exception {
+                InterruptMonitor.checkInterrupted();
+                IoUtils.copy(inputStream, outputStream);
+                return response;
+            }
+
+            @Override
+            public String name() {
+                return TransformerType.STREAM.getName();
+            }
+        };
+    }
+
+    /**
+     * Creates a response transformer that loads all response content into memory, exposed as {@link ResponseBytes}. This allows
+     * for conversion into a {@link String}, {@link ByteBuffer}, etc.
+     *
+     * @param <ResponseT> Type of unmarshalled response POJO.
+     * @return The streaming response transformer that can be used on the client streaming method.
+     */
+    static <ResponseT> ResponseTransformer<ResponseT, ResponseBytes<ResponseT>> toBytes() {
+        return new ResponseTransformer<ResponseT, ResponseBytes<ResponseT>>() {
+            @Override
+            public ResponseBytes<ResponseT> transform(ResponseT response, AbortableInputStream inputStream) throws Exception {
+                try {
+                    InterruptMonitor.checkInterrupted();
+                    return ResponseBytes.fromByteArrayUnsafe(response, IoUtils.toByteArray(inputStream));
+                } catch (IOException e) {
+                    throw RetryableException.builder().message("Failed to read response.").cause(e).build();
+                }
+            }
+
+            @Override
+            public String name() {
+                return TransformerType.BYTES.getName();
+            }
+        };
+    }
+
+    /**
+     * Creates a response transformer that returns an unmanaged input stream with the response content. This input stream must
+     * be explicitly closed to release the connection. The unmarshalled response object can be obtained via the {@link
+     * ResponseInputStream#response()} method.
+     * <p>
+     * The stream has a default timeout of 60 seconds that starts when the response stream is ready. If no read operation occurs
+     * within this time, the connection will be automatically aborted. Use {@link #toInputStream(Duration)} to specify a custom
+     * timeout.
+     * <p>
+     * Note that the returned stream is not subject to the retry policy or timeout settings (except for socket timeout)
+     * of the client. No retries will be performed in the event of a socket read failure or connection reset.
+     *
+     * @param <ResponseT> Type of unmarshalled response POJO.
+     * @return ResponseTransformer instance.
+     * @see #toInputStream(Duration)
+     */
+    static <ResponseT> ResponseTransformer<ResponseT, ResponseInputStream<ResponseT>> toInputStream() {
+        return unmanaged(new ResponseTransformer<ResponseT, ResponseInputStream<ResponseT>>() {
+            @Override
+            public ResponseInputStream<ResponseT> transform(ResponseT response, AbortableInputStream inputStream) {
+                return new ResponseInputStream<>(response, inputStream);
+            }
+
+            @Override
+            public String name() {
+                return TransformerType.STREAM.getName();
+            }
+        });
+    }
+
+    /**
+     * Creates a response transformer that returns an unmanaged input stream with the response content and a custom timeout.
+     * This input stream must be explicitly closed to release the connection.
+     * <p>
+     * The timeout starts when the response stream is ready. If no read operation occurs within the specified timeout, the
+     * connection will be automatically aborted. To disable the timeout, pass {@link Duration#ZERO} or a negative
+     * {@link Duration}.
+     *
+     * @param timeout Maximum time to wait for first read operation before aborting. Use {@link Duration#ZERO} or a negative
+     * {@link Duration} to disable timeout.
+     * @param <ResponseT> Type of unmarshalled response POJO.
+     * @return ResponseTransformer instance.
+     * @see #toInputStream()
+     */
+    static <ResponseT> ResponseTransformer<ResponseT, ResponseInputStream<ResponseT>> toInputStream(Duration timeout) {
+        return unmanaged(new ResponseTransformer<ResponseT, ResponseInputStream<ResponseT>>() {
+            @Override
+            public ResponseInputStream<ResponseT> transform(ResponseT response, AbortableInputStream inputStream) {
+                return new ResponseInputStream<>(response, inputStream, timeout);
+            }
+
+            @Override
+            public String name() {
+                return TransformerType.STREAM.getName();
+            }
+        });
+    }
+
+    /**
+     * Static helper method to create a response transformer that allows the connection to be left open. Useful for creating a
+     * {@link ResponseTransformer} with a lambda or method reference rather than an anonymous inner class.
+     *
+     * @param transformer     Transformer to wrap.
+     * @param <ResponseT> Type of unmarshalled response POJO.
+     * @param <ReturnT>   Return type of transformer.
+     * @return New {@link ResponseTransformer} which does not close the connection afterwards.
+     */
+    static <ResponseT, ReturnT> ResponseTransformer<ResponseT, ReturnT> unmanaged(
+        ResponseTransformer<ResponseT, ReturnT> transformer) {
+        return new ResponseTransformer<ResponseT, ReturnT>() {
+            @Override
+            public ReturnT transform(ResponseT response, AbortableInputStream inputStream) throws Exception {
+                InterruptMonitor.checkInterrupted();
+                return transformer.transform(response, inputStream);
+            }
+
+            @Override
+            public boolean needsConnectionLeftOpen() {
+                return true;
+            }
+
+            @Override
+            public String name() {
+                return transformer.name();
+            }
+        };
+    }
+
+    @SdkProtectedApi
+    enum TransformerType {
+        FILE("File", "f"),
+        BYTES("Bytes", "b"),
+        STREAM("Stream", "s"),
+        UNKNOWN("Unknown", "u");
+
+        private static final Map<String, TransformerType> VALUE_MAP =
+            EnumUtils.uniqueIndex(TransformerType.class, TransformerType::getName);
+
+        private final String name;
+        private final String shortValue;
+
+
+        TransformerType(String name, String shortValue) {
+            this.name = name;
+            this.shortValue = shortValue;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public String getShortValue() {
+            return shortValue;
+        }
+
+        public static String shortValueFromName(String name) {
+            return VALUE_MAP.getOrDefault(name, UNKNOWN).getShortValue();
+        }
+    }
+}

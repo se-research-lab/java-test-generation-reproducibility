@@ -1,0 +1,36 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: Help_ScriptsForCreatingScreenshots
+Element-Type: context
+Element-Version: 2.0
+Id: _i5HT0BFhEei5lb3IGvxDdQ
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 2/16/18 2:55 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+global [val screenshot_base_folder [run-process-and-trim  "python" "-c"  "import os;print(os.environ['WORKSPACE']) if ('WORKSPACE' in os.environ) else 'd:/help_screens'" ]]
+
+proc "gui-view-screenshot" [val activePage] [val scr_path]{
+  
+  loop [val index [int 0]] {
+    let [val folder [get-tab-folder -index $index]] {
+      let [val folderActivePage [$folder | get-property activePage -raw]] {
+        if [$folderActivePage | eq $activePage] {
+          $folder |get-object| save-screenshot [concat $screenshot_base_folder $screenshot_local_folder $scr_path]   //returning result
+        } -else { recur [$index | plus 1] }
+      }
+    }
+  }
+}
+
+proc "create-sub-folders" [val folderPaths]{
+	run-process-and-trim "python" "-c" [concat  "import os; a='" [replace $folderPaths -old "\\" -new "/"] "';os.makedirs(a) if  os.path.exists(a) == False else None"]
+
+}
+
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

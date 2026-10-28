@@ -1,0 +1,4 @@
+*** Settings ***
+Suite Setup
+...	key
+...	arg	#cm1	cm2	cm3

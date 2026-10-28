@@ -1,0 +1,84 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _9Bte8NYSEeijg6yKwqEQmw
+Element-Name: MoveFolderWithNonSavedFileAndEditorOpened
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _7EzTMPfVEeSx2Y7ZMEilqw
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 10/23/18 3:10 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+RED-82 , if fixed this test will pass
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//create folder
+
+get-view "Project Explorer" | get-tree | select RobotProject | get-menu "New/Robot suites folder" | click
+with [get-window "New Robot suites folder"] {
+    get-editbox -after [get-label "Folder name:"] | set-text NewFolder
+    get-button Finish | click
+}
+
+//create file
+get-view "Project Explorer" | get-tree | select "RobotProject/NewFolder" | get-menu "New/Robot Test Suite" | click
+with [get-window "New Robot Test Suite"] {
+    get-editbox -after [get-label "File name:"] | set-text "newFile.robot"
+    get-button Finish | click
+}
+//edit file
+with [get-editor "newFile.robot" | get-text-viewer] {
+    set-caret-pos 1 19
+    key-type Enter
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSections | get "Keywords"] 
+    key-type Enter
+}
+wait 100
+
+
+//move folder
+with [get-view "Project Explorer" | get-tree] {
+    select "RobotProject/NewFolder"
+    get-item "RobotProject/NewFolder" | drag-start 19 9
+    get-item "RobotProject/NewFolder/newFile.robot" | drag-enter 4 0 -detail move
+    get-item "RobotProject/NewFolder/newFile.robot" | drag-over 6 16
+    get-item "RobotProject/TestSuiteFolder" | drag-over 26 7 -detail move
+    get-item "RobotProject/NewFolder/newFile.robot" | drag-exit
+    get-item "RobotProject/TestSuiteFolder" | drag-accept 26 7 -detail move
+    drag-set-data
+    get-item "RobotProject/TestSuiteFolder" | drop 26 7 -detail move
+    drag-end -detail move
+}
+
+
+//Save file
+get-window "Save Resource" | get-button $Save_changes_button | click
+
+// Open moved file
+get-view "Project Explorer" | get-tree | select "RobotProject/TestSuiteFolder/NewFolder/newFile.robot" | double-click
+
+
+// double click on file in Project Explorer - editor is still open therefore already opened editor should be focused
+get-tab-folder -index 1 | get-property tabCount | equals 1 | verify-true 
+
+// close editor and reopen to check if file was saved before move
+
+get-editor "newFile.robot" | close
+get-view "Project Explorer" | get-tree | select "RobotProject/TestSuiteFolder/NewFolder/newFile.robot" | double-click
+get-editor "newFile.robot" | get-tab-folder | get-tab-item Source | click
+
+// check if opened file consists changes made in the beggining of the test
+
+get-editor "newFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+    + "*** Keywords ***" | verify-true
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

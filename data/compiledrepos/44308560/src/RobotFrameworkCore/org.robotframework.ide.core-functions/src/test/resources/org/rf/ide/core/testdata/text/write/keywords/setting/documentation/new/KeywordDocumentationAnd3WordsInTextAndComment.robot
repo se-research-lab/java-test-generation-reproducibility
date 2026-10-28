@@ -1,0 +1,3 @@
+*** Keywords ***
+User Keyword
+	[Documentation]	w1	w2	w3	#cm1	cm2	cm3

@@ -1,0 +1,25 @@
+
+.scrollbar-width { min-width: 5px }
+
+.strike {
+  text-decoration: line-through;
+}
+
+.pointer {cursor: pointer;}
+
+.unchecked-text {
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.mat-form-field-width {
+  width:800px;
+}
+
+.mat-error-font-12 {
+  font-size: 12px;
+}
+
+.selected-column-card .mat-card-header .mat-card-header-text {
+  overflow: hidden !important;
+}

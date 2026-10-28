@@ -1,0 +1,7 @@
+namespace examples
+
+type Math {
+    int b
+    int c
+    int calc(int a) = a + b * c
+}

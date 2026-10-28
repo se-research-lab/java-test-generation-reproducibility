@@ -1,0 +1,58 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: ContentAssist
+Element-Type: context
+Element-Version: 2.0
+Id: _9Bte8NYSEeijg6yKwqEQmw
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 10/24/18 4:58 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+global [val MainSections [map 
+   [entry "Comment" 0]
+   [entry "Keywords" 1] 
+   [entry "Settings" 2] 
+   [entry "Tasks" 3]
+   [entry "Test Cases" 4]
+   [entry "Variables" 5]]] 
+   
+global [val MainSectionsAfterVariables [map 
+   [entry "Comment" 3]
+   [entry "Keywords" 4] 
+   [entry "Settings" 5] 
+   [entry "Tasks" 6]
+   [entry "Test Cases" 7]
+   [entry "Variables" 8]]]   
+   
+global [val MainSectionsAfterSettings[map 
+   [entry "Comment" 13]
+   [entry "Keywords" 14] 
+   [entry "Settings" 15] 
+   [entry "Tasks" 16]
+   [entry "Test Cases" 17]
+   [entry "Variables" 18]]]
+   
+   
+global [val SettingsItems [map 
+   [entry "Default Tags" 0]
+   [entry "Documentation" 1] 
+   [entry "Force Tags" 2] 
+   [entry "Library" 3]
+   [entry "Metadata" 4]
+   [entry "Resource" 5]     
+   [entry "Suite Setup" 6]        
+   [entry "Suite Teardown" 7]      
+   [entry "Test Setup" 8]      
+   [entry "Test Teardown" 9]      
+   [entry "Test Template" 10]      
+   [entry "Test Timeout" 11]           
+   [entry "Variables" 12]]]        
+   
+   
+   
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

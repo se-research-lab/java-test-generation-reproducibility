@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RED Robot Editor Tests
+Bundle-SymbolicName: org.robotframework.ide.eclipse.main.plugin.tests;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.robotframework.ide.eclipse.main.plugin;bundle-version="0.5.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Nokia Solutions and Networks
+Require-Bundle: org.eclipse.equinox.event
+Bundle-ClassPath: .,
+ lib/assertj-core-3.14.0.jar,
+ lib/mockito-core-3.2.4.jar,
+ lib/objenesis-3.1.jar,
+ lib/byte-buddy-1.10.6.jar,
+ lib/byte-buddy-agent-1.10.6.jar
+Automatic-Module-Name: org.robotframework.ide.eclipse.main.plugin.tests
+Import-Package: javax.annotation,
+ org.junit,
+ org.junit.jupiter.api,
+ org.junit.jupiter.api.condition,
+ org.junit.jupiter.api.extension,
+ org.junit.jupiter.api.io,
+ org.junit.jupiter.engine.execution,
+ org.junit.jupiter.params,
+ org.junit.jupiter.params.provider,
+ org.junit.platform.commons,
+ org.junit.platform.commons.support

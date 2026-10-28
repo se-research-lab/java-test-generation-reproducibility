@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>kylo-hadoop-authorization-ranger-default</artifactId>
+    <groupId>com.thinkbiganalytics.kylo.plugins</groupId>
+    <version>0.10.1-SNAPSHOT</version>
+  </parent>
+  <properties>
+    <plugin.license.parentRelative>../../../</plugin.license.parentRelative>
+  </properties>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>kylo-ranger-rest-client</artifactId>
+
+  <dependencies>
+    <dependency>
+      <artifactId>kylo-commons-rest-client</artifactId>
+      <version>${project.version}</version>
+      <groupId>com.thinkbiganalytics.kylo</groupId>
+    </dependency>
+    <dependency>
+      <artifactId>kylo-hadoop-authorization-core</artifactId>
+      <version>${project.version}</version>
+      <groupId>com.thinkbiganalytics.kylo</groupId>
+    </dependency>
+    <dependency>
+      <artifactId>kylo-hadoop-authorization-api</artifactId>
+      <version>${project.version}</version>
+      <groupId>com.thinkbiganalytics.kylo</groupId>
+    </dependency>
+    <dependency>
+      <artifactId>kylo-commons-util7</artifactId>
+      <version>${project.version}</version>
+      <groupId>com.thinkbiganalytics.kylo</groupId>
+    </dependency>
+    <dependency>
+      <groupId>com.googlecode.json-simple</groupId>
+      <artifactId>json-simple</artifactId>
+      <version>1.1</version>
+    </dependency>
+  </dependencies>
+</project>

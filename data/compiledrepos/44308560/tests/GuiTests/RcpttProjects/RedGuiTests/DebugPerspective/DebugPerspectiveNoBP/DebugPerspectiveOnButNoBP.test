@@ -1,0 +1,107 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _OCxtEBRGEeWWV9IuysVI_A,_dCes0BXWEeW05sQKg0mypw
+Element-Name: DebugPerspectiveOnButNoBP
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _0JFPYBQ-EeWWV9IuysVI_A
+Runtime-Version: 2.4.2.201905080442
+Save-Time: 5/22/19 5:59 PM
+Tags: Debug
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+RED-747
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//open test 
+with [get-view "Project Explorer" | get-tree] {
+    select RunRobotScriptInDebugPerspective | double-click
+    select "RunRobotScriptInDebugPerspective/SimpleLoggingTestCase.robot" | double-click
+}
+//switch to test case view
+get-editor "SimpleLoggingTestCase.robot" | get-tab-folder | get-tab-item "Test Cases" | click
+
+//run in debug
+with [get-view "Project Explorer" | get-tree] {
+    select "RunRobotScriptInDebugPerspective/SimpleLoggingTestCase.robot" | get-menu "Debug As/1 Robot Test" | click
+}
+
+
+//check if Source is not active - no BP set
+with [get-editor "SimpleLoggingTestCase.robot" | get-tab-folder] {
+    get-property "pages[0]" | equals "Test Cases" | verify-true
+    get-property "pages[1]" | equals Keywords | verify-true
+    get-property "pages[2]" | equals Settings | verify-true
+    get-property "pages[3]" | equals Variables | verify-true
+    get-property "pages[4]" | equals Source | verify-true
+    get-property activePage | equals "Test Cases" | verify-true
+}
+
+//check tab list with BP and Variables
+
+
+
+if [$is_eclipse_photon | equals True]{
+	check-tab-folder -tab_index 3 -active_page "Variables" -pages [list "Variables"  "Breakpoints" "Expressions"]
+}-else{
+	check-tab-folder -tab_index 3 -active_page "Variables" -pages [list "Variables"  "Breakpoints"] 
+}
+get-view Breakpoints | get-tree | get-property itemCount | equals 0 | verify-true
+get-view Variables | get-tree | get-property itemCount | equals 0 | verify-true
+
+//check Debug tab
+with [get-view Debug | get-tree] {
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals "Robot Test at .*" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" 
+        |  equals [format "<terminated, exit value: .*"]| verify-true
+}
+
+//check Outline
+get-menu -path "Window/Show View/Outline" | click
+get-view Outline | get-button "Expand All" | click
+
+with [get-view Outline | get-tree] {
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals Variables | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItemCount()" | equals 1 | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" | equals Settings | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getItemCount()" | equals 0 | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[2].getText()" | equals "Test Cases" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[2].getItemCount()" | equals 2 | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[3].getText()" | equals Keywords | verify-true
+    get-property "getItems().TreeItem[0].getItemCount()" | equals 4 | verify-true
+}
+with [get-view Outline | get-tree] {
+    get-item "SimpleLoggingTestCase.robot/Test Cases" | get-property "getItems().length" | equals 2 | verify-true
+    get-item "SimpleLoggingTestCase.robot/Test Cases" | get-property "getItems().TreeItem[0].getItems().length" 
+        | equals 3 | verify-true
+    get-item "SimpleLoggingTestCase.robot/Test Cases" 
+        | get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals Log | verify-true
+    get-item "SimpleLoggingTestCase.robot/Test Cases" 
+        | get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" | equals "Set Variable" | verify-true
+    get-item "SimpleLoggingTestCase.robot/Test Cases" 
+        | get-property "getItems().TreeItem[0].getItems().TreeItem[2].getText()" | equals Log | verify-true
+    get-item "SimpleLoggingTestCase.robot/Test Cases" | get-property "getItems().TreeItem[0].getText()" 
+        | equals firstTest | verify-true
+    get-item "SimpleLoggingTestCase.robot/Test Cases" 
+        | get-property "getItems().TreeItem[1].getItems().TreeItem[0].getText()" | equals "Get Length" | verify-true
+}
+
+//check Message log
+get-view "Message Log" | get-editbox | get-property text | matches [concat "Starting test: RunRobotScriptInDebugPerspective\.SimpleLoggingTestCase\.firstTest\n" 
+[concat_str_with_regex [list  "1\\n"  "\\$\\{variable\\} = 10\\n"  "10"]] "\nEnding test: RunRobotScriptInDebugPerspective\.SimpleLoggingTestCase\.firstTest\n\n" 
+"Starting test: RunRobotScriptInDebugPerspective\.SimpleLoggingTestCase\.secondTest\n" [concat_str_with_regex [list "Length is 6"]] 
+"\nEnding test: RunRobotScriptInDebugPerspective\.SimpleLoggingTestCase\.secondTest"]
+| verify-true
+
+//check if test is finished
+get-view Console | get-button Terminate | get-property enablement | equals false | verify-true
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

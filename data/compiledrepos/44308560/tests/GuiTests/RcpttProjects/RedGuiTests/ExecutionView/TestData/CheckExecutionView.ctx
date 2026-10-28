@@ -1,0 +1,68 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: CheckExecutionView
+Element-Type: context
+Element-Version: 2.0
+Id: _QflXwDDFEee-I-80nLsBOw
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 9/3/18 3:47 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc "check-execution-view-labels" [val pass 0] [val fail 0] [val current_test 0] [val all 0] [val pb "1.0"] [val bar_color] {
+	with [get-view "Execution View"] {
+	    get-label [format "Tests: %s/%s" $current_test $all]| get-property enablement | equals true | verify-true
+	    get-label [format "Passed: %s" $pass]| get-property enablement | equals true | verify-true
+	    get-label [format "Failed: %s" $fail] | get-property enablement | equals true  | verify-true
+	}
+	
+	//progress bar
+	get-view "Execution View" | get-canvas | get-property "getProgress()" | equals $pb | verify-true
+	
+	//color	
+	if [$bar_color | eq "red"]{
+		get-view "Execution View" | get-canvas | get-property "getBarColor()" | equals "#B40000" | verify-true
+	}
+	if [$bar_color | eq "green"]{
+		get-view "Execution View" | get-canvas | get-property "getBarColor()" | equals "#00B400"  | verify-true
+	}
+	if [$bar_color | eq "no_color"]{
+		get-view "Execution View" | get-canvas | get-property "getBarColor()" | equals "#FFFFFF" | verify-true
+	}
+	
+}	
+
+proc "execution-view-for-mixed-test"{
+	with [get-view "Execution View" | get-tree] {
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[0].getText()" 
+	        | equals "CAPITAL LETTER \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[1].getText()" 
+	        | equals "test1 \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[2].getText()" 
+	        | equals "test2 \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[3].getText()" 
+	        | equals "failing test \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[4].getText()" 
+	        | equals "convert to lower case \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[5].getText()" 
+	        | equals "make dict \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[6].getText()" 
+	        | equals "check resource \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[7].getText()" 
+	        | equals "keyword are lowercase from resource \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[8].getText()" 
+	        | equals "double loop \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[9].getText()" 
+	        | equals "test that containf FAIL command \(0[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItems().TreeItem[10].getText()" 
+	        | equals "time with sleep command \(2[\.,]\d\d?\d? s\)" | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals "Normal Cases \([23].\d\d?\d? s\)" 
+	        | verify-true
+	    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getItemCount()" | equals 11 | verify-true
+	    get-property "getItems().TreeItem[0].getText()" | equals "ExecutionViewProject \([23][\.,]\d\d?\d? s\)" | verify-true
+	}
+}
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

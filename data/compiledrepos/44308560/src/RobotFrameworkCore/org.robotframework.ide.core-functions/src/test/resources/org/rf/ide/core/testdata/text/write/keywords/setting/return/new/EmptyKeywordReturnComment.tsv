@@ -1,0 +1,3 @@
+*** Keywords ***
+User Keyword
+	[Return]	#cm1	cm2	cm3

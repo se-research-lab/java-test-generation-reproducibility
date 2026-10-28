@@ -1,0 +1,39 @@
+package com.spotify.flo.dsl
+
+import com.spotify.flo.EvalContext.Value
+import com.spotify.flo.Task
+import com.spotify.flo._
+
+import scala.reflect.ClassTag
+
+object FloTask {
+  def named[Z: ClassTag](name: String, args: Any*): TaskBuilder0[Z] = new Builder0(name, args:_*)
+}
+
+@SerialVersionUID(1L)
+trait TaskBuilder0[Z] extends Serializable {
+  def process(fn: => Z): Task[Z]
+  def input[A](task: => Task[A]): TaskBuilder1[A, Z, Z]
+  def inputs[A](tasks: => List[Task[A]]): TaskBuilder1[List[A], Z, Z]
+
+  def context[A](taskContextGeneric: TaskContextGeneric[A]): TaskBuilder1[A, Z, Z]
+  def output[A](taskOutput: TaskOutput[A, Z]): TaskBuilder1[A, Z, Z]
+  def operator[A, Y](taskOperator: TaskOperator[A, Y, Z]): TaskBuilder1[A, Y, Z]
+}
+{{#genBuilder}}
+
+@SerialVersionUID(1L)
+trait TaskBuilder{{arity}}[{{typeArgs}}, Y, Z] extends Serializable {
+  def process(fn: ({{typeArgs}}) => Y): Task[Z]
+  {{^iter.isLast}}
+
+  def context[{{nextArg}}](taskContextGeneric: TaskContextGeneric[{{nextArg}}]): TaskBuilder{{arityPlus}}[{{typeArgs}}, {{nextArg}}, Y, Z]
+  def output[{{nextArg}}](taskOutput: TaskOutput[{{nextArg}}, Z]): TaskBuilder{{arityPlus}}[{{typeArgs}}, {{nextArg}}, Y, Z]
+  def operator[{{nextArg}}, YN](taskOperator: TaskOperator[{{nextArg}}, YN, Z]): TaskBuilder{{arityPlus}}[{{typeArgs}}, {{nextArg}}, YN, Z]
+
+  def input[{{nextArg}}](task: => Task[{{nextArg}}]): TaskBuilder{{arityPlus}}[{{typeArgs}}, {{nextArg}}, Y, Z]
+
+  def inputs[{{nextArg}}](tasks: => List[Task[{{nextArg}}]]): TaskBuilder{{arityPlus}}[{{typeArgs}}, List[{{nextArg}}], Y, Z]
+  {{/iter.isLast}}
+}
+{{/genBuilder}}

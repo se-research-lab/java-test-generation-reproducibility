@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "RWPromise": "*",
+    "mocha": "*",
+    "nock": "*",
+    "chai": "*",
+    "chai-as-promised": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

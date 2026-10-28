@@ -1,0 +1,195 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: ColouringTestWithComments
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _LssiYIPXEeWImNPXuPy_LQ
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 4/17/20 1:43 PM
+Testcase-Type: ecl
+Verifications: _Z93QAIPZEeWImNPXuPy_LQ,_YOOasI7XEeWetPU-dn-gxQ,_lf2sEPncEea7hL0QdGOb6w
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+with [get-view "Project Explorer" | get-tree] {
+    select "RobotProject/TestFile.robot" | double-click
+}
+get-editor "TestFile.robot" | get-text-viewer | set-text  "*** Settings ***\n"
+    + "Library  String\n"
+    + "#comment in settings\n"
+    + "Library  Collections\n"
+    + "Resource  my_keywords.robot\n"
+    + "#Resource  not.robot\n"
+    + "Test Setup  simple case\n"
+    + "Test Teardown  simple case\n"
+    + "Metadata    text\n"
+    + "# Default Tags    def\n"
+    + "Default Tags    abc\n"
+    + "Suite Teardown    Append To List  5\n"
+    + "Test Timeout    100\n"
+    + "#     Test Timeout    100\n\n\n"
+    + "*** Variables ***\n"
+    + "${x}    6\n"
+    + "@{list}  1  2  3\n"
+    + "#comment in variable\n"
+    + "#${new}  99\n\n"
+    + "*** Test Cases ***\n"
+    + "#comment at the beginning of test case\n"
+    + "CAPITAL LETTER\n"
+    + "    [Documentation]  This is documentation\n"
+    + "    [Setup]    Sum Two Values  3  4\n"
+    + "    [Tags]    run me   \n"
+    + "    [Timeout]    1 min \n"
+    + "\tSet Global Variable  ${x}  made by test\n"
+    + "\tShould Be Equal  @{list}  made by test\n"
+    + "\tREVERSE MY LIST  #missing keyword\n"
+    + "\t# comment\n"
+    + "\t#${new_var}=  Set Variable    5\n\n"
+    + "T1\n"
+    + "     Log    ok\n"
+    + "     ...   #should not check value    ${value}\n"
+    + "     Comment   Log    ${value}\n\n"
+    + "T1b\n"
+    + "     Log    ok\n"
+    + "     ...   #should not check value    ${a}\n"
+    + "     Comment   Log    ${b}\n"
+    + "     \n"
+    + "T1c\n"
+    + "     Log    ok\n"
+    + "     ...   #should not check value    ${c}\n"
+    + "     Log    ${d}     \n"
+    + "     \n"
+    + "T2\n"
+    + "     Log    ok     #another line   ${t1}\n"
+    + "     Comment   Log    ${t2}\n"
+    + "     \n"
+    + "T3\n"
+    + "     Log    ok     #another line   @{commented_list}\n"
+    + "     Log    @{commented_list2}      \n\n"
+    + "T4\n"
+    + "     Log    ok     \n"
+    + "     ...  ok\n"
+    + "          \n"
+    + "double loop\n"
+    + "    Comment    This is built in comment\n"
+    + "\t:FOR  ${item}  in range  3\n"
+    + "\t\\\n"
+    + "\t\\ \tLog  ${item}\n"
+    + "\t\\\tMy loop\n"
+    + "\t#\\   ${a}\n"
+    + "\t\n"
+    + "loop with comment\n"
+    + "    Comment    This is built in comment\n"
+    + "\t:FOR  ${item}  IN RANGE  3\n"
+    + "\t\\\n"
+    + "\t\\ \tLog  ${item}\n"
+    + "\t...  #no error &{test}\n"
+    + "\t#\\   ${a}\n"
+    + "\t\\  Log   56\n"
+    + "\t\n"
+    + "\t\t\n"
+    + "# test 2\n"
+    + "    #Log 2\t\n"
+    + "    \t\n"
+    + "*** Keywords ***\n"
+    + "#comment at the beginning of keyword\n"
+    + "Sum Two Values\n"
+    + "    [Arguments]    ${expression}    ${expected}\n"
+    + "    [Documentation]    Keyword documentation  #comment in section\n"
+    + "    [Tags]    abc\n"
+    + "    # [Timeout]    15\n"
+    + "    [Teardown]    Log    7\n"
+    + "    Log   ${expression}\n"
+    + "    # ${a}=    Set Variable    inna\n"
+    + "    #@{dict}=  Create Dictionary    j=1  k=3\n"
+    + "    #comment in keyword\n"
+    + "    # Convert To String    6\n"
+    + "  \t[Return]  ${a}\n\n"
+    + "simple case\n"
+    + "    # [Arguments]    ${expression}    ${expected}\n"
+    + "    Log  ${expression} \n"
+    + "    Log  ${expected} \n"
+    + "    \n"
+    + "    \n"
+    + "My loop\n"
+    + "    Should Be Equal    5  5\n"
+    + "    \n"
+    + "#keyword 1\n"
+    + "#    Log  67" 
+    
+    
+wait 2000
+get-editor "TestFile.robot" | get-text-viewer | set-caret-pos 109 13    
+
+exec-with-options {
+	get-editor "TestFile.robot" | get-text-viewer | key-type "NUMPAD_ENTER" "\\u000D"
+    verify-error {get-window "Problem Occurred"}
+} -allowStatusDialog    
+
+
+//add new file
+get-view "Project Explorer" | get-tree | select RobotProject | select RobotProject | get-menu "New/Robot Test Suite" 
+    | click
+with [get-window "New Robot Test Suite"] {
+    get-editbox -after [get-label "File name:"] | set-text new
+    get-button Finish | click
+}
+//set text with KW "comment"
+get-editor "new.robot" | get-text-viewer | set-text "*** Settings ***\n"
+    + "# Library    Async_HTTP.py    WITH NAME    Async_HTTP\n"
+    + " # Library    String\n"
+    + "  # Library    Process\n"
+    + "	#Library    Process"
+    + "    \n"
+    + "*** Test Cases ***\n"
+    + "test 1\n"
+    + "    Comment    comment\n"
+    + "    Comment    comment text\n"
+    + "    Comment    text\n"
+    + "    Comment  comment   text\n"
+    + "    \n"
+    + "test 2\n"
+    + " #here is not KW\n"
+    + "    # this is grey\n"
+    + "    log  8\n"
+    + "#I am comment" 
+
+get-editor "new.robot" | get-text-viewer | key-type "M1+s"
+wait-for-errors -amount 12 -times 6 -delay 500
+
+get-editor "new.robot" | get-left-ruler | get-ruler-column AnnotationColumn | double-click-ruler 13
+
+get-button "Open Perspective" | click
+with [get-window "Open Perspective"] {
+    get-table | select Debug
+    get-button "(OK)|(Open)" | click
+}
+
+get-view Breakpoints | click
+get-view Breakpoints | get-tree | get-property itemCount | equals 0 | verify-true
+get-button Robot | click
+
+try -times 5 -delay 500 -command{
+    get-view Problems | get-tree 
+    	| get-item -path "Errors \\(12 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals "Resource import 'my_keywords.robot' is invalid: file does not exist. Try to use Quick Fix (Ctrl+1)" 
+        | verify-true
+}
+
+
+get-view Problems | get-tree | get-item "Warnings (4 items)" | expand
+with [get-view Problems | get-tree] {
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "For loop usage is deprecated. Use current for loop syntax instead." | verify-true
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals "For loop usage is deprecated. Use current for loop syntax instead." | verify-true
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals "List argument '@{commented_list2}' has to contain from 1 to 6 items" | verify-true
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals "List argument '@{list}' has to contain from 1 to 5 items" | verify-true
+}
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License").
+  ~ You may not use this file except in compliance with the License.
+  ~ A copy of the License is located at
+  ~
+  ~  http://aws.amazon.com/apache2.0
+  ~
+  ~ or in the "license" file accompanying this file. This file is distributed
+  ~ on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+  ~ express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<FindBugsFilter>
+
+    <!-- Ignore Java "Serializable" problems in the code generator. -->
+    <Match>
+        <Package name="~software\.amazon\.awssdk\.codegen.*"/>
+        <Bug pattern="SE_BAD_FIELD,SE_NO_SERIALVERSIONID,SE_BAD_FIELD_STORE"/>
+    </Match>
+
+
+    <!-- Ignore "confusing name" problems that result of needing to match the inconsistent naming in
+    the service model. -->
+    <Match>
+        <Package name="~software\.amazon\.awssdk\.codegen\.model.*"/>
+        <Bug pattern="NM_CONFUSING"/>
+    </Match>
+
+    <Match>
+        <!-- PZLA_PREFER_ZERO_LENGTH_ARRAYS: This rule causes many false positives, because sometimes we want to return
+             null for arrays. -->
+        <!-- UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR: This rule causes many false positives, because we may be null
+             checking using a library function, like Validate.notNull. -->
+        <Bug pattern="PZLA_PREFER_ZERO_LENGTH_ARRAYS,UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR"/>
+    </Match>
+
+    <!-- Delegate closes input stream. -->
+    <Match>
+        <Class name="software.amazon.awssdk.protocols.ion.internal.IonFactory" />
+        <Method name="createParser" />
+        <Bug pattern="OBL_UNSATISFIED_OBLIGATION" />
+    </Match>
+
+    <!-- We do not have control over these objects being serializable, but we do not intend for them to fully function
+         after serialization. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.services.dynamodb.datamodeling.DynamoDBMapper$BatchGetItemException"/>
+            <Class name="software.amazon.awssdk.protocols.ion.internal.IonFactory"/>
+        </Or>
+        <Bug pattern="SE_TRANSIENT_FIELD_NOT_RESTORED" />
+    </Match>
+
+    <!-- Protocol test client suppressions. -->
+    <Match>
+        <Or>
+            <Package name="~software\.amazon\.awssdk\.services\.protocol.*"/>
+        </Or>
+        <!-- URF_UNREAD_FIELD, DLS_DEAD_LOCAL_STORE: Sometimes we have unread variables and fields because they're only
+        conditionally used. It's cleaner to just always generate them, even if we may not actually be using them. -->
+        <!-- REC_CATCH_EXCEPTION: Sometimes we want to convert runtime exceptions into sdk exceptions, so we catch it and
+        wrap it in an sdk-specific exception. -->
+        <Bug pattern="URF_UNREAD_FIELD,DLS_DEAD_LOCAL_STORE,REC_CATCH_EXCEPTION" />
+    </Match>
+
+    <!-- False positive Unconfirmed cast-->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.core.client.handler.BaseAsyncClientHandler$InterceptorCallingHttpResponseHandler" />
+            <Class name="software.amazon.awssdk.core.client.handler.BaseAsyncClientHandler$UnmarshallingSdkHttpResponseHandler" />
+            <Class name="software.amazon.awssdk.core.internal.http.async.SyncResponseHandlerAdapter" />
+        </Or>
+        <Bug pattern="BC_UNCONFIRMED_CAST" />
+    </Match>
+
+    <!-- Currently they look the same and we will revisit this when we add APIG -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.core.client.handler.SdkAsyncClientHandler" />
+            <Class name="software.amazon.awssdk.core.client.handler.SdkSyncClientHandler" />
+            <Class name="software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler" />
+            <Class name="software.amazon.awssdk.awscore.client.handler.AwsAsyncClientHandler" />
+        </Or>
+        <Bug pattern="RI_REDUNDANT_INTERFACES" />
+    </Match>
+
+    <Match>
+        <Or>
+            <Package name="io.netty.handler.codec.http2"/>
+            <Class name="software.amazon.awssdk.http.nio.netty.internal.utils.BetterFixedChannelPool" />
+        </Or>
+        <Bug pattern="BC_UNCONFIRMED_CAST,SIC_INNER_SHOULD_BE_STATIC_ANON,DLS_DEAD_LOCAL_STORE,DM_CONVERT_CASE,NM_CLASS_NOT_EXCEPTION,NP_NULL_ON_SOME_PATH"/>
+    </Match>
+
+    <Match>
+        <Class name="software.amazon.awssdk.protocols.json.internal.unmarshall.JsonProtocolUnmarshaller" />
+        <Method name="unmarshallStructured" />
+        <Bug pattern="BC_UNCONFIRMED_CAST" />
+    </Match>
+
+    <!-- We want the content to be restored to the default vaue of null -->
+    <Match>
+        <Class name="software.amazon.awssdk.http.DefaultSdkHttpFullResponse" />
+        <Field name="content" />
+        <Bug pattern="SE_TRANSIENT_FIELD_NOT_RESTORED" />
+    </Match>
+
+    <!-- Don't understand why these are bugs -->
+    <Match>
+        <Class name="software.amazon.awssdk.services.protocolec2.DefaultProtocolEc2AsyncClient" />
+        <Method name="init" />
+        <Bug pattern="BC_UNCONFIRMED_CAST_OF_RETURN_VALUE" />
+    </Match>
+    <Match>
+        <Class name="software.amazon.awssdk.services.protocolec2.DefaultProtocolEc2Client" />
+        <Method name="init" />
+        <Bug pattern="BC_UNCONFIRMED_CAST_OF_RETURN_VALUE" />
+    </Match>
+
+    <!-- https://github.com/spotbugs/spotbugs/issues/600 -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.core.interceptor.ClasspathInterceptorChainFactory"/>
+            <Class name="software.amazon.awssdk.protocols.json.internal.dom.JsonDomParser"/>
+            <Class name="software.amazon.awssdk.testutils.service.AwsIntegrationTestBase"/>
+            <Class name="software.amazon.awssdk.protocol.asserts.marshalling.XmlAsserts" />
+            <Class name="software.amazon.awssdk.testutils.FileUtils"/>
+        </Or>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE"/>
+    </Match>
+
+    <!-- See SpotBugs bug: https://github.com/spotbugs/spotbugs/issues/600, https://github.com/spotbugs/spotbugs/issues/756 -->
+    <Match>
+        <Class name="software.amazon.awssdk.internal.http.AbstractFileStoreTlsKeyManagersProvider"/>
+        <Method name="createKeyStore"/>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>
+
+    <!-- See SpotBugs bug: https://github.com/spotbugs/spotbugs/issues/600, https://github.com/spotbugs/spotbugs/issues/756 -->
+    <Match>
+        <Class name="software.amazon.awssdk.codegen.emitters.CodeWriter"/>
+        <Method name="flush"/>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>
+
+    <!-- See SpotBugs bug: https://github.com/spotbugs/spotbugs/issues/600, https://github.com/spotbugs/spotbugs/issues/756 -->
+    <Match>
+        <Class name="software.amazon.awssdk.core.SdkServiceClientConfiguration$Builder"/>
+        <Method name="overrideConfiguration"/>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>
+
+    <!-- If we're not sure about the RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT, skip the warning. -->
+    <Match>
+        <Package name="~software.amazon.awssdk.http.nio.netty.*"/>
+        <Bug pattern="RV_RETURN_VALUE_IGNORED_NO_SIDE_EFFECT"/>
+        <Not>
+            <Confidence value="1"/>
+        </Not>
+    </Match>
+
+    <!-- Skip the warning since this source is forked from openrewrite -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.v2migration.ChangeSdkType"/>
+            <Class name="software.amazon.awssdk.v2migration.ChangeSdkType$ChangeTypeVisitor"/>
+        </Or>
+        <Bug pattern="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE"/>
+    </Match>
+
+    <Match>
+        <Class name="software.amazon.awssdk.core.internal.waiters.ResponseOrException"/>
+        <Bug pattern="NM_CLASS_NOT_EXCEPTION"/>
+    </Match>
+
+    <Match>
+        <Package name="~software.amazon.awssdk.http.*"/>
+        <Bug pattern="URF_UNREAD_FIELD, RV_RETURN_VALUE_IGNORED"/>
+    </Match>
+
+    <Match>
+        <Class name="software.amazon.awssdk.utils.async.StoringSubscriber"/>
+        <Method name="drop"/>
+        <Bug pattern="RV_RETURN_VALUE_IGNORED"/>
+    </Match>
+
+
+    <Match>
+        <Class name="software.amazon.awssdk.http.crt.internal.response.CrtResponseBodyPublisher" />
+        <Method name="subscribe"/>
+        <Bug pattern="SIC_INNER_SHOULD_BE_STATIC_ANON"/>
+    </Match>
+
+    <!-- on some java versions, the try-with-resources byte code is getting flagged by this -->
+    <Match>
+        <Class name="software.amazon.awssdk.http.crt.AwsCrtAsyncHttpClient" />
+        <Method name="execute"/>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>
+    <Match>
+        <Class name="software.amazon.awssdk.http.crt.AwsCrtAsyncHttpClient"/>
+        <Method name="&lt;init&gt;"/>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>
+
+
+    <!-- For forward-compatibility with this having members (i.e. the checksum type) -->
+    <Match>
+        <Class name="software.amazon.awssdk.core.interceptor.trait.HttpChecksumRequired"/>
+        <Method name="create"/>
+        <Bug pattern="ISC_INSTANTIATE_STATIC_CLASS"/>
+    </Match>
+
+    <!-- This is very buggy https://github.com/spotbugs/spotbugs/issues/1539 -->
+    <Match>
+        <Bug pattern="DMI_RANDOM_USED_ONLY_ONCE" />
+    </Match>
+
+    <!-- Uses these methods legitimately. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.http.SdkHttpHeaders"/>
+            <Class name="software.amazon.awssdk.http.SdkHttpRequest"/>
+        </Or>
+        <Bug pattern="SDK_BAD_METHOD_CALL"/>
+    </Match>
+
+    <!-- False positive on JDK 11+ -->
+    <Match>
+        <Class name="software.amazon.awssdk.transfer.s3.model.ResumableFileDownload"/>
+        <Method name="fromFile"/>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>
+
+    <!-- False positive on JDK 11+ -->
+    <Match>
+        <Class name="software.amazon.awssdk.transfer.s3.model.ResumableFileUpload"/>
+        <Method name="fromFile"/>
+        <Bug pattern="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE"/>
+    </Match>
+
+    <!-- Intentional for backwards-compatibility -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.auth.signer.AwsSignerExecutionAttribute"/>
+            <Class name="software.amazon.awssdk.auth.signer.S3SignerExecutionAttribute"/>
+        </Or>
+        <Bug pattern="NP_BOOLEAN_RETURN_NULL"/>
+    </Match>
+
+    <Match>
+        <Class name="software.amazon.awssdk.auth.credentials.AwsSessionCredentials$Builder"/>
+        <Bug pattern="BAD_TO_BUILDER"/>
+    </Match>
+
+    <!-- False positives from Spotbugs 4.7.3.5 -->
+    <Match>
+        <Bug pattern="EI_EXPOSE_REP"/>
+    </Match>
+
+    <!-- False positives from Spotbugs 4.7.3.5 -->
+    <Match>
+        <Bug pattern="EI_EXPOSE_REP2"/>
+    </Match>
+
+    <!-- False positives from Spotbugs 4.7.3.5 -->
+    <Match>
+        <Bug pattern="MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR"/>
+    </Match>
+
+    <!-- False positives from Spotbugs 4.7.3.5 -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.enhanced.dynamodb.internal.client.ExtensionResolver"/>
+            <Class name="software.amazon.awssdk.codegen.model.service.Paginators"/>
+            <Class name="software.amazon.awssdk.codegen.model.service.Waiters"/>
+            <Class name="software.amazon.awssdk.regions.EndpointTag"/>
+            <Class name="software.amazon.awssdk.regions.Region"/>
+            <Class name="software.amazon.awssdk.core.internal.useragent.DefaultSystemUserAgent"/>
+            <Class name="software.amazon.awssdk.core.util.DefaultSdkAutoConstructList"/>
+            <Class name="software.amazon.awssdk.core.util.DefaultSdkAutoConstructMap"/>
+            <Class name="software.amazon.awssdk.http.nio.netty.internal.http2.FlushOnReadHandler"/>
+            <Class name="software.amazon.awssdk.http.apache.internal.conn.IdleConnectionReaper"/>
+            <Class name="software.amazon.awssdk.http.apache5.internal.conn.IdleConnectionReaper"/>
+            <Class name="software.amazon.awssdk.eventnotifications.s3.internal.DefaultS3EventNotificationWriter"/>
+            <Class name="software.amazon.awssdk.policybuilder.iam.internal.DefaultIamPolicyWriter"/>
+        </Or>
+        <Bug pattern="MS_EXPOSE_REP"/>
+    </Match>
+
+    <!-- Intentional catching of NullPointerException -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.http.urlconnection.UrlConnectionHttpClient$RequestCallable"/>
+            <Class name="software.amazon.awssdk.buildtools.checkstyle.SdkPublicMethodNameCheck"/>
+        </Or>
+        <Bug pattern="DCN_NULLPOINTER_EXCEPTION"/>
+    </Match>
+
+    <!-- Retrieves and updates crc value in update() -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.checksums.internal.SdkCrc32CChecksum"/>
+            <Class name="software.amazon.awssdk.checksums.internal.SdkCrc32Checksum"/>
+        </Or>
+        <Bug pattern="SA_FIELD_SELF_ASSIGNMENT"/>
+    </Match>
+
+    <!-- Suppress existing blocking call. -->
+    <!-- Classes making calls to disallowed methods made outside of the async code path can be added here to be suppressed -->
+    <!-- TODO: remove classes from the list once blocking calls have been removed from the SDK async code path -->
+    <Match>
+        <Or>
+            <Class name="~software\.amazon\.awssdk\.core\.endpointdiscovery\.EndpointDiscoveryRefreshCache"/>
+            <Class name="~software\.amazon\.awssdk\.core\.internal\.http\.async\.CombinedResponseAsyncHttpResponseHandler" />
+            <Class name="~software\.amazon\.awssdk\.authcrt\.signer\.internal\.AwsCrt4aSigningAdapter" />
+            <Class name="~software\.amazon\.awssdk\.http\.auth\.aws\.crt\.internal\.signer\.DefaultAwsCrtV4aHttpSigner" />
+            <Class name="~software\.amazon\.awssdk\.http\.auth\.aws\.crt\.internal\.signer\.RollingSigner" />
+            <Class name="~software\.amazon\.awssdk\.core\.internal\.http\.pipeline\.stages\.ApplyUserAgentStage" />
+            <Class name="~software\.amazon\.awssdk\.core\.internal\.http\.pipeline\.stages\.SigningStage" />
+            <Class name="~software\.amazon\.awssdk\.auth\.credentials\.AwsCredentialsProviderChain" />
+            <Class name="~software\.amazon\.awssdk\.auth\.credentials\.CredentialUtils" />
+            <Class name="~software\.amazon\.awssdk\.auth\.credentials\.TokenUtils" />
+            <Class name="~software\.amazon\.awssdk\.auth\.signer\.AwsSignerExecutionAttribute" />
+            <Class name="~software\.amazon\.awssdk\.auth\.token\.credentials\.SdkTokenProviderChain" />
+            <Class name="~software\.amazon\.awssdk\.auth\.token\.signer\.SdkTokenExecutionAttribute" />
+            <Class name="~software\.amazon\.awssdk\.awscore\.internal\.authcontext\.AwsCredentialsAuthorizationStrategy" />
+            <Class name="~software\.amazon\.awssdk\.awscore\.internal\.authcontext\.TokenAuthorizationStrategy" />
+            <Class name="~software\.amazon\.awssdk\.http\.nio\.netty\.internal\.AwaitCloseChannelPoolMap" />
+            <Class name="~software\.amazon\.awssdk\.http\.nio\.netty\.internal\.ChannelAttributeKey" />
+            <Class name="~software\.amazon\.awssdk\.transfer\.s3\.internal\.progress\.ResumeTransferProgress" />
+            <Class name="~software\.amazon\.awssdk\.utils\.CompletableFutureUtils" />
+            <Class name="~software\.amazon\.awssdk\.metrics\.publishers\.cloudwatch\.CloudWatchMetricPublisher" />
+            <Class name="~software\.amazon\.awssdk\.http\.apache\.internal\.conn\.IdleConnectionReaper\$ReaperTask" />
+            <Class name="~software\.amazon\.awssdk\.http\.apache5\.internal\.conn\.IdleConnectionReaper\$ReaperTask" />
+            <Class name="~software\.amazon\.awssdk\.core\.internal\.retry\.RateLimitingTokenBucket" />
+            <Class name="~software\.amazon\.awssdk\.core\.internal\.waiters\.WaiterExecutor" />
+            <Class name="~software\.amazon\.awssdk\.regions\.internal\.util\.EC2MetadataUtils" />
+            <Class name="~software\.amazon\.awssdk\.regions\.util\.HttpResourcesUtils" />
+            <Class name="~software\.amazon\.awssdk\.auth\.credentials\.InstanceProfileCredentialsProvider" />
+            <Class name="~software\.amazon\.awssdk\.auth\.credentials\.internal\.HttpCredentialsLoader" />
+            <Class name="~software\.amazon\.awssdk\.auth\.credentials\.ContainerCredentialsProvider" />
+            <Class name="~software\.amazon\.awssdk\.auth\.credentials\.InstanceProfileCredentialsProvider" />
+
+            <Class name="~software\.amazon\.awssdk\.messagemanager\.sns\.internal\.SnsHostProvider" />
+
+            <!-- test modules are allowed to make blocking call as parts of their testing -->
+            <Class name="~.*testutils.*" />
+            <Class name="~.*s3benchmarks.*" />
+
+        </Or>
+        <Bug pattern="ASYNC_BLOCKING_CALL"/>
+    </Match>
+
+    <!-- False positive -->
+    <Match>
+        <Class name="software.amazon.awssdk.v2migration.EnumCasingToV2$Visitor"/>
+        <Bug pattern="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE"/>
+    </Match>
+    <Match>
+        <Class name="software.amazon.awssdk.utils.uri.SdkUri" />
+        <Bug pattern="BC_UNCONFIRMED_CAST_OF_RETURN_VALUE" />
+    </Match>
+
+    <!-- No plan to fix: These classes implement SLF4J SPI which requires specific method signatures. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.thirdparty.org.slf4j.impl.StaticLoggerBinder"/>
+            <Class name="software.amazon.awssdk.thirdparty.org.slf4j.impl.StaticMarkerBinder"/>
+        </Or>
+        <Bug pattern="SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR"/>
+    </Match>
+
+    <!-- No plan to fix: Intentional exception handling patterns throughout the codebase. -->
+    <Match>
+        <Bug pattern="THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION"/>
+    </Match>
+
+    <!-- False positive: InputStream is not designed for concurrent access. The synchronized reset() is inherited behavior. -->
+    <Match>
+        <Class name="software.amazon.awssdk.http.auth.aws.internal.signer.chunkedencoding.ChunkedEncodedInputStream"/>
+        <Bug pattern="AT_STALE_THREAD_WRITE_OF_PRIMITIVE"/>
+    </Match>
+
+    <!-- No plan to fix: Test constructor is intentionally package-private. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.http.apache.internal.conn.IdleConnectionReaper"/>
+            <Class name="software.amazon.awssdk.http.apache5.internal.conn.IdleConnectionReaper"/>
+            <Class name="software.amazon.awssdk.regions.util.HttpResourcesUtils"/>
+        </Or>
+        <Bug pattern="SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR"/>
+    </Match>
+
+    <!-- False positive: These classes have private constructors but use builder pattern. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider"/>
+            <Class name="software.amazon.awssdk.auth.token.credentials.aws.DefaultAwsTokenProvider"/>
+        </Or>
+        <Bug pattern="SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR"/>
+    </Match>
+
+    <!-- No plan to fix: These are final classes, not vulnerable to finalizer attacks. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.http.apache.internal.conn.SdkTlsSocketFactory"/>
+            <Class name="software.amazon.awssdk.http.apache.internal.impl.ApacheSdkHttpClient"/>
+            <Class name="software.amazon.awssdk.http.apache5.internal.conn.SdkTlsSocketFactory"/>
+            <Class name="software.amazon.awssdk.http.apache5.internal.impl.Apache5SdkHttpClient"/>
+            <Class name="software.amazon.awssdk.http.nio.netty.internal.utils.BetterFixedChannelPool"/>
+            <Class name="software.amazon.awssdk.http.crt.AwsCrtHttpClientBase"/>
+        </Or>
+        <Bug pattern="CT_CONSTRUCTOR_THROW"/>
+    </Match>
+
+    <!-- No plan to fix: Forked Netty reactive streams code with its own thread-safety model via Netty's EventLoop. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.http.nio.netty.internal.nrs.HandlerPublisher"/>
+            <Class name="~software\.amazon\.awssdk\.http\.nio\.netty\.internal\.nrs\.HandlerSubscriber.*"/>
+        </Or>
+        <Bug pattern="AT_NONATOMIC_64BIT_PRIMITIVE,AT_NONATOMIC_OPERATIONS_ON_SHARED_VARIABLE"/>
+    </Match>
+
+    <!-- False positive: InputStream is not designed for concurrent access. -->
+    <Match>
+        <Class name="software.amazon.awssdk.core.internal.io.ChecksumValidatingInputStream"/>
+        <Bug pattern="AT_STALE_THREAD_WRITE_OF_PRIMITIVE"/>
+    </Match>
+
+    <!-- No plan to fix: Final class, not vulnerable to finalizer attacks. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.core.io.ResettableInputStream"/>
+            <Class name="software.amazon.awssdk.core.internal.async.ChecksumCalculatingAsyncRequestBody"/>
+            <Class name="software.amazon.awssdk.core.internal.io.AwsChunkedEncodingInputStream"/>
+            <Class name="software.amazon.awssdk.protocols.jsoncore.JsonWriter"/>
+            <Class name="software.amazon.awssdk.codegen.lite.emitters.CodeWriter"/>
+            <Class name="software.amazon.awssdk.auth.signer.internal.chunkedencoding.AwsS3V4ChunkSigner"/>
+            <Class name="software.amazon.awssdk.enhanced.dynamodb.EnhancedType"/>
+            <Class name="software.amazon.awssdk.enhanced.dynamodb.internal.immutable.ImmutableIntrospector"/>
+            <Class name="software.amazon.awssdk.v2migration.ConstructorToFluent"/>
+        </Or>
+        <Bug pattern="CT_CONSTRUCTOR_THROW"/>
+    </Match>
+
+    <!-- No plan to fix: Floating point comparison is intentional in defaults processing. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.codegen.lite.defaultsmode.DefaultsLoader"/>
+            <Class name="software.amazon.awssdk.protocols.rpcv2.internal.SdkRpcV2CborGenerator"/>
+        </Or>
+        <Bug pattern="FE_FLOATING_POINT_EQUALITY"/>
+    </Match>
+
+    <!-- No plan to fix: Async code with its own thread-safety model via reactive streams. -->
+    <Match>
+        <Or>
+            <Class name="~software\.amazon\.awssdk\.core\.internal\.async\.ByteArraySplittingTransformer.*"/>
+            <Class name="software.amazon.awssdk.core.internal.async.NonRetryableSubAsyncRequestBody"/>
+            <Class name="software.amazon.awssdk.core.internal.async.RetryableSubAsyncRequestBody"/>
+            <Class name="~software\.amazon\.awssdk\.core\.internal\.async\.SplittingPublisher.*"/>
+        </Or>
+        <Bug pattern="AT_STALE_THREAD_WRITE_OF_PRIMITIVE,AT_NONATOMIC_OPERATIONS_ON_SHARED_VARIABLE"/>
+    </Match>
+
+    <!-- False positive: Test utility class, thread safety not required. -->
+    <Match>
+        <Class name="software.amazon.awssdk.testutils.service.http.MockSyncHttpClient"/>
+        <Bug pattern="AT_STALE_THREAD_WRITE_OF_PRIMITIVE"/>
+    </Match>
+
+    <!-- No plan to fix: Serializable is required for compatibility but singleton pattern is intentional. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.core.util.DefaultSdkAutoConstructList"/>
+            <Class name="software.amazon.awssdk.core.util.DefaultSdkAutoConstructMap"/>
+        </Or>
+        <Bug pattern="SING_SINGLETON_IMPLEMENTS_SERIALIZABLE"/>
+    </Match>
+
+    <!-- False positive: STORAGE field is used via ThreadLocal methods. -->
+    <Match>
+        <Class name="software.amazon.awssdk.utilslite.SdkInternalThreadLocal"/>
+        <Bug pattern="UUF_UNUSED_FIELD"/>
+    </Match>
+
+    <!-- No plan to fix: Final class, not vulnerable to finalizer attacks. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.awscore.eventstream.EventStreamResponseHandlerFromBuilder"/>
+            <Class name="software.amazon.awssdk.protocols.json.SdkJsonGenerator"/>
+        </Or>
+        <Bug pattern="CT_CONSTRUCTOR_THROW"/>
+    </Match>
+
+    <!-- No plan to fix: Static method hiding is intentional for API design. -->
+    <Match>
+        <Or>
+            <Class name="software.amazon.awssdk.awscore.exception.AwsServiceException"/>
+            <Class name="software.amazon.awssdk.awscore.internal.client.config.AwsClientOptionValidation"/>
+        </Or>
+        <Bug pattern="HSM_HIDING_METHOD"/>
+    </Match>
+
+    <!-- No plan to fix: Codegen classes are build-time only, not vulnerable to finalizer attacks. -->
+    <Match>
+        <Package name="~software\.amazon\.awssdk\.codegen.*"/>
+        <Bug pattern="CT_CONSTRUCTOR_THROW,SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR"/>
+    </Match>
+
+    <!-- False positive: Fields are used but SpotBugs doesn't detect usage in inner class. -->
+    <Match>
+        <Package name="~software\.amazon\.awssdk\.http\.urlconnection.*"/>
+        <Bug pattern="UUF_UNUSED_FIELD,CT_CONSTRUCTOR_THROW,UPM_UNCALLED_PRIVATE_METHOD,BAD_TO_BUILDER"/>
+    </Match>
+
+    <!-- No plan to fix: Service loader class. -->
+    <Match>
+        <Class name="software.amazon.awssdk.http.urlconnection.UrlConnectionSdkHttpService"/>
+        <Bug pattern="CT_CONSTRUCTOR_THROW"/>
+    </Match>
+
+    <!-- Intentionally passing null to marshallField for non-PAYLOAD fields
+         whose NULL marshallers handle null validation. -->
+    <Match>
+        <Class name="software.amazon.awssdk.protocols.json.internal.marshall.JsonProtocolMarshaller"/>
+        <Or>
+            <Method name="doMarshall"/>
+            <Method name="marshallFieldViaRegistry"/>
+        </Or>
+        <Bug pattern="NP_LOAD_OF_KNOWN_NULL_VALUE"/>
+    </Match>
+
+    <!-- Intentional benign-race get-then-put on ConcurrentHashMap. SdkField instances are
+         static final, and the registry always returns the same marshaller for a given
+         (location, marshallingType) pair, so concurrent puts are idempotent. Using get()
+         instead of computeIfAbsent() avoids the latter's bucket-level synchronization
+         overhead on every call. -->
+    <Match>
+        <Class name="software.amazon.awssdk.protocols.json.internal.marshall.JsonProtocolMarshaller"/>
+        <Method name="marshallFieldViaRegistry"/>
+        <Bug pattern="AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION"/>
+    </Match>
+</FindBugsFilter>

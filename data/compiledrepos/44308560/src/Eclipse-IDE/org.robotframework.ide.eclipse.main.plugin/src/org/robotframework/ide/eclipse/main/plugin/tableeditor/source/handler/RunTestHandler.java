@@ -1,0 +1,73 @@
+/*
+ * Copyright 2016 Nokia Solutions and Networks
+ * Licensed under the Apache License, Version 2.0,
+ * see license.txt file for details.
+ */
+package org.robotframework.ide.eclipse.main.plugin.tableeditor.source.handler;
+
+import java.util.Arrays;
+import java.util.Optional;
+
+import javax.inject.Named;
+
+import org.eclipse.e4.core.di.annotations.Execute;
+import org.eclipse.jface.text.ITextSelection;
+import org.eclipse.jface.text.source.SourceViewer;
+import org.eclipse.jface.viewers.StructuredSelection;
+import org.eclipse.ui.ISources;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotCase;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotCodeHoldingElement;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotElement;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotKeywordCall;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotSuiteFile;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotTask;
+import org.robotframework.ide.eclipse.main.plugin.navigator.actions.RunSelectedTestCasesAction;
+import org.robotframework.ide.eclipse.main.plugin.navigator.actions.RunSelectedTestCasesAction.Mode;
+import org.robotframework.ide.eclipse.main.plugin.tableeditor.RobotEditorSources;
+import org.robotframework.ide.eclipse.main.plugin.tableeditor.RobotFormEditor;
+import org.robotframework.ide.eclipse.main.plugin.tableeditor.source.handler.RunTestHandler.E4RunTestHandler;
+import org.robotframework.red.commands.DIParameterizedHandler;
+
+/**
+ * @author Michal Anglart
+ *
+ */
+public class RunTestHandler extends DIParameterizedHandler<E4RunTestHandler> {
+
+    public RunTestHandler() {
+        super(E4RunTestHandler.class);
+    }
+
+    public static class E4RunTestHandler {
+
+        @Execute
+        public void runSingleTest(final @Named(ISources.ACTIVE_EDITOR_NAME) RobotFormEditor editor,
+                @Named(RobotEditorSources.SUITE_FILE_MODEL) final RobotSuiteFile suiteModel,
+                @Named(RunTestDynamicMenuItem.RUN_TEST_COMMAND_MODE_PARAMETER) final String mode) {
+
+            final SourceViewer viewer = editor.getSourceEditor().getViewer();
+            final ITextSelection selection = (ITextSelection) viewer.getSelection();
+            final RobotCodeHoldingElement<?> testCase = getCase(suiteModel, selection.getOffset());
+
+            if (testCase != null) {
+                RunSelectedTestCasesAction.runSelectedTestCases(new StructuredSelection(Arrays.asList(testCase)),
+                        Mode.valueOf(mode));
+            }
+        }
+    }
+
+    static RobotCodeHoldingElement<?> getCase(final RobotSuiteFile suiteModel, final int caretOffset) {
+        final Optional<? extends RobotElement> element = suiteModel.findElement(caretOffset);
+        if (element.isPresent()) {
+            final RobotElement elem = element.get();
+            if (elem instanceof RobotCase || elem instanceof RobotTask) {
+                return (RobotCodeHoldingElement<?>) elem;
+
+            } else if (elem instanceof RobotKeywordCall
+                    && (elem.getParent() instanceof RobotCase || elem.getParent() instanceof RobotTask)) {
+                return (RobotCodeHoldingElement<?>) elem.getParent();
+            }
+        }
+        return null;
+    }
+}

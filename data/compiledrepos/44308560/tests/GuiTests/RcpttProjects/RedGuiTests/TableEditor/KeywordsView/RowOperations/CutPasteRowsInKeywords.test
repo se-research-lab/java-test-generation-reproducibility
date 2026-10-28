@@ -1,0 +1,210 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: CutPasteRowsInKeywords
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _OPRvEF18EeaRBaqqj0N1Gg
+Runtime-Version: 2.3.0.201806262310
+Save-Time: 2/20/19 11:44 AM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+corrected bugs:
+RED-536
+RED-458
+RED-459
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+
+// check Copy Past rows of KW parent - RED-458
+
+// set default source 
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Test Cases ***\n"
+    + "*** Keywords ***\n"
+    + "kw1\n"
+    + "    log  1\n"
+    + "    [return]  9\n"
+    + "   \n"
+    + "kw-2\n"
+    + "    Should Be Empty    item       \n"
+    + "   \n"
+    + "kw3\n"
+    + "    [Documentation]    doc\n"
+    + "    a1\n"
+    + "    a2\n"
+    + "    a3\n"
+    + "       \n"
+    + "kw4\n"
+    + "    Set Log Level    5\n"
+    + "    Catenate    a  3\n"
+    + "    \n"
+    + "kw5\n"
+    + "    \\" 
+    
+get-editor "TestFile.robot" | get-text-viewer | key-type "M1+s"    
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Keywords | click
+
+// select parent KW-2 and copy row (copy whole parent)
+get-view Outline | get-tree | select "TestFile.robot/Keywords/kw-2" | click
+wait 300
+get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1 | get-menu "Row/Copy row" | click
+
+// select kw4 (parent) past double KW-2, both should be pasted above current
+get-view Outline | get-tree | select "TestFile.robot/Keywords/kw4"
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        get-menu "Row/Paste row" | click
+        get-menu "Row/Paste row" | click
+    }
+    get-tab-folder | get-tab-item Source | click
+}
+
+// verify
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+    + "*** Keywords ***\n"
+    + "kw1\n"
+    + "    log  1\n"
+    + "    [return]  9\n"
+    + "   \n"
+    + "kw-2\n"
+    + "    Should Be Empty    item       \n"
+    + "   \n"
+    + "kw3\n"
+    + "    [Documentation]    doc\n"
+    + "    a1\n"
+    + "    a2\n"
+    + "    a3\n"
+    + "       \n"
+    + "kw- 4\n"
+    + "    Should Be Empty    item\n"
+    + "    \n"
+    + "kw- 3\n"
+    + "    Should Be Empty    item\n"
+    + "    \n"
+    + "kw4\n"
+    + "    Set Log Level    5\n"
+    + "    Catenate    a  3\n"
+    + "    \n"
+    + "kw5\n"
+    + "    \\" | verify-true
+    
+//------------------------------------------------------------------------------------
+
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Test Cases ***\n"
+    + "*** Keywords ***\n"
+    + "kw1\n"
+    + "    log  1\n"
+    + "    [return]  9\n"
+    + "   \n"
+    + "kw-2\n"
+    + "    Should Be Empty    item       \n"
+    + "   \n"
+    + "kw3\n"
+    + "    [Documentation]    doc\n"
+    + "    a1\n"
+    + "    a2\n"
+    + "    a3\n"
+    + "       \n"
+    + "kw4\n"
+    + "    Set Log Level    5\n"
+    + "    Catenate    a  3\n"
+    + "    \n"
+    + "kw5\n"
+    + "    \\" 
+    
+get-editor "TestFile.robot" | get-text-viewer | key-type "M1+s"    
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Keywords | click
+wait 1000    
+
+//cut kw-2
+get-view Outline | get-tree | select "TestFile.robot/Keywords/kw-2" | click
+wait 300
+get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1 | get-menu "Row/Cut row" | click
+
+//paste it when selection is om kw5
+get-view Outline | get-tree | select "TestFile.robot/Keywords/kw5" | click
+
+with [get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1] {
+    get-menu "Row/Paste row" | click
+    //go to Catenate and cut line when selction is on "a"
+    key-type Up -times 3
+    key-type Right
+    get-menu "Row/Cut row" | click
+    
+    
+    //go to kw5 and paste row
+    key-type Down -times 6
+    get-menu "Row/Paste row" | click
+}
+
+//cut empty line below a3 and try to paste 2 lines up
+get-view Outline | get-tree | select "TestFile.robot/Keywords/kw3/a3" | click
+wait 300
+
+with [get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1] {
+    key-type Down
+    get-menu "Row/Cut row" | click
+    key-type Up
+}
+// paste empty line (solved RED-934)
+get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1 | get-menu "Row/Paste row" 
+    | get-property enablement | equals true | verify-true
+
+//go to documentation and cut it using shortcut
+get-view Outline | get-tree | select "TestFile.robot/Keywords/kw3"
+with [get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1] {
+    key-type Down
+    key-type "M1+M2+x"
+}
+
+//paste Doc between 2 kw
+get-view Outline | get-tree | select "TestFile.robot/Keywords/kw4" | click
+wait 300
+
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Down -times 2
+        key-type "M1+M2+v"
+    }
+    get-tab-folder | get-tab-item Source | click
+}
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+    + "*** Keywords ***\n"
+    + "kw1\n"
+    + "    log  1\n"
+    + "    [return]  9\n"
+    + "   \n"
+    + "kw-2\n"
+    + "    Should Be Empty    item       \n"
+    + "   \n"
+    + "kw3\n"
+    + "    a1\n"
+    + "    a2\n"
+    + "    a3\n"
+    + "       \n"
+    + "kw4\n"
+    + "    Set Log Level    5\n"
+    + "    [Documentation]    doc\n"
+    + "    Catenate    a  3\n"
+    + "    \n"
+    + "kw5\n"
+
+
+//dodanie testu z cut/paste pustych linii    
+//get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+//    + "*** Keywords ***\n"
+//    + "kw1\n\n\n"
+//    + "kw2\n"
+//    + "    log  1\n"
+//    + "    log  2\n"
+//    + "    \n"
+//    + "    log  3" | verify-true
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

@@ -1,0 +1,11 @@
+namespace relations
+
+import java.util.List
+
+type Node {
+}
+
+relation Ast {
+    one Node parent
+    many Node children
+}

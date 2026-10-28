@@ -1,0 +1,172 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.services.s3;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+import static software.amazon.awssdk.profiles.ProfileFileSystemSetting.AWS_CONFIG_FILE;
+import static software.amazon.awssdk.services.s3.S3SystemSetting.AWS_S3_DISABLE_MULTIREGION_ACCESS_POINTS;
+import static software.amazon.awssdk.services.s3.S3SystemSetting.AWS_S3_USE_ARN_REGION;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
+import software.amazon.awssdk.testutils.EnvironmentVariableHelper;
+
+public class S3ConfigurationTest {
+
+    private final EnvironmentVariableHelper helper = new EnvironmentVariableHelper();
+
+    @AfterEach
+    public void clearSystemProperty() {
+        System.clearProperty(AWS_S3_USE_ARN_REGION.property());
+        System.clearProperty(AWS_S3_DISABLE_MULTIREGION_ACCESS_POINTS.property());
+        System.clearProperty(AWS_CONFIG_FILE.property());
+        helper.reset();
+    }
+
+    @Test
+    public void createConfiguration_minimal() {
+        S3Configuration config = S3Configuration.builder().build();
+        assertThat(config.accelerateModeEnabled()).isFalse();
+        assertThat(config.checksumValidationEnabled()).isTrue();
+        assertThat(config.chunkedEncodingEnabled()).isTrue();
+        assertThat(config.dualstackEnabled()).isFalse();
+        assertThat(config.multiRegionEnabled()).isTrue();
+        assertThat(config.pathStyleAccessEnabled()).isFalse();
+        assertThat(config.useArnRegionEnabled()).isFalse();
+        assertThat(config.expectContinueEnabled()).isTrue();
+        assertThat(config.expectContinueThresholdInBytes()).isEqualTo(1048576L);
+    }
+
+    @Test
+    public void multiRegionEnabled_enabledInConfigOnly_shouldResolveCorrectly() {
+        S3Configuration config = S3Configuration.builder().multiRegionEnabled(true).build();
+        assertThat(config.multiRegionEnabled()).isEqualTo(true);
+    }
+
+    @Test
+    public void multiRegionEnabled_disabledInConfigOnly_shouldResolveCorrectly() {
+        S3Configuration config = S3Configuration.builder().multiRegionEnabled(false).build();
+        assertThat(config.multiRegionEnabled()).isEqualTo(false);
+    }
+
+    @Test
+    public void multiRegionEnabled_enabledInConfig_shouldResolveToConfigCorrectly() {
+        System.setProperty(AWS_S3_DISABLE_MULTIREGION_ACCESS_POINTS.property(), "true");
+        String trueProfileConfig = getClass().getResource("internal/settingproviders/ProfileFile_true").getFile();
+        System.setProperty(AWS_CONFIG_FILE.property(), trueProfileConfig);
+        S3Configuration config = S3Configuration.builder().multiRegionEnabled(true).build();
+        assertThat(config.multiRegionEnabled()).isEqualTo(true);
+    }
+
+    @Test
+    public void multiRegionEnabled_disabledInProviders_shouldResolveToFalse() {
+        System.setProperty(AWS_S3_DISABLE_MULTIREGION_ACCESS_POINTS.property(), "true");
+        String profileConfig = getClass().getResource("internal/settingproviders/ProfileFile_true").getFile();
+        System.setProperty(AWS_CONFIG_FILE.property(), profileConfig);
+        S3Configuration config = S3Configuration.builder().build();
+        assertThat(config.multiRegionEnabled()).isEqualTo(false);
+    }
+
+    @Test
+    public void multiRegionEnabled_notDisabledInProviders_shouldResolveToTrue() {
+        System.setProperty(AWS_S3_DISABLE_MULTIREGION_ACCESS_POINTS.property(), "false");
+        String profileConfig = getClass().getResource("internal/settingproviders/ProfileFile_false").getFile();
+        System.setProperty(AWS_CONFIG_FILE.property(), profileConfig);
+        S3Configuration config = S3Configuration.builder().build();
+        assertThat(config.multiRegionEnabled()).isEqualTo(true);
+    }
+
+    @Test
+    public void multiRegionEnabled_enabledInCProfile_shouldResolveToConfigCorrectlyOncePerCall() {
+        S3Configuration config = S3Configuration.builder().build();
+
+        String trueProfileConfig = getClass().getResource("internal/settingproviders/ProfileFile_true").getFile();
+        System.setProperty(AWS_CONFIG_FILE.property(), trueProfileConfig);
+        assertThat(config.multiRegionEnabled()).isEqualTo(false);
+
+        System.clearProperty(AWS_CONFIG_FILE.property());
+        String falseProfileConfig = getClass().getResource("internal/settingproviders/ProfileFile_false").getFile();
+        System.setProperty(AWS_CONFIG_FILE.property(), falseProfileConfig);
+        assertThat(config.multiRegionEnabled()).isEqualTo(true);
+    }
+
+    @Test
+    public void useArnRegionEnabled_enabledInCProfile_shouldResolveToConfigCorrectlyOncePerCall() {
+        S3Configuration config = S3Configuration.builder().build();
+
+        String trueProfileConfig = getClass().getResource("internal/settingproviders/ProfileFile_true").getFile();
+        System.setProperty(AWS_CONFIG_FILE.property(), trueProfileConfig);
+        assertThat(config.useArnRegionEnabled()).isEqualTo(true);
+
+        System.clearProperty(AWS_CONFIG_FILE.property());
+        String falseProfileConfig = getClass().getResource("internal/settingproviders/ProfileFile_false").getFile();
+        System.setProperty(AWS_CONFIG_FILE.property(), falseProfileConfig);
+        assertThat(config.useArnRegionEnabled()).isEqualTo(false);
+    }
+
+    // -----------------------------------------------------------------------
+    // expectContinueThresholdInBytes
+    // -----------------------------------------------------------------------
+
+    @Test
+    public void expectContinueThresholdInBytes_defaultValue_is1MB() {
+        S3Configuration config = S3Configuration.builder().build();
+        assertThat(config.expectContinueThresholdInBytes()).isEqualTo(1048576L);
+    }
+
+    @Test
+    public void expectContinueThresholdInBytes_customValue_isPreserved() {
+        S3Configuration config = S3Configuration.builder()
+                                                .expectContinueThresholdInBytes(2_097_152L)
+                                                .build();
+        assertThat(config.expectContinueThresholdInBytes()).isEqualTo(2_097_152L);
+    }
+
+    @Test
+    public void expectContinueThresholdInBytes_toBuilder_preservesUserSetValue() {
+        S3Configuration config = S3Configuration.builder()
+                                                .expectContinueThresholdInBytes(512L)
+                                                .build();
+        S3Configuration rebuilt = config.toBuilder().build();
+        assertThat(rebuilt.expectContinueThresholdInBytes()).isEqualTo(512L);
+    }
+
+    @Test
+    public void expectContinueThresholdInBytes_toBuilder_returnsNullForDefault() {
+        S3Configuration config = S3Configuration.builder().build();
+        S3Configuration.Builder builder = config.toBuilder();
+        assertThat(builder.expectContinueThresholdInBytes()).isNull();
+    }
+
+    @Test
+    public void expectContinueThresholdInBytes_negativeValue_throwsException() {
+        assertThatThrownBy(() -> S3Configuration.builder()
+                                                .expectContinueThresholdInBytes(-1L)
+                                                .build())
+            .isInstanceOf(IllegalArgumentException.class)
+            .hasMessageContaining("expectContinueThresholdInBytes must not be negative");
+    }
+
+    @Test
+    public void expectContinueThresholdInBytes_zeroValue_isAccepted() {
+        S3Configuration config = S3Configuration.builder()
+                                                .expectContinueThresholdInBytes(0L)
+                                                .build();
+        assertThat(config.expectContinueThresholdInBytes()).isEqualTo(0L);
+    }
+
+}

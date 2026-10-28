@@ -1,0 +1,41 @@
+namespace examples
+
+type UseBoolean {
+    boolean b
+    String toString() = "#{b}"
+}
+
+type UseChar {
+    char c
+    String toString() = "#{c}"
+}
+
+type UseByte {
+    byte b
+    String toString() = "#{b}"
+}
+
+type UseShort {
+    short s
+    String toString() = "#{s}"
+}
+
+type UseInt {
+    int i
+    String toString() = "#{i}"
+}
+
+type UseLong {
+    long l
+    String toString() = "#{l}"
+}
+
+type UseFloat {
+    float f
+    String toString() = "#{f}"
+}
+
+type UseDouble {
+    double d
+    String toString() = "#{d}"
+}

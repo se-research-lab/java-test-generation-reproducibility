@@ -1,0 +1,67 @@
+/*
+ * Copyright 2017 Nokia Solutions and Networks
+ * Licensed under the Apache License, Version 2.0,
+ * see license.txt file for details.
+ */
+package org.robotframework.ide.eclipse.main.plugin.launch;
+
+import java.util.concurrent.atomic.AtomicBoolean;
+
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.runtime.CoreException;
+
+public interface IRobotLaunchConfiguration {
+
+    AtomicBoolean IS_CONFIGURATION_RUNNING = new AtomicBoolean(false);
+
+    String getName();
+
+    String getTypeName();
+
+    void fillDefaults() throws CoreException;
+
+    String getProjectName() throws CoreException;
+
+    void setProjectName(String projectName) throws CoreException;
+
+    IProject getProject() throws CoreException;
+
+    boolean isUsingRemoteAgent() throws CoreException;
+
+    boolean hasValidVersion() throws CoreException;
+
+    String getAgentConnectionHost() throws CoreException;
+
+    int getAgentConnectionPort() throws CoreException;
+
+    int getAgentConnectionTimeout() throws CoreException;
+
+    String getAgentConnectionHostValue() throws CoreException;
+
+    String getAgentConnectionPortValue() throws CoreException;
+
+    String getAgentConnectionTimeoutValue() throws CoreException;
+
+    String getConfigurationVersion() throws CoreException;
+
+    String getCurrentConfigurationVersion() throws CoreException;
+
+    void setUsingRemoteAgent(boolean isRemoteAgent) throws CoreException;
+
+    void setAgentConnectionHostValue(String host) throws CoreException;
+
+    void setAgentConnectionPortValue(String port) throws CoreException;
+
+    void setAgentConnectionTimeoutValue(String timeout) throws CoreException;
+
+    void setCurrentConfigurationVersion() throws CoreException;
+
+    static boolean lockConfigurationLaunches() {
+        return IS_CONFIGURATION_RUNNING.getAndSet(true);
+    }
+
+    static void unlockConfigurationLaunches() {
+        IS_CONFIGURATION_RUNNING.set(false);
+    }
+
+}

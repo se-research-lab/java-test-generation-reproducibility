@@ -1,0 +1,25 @@
+#
+# Copyright (c) 2015. Teradata Inc.
+#
+com.thinkbiganalytics.nifi.v2.ingest.MergeTable
+com.thinkbiganalytics.nifi.v2.ingest.RegisterFeedTables
+com.thinkbiganalytics.nifi.v2.ingest.GetTableData
+com.thinkbiganalytics.nifi.v2.ingest.UpdateRegistration
+com.thinkbiganalytics.nifi.v2.ingest.RouteOnRegistration
+com.thinkbiganalytics.nifi.v2.ingest.DropFeedTables
+com.thinkbiganalytics.nifi.v2.metadata.TriggerFeed
+com.thinkbiganalytics.nifi.v2.metadata.GetFeedMetadata
+#com.thinkbiganalytics.nifi.v2.metadata.BeginFeed
+#com.thinkbiganalytics.nifi.v2.metadata.TerminateDirectoryFeed
+#com.thinkbiganalytics.nifi.v2.metadata.TerminateHiveTableFeed
+com.thinkbiganalytics.nifi.v2.metadata.TriggerCleanup
+com.thinkbiganalytics.nifi.v2.metadata.PutFeedMetadata
+com.thinkbiganalytics.nifi.v2.ingest.StripHeader
+com.thinkbiganalytics.nifi.v2.core.watermark.LoadHighWaterMark
+com.thinkbiganalytics.nifi.v2.core.watermark.ReleaseHighWaterMark
+com.thinkbiganalytics.nifi.v2.init.InitializeFeed
+com.thinkbiganalytics.nifi.v2.init.CompleteInitializeFeed
+com.thinkbiganalytics.nifi.v2.ingest.CreateElasticsearchBackedHiveTable
+com.thinkbiganalytics.nifi.v2.thrift.ExecuteHQLStatement
+com.thinkbiganalytics.nifi.v2.reindex.GetFeedsHistoryReindex
+com.thinkbiganalytics.nifi.v2.reindex.UpdateFeedHistoryReindex

@@ -1,0 +1,11 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "software/amazon/awssdk/services/\\w+/execution.interceptors"
+      },
+      {
+        "pattern": "\\Qsoftware/amazon/awssdk/core/util/mime.types\\E"
+      }]
+  }
+}

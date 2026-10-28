@@ -1,0 +1,6 @@
+*** Test Cases ***
+Test1
+	Log	ok
+	Log2	ok2
+	Log3	ok3
+	Log_new	arg_new

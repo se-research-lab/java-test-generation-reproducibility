@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.thinkbiganalytics.kylo</groupId>
+    <artifactId>kylo</artifactId>
+    <version>0.10.1-SNAPSHOT</version>
+  </parent>
+  <properties>
+    <plugin.license.parentRelative>../</plugin.license.parentRelative>
+  </properties>
+  <artifactId>kylo-plugins</artifactId>
+  <groupId>com.thinkbiganalytics.kylo.plugins</groupId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>service-monitor-ambari</module>
+    <module>service-monitor-cloudera</module>
+    <module>service-monitor-nifi</module>
+    <module>service-monitor-pipeline-db</module>
+    <module>service-monitor-kylo-cluster</module>
+    <module>field-policy-default</module>
+    <module>precondition-default</module>
+    <module>sla-metrics-default</module>
+    <module>sla-email</module>
+    <module>sla-jira</module>
+    <module>hadoop-authorization-ranger-default</module>
+    <module>hadoop-authorization-sentry-default</module>
+    <module>schema-discovery-default</module>
+    <module>ui-sqoop-table-data-processor-template</module>
+    <module>search-elasticsearch</module>
+    <module>search-solr</module>
+    <module>jms-service-activemq</module>
+    <module>jms-service-amazon-sqs</module>
+    <module>search-elasticsearch-rest</module>
+    <module>service-monitor-activemq</module>
+    <module>catalog-filesystem-aws-hadoop-v2</module>
+    <module>catalog-filesystem-aws-hadoop-v3</module>
+    <module>catalog-filesystem-azure</module>
+    <module>catalog-credential-simple</module>
+    <module>catalog-credential-vault</module>
+    <module>spark-shell-server</module>
+    <module>spark-livy-server</module>
+  </modules>
+</project>

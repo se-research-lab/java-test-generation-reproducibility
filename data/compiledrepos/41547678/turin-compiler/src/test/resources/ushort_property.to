@@ -1,0 +1,9 @@
+namespace basictypes
+
+type A {
+    ushort a
+}
+
+A foo1() = A(-1S)
+A foo2() = A(0S)
+A foo3() = A(1S)

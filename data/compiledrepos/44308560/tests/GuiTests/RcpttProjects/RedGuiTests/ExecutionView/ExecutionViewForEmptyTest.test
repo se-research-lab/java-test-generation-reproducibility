@@ -1,0 +1,88 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: ExecutionViewForEmptyTest
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _ROyUcGBVEeW-9bGOK0urnw
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 10/22/18 5:10 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+proc "check-execution-view" [val pass 0] [val fail 0] [val items 0] [val pb "0.0"]{
+	with [get-view "Execution View"] {
+	    get-tree | get-property itemCount | equals $items | verify-true
+	    get-label "Tests: .*" | get-property caption | equals [format "Tests: %s/%s" $pass $pass] | verify-true
+	    get-label "Passed: .*" | get-property caption | equals [format "Passed: %s" $pass] | verify-true
+	    get-label "Failed: .*" | get-property caption | equals [format "Failed: %s" $fail] | verify-true
+	}
+	//progress bar
+	get-view "Execution View" | get-canvas | get-property "getProgress()" | equals $pb | verify-true
+}
+
+//create empty robot file an run it 
+get-view "Project Explorer" | get-tree | select RobotProject | select RobotProject | get-menu "New/Robot Test Suite" 
+    | click
+with [get-window "New Robot Test Suite"] {
+    get-editbox -after [get-label "File name:"] | set-text "empty_tests.robot"
+    get-button Finish | click
+}
+get-view "Project Explorer" | get-tree | select "RobotProject/empty_tests.robot" | get-menu "Run As/1 Robot Test" 
+    | click
+  
+//check console    
+if [not [get-view Console | get-text-viewer | get-property text -raw
+	    | matches "^Command: .*\n"
+	    + "Suite Executor: Robot Framework .*\n"
+	    +"\[ ERROR \] Suite 'RobotProject' contains no tests in suite 'RobotProject.Empty Tests'.\n\n"
+	    + "Try --help for usage information."]]{
+	    
+    //different order on linux sometimes:
+    get-view Console | get-text-viewer | get-property text 
+	    | equals "\[ ERROR \] Suite 'RobotProject' contains no tests in suite 'RobotProject.Empty Tests'.\n\n"
+	    + "Try --help for usage information.\n"
+	    + "Command: .*\n"
+	    + "Suite Executor: Robot Framework .*"
+	     | verify-true
+
+}
+ 
+//check that view is empty     
+get-tab-folder -index 5 | get-tab-item "Execution View" | click
+check-execution-view
+
+//add pass case
+with [get-editor "empty_tests.robot" | get-text-viewer] {
+    set-caret-pos 1 19
+    key-type "NUMPAD_ENTER" "\\u000D"
+    type-text "test 1"
+    key-type Enter
+    type-text "Log  pass case"
+    key-type "M1+s"
+}
+//run test
+get-view "Project Explorer" | get-tree | select "RobotProject/empty_tests.robot" | get-menu "Run As/1 Robot Test" 
+    | click
+wait-for-message-log -times 4 -delay 1000
+check-execution-view -pass 1 -pb "1.0" -items 1
+
+//remove content and run test
+with [get-editor "empty_tests.robot" | get-text-viewer] {
+    set-caret-pos 2 7
+    select-range 3 19 2 1
+    key-type BackSpace
+    key-type "M1+s"
+}
+get-view "Project Explorer" | get-tree | select "RobotProject/empty_tests.robot" | get-menu "Run As/1 Robot Test" 
+    | click
+wait-for-console  -times 4 -delay 1000
+
+//check that view is empty     
+get-tab-folder -index 5 | get-tab-item "Execution View" | click
+check-execution-view
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

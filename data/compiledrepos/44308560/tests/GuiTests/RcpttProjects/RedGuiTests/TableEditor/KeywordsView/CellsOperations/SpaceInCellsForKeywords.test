@@ -1,0 +1,207 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _VzYJ0KEAEea9Cvae3yWo1A
+Element-Name: SpaceInCellsForKeywords
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _oVPCsGCaEeaRBaqqj0N1Gg
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 12/9/19 11:57 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+proc "check-marker-on-cell" [val is_content_assist true] [val check_color true]{
+	if [$is_content_assist | eq True]{
+		with [get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1] {
+	    	get-property "decorators[0].description" | equals "Press M1+Space for content assist" | verify-true
+	    	get-property "decorators[1].description" | equals "Space should be escaped" | verify-true
+		}
+	}-else{
+	
+		with [get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1] {
+	    	get-property "decorators[0].description" | equals "Space should be escaped" | verify-true
+		}
+	}	
+	if [$check_color | eq true]{
+		try -times 4 -delay 500 -command{
+			with [get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1] {
+			    get-property foregroundColor | equals "#FF0000" | verify-true
+			}
+		}
+	}
+}
+
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Test Cases ***    \n"
+    + "*** Keyword ***\n"
+    + "Keyword\n"
+    + "    Log  12\n"
+    + "    Convert To Binary    89977"
+    
+with [get-editor "TestFile.robot"] {
+    with [get-text-viewer] {
+        key-type "M1+s"
+    }
+    get-tab-folder | get-tab-item Keywords | click
+}
+get-view Outline | get-tree | select "TestFile.robot/Keywords/Keyword"
+wait 500
+
+//change kw name for single space
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Right
+        key-type Left
+        key-type Enter
+    }
+    get-editbox -after [get-label "User Keywords"] -index 1 | type-text " "
+}
+//check that erros is shown - no checking color - it fails sometimes on linux when is only space
+check-marker-on-cell -is_content_assist false -check_color false
+//set name with space
+get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1 | type-text "new name"
+
+check-marker-on-cell -is_content_assist false
+
+//set correct name
+with [get-editor "TestFile.robot"] {
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        set-text "correct name"  
+    }
+    //set single space as argument
+    get-canvas -after [get-label "User Keywords"] -index 1 | key-type Right
+    get-canvas -after [get-label "User Keywords"] -index 1 | key-type Enter
+    get-editbox -after [get-label "User Keywords"] -index 1 | type-text " "
+}
+//check error - content assist is not in arguments cells
+check-marker-on-cell -is_content_assist false
+//set correct name
+get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1 | set-text "${arg1}"
+wait 500
+//add space at the end 
+with [get-editor "TestFile.robot"] {
+    get-canvas -after [get-label "User Keywords"] -index 1 | key-type "NUMPAD_ENTER" "\\u000D"
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text "${a1}"
+        wait 300
+        type-text " "
+        wait 400
+        key-type Enter
+    }
+}
+check-marker-on-cell -is_content_assist false
+
+with [get-editor "TestFile.robot"] {
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        set-text "${arg1}"
+    }
+    //go down to Log kw
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Left
+        key-type Down
+        key-type Enter
+    }
+    //change to single space
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text " "
+        key-type Enter
+    }
+}
+
+check-marker-on-cell -check_color false
+
+with [get-editor "TestFile.robot"] {
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        set-text "log many"
+    }
+    //add comment
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Right -times 5
+        key-type Enter
+    }
+    wait 300
+    //add single space
+    get-editbox -after [get-label "User Keywords"] -index 1 | type-text " "
+}
+
+
+check-marker-on-cell -is_content_assist true -check_color False
+
+//set correct name
+get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1 | set-text "#comment1"
+
+//add space at the end
+get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1 | key-type Enter
+get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1 | type-text "#com2"
+wait 500
+get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1 | type-text " "
+
+check-marker-on-cell  -is_content_assist true
+
+//set correct name
+get-editor "TestFile.robot" | get-editbox -after [get-label "User Keywords"] -index 1 | set-text "#com2"
+
+with [get-editor "TestFile.robot" | get-canvas -after [get-label "User Keywords"] -index 1] {
+    key-type Right -times 3
+    key-type "NUMPAD_ENTER" "\\u000D"
+}
+
+//go to Convert to binary argument
+with [get-editor "TestFile.robot"] {
+    //type 3 spaces
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text "   3 spaces"
+        
+        //press enter - no action
+        key-type Enter -times 2
+        click-text 1 4
+        type-text "ok"
+        key-type Enter
+    }
+}  
+
+get-editor "TestFile.robot" | maximize
+check-keyword-row -file "TestFile.robot" -row 1 -kw "correct name" -c1 "${arg1}" -extended_col true
+check-keyword-row -file "TestFile.robot" -row 2 -kw "log many" -c1 "12" -c2 "\\" -c3 "\\" -c4 "\\" -c5  "#com2" -extended_col true
+check-keyword-row -file "TestFile.robot" -row 3 -kw "Convert To Binary" -c1 "ok3 spaces" -extended_col true
+check-keyword-row -file "TestFile.robot" -row 4 -kw "..." -extended_col true
+check-keyword-row -file "TestFile.robot" -row 5 -kw "...add new keyword" -extended_col true
+get-editor "TestFile.robot" | restore
+
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***    \n"
+    + "*** Keyword ***\n"
+    + "correct name\n"
+    + "    [Arguments]    ${arg1}\n"
+    + "    log many  12    \\    \\    \\    #com2\n"
+    + "    Convert To Binary    ok3 spaces" | verify-true
+    
+with [get-editor "TestFile.robot"] {
+    get-text-viewer | key-type "M1+s"
+    with [get-tab-folder] {
+        get-tab-item Keywords | click
+    }
+}
+
+wait 300
+// add new arg "a | b"
+get-view Outline | get-tree | select "TestFile.robot/Keywords/correct name/Convert To Binary" | click
+wait 200
+with [get-editor "TestFile.robot"] {
+    with [get-canvas -after [get-label "User Keywords"] -index 1] {
+        key-type Right -times 2
+        key-type "NUMPAD_ENTER" "\\u000D"
+    }
+    with [get-editbox -after [get-label "User Keywords"] -index 1] {
+        type-text "a | b"
+        key-type "NUMPAD_ENTER" "\\u000D"
+    }
+}    
+
+check-keyword-row -file "TestFile.robot" -row 3 -kw "Convert To Binary" -c1 "ok3 spaces" -c2 "a | b"
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

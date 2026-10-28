@@ -1,0 +1,234 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _2rVvIENaEeaEVfxTnoQ14g
+Element-Name: ContentAssistInTestSetupTable
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _aNEgIET5EeaEVfxTnoQ14g
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 5/28/20 3:22 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+proc "get-selector"{
+	echo ""
+}
+
+proc "get-index"{
+	if [$is_eclipse_photon]{
+		int 1
+	}-else{
+		int 2
+	}
+}
+
+
+proc "check-if-no-content-assist-is-shown"{
+	get-editor "TestFile.robot" | get-section General | get-editbox [get-selector] -index [get-index ] |  key-type "M1+SPACE"
+	verify-error {get-window -class ContentProposalPopup | get-table }
+	get-editor "TestFile.robot" | get-section General | get-editbox [get-selector] -index [get-index ] |  key-type Enter
+}
+
+proc "check-content-assist-for-variables" [val none_kw false]{
+	get-editor "TestFile.robot" | get-section General | get-editbox [get-selector] -index [get-index ] |  key-type "M1+SPACE"
+		if [$none_kw | eq true]{
+			with [get-window -class ContentProposalPopup | get-table] {
+			    get-property "selection[0].path[0]" | equals "NONE" | verify-true
+			    get-property itemCount | equals 38 | verify-true
+			    get-property "getItems().TableItem[0].getText()" | equals NONE | verify-true
+    			get-property "getItems().TableItem[1].getText()" | equals "${/}" | verify-true
+			} 
+		}-else{
+			with [get-window -class ContentProposalPopup | get-table] {
+			    get-property "selection[0].path[0]" | equals "${/}" | verify-true
+			    get-property itemCount | equals 37 | verify-true
+			} 
+	   }		
+		//go down
+		with [get-editor "TestFile.robot" | get-section General] {
+			get-canvas | key-type Enter
+		    with [get-editbox [get-selector] -index [get-index ]] {
+		        key-type Enter
+		    }
+		}
+}	
+proc "check-content-assist-for-keywords"{
+	get-editor "TestFile.robot" | get-section General | get-editbox [get-selector] -index [get-index ] |  key-type "M1+SPACE"
+	get-window -class ContentProposalPopup | get-table | get-property "selection[0].path[0]" | equals "NONE" | verify-true
+	
+	// check 2 first items
+	with [get-window -class ContentProposalPopup | get-table] {
+	    get-property "getItems().TableItem[0].getText()" | equals NONE | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "Call Method - BuiltIn" | verify-true
+	}
+	
+	with [get-editor "TestFile.robot" | get-section General] {
+		get-canvas | key-type Enter
+	    with [get-editbox [get-selector] -index [get-index ]] {
+	        key-type Enter
+	    }
+	}
+}
+
+
+//set text in file
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Setting ***\n"
+    + "Suite Setup    gg\n"
+    + "*** Test Cases ***\n"
+    + "*** Variables ***" 
+    
+
+with [get-editor "TestFile.robot"] {
+    get-tab-folder | get-tab-item Source | click
+    with [get-text-viewer] {
+        set-caret-pos 2 9
+        //jump to view
+        key-type F4
+    }
+    //remove text and add keyword using content assist
+    with [get-section General] {
+        with [get-canvas] {
+            key-type Right
+            key-type Enter
+        }
+        //add "Convert To Hex - BuiltIn"
+        with [get-editbox [get-selector] -index [get-index ]] {
+            type-text "To Hex"
+            key-type "M1+SPACE"
+            key-type Enter
+            wait 200
+        }
+    }
+}
+
+
+//select false
+with [get-editor "TestFile.robot" | get-section General] {
+    with [get-editbox [get-selector] -index [get-index ]] {
+     	//remove arg
+        type-text  ""
+        
+        //add $false
+        key-type "M1+SPACE"
+        wait 100
+        key-type Down -times 7
+        key-type Enter
+        wait 100
+        key-type Enter
+    }
+}
+with [get-editor "TestFile.robot" | get-section General] {
+    with [get-editbox [get-selector] -index [get-index ]] {
+    	//select $curdir by arrow
+        key-type "M1+SPACE"
+        wait 100
+        key-type Down -times 3
+        key-type Enter
+        wait 100
+        key-type Enter
+    }
+    with [get-editbox [get-selector] -index [get-index ]] {
+    	//go up and select: "&{EMPTY}"
+        key-type "M1+SPACE"
+        wait 100
+        key-type Up -times 4
+        key-type Enter
+        wait 100
+        key-type Enter
+    }
+    with [get-editbox [get-selector] -index [get-index ]] {
+    	//select @{TEST_TAGS}
+        key-type "M1+SPACE"
+        wait 200
+        key-type Up
+        key-type Enter
+        wait 100
+        key-type Enter
+    }
+}
+with [get-editor "TestFile.robot" | get-section General] {
+    get-editbox -after [get-label "Provide test suite documentation and general settings"] -index 1 
+        | key-type "TRAVERSE_ESCAPE"
+    with [get-canvas] {
+        key-type Right
+        key-type Enter
+    }
+}
+
+//check that in comment is no content assist
+verify-error {get-window -class ContentProposalPopup | get-table }
+
+//go to second line
+get-editor "TestFile.robot" | get-section General | get-editbox [get-selector] -index [get-index ] |  key-type Enter
+
+//check 3 lines: Suite Teardows, Test Setup, Test Teardow
+repeat -times 3 -command{
+	//open content asssinst in fist column
+	check-content-assist-for-keywords
+
+	//check column 2-6 where are variables
+	repeat -times 5 -command{
+		get-editor "TestFile.robot" | get-section General | get-editbox [get-selector] -index [get-index ] |  key-type "M1+SPACE"
+		
+		check-content-assist-for-variables
+		wait 100
+	}	
+	//comment
+	check-if-no-content-assist-is-shown
+}
+
+//test template
+get-editor "TestFile.robot" | get-section General | get-editbox [get-selector] -index [get-index ] |  key-type "M1+SPACE"
+get-window -class ContentProposalPopup | get-table | get-property "selection[0].path[0]" | equals "NONE" | verify-true
+with [get-editor "TestFile.robot" | get-section General] {
+	get-canvas | key-type Enter
+    with [get-editbox [get-selector] -index [get-index ]] {
+        key-type Enter
+    }
+}
+repeat -times 5 -command{
+	check-content-assist-for-variables
+}
+//comment column
+check-if-no-content-assist-is-shown
+
+
+//rest cells from Test timeout
+check-content-assist-for-variables -none_kw true
+repeat -times 5 -command{
+	check-content-assist-for-variables
+}
+
+check-if-no-content-assist-is-shown
+
+// Force tag and Default tag
+repeat -times 2 -command{
+	//check columns 1-5 
+	repeat -times 6 -command{
+		check-content-assist-for-variables
+	}
+	
+	//check comment column
+	check-if-no-content-assist-is-shown
+}	
+
+get-editor "TestFile.robot" | maximize
+
+check-row-for-test-setup-default -file "TestFile.robot" -row 1  -setting "Suite Setup" -c1 "Convert To Hex" -c2 "${False}" -c3 "${CURDIR}" -c4 "@{EMPTY}" -c5 "&{SUITE_METADATA}"
+check-row-for-test-setup-default -file "TestFile.robot" -row 2  -setting "Suite Teardown"
+check-row-for-test-setup-default -file "TestFile.robot" -row 3  -setting "Test Setup"
+check-row-for-test-setup-default -file "TestFile.robot" -row 4  -setting "Test Teardown"
+check-row-for-test-setup-default -file "TestFile.robot" -row 5  -setting "Test Template"
+check-row-for-test-setup-default -file "TestFile.robot" -row 6  -setting "Test Timeout"
+check-row-for-test-setup-default -file "TestFile.robot" -row 7  -setting "Force Tags"
+check-row-for-test-setup-default -file "TestFile.robot" -row 8  -setting "Default Tags"
+
+get-editor "TestFile.robot" | restore
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

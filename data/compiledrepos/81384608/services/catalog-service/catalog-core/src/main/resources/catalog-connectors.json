@@ -1,0 +1,128 @@
+[
+  {
+    "title": "SQL Source",
+    "pluginId": "jdbc",
+    "template": {
+      "format": "jdbc"
+    }
+  },
+  {
+    "title": "Hive",
+    "pluginId": "hive",
+    "template": {
+      "format": "hive"
+    }
+  },
+  {
+    "title": "Amazon S3",
+    "pluginId": "amazon-s3",
+    "icon": "amazon",
+    "template": {
+      "paths": [
+        "s3a:///"
+      ]
+    }
+  },
+  {
+    "title": "Azure Storage",
+    "pluginId": "azure",
+    "icon": "windows",
+    "template": {
+      "paths": [
+        "wasb:///"
+      ]
+    }
+  },
+  {
+    "title": "Kafka",
+    "pluginId": "kafka",
+    "icon": "kafka",
+    "template": {
+      "format": "org.apache.spark.sql.kafka010.KafkaSourceProvider",
+      "jars": [
+        "file:/opt/nifi/mysql/kafka-clients-0.10.0.1.jar",
+        "file:/opt/nifi/mysql/spark-sql-kafka-0-10_2.11-2.2.0.jar"
+      ]
+    }
+  },
+  {
+    "title": "File Upload",
+    "pluginId": "file-upload",
+    "icon": "file_upload"
+  },
+  {
+    "title": "HDFS",
+    "pluginId": "hdfs",
+    "icon": "hadoop",
+    "template": {
+      "paths": [
+        "hdfs://"
+      ]
+    }
+  },
+  {
+    "title": "Teradata",
+    "pluginId": "teradata",
+    "color": "orange-700",
+    "template": {
+      "format": "jdbc",
+      "jars": [
+        "file:/Users/RU186002/Documents/tech/Teradata/TeraJDBC-16.10.00.07/tdgssconfig.jar",
+        "file:/Users/RU186002/Documents/tech/Teradata/TeraJDBC-16.10.00.07/terajdbc4.jar"
+      ]
+    }
+  },
+  {
+    "title": "Mysql",
+    "pluginId": "jdbc",
+    "color": "orange-700",
+    "template": {
+      "format": "jdbc",
+      "jars": [
+        "file:/opt/nifi/mysql/mariadb-java-client-1.5.7.jar"
+      ],
+      "options": {
+        "driver": "org.mariadb.jdbc.Driver",
+        "url": "jdbc:mysql://localhost:3306/kylo"
+      }
+    }
+  },
+  {
+    "title": "Oracle",
+    "pluginId": "oracle",
+    "color": "orange-700",
+    "template": {
+      "format": "jdbc",
+      "jars": [
+        "file:/opt/nifi/oracle/ojdbc6.jar"
+      ],
+      "options": {
+        "driver": "oracle.jdbc.driver.OracleDriver",
+        "url": "jdbc:oracle:thin:@my.oracle.server.domain.com:1521:defaultDB"
+      }
+    }
+  },
+  {
+    "title": "Google Cloud Storage",
+    "pluginId": "google-cloud-storage",
+    "icon": "google",
+    "template": {
+      "jars": [
+        "file:/opt/nifi/mysql/gcs-connector-latest-hadoop2.jar"
+      ],
+      "paths": [
+        "gcs://"
+      ]
+    }
+  },
+  {
+    "title": "Local File System",
+    "pluginId": "local-file-system",
+    "icon": "fa-file",
+    "template": {
+      "paths": [
+        "file:/"
+      ]
+    }
+  }
+]

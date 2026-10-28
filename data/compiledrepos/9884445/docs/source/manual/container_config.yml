@@ -1,0 +1,47 @@
+# The name of the container
+name: My Container
+
+# The base path to use for the routes from all the applications
+basePath: /
+
+# Http server configuration
+server:
+  connectors:
+    - port: 8080
+      scheme: http
+     - port: 8443
+      scheme: https
+      ssl:
+        keyStoreFile: /Users/ganeshs/keystore.jks
+        keyStorePassword: password
+        keyPassword: secret
+
+# The default http media type that this container would support. Can be overridden by applications
+defaultMediaType: application/json
+
+# The serializers to use for the supported media types
+serializers:
+  application/json:
+    class: org.minnal.core.serializer.DefaultJsonSerializer
+
+# The mount points for the applications. If you just have one application in the container,
+# you can skip this configuration. Defaults to the path '/'
+mounts:
+  com.shopping.cart.ShoppingCartApplication: /
+
+# You can override the bundle configurations using bundleOverrides
+bundleOverrides:
+  # The key is the fully qualified name of the bundle class
+  org.minnal.metrics.MetricsBundle:
+    # The configuration class must be specified to override the properties
+    class: org.minnal.metrics.MetricsBundleConfiguration
+    enableJmxReporter: true
+    enableGraphiteReporter: true
+    graphiteReporterConfiguration:
+      graphiteHost: 127.0.0.1
+      graphitePort: 2003
+      # The prefix string to prepend to the keys
+      prefix: my_prefix
+      # The time interval in seconds to push the metrics to graphite
+      pollPeriodInSecs: 10
+

@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  post_build:
+    commands:
+    - mvn package
+    - mv examples/target/examples.zip website/target/ROOT/
+artifacts:
+  files:
+  - '**/*'
+  base-directory: 'website/target/ROOT'

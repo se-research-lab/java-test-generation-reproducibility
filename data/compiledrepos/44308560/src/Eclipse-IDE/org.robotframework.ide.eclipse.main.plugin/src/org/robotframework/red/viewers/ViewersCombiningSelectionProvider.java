@@ -1,0 +1,72 @@
+/*
+ * Copyright 2015 Nokia Solutions and Networks
+ * Licensed under the Apache License, Version 2.0,
+ * see license.txt file for details.
+ */
+package org.robotframework.red.viewers;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.eclipse.jface.viewers.ColumnViewer;
+import org.eclipse.jface.viewers.ISelection;
+import org.eclipse.jface.viewers.ISelectionChangedListener;
+import org.eclipse.jface.viewers.ISelectionProvider;
+import org.eclipse.jface.viewers.StructuredSelection;
+import org.eclipse.swt.events.FocusAdapter;
+import org.eclipse.swt.events.FocusEvent;
+
+public class ViewersCombiningSelectionProvider implements ISelectionProvider {
+
+    private final List<ColumnViewer> viewers;
+
+    private ColumnViewer activeViewer;
+
+    public ViewersCombiningSelectionProvider(final ColumnViewer... viewers) {
+        this.viewers = Arrays.asList(viewers);
+
+        for (final ColumnViewer viewer : viewers) {
+            addFocusListener(viewer);
+        }
+    }
+
+    private void addFocusListener(final ColumnViewer viewer) {
+        viewer.getControl().addFocusListener(new FocusAdapter() {
+
+            @Override
+            public void focusGained(final FocusEvent e) {
+                activeViewer = viewer;
+            }
+        });
+    }
+
+    @Override
+    public void addSelectionChangedListener(final ISelectionChangedListener listener) {
+        for (final ColumnViewer viewer : viewers) {
+            viewer.addSelectionChangedListener(listener);
+        }
+    }
+
+    @Override
+    public ISelection getSelection() {
+        if (activeViewer == null) {
+            return StructuredSelection.EMPTY;
+        }
+        return activeViewer.getSelection();
+    }
+
+    @Override
+    public void removeSelectionChangedListener(final ISelectionChangedListener listener) {
+        for (final ColumnViewer viewer : viewers) {
+            viewer.removeSelectionChangedListener(listener);
+        }
+    }
+
+    @Override
+    public void setSelection(final ISelection selection) {
+        if (activeViewer != null) {
+            activeViewer.setSelection(selection);
+        }
+    }
+
+}

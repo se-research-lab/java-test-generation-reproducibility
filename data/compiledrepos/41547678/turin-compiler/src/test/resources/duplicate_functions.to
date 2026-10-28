@@ -1,0 +1,7 @@
+namespace foo
+
+void bar() {
+}
+
+void bar(int i) {
+}

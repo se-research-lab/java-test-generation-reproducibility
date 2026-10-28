@@ -1,0 +1,18 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _1vIZ8KV3EeWcDJJ2TRzOng
+Element-Name: TsvMultilineVariableWithNewLineCommentNPE
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _m0j4EKV3EeWcDJJ2TRzOng
+Runtime-Version: 2.3.0.201806262310
+Save-Time: 4/8/19 12:12 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

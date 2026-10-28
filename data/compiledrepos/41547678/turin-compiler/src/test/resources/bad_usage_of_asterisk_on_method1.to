@@ -1,0 +1,11 @@
+namespace manga
+
+type Foo {
+   int a
+   int b = 10
+   int c default 5
+   int d default 7
+}
+
+Foo foo2() = StringBuilder().append(*=Foo())
+

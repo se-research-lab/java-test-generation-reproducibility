@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc label="RED - Robot Editor User Guide" topic="help/index.html">
+<topic href="help/about.html" label="About this Guide">
+</topic>
+<topic href="help/legal.html" label="Legal">
+</topic>
+<topic href="help/keys.html" label="RED key shortcuts cheatsheet">
+</topic>
+<topic href="help/first_steps/first_steps.html" label="First steps with RED">
+    <topic href="help/first_steps/download_install.html" label="Download and install">
+    </topic>
+    <topic href="help/first_steps/eclipse_principles.html" label="Eclipse principles">
+    </topic>
+    <topic href="help/first_steps/setting_up_environment.html" label="Setting up environment">
+    </topic>
+    <topic href="help/first_steps/create_run.html" label="Create project, add test and run">
+    </topic>
+    <topic href="help/first_steps/preferences_misc.html" label="Preferences and red.xml">
+    </topic>
+</topic>
+<topic href="help/user_guide/user_guide.html" label="User guide">
+    <topic href="help/user_guide/quick_start.html" label="Quick start with RED - Robot Editor">
+    </topic>
+    <topic href="help/user_guide/general.html" label="General usage hints">
+    </topic>
+    <topic href="help/user_guide/project_config.html" label="Project configuration">
+       <topic href="help/user_guide/project_config/red_xml_overview.html" label="Overview of red.xml">
+       </topic>
+       <topic href="help/user_guide/project_config/libraries.html" label="Recognizing external libraries in RED">
+       </topic>
+       <topic href="help/user_guide/project_config/custom_paths.html" label="Custom PYTHONPATH/CLASSPATH and path relativeness">
+       </topic>
+       <topic href="help/user_guide/project_config/variable_mapping.html" label="Variable mappings">
+       </topic>
+       <topic href="help/user_guide/project_config/variable_files.html" label="Global variables files">
+       </topic>
+       <topic href="help/user_guide/project_config/libraries_abs_paths.html" label="Dealing with libraries absolute paths">
+       </topic>
+    </topic>
+    <topic href="help/user_guide/working_with_RED.html" label="Working with RED">
+        <topic href="help/user_guide/working_with_RED/table_general.html" label="Table Editors - general usage hints">
+        </topic>
+        <topic href="help/user_guide/working_with_RED/variable_typing.html" label="Variable typing in editors">
+        </topic>
+        <topic href="help/user_guide/working_with_RED/content_assist.html" label="Content assistance">
+        </topic>   
+        <topic href="help/user_guide/working_with_RED/code_templates.html" label="Code templates">
+        </topic>
+        <topic href="help/user_guide/working_with_RED/importing.html" label="Importing files and projects to workspace">
+        </topic>
+        <topic href="help/user_guide/working_with_RED/dark_theme.html" label="Dark theme in RED">
+        </topic>    
+    </topic>
+    <topic href="help/user_guide/validation.html" label="Validation">
+        <topic href="help/user_guide/validation/scope.html" label="Limiting validation scope">
+        </topic>
+        <topic href="help/user_guide/validation/validation_preferences.html" label="Configuring problems severity">
+        </topic>
+        <topic href="help/user_guide/validation/headless.html" label="Running validation in command line">
+        </topic>
+        <topic href="help/user_guide/validation/tasks.html" label="Tasks/TODO">
+        </topic>
+    </topic>
+    <topic href="help/user_guide/launching.html" label="Launching Tests">
+        <topic href="help/user_guide/launching/ui_elements.html" label="User interface">
+        </topic>
+        <topic href="help/user_guide/launching/local_launch.html" label="Local launches">
+        </topic>
+        <topic href="help/user_guide/launching/local_launch_scripting.html" label="Local launches scripting">
+        </topic>
+        <topic href="help/user_guide/launching/remote_launch.html" label="Remote launches">
+        </topic>
+        <topic href="help/user_guide/launching/string_substitution.html" label="Parameterizing launches">
+        </topic>
+        <topic href="help/user_guide/launching/exec_control.html" label="Controlling execution">
+        </topic>
+        <topic href="help/user_guide/launching/debug.html" label="Debugging Robot">
+            <topic href="help/user_guide/launching/debug/ui_elements.html" label="User interface">
+            </topic>
+            <topic href="help/user_guide/launching/debug/breakpoints.html" label="Breakpoints">
+            </topic>
+            <topic href="help/user_guide/launching/debug/hitting_a_breakpoint.html" label="Hitting a breakpoint">
+            </topic>
+            <topic href="help/user_guide/launching/debug/preferences.html" label="Debugger preferences">
+            </topic>
+            <topic href="help/user_guide/launching/debug/robot_python_debug.html" label="Debugging Robot &amp; Python with RED &amp; PyDev">
+            </topic>
+        </topic>
+        <topic href="help/user_guide/launching/launch_prefs.html" label="Launching preferences">
+        </topic>
+        <topic href="help/user_guide/launching/red_agent.html" label="RED Tests Runner Agent">
+        </topic>
+    </topic>
+    <topic href="help/user_guide/tools_integration.html" label="Integration with other tools">
+        <topic href="help/user_guide/tools_integration/virtual_folders.html" label="Mounting folders via SSH">
+        </topic>
+        <topic href="help/user_guide/tools_integration/red_pylint.html" label="PyDev and PyLint">
+        </topic>
+        <topic href="help/user_guide/tools_integration/maven.html" label="Robot Framework Maven plugin">
+        </topic>
+        <topic href="help/user_guide/tools_integration/gradle.html" label="Running tests using Gradle">
+        </topic>
+        <topic href="help/user_guide/tools_integration/rflint.html" label="Robot Framework Lint">
+        </topic>
+    </topic>
+    <topic href="help/user_guide/known_issues.html" label="Known issues and problems">
+    </topic>
+    <topic href="help/user_guide/diagnostics.html" label="Diagnostics">
+    </topic>
+ </topic>
+<topic href="help/whats_new.html" label="What&apos;s new">
+   <topic href="help/whats_new/0_9_0.html" label="RED 0.9.0">
+   </topic>
+   <topic href="help/whats_new/0_9_1.html" label="RED 0.9.1">
+   </topic>
+   <topic href="help/whats_new/0_9_2.html" label="RED 0.9.2">
+   </topic>
+   <topic href="help/whats_new/0_9_3.html" label="RED 0.9.3">
+   </topic>
+   <topic href="help/whats_new/0_9_4.html" label="RED 0.9.4">
+   </topic>
+   <topic href="help/whats_new/0_9_5.html" label="RED 0.9.5">
+   </topic>
+</topic> 
+</toc>

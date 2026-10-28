@@ -1,0 +1,24 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.thinkbiganalytics.kylo</groupId>
+    <artifactId>kylo-services</artifactId>
+    <version>0.10.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>kylo-metadata-service</artifactId>
+  <groupId>com.thinkbiganalytics.kylo</groupId>
+  <packaging>pom</packaging>
+  <properties>
+    <projectprojectreactor.version>2.0.7.RELEASE</projectprojectreactor.version>
+    <netty.version>4.0.31.Final</netty.version>
+    <plugin.license.parentRelative>../../</plugin.license.parentRelative>
+  </properties>
+  <modules>
+    <module>metadata-rest-controller</module>
+    <module>metadata-rest-model</module>
+    <module>metadata-jms</module>
+    <module>metadata-rest-client-spring</module>
+    <module>metadata-service-api</module>
+  </modules>
+</project>

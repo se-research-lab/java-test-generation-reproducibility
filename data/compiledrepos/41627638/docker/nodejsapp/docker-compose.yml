@@ -1,0 +1,16 @@
+version: '2'
+services:
+  nodeapp:
+    image: cuipengfei/nodejsapp:dev-v1
+    ports:
+     - "8888:8888"
+  db:
+    image: openlmis/postgres:latest
+    env_file: .env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432"
+volumes:
+  pgdata:
+    external: false

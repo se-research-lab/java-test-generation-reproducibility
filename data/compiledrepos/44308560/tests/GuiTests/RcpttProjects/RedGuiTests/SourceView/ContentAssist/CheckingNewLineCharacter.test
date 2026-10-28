@@ -1,0 +1,108 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _9Bte8NYSEeijg6yKwqEQmw
+Element-Name: CheckingNewLineCharacter
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _2zK2oHZgEeWYifgNPLzx_Q
+Runtime-Version: 2.3.0.201806262310
+Save-Time: 2/20/19 12:14 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree  | select "RobotProject/TestFile.robot" | double-click
+
+//add simple test    
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    key-type End
+    key-type Enter
+    type-text "test 1"
+    key-type Enter
+    type-text  "Log  1"
+    key-type "M1+s"
+}
+
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+    + "test 1\n"
+    + "    Log  1" | verify-true
+    
+
+//check line number (more means CRLF)
+if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{
+	get-editor "TestFile.robot" | get-text-viewer | get-property "getCharCount()" | equals 38 | verify-true
+
+}-else{
+	get-editor "TestFile.robot" | get-text-viewer | get-property "getCharCount()" | equals 36 | verify-true
+}
+
+// add test
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    key-type "M1+a"
+    key-type BackSpace
+    key-type "M1+SPACE"
+    wait 200
+    key-type Down -times [$MainSections | get "Test Cases"]
+    key-type Enter
+    type-text "test 2"
+    key-type Enter
+    type-text "log  2"
+}
+
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+    + "test 2\n"
+    + "    log  2" | verify-true
+    
+//check line number (more means CRLF)
+if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{
+	get-editor "TestFile.robot" | get-text-viewer | get-property "getCharCount()" | equals 38 | verify-true
+
+}-else{
+	get-editor "TestFile.robot" | get-text-viewer | get-property "getCharCount()" | equals 36 | verify-true
+}
+
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 3 11
+    key-type "NUMPAD_ENTER" "\\u000D" -times 2
+    
+    // add variables
+    key-type "M1+SPACE"
+    wait 200
+    key-type Down -times [$MainSections | get "Variables"] 
+    key-type Enter
+    type-text "${a}  5"
+    key-type Enter -times 2
+    
+    // add KW
+    key-type "M1+SPACE"
+    wait 200
+    key-type Down -times 4
+    key-type Enter
+    type-text "kw 1"
+    key-type Enter
+    type-text "Log  8"
+}
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    get-property text | equals "*** Test Cases ***\n"
+        + "test 2\n"
+        + "    log  2\n"
+        + "    \n"
+        + "*** Variables ***\n"
+        + "${a}  5\n\n"
+        + "*** Keywords ***\n"
+        + "kw 1\n"
+        + "    Log  8" | verify-true
+} 
+
+//check line number (more means CRLF)
+if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{
+	get-editor "TestFile.robot" | get-text-viewer | get-property "getCharCount()" | equals 110 | verify-true
+
+}-else{
+	get-editor "TestFile.robot" | get-text-viewer | get-property "getCharCount()" | equals 101 | verify-true
+}
+   
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

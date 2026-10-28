@@ -1,0 +1,70 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: JythonScript
+Element-Type: context
+Element-Version: 2.0
+Id: _OyDWIBxfEeq6f9_VBibLOg
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 3/30/20 11:16 AM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc "uncheck-generating-libdocs-in-process"{
+	get-preferences-menu | click
+	with [get-window Preferences] {
+	     get-tree | select "Robot Framework/Libraries"
+	    get-group "Libdoc generating" | get-button "Generate Python libraries libdocs in separate process" | uncheck
+	    get-button "Apply and Close" | click
+	}
+}
+
+proc "set-jython-as-interpereter" [val open_preferences_menu True]{
+	if [$open_preferences_menu | eq True ]{
+		get-preferences-menu | click
+	}
+	get-window Preferences | get-tree | select "Robot Framework/Installed frameworks"
+	// add jython to preference
+	set-dialog-result Folder $jython_path
+	with [get-window Preferences] {
+	    get-button "Add..." | click
+	    get-table | get-item -path "Robot Framework .*\\(Jython .*\\)"| check
+	    get-button "Apply and Close" | click
+	    get-window "Rebuild required" | get-button OK | click
+	}
+	
+	//check label - RED-292
+	get-view "Project Explorer" | get-tree | get-item 
+	    -path ".*/Robot Standard libraries \\[Robot Framework.*\\(Jython.*\\)\\]" 
+	    | get-property caption | equals "Robot Standard libraries \[Robot Framework .*\(Jython .*\)\]" 
+	    | verify-true
+}
+
+proc "add-jython-to-interpereters" [val open_preferences_menu True]{
+	if [$open_preferences_menu | eq True ]{
+		get-preferences-menu | click
+	}
+	get-window Preferences | get-tree | select "Robot Framework/Installed frameworks"
+	// add jython to preference
+	set-dialog-result Folder [os-specific -windowsValue "C:\\jython\\bin" -linuxValue $jython_path]
+	with [get-window Preferences] {
+	    get-button "Add..." | click
+	    get-button "Apply and Close" | click
+	    get-window "Rebuild required" | get-button OK | click
+	}
+}
+
+
+proc "remove-all-interpreters"{
+	//remove all interpreters
+	repeat  -times [get-window Preferences | get-table | get-property itemCount -raw] -command{
+		with [get-window Preferences] {
+		    get-table | get-item ".*" -index 0 | click
+		    get-button Remove | click
+		}
+	}
+}
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

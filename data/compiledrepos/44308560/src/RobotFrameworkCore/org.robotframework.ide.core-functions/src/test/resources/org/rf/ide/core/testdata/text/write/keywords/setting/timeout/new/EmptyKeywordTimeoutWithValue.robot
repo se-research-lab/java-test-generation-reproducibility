@@ -1,0 +1,3 @@
+*** Keywords ***
+User Keyword
+	[Timeout]	1 hours

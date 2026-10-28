@@ -1,0 +1,2 @@
+*** Settings ***
+Test Teardown	keyword

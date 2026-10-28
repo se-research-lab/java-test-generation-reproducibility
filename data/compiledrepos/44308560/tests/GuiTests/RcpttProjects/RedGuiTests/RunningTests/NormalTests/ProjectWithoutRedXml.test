@@ -1,0 +1,146 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _gURaQCu6EeW667Afdo4DcA
+Element-Name: ProjectWithoutRedXml
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _VCN3MCu6EeW667Afdo4DcA
+Runtime-Version: 2.4.2.201905080442
+Save-Time: 7/17/19 2:02 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "OnlyRobotSuiteFile/SimpleLoggingTestCase.robot" | double-click
+// verify if there is no red.xml
+with [get-view "Project Explorer" | get-tree] {
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" 
+        | equals "Robot Standard libraries .*" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" | equals "SimpleLoggingTestCase.robot" 
+        | verify-true
+}
+// run
+get-button "Run.*" | click
+
+//check Message log    
+wait-for-message-log
+get-view "Message Log" | get-editbox | get-property text | matches [concat "Starting test: OnlyRobotSuiteFile\.SimpleLoggingTestCase\.firstTest\n" 
+[concat_str_with_regex [list  "1\\n"  "\\$\\{variable\\} = 10\\n"  "10"]] "\nEnding test: OnlyRobotSuiteFile\.SimpleLoggingTestCase\.firstTest"]| verify-true
+// add global variables to log
+with [get-editor "SimpleLoggingTestCase.robot" | get-text-viewer] {
+    set-caret-pos 10 20
+    key-type Enter
+    type-text "Log  "
+    key-type "M1+SPACE"
+}
+// check if global variables are visible in Content Assist
+with [get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table] {
+    get-property "getItems().length" | equals 34 | verify-true
+    get-property "getItems().TableItem[0].getText()" | equals "${variable}" | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "${variable}" | verify-true
+    get-property "getItems().TableItem[2].getText()" | equals "${/}" | verify-true
+    get-property "getItems().TableItem[3].getText()" | equals "${:}" | verify-true
+    get-property "getItems().TableItem[4].getText()" | equals "${\\n}" | verify-true
+    get-property "getItems().TableItem[5].getText()" | equals "${CURDIR}" | verify-true
+    get-property "getItems().TableItem[6].getText()" | equals "${DEBUG_FILE}" | verify-true
+    get-property "getItems().TableItem[7].getText()" | equals "${EMPTY}" | verify-true
+    get-property "getItems().TableItem[8].getText()" | equals "${EXECDIR}" | verify-true
+    get-property "getItems().TableItem[9].getText()" | equals "${False}" | verify-true
+    get-property "getItems().TableItem[10].getText()" | equals "${LOG_FILE}" | verify-true
+    get-property "getItems().TableItem[11].getText()" | equals "${LOG_LEVEL}" | verify-true
+    get-property "getItems().TableItem[12].getText()" | equals "${None}" | verify-true
+    get-property "getItems().TableItem[13].getText()" | equals "${null}" | verify-true
+    get-property "getItems().TableItem[14].getText()" | equals "${OUTPUT_DIR}" | verify-true
+    get-property "getItems().TableItem[15].getText()" | equals "${OUTPUT_FILE}" | verify-true
+    get-property "getItems().TableItem[16].getText()" | equals "${PREV_TEST_MESSAGE}" | verify-true
+    get-property "getItems().TableItem[17].getText()" | equals "${PREV_TEST_NAME}" | verify-true
+    get-property "getItems().TableItem[18].getText()" | equals "${PREV_TEST_STATUS}" | verify-true
+    get-property "getItems().TableItem[19].getText()" | equals "${REPORT_FILE}" | verify-true
+    get-property "getItems().TableItem[20].getText()" | equals "${SPACE}" | verify-true
+    get-property "getItems().TableItem[21].getText()" | equals "${SUITE_DOCUMENTATION}" | verify-true
+    get-property "getItems().TableItem[22].getText()" | equals "${SUITE_NAME}" | verify-true
+    get-property "getItems().TableItem[23].getText()" | equals "${SUITE_SOURCE}" | verify-true
+    get-property "getItems().TableItem[24].getText()" | equals "${SUMMARY_FILE}" | verify-true
+    get-property "getItems().TableItem[25].getText()" | equals "${TEMPDIR}" | verify-true
+    get-property "getItems().TableItem[26].getText()" | equals "${TEST_DOCUMENTATION}" | verify-true
+    get-property "getItems().TableItem[27].getText()" | equals "${TEST_NAME}" | verify-true
+    get-property "getItems().TableItem[28].getText()" | equals "${True}" | verify-true
+    get-property "getItems().TableItem[29].getText()" | equals "@{EMPTY}" | verify-true
+    get-property "getItems().TableItem[30].getText()" | equals "@{TEST_TAGS}" | verify-true
+    get-property "getItems().TableItem[31].getText()" | equals "&{EMPTY}" | verify-true
+    get-property "getItems().TableItem[32].getText()" | equals "&{SUITE_METADATA}" | verify-true
+    get-property "getItems().TableItem[33].getText()" | equals "For loop - New FOR loop scheme" | verify-true
+}
+with [get-window -from "CompletionProposalPopup.createProposalSelector()"] {
+    get-table | select "${SUITE_NAME}" | click -default
+}
+with [get-editor "SimpleLoggingTestCase.robot" | get-text-viewer] {
+    set-caret-pos 11 23
+    type-text "\\\\${"
+    key-type "M1+SPACE"
+    key-type Up -times 2
+    key-type Enter
+    key-type "M1+s"
+}
+// run
+get-button "Run.*" | click
+wait-for-message-log 
+// verify if ${SUITE_NAME}\\${TEST_NAME} is correctly solved in Message Log 
+with [get-view "Message Log" | get-editbox] {
+    set-text-selection -offset 81 -startLine 4 -endLine 4 -endOffset 36
+    set-text-selection -offset 81 -startLine 4 -endLine 4 -endOffset 35
+    set-text-selection -offset 81 -startLine 4 -endLine 4 -endOffset 34
+    set-text-selection -offset 81 -startLine 4 -endLine 4 -endOffset 33
+    set-text-selection -offset 81 -startLine 4 -endLine 4 -endOffset 31
+}
+get-view "Message Log" | get-editbox | get-property "getSelectionText()" 
+    | equals "OnlyRobotSuiteFile.SimpleLoggingTestCase\\firstTest" | verify-true
+//check console log
+try -times 10 -delay 300 -command {
+	get-view Console | get-text-viewer | get-property text 
+	    | matches "^Command: .*\n"
+	    + "Suite Executor: .*\n"
+	    + "==============================================================================\n"
+	    + "OnlyRobotSuiteFile                                                            \n"
+	    + "==============================================================================\n"
+	    + "OnlyRobotSuiteFile.SimpleLoggingTestCase                                      \n"
+	    + "==============================================================================\n"
+	    + "firstTest                                                             \| PASS \|\n"
+	    + "------------------------------------------------------------------------------\n"
+	    + "OnlyRobotSuiteFile.SimpleLoggingTestCase                              \| PASS \|\n"
+	    + "1 critical test, 1 passed, 0 failed\n"
+	    + "1 test total, 1 passed, 0 failed\n"
+	    + "==============================================================================\n"
+	    + "OnlyRobotSuiteFile                                                    \| PASS \|\n"
+	    + "1 critical test, 1 passed, 0 failed\n"
+	    + "1 test total, 1 passed, 0 failed\n"
+	    + "==============================================================================\n"
+	    + "Output:  .*output.xml\n"
+	    + "Log:     .*log.html\n"
+	    + "Report:  .*eport.html" | verify-true
+}  
+//check that there are 4 errors
+get-tab-folder -index 4 | get-tab-item Problems | click
+get-view Problems | get-tree | get-item "Errors \\(4 items\\)" | get-property childCount | equals 4 | verify-true
+//verify if there is no red.xml and log.html, output.xml, report.html is in Project Explorer
+with [get-view "Project Explorer" | get-tree] {
+    get-property "getItems().TreeItem[0].getItems().TreeItem[0].getText()" 
+        | equals "Robot Standard libraries .*" | verify-true
+    get-property "getItems().TreeItem[0].getItems().TreeItem[1].getText()" | equals "SimpleLoggingTestCase.robot" 
+        | verify-true
+}
+//generate libdoc
+get-view "Project Explorer" | get-tree 
+    | select "OnlyRobotSuiteFile/Robot Standard libraries \[Robot Framework .*\]/BuiltIn \(non-accessible\)" 
+    | get-menu -path Reload | click
+//revalidate
+with [get-view "Project Explorer" | get-tree] {
+    select "OnlyRobotSuiteFile/SimpleLoggingTestCase.robot"
+    get-menu "Robot Framework/Revalidate" | click
+}
+//check that there are no errors
+get-view Problems | get-tree | get-property itemCount | equals 0 | verify-true    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

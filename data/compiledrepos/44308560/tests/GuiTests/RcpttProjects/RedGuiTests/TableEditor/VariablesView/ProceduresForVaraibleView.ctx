@@ -1,0 +1,77 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: ProceduresForVaraibleView
+Element-Type: context
+Element-Version: 2.0
+Id: _9iuJED04EeaUDrMBSMf5Ag
+Runtime-Version: 2.1.0.201606221726
+Save-Time: 8/29/16 4:33 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+
+proc "my-assert-true" [val result -input] [val expected] [val col] [val row] {	
+	$result | eq $expected | assert-true -message [format "Value in row %s, column %s should be: '%s', but is '%s'" $row $col $expected $result]
+}
+
+
+//HINT: do not use hexstring in comments! As parameter in procedure they are converted to decimal value
+
+//rows starts from 1
+proc "check-variable-row" [val file] [val row] [val var] [val value] [val comment "" ] 
+{
+	get-editor $file | get-canvas -after [get-label Variables] -index 1 | get-object | invoke getCellByPosition 1 $row|  invoke getDataValue 
+		| my-assert-true -expected $var -row $row -col 1 
+	get-editor $file | get-canvas -after [get-label Variables] -index 1 | get-object | invoke getCellByPosition 2 $row|  invoke getDataValue 
+	    | my-assert-true -expected $value -row $row -col 2 
+	get-editor $file | get-canvas -after [get-label Variables] -index 1 | get-object | invoke getCellByPosition 3 $row|  invoke getDataValue 
+	    | my-assert-true -expected $comment -row $row -col 3 
+}
+
+//rows starts from 0
+proc "is-row-fully-selected" [val file]  [val row]{
+	get-editor $file| get-canvas -after [get-label Variables] -index 1 | get-object | invoke getLayer | invoke getBodyLayer | invoke getScrollableLayer
+		| invoke isRowPositionFullySelected $row | eq true | verify-true
+
+	with [get-editor $file | get-canvas -after [get-label Variables] -index 1] {
+	    get-property "getLayer().getBodyLayer().getScrollableLayer().hasRowSelection()" | equals true | verify-true
+	    get-property "getLayer().getBodyLayer().getScrollableLayer().getSelectedRowCount()" | equals 1 | verify-true
+	}
+} 
+
+//wait for items in view (add 1 because button "..add" counts too)
+proc "wait-for-var-in-table" [val file ] [val count 1]{
+	try -times 5 -delay 1000 -command{
+		get-editor $file | get-canvas -after [get-label Variables] -index 1 
+	    	| get-property "getLayer().getBodyLayer().getScrollableLayer().getRowCount()" | equals $count | verify-true
+	}
+}
+
+proc "save-ref-data" [val row] [val file]
+{
+	get-editor $file | get-canvas -after [get-label Variables] -index 1 | get-object | invoke getCellByPosition 1 $row | invoke getDataValue| let [val in1 -input] {
+		get-editor $file | get-canvas -after [get-label Variables] -index 1 | get-object | invoke getCellByPosition 2 $row | invoke getDataValue| let [val in2 -input] {
+			get-editor $file | get-canvas -after [get-label Variables] -index 1 | get-object | invoke getCellByPosition 3 $row | invoke getDataValue| let [val in3 -input] {
+			
+			if [$in3 | eq ""]{
+				concat "check-variable-row -file \"" $file "\" -row \"" $row  "\" -var \"" $in1 "\" -value \"" $in2 "\"" | write-lines  -uri "file:/c:/aaa/aa.txt" -append
+			
+			}-else{
+				concat "check-variable-row -file \"" $file "\" -row \"" $row  "\" -var \"" $in1 "\" -value \"" $in2 "\"" " -comment \"" $in3 "\"" | write-lines  -uri "file:/c:/aaa/aa.txt" -append
+				}
+			}
+		}
+	}
+
+}
+
+//running proc
+//write-lines  -uri "file:/c:/aaa/aa.txt" 
+//repeat [val index] -times 15 -command {
+//
+//	save-ref-data -row $index -file  "TestFile.robot"
+//}
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

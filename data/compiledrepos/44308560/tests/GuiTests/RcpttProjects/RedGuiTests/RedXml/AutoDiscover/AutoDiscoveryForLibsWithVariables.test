@@ -1,0 +1,236 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _eXb6MPp7EeW7_PzjO98BIw,_2JCD4B3CEeehL98jfxP8Sw,_6kElkDBsEemdFPzzB7f3Tg
+Element-Name: AutoDiscoveryForLibsWithVariables
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _ZRBgsBunEeezQPN39rc8sA
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 4/21/20 5:21 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//---------------------------------------------------------- non-existing variable ----------------------------------------------
+// status: ok, none, fail
+
+
+//open test with lib that has non-existing variable
+get-view "Project Explorer" | get-tree | select "RobotProject/lib_with_variable.robot" | double-click
+with [get-editor "lib_with_variable.robot" | get-text-viewer] {
+    set-caret-pos 8 12
+    type-text 7
+    set-caret-pos 3 28
+    key-type BackSpace
+    type-text "\\"
+    set-caret-pos 3 33
+    key-type BackSpace
+    type-text "\\"
+    key-type "M1+s"
+}
+wait-for-discover-window
+
+get-window "Discovering libraries summary" | get-tree | select multiply
+    
+//check that in window are 2 itmes
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-property itemCount | equals 3 | verify-true
+    get-property "getItems().TreeItem[0].getText()" | equals multiply | verify-true
+    get-property "getItems().TreeItem[1].getText()" | equals "${not_existing}\\path\\file.py" | verify-true
+    get-property "getItems().TreeItem[2].getText()" | equals "lib1.py" | verify-true
+    
+    //check status icons
+    get-item multiply | get-property "image.path" 
+        | equals ".*/success_big.png" | verify-true
+    get-item "${not_existing}\\path\\file.py" | get-property "image.path" 
+        | equals ".*/error_fatal.png" | verify-true
+    get-item "lib1.py" | get-property "image.path" 
+        | equals ".*/error_fatal.png" | verify-true
+}
+//select Status field for multiply lib
+get-window "Discovering libraries summary" | get-tree | select "multiply/Status: Added to project configuration"
+
+//check summary for correct item
+with [get-window "Discovering libraries summary"] {
+    with [get-tree] {
+        get-item multiply | get-property "getItemCount()" | equals 3 | verify-true
+        get-item multiply | get-property "getItems().TreeItem[0].getText()" 
+            | equals "Status: Added to project configuration" | verify-true
+        get-item multiply | get-property "getItems().TreeItem[1].getText()" 
+            | equals [concat "Source: " $RED_workspace_path $sys_sep "RobotProject" $sys_sep "multiply.py"] | verify-true
+        get-item multiply | get-property "getItems().TreeItem[2].getText()" 
+            | equals [concat "Importer: " $RED_workspace_path $sys_sep "RobotProject" $sys_sep "lib_with_variable.robot"] | verify-true
+    }
+    //check window below
+    get-editbox -after [get-label "Discovered libraries (3):"] | get-property text 
+        | equals "Status: Added to project configuration" | verify-true
+}
+
+//check textbox below for lib1.py
+get-window "Discovering libraries summary" | get-tree 
+    | select  "lib1.py/Additional info: Unable to find library under 'lib1.py' location."
+get-window "Discovering libraries summary" | get-editbox -after [get-label "Discovered libraries (3):"] 
+    | get-property text | equals "Additional info: Unable to find library under 'lib1.py' location." | verify-true
+    
+//check status window     
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-item "lib1.py" | get-property childCount | equals 4 | verify-true
+    get-item "lib1.py" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Status: Not added to project configuration" | verify-true
+    get-item "lib1.py" | get-property "getItems().TreeItem[1].getText()" | equals "Source: Unknown" | verify-true
+    get-item "lib1.py" | get-property "getItems().TreeItem[2].getText()" 
+        | equals [concat "Importer: " $RED_workspace_path $sys_sep "RobotProject" $sys_sep "lib_with_variable.robot"] | verify-true
+    get-item "lib1.py" | get-property "getItems().TreeItem[3].getText()" 
+        | equals  "Additional info: Unable to find library under 'lib1.py' location." | verify-true
+    get-item "lib1.py" | get-property "getText()" | equals "lib1.py" | verify-true
+}
+get-window "Discovering libraries summary" | get-button OK | click
+
+//check if multiply was added to red.xml
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | select "RobotProject/red.xml" | double-click
+get-editor "RobotProject/red.xml" | get-tab-folder | get-tab-item "Libraries" | click
+with [get-editor "RobotProject/red.xml" | get-section "Libraries" | get-tree] {
+    get-property itemCount | equals 3 | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "multiply - RobotProject/multiply.py" | verify-true
+}
+
+
+
+//---------------------------------------------------------- CURDIR used  ----------------------------------------------
+//status: ok
+
+//open editor with libs using variable CURDIR
+get-tab-folder -index 1 | get-tab-item "lib_with_variable.robot" | click
+get-view "Project Explorer" | get-tree | select "RobotProject/Tests_wit_lib/lib_with_CURDIR.robot" | double-click
+with [get-editor "lib_with_CURDIR.robot" | get-text-viewer] {
+    set-caret-pos 6 12
+    key-type BackSpace
+    type-text 5
+    key-type "M1+s"
+}
+
+wait-for-discover-window
+
+//lib is added with success
+get-window "Discovering libraries summary" | get-tree | get-item "discover_lib" | get-property "image.path" 
+    | equals ".*/success_big.png" | verify-true
+
+//one Importer have this lib
+with [get-window "Discovering libraries summary" | get-tree] {
+get-item  "discover_lib/Importer:.*" | get-property index | equals 2 
+    | verify-true
+}
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-item "discover_lib" | get-property childCount | equals 3 | verify-true
+    get-item "discover_lib" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Status: Added to project configuration" | verify-true
+    get-item "discover_lib" | get-property "getItems().TreeItem[1].getText()" 
+        | equals [format "Source: %s%sRobotProject%sTests_wit_lib%sdiscover_lib.py"  $RED_workspace_path $sys_sep $sys_sep $sys_sep]| verify-true
+    get-item "discover_lib" | get-property "getItems().TreeItem[2].getItems().TreeItem[0].getText()" 
+}
+get-window "Discovering libraries summary" | get-button OK | click
+
+//check if lib was added to red.xml
+get-tab-folder -index 1 | get-tab-item "*RobotProject/red.xml" | click
+with [get-editor "RobotProject/red.xml" | get-section Libraries | get-tree] {
+    get-property "getItems().length" | equals 4 | verify-true
+    get-property "getItems().TreeItem[0].getText()" | equals "D  Remote - Standard library" | verify-true
+    get-property "getItems().TreeItem[1].getText()" | equals "multiply - RobotProject/multiply.py" | verify-true
+    get-property "getItems().TreeItem[2].getText()" 
+        | equals "discover_lib - RobotProject/Tests_wit_lib/discover_lib.py" | verify-true
+    get-property "getItems().TreeItem[3].getText()" | equals "...add new library file" | verify-true
+}
+//get-button "Save \((Ctrl|M1)\+S\)" | click
+
+//---------------------------------------------------------- lib that is in not-saved red.xml ----------------------------------------------
+//status: warn, then OK
+
+//open __init__ file and do some changes - window is shown
+get-view "Project Explorer" | get-tree | select "RobotProject/Tests_wit_lib/__init__.robot" | double-click
+with [get-editor "__init__.robot" | get-text-viewer] {
+    set-caret-pos 6 12
+    type-text 6
+    key-type "M1+s"
+}
+
+wait-for-discover-window
+get-window "Discovering libraries summary" | get-tree | get-item "discover_lib" | click
+    
+//warning - lib is already in red.xml    
+get-window "Discovering libraries summary" | get-tree | get-item "discover_lib" | get-property "image.path" 
+    | equals ".*warning_big.png" | verify-true
+get-window "Discovering libraries summary" | get-button OK | click
+
+//remove lib form red.xml
+get-tab-folder -index 1 | get-tab-item "*RobotProject/red.xml" | click
+get-editor "RobotProject/red.xml" | get-section Libraries | get-tree 
+    | select "discover_lib - RobotProject\\/Tests_wit_lib\\/discover_lib.py" | key-type Del
+    
+get-button "Save \((Ctrl|M1)\+S\)" | click
+
+//do some changes in test and save file
+get-tab-folder -index 1 | get-tab-item "__init__.robot" | click
+with [get-editor "__init__.robot" | get-text-viewer] {
+    key-type BackSpace
+    key-type "M1+s"
+}
+wait-for-discover-window
+
+//discover window is shown with status - ok
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-item "discover_lib/.*" -index 0 | get-property caption 
+        | equals "Status: Added to project configuration" | verify-true
+    get-item "discover_lib/.*" -index 1
+        | get-property caption | equals [format "Source: %s%sRobotProject%sTests_wit_lib%sdiscover_lib.py" $RED_workspace_path $sys_sep $sys_sep $sys_sep] 
+        | verify-true
+    get-item "discover_lib/.*" -index 2 | get-property caption 
+        | equals [format "Importer: %s%sRobotProject%sTests_wit_lib%s__init__.robot" $RED_workspace_path $sys_sep $sys_sep $sys_sep] | verify-true
+}
+
+get-window "Discovering libraries summary" | get-button OK | click
+
+
+//---------------------------------------------------------- EXECDIR used ----------------------------------------------
+//status: ok
+
+//suite with parameter EXECDIR
+remove-all-libraries-from-xml
+
+//add new line and save
+get-view "Project Explorer" | get-tree | select "RobotProject/tests/lib_with_EXECDIR.robot" | double-click
+with [get-editor "lib_with_EXECDIR.robot" | get-text-viewer] {
+    set-caret-pos 5 5
+    key-type "NUMPAD_ENTER" "\\u000D"
+    key-type "M1+s"
+}
+wait-for-discover-window
+
+//see if lib was added
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-property itemCount | equals 1 | verify-true
+    get-item divide | get-property "image.path" 
+        | equals ".*/success_big.png" | verify-true
+}
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-item "divide/Status: Added to project configuration" | get-property index | equals 0 | verify-true
+    get-item "divide/Source:.*" | get-property caption | equals [format "Source: %s%sRobotProject%slibs%st%sdivide.py" $RED_workspace_path $sys_sep $sys_sep $sys_sep $sys_sep]
+        | verify-true
+    get-item "divide/Importer: .*" | get-property caption | equals [format "Importer: %s%sRobotProject%stests%slib_with_EXECDIR.robot" $RED_workspace_path $sys_sep $sys_sep $sys_sep]
+        | verify-true
+}
+get-window "Discovering libraries summary" | get-button OK | click
+
+
+//remove this after fixing bug!!!!!!!!!!
+
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+with [get-editor "RobotProject/red.xml" | get-section "Libraries" | get-tree] {
+    select "divide - RobotProject\\/libs\\/t\\/divide.py" | key-type Del
+    key-type "M1+s"
+}
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

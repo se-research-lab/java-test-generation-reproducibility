@@ -1,0 +1,171 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _qRGYoO4XEeaEfJH5Ahap2w,_d8aMACuvEeW667Afdo4DcA,_OyDWIBxfEeq6f9_VBibLOg
+Element-Name: ChangeInterpreterInPreference
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _IK9JwOxWEeaEfJH5Ahap2w
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 2/7/20 2:56 PM
+Tags: jython
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Test Cases ***\n"
+    + "test 2\n"
+    + "    Log    text" 
+    
+get-button "Save \((Ctrl|M1)\+S\)" | click
+    
+set-jython-as-interpereter
+
+//click to reload label
+get-view "Project Explorer" | get-tree 
+    | select "RobotProject/Robot Standard libraries \[Robot Framework .*\)\]" | click
+    
+get-view "Project Explorer" | get-tree 
+    | get-item "RobotProject/Robot Standard libraries \\[Robot Framework .* \\(Jython .*\\)\\]" 
+    | get-property caption | equals "Robot Standard libraries \[Robot Framework .* \(Jython .*\)]" 
+    | verify-true
+    
+//run test with jython    
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | get-menu "Run As/1 Robot Test" | click
+wait-for-console -times 10 -delay 2000
+
+//check console
+get-view Console | get-text-viewer | get-property text 
+    | equals "Command: .* -J-Dpython.path=.*site-packages -J-cp \.(:|;).*LibsFromPythonPath -m robot.run --listener .*TestRunnerAgent.py:\d{1,6} --argumentfile .*\.arg .*RobotProject\n"
+    + "Suite Executor: Robot Framework .* \(Jython .*\)\n"
+    + "==============================================================================\n"
+    + "RobotProject                                                                  \n"
+    + "==============================================================================\n"
+    + "RobotProject.TestFile                                                         \n"
+    + "==============================================================================\n"
+    + "test 2                                                                \| PASS \|\n"
+    + "------------------------------------------------------------------------------\n"
+    + "RobotProject.TestFile                                                 \| PASS \|\n"
+    + "1 critical test, 1 passed, 0 failed\n"
+    + "1 test total, 1 passed, 0 failed\n"
+    + "==============================================================================\n"
+    + "RobotProject                                                          \| PASS \|\n"
+    + "1 critical test, 1 passed, 0 failed\n"
+    + "1 test total, 1 passed, 0 failed\n"
+    + "==============================================================================\n"
+    + "Output:  .*output.xml\n"
+    + "Log:     .*log.html\n"
+    + "Report:  .*report.html" | verify-true
+
+//change to python
+get-preferences-menu | click
+with [get-window Preferences] {
+    get-table | get-item "Robot Framework .*\(Python .*\)" | check
+    get-button $Apply_and_OK_in_preference | click
+    get-window "Rebuild required" | get-button OK | click
+}
+
+//clcik to reload label
+get-view "Project Explorer" | get-tree 
+    | select "RobotProject/Robot Standard libraries \[Robot Framework .*\)\]" | click
+
+//check if label name was changed to Python    
+get-view "Project Explorer" | get-tree 
+    | get-item "RobotProject/Robot Standard libraries \\[Robot Framework .*\\(Python .*\\)\\]" 
+    | get-property caption | equals "Robot Standard libraries \[Robot Framework .* \(Python .*\)\]" 
+    | verify-true
+    
+//run test    
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | get-menu "Run As/1 Robot Test" | click
+wait-for-console
+
+get-view Console | get-text-viewer | get-property text 
+    | equals "Command: .* -m robot.run .*\n"
+    + "Suite Executor: Robot Framework .* \(Python .*\)\n"
+    + "==============================================================================\n"
+    + "RobotProject                                                                  \n"
+    + "==============================================================================\n"
+    + "RobotProject.TestFile                                                         \n"
+    + "==============================================================================\n"
+    + "test 2                                                                \| PASS \|\n"
+    + "------------------------------------------------------------------------------\n"
+    + "RobotProject.TestFile                                                 \| PASS \|\n"
+    + "1 critical test, 1 passed, 0 failed\n"
+    + "1 test total, 1 passed, 0 failed\n"
+    + "==============================================================================\n"
+    + "RobotProject                                                          \| PASS \|\n"
+    + "1 critical test, 1 passed, 0 failed\n"
+    + "1 test total, 1 passed, 0 failed\n"
+    + "==============================================================================\n"
+    + "Output:  .*output.xml\n"
+    + "Log:     .*log.html\n"
+    + "Report:  .*report.html" | verify-true
+    
+//remove python and jython    
+get-preferences-menu | click
+remove-all-interpreters
+
+//add empty folder
+set-dialog-result Folder [concat $RED_workspace_path "/NoInterpreter"]
+with [get-window Preferences] {
+    get-button "Add..." | click
+    get-table | get-item "<unknown>" | check
+    get-button $Apply_and_OK_in_preference | click
+    get-window "Rebuild required" | get-button OK | click
+}
+
+//check label
+get-view "Project Explorer" | get-tree | get-item "RobotProject/Robot Standard libraries \\[<unknown>\\]" 
+    | get-property caption | equals "Robot Standard libraries [<unknown>]" | verify-true
+    
+//click on file    
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot"
+
+//run test when wrong interpreter was selected
+exec-with-options {
+    get-view "Project Explorer" | get-tree | get-menu "Run As/1 Robot Test" | click
+    
+    try -times 3 -delay 500 -command{
+    	 get-window "Problem Occurred"
+    } 
+    //check error 
+    get-window "Problem Occurred" | get-label "'Launching Robot Tests' has encountered a problem." 
+        | get-property caption | equals "'Launching Robot Tests' has encountered a problem." | verify-true
+        
+    //check text below    
+    get-window "Problem Occurred" 
+        | get-label "The runtime environment .*" 
+        | get-property caption 
+        | equals [format"The runtime environment %s%sNoInterpreter is invalid Python installation" $RED_workspace_path $sys_sep] 
+        | verify-true
+        
+    //detailes    
+	get-window "Problem Occurred" | get-button "Details >>" | click
+    get-window "Problem Occurred" | get-editbox 
+        -after [get-label "The runtime environment .* is invalid Python installation"] 
+        | get-property text 
+        | equals [format "The runtime environment %s%sNoInterpreter is invalid Python installation" $RED_workspace_path $sys_sep]
+        | verify-true
+    get-window "Problem Occurred" | get-button OK | click
+} -allowStatusDialog
+
+//go to run configurations to see if are any problems
+exec-with-options {
+    get-menu "Run/Run Configurations..." | click
+    exec-with-options {
+    	get-window "Run Configurations" | get-tree | select "Robot/TestFile.robot"
+    	get-window "Run Configurations" | get-tree | select "Robot/TestFile.robot (1)"
+        get-window "Run Configurations" | get-tree | select "Robot/TestFile.robot (2)"
+        get-window "Run Configurations" | get-button Close | click
+    } -allowStatusDialog
+} -allowStatusDialog
+
+
+verify-error {get-window "Problem Occurred" }
+verify-error {get-window "Multiple problems have occurred" }
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

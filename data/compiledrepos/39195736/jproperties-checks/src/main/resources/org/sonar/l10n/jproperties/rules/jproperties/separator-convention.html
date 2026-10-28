@@ -1,0 +1,28 @@
+<p>For readability reasons, the same separator should be used all the time.</p>
+<p>Rule can be configured to check one of the following formats:
+<ul>
+    <li>key=value (no whitespace before and after the equals sign)</li>
+    <li>key: value (one single whitespace after the equals sign)</li>
+</ul>
+</p>
+
+<h2>Noncompliant Code Example</h2>
+With format "key: value":
+<pre>
+key1=value1
+key2 : value2
+key3 :value3
+key4:    value4
+</pre>
+
+<h2>Compliant Solution</h2>
+With format "key: value":
+<pre>
+key1: value1
+key2: value2
+key3: value3
+key4: value4
+</pre>
+
+
+

@@ -1,0 +1,2 @@
+*** Settings ***
+Test Teardown	keyword	#cm1	cm2	cm3

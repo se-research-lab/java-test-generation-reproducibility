@@ -1,0 +1,192 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: ProceduresForSettingsView
+Element-Type: context
+Element-Version: 2.0
+Id: _2rVvIENaEeaEVfxTnoQ14g
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 7/2/18 3:57 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc "my-assert-true" [val result -input] [val expected] [val col] [val row] {	
+	$result | eq $expected | assert-true -message [format "Value in row %s, column %s should be: '%s', but is '%s'" $row $col $expected $result]
+}
+
+
+//rows starts from 1
+proc "check-row-for-test-setup-default" [val file] [val row] [val setting] [val c1 ""] [val c2 ""] [val c3 ""] [val c4 ""]  [val c5 ""]  [val c6 ""] [val c7 ""] [val is_extended false]
+{
+	get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 1 $row|  invoke getDataValue
+	    |  my-assert-true -expected $setting -row $row -col 1 
+	get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 2 $row|  invoke getDataValue 
+		| my-assert-true -expected $c1 -row $row -col 2
+	get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 3 $row|  invoke getDataValue 
+		| my-assert-true -expected $c2 -row $row -col 3
+	get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 4 $row|  invoke getDataValue 
+		| my-assert-true -expected $c3 -row $row -col 4
+	get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 5 $row|  invoke getDataValue 
+		| my-assert-true -expected $c4 -row $row -col 5
+	get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 6 $row|  invoke getDataValue 
+		| my-assert-true -expected $c5 -row $row -col 6
+	get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 7 $row|  invoke getDataValue 	
+		| my-assert-true -expected $c6 -row $row -col 7
+	if [$is_extended | not-eq false]{		
+		get-editor $file | get-section General | get-canvas | get-object | invoke getCellByPosition 8 $row|  invoke getDataValue 	
+			| my-assert-true -expected $c7 -row $row -col 8	
+	}		
+}
+
+proc "compare-general-setting-table" [val file] [val section] [val col_amount] [val row] [val ref_table]
+{	
+	repeat [val index] -times $col_amount -command{
+		$ref_table | get $index| let [val ref_value -input]{
+			get-editor $file | get-section $section | get-canvas | get-object | invoke getCellByPosition [plus $index 1] $row|  invoke getDataValue
+	    		|  my-assert-true -expected $ref_value -row $row -col [plus $index 1] 
+		} 
+	}
+}
+
+
+
+proc "generate-list" [val file]  [val section]
+{	
+	// 0 - row is table header
+	log "          ---------------------   Remove 1 row - it is header!!!!!!!! ----------------------------"
+	get-editor $file | get-section $section | get-canvas | get-property "getLayer().getBodyLayer().getColumnCount()" -raw | int | let [val col_amount -input]{
+		get-editor $file | get-section $section | get-canvas | get-property "getLayer().getBodyLayer().getRowCount()" -raw | int | plus 1 | let [val row_amount -input]{
+			concat [
+				repeat [val index1] -times $row_amount -command{	
+				concat "compare-general-setting-table -file \"" $file "\" -section " $section " -col_amount " $col_amount" -row " $index1  " -ref_table [list "[
+					repeat [val index2] -times $col_amount -command{		
+							concat "\""  [get-editor $file | get-section $section | get-canvas | get-object | invoke getCellByPosition [plus $index2 1] $index1 | invoke getDataValue ] "\" "
+					} ] "]" "\n"
+			} ]
+		}
+	}
+}
+//generate-list -file "TestFile.robot" -section General  | log 
+
+
+proc "check-metadata-row" [val file] [val row] [val metadata] [val val] [val comment ""]{
+	get-editor $file | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 1 $row|  invoke getDataValue
+		| my-assert-true -expected $metadata -row $row -col 1
+	get-editor $file | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 2 $row|  invoke getDataValue 
+		| my-assert-true -expected $val -row $row -col 2
+	get-editor $file | get-section Metadata | get-canvas | get-object | invoke getCellByPosition 3 $row|  invoke getDataValue 
+		| my-assert-true -expected $comment -row $row -col 3
+
+}
+
+
+proc "check-imports-row-for-default-or_11_columns" [val file] [val row] [val import] [val name] [val c1 ""] [val c2 ""] [val c3 ""] [val c4 ""] 
+  [val c5 ""] [val c6 ""] [val c7 ""] [val c8 ""] [val c9 ""] [val c10 ""] [val c11 ""] [val c12 ""] [val default_length true]
+{
+	get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 1 $row|  invoke getDataValue 
+	    | my-assert-true -expected $import -row $row -col 1
+	get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 2 $row|  invoke getDataValue
+		| my-assert-true -expected $name -row $row -col 2
+	get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 3 $row|  invoke getDataValue 
+		| my-assert-true -expected $c1 -row $row -col 3
+	get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 4 $row|  invoke getDataValue 
+		| my-assert-true -expected $c2 -row $row -col 4
+	get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 5 $row|  invoke getDataValue 
+		| my-assert-true -expected $c3 -row $row -col 5
+	get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 6 $row|  invoke getDataValue 
+		| my-assert-true -expected $c4 -row $row -col 6
+	get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 7 $row|  invoke getDataValue 
+		| my-assert-true -expected $c5 -row $row -col 7
+	
+	if [$default_length | eq false]{
+		get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 8 $row|  invoke getDataValue 
+			| my-assert-true -expected $c6 -row $row -col 8
+		get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 9 $row|  invoke getDataValue 
+			| my-assert-true -expected $c7 -row $row -col 9
+		get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 10 $row|  invoke getDataValue 
+			| my-assert-true -expected $c8 -row $row -col 10
+		get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 11 $row|  invoke getDataValue 
+			| my-assert-true -expected $c9 -row $row -col 11
+		get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 12 $row|  invoke getDataValue 
+			| my-assert-true -expected $c10 -row $row -col 12
+		get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 13 $row|  invoke getDataValue 
+			| my-assert-true -expected $c11 -row $row -col 13
+		get-editor $file | get-section Imports | get-canvas | get-object | invoke getCellByPosition 14 $row|  invoke getDataValue 
+			| my-assert-true -expected $c12 -row $row -col 14	
+	}
+}
+
+//rows starts from 0
+proc "is-row-fully-selected" [val row] [val table]{
+	get-editor "TestFile.robot" | get-section $table | get-canvas| get-object | invoke getLayer | invoke getBodyLayer | invoke getScrollableLayer
+		| invoke isRowPositionFullySelected $row | eq true | verify-true
+		
+	with [get-editor "TestFile.robot" | get-section $table | get-canvas] {
+	    get-property "getLayer().getBodyLayer().getScrollableLayer().hasRowSelection()" | equals true | verify-true
+	    get-property "getLayer().getBodyLayer().getScrollableLayer().getSelectedRowCount()" | equals 1 | verify-true
+	}
+} 
+
+
+proc "check-metadata-layer-size"{
+	with [get-editor "TestFile.robot" | get-section Metadata | get-canvas] {
+		  //const width of window
+	    get-property "getLayer().getPreferredWidth()" -raw |  let [val preferredWidth -input]{
+	        	$preferredWidth  | gt 873
+	    	    | assert-true -message [format "Resolution of screen must be greater than 1600x900. Metadata width is: %s but should be bigger that 874" $preferredWidth] 
+	    }
+	
+	    //width is changing when size of red window is changed - checking in case if window size is changed
+	    get-property "getLayer().getBodyLayer().getWidth()" -raw | let [val width -input]{
+	    	$width  | gt 858
+	    	    | assert-true -message [format "Resolution of screen must be greater than 1600x900. Metadata width is: %s but should be bigger that 858" $width] 
+	    }
+	  
+	    //height depands on amount of items in table
+	    //get-property "getLayer().getBodyLayer().getHeight()" -raw | equals 220 | verify-true
+	}
+}
+
+proc "get-column-number" [val setting]{
+	get-editor "TestFile.robot" | get-section $setting | get-canvas | get-property "getLayer().getBodyLayer().getScrollableLayer().getColumnCount()" -raw | int
+}
+
+
+proc "get-cell-height" [val setting]{
+	div  [   get-editor "TestFile.robot" | get-section $setting | get-canvas | get-property "getLayer().getBodyLayer().getScrollableLayer().getHeight()" -raw]
+	[   get-editor "TestFile.robot" | get-section $setting | get-canvas | get-property "getLayer().getBodyLayer().getScrollableLayer().getRowCount()" -raw] 	
+}
+
+proc "get-cell-width"  [val setting]{
+	div  [get-editor "TestFile.robot" | get-section $setting | get-canvas | get-property "getLayer().getBodyLayer().getScrollableLayer().getWidth()" -raw]
+	[get-column-number -setting $setting] 
+	
+}
+
+
+
+//add Metada
+proc "generate-coordinates" [val setting ]{
+
+	//count cell size
+	global [val cell_height [get-cell-height -setting $setting | int]]
+	global [val cell_width [get-cell-width -setting $setting | int]]
+	
+	global [val cell_half_height [div $cell_height 2 | int]] 
+	global [val cell_half_width [div $cell_width 2 |int ]] 
+	
+	//every  variable is coordinates of middle of cell
+	
+	//create x as many as is column: x1, x2, ...
+	repeat [val index] -times [get-column-number -setting $setting] -command{
+		global [val [concat x [plus $index 1]] [mult $index $cell_width | plus $cell_half_width]]
+	
+	}
+	// y coordinates
+	repeat [val index] -times 10 -command{
+		global [val  [concat y $index] [mult $index $cell_height |plus  $cell_half_height]]
+	}		
+}	
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

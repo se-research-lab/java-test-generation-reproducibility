@@ -1,0 +1,125 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _d8aMACuvEeW667Afdo4DcA,_OyDWIBxfEeq6f9_VBibLOg
+Element-Name: DiscoverInterpreters
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _-qvG8Ae3EearkLC-7wHL-g
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 3/24/20 12:43 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+After restart is timout
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//
+//
+//									You must have installed python. Other intrpreters are omitted.
+//
+//
+//
+//restart RED
+restart-aut
+wait-until-eclipse-is-ready
+get-view Welcome | close
+
+////open preference
+get-preferences-menu | click
+get-window Preferences | get-tree | select "Robot Framework/Installed frameworks"
+
+//check if are some interperetrs are visible (first is selected and has bold font)
+try -times 15 -delay 1000 -command{
+	get-window Preferences | get-table | get-property itemCount | not-eq 0 | verify-true
+}
+with [get-window Preferences | get-table] {
+    get-item [format "Robot Framework .*\\(Python %s.*\\)" $python_version] | get-property "styles[0].fontStyle" | equals bold 
+        | verify-true
+    get-item [format "Robot Framework .*\\(Python %s.*\\)" $python_version]  | get-property "styles[1].fontStyle" | equals bold 
+        | verify-true
+    get-item [format  "Robot Framework .*\\(Python %s.*\\)" $python_version] | get-property "values['Name']" 
+        | equals $robot_version | verify-true
+    get-item [format  "Robot Framework .*\\(Python %s.*\\)" $python_version] | get-property "values['Path']" | equals $python_exe_path
+        | verify-true
+}
+
+//remove all interpreters
+remove-all-interpreters
+get-window Preferences | get-table | get-property itemCount | equals 0 | verify-true
+
+//select Discover button
+get-window Preferences | get-button Discover | click
+
+// check if all interpreters are not checked
+repeat [val index] -times [get-window Preferences | get-table | get-property itemCount -raw] -command{
+	get-window Preferences | get-table | get-item -path "Robot Framework.*" -index $index | get-property checked | equals false 
+	$index | log
+}
+//check that is python that we need 
+with [get-window Preferences | get-table] {
+    get-item [format "Robot Framework .*\\(Python %s.*\\)" $python_version] | get-property "values['Name']" 
+        | equals $robot_version  | verify-true
+    get-item [format "Robot Framework .*\\(Python %s.*\\)" $python_version]| get-property "values['Path']" | equals $python_exe_path
+        | verify-true
+}
+
+//select python is bold after selecting
+get-window Preferences | get-table | get-item [format "Robot Framework .*\\(Python %s.*\\)" $python_version] | check
+with [get-window Preferences | get-table] {
+    get-item [format "Robot Framework .*\\(Python %s.*\\)" $python_version] | get-property "styles[0].fontStyle" | equals bold 
+        | verify-true
+    get-item [format "Robot Framework .*\\(Python %s.*\\)" $python_version]  | get-property "styles[1].fontStyle" | equals bold 
+        | verify-true
+    get-item [format  "Robot Framework .*\\(Python %s.*\\)" $python_version] | get-property "values['Name']" 
+        | equals $robot_version | verify-true
+    get-item [format  "Robot Framework .*\\(Python %s.*\\)" $python_version] | get-property "values['Path']" | equals $python_exe_path
+        | verify-true
+}
+
+with [get-window Preferences] {
+    with [get-table] {
+        get-item -path [format "Robot Framework .*\\(Python %s.*\\)"  $python_version] | check
+    }
+    get-button "Apply and Close" | click
+    get-window "Rebuild required" | get-button OK | click
+}
+
+//add test
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 1 19
+    key-type "NUMPAD_ENTER" "\\u000D"
+    type-text test
+    key-type Enter
+    type-text "log  66"
+    key-type "M1+s"
+}
+
+//run test
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | get-menu "Run As/1 Robot Test" | click
+wait-for-message-log
+
+get-tab-folder -index 5 | get-tab-item "Message Log" | click
+get-view "Message Log" | get-editbox | get-property text | equals "Starting test: RobotProject.TestFile.test\n"
+    + ".* : INFO : 66\n"
+    + "Ending test: RobotProject.TestFile.test" | verify-true
+
+//check i python was used to run test
+with [get-view Console] {
+    get-label "<terminated> TestFile.robot \[Robot\].*" | get-property caption 
+     	| equals [format "<terminated> TestFile.robot \\[Robot\\] %s%s%s \\(Terminated .*\\)"
+     	 [replace -input $python_exe_path -old "\\" -new "\\\\" ] $regex_sys_sep [get-by-os -win "python.exe" -linux "python3" ]]| verify-true
+
+}
+
+get-view Console | get-text-viewer | get-object |invoke getLine  0 
+	 |  matches [format "Command: %s%s .*" [replace $python_exe_path -old "\\" -new "\\\\"]  [get-by-os -win "\\\\python.exe" -linux "/python3" ]]|verify-true
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

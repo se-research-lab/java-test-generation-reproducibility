@@ -1,0 +1,12 @@
+# The base path of the http container
+basePath: /
+
+# Http server configuration
+server:
+  connectors:
+    - port: 8080
+      scheme: http
+      ioWorkerThreadCount: 10
+
+# The name of the container
+name: My Container

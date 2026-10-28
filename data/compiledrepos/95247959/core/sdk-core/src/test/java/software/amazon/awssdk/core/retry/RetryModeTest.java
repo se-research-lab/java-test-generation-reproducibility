@@ -1,0 +1,180 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.core.retry;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.concurrent.Callable;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import software.amazon.awssdk.core.SdkSystemSetting;
+import software.amazon.awssdk.profiles.ProfileFileSystemSetting;
+import software.amazon.awssdk.testutils.EnvironmentVariableHelper;
+import software.amazon.awssdk.utils.Validate;
+
+@RunWith(Parameterized.class)
+public class RetryModeTest {
+    private static final EnvironmentVariableHelper ENVIRONMENT_VARIABLE_HELPER = new EnvironmentVariableHelper();
+
+    @Parameterized.Parameter
+    public TestData testData;
+
+    @Parameterized.Parameters
+    public static Collection<Object> data() {
+        return Arrays.asList(new Object[] {
+            // Test defaults
+            new TestData(null, null, null, null, null, null, null, RetryMode.LEGACY),
+            new TestData(null, null, "PropertyNotSet", null, null, null, null, RetryMode.LEGACY),
+
+            // default + new retries 2026
+            new TestData(null, null, null, null, "true", null, null, RetryMode.STANDARD),
+            new TestData(null, null, null, null, null, "true", null, RetryMode.STANDARD),
+            new TestData(null, null, null, null, null, null, true, RetryMode.STANDARD),
+
+            // new retries 2026 precedence
+            new TestData(null, null, null, null, "false", null, true, RetryMode.LEGACY),
+            new TestData(null, null, null, null, null, "false", true, RetryMode.LEGACY),
+
+            // Test resolution
+            new TestData("legacy", null, null, null, null, null, null, RetryMode.LEGACY),
+            new TestData("standard", null, null, null, null, null, null, RetryMode.STANDARD),
+            new TestData("adaptive", null, null, null, null, null, null, RetryMode.ADAPTIVE_V2),
+            new TestData("lEgAcY", null, null, null, null, null, null, RetryMode.LEGACY),
+            new TestData("sTanDaRd", null, null, null, null, null, null, RetryMode.STANDARD),
+            new TestData("aDaPtIvE", null, null, null, null, null, null, RetryMode.ADAPTIVE_V2),
+
+            // new retries 2026 does not have an effect if retry mode set explicitly
+            new TestData("legacy", null, null, null, "true", null, null, RetryMode.LEGACY),
+            new TestData("standard", null, null, null, "true", null, null, RetryMode.STANDARD),
+            new TestData("adaptive", null, null, null, "true", null, null, RetryMode.ADAPTIVE_V2),
+            new TestData("lEgAcY", null, null, null, "true", null, null, RetryMode.LEGACY),
+            new TestData("sTanDaRd", null, null, null, "true", null, null, RetryMode.STANDARD),
+            new TestData("aDaPtIvE", null, null, null, "true", null, null, RetryMode.ADAPTIVE_V2),
+            new TestData("legacy", null, null, null, "false", null, null, RetryMode.LEGACY),
+            new TestData("standard", null, null, null, "false", null, null, RetryMode.STANDARD),
+            new TestData("adaptive", null, null, null, "false", null, null, RetryMode.ADAPTIVE_V2),
+            new TestData("lEgAcY", null, null, null, "false", null, null, RetryMode.LEGACY),
+            new TestData("sTanDaRd", null, null, null, "false", null, null, RetryMode.STANDARD),
+            new TestData("aDaPtIvE", null, null, null, "false", null, null, RetryMode.ADAPTIVE_V2),
+
+            // Test precedence
+            new TestData("standard", "legacy", "PropertySetToLegacy", RetryMode.LEGACY, null, null, null, RetryMode.STANDARD),
+            new TestData("standard", null, null, RetryMode.LEGACY, null, null, null, RetryMode.STANDARD),
+            new TestData(null, "standard", "PropertySetToLegacy", RetryMode.LEGACY, null, null, null, RetryMode.STANDARD),
+            new TestData(null, "standard", null, RetryMode.LEGACY, null, null, null, RetryMode.STANDARD),
+            new TestData(null, null, "PropertySetToStandard", RetryMode.LEGACY, null, null, null, RetryMode.STANDARD),
+            new TestData(null, null, null, RetryMode.STANDARD, null, null, null, RetryMode.STANDARD),
+
+            // Test invalid values
+            new TestData("wrongValue", null, null, null, null, null, null, IllegalStateException.class),
+            new TestData(null, "wrongValue", null, null, null, null, null, IllegalStateException.class),
+            new TestData(null, null, "PropertySetToUnsupportedValue", null, null, null, null, IllegalStateException.class),
+
+            // Test capitalization standardization
+            new TestData("sTaNdArD", null, null, null, null, null, null, RetryMode.STANDARD),
+            new TestData(null, "sTaNdArD", null, null, null, null, null, RetryMode.STANDARD),
+            new TestData(null, null, "PropertyMixedCase", null, null, null, null, RetryMode.STANDARD),
+            });
+    }
+
+    @Before
+    @After
+    public void methodSetup() {
+        ENVIRONMENT_VARIABLE_HELPER.reset();
+        System.clearProperty(SdkSystemSetting.AWS_RETRY_MODE.property());
+        System.clearProperty(ProfileFileSystemSetting.AWS_PROFILE.property());
+        System.clearProperty(ProfileFileSystemSetting.AWS_CONFIG_FILE.property());
+
+        System.clearProperty(SdkSystemSetting.AWS_NEW_RETRIES_2026.property());
+    }
+
+    @Test
+    public void differentCombinationOfConfigs_shouldResolveCorrectly() throws Exception {
+        if (testData.envVarValue != null) {
+            ENVIRONMENT_VARIABLE_HELPER.set(SdkSystemSetting.AWS_RETRY_MODE.environmentVariable(), testData.envVarValue);
+        }
+
+        if (testData.systemProperty != null) {
+            System.setProperty(SdkSystemSetting.AWS_RETRY_MODE.property(), testData.systemProperty);
+        }
+
+        if (testData.configFile != null) {
+            String diskLocationForFile = diskLocationForConfig(testData.configFile);
+            Validate.isTrue(Files.isReadable(Paths.get(diskLocationForFile)), diskLocationForFile + " is not readable.");
+            System.setProperty(ProfileFileSystemSetting.AWS_PROFILE.property(), "default");
+            System.setProperty(ProfileFileSystemSetting.AWS_CONFIG_FILE.property(), diskLocationForFile);
+        }
+
+        if (testData.newRetries2026EnvVarValue != null) {
+            ENVIRONMENT_VARIABLE_HELPER.set(SdkSystemSetting.AWS_NEW_RETRIES_2026.environmentVariable(),
+                                            testData.newRetries2026EnvVarValue);
+        }
+
+        if (testData.newRetries2026SystemProperty != null) {
+            System.setProperty(SdkSystemSetting.AWS_NEW_RETRIES_2026.property(), testData.newRetries2026SystemProperty);
+        }
+
+        Callable<RetryMode> result = RetryMode.resolver()
+                                              .defaultRetryMode(testData.defaultMode)
+                                              .defaultNewRetries2026(testData.defaultNewRetries2026)::resolve;
+        if (testData.expected instanceof Class<?>) {
+            Class<?> expectedClassType = (Class<?>) testData.expected;
+            assertThatThrownBy(result::call).isInstanceOf(expectedClassType);
+        } else {
+            assertThat(result.call()).isEqualTo(testData.expected);
+        }
+    }
+
+    private String diskLocationForConfig(String configFileName) {
+        return getClass().getResource(configFileName).getFile();
+    }
+
+
+    private static class TestData {
+        private final String envVarValue;
+        private final String systemProperty;
+        private final String configFile;
+        private final RetryMode defaultMode;
+
+        private final String newRetries2026SystemProperty;
+        private final String newRetries2026EnvVarValue;
+        private final Boolean defaultNewRetries2026;
+
+
+        private final Object expected;
+
+        TestData(String systemProperty, String envVarValue, String configFile, RetryMode defaultMode,
+                 String newRetries2026SystemProperty, String newRetries2026EnvVarValue, Boolean defaultNewRetries2026,
+                 Object expected) {
+            this.envVarValue = envVarValue;
+            this.systemProperty = systemProperty;
+            this.configFile = configFile;
+            this.defaultMode = defaultMode;
+            this.newRetries2026SystemProperty = newRetries2026SystemProperty;
+            this.newRetries2026EnvVarValue = newRetries2026EnvVarValue;
+            this.defaultNewRetries2026 = defaultNewRetries2026;
+            this.expected = expected;
+        }
+    }
+}

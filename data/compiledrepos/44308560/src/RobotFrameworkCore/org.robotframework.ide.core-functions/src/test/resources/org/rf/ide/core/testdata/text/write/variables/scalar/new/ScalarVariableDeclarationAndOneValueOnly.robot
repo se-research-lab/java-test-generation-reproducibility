@@ -1,0 +1,2 @@
+*** Variables ***
+${scalar}	value1

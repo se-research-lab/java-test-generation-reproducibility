@@ -1,0 +1,133 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _kJ0i8BXWEeW05sQKg0mypw
+Element-Name: ColoringCommentsAfterChangingPreference
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _A4f3gJQTEeWNpL9oeriwCw
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 1/17/20 11:02 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+// open script
+get-view "Project Explorer" | get-tree | select "MediumRobotTest/Script.robot" | double-click
+
+// open preferences and open Sytnax coloring
+get-preferences-menu | click
+get-window Preferences | get-tree | select "Robot Framework/Editor/Syntax Coloring"
+
+// click on Comments, open palete and use default color
+get-window Preferences | get-list | select Comments
+set-dialog-result Color "192,192,192"
+get-window Preferences | get-button -after [get-label "Syntax Coloring"] -index 3 | click
+
+// check preview if color is the same as default
+get-window Preferences | get-editbox -after [get-label "Preview:"] | get-property "styles[50].text" 
+    | equals "# this string argument will be automatically converted" | verify-true
+get-window Preferences | get-editbox -after [get-label "Preview:"] | get-property "styles[50].foregroundColor" 
+    | equals "#C0C0C0" | verify-true
+
+// click on Comments, set different (pink) palete and check if it set in preview and in source
+set-dialog-result Color "255,0,128"
+with [get-window Preferences] {
+    get-button -after [get-label "Syntax Coloring"] -index 3 | click
+}
+// check preview if comments changed to pink
+get-window Preferences | get-editbox -after [get-label "Preview:"] | get-property "styles[50].foregroundColor" 
+    | equals "#FF0080" | verify-true
+
+// apply and save 
+with [get-window Preferences] {
+    get-button Apply | click
+    get-button $Apply_and_OK_in_preference | click
+}
+
+// reload editor and check if comments in editor are pink
+get-editor "Script.robot" | close
+get-view "Project Explorer" | get-tree | select "MediumRobotTest/Script.robot" | double-click
+with [get-editor "Script.robot" | get-text-viewer] {
+    get-property "styles[42].text" | equals "#${new}" | verify-true
+    get-property "styles[42].fontStyle" | equals normal | verify-true
+    get-property "styles[42].foregroundColor" | equals "#FF0080" | verify-true
+    get-property "styles[44].text" | equals comment | verify-true
+    get-property "styles[44].fontStyle" | equals normal | verify-true
+    get-property "styles[44].foregroundColor" | equals "#FF0080" | verify-true
+}
+
+// open preferences and set bold-italic style for comments
+get-preferences-menu | click
+with [get-window Preferences] {
+    get-list | select Comments
+    get-button Bold | check
+    get-button Italic | check
+    get-editbox -after [get-label "Preview:"] | set-text-offset 28 28
+}
+
+// check preview if Comments are italic-bold
+get-window Preferences | get-editbox -after [get-label "Preview:"] | get-property "styles[50].fontStyle" 
+    | equals "bold-italic" | verify-true
+with [get-window Preferences] {
+    get-button Apply | click
+    get-button $Apply_and_OK_in_preference | click
+}
+// reopen editor and check if comments are in bold-italic
+get-editor "Script.robot" | close
+get-view "Project Explorer" | get-tree | select "MediumRobotTest/Script.robot" | double-click
+
+with [get-editor "Script.robot" | get-text-viewer] {
+    get-property "styles[42].text" | equals "#${new}" | verify-true
+    get-property "styles[42].fontStyle" | equals "bold-italic" | verify-true
+    get-property "styles[42].foregroundColor" | equals "#FF0080" | verify-true
+    get-property "styles[44].text" | equals comment | verify-true
+    get-property "styles[44].fontStyle" | equals "bold-italic" | verify-true
+    get-property "styles[44].foregroundColor" | equals "#FF0080" | verify-true
+}
+
+// open preferences and restore default coloring
+get-preferences-menu | click
+get-window Preferences | get-button "Restore Defaults" | click
+
+// check preview if changed
+get-window Preferences | get-editbox -after [get-label "Preview:"] | get-property "styles[50].foregroundColor" 
+    | equals "#C0C0C0" | verify-true
+with [get-window Preferences] {
+    get-button Apply | click
+    get-button $Apply_and_OK_in_preference | click
+}
+// reload editor and check if Comments are in grey
+get-editor "Script.robot" | close
+get-view "Project Explorer" | get-tree | select "MediumRobotTest/Script.robot" | double-click
+with [get-editor "Script.robot" | get-text-viewer] {
+    get-property "styles[42].text" | equals "#${new}" | verify-true
+    get-property "styles[42].fontStyle" | equals normal | verify-true
+    get-property "styles[42].foregroundColor" | equals "#C0C0C0" | verify-true
+    get-property "styles[44].text" | equals comment | verify-true
+    get-property "styles[44].fontStyle" | equals normal | verify-true
+    get-property "styles[44].foregroundColor" | equals "#C0C0C0" | verify-true
+}
+
+//change library name to orange
+with [get-editor "Script.robot" | get-text-viewer] {
+    set-caret-pos 33 5
+    type-text "BuiltIn."
+    key-type "M1+s"
+}
+get-preferences-menu | click
+get-window Preferences | get-list | select "Keyword call full name prefix"
+set-dialog-result Color "255,128,0"
+with [get-window Preferences] {
+    get-button -after [get-label "Syntax Coloring"] -index 3 | click
+    get-button "Apply and Close" | click
+}
+with [get-editor "Script.robot" | get-text-viewer] {
+    get-property "styles[72].text" | equals "BuiltIn." | verify-true
+    get-property "styles[72].fontStyle" | equals bold | verify-true
+    get-property "styles[72].foregroundColor" | equals "#FF8000" | verify-true
+}
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

@@ -1,0 +1,3 @@
+*** Keywords ***
+User Keyword
+	[Tags]	#cm1	cm2	cm3

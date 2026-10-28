@@ -1,0 +1,11 @@
+language: java
+
+jdk:
+  - openjdk8
+
+env:
+  global:
+    - MAVEN_OPTS="-Xmx256m -XX:MaxPermSize=512m"
+
+notifications:
+  email: false

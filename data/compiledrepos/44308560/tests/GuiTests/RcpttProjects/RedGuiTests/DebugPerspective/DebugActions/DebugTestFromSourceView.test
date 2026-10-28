@@ -1,0 +1,65 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _NvY3ABRGEeWWV9IuysVI_A,_OCxtEBRGEeWWV9IuysVI_A,_2Q6oEPOSEeaWpbE3jg39cA
+Element-Name: DebugTestFromSourceView
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _v-PzMMtEEeWPuqMw6GC70Q
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 7/11/17 10:50 AM
+Tags: Debug
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "ScriptWithResource/BigScript.robot" 
+    | select "ScriptWithResource/BigScript.robot" | double-click
+    
+//add 2 breakpoints    
+get-editor "BigScript.robot" | get-left-ruler | get-ruler-column AnnotationColumn | double-click-ruler 36
+get-editor "BigScript.robot" | get-left-ruler | get-ruler-column AnnotationColumn | double-click-ruler 57
+
+//run test from menu from test name
+exec-with-options -disableJobWaiting -command {
+	with [get-editor "BigScript.robot" | get-text-viewer] {
+	    set-caret-pos 32 3
+	    get-menu "Debug test: 'test2'" | click
+	}
+	wait 3000
+	wait-for-thread -file "BigScript.robot \(Selected Test Cases\)" 
+	check-debug-marker-on-ruler -line 36 -script_name "BigScript.robot" 
+	get-button "Terminate (M1+F2)" | click
+}
+
+//go to Robot Perspective
+get-button Robot | click
+
+//run test from short cut and from body of test
+exec-with-options -disableJobWaiting -command {
+	with [get-editor "BigScript.robot" | get-text-viewer] {
+	    set-caret-pos 57 14
+	    key-type "M1+M3+R"
+	}
+	wait 3000
+	wait-for-thread -file "BigScript.robot \(Selected Test Cases\)" 
+	check-debug-marker-on-ruler -line 57 -script_name "BigScript.robot" 
+	get-button "Terminate (M1+F2)" | click
+}
+
+
+//check that Debug menu is not on other sections
+get-button Robot | click
+//keyword
+with [get-editor "BigScript.robot" | get-text-viewer] {
+    set-caret-pos 79 7
+    verify-error {get-menu "Debug test: '.*'" | click}
+}
+//Test Teardown
+with [get-editor "BigScript.robot" | get-text-viewer] {
+    set-caret-pos 6 21
+    verify-error {get-menu "Debug test: '.*'" | click}
+}
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

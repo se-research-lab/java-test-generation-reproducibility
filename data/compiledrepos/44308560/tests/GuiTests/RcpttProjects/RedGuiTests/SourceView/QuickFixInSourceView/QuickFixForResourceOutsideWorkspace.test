@@ -1,0 +1,116 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _9Bte8NYSEeijg6yKwqEQmw,_tq7GgNhUEeijg6yKwqEQmw
+Element-Name: QuickFixForResourceOutsideWorkspace
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _cIzC4LpgEei9gP1RMN7i8g
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 11/29/19 2:21 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//// --------------------------------- import resource via relative path  --------------------------------- 
+if [get-by-os -win "Windows" -linux "Linux" | eq "Windows"]{
+	global [val path [run-process-and-trim  "python" "-c" 
+		[format "import os; print(os.path.relpath(r\\\"%s\\\", r\\\"%s\\\").replace(\\\"\\\\\\\\\\\", \\\"/\\\"))" 
+	    [concat $user_folder  "/ResourceForLink/LinkProject/resource.robot" ]
+	    [concat $RED_workspace_path_unix_style  "/RobotProject"]]]]
+}-else{
+	global [val path [run-process-and-trim  "python" "-c"  
+		[format "import os; print(os.path.relpath(\"%s\", \"%s\").replace(\"\\\\\", \"/\"))" 
+		[concat $user_folder  "/ResourceForLink/LinkProject/resource.robot" ]
+		[concat $RED_workspace_path_unix_style  "/RobotProject"]]]] 
+}
+  
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    key-type Enter
+    key-type Up
+    type-text "**"
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSections | get "Settings"]
+    key-type Enter
+    type-text Resource
+    key-type Tab
+    type-text $path
+    key-type "M1+s"
+	}
+
+// verify problems
+wait-for-warnings -amount 2 -times 6 -delay 500
+// use QuickFix to add linked folder
+with [get-view Problems] {
+    click
+    get-tree 
+        | select "Warnings (2 items)/RED does not support importing resources located outside of workspace. Keywords from this resource will not be recognized. Try to use Quick Fix (Ctrl+1) to link folder into the project." 
+        | key-type "M1+1"
+}
+with [get-window "Quick Fix"] {
+    get-button Finish | click
+}
+// verify if linked folder exist
+with [get-view "Project Explorer" | get-tree] {
+    get-item -path "RobotProject/LinkProject" | get-property caption | equals "LinkProject" | verify-true
+    get-item -path "RobotProject/LinkProject" | get-property "getItemCount()" | equals 3 | verify-true
+}
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 3 19
+    key-type "M1+s"
+}
+wait-for-zero-items -times 5 -delay 500
+
+// --------------------------------- import resource via absolute path  --------------------------------- 
+// del linked folder
+get-view "Project Explorer" | get-tree | select "RobotProject/LinkProject" | key-type Del
+get-window "Delete Resources" | get-button OK | click
+// add import
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 2 44
+    key-type "M1+/"
+    key-type Enter
+    type-text Res
+    key-type "M1+SPACE"
+    key-type Enter
+    type-text [concat [replace $user_folder -old "\\" -new "/"] "/ResourceForLink/LinkProject/resource.robot"]
+    key-type "M1+s"
+}
+// verify problems
+wait-for-warnings -amount 3 -times 6 -delay 500
+// use QuickFix to add linked folder
+
+wait 2000
+with [get-view Problems] {
+    click
+    get-tree 
+    | select "Warnings (3 items)/RED does not support importing resources located outside of workspace. Keywords from this resource will not be recognized. Try to use Quick Fix (Ctrl+1) to link folder into the project." 
+    | key-type "M1+1"
+}
+wait 100
+with [get-window "Quick Fix"] {
+    get-button Finish | click
+}
+// use QuickFix to add linked folder
+// verify if linked folder exist
+with [get-view "Project Explorer" | get-tree] {
+    get-item -path "RobotProject/LinkProject" | get-property caption | equals "LinkProject" | verify-true
+    get-item -path "RobotProject/LinkProject" | get-property "getItemCount()" | equals 3 | verify-true
+}
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 4 19
+    key-type "M1+s"
+}
+// verify problems
+wait-for-warnings -amount 1 -times 4 -delay 500
+
+// del folder created outside of workspace
+if [get-file [uri-from-path [concat [replace $user_folder -old "\\" -new "/"] "/ResourceForLink"]] | get exists] {
+	delete-file [uri-from-path [concat [replace $user_folder -old "\\" -new "/"] "/ResourceForLink"]]
+}
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

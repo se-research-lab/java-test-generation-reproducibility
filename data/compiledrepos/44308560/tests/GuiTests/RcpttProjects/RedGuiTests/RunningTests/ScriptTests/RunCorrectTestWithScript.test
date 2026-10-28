@@ -1,0 +1,281 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _d8aMACuvEeW667Afdo4DcA,_s-ctEA4_EeePcNCRX_abWA,_4UxogBh5Eee93KAG-tW51Q
+Element-Name: RunCorrectTestWithScript
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _lJ-jYBiAEee93KAG-tW51Q
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 7/9/20 4:09 PM
+Tags: Unstable, jython
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+RED-956 - Port is in use for Linux script configuration after running test few times
+RED-955 - In Script configuration arguments with CLASSPATH  are different in Windows and Linux
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+// important: before test add path to *\RED_GuiTests\RcpttProjects\RedGuiTests\TestData\LibsFromPythonPath to CLASSPATH
+
+export-agent-to-folder -folder $RED_workspace_path
+global [val script_name  [os-specific "script_win.bat" "script_lin.sh"]]
+
+//run test to create run config
+with [get-view "Project Explorer" | get-tree] {
+    select ScriptProject | double-click
+    select "ScriptProject/TestFile.robot" | get-menu "Run As/1 Robot Test" | click
+}
+
+
+//add new config
+get-menu "Run/Run Configurations..." | click
+with [get-window "Run Configurations"] {
+    get-tree | select Robot | double-click
+    //add project
+    get-group Project | get-button "Browse..." | click
+    with [get-window "Select project"] {
+        get-tree | select ScriptProject
+        get-button OK | click
+    }
+    
+    //add suite - tsv file
+    get-group "Suite(s)" | get-button "Browse..." | click
+    with [get-window "Select suite"] {
+        get-tree | select "ScriptProject/second test.tsv"
+        get-button OK | click
+    }
+    get-button Apply | click
+    
+    //change to custom port
+    get-tab-folder | get-tab-item Listener | click
+    get-group "Test Runner Agent" | get-button "customized" | click
+    get-button Apply | click
+    get-tab-folder | get-tab-item Executor | click
+}
+//set path to script
+set-dialog-result File [format"platform:/resource/ScriptProject/scripts/%s" $script_name]
+with [get-window "Run Configurations"] {
+    with [get-group "External script"] {
+        get-button "File system..." | click
+        get-editbox -after [get-label "Additional executable file arguments. Python interpreter's and Robot parameters will be added afterwards." ] | set-text  [format "%s %s" $RED_workspace_path $RED_workspace_path]
+    }
+    get-button Apply | click
+    get-button Run | click
+}
+let [val wp [replace -input $RED_workspace_path -old "\\" -new "\\\\"]]{
+	get-view Console | get-text-viewer | get-property text 
+	    | equals [format "Command: .*%s %s %s .*python(\.exe)? -m robot.run --listener .*TestRunnerAgent.py:\d{1,5} --argumentfile .*\.arg %s%sScriptProject\n"
+	    + "Suite Executor: <unknown>\n"
+	    + "==============================================================================\n"
+	    + "ScriptProject                                                                 \n"
+	    + "==============================================================================\n"
+	    + "ScriptProject.TestFile                                                        \n"
+	    + "==============================================================================\n"
+	    + "test                                                                  \| PASS \|\n"
+	    + "------------------------------------------------------------------------------\n"
+	    + "ScriptProject.TestFile                                                \| PASS \|\n"
+	    + "1 critical test, 1 passed, 0 failed\n"
+	    + "1 test total, 1 passed, 0 failed\n"
+	    + "==============================================================================\n"
+	    + "ScriptProject                                                         \| PASS \|\n"
+	    + "1 critical test, 1 passed, 0 failed\n"
+	    + "1 test total, 1 passed, 0 failed\n"
+	    + "==============================================================================\n"
+	    + "Output:  .*output.xml\n"
+	    + "Log:     .*log.html\n"
+	    + "Report:  .*report.html\n"
+	    + "This is end of script" $script_name $wp $wp $wp [os-specific "\\\\" "/"]]| verify-true
+	    
+	wait-for-console	    
+	get-view "Message Log" | get-editbox | get-property text | equals "Starting test: ScriptProject.TestFile.test\n"
+	    + ".* : INFO : This is from workspace\n"
+	    + ".* : INFO : 56\n"
+	    + "Ending test: ScriptProject.TestFile.test" | verify-true
+	    
+	get-view "Execution View" | click
+	get-view "Execution View" | get-tree | get-item "ScriptProject \\(.* s\\)/TestFile \\(.* s\\)/test \\(.* s\\)" 
+	    | get-property index | equals 0 | verify-true
+	
+	
+	//open script and add new content
+	get-view "Project Explorer" | get-tree | select "ScriptProject/scripts/script_win.bat" 
+	    | select [format "ScriptProject/scripts/%s" $script_name] | get-menu "Open With/Text Editor" | click    
+	    
+	if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{    
+		get-editor "script_win.bat" | get-text-viewer | set-text "@echo off\n\n"
+		    + ":loop1\n\n"
+		    + "if \"%~1%\"==\"\" goto after_loop\n"
+		    + "\techo Argument: %~1%\n"
+		    + "\tshift\n"
+		    + "\tgoto loop1\n\n"
+		    + ":after_loop\n"
+		    + "echo end" 
+	}-else{    
+		get-editor "script_lin.sh" | get-text-viewer | set-text "#!/bin/sh \n"
+		    + "while [ \"$1\" != \"\" ]; do\n"
+		    + "\techo Argument: $1\n"
+		    + "    shift\n"
+		    + "done\n\n"
+		    + "echo end" 
+	}	    
+	
+	get-editor $script_name | get-text-viewer  |key-type "M1+s"
+	
+	//remove suite - run test on project
+	get-view "Project Explorer" | get-tree | select ScriptProject
+	get-menu "Run/Run Configurations..." | click
+	with [get-window "Run Configurations"] {
+	    with [get-group "Suite(s)"] {
+	        get-tree | select "second test.tsv"
+	        get-button Remove | click
+	    }
+	    get-button Apply | click
+	    get-button Run | click
+	}
+	try -command{
+		get-view Console | get-text-viewer | get-property text 
+		    | equals [format "Command: .+%s %s %s .+(\.exe)? -m robot.run --listener .+TestRunnerAgent.py:43981 --argumentfile .+\.arg %s%sScriptProject\n"
+		    + "Suite Executor: Robot Framework .*\n"
+		    + "Argument: %s\n"
+		    + "Argument: %s\n"
+		    + "Argument: .+python(\.exe)?\n"
+		    + "Argument: -m\n"
+		    + "Argument: robot.run\n"
+		    + "Argument: --listener\n"
+		    + "Argument: .+TestRunnerAgent.py:43981\n"
+		    + "Argument: --argumentfile\n"
+		    + "Argument: .+\.arg\n"
+		    + "Argument: %s%sScriptProject\n"
+		    + "end" $script_name $wp $wp $wp [os-specific "\\\\" "/"] $wp $wp $wp [os-specific "\\\\" "/"]]| verify-true
+	}-catch{
+		get-view Console | get-text-viewer | get-property text 
+		    | equals [format  "Argument: %s\n"
+		    + "Argument: %s\n"
+		    + "Argument: .+python(\.exe)?\n"
+		    + "Argument: -m\n"
+		    + "Argument: robot.run\n"
+		    + "Argument: --listener\n"
+		    + "Argument: .+TestRunnerAgent.py:43981\n"
+		    + "Argument: --argumentfile\n"
+		    + "Argument: .+\.arg\n"
+		    + "Argument: %s%sScriptProject\n"
+		    + "end\n"  
+		    + "Command: .+%s %s %s .+(\.exe)? -m robot.run --listener .+TestRunnerAgent.py:43981 --argumentfile .+\.arg %s%sScriptProject\n"
+		    + "Suite Executor: <unknown>"$wp $wp $wp [os-specific "\\\\" "/"] $script_name $wp $wp $wp [os-specific "\\\\" "/"]]| verify-true
+	    }
+	    
+	//--------------------------------------------------jython --------------------------------------------------------------------
+	// RED-955 - CLASSPath in Linux
+	
+//	 exec-with-options {   
+//		//change interperet to jython    
+//		get-menu "Run/Run Configurations..." | click
+//		with [get-window "Run Configurations"] {
+//		    get-tab-folder | get-tab-item Executor | click
+//		    with [get-group Interpreter] {
+//		        get-button Use | click
+//		        get-combo | select Jython
+//		    }
+//		    get-button Apply | click
+//		    get-button Run | click
+//		    wait 3000
+//		}
+//	} -allowStatusDialog
+//	
+//	wait-for-console
+//	try -command{
+//		get-view Console | get-text-viewer | get-property text 
+//		    | equals [format "Command: .*\n"
+//		    + "Suite Executor: Robot Framework .+\n"
+//		    + "Argument: %s\n"
+//		    + "Argument: %s\n"
+//		    + "Argument: jython(\.exe)?\n"
+//		    + "Argument: -J-Dpython.path\n"
+//		    + "%s"
+//		    + "Argument: -J-cp\n"
+//		    + "Argument: .*\n"
+//		    + "Argument: .\n"
+//		    + "Argument: -m\n"
+//		    + "Argument: robot.run\n"
+//		    + "Argument: --listener\n"
+//		    + "Argument: .*TestRunnerAgent.py:43981\n"
+//		    + "Argument: --argumentfile\n"
+//		    + "Argument: .+\.arg\n"
+//		    + "Argument: %s%sScriptProject\n"
+//		    + "end" $wp $wp [get-by-os -win "Argument: .+jython.+\n" -default ""]$wp [os-specific "\\\\" "/"]]| verify-true
+//	}-catch{
+//    	get-view Console | get-text-viewer | get-property text 
+//		    | equals [format  "Argument: %s\n"
+//		    + "Argument: %s\n"
+//		    + "Argument: jython(\.exe)?\n"
+//		    + "Argument: -J-Dpython.path.*\n"
+//		    + "%s"
+//		    + "Argument: -J-cp\n"
+//		    + "Argument: .*\n"
+//		    + "Argument: .\n"
+//		    + "Argument: -m\n"
+//		    + "Argument: robot.run\n"
+//		    + "Argument: --listener\n"
+//		    + "Argument: .*TestRunnerAgent.py:43981\n"
+//		    + "Argument: --argumentfile\n"
+//		    + "Argument: .+\.arg\n"
+//		    + "Argument: %s%sScriptProject\n"
+//		    + "end\n"
+//		    + "Command: .*\n"
+//		    + "Suite Executor: <unknown>" $wp $wp  [get-by-os -win "Argument: .+jython.+\n" -default ""] $wp [os-specific "\\\\" "/"]]| verify-true
+//		
+//	    }
+}  
+
+//-------------------------------------------------- --------------------------------------------------------------------
+
+//add script with no test to run
+if [get-by-os -linux "Linux" -win "Windows"| equals "Windows"]{
+	get-editor $script_name | get-text-viewer | set-text "@echo off\n"
+	    + "echo Hello world!" 
+}-else{
+	get-editor $script_name | get-text-viewer | set-text "#!/usr/bin/env bash\n"
+	    + "echo Hello world!" 
+}
+get-editor $script_name | get-text-viewer  |key-type "M1+s"
+
+//change to default interpreter
+get-menu "Run/Run Configurations..." | click
+with [get-window "Run Configurations"] {
+    with [get-tab-folder] {
+        get-tab-item Listener | click
+        get-tab-item Executor | click
+    }
+    get-group Interpreter | get-button "Use interpreter as defined in project configuration" | click
+    
+    //add other arg that will be not used
+    get-group "External script" | get-editbox -after [get-label "Additional executable file arguments. Python interpreter's and Robot parameters will be added afterwards." ] | set-text arg1
+    get-button Apply | click
+    get-button Run | click
+}
+
+try -command{
+	get-view Console | get-text-viewer | get-property text 
+	    | equals [format "Command: .*%s .* .*python.* -m robot.run --listener .*TestRunnerAgent.py:43981 --argumentfile .*\.arg .*ScriptProject\n"
+	    + "Suite Executor: Robot Framework .*\n"
+	    + "Hello world!" $script_name] | verify-true
+}-catch{
+	get-view Console | get-text-viewer | get-property text 
+	    | equals [format "Hello world!\n"
+	    + "Command: .*%s .* .*python.* -m robot.run --listener .*TestRunnerAgent.py:43981 --argumentfile .*\.arg .*ScriptProject\n"
+	    + "Suite Executor: <unknown>" $script_name] | verify-true
+}  
+
+//check views
+get-view "Execution View" | get-tree | get-property itemCount | equals 0 | verify-true
+get-view "Message Log" | get-editbox | get-property text | equals "" | verify-true
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

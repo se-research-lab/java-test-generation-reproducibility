@@ -1,0 +1,84 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.thinkbiganalytics.kylo.integrations</groupId>
+    <artifactId>kylo-integrations</artifactId>
+    <version>0.10.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>kylo-spark</artifactId>
+  <packaging>pom</packaging>
+
+  <name>Kylo Spark Parent</name>
+
+  <properties>
+    <spark1.xml.version>0.3.5</spark1.xml.version>
+    <spark2.xml.version>0.4.1</spark2.xml.version>
+    <spark1.csv.version>1.5.0</spark1.csv.version>
+    <plugin.license.parentRelative>../../</plugin.license.parentRelative>
+  </properties>
+
+  <modules>
+    <module>spark-interpreter</module>
+    <module>spark-job-profiler</module>
+    <module>spark-shell-client</module>
+    <module>spark-file-metadata</module>
+    <module>spark-validate-cleanse</module>
+    <module>spark-merge-table</module>
+    <module>spark-job-dataquality</module>
+    <module>spark-job-cleanup</module>
+    <module>spark-catalog</module>
+    <module>spark-ingest</module>
+    <module>spark-multi-exec</module>
+  </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.compiler.plugin.version}</version>
+        <configuration>
+          <source>${spark.java.version}</source>
+          <target>${spark.java.version}</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>${plugin.enforcer.version}</version>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>extra-enforcer-rules</artifactId>
+            <version>1.0-beta-9</version>
+          </dependency>
+        </dependencies>
+        <executions>
+          <execution>
+            <id>enforceV7</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <enforceBytecodeVersion>
+                  <maxJdkVersion>${spark.java.version}</maxJdkVersion>
+                  <excludes>
+                    <exclude>org.jetbrains:annotations</exclude>
+                    <exclude>jdk.tools:jdk.tools</exclude>
+                    <exclude>org.assertj:assertj-core</exclude>
+                  </excludes>
+                </enforceBytecodeVersion>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

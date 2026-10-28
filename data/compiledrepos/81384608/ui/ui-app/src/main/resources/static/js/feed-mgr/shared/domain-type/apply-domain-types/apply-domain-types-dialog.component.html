@@ -1,0 +1,42 @@
+
+<div class="layout-padding">
+<h2 class="pull-bottom-md">
+  <span>Domain Types</span>
+  <span fxFlex="1 1 auto"></span>
+</h2>
+<h4 class="tc-grey-500">Field validation will be visible in grid. Domain type, name, and standardization rules will be deferred.</h4>
+</div>
+
+<mat-dialog-content ngClass="tc-gray-600">
+
+  <div class="push-pad-bottom">Apply the following domain types:</div>
+
+    <td-data-table
+        #dataTable
+        [data]="filteredData"
+        [columns]="columns"
+        [selectable]="true"
+        [clickable]="false"
+        [(value)]="selectedRows"
+        [multiple]="true"
+        [sortable]="true"
+        [sortBy]="sortBy"
+        [sortOrder]="sortOrder"
+        (sortChange)="sort($event)"
+        (rowSelect)="onRowSelected($event)"
+        [style.height.px]="200">
+      <ng-template tdDataTableTemplate="domainType" let-value="value">
+        <span><ng-md-icon [icon]="value.icon" [ngStyle]="{'fill':value.iconColor}"></ng-md-icon> {{value.title}}</span>
+      </ng-template>
+
+    </td-data-table>
+    <div  *ngIf="!dataTable.hasData" fxLayout="row" fxLayoutAlign="center center">
+      <h3>No results to display.</h3>
+    </div>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button  mat-raised-button  (click)="cancel()">Cancel</button>
+  <button  mat-raised-button color="primary" (click)="hide()">Apply</button>
+</mat-dialog-actions>

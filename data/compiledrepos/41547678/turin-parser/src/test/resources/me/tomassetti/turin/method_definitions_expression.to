@@ -1,0 +1,7 @@
+namespace foo
+
+type MyClass {
+
+    void toString() = "foo"
+
+}

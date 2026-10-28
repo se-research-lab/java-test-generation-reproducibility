@@ -1,0 +1,2 @@
+*** Settings ***
+Library	newLib.py	#cm1	cm2	cm3

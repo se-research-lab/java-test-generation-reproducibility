@@ -1,0 +1,96 @@
+/*
+ * Copyright 2015 Nokia Solutions and Networks
+ * Licensed under the Apache License, Version 2.0,
+ * see license.txt file for details.
+ */
+package org.robotframework.ide.eclipse.main.plugin.tableeditor.source.assist;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.eclipse.jface.text.BadLocationException;
+import org.eclipse.jface.text.IDocument;
+import org.eclipse.jface.text.IRegion;
+import org.eclipse.jface.text.ITextViewer;
+import org.eclipse.jface.text.contentassist.ICompletionProposal;
+import org.robotframework.ide.eclipse.main.plugin.tableeditor.source.DocumentUtilities;
+
+/**
+ * @author Michal Anglart
+ */
+public abstract class RedContentAssistProcessor extends DefaultContentAssistProcessor
+        implements IRedContentAssistProcessor {
+
+    protected final AssistantContext assist;
+
+    protected ITextViewer viewer;
+
+    public RedContentAssistProcessor(final AssistantContext assist) {
+        this.assist = assist;
+    }
+
+    @Override
+    public final ICompletionProposal[] computeCompletionProposals(final ITextViewer viewer, final int offset) {
+        final List<? extends ICompletionProposal> proposals = computeProposals(viewer, offset);
+        return proposals == null ? null : proposals.toArray(new ICompletionProposal[0]);
+    }
+
+    public List<? extends ICompletionProposal> computeProposals(final ITextViewer viewer, final int offset) {
+        this.viewer = viewer;
+        final IDocument document = viewer.getDocument();
+        try {
+            final String lineContent = DocumentUtilities.lineContentBeforeCurrentPosition(document, offset);
+            if (shouldShowProposals(document, offset, lineContent)) {
+                final boolean isTsv = assist.isTsvFile();
+                final Optional<IRegion> cellRegion = DocumentUtilities.findLiveCellRegion(document, isTsv, offset);
+                final int contentLength = cellRegion.map(IRegion::getLength).orElse(0);
+                final String userContent = DocumentUtilities.getPrefix(document, cellRegion, offset);
+
+                return computeProposals(document, offset, contentLength, userContent,
+                        isAtTheEndOfLine(document, offset));
+            }
+        } catch (final BadLocationException e) {
+            // we'll return nothing then
+        }
+        return null;
+    }
+
+    private boolean isAtTheEndOfLine(final IDocument document, final int offset) throws BadLocationException {
+        // at the end of line when only whitespaces follow current position at this line
+        final IRegion lineRegion = document.getLineInformationOfOffset(offset);
+        return document.get(offset, lineRegion.getOffset() + lineRegion.getLength() - offset).trim().isEmpty();
+    }
+
+    protected abstract boolean shouldShowProposals(final IDocument document, final int offset, final String lineContent)
+            throws BadLocationException;
+
+    protected abstract List<? extends ICompletionProposal> computeProposals(IDocument document, final int offset,
+            final int cellLength, final String userContent, boolean isAtTheEndOfLine) throws BadLocationException;
+
+    @Override
+    public final boolean isInApplicableContentType(final IDocument document, final int offset)
+            throws BadLocationException {
+        return getApplicableContentTypes().contains(getVirtualContentType(document, offset));
+    }
+
+    protected final String getVirtualContentType(final IDocument document, final int offset)
+            throws BadLocationException {
+        final String contentType = document.getContentType(offset);
+        if (contentType != IDocument.DEFAULT_CONTENT_TYPE) {
+            return contentType;
+        } else if (offset > 0 && offset == document.getLength()) {
+            return document.getContentType(offset - 1);
+        }
+        return contentType;
+    }
+
+    protected boolean isInFirstCellOfTheLine(final IDocument document, final int offset) throws BadLocationException {
+        final IRegion lineInfo = document.getLineInformationOfOffset(offset);
+        if (offset != lineInfo.getOffset()) {
+            final Optional<IRegion> cellRegion = DocumentUtilities.findLiveCellRegion(document, assist.isTsvFile(),
+                    offset);
+            return cellRegion.isPresent() && lineInfo.getOffset() == cellRegion.get().getOffset();
+        }
+        return true;
+    }
+}

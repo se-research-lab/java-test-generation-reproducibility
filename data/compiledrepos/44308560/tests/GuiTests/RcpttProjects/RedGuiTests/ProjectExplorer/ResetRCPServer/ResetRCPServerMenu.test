@@ -1,0 +1,126 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _VYJv0CZqEeesE7mkFuId1w,_9Bte8NYSEeijg6yKwqEQmw
+Element-Name: ResetRCPServerMenu
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _n-QKcKS7EeW4l-rLhvMqpg
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 10/15/19 11:16 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//if test is rerun than error is from older execution
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+//Reset when no variable file is in project
+with [get-view "Project Explorer" | get-tree] {
+    select RobotProject | get-menu "Robot Framework/Reset Robot Environment" | click
+}
+//check no errors
+get-view Problems | get-tree | get-property itemCount | equals 0 | verify-true
+
+//create folder
+with [get-view "Project Explorer" | get-tree] {
+    select RobotProject | get-menu "New/Folder" | click
+}
+
+with [get-window "New Folder"] {
+    get-editbox -after [get-label "Folder name:"] | set-text var
+    get-button Finish | click
+}
+
+//create python file
+get-view "Project Explorer" | get-tree | select "RobotProject/var" | get-menu "New/File" | click
+with [get-window "(Create )?New File"] {
+    get-editbox -after [get-label "File name:"] | set-text "var.py"
+    get-button Finish | click
+}
+
+//add Setting and test
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+with [get-editor "TestFile.robot" | get-text-viewer] {
+	//remove all
+    key-type "M1+a"
+    key-type Del
+    //add settings
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSections | get "Settings"] 
+    key-type Enter
+    
+    // vars
+    type-text Va
+    key-type "M1+SPACE"
+    key-type Enter
+    wait 300
+    key-type Enter
+    wait 200
+    key-type Enter -times 2
+    
+    //add test case section
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSectionsAfterSettings | get "Test Cases"]
+    key-type Enter
+    type-text test1
+    key-type Enter
+    type-text "Log  ${a}"
+    key-type "M1+s"
+}
+
+//add variable to python file
+get-view "Project Explorer" | get-tree | select "RobotProject/var/var.py" | select "RobotProject/var/var.py" 
+    | get-menu "Open With/Text Editor" | click
+with [get-editor "var.py" | get-text-viewer] {
+    type-text "a = 6"
+    key-type "M1+s"
+}
+//clean project
+get-tab-folder -index 1 | get-tab-item "TestFile.robot" | click
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+//check that 2 errors are shown
+get-tab-folder -index 4 | get-tab-item Problems | click
+get-view Problems | get-tree | get-item ".*" -index 0 | expand-all
+
+get-view Problems | get-tree | get-item "Errors \\(1 item\\)" | get-property "getItems().TreeItem[0].getText()" 
+    | equals "Variable 'a' is used, but not defined" | verify-true
+get-view Problems | get-tree | get-item "Warnings \\(1 item\\)" | get-property "getItems().TreeItem[0].getText()" 
+    | equals "Could not find any variable in variable file 'var/var.py'" | verify-true
+
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 6 14
+    key-type Enter
+    key-type "M1+s"
+}
+
+//check that now variable is visible - no errors
+wait-for-zero-items -times 4 -delay 1000
+
+//add new list to python file
+get-tab-folder -index 1 | get-tab-item "var.py" | click
+with [get-editor "var.py" | get-text-viewer] {
+    key-type "NUMPAD_ENTER" "\\u000D"
+    type-text "b= [1,2]"
+    key-type "M1+s"
+}
+
+//log list
+get-tab-folder -index 1 | get-tab-item "TestFile.robot" | click
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 6 14
+    key-type "NUMPAD_ENTER" "\\u000D"
+    type-text "Log  ${b}"
+    key-type "M1+s"
+}
+
+//check that error is shown
+wait-for-zero-items -times 4 -delay 1000
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

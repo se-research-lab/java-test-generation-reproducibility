@@ -1,0 +1,247 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.stability.tests.s3;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.function.IntFunction;
+import org.apache.commons.lang3.RandomStringUtils;
+import software.amazon.awssdk.core.sync.RequestBody;
+import software.amazon.awssdk.core.sync.ResponseTransformer;
+import software.amazon.awssdk.http.apache.ApacheHttpClient;
+import software.amazon.awssdk.services.s3.S3AsyncClient;
+import software.amazon.awssdk.services.s3.S3Client;
+import software.amazon.awssdk.services.s3.model.DeleteBucketRequest;
+import software.amazon.awssdk.services.s3.model.NoSuchBucketException;
+import software.amazon.awssdk.services.s3.model.NoSuchKeyException;
+import software.amazon.awssdk.services.s3.model.Tag;
+import software.amazon.awssdk.stability.tests.exceptions.StabilityTestsRetryableException;
+import software.amazon.awssdk.testutils.retry.RetryableTest;
+import software.amazon.awssdk.stability.tests.utils.StabilityTestRunner;
+import software.amazon.awssdk.testutils.RandomTempFile;
+import software.amazon.awssdk.testutils.service.AwsTestBase;
+import software.amazon.awssdk.testutils.service.S3BucketUtils;
+import software.amazon.awssdk.utils.Logger;
+import software.amazon.awssdk.utils.Md5Utils;
+
+public abstract class S3BaseStabilityTest extends AwsTestBase {
+    private static final Logger log = Logger.loggerFor(S3BaseStabilityTest.class);
+    protected static final int CONCURRENCY = 100;
+    protected static final int TOTAL_RUNS = 50;
+
+    protected static final String LARGEST_KEY_NAME = "16MB";
+
+    protected static S3Client s3ApacheClient;
+    protected static ExecutorService futureThreadPool;
+
+    private final S3Client testClient;
+
+
+    // The JVM does a bunch under the hood, so leave some room for magic.
+    private static final int ALLOWED_THREAD_OVERHEAD = 50;
+
+    protected int allowedPeakThreads;
+
+    static {
+        s3ApacheClient = S3Client.builder()
+                                 .httpClientBuilder(ApacheHttpClient.builder()
+                                                                    .maxConnections(CONCURRENCY))
+                                 .credentialsProvider(CREDENTIALS_PROVIDER_CHAIN)
+                                 .overrideConfiguration(b -> b.apiCallTimeout(Duration.ofMinutes(10)))
+                                 .build();
+    }
+
+    protected S3BaseStabilityTest() {
+        this(null, 0);
+    }
+
+    protected S3BaseStabilityTest(S3Client testClient, int testClientThreadsUsed) {
+        // use the passed in known thread count for testClient, plus CONCURRENCY for the sync executor,
+        // and some room for the JVM to do weird things.
+        this.allowedPeakThreads = testClientThreadsUsed + CONCURRENCY + ALLOWED_THREAD_OVERHEAD;
+        this.testClient = testClient;
+    }
+
+    @RetryableTest(maxRetries = 3, retryableException = StabilityTestsRetryableException.class)
+    public void largeObject_put_get_usingFile() {
+        String md5Upload = uploadLargeObjectFromFile();
+        String md5Download = downloadLargeObjectToFile();
+        assertThat(md5Upload).isEqualTo(md5Download);
+    }
+
+    @RetryableTest(maxRetries = 3, retryableException = StabilityTestsRetryableException.class)
+    public void putObject_getObject_highConcurrency() {
+        putObject();
+        getObject();
+    }
+
+    protected String computeKeyName(int i) {
+        return "key_" + i;
+    }
+
+    protected abstract String getTestBucketName();
+
+    protected void doGetBucketAcl_lowTpsLongInterval() {
+        IntFunction<CompletableFuture<?>> future =
+            i -> CompletableFuture.supplyAsync(() -> testClient.getBucketAcl(b -> b.bucket(getTestBucketName())), futureThreadPool);
+        String className = this.getClass().getSimpleName();
+        StabilityTestRunner.newRunner(allowedPeakThreads)
+                .testName(className + ".getBucketAcl_lowTpsLongInterval")
+                .futureFactory(future)
+                .requestCountPerRun(10)
+                .totalRuns(3)
+                .delaysBetweenEachRun(Duration.ofSeconds(6))
+                .run();
+    }
+
+
+    protected String downloadLargeObjectToFile() {
+        File randomTempFile = RandomTempFile.randomUncreatedFile();
+
+        StabilityTestRunner.newRunner(allowedPeakThreads)
+                .testName("S3StabilityTest.downloadLargeObjectToFile")
+            .futures(CompletableFuture.supplyAsync(() -> {
+                    testClient.getObject(b -> b.bucket(getTestBucketName())
+                                                      .key(LARGEST_KEY_NAME), ResponseTransformer.toFile(randomTempFile));
+                    return null;
+                }, futureThreadPool))
+                .run();
+
+
+        try {
+            return Md5Utils.md5AsBase64(randomTempFile);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } finally {
+            randomTempFile.delete();
+        }
+    }
+
+    protected String uploadLargeObjectFromFile() {
+        try {
+            RandomTempFile file = new RandomTempFile(16L * 1024 * 1024);
+
+            try {
+                String md5 = Md5Utils.md5AsBase64(file);
+                StabilityTestRunner.newRunner(allowedPeakThreads)
+                                   .testName("S3StabilityTest.uploadLargeObjectFromFile")
+                                   .futures(CompletableFuture.supplyAsync(() -> {
+                                       testClient.putObject(b -> b.bucket(getTestBucketName()).key(LARGEST_KEY_NAME), file.toPath());
+
+                                       return null;
+                                   }, futureThreadPool))
+                                   .run();
+                return md5;
+            } finally {
+                file.delete();
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    protected void putObject() {
+        byte[] bytes = RandomStringUtils.randomAlphanumeric(10_000).getBytes();
+
+        IntFunction<CompletableFuture<?>> future = i -> CompletableFuture.supplyAsync(() -> {
+            String keyName = computeKeyName(i);
+            testClient.putObject(b -> b.bucket(getTestBucketName()).key(keyName), RequestBody.fromBytes(bytes));
+
+            return null;
+        }, futureThreadPool);
+
+        StabilityTestRunner.newRunner(allowedPeakThreads)
+                .testName("S3StabilityTest.putObject")
+                .futureFactory(future)
+                .requestCountPerRun(CONCURRENCY)
+                .totalRuns(TOTAL_RUNS)
+                .delaysBetweenEachRun(Duration.ofMillis(100))
+                .run();
+    }
+
+    protected void getObject() {
+        IntFunction<CompletableFuture<?>> future = i -> CompletableFuture.supplyAsync(() -> {
+            String keyName = computeKeyName(i);
+            Path path = RandomTempFile.randomUncreatedFile().toPath();
+            testClient.getObject(b -> b.bucket(getTestBucketName()).key(keyName), ResponseTransformer.toFile(path));
+
+            return null;
+        }, futureThreadPool);
+
+        StabilityTestRunner.newRunner(allowedPeakThreads)
+                .testName("S3StabilityTest.getObject")
+                .futureFactory(future)
+                .requestCountPerRun(CONCURRENCY)
+                .totalRuns(TOTAL_RUNS)
+                .delaysBetweenEachRun(Duration.ofMillis(100))
+                .run();
+    }
+
+    protected static void deleteBucketAndAllContents(S3AsyncClient client, String bucketName) {
+        try {
+            List<CompletableFuture<?>> futures = new ArrayList<>();
+
+            client.listObjectsV2Paginator(b -> b.bucket(bucketName))
+                         .subscribe(r -> r.contents().forEach(s -> futures.add(client.deleteObject(o -> o.bucket(bucketName).key(s.key())))))
+                         .join();
+
+            CompletableFuture<?>[] futureArray = futures.toArray(new CompletableFuture<?>[0]);
+
+            CompletableFuture.allOf(futureArray).join();
+
+            client.deleteBucket(DeleteBucketRequest.builder().bucket(bucketName).build()).join();
+        } catch (Exception e) {
+            log.error(() -> "Failed to delete bucket: " +bucketName);
+        }
+    }
+
+    /**
+     * Tag applied to test buckets at creation so any residual test buckets can be cleaned up based on the tag.
+     */
+    protected static Tag integTestTag() {
+        return Tag.builder()
+                  .key(S3BucketUtils.INTEG_TEST_RESOURCE_TAG_KEY)
+                  .value(S3BucketUtils.INTEG_TEST_RESOURCE_TAG_VALUE)
+                  .build();
+    }
+
+    protected void verifyObjectExist(String bucketName, String keyName, long size) throws IOException {
+        try {
+            s3ApacheClient.headBucket(b -> b.bucket(bucketName));
+        } catch (NoSuchBucketException e) {
+            log.info(() -> "NoSuchBucketException was thrown, staring to create the bucket");
+            s3ApacheClient.createBucket(b -> b.bucket(bucketName)
+                                              .createBucketConfiguration(cfg -> cfg.tags(integTestTag())));
+        }
+
+        try {
+            s3ApacheClient.headObject(b -> b.key(keyName).bucket(bucketName));
+        } catch (NoSuchKeyException e) {
+            log.info(() -> "NoSuchKeyException was thrown, starting to upload the object");
+            RandomTempFile file = new RandomTempFile(size);
+            s3ApacheClient.putObject(b -> b.bucket(bucketName).key(keyName), RequestBody.fromFile(file));
+            file.delete();
+        }
+    }
+}

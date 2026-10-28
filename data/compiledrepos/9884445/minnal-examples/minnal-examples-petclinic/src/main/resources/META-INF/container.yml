@@ -1,0 +1,12 @@
+---
+name: "My Container"
+mounts:
+  com.petclinic.PetclinicApplication: "/"
+basePath: "/"
+bundleOverrides: {}
+server:
+  connectors:
+  - port: 8080
+    scheme: "http"
+    ioWorkerThreadCount: 2
+    executorThreadCount: 2

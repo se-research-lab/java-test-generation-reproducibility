@@ -1,0 +1,93 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <display-name>voho.eu</display-name>
+
+    <welcome-file-list>
+        <welcome-file>/</welcome-file>
+    </welcome-file-list>
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/assets/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>generate</servlet-name>
+        <servlet-class>cz.voho.servlet.GenerateServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>generate</servlet-name>
+        <url-pattern>/generate/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>meta</servlet-name>
+        <servlet-class>cz.voho.servlet.MetaPageServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>meta</servlet-name>
+        <url-pattern>/meta/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>cz.voho.servlet.IndexPageServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wiki</servlet-name>
+        <servlet-class>cz.voho.servlet.WikiPageServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>wiki</servlet-name>
+        <url-pattern>/wiki/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sitemap</servlet-name>
+        <servlet-class>cz.voho.servlet.SitemapServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sitemap</servlet-name>
+        <url-pattern>/sitemap/</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>wiki</filter-name>
+        <filter-class>cz.voho.servlet.filter.InvalidWikiPageRedirectionFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>wiki</filter-name>
+        <url-pattern>/wiki/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>slash</filter-name>
+        <filter-class>cz.voho.servlet.filter.TrailingSlashAppendingFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>slash</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+</web-app>

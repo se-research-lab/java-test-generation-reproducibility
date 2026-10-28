@@ -1,0 +1,54 @@
+---
+layout: news
+---
+
+<article>
+  <h2>
+    {{ page.title }}
+    <a href="{{ page.url }}" class="permalink" title="Permalink">∞</a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      {{ page.categories | array_to_sentence_string }}
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      {{ page.date | date_to_string }}
+    </span>
+    {% capture homepage %}http://people.apache.org/~{{ page.author }}{% endcapture %}
+    {% capture avatar %}http://people.apache.org/~{{ page.author }}/{{ page.author }}.jpg{% endcapture %}
+    {% for c in site.data.contributors %}
+      {% if c.apacheId == page.author %}
+        {% if c.homepage %}
+          {% assign homepage = c.homepage %}
+        {% else %}
+          {% capture homepage %}http://github.com/{{ c.githubId }}{% endcapture %}
+        {% endif %}
+        {% if c.avatar %}
+          {% assign avatar = c.avatar %}
+        {% else %}
+          {% capture avatar %}https://calcite.apache.org/img/avatars/{{ c.githubId }}.png{% endcapture %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    <a href="{{ homepage }}" class="post-author">
+      <img src="{{ avatar }}"
+           class="avatar" alt="{{ page.author }} avatar"
+           width="24" height="24">
+      {{ page.author }}
+    </a>
+  </div>
+  <div class="post-content">
+    {{ content }}
+    {% if page.categories contains 'release' %}
+      {% if page.categories contains 'avatica-go' %}
+        <p>See the <a href="{{ site.baseurl }}/docs/go_history.html#{{ page.tag }}">release notes</a>;
+            <a href="{{ site.baseurl }}/downloads/avatica-go.html#source-releases">download</a> the release.</p>
+      {% else %}
+        <p>See the <a href="{{ site.baseurl }}/docs/history.html#{{ page.tag }}">release notes</a>;
+            <a href="{{ site.baseurl }}/downloads/avatica.html#source-releases">download</a> the release.</p>
+      {% endif %}
+    {% endif %}
+  </div>
+</article>

@@ -1,0 +1,84 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.http.crt.internal;
+
+import software.amazon.awssdk.annotations.SdkInternalApi;
+import software.amazon.awssdk.crt.http.HttpStreamManager;
+import software.amazon.awssdk.http.HttpExecuteRequest;
+import software.amazon.awssdk.metrics.MetricCollector;
+
+@SdkInternalApi
+public final class CrtRequestContext {
+    private final HttpExecuteRequest request;
+    private final long readBufferSize;
+    private final HttpStreamManager streamManager;
+    private final MetricCollector metricCollector;
+
+    private CrtRequestContext(Builder builder) {
+        this.request = builder.request;
+        this.readBufferSize = builder.readBufferSize;
+        this.streamManager = builder.streamManager;
+        this.metricCollector = request.metricCollector().orElse(null);
+    }
+
+    public static Builder builder() {
+        return new Builder();
+    }
+
+    public HttpExecuteRequest sdkRequest() {
+        return request;
+    }
+
+    public long readBufferSize() {
+        return readBufferSize;
+    }
+
+    public HttpStreamManager streamManager() {
+        return streamManager;
+    }
+
+    public MetricCollector metricCollector() {
+        return metricCollector;
+    }
+
+    public static final class Builder {
+        private HttpExecuteRequest request;
+        private long readBufferSize;
+        private HttpStreamManager streamManager;
+
+        private Builder() {
+        }
+
+        public Builder request(HttpExecuteRequest request) {
+            this.request = request;
+            return this;
+        }
+
+        public Builder readBufferSize(long readBufferSize) {
+            this.readBufferSize = readBufferSize;
+            return this;
+        }
+
+        public Builder streamManager(HttpStreamManager streamManager) {
+            this.streamManager = streamManager;
+            return this;
+        }
+
+        public CrtRequestContext build() {
+            return new CrtRequestContext(this);
+        }
+    }
+}

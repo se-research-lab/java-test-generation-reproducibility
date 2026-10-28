@@ -1,0 +1,2 @@
+*** Settings ***
+Metadata	key	value

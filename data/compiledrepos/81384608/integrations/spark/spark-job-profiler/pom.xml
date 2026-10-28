@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.thinkbiganalytics.kylo.integrations</groupId>
+    <artifactId>kylo-spark</artifactId>
+    <version>0.10.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>kylo-spark-job-profiler</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+    <mainClass.name>com.thinkbiganalytics.spark.dataprofiler.core.Profiler</mainClass.name>
+    <plugin.license.parentRelative>../../../</plugin.license.parentRelative>
+  </properties>
+
+  <modules>
+    <module>spark-job-profiler-app</module>
+    <module>spark-job-profiler-spark-v1</module>
+    <module>spark-job-profiler-spark-v2</module>
+    <module>spark-job-profiler-tests</module>
+    <module>spark-job-profiler-api</module>
+    <module>spark-job-profiler-core</module>
+    <module>spark-job-profiler-model</module>
+  </modules>
+</project>

@@ -1,0 +1,636 @@
+/*
+ * Copyright 2016 Nokia Solutions and Networks
+ * Licensed under the Apache License, Version 2.0,
+ * see license.txt file for details.
+ */
+package org.robotframework.ide.eclipse.main.plugin.assist;
+
+import static com.google.common.collect.Lists.newArrayList;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatIllegalStateException;
+import static org.robotframework.red.junit.jupiter.ProjectExtension.createDir;
+import static org.robotframework.red.junit.jupiter.ProjectExtension.createFile;
+import static org.robotframework.red.junit.jupiter.ProjectExtension.getFile;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+import org.eclipse.core.resources.IFile;
+import org.eclipse.core.resources.IFolder;
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.runtime.CoreException;
+import org.eclipse.core.runtime.Path;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.rf.ide.core.libraries.ArgumentsDescriptor;
+import org.rf.ide.core.libraries.KeywordSpecification;
+import org.rf.ide.core.libraries.LibraryDescriptor;
+import org.rf.ide.core.libraries.LibrarySpecification;
+import org.rf.ide.core.project.RobotProjectConfig.LibraryType;
+import org.rf.ide.core.project.RobotProjectConfig.RemoteLocation;
+import org.rf.ide.core.testdata.model.search.keyword.KeywordScope;
+import org.rf.ide.core.testdata.model.table.variables.AVariable.VariableType;
+import org.robotframework.ide.eclipse.main.plugin.RedImages;
+import org.robotframework.ide.eclipse.main.plugin.assist.RedSettingProposals.SettingTarget;
+import org.robotframework.ide.eclipse.main.plugin.assist.RedVariableProposal.VariableOrigin;
+import org.robotframework.ide.eclipse.main.plugin.mockmodel.RobotSuiteFileCreator;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotKeywordDefinition;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotKeywordsSection;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotModel;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotSuiteFile;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotVariable;
+import org.robotframework.ide.eclipse.main.plugin.model.RobotVariablesSection;
+import org.robotframework.red.junit.jupiter.Project;
+import org.robotframework.red.junit.jupiter.ProjectExtension;
+
+@ExtendWith(ProjectExtension.class)
+public class AssistProposalsTest {
+
+    @Project
+    static IProject project;
+
+    private static IFile file;
+
+    @BeforeAll
+    public static void beforeSuite() throws Exception {
+        createFile(project, "res.robot",
+                "*** Keywords ***",
+                "kw1",
+                "  Log  1",
+                "kw2",
+                "  Log  2");
+        file = createFile(project, "suite.robot",
+                "*** Settings ***",
+                "Resource  res.robot",
+                "*** Keywords ***",
+                "kw1",
+                "  [Arguments]  ${x}  @{list}",
+                "  [Documentation]  myDocumentation",
+                "  Log  10",
+                "kw2",
+                "  Log  20");
+    }
+
+    @AfterAll
+    public static void afterSuite() {
+        file = null;
+    }
+
+    @Test
+    public void verifyKeywordProposalPropertiesMadeFromUserKeyword() throws Exception {
+        final RobotSuiteFile fileModel = new RobotModel().createSuiteFile(file);
+
+        final RobotKeywordDefinition kw1 = fileModel.findSection(RobotKeywordsSection.class).get().getChildren().get(0);
+
+        final RedKeywordProposal proposal = AssistProposals.createUserKeywordProposal(kw1, "Given ", KeywordScope.LOCAL,
+                AssistProposalPredicates.alwaysFalse(), ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("Given kw1");
+        assertThat(proposal.getSourceName()).isEqualTo("suite");
+        assertThat(proposal.getArguments()).containsExactly("x", "");
+        assertThat(proposal.getArgumentsDescriptor()).isEqualTo(ArgumentsDescriptor.createDescriptor("x", "*list"));
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getUserKeywordImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("kw1 - suite.robot");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).contains("myDocumentation");
+        assertThat(proposal.isAccessible()).isTrue();
+    }
+
+    @Test
+    public void verifyKeywordProposalPropertiesMadeFromLibraryKeyword() throws Exception, CoreException {
+        final LibrarySpecification libSpec = new LibrarySpecification();
+        libSpec.setName("myLibrary");
+        libSpec.setFormat("ROBOT");
+        final KeywordSpecification kwSpec = new KeywordSpecification();
+        kwSpec.setName("libKw");
+        kwSpec.setArguments(newArrayList("x", "*list"));
+        kwSpec.setDocumentation("myDocumentation");
+        libSpec.setKeywords(newArrayList(kwSpec));
+
+        final RedKeywordProposal proposal = AssistProposals.createLibraryKeywordProposal(libSpec, kwSpec, "Given ",
+                KeywordScope.STD_LIBRARY, Optional.empty(), new Path("test.robot"),
+                AssistProposalPredicates.alwaysFalse(), ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("Given libKw");
+        assertThat(proposal.getSourceName()).isEqualTo("myLibrary");
+        assertThat(proposal.getArguments()).containsExactly("x", "");
+        assertThat(proposal.getArgumentsDescriptor()).isEqualTo(ArgumentsDescriptor.createDescriptor("x", "*list"));
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getKeywordImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("libKw - myLibrary");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).contains("myDocumentation");
+        assertThat(proposal.isAccessible()).isTrue();
+    }
+
+    @Test
+    public void verifyKeywordProposalPropertiesMadeFromNotImportedLibraryKeyword() throws Exception, CoreException {
+        final LibrarySpecification libSpec = new LibrarySpecification();
+        libSpec.setName("myNotImportedLibrary");
+        libSpec.setFormat("ROBOT");
+        final KeywordSpecification kwSpec = new KeywordSpecification();
+        kwSpec.setName("libKw");
+        kwSpec.setArguments(newArrayList("x", "*list"));
+        kwSpec.setDocumentation("myDocumentation");
+        libSpec.setKeywords(newArrayList(kwSpec));
+
+        final RedKeywordProposal proposal = AssistProposals.createNotAccessibleLibraryKeywordProposal(libSpec, kwSpec,
+                "Given ", KeywordScope.STD_LIBRARY, Optional.empty(), new Path("test.robot"),
+                AssistProposalPredicates.alwaysFalse(), ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("Given libKw");
+        assertThat(proposal.getSourceName()).isEqualTo("myNotImportedLibrary");
+        assertThat(proposal.getArguments()).containsExactly("x", "");
+        assertThat(proposal.getArgumentsDescriptor()).isEqualTo(ArgumentsDescriptor.createDescriptor("x", "*list"));
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getKeywordImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("libKw - myNotImportedLibrary");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).contains("myDocumentation");
+        assertThat(proposal.isAccessible()).isFalse();
+    }
+
+    @Test
+    public void verifyVariableProposalPropertiesMadeFromBuiltInVariable() {
+        final RedVariableProposal proposal = AssistProposals.createBuiltInVariableProposal("${VAR}", "value",
+                ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("${VAR}");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotScalarVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("${VAR}");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Source: Built-in\nValue: value");
+    }
+
+    @Test
+    public void verifyVariableProposalPropertiesMadeFromVariableFiles() {
+        final RedVariableProposal proposal = AssistProposals.createVarFileVariableProposal("@{var}", "value",
+                "varfile.py", ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("@{var}");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotListVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("@{var}");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Source: varfile.py\nValue: value");
+    }
+
+    @Test
+    public void verifyVariableProposalPropertiesMadeFromLocalDefinition_1() {
+        final RedVariableProposal proposal = AssistProposals.createLocalVariableProposal("${var}=10", "resfile.robot",
+                ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("${var}");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotScalarVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("${var}");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Source: resfile.robot");
+    }
+
+    @Test
+    public void verifyVariableProposalPropertiesMadeFromLocalDefinition_2() {
+        final RedVariableProposal proposal = AssistProposals.createLocalVariableProposal("&{var}", "resfile.robot",
+                ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("&{var}");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotDictionaryVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("&{var}");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Source: resfile.robot");
+    }
+
+    @Test
+    public void verifyVariableProposalPropertiesMadeFromModelPart() {
+        final RobotVariable variable = createVariable();
+        final RedVariableProposal proposal = AssistProposals.createUserVariableProposal(variable, ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("${scalar}");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotScalarVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("${scalar}");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Source: file.robot\nValue: 0\nComment: #something");
+    }
+
+    @Test
+    public void verifySectionProposalProposal() {
+        final RedSectionProposal proposal = AssistProposals.createSectionProposal("name", ProposalMatch.EMPTY);
+
+        assertThat(proposal.getContent()).isEqualTo("*** name ***");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotCasesFileSectionImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("*** name ***");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyFileLocationProposalPropertiesMadeFromOneFileToAnother() throws CoreException, IOException {
+        final IFolder dir = createDir(project, "dir");
+        final IFile toFile = createFile(project, "dir/file.txt");
+
+        final RedFileLocationProposal proposal = AssistProposals.createFileLocationProposal(file, toFile,
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("dir/file.txt");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getImageForResource(toFile));
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("dir/file.txt");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+
+        dir.delete(true, null);
+    }
+
+    @Test
+    public void verifyLibraryProposalProperties() {
+        final RobotSuiteFile suiteFile = new RobotModel().createSuiteFile(file);
+        final LibrarySpecification libSpec = new LibrarySpecification();
+        libSpec.setName("library");
+        libSpec.setDocumentation("docu");
+        libSpec.setDescriptor(LibraryDescriptor.ofStandardLibrary("library"));
+
+        final RedLibraryProposal proposal = AssistProposals.createLibraryProposal(suiteFile, libSpec,
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("library");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getLibraryImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("library");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("docu");
+    }
+
+    @Test
+    public void verifySitePackagesLibraryProposalProperties() {
+        final RobotSuiteFile suiteFile = new RobotModel().createSuiteFile(file);
+
+        final RedSitePackagesLibraryProposal proposal = AssistProposals
+                .createSitePackagesLibraryProposal("sitePackagesLibrary", suiteFile, ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("sitePackagesLibrary");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.isImported()).isFalse();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getPythonSitePackagesLibraryImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("sitePackagesLibrary");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyRemoteLibraryProposalProperties() {
+        final RobotSuiteFile suiteFile = new RobotModel().createSuiteFile(file);
+        final LibrarySpecification libSpec = new LibrarySpecification();
+        libSpec.setDescriptor(LibraryDescriptor.ofStandardRemoteLibrary(RemoteLocation.create("http://location.org")));
+        libSpec.setName("library");
+        libSpec.setDocumentation("docu");
+
+        final RedLibraryProposal proposal = AssistProposals.createLibraryProposal(suiteFile, libSpec,
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("library");
+        assertThat(proposal.getArguments()).containsExactly("http://location.org");
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getLibraryImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("library http://location.org");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("docu");
+    }
+
+    @Test
+    public void verifyForLoopsReservedWordsProposalProperties() {
+        final ForLoopReservedWordProposal proposal = AssistProposals.createForLoopReservedWordProposal("word",
+                ProposalMatch.EMPTY, false);
+        assertThat(proposal.getContent()).isEqualTo("word");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isNull();
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("word");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyGherkinReservedWordsProposalProperties() {
+        final GherkinReservedWordProposal proposal = AssistProposals.createGherkinReservedWordProposal("word",
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("word");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isNull();
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("word");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isNotEmpty();
+    }
+
+    @Test
+    public void verifyLibraryAliasReservedWordProposalProperties() {
+        final LibraryAliasReservedWordProposal proposal = AssistProposals
+                .createLibraryAliasReservedWordProposal(ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("WITH NAME");
+        assertThat(proposal.getArguments()).containsExactly("alias");
+        assertThat(proposal.getImage()).isNull();
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("WITH NAME");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyDisableSettingReservedWordProposalProperties() {
+        final DisableSettingReservedWordProposal proposal = AssistProposals
+                .createDisableSettingReservedWordProposal(ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("NONE");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isNull();
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("NONE");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isNotEmpty();
+    }
+
+    @Test
+    public void verifySettingProposalProperties() {
+        final RedSettingProposal proposal = AssistProposals.createSettingProposal("Documentation",
+                SettingTarget.GENERAL_TESTS, ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("Documentation");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotSettingImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("Documentation");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Documentation of current suite");
+    }
+
+    @Test
+    public void verifyResourceImportInCodeProposalProperties1() {
+        final RedImportProposal proposal = AssistProposals.createResourceImportInCodeProposal("resource", "",
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("resource.");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotFileImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("resource");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyResourceImportInCodeProposalProperties2() {
+        final RedImportProposal proposal = AssistProposals.createResourceImportInCodeProposal("resource", "given ",
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("given resource.");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotFileImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("resource");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyLibraryImportInCodeProposalProperties1() {
+        final RedImportProposal proposal = AssistProposals.createLibraryImportInCodeProposal("library", "",
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("library.");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getLibraryImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("library");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyLibraryImportInCodeProposalProperties2() {
+        final RedImportProposal proposal = AssistProposals.createLibraryImportInCodeProposal("library", "given ",
+                ProposalMatch.EMPTY);
+        assertThat(proposal.getContent()).isEqualTo("given library.");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getLibraryImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("library");
+        assertThat(proposal.isDocumented()).isFalse();
+        assertThat(proposal.getDescription()).isEmpty();
+    }
+
+    @Test
+    public void verifyNewScalarProposalProperties() {
+        final RedNewVariableProposal proposal = AssistProposals.createNewVariableProposal(VariableType.SCALAR);
+        assertThat(proposal.getContent()).isEqualTo("${newScalar}");
+        assertThat(proposal.getArguments()).isEmpty();
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotScalarVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("Fresh scalar");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Creates fresh scalar variable");
+    }
+
+    @Test
+    public void verifyNewListProposalProperties() {
+        final RedNewVariableProposal proposal = AssistProposals.createNewVariableProposal(VariableType.LIST);
+        assertThat(proposal.getContent()).isEqualTo("@{newList}");
+        assertThat(proposal.getArguments()).containsExactly("item");
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotListVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("Fresh list");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Creates fresh list variable");
+    }
+
+    @Test
+    public void verifyNewDictionaryProposalProperties() {
+        final RedNewVariableProposal proposal = AssistProposals.createNewVariableProposal(VariableType.DICTIONARY);
+        assertThat(proposal.getContent()).isEqualTo("&{newDict}");
+        assertThat(proposal.getArguments()).containsExactly("key=value");
+        assertThat(proposal.getImage()).isEqualTo(RedImages.getRobotDictionaryVariableImage());
+        assertThat(proposal.getStyledLabel().getString()).isEqualTo("Fresh dictionary");
+        assertThat(proposal.isDocumented()).isTrue();
+        assertThat(proposal.getDescription()).isEqualTo("Creates fresh dictionary variable");
+    }
+
+    @Test
+    public void cannotCreateNewInvalidVariableProposalProperties() {
+        assertThatIllegalStateException()
+                .isThrownBy(() -> AssistProposals.createNewVariableProposal(VariableType.INVALID));
+    }
+
+    @Test
+    public void cannotCreateNewEnvironmentalVariableProposalProperties() {
+        assertThatIllegalStateException()
+                .isThrownBy(() -> AssistProposals.createNewVariableProposal(VariableType.ENVIRONMENT));
+    }
+
+    @Test
+    public void byLabelsComparatorProperlySortsProposals() {
+        final List<AssistProposal> proposals = newArrayList(proposal("xyz"), proposal("Xyz1"), proposal("zzz1"),
+                proposal("ZZZ"), proposal("ABC"), proposal("abc1"));
+
+        Collections.sort(proposals, AssistProposals.sortedByLabels());
+
+        assertThat(proposals).extracting(AssistProposal::getLabel)
+                .containsExactly("ABC", "abc1", "xyz", "Xyz1", "ZZZ", "zzz1");
+    }
+
+    @Test
+    public void byLabelsPrefixedFirstComparatorProperlySortsProposals() {
+        final List<AssistProposal> proposals = newArrayList(proposal("xyz"), proposal("Xyz1"), proposal("Cd1"),
+                proposal("zzz1"), proposal("ZZZ"), proposal("CD345"), proposal("ABC"), proposal("abc1"),
+                proposal("cD2"), proposal("abCD"));
+
+        Collections.sort(proposals, AssistProposals.sortedByLabelsPrefixedFirst("cd"));
+
+        assertThat(proposals).extracting(AssistProposal::getLabel)
+                .containsExactly("Cd1", "cD2", "CD345", "ABC", "abc1", "abCD", "xyz", "Xyz1", "ZZZ", "zzz1");
+    }
+
+    @Test
+    public void byLabelsCamelCaseAndPrefixedFirstWithDefaultScopeOrderComparatorProperlySortsProposals() {
+        final List<RedKeywordProposal> proposals = newArrayList(
+                kwProposal("xyz", "src1"),
+                kwProposal("Xyz1", "src2"),
+                kwProposal("Cd1", "src3"),
+                kwProposal("zzz1", "src1"),
+                kwProposal("Create Duplicated Name", "src2"),
+                kwProposal("ZZZ", "src3"),
+                kwProposal("CD345", "src1"),
+                kwProposal("ABC", "src2"),
+                kwProposal("Can Detect", "src3"),
+                kwProposal("abc1", "src1"),
+                kwProposal("cD2", "src2"),
+                kwProposal("abCD", "src3"),
+                kwProposal("Do Not Create Docs", "src1"));
+
+        Collections.sort(proposals,
+                AssistProposals.sortedByLabelsCamelCaseAndPrefixedFirstWithDefaultScopeOrder("CD", file.getFullPath()));
+
+        assertThat(proposals).extracting(AssistProposal::getLabel)
+                .containsExactly("Can Detect - src3", "Create Duplicated Name - src2", "Cd1 - src3", "cD2 - src2",
+                        "CD345 - src1", "ABC - src2", "abc1 - src1", "abCD - src3", "Do Not Create Docs - src1",
+                        "xyz - src1", "Xyz1 - src2", "ZZZ - src3", "zzz1 - src1");
+    }
+
+    @Test
+    public void byLabelsCamelCaseAndPrefixedFirstWithDefaultScopeOrderComparatorProperlySortsProposalsFromDifferentScopes() {
+        final List<RobotKeywordDefinition> localKws = getUserKeywords(file);
+        final List<RobotKeywordDefinition> resourceKws = getUserKeywords(getFile(project, "res.robot"));
+
+        final List<RedKeywordProposal> proposals = newArrayList(
+                kwProposal(localKws.get(0), KeywordScope.LOCAL),
+                kwProposal("kw1", "src2", KeywordScope.REF_LIBRARY),
+                kwProposal(resourceKws.get(1), KeywordScope.RESOURCE),
+                kwProposal("kw2", "src2", KeywordScope.REF_LIBRARY),
+                kwProposal("kw2", "src3", KeywordScope.REF_LIBRARY),
+                kwProposal(localKws.get(1), KeywordScope.LOCAL),
+                kwProposal("kw1", "src3", KeywordScope.REF_LIBRARY),
+                kwProposal("kw2", "lib", KeywordScope.STD_LIBRARY),
+                kwProposal("kw2", "src1", KeywordScope.REF_LIBRARY),
+                kwProposal("kw1", "src1", KeywordScope.REF_LIBRARY),
+                kwProposal(resourceKws.get(0), KeywordScope.RESOURCE),
+                kwProposal("kw1", "lib", KeywordScope.STD_LIBRARY));
+
+        Collections.sort(proposals,
+                AssistProposals.sortedByLabelsCamelCaseAndPrefixedFirstWithDefaultScopeOrder("kw", file.getFullPath()));
+
+        assertThat(proposals).extracting(AssistProposal::getLabel)
+                .containsExactly("kw1 - suite.robot", "kw1 - res.robot", "kw1 - src1", "kw1 - src2", "kw1 - src3",
+                        "kw1 - lib", "kw2 - suite.robot", "kw2 - res.robot", "kw2 - src1", "kw2 - src2", "kw2 - src3",
+                        "kw2 - lib");
+    }
+
+    @Test
+    public void byTypesAndOriginComparator_isSortingVariableProposalsFirstlyByTypesThenByOriginAndFinallyByNames() {
+        final List<RedVariableProposal> proposals = newArrayList(
+                varProposal("${Xyz3}", VariableOrigin.BUILTIN),
+                varProposal("@{Xyz3}", VariableOrigin.BUILTIN),
+                varProposal("${Xyz2}", VariableOrigin.IMPORTED),
+                varProposal("@{Xyz2}", VariableOrigin.IMPORTED),
+                varProposal("${Xyz1}", VariableOrigin.LOCAL),
+                varProposal("@{Xyz1}", VariableOrigin.LOCAL),
+                varProposal("${abc3}", VariableOrigin.BUILTIN),
+                varProposal("@{abc3}", VariableOrigin.BUILTIN),
+                varProposal("${abc2}", VariableOrigin.IMPORTED),
+                varProposal("@{abc2}", VariableOrigin.IMPORTED),
+                varProposal("${abc1}", VariableOrigin.LOCAL),
+                varProposal("@{abc1}", VariableOrigin.LOCAL),
+                varProposal("${klm3}", VariableOrigin.BUILTIN),
+                varProposal("@{klm3}", VariableOrigin.BUILTIN),
+                varProposal("${klm2}", VariableOrigin.IMPORTED),
+                varProposal("@{klm2}", VariableOrigin.IMPORTED),
+                varProposal("${klm1}", VariableOrigin.LOCAL),
+                varProposal("@{klm1}", VariableOrigin.LOCAL));
+        Collections.sort(proposals, AssistProposals.sortedByTypesAndOrigin());
+
+        assertThat(proposals).extracting(AssistProposal::getLabel)
+                .containsExactly("${abc1}", "${abc2}", "${klm1}", "${klm2}", "${Xyz1}", "${Xyz2}", "${abc3}", "${klm3}",
+                        "${Xyz3}", "@{abc1}", "@{abc2}", "@{klm1}", "@{klm2}", "@{Xyz1}", "@{Xyz2}", "@{abc3}",
+                        "@{klm3}", "@{Xyz3}");
+    }
+
+    @Test
+    public void byLabelsAndImportedComparator_isSortingLibraryProposalsFirstlyByImportedFlagAndThenByNames() {
+        final List<RedLibraryProposal> proposals = newArrayList(
+                libProposal("Xyz2", true),
+                libProposal("Xyz1", false),
+                libProposal("abc2", true),
+                libProposal("abc1", false),
+                libProposal("klm2", true),
+                libProposal("klm1", false));
+        Collections.sort(proposals, AssistProposals.sortedByLabelsNotImportedFirst());
+
+        assertThat(proposals).extracting(AssistProposal::getLabel)
+                .containsExactly("abc1", "klm1", "Xyz1", "abc2", "klm2", "Xyz2");
+    }
+
+    @Test
+    public void libraryProposalsSortedByImportedFlagAndThenByName_forSitePackagesLibs() {
+        final List<RedSitePackagesLibraryProposal> proposals = new ArrayList<>();
+        proposals.add(new RedSitePackagesLibraryProposal("libOne", false, ProposalMatch.EMPTY));
+        proposals.add(new RedSitePackagesLibraryProposal("libTwo", true, ProposalMatch.EMPTY));
+        proposals.add(new RedSitePackagesLibraryProposal("oneLib", false, ProposalMatch.EMPTY));
+        proposals.add(new RedSitePackagesLibraryProposal("myLib", true, ProposalMatch.EMPTY));
+        proposals.add(new RedSitePackagesLibraryProposal("library", false, ProposalMatch.EMPTY));
+        Collections.sort(proposals, AssistProposals.sortedByLabelsNotImportedFirstForSitePackagesLibraries());
+
+        assertThat(proposals).extracting(AssistProposal::getLabel)
+                .containsExactly("libOne", "library", "oneLib", "libTwo", "myLib");
+    }
+
+    private AssistProposal proposal(final String content) {
+        return new BaseAssistProposal(content, ProposalMatch.EMPTY) {
+        };
+    }
+
+    private RedKeywordProposal kwProposal(final String name, final String source) {
+        return kwProposal(name, source, KeywordScope.REF_LIBRARY);
+    }
+
+    private RedKeywordProposal kwProposal(final String name, final String source, final KeywordScope scope) {
+        final LibrarySpecification libSpec = new LibrarySpecification();
+        libSpec.setFormat("ROBOT");
+        libSpec.setName(source);
+        final KeywordSpecification kwSpec = new KeywordSpecification();
+        kwSpec.setName(name);
+        libSpec.setKeywords(newArrayList(kwSpec));
+        return AssistProposals.createLibraryKeywordProposal(libSpec, kwSpec, "", scope, Optional.empty(),
+                new Path("test.robot"), AssistProposalPredicates.alwaysTrue(), ProposalMatch.EMPTY);
+    }
+
+    private RedKeywordProposal kwProposal(final RobotKeywordDefinition userKeyword, final KeywordScope scope) {
+        return AssistProposals.createUserKeywordProposal(userKeyword, "", scope, AssistProposalPredicates.alwaysFalse(),
+                ProposalMatch.EMPTY);
+    }
+
+    private RedVariableProposal varProposal(final String name, final VariableOrigin origin) {
+        return new RedVariableProposal(name, "source", "", "", origin, ProposalMatch.EMPTY);
+    }
+
+    private RedLibraryProposal libProposal(final String name, final boolean isImported) {
+        final LibrarySpecification spec = LibrarySpecification.create(name);
+        spec.setDescriptor(new LibraryDescriptor(name, LibraryType.PYTHON, "path", new ArrayList<>()));
+        return new RedLibraryProposal(null, spec, isImported, ProposalMatch.EMPTY);
+    }
+
+    private static RobotVariable createVariable() {
+        final RobotSuiteFile model = new RobotSuiteFileCreator()
+                .appendLine("*** Variables ***")
+                .appendLine("${scalar}  0  #something")
+                .build();
+        return model.findSection(RobotVariablesSection.class).get().getChildren().get(0);
+    }
+
+    private static List<RobotKeywordDefinition> getUserKeywords(final IFile file) {
+        final RobotSuiteFile fileModel = new RobotModel().createSuiteFile(file);
+        return fileModel.findSection(RobotKeywordsSection.class).get().getChildren();
+    }
+}

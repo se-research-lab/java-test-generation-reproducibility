@@ -1,0 +1,213 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: adding_content
+Element-Type: context
+Element-Version: 2.0
+Id: _wdMmkIk5EeWHhtZu19MBKw
+Runtime-Version: 2.4.2.201905080442
+Save-Time: 7/5/19 5:35 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc "add-init-content" [val file_name] [val is_tsv]{
+	///check content assist for __init__.robot file
+	get-tab-folder -index 1 | get-tab-item $file_name| click
+	
+	get-editor $file_name| get-text-viewer | key-type "M1+SPACE"
+	
+	check-content-assist-for-empty-file
+	get-editor $file_name| get-text-viewer | key-type ESC
+	
+	//add keyword
+	with [get-editor $file_name| get-text-viewer] {
+	    key-type "M1+SPACE"
+	    key-type Down -times [$MainSections | get "Keywords"]  
+	    key-type Enter
+	    type-text kw1
+	    key-type Enter
+	    key-type "M1+SPACE"
+	}
+	
+	//check proposal for keywords
+	check-content-assist-for-keywords
+	
+	get-editor $file_name| get-text-viewer | key-type ESC
+	
+	//add documentation and Catenate keyword
+	with [get-editor $file_name| get-text-viewer] {
+	        //add Documentation
+	        set-caret-pos 3 5
+	        key-type "M1+SPACE"
+	        key-type Down
+	        key-type Enter
+	        type-text text
+	        key-type Enter
+	        
+	        if [$is_tsv | eq "true"]{
+	        	key-type BackSpace -times 4
+	        }-else{
+	        	key-type BackSpace -times 7
+	        }
+	        //add kw catenate
+	        key-type "M1+SPACE"
+	        key-type Down -times 15
+	        key-type Enter
+	        type-text "a  b"
+	        key-type Enter
+	        wait 200
+	        key-type Enter
+	        if [$is_tsv | eq "true"]{
+	        	key-type BackSpace
+	        }-else{
+	        	key-type BackSpace -times 4
+	        }
+	        wait 200
+	        
+	        //add Variables
+	        key-type "M1+SPACE"
+	        key-type Down -times [$MainSections | get "Variables"]
+	        key-type Enter
+	        key-type "M1+SPACE"
+	}
+	//check propsoal for Variables  
+	check-content-assist-for-variables
+	get-editor $file_name| get-text-viewer |key-type Esc
+	
+	//check proposal fo Settings
+	with [get-editor $file_name | get-text-viewer] {
+	    key-type "M1+SPACE"
+	   key-type Down -times [$MainSectionsAfterVariables | get "Settings"]
+	    key-type Enter
+	    key-type "M1+SPACE"
+	}
+	
+	check-content-assist-for-settings
+	
+	get-editor $file_name| get-text-viewer |key-type Esc
+	
+	if [$is_tsv |eq true]{
+		get-editor $file_name | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+		    + "kw1\n"
+		    + "\t[Documentation]\ttext\n"
+		    + "\tCatenate\ta  b\n"
+		    + "*** Variables ***\n"
+		    + "*** Settings ***" | verify-true 
+	}-else{
+		get-editor "__init__.robot" | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+		    + "kw1\n"
+		    + "    [Documentation]    text\n"
+		    + "    Catenate    a  b\n"
+		    + "*** Variables ***\n"
+		    + "*** Settings ***" | verify-true
+	
+	}
+}
+
+//------------------------------------------------------------------------------------------------
+
+
+proc "add-resource-content" [val file_name]{
+	get-tab-folder -index 1 | get-tab-item $file_name | click
+	
+	get-editor $file_name | get-text-viewer | key-type "M1+SPACE"
+	
+	//check proposal for empty file
+	check-content-assist-for-empty-file
+	get-editor $file_name| get-text-viewer | key-type ESC
+	
+	//add Keywords and Settings
+	with [get-editor $file_name | get-text-viewer] {
+	    key-type "M1+SPACE"
+	    key-type Down -times [$MainSections | get "Keywords"] 
+	    key-type Enter
+	    key-type "M1+SPACE"
+	    key-type Down -times [$MainSections | get "Settings"] 
+	    key-type Enter
+	    key-type "M1+SPACE"
+	}
+	//check proposal for Settings
+	check-content-assist-for-settings
+	get-editor $file_name | get-text-viewer | key-type ESC
+	
+	//check proposal for Variables
+	with [get-editor $file_name| get-text-viewer] {
+	    key-type "M1+SPACE"
+	    key-type Down -times [$MainSectionsAfterSettings | get "Variables"]
+	    key-type Enter
+	    key-type "M1+SPACE"
+	}
+
+	check-content-assist-for-variables
+	
+	get-editor $file_name | get-text-viewer |key-type Esc
+	get-button "Save (M1+S)" | click
+	get-editor $file_name | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+    	+ "*** Settings ***\n"
+    	+ "*** Variables ***" | verify-true
+
+}
+
+
+//---------------------------------------------------------------------------------------
+
+proc "add-content-to-test" [val file_name]{
+	get-tab-folder -index 1 | get-tab-item  $file_name | click
+	with [get-editor $file_name | get-text-viewer] {
+		set-caret-pos 1 1
+	    key-type End
+	    key-type Enter
+	    key-type "M1+SPACE"
+	}
+	//check proposal 
+	check-content-assist-under-section -section tests 
+	get-editor $file_name| get-text-viewer |key-type Esc
+	//select keywords
+	
+	with [get-editor $file_name | get-text-viewer] {
+	    key-type "M1+SPACE"
+	}
+	
+	get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select "\\*\\*\\* Keywords \\*\\*\\*" 
+	    | click -default
+	//select Settings
+	with [get-editor $file_name | get-text-viewer] {
+	    key-type "M1+SPACE"
+	}
+	get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select "\\*\\*\\* Settings \\*\\*\\*" 
+	    | click -default
+	    
+	    
+	with [get-editor $file_name | get-text-viewer] {
+	    key-type "M1+SPACE"
+	}
+	
+	//check proposal for Settings
+	check-content-assist-for-settings
+	
+	get-editor $file_name| get-text-viewer |key-type Esc
+	
+	//check Variables
+	with [get-editor $file_name | get-text-viewer] {
+	    set-caret-pos 4 1
+	    key-type "M1+SPACE"
+	    key-type Down -times [$MainSectionsAfterSettings | get "Variables"]
+	    key-type Enter
+	    key-type "M1+SPACE"
+	}
+	check-content-assist-for-variables
+	
+	get-editor $file_name| get-text-viewer |key-type Esc
+	
+	get-button "Save (M1+S)" | click
+	
+	get-editor $file_name| get-text-viewer | get-property text | equals "*** Test Cases ***\n"
+    + "*** Keywords ***\n"
+    + "*** Settings ***\n"
+    + "*** Variables ***" | verify-true
+}
+
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

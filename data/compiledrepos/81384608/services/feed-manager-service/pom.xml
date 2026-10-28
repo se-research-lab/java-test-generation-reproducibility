@@ -1,0 +1,34 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>kylo-feed-manager-service</artifactId>
+  <packaging>pom</packaging>
+  <parent>
+    <artifactId>kylo-services</artifactId>
+    <groupId>com.thinkbiganalytics.kylo</groupId>
+    <version>0.10.1-SNAPSHOT</version>
+  </parent>
+  <properties>
+    <plugin.license.parentRelative>../../</plugin.license.parentRelative>
+  </properties>
+  <modules>
+    <module>feed-manager-api</module>
+    <module>feed-manager-service-api</module>
+    <module>feed-manager-rest-model</module>
+    <module>feed-manager-nifi-cache-api</module>
+    <module>feed-manager-core</module>
+    <module>feed-manager-precondition-policy-rest-model</module>
+    <module>feed-manager-precondition-policy</module>
+    <module>feed-manager-controller</module>
+
+  </modules>
+
+
+  <dependencies>
+
+
+  </dependencies>
+
+</project>

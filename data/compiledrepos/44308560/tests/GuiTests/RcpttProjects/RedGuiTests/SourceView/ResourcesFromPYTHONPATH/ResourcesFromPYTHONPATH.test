@@ -1,0 +1,323 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _9l_cgK2nEea8FqgKy4fLvA,_9Bte8NYSEeijg6yKwqEQmw
+Element-Name: ResourcesFromPYTHONPATH
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _nxmKoK_tEeaOOtfbYFWVRw
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 2/5/20 11:00 AM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+// 1. Before test add full path to folder in RCPTT library to PYTHONPATH:
+//   your_path_tor_rcptt_lib\RedGuiTests\TestData\LibsFromPythonPath
+//
+// 2. Set in Contex -> global_parameters -> user_RCPTT_project_path
+//   full path to test library, i.e.:
+//   your_path_tor_rcptt_lib\RedGuiTests
+//
+
+
+
+//  INFO:
+// 3. Project doesn't show .pyc files and __pycache__ folder. This is for test stability. See in Project Explorer -> Properties-> Resources-> Resources Filteres
+//
+//
+proc "check-warnings"{
+	with [get-view Problems | get-tree] {
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+	        | equals "Path '../../.' points to location outside your workspace" | verify-true
+	        
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+	        | equals [format "Path 'res_with_vars.robot' is relative to location from python Modules Search Path (sys.path). " +
+        	"Points to '%s/ResourceProject/res/res_with_vars/res_with_vars.robot'" [replace -input $RED_workspace_path -old "\\" -new "/"]]
+        	| verify-true
+	        
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+	        | equals [format "Path 'Resources/ResourcesFromFolder.robot' is relative to location from python Modules Search Path (sys.path). " +
+	        	"Points to '%s/TestData/LibsFromPythonPath/Resources/ResourcesFromFolder.robot'"  
+	        	[get-by-os -win [concat [$RCPTT_project_path | invoke substring 0 1| invoke toUpperCase] [$RCPTT_project_path | invoke substring  1 ] | invoke replace  "\\" "/" ]-linux $RCPTT_project_path ]]
+	        
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+	        | equals "Path 'Resources/ResourcesFromFolder.robot' points to location outside your workspace" | verify-true
+	        
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[4].getText()" 
+	        |equals [format "Path 'SimpleResource.robot' is relative to location from python Modules Search Path (sys.path). " +
+        		"Points to '%s/TestData/LibsFromPythonPath/SimpleResource.robot'" 
+	        	[get-by-os -win [concat [$RCPTT_project_path | invoke substring 0 1| invoke toUpperCase] [$RCPTT_project_path | invoke substring  1 ] | invoke replace  "\\" "/" ] -linux $RCPTT_project_path ]]
+	        	| verify-true
+	        
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[5].getText()" 
+	        | equals "Path 'SimpleResource.robot' points to location outside your workspace" | verify-true
+	        
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[6].getText()" 
+	        | equals "RED does not support importing resources located outside of workspace. Keywords from this resource will not be recognized. Try to use Quick Fix (Ctrl+1) to link folder into the project." | verify-true
+	        
+	    get-item -path "Warnings \\(8 items\\)" | get-property "getItems().TreeItem[7].getText()" 
+	        | equals "RED does not support importing resources located outside of workspace. Keywords from this resource will not be recognized. Try to use Quick Fix (Ctrl+1) to link folder into the project." | verify-true
+	}
+
+}
+
+get-view "Project Explorer" | get-tree | select "ResourceProject/red.xml" | select "ResourceProject/red.xml" 
+    | double-click
+wait-for-loading-red-xml -editor_name  "ResourceProject/red.xml"
+
+get-editor "ResourceProject/red.xml" | get-tab-folder | get-tab-item "Libraries" | click
+get-editor "ResourceProject/red.xml" | get-section Paths | get-table 
+    | get-item ".*LibsFromPythonPath.*" 
+    | get-property caption 
+    | equals ".*LibsFromPythonPath \[already defined in PYTHONPATH variable\]" 
+    | verify-true
+    
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+//check Errors in project	
+get-view Problems | click
+
+with [get-view Problems | get-tree] {
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Empty setting 'Resource'. Specify path of resource file to import" | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals "Resource import '../../.' is invalid: given location does not point to a file" | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals "Resource import '.' is invalid: given location does not point to a file" | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals "Resource import 'res/no_extension/res_with_no_extension' is invalid: given file is not a Resource file" 
+        | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[4].getText()" 
+        | equals "Unknown keyword 'res_from_folder_in_pythonpath'" | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[5].getText()" 
+        | equals "Unknown keyword 'res_from_pythonpath'" | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[6].getText()" 
+        | equals "Variable 'dict_from_resource_in_PP' is used, but not defined" | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[7].getText()" 
+        | equals "Variable 'list_form_resource_in_PP' is used, but not defined" | verify-true
+    get-item -path "Errors \\(9 items\\)" | get-property "getItems().TreeItem[8].getText()" 
+        | equals "Variable 'var_from_resource_in_PP' is used, but not defined" | verify-true
+}
+//check warnings
+check-warnings
+
+// use QuickFix to create linked folder
+get-view Problems | get-tree 
+    | select "Warnings (8 items)/RED does not support importing resources located outside of workspace. "
+       + "Keywords from this resource will not be recognized. Try to use Quick Fix (Ctrl+1) to link folder into the project." 
+    | key-type "M1+1"
+get-window "Quick Fix" | get-button Finish | click
+
+// verify if linked folder exist in Project Explorer
+with [get-view "Project Explorer" | get-tree] {
+    get-item -path "ResourceProject/LibsFromPythonPath" | get-property caption | equals LibsFromPythonPath | verify-true
+    get-item -path "ResourceProject/LibsFromPythonPath" | get-property "getItemCount()" | equals 5 | verify-true
+}
+    
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+//check Errors in project	
+get-view Problems | click
+
+with [get-view Problems | get-tree] {
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Empty setting 'Resource'. Specify path of resource file to import" | verify-true
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals "Resource import '../../.' is invalid: given location does not point to a file" | verify-true
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals "Resource import '.' is invalid: given location does not point to a file" | verify-true
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals "Resource import 'res/no_extension/res_with_no_extension' is invalid: given file is not a Resource file" 
+        | verify-true
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Path '../../.' points to location outside your workspace" | verify-true
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals [format "Path 'res_with_vars.robot' is relative to location from python Modules Search Path (sys.path). "
+           + "Points to '%s/ResourceProject/res/res_with_vars/res_with_vars.robot'" $RED_workspace_path_unix_style]
+        | verify-true
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals [format "Path 'Resources/ResourcesFromFolder.robot' is relative to location from python Modules Search Path (sys.path). "
+           + "Points to '%s/TestData/LibsFromPythonPath/Resources/ResourcesFromFolder.robot'" 
+        [get-by-os -win [concat [$RCPTT_project_path | invoke substring 0 1| invoke toUpperCase] [$RCPTT_project_path | invoke substring  1 ] 
+        | invoke replace  "\\" "/" ]-linux $RCPTT_project_path ]]
+        | verify-true
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals [format "Path 'SimpleResource.robot' is relative to location from python Modules Search Path (sys.path). Points to '%s/TestData/LibsFromPythonPath/SimpleResource.robot'" 
+        [get-by-os -win [concat [$RCPTT_project_path | invoke substring 0 1| invoke toUpperCase] [$RCPTT_project_path | invoke substring  1 ] 
+        | invoke replace  "\\" "/" ]-linux $RCPTT_project_path ]]
+        | verify-true
+}
+// delete linked folder
+get-view "Project Explorer" | get-tree | select "ResourceProject/LibsFromPythonPath" | key-type Del
+get-window "Delete Resources" | get-button OK | click
+
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+//check warnings
+check-warnings
+
+//add folder from pythonpath to project
+get-view "Project Explorer" | get-tree | select ResourceProject | get-menu "New/Folder" | click
+with [get-window "New Folder"] {
+    get-button "Advanced >>" | click
+    get-button "Link to alternate location (Linked Folder)" | click
+}
+set-dialog-result Folder [concat $RCPTT_project_path "/TestData/LibsFromPythonPath" ]
+with [get-window "New Folder"] {
+    get-button "Browse..." | click
+    get-button Finish | click
+}
+
+//clean and check if files are in workspace user cans see KW
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+with [get-view Problems | get-tree] {
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Empty setting 'Resource'. Specify path of resource file to import" | verify-true
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals "Resource import '../../.' is invalid: given location does not point to a file" | verify-true
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals "Resource import '.' is invalid: given location does not point to a file" | verify-true
+    get-item -path "Errors \\(4 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals "Resource import 'res/no_extension/res_with_no_extension' is invalid: given file is not a Resource file" 
+        | verify-true
+}
+
+with [get-view Problems | get-tree] {
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Path '../../.' points to location outside your workspace" | verify-true
+        
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals [format "Path 'res_with_vars.robot' is relative to location from python Modules Search Path (sys.path). "
+        + "Points to '%s/ResourceProject/res/res_with_vars/res_with_vars.robot'" $RED_workspace_path_unix_style]
+        | verify-true
+      
+	        	
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals [format "Path 'Resources/ResourcesFromFolder.robot' is relative to location from python Modules Search Path (sys.path). "
+        + "Points to '%s/TestData/LibsFromPythonPath/Resources/ResourcesFromFolder.robot'" 
+         [get-by-os -win [concat [$RCPTT_project_path | invoke substring 0 1| invoke toUpperCase] [$RCPTT_project_path | invoke substring  1 ] 
+         | invoke replace  "\\" "/" ]-linux $RCPTT_project_path ]]
+        | verify-true
+        
+    get-item -path "Warnings \\(4 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals [format"Path 'SimpleResource.robot' is relative to location from python Modules Search Path (sys.path). "
+        + "Points to '%s/TestData/LibsFromPythonPath/SimpleResource.robot'" 
+        [get-by-os -win [concat [$RCPTT_project_path | invoke substring 0 1| invoke toUpperCase] [$RCPTT_project_path | invoke substring  1 ] 
+        | invoke replace  "\\" "/" ]-linux $RCPTT_project_path ]]
+        | verify-true
+}
+
+get-view "Project Explorer" | get-tree | select "ResourceProject/test.robot" | double-click
+
+//check first relative path to pytohnpath
+with [get-editor "test.robot" | get-text-viewer] {
+    hover-text 4 23 -with M1
+    set-caret-pos 4 24
+    open-declaration
+}
+get-editor "SimpleResource.robot" | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+    + "res_from_pythonpath\n"
+    + "    log  Res from pythonpath" | verify-true
+    
+//check relative path to pythonpath (deeper folder)    
+with [get-editor "test.robot"] {
+    click
+    with [get-text-viewer] {
+        hover-text 11 13
+        set-caret-pos 5 34
+        open-declaration
+    }
+}
+get-editor "ResourcesFromFolder.robot" | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+    + "res_from_folder_in_pythonpath\n"
+    + "    log  Res from folder in pythonpath\n"
+    + "\t\n"
+    + "*** Variables ***\n"
+    + "${var_from_resource_in_PP}    99\n"
+    + "@{list_form_resource_in_PP}    item1    item2\n"
+    + "&{dict_from_resource_in_PP}    key=value" | verify-true
+
+//check link to file with no extension
+with [get-editor "test.robot"] {
+    click
+    with [get-text-viewer] {
+        hover-text 7 32 -with M1
+        set-caret-pos 7 43
+        open-declaration
+    }
+}
+get-editor "res_with_no_extension" | get-text-viewer | get-property text | equals "" | verify-true
+
+//check relative path with variable {/}
+with [get-editor "test.robot"] {
+    click
+    with [get-text-viewer] {
+        set-caret-pos 8 26
+        key-type F3
+    }
+}
+get-editor "res.txt" | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+    + "kw from txt file\n"
+    + "    log  7" | verify-true
+get-editor "test.robot" | click
+
+//check file relative to path set in red.xml (relative to project)
+with [get-editor "test.robot"] {
+    click
+    with [get-text-viewer] {
+        set-caret-pos 15 25
+        open-declaration
+    }
+}
+
+get-editor "res_with_vars.robot" | get-text-viewer | get-property text | equals "*** Variables ***\n"
+    + "${a1}    5" | verify-true
+    
+//==================================================== content assist =======================================================
+
+get-view "Project Explorer" | get-tree | select "ResourceProject/res/txt_res/res.txt" 
+    | select "ResourceProject/res/txt_res/res.txt" | double-click
+with [get-editor "res.txt" | get-text-viewer] {
+    key-type Enter
+    key-type Up
+    key-type "M1+SPACE"
+    key-type Down -times [$MainSections | get "Settings"]  
+    key-type Enter
+    type-text Res
+    key-type "M1+SPACE"
+    key-type Enter
+}
+with [get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table] {
+    get-property "getItems().TableItem[0].getText()" | equals ".*/RedGuiTests/TestData/LibsFromPythonPath/SimpleResource.robot" 
+        | verify-true
+    get-property "getItems().TableItem[1].getText()" 
+        | equals ".*/RedGuiTests/TestData/LibsFromPythonPath/Resources/ResourcesFromFolder.robot" | verify-true
+    get-property "getItems().TableItem[2].getText()" | equals "../res1/no_resource.robot" | verify-true
+    get-property "getItems().TableItem[3].getText()" | equals "../res_with_vars/res_with_vars.robot" 
+        | verify-true
+    get-property "getItems().TableItem[4].getText()" | equals "${/}" | verify-true
+}
+
+//close window, open again and add 4th path
+with [get-editor "res.txt" | get-text-viewer] {
+    set-caret-pos 2 13
+    key-type "M1+SPACE"
+    key-type Down -times 3
+    key-type Enter
+}
+get-editor "res.txt" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "Resource    ../res_with_vars/res_with_vars.robot\n"
+    + "*** Keywords ***\n"
+    + "kw from txt file\n"
+    + "    log  7" | verify-true
+    
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

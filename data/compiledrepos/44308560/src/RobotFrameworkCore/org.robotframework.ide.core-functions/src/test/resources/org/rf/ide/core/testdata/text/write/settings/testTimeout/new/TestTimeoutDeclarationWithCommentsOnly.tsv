@@ -1,0 +1,2 @@
+*** Settings ***
+Test Timeout	#cm1	cm2	cm3

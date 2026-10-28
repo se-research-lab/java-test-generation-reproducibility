@@ -1,0 +1,1 @@
+copied example mobile client from couch base lite android

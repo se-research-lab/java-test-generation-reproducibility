@@ -1,0 +1,111 @@
+<!--
+  #%L
+  thinkbig-ui-feed-manager
+  %%
+  Copyright (C) 2017 ThinkBig Analytics
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  #L%
+  -->
+<vertical-section-layout section-title='{{"views.feed-definition.FD" | translate}}' on-save-edit="vm.onSave()" on-edit="vm.onEdit()" on-cancel-edit="vm.onCancelEdit()"
+                         allow-edit="vm.allowEdit"
+                         editable="vm.editableSection" keep-editable-after-save="true" the-form="vm.editFeedDefinitionForm">
+
+    <readonly-section>
+        <div layout="row" class="feed-property"
+             ng-class="'versions-' + vm.diff('/feedName')">
+            <span flex="25" class="property-name"> {{"views.feed-definition.FN" | translate}} </span>
+            <div flex>
+                {{vm.model.feedName}}
+            </div>
+            <div flex ng-if="vm.versions">
+                {{vm.versionFeedModel.feedName}}
+            </div>
+        </div>
+        <div layout="row" class="feed-property">
+            <span flex="25" class="property-name"> {{"views.feed-definition.SN" | translate}} </span>
+
+            <div flex>
+                {{vm.model.systemFeedName}}
+            </div>
+            <div flex ng-if="vm.versions">
+                {{vm.versionFeedModel.systemFeedName}}
+            </div>
+        </div>
+        <div layout="row" class="feed-property"
+             ng-class="'versions-' + vm.diff('/description')">
+
+            <span flex="25" class="property-name">{{"views.import_feed.Description" | translate}} </span>
+
+            <div flex>
+                {{vm.model.description}}
+            </div>
+            <div flex ng-if="vm.versions">
+                {{vm.versionFeedModel.description}}
+            </div>
+        </div>
+        <div layout="row" class="feed-property">
+            <span flex="25" class="property-name"> {{"views.feed-definition.FT" | translate}} </span>
+
+            <div flex>
+                {{vm.model.templateName}}
+            </div>
+            <div flex ng-if="vm.versions">
+                {{vm.versionFeedModel.templateName}}
+            </div>
+        </div>
+        <div layout="row" class="feed-property">
+            <span flex="25" class="property-name"> {{"views.feed-definition.FP" | translate}} </span>
+
+            <div flex>
+                <div ng-if="vm.model.isStream" layout="column" layout-align="start start">
+                    <span><ng-md-icon icon="tune" style="fill:#3483BA"></ng-md-icon> {{"views.feed-definition.Stream" | translate}} </span>
+                    <span class="hint">Kylo will only track key metrics.  Individual jobs and steps will not be tracked.</span>
+                </div>
+
+                <div ng-if="!vm.model.isStream" layout="column" layout-align="start start">
+                    <span><ng-md-icon icon="trending_flat" style="fill:#3483BA"></ng-md-icon> {{"views.feed-definition.Batch" | translate}} </span>
+                    <span class="hint"> {{"views.feed-definition.Kwtijas" | translate}} </span>
+                </div>
+            </div>
+        </div>
+    </readonly-section>
+    <editable-section>
+        <ng-form name="vm.editFeedDefinitionForm">
+        <div layout="row" layout-align="space-between start">
+            <md-input-container flex="45" class="condensed">
+                <label> {{"views.feed-definition.DN" | translate}} </label>
+                <input required ng-model="vm.editModel.feedName" name="feedName" />
+
+                <div ng-show="vm.editFeedDefinitionForm.feedName.$touched && vm.editFeedDefinitionForm.feedName.$invalid" ng-messages="vm.editFeedDefinitionForm.feedName.$error">
+                    <div ng-show="vm.editFeedDefinitionForm.feedName.$error.required" ng-message="required">{{"views.define-feed-general-info.Req" | translate}}</div>
+                </div>
+            </md-input-container>
+            <div flex="10"></div>
+            <md-input-container flex="45" class="condensed">
+                <label> {{"views.feed-definition.SN" | translate}} </label>
+                <input  readonly ng-model="vm.editModel.systemFeedName"/>
+            </md-input-container>
+        </div>
+
+        <md-input-container class="md-block condensed">
+            <label> {{"views.import_feed.Description" | translate}} </label>
+            <textarea ng-model="vm.editModel.description"></textarea>
+        </md-input-container>
+        <md-input-container flex="45" class="condensed">
+            <label> {{"views.feed-definition.FT" | translate}} </label>
+            <input  readonly ng-model="vm.model.templateName"/>
+        </md-input-container>
+        </ng-form>
+    </editable-section>
+</vertical-section-layout>

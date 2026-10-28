@@ -1,0 +1,7 @@
+namespace foo
+
+import com.github.javaparser.ast.comments.*
+
+Comment foo(String content) {
+    return LineComment(content)
+}

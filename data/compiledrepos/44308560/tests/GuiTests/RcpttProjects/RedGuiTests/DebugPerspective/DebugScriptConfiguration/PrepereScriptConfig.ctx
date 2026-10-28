@@ -1,0 +1,43 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: PrepereScriptConfig
+Element-Type: context
+Element-Version: 2.0
+Id: _YLsq8BVSEeeZSZgUeG7ZOA
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 7/9/20 3:27 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc "prepere-run-config"{
+	//export agent to workspace folder
+	export-agent-to-folder -folder $RED_workspace_path
+	
+	//run test to create run config
+	get-view "Project Explorer" | get-tree | select "ScriptProject/TestFile.robot" | get-menu "Run As/1 Robot Test" | click
+	
+	//set path to bat script
+	get-menu "Run/Run Configurations..." | click
+	get-window "Run Configurations" | get-tab-folder | get-tab-item Executor | click
+	
+	set-dialog-result File [format "platform:/resource/ScriptProject/scripts/%s" [os-specific "script_win.bat" "script_lin.sh"]]
+	
+	//set path to agent (worspace) and to folder outsiece ws (user folder)
+	with [get-window "Run Configurations"] {
+	    with [get-group "External script"] {
+	        get-button "File system..." | click
+	        get-editbox -after [get-label "Additional executable file arguments. Python interpreter's and Robot parameters will be added afterwards."] | set-text [format " %s %s" $RED_workspace_path $user_folder] 
+	    }
+	    get-button Apply | click
+	    
+	    //got Listener tab end set port to the same as in BAT
+	    get-tab-folder | get-tab-item Listener | click
+	    get-group "Test Runner Agent" | get-button "customized" | click
+	    get-button Apply | click
+	    get-button Close | click
+	}
+}	
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

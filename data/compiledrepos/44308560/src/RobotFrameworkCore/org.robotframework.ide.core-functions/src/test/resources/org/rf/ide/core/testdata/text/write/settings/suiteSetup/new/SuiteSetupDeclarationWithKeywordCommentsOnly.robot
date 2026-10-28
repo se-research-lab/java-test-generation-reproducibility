@@ -1,0 +1,2 @@
+*** Settings ***
+Suite Setup	keyword	#cm1	cm2	cm3

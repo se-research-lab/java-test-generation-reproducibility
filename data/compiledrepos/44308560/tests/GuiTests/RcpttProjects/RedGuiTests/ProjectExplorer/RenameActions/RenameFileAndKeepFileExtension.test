@@ -1,0 +1,93 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Element-Name: RenameFileAndKeepFileExtension
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _57l1QPPsEeSRSqmeMHfJYA
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 12/20/19 2:26 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+test for RED-70 , if jira fixed , test will pass
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//this test is updated to actually working behaviour 
+
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | key-type F2
+
+
+if [$is_eclipse_12_2019 | equals True]{
+	get-view "Project Explorer" | get-tree | get-editbox | set-text "New.1.robot"
+	get-view "Project Explorer" | get-tree | key-type Enter
+}-else{
+	// old eclipse
+	with [get-window "Rename Resource"] {
+	    get-editbox -after [get-label "New name:"] | set-text "New.1.robot"
+	    get-button OK | click
+	}
+} 
+
+// check if file extension is preserved, file should have .robot extension , not .1
+with [get-view "Project Explorer" | get-tree] {
+    get-item RobotProject | get-property "getItems().length" | equals 4 | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Robot Standard libraries .*" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[1].getText()" | equals TestSuiteFolder | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[2].getText()" | equals "New.1.robot" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[3].getText()" | equals "red.xml" | verify-true
+}
+
+//changed entire file name
+get-view "Project Explorer" | get-tree | select "RobotProject/New.1.robot" | key-type F2
+
+if [$is_eclipse_12_2019 | equals True]{
+	get-view "Project Explorer" | get-tree | get-editbox | set-text "totaly new.txt"
+	get-view "Project Explorer" | get-tree | key-type Enter
+}-else{
+	// old eclipse
+	with [get-window "Rename Resource"] {
+	    get-editbox -after [get-label "New name:"] | set-text "totaly new.txt"
+	    get-button OK | click
+	}
+} 
+
+with [get-view "Project Explorer" | get-tree] {
+    get-item RobotProject | get-property "getItems().length" | equals 4 | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Robot Standard libraries .*" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[1].getText()" | equals TestSuiteFolder | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[2].getText()" | equals "red.xml" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[3].getText()" | equals "totaly new.txt" | verify-true
+}
+
+
+//set new name with .jpg extension
+get-view "Project Explorer" | get-tree | select "RobotProject/totaly new.txt" | key-type F2
+if [$is_eclipse_12_2019 | equals True]{
+	get-view "Project Explorer" | get-tree | get-editbox | set-text "photo.jpg"
+	get-view "Project Explorer" | get-tree | key-type Enter
+}-else{
+	// old eclipse
+	with [get-window "Rename Resource"] {
+	    get-editbox -after [get-label "New name:"] | set-text "photo.jpg"
+	    get-button OK | click
+	}
+} 
+with [get-view "Project Explorer" | get-tree] {
+    get-item RobotProject | get-property "getItems().length" | equals 4 | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Robot Standard libraries .*" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[1].getText()" | equals TestSuiteFolder | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[2].getText()" | equals "photo.jpg" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[3].getText()" | equals "red.xml" | verify-true
+}
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

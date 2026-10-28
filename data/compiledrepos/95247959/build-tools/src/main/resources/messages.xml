@@ -1,0 +1,66 @@
+<!--
+  ~ Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License").
+  ~ You may not use this file except in compliance with the License.
+  ~ A copy of the License is located at
+  ~
+  ~  http://aws.amazon.com/apache2.0
+  ~
+  ~ or in the "license" file accompanying this file. This file is distributed
+  ~ on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+  ~ express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  -->
+
+<MessageCollection>
+    <Detector class="software.amazon.awssdk.buildtools.findbugs.DisallowMethodCall" >
+        <Details>This detector checks for method calls that are not allowed for use.</Details>
+    </Detector>
+    <Detector class="software.amazon.awssdk.buildtools.findbugs.ToBuilderIsCorrect" >
+        <Details>This detector checks for correct CopyableBuilder definition.</Details>
+    </Detector>
+
+    <BugPattern type="SDK_BAD_METHOD_CALL">
+        <ShortDescription>Bad method call</ShortDescription>
+
+        <LongDescription>
+            <![CDATA[
+                {1} uses a method that is prohibited.
+                The headers() and rawQueryParameters() methods create a deep copy of the data, which can result in
+                significant memory pressure. Instead of retrieving a copy of the headers to look at it, use methods like
+                hasHeaders(), firstMatchingHeader(...) or forEachHeader(..) which may be optimized in the type to avoid
+                copying the data.
+            ]]>
+        </LongDescription>
+
+        <Details>
+            <![CDATA[
+                The headers() and rawQueryParameters() methods create a deep copy of the data, which can result in
+                significant memory pressure. Instead of retrieving a copy of the headers to look at it, use methods like
+                hasHeaders(), firstMatchingHeader(...) or forEachHeader(..) which may be optimized in the type to avoid
+                copying the data.
+            ]]>
+        </Details>
+    </BugPattern>
+    <BugCode abbrev="BM">Bad method call</BugCode>
+
+    <BugPattern type="BAD_TO_BUILDER">
+        <ShortDescription>Bad toBuilder implementation</ShortDescription>
+        <LongDescription>Bad toBuilder implementation. See the SpotBugs logs for problem details.</LongDescription>
+        <Details>Bad toBuilder implementation. See the SpotBugs logs for problem details.</Details>
+    </BugPattern>
+    <BugCode abbrev="BTB">Bad toBuilder implementation</BugCode>
+
+    <BugPattern type="ASYNC_BLOCKING_CALL">
+        <ShortDescription>Blocking call in async code path</ShortDescription>
+        <LongDescription>Blocking call in async code path. See the SpotBugs logs for problem details</LongDescription>
+        <Details>
+            The SDK disallow the usage of blocking calls like CompletableFuture.join() or Thread.sleep() in the
+            asynchronous code path. If this is a legitimate use of a blocking call outside of the async code path or
+            a false positive, this error can be suppressed by updating the spotbugs-suppression.xml file located at
+            build-tools/src/main/resources/software/amazon/awssdk/spotbugs-suppressions.xml
+        </Details>
+    </BugPattern>
+    <BugCode abbrev="ABC">Blocking call in async code path</BugCode>
+</MessageCollection>

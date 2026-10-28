@@ -1,0 +1,115 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _coOFwNFJEeiVJ52Mq2lwog,_hb89IDvxEeiDC73Fvf4wHA
+Element-Name: DocumentationForAnnotationFunction
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _HYGA8NFSEei8hricfexH0g
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 1/20/20 3:26 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Run this test for Python 3.0 
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//test for python 3
+
+//add kw from CA
+get-view "Project Explorer" | get-tree | select "Annotation/TestFile.robot" | double-click
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 7 5
+    key-type "NUMPAD_ENTER" "\\u000D"
+    set-caret-pos 8 5
+    
+    //add DIV with 2 args
+    type-text DI
+    key-type "M1+SPACE"
+    key-type Enter
+    wait 100
+    key-type Enter
+    key-type End
+    
+    // add Div
+    set-caret-pos 8 18
+    key-type Enter
+    type-text div
+    key-type "M1+SPACE"
+    key-type Down
+    key-type Enter
+    wait 100
+    key-type Enter
+    key-type End
+    
+    //add Example - prefix will be added
+    set-caret-pos 9 36
+    key-type Enter
+    type-text EX
+    key-type "M1+SPACE"
+      key-type Enter
+    wait 100
+    key-type Enter
+    key-type End
+    key-type Enter
+    
+    //add second Example lib
+    type-text Exa
+    key-type "M1+SPACE"
+    key-type Down
+    key-type Enter
+    key-type End
+      key-type Enter
+    wait 100
+    key-type Enter
+    
+    //add Sum with prefix
+    type-text sum
+    key-type "M1+SPACE"
+    key-type Enter
+    key-type "M1+s"
+}
+
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "Library    libs/SimpleClass.py    \n"
+    + "Library    libs/fibon.py    \n"
+    + "Library    libs/many_functions.py\n"
+    + "Library    libs/one_function.py        \n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    Div    a    b\n"
+    + "    Div With Return Annot    a    b\n"
+    + "    many_functions.Example    argument\n"
+    + "    one_function.Example    argument\n"
+    + "    many_functions.Sum    a    b    c" | verify-true
+    
+
+get-view "Project Explorer" | get-tree 
+    | select "Annotation/Robot Referenced libraries/many_functions Annotation\\/libs\\/many_functions.py \\(8\\)/Div With Return Annot" 
+    | double-click
+    
+check-documentation-view -kw_name "Div With Return Annot"  -project_name "Annotation" -library "many_functions"  
+	-arguments "\[a: the dividend, b: the divisor \(must be different than 0\)\]"  -spec   "Divide a by b"
+	
+get-view "Project Explorer" | get-tree 
+    | select "Annotation/Robot Referenced libraries/many_functions Annotation\\/libs\\/many_functions.py \\(8\\)/Fun With Arg2" 
+    | double-click
+    
+check-documentation-view -kw_name "Fun With Arg2"  -project_name "Annotation" -library "many_functions"  
+	-arguments "\[\*args: list of unnamed arguments, \*\*kwargs: dict of named arguments\]"  -spec  "args and kwargs" 	
+	
+get-view "Project Explorer" | get-tree 
+    | select "Annotation/Robot Referenced libraries/many_functions Annotation\\/libs\\/many_functions.py \\(8\\)/Div" 
+    | double-click
+
+check-documentation-view -kw_name "Div"  -project_name "Annotation" -library "many_functions"  
+	-arguments "\[a: \{.*type.*class .*float.*help.*the dividend.*\}, b: \{.*type.*class .*float.*help.*the divisor \(must be different than 0\).*\}\]"  
+	-spec  "Divide a by b"
+	
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

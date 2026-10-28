@@ -1,0 +1,188 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _uN5FEPYVEeeUrNB_UfA7mw
+Element-Name: UnicodeLibrariesNamesInProject
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _bWrqQPbgEeeAutaDcoLQIQ
+Runtime-Version: 2.5.0.202001211718
+Save-Time: 6/23/20 12:05 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//------------------------------------- rf lint------------------------------------------------
+
+get-view "Project Explorer" | get-tree | select "normal_name"
+
+exec-with-options {
+    get-view "Project Explorer" | get-tree | get-menu -path "Robot Framework/Run RfLint analysis" | click
+    try -command{
+    	get-window "Problem Occurred" | get-button "Details >>" | click
+    }-catch{
+    }-finally{    
+    	verify-error {get-window "Problem Occurred"}
+    } 	
+} -allowStatusDialog
+
+get-view "Project Explorer" | get-tree | select "żółć"
+exec-with-options {
+    get-view "Project Explorer" | get-tree | get-menu -path "Robot Framework/Run RfLint analysis" | click
+    try -command{
+    	get-window "Problem Occurred" | get-button "Details >>" | click
+    }-catch{
+    }-finally{    
+    	verify-error {get-window "Problem Occurred"}
+    } 	
+} -allowStatusDialog
+
+//check problems
+get-view Problems | click
+get-view Problems | get-tree | get-item "Warnings.*" | expand
+wait-for-warnings -amount 5 -times 4 -delay 500
+
+with [get-view Problems | get-tree] {
+    get-item -path "Warnings \\(5 items\\)/Line is too long \\(exceeds 100 characters\\) \\(LineTooLong\\)" 
+        | get-property enablement | equals false | verify-true
+    get-item -path "Errors \\(7 items\\)/No testcase documentation \\(RequireTestDocumentation\\)" 
+        | get-property enablement | equals false | verify-true
+}
+
+//------------------------------------- autodiscovery ------------------------------------------------
+
+//disover on first project
+get-view "Project Explorer" | get-tree | select "normal_name/test.robot" | get-menu 
+    -path "Robot Framework/Automatically discover and add libraries to red.xml" | click
+    
+if [$python_version | eq 2]{
+	//unicode text is inside python file
+	get-window "Discovering libraries summary" | get-tree | get-item  -path "unicode_inside.py" | click    
+	with [get-window "Discovering libraries summary"] {
+		//error
+		get-tree | get-item -path "unicode_inside.py" | get-property "image.path" 
+	        | equals ".*error_fatal.png" | verify-true
+	        
+	    get-editbox -after [get-label "Discovered libraries (2):"] | get-property text 
+	        | contains "SyntaxError: invalid syntax" 
+	        | verify-true        
+	}
+	    
+	//second file
+	get-window "Discovering libraries summary" | get-tree | get-item  -path "żółtość.py"  | click    
+	with [get-window "Discovering libraries summary"] {
+		//error
+		get-tree | get-item -path "żółtość.py" | get-property "image.path" 
+	        | equals ".*error_fatal.png" | verify-true
+	        
+	    get-editbox -after [get-label "Discovered libraries (2):"] | get-property text 
+	        | contains "SyntaxError: invalid syntax"
+	        | verify-true        
+	}
+}-else{
+	with [get-window "Discovering libraries summary" | get-tree] {
+	    get-item -path "unicode_inside" | get-property "image.path" 
+	        | equals ".*success_big.png" | verify-true
+	    get-item -path "żółtość" | get-property "image.path" 
+	        | equals ".*success_big.png" | verify-true
+	}
+}	  
+  
+get-window "Discovering libraries summary" | get-button OK | click
+
+//select AD on second project
+get-view "Project Explorer" | get-tree | select "żółć" | get-menu 
+    -path "Robot Framework/Automatically discover and add libraries to red.xml" | click
+	    
+if [$python_version | eq 2]{
+
+	get-window "Discovering libraries summary" | get-tree | get-item -path "żółtość2.py" | click
+	   
+	with [get-window "Discovering libraries summary"] {
+		//error
+		get-tree | get-item -path "żółtość2.py" | get-property "image.path" 
+	        | equals ".*error_fatal.png" | verify-true
+	        
+	    get-editbox -after [get-label "Discovered libraries (1):"] | get-property text 
+	        | contains  "SyntaxError: invalid syntax"
+	        | verify-true        
+	}
+	
+}-else{
+	get-window "Discovering libraries summary" | get-tree | get-item -path "żółtość2" | get-property "image.path" 
+    | equals "org.robotframework.ide.eclipse.main.plugin/resources/success_big.png" | verify-true
+}   
+
+get-window "Discovering libraries summary" | get-button OK | click 
+
+
+//-------------------------------------quick fix ------------------------------------------------
+if [$python_version | eq 2]{	
+	get-view "Project Explorer" | get-tree | select "żółć/różową.robot" | double-click
+	with [get-editor "różową.robot" | get-text-viewer] {
+	    set-caret-pos 2 16
+	    hover-text 2 17
+	    key-type "M1+1"
+	}
+	get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table 
+	    | select "Discover 'żółtość2.py' and add to configuration"
+	exec-with-options {
+	    get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | click -default
+	    get-window "Problem Occurred" | get-button "Details >>" | click
+	    get-window "Problem Occurred" | get-editbox -after [get-label "See 'Details' for more information."] 
+	        | get-property text
+	        | contains  "SyntaxError: invalid syntax"
+	        | verify-true
+	    get-window "Problem Occurred" | get-button OK | click
+	} -allowStatusDialog
+}
+
+//----------------------------------------------added utf formating tag to python file --------------------------------------------------
+get-view "Project Explorer" | get-tree | select "test2/test2.robot" | get-menu 
+    -path "Robot Framework/Automatically discover and add libraries to red.xml" | click
+
+//all files are added to red.xml    
+with [get-window "Discovering libraries summary" | get-tree] {
+    get-item -path lib2 | get-property "image.path" 
+        | equals "org.robotframework.ide.eclipse.main.plugin/resources/success_big.png" | verify-true
+    get-item -path lib1 | get-property "image.path" 
+        | equals "org.robotframework.ide.eclipse.main.plugin/resources/success_big.png" | verify-true
+}
+get-window "Discovering libraries summary" | get-button OK | click
+
+//libdoc is generated only for file with tag  
+if [$python_version | eq 2]{	 
+	get-view "Project Explorer" | get-tree | get-item 
+	    -path "test2/Robot Referenced libraries/lib1 test2\\/lib1.py \\(non-accessible\\)" | get-property caption 
+	    | equals "lib1 test2/lib1.py (non-accessible)" | verify-true
+	    
+	//libdoc can't be regenerated for file without tag 
+	get-view "Project Explorer" | get-tree 
+	    | select "test2/Robot Referenced libraries/lib1 test2\\/lib1.py (non-accessible)"
+	exec-with-options {
+	    get-view "Project Explorer" | get-tree | get-menu -path Reload | click
+	    get-window "Progress Information" | get-window "Problem Occurred" | get-button "Details >>" | click
+	
+	    get-window "Progress Information" | get-window "Problem Occurred" | get-editbox 
+	        -after [get-label "See 'Details' for more information."] | get-property text 
+	        | contains "SyntaxError: Non-ASCII character '\\xc5' in file" 
+	        | verify-true
+	    get-window "Progress Information" | get-window "Problem Occurred" | get-button OK | click
+	} -allowStatusDialog   
+	    
+}-else{
+	get-view "Project Explorer" | get-tree | get-item -path "test2/Robot Referenced libraries/lib1 test2\\/lib1.py \\(1\\)" 
+       | get-property index | equals 0 | verify-true
+}
+with [get-view "Project Explorer" | get-tree] {
+    get-item -path "test2/Robot Referenced libraries/lib2 test2\\/lib2.py \\(1\\)" | get-property "getItems().length" 
+        | equals 1 | verify-true
+    get-item -path "test2/Robot Referenced libraries/lib2 test2\\/lib2.py \\(1\\)" 
+        | get-property "getItems().TreeItem[0].getText()" | equals Remove | verify-true
+}
+
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

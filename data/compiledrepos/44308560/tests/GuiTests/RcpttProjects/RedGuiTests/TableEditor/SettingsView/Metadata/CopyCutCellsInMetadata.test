@@ -1,0 +1,269 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _2rVvIENaEeaEVfxTnoQ14g
+Element-Name: CopyCutCellsInMetadata
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _emIDYDe5EeaJIKJT0Mv9ow
+Runtime-Version: 2.2.0.201706152316
+Save-Time: 6/5/18 5:29 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//preferred resolution is 1920x1080 (test was recorded it this resolution). It will pass on 1600x900 too
+
+//open editor
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | double-click
+
+//add Metada
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Settings ***\n"
+    + "Metadata    a1    1    #comment1\n"
+    + "Metadata    a2    2    #comment2\n"
+    + "Metadata    a3    3    #comment3\n"
+    + "Metadata    a4    4    #comment4\n"
+    + "Metadata    a5    5    #comment5\n"
+    + "Metadata    a6    6    #comment6\n"
+    + "Metadata    a7    7    #comment7\n"
+    + "Metadata    a8    8    #comment8\n"
+    + "Metadata    a9    9    #comment9\n\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7"
+    
+//open Settings tab and show metadata
+with [get-editor "TestFile.robot"] {
+    get-tab-folder | get-tab-item Settings | click
+    get-section General | click
+    get-section Metadata | click
+}
+
+check-metadata-layer-size
+
+try -times 3 -delay 1000 -command{
+	get-editor "TestFile.robot" | get-section Metadata | get-property "isExpanded()" | equals true | verify-true
+}
+   
+    
+generate-coordinates -setting Metadata
+    
+with [get-editor "TestFile.robot" | get-section Metadata] {
+    with [get-canvas] {
+    
+    	//cut metadata=a1 by menu
+        mouse-press $x1 $y1 button1
+        mouse-release $x1 $y1 button1 524288
+        mouse-press $x1 $y1 button3
+        mouse-release $x1 $y1 button3 2097152
+        get-menu Cut | click
+        
+        //cut value=2 by menu
+        mouse-move $x2 $y2
+        mouse-press $x2 $y2 button3
+        mouse-release $x2 $y2 button3 2097152
+        get-menu Cut | click
+        
+        //cut comment=comment3 by menu
+        mouse-press $x3 $y3 button1
+	    mouse-release $x3 $y3 button1 524288
+	    mouse-press $x3 $y3 button3
+	    mouse-release $x3 $y3 button3 2097152
+	    get-menu Cut | click
+    
+        //change a4 to new (because RCPTT cannot validate hexstrings ??)
+        mouse-move $x1 $y4
+        mouse-press $x1 $y4 button1
+        mouse-release $x1 $y4 button1 524288
+        key-type F2
+    }
+    with [get-editbox] {
+        type-text new
+        key-type Enter
+    }
+    with [get-canvas] {
+    	//cut a4 ("new" valu is in fist column)
+    	mouse-press $x1 $y4 button1
+        mouse-release $x1 $y4  button1 524288
+        mouse-press $x1 $y4  button3
+        mouse-release $x1 $y4  button3 2097152
+        key-type "M1+x"
+        
+        //paste new to"5"
+        mouse-move $x2 $y5
+        mouse-press $x2 $y5 button1
+        mouse-release $y2 $y5 button1 524288
+        key-type "M1+v"
+        
+        //paste new to metadata=a5
+        mouse-move $x1 $y5
+        mouse-press $x1 $y5 button1
+        mouse-release $x1 $y5 button1 524288
+        key-type "M1+v"
+        
+        //paste new to comment5
+        mouse-move $x3 $y5
+	    mouse-press $x3 $y5 button1
+	    mouse-release $x3 $y5 button1 524288
+	    key-type "M1+v"
+       
+        //select entire row a6
+        mouse-move 6 $y6
+        mouse-press 6 $y6 button1
+    	mouse-release 6 $y6 button1 524288
+    	key-type "M1+x"
+	    
+	    //cut entire row a7
+	    mouse-move $x1 $y7
+	    mouse-press $x1 $y7 button1
+	    mouse-release $x1 $y7 button1 524288
+	    mouse-press $x1 $y7 button3
+	    mouse-release $x1 $y7 button3 2097152
+	    get-menu "Row/Cut row" | click
+	    
+	     //paste row a7 above a9
+	    mouse-move $x1 $y8
+	    mouse-press $x1 $y8 button3
+	    mouse-release $x1 $y8 button3 2097152
+	    get-menu "Row/Paste row" | click
+	    mouse-move 975 339
+	    key-type "M1+s"
+   }
+}
+wait 1000
+
+check-metadata-row -file "TestFile.robot" -row 1 -metadata "\\" -val "1" -comment "#comment1"
+check-metadata-row -file "TestFile.robot" -row 2 -metadata "a2" -val "" -comment "#comment2"
+check-metadata-row -file "TestFile.robot" -row 3 -metadata "a3" -val "3" -comment ""
+check-metadata-row -file "TestFile.robot" -row 4 -metadata "\\" -val "4" -comment "#comment4"
+
+check-metadata-row -file "TestFile.robot" -row 5 -metadata "new" -val "new" -comment "#new"
+check-metadata-row -file "TestFile.robot" -row 6 -metadata "" -val "" -comment ""
+check-metadata-row -file "TestFile.robot" -row 7 -metadata "a8" -val "8" -comment "#comment8"
+check-metadata-row -file "TestFile.robot" -row 8 -metadata "a7" -val "7" -comment "#comment7"
+check-metadata-row -file "TestFile.robot" -row 9 -metadata "a9" -val "9" -comment "#comment9"
+
+
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+
+//check Source
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "Metadata    \\    1    #comment1\n"
+    + "Metadata    a2    #comment2\n"
+    + "Metadata    a3    3    \n"
+    + "Metadata    \\    4    #comment4\n"
+    + "Metadata    new    new    #new\n"
+    + "Metadata\n"
+    + "Metadata    a8    8    #comment8\n"
+    + "Metadata    a7    7    #comment7\n"
+    + "Metadata    a9    9    #comment9\n\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7" | verify-true
+    
+
+
+//reset Metadata
+get-editor "TestFile.robot" | get-text-viewer | set-text "*** Settings ***\n"
+    + "Metadata    a1    1    #comment1\n"
+    + "Metadata    a2    2    #comment2\n"
+    + "Metadata    a3    3    #comment3\n"
+    + "Metadata    a4    4    #comment4\n"
+    + "Metadata    a5    5    #comment5\n"
+    + "Metadata    a6    6    #comment6\n"
+    + "Metadata    a7    7    #comment7\n"
+    + "Metadata    a8    8    #comment8\n"
+    + "Metadata    a9    9    #comment9\n\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7"
+wait 2000
+
+with [get-editor "TestFile.robot"] {
+    get-tab-folder | get-tab-item Settings | click
+    wait 2000
+    with [get-section Metadata | get-canvas] {
+    	//set first cell
+        mouse-press $x1 $y1 button1
+        mouse-release $x1 $y1 button1 524288
+        key-type Right
+        //cut value "1"
+        key-type "M1+x"
+        key-type Down
+        //paste in value "2"
+        key-type "M1+v"
+        key-type Down
+        key-type Right
+        //cut comment3
+        key-type "M1+x"
+        key-type Down -times 2
+        key-type Left
+        key-type Down
+        //past on value "6"
+        key-type "M1+v"
+        mouse-move 949 80
+    }
+}
+
+check-metadata-row -file "TestFile.robot" -row 1 -metadata "a1" -val "" -comment "#comment1"
+check-metadata-row -file "TestFile.robot" -row 2 -metadata "a2" -val "1" -comment "#comment2"
+check-metadata-row -file "TestFile.robot" -row 3 -metadata "a3" -val "3" -comment ""
+check-metadata-row -file "TestFile.robot" -row 4 -metadata "a4" -val "4" -comment "#comment4"
+
+check-metadata-row -file "TestFile.robot" -row 5 -metadata "a5" -val "5" -comment "#comment5"
+check-metadata-row -file "TestFile.robot" -row 6 -metadata "a6" -val "#comment3" -comment "#comment6"
+check-metadata-row -file "TestFile.robot" -row 7 -metadata "a7" -val "7" -comment "#comment7"
+check-metadata-row -file "TestFile.robot" -row 8 -metadata "a8" -val "8" -comment "#comment8"
+check-metadata-row -file "TestFile.robot" -row 9 -metadata "a9" -val "9" -comment "#comment9"   
+
+
+//with [get-editor "TestFile.robot"] {
+//    with [get-section Metadata] {
+//        with [get-canvas] {
+//            mouse-press 396 140 button1
+//            mouse-release 396 140 button1 524288
+//        }
+//        with [get-editbox] {
+//            type-text "not comment"
+//        }
+//        get-editbox | key-type "M1+s"
+//        get-canvas | mouse-move 376 426
+//    }
+//    get-tab-folder | get-tab-item Source | click
+//
+//}
+
+//changed #comment3 to "not comment"
+with [get-editor "TestFile.robot" | get-section Metadata] {
+    with [get-canvas] {
+        mouse-press $x2 $y6 button1
+        mouse-release $x2 $y6 button1 524288
+        mouse-press $x2 $y6 button1
+        mouse-double-click $x2 $y6 button1
+        mouse-release $x2 $y6 button1 524288
+    }
+    with [get-editbox] {
+        type-text "not comment"
+    }
+    get-editbox | key-type "M1+s"
+    get-canvas | mouse-move 662 5
+}
+
+get-editor "TestFile.robot" | get-tab-folder | get-tab-item Source | click
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Settings ***\n"
+    + "Metadata    a1    #comment1\n"
+    + "Metadata    a2    1    #comment2\n"
+    + "Metadata    a3    3    \n"
+    + "Metadata    a4    4    #comment4\n"
+    + "Metadata    a5    5    #comment5\n"
+    + "Metadata    a6    not comment    #comment6\n"
+    + "Metadata    a7    7    #comment7\n"
+    + "Metadata    a8    8    #comment8\n"
+    + "Metadata    a9    9    #comment9\n\n"
+    + "*** Test Cases ***\n"
+    + "test\n"
+    + "    log  7" | verify-true
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

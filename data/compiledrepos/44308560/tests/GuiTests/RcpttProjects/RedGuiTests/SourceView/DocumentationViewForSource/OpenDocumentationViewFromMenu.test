@@ -1,0 +1,152 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _zKaAYG-LEeas5uogJbgGYA,_hb89IDvxEeiDC73Fvf4wHA
+Element-Name: OpenDocumentationViewFromMenu
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _cKvDgIbgEeaPRdjThepTww
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 12/12/19 3:55 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//---------------------------------------------------------------------------------------
+//open doc from menu
+get-view "Project Explorer" | get-tree | select "RobotProject/checking_doc.robot" | double-click
+get-editor "checking_doc.robot" | get-text-viewer | set-caret-pos 7 17
+get-editor "checking_doc.robot" | get-text-viewer | get-menu -path "Show documentation" | click
+
+check-documentation-view-for-user-kw -kw_name "kw1_with_imported_kw" -path "/RobotProject/checking_doc.robot"  -arguments "\[\]" -spec "&lt;not documented&gt;"
+
+
+//close view and open from Window/
+get-view "Documentation View" | close
+get-menu -path "Window/Show View/Documentation View" | click
+with [get-view "Documentation View"] {
+    get-button "Link with Selection" | get-property enablement | equals true | verify-true
+    get-button Back | get-property enablement | equals false | verify-true
+    get-button Forward | get-property enablement | equals false | verify-true
+    get-button "Open Input" | get-property enablement | equals false | verify-true
+    get-button "Open attached documentation in a Browser" | get-property enablement | equals false | verify-true
+}
+
+check-documentation-view   -is_empty true
+
+//close view and click on kw to check if view is not open
+get-view "Documentation View" | close
+
+//set carte and open view
+with [get-editor "checking_doc.robot" | get-text-viewer] {
+    set-caret-pos 17 15
+    get-menu -path "Show documentation" | click
+}
+
+//unselct linking
+get-view "Documentation View" | get-button "Link with Selection" | click
+
+//set caret and check if doc is the same
+get-editor "checking_doc.robot" | get-text-viewer | set-caret-pos 13 10
+check-documentation-view-for-user-kw -kw_name "kw_with_only_doc" -path "/RobotProject/checking_doc.robot"  -spec "I have only doc, no args"
+
+get-editor "checking_doc.robot" | get-text-viewer | set-caret-pos 2  17
+check-documentation-view-for-user-kw -kw_name "kw_with_only_doc" -path "/RobotProject/checking_doc.robot"  -spec "I have only doc, no args"
+get-view "Documentation View" | close
+get-view "Execution View" | click
+
+
+
+//---------------------bugs ----------------------------------
+
+//open doc from caret postion
+with [get-editor "checking_doc.robot" | get-text-viewer] {
+    set-caret-pos 13 11
+    get-menu -path "Show documentation" | click
+    //change caret position
+    set-caret-pos 7 12
+}
+//kw from line 13 is shown
+check-documentation-view-for-user-kw -kw_name "kw1_with_imported_kw" -path "/RobotProject/checking_doc.robot"  -arguments "\[\]" -spec "&lt;not documented&gt;"
+
+//set cart on new postion and open menu - menu does nothoin, caret open doc view
+with [get-editor "checking_doc.robot" | get-text-viewer] {
+    set-caret-pos 22 9
+    get-menu -path "Show documentation" | click
+}
+check-documentation-view-for-user-kw -kw_name "kw_with_doc_and_arg" -path "/RobotProject/checking_doc.robot"  -arguments "\[\*dict_1, \*\*list_2\]" 
+	-spec "Second main kw"
+
+//set carte on new place - doc is changed - ok
+with [get-editor "checking_doc.robot" | get-text-viewer] {
+    set-caret-pos 17 8
+
+}
+check-documentation-view-for-user-kw -kw_name "kw_with_only_doc" -path "/RobotProject/checking_doc.robot"  
+	-spec "I have only doc, no args"
+	
+//remove linking - doc should not be changed
+get-view "Documentation View" | get-button "Link with Selection" | click
+get-editor "checking_doc.robot" | get-text-viewer | set-caret-pos 7 17
+
+check-documentation-view-for-user-kw -kw_name "kw_with_only_doc" -path "/RobotProject/checking_doc.robot"  
+	-spec "I have only doc, no args"
+
+//---------------------------------bug 2 --------------------------------
+//close doc view
+get-view "Documentation View" | close
+
+get-editor "checking_doc.robot" | get-text-viewer | set-caret-pos 13 20
+
+//check if now doc view is not shown - bug 3
+with [get-tab-folder -index 5] {
+    get-property "pages[0]" | equals "Message Log" | verify-true
+    get-property "pages[1]" | equals "Execution View" | verify-true
+    get-property activePage | equals "Execution View" | verify-true
+    get-property tabCount | equals 2 | verify-true
+} 
+
+//open doc
+with [get-editor "checking_doc.robot" | get-text-viewer] {
+    set-caret-pos 13 20
+    get-menu -path "Show documentation" | click
+    // change caret position
+    set-caret-pos 22 10
+}
+check-documentation-view-for-user-kw -kw_name "kw_with_doc_and_arg" -path "/RobotProject/checking_doc.robot"  -arguments "\[\*dict_1, \*\*list_2\]" 
+	-spec "Second main kw"
+	
+//turn of linking	
+get-view "Documentation View" | get-button "Link with Selection" | click
+
+//set carte in new place and open doc
+with [get-editor "checking_doc.robot" | get-text-viewer] {
+    set-caret-pos 13 16
+    get-menu -path "Show documentation" | click
+    set-caret-pos 35 8
+}
+
+check-documentation-view -kw_name "Log"  -arguments "\[message, level=INFO, html=False, console=False, repr=False, formatter=str\]" -library "BuiltIn" 
+	-spec "Logs the given message with the given level.*"
+	
+// bug RED-1375
+
+// fold two tests
+with [get-editor "checking_doc.robot"] {
+    get-left-ruler | get-ruler-column ProjectionRulerColumn | click-ruler -line 5
+    wait 500
+    get-left-ruler | get-ruler-column ProjectionRulerColumn | click-ruler -line 10
+    with [get-text-viewer] {
+        set-caret-pos 17 10
+    }
+}
+check-documentation-view-for-user-kw -kw_name "kw_with_only_doc" -path "/RobotProject/checking_doc.robot"  -spec "I have only doc, no args"
+    
+get-editor "checking_doc.robot" | get-text-viewer | set-caret-pos 16 6
+	
+check-documentation-view -kw_name "Log"  -arguments "\[message, level=INFO, html=False, console=False, repr=False, formatter=str\]" -library "BuiltIn" 
+	-spec "Logs the given message with the given level.*"
+		
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

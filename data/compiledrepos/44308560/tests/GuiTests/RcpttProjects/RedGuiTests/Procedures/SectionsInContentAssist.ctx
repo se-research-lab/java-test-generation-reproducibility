@@ -1,0 +1,203 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Context-Type: org.eclipse.rcptt.ctx.ecl
+Element-Name: SectionsInContentAssist
+Element-Type: context
+Element-Version: 2.0
+Id: _cBDNYMN4Eeat3OoBX2X2jQ
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 1/30/20 2:53 PM
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998
+Content-Type: text/ecl
+Entry-Name: .ecl.context
+
+proc "check-content-assist-for-settings"{
+	with [get-window  -from "CompletionProposalPopup.createProposalSelector()"| get-table] {
+	    get-property itemCount | equals 20 | verify-true
+	    get-property "getItems().TableItem[0].getText()" | equals "Default Tags" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals Documentation | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "Force Tags" | verify-true
+	    get-property "getItems().TableItem[3].getText()" | equals Library | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals Metadata | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals Resource | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals "Suite Setup" | verify-true
+	    get-property "getItems().TableItem[7].getText()" | equals "Suite Teardown" | verify-true
+	    get-property "getItems().TableItem[8].getText()" | equals "Test Setup" | verify-true
+	    get-property "getItems().TableItem[9].getText()" | equals "Test Teardown" | verify-true
+	    get-property "getItems().TableItem[10].getText()" | equals "Test Template" | verify-true
+	    get-property "getItems().TableItem[11].getText()" | equals "Test Timeout" | verify-true
+	    get-property "getItems().TableItem[12].getText()" | equals Variables | verify-true
+	    
+	    get-property "getItems().TableItem[13].getText()" | equals "*** Comments ***" | verify-true
+	    get-property "getItems().TableItem[14].getText()" | equals "*** Keywords ***" | verify-true
+	    get-property "getItems().TableItem[15].getText()" | equals "*** Settings ***" | verify-true
+	    get-property "getItems().TableItem[16].getText()" | equals "*** Tasks ***" | verify-true
+	    get-property "getItems().TableItem[17].getText()" | equals "*** Test Cases ***" | verify-true
+	    get-property "getItems().TableItem[18].getText()" | equals "*** Variables ***" | verify-true
+	    
+       get-property "getItems().TableItem[19].getText()" | equals "Settings section - New settings section with settings" | verify-true
+	}
+
+}
+
+
+proc "check-content-assist-for-variables"{
+	with [get-window  -from "CompletionProposalPopup.createProposalSelector()"| get-table] {
+	    get-property itemCount | equals 10 | verify-true
+	    get-property "getItems().TableItem[0].getText()" | equals "Fresh scalar" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "Fresh list" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "Fresh dictionary" | verify-true
+	    
+	    get-property "getItems().TableItem[3].getText()" | equals "*** Comments ***" | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals "*** Keywords ***" | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals "*** Settings ***" | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals "*** Tasks ***" | verify-true
+	    get-property "getItems().TableItem[7].getText()" | equals "*** Test Cases ***" | verify-true
+	    get-property "getItems().TableItem[8].getText()" | equals "*** Variables ***" | verify-true
+	    get-property "getItems().TableItem[9].getText()" | equals "Settings section - New settings section with settings" | verify-true
+	}
+}
+
+proc "check-content-assist-for-empty-file"{
+	with [get-window  -from "CompletionProposalPopup.createProposalSelector()"| get-table] {
+	    get-property itemCount | equals 7 | verify-true
+	    get-property "getItems().TableItem[0].getText()" | equals "*** Comments ***" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "*** Keywords ***" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "*** Settings ***" | verify-true
+	    get-property "getItems().TableItem[3].getText()" | equals "*** Tasks ***" | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals "*** Test Cases ***" | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals "*** Variables ***" | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals "Settings section - New settings section with settings" | verify-true
+	}	    
+}
+
+proc "check-content-assist-under-section" [val section]{
+	with [get-window  -from "CompletionProposalPopup.createProposalSelector()"| get-table] {
+	    get-property itemCount | equals 8 | verify-true
+	    get-property "getItems().TableItem[0].getText()" | equals "*** Comments ***" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "*** Keywords ***" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "*** Settings ***" | verify-true
+	    get-property "getItems().TableItem[3].getText()" | equals "*** Tasks ***" | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals "*** Test Cases ***" | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals "*** Variables ***" | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals "Settings section - New settings section with settings" | verify-true
+	    if [$section | eq "tests"]{
+		    get-property "getItems().TableItem[7].getText()" | equals "New test - New test case with settings" | verify-true
+		}-else{
+			get-property "getItems().TableItem[7].getText()" | equals "New keyword - New keyword with settings" | verify-true
+		}    
+	}
+}
+
+proc "check-old-for-loop"{
+	get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | get-item -path ":FOR" 
+   		| get-property "getData().getStyledDisplayString().getStyleRanges().StyleRange[0].strikeout" | equals true 
+    	| verify-true
+}
+
+proc "check-old-for-loop-in-table"{
+	get-window -class ContentProposalPopup | get-table | get-item -path ":FOR" 
+	    | get-property "getData().getStyledLabel().getStyleRanges().StyleRange[0].strikeout" | equals true | verify-true
+}	    
+
+proc "check-content-assist-for-keywords" [val source Source]{
+	with [get-window  -from "CompletionProposalPopup.createProposalSelector()"| get-table] {
+	    get-property "getItems().TableItem[0].getText()" | equals "[Arguments]" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "[Documentation]" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "[Return]" | verify-true
+	    get-property "getItems().TableItem[3].getText()" | equals "[Tags]" | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals "[Teardown]" | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals "[Timeout]" | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals ":FOR" | verify-true
+	    get-property "getItems().TableItem[7].getText()" | equals "END" | verify-true
+	    get-property "getItems().TableItem[8].getText()" | equals "FOR" | verify-true
+	    get-property "getItems().TableItem[9].getText()" | equals And | verify-true
+	    get-property "getItems().TableItem[10].getText()" | equals But | verify-true
+	    get-property "getItems().TableItem[11].getText()" | equals Given | verify-true
+	    get-property "getItems().TableItem[12].getText()" | equals Then | verify-true
+	    get-property "getItems().TableItem[13].getText()" | equals When | verify-true
+	    get-property "getItems().TableItem[14].getText()" | equals "Call Method - BuiltIn" | verify-true
+	}
+	check-old-for-loop
+}	
+
+//copy for table editor
+proc "check-content-assist-for-keywords-for-table" [val source Source]{
+	with [get-window -class ContentProposalPopup| get-table] {
+	    get-property "getItems().TableItem[0].getText()" | equals "[Arguments]" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "[Documentation]" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "[Return]" | verify-true
+	    get-property "getItems().TableItem[3].getText()" | equals "[Tags]" | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals "[Teardown]" | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals "[Timeout]" | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals ":FOR" | verify-true
+	    get-property "getItems().TableItem[7].getText()" | equals END | verify-true
+	    get-property "getItems().TableItem[8].getText()" | equals FOR | verify-true
+	    get-property "getItems().TableItem[9].getText()" | equals And | verify-true
+	    get-property "getItems().TableItem[10].getText()" | equals But | verify-true
+	    get-property "getItems().TableItem[11].getText()" | equals Given | verify-true
+	    get-property "getItems().TableItem[12].getText()" | equals Then | verify-true
+	    get-property "getItems().TableItem[13].getText()" | equals When | verify-true
+	    get-property "getItems().TableItem[14].getText()" | equals "Call Method - BuiltIn" | verify-true
+	}
+	check-old-for-loop-in-table
+}	
+
+proc "check-content-assist-for-test-cases"{
+	with [get-window  -from "CompletionProposalPopup.createProposalSelector()"| get-table] {
+	    get-property "getItems().TableItem[0].getText()" | equals "[Documentation]" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "[Setup]" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "[Tags]" | verify-true
+	    get-property "getItems().TableItem[3].getText()" | equals "[Teardown]" | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals "[Template]" | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals "[Timeout]" | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals ":FOR" | verify-true
+	    get-property "getItems().TableItem[7].getText()" | equals END | verify-true
+	    get-property "getItems().TableItem[8].getText()" | equals FOR | verify-true
+	    get-property "getItems().TableItem[9].getText()" | equals And | verify-true
+	    get-property "getItems().TableItem[10].getText()" | equals But | verify-true
+	    get-property "getItems().TableItem[11].getText()" | equals Given | verify-true
+	    get-property "getItems().TableItem[12].getText()" | equals Then | verify-true
+	    get-property "getItems().TableItem[13].getText()" | equals When | verify-true
+	    get-property "getItems().TableItem[14].getText()" | equals "Call Method - BuiltIn" | verify-true
+	    get-property "getItems().TableItem[15].getText()" | equals "Catenate - BuiltIn" | verify-true
+	}  
+	check-old-for-loop
+}
+
+//copy for table editor
+proc "check-content-assist-for-test-cases-for-table"{
+	with [get-window -class ContentProposalPopup| get-table] {
+	    get-property "getItems().TableItem[0].getText()" | equals "[Documentation]" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "[Setup]" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "[Tags]" | verify-true
+	    get-property "getItems().TableItem[3].getText()" | equals "[Teardown]" | verify-true
+	    get-property "getItems().TableItem[4].getText()" | equals "[Template]" | verify-true
+	    get-property "getItems().TableItem[5].getText()" | equals "[Timeout]" | verify-true
+	    get-property "getItems().TableItem[6].getText()" | equals ":FOR" | verify-true
+	    get-property "getItems().TableItem[7].getText()" | equals END | verify-true
+	    get-property "getItems().TableItem[8].getText()" | equals FOR | verify-true
+	    get-property "getItems().TableItem[9].getText()" | equals And | verify-true
+	    get-property "getItems().TableItem[10].getText()" | equals But | verify-true
+	    get-property "getItems().TableItem[11].getText()" | equals Given | verify-true
+	    get-property "getItems().TableItem[12].getText()" | equals Then | verify-true
+	    get-property "getItems().TableItem[13].getText()" | equals When | verify-true
+	    get-property "getItems().TableItem[14].getText()" | equals "Call Method - BuiltIn" | verify-true
+	    get-property "getItems().TableItem[15].getText()" | equals "Catenate - BuiltIn" | verify-true
+	}  
+	check-old-for-loop-in-table
+}
+
+proc "check-keywords-content-assit"{
+	with [get-window  -from "CompletionProposalPopup.createProposalSelector()"| get-table] {
+	    get-property "getItems().length" | equals 102 | verify-true
+	    get-property "getItems().TableItem[0].getText()" | equals "Call Method - BuiltIn" | verify-true
+	    get-property "getItems().TableItem[1].getText()" | equals "Catenate - BuiltIn" | verify-true
+	    get-property "getItems().TableItem[2].getText()" | equals "Comment - BuiltIn" | verify-true
+	    get-property "getItems().TableItem[101].getText()" | equals "Wait Until Keyword Succeeds - BuiltIn" | verify-true
+	}
+}
+
+
+------=_.ecl.context-718f04b4-ed39-33e3-af62-0995e4561998--

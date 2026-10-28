@@ -1,0 +1,69 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _rPXCQK_-EeaOOtfbYFWVRw,_6kElkDBsEemdFPzzB7f3Tg
+Element-Name: RevalidateAfterChangingFocusForLibs
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _KgAS4LfPEeaN18-GwBb_GA
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 1/21/20 12:10 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+proc "check-errors" [val nr_of_errors ] [val childCount ]{
+	wait-for-errors -amount $childCount -times 4 -delay 1000
+	
+	list "Errors \\(.*\\)/Unknown '..\\/only_function.py' library. Try to use Quick Fix \\(Ctrl\\+1\\) or add library to red.xml for proper validation" //0
+		"Errors \\(.*\)/Unknown 'here_is_class.Cat' library. Try to use Quick Fix \\(Ctrl\\+1\\) or add library to red.xml for proper validation"   //1
+		"Errors \\(.*\\)/Unknown 'libs\\/SumTwoDigits.py' library. Try to use Quick Fix \\(Ctrl\\+1\\) or add library to red.xml for proper validation"  //2 
+		"Errors \\(.*\\)/Unknown keyword 'garfield'"     //3
+		"Errors \\(.*\\)/Unknown keyword 'news'" 		//4
+		"Errors \\(.*\\)/Unknown keyword 'no_kw'"		//5
+		"Errors \\(.*\\)/Unknown keyword 'sum'" 		//6
+		"Errors \\(.*\\)/Unknown keyword 'radio'" 		//7
+		"Errors \\(.*\\)/Unknown '..\\/libs\\/lib1.py' library. Try to use Quick Fix \\(Ctrl\\+1\\) or add library to red.xml for proper validation"  //8
+		"Errors \\(.*\\)/Unknown '..\\/libs\\/lib2.py' library. Try to use Quick Fix \\(Ctrl\\+1\\) or add library to red.xml for proper validation"  //9
+		"Errors \\(.*\\)/Unknown keyword 'television'" 	//10
+			| let [val all_errors -input]{
+				$nr_of_errors | each [val error_nr]{
+					get-view Problems | get-tree | get-item [$all_errors| get $error_nr]
+						| get-property enablement | equals false | verify-true
+			}
+		}
+}
+
+
+// uncomment KW from resource
+get-view "Project Explorer" | get-tree | select "NextProject/Script.robot" | double-click
+with [get-editor "Script.robot" | get-text-viewer] {
+    set-caret-pos 7 11
+    key-type "M1+/"
+    
+    // comment other KW
+    set-caret-pos 6 17
+    key-type "M1+/"
+    key-type "M1+s"
+}
+
+// open resource and add missing KW
+get-view "Project Explorer" | get-tree | select "NextProject/kw/radio.tsv" | double-click
+get-editor "radio.tsv" | get-text-viewer | set-text "*** Keywords ***\n"
+    + "radio\n"
+    + "\tlog\t6"
+    
+    
+get-button "Save (M1+S)" | click
+get-view Problems | click
+check-errors -nr_of_errors [list 0 1 2 3 4 5 7 6] -childCount 8
+
+// click on suite to revalidate
+get-editor "Script.robot" | click
+
+check-errors -nr_of_errors [list 0 1 2 3 4 5 6] -childCount 7
+
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

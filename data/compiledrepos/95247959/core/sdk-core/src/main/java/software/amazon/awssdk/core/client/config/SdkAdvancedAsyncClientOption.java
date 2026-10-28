@@ -1,0 +1,74 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.core.client.config;
+
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ThreadPoolExecutor;
+import software.amazon.awssdk.annotations.SdkPublicApi;
+
+/**
+ * A collection of advanced options that can be configured on an async AWS client via
+ * {@link ClientAsyncConfiguration.Builder#advancedOption(SdkAdvancedAsyncClientOption,
+ * Object)}.
+ *
+ * <p>These options are usually not required outside of testing or advanced libraries, so most users should not need to configure
+ * them.</p>
+ *
+ * @param <T> The type of value associated with the option.
+ */
+@SdkPublicApi
+public final class SdkAdvancedAsyncClientOption<T> extends ClientOption<T> {
+    /**
+     * Configure the {@link Executor} that should be used to complete the {@link CompletableFuture} that is returned by the async
+     * service client. By default, this is a dedicated, per-client {@link ThreadPoolExecutor} that is managed by the SDK.
+     * <p>
+     * The configured {@link Executor} will be invoked by the async HTTP client's I/O threads (e.g., EventLoops), which must be
+     * reserved for non-blocking behavior. Blocking an I/O thread can cause severe performance degradation, including across
+     * multiple clients, as clients are configured, by default, to share a single I/O thread pool (e.g., EventLoopGroup).
+     * <p>
+     * You should typically only want to customize the future-completion {@link Executor} for a few possible reasons:
+     * <ol>
+     *     <li>You want more fine-grained control over the {@link ThreadPoolExecutor} used, such as configuring the pool size
+     *     or sharing a single pool between multiple clients.
+     *     <li>You want to add instrumentation (i.e., metrics) around how the {@link Executor} is used.
+     * </ol>
+     * <b>WARNING</b>
+     * <p>
+     * We strongly <strong>discourage</strong> using {@code Runnable::run}, which executes the future-completion directly from
+     * within the I/O thread because it may block the I/O thread and cause deadlock, especially if you are sending
+     * another SDK request in the {@link CompletableFuture} chain since the SDK may perform blocking calls in some cases.
+     */
+    public static final SdkAdvancedAsyncClientOption<Executor> FUTURE_COMPLETION_EXECUTOR =
+            new SdkAdvancedAsyncClientOption<>(Executor.class);
+
+    /**
+     * Advanced configuration for the native S3CrtAsyncClient, which only applies for file-based multipart uploads.
+     * By default, the S3CrtAsyncClient will skip buffering parts in memory for large objects.
+     * <p>
+     * When set to false, the client will not buffer parts for large object, but will buffer parts for smaller objects .
+     * When set to true, the client will skip buffering parts even for small objects.
+     * Parts for large objects are never buffered.
+     * <p>
+     * Default to {@code false}.
+     */
+    public static final SdkAdvancedAsyncClientOption<Boolean> CRT_MEMORY_BUFFER_DISABLED =
+        new SdkAdvancedAsyncClientOption<>(Boolean.class);
+
+    private SdkAdvancedAsyncClientOption(Class<T> valueClass) {
+        super(valueClass);
+    }
+}

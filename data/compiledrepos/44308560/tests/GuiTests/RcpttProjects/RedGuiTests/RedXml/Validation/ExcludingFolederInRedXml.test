@@ -1,0 +1,206 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _QxfxAKjOEeWg6OFh_tHgTw
+Element-Name: ExcludingFolederInRedXml
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _-2m5wKjCEeWg6OFh_tHgTw
+Save-Time: 6/25/20 4:48 PM
+Testcase-Type: ecl
+Verifications: _m9LPkKj7EeW6oYCgHZ503g,_rI-sMKj8EeW6oYCgHZ503g,_lJPcoLh5EeWzJthH3JoEWQ
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+wait-for-errors -amount 10 -times 4 -delay 1000
+//check of are 8 errors
+with [get-view Problems | get-tree] {
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().length" | equals 10 | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "Invalid variable definition 'wrong var'. Unable to recognize variable type" | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals "Test case 'empty test case' contains no keywords to execute" | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals "The '*.tsv' file extension is not supported. Only '*.robot' should be used for suites. It is possible to launch this suite with '--extension tsv' argument provided." 
+        | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[3].getText()" 
+        | equals "The '*.txt' file extension is not supported. Only '*.robot' should be used for suites. It is possible to launch this suite with '--extension txt' argument provided." 
+        | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[4].getText()" 
+        | equals "Unknown 'no_lib' library. Try to use Quick Fix (Ctrl+1) or add library to red.xml for proper validation" 
+        | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[5].getText()" 
+        | equals "Unknown keyword 'kw from file_with_error'" | verify-true
+        
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[6].getText()" 
+        | equals "Unknown keyword 'kw from file to remove'" | verify-true
+    
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[7].getText()" 
+        | equals "Unknown keyword 'kw from single test'" | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[8].getText()" 
+        | equals "Unknown keyword 'kw from suite folder'" | verify-true
+    get-item -path "Errors \\(10 items\\)" | get-property "getItems().TreeItem[9].getText()" 
+        | equals "Unknown keyword 'kw from testSuite'" | verify-true
+}
+
+//open second red.xml
+get-view "Project Explorer" | get-tree | select "SecondProject/red.xml" | double-click
+get-editor "SecondProject/red.xml" | get-tab-folder | get-tab-item Validation | click
+
+//open first red.xml
+get-view "Project Explorer" | get-tree | select "RobotProject/red.xml" | double-click
+get-editor "RobotProject/red.xml" | get-tab-folder | get-tab-item Validation | click
+
+//check if default option is Exclude
+get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree 
+    | select "RobotProject/folder_to_remove"
+with [get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree] {
+    get-menu Include | get-property enablement | equals false | verify-true
+    get-menu Exclude | get-property enablement | equals true | verify-true
+}
+
+// exclude folder
+get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree 
+    | select "RobotProject/folder_to_remove" | get-menu Exclude | click
+    
+//check that now only option is to include    
+with [get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree] {
+    get-menu Include | get-property enablement | equals true | verify-true
+    get-menu Exclude | get-property enablement | equals false | verify-true
+}    
+
+//change to include    
+get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree 
+    | select "RobotProject/folder_to_remove [excluded]" | get-menu Include | click
+wait 200
+
+//check menu
+with [get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree] {
+    get-menu Include | get-property enablement | equals false | verify-true
+    get-menu Exclude | get-property enablement | equals true | verify-true
+}
+
+//exclude
+with [get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree] {
+    select "RobotProject/folder_to_remove" | get-menu Exclude | click
+}
+
+//add exclude of folder inside folder, empty fgolder, folder with no test
+with [get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree] {
+    select "RobotProject/a/b/c1"  | get-menu Exclude | click
+    select "RobotProject/a/b" | get-menu Exclude | click
+    select "RobotProject/variables" | get-menu Exclude | click
+    select "RobotProject/empty folder" | get-menu Exclude | click
+    select "RobotProject/tests" | get-menu Exclude | click
+    select "RobotProject/suite folder with init" | get-menu Exclude | click
+}
+get-eclipse-window | key-type "M1+s"
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+wait-for-errors -amount 4 -times 2 -delay 500
+wait-for-warnings -amount 1 -times 2 -delay 500
+
+//remove excluded file
+get-view "Project Explorer" | get-tree | select "RobotProject/folder_to_remove [excluded]" | get-menu Delete | click
+get-window "Delete Resources" | get-button OK | click
+
+//add new folder
+get-view "Project Explorer" | get-tree | select RobotProject | get-menu "New/Folder" | click
+with [get-window "New Folder"] {
+    get-editbox -after [get-label "Folder name:"] | set-text "new folder"
+    get-button Finish | click}
+
+//clean and check errors
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+//expand tree
+wait 1000
+with [get-view "Project Explorer" | get-tree] {
+    get-property "getItems().TreeItem[0].getText()" | equals RobotProject | verify-true
+    get-property "getItems().TreeItem[1].getItems().TreeItem[0].getText()" 
+        | matches "Robot Standard libraries \[Robot Framework .*\]" | verify-true
+    get-property "getItems().TreeItem[1].getItems().TreeItem[1].getText()" | equals test | verify-true
+    get-property "getItems().TreeItem[1].getItems().TreeItem[2].getText()" | equals "red.xml" | verify-true
+}
+with [get-view "Project Explorer" | get-tree] {
+    get-item "RobotProject/a/b \\[excluded\\]/c" | get-property caption | equals c | verify-true
+    get-item "RobotProject/a/b \\[excluded\\]/c1 \\[excluded\\]" | get-property caption | equals "c1 [excluded]" 
+        | verify-true
+    get-item "RobotProject/a/b \\[excluded\\]/var" | get-property caption | equals var | verify-true
+}
+
+//check entire PE
+with [get-view "Project Explorer" | get-tree] {
+    get-item RobotProject | get-property "getItems().TreeItem[0].getText()" 
+        | matches "Robot Standard libraries \[Robot Framework .*\]" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[1].getText()" | equals a | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[1].getItems().TreeItem[0].getText()" 
+        | equals "b [excluded]" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[1].getItems().TreeItem[0].getItems().length" | equals 3 
+        | verify-true
+    get-item RobotProject 
+        | get-property "getItems().TreeItem[1].getItems().TreeItem[0].getItems().TreeItem[0].getText()" | equals c 
+        | verify-true
+    get-item RobotProject 
+        | get-property "getItems().TreeItem[1].getItems().TreeItem[0].getItems().TreeItem[1].getText()" 
+        | equals "c1 [excluded]" | verify-true
+    get-item RobotProject 
+        | get-property "getItems().TreeItem[1].getItems().TreeItem[0].getItems().TreeItem[2].getText()" | equals var 
+        | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[1].getItems().TreeItem[0].getItemCount()" | equals 3 
+        | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[2].getText()" | equals "empty folder [excluded]" 
+        | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[3].getText()" | equals "new folder" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[4].getText()" | equals "single test" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[5].getText()" 
+        | equals "suite folder with init [excluded]" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[6].getText()" | equals "tests [excluded]" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[7].getText()" | equals TestSuiteFolder | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[8].getText()" | equals "variables [excluded]" 
+        | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[9].getText()" | equals "red.xml" | verify-true
+    get-item RobotProject | get-property "getItems().TreeItem[10].getText()" | equals "TestFile.robot" | verify-true
+}
+
+// Esclude single file and check errors - exclude in RED.xml
+
+// exclude file
+get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree 
+    | select "RobotProject/TestSuiteFolder/with_init.robot" | get-menu Exclude | click
+    
+// check file caption if includes [exclude] string
+get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree 
+    | get-item "RobotProject/TestSuiteFolder/with_init.robot \\[excluded\\]" | get-property caption 
+    | equals "with_init.robot [excluded]" | verify-true
+get-eclipse-window | key-type "M1+s"
+
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+// check if problems account excluded file 
+get-view Problems | get-label "3 errors, 1 warning, 0 others" | get-property caption 
+    | equals "3 errors, 1 warning, 0 others" | verify-true
+    
+// include file
+get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree 
+    | select "RobotProject/TestSuiteFolder/with_init.robot [excluded]" | get-menu Include | click
+    
+// check file caption - it should be withouth [exclude]
+get-editor "RobotProject/red.xml" | get-section "Excluded project parts" | get-tree 
+    | get-item "RobotProject/TestSuiteFolder/with_init.robot" | get-property caption | equals "with_init.robot" 
+    | verify-true
+get-eclipse-window | key-type "M1+s"
+
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+
+// list of errors should include error from included file
+get-view Problems | get-label "4 errors, 1 warning, 0 others" | get-property caption 
+    | equals "4 errors, 1 warning, 0 others" | verify-true
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

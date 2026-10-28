@@ -1,0 +1,183 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _rNY3QJKkEeWGA6GsgqW2Mw
+Element-Name: CheckVariableMappingInEditor
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _yxxmEJHxEeWEZYgZQ8Au9A
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 3/4/20 2:34 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+// open test file
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/TestSuite.robot" | double-click
+// check if there are zero problems
+get-tab-folder -index 4 | get-tab-item Problems | click
+
+get-menu "Project/Clean..." | click
+get-window Clean | get-button $OK_Clean_button | click
+get-view Problems | get-tree | get-property itemCount | equals 0 | verify-true
+
+// modify resource path to include variable ${path}
+with [get-editor "TestSuite.robot" | get-text-viewer] {
+    set-caret-pos 7 25
+    select-range 7 28 7 13
+    wait 100
+    key-type BackSpace
+    type-text "${path}"
+}
+
+try -times 5 -delay 1000 -command{
+	// error shows that resource path is parametrised 
+	get-view Problems | get-tree | get-item 
+	    -path "Errors \\(2 items\\)/'${path}\\/res_1.robot' contains unresolved import parameters.  Use Variable mappings in red.xml for parameter resolution" 
+	    | get-property index | equals 0 | verify-true
+}
+
+// open red.xml and add Variable mapping  ${path} => resource_folder
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/red.xml" | double-click
+get-editor "ProjectWithResource/red.xml" | get-tab-folder | get-tab-item Variables | click
+get-editor "ProjectWithResource/red.xml" | get-section "Variable mappings" | get-table | select "...add new mapping" 
+    | key-type Enter
+    
+//check how window looks like
+with [get-window "Add variable mapping"] {
+    with [get-control Any -index 1] {
+        get-property "getChildren().Control[0].getText()" 
+            | equals "Specify name and value of variable which will be used in parameterized imports." | verify-true
+        get-property "getChildren().Control[1].getText()" | equals Name | verify-true
+        get-property "getChildren().Control[2].getText()" | equals "${var}" | verify-true
+        get-property "getChildren().Control[2].getEditable()" | equals true | verify-true
+        get-property "getChildren().Control[2].getSelectionText()" | equals "${var}" | verify-true
+        get-property "getChildren().Control[3].getText()" | equals Value | verify-true
+        get-property "getChildren().Control[4].getText()" | equals value | verify-true
+        get-property "getChildren().Control[4].getEditable()" | equals true | verify-true
+    }
+    with [get-control Any] {
+        get-property "getChildren().Control[1].getChildren().Control[0].getClassName()" 
+            | equals "org.eclipse.swt.widgets.Button" | verify-true
+        get-property "getChildren().Control[1].getChildren().Control[0].getText()" | equals [os-specific -windowsValue OK -linuxValue Cancel] | verify-true
+        get-property "getChildren().Control[1].getChildren().Control[1].getClassName()" 
+            | equals "org.eclipse.swt.widgets.Button" | verify-true
+        get-property "getChildren().Control[1].getChildren().Control[1].getText()" | equals [os-specific -windowsValue Cancel -linuxValue OK]  | verify-true
+    }
+}
+
+//add new variable
+with [get-window "Add variable mapping"] {
+    with [get-editbox -after [get-label Name]] {
+        key-type Right
+        key-type Left
+        set-text "${path}"
+    }
+    get-editbox -after [get-label Value] | set-text resource_folder
+    get-button OK | click
+}
+with [get-editor "ProjectWithResource/red.xml"] {
+    with [get-section "Variable mappings" | get-table] {
+        select "${path}" | activate-cell-edit
+        get-editbox | key-type "M1+s"
+        apply-cell-edit -deactivate
+    }
+    //close red.xml
+    close
+}
+
+//close test
+with [get-editor "TestSuite.robot" | get-text-viewer] {
+    set-caret-pos 1 1
+    key-type "M1+s"
+}
+get-editor "TestSuite.robot" | close
+
+// open testfile
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/TestSuite.robot" | double-click
+
+// add keyword from resource file : test_resource to force validation
+with [get-editor "TestSuite.robot" | get-text-viewer] {
+    set-caret-pos 3 18
+    key-type Enter
+    type-text "test_resource"
+}
+// there should be no problems as path is parametrised and static resolved
+wait-for-zero-items -times 3 -delay 1000
+
+// open red.xml editor and remove Variable mapping entry
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/red.xml" | double-click
+with [get-editor "ProjectWithResource/red.xml"] {
+    with [get-section "Variable mappings" | get-table] {
+        select "${path}" | key-type Del
+        key-type "M1+s"
+    }
+    close
+}
+
+get-editor "TestSuite.robot" | get-text-viewer | key-type "M1+s"
+// check if problems accured due to unresolved path
+with [get-view Problems | get-tree] {
+    get-item -path "Errors \\(3 items\\)" | get-property "getItems().length" | equals 3 | verify-true
+    get-item -path "Errors \\(3 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "'${path}/res_1.robot' contains unresolved import parameters.  Use Variable mappings in red.xml for parameter resolution" 
+        | verify-true
+    get-item -path "Errors \\(3 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals "Unknown keyword 'test_resource'" | verify-true
+    get-item -path "Errors \\(3 items\\)" | get-property "getItems().TreeItem[2].getText()" 
+        | equals "Unknown keyword 'test_resource'" | verify-true
+}
+
+// open red.xml add 2 Variable Mappings
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/red.xml" | double-click
+// add correct mapping
+ 
+get-view "Project Explorer" | get-tree | select "ProjectWithResource/red.xml" | double-click
+get-editor "ProjectWithResource/red.xml" | get-section "Variable mappings" | get-table | select "...add new mapping" 
+    | key-type Enter
+with [get-window "Add variable mapping"] {
+    with [get-editbox -after [get-label Name]] {
+        set-text-offset 5 0
+        key-type BackSpace -times 3
+        type-text path
+    }
+    get-editbox -after [get-label Value] | set-text "resource_folder"
+    get-button OK | click
+}
+
+// add wrong path as a secound entry
+with [get-editor "ProjectWithResource/red.xml" | get-section "Variable mappings" | get-table] {
+    select "${path}" | activate-cell-edit
+    apply-cell-edit -deactivate
+    select "...add new mapping" | key-type Enter
+}
+with [get-window "Add variable mapping"] {
+    get-editbox -after [get-label Name] | set-text "${path}"
+    get-editbox -after [get-label Value] | set-text "wrong_path"
+    get-button OK | click
+}
+with [get-editor "ProjectWithResource/red.xml"] {
+    with [get-section "Variable mappings" | get-table] {
+        select [get-item "${path}" -index 1] | activate-cell-edit
+        get-editbox | key-type "M1+s"
+        apply-cell-edit -deactivate
+    }
+    close
+}
+// check if validation provides error that resolved path from mapping does not exist
+with [get-editor "TestSuite.robot" | get-text-viewer] {
+    hover-text 4 11
+    type-text " "
+    key-type "M1+s"
+}
+
+wait 3000
+get-view Problems | get-tree 
+    | get-item "Errors \\(3 items\\)/Resource import 'wrong_path\\/res_1.robot' is invalid: file does not exist. Try to use Quick Fix \\(Ctrl\\+1\\)" 
+    | get-property caption 
+    | equals "Resource import 'wrong_path/res_1.robot' is invalid: file does not exist. Try to use Quick Fix (Ctrl+1)" 
+    | verify-true
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

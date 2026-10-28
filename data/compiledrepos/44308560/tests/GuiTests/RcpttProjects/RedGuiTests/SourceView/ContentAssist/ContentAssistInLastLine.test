@@ -1,0 +1,216 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _cBDNYMN4Eeat3OoBX2X2jQ,_9Bte8NYSEeijg6yKwqEQmw
+Element-Name: ContentAssistInLastLine
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _JPBOsIb7EeWrUbOa1Nzguw
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 10/25/19 4:07 PM
+Testcase-Type: ecl
+
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa
+Content-Type: text/plain
+Entry-Name: .description
+
+Timeout: no RDP connection
+------=_.description-216f885c-d591-38ce-8ea2-e4f8cb4d6ffa--
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+//open editor
+get-view "Project Explorer" | get-tree | select "RobotProject/TestFile.robot" | select "RobotProject/TestFile.robot" 
+    | double-click
+
+//check if main section are in Content Assist    
+get-editor "TestFile.robot" | get-text-viewer | get-property "getLineCount()" | equals 1 | verify-true
+
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 1 1
+    key-type End
+    key-type Enter
+    key-type "M1+SPACE"
+    wait 300
+}
+check-content-assist-under-section -section tests
+
+with [get-editor "TestFile.robot"] {
+    get-text-viewer | key-type ESC
+}
+
+//check that sections to test cases are in Content Assist
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 2 1
+    key-type Tab
+    key-type "M1+SPACE"
+    wait 200
+}
+ 
+check-content-assist-for-test-cases
+with [get-editor "TestFile.robot"] {
+    get-text-viewer | key-type ESC
+}
+
+
+//--------------
+//remove all and add Variables
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 1  1
+    key-type "M1+a"
+    key-type BackSpace
+    wait 500
+    key-type "M1+SPACE"
+    wait 300
+    key-type Down -times [$MainSections | get "Variables"]
+    key-type Enter
+    key-type "M1+SPACE"
+    wait 300
+}
+check-content-assist-for-variables
+with [get-editor "TestFile.robot"] {
+    get-text-viewer | key-type ESC
+}
+
+//remove all and add Settings
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 1 1
+    key-type "M1+a"
+    key-type BackSpace
+    wait 500
+    key-type "M1+SPACE"
+    wait 200
+    key-type Down -times [$MainSections | get "Settings"] 
+    key-type Enter
+    key-type "M1+SPACE"
+    wait 300
+}
+
+check-content-assist-for-settings
+with [get-editor "TestFile.robot"] {
+    get-text-viewer | key-type ESC
+}
+
+
+//remove all and add Keywords
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 1 1
+    key-type "M1+a"
+    key-type BackSpace
+    key-type "M1+SPACE"
+    wait 200
+    key-type Down -times [$MainSections | get "Keywords"] 
+    key-type Enter
+    key-type "M1+SPACE"
+    wait 200
+}
+
+check-content-assist-under-section -section keywords
+
+with [get-editor "TestFile.robot"] {
+    get-text-viewer | key-type ESC
+}
+
+// create two kw for content assist
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 2 1
+    type-text "kw_1"
+    key-type Enter
+    type-text log
+    key-type Tab
+    type-text test1
+    key-type Enter
+    key-type BackSpace -times 4
+    type-text "k2_1"
+    key-type Enter
+    wait 100
+    key-type "M1+SPACE"
+    
+}
+// cycle through proposal option
+// all
+get-window -from "CompletionProposalPopup.createProposalSelector()" 
+    | get-label "Press M1+Space to show Keywords proposals" | get-property caption 
+    | equals "Press M1+Space to show Keywords proposals" | verify-true
+
+wait 300
+// KW - next vars
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | key-type "M1+SPACE"
+get-window -from "CompletionProposalPopup.createProposalSelector()" 
+    | get-label "Press M1+Space to show Variables proposals" | get-property caption 
+    | equals "Press M1+Space to show Variables proposals" | verify-true
+
+// variables - next Templates
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | key-type "M1+SPACE"
+wait 300
+get-window -from "CompletionProposalPopup.createProposalSelector()" 
+    | get-label "Press M1+Space to show Templates proposals" | get-property caption 
+    | equals "Press M1+Space to show Templates proposals" | verify-true
+
+
+wait 200
+//tempalates - next smart
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | key-type "M1+SPACE"
+wait 200
+
+// smart - next all
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | key-type "M1+SPACE"
+wait 200
+
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | key-type "M1+SPACE"
+wait 200
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select "kw_1 - TestFile.robot" 
+    | click -default
+
+
+// no proposal for tempalate    
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 5 9
+    key-type "M1+SPACE" -times 3
+}
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table 
+    | get-property "getItems().TableItem[0].getText()" | equals "no proposals" | verify-true
+    
+//add list @ charater and open content assist
+with [get-editor "TestFile.robot"] {
+    with [get-text-viewer] {
+        key-type ESC
+        set-caret-pos 5 9
+        type-text "@"
+        key-type "M1+SPACE"
+    }
+}
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select "@{EMPTY}" | click -default    
+    
+//validate text
+get-editor "TestFile.robot" | get-text-viewer | get-property text | equals "*** Keywords ***\n"
+    + "kw_1\n"
+    + "    log    test1\n"
+    + "k2_1\n"
+    + "    kw_1@{EMPTY}" | verify-true
+    
+
+
+
+//bug 703
+//add new line and open CA, type text (window was closed)
+with [get-editor "TestFile.robot" | get-text-viewer] {
+    set-caret-pos 5 17
+    key-type Enter
+    key-type "M1+SPACE"
+    type-text lo
+}
+
+//check if in window are filtered values
+with [get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table] {
+    get-property "getItems().TableItem[0].getText()" | equals "Log - BuiltIn" | verify-true
+    get-property "getItems().TableItem[1].getText()" | equals "Log Many - BuiltIn" | verify-true
+    get-property "getItems().TableItem[2].getText()" | equals "Log To Console - BuiltIn" | verify-true
+    get-property "getItems().TableItem[3].getText()" | equals "Log Variables - BuiltIn" | verify-true
+}
+//close window
+get-window -from "CompletionProposalPopup.createProposalSelector()" | get-table | select "Log To Console - BuiltIn" 
+    | key-type "TRAVERSE_ESCAPE"        
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

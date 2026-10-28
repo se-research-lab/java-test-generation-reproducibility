@@ -1,0 +1,8 @@
+namespace foo
+
+void foo() {
+}
+
+program A(String[] args) {
+    foo()
+}

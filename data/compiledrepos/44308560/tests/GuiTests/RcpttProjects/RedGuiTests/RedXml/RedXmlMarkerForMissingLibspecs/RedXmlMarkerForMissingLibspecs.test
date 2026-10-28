@@ -1,0 +1,77 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _VDbgkAdUEeiksYLFL8zyCg
+Element-Name: RedXmlMarkerForMissingLibspecs
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _G53vcAdVEeiksYLFL8zyCg
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 11/20/19 6:02 PM
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+global [val StandardLibs [list
+	"BuiltIn"
+	"Collections"
+	"DateTime"
+	"Dialogs"
+	"Easter"
+	"OperatingSystem"
+	"Process"
+	"Reserved"
+	"Screenshot"
+	"String"
+	"Telnet"
+	"XML"
+]]
+
+proc "check-project-explorer"{
+	repeat [val index] -times 10 -command {
+		if [ $index | eq 0]{
+			get-view "Project Explorer" | get-tree | get-item 
+			    -path "WithoutLibspecks/Robot Standard libraries \\[Robot Framework.*\\]/BuiltIn \\(\d\d\d\\)" 
+			    | get-property enablement | equals false | verify-true
+		}-else{
+			with [get-view "Project Explorer" | get-tree] {
+			    get-item -path "WithoutLibspecks/Robot Standard libraries \\[Robot Framework .* \\(Python .*\\)\\]" 
+			        | get-property [format "getItems().TreeItem[%s].getText()" $index] | equals [format "%s (non-accessible)" [$StandardLibs | get $index]] | verify-true
+			}   
+		}     
+	}
+}
+
+
+//delete libspec folder to generate errors
+delete-file [uri-from-path [concat $RED_workspace_path "/WithoutLibspecks/libspecs"]]
+
+get-view "Project Explorer" | get-tree 
+    | select "WithoutLibspecks/Robot Standard libraries \[Robot Framework .*\]/BuiltIn \(\d\d\d\)" 
+    | get-menu -path Reload | click
+    
+get-view Problems | click
+check-project-explorer
+wait-for-errors -amount 2 -times 3 -delay 1000
+
+//this is error from wrong python file
+get-view Problems | get-tree 
+    | get-item -path "Errors \\(2 items\\)/Unknown 'Zlib.py' library. Try to use Quick Fix \\(Ctrl\\+1\\) or add library to red.xml for proper validation" 
+    | get-property enablement | equals false | verify-true
+    
+
+get-menu -path "Project/Clean..." | click
+get-window Clean | get-button Clean | click
+
+wait-for-progress-view-to-disappear
+
+with [get-view Problems | get-tree] {
+    get-item -path "Errors \\(2 items\\)" | get-property "getItems().TreeItem[0].getText()" 
+        | equals "'ZLib' library specification file was not generated. Try to reload it manually in Project Explorer" | verify-true
+    get-item -path "Errors \\(2 items\\)" | get-property "getItems().TreeItem[1].getText()" 
+        | equals "Unknown 'Zlib.py' library. Try to use Quick Fix (Ctrl+1) or add library to red.xml for proper validation" 
+        | verify-true
+}
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--

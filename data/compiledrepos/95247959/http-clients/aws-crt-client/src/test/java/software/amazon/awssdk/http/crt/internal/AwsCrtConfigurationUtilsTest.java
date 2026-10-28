@@ -1,0 +1,135 @@
+/*
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License").
+ * You may not use this file except in compliance with the License.
+ * A copy of the License is located at
+ *
+ *  http://aws.amazon.com/apache2.0
+ *
+ * or in the "license" file accompanying this file. This file is distributed
+ * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+ * express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+
+package software.amazon.awssdk.http.crt.internal;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static software.amazon.awssdk.crt.io.TlsCipherPreference.TLS_CIPHER_NON_PQ_DEFAULT;
+import static software.amazon.awssdk.crt.io.TlsCipherPreference.TLS_CIPHER_SYSTEM_DEFAULT;
+
+import java.time.Duration;
+import java.util.stream.Stream;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+import software.amazon.awssdk.crt.http.HttpMonitoringOptions;
+import software.amazon.awssdk.crt.io.SocketOptions;
+import software.amazon.awssdk.crt.io.TlsCipherPreference;
+import software.amazon.awssdk.crt.io.TlsContextOptions;
+import software.amazon.awssdk.http.SdkHttpConfigurationOption;
+import software.amazon.awssdk.http.crt.TcpKeepAliveConfiguration;
+import software.amazon.awssdk.http.crt.TlsVersion;
+import software.amazon.awssdk.utils.AttributeMap;
+
+class AwsCrtConfigurationUtilsTest {
+    @ParameterizedTest
+    @MethodSource("cipherPreferences")
+    void resolveCipherPreference_shouldResolveCorrectly(Boolean postQuantumTlsEnabled,
+                                                        TlsCipherPreference expectedPreference) {
+        assertThat(AwsCrtConfigurationUtils.resolveCipherPreference(postQuantumTlsEnabled)).isEqualTo(expectedPreference);
+    }
+
+    private static Stream<Arguments> cipherPreferences() {
+        // On platforms where NON_PQ_DEFAULT is not supported (e.g. macOS), the code falls back to SYSTEM_DEFAULT.
+        TlsCipherPreference expectedForFalse = TLS_CIPHER_NON_PQ_DEFAULT.isSupported()
+            ? TLS_CIPHER_NON_PQ_DEFAULT
+            : TLS_CIPHER_SYSTEM_DEFAULT;
+        return Stream.of(
+            Arguments.of(null, TLS_CIPHER_SYSTEM_DEFAULT),
+            Arguments.of(false, expectedForFalse),
+            Arguments.of(true, TLS_CIPHER_SYSTEM_DEFAULT)
+        );
+    }
+
+    @ParameterizedTest
+    @MethodSource("tcpKeepAliveConfiguration")
+    void tcpKeepAliveConfiguration(TcpKeepAliveConfiguration tcpKeepAliveConfiguration, Duration connectionTimeout, SocketOptions expected) {
+        try (SocketOptions socketOptions = AwsCrtConfigurationUtils.buildSocketOptions(tcpKeepAliveConfiguration,
+            connectionTimeout)) {
+            assertThat(socketOptions)
+                .satisfies(options -> {
+                    assertThat(options.connectTimeoutMs).isEqualTo(expected.connectTimeoutMs);
+                    assertThat(options.keepAlive).isEqualTo(expected.keepAlive);
+                    assertThat(options.keepAliveIntervalSecs).isEqualTo(expected.keepAliveIntervalSecs);
+                    assertThat(options.keepAliveTimeoutSecs).isEqualTo(expected.keepAliveTimeoutSecs);
+                });
+        }
+    }
+
+    private static Stream<Arguments> tcpKeepAliveConfiguration() {
+        Duration duration1Minute = Duration.ofMinutes(1);
+
+        SocketOptions expectedConnectTimeOutOnly = new SocketOptions();
+        expectedConnectTimeOutOnly.connectTimeoutMs = (int) duration1Minute.toMillis();
+
+        SocketOptions expectedKeepAliveOnly = new SocketOptions();
+        expectedKeepAliveOnly.keepAlive = true;
+        expectedKeepAliveOnly.keepAliveIntervalSecs = (int)duration1Minute.getSeconds();
+        expectedKeepAliveOnly.keepAliveTimeoutSecs = (int)duration1Minute.getSeconds();
+
+        SocketOptions expectedAll = new SocketOptions();
+        expectedAll.connectTimeoutMs = (int) duration1Minute.toMillis();
+        expectedAll.keepAlive = true;
+        expectedAll.keepAliveIntervalSecs = (int)duration1Minute.getSeconds();
+        expectedAll.keepAliveTimeoutSecs = (int)duration1Minute.getSeconds();
+
+        return Stream.of(
+            Arguments.of(null, null, new SocketOptions()),
+            Arguments.of(null, duration1Minute, expectedConnectTimeOutOnly),
+            Arguments.of(
+                TcpKeepAliveConfiguration.builder().keepAliveInterval(duration1Minute).keepAliveTimeout(duration1Minute).build(),
+                null,
+                expectedKeepAliveOnly
+            ),
+            Arguments.of(
+                TcpKeepAliveConfiguration.builder().keepAliveInterval(duration1Minute).keepAliveTimeout(duration1Minute).build(),
+                duration1Minute,
+                expectedAll
+            )
+        );
+    }
+
+    @Test
+    void resolveMinTlsVersion_null_returnsSystemDefaults() {
+        assertThat(AwsCrtConfigurationUtils.resolveMinTlsVersion(null))
+            .isEqualTo(TlsContextOptions.TlsVersions.TLS_VER_SYS_DEFAULTS);
+    }
+
+    @Test
+    void resolveMinTlsVersion_systemDefault_returnsSystemDefaults() {
+        assertThat(AwsCrtConfigurationUtils.resolveMinTlsVersion(TlsVersion.SYSTEM_DEFAULT))
+            .isEqualTo(TlsContextOptions.TlsVersions.TLS_VER_SYS_DEFAULTS);
+    }
+
+    @Test
+    void resolveMinTlsVersion_tls13_returnsTLSv1_3() {
+        assertThat(AwsCrtConfigurationUtils.resolveMinTlsVersion(TlsVersion.TLS_1_3))
+            .isEqualTo(TlsContextOptions.TlsVersions.TLSv1_3);
+    }
+
+
+    private static Stream<Arguments> defaultConnectionHealthConfigurationCases() {
+        return Stream.of(
+            Arguments.of(Duration.ofSeconds(30), Duration.ofSeconds(30), 30),
+            Arguments.of(Duration.ofSeconds(60), Duration.ofSeconds(10), 60),
+            Arguments.of(Duration.ofSeconds(10), Duration.ofSeconds(45), 45),
+            // overflow: value exceeding Integer.MAX_VALUE should saturate
+            Arguments.of(Duration.ofSeconds((long) Integer.MAX_VALUE + 1), Duration.ofSeconds(1), Integer.MAX_VALUE),
+            Arguments.of(Duration.ofSeconds(1), Duration.ofSeconds((long) Integer.MAX_VALUE + 1), Integer.MAX_VALUE)
+        );
+    }
+
+}

@@ -1,0 +1,139 @@
+--- RCPTT testcase ---
+Format-Version: 1.0
+Contexts: _znjMEBtDEeWSh6BKjAxDIw,_OCxtEBRGEeWWV9IuysVI_A,_-43SwLYwEeazMIT-6yPcSw,_2Q6oEPOSEeaWpbE3jg39cA,_jcbUQGu1Eeeps9cepQRw2Q
+Element-Name: DebugForReturnedObjects
+Element-Type: testcase
+Element-Version: 3.0
+External-Reference: 
+Id: _uTxjELYgEeazMIT-6yPcSw
+Runtime-Version: 2.4.3.201909171500
+Save-Time: 11/27/19 4:11 PM
+Tags: Debug
+Testcase-Type: ecl
+
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac
+Content-Type: text/ecl
+Entry-Name: .content
+
+get-view "Project Explorer" | get-tree | select "ReturnObjects/test.robot" | double-click
+
+//add BP
+with [get-editor "test.robot" | get-left-ruler | get-ruler-column AnnotationColumn] {
+    double-click-ruler 9
+    double-click-ruler 19
+}
+
+//run test
+exec-with-options -disableJobWaiting -command {
+	get-view "Project Explorer" | get-tree | select "ReturnObjects/test.robot" | get-menu "Debug As/1 Robot Test" | click
+	
+	//wait for starting debug
+	wait-for-thread -file "test.robot"
+	
+	check-debug-marker-on-ruler -line 9 -script_name "test.robot"
+	
+	//script dill be stopped at 10th line		
+	get-button "Step Into (F5)" | click
+	wait 1000
+	check-debug-marker-on-ruler -line 10 -script_name "test.robot"
+	
+	//click to set focus (to see on screenshot if fail)
+	
+	//get-view Variables | maximize
+	wait 2000
+//	with [get-view Variables | get-tree] {
+//	    get-item ".*" -index 1 | key-type Home
+//	    select "@{List_elems}"
+//	}
+	//check if list of object is shown in variables
+	get-view Variables | get-tree | get-item ".*" -index 0 | expand-all
+	with [get-view Variables | get-tree] {
+	    get-item "@{List_elems}/\\[0\\]" | get-property "values['Name']" | equals "[0]" | verify-true
+	    get-item "@{List_elems}/\\[0\\]" | get-property "values['Value']" 
+	        | equals "<lib_returns_obj.A object at .*>" | verify-true
+	    get-item "@{List_elems}/\\[1\\]" | get-property "values['Name']" | equals "[1]" | verify-true
+	    get-item "@{List_elems}/\\[1\\]" | get-property "values['Value']" 
+	        | equals "<lib_returns_obj.A object at .*>" | verify-true
+	    get-item "@{List_elems}" | get-property childCount | equals 2 | verify-true
+	}
+	get-view Variables | restore
+	
+	
+	//go to single object assign to variable
+	get-button "Step Into (F5)" | click
+	wait-for-specified_line-in-first-thread -line 11 -nr_of_frames 3
+	
+	check-debug-marker-on-ruler -line 11 -script_name "test.robot"
+	
+	get-view Variables | get-tree | select "${one_elem}"
+	with [get-view Variables | get-tree] {
+	    get-item "${one_elem}" | get-property "values['Name']" | equals "${one_elem}" | verify-true
+	    get-item "${one_elem}" | get-property "values['Value']" | equals "<lib_returns_obj.A object at .*>" 
+	        | verify-true
+	}
+	
+	//go to map (3 items)
+	get-button "Step Into (F5)" | click
+	wait 1000
+	check-debug-marker-on-ruler -line 12 -script_name "test.robot"
+	
+	get-view Variables | get-tree | get-item ".*" -index 0 | expand-all
+	try -delay 500 -times 5 -command{
+		get-view Variables | get-tree | get-item -path "&{map}/key2" | get-property "values['Value']" 
+    		| not-eq "" | verify-true        
+	}
+	with [get-view Variables | get-tree] {
+	    get-item "&{map}/<lib_returns_obj.A object at .*>" | get-property "values['Name']" 
+	        | equals "<lib_returns_obj.A object at .*>" | verify-true
+	    get-item "&{map}/<lib_returns_obj.A object at .*>" | get-property "values['Value']" 
+	        | equals "<lib_returns_obj.A object at .*>" | verify-true
+	        
+	    get-item "&{map}/key" | get-property "values['Name']" | equals key | verify-true
+	    get-item "&{map}/key" | get-property "values['Value']" | equals "<lib_returns_obj.A object at .*>" 
+	        | verify-true
+	        
+	    get-item "&{map}/key2" | get-property "values['Name']" | equals key2 | verify-true
+	    get-item "&{map}/key2" | get-property "values['Value']" | equals "<lib_returns_obj.A object at .*>" 
+	        | verify-true
+	    get-item "&{map}" | get-property childCount | equals 3 | verify-true
+	}
+	
+	//resume to set on second BP
+	get-button "Resume (F8)" | click
+	wait 500
+	check-debug-marker-on-ruler -line 19 -script_name "test.robot"
+
+	
+	//check that Call method is run on singe object
+	with [get-view Variables | get-tree] {
+	    get-item "${val}" | get-property "values['Name']" | equals "${val}" | verify-true
+	    get-item "${val}" | get-property "values['Value']" | equals 7 | verify-true
+	}
+	
+	//go to Call method on object get from list
+	get-button "Resume (F8)" | click
+
+}
+wait-for-console
+    
+get-view "Message Log" | get-editbox | get-property text | equals "Starting test: ReturnObjects.Test.test\n"
+    + ".* : INFO : @\{List_elems\} = \[ <lib_returns_obj.A object at .*> \| <lib_returns_obj.A object at .*> \]\n"
+    + ".* : INFO : \$\{one_elem\} = <lib_returns_obj.A object at .*>\n"
+    + ".* : INFO : &\{map\} = \{ .*\n"
+    + ".* : INFO : text\n"
+    + ".* : INFO : \$\{val\} = 7\n"
+    + ".* : INFO : 7\n"
+    + ".* : INFO : \$\{obj\} = <lib_returns_obj.A object at .*>\n"
+    + ".* : INFO : \$\{val_from_list\} = 7\n"
+    + ".* : INFO : 7\n"
+    + ".* : INFO : \$\{val_from_list\} = 7\n"
+    + ".* : INFO : 7\n"
+    + ".* : INFO : @\{keys\} = \[ key \| key2 \| <lib_returns_obj.A object at .*> \]\n"
+    + ".* : INFO : Those are keys from objects\n"
+    + ".* : INFO : \['key', 'key2', <lib_returns_obj.A object at .*>\]\n"
+    + ".* : INFO : \$\{x\} = (7|None)\n"
+    + ".* : INFO : \$\{x\} = (7|None)\n"
+    + ".* : INFO : \$\{x\} = (7|None)\n"
+    + "Ending test: ReturnObjects.Test.test" | verify-true
+    
+------=_.content-0a7243a0-75d3-3d5f-9791-539de0e5b7ac--
