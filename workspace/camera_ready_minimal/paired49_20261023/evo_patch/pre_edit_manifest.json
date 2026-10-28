@@ -1,0 +1,38 @@
+[
+  {
+    "file": "mavenLib.py",
+    "original_sha256": "2600f394b278762bf8847e745d959126323b6c5c2208b1be3da01fb7bcb996bc",
+    "backup": "evo_patch\\backup\\mavenLib.py",
+    "working": "evo_patch\\working\\AgoneTest\\mavenLib.py"
+  },
+  {
+    "file": "gradleLib.py",
+    "original_sha256": "5c2c34426a166b3b8f573f3246ff238839131a21c9998221044307ecdd469dba",
+    "backup": "evo_patch\\backup\\gradleLib.py",
+    "working": "evo_patch\\working\\AgoneTest\\gradleLib.py"
+  },
+  {
+    "file": "utils.py",
+    "original_sha256": "fda423576fe1cc9cfc23c1757935d0570ee4fb1b21d6a25bcee842269cf5087b",
+    "backup": "evo_patch\\backup\\utils.py",
+    "working": "evo_patch\\working\\AgoneTest\\utils.py"
+  },
+  {
+    "file": "agone_test.py",
+    "original_sha256": "f670810384f524b39654060df5356373d8759fb52e998531306e55a8aabb1729",
+    "backup": "evo_patch\\backup\\agone_test.py",
+    "working": "evo_patch\\working\\AgoneTest\\agone_test.py"
+  },
+  {
+    "file": "toolchains.py",
+    "original_sha256": "dd542bb9ac81c63a1dc1f9514a7f110aada4a382427ae86e33dbbd5c752414e5",
+    "backup": "evo_patch\\backup\\toolchains.py",
+    "working": "evo_patch\\working\\AgoneTest\\toolchains.py"
+  },
+  {
+    "file": "errorCorrection.py",
+    "original_sha256": "2792c38ecb2ac103d6f9dc9ec01a8616ae35d2e1741668b9b49d0fcba23985fd",
+    "backup": "evo_patch\\backup\\errorCorrection.py",
+    "working": "evo_patch\\working\\AgoneTest\\errorCorrection.py"
+  }
+]

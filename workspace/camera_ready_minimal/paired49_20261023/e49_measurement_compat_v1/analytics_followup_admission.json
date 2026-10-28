@@ -1,0 +1,11 @@
+{
+  "kind": "full49 analytics follow-up only",
+  "created_utc": "2026-10-23T16:17:23.817875+00:00",
+  "controller_sha256": "5cc53a09bc98ef88c6b7c6e06c5974b3f87d610072011b8ba2892bbcf09df4b7",
+  "readiness_sha256": "6fa1b9422317fd9d599182d89a7b13359d67da5a33e3ae0490698a624cafad2e",
+  "protocol_sha256": "6bc155652470ef74c0b173149041090b183eb84a8e665cbd223a459eed5d0f13",
+  "analyzer_sha256": "dbed961bcd199864ed2c8da044ea8f71498dd83d7b477f3dfe69c66a606adfc5",
+  "generation_calls": 0,
+  "GPT_API_calls": 0,
+  "partial_analysis_forbidden": true
+}

@@ -1,0 +1,59 @@
+{
+  "job_index": 40,
+  "class_key": "78444970:examples/graph/src/main/java/graph/algorithm/mst/jarnikprim.java",
+  "repo_id": "78444970",
+  "G0_archived_mutation_percent": "50.0",
+  "E0_archived_mutation_percent": "35.71",
+  "E1_archived_mutation_percent": "50.0",
+  "seed": 20261271,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "graph.algorithm.mst.JarnikPrim_ESTest",
+  "surefire_suites": [
+    {
+      "name": "graph.algorithm.mst.JarnikPrim_ESTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 219,
+  "focal_mutants": 14,
+  "killed_mutants": 7,
+  "focal_mutant_qualified_classes": [
+    "graph.algorithm.mst.JarnikPrim"
+  ],
+  "mutation_score_percent": 50.0,
+  "legacy_strict_mutation_percent": 50.0,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "graph",
+      "PACKAGE": "graph.algorithm.mst",
+      "CLASS": "JarnikPrim",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "121",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "22",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "26",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "14",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "3"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "index": 6,
+    "class_key": "39195736:sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/javapropertiesplugin.java",
+    "PIT": "ZERO_FOCAL_MUTANTS",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 1,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": null,
+    "score_basis": "UNDEFINED_ZERO_FOCAL_MUTANTS",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 10,
+    "class_key": "77481567:core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/discretetimeframeconvertingindicator.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "SKIPPED_OR_INCOMPLETE",
+    "test_counts": {
+      "tests": 1,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 1
+    },
+    "jacoco_focal_evidence": true,
+    "observed_mutation_percent": 0.0,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": true
+  },
+  {
+    "index": 17,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/missingtranslationscheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 3,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 0.0,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 52,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/toomanykeyscheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 2,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 33.33,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 58,
+    "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/doubleconfigurationresolver.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "SKIPPED_OR_INCOMPLETE",
+    "test_counts": {
+      "tests": 2,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 1
+    },
+    "jacoco_focal_evidence": true,
+    "observed_mutation_percent": 0.0,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": true
+  },
+  {
+    "index": 60,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/keynamingconventioncheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 3,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 33.33,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 74,
+    "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/cfg4jconfiguration.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "FAIL",
+    "test_counts": {
+      "tests": 19,
+      "errors": 18,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": true,
+    "observed_mutation_percent": 0.0,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": true
+  },
+  {
+    "index": 108,
+    "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "FAIL",
+    "test_counts": {
+      "tests": 5,
+      "errors": 4,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": true,
+    "observed_mutation_percent": 0.0,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": true
+  },
+  {
+    "index": 132,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/linelengthcheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 3,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 12.5,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 137,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/commentconventioncheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 7,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 66.67,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 150,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/duplicatedvaluescheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 6,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 41.18,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 160,
+    "class_key": "39195736:sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/javapropertiessquidsensor.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 1,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 0.0,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 247,
+    "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/util.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "FAIL",
+    "test_counts": {
+      "tests": 33,
+      "errors": 0,
+      "failures": 1,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": true,
+    "observed_mutation_percent": 0.0,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": true
+  },
+  {
+    "index": 250,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/separatorconventioncheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 7,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 47.37,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 261,
+    "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/hardcodedcredentialscheck.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "PASS",
+    "test_counts": {
+      "tests": 8,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "jacoco_focal_evidence": false,
+    "observed_mutation_percent": 81.82,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": false
+  },
+  {
+    "index": 289,
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/config/jobconfig.java",
+    "PIT": "VALID_FOCAL_REPORT",
+    "test_execution": "SKIPPED_OR_INCOMPLETE",
+    "test_counts": {
+      "tests": 45,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 1
+    },
+    "jacoco_focal_evidence": true,
+    "observed_mutation_percent": 35.71,
+    "score_basis": "OBSERVED_PIT_AND_PROCESS_GATE",
+    "process_gate": 1,
+    "nonpassing_suite_with_valid_PIT": true
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "generation_calls": 1,
+  "study_classes_generated": 0,
+  "GPT_calls": 0,
+  "jdk": "1.8.0_172",
+  "seed": 20261023,
+  "search_budget_seconds": 60,
+  "generated_test_and_scaffold": {
+    "generated\\fixture\\BranchFixture_ESTest.java": "fe1f75b9ff8731c67bce19d9b2f3cb8044d9e072021054295bf11f406f1d5be3",
+    "generated\\fixture\\BranchFixture_ESTest_scaffolding.java": "95f0f0aaa95b92e08671bc651c99493b7b9c5f9cc0e4f5de1178a3b407eae524"
+  },
+  "tool_hashes": {
+    "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe": "c7dd77f9cbd10b638b5aea55a923e2fac41ddd5dbfc0ec635df527ce799bf182",
+    "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\javac.exe": "b834c7e49500e081b9a1bbb14175eee07685dd74598fdda5f04796289c904ef3",
+    "C:\\Program Files\\Java\\jdk1.8.0_172\\lib\\tools.jar": "77cc420723a001c08bb588a3e6b7f955c6468bffa099e731f61ab8098f153f5c",
+    "D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar": "cc856a6d02b391367d2a4516346c699c67e4b4a370203471df1f3d78b46b74dc",
+    "D:\\A_ThucNghiem\\scripts_v2\\evosuite-1.2.0.jar": "0bc0062fdec70c35089ad736c9b88ccf87308c2f0aaaafe43176f3c4a89ddeba",
+    "C:\\Users\\admin\\.m2\\repository\\junit\\junit\\4.13.2\\junit-4.13.2.jar": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
+    "C:\\Users\\admin\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9"
+  },
+  "generated_bytes_modified": false,
+  "generated_suite_passes": true,
+  "intentional_failure_rejected": true,
+  "missing_scaffold_rejected": true,
+  "synthetic_behavior_change_detected": true,
+  "generation_attach_error_markers_present": false,
+  "parent_environment_unchanged": true,
+  "runtime_fix": "child JAVA_TOOL_OPTIONS boot-loads existing tools.jar",
+  "maven_jacoco_pit_integration_validated": false,
+  "original_experiment_changed": false,
+  "limitations": "Synthetic direct CLI/JUnit fixture only; not PIT measurement, 49-class execution or study efficacy result"
+}

@@ -1,0 +1,149 @@
+{
+  "at_utc": "2026-10-25T23:28:15.200830+00:00",
+  "scope": "verified checkpoint; full300 incomplete",
+  "new_terminal_classes": 3,
+  "accepted49": 49,
+  "Maven_remaining": 208,
+  "Gradle_unattempted": 40,
+  "new_generation_benchmark": 3,
+  "generation_synthetic_fixtures": 2,
+  "GPT_API_calls": 0,
+  "original585_guard": "PASS",
+  "GPT_guard": "PASS",
+  "accepted49_guard": "PASS",
+  "disk_free_bytes": 18729136128,
+  "rows": [
+    {
+      "index": 3,
+      "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/manytomanyannotationhandler.java",
+      "gate": 1,
+      "strict_percent": 100.0,
+      "focal_mutants": 1,
+      "killed_mutants": 1,
+      "suite_evidence": true,
+      "measurement_evidence": true,
+      "generation_calls": 1,
+      "measurement_result": "jobs\\003_native_junit_diagnostic_v3\\diagnostic_result.json"
+    },
+    {
+      "index": 6,
+      "class_key": "39195736:sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/javapropertiesplugin.java",
+      "gate": 1,
+      "strict_percent": 0.0,
+      "focal_mutants": 0,
+      "killed_mutants": 0,
+      "suite_evidence": true,
+      "measurement_evidence": false,
+      "generation_calls": 1,
+      "measurement_result": "jobs\\006\\result.json"
+    },
+    {
+      "index": 8,
+      "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/secureannotationhandler.java",
+      "gate": 1,
+      "strict_percent": 0.0,
+      "focal_mutants": 2,
+      "killed_mutants": 0,
+      "suite_evidence": true,
+      "measurement_evidence": true,
+      "generation_calls": 1,
+      "measurement_result": "jobs\\008\\result.json"
+    }
+  ],
+  "archives": {
+    "003": {
+      "status": "PASS",
+      "files_verified": 605,
+      "manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d",
+      "post_archive_append": {
+        "relative": "events.jsonl",
+        "prefix_bytes": 10213,
+        "prefix_sha256": "199729585a3ed673f450e8ef3c0f80d7f13dc398e216c617a267e2468cc8f121",
+        "appended_bytes": 419,
+        "appended_sha256": "61974a7dfc65896b23ba786c136ce1ddac7b4c0494468c5a10c4b0799b1595c8",
+        "current_sha256": "9a9066e895152343c582946e6dae243220662de357f6b34a81c3c3db2345c9db",
+        "verified_terminal_event": {
+          "timestamp_utc": "2026-10-25T23:09:27.392717+00:00",
+          "kind": "JOB_TERMINAL",
+          "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/manytomanyannotationhandler.java",
+          "result_sha256": "b0eb2d05f91787a62e078e5edd2fc01ab306c3ed020c846afb96766f3793568c",
+          "artifact_manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d"
+        }
+      },
+      "file_census": "PASS"
+    },
+    "006": {
+      "status": "PASS",
+      "files_verified": 508,
+      "manifest_sha256": "2f241f9bcc13d97358bd550d1164f8025ba6dec7dd9ece16f2f1ebf111dc8788",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "008": {
+      "status": "PASS",
+      "files_verified": 759,
+      "manifest_sha256": "9b0934bc923c7df8ab7996929e6019a676676c3514d87659389165bdf576a1e4",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "003_native_junit_diagnostic_v3": {
+      "status": "PASS",
+      "files_verified": 696,
+      "manifest_sha256": "e4d8638c73bed3b0c40e636a663990ec800183fe72a94afe4b3e64d0b56f2455",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    }
+  },
+  "monitor_HTTP_checks": [
+    {
+      "path": "/",
+      "host": null,
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/status.json",
+      "host": null,
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/manifest.json",
+      "host": null,
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/audit/",
+      "host": null,
+      "method": "GET",
+      "status": 404
+    },
+    {
+      "path": "/jobs/003/result.json",
+      "host": null,
+      "method": "GET",
+      "status": 404
+    },
+    {
+      "path": "/../protocol.json",
+      "host": null,
+      "method": "GET",
+      "status": 404
+    },
+    {
+      "path": "/",
+      "host": "example.com",
+      "method": "GET",
+      "status": 403
+    },
+    {
+      "path": "/",
+      "host": null,
+      "method": "POST",
+      "status": 501
+    }
+  ],
+  "monitor_visual_check": "Unavailable this turn: local browser use disabled in Work settings",
+  "Gradle_metadata_status": "PASS_METADATA_ONLY"
+}

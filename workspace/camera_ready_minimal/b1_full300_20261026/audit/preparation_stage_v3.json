@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-10-25T22:59:40.803423+00:00",
+  "source_snapshots": {
+    "status": "PASS",
+    "snapshots": 251,
+    "source_files": 517483,
+    "logical_source_bytes": 8230643238,
+    "unique_blobs": 52323,
+    "unique_bytes_including_settings": 876207591,
+    "store_bytes": 916279296,
+    "store_sha256": "8356341728b2a41ad83dc182bf04dd294c90580ad21299c303b6db8fdeb1a33c",
+    "index_sha256": "7e6c92596a88bcd91534a51168bc8fdf91196207a84d110b70d83f61d800a91f",
+    "protocol_sha256": "ad9de7fbb903be7a621c1dfb0aa774f97a25ce370a777b9c31badffb92306408",
+    "every_blob_rehashed": true,
+    "GPT_guard": "PASS",
+    "new_experiment_calls": 0,
+    "benchmark_admitted": false
+  },
+  "private_cache": {
+    "status": "PASS",
+    "files": 116010,
+    "bytes": 8362774928,
+    "manifest_sha256": "33cf54d5fb70206dcf17d6dcfdbeb324315c223fc36ebdb77215c0327a2f4e45",
+    "copy_log_sha256": "a601dcc2d5818e0c7e11f5053d7a1d3d2b9c97361ead12f0e7110f4092745dc3",
+    "independent_copy": true,
+    "experiment_calls": 0,
+    "network_calls": 0
+  },
+  "checks": {
+    "snapshot_store_v1": {
+      "status": "PASS",
+      "sha256": "97e4de160979e0338396e7de7fef8404c0b658720b9487d759fa9b5e2ca8ff1d",
+      "path": "validation/snapshot_store_v1/result.json"
+    },
+    "snapshot_reader_v2": {
+      "status": "PASS",
+      "sha256": "88943db9e9cf48f96f12c693b9de1fe047ce5964d83a0944c5dd3f37b4f240d9",
+      "path": "validation/snapshot_reader_v2/result.json"
+    },
+    "snapshot_reader_v3": {
+      "status": "PASS",
+      "sha256": "5367676da84e3341f166f8a58c665966cbcfb11b64849fcb24dc0472c3aa3e31",
+      "path": "validation/snapshot_reader_v3/result.json"
+    },
+    "maven_adapter_v1": {
+      "status": "PASS",
+      "sha256": "94f1a8807ed3555c4eb8996c881c2db926e53f6111afa2ad575e5f39bdd01429",
+      "path": "validation/maven_adapter_v1/result.json"
+    },
+    "measurement_parser_v1": {
+      "status": "PASS",
+      "sha256": "fc43c7261b0283140db8aea4174c7525534bf1f02c95346a1ff4f0da0670e326",
+      "path": "validation/measurement_parser_v1/result.json"
+    },
+    "process_supervisor_v1": {
+      "status": "PASS",
+      "sha256": "c6a4515beb1cbd9e174a6ec07bee21026106364a4ad33269b17f0e958f619f37",
+      "path": "validation/process_supervisor_v1/result.json"
+    },
+    "pom_integration_guard_v1": {
+      "status": "PASS",
+      "sha256": "48dd19406bdf0a075d8d200e08d6247abe5b4854d8291c2583b7f84d0c513c98",
+      "path": "validation/pom_integration_guard_v1/result.json"
+    },
+    "prepare_sandbox_v1": {
+      "status": "PASS",
+      "sha256": "b9d76a2e64c611bd3e6574f0a3a9d11a6cf0a746fe423061024c741dfd6fb7d7",
+      "path": "validation/prepare_sandbox_v1/result.json"
+    }
+  },
+  "runtime_fixture": {
+    "status": "PASS",
+    "generation_calls": 1,
+    "strict_measurement_evidence": true,
+    "score": 100.0,
+    "mutants": 6,
+    "generated_source_unchanged": true,
+    "production_bytecode_unchanged": true,
+    "benchmark_admitted": false,
+    "GPT_API_calls": 0,
+    "limitation": "synthetic integration only; not full300 admission"
+  },
+  "GPT_guard": "PASS",
+  "originals_guard": "PASS_585",
+  "benchmark_admitted": false,
+  "new_benchmark_classes": 0,
+  "reused_E49": 49,
+  "new_GPT_API_calls": 0,
+  "pending_maven_classes": 211,
+  "pending_gradle_classes": 40,
+  "remaining": [
+    "production controller/command admission integration",
+    "runtime policy/classpath/bytecode guards for real Maven jobs",
+    "Gradle-specific wrapper/JDK/gate/timeout mapping and qualification",
+    "full300 final evidence audit after actual execution"
+  ]
+}

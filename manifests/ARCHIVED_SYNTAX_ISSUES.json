@@ -1,0 +1,22 @@
+[
+  {
+    "path": "workspace/camera_ready_minimal/paired49_20261023/backups/replay_measurement_v3_construction01/replay_fixed49_measurement_v3.py",
+    "type": "SyntaxError",
+    "line": 33
+  },
+  {
+    "path": "workspace/camera_ready_minimal/paired49_20261023/e49_driver/backup/e49_driver_before_timeout_detail_fix.py",
+    "type": "SyntaxError",
+    "line": 64
+  },
+  {
+    "path": "workspace/camera_ready_minimal/paired49_20261023/e49_driver/backup/e49_driver_before_try_block_fix.py",
+    "type": "SyntaxError",
+    "line": 64
+  },
+  {
+    "path": "workspace/camera_ready_minimal/paired49_20261023/e49_driver/observer_v3_dev/archive_e49_final_v3.before01.py",
+    "type": "SyntaxError",
+    "line": 25
+  }
+]

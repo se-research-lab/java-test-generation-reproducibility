@@ -1,0 +1,62 @@
+{
+  "n": 300,
+  "repository_n": 30,
+  "repo_order": [
+    "3713233",
+    "3847504",
+    "39195736",
+    "41547678",
+    "41627638",
+    "43105609",
+    "44308560",
+    "45997449",
+    "46396068",
+    "46450575",
+    "48046454",
+    "49384652",
+    "558963",
+    "60578004",
+    "61565876",
+    "6293402",
+    "6437134",
+    "64487983",
+    "66303306",
+    "6944525",
+    "74999474",
+    "77481567",
+    "78444970",
+    "81384608",
+    "85795396",
+    "95247959",
+    "9619226",
+    "97822421",
+    "98410891",
+    "9884445"
+  ],
+  "source_sha256": "92ba89c3000be4b28ffc361ea19630764582d262c1e8817477dc54ac0fd4e724",
+  "strict_mutation_mean_difference_pp": 4.842066666666667,
+  "strict_mutation_repository_percentile95CI_pp": [
+    0.97675,
+    9.509346666666666
+  ],
+  "build_rate_difference_pp": -32.333333333333336,
+  "build_rate_repository_percentile95CI_pp": [
+    -47.0,
+    -17.666666666666668
+  ],
+  "strict_mean_leave_one_repo_out_range_pp": [
+    3.3071379310344824,
+    5.513965517241379
+  ],
+  "direction_counts": {
+    "GPT_higher": 46,
+    "E0_higher": 70,
+    "ties": 184
+  },
+  "limitations": [
+    "historical E0 assertions-off",
+    "repository bootstrap sensitivity does not validate legacy measurement gate",
+    "mean CI is not the paper signed-rank NI test and does not close NI-margin justification",
+    "fixed300/GPT RQ123 inputs untouched"
+  ]
+}

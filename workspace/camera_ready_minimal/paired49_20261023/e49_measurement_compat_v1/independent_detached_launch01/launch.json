@@ -1,0 +1,19 @@
+{
+  "pid": 8644,
+  "argv": [
+    "C:/Users/admin/AppData/Local/Programs/Python/Python310/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:/A_ThucNghiem/camera_ready_minimal/paired49_20261023/audit.py",
+    "run",
+    "compat49_independent_followup_v1",
+    "C:/Users/admin/AppData/Local/Programs/Python/Python310/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:/A_ThucNghiem/camera_ready_minimal/paired49_20261023/src/followup_compat49_independent_v1.py"
+  ],
+  "created_utc": "2026-10-23T16:19:08.385Z",
+  "controller_sha256": "ab8a4320ab1a00b04e6436b13cf4834b63c689bf79450c320d66cb661f8f52ae"
+}

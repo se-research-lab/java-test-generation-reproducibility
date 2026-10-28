@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-10-25T22:12:04.168450+00:00",
+  "results": {
+    "/": 200,
+    "/status.json": 200,
+    "/manifest.json": 200,
+    "/src/source_census_v1.py": 404,
+    "/audit/input_lock.json": 404,
+    "/../Reviewer.txt": 404,
+    "foreign_host": 403,
+    "POST": 501
+  },
+  "browser_check": "Verified rendered counters, Gradle filter40, page26-40, reset300 using browser UI; experiment-control routes absent"
+}

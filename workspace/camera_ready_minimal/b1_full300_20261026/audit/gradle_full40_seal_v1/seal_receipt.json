@@ -1,0 +1,11 @@
+{
+  "admission_sha256": "aaa51113304a9dd027671a8650eae2fa555ff860685d0ae895a630d308a7354a",
+  "code_input_pins": 12941,
+  "classes": 40,
+  "original_source_cache_unchanged": true,
+  "new_Java_calls": 0,
+  "new_EvoSuite_calls": 0,
+  "GPT_API_calls": 0,
+  "baseline_terminal": 240,
+  "baseline_deferred_Maven": 20
+}

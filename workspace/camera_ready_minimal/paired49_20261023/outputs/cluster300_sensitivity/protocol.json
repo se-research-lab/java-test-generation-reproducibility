@@ -1,0 +1,14 @@
+{
+  "scope": "post-review sensitivity; historical outcomes already known",
+  "replicates": 20000,
+  "seed": 20261023,
+  "estimands": [
+    "class-weighted strict mutation mean GPT minus E0 in pp",
+    "paired process-build rate difference GPT minus E0 in pp"
+  ],
+  "resampling": "sample whole repository clusters with replacement, preserve pairs; lexicographic repo order; ratio of total difference to total class count",
+  "confidence": "95% percentile CI",
+  "new_NI_decision": false,
+  "new_generation": false,
+  "replaces_RQ123_inputs": false
+}

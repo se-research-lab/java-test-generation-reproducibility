@@ -1,0 +1,63 @@
+{
+  "formula": "round(100*KILLED/N,2)",
+  "denominator": "all focal SourceFile+package rows including nested classes",
+  "TIMED_OUT_in_numerator": false,
+  "TIMED_OUT_in_denominator": true,
+  "scope": "shared original G0/E0 reducer and frozen E1 reducer; do not replace with PIT HTML metric",
+  "sources": [
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\backup\\original\\scripts_v2\\AgoneTest\\utils.py",
+      "sha256": "fda423576fe1cc9cfc23c1757935d0570ee4fb1b21d6a25bcee842269cf5087b"
+    },
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\backup\\original\\scripts_v2\\rbl4_v2_runner.py",
+      "sha256": "f02dfcc554babe2fff05ca3d5aa944b1fb8dff4570e600c4f6afab18f16ef6a2"
+    },
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\measurement_parser_v1.py",
+      "sha256": "efcc938a2f28948c6124560bf1ee91340d5b9bfb2cb3963cca2788a1f643d24a"
+    },
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\measurement_parser_completion_v2.py",
+      "sha256": "3d35070cac121a44e034e008c85a495f2e6d9a7dc07aeb897faedb3e53151848"
+    },
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_measurement_parser_v1.py",
+      "sha256": "7b2cdabe918ab77c31a2e0b744c5c04583c93ffb2d6c64d13a7c140fd045d6eb"
+    }
+  ],
+  "G0_raw_formula_reverified": 61,
+  "E0_raw_formula_reverified": 0,
+  "E1_raw_formula_reverified": 221,
+  "historical_limitation": "E0 per-arm metrics and common reducer preserved; surviving shared-workspace reports cannot be independently attributed to E0 for all classes. Do not relabel unowned final reports as E0.",
+  "class294": {
+    "index": 294,
+    "class_key": "6293402:server/src/main/java/com/vaadin/server/communication/serverrpchandler.java",
+    "G0_strict": 0.0,
+    "E0_strict": 0.0,
+    "G0_score_basis": "HISTORICAL_POLICY_ZERO_NOT_OBSERVED_MUTATION",
+    "E0_score_basis": "HISTORICAL_POLICY_ZERO_NOT_OBSERVED_MUTATION",
+    "observed_mutation_percent": 0.0,
+    "PIT_status_counts": {
+      "NO_COVERAGE": 38,
+      "TIMED_OUT": 6
+    },
+    "focal_mutants": 44,
+    "killed_mutants": 0,
+    "E1_K_plus_T_diagnostic_percent": 13.64,
+    "test_counts": {
+      "tests": 8,
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0
+    },
+    "process_gate": 1,
+    "raw_reports": [
+      {
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\294_completion_pom_resume_final2_v1\\repo\\server\\target\\pit-reports\\mutations.csv",
+        "sha256": "5f3b7aef4f5559c553d38abafbef3c24bee1170d5c1c167a5d1b8309be7868b3"
+      }
+    ]
+  },
+  "alternative_K_plus_T": "diagnostic arithmetic only; not applied to reported scores or RQs. A global replacement cannot be reconstructed from unavailable arm-specific E0 reports."
+}

@@ -1,0 +1,59 @@
+{
+  "job_index": 10,
+  "class_key": "41547678:turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/qualifiedname.java",
+  "repo_id": "41547678",
+  "G0_archived_mutation_percent": "82.86",
+  "E0_archived_mutation_percent": "42.86",
+  "E1_archived_mutation_percent": "88.57",
+  "seed": 20261251,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "me.tomassetti.turin.parser.ast.QualifiedName_ESTest",
+  "surefire_suites": [
+    {
+      "name": "me.tomassetti.turin.parser.ast.QualifiedName_ESTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 2490,
+  "focal_mutants": 35,
+  "killed_mutants": 31,
+  "focal_mutant_qualified_classes": [
+    "me.tomassetti.turin.parser.ast.QualifiedName"
+  ],
+  "mutation_score_percent": 88.57,
+  "legacy_strict_mutation_percent": 88.57,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "turin-compiler",
+      "PACKAGE": "me.tomassetti.turin.parser.ast",
+      "CLASS": "QualifiedName",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "217",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "36",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "44",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "32",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "14"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

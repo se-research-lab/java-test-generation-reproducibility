@@ -1,0 +1,199 @@
+{
+  "class_count": 18,
+  "files": [
+    {
+      "sample_index": 12,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 16,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 23,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 77,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 90,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 99,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 126,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 157,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 200,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 201,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 226,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 232,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 236,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 259,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 263,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 266,
+      "relative": ".mvn/jvm.config",
+      "sha256": "c9170c409f2eacbba80b98c7dec05aaa23cf96324d3e21236b00d651261d75e2",
+      "allowed_original_options": [
+        "-Xms2g",
+        "-Xmx4g"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 287,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    },
+    {
+      "sample_index": 289,
+      "relative": ".mvn/maven.config",
+      "sha256": "efc161bc3d27ab6c8da5d283b546d2788cfb9a5fdab0ef182288301c0a2df95b",
+      "allowed_original_options": [
+        "-T0.5C"
+      ],
+      "unqualified_options": [],
+      "status": "UNCHANGED_ACCEPTABLE"
+    }
+  ],
+  "unqualified_class_indices": [],
+  "source_changes": 0,
+  "experiment_calls": 0,
+  "note": "Original project options preserved. Maven -T is internal reactor concurrency; benchmark job concurrency remains1. No budget-equality claim."
+}

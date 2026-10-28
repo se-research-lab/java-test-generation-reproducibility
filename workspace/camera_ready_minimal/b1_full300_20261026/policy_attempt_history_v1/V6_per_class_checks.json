@@ -1,0 +1,1379 @@
+[
+  {
+    "index": 74,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 76,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 0,
+    "technical_retry": true,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 77,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 78,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 79,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 82,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 83,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 85,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 86,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 87,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 89,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 90,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 91,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 92,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 93,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 94,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 95,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 96,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 99,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 100,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 102,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 103,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 104,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 107,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 109,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 111,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 113,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 115,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 116,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 117,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 118,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 121,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 122,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 125,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 126,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 127,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 128,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 130,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 132,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 133,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 136,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 137,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 138,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 139,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 141,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 143,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 144,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 145,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 146,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 147,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 148,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 149,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 150,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 151,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 152,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 154,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 155,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 157,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 158,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 159,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 160,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 162,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 164,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 168,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 171,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 172,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 174,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 176,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 177,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 178,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 179,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 180,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 181,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 182,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 0,
+    "technical_retry": true,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 183,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 185,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 186,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 187,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 188,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 189,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 190,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 191,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 192,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 193,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 195,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 196,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 198,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 200,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 201,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 202,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 204,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 205,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 206,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 208,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 209,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 210,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 213,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 214,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 217,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 218,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 219,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 221,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 223,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 224,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 225,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 226,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 231,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 232,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 234,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 235,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 236,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 238,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 239,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 242,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 243,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 244,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 2,
+    "measurement_lifecycles": 1,
+    "technical_retry": true,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 245,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 246,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 247,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 249,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 250,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 252,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 253,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 254,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 255,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 256,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 258,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 259,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 260,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 261,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 262,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 263,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 266,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 267,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 270,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 272,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 273,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 277,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 278,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 282,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 283,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 284,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 285,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 286,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 287,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 0,
+    "technical_retry": false,
+    "native_source_hash_rows": 0,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 288,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 289,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 291,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 293,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 295,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 296,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 297,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  },
+  {
+    "index": 298,
+    "V6_admission_hash": "PASS",
+    "actual_generation_processes": 1,
+    "measurement_lifecycles": 1,
+    "technical_retry": false,
+    "native_source_hash_rows": 2,
+    "new_manual_repair_or_result_selection_in_V6": "NO_EVIDENCE_IN_RECORDED_ARTIFACTS"
+  }
+]

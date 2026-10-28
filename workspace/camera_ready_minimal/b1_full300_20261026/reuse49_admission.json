@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FOR_ARCHIVED_FINAL_E49",
+  "n": 49,
+  "registry_counts": {
+    "measurement49_camera_ready_registry_v1.json": 685,
+    "camera_ready_response_registry_v1.json": 69,
+    "disclosure_only_registry_v1.json": 56
+  },
+  "basis": "exact cohort keys, sampling index seeds, final result and all registered raw-evidence hashes",
+  "future_union_condition": "remaining251 must use the frozen compatible protocol; no E0 rows substituted. Any profile amendment invalidating compatibility requires separate version/cohort decision, not silent reuse",
+  "post_hoc_scope_extension": true,
+  "outcomes_E49_already_known": true,
+  "new_experiment_calls": 0
+}

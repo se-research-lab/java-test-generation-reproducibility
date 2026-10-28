@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "e49_driver\\input_manifest49.json": "701c11517df070f687b019e3baa138bcdb94830553f0ea94cadf52f441dec6d5",
+    "e49_driver\\protocol49.json": "09616a9b5e988441655870fc04877e050f8ed11af5878da6e4d678cd803abe79",
+    "e49_driver\\readiness_lock.json": "1fd7dbc4d842305439ebf1c370b769b2d232c041f5aebe9b696471ff7200712a",
+    "e49_driver\\results49.json": "5a7873ed3600b60fb4dc27fccb65468c8f0a39f1c38a763cea8dd467f24c0dd9",
+    "outputs\\paired49.csv": "6a4bd875a6623741a4ddcbbb60a7a03b0c433e2c67f14622f73d8754e238a9df",
+    "src\\analyze_e49_final_v2.py": "802133f6313ff3f2fa42d09d85dd7718cbb3a9d0015db4c0a5455931313c73ed"
+  },
+  "outputs": {
+    "BAO_CAO_E49.md": "47367e71d06fe7ba40ec6d624d2a9601681dddc505e27af30a63f841574a4934",
+    "cluster_bootstrap_draws.csv": "278d86140085be59de022ec5e0e9ede0329c5895434d903a67d23c54057f478b",
+    "fixed49.csv": "8ed4d64ea57de60836da6a74ad5a6d2918b12b17c76bcba2f3cc6402257f0eae",
+    "paper_insert_en.md": "412d6eba25289bd57c2a5f23761560e989a7648c4036653b0674e276fc0015ff",
+    "raw_diagnostics49.json": "9660be126160a8069c53ed255ef05926ba2488dbc260d7fb124a3cb3ced258bb",
+    "repository_summary.csv": "4499c35b395d16b8c85fe74c2984992761336161686c535f920f38093251aedc",
+    "statistics.json": "ebea3cb6cc0fc85b32e406fd02952cc8facc4a6f2c74e10bf4e70dfd06d45b15"
+  },
+  "original_files_modified": false
+}

@@ -1,0 +1,1798 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\055_97822421_252c76a1\\compiledrepos\\97822421",
+  "class_indices": [
+    196
+  ],
+  "files": [
+    {
+      "relative": ".editorconfig",
+      "sha256": "5ec0610dfc6a40f685b2483bb877b9282733c1a67b2f39f09d8053be387f1133",
+      "bytes": 203,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442143443000
+    },
+    {
+      "relative": ".gitignore",
+      "sha256": "ed4536a708b632f70d65744c5ebc4302d12c53e34dcbb9194fe92ce6b721619c",
+      "bytes": 33,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442143443000
+    },
+    {
+      "relative": ".travis.yml",
+      "sha256": "8322a3b2fa663d3077c33092636d564bd4c399f9d4e5e56e92ade7155a92c639",
+      "bytes": 2684,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442145457500
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "f991b35a834034bbbf2c9d019e78d6caf3806f8ba6e467be81802c8d0dcc8fae",
+      "bytes": 1094,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442145457500
+    },
+    {
+      "relative": "mvnw",
+      "sha256": "b904f17b64dbb22af401b8d919341e698dd5b6a43a7813752d37b42eeb1e5fd0",
+      "bytes": 7508,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442201262500
+    },
+    {
+      "relative": "mvnw.cmd",
+      "sha256": "ae07ab7901217ee33265bae7e6fbb052ab16e514bf202b5ffc662a3cb16a7ca2",
+      "bytes": 5271,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784768442201262500
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "3ba10713db91d353705570f170892abd94bb89e7ec8910213e22c8b6e6f9404b",
+      "bytes": 8469,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442201262500
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "a90532b64d51cc8b85710491597fc9ba41be9b3da6d0face7dba2c55e6c2ac91",
+      "bytes": 7692,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784859476317770200
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "0f90c22c46ff44c8af5c07b056a2f7005a9738d1eba8ed943d82a422d799f300",
+      "bytes": 10976,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784859476216159400
+    },
+    {
+      "relative": "README.md",
+      "sha256": "dc7b44b10460f3026d831131ab5b508e8ac8b14a5d9ddd4e6f42adda7786ff7f",
+      "bytes": 15435,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442146455500
+    },
+    {
+      "relative": "version.properties",
+      "sha256": "d3ee8e3cb45ebabf82a70c4ac2dc1c91fbafd42a4dd8319adacf6424173ccee9",
+      "bytes": 152,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442245751000
+    },
+    {
+      "relative": "versions-set.sh",
+      "sha256": "b53cad59623b75496ec89fd5567ea5a6e58a26b00c06635891f8f4a4295b74a9",
+      "bytes": 57,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442245751000
+    },
+    {
+      "relative": ".mvn/settings.xml",
+      "sha256": "29fd59ff74756d4d4caff5ab1c59fe004bc81559bc2839783147d0007536756b",
+      "bytes": 194,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442143443000
+    },
+    {
+      "relative": ".mvn/update-versions.groovy",
+      "sha256": "a48b7159acd8f922a1357349f097a0d38048f3c7567b539c785dc93dae5db42b",
+      "bytes": 5859,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442144460000
+    },
+    {
+      "relative": ".mvn/wrapper/maven-wrapper.jar",
+      "sha256": "c4ad2d091e089e6293664b62a07fa6538eb9b74612247d4b51812ad4c571d3a1",
+      "bytes": 49519,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442144460000
+    },
+    {
+      "relative": ".mvn/wrapper/maven-wrapper.properties",
+      "sha256": "54022548072736fddf43a3e558ea0a64f288941db5b984c7c2fefaf29be2bfbf",
+      "bytes": 109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442145457500
+    },
+    {
+      "relative": "infrastructure/pom.xml",
+      "sha256": "f99ae8ddaa7fabc05e027f2d5ad1717d92880bb058c30325ec179277df929d84",
+      "bytes": 1595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784859607587775300
+    },
+    {
+      "relative": "infrastructure/README.md",
+      "sha256": "67b6c2c6a5f7b06ee3e810b518995c1ad9493b7044a7fdf12ca15f6035865b17",
+      "bytes": 78,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442147456000
+    },
+    {
+      "relative": "infrastructure/evosuite-report/statistics.csv",
+      "sha256": "6aa327ce930e6c6b00518149a133e8d60db16bdf6ed614cb933925cb239e8494",
+      "bytes": 160,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784859568364060000
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/DoubleConfigurationParser.java",
+      "sha256": "1e2b3916d00704f7ea167e7cab507f44b625e42bb6609ef3536f23e3abebaaa7",
+      "bytes": 1230,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442148960000
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/DoubleFactory.java",
+      "sha256": "9ae637b01868dddd384e39f8de8047fb8eb9a3f50a32aea47a688e488fa04f8a",
+      "bytes": 1634,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442148960000
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/DoubleFactoryCreator.java",
+      "sha256": "72f6b6e20fbaf0ed3407da93d00a396bcfe108472bdde02f0860243a6d140e6a",
+      "bytes": 266,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442148960000
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/MockConstants.java",
+      "sha256": "7f9d06e11192c0d0898d206a5a6243e6df85b9be96f64098e939624a5d6defcc",
+      "bytes": 194,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442149971200
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/NewInstanceDoubleFactoryCreator.java",
+      "sha256": "425763aaf3da1a75b9b2228b8993b6226a65d0352a3d93b755bb3c71cc86bf8d",
+      "bytes": 966,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442149971200
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/ParseNothingConfigurationParser.java",
+      "sha256": "674f1ab014469f4dbbde3197dce017cd61852ab1449ed678e989b02350e7a9bb",
+      "bytes": 496,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442149971200
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/AutowiredMock.java",
+      "sha256": "781344ab2554da2a1f8a299e7647e25d8229bf1a45ec862daea6a0cfbdb28fda",
+      "bytes": 927,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442150972600
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/AutowiredMocks.java",
+      "sha256": "7a47b53d22e4b097c38f9b1eac6caa9c08f8ad8e2d25934ee38074f9527f773c",
+      "bytes": 271,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442150972600
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/AutowiredSpies.java",
+      "sha256": "8b14e11f40dd8d6fc8279b10b0b30711f9fc66cf21acac0c43b92e7367043378",
+      "bytes": 270,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442150972600
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/AutowiredSpy.java",
+      "sha256": "e084918d4c6a86570b2f9a135b0519e20e8abeeca1de2234ecd511066be27e60",
+      "bytes": 939,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442150972600
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/NoDoubleClassDefined.java",
+      "sha256": "9d78f78fc2aea3f7427c4e02bdd1639eea5427f0b56c29f5ba74ff10171757de",
+      "bytes": 257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442152190700
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinition.java",
+      "sha256": "e0c94165ebc410371247319048e5b6985e1c65a9fd910db66e895185fb396820",
+      "bytes": 3061,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442152190700
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/DoubleName.java",
+      "sha256": "dd00cf71de4038e46ffede1d1166ea83cb4f5c5252c7136c1c43f24f4bb1f32b",
+      "bytes": 1418,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442152190700
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/AnnotatedElementsScanner.java",
+      "sha256": "8750eaf4768e3936849e4ef4b60c2a83582b2a8f8466b1ef74fdf4a31b3b0e34",
+      "bytes": 1568,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442153195400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/AnnotationDetails.java",
+      "sha256": "768c955886f427a546fa32e52455379d1f18269b0ee87aa7f018a12efd96f60b",
+      "bytes": 3919,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442153195400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleClassResolver.java",
+      "sha256": "78848e4b6fa89ab31b6f7338aa7633953c04ccf0ad20c731b76de832ff26d981",
+      "bytes": 719,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442153195400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleConfigurationResolver.java",
+      "sha256": "32e06d0d0ef17fd6790ee1ded6e2730006951f8d36ff9716fa5dfad237770b1e",
+      "bytes": 1670,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442154195000
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleDefinitionFactory.java",
+      "sha256": "028d6058bc4b08be3875da72257c967527768da6f45e0f7650dfdb5fd4489f64",
+      "bytes": 3766,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442154195000
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleNameResolver.java",
+      "sha256": "63979c6090ea8577bd9a094f91ad084d6769b152bd0b70558dc356c4bf2737a1",
+      "bytes": 1411,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442154195000
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistry.java",
+      "sha256": "89888a8a1dac57dbb3b2435b9cd88bf7a1265721a1a3d9831456aea07f4931d7",
+      "bytes": 2073,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442155200500
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryParser.java",
+      "sha256": "57fada5d5aba591a3b2e3045c259df92852d08cc07dc374c125af0d6d5c778d0",
+      "bytes": 2480,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442155200500
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryParserFactory.java",
+      "sha256": "51da6912868b466bac4cdbb65bf27eb469171760ea6adfa893391bf80958b469",
+      "bytes": 2130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442155200500
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleSearch.java",
+      "sha256": "5f60a26d1b2a384639d7f63f81fbe78ac4807be8f094362aff0a03d4e9b42d0e",
+      "bytes": 3408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442156195400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/IsAutowiredDoublePredicate.java",
+      "sha256": "a55cbba37dc2a7649fccb3a1d240e0dbdc4321b28900bc62e12da17ed90259bb",
+      "bytes": 1039,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442156195400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/DoubleDefinitionsRegistrationContext.java",
+      "sha256": "484023951b9411a4fff6bce7fc1c0143eb6ca638f0cba0817474ee05c51c42ea",
+      "bytes": 3708,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442157191300
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/DoubleRegisteringProcessor.java",
+      "sha256": "71627eae7844ff647a5f64354a9b0cbbcd00f11eebfd253fe609910bd08db60b",
+      "bytes": 5288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442157191300
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/DoubleRegistryHolder.java",
+      "sha256": "ee28506ad1e686f01df9e7cb6825a06f576b4b05145f4a552fc4171a6413c380",
+      "bytes": 717,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442157191300
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/MockClassResolver.java",
+      "sha256": "ce49ba2c9ac42f3c8609a718b026d5fe780b1a602a80fc0b1db1a67e93d8612e",
+      "bytes": 2127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442157191300
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/MockContextCustomizer.java",
+      "sha256": "db2f1401f7b1d1b2f45352643418bf954a946bff8461f67bba1e149ee94da558",
+      "bytes": 6219,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442158191700
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/MockContextCustomizerFactory.java",
+      "sha256": "5a384372432b88d623a3bec3f7780a9cab582ddf9792a7cf5a39735d06601056",
+      "bytes": 1776,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442158191700
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/ToSpyReplacingProcessor.java",
+      "sha256": "06d56a7f5d0e31924f82b761d8bb49d1a17bf8401f233089a30b675348fdfde3",
+      "bytes": 4456,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442159191400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/test/ApplicationContextCreator.java",
+      "sha256": "4e4b9082ea5b648e5c57aa8789c1e7accc7ce3f473960b2256ec1524c38b9255",
+      "bytes": 3216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442159191400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/util/ApplicationContextWalker.java",
+      "sha256": "eb49467efcc34060fda82f71267e33945f81c770544be6d025c38c43ccf0d5d4",
+      "bytes": 2310,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442159191400
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/util/BeanDefinitionFinder.java",
+      "sha256": "094ab02d157e0a8499a444bd42a7e2026fb5b7dd525c565dfb21a41d0cb84498",
+      "bytes": 2390,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442160191800
+    },
+    {
+      "relative": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/spring/util/FactoryBeanRecognizer.java",
+      "sha256": "1aed3907c476c7914504637551f24a6a56170afbb11ddc2e040a3e8e7e3e2631",
+      "bytes": 770,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442160191800
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/annotation/NoDoubleClassDefinedTest.java",
+      "sha256": "168accc30bf279fa3e14d97acbc25f5d5452a41355c8f7cc9447c0ff988775ab",
+      "bytes": 670,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442161190300
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinitionMatchers.java",
+      "sha256": "2e32715b8f9997c04ee5938b36fa40b2e5e2fe3fb4add43aff8c4637f7526538",
+      "bytes": 2386,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442162192600
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinitionTest.java",
+      "sha256": "a2ef49cd9c83df6b760243303350d587167144614c9ee04fe7a6198696dfb72d",
+      "bytes": 2288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442162192600
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinitionTestFactory.java",
+      "sha256": "395e101cbb4cd00041f6b0b08b5c8b75253bdef182e5902ac7b32792d09a8002",
+      "bytes": 626,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442162192600
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/DoubleNameTest.java",
+      "sha256": "5598c442060e7d28529588164e68b5af6a5c1cd53228cc1ec2890a7ee8ea142b",
+      "bytes": 1599,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442163193200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/AnnotationDetailsTest.java",
+      "sha256": "7c1729270de4d3c472014654147aa2719d3fd5cfc58fc923cf6ee1e0b4e0226e",
+      "bytes": 5136,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442163193200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/AutowiredMockBuilder.java",
+      "sha256": "eb9300cb62e530dfd143d32486fa9ca2155bd0a0bcad11eea652a12d17170d15",
+      "bytes": 1247,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442163193200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/AutowiredSpyBuilder.java",
+      "sha256": "c5f34fd463b3bf3d8e0acadd1ca6a35e9ba479df95cfc3c2c0c39840e1ae07fe",
+      "bytes": 1226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442164195500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleClassResolverTest.java",
+      "sha256": "8fd41f3ad71c1fa7744c44c33e76b2b9835c7a23369cbde11d3a0466f135a227",
+      "bytes": 1839,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442164195500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleConfigurationResolverTest.java",
+      "sha256": "bda356809a8f27dcab3187a42c7d2c114763de31384485dec92de059c6b720b7",
+      "bytes": 3710,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442164195500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleDefinitionTestConfiguration.java",
+      "sha256": "d2bdbd6ccd2cd8b2d8f0d3ed4a6cc857e42f6ae455c9d7a3b566cc717f24674c",
+      "bytes": 354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442164195500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleNameResolverTest.java",
+      "sha256": "75813f0165a10575a1098adc686f932b4eb8f1b7ca2236764b6639888cdafca5",
+      "bytes": 2136,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442164195500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryParserClassLevelParsingTest.java",
+      "sha256": "84de1486e64dd44e05fe455f4d2170312acaf37c1c9d0bfd080f3e578343e5c7",
+      "bytes": 6082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442165638000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryParserDuplicatedMockDefinitionsTest.java",
+      "sha256": "f2586e0afeb55093f7f9d69ae73368666d64b4d2a7aebb0599c4bff7d5765996",
+      "bytes": 2796,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442165638000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryParserDuplicatedSpiesDefinitionsTest.java",
+      "sha256": "0da706f41d90a216de57f9f186fdf95c59b88892f346991c8b4d3eb1e3636b1d",
+      "bytes": 2772,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442165638000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryParserNestedClassesParsingTest.java",
+      "sha256": "7dc0205ff5b7a5518e35b56a909484358e9aa7e4bef95ce2014a8ebfc6cc1276",
+      "bytes": 3967,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442165638000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryParserTest.java",
+      "sha256": "120f6fa4b3a621fc0f34ea3dc0bd979160a666db805d19a9c5898654c2ef930f",
+      "bytes": 8045,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442166818100
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryTest.java",
+      "sha256": "e0859988909ec5332c401d01fadd4950abdd0c064fa00e20f7eecd2f401453b0",
+      "bytes": 1452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442166818100
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleRegistryTestParser.java",
+      "sha256": "ad290349020859ff80fb1e499e7940e7e0e988570b4279f2f86d2f785a0817f0",
+      "bytes": 764,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442167819300
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleSearchMatchers.java",
+      "sha256": "2fb9da8a9858aa7349c128ed68d05e22c1fbaffbf2b89dcab9e715a7d158c826",
+      "bytes": 1118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442167819300
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleSearchTest.java",
+      "sha256": "3d7675d9fd7b7da22d5e85fe9bcad5545da56150254bdf7288e7d6b63ff3c799",
+      "bytes": 7237,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442167819300
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/IterableHelper.java",
+      "sha256": "136f07b561b61168e9e4831fb11312090096838d5712cb4ae49fdf1dd0a866d1",
+      "bytes": 540,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442167819300
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/DoubleDefinitionsRegistrationContextTest.java",
+      "sha256": "a270f0c36f6ec7d6b45e758ff25ef333cc81adcf0312ab9eb6085de181311a44",
+      "bytes": 4405,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442169279000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/DoubleRegisteringProcessorTest.java",
+      "sha256": "9c63956e827a8f37f296bf4e73109095946aed27247d4d80a33de70bc1cd78fc",
+      "bytes": 12516,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442169279000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/MockClassResolverTest.java",
+      "sha256": "84e0244bdb89da9cb4694c6758a589a28de146df56ee2d323dbfea8c021318aa",
+      "bytes": 1576,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442169279000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/ProblemWithObjectReturningFactoryMethodFailingTest.java",
+      "sha256": "c30662490e9c58cc247f73c12a5c0fea5a79199bc905a7ed709183f363245c72",
+      "bytes": 2409,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442169279000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/ProblemWithObjectReturningFactoryMethodPassingTest.java",
+      "sha256": "5eb668661cf3add90b29b6acbd4bc57a210ef1092f69a0561895f059c8bd37b7",
+      "bytes": 2098,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442170279500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/ToSpyReplacingProcessorTest.java",
+      "sha256": "f5c7782b1a1b29142223e3c3dc04b9ff07dbd0bd383482613757982ce13fb082",
+      "bytes": 11456,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442170279500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/ToSpyReplacingProcessor_RBL4Test_252c76a1.java",
+      "sha256": "10a4d9a7a37006c2e1951a6bc659f98ae44b516e55497d760c376056e5689345",
+      "bytes": 119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784859607581771700
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/cache/CachedConfigSuite.java",
+      "sha256": "93ea09fc457694a3ba322a9d698c597284fde7c37a8ada1bee96e4210faed2ca",
+      "bytes": 288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442171277500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/cache/CachedContextBootstrapper.java",
+      "sha256": "e0fa93aadca3c48455eaea8ef62cd1af63a28f7e5c57f32d38bab9af78aa1ca1",
+      "bytes": 3542,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442171277500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/cache/MockedBeansCachedConfigTest1.java",
+      "sha256": "796f76e663c1eb0d01d69dd6ffba6f85a446552cbec6ac1ee04fee5992de80ad",
+      "bytes": 850,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442171277500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/cache/MockedBeansCachedConfigTest2.java",
+      "sha256": "f0174216b932f6565df4efa0222d17f45748f6b3e4b02a30886e7df096ff32a8",
+      "bytes": 850,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442172277500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/util/ApplicationContextWalkerTest.java",
+      "sha256": "e40fee9421e4ce5212d76beaa3028cd88fb3fcb150a51cd5b69da8d1d72f2918",
+      "bytes": 3964,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442172277500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/spring/util/BeanDefinitionFinderTest.java",
+      "sha256": "258e6335511fe1635a8ff1b892225afd86ae5489261cc002217af67f0aff6839",
+      "bytes": 5287,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442172277500
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/InfrastructureBasedTestsPoc.java",
+      "sha256": "ee5f68f518e4e9ddf5ae5275e9aff33ca0054eb2a720c4cbf72ae6865495e5b4",
+      "bytes": 2558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442173419700
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/configuration/ClassLevelDoublesConfigurationShouldBeResolved.java",
+      "sha256": "491deeb56ceef403d6ecd33db5235a41cb9f12c76307792e0f78a3abcc7537cf",
+      "bytes": 3286,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442173419700
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/configuration/DoublesConfigurationShouldBeResolved.java",
+      "sha256": "7be427ec381b45c46bd4575aa97d18cf29f1f1320f016cbe647c591d5447efd3",
+      "bytes": 3035,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442173419700
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/duplicates/DuplicatedDoubleShouldBeCreatedOnlyOnce.java",
+      "sha256": "68bb3d70443ae302d4a2f0fecfc5157f2d3af882dd53b573414dd5aed5851a86",
+      "bytes": 2318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442174459200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/duplicates/MultipleMocksShouldBeDistinguishable.java",
+      "sha256": "c5b1e2cecdadca134712e0a980835b08edf9bcbd58410acc1a3108b75ca29bdb",
+      "bytes": 1733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442174459200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/duplicates/MultipleSpiesShouldBeDistinguishable.java",
+      "sha256": "84f3e6e3a3aad8447245fa6c79a8cbe5ac513f1baf5ef2a330d7abe691c6c939",
+      "bytes": 2086,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442174459200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/duplicates/NamedDoublesShouldBeDistinguishable.java",
+      "sha256": "262d49aa5319d8450a8d2c56b541fa2c3eebed7278a31f06ede5e8089e111c96",
+      "bytes": 2672,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442175445800
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/duplicates/PartialMocksShouldBeDistinguishable.java",
+      "sha256": "40b17ac1ba3f6c5406c98d47ef5fd25f168a2d88ced591a8dd164d24cf591f88",
+      "bytes": 1762,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442175445800
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/duplicates/SpyAndMockOfTheSameClassShouldBeDistinguishable.java",
+      "sha256": "7b246f7998ab4b06d99505bc2def53db72851feb17f2ecaf54a45898563e9c6e",
+      "bytes": 1727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442175445800
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/infrastructure/FixedDoubleFactory.java",
+      "sha256": "9e3bad7d9c3e6f53f0cadc18b260fbb5fc1f224f92ee203821d672bb1dfe737b",
+      "bytes": 1381,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442176447000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/infrastructure/MatchingDoubleFactory.java",
+      "sha256": "64ad34cdddc2edb76822bc95794908c6e9b7c0cd07cddf36187399891f047e50",
+      "bytes": 3168,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442176447000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/infrastructure/MatchingDoubleFactoryTest.java",
+      "sha256": "4b81ad11a44f8bc7b9a039ccdb3cfb3fbe76f1149c8dbafdebcea0ba3b81ff5d",
+      "bytes": 2977,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442176447000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/infrastructure/MockitoBasedDoubleFactory.java",
+      "sha256": "b9952ef9c64d7db2a42cb8afc39342ad4e3c7ff1674226e2d259eef0c7a4e714",
+      "bytes": 2050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442177447300
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/infrastructure/SpringMockContextBootstrapper.java",
+      "sha256": "d6b82df64d20afae83f202a7e12398626ed85c52ad4b6e5d47dee33fd0888811",
+      "bytes": 2298,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442177447300
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/inject/CreatedDoublesShouldBeInjectableIntoOtherBeans.java",
+      "sha256": "597b7be1800a8e5be52c5687451f3bf532dafd07052b1fa9d2ae553820f75e71",
+      "bytes": 1923,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442178447200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/inject/DoubleShouldBeInjectedWhenItsOnlyCandidate.java",
+      "sha256": "e5a4227c744bf1e698519a52d3b11f051401a8587b4478ceb01c135c4146e590",
+      "bytes": 2687,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442178447200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/inject/ShouldReplaceBeansToDoublesInContextHierarchy.java",
+      "sha256": "9b38a5bf1c2f20fef7348d33f706e16f9b0e3a5af91c920d17590390f982e8a1",
+      "bytes": 3825,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442178447200
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/inject/ShouldReplaceBeansWithDoubles.java",
+      "sha256": "a21fa75826e7b12815ebbc28c6afde49029f999560faca104424afb6e4cd29a8",
+      "bytes": 2524,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442179446000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/inject/ShouldReplaceFactoryBeanWithDoubles.java",
+      "sha256": "246078490f3e03aab078e22294ccd5d1cdf2b06ed03c1d24727a80aa856b098e",
+      "bytes": 3167,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442179446000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/name/DoubleNameShouldBeGenerated.java",
+      "sha256": "37aa3bc93808ff567140df5185b32401a1e9863ffae743403f00de9a0cd55b9c",
+      "bytes": 2168,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442179446000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/name/DoubleNameShouldBeResolvedAutomaticallyToReplaceExistingBean.java",
+      "sha256": "cd1ffc60ea4fea9e69cfde73dafc030c660e47a9bed8c229f1c60c7380068fac",
+      "bytes": 2468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442180444700
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/name/DoubleNameShouldBeUsedAsQualifier.java",
+      "sha256": "aa666b7eebcff8daa7840526f48d4af725a0292fd14149cfd0139bed9db194f4",
+      "bytes": 2257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442180444700
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/name/ShouldInjectDoubleByAlias.java",
+      "sha256": "863fc409258eeeb518044b5c470d96f0bc0b6584db2e754b7b0913cfc940cc9f",
+      "bytes": 2014,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442180444700
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/name/ShouldInjectDoubleByName.java",
+      "sha256": "43acfd84c1066e48c34be5fd518d3ffd7c1b48548603cf8ae31e05ae680e3f32",
+      "bytes": 1967,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442181454000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/placement/ConfigurationClassLevelDoublesShouldBeRegistered.java",
+      "sha256": "8334c6f18374b7144d40fb5d689779dfd3483362eb4b5fa0b4ed017efe0bef18",
+      "bytes": 2024,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442181454000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/placement/DoublesDeclaredInsideConfigurationClassShouldBeRegistered.java",
+      "sha256": "dc65443bc54f4f5e61e24ee47df85ebd94f36cd68caabaa7be23c341828d6eba",
+      "bytes": 1334,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442181454000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/placement/OnFieldDeclaredDoublesShouldBeRegistered.java",
+      "sha256": "cc6263305ce47caf55695fdb6b0bb272383758abde2475b8798e652d4fc4d191",
+      "bytes": 2547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442181454000
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/placement/OnlySingleDoubleInstanceShouldBeRegisteredWhenDuplicationsFound.java",
+      "sha256": "6801fbd70ce086b3ba28344f05798ad1c5da1f4f53a84e3c36994adca570d8c2",
+      "bytes": 3161,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442182834100
+    },
+    {
+      "relative": "infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/test/placement/TestCaseLevelDoublesShouldBeRegistered.java",
+      "sha256": "0d071582d8f805572babe7bf4fe672a8670330aa65582ef538cb53fb9a69116c",
+      "bytes": 2209,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442182834100
+    },
+    {
+      "relative": "mockito/pom.xml",
+      "sha256": "eb7baa5e68d4f6d032323022836cacc12aa6e9ef1494ef45b841ef175abbedac",
+      "bytes": 1544,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442183834600
+    },
+    {
+      "relative": "mockito/README.md",
+      "sha256": "89b756484594b430edb007075d1dbadecca2517bc80328053bbde634ba0a040e",
+      "bytes": 24,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442182834100
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/MockitoConstants.java",
+      "sha256": "2be11b0c1d0152ad8603accec784f726d0277e285364aeca0c5ce5bd28d40820",
+      "bytes": 233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442184882900
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/MockitoDoubleFactory.java",
+      "sha256": "0076ceec3958bfa2aaefd24e5c818aae14404edf2dbdd8d270252e99f8ee9aa3",
+      "bytes": 1911,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442185883000
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/DefaultAnswerMockSettings.java",
+      "sha256": "1701ab5dc6a347f28bd55af7ba244e9722a2b9e7bad6dfdd126e50bb695692e9",
+      "bytes": 1134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442185883000
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/DoubleInterfacesMockSettings.java",
+      "sha256": "a79b1ed5bf723ab85826c83e126e0685e6cc9bd74d69cfca1fcdcd6824bb6438",
+      "bytes": 991,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442186983600
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/DoubleNameSettings.java",
+      "sha256": "74ce951a825ef8418252d3fa482e3649a94b409ec768dcea23b5d78a881c05f4",
+      "bytes": 741,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442186983600
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/DoubleSerializableModeSettings.java",
+      "sha256": "a9ff6ec8fb11202d7713003317bfaffcdda6bde78ddce28735125969f0cb9ed9",
+      "bytes": 942,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442186983600
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/InvocationListenersSettings.java",
+      "sha256": "22057f3874f845f30a5d8f2019da2ddef17ef09a9c0ae46d8bf807bcd88d92fc",
+      "bytes": 1540,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442187983300
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/MockitoDouble.java",
+      "sha256": "ce292744e72c1c202c9c7f8843374c271ed0788501856c7eebfb342409045cbb",
+      "bytes": 1859,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442187983300
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/MockitoDoubleConfiguration.java",
+      "sha256": "13e6f1a7a13cf6c5dfc7ef19b2dbf222aaf367fc010cb130a8054025c2ce3740",
+      "bytes": 4639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442187983300
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/MockitoDoubleConfigurationParser.java",
+      "sha256": "6407ed6e7746a783f2bb47fc718cbc7e90163e93f6649d731ecf853ad3e56a71",
+      "bytes": 2614,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442188983400
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/SettingsDecorator.java",
+      "sha256": "5e4fd3a7b93967b0e57fcfff898828d665ecaaa3513c326a148c371a7d45efdf",
+      "bytes": 177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442188983400
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/StubSettings.java",
+      "sha256": "c4f1e9f92858aa1a5738bdec9bd8afa4e2668a3b8afe0743c56f207c14b51f07",
+      "bytes": 769,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442188983400
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/configuration/VerboseDoubleSettings.java",
+      "sha256": "61513ffb04def9ac50942875d0e7fa33d29190752a9d58d08d051d75d20e975b",
+      "bytes": 803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442188983400
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/spring/MockitoContextCustomizerFactory.java",
+      "sha256": "4c86fcb445c07c8580c8ad29c2ec24d7b9a4f846223e1e1953f6ce17ce93a6a3",
+      "bytes": 1657,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442190304500
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/spring/MockitoMockResetTestExecutionListener.java",
+      "sha256": "3b580b7475c2fc6a8c577807adb25dd2535d54814eacad170927868f6980994d",
+      "bytes": 2378,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442190304500
+    },
+    {
+      "relative": "mockito/src/main/java/com/pchudzik/springmock/mockito/spring/SkipMockitoBeansPostProcessing.java",
+      "sha256": "b377a6d24df57449a6b92810b3a3dcc10b17cdba6975581df4f1ea16f6d6c952",
+      "bytes": 733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442190304500
+    },
+    {
+      "relative": "mockito/src/main/resources/META-INF/spring.factories",
+      "sha256": "c2a14111fb3376bd415d2b08c8151f9e8e6749e9b1e0f674d61a8ef495a49384",
+      "bytes": 265,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442191403200
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/MockitoDoubleFactoryTest.java",
+      "sha256": "1b0806fb2670a109754c1db0ced7c939eb330f949712e2f8e0948263cb07afb9",
+      "bytes": 2885,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442192404500
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/ConfigurationHelper.java",
+      "sha256": "dd7cc16597af4de5ac65c8f131f71b298164b2492e14e9fd00b8ea518b2cf2aa",
+      "bytes": 1333,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442192404500
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/DefaultAnswerTest.java",
+      "sha256": "fad0fc23df9cbd3b1a844b8296109a01181c3fb76656538a55f5f835e6b3720e",
+      "bytes": 3160,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442193404000
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/DoubleInterfacesTest.java",
+      "sha256": "9b7239ca45835f1f15836acf3fec582274ecddd7d87e97acff88adab6858fa66",
+      "bytes": 3354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442193404000
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/DoubleResetTest.java",
+      "sha256": "06d31da25f90efcd50bc271e5085f09cf817831231a87f3a66f4ce82829aec90",
+      "bytes": 3174,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442193404000
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/DoubleSerializableModeTest.java",
+      "sha256": "2adad06926a968aa082f5b8b9d2bf7ab28e9bb17f1971bb27d871d96931532c5",
+      "bytes": 2898,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442193404000
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/InvocationListenersTest.java",
+      "sha256": "5144bc900c692b87ed1516d245ebe750807f3a870ad7e4d3cd3e191afedb4cd6",
+      "bytes": 3226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442194403200
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/MockitoDoubleConfigurationParserTest.java",
+      "sha256": "259ce5336d9641c115e54d691f7c891277185f78879fd9146adaa7cfccfb1b56",
+      "bytes": 4207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442194403200
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/StubTest.java",
+      "sha256": "66d869f5afdf2234bfce560b90c7d3a04a50af362d4a350abf8fe95db0b5c5ec",
+      "bytes": 2313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442194403200
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/VerboseDoubleTest.java",
+      "sha256": "55c6bf8f4c39b77217fc3621804164dad825ed9cbdd8542ffe91e22715bfe55a",
+      "bytes": 2380,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442194403200
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/matchers/HasDefaultAnswer.java",
+      "sha256": "3b0f72d6767214546b66e075b694b110e88f7b8fcd069b59cf275a6aa5d2764d",
+      "bytes": 801,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442195692000
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/matchers/HasInvocationListener.java",
+      "sha256": "182b30e7ade0ff2fe96651b3c1ef8f0ec2a863e1506f3f6eac6ea1e28ee0f1ad",
+      "bytes": 1752,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442195692000
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/configuration/matchers/PresentInAnyOrder.java",
+      "sha256": "d283e194bfbcc642cef31920fbb654574b91dc7ac9dc01c5653d3fc7cbae5179",
+      "bytes": 679,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442196691300
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/experimental/ClassLevelMocks.java",
+      "sha256": "82c74198c659209830840e0935babd8328d44537a30c2f4d275faa86fef7e66b",
+      "bytes": 276,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442196691300
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/spring/MockitoMockResetTestExecutionListenerTest.java",
+      "sha256": "809235d2dc4a00c6f80a0e2751945745e40380dad57ec63f316a931ffb2d9a64",
+      "bytes": 7879,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442197691200
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/mock/BasicMockInitializationAcceptanceTest.java",
+      "sha256": "8fc944d6a6e120ff316164ea5fe41bcd128e420165e4818c9c836505b0f6bde2",
+      "bytes": 1870,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442197691200
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/mock/ClassLevelMocksShouldBeInjectableTest.java",
+      "sha256": "7ed282bb34f39956dfd11bbcf789725f7c60c8438f1adb8f28c92c3a52ae8d2c",
+      "bytes": 1367,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442198690400
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/mock/InjectMockForAopProxiedClasses.java",
+      "sha256": "dae2e1e9763489294646ac96222f99936cf5c542919f9eec970ed448aa0f5c2c",
+      "bytes": 1155,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442198690400
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/mock/MockDependenciesShouldBeSkippedFromAutowiringTest.java",
+      "sha256": "d54465f7704be0b1bbdbe4b399ec2216cff780a31065fcb2927cc36711b47fa8",
+      "bytes": 916,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442198690400
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/mock/ShouldResetMockBetweenEachTestInvocationTest.java",
+      "sha256": "fc3f540f15f960634ccfd8701ef5bf9126d781d29aa9842192bbab8317c6484e",
+      "bytes": 1462,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442198690400
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/spy/BasicSpyInitializationTest.java",
+      "sha256": "d28e442a104901e0fbaf4f6025af6cc21b98a53a2fc31b0ed51b89a279393e94",
+      "bytes": 3702,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442200196500
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/spy/ClassLevelSpiesShouldBeInjectableTest.java",
+      "sha256": "e9b14f837a5aa417704905de54bd92bc26a3bb3f49e274d3f9c496124f2930c8",
+      "bytes": 1361,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442200196500
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/spy/InjectSpyForAopProxiedClasses.java",
+      "sha256": "9e2d3419bf3b6562a9de9aee31bde433a0a66102f5805b4ca6f8ec08f04edd3f",
+      "bytes": 1355,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442200196500
+    },
+    {
+      "relative": "mockito/src/test/java/com/pchudzik/springmock/mockito/test/acceptance/spy/ShouldResetSpyBetweenEachTestMethodInvocationTest.java",
+      "sha256": "50e17e07fff9b6c2cd9df6765d7190c8dc1c96b2c60b4812e70c7f771d3c8407",
+      "bytes": 1738,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442201262500
+    },
+    {
+      "relative": "samples/mockito-samples/.gitignore",
+      "sha256": "6de86f45a8086160642261699ac3a71d86d91c788a9e85d5ca5ad75b74fd82d6",
+      "bytes": 272,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442202745700
+    },
+    {
+      "relative": "samples/mockito-samples/mvnw",
+      "sha256": "d8386206f150a69aee41024645e4b1530cf2224d73db09e82702c440bd57ed6a",
+      "bytes": 6693,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442204746500
+    },
+    {
+      "relative": "samples/mockito-samples/mvnw.cmd",
+      "sha256": "d7d77104da5c7dfe7f889e4362574ed485d34c72f735f6ec013c07aef1982983",
+      "bytes": 5137,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784768442204746500
+    },
+    {
+      "relative": "samples/mockito-samples/pom.xml",
+      "sha256": "d22d4ac1ad6ae0a692cb48b435320c50a8133e42559bada38737257984cc59c9",
+      "bytes": 2085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442204746500
+    },
+    {
+      "relative": "samples/mockito-samples/.mvn/wrapper/maven-wrapper.jar",
+      "sha256": "454823f2648525cb5ff8900d0f80f2ade6b8865043a55d7015b1ecaf4a43d6e4",
+      "bytes": 47610,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442203745000
+    },
+    {
+      "relative": "samples/mockito-samples/.mvn/wrapper/maven-wrapper.properties",
+      "sha256": "01cfe1d3f81eb5b85b6bedc86262fe97077958c5fd4b7be6654c776f8e7dceb9",
+      "bytes": 111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442203745000
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/AddOneTranslator.java",
+      "sha256": "cee7b3d183ec545c1f83afc649c1ced4be0b86d9ed970c0ac4f7b207ec25027a",
+      "bytes": 198,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442206002700
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/DoNothingService.java",
+      "sha256": "03c23aee79cf0fb4d6de041a14dc29a9e4690e51a3eb47ea4721a274e99fe698",
+      "bytes": 161,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442206002700
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/LogService.java",
+      "sha256": "b8f4a317a12b21ce6161204be190f6c0a7361e7018794968cf049fbe426c4590",
+      "bytes": 313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442207285000
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/MockitoSamplesApplication.java",
+      "sha256": "9027df50c53ac03962b7439881c0ad876ccacfc0c34e38a0a1b5b617c0e56484",
+      "bytes": 461,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442207285000
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/MyService.java",
+      "sha256": "2065ede4b128383e5e33a749ba959eaa742384a5a4138d24043a5803f6660127",
+      "bytes": 831,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442207285000
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/TwoRepository.java",
+      "sha256": "99d93240663a3027c02e1aea3d7501342f9e0e50af1a60a78e5f71aaebcea166",
+      "bytes": 231,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442208284100
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/data/MockEntity.java",
+      "sha256": "5d3d4bb0ce1dd844f63a2491e9da294c9e681432a9c20d753c85a302deb1e02f",
+      "bytes": 477,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442208284100
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/data/MockEntityRepository.java",
+      "sha256": "4754e256782a10be039f6ee05cee27ec0755ecf7ae28b4c9a67be12ac7fead51",
+      "bytes": 199,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442208284100
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/java/com/pchudzik/springmock/samples/mockito/data/MockEntityService.java",
+      "sha256": "be9402888d100b65b5ed603a8ff0e666cd44e06af5772b22783a78c6c7509532",
+      "bytes": 460,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442209283800
+    },
+    {
+      "relative": "samples/mockito-samples/src/main/resources/application.properties",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442209283800
+    },
+    {
+      "relative": "samples/mockito-samples/src/test/java/com/pchudzik/springmock/samples/mockito/MockitoSamplesApplicationTests.java",
+      "sha256": "bde16188e5fbc86f211f93d9595b8e82b6a0913a3f5f380839529b2b5bc77982",
+      "bytes": 2048,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442211285800
+    },
+    {
+      "relative": "samples/mockito-samples/src/test/java/com/pchudzik/springmock/samples/mockito/data/MockEntityRepositoryTest.java",
+      "sha256": "674728d45efc774c9148c19144fccf333020dd8dce0da5d2067d3a69ffd568c5",
+      "bytes": 1010,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442211285800
+    },
+    {
+      "relative": "samples/mockito-samples/src/test/java/com/pchudzik/springmock/samples/mockito/data/MockEntityServiceTest.java",
+      "sha256": "02fa7926a25d7574e4d796fea6d43c7f2ef51c3ab5fc54c89c5e518e7271e4ab",
+      "bytes": 1416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442211285800
+    },
+    {
+      "relative": "samples/spock-samples/.gitignore",
+      "sha256": "4089a789d18b5a2af68e350e374cc87b2f018d1bdaa99f7c1e42a0fbe30de3d3",
+      "bytes": 294,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442211285800
+    },
+    {
+      "relative": "samples/spock-samples/build.gradle",
+      "sha256": "1e0173f0bf7c5f6cc2b9c811cd302f67bcbe42302188520c3c33a8e22946ecfd",
+      "bytes": 941,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442212584500
+    },
+    {
+      "relative": "samples/spock-samples/gradlew",
+      "sha256": "f174999f85f2f6375bb5c57ec3fdbee09e6003eb2d86df89372337837b76feef",
+      "bytes": 5471,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442213586300
+    },
+    {
+      "relative": "samples/spock-samples/gradlew.bat",
+      "sha256": "0008d785920c9ff5cab17403e0270ccc7ceee8e169b6d67a82d96a5475fec5c9",
+      "bytes": 2260,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784768442213586300
+    },
+    {
+      "relative": "samples/spock-samples/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "ebb6eaf164c425ffe76f9744a324feb774e750d821ed212d4c41f452adea248e",
+      "bytes": 54711,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442213586300
+    },
+    {
+      "relative": "samples/spock-samples/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "b0b9063d3ee94c5ffa4f52cbfcd3461b45e20ad7a0dc2dd4e3934c4257cbf01b",
+      "bytes": 207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442213586300
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/AddOneTranslator.java",
+      "sha256": "88d3a4bfa3f4eecf23a15e188dd6d7ec5d8b0c521f2115daff1e0a7d1d580b2a",
+      "bytes": 196,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442215937000
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/DoNothingService.java",
+      "sha256": "3001867bc83734014935e77afe1f5fe2dc7d89ed4f11ceef9e03c2599c1d6fcd",
+      "bytes": 165,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442215937000
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/LogService.java",
+      "sha256": "c521654ad2bac5ef24e7cac92c70c2001fcc96a337dc49c088432fd81a2dac5d",
+      "bytes": 260,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442216979700
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/MyService.java",
+      "sha256": "3512bbf0309133b209eeb51140fc8c72d5252a2d01a1cc444d9b47cda6576e48",
+      "bytes": 829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442216979700
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/SpockSamplesApplication.java",
+      "sha256": "fa920cd64d9711459c2dd65bc9782dd5b34e84c72df4f283c2b644f99ea8d755",
+      "bytes": 453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442216979700
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/TwoRepository.java",
+      "sha256": "53c7070612a2efd94d19c094728fb84d3902cdb4358750f3c372c6cef0741b6d",
+      "bytes": 229,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442217979700
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/data/MockEntity.java",
+      "sha256": "7fab20b4495dc1aa62740a409e2c75f86ed534d79d2e20ef26447a1535508d96",
+      "bytes": 475,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442217979700
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/data/MockEntityRepository.java",
+      "sha256": "7dc870d266352ed8d457657afe8cccb0bad3daa78ea7bd1ff008e0c0c9538c77",
+      "bytes": 197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442217979700
+    },
+    {
+      "relative": "samples/spock-samples/src/main/java/com/pchudzik/springmock/samples/spock/data/MockEntityService.java",
+      "sha256": "a625783f2c64f231cfa09418c5de7e284bdd1b9e0dc85f26a7569fe8f7134b27",
+      "bytes": 458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442218979400
+    },
+    {
+      "relative": "samples/spock-samples/src/main/resources/application.properties",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442218979400
+    },
+    {
+      "relative": "samples/spock-samples/src/test/groovy/com/pchudzik/springmock/samples/spock/SpockSamplesApplicationTest.groovy",
+      "sha256": "2cb03d3746393d1a22b01fa97d280789182e372d0d4ea7570c58fe6e8bd85bd7",
+      "bytes": 1255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442219980000
+    },
+    {
+      "relative": "samples/spock-samples/src/test/groovy/com/pchudzik/springmock/samples/spock/data/MockEntityRepositoryTest.groovy",
+      "sha256": "e95f240255a8350ad2a87c1c598aa2a907d2b9b5102c9cf771b07d3b3b54f6b1",
+      "bytes": 798,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442221340000
+    },
+    {
+      "relative": "samples/spock-samples/src/test/groovy/com/pchudzik/springmock/samples/spock/data/MockEntityServiceTest.groovy",
+      "sha256": "b18190af4310b3818e2b2eba9503a55396535796379cced40746b2460a8525cf",
+      "bytes": 1158,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442221340000
+    },
+    {
+      "relative": "samples/spock-springboot2/.gitignore",
+      "sha256": "6caf499d3f6650e55dd9cf2f7c231c03488caea37cd124f8916ae8b005daf70a",
+      "bytes": 301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442222351800
+    },
+    {
+      "relative": "samples/spock-springboot2/build.gradle",
+      "sha256": "94688a7c175691bf929f62d64eb2e892adf9add50d840cb5ad19ce5debc01d5f",
+      "bytes": 1001,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442222351800
+    },
+    {
+      "relative": "samples/spock-springboot2/gradlew",
+      "sha256": "f174999f85f2f6375bb5c57ec3fdbee09e6003eb2d86df89372337837b76feef",
+      "bytes": 5471,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442224352000
+    },
+    {
+      "relative": "samples/spock-springboot2/gradlew.bat",
+      "sha256": "0008d785920c9ff5cab17403e0270ccc7ceee8e169b6d67a82d96a5475fec5c9",
+      "bytes": 2260,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784768442224352000
+    },
+    {
+      "relative": "samples/spock-springboot2/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "e68185c8c0f67873dcd98916621870266a71584dfb0a2861d87d7077ebc39837",
+      "bytes": 54711,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442223353000
+    },
+    {
+      "relative": "samples/spock-springboot2/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "87fc598cc24d2ed856d6dd53dc4adea047977ca2ed35db43ab569256f45e8f60",
+      "bytes": 238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442223353000
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/AddOneTranslator.java",
+      "sha256": "a6354f3d6b0ea9a1d052fb164a22b1364fda5e937663b660613eac7e2773b142",
+      "bytes": 220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442226351700
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/DoNothingService.java",
+      "sha256": "cf976d924e6e76a61df99eade07eebc9139f467d0c90bda10e85727eb93e17e1",
+      "bytes": 177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442226351700
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/LogService.java",
+      "sha256": "4d712a5666f4257f999d34cb55ff8da9c3fc07d66c4f8b29940acd0758542ee5",
+      "bytes": 284,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442226351700
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/MyService.java",
+      "sha256": "9ab7d5052cb803f5af995566f95ed46aa563566870bf47e50f9f08b0f61b8ec2",
+      "bytes": 913,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442227351400
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/Springboot2Application.java",
+      "sha256": "2f7404faf9b719cd8eb08d80f3afd1edba55cb295bb55fc1c3bdaf011615978b",
+      "bytes": 465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442227351400
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/TwoRepository.java",
+      "sha256": "90cf0cc77327c2751420a0fb9470585b1d036f3d5f521e583107770abde5d0f2",
+      "bytes": 241,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442227351400
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/data/MockEntity.java",
+      "sha256": "a55a0db1702b2c2dc6284b5cbb35e697c34f55af8185eaf8d3287074cff20432",
+      "bytes": 487,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442228351600
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/data/MockEntityRepository.java",
+      "sha256": "cbc749e2d063ccfff90a650abbc07ccf872d3ee4698bfa065d45f56bcc86f5b6",
+      "bytes": 209,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442228351600
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/java/com/pchudzik/springmock/samples/springboot2/spock/data/MockEntityService.java",
+      "sha256": "66730002edd0104837b065805a0110bb1e1e0638e9c93233adbee7fb6397bfee",
+      "bytes": 500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442228351600
+    },
+    {
+      "relative": "samples/spock-springboot2/src/main/resources/application.properties",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442229352000
+    },
+    {
+      "relative": "samples/spock-springboot2/src/test/groovy/com/pchudzik/springmock/samples/springboot2/spock/SpockSamplesApplicationTest.groovy",
+      "sha256": "b51cd3b9b6a1f995c5ed60837b537332f99742cc5812074ce9bb965068683503",
+      "bytes": 1351,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442230351400
+    },
+    {
+      "relative": "samples/spock-springboot2/src/test/groovy/com/pchudzik/springmock/samples/springboot2/spock/data/MockEntityRepositoryTest.groovy",
+      "sha256": "23e680a0f54dc3b25c5e70bc57d5cc52216fa1b09cb006581ea6501e5a5c335c",
+      "bytes": 937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442230351400
+    },
+    {
+      "relative": "samples/spock-springboot2/src/test/groovy/com/pchudzik/springmock/samples/springboot2/spock/data/MockEntityServiceTest.groovy",
+      "sha256": "7d6aa904d1830a8a6b1a12460b78bc3cefabe70bf72e89586e40587051d09fc5",
+      "bytes": 1297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442231351400
+    },
+    {
+      "relative": "spock/pom.xml",
+      "sha256": "ffe6153da733c42e62ba46d97d389aafc4a96908686feed1ec28f4114ca7ff27",
+      "bytes": 2070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442231351400
+    },
+    {
+      "relative": "spock/README.md",
+      "sha256": "e8b079a8df01a887c93801c8628461e912eee6836a6e7c187d1803c857a2fc59",
+      "bytes": 22,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442231351400
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/SpockConstants.java",
+      "sha256": "3144750c95bace1ea893543f802da830a54d2a6784adf565bc114d57d6f85950",
+      "bytes": 229,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442233352400
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/SpockDoubleFactory.java",
+      "sha256": "620a4364f1a1d620d092c893636da5f3d4060bdbb9c89f6cc6c8ed4dbe9c4a0f",
+      "bytes": 2600,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442233352400
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/configuration/SpockDouble.java",
+      "sha256": "51d913543c32f9d09f11dbf92e1df5941aa205bd2b3601609e4b8b684385d524",
+      "bytes": 2817,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442234350700
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/configuration/SpockDoubleConfiguration.java",
+      "sha256": "0c66a2308d3395db867aacf0c9952e2a16eda2ef434d5ffee7f5cf0eb60a24e1",
+      "bytes": 2960,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442234350700
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/configuration/SpockDoubleConfigurationParser.java",
+      "sha256": "3f522e02ecb8fb334a844530320c92d74e52927396f7f7656d2f374242978e4d",
+      "bytes": 1276,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442234350700
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/configuration/SpockSettingsKeys.java",
+      "sha256": "6f8977ff4e3a764dca60e2132752fe4cfa1eb64ed1dd58fea85ab72bf47add5e",
+      "bytes": 639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442234350700
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/spring/MockAttachingTestExecutionListener.java",
+      "sha256": "d1e15bfe959a418fd6c418c12b89560d8f869b0cb74c3926623823d9fa0a6d91",
+      "bytes": 4075,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442235352000
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/spring/SkipSpockBeansPostProcessing.java",
+      "sha256": "00139fa916993f20bf0720e35ef0605019ec0d5dbd42033e78d8db82c2346968",
+      "bytes": 701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442235352000
+    },
+    {
+      "relative": "spock/src/main/java/com/pchudzik/springmock/spock/spring/SpockContextCustomizerFactory.java",
+      "sha256": "94eda74003a25da328d118417edfa0ac7515a7e069f92d532b85d329ba5f59d4",
+      "bytes": 1617,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442235352000
+    },
+    {
+      "relative": "spock/src/main/resources/META-INF/spring.factories",
+      "sha256": "9fa6eefb8abca214574203dc6242251575a60e7edd61222707e633ec1df95fc4",
+      "bytes": 256,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442236351000
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/DoubleConstructorArgumentsMetaAnnotation.groovy",
+      "sha256": "d86a854b1bbe95a018c7c069a5e3599b09c7f1769ab2ad51db5d07f5a969ccc6",
+      "bytes": 520,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442237352800
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/DoubleConstructorArgumentsTest.groovy",
+      "sha256": "58b6b619315125282b80c3b0f6399db070c096d451a400eadb6ccecaaf79956d",
+      "bytes": 2157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442238350600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/DoubleDefaultResponseMetaAnnotation.groovy",
+      "sha256": "adadf19fba2b0c92bbd6d94c473ccb77ccaebd21ac616a1d56e991253119b69b",
+      "bytes": 496,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442238350600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/DoubleDefaultResponseTest.groovy",
+      "sha256": "e15dc0bbdfebc25b59a174b7934de77201f85222c269c993a344c977baeb960a",
+      "bytes": 2206,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442238350600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/GlobalSpockDoubleMetaAnnotation.groovy",
+      "sha256": "f4e7426d70c6ccc6bdf748215c4ed6b2b63470872c6f5183436db097fcf8a7a5",
+      "bytes": 447,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442239422600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/GlobalSpockDoubleTest.groovy",
+      "sha256": "fd6366969efc04e1963a6876df0828d1e4855974f59dae8f0894b316a0a81465",
+      "bytes": 1673,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442239422600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/SpockConfigurationHelper.groovy",
+      "sha256": "216e2a4628d6ba0e3f8df045ed03bd747a078f331571e28e5e7c87f70acaced6",
+      "bytes": 1034,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442239422600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/SpockDoubleConfigurationParserTest.groovy",
+      "sha256": "4aec88c58702f2fdb85cae0213af5556fdc0aced55b448921b1238a250d832df",
+      "bytes": 2128,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442239422600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/SpockDoubleImplementationMetaAnnotation.groovy",
+      "sha256": "3c202f95457b3a9aef4c7c080bcd9236aef2c0a56e4db480c59e074ddbd6083b",
+      "bytes": 543,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442239422600
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/SpockDoubleImplementationTest.groovy",
+      "sha256": "19f7bf986855e1e2f449f02af37db4aa332ab0a989f2ddb13d7de5f112c3dd8c",
+      "bytes": 1917,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442240608200
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/StubDoublesTest.groovy",
+      "sha256": "4e8bd0b5cf0260b6c0729b7d029e866e9d6916d15f05a327c655907aa532b398",
+      "bytes": 1676,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442240608200
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/StubMetaAnnotation.groovy",
+      "sha256": "3c1e32bec4c33e629f6727077a58ad6407a755abaf311ff2b8855c04dbffa9a8",
+      "bytes": 432,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442240608200
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/UseObjenesisInDoublesTest.groovy",
+      "sha256": "7e5437c58b86e5db190258b73687ce8de746331dcd91d657a86ac93bf4b51ff3",
+      "bytes": 1753,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442240608200
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/configuration/UseObjenesisMetaAnnotation.groovy",
+      "sha256": "584585970a2263c6b4715fff20a17633f3774e86bd043286059a3419b044b215",
+      "bytes": 450,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442241751400
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/spring/MockAttachingTestExecutionListenerTest.groovy",
+      "sha256": "6e21a223ecd52ff3afd2f2166e3f1b0c9e8b93d9aed481d21380faa617f88dd3",
+      "bytes": 5834,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442241751400
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/mock/BasicMockInitializationAcceptanceTest.groovy",
+      "sha256": "16df9d24345f88f5ba82ec6454f9eea67bd6bc4f1d72481eb11669f69cb1bb4b",
+      "bytes": 1813,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442242753700
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/mock/ClassLevelMocksShouldBeInjectableTest.groovy",
+      "sha256": "4d359e92e4df2f75acdf2e9ff3c854a7daffb2b3b8ddafbcce8dbbe6091c5035",
+      "bytes": 1313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442242753700
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/mock/InjectMockForAopProxiedClasses.groovy",
+      "sha256": "ed985b36d7b694841ce4f5157febac4b4d8abcc51d7f80669585058c9e94e7fb",
+      "bytes": 1057,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442242753700
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/mock/MockDependenciesShouldBeSkippedFromAutowiringTest.groovy",
+      "sha256": "2920ba55e30efcf99a29d937457cb4aad6636c22793069a63f334085cca15866",
+      "bytes": 821,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442243751800
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/mock/ShouldAttachAndResetMockWhenNameDoesNotMatch.groovy",
+      "sha256": "6142ccd6939890e567a5174cd50b6a61168f7c1bc188979f2f10d8b83f2113f4",
+      "bytes": 1639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442243751800
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/spy/BasicSpyInitializationTest.groovy",
+      "sha256": "c97955f5deb56d2be4afac99467a50ab6b254b5bb377bc839608fe9869e94842",
+      "bytes": 3650,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442244749300
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/spy/ClassLevelSpiesShouldBeInjectableTest.groovy",
+      "sha256": "8afed8517828bd7bd37d2e3660ab3ecd75c1d30e2958c8ff8c12d6d76ad4038f",
+      "bytes": 1308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442244749300
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/spy/InjectSpyForAopProxiedClasses.groovy",
+      "sha256": "5e6d14945bf1936d379b533e9c5ca04268ae4cbacc526e4987d7ac0408e71b13",
+      "bytes": 1053,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442245751000
+    },
+    {
+      "relative": "spock/src/test/groovy/com/pchudzik/springmock/spock/test/acceptance/spy/ShouldAttachAndResetSpyWhenNameDoesNotMatch.groovy",
+      "sha256": "a2f5e13bca33af28484279ed1f794e216d2ae2bf3a9f9243e6544decef16f145",
+      "bytes": 1634,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784768442245751000
+    }
+  ],
+  "excluded": [
+    "infrastructure/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\055_97822421_252c76a1\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:42:21.513840+00:00"
+}

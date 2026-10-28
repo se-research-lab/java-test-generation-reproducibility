@@ -1,0 +1,59 @@
+{
+  "job_index": 16,
+  "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/alertsender.java",
+  "repo_id": "46396068",
+  "G0_archived_mutation_percent": "33.33",
+  "E0_archived_mutation_percent": "0.0",
+  "E1_archived_mutation_percent": "0.0",
+  "seed": 20261147,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.kakao.hbase.common.util.AlertSender_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.kakao.hbase.common.util.AlertSender_ESTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 387,
+  "focal_mutants": 6,
+  "killed_mutants": 0,
+  "focal_mutant_qualified_classes": [
+    "com.kakao.hbase.common.util.AlertSender"
+  ],
+  "mutation_score_percent": 0.0,
+  "legacy_strict_mutation_percent": 0.0,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "hbase-common-0.98",
+      "PACKAGE": "com.kakao.hbase.common.util",
+      "CLASS": "AlertSender",
+      "INSTRUCTION_MISSED": "79",
+      "INSTRUCTION_COVERED": "8",
+      "BRANCH_MISSED": "4",
+      "BRANCH_COVERED": "0",
+      "LINE_MISSED": "15",
+      "LINE_COVERED": "2",
+      "COMPLEXITY_MISSED": "3",
+      "COMPLEXITY_COVERED": "2",
+      "METHOD_MISSED": "1",
+      "METHOD_COVERED": "2"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

@@ -1,0 +1,19 @@
+{
+  "pid": 7724,
+  "argv": [
+    "C:/Users/admin/AppData/Local/Programs/Python/Python310/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:/A_ThucNghiem/camera_ready_minimal/paired49_20261023/audit.py",
+    "run",
+    "compat49_independent_raw_v2",
+    "C:/Users/admin/AppData/Local/Programs/Python/Python310/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:/A_ThucNghiem/camera_ready_minimal/paired49_20261023/src/independent_measurement49_raw_audit_v2.py"
+  ],
+  "created_utc": "2026-10-23T17:55:02.987Z",
+  "scope": "Independent full49 raw validation; official output compared at end; no mutation/generation"
+}

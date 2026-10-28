@@ -1,0 +1,135 @@
+{
+  "phase": "GRADLE V1 / RUNNING / COMMAND_STARTED",
+  "updated_utc": "2026-10-26T21:35:52.012928+00:00",
+  "target": 300,
+  "reused_verified": 49,
+  "new_completed": 204,
+  "running": 1,
+  "maven_pending": 20,
+  "gradle_pending": 27,
+  "new_API_calls": 0,
+  "new_EvoSuite_calls": 235,
+  "GPT_guard": "PASS",
+  "reuse49_guard": "PASS",
+  "benchmark_admitted": true,
+  "missing_focal_candidates": 0,
+  "focal_candidate_disagreements": 0,
+  "disk_free_GB": 18.16,
+  "blockers": [
+    "Cấu hình Gradle v1 đã khóa trước class đầu tiên; không sửa sau lỗi",
+    "20 Maven deferred/unscored giữ nguyên; chưa được gọi full300 hoàn tất",
+    "Mọi Gradle environment/guard failure giữ bằng chứng; GPT và E0 không chạy lại"
+  ],
+  "tasks": [
+    {
+      "id": "B1.0",
+      "name": "Khóa 300 keys và phạm vi E-only",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.1",
+      "name": "Xác minh E49 và GPT guard",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.2",
+      "name": "Maven controller và input đã nghiệm thu",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.3",
+      "name": "Gradle4wrapper và controller synthetic đã nghiệm thu",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.4",
+      "name": "Khóa Gradle v1 trước40class; seeds/budget E49",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.5",
+      "name": "Chạy Gradle40 theo thứ tự gốc; không sửa cấu hình/test sau lỗi",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "B1.6",
+      "name": "Audit 300 và phân tích RQ4/RQ5 riêng",
+      "status": "NOT_STARTED"
+    }
+  ],
+  "source_census": {
+    "timestamp_utc": "2026-10-25T22:12:03.458037+00:00",
+    "class_count": 251,
+    "unique_candidate_roots": 251,
+    "candidate_files": 517483,
+    "candidate_bytes": 8230643238,
+    "candidate_GB": 8.231,
+    "backup_adapter_files": 8,
+    "disk_free_GB": 28.52,
+    "scope": "metadata census, descriptor hashes and adapter backup; no complete source snapshot or execution adapter yet",
+    "new_experiment_calls": 0,
+    "recovery": "v1 metadata census completed, adapter backup stopped at wrong helper basename. v2 verified existing copies and backed up correct junit_method_inventory_v1.py; v1 script/error retained."
+  },
+  "GPT_guard_checked_utc": "2026-10-26T12:01:02.481905+00:00",
+  "source_snapshot_roots_completed": 251,
+  "source_snapshot_files": 517483,
+  "fixture_EvoSuite_calls": 4,
+  "private_cache_status": "PASS",
+  "runtime_fixture_status": "PASS",
+  "benchmark_EvoSuite_calls": 231,
+  "active_sample_index": 129,
+  "benchmark_EvoSuite_commands_planned": 219,
+  "benchmark_EvoSuite_commands_not_started": 3,
+  "benchmark_EvoSuite_not_started_sample_indices": [
+    12,
+    16,
+    23
+  ],
+  "ui_projection_health": "RECONCILED",
+  "ui_technical_hold": false,
+  "automatic_v2_resume": false,
+  "Gradle_version_qualification_allowed": true,
+  "Gradle_benchmark_admitted": true,
+  "new_policy_accepted": 204,
+  "pending_transport_recovery": [],
+  "maven_policy_pending": 20,
+  "maven_unattempted": 0,
+  "maven_deferred_unscored": 20,
+  "deferred_sample_indices": [
+    48,
+    49,
+    72,
+    112,
+    119,
+    128,
+    138,
+    145,
+    148,
+    163,
+    173,
+    198,
+    202,
+    211,
+    220,
+    224,
+    239,
+    269,
+    275,
+    294
+  ],
+  "full300_complete": false,
+  "automatic_resume": false,
+  "Gradle_fixture_only": true,
+  "gradle_unattempted": 23,
+  "gradle_deferred_unscored": 3,
+  "gradle_terminal": 13,
+  "gradle_deferred_sample_indices": [
+    4,
+    40,
+    45
+  ],
+  "monitor_implementation": "read_only_v5_gradle_aware",
+  "runner_invocation_version": "Gradle policy v1 / dispatcher v2",
+  "live_process_check_at_utc": "2026-10-26T21:35:55.918532+00:00",
+  "runner_liveness": "PRESENT_MATCHED_PID_AND_CREATE_TIME"
+}

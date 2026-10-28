@@ -1,0 +1,1446 @@
+{
+  "74999474": {
+    "class_indices": [
+      2,
+      7,
+      20,
+      97,
+      106,
+      134,
+      165,
+      175,
+      215,
+      274
+    ],
+    "descriptor_evidence": {
+      "build.gradle#2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621": {
+        "path": "build.gradle",
+        "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+        "bytes": 3248,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "gradle.properties#bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917": {
+        "path": "gradle.properties",
+        "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+        "bytes": 158,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "settings.gradle#d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172": {
+        "path": "settings.gradle",
+        "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+        "bytes": 242,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "gradle/wrapper/gradle-wrapper.properties#f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6": {
+        "path": "gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+        "bytes": 207,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-clients/build.gradle#82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364": {
+        "path": "parsec-clients/build.gradle",
+        "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+        "bytes": 1791,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-clients/settings.gradle#573cbe3e2058139134523d3afddebfdb226be1cadd4251f39ed5688fc3d364c3": {
+        "path": "parsec-clients/settings.gradle",
+        "sha256": "573cbe3e2058139134523d3afddebfdb226be1cadd4251f39ed5688fc3d364c3",
+        "bytes": 667,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-clients/gradle/wrapper/gradle-wrapper.properties#0f80b180f91f8713546786f84bd17a1465c0c86dbaac2c8c21f757eb9596a61c": {
+        "path": "parsec-clients/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "0f80b180f91f8713546786f84bd17a1465c0c86dbaac2c8c21f757eb9596a61c",
+        "bytes": 237,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-config/build.gradle#a74d3b01c79af034eff6f3a3d7808adb744098927470a7445c4cf91228b13386": {
+        "path": "parsec-config/build.gradle",
+        "sha256": "a74d3b01c79af034eff6f3a3d7808adb744098927470a7445c4cf91228b13386",
+        "bytes": 179,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-config/settings.gradle#ee518b01a6d50d58ddb0bf738e38a0c2f67273f8552ba6e5d97dc1f8a26826af": {
+        "path": "parsec-config/settings.gradle",
+        "sha256": "ee518b01a6d50d58ddb0bf738e38a0c2f67273f8552ba6e5d97dc1f8a26826af",
+        "bytes": 667,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-config/gradle/wrapper/gradle-wrapper.properties#7ac63d310060f2e38b885113fa47958048116f8626b8ad670fd7f9e23b668250": {
+        "path": "parsec-config/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "7ac63d310060f2e38b885113fa47958048116f8626b8ad670fd7f9e23b668250",
+        "bytes": 237,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-constraint-validators/build.gradle#4e023e920e879810ccd6fdaefdeb40b32548433337f22dcad5dd4e55dbef53f1": {
+        "path": "parsec-constraint-validators/build.gradle",
+        "sha256": "4e023e920e879810ccd6fdaefdeb40b32548433337f22dcad5dd4e55dbef53f1",
+        "bytes": 393,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-constraint-validators/settings.gradle#0fa6efd239ce670d47aac5f7bd68e16d758e4daf2e7301478ed07232c2ed94dd": {
+        "path": "parsec-constraint-validators/settings.gradle",
+        "sha256": "0fa6efd239ce670d47aac5f7bd68e16d758e4daf2e7301478ed07232c2ed94dd",
+        "bytes": 683,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-constraint-validators/gradle/wrapper/gradle-wrapper.properties#3fd468eb8bf690b8009df9e13ee517cc882aaea68f7b21097996b049651c17d7": {
+        "path": "parsec-constraint-validators/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "3fd468eb8bf690b8009df9e13ee517cc882aaea68f7b21097996b049651c17d7",
+        "bytes": 237,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-logging/build.gradle#8da86cf91acecf68f84f88ba1ce65ced47014f1ec94e40c19216e839b145d217": {
+        "path": "parsec-logging/build.gradle",
+        "sha256": "8da86cf91acecf68f84f88ba1ce65ced47014f1ec94e40c19216e839b145d217",
+        "bytes": 419,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-logging/settings.gradle#9006147031e4e3d0a3a67258961e5a7aee1598e04f7471707198db045b51a1cc": {
+        "path": "parsec-logging/settings.gradle",
+        "sha256": "9006147031e4e3d0a3a67258961e5a7aee1598e04f7471707198db045b51a1cc",
+        "bytes": 668,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-logging/gradle/wrapper/gradle-wrapper.properties#de36b565aa91e4ead6e27553bcef67fbee0355928b313ce20ebe814d54e18b4b": {
+        "path": "parsec-logging/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "de36b565aa91e4ead6e27553bcef67fbee0355928b313ce20ebe814d54e18b4b",
+        "bytes": 237,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-validation/build.gradle#e0026f0a42ab4e18f3237fa585cadd541562a6ab3e9aad7892f5bd549d11c281": {
+        "path": "parsec-validation/build.gradle",
+        "sha256": "e0026f0a42ab4e18f3237fa585cadd541562a6ab3e9aad7892f5bd549d11c281",
+        "bytes": 2123,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-validation/gradle.properties#20bd1268164e2dc4967ccfd2e9be9fdc8b2cad101336a4bee101daf204da55e9": {
+        "path": "parsec-validation/gradle.properties",
+        "sha256": "20bd1268164e2dc4967ccfd2e9be9fdc8b2cad101336a4bee101daf204da55e9",
+        "bytes": 175,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-validation/settings.gradle#28c1695ada838ec87cb25d3a16f01acc894c231d5626cd65440318d04d3226a1": {
+        "path": "parsec-validation/settings.gradle",
+        "sha256": "28c1695ada838ec87cb25d3a16f01acc894c231d5626cd65440318d04d3226a1",
+        "bytes": 42,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-validation/gradle/wrapper/gradle-wrapper.properties#1cfe0b06c5be05a9296d48ad113530cdef914f7d69195ab28a01a8daf7ee3d1c": {
+        "path": "parsec-validation/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "1cfe0b06c5be05a9296d48ad113530cdef914f7d69195ab28a01a8daf7ee3d1c",
+        "bytes": 237,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "parsec-web-utils/build.gradle#1b10c7705cf87e936c3d6920cea58832df3cea378ff4fc24f28711ce35432c48": {
+        "path": "parsec-web-utils/build.gradle",
+        "sha256": "1b10c7705cf87e936c3d6920cea58832df3cea378ff4fc24f28711ce35432c48",
+        "bytes": 1001,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      }
+    },
+    "status": "NOT_QUALIFIED"
+  },
+  "41627638": {
+    "class_indices": [
+      4,
+      40,
+      45,
+      129,
+      135,
+      156,
+      169,
+      170,
+      184,
+      197
+    ],
+    "descriptor_evidence": {
+      "android/sync-prototype/mobile-client/build.gradle#43cc071f7493c1d0e0a2fb3c9e3453adcf4b57ad760e12196c4cb8e700c62aa5": {
+        "path": "android/sync-prototype/mobile-client/build.gradle",
+        "sha256": "43cc071f7493c1d0e0a2fb3c9e3453adcf4b57ad760e12196c4cb8e700c62aa5",
+        "bytes": 407,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/sync-prototype/mobile-client/settings.gradle#c94d8afe6662578bfe24854c4e4032fa65de506596c8373695c072be80963f2b": {
+        "path": "android/sync-prototype/mobile-client/settings.gradle",
+        "sha256": "c94d8afe6662578bfe24854c4e4032fa65de506596c8373695c072be80963f2b",
+        "bytes": 34,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/sync-prototype/mobile-client/gradle/wrapper/gradle-wrapper.properties#9b1f79725f341db51a246ee3d4887edb2ad0901ec8735901cc57f5f34e62f753": {
+        "path": "android/sync-prototype/mobile-client/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "9b1f79725f341db51a246ee3d4887edb2ad0901ec8735901cc57f5f34e62f753",
+        "bytes": 236,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/sync-prototype/mobile-client/GrocerySync-Android/build.gradle#282856a5fa38217570364032f73d679be32442813ad48c7c37fca6a650fddbf8": {
+        "path": "android/sync-prototype/mobile-client/GrocerySync-Android/build.gradle",
+        "sha256": "282856a5fa38217570364032f73d679be32442813ad48c7c37fca6a650fddbf8",
+        "bytes": 1499,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/TryDataBinding/build.gradle#6f950a749c4a8ea085a84d4c0a865b3d12a5f8aefddf578c04da4b4d46fa57b4": {
+        "path": "android/TryDataBinding/build.gradle",
+        "sha256": "6f950a749c4a8ea085a84d4c0a865b3d12a5f8aefddf578c04da4b4d46fa57b4",
+        "bytes": 521,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/TryDataBinding/gradle.properties#35c1deeff9ac2b79a3e35fd459b387befca79416a35d8fcd89d36275d230daf6": {
+        "path": "android/TryDataBinding/gradle.properties",
+        "sha256": "35c1deeff9ac2b79a3e35fd459b387befca79416a35d8fcd89d36275d230daf6",
+        "bytes": 872,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/TryDataBinding/settings.gradle#b9b212b003a6f82e4920941a2b752ae8b29180a4d7538f7832b40f5f8f0698b4": {
+        "path": "android/TryDataBinding/settings.gradle",
+        "sha256": "b9b212b003a6f82e4920941a2b752ae8b29180a4d7538f7832b40f5f8f0698b4",
+        "bytes": 16,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/TryDataBinding/app/build.gradle#a2eca66537bf4b98fee9a0b3fccf0a4337bac83ab6c8e5bda0278eeca09a09d5": {
+        "path": "android/TryDataBinding/app/build.gradle",
+        "sha256": "a2eca66537bf4b98fee9a0b3fccf0a4337bac83ab6c8e5bda0278eeca09a09d5",
+        "bytes": 709,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "android/TryDataBinding/gradle/wrapper/gradle-wrapper.properties#42cac04c731ce5a39e425ef1569bfa955f59c3e2b4a9ea7f269dfb480cf386a5": {
+        "path": "android/TryDataBinding/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "42cac04c731ce5a39e425ef1569bfa955f59c3e2b4a9ea7f269dfb480cf386a5",
+        "bytes": 236,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "dotnet/dojos/dojo1/JBG/build.gradle#321b6d41b2af52a8e1dcbfc2afe0b1e168b4d01d1beef4ec70e1e7efa51aaa09": {
+        "path": "dotnet/dojos/dojo1/JBG/build.gradle",
+        "sha256": "321b6d41b2af52a8e1dcbfc2afe0b1e168b4d01d1beef4ec70e1e7efa51aaa09",
+        "bytes": 117,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "dotnet/dojos/dojo1/JBG/settings.gradle#9d31e7a3f4b0e2a4c16bcf2b822be5d4bd8399b2eb50cd590063ebc8a2ce3fc3": {
+        "path": "dotnet/dojos/dojo1/JBG/settings.gradle",
+        "sha256": "9d31e7a3f4b0e2a4c16bcf2b822be5d4bd8399b2eb50cd590063ebc8a2ce3fc3",
+        "bytes": 653,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "dotnet/dojos/dojo1/JBG/gradle/wrapper/gradle-wrapper.properties#c20bcb443f8996e5f0603f78f2ff6c746458ccba2e81e75a4b16461e01da74fd": {
+        "path": "dotnet/dojos/dojo1/JBG/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "c20bcb443f8996e5f0603f78f2ff6c746458ccba2e81e75a4b16461e01da74fd",
+        "bytes": 236,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "java/gatling-jdbc/pom.xml#09cb2fcc0783f6ff7b063faaaada7c2740ef47309684a16c27adba508dd64ec4": {
+        "path": "java/gatling-jdbc/pom.xml",
+        "sha256": "09cb2fcc0783f6ff7b063faaaada7c2740ef47309684a16c27adba508dd64ec4",
+        "bytes": 1536,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "jpa/ClassIdUpdateIssue/pom.xml#9f3da932a8405ae4fe788cfbba4c6ba38d80d330f3a46336ad1688b32c7c98ff": {
+        "path": "jpa/ClassIdUpdateIssue/pom.xml",
+        "sha256": "9f3da932a8405ae4fe788cfbba4c6ba38d80d330f3a46336ad1688b32c7c98ff",
+        "bytes": 1883,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "jpa/lock-transaction-threads/pom.xml#1e249430041dab413e02588ebea995fe3576143da94dccfc5a472bc0ad5065e0": {
+        "path": "jpa/lock-transaction-threads/pom.xml",
+        "sha256": "1e249430041dab413e02588ebea995fe3576143da94dccfc5a472bc0ad5065e0",
+        "bytes": 2518,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "jpa/spring-jdbc-distributed-lock-issue/pom.xml#c2d3bf4a59be4c636a8ff055dff383616d257bc168cb1da278d77d23ccf1264b": {
+        "path": "jpa/spring-jdbc-distributed-lock-issue/pom.xml",
+        "sha256": "c2d3bf4a59be4c636a8ff055dff383616d257bc168cb1da278d77d23ccf1264b",
+        "bytes": 2696,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "kata/cash-register/build.gradle#16d34f4e8f0bb0a088890d73f940d2cc0dc80bf38ac7310a0d651e849f45bbee": {
+        "path": "kata/cash-register/build.gradle",
+        "sha256": "16d34f4e8f0bb0a088890d73f940d2cc0dc80bf38ac7310a0d651e849f45bbee",
+        "bytes": 1243,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "kata/cash-register/settings.gradle#ec07b64b6c6f111904e72e18cf2004dc7b0240c1eaa46249c0a83429985f89a0": {
+        "path": "kata/cash-register/settings.gradle",
+        "sha256": "ec07b64b6c6f111904e72e18cf2004dc7b0240c1eaa46249c0a83429985f89a0",
+        "bytes": 663,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "kata/cash-register/gradle/wrapper/gradle-wrapper.properties#1b66b21eb6afe2d778bd1b2285ce520d68d93b572bb33c936ce10bfa7e63564b": {
+        "path": "kata/cash-register/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "1b66b21eb6afe2d778bd1b2285ce520d68d93b572bb33c936ce10bfa7e63564b",
+        "bytes": 236,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "kata/FizzBuzzWhizz/build.gradle#4c9b5806b578fac59d0afc6bcd37f880b59c58aa4685b08948998bd9802ba62e": {
+        "path": "kata/FizzBuzzWhizz/build.gradle",
+        "sha256": "4c9b5806b578fac59d0afc6bcd37f880b59c58aa4685b08948998bd9802ba62e",
+        "bytes": 290,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "kata/FizzBuzzWhizz/settings.gradle#5a0a130c6ef9c6c0d85d5043248be22a6dfa5706ce8aeda86e2ba7c46cbb9640": {
+        "path": "kata/FizzBuzzWhizz/settings.gradle",
+        "sha256": "5a0a130c6ef9c6c0d85d5043248be22a6dfa5706ce8aeda86e2ba7c46cbb9640",
+        "bytes": 28,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "kata/FizzBuzzWhizz-Copilot/pom.xml#f92ceda88bcae15f591d2c9c309468654656c6ac558ba90ac712f7dcfb546919": {
+        "path": "kata/FizzBuzzWhizz-Copilot/pom.xml",
+        "sha256": "f92ceda88bcae15f591d2c9c309468654656c6ac558ba90ac712f7dcfb546919",
+        "bytes": 1365,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "leetcode/battleships-in-a-board/build.gradle#5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171": {
+        "path": "leetcode/battleships-in-a-board/build.gradle",
+        "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+        "bytes": 223,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "leetcode/battleships-in-a-board/settings.gradle#e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1": {
+        "path": "leetcode/battleships-in-a-board/settings.gradle",
+        "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+        "bytes": 35,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties#a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964": {
+        "path": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+        "bytes": 237,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "PgPlusNoSql/build.gradle#9e87c54b2260be1ee71a54a850e1c64f99ae39e74bffc7dbd05ef90dab4c9fc8": {
+        "path": "PgPlusNoSql/build.gradle",
+        "sha256": "9e87c54b2260be1ee71a54a850e1c64f99ae39e74bffc7dbd05ef90dab4c9fc8",
+        "bytes": 1271,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "RBAC/build.gradle#984c778a16d452b8ffebc39ff9b328facb7bd5d6f08d2b9f798ac3ad10a16fdf": {
+        "path": "RBAC/build.gradle",
+        "sha256": "984c778a16d452b8ffebc39ff9b328facb7bd5d6f08d2b9f798ac3ad10a16fdf",
+        "bytes": 200,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "RBAC/gradle.properties#aa63ece59ef3a1f842777422d7f3a47302fa0ba78b35eeeb5f994d91c81eb477": {
+        "path": "RBAC/gradle.properties",
+        "sha256": "aa63ece59ef3a1f842777422d7f3a47302fa0ba78b35eeeb5f994d91c81eb477",
+        "bytes": 11,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      }
+    },
+    "status": "NOT_QUALIFIED"
+  },
+  "85795396": {
+    "class_indices": [
+      15,
+      21,
+      24,
+      31,
+      80,
+      81,
+      194,
+      257,
+      271,
+      299
+    ],
+    "descriptor_evidence": {
+      "build.gradle.kts#e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47": {
+        "path": "build.gradle.kts",
+        "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+        "bytes": 22547,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "gradle.properties#c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469": {
+        "path": "gradle.properties",
+        "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+        "bytes": 3127,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "settings.gradle.kts#13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2": {
+        "path": "settings.gradle.kts",
+        "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+        "bytes": 3640,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "bom/build.gradle.kts#d8829e9ef985b393bfa4c50f1c6e9743e7cb6027aba9ab99392a830547727c02": {
+        "path": "bom/build.gradle.kts",
+        "sha256": "d8829e9ef985b393bfa4c50f1c6e9743e7cb6027aba9ab99392a830547727c02",
+        "bytes": 4023,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "core/build.gradle.kts#526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e": {
+        "path": "core/build.gradle.kts",
+        "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+        "bytes": 4483,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "core/gradle.properties#863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d": {
+        "path": "core/gradle.properties",
+        "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+        "bytes": 870,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "docker/gradle.properties#68a6140f80a56e544db8e55ac7def1b366b482b05e4b689993c9b9f4fcdafab1": {
+        "path": "docker/gradle.properties",
+        "sha256": "68a6140f80a56e544db8e55ac7def1b366b482b05e4b689993c9b9f4fcdafab1",
+        "bytes": 899,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "gradle/wrapper/gradle-wrapper.properties#1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9": {
+        "path": "gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+        "bytes": 1145,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "metrics/build.gradle.kts#868964d6eb60ec7721f67cbf5ec441a9b1062585e9e0b8881cb89f1c2ba8c3ce": {
+        "path": "metrics/build.gradle.kts",
+        "sha256": "868964d6eb60ec7721f67cbf5ec441a9b1062585e9e0b8881cb89f1c2ba8c3ce",
+        "bytes": 1125,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "metrics/gradle.properties#cd2ffeea8b24e1898d01119f4a398292799cff6a9a87929d30f8446ab6bbe7fc": {
+        "path": "metrics/gradle.properties",
+        "sha256": "cd2ffeea8b24e1898d01119f4a398292799cff6a9a87929d30f8446ab6bbe7fc",
+        "bytes": 937,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "metrics-dropwizardmetrics/build.gradle.kts#bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05": {
+        "path": "metrics-dropwizardmetrics/build.gradle.kts",
+        "sha256": "bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05",
+        "bytes": 1173,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "metrics-dropwizardmetrics/gradle.properties#189ace3a650574eb2f8bb369f381627805024fab3ae7abe48d7fe24ca02dc6d9": {
+        "path": "metrics-dropwizardmetrics/gradle.properties",
+        "sha256": "189ace3a650574eb2f8bb369f381627805024fab3ae7abe48d7fe24ca02dc6d9",
+        "bytes": 983,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "noop-driver/build.gradle.kts#c118edd2698564be2796d5104d6fd1db20bf511f1b071859eb69b61129a07981": {
+        "path": "noop-driver/build.gradle.kts",
+        "sha256": "c118edd2698564be2796d5104d6fd1db20bf511f1b071859eb69b61129a07981",
+        "bytes": 848,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "noop-driver/gradle.properties#a4c15fddd080910f23d87b2dcc210a91369fa9bf00e6184b45940e1ada527ec6": {
+        "path": "noop-driver/gradle.properties",
+        "sha256": "a4c15fddd080910f23d87b2dcc210a91369fa9bf00e6184b45940e1ada527ec6",
+        "bytes": 872,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "release/build.gradle.kts#b6a00a77839337bd74a3ed3b88696c224d64473cb7332ec8f98406f1fa4223f1": {
+        "path": "release/build.gradle.kts",
+        "sha256": "b6a00a77839337bd74a3ed3b88696c224d64473cb7332ec8f98406f1fa4223f1",
+        "bytes": 8201,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "server/build.gradle.kts#0f4b517f9be3877e6353d1b6fcf2f7f823221d617ce22dff7b2a7e9bb589660e": {
+        "path": "server/build.gradle.kts",
+        "sha256": "0f4b517f9be3877e6353d1b6fcf2f7f823221d617ce22dff7b2a7e9bb589660e",
+        "bytes": 2384,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "server/gradle.properties#0f6cc0505efca3eae288f434ece729dd56ab65320d7018875e3bbc48405bae27": {
+        "path": "server/gradle.properties",
+        "sha256": "0f6cc0505efca3eae288f434ece729dd56ab65320d7018875e3bbc48405bae27",
+        "bytes": 867,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "shaded/core/build.gradle.kts#e974a27e81f197282818cf4033b261811143e8d30c509f95ef916aab63324d9d": {
+        "path": "shaded/core/build.gradle.kts",
+        "sha256": "e974a27e81f197282818cf4033b261811143e8d30c509f95ef916aab63324d9d",
+        "bytes": 3284,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "shaded/core/gradle.properties#1d1091129a6c0abb2b495b4b23d884e15eaecc16e1e1924c287864b397a7823b": {
+        "path": "shaded/core/gradle.properties",
+        "sha256": "1d1091129a6c0abb2b495b4b23d884e15eaecc16e1e1924c287864b397a7823b",
+        "bytes": 879,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "standalone-server/build.gradle.kts#388793e7c0226b6dc610f2b67a1c38d6f5bae5433f105a571f2c53ff11bddd79": {
+        "path": "standalone-server/build.gradle.kts",
+        "sha256": "388793e7c0226b6dc610f2b67a1c38d6f5bae5433f105a571f2c53ff11bddd79",
+        "bytes": 4216,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "standalone-server/gradle.properties#0881602df8c829ba190a6c6808346b647afce914e7ab03befef706acf8e63a89": {
+        "path": "standalone-server/gradle.properties",
+        "sha256": "0881602df8c829ba190a6c6808346b647afce914e7ab03befef706acf8e63a89",
+        "bytes": 909,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "tck/build.gradle.kts#25484fa46e69666925d9649aca965370003857f8c11cbff11f84da6f44fbd397": {
+        "path": "tck/build.gradle.kts",
+        "sha256": "25484fa46e69666925d9649aca965370003857f8c11cbff11f84da6f44fbd397",
+        "bytes": 4376,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "tck/gradle.properties#5797c408f029c89ea778d7516ff76c329f3e611a382cc662e11463c0f09932d6": {
+        "path": "tck/gradle.properties",
+        "sha256": "5797c408f029c89ea778d7516ff76c329f3e611a382cc662e11463c0f09932d6",
+        "bytes": 927,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      }
+    },
+    "status": "NOT_QUALIFIED"
+  },
+  "6944525": {
+    "class_indices": [
+      98,
+      110,
+      161,
+      199,
+      207,
+      227,
+      241,
+      251,
+      264,
+      268
+    ],
+    "descriptor_evidence": {
+      "build.gradle#bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590": {
+        "path": "build.gradle",
+        "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+        "bytes": 18341,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "gradle.properties#9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3": {
+        "path": "gradle.properties",
+        "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+        "bytes": 162,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "settings.gradle#aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59": {
+        "path": "settings.gradle",
+        "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+        "bytes": 1787,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "buildSrc/build.gradle#e50ced4a38cc4568c13388882984f475411711e19f98653f2d4695dadc06d206": {
+        "path": "buildSrc/build.gradle",
+        "sha256": "e50ced4a38cc4568c13388882984f475411711e19f98653f2d4695dadc06d206",
+        "bytes": 213,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "d2/build.gradle#0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911": {
+        "path": "d2/build.gradle",
+        "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+        "bytes": 2719,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "d2-benchmark/build.gradle#8e70b53b666919554345b4b55f726cf105f06b7f46f2ed075bf65053727dc7bb": {
+        "path": "d2-benchmark/build.gradle",
+        "sha256": "8e70b53b666919554345b4b55f726cf105f06b7f46f2ed075bf65053727dc7bb",
+        "bytes": 506,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "d2-contrib/build.gradle#d658d59c53b5cfe30a53c20e9926d978d41e2cdc2b7ea61e878aed5a942bdc81": {
+        "path": "d2-contrib/build.gradle",
+        "sha256": "d658d59c53b5cfe30a53c20e9926d978d41e2cdc2b7ea61e878aed5a942bdc81",
+        "bytes": 190,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "d2-int-test/build.gradle#ec5304c0d0a84c996b38cc08bd2067ab616c42ad3343e646e8d63d76733b6199": {
+        "path": "d2-int-test/build.gradle",
+        "sha256": "ec5304c0d0a84c996b38cc08bd2067ab616c42ad3343e646e8d63d76733b6199",
+        "bytes": 877,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "d2-schemas/build.gradle#e496befc3bdea30f1557a3a932301ab57b3c547aff64c1620af3452ce51681c0": {
+        "path": "d2-schemas/build.gradle",
+        "sha256": "e496befc3bdea30f1557a3a932301ab57b3c547aff64c1620af3452ce51681c0",
+        "bytes": 191,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "d2-test-api/build.gradle#06300380bcf0e0ecdfeef8290c71493e7513be8fb5fc7583ca6cffefcf87a40b": {
+        "path": "d2-test-api/build.gradle",
+        "sha256": "06300380bcf0e0ecdfeef8290c71493e7513be8fb5fc7583ca6cffefcf87a40b",
+        "bytes": 210,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "darkcluster/build.gradle#e271fe6371abe53eddc15840d6752185ab2a3ad6495c27fa90e50b12f93b1e9b": {
+        "path": "darkcluster/build.gradle",
+        "sha256": "e271fe6371abe53eddc15840d6752185ab2a3ad6495c27fa90e50b12f93b1e9b",
+        "bytes": 464,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "darkcluster-test-api/build.gradle#0f6a9a2ebbbdae7e99ef1b56819bd8c67eaf448212afc889e961688355dc576a": {
+        "path": "darkcluster-test-api/build.gradle",
+        "sha256": "0f6a9a2ebbbdae7e99ef1b56819bd8c67eaf448212afc889e961688355dc576a",
+        "bytes": 52,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "data/build.gradle#f2a845d3499c4f880b3b86ed501189ae1ec33124f211f2d1270f8b3b91043871": {
+        "path": "data/build.gradle",
+        "sha256": "f2a845d3499c4f880b3b86ed501189ae1ec33124f211f2d1270f8b3b91043871",
+        "bytes": 1143,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "data-avro/build.gradle#f4c9691f5caa3c15a5f8a95939637247c444b3641c9f774015ae68b334d22f29": {
+        "path": "data-avro/build.gradle",
+        "sha256": "f4c9691f5caa3c15a5f8a95939637247c444b3641c9f774015ae68b334d22f29",
+        "bytes": 577,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "data-avro-1_6/build.gradle#1fd6a612cfa662184dc6395b77678602814c1c439353124dac417ebb891eb8aa": {
+        "path": "data-avro-1_6/build.gradle",
+        "sha256": "1fd6a612cfa662184dc6395b77678602814c1c439353124dac417ebb891eb8aa",
+        "bytes": 1167,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "data-avro-generator/build.gradle#1ff3184a4207f9e587bbb047e04ee6e11c584351488c96547bf19ead2d64d89a": {
+        "path": "data-avro-generator/build.gradle",
+        "sha256": "1ff3184a4207f9e587bbb047e04ee6e11c584351488c96547bf19ead2d64d89a",
+        "bytes": 226,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "data-testutils/build.gradle#b6aa93ea3282c67067f55447b3506f53c2c9d3bea480e0acb0874e4549980a4c": {
+        "path": "data-testutils/build.gradle",
+        "sha256": "b6aa93ea3282c67067f55447b3506f53c2c9d3bea480e0acb0874e4549980a4c",
+        "bytes": 127,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "data-transform/build.gradle#8c2ec222532a5177ef15d0ed18cad80c8167cca6c22bca7d959ca1149554cadd": {
+        "path": "data-transform/build.gradle",
+        "sha256": "8c2ec222532a5177ef15d0ed18cad80c8167cca6c22bca7d959ca1149554cadd",
+        "bytes": 298,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "degrader/build.gradle#cda9f2b2ba5e507dee12318cb05447f6520bad0244414fc23c54639b05017f14": {
+        "path": "degrader/build.gradle",
+        "sha256": "cda9f2b2ba5e507dee12318cb05447f6520bad0244414fc23c54639b05017f14",
+        "bytes": 194,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "entity-stream/build.gradle#47d265677cfe9e9e60c4387ce87be78d579e21f7d4d7717cd1cade818cc27e83": {
+        "path": "entity-stream/build.gradle",
+        "sha256": "47d265677cfe9e9e60c4387ce87be78d579e21f7d4d7717cd1cade818cc27e83",
+        "bytes": 100,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-advanced-example/build.gradle#36fabca8722a2de6021b0ea6a759170f432fc778942d41211ea220b728d8126e": {
+        "path": "examples/d2-advanced-example/build.gradle",
+        "sha256": "36fabca8722a2de6021b0ea6a759170f432fc778942d41211ea220b728d8126e",
+        "bytes": 461,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-advanced-example/settings.gradle#5aab465b7f67f352833e988b66bd105e7cfe923a75786c028294bd68e2e381ea": {
+        "path": "examples/d2-advanced-example/settings.gradle",
+        "sha256": "5aab465b7f67f352833e988b66bd105e7cfe923a75786c028294bd68e2e381ea",
+        "bytes": 54,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-advanced-example/client/build.gradle#ec03f80700635b8de558c75d70ac9fd644c60856d33bb49b40c804cc7c975269": {
+        "path": "examples/d2-advanced-example/client/build.gradle",
+        "sha256": "ec03f80700635b8de558c75d70ac9fd644c60856d33bb49b40c804cc7c975269",
+        "bytes": 917,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-advanced-example/config/build.gradle#d8249d2af5572ec744e05063a2f7bfe7b346a92be816d94d511549872d5dd3b8": {
+        "path": "examples/d2-advanced-example/config/build.gradle",
+        "sha256": "d8249d2af5572ec744e05063a2f7bfe7b346a92be816d94d511549872d5dd3b8",
+        "bytes": 362,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-advanced-example/server/build.gradle#7eb4d07b8ee5944f84c3449d06911a2efb0eb880466f1b9df2c9e43839274301": {
+        "path": "examples/d2-advanced-example/server/build.gradle",
+        "sha256": "7eb4d07b8ee5944f84c3449d06911a2efb0eb880466f1b9df2c9e43839274301",
+        "bytes": 396,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-quickstart/build.gradle#36fabca8722a2de6021b0ea6a759170f432fc778942d41211ea220b728d8126e": {
+        "path": "examples/d2-quickstart/build.gradle",
+        "sha256": "36fabca8722a2de6021b0ea6a759170f432fc778942d41211ea220b728d8126e",
+        "bytes": 461,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-quickstart/settings.gradle#5aab465b7f67f352833e988b66bd105e7cfe923a75786c028294bd68e2e381ea": {
+        "path": "examples/d2-quickstart/settings.gradle",
+        "sha256": "5aab465b7f67f352833e988b66bd105e7cfe923a75786c028294bd68e2e381ea",
+        "bytes": 54,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-quickstart/client/build.gradle#784499744c2ea87c8559eef62930572cbc14bb35dea20308951cdf769e5cdb69": {
+        "path": "examples/d2-quickstart/client/build.gradle",
+        "sha256": "784499744c2ea87c8559eef62930572cbc14bb35dea20308951cdf769e5cdb69",
+        "bytes": 361,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-quickstart/config/build.gradle#d8249d2af5572ec744e05063a2f7bfe7b346a92be816d94d511549872d5dd3b8": {
+        "path": "examples/d2-quickstart/config/build.gradle",
+        "sha256": "d8249d2af5572ec744e05063a2f7bfe7b346a92be816d94d511549872d5dd3b8",
+        "bytes": 362,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/d2-quickstart/server/build.gradle#7eb4d07b8ee5944f84c3449d06911a2efb0eb880466f1b9df2c9e43839274301": {
+        "path": "examples/d2-quickstart/server/build.gradle",
+        "sha256": "7eb4d07b8ee5944f84c3449d06911a2efb0eb880466f1b9df2c9e43839274301",
+        "bytes": 396,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/guice-server/build.gradle#f55147787340bdf2de239f59ff4e31b983b02a7aa6ff6cab2f4422ec3fcd89fa": {
+        "path": "examples/guice-server/build.gradle",
+        "sha256": "f55147787340bdf2de239f59ff4e31b983b02a7aa6ff6cab2f4422ec3fcd89fa",
+        "bytes": 1883,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/guice-server/gradle.properties#092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e": {
+        "path": "examples/guice-server/gradle.properties",
+        "sha256": "092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e",
+        "bytes": 14,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/guice-server/settings.gradle#fb0522490c71d0c66bb2a8f47306bdfa18268ea66478eac49c5aaddf290d29f8": {
+        "path": "examples/guice-server/settings.gradle",
+        "sha256": "fb0522490c71d0c66bb2a8f47306bdfa18268ea66478eac49c5aaddf290d29f8",
+        "bytes": 51,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/guice-server/api/build.gradle#258b323bc5cb0821f743d9e63beda0cb7c53d6ddaf6d63cd61949e2ce44fc3a3": {
+        "path": "examples/guice-server/api/build.gradle",
+        "sha256": "258b323bc5cb0821f743d9e63beda0cb7c53d6ddaf6d63cd61949e2ce44fc3a3",
+        "bytes": 47,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/guice-server/client/build.gradle#030cd9afed45e955d7136084f2e07cb3a32738e9e8a2c1dfdb2476dd75007465": {
+        "path": "examples/guice-server/client/build.gradle",
+        "sha256": "030cd9afed45e955d7136084f2e07cb3a32738e9e8a2c1dfdb2476dd75007465",
+        "bytes": 295,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/guice-server/server/build.gradle#41f6992f94d0821f95e6f1f3fcf52c0559516d034c452cafd6fbc2dacbc83800": {
+        "path": "examples/guice-server/server/build.gradle",
+        "sha256": "41f6992f94d0821f95e6f1f3fcf52c0559516d034c452cafd6fbc2dacbc83800",
+        "bytes": 845,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/guice-server/server/gradle.properties#579814baf5139b36dd17b72c82d25d723071cd1bf4dfa42694a710ee41ebbb71": {
+        "path": "examples/guice-server/server/gradle.properties",
+        "sha256": "579814baf5139b36dd17b72c82d25d723071cd1bf4dfa42694a710ee41ebbb71",
+        "bytes": 278,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/quickstart/build.gradle#7f74077830c2efacbbd7e16d252192f7a4009ea62fcaa55d935126f5a17c3a9c": {
+        "path": "examples/quickstart/build.gradle",
+        "sha256": "7f74077830c2efacbbd7e16d252192f7a4009ea62fcaa55d935126f5a17c3a9c",
+        "bytes": 1684,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/quickstart/gradle.properties#092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e": {
+        "path": "examples/quickstart/gradle.properties",
+        "sha256": "092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e",
+        "bytes": 14,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/quickstart/settings.gradle#fb0522490c71d0c66bb2a8f47306bdfa18268ea66478eac49c5aaddf290d29f8": {
+        "path": "examples/quickstart/settings.gradle",
+        "sha256": "fb0522490c71d0c66bb2a8f47306bdfa18268ea66478eac49c5aaddf290d29f8",
+        "bytes": 51,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/quickstart/api/build.gradle#c792f9b70ba29cfe50466ac8d2c6edf4317096bda719d74310d0268e3924b638": {
+        "path": "examples/quickstart/api/build.gradle",
+        "sha256": "c792f9b70ba29cfe50466ac8d2c6edf4317096bda719d74310d0268e3924b638",
+        "bytes": 25,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/quickstart/client/build.gradle#030cd9afed45e955d7136084f2e07cb3a32738e9e8a2c1dfdb2476dd75007465": {
+        "path": "examples/quickstart/client/build.gradle",
+        "sha256": "030cd9afed45e955d7136084f2e07cb3a32738e9e8a2c1dfdb2476dd75007465",
+        "bytes": 295,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/quickstart/server/build.gradle#a3c2d9eb24a5802bdab8ea73630d6d3decb13b5e5368dd57be16c0ab945e87d6": {
+        "path": "examples/quickstart/server/build.gradle",
+        "sha256": "a3c2d9eb24a5802bdab8ea73630d6d3decb13b5e5368dd57be16c0ab945e87d6",
+        "bytes": 1153,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/quickstart/server/gradle.properties#aa1343d2083e2b9047112dde26306784f55611f0dc91fe5681d18ee0a3571660": {
+        "path": "examples/quickstart/server/gradle.properties",
+        "sha256": "aa1343d2083e2b9047112dde26306784f55611f0dc91fe5681d18ee0a3571660",
+        "bytes": 280,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/spring-server/build.gradle#4bc4cc2e3d9a9116faa7025cf6b112aae25fc35edf83fc2b1e1b24b26575bdce": {
+        "path": "examples/spring-server/build.gradle",
+        "sha256": "4bc4cc2e3d9a9116faa7025cf6b112aae25fc35edf83fc2b1e1b24b26575bdce",
+        "bytes": 1890,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/spring-server/gradle.properties#092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e": {
+        "path": "examples/spring-server/gradle.properties",
+        "sha256": "092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e",
+        "bytes": 14,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/spring-server/settings.gradle#fb0522490c71d0c66bb2a8f47306bdfa18268ea66478eac49c5aaddf290d29f8": {
+        "path": "examples/spring-server/settings.gradle",
+        "sha256": "fb0522490c71d0c66bb2a8f47306bdfa18268ea66478eac49c5aaddf290d29f8",
+        "bytes": 51,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/spring-server/api/build.gradle#258b323bc5cb0821f743d9e63beda0cb7c53d6ddaf6d63cd61949e2ce44fc3a3": {
+        "path": "examples/spring-server/api/build.gradle",
+        "sha256": "258b323bc5cb0821f743d9e63beda0cb7c53d6ddaf6d63cd61949e2ce44fc3a3",
+        "bytes": 47,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/spring-server/client/build.gradle#030cd9afed45e955d7136084f2e07cb3a32738e9e8a2c1dfdb2476dd75007465": {
+        "path": "examples/spring-server/client/build.gradle",
+        "sha256": "030cd9afed45e955d7136084f2e07cb3a32738e9e8a2c1dfdb2476dd75007465",
+        "bytes": 295,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/spring-server/server/build.gradle#31e909006a80f5304ccefff8924bafedc8c48f3831307ef8ba1b2a0af6201c07": {
+        "path": "examples/spring-server/server/build.gradle",
+        "sha256": "31e909006a80f5304ccefff8924bafedc8c48f3831307ef8ba1b2a0af6201c07",
+        "bytes": 806,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "examples/spring-server/server/gradle.properties#579814baf5139b36dd17b72c82d25d723071cd1bf4dfa42694a710ee41ebbb71": {
+        "path": "examples/spring-server/server/gradle.properties",
+        "sha256": "579814baf5139b36dd17b72c82d25d723071cd1bf4dfa42694a710ee41ebbb71",
+        "bytes": 278,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "generator/build.gradle#e169b7434d7cf1d78ad2f769fab7581d594b4dcaecef8062650e5323c81246b6": {
+        "path": "generator/build.gradle",
+        "sha256": "e169b7434d7cf1d78ad2f769fab7581d594b4dcaecef8062650e5323c81246b6",
+        "bytes": 667,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "generator-test/build.gradle#7518fa717d1bebc078569acd8309e9a28d20c58933c7e66f76bb1f7f4880d41d": {
+        "path": "generator-test/build.gradle",
+        "sha256": "7518fa717d1bebc078569acd8309e9a28d20c58933c7e66f76bb1f7f4880d41d",
+        "bytes": 2518,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "gradle/wrapper/gradle-wrapper.properties#4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9": {
+        "path": "gradle/wrapper/gradle-wrapper.properties",
+        "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+        "bytes": 207,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "gradle-plugins/build.gradle#ebb876fec8293dbead8a25dfb34428b460b619256eca96699e504200a469eccc": {
+        "path": "gradle-plugins/build.gradle",
+        "sha256": "ebb876fec8293dbead8a25dfb34428b460b619256eca96699e504200a469eccc",
+        "bytes": 1338,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "li-jersey-uri/build.gradle#ee1062c54104f342f3aa91f602bccc96620d64aa03694a870be915a4be59eb6b": {
+        "path": "li-jersey-uri/build.gradle",
+        "sha256": "ee1062c54104f342f3aa91f602bccc96620d64aa03694a870be915a4be59eb6b",
+        "bytes": 187,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "li-protobuf/build.gradle#307b32f390e782095d244e42b7fff2ba63fa506afe0efae05d703444c09f1a59": {
+        "path": "li-protobuf/build.gradle",
+        "sha256": "307b32f390e782095d244e42b7fff2ba63fa506afe0efae05d703444c09f1a59",
+        "bytes": 21,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "log-test-config/build.gradle#dacfb2dcbf52f6f8ec18a0e8b4cb003cf654ac7eff3e62ccd663efcedeee83ba": {
+        "path": "log-test-config/build.gradle",
+        "sha256": "dacfb2dcbf52f6f8ec18a0e8b4cb003cf654ac7eff3e62ccd663efcedeee83ba",
+        "bytes": 184,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "multipart-mime/build.gradle#4fd158c5e06d8b823ecf50fa9d1bf274be49a00526cf6c4bd124c01ec12113fc": {
+        "path": "multipart-mime/build.gradle",
+        "sha256": "4fd158c5e06d8b823ecf50fa9d1bf274be49a00526cf6c4bd124c01ec12113fc",
+        "bytes": 328,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "pegasus-all/build.gradle#1f578f1430347df963ee9d8449fb3444b4855647c58e337fbc5edb34dadc1747": {
+        "path": "pegasus-all/build.gradle",
+        "sha256": "1f578f1430347df963ee9d8449fb3444b4855647c58e337fbc5edb34dadc1747",
+        "bytes": 462,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "pegasus-common/build.gradle#d6928d8b5dc98b150d20cce6182e3c3fbe187b109c59f93ccd2500423c421ef1": {
+        "path": "pegasus-common/build.gradle",
+        "sha256": "d6928d8b5dc98b150d20cce6182e3c3fbe187b109c59f93ccd2500423c421ef1",
+        "bytes": 58,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2/build.gradle#c804b7e009215d7a4f6f0681d3d5ac4a2d4a87589695e666df2d0de065698f7d": {
+        "path": "r2/build.gradle",
+        "sha256": "c804b7e009215d7a4f6f0681d3d5ac4a2d4a87589695e666df2d0de065698f7d",
+        "bytes": 80,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-core/build.gradle#1bfcd47573538b4c75b7d318efae898fb8f85365719d92926c051040e2b87a63": {
+        "path": "r2-core/build.gradle",
+        "sha256": "1bfcd47573538b4c75b7d318efae898fb8f85365719d92926c051040e2b87a63",
+        "bytes": 523,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-disruptor/build.gradle#de4de6b73da5e295ea2f46b178fa03c948ad11a8117d5eee277074dc4b51d8c5": {
+        "path": "r2-disruptor/build.gradle",
+        "sha256": "de4de6b73da5e295ea2f46b178fa03c948ad11a8117d5eee277074dc4b51d8c5",
+        "bytes": 212,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-filter-compression/build.gradle#dbf44b4074175ccda5f4393a0d345011cd88a30968bad82a793f96c75af5fc59": {
+        "path": "r2-filter-compression/build.gradle",
+        "sha256": "dbf44b4074175ccda5f4393a0d345011cd88a30968bad82a793f96c75af5fc59",
+        "bytes": 328,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-int-test/build.gradle#eba39e96132e948470878503b457dc6e95782786a0110736d7cdb89d14e9f054": {
+        "path": "r2-int-test/build.gradle",
+        "sha256": "eba39e96132e948470878503b457dc6e95782786a0110736d7cdb89d14e9f054",
+        "bytes": 356,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-jetty/build.gradle#879484ec62db5e5d8f725328fcc4b0c4c424f476149e75edebe892a660f074c6": {
+        "path": "r2-jetty/build.gradle",
+        "sha256": "879484ec62db5e5d8f725328fcc4b0c4c424f476149e75edebe892a660f074c6",
+        "bytes": 434,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-netty/build.gradle#95084718cb73ca71fd2997cd0e6f414f12fd94d7ea4a3b4111d14a4e2be0d84c": {
+        "path": "r2-netty/build.gradle",
+        "sha256": "95084718cb73ca71fd2997cd0e6f414f12fd94d7ea4a3b4111d14a4e2be0d84c",
+        "bytes": 837,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-perf-test/build.gradle#fe9e099fdd60a40de1686d1cbeeda90dedbe13dc6398eebec6b4d9582e83d701": {
+        "path": "r2-perf-test/build.gradle",
+        "sha256": "fe9e099fdd60a40de1686d1cbeeda90dedbe13dc6398eebec6b4d9582e83d701",
+        "bytes": 2808,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-sample/build.gradle#aa1ee155ebc5dbaee3b4112c81a2cac068fa4e645e7f92bfb5f184c017b80326": {
+        "path": "r2-sample/build.gradle",
+        "sha256": "aa1ee155ebc5dbaee3b4112c81a2cac068fa4e645e7f92bfb5f184c017b80326",
+        "bytes": 255,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "r2-testutils/build.gradle#92e5acb30915073a59687f03159e756d811aeb7717af6b556755e9cdc0cb80cf": {
+        "path": "r2-testutils/build.gradle",
+        "sha256": "92e5acb30915073a59687f03159e756d811aeb7717af6b556755e9cdc0cb80cf",
+        "bytes": 677,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-client/build.gradle#ff798a8346761c107293e9c3fe8080cfc343fb1cf60f33728604c34c53696b7c": {
+        "path": "restli-client/build.gradle",
+        "sha256": "ff798a8346761c107293e9c3fe8080cfc343fb1cf60f33728604c34c53696b7c",
+        "bytes": 1778,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-client-parseq/build.gradle#d059d831ce331665eb2a8e03e0dbd7af35790e610a3e9313fab86647fd312eb2": {
+        "path": "restli-client-parseq/build.gradle",
+        "sha256": "d059d831ce331665eb2a8e03e0dbd7af35790e610a3e9313fab86647fd312eb2",
+        "bytes": 482,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-client-testutils/build.gradle#554378b0305dd9791f217e1215275c7f74a18b744918bc503c9721739b955160": {
+        "path": "restli-client-testutils/build.gradle",
+        "sha256": "554378b0305dd9791f217e1215275c7f74a18b744918bc503c9721739b955160",
+        "bytes": 569,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-client-util-recorder/build.gradle#52cc3ac02bf6aed933aaed4d86f2e3272f7ff6b4241464fee8380e02dd93ee23": {
+        "path": "restli-client-util-recorder/build.gradle",
+        "sha256": "52cc3ac02bf6aed933aaed4d86f2e3272f7ff6b4241464fee8380e02dd93ee23",
+        "bytes": 496,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-common/build.gradle#f27a8c8389335687bb635ecb2f73e5ddeb8716c3583e66180bbbe12ada6c1e91": {
+        "path": "restli-common/build.gradle",
+        "sha256": "f27a8c8389335687bb635ecb2f73e5ddeb8716c3583e66180bbbe12ada6c1e91",
+        "bytes": 1380,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-common-testutils/build.gradle#f34fd7443c30977861cb62b9ea5dc02801298df356035d4ed6ffba85c8624fd8": {
+        "path": "restli-common-testutils/build.gradle",
+        "sha256": "f34fd7443c30977861cb62b9ea5dc02801298df356035d4ed6ffba85c8624fd8",
+        "bytes": 396,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-contrib-spring/build.gradle#d3673f1961af24440cf245593f1bf466b1b62dbc22f2b47879dc3f1a7529c02e": {
+        "path": "restli-contrib-spring/build.gradle",
+        "sha256": "d3673f1961af24440cf245593f1bf466b1b62dbc22f2b47879dc3f1a7529c02e",
+        "bytes": 421,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-disruptor/build.gradle#f918873cd458d4dd1bc9bd468c0a85f158676ea3fafd4737f7e582a71ad7cdfc": {
+        "path": "restli-disruptor/build.gradle",
+        "sha256": "f918873cd458d4dd1bc9bd468c0a85f158676ea3fafd4737f7e582a71ad7cdfc",
+        "bytes": 254,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-docgen/build.gradle#b426bd96c3bd135106a587918627056e08990274e6b6aaefb9074ab56ea296df": {
+        "path": "restli-docgen/build.gradle",
+        "sha256": "b426bd96c3bd135106a587918627056e08990274e6b6aaefb9074ab56ea296df",
+        "bytes": 426,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-example-api/build.gradle#13513d69193e58296e346245e79c1cb9cabc0b479c1cf688a9542b4e5c1391f4": {
+        "path": "restli-example-api/build.gradle",
+        "sha256": "13513d69193e58296e346245e79c1cb9cabc0b479c1cf688a9542b4e5c1391f4",
+        "bytes": 146,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-example-api/gradle.properties#092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e": {
+        "path": "restli-example-api/gradle.properties",
+        "sha256": "092eaa669f4aec62f9f4f3e8db4b090b826c8700bbad05ed77e5d16c8525797e",
+        "bytes": 14,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-example-client/build.gradle#f572879ba57e605c7dcffc6ff79057e34f231993d36f870e0fdc9be994f60c05": {
+        "path": "restli-example-client/build.gradle",
+        "sha256": "f572879ba57e605c7dcffc6ff79057e34f231993d36f870e0fdc9be994f60c05",
+        "bytes": 884,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-example-server/build.gradle#090c9ecaca8f285dac2af817534d32bc398c7700468b1dc99f151d09c56a077e": {
+        "path": "restli-example-server/build.gradle",
+        "sha256": "090c9ecaca8f285dac2af817534d32bc398c7700468b1dc99f151d09c56a077e",
+        "bytes": 1496,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-extras/build.gradle#1397c210980df2c34e57cfec3ca04e690aedefdda65718ef9797d7ee17172aa3": {
+        "path": "restli-extras/build.gradle",
+        "sha256": "1397c210980df2c34e57cfec3ca04e690aedefdda65718ef9797d7ee17172aa3",
+        "bytes": 356,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-guice-bridge/build.gradle#b87096f0ec27297fdd83bd468fe8bea269ef83efe67f822550fcebab22200956": {
+        "path": "restli-guice-bridge/build.gradle",
+        "sha256": "b87096f0ec27297fdd83bd468fe8bea269ef83efe67f822550fcebab22200956",
+        "bytes": 246,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-int-test/build.gradle#d52a2680caea30616b6b7464f5075d0a5ddb65ae203d5079ab6073bc9dcfa313": {
+        "path": "restli-int-test/build.gradle",
+        "sha256": "d52a2680caea30616b6b7464f5075d0a5ddb65ae203d5079ab6073bc9dcfa313",
+        "bytes": 3236,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-int-test-api/build.gradle#3dae325edf3b9c0be5d1a072e14bdb0f3f056e34373ea40343acfdc4baabf4e6": {
+        "path": "restli-int-test-api/build.gradle",
+        "sha256": "3dae325edf3b9c0be5d1a072e14bdb0f3f056e34373ea40343acfdc4baabf4e6",
+        "bytes": 1185,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-int-test-client/build.gradle#d5c2aa4cc59e7c9ff1010b7c421935532c3619c595dc5a3500fb3516fe13342f": {
+        "path": "restli-int-test-client/build.gradle",
+        "sha256": "d5c2aa4cc59e7c9ff1010b7c421935532c3619c595dc5a3500fb3516fe13342f",
+        "bytes": 469,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-int-test-server/build.gradle#7efb61cafa1f935556627ae514938826f380dd827d6dcdf7cdf64283489f536d": {
+        "path": "restli-int-test-server/build.gradle",
+        "sha256": "7efb61cafa1f935556627ae514938826f380dd827d6dcdf7cdf64283489f536d",
+        "bytes": 6915,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-int-test-server/gradle.properties#0c143f3eac40c213ba8a7832adac0e6c05a7c4ce2d63688d449545b885423c22": {
+        "path": "restli-int-test-server/gradle.properties",
+        "sha256": "0c143f3eac40c213ba8a7832adac0e6c05a7c4ce2d63688d449545b885423c22",
+        "bytes": 154,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-internal-testutils/build.gradle#9c152fc808608b11bd894c2511fa5c83362491656976e451c1c94f9c45df9edb": {
+        "path": "restli-internal-testutils/build.gradle",
+        "sha256": "9c152fc808608b11bd894c2511fa5c83362491656976e451c1c94f9c45df9edb",
+        "bytes": 208,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-netty-standalone/build.gradle#ff94fcde7b22da55f67a0101ac7f58cd4b77eeac464fe4d77c38ec47f39f6d1d": {
+        "path": "restli-netty-standalone/build.gradle",
+        "sha256": "ff94fcde7b22da55f67a0101ac7f58cd4b77eeac464fe4d77c38ec47f39f6d1d",
+        "bytes": 195,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-server/build.gradle#f6aa45dcfd4cfe35a05522ec48e07fcdb6fb25d34f7db479e4b5c40ad09c2b0a": {
+        "path": "restli-server/build.gradle",
+        "sha256": "f6aa45dcfd4cfe35a05522ec48e07fcdb6fb25d34f7db479e4b5c40ad09c2b0a",
+        "bytes": 1972,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-server-extras/build.gradle#d2ec56b1b22119fc7130d58ac38d9d762cd8d19e0046f7a9502d70a358aee879": {
+        "path": "restli-server-extras/build.gradle",
+        "sha256": "d2ec56b1b22119fc7130d58ac38d9d762cd8d19e0046f7a9502d70a358aee879",
+        "bytes": 786,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-server-standalone/build.gradle#b489f4aa79f436f629fa40d918a326aa765ec39f9fef6ef64dc7da79af3a0048": {
+        "path": "restli-server-standalone/build.gradle",
+        "sha256": "b489f4aa79f436f629fa40d918a326aa765ec39f9fef6ef64dc7da79af3a0048",
+        "bytes": 195,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-server-testutils/build.gradle#da499fd4f66e761a5e08bac8d0dd563c1043f8e183e6aeb2777232607e8a78a5": {
+        "path": "restli-server-testutils/build.gradle",
+        "sha256": "da499fd4f66e761a5e08bac8d0dd563c1043f8e183e6aeb2777232607e8a78a5",
+        "bytes": 594,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-spring-bridge/build.gradle#07978402f8f2b6610e2833fe30a686e9e858fdc994d1c85134166a2a19a79093": {
+        "path": "restli-spring-bridge/build.gradle",
+        "sha256": "07978402f8f2b6610e2833fe30a686e9e858fdc994d1c85134166a2a19a79093",
+        "bytes": 297,
+        "mentions_TestNG": false,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "restli-tools/build.gradle#d8b57a4bcdb9ab0cba2d17a9aba8af7873b14d0722708961d1f3a96d1b3ed67a": {
+        "path": "restli-tools/build.gradle",
+        "sha256": "d8b57a4bcdb9ab0cba2d17a9aba8af7873b14d0722708961d1f3a96d1b3ed67a",
+        "bytes": 3147,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      },
+      "test-util/build.gradle#b0ee60eaefb2c45a080ff37ef5e9af1e9aa1fc599714a2a687acfb0a6b8f244c": {
+        "path": "test-util/build.gradle",
+        "sha256": "b0ee60eaefb2c45a080ff37ef5e9af1e9aa1fc599714a2a687acfb0a6b8f244c",
+        "bytes": 96,
+        "mentions_TestNG": true,
+        "mentions_useJUnit": false,
+        "mentions_evosuite": false
+      }
+    },
+    "status": "NOT_QUALIFIED"
+  }
+}

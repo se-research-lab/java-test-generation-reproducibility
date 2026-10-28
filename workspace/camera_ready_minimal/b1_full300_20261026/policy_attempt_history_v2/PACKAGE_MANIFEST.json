@@ -1,0 +1,165 @@
+{
+  "recorded_utc": "2026-10-26T12:48:27.234705+00:00",
+  "files": [
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/EXPERIMENT_CONFIGURATION_FREEZE_20261026.json",
+      "sha256": "ac59789ae6bdfd707f04c3370adfc71a6afe70cd0449ca7669ed6d4cf0d0f9e6",
+      "bytes": 38590
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/llncs.cls",
+      "sha256": "f1be281bc631f07c4405566d64b294ec8df018e75e6d6c6c643cbdd5806677a5",
+      "bytes": 43467
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/main.tex",
+      "sha256": "442bf82b06294a77ebde105682baacd558aca966a5fba60cbb98e3cc1c613fa0",
+      "bytes": 1665
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/README_DRAFT.md",
+      "sha256": "d4bc59a8049438d27687c2a1aee753a1bcd5a596012479cc5138613e3b8ff24b",
+      "bytes": 602
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/references.bib",
+      "sha256": "2b0f8cdaa85e11d0e8e6c685b48d4af4cf75bae9b6d57232d21ac21ab642ffa4",
+      "bytes": 8853
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/references.tex",
+      "sha256": "98e20358f75b62f5cc351ceb0524615eb60603186228faf6da68270d96048f65",
+      "bytes": 5094
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/00_abstract.tex",
+      "sha256": "b6c35974e00e2c80d043781e39d2ad80e30231e8d09a6cdab511dfbdbdb45d8d",
+      "bytes": 1566
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/01_introduction.tex",
+      "sha256": "502330c888df1b52696eb29d2fdbbdeab1099b4e8a76f043bb859040427a9f80",
+      "bytes": 2760
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/02_related_work.tex",
+      "sha256": "e73184cb160fe2736d51bb63d0c24d6fc9f941b36a0c46d3cba0118821e1c4be",
+      "bytes": 3351
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/03_method.tex",
+      "sha256": "46ba24dc404b3be1416df2a0341c192973d8a44ca3f2bcfed2d8140d4a4eae66",
+      "bytes": 14959
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/04_results.tex",
+      "sha256": "c4343d140c6fec01dea8da4c997dd816926c0761e70a618a6e1ba835588b72a0",
+      "bytes": 8949
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/04a_supplement.tex",
+      "sha256": "3409bb6e0240f5b41e9c0208ec94e597161e03cb91336574c679f2db9a558306",
+      "bytes": 2461
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/05_discussion.tex",
+      "sha256": "182b12fe91f5a6e981ccb323354ac4258b59efa14607c1868cf557306133eeee",
+      "bytes": 1878
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/06_threats.tex",
+      "sha256": "aa12ea826990927937090ed792ccbdacf4a8cd107a5e39e4d7409053816f791e",
+      "bytes": 2623
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/07_conclusion.tex",
+      "sha256": "d446893140a5df6e09d476c131fdfeb6f368df9e2e119d2b2b441666b80cdd76",
+      "bytes": 872
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/sections/08_disclosure.tex",
+      "sha256": "41649c88165e2f54f6d72a2b9a1d905c3114c8a9e042f1a611d003bcada389bf",
+      "bytes": 840
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/SOURCE_PROVENANCE.json",
+      "sha256": "d4973ec9a676668379f6342a9a9f1d9ace78ba82faffd9fb8873903b1fc18e47",
+      "bytes": 4666
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/manuscript_policy_audit_v1/splncs04.bst",
+      "sha256": "a370ad563909f7264038e3388d59036306c3ecd53c6de26279ba921f3a9979df",
+      "bytes": 33694
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/03_method_before_policy_disclosure.tex",
+      "sha256": "485b748b73326858c284378b7407c523e47594bfa146a43bb05410c36ed2e6f3",
+      "bytes": 14431
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/CLASS_HISTORY300.md",
+      "sha256": "d275329a4b6ba0d092322a8f44807de3760908ca1d13f6539581731fb657ad45",
+      "bytes": 16671
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/class_policy_history300.csv",
+      "sha256": "4812cc461f39d48daae1ae5a666395885e1900d4da88a77a7111f8bd8bec5c10",
+      "bytes": 175185
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/command_history_all.csv",
+      "sha256": "c70ae5a42cca42bb4cf48da8c77c8d2bff99ca6e1b6dd317b715483d691e187f",
+      "bytes": 6075222
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/dependency_selector_changes.csv",
+      "sha256": "4fa85ebd37b087438778510318a74e1e50cf6eeb8ce0c5fec2e1ef197a9897c4",
+      "bytes": 37990
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/generation_measurement_diagnostic_attempts.csv",
+      "sha256": "3cccc135b12f3ec0d5228d20e4997bbe48625b6a03fa6c9ce75000cb0f094aa0",
+      "bytes": 3318853
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/METHODS_ENVIRONMENT_ASYMMETRY.md",
+      "sha256": "2ee2489f37221b6e385e4f1dea91137979085a4c774a29847d1f79e55c2496ed",
+      "bytes": 4641
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/native_source_hash_evidence.json",
+      "sha256": "7bdc72db401b6b97a761b2f3233e2b14f29a5c36792e330d012b9abd404ad003",
+      "bytes": 335994
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/policy_timeline.csv",
+      "sha256": "071345b5b8d3bcd55bf90198f81ac3289d84bb937e89072b0567b38902dae9e5",
+      "bytes": 5693
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/REPORT.md",
+      "sha256": "221b70544700bd4a3c424983772da6d63f9dd87065838ef70adc8b3ee7901372",
+      "bytes": 12279
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/selection_current.json",
+      "sha256": "468acd9d1961d080e465fa3d34faf1fd6aa14587aa5c24b07541224af3012952",
+      "bytes": 386901
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/selection_function_check.json",
+      "sha256": "1e468630b9e2fc65087c48386c5c048c8bd3e841acbc7b3367f0ffe859593616",
+      "bytes": 712
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/V6_per_class_checks.json",
+      "sha256": "f59b359c95a170fef7b181ae2036086ae0dc539b7b97902b1c4a49d2e800dbb1",
+      "bytes": 44495
+    },
+    {
+      "path": "camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/verification.json",
+      "sha256": "344a9e6bde4390af9bd4554961eedbfdfe2cbe88eaff9f692047766b45aa3956",
+      "bytes": 2050
+    }
+  ]
+}

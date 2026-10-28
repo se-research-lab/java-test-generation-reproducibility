@@ -1,0 +1,26 @@
+[
+  {
+    "line": 24,
+    "text": "STARTING evosuite test type"
+  },
+  {
+    "line": 28,
+    "text": "An error occured while trying to move the scaffolding file: [Errno 2] No such file or directory: 'evosuite-tests/com/yahoo/parsec/clients/RandomNameResolver_ESTest_scaffolding.java'"
+  },
+  {
+    "line": 31,
+    "text": "STARTING gpt-4o-mini-2024-07-18 test type"
+  },
+  {
+    "line": 43,
+    "text": "--//loading gradle execution..//"
+  },
+  {
+    "line": 44,
+    "text": "Test classes: com.yahoo.parsec.clients.RandomNameResolver_RBL4_835787fdTest"
+  },
+  {
+    "line": 45,
+    "text": "Package command completed for 74999474_parsec-clients"
+  }
+]

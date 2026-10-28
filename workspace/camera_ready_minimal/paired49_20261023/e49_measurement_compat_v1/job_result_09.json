@@ -1,0 +1,59 @@
+{
+  "job_index": 9,
+  "class_key": "3847504:modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/urlimpl.java",
+  "repo_id": "3847504",
+  "G0_archived_mutation_percent": "77.5",
+  "E0_archived_mutation_percent": "25.0",
+  "E1_archived_mutation_percent": "0.0",
+  "seed": 20261256,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "ch.entwine.weblounge.common.impl.url.UrlImpl_ESTest",
+  "surefire_suites": [
+    {
+      "name": "ch.entwine.weblounge.common.impl.url.UrlImpl_ESTest",
+      "tests": 26,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 3771,
+  "focal_mutants": 40,
+  "killed_mutants": 35,
+  "focal_mutant_qualified_classes": [
+    "ch.entwine.weblounge.common.impl.url.UrlImpl"
+  ],
+  "mutation_score_percent": 87.5,
+  "legacy_strict_mutation_percent": 87.5,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "Weblounge Common",
+      "PACKAGE": "ch.entwine.weblounge.common.impl.url",
+      "CLASS": "UrlImpl",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "352",
+      "BRANCH_MISSED": "1",
+      "BRANCH_COVERED": "49",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "77",
+      "COMPLEXITY_MISSED": "1",
+      "COMPLEXITY_COVERED": "41",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "17"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

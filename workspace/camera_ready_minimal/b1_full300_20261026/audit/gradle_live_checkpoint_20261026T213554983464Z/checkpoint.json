@@ -1,0 +1,755 @@
+{
+  "started_utc": "2026-10-26T21:35:54.983464+00:00",
+  "finished_utc": "2026-10-26T21:35:55.926966+00:00",
+  "scope": "read-only rolling checkpoint; class records and live status can advance during observation",
+  "admission_sha256": "aaa51113304a9dd027671a8650eae2fa555ff860685d0ae895a630d308a7354a",
+  "control_code_pins_verified": {
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_execution_v2.py": "aa6acc4f43082722c5e264c858fc6f7051e11658acabea8913cb76850d6a91e9",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_measurement_parser_v1.py": "7b2cdabe918ab77c31a2e0b744c5c04583c93ffb2d6c64d13a7c140fd045d6eb",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_generation_argv_v1.py": "afc09e67e12cba78080fd11eacd81f2793e194dde771cf96bebc7632b89f8425",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_generation_plan_guard_v1.py": "9ab314e8795ee3bb73f008e4701fa4789dc057883a108ef8522e3338492c311b",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_command_policy_v3.py": "111006edb362beb5d527f2f234586a383bcb1f2e894170b7d0fabe241cd6599d",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_command_policy_v2.py": "1d1fd240b4beaa16ff24888bdb4e2f80be18d3da89b70c8a06c28b4a7ef0f375",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v5.py": "4877d22b0d71164f670b1b4d3be4b06ab75ec7e174fc480b5a988937b21d6eae",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_native_recipe_v7.py": "bb37a66399b0fae1cbf6a51991d057c297d7e2ed0ba3ab26d1da864a2b312e96",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\parallel_pin_verify_v1.py": "6726c5c0473cba069aabaeabb03df927b37e2f4b7f6a33ef04e064bf84e82561",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_sealed_inputs_v1.py": "3043b7c4f14cb0df5781086e66afa474b52505ba22074600f69abfe6b3e7da49",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\maven_adapter_v1.py": "5fa300f08dded3777962e1de28617ec7d3fd247a2975d5df46c9af57c924a80c",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\process_supervisor_v1.py": "d14e614459e327b823c0c2e26306e046d22710e507e84a6b3ffb3c3b7f8b80f7",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\classpath_transport_v1.py": "e60275e3952cb53ca27f0fc8174c1ff01728ef166a0858d360b3dc60b5459882",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\maven_controller_v2.py": "4624ac3be9f2bb8c2d0ec9b2bed4bcbe22d180cc3bd566cffc051524bf0e5c6b",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\measurement_parser_v1.py": "efcc938a2f28948c6124560bf1ee91340d5b9bfb2cb3963cca2788a1f643d24a",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\native_junit_policy_candidate_v1.py": "6e92879282f5a7b3ebb86e11c57a3e4ba738302224474b6a0cea14b20ad8227a",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\pom_integration_guard_v1.py": "5a54d9985053d2fec8aaa7c5aa7a9ffb1b5818cabad13a5d4f27bc3cdd331d19",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\prepare_sandbox_v1.py": "e1024bf5ad7b0932fcd5397467e5c028a24190bfcaff30eacc40ebfd8b0e5cd4",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\snapshot_store_v1.py": "e245f7a4f20e4e50485ef6bd53cabab9da24f7c73bcb1a45ea41c3482194d390",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\projection_io_v1.py": "a45d4bb1a4c2ed04259fd083aa40c67279e991391d071e096985852430035d5d",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\admit_gradle_full40_v1.py": "c18bc357b5f560ff0625a36e4808bd7aa27d6b4571c89710802a0dfeb2245e3b",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_gradle_full40_v2.py": "5d36ca13a6cfa3f7e188a02e6a761998f0968960f93b4d22f071bd46221fae91",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_maven_b1_v2.py": "37cb1e7c1c3c686e49bb693d7a63abcf314a9d821b561185fe58046dc8bc597e",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_maven_b1_v3.py": "b54e42c3febd781d0263d1a494cc4fb92a7645885c264af12aa784c01f112ffb",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_remaining_maven153_v6.py": "a29be6de12936fc9343f85d7a3c3b453bdb23478fe4049c00ddc1afdbba1a549",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\GRADLE40_FROZEN_PROTOCOL_V1.md": "fa0483cba09d7abc602d35ad96a73ad8df174368e875240fc4c3246710372401"
+  },
+  "original_protected_files": "PASS via audit.verify",
+  "audit_chain": "PASS",
+  "full_cache_rehashed_here": false,
+  "rows": [
+    {
+      "index": 2,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\002_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "f0ae1ff4d2fb654e286ce06038b3390c40ab99a35682f817e7076bdbfa793c7c",
+      "generation_success": true,
+      "generation_calls": 1,
+      "legacy_process_build": 1,
+      "strict_suite_evidence": true,
+      "strict_measurement_evidence": true,
+      "mutation_score_percent": 0.0,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "fe5bf006f53ab382b133a5b2818030186d4178f43f357cb1326bdea0ca6fddae",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "0ff7c4a50e4d37be1ce8db946fe6363e590ef4ef8f9c4a164b468cae9e838c78",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "853dfe16539e7748188854d260a7771a1508dd6060f6497f0d32b9d9bea805ea",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "b81c3158ddba25877963ccb7a94be89f89f912027f5f82f5e0bee66d3aeb3fa9",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "004",
+          "plan_sha256": "cddbc5e430c5fd6e4144bcf71aec369207f668f75a8f1913e06dc66b79e00967",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "005",
+          "plan_sha256": "039bedee6462864494f2c9179168bbec75c6296f50f7e909c2b9a1806a3033b3",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\004_gradle_v1",
+      "state": "DEFERRED_UNSCORED",
+      "reason": "Measurement dependency audit unavailable; do not score or repair",
+      "score": null,
+      "deferred_sha256": "0308389d86b629c2e89864a2010a22e8dd930737dcafb7c797bd174275ae8c79",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "43b3217110cd2d098a1d45ed8e3a6cab87f399b2912e40aa61d26bd46a82edad",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "55290b7a9a4205a4d47a4859ca7b21e5b569f848fb679f277b93b55adc948278",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "077df9581ede5f77c91c9856d4a77af476e6133f42554481a20d7e5b86cf4a97",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "84ed668118022c6d1282fe3188335d4980ffe4f9658d4096d08f40a4f7e3be90",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\007_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "e4181e8d54b480eed8438f7dcf0dfefa6a29aaf070c90f07d7ef238b7d761537",
+      "generation_success": true,
+      "generation_calls": 1,
+      "legacy_process_build": 1,
+      "strict_suite_evidence": true,
+      "strict_measurement_evidence": true,
+      "mutation_score_percent": 100.0,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "eb584f6deed89ee7f50f8f6a0ec66eb5d944eb5596703182a46f848ce97144e9",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "84ee27f225819e38c83e09777c75fa6c9abe666bb18a86d3e6331b7810e94430",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "9e00dd8117f8b7f66f18c0d579c66e635c56a3d2d7745e481ef34a348b84d9da",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "203808ba65c308afcbf93b657350eca813913748d6ba46d2f063b2a643292d67",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "004",
+          "plan_sha256": "d9d20eafc64dd32006b30ceb09c4c5f09d27cf726cc0f4e48223143da4d67563",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "005",
+          "plan_sha256": "ef1d70e7c759a8a4cb23ceed18d5e8968dc0b1ab989a826f98461c9f60f5c6fc",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\015_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "56358c8801162e286799b23b3dac65f997710edaeaac5fb231019b197add1fa7",
+      "generation_success": true,
+      "generation_calls": 1,
+      "legacy_process_build": 1,
+      "strict_suite_evidence": true,
+      "strict_measurement_evidence": true,
+      "mutation_score_percent": 0.0,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "78a9066e43c465cfad990806366a26bc2694f05a10fcbb26de4dc60863a7cf97",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "aa6185d42e082c7b42db2fb908b4f1626dc535d1dd94494f08f4936d4e00161c",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "50d795d22d8e8079a6e905032021ad108137187f66fbb463416c847dbaff1095",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "325da6f59e605596abe93f58a7924d8567c505bdb26467c69af502ed6c3b4a35",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "004",
+          "plan_sha256": "016d79cc1dd848be429b8777b356d32e55567fe4002a260729f32af4f4ebb002",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "005",
+          "plan_sha256": "92869f50cabe8b1346769345a2c00ae78cf75bbddb23eca5e6b899f563de08af",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\020_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "a7eede5f26df9abdaac29a3ca962ec92fc95261d847981011485fe41b3769f0f",
+      "generation_success": true,
+      "generation_calls": 1,
+      "legacy_process_build": 1,
+      "strict_suite_evidence": true,
+      "strict_measurement_evidence": true,
+      "mutation_score_percent": 100.0,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "63f375873d4fd0f632287666b207ea5a14900e7d8c25411c5560e624df32f20b",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "f4dd25b19e435def8ce717526120d8e7b338c63a924828d126b804a5af3660f2",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "9521cc1a87b54e2a584e8f8e26dad776f83be351784d881eedbc3d389ea57d8d",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "3480c265050e5c0c59cca8e53d29455d5d6e59420e01b73675bf8c5e31e1c9b3",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "004",
+          "plan_sha256": "75170a816e66925341f0051af88e3af56bbe4e1b60152959038f407327436b52",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "005",
+          "plan_sha256": "3973e6868371103a9d152de1b2e8ebf539b0b41c30509835c5482da54f763b75",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\021_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "89a4dcf59e68d620d247736941084f67097362e1492c074a7c775dd0af69bbff",
+      "generation_success": false,
+      "generation_calls": 1,
+      "legacy_process_build": 0,
+      "strict_suite_evidence": false,
+      "strict_measurement_evidence": false,
+      "mutation_score_percent": null,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 0,
+      "archive_manifest_sha256": "95d875769b4a6d062013e86ab595b4c4cff6932fa83f8a1944b6699b53a2c988",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "643d882d3bd524fb97a353364b160c06acb6851adb242b2dabdcfffa8fd45a18",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "0ea750b3172c08036b9f1e89a4a4a5fcc967bccd071f723fb7526c81b2445cf4",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\024_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "fcc7394bbaa95ef54af082a7bae403e71488542720593a5aaf283e17c9fd71ce",
+      "generation_success": false,
+      "generation_calls": 1,
+      "legacy_process_build": 0,
+      "strict_suite_evidence": false,
+      "strict_measurement_evidence": false,
+      "mutation_score_percent": null,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 0,
+      "archive_manifest_sha256": "3d51ebfe95b333b5e158bfe227d1ee06cbab43fef92f1543da34f604c7cdc572",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "71e452726dd9c17935feb820c6b6123c60ca9a1d6c48740e4ce5eda578ce308f",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "8b46e1601ce3ecb9494d957a4f95010dbfa3ceb55d821ed04300978039fad1e9",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\031_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "f34fd3e5da8cbcaaaa62b8373bc585bb9d99c0344049898180ec8b83be526805",
+      "generation_success": false,
+      "generation_calls": 1,
+      "legacy_process_build": 0,
+      "strict_suite_evidence": false,
+      "strict_measurement_evidence": false,
+      "mutation_score_percent": null,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 0,
+      "archive_manifest_sha256": "107202e36a1a48d26ff1feeaee3ebbfe11af0dd648485a5a575547fe628dd952",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "f5cee1754e8b0b30049b0e0e2e15d04fd9775a7d84ea818893a0b755f711840b",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "93a7aa32d31aff18864b7347de80fbcab74019a9d08b59faef1cb52ef7a6901b",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\040_gradle_v1",
+      "state": "DEFERRED_UNSCORED",
+      "reason": "Measurement dependency audit unavailable; do not score or repair",
+      "score": null,
+      "deferred_sha256": "57a1c14765b07d359c66de1fbe577695ca00c31a65c414156cd4c3321417d23c",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "1488be8e18a3a2a2bfc0ff8991e5e212360ecb7423d11b2b860c207c75d06140",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "895bd2d5f3fbe799dbb8ba84e08d991406f0d55cb2154f0d0d9ed2d385f0deb2",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "34eeb0a9b7d25468df0e3a33918bc4d8ac0bb8cbcf404a7536b671b2dafc12a2",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "f01b47c7d8628a500f24d42b168b0b11312d5275be33e75fb8cb80dde16f905b",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\045_gradle_v1",
+      "state": "DEFERRED_UNSCORED",
+      "reason": "Measurement dependency audit unavailable; do not score or repair",
+      "score": null,
+      "deferred_sha256": "758139f544a0a2af4c89dba454fda7aaccd5fc24a00099578120d95faabd47f2",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "eabed149cc7ec0e922edb254b053b5c52a7ebedb15158be2c4c5e7e0124968b7",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "832037a2429f87d760471ba0ce078fa4ce3a11b353f38baa945b0afde9a1cce0",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "5aa888d1a6b6836f0a4a06b8dedf22eb8300146d1fb297511273f8795f3b81bc",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "a5036a4c4fb414dbbcd6b66c97d2b790e50a91d784984e39a83c50db99f18fae",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\080_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "62b212c3adcc937fc6c1486a742d8d47007ca9146bd54a9aec983c8abd376b8b",
+      "generation_success": false,
+      "generation_calls": 1,
+      "legacy_process_build": 0,
+      "strict_suite_evidence": false,
+      "strict_measurement_evidence": false,
+      "mutation_score_percent": null,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 0,
+      "archive_manifest_sha256": "ea6cbb5bae7b25156286db063ad8d93e5cac332acb2c8793898e858c01c98914",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "3b252f7d5d7069f0fe44bf2ca6846905b1cffbba3e144aaa8239a06fdbc16b7a",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "689dda70b752d89fb3c8608f4ba0e8948832421c7c8978e1139424157eaeddb9",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\081_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "660739db21e9ba61461b85f78b8f5a7f640063328654882756c1401cffda877e",
+      "generation_success": false,
+      "generation_calls": 1,
+      "legacy_process_build": 0,
+      "strict_suite_evidence": false,
+      "strict_measurement_evidence": false,
+      "mutation_score_percent": null,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 0,
+      "archive_manifest_sha256": "14b8179abc194018009974f5c1e87efcd6f81f2fbf382858853470e37de4a657",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "08df1b5eab625fe5b190ad15c0208bc8715f945212ddb880840dff762e5e73ce",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "2bb3a4c1d5a83b5eef7ca17ba0fa6be105b1407abee355347975e1fab101cb42",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\097_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "8f661a83e5c7a77bdde000514284cce3212c8bb731a973f550ec2431c1ba58ee",
+      "generation_success": true,
+      "generation_calls": 1,
+      "legacy_process_build": 1,
+      "strict_suite_evidence": true,
+      "strict_measurement_evidence": true,
+      "mutation_score_percent": 50.0,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "71b70954588de803ce4d84e480a5242a8a02331ed1d5c0c50537b73d49438c3f",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "a532893d06bd1834675e74651217039fe42b771288179462688a6c4ee1975eb1",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "0942f990628037c340e2af47a507970b4ed3ec6b2357e77bf69e3d7f57471b5c",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "5470c89b301ef1ea0597064232882e0b39d64e87aab93f85b0635c9fad6d9da9",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "004",
+          "plan_sha256": "81bd50e74eb0b902a364f2ea40798ce9fad1520928be1360b67050d54e6742c3",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "005",
+          "plan_sha256": "d39d12914a64883ae264e4c41501ced69fc137a60e5e883ca6d71445b42301d1",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\098_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "ca65d554e5a1103414a0274e478f45e9382f9adfa67b98da982286cf98a64c19",
+      "generation_success": false,
+      "generation_calls": 0,
+      "legacy_process_build": 0,
+      "strict_suite_evidence": false,
+      "strict_measurement_evidence": false,
+      "mutation_score_percent": null,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "archive_manifest_sha256": "0c944620a2fa7d4fee53c0efcb5c313e7cd53735976ad313eef3af7e829870b8",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "934f7afe28a11d326913c1abded25c751144eac1470352a043e37c399a29ddb9",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\106_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "95690d4571e2b9aa84b6dbbf1f717e842422911082b73e7f73dea0ef40efd162",
+      "generation_success": true,
+      "generation_calls": 1,
+      "legacy_process_build": 1,
+      "strict_suite_evidence": true,
+      "strict_measurement_evidence": true,
+      "mutation_score_percent": 42.86,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "native_source_hash_check": "PASS",
+      "native_file_count": 2,
+      "archive_manifest_sha256": "ef1907a0572662039839aa53ea3917b3460823f8fd657746fd4b9ba7f177e45c",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "390822423b70ebf7e5aa6cc7a2814e8d784f1e7d7dd902688a664cb6900f54d6",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "03c3819b1935f8b29666c8fcd05a42a2bedaac134d3847affc8cb8317c38822f",
+          "is_generation": true,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "003",
+          "plan_sha256": "0d97141d1ad6b733bdda00c7a5e0b3aa73cbff5c1933e23605a4c2f40c88c124",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "004",
+          "plan_sha256": "9aa96abc14e90ff28f2601a9cbce07bfa1be6678e5c7cfc26516549063362e4e",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "005",
+          "plan_sha256": "5e93564a852efb9181d0b964d37130e00cc33e9d7fc035ca7a4c68cc4dddbf7a",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\110_gradle_v1",
+      "state": "TERMINAL",
+      "result_sha256": "756b1224d80438af47e8c5ee46f1803882218185c2c3bb3ee37ef0f059aa513e",
+      "generation_success": false,
+      "generation_calls": 0,
+      "legacy_process_build": 0,
+      "strict_suite_evidence": false,
+      "strict_measurement_evidence": false,
+      "mutation_score_percent": null,
+      "source_guard": "PASS",
+      "production_bytecode_guard": "PASS",
+      "archive_manifest_sha256": "ae094b5bc8e9785ef4c9bf5ea94e4fa73ae2e013ecd4d3e53adadfcf36ecf559",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "6d195e638c4da2dc363b01d874b825b215a62a4721dba6d09c213d5c2d3505af",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 1
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "folder": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\129_gradle_v1",
+      "state": "IN_PROGRESS",
+      "commands": [
+        {
+          "number": "001",
+          "plan_sha256": "4ec8bb1a54dcc361f0d9d328e55d880889ebadf379a1fa69ef0aa37f19cbf72a",
+          "is_generation": false,
+          "started": true,
+          "finished": true,
+          "returncode": 0
+        },
+        {
+          "number": "002",
+          "plan_sha256": "a5b3f980c301c75ade6b8edab025d077b9a520b06adfa3af94930d10321d58f9",
+          "is_generation": true,
+          "started": true,
+          "finished": false,
+          "returncode": null
+        }
+      ]
+    }
+  ],
+  "new_experiment_calls_by_this_check": 0,
+  "full300_complete": false,
+  "configuration_or_generated_test_edits": false
+}

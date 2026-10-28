@@ -1,0 +1,212 @@
+[
+  {
+    "index": 19,
+    "class_key": "46450575:flo-workflow/src/main/java/com/spotify/flo/evalcontextwithtask.java",
+    "count": 1,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\019\\commands\\003\\stdout.txt",
+        "sha256": "921c151d100710faba9f656dc3fefa452d732658ba13f4682989fc982e02a554",
+        "line": 38,
+        "excerpt": "* Generated 1 tests with total length 12"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\019\\commands\\003\\stderr.txt",
+        "sha256": "d7f2cb149e1378c3e4096c40678e1a8494226b82e1d470e101f25cda78596bd1",
+        "line": 2,
+        "excerpt": "java.lang.RuntimeException: java.util.ServiceConfigurationError: org.trimou.engine.config.ConfigurationExtension: Provider org.trimou.engine.config.DefaultConfigurationExtension not a subtype"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\019\\commands\\003\\stderr.txt",
+        "sha256": "d7f2cb149e1378c3e4096c40678e1a8494226b82e1d470e101f25cda78596bd1",
+        "line": 6,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.compileTests(JUnitAnalyzer.java:361)"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\019\\commands\\003\\stderr.txt",
+        "sha256": "d7f2cb149e1378c3e4096c40678e1a8494226b82e1d470e101f25cda78596bd1",
+        "line": 7,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.removeTestsThatDoNotCompile(JUnitAnalyzer.java:114)"
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "class_key": "46450575:flo-workflow/src/main/java/com/spotify/flo/context/asynccontext.java",
+    "count": 4,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\029\\commands\\003\\stdout.txt",
+        "sha256": "fa84373b3195215b5037ecd3481d750d04bdb46fd57b692e2dfae2fad4205ac1",
+        "line": 43,
+        "excerpt": "* Generated 4 tests with total length 37"
+      }
+    ]
+  },
+  {
+    "index": 33,
+    "class_key": "46450575:flo-workflow/src/main/java/com/spotify/flo/context/forwardingevalcontext.java",
+    "count": 4,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\033\\commands\\003\\stdout.txt",
+        "sha256": "508abb82e879fcef74d853a3a1bba03866c7e053daaae8a0e0e278754d137e83",
+        "line": 37,
+        "excerpt": "* Generated 4 tests with total length 24"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\033\\commands\\003\\stderr.txt",
+        "sha256": "62634b891b0a29c0448d5c0f7101c9bdcdeca1defc5d51312679cdf1b1060b8c",
+        "line": 2,
+        "excerpt": "java.lang.RuntimeException: java.util.ServiceConfigurationError: org.trimou.engine.config.ConfigurationExtension: Provider org.trimou.engine.config.DefaultConfigurationExtension not a subtype"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\033\\commands\\003\\stderr.txt",
+        "sha256": "62634b891b0a29c0448d5c0f7101c9bdcdeca1defc5d51312679cdf1b1060b8c",
+        "line": 6,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.compileTests(JUnitAnalyzer.java:361)"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\033\\commands\\003\\stderr.txt",
+        "sha256": "62634b891b0a29c0448d5c0f7101c9bdcdeca1defc5d51312679cdf1b1060b8c",
+        "line": 7,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.removeTestsThatDoNotCompile(JUnitAnalyzer.java:114)"
+      }
+    ]
+  },
+  {
+    "index": 76,
+    "class_key": "46450575:flo-workflow/src/main/java/com/spotify/flo/serialization.java",
+    "count": 3,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\076\\commands\\003\\stdout.txt",
+        "sha256": "ddf883fdf84a2c6d28e7597af8579b322c4c6e4dc407736d5f420e7fccd1266c",
+        "line": 50,
+        "excerpt": "* Generated 3 tests with total length 5"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\076\\commands\\003\\stderr.txt",
+        "sha256": "99e75e95060187f7ce8d3bba85120092a4765c665b8166ca1e26229ff31c9b2a",
+        "line": 2,
+        "excerpt": "java.lang.RuntimeException: java.util.ServiceConfigurationError: org.trimou.engine.config.ConfigurationExtension: Provider org.trimou.engine.config.DefaultConfigurationExtension not a subtype"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\076\\commands\\003\\stderr.txt",
+        "sha256": "99e75e95060187f7ce8d3bba85120092a4765c665b8166ca1e26229ff31c9b2a",
+        "line": 6,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.compileTests(JUnitAnalyzer.java:361)"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\076\\commands\\003\\stderr.txt",
+        "sha256": "99e75e95060187f7ce8d3bba85120092a4765c665b8166ca1e26229ff31c9b2a",
+        "line": 7,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.removeTestsThatDoNotCompile(JUnitAnalyzer.java:114)"
+      }
+    ]
+  },
+  {
+    "index": 146,
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/db/astyanax/defaultslaballocator.java",
+    "count": 2,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\146\\commands\\002\\stdout.txt",
+        "sha256": "1bce50de0e4c438df9606001b9e4fcf1204f16c936a1bd7861f42787918d1958",
+        "line": 155,
+        "excerpt": "* Generated 2 tests with total length 16"
+      }
+    ]
+  },
+  {
+    "index": 165,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynchttpclient.java",
+    "count": 20,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\165_gradle_v1\\commands\\002\\stdout.txt",
+        "sha256": "a41d7d4af955f8139a5602a764bdb37492281f6b4fb59959a3a37a42bd39b3a1",
+        "line": 64,
+        "excerpt": "* Generated 20 tests with total length 277"
+      }
+    ]
+  },
+  {
+    "index": 182,
+    "class_key": "46450575:flo-workflow/src/main/java/com/spotify/flo/taskids.java",
+    "count": 9,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\182\\commands\\003\\stdout.txt",
+        "sha256": "7c700492347e2f84ba57a4bf5093313f449dcd8d235cf1b12b2f08a3ee256e09",
+        "line": 42,
+        "excerpt": "* Generated 9 tests with total length 13"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\182\\commands\\003\\stderr.txt",
+        "sha256": "3d84e7e0d444115a260a4473aeb3de6b821f045855f3c4db15a32dfc35e88a88",
+        "line": 2,
+        "excerpt": "java.lang.RuntimeException: java.util.ServiceConfigurationError: org.trimou.engine.config.ConfigurationExtension: Provider org.trimou.engine.config.DefaultConfigurationExtension not a subtype"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\182\\commands\\003\\stderr.txt",
+        "sha256": "3d84e7e0d444115a260a4473aeb3de6b821f045855f3c4db15a32dfc35e88a88",
+        "line": 6,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.compileTests(JUnitAnalyzer.java:361)"
+      },
+      {
+        "kind": "GENERATOR_INTERNAL_COMPILER",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\182\\commands\\003\\stderr.txt",
+        "sha256": "3d84e7e0d444115a260a4473aeb3de6b821f045855f3c4db15a32dfc35e88a88",
+        "line": 7,
+        "excerpt": "\tat org.evosuite.junit.JUnitAnalyzer.removeTestsThatDoNotCompile(JUnitAnalyzer.java:114)"
+      }
+    ]
+  },
+  {
+    "index": 214,
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/core/defaulteventstore.java",
+    "count": 4,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\214\\commands\\002\\stdout.txt",
+        "sha256": "4cae395125677f73c7ba2a6ceae577045e56348a5f6218aae56c944a164dd664",
+        "line": 166,
+        "excerpt": "* Generated 4 tests with total length 61"
+      }
+    ]
+  },
+  {
+    "index": 287,
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/impl/connector/streamfilesp.java",
+    "count": 6,
+    "evidence": [
+      {
+        "kind": "GENERATOR_CANDIDATES_BEFORE_EXPORT",
+        "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\287\\commands\\002\\stdout.txt",
+        "sha256": "8980e76ec5208837a37e5fd800178fde63bd0d22e9203718e77453563bb0a5f2",
+        "line": 285,
+        "excerpt": "* Generated 6 tests with total length 28"
+      }
+    ]
+  }
+]

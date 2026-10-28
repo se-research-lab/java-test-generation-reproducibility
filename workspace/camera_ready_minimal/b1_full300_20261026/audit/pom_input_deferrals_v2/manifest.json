@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "audit/pom_input_deferrals_v2/inspected_poms.json",
+      "sha256": "db5b6e2fe88ee8a571066339ffbb8d98622c8b96d73598105a613ef5ec92c50a",
+      "bytes": 108883
+    },
+    {
+      "path": "audit/pom_input_deferrals_v2/REPORT.md",
+      "sha256": "77bd968e8d56ca1fdb16101a2c70cb7071ec2faf4c07b3bbef3f5b964d78b6b7",
+      "bytes": 2967
+    },
+    {
+      "path": "audit/pom_input_deferrals_v2/result.json",
+      "sha256": "1963e3cd90aefe4dcbb10db5705bb0a467861c41c177e38adea29ff738d363d1",
+      "bytes": 13514
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "sample_index_1based": 3,
+    "command": "jobs/003/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 6,
+    "command": "jobs/006/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 8,
+    "command": "jobs/008/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 10,
+    "command": "jobs/010/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 12,
+    "command": "jobs/012/commands/002",
+    "planned": true,
+    "actually_started": false,
+    "interrupted": {
+      "at_utc": "2026-10-25T23:33:44.278309+00:00",
+      "reason": "FileNotFoundError",
+      "detail": "[WinError 206] The filename or extension is too long",
+      "termination": null,
+      "auto_resume": false
+    }
+  },
+  {
+    "sample_index_1based": 16,
+    "command": "jobs/016/commands/002",
+    "planned": true,
+    "actually_started": false,
+    "interrupted": {
+      "at_utc": "2026-10-25T23:36:27.772665+00:00",
+      "reason": "FileNotFoundError",
+      "detail": "[WinError 206] The filename or extension is too long",
+      "termination": null,
+      "auto_resume": false
+    }
+  },
+  {
+    "sample_index_1based": 17,
+    "command": "jobs/017/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 18,
+    "command": "jobs/018/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 19,
+    "command": "jobs/019/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 19,
+    "command": "jobs/019/commands/003",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 22,
+    "command": "jobs/022/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 23,
+    "command": "jobs/023/commands/002",
+    "planned": true,
+    "actually_started": false,
+    "interrupted": {
+      "at_utc": "2026-10-25T23:45:26.675421+00:00",
+      "reason": "FileNotFoundError",
+      "detail": "[WinError 206] The filename or extension is too long",
+      "termination": null,
+      "auto_resume": false
+    }
+  },
+  {
+    "sample_index_1based": 25,
+    "command": "jobs/025/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  },
+  {
+    "sample_index_1based": 27,
+    "command": "jobs/027/commands/002",
+    "planned": true,
+    "actually_started": true,
+    "interrupted": null
+  }
+]

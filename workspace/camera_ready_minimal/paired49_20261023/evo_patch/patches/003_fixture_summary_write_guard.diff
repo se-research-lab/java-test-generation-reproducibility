@@ -1,0 +1,11 @@
+--- v2_executed_source
++++ v2_with_unique_summary_guard
+@@ -97,7 +97,7 @@
+         'generated_bytes_unchanged':True,'parent_environment_unchanged':True,
+         'study_projects_executed':0,'original_code_modified':False,
+         'limitation':'Mirrored synthetic POM; actual copied pipeline, renaming/scaffold handling and benchmark repos still require validation'}
+-    rp=stage/'reports/maven_fixture_result.json';rp.write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
++    rp=stage/'reports/maven_fixture_v2_result.json';assert not rp.exists();rp.write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+     audit.log('MAVEN_FIXTURE_VALIDATED',status=report['status'],path=str(rp.relative_to(BASE)),sha256=audit.sha(rp))
+     print(json.dumps(report,indent=2))
+     assert passed,'Maven fixture did not pass all raw checks; inspect preserved stdout/stderr'

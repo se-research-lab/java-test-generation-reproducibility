@@ -1,0 +1,677 @@
+{
+  "status": "READ_ONLY_AUDIT",
+  "accepted49": [
+    {
+      "job_index": 1,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/extractor/constructormetaextractor.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 2,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/file/filesearcherfactory.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 3,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/filter/impl/triminsideofbracefilter.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 4,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/generator/linebreakprovider.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 5,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/argtypemeta.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 6,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/returntypemeta.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 7,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/util/primitivetypeutil.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 8,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/util/threadutil.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.10/junit-4.10.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e1098454bf9e5de6809278a5d7db8cb634fc726238715aee37f1bb8b61a996f4"
+    },
+    {
+      "job_index": 9,
+      "class_key": "3847504:modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/urlimpl.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.8/junit-4.8.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "ce0410879399e9b6a8604aad6008bc779b2c0572ee9700289738fba2ee8c7db9"
+    },
+    {
+      "job_index": 10,
+      "class_key": "41547678:turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/qualifiedname.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "7d7075280587208a9ae76b9374503685805ab711b728b37c46b4b0273ee2d5f4"
+    },
+    {
+      "job_index": 11,
+      "class_key": "41547678:turin-standard-library/src/main/java/turin/context/context.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e6148d96c6c3941aa5ef990352e5878e5d636720bf88917b70437fef196319c5"
+    },
+    {
+      "job_index": 12,
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/resource/resourceurn.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.8.2/junit-4.8.2.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "54ef1e5c27b9634922384f38f6d3390a3239ef490c99df0a66e8a5c01996ab43"
+    },
+    {
+      "job_index": 13,
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/joiners.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.8.2/junit-4.8.2.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "54ef1e5c27b9634922384f38f6d3390a3239ef490c99df0a66e8a5c01996ab43"
+    },
+    {
+      "job_index": 14,
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/splitters.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.8.2/junit-4.8.2.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "54ef1e5c27b9634922384f38f6d3390a3239ef490c99df0a66e8a5c01996ab43"
+    },
+    {
+      "job_index": 15,
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/xmls.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.8.2/junit-4.8.2.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "54ef1e5c27b9634922384f38f6d3390a3239ef490c99df0a66e8a5c01996ab43"
+    },
+    {
+      "job_index": 16,
+      "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/alertsender.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "374e07c8be3da6d41bf839fb473eb5af5b6394a31f671af6cd559d694780e9ae"
+    },
+    {
+      "job_index": 17,
+      "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/decimalstringsplit.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "374e07c8be3da6d41bf839fb473eb5af5b6394a31f671af6cd559d694780e9ae"
+    },
+    {
+      "job_index": 18,
+      "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/resettablesingletontraverser.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "80b5ca26c2d33501b6464195c1777ed9c2dab3c7dc2128c1118aba34d786328f"
+    },
+    {
+      "job_index": 19,
+      "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/slidingwindowpolicy.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "80b5ca26c2d33501b6464195c1777ed9c2dab3c7dc2128c1118aba34d786328f"
+    },
+    {
+      "job_index": 20,
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/directives.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "289de8b3958873158d20bec351caa68712d1c09fdabb8a3468656368d27ba2f9"
+    },
+    {
+      "job_index": 21,
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/headers.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "289de8b3958873158d20bec351caa68712d1c09fdabb8a3468656368d27ba2f9"
+    },
+    {
+      "job_index": 22,
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mimetype.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "289de8b3958873158d20bec351caa68712d1c09fdabb8a3468656368d27ba2f9"
+    },
+    {
+      "job_index": 23,
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/status.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "289de8b3958873158d20bec351caa68712d1c09fdabb8a3468656368d27ba2f9"
+    },
+    {
+      "job_index": 24,
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/jobexecutionmultipleshardingcontext.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "5793506e82ee419652d977a1f122c2657e646ff4723390988ba2cf27f41eff86"
+    },
+    {
+      "job_index": 25,
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/config/configurationnode.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "5793506e82ee419652d977a1f122c2657e646ff4723390988ba2cf27f41eff86"
+    },
+    {
+      "job_index": 26,
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/election/leaderelectionservice.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "5793506e82ee419652d977a1f122c2657e646ff4723390988ba2cf27f41eff86"
+    },
+    {
+      "job_index": 27,
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/statistics/processcountjob.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "5793506e82ee419652d977a1f122c2657e646ff4723390988ba2cf27f41eff86"
+    },
+    {
+      "job_index": 28,
+      "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/boundingbox.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "4332d18b62aa9e9d3d5dbb5f17fa62d2968221dc392a6ae212923d32692ebf42"
+    },
+    {
+      "job_index": 29,
+      "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/positiontime.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "4332d18b62aa9e9d3d5dbb5f17fa62d2968221dc392a6ae212923d32692ebf42"
+    },
+    {
+      "job_index": 30,
+      "class_key": "6437134:enav-serialization/src/main/java/dk/dma/enav/serialization/simplerouteparser.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "788c42fea0308102f4719c89fe5f166d6dc6202c2a4c08944bfc4d779fb4f349"
+    },
+    {
+      "job_index": 31,
+      "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/compass/compassutils.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "165e53653dd99d92e2ae2f9f8225c281d40cfedc8e31c3e78f2ec639e78eb1e2"
+    },
+    {
+      "job_index": 32,
+      "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/coordinateconverter.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "165e53653dd99d92e2ae2f9f8225c281d40cfedc8e31c3e78f2ec639e78eb1e2"
+    },
+    {
+      "job_index": 33,
+      "class_key": "64487983:bridge/src/main/java/com/iluwatar/bridge/app.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "2c99e98e35f178bdfd77172b3febabf1cd2a1590c6cd346d18f58487b0548458"
+    },
+    {
+      "job_index": 34,
+      "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/app.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "9e18f2a6df5a27f9ca9e644de4e104331d6210684e99535ebeca70fbaa914c28"
+    },
+    {
+      "job_index": 35,
+      "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/guicewizard.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "9e18f2a6df5a27f9ca9e644de4e104331d6210684e99535ebeca70fbaa914c28"
+    },
+    {
+      "job_index": 36,
+      "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/lotterynumbers.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "76afc43539218233a5502ccbdb313752b87b617f4f92c425506610911ce31293"
+    },
+    {
+      "job_index": 37,
+      "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/playerdetails.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "76afc43539218233a5502ccbdb313752b87b617f4f92c425506610911ce31293"
+    },
+    {
+      "job_index": 38,
+      "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/api/dedupeventstorechannels.java",
+      "junit_metadata": null,
+      "testng_metadata": "7",
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": true,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [
+        "org/testng/testng/7.3.0/testng-7.3.0.jar"
+      ],
+      "before_dependency_sha256": "3306b1b18f5e7ee614f66604f8d61615d151dcf0280f5226b15c436a0bc308f9"
+    },
+    {
+      "job_index": 39,
+      "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/eventstoremodule.java",
+      "junit_metadata": null,
+      "testng_metadata": "7",
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": true,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [
+        "org/testng/testng/7.3.0/testng-7.3.0.jar"
+      ],
+      "before_dependency_sha256": "3306b1b18f5e7ee614f66604f8d61615d151dcf0280f5226b15c436a0bc308f9"
+    },
+    {
+      "job_index": 40,
+      "class_key": "78444970:examples/graph/src/main/java/graph/algorithm/mst/jarnikprim.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "871113a64e75a73a9dad4c038fab63f93d5cb15c6c011f349b5b1d3d5a6a2cb2"
+    },
+    {
+      "job_index": 41,
+      "class_key": "78444970:examples/random/src/main/java/random/reservoirsamplingmultipleitems.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "fcf38a709c16e4d9afc08b207a4fea292f8bf86b29c27e4a7b0d65ea52d4fdb4"
+    },
+    {
+      "job_index": 42,
+      "class_key": "78444970:examples/structures/src/main/java/ds/heap/arrayheap.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "215436fa6846df02751be3638e80dd047d8f97717fd074161ea633fb52bbc41a"
+    },
+    {
+      "job_index": 43,
+      "class_key": "78444970:examples/structures/src/main/java/ds/stack/arraystack.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.13.1/junit-4.13.1.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "215436fa6846df02751be3638e80dd047d8f97717fd074161ea633fb52bbc41a"
+    },
+    {
+      "job_index": 44,
+      "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/simpledbexceptiontranslator.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.11/junit-4.11.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "7e4393d3d8e686740f6c3af4b609ef1c2b7bd2e54faa7409787e459fb6eda3ee"
+    },
+    {
+      "job_index": 45,
+      "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/alphanumstringcomparator.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.11/junit-4.11.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "7e4393d3d8e686740f6c3af4b609ef1c2b7bd2e54faa7409787e459fb6eda3ee"
+    },
+    {
+      "job_index": 46,
+      "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/nodoubleclassdefined.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "dae06b55a24f0b789bdf204dcf7fe02fd99a7ee5e919018ce54e9a2fe6a57cce"
+    },
+    {
+      "job_index": 47,
+      "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/doublename.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "dae06b55a24f0b789bdf204dcf7fe02fd99a7ee5e919018ce54e9a2fe6a57cce"
+    },
+    {
+      "job_index": 48,
+      "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "e051b2281fb14eecadf4f0642792a7cbad588cfe2b102c4c5cf58c4565e9338d"
+    },
+    {
+      "job_index": 49,
+      "class_key": "98410891:core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/numberinterval.java",
+      "junit_metadata": "4",
+      "testng_metadata": null,
+      "has_JUnit4_dependency": true,
+      "has_TestNG_dependency": false,
+      "JUnit_paths": [
+        "junit/junit/4.12/junit-4.12.jar"
+      ],
+      "TestNG_paths": [],
+      "before_dependency_sha256": "8171c1f3e609e47f75299f13f22579b3727a4ed71da6376e08506a7c554fea8f"
+    }
+  ],
+  "accepted49_without_junit4": [],
+  "accepted49_with_testng": [
+    38,
+    39
+  ],
+  "new251_framework_counts": {
+    "no-JUnit/TestNG7": 48,
+    "JUnit4": 183,
+    "JUnit5": 20
+  },
+  "checkpoint003": {
+    "generation_success": true,
+    "generation_calls": 1,
+    "source_guard": "PASS",
+    "bytecode_guard": "PASS",
+    "build_gate": 0,
+    "JUnit4_in_resolved_test_classpath": false,
+    "TestNG_in_resolved_test_classpath": true,
+    "failure_stage": "testCompile",
+    "observed_error": "package org.junit does not exist",
+    "result_sha256": "b0eb2d05f91787a62e078e5edd2fc01ab306c3ed020c846afb96766f3793568c"
+  },
+  "next_policy_not_admitted": [
+    "Evaluate test-scope native JUnit4 dependency only if missing from resolved test CP",
+    "Qualify Surefire native JUnit4 discovery in TestNG/JUnit5 project without converting original tests",
+    "Qualify PIT provider selection with original business dependency/compile closure unchanged",
+    "Check policy condition against all49 before claiming reuse",
+    "If adopted, pin amendment before remaining benchmark executions; reuse003 native generation, retain old measurement as diagnostic; no favorable outcome selection"
+  ],
+  "new_experiment_calls": 0,
+  "GPT_changes": 0
+}

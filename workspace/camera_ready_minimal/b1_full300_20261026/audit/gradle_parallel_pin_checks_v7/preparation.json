@@ -1,0 +1,26 @@
+{
+  "scope": "hash-check scheduling only; no experimental rules changed",
+  "changes": [
+    {
+      "old": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v4.py",
+      "old_sha256": "f97536fd44bbd890d7e772c17584dcf3efebe3f7a86b27070faee1dbc5d81773",
+      "new": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v5.py",
+      "new_sha256": "4877d22b0d71164f670b1b4d3be4b06ab75ec7e174fc480b5a988937b21d6eae",
+      "diff_sha256": "bfc3b17ecd2e5d4b84482cc92ed51049a467442dec40f7fc8dd4f407d942aed7"
+    },
+    {
+      "old": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_gradle_native_fixture_v6.py",
+      "old_sha256": "68216a58989fd641eae0bc044a7473344b470f4bed961fa5a990e7d6e05633f5",
+      "new": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_gradle_native_fixture_v7.py",
+      "new_sha256": "9170e281a202f8e8434e96f277940ee12ad24cbfbefb90824e63dd7297df0ff8",
+      "diff_sha256": "4446a4e54ec7d042ab371881da27f68b2e943d1de00db7078f6a963ff9bf9eb5"
+    }
+  ],
+  "helper_sha256": "6726c5c0473cba069aabaeabb03df927b37e2f4b7f6a33ef04e064bf84e82561",
+  "validation_sha256": "e246529f214d2c69150d9d8d9b7b43a25d1960659fc2c98944e3b2344dcdf3c5",
+  "all_pins_still_hashed_each_check": true,
+  "stat_cache": false,
+  "benchmark_admitted": false,
+  "EvoSuite_calls": 0,
+  "GPT_API_calls": 0
+}

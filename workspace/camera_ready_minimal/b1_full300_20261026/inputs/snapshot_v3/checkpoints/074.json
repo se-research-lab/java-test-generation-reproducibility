@@ -1,0 +1,10 @@
+{
+  "snapshot_index": 74,
+  "class_indices": [
+    91
+  ],
+  "manifest": "inputs/snapshot_v3/manifests/074.json",
+  "sha256": "3a3061ee21b336fd53f36fe32368030ca6cdd03a1d655ca9b845b96bbaf6b997",
+  "files": 177,
+  "bytes": 630389
+}

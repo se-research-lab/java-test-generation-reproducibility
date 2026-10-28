@@ -1,0 +1,10 @@
+{
+  "prior_status": "ABORTED_BEFORE_MEASUREMENT",
+  "reason": "Measurement-only guard rejected unchanged legacy java -version sanity check",
+  "commands_started": 6,
+  "generation_calls": 0,
+  "GPT_API_calls": 0,
+  "existing_evidence_preserved": true,
+  "next_version_sha256": "cbc5c6028a4d7eacfefff1ba364c362866cf028e01a59be7acf08a3e046efb40",
+  "next_change": "permit exact java -version only; generation still forbidden"
+}

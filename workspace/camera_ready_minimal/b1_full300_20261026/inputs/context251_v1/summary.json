@@ -1,0 +1,10 @@
+{
+  "n": 251,
+  "framework_found": 251,
+  "unresolved_indices": [],
+  "prior_synthesized_tests_present": 251,
+  "source_csv_sha256": "e2dad11e867377ec1a2de5c9c672cf51fa0dedb77a8f740739b2aa531730802c",
+  "manifest_sha256": "fae8b2e94843e4ee15d4de868c5326784d7228de3a03694499959d80b297479e",
+  "metadata_blob_count": 295,
+  "experiment_calls": 0
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "protected_originals_and_backups": 585,
+  "extra_archived_raw_files_verified": 294,
+  "remaining_focal_source_snapshots_verified": 49,
+  "only_original_function_changed_in_copy": [
+    "run_evosuite_generation_maven"
+  ],
+  "original_experiment_files_modified": 0,
+  "shared_copied_files_unchanged": 5,
+  "completed_command_log_pairs_verified": 23,
+  "synthetic_generation_attempts": 2,
+  "synthetic_Maven_integration_attempts": 2,
+  "benchmark_classes_generated": 0,
+  "GPT_API_calls": 0,
+  "same_generated_bytes_and_tools_verified": true,
+  "direct_JUnit_positive_and_mutant_control": "PASS",
+  "Maven_raw_Surefire_PIT_JaCoCo": "PASS",
+  "derived_summary_recovery_hash_verified": true,
+  "still_pending": [
+    "actual E-only driver integration",
+    "benchmark scope/seed/timeout freeze",
+    "arm-specific raw validity"
+  ],
+  "scope": "Integrity and synthetic functionality checks, not certification of historical scientific validity"
+}

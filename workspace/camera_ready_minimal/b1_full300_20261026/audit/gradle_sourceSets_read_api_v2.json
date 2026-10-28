@@ -1,0 +1,27 @@
+{
+  "scope": "read-API correction, synthetic qualification only",
+  "old_recipe_sha256": "edf979fa664fee6e7a7669f92342f5c294079e547f954efa0ed7437cbf87500b",
+  "new_recipe_sha256": "8f26fe73741064b35e78eb57ee20366e6756efdd16e93daa5677268b019dee73",
+  "old_runner_sha256": "35ca0537fcd19e24abd2afd7298038787f18881c6540bf099806617eb7faa431",
+  "new_runner_sha256": "5859e991e3e0f9443f9814b27b909f303f3998b30a180a53b2d9617243c3126b",
+  "diff_sha256": "008f268c8a991627afcec19c63c80afd0a9ad8eacf0e26755b8d55adbaa2ef26",
+  "local_primary_sources": [
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\cache_preparation_gradle_v1\\gradle_user_home\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13\\src\\plugins\\org\\gradle\\api\\plugins\\JavaPluginConvention.groovy",
+      "sha256": "81c306cbfc1a4d53a26e2ba475cd99bd6e1b49ba1c665c041bc287aa4044a842"
+    },
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\cache_preparation_gradle_v1\\gradle_user_home\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13\\src\\plugins\\org\\gradle\\api\\plugins\\JavaPlugin.java",
+      "sha256": "0d484c6630f4256aa09e7d870976da2b642bf9e026db6e66f2dc13b0ff39ad4b"
+    }
+  ],
+  "source_evidence": "Groovy final SourceSetContainer sourceSets property; JavaPlugin obtains it through convention.getSourceSets()",
+  "test_source_edits": 0,
+  "dependency_policy_changes": 0,
+  "selector_policy_changes": 0,
+  "generation_profile_changes": 0,
+  "corpus_configuration_admitted": false,
+  "new_Java_processes": 0,
+  "GPT_API_calls": 0,
+  "old_failed_preparation_and_runtime_fixture_preserved": true
+}

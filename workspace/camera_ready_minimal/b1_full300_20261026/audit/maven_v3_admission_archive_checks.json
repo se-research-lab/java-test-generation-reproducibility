@@ -1,0 +1,30 @@
+{
+  "fixture": {
+    "status": "PASS",
+    "files_verified": 95,
+    "manifest_sha256": "44bacec29ef1e8dc77f852fd88dd32388ba1527a37d8de7d77602f785e8753c9",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "12": {
+    "status": "PASS",
+    "files_verified": 5684,
+    "manifest_sha256": "b64c80050d4a67ff5f2004483dd423c8a976c2267548663f3305cfa152ea4723",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "16": {
+    "status": "PASS",
+    "files_verified": 5684,
+    "manifest_sha256": "0abef0f5556b8debc0c13e4dda46724f311ac615c947ab30bd5b1f3d75471665",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "23": {
+    "status": "PASS",
+    "files_verified": 5684,
+    "manifest_sha256": "0d30e6dbff1c232c9b9c11ac63559e815e3c4b5985aa4d65bb6721539c081232",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "phase": "MAVEN B1 / CHECKPOINT_NO_AUTOMATIC_RESUME",
+  "updated_utc": "2026-10-25T23:47:35.957806+00:00",
+  "target": 300,
+  "reused_verified": 49,
+  "new_completed": 13,
+  "running": 0,
+  "maven_pending": 198,
+  "gradle_pending": 40,
+  "new_API_calls": 0,
+  "new_EvoSuite_calls": 13,
+  "GPT_guard": "PASS",
+  "reuse49_guard": "PASS",
+  "benchmark_admitted": true,
+  "missing_focal_candidates": 0,
+  "focal_candidate_disagreements": 0,
+  "disk_free_GB": 18.75,
+  "blockers": [
+    "Maven211 theo original order; native JUnit amendmentv2; failures được giữ",
+    "Gradle40 chưa admission; cần wrapper/JDK/gate/timeout mapping",
+    "Chưa đủ E1-full300 để phân tích hoặc sửa paper"
+  ],
+  "tasks": [
+    {
+      "id": "B1.0",
+      "name": "Khóa 300 keys và phạm vi E-only",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.1",
+      "name": "Xác minh E49 và GPT guard",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.2",
+      "name": "Maven controller và input đã nghiệm thu",
+      "status": "DONE"
+    },
+    {
+      "id": "B1.3",
+      "name": "Qualify Gradle 40 class, chỉ trong sandbox E",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "B1.4",
+      "name": "Maven controller fixture PASS; Gradle chưa qualify",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "B1.5",
+      "name": "Chạy 251 class mới, tuần tự, giữ failures",
+      "status": "IN_PROGRESS"
+    },
+    {
+      "id": "B1.6",
+      "name": "Audit 300 và phân tích RQ4/RQ5 riêng",
+      "status": "NOT_STARTED"
+    }
+  ],
+  "source_census": {
+    "timestamp_utc": "2026-10-25T22:12:03.458037+00:00",
+    "class_count": 251,
+    "unique_candidate_roots": 251,
+    "candidate_files": 517483,
+    "candidate_bytes": 8230643238,
+    "candidate_GB": 8.231,
+    "backup_adapter_files": 8,
+    "disk_free_GB": 28.52,
+    "scope": "metadata census, descriptor hashes and adapter backup; no complete source snapshot or execution adapter yet",
+    "new_experiment_calls": 0,
+    "recovery": "v1 metadata census completed, adapter backup stopped at wrong helper basename. v2 verified existing copies and backed up correct junit_method_inventory_v1.py; v1 script/error retained."
+  },
+  "GPT_guard_checked_utc": "2026-10-25T23:47:35.957806+00:00",
+  "source_snapshot_roots_completed": 251,
+  "source_snapshot_files": 517483,
+  "fixture_EvoSuite_calls": 2,
+  "private_cache_status": "PASS",
+  "runtime_fixture_status": "PASS",
+  "benchmark_EvoSuite_calls": 11,
+  "active_sample_index": null
+}

@@ -1,0 +1,4 @@
+# Preserve copied historical bytes and their recorded hashes.
+workspace/** -text
+*.png binary
+*.pdf binary

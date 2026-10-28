@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-23T16:38:11.723Z",
+  "changes": "inspection_only",
+  "generation_unchanged": true,
+  "measurement_unchanged": true,
+  "scoring_unchanged": true,
+  "same_readiness_lock_sha256": "6fa1b9422317fd9d599182d89a7b13359d67da5a33e3ae0490698a624cafad2e",
+  "same_protocol_sha256": "6bc155652470ef74c0b173149041090b183eb84a8e665cbd223a459eed5d0f13",
+  "original_admission_sha256": "06e92150f4c49b8f10892b9453b9bbead19bcc89f38c1d9856c3107e095de204",
+  "code_input_hashes": {
+    "src/junit_method_inventory_v1.py": "ae4190f3fb1b70886f506fcc3080598011a1cb6055a9fb5ad6ede6e4e403c655",
+    "src/replay_fixed49_measurement_v5.py": "fc76b20e41958646e5974394be29f0076fb137d1342362720bd9885b7025cc54",
+    "src/analyze_measurement_compat49_v2.py": "88b1dacf42cbcb981712ecf8e5440e0632dca8672603ac780bb265ea441f4ddc",
+    "src/independent_measurement49_raw_audit_v2.py": "c54a2f4d8078186112dee183ec06d56bb1583d01b126766b4e093e39db008985",
+    "src/resume_fixed49_measurement_after_inspection_v2.py": "95ea328e08624de7b77aa0cd001dfaeef6fbad70b3cd657877354c7e85a9e375",
+    "src/validate_inspection_amendment_v1.py": "b4063da0beccbe66dd49260a776d0623fee537d5e82ef392311beee646e9b59b",
+    "validation/inspection_amendment_v1/controls.json": "ab168c5b2caa729cfe35e1bc6f981a54186d7f1446684053503b11f15bac7ae6"
+  },
+  "reason": "Frozen annotated JUnit placeholder notGeneratedAnyTest missed by test-prefix reader; no source/config/gate/score change, no remeasurement of completed slots or11",
+  "completed_order": [
+    18,
+    19,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "retained_job11_measurement_calls": 1,
+  "job11_repeated_measurement_calls": 0,
+  "old_ABORT_retained": true
+}

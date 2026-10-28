@@ -1,0 +1,44 @@
+{
+  "manifest": {
+    "published": true,
+    "identifier": "reconcile13_manifest_15056_1792972948469662200_bdf5fb3a1bb04c68bf5d7d2f1ff2ef0d",
+    "target": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\manifest_live300.json",
+    "intended_sha256": "3058d5b8726e68b84780d6aea8e45fa32d94c33a1e9ec9a5ade36998693f7b2e",
+    "intended_bytes": 643824,
+    "attempts": 1,
+    "replace_completed": true,
+    "backup": {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\backups\\reconcile13_manifest_15056_1792972948469662200_bdf5fb3a1bb04c68bf5d7d2f1ff2ef0d_manifest_live300.json.before",
+      "sha256": "6862cf60da8d0a17dbeb213dfc4cce6ee9675780b6156a28bd7efccedb17fcaa",
+      "bytes": 657453
+    },
+    "temporary_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\temporary\\reconcile13_manifest_15056_1792972948469662200_bdf5fb3a1bb04c68bf5d7d2f1ff2ef0d_manifest_live300.json.tmp",
+    "temporary_preserved": false,
+    "published_sha256": "3058d5b8726e68b84780d6aea8e45fa32d94c33a1e9ec9a5ade36998693f7b2e",
+    "elapsed_seconds": 0.062000000001717126,
+    "stage": "complete",
+    "receipt_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\receipts\\reconcile13_manifest_15056_1792972948469662200_bdf5fb3a1bb04c68bf5d7d2f1ff2ef0d.json",
+    "receipt_sha256": "e5a862ba17d0ea2778d92549ac18912b13849b06eb9ef5613dceaf5a2dc1c29d"
+  },
+  "status": {
+    "published": true,
+    "identifier": "reconcile13_status_15056_1792972948530520500_1d1f8d73527c41a68eedb19b05814c59",
+    "target": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\status.json",
+    "intended_sha256": "aeb721a4a9227ee4bbeb33ae8f786c63e26e32c609019292d80ffca24f8f4b47",
+    "intended_bytes": 2944,
+    "attempts": 1,
+    "replace_completed": true,
+    "backup": {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\backups\\reconcile13_status_15056_1792972948530520500_1d1f8d73527c41a68eedb19b05814c59_status.json.before",
+      "sha256": "ed05056993b3b09de3cd0e7c87d16f16d74a6420a05f6aa837faf2dc72b7d743",
+      "bytes": 2602
+    },
+    "temporary_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\temporary\\reconcile13_status_15056_1792972948530520500_1d1f8d73527c41a68eedb19b05814c59_status.json.tmp",
+    "temporary_preserved": false,
+    "published_sha256": "aeb721a4a9227ee4bbeb33ae8f786c63e26e32c609019292d80ffca24f8f4b47",
+    "elapsed_seconds": 0.01599999999962165,
+    "stage": "complete",
+    "receipt_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\receipts\\reconcile13_status_15056_1792972948530520500_1d1f8d73527c41a68eedb19b05814c59.json",
+    "receipt_sha256": "aac1c3c922d419a6792f83bc77ddd26b0f74e526a8526b0b67e632773cedbc21"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-23T16:39:26.519876+00:00",
+  "controller_sha256": "2459b6600a5a4b7caf21dd3de1ad79ffdd9ec6138347447b205f32414df9f6f3",
+  "inspection_amendment_sha256": "47d1a6ab4b211ea14c19e82ae798e666055fd043e3497a872395a6840923ddf2",
+  "generation_calls": 0,
+  "GPT_API_calls": 0,
+  "partial_analysis_forbidden": true
+}

@@ -1,0 +1,59 @@
+{
+  "job_index": 24,
+  "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/jobexecutionmultipleshardingcontext.java",
+  "repo_id": "60578004",
+  "G0_archived_mutation_percent": "66.67",
+  "E0_archived_mutation_percent": "0.0",
+  "E1_archived_mutation_percent": "33.33",
+  "seed": 20261111,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_ESTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 975,
+  "focal_mutants": 9,
+  "killed_mutants": 3,
+  "focal_mutant_qualified_classes": [
+    "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext"
+  ],
+  "mutation_score_percent": 33.33,
+  "legacy_strict_mutation_percent": 33.33,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "elastic-jobx-core",
+      "PACKAGE": "com.dangdang.ddframe.job.api",
+      "CLASS": "JobExecutionMultipleShardingContext",
+      "INSTRUCTION_MISSED": "12",
+      "INSTRUCTION_COVERED": "100",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "0",
+      "LINE_MISSED": "4",
+      "LINE_COVERED": "16",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "9",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "9"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

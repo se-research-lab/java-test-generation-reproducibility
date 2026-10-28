@@ -1,0 +1,1672 @@
+{
+  "at_utc": "2026-10-27T08:46:27.279872+00:00",
+  "n": 300,
+  "unique_class_keys": 300,
+  "full300_complete": false,
+  "derived_from_rows_sha256": "c61aaf3ac33517443a7ee1682c86f189d6edf72dae378e47abb0217fdfc2a663",
+  "cohorts": {
+    "historical_G0_E0_all300": {
+      "n": 300,
+      "repositories": 30,
+      "left": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 11.856800000000002,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          7.128680833333334,
+          17.158425833333332
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 7.014733333333332,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          4.252525833333333,
+          10.089370833333334
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 4.842066666666667,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          0.97675,
+          9.509346666666666
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 46,
+      "right_higher": 70,
+      "ties": 184,
+      "paired_probability_left_higher_half_ties": 0.46,
+      "A12_marginal_all_cross_pairs": 0.4426277777777778
+    },
+    "historical_G0_E0_fixed49": {
+      "n": 49,
+      "repositories": 15,
+      "left": {
+        "n": 49,
+        "repositories": 15,
+        "mean": 58.43857142857144,
+        "median": 65.79,
+        "CI95_repository_percentile": [
+          47.18835029069768,
+          69.50697248062015
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 49,
+        "repositories": 15,
+        "mean": 17.628367346938774,
+        "median": 12.9,
+        "CI95_repository_percentile": [
+          11.978957966457022,
+          23.91377948717948
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 49,
+        "repositories": 15,
+        "mean": 40.810204081632655,
+        "median": 40.0,
+        "CI95_repository_percentile": [
+          32.99139832041344,
+          49.057824999999994
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 39,
+      "right_higher": 4,
+      "ties": 6,
+      "paired_probability_left_higher_half_ties": 0.8571428571428571,
+      "A12_marginal_all_cross_pairs": 0.81695127030404
+    },
+    "G0_E1_fixed49_same_membership": {
+      "n": 49,
+      "repositories": 15,
+      "left": {
+        "n": 49,
+        "repositories": 15,
+        "mean": 58.43857142857144,
+        "median": 65.79,
+        "CI95_repository_percentile": [
+          47.18835029069768,
+          69.50697248062015
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 49,
+        "repositories": 15,
+        "mean": 59.16020408163265,
+        "median": 71.43,
+        "CI95_repository_percentile": [
+          48.49017761479592,
+          68.30725922213311
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 49,
+        "repositories": 15,
+        "mean": -0.7216326530612249,
+        "median": -5.0,
+        "CI95_repository_percentile": [
+          -7.496754807692309,
+          8.379529222972968
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 14,
+      "right_higher": 26,
+      "ties": 9,
+      "paired_probability_left_higher_half_ties": 0.37755102040816324,
+      "A12_marginal_all_cross_pairs": 0.5033319450229071
+    },
+    "G0_E1_evidence_aware_end_to_end_available": {
+      "n": 279,
+      "repositories": 28,
+      "left": {
+        "n": 279,
+        "repositories": 28,
+        "mean": 12.749247311827958,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          7.82032748015873,
+          18.365987646054116
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 279,
+        "repositories": 28,
+        "mean": 34.28405017921147,
+        "median": 25.93,
+        "CI95_repository_percentile": [
+          26.158964414182943,
+          42.746019851860424
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 279,
+        "repositories": 28,
+        "mean": -21.534802867383508,
+        "median": -7.890000000000001,
+        "CI95_repository_percentile": [
+          -27.777505376344084,
+          -15.55395609318997
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 20,
+      "right_higher": 161,
+      "ties": 98,
+      "paired_probability_left_higher_half_ties": 0.24731182795698925,
+      "A12_marginal_all_cross_pairs": 0.2868539715574055
+    },
+    "E1_observed_PIT_only": {
+      "n": 221,
+      "repositories": 24,
+      "mean": 43.2816742081448,
+      "median": 42.11,
+      "CI95_repository_percentile": [
+        36.138623297254796,
+        50.34680483549351
+      ],
+      "resamples": 20000,
+      "seed": 20261023,
+      "unit": "whole repository; class-weighted mean"
+    },
+    "new_common_process_success_diagnostic_only": {
+      "n": 60,
+      "repositories": 18,
+      "left": {
+        "n": 60,
+        "repositories": 18,
+        "mean": 57.617333333333335,
+        "median": 66.23,
+        "CI95_repository_percentile": [
+          43.75359136933463,
+          71.4429007352941
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 60,
+        "repositories": 18,
+        "mean": 60.69033333333334,
+        "median": 74.34,
+        "CI95_repository_percentile": [
+          50.18720703764321,
+          69.81838284680961
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 60,
+        "repositories": 18,
+        "mean": -3.073,
+        "median": -1.5600000000000023,
+        "CI95_repository_percentile": [
+          -16.436500748727163,
+          9.593374999999995
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 19,
+      "right_higher": 30,
+      "ties": 11,
+      "paired_probability_left_higher_half_ties": 0.4083333333333333,
+      "A12_marginal_all_cross_pairs": 0.5019444444444444
+    }
+  },
+  "gates": {
+    "G0_historical_process": {
+      "pass": 61,
+      "fail": 239,
+      "unknown": 0,
+      "total_slots": 300,
+      "available_denominator": 300,
+      "available_rate_percent": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 20.333333333333332,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          13.0,
+          28.0
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "full_slot_rate_bounds_percent": [
+        20.333333333333332,
+        20.333333333333332
+      ]
+    },
+    "E0_historical_process": {
+      "pass": 158,
+      "fail": 142,
+      "unknown": 0,
+      "total_slots": 300,
+      "available_denominator": 300,
+      "available_rate_percent": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 52.666666666666664,
+        "median": 100.0,
+        "CI95_repository_percentile": [
+          35.666666666666664,
+          69.66666666666667
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "full_slot_rate_bounds_percent": [
+        52.666666666666664,
+        52.666666666666664
+      ]
+    },
+    "E1_evidence_aware_process": {
+      "pass": 222,
+      "fail": 58,
+      "unknown": 20,
+      "total_slots": 300,
+      "available_denominator": 280,
+      "available_rate_percent": {
+        "n": 280,
+        "repositories": 28,
+        "mean": 79.28571428571429,
+        "median": 100.0,
+        "CI95_repository_percentile": [
+          65.35714285714286,
+          91.78571428571429
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "full_slot_rate_bounds_percent": [
+        74.0,
+        80.66666666666667
+      ]
+    },
+    "E1_raw_recorded_process_sensitivity": {
+      "pass": 222,
+      "fail": 78,
+      "unknown": 0,
+      "total_slots": 300,
+      "available_denominator": 300,
+      "available_rate_percent": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 74.0,
+        "median": 100.0,
+        "CI95_repository_percentile": [
+          58.666666666666664,
+          87.66666666666667
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "full_slot_rate_bounds_percent": [
+        74.0,
+        74.0
+      ]
+    },
+    "G0_E1_known_paired_table": {
+      "00": 57,
+      "01": 162,
+      "10": 1,
+      "11": 60
+    },
+    "G0_E1_known_risk_difference_pp": {
+      "n": 280,
+      "repositories": 28,
+      "mean": -57.5,
+      "median": -100.0,
+      "CI95_repository_percentile": [
+        -69.64285714285714,
+        -45.0
+      ],
+      "resamples": 20000,
+      "seed": 20261023,
+      "unit": "whole repository; class-weighted mean"
+    },
+    "G0_E1_unknown_gate_fill0": {
+      "n": 300,
+      "repositories": 30,
+      "mean": -53.666666666666664,
+      "median": -100.0,
+      "CI95_repository_percentile": [
+        -66.0,
+        -41.0
+      ],
+      "resamples": 20000,
+      "seed": 20261023,
+      "unit": "whole repository; class-weighted mean"
+    },
+    "G0_E1_unknown_gate_fill1": {
+      "n": 300,
+      "repositories": 30,
+      "mean": -60.333333333333336,
+      "median": -100.0,
+      "CI95_repository_percentile": [
+        -72.0,
+        -48.333333333333336
+      ],
+      "resamples": 20000,
+      "seed": 20261023,
+      "unit": "whole repository; class-weighted mean"
+    }
+  },
+  "strata": {
+    "maven": {
+      "n": 260,
+      "historical": {
+        "n": 260,
+        "repositories": 26,
+        "left": {
+          "n": 260,
+          "repositories": 26,
+          "mean": 11.398038461538462,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            6.810339423076923,
+            16.57208846153846
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 260,
+          "repositories": 26,
+          "mean": 8.093923076923078,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            5.013894230769231,
+            11.376057692307693
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 260,
+          "repositories": 26,
+          "mean": 3.304115384615385,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            -0.005693269230769172,
+            7.150012499999992
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 40,
+        "right_higher": 70,
+        "ties": 150,
+        "paired_probability_left_higher_half_ties": 0.4423076923076923,
+        "A12_marginal_all_cross_pairs": 0.42197485207100593
+      },
+      "E1_available": {
+        "n": 249,
+        "repositories": 25,
+        "left": {
+          "n": 249,
+          "repositories": 25,
+          "mean": 11.90156626506024,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            7.214715798387098,
+            17.198493999999997
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 249,
+          "repositories": 25,
+          "mean": 33.301124497991964,
+          "median": 23.53,
+          "CI95_repository_percentile": [
+            25.066133999999998,
+            41.50702299999999
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 249,
+          "repositories": 25,
+          "mean": -21.399558232931724,
+          "median": -10.0,
+          "CI95_repository_percentile": [
+            -27.36844556451613,
+            -15.658571000000004
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 15,
+        "right_higher": 149,
+        "ties": 85,
+        "paired_probability_left_higher_half_ties": 0.23092369477911648,
+        "A12_marginal_all_cross_pairs": 0.27885840550958857
+      },
+      "E1_bounds": {
+        "slots": 260,
+        "unknown_n": 11,
+        "unknown_indices": [
+          6,
+          48,
+          49,
+          128,
+          138,
+          145,
+          148,
+          198,
+          202,
+          224,
+          239
+        ],
+        "E1_mean_bounds": [
+          31.892230769230768,
+          36.123000000000005
+        ],
+        "G0_minus_E1_mean_bounds": [
+          -24.72496153846154,
+          -20.494192307692305
+        ],
+        "bounds_are_not_CI": true,
+        "zero_fill_sensitivity": {
+          "n": 260,
+          "repositories": 26,
+          "left": {
+            "n": 260,
+            "repositories": 26,
+            "mean": 11.398038461538462,
+            "median": 0.0,
+            "CI95_repository_percentile": [
+              6.810339423076923,
+              16.57208846153846
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "right": {
+            "n": 260,
+            "repositories": 26,
+            "mean": 31.892230769230768,
+            "median": 20.0,
+            "CI95_repository_percentile": [
+              23.781,
+              40.18785096153846
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_minus_right": {
+            "n": 260,
+            "repositories": 26,
+            "mean": -20.494192307692305,
+            "median": -7.415,
+            "CI95_repository_percentile": [
+              -26.352446153846156,
+              -14.85416826923077
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_higher": 15,
+          "right_higher": 149,
+          "ties": 96,
+          "paired_probability_left_higher_half_ties": 0.2423076923076923,
+          "A12_marginal_all_cross_pairs": 0.2874112426035503
+        },
+        "hundred_fill_sensitivity": {
+          "n": 260,
+          "repositories": 26,
+          "left": {
+            "n": 260,
+            "repositories": 26,
+            "mean": 11.398038461538462,
+            "median": 0.0,
+            "CI95_repository_percentile": [
+              6.810339423076923,
+              16.57208846153846
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "right": {
+            "n": 260,
+            "repositories": 26,
+            "mean": 36.123000000000005,
+            "median": 30.0,
+            "CI95_repository_percentile": [
+              26.890678846153847,
+              45.58035096153845
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_minus_right": {
+            "n": 260,
+            "repositories": 26,
+            "mean": -24.72496153846154,
+            "median": -13.184999999999999,
+            "CI95_repository_percentile": [
+              -33.5645375,
+              -17.110072115384614
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_higher": 15,
+          "right_higher": 160,
+          "ties": 85,
+          "paired_probability_left_higher_half_ties": 0.22115384615384615,
+          "A12_marginal_all_cross_pairs": 0.2635724852071006
+        },
+        "bootstrap_endpoint_envelope_descriptive_only": [
+          -33.5645375,
+          -14.85416826923077
+        ],
+        "not_NI_or_equivalence_test": true
+      },
+      "E1_gate": {
+        "pass": 203,
+        "fail": 47,
+        "unknown": 10,
+        "total_slots": 260,
+        "available_denominator": 250,
+        "available_rate_percent": {
+          "n": 250,
+          "repositories": 25,
+          "mean": 81.2,
+          "median": 100.0,
+          "CI95_repository_percentile": [
+            66.0,
+            94.0
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "full_slot_rate_bounds_percent": [
+          78.07692307692308,
+          81.92307692307692
+        ]
+      },
+      "G0_gate": {
+        "pass": 51,
+        "fail": 209,
+        "unknown": 0,
+        "total_slots": 260,
+        "available_denominator": 260,
+        "available_rate_percent": {
+          "n": 260,
+          "repositories": 26,
+          "mean": 19.615384615384617,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            11.923076923076923,
+            28.076923076923077
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "full_slot_rate_bounds_percent": [
+          19.615384615384617,
+          19.615384615384617
+        ]
+      },
+      "E0_gate": {
+        "pass": 158,
+        "fail": 102,
+        "unknown": 0,
+        "total_slots": 260,
+        "available_denominator": 260,
+        "available_rate_percent": {
+          "n": 260,
+          "repositories": 26,
+          "mean": 60.76923076923077,
+          "median": 100.0,
+          "CI95_repository_percentile": [
+            42.30769230769231,
+            78.07692307692308
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "full_slot_rate_bounds_percent": [
+          60.76923076923077,
+          60.76923076923077
+        ]
+      }
+    },
+    "gradle": {
+      "n": 40,
+      "historical": {
+        "n": 40,
+        "repositories": 4,
+        "left": {
+          "n": 40,
+          "repositories": 4,
+          "mean": 14.83875,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            0.0,
+            37.01625
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 40,
+          "repositories": 4,
+          "mean": 0.0,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            0.0,
+            0.0
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 40,
+          "repositories": 4,
+          "mean": 14.83875,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            0.0,
+            37.01625
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 6,
+        "right_higher": 0,
+        "ties": 34,
+        "paired_probability_left_higher_half_ties": 0.575,
+        "A12_marginal_all_cross_pairs": 0.575
+      },
+      "E1_available": {
+        "n": 30,
+        "repositories": 3,
+        "left": {
+          "n": 30,
+          "repositories": 3,
+          "mean": 19.785,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            0.0,
+            49.355000000000004
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 30,
+          "repositories": 3,
+          "mean": 42.44233333333333,
+          "median": 46.43,
+          "CI95_repository_percentile": [
+            0.0,
+            74.225
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 30,
+          "repositories": 3,
+          "mean": -22.657333333333334,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            -53.102,
+            10.0
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 5,
+        "right_higher": 12,
+        "ties": 13,
+        "paired_probability_left_higher_half_ties": 0.38333333333333336,
+        "A12_marginal_all_cross_pairs": 0.35388888888888886
+      },
+      "E1_bounds": {
+        "slots": 40,
+        "unknown_n": 10,
+        "unknown_indices": [
+          98,
+          110,
+          161,
+          199,
+          207,
+          227,
+          241,
+          251,
+          264,
+          268
+        ],
+        "E1_mean_bounds": [
+          31.83175,
+          56.83175
+        ],
+        "G0_minus_E1_mean_bounds": [
+          -41.993,
+          -16.993000000000002
+        ],
+        "bounds_are_not_CI": true,
+        "zero_fill_sensitivity": {
+          "n": 40,
+          "repositories": 4,
+          "left": {
+            "n": 40,
+            "repositories": 4,
+            "mean": 14.83875,
+            "median": 0.0,
+            "CI95_repository_percentile": [
+              0.0,
+              37.01625
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "right": {
+            "n": 40,
+            "repositories": 4,
+            "mean": 31.83175,
+            "median": 0.0,
+            "CI95_repository_percentile": [
+              0.0,
+              63.6635
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_minus_right": {
+            "n": 40,
+            "repositories": 4,
+            "mean": -16.993000000000002,
+            "median": 0.0,
+            "CI95_repository_percentile": [
+              -39.826499999999996,
+              5.0
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_higher": 5,
+          "right_higher": 12,
+          "ties": 23,
+          "paired_probability_left_higher_half_ties": 0.4125,
+          "A12_marginal_all_cross_pairs": 0.3834375
+        },
+        "hundred_fill_sensitivity": {
+          "n": 40,
+          "repositories": 4,
+          "left": {
+            "n": 40,
+            "repositories": 4,
+            "mean": 14.83875,
+            "median": 0.0,
+            "CI95_repository_percentile": [
+              0.0,
+              37.01625
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "right": {
+            "n": 40,
+            "repositories": 4,
+            "mean": 56.83175,
+            "median": 73.215,
+            "CI95_repository_percentile": [
+              18.55625,
+              88.2755
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_minus_right": {
+            "n": 40,
+            "repositories": 4,
+            "mean": -41.993,
+            "median": -46.43,
+            "CI95_repository_percentile": [
+              -81.2175,
+              -5.775499999999999
+            ],
+            "resamples": 20000,
+            "seed": 20261023,
+            "unit": "whole repository; class-weighted mean"
+          },
+          "left_higher": 5,
+          "right_higher": 22,
+          "ties": 13,
+          "paired_probability_left_higher_half_ties": 0.2875,
+          "A12_marginal_all_cross_pairs": 0.2553125
+        },
+        "bootstrap_endpoint_envelope_descriptive_only": [
+          -81.2175,
+          5.0
+        ],
+        "not_NI_or_equivalence_test": true
+      },
+      "E1_gate": {
+        "pass": 19,
+        "fail": 11,
+        "unknown": 10,
+        "total_slots": 40,
+        "available_denominator": 30,
+        "available_rate_percent": {
+          "n": 30,
+          "repositories": 3,
+          "mean": 63.333333333333336,
+          "median": 100.0,
+          "CI95_repository_percentile": [
+            10.0,
+            100.0
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "full_slot_rate_bounds_percent": [
+          47.5,
+          72.5
+        ]
+      },
+      "G0_gate": {
+        "pass": 10,
+        "fail": 30,
+        "unknown": 0,
+        "total_slots": 40,
+        "available_denominator": 40,
+        "available_rate_percent": {
+          "n": 40,
+          "repositories": 4,
+          "mean": 25.0,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            5.0,
+            45.0
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "full_slot_rate_bounds_percent": [
+          25.0,
+          25.0
+        ]
+      },
+      "E0_gate": {
+        "pass": 0,
+        "fail": 40,
+        "unknown": 0,
+        "total_slots": 40,
+        "available_denominator": 40,
+        "available_rate_percent": {
+          "n": 40,
+          "repositories": 4,
+          "mean": 0.0,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            0.0,
+            0.0
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "full_slot_rate_bounds_percent": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "full300_partial_identification": {
+    "slots": 300,
+    "unknown_n": 21,
+    "unknown_indices": [
+      6,
+      48,
+      49,
+      98,
+      110,
+      128,
+      138,
+      145,
+      148,
+      161,
+      198,
+      199,
+      202,
+      207,
+      224,
+      227,
+      239,
+      241,
+      251,
+      264,
+      268
+    ],
+    "E1_mean_bounds": [
+      31.884166666666665,
+      38.88416666666667
+    ],
+    "G0_minus_E1_mean_bounds": [
+      -27.027366666666662,
+      -20.027366666666662
+    ],
+    "bounds_are_not_CI": true,
+    "zero_fill_sensitivity": {
+      "n": 300,
+      "repositories": 30,
+      "left": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 11.856800000000002,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          7.128680833333334,
+          17.158425833333332
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 31.884166666666665,
+        "median": 20.0,
+        "CI95_repository_percentile": [
+          23.6524025,
+          40.35518666666666
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 300,
+        "repositories": 30,
+        "mean": -20.027366666666662,
+        "median": -5.0,
+        "CI95_repository_percentile": [
+          -26.065436666666663,
+          -14.163275000000002
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 20,
+      "right_higher": 161,
+      "ties": 119,
+      "paired_probability_left_higher_half_ties": 0.265,
+      "A12_marginal_all_cross_pairs": 0.30036666666666667
+    },
+    "hundred_fill_sensitivity": {
+      "n": 300,
+      "repositories": 30,
+      "left": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 11.856800000000002,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          7.128680833333334,
+          17.158425833333332
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 300,
+        "repositories": 30,
+        "mean": 38.88416666666667,
+        "median": 33.33,
+        "CI95_repository_percentile": [
+          29.313274999999997,
+          48.79207416666666
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 300,
+        "repositories": 30,
+        "mean": -27.027366666666662,
+        "median": -14.265,
+        "CI95_repository_percentile": [
+          -36.63833416666667,
+          -18.488189166666682
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 20,
+      "right_higher": 182,
+      "ties": 98,
+      "paired_probability_left_higher_half_ties": 0.23,
+      "A12_marginal_all_cross_pairs": 0.2614
+    },
+    "bootstrap_endpoint_envelope_descriptive_only": [
+      -36.63833416666667,
+      -14.163275000000002
+    ],
+    "not_NI_or_equivalence_test": true
+  },
+  "sensitivities": {
+    "original_class3_result": {
+      "n": 279,
+      "repositories": 28,
+      "left": {
+        "n": 279,
+        "repositories": 28,
+        "mean": 12.749247311827958,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          7.82032748015873,
+          18.365987646054116
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 279,
+        "repositories": 28,
+        "mean": 33.92562724014337,
+        "median": 25.0,
+        "CI95_repository_percentile": [
+          25.784490178571428,
+          42.37647643049154
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 279,
+        "repositories": 28,
+        "mean": -21.17637992831541,
+        "median": -7.69,
+        "CI95_repository_percentile": [
+          -27.433356115107912,
+          -15.15913263103803
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 20,
+      "right_higher": 160,
+      "ties": 99,
+      "paired_probability_left_higher_half_ties": 0.24910394265232974,
+      "A12_marginal_all_cross_pairs": 0.2888644801582714
+    },
+    "original_class3_process": {
+      "n": 280,
+      "repositories": 28,
+      "mean": 78.92857142857143,
+      "median": 100.0,
+      "CI95_repository_percentile": [
+        64.64285714285714,
+        91.42857142857143
+      ],
+      "resamples": 20000,
+      "seed": 20261023,
+      "unit": "whole repository; class-weighted mean"
+    },
+    "exclude_nonpassing_native_suite_diagnostic": {
+      "n": 273,
+      "repositories": 28,
+      "left": {
+        "n": 273,
+        "repositories": 28,
+        "mean": 13.029450549450551,
+        "median": 0.0,
+        "CI95_repository_percentile": [
+          7.99201373980249,
+          18.732536226318476
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "right": {
+        "n": 273,
+        "repositories": 28,
+        "mean": 34.90673992673993,
+        "median": 27.27,
+        "CI95_repository_percentile": [
+          26.51844457852602,
+          43.62844200312441
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_minus_right": {
+        "n": 273,
+        "repositories": 28,
+        "mean": -21.877289377289376,
+        "median": -9.09,
+        "CI95_repository_percentile": [
+          -28.418858566615867,
+          -15.59124298941799
+        ],
+        "resamples": 20000,
+        "seed": 20261023,
+        "unit": "whole repository; class-weighted mean"
+      },
+      "left_higher": 20,
+      "right_higher": 160,
+      "ties": 93,
+      "paired_probability_left_higher_half_ties": 0.24358974358974358,
+      "A12_marginal_all_cross_pairs": 0.28426518536408646
+    },
+    "hold_nonpassing_native_suite_unresolved_bounds": {
+      "slots": 300,
+      "unknown_n": 27,
+      "unknown_indices": [
+        6,
+        10,
+        48,
+        49,
+        58,
+        74,
+        98,
+        108,
+        110,
+        128,
+        138,
+        145,
+        148,
+        161,
+        198,
+        199,
+        202,
+        207,
+        224,
+        227,
+        239,
+        241,
+        247,
+        251,
+        264,
+        268,
+        289
+      ],
+      "E1_mean_bounds": [
+        31.765133333333335,
+        40.76513333333334
+      ],
+      "G0_minus_E1_mean_bounds": [
+        -28.908333333333335,
+        -19.908333333333335
+      ],
+      "bounds_are_not_CI": true,
+      "zero_fill_sensitivity": {
+        "n": 300,
+        "repositories": 30,
+        "left": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 11.856800000000002,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            7.128680833333334,
+            17.158425833333332
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 31.765133333333335,
+          "median": 20.0,
+          "CI95_repository_percentile": [
+            23.505756666666667,
+            40.25625249999999
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": -19.908333333333335,
+          "median": -5.0,
+          "CI95_repository_percentile": [
+            -25.994380833333338,
+            -13.981545000000011
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 20,
+        "right_higher": 160,
+        "ties": 120,
+        "paired_probability_left_higher_half_ties": 0.26666666666666666,
+        "A12_marginal_all_cross_pairs": 0.30185
+      },
+      "hundred_fill_sensitivity": {
+        "n": 300,
+        "repositories": 30,
+        "left": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 11.856800000000002,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            7.128680833333334,
+            17.158425833333332
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 40.76513333333334,
+          "median": 33.33,
+          "CI95_repository_percentile": [
+            30.984017499999997,
+            50.83785166666666
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": -28.908333333333335,
+          "median": -19.26,
+          "CI95_repository_percentile": [
+            -38.735820000000004,
+            -20.05700500000001
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 20,
+        "right_higher": 187,
+        "ties": 93,
+        "paired_probability_left_higher_half_ties": 0.22166666666666668,
+        "A12_marginal_all_cross_pairs": 0.25175
+      },
+      "bootstrap_endpoint_envelope_descriptive_only": [
+        -38.735820000000004,
+        -13.981545000000011
+      ],
+      "not_NI_or_equivalence_test": true
+    },
+    "hold112_269_timeout_as_unknown_instead_of_policy_zero": {
+      "slots": 300,
+      "unknown_n": 23,
+      "unknown_indices": [
+        6,
+        48,
+        49,
+        98,
+        110,
+        112,
+        128,
+        138,
+        145,
+        148,
+        161,
+        198,
+        199,
+        202,
+        207,
+        224,
+        227,
+        239,
+        241,
+        251,
+        264,
+        268,
+        269
+      ],
+      "E1_mean_bounds": [
+        31.884166666666665,
+        39.55083333333334
+      ],
+      "G0_minus_E1_mean_bounds": [
+        -27.69403333333333,
+        -20.027366666666662
+      ],
+      "bounds_are_not_CI": true,
+      "zero_fill_sensitivity": {
+        "n": 300,
+        "repositories": 30,
+        "left": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 11.856800000000002,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            7.128680833333334,
+            17.158425833333332
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 31.884166666666665,
+          "median": 20.0,
+          "CI95_repository_percentile": [
+            23.6524025,
+            40.35518666666666
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": -20.027366666666662,
+          "median": -5.0,
+          "CI95_repository_percentile": [
+            -26.065436666666663,
+            -14.163275000000002
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 20,
+        "right_higher": 161,
+        "ties": 119,
+        "paired_probability_left_higher_half_ties": 0.265,
+        "A12_marginal_all_cross_pairs": 0.30036666666666667
+      },
+      "hundred_fill_sensitivity": {
+        "n": 300,
+        "repositories": 30,
+        "left": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 11.856800000000002,
+          "median": 0.0,
+          "CI95_repository_percentile": [
+            7.128680833333334,
+            17.158425833333332
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": 39.55083333333334,
+          "median": 33.33,
+          "CI95_repository_percentile": [
+            30.04395916666667,
+            49.34550416666667
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_minus_right": {
+          "n": 300,
+          "repositories": 30,
+          "mean": -27.69403333333333,
+          "median": -15.705000000000002,
+          "CI95_repository_percentile": [
+            -37.36362750000001,
+            -19.10415000000002
+          ],
+          "resamples": 20000,
+          "seed": 20261023,
+          "unit": "whole repository; class-weighted mean"
+        },
+        "left_higher": 20,
+        "right_higher": 184,
+        "ties": 96,
+        "paired_probability_left_higher_half_ties": 0.22666666666666666,
+        "A12_marginal_all_cross_pairs": 0.2576888888888889
+      },
+      "bootstrap_endpoint_envelope_descriptive_only": [
+        -37.36362750000001,
+        -14.163275000000002
+      ],
+      "not_NI_or_equivalence_test": true
+    },
+    "K_plus_TIMED_OUT_diagnostic_on_same_E1_observed_rows": {
+      "n": 221,
+      "repositories": 24,
+      "mean": 43.672760180995475,
+      "median": 42.11,
+      "CI95_repository_percentile": [
+        36.56388835750824,
+        50.64761620785317
+      ],
+      "resamples": 20000,
+      "seed": 20261023,
+      "unit": "whole repository; class-weighted mean"
+    }
+  },
+  "score_basis_counts": {
+    "OBSERVED_PIT_AND_PROCESS_GATE": 221,
+    "UNDEFINED_ZERO_FOCAL_MUTANTS": 1,
+    "CONVENTIONAL_PIPELINE_FAILURE_ZERO_NOT_OBSERVED": 58,
+    "UNRESOLVED_PROVIDER_TEST_ONLY": 10,
+    "UNRESOLVED_ADAPTER_TASK_BEFORE_GENERATION": 10
+  },
+  "PIT_observed_zero_count": 41,
+  "policy_zero_count": 58,
+  "end_to_end_unresolved_indices": [
+    6,
+    48,
+    49,
+    98,
+    110,
+    128,
+    138,
+    145,
+    148,
+    161,
+    198,
+    199,
+    202,
+    207,
+    224,
+    227,
+    239,
+    241,
+    251,
+    264,
+    268
+  ],
+  "amendment30_measurement_unresolved_indices": [
+    48,
+    49,
+    112,
+    128,
+    138,
+    145,
+    148,
+    198,
+    202,
+    224,
+    239,
+    269
+  ],
+  "stage_counts": {
+    "generation": {
+      "COMPLETE_SUITE": 252,
+      "COMPLETE_SUITE_REUSED_FROM_ORIGINAL": 1,
+      "UNSUCCESSFUL": 37,
+      "NOT_STARTED_ADAPTER_BLOCK": 10
+    },
+    "compile_production_evidence": {
+      "PASS_ARTIFACT": 285,
+      "NOT_EVIDENCED": 15
+    },
+    "compile_test_evidence": {
+      "PASS_ARTIFACT_OR_XML": 248,
+      "NOT_EVIDENCED": 52
+    },
+    "test_execution": {
+      "PASS": 240,
+      "SKIPPED_OR_INCOMPLETE": 4,
+      "NOT_EVIDENCED": 52,
+      "FAIL": 4
+    },
+    "PIT": {
+      "VALID_FOCAL_REPORT": 221,
+      "ZERO_FOCAL_MUTANTS": 1,
+      "UNRESOLVED_OR_NOT_RUN": 68,
+      "UNRESOLVED_PROVIDER_NOT_QUALIFIED": 10
+    }
+  },
+  "historical_stage_counts": {
+    "G0": {
+      "ok": 61,
+      "gradle_verify_failed": 7,
+      "generated_test_compile_failed": 158,
+      "maven_verify_timeout": 1,
+      "jacoco_failed": 24,
+      "maven_verify_failed": 43,
+      "generated_test_runtime_failed": 2,
+      "agone_runtime_failed": 1,
+      "pit_failed": 1,
+      "maven_reactor_prewarm_failed": 2
+    },
+    "E0": {
+      "ok": 158,
+      "agone_runtime_failed": 90,
+      "generated_test_compile_failed": 32,
+      "maven_verify_failed": 15,
+      "generated_test_runtime_failed": 2,
+      "pit_failed": 1,
+      "maven_reactor_prewarm_failed": 2
+    }
+  },
+  "nonpassing_suite_valid_PIT_indices": [
+    10,
+    58,
+    74,
+    108,
+    247,
+    289
+  ],
+  "mutant_count_distribution": {
+    "E1": {
+      "n_classes": 221,
+      "min": 1,
+      "q25": 8.0,
+      "median": 17.0,
+      "q75": 33.0,
+      "max": 68,
+      "mean": 20.190045248868778
+    },
+    "G0": {
+      "n_classes": 61,
+      "min": 1,
+      "q25": 6.0,
+      "median": 14.0,
+      "q75": 31.0,
+      "max": 47,
+      "mean": 18.098360655737704
+    }
+  },
+  "new_experiments": 0,
+  "new_GPT_API_calls": 0
+}

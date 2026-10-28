@@ -1,0 +1,15 @@
+{
+  "scope": "pre-execution controller review",
+  "old_sha256": "3e2e85c3adb2f3aee2c8a6cfce2089a3d64ecbdc742de1e2bf65dab4ffa72ffb",
+  "new_sha256": "aa6acc4f43082722c5e264c858fc6f7051e11658acabea8913cb76850d6a91e9",
+  "diff_sha256": "c2790b41dc34d35a4f4d63e668bcf3e5e6b8a14a7931cc3918a257b7cf9069b8",
+  "changes": [
+    "reject existing native suite before generation",
+    "check only selected build output for stale evidence; do not reject legitimate .exec resource fixtures",
+    "scope and actual FQCN explicit in result; synthetic job barred in benchmark",
+    "remove redundant incorrect intermediate argv tail slice"
+  ],
+  "legacy_gate_verified_at": "scripts_v2/AgoneTest/gradleLib.py run_gradle_test_command: successful test+JaCoCo plus non-timeout PIT retains gate even when PIT exits nonzero",
+  "new_EvoSuite_calls": 0,
+  "benchmark_admitted": false
+}

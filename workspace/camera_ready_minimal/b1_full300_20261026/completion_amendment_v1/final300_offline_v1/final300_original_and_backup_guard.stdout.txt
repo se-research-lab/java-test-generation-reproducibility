@@ -1,0 +1,6 @@
+{
+  "protected_files": 585,
+  "changed_or_missing": [],
+  "ledger_chain": "PASS",
+  "original_and_backup_bytes_match": true
+}

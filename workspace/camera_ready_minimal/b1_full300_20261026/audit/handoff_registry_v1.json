@@ -1,0 +1,30 @@
+{
+  "registry_check": "PASS",
+  "registered_files": 28,
+  "extras": [
+    {
+      "path": "HANDOFF_20261026.md",
+      "sha256": "80936c4dc2682cccadf40250444c31114abea6a9dafb456e2bd9831e0aae9f34",
+      "bytes": 3663
+    },
+    {
+      "path": "audit/dashboard_preview_v1.png",
+      "sha256": "164a9122a0140831ac1a5d83c0604af7a192de2419f04066bccdb4b758bcc86d",
+      "bytes": 24562
+    },
+    {
+      "path": "audit/dashboard_overview_v1.png",
+      "sha256": "8b868a4ea14cd38b4ea592ada82d6f27c13efa4810d1601ea4c8baa4740796ed",
+      "bytes": 26805
+    },
+    {
+      "path": "src/record_handoff_v1.py",
+      "sha256": "978ceafa0c3a82ec50979f54081cc5ce07fe624efb59157580282768116cdac3",
+      "bytes": 1209
+    }
+  ],
+  "benchmark_started": false,
+  "monitor_url": "http://127.0.0.1:8766/",
+  "monitor_only": true,
+  "automatic_batch_start": false
+}

@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-10-26T00:10:22.256790+00:00",
+  "scope": "post-launch-failure CP transport recovery; input/profile unchanged",
+  "inherits_measurement_map_v2": {
+    "path": "measurement_result_map_v2.json",
+    "sha256": "cd63c772c7a9da9aaa861154b23d6addd4c81db12b41b7840e9cfbd77af204bf"
+  },
+  "recovery_decisions": [
+    {
+      "sample_index_1based": 12,
+      "class_key": "81384608:integrations/spark/spark-catalog/spark-catalog-core/src/main/java/com/thinkbiganalytics/kylo/catalog/spark/sources/spark/flaggingvisitor.java",
+      "seed": 20261035,
+      "initial_result": "jobs\\012\\result.json",
+      "initial_result_sha256": "7c7482e405b027e33074053086afecdbe944937ef2ca71592bcc96d80883e161",
+      "prior_generation_processes_started": 0,
+      "recovery_folder": "jobs/012_cpfile_v3",
+      "replacement_result": "jobs/012_cpfile_v3/result.json",
+      "selection_rule": "accept this uniform-protocol terminal result irrespective of score; reject integrity abort; never choose maximum",
+      "status_at_decision": "PENDING_NO_RECOVERY_EVO_STARTED"
+    },
+    {
+      "sample_index_1based": 16,
+      "class_key": "81384608:integrations/spark/spark-catalog/spark-catalog-core/src/main/java/com/thinkbiganalytics/kylo/catalog/spark/sources/jdbc/jdbchighwatermarkvisitor.java",
+      "seed": 20261039,
+      "initial_result": "jobs\\016\\result.json",
+      "initial_result_sha256": "1b70de9c06da07146b8f35af37671c926376d908db58d7cb5d085e4dc210b1a7",
+      "prior_generation_processes_started": 0,
+      "recovery_folder": "jobs/016_cpfile_v3",
+      "replacement_result": "jobs/016_cpfile_v3/result.json",
+      "selection_rule": "accept this uniform-protocol terminal result irrespective of score; reject integrity abort; never choose maximum",
+      "status_at_decision": "PENDING_NO_RECOVERY_EVO_STARTED"
+    },
+    {
+      "sample_index_1based": 23,
+      "class_key": "81384608:integrations/spark/spark-catalog/spark-catalog-core/src/main/java/com/thinkbiganalytics/kylo/catalog/spark/sources/jdbc/jdbchighwatermarkaccumulableparam.java",
+      "seed": 20261046,
+      "initial_result": "jobs\\023\\result.json",
+      "initial_result_sha256": "30aae298a5834a0826d8f44441266b4e3e0309434d18b15f9962d5da065f36db",
+      "prior_generation_processes_started": 0,
+      "recovery_folder": "jobs/023_cpfile_v3",
+      "replacement_result": "jobs/023_cpfile_v3/result.json",
+      "selection_rule": "accept this uniform-protocol terminal result irrespective of score; reject integrity abort; never choose maximum",
+      "status_at_decision": "PENDING_NO_RECOVERY_EVO_STARTED"
+    }
+  ],
+  "known_outcomes_at_decision": "Only old launch failures; no EvoSuite generation on these3 yet",
+  "E49_reused_without_regeneration": 49,
+  "GPT_changes": 0,
+  "paper_changed": false
+}

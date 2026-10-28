@@ -1,0 +1,5 @@
+rq,metric,n,observed,threshold,p_value,alpha,effect_size_rank_biserial,median_minus_threshold,reject_h0,decision_note,success_n,wilson_ci_low,wilson_ci_high,proportion_minus_threshold,effect_size_vargha_delaney_a12,metric_observation_n
+RQ1,GPT compiled-only mutation median,61,66.67,44.5,0.0025693630587304826,0.05,0.4108937070333157,22.17,True,tested,,,,,,61
+RQ2,GPT compiled-only branch median,61,77.78,41.9,,0.05,0.8454106280193237,35.88,False,descriptive_only_n_lt_60,,,,,,45
+RQ3,GPT build success rate,300,0.20333333333333334,0.286,0.9995759477913113,0.05,,,False,tested,61.0,0.16167385164165787,0.25249431128490607,-0.08266666666666664,,300
+RQ4,strict mutation median GPT-EvoSuite,300,0.0,-5.0,7.039205232144991e-14,0.05,0.4789297658862876,5.0,True,tested,,,,,0.4426277777777778,300

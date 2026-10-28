@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-10-23T16:08:30.431Z",
+  "pid": 31368,
+  "argv": [
+    "C:/Users/admin/AppData/Local/Programs/Python/Python310/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:/A_ThucNghiem/camera_ready_minimal/paired49_20261023/audit.py",
+    "run",
+    "compat49_resume_v1",
+    "C:/Users/admin/AppData/Local/Programs/Python/Python310/python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:/A_ThucNghiem/camera_ready_minimal/paired49_20261023/src/resume_fixed49_measurement_after_interruption_v2.py"
+  ],
+  "cwd": "D:/A_ThucNghiem/camera_ready_minimal/paired49_20261023",
+  "detached": true,
+  "windowsHide": true,
+  "controller_sha256": "85271435a0babad82481975be1626c93e330160b320f44e588444eaba54af2bb",
+  "purpose": "Audit closure18 without remeasurement then remaining48slots, sameprotocol"
+}

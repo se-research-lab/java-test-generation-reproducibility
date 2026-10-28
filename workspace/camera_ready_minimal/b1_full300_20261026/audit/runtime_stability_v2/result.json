@@ -1,0 +1,122 @@
+{
+  "at_utc": "2026-10-26T05:46:41.704208+00:00",
+  "assessment": "RUNNING_NO_HANG_EVIDENCE_IN_OBSERVATION",
+  "owner_identity": {
+    "pid": 10800,
+    "create_time": 1792986820.1945443,
+    "script": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_remaining_maven153_v6.py"
+  },
+  "samples_seconds_apart": 20.084882020950317,
+  "Java_same_identity_deltas": [],
+  "observed_progress": {
+    "sample_interval_seconds": 20.084882020950317,
+    "runner_CPU_seconds": 3.3125,
+    "runner_IO_read_operations": 19987,
+    "runner_IO_write_operations": 506,
+    "completed_jobs": 1,
+    "runtime_snapshot_changed": true
+  },
+  "owned_worker_command_overlaps": [],
+  "active_commands": [],
+  "overdue_commands": [],
+  "runtime_snapshot_age_seconds": 8.079316,
+  "latest_job_events": [
+    {
+      "index": 133,
+      "last_kind": "JOB_TERMINAL",
+      "at_utc": "2026-10-26T05:40:05.274732+00:00"
+    },
+    {
+      "index": 136,
+      "last_kind": "JOB_TERMINAL",
+      "at_utc": "2026-10-26T05:45:04.485337+00:00"
+    },
+    {
+      "index": 137,
+      "last_kind": "JOB_TERMINAL",
+      "at_utc": "2026-10-26T05:46:31.223936+00:00"
+    }
+  ],
+  "v6_closed_terminal_records_seen": 41,
+  "v6_closed_indices": [
+    74,
+    76,
+    77,
+    78,
+    79,
+    82,
+    83,
+    85,
+    86,
+    87,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    99,
+    100,
+    102,
+    103,
+    104,
+    107,
+    109,
+    111,
+    113,
+    115,
+    116,
+    117,
+    118,
+    121,
+    122,
+    125,
+    126,
+    127,
+    130,
+    132,
+    133,
+    136,
+    137
+  ],
+  "closed_job_process_build_successes": 28,
+  "closed_job_pipeline_failures_retained": 13,
+  "closed_generation_unsuccessful": 6,
+  "closed_complete_measurement_evidence": 25,
+  "throughput_classes_per_hour_observed": 21.77318856519831,
+  "elapsed_v6_minutes": 112.98299248333333,
+  "capacity": {
+    "free_bytes": 21098553344,
+    "stop_reserve_bytes": 12000000000,
+    "usable_before_guard_bytes": 9098553344,
+    "pending_not_materialized": 110,
+    "remaining_source_bytes_lower_bound": 3496248106,
+    "minimum_headroom_after_source_only_bytes": 5602305238,
+    "sufficient_even_for_source_only": true,
+    "excludes_future_build_reports_cache_and_logs": true,
+    "estimate_method": "frozen manifests and exactly the E49 materialization path filter; no full job restoration"
+  },
+  "latest_closed_archive_spot_check": {
+    "index": 137,
+    "scope": "one small closed archive, not all old/live jobs",
+    "archive": {
+      "status": "PASS",
+      "files_verified": 660,
+      "manifest_sha256": "9ade5637db48daf43f378de4fa6dc2fe155b857bfc7fad701d665ec27d7285cc",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    }
+  },
+  "read_races_omitted": [],
+  "active_sample_index_at_observation": null,
+  "runtime_total_records_including_E49": 136,
+  "GPT_guard_last_recorded": "PASS",
+  "GPT_guard_last_checked_utc": "2026-10-26T05:46:33.513958+00:00",
+  "new_GPT_API_calls": 0,
+  "experiment_or_process_changes": 0,
+  "config_changes": 0,
+  "paper_changes": 0,
+  "limitations": "Two short resource samples plus archived command history; not a guarantee of future availability, all-class audit or statistical quality assessment."
+}

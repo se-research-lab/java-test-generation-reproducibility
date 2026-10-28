@@ -1,0 +1,59 @@
+{
+  "timestamp_utc": "2026-07-24T02:42:47+00:00",
+  "run_id": "full300_merged_20260724_paper",
+  "status": "completed",
+  "error": null,
+  "run_mode": "combined_report",
+  "combined_from_runs": [
+    "pilot60_resume_20260724_083102",
+    "20260724_022225_resume240"
+  ],
+  "merge_policy": {
+    "sample_index": "reset to original_manifest_index/full manifest index when available",
+    "baseline_scope_build": "deduplicated by project/scope_key/module and class_rows recomputed on combined N=300",
+    "metrics": "row-level concat of completed run metrics, then RQ/statistical artifacts recomputed on combined N",
+    "api_logs": "row-level concat from root api_log.csv files; missing API rows remain absent when generation was blocked before GPT",
+    "generated_tests": "copied into this combined run and manifest paths rewritten"
+  },
+  "manifest_csv": "D:\\A_ThucNghiem\\scripts_v2\\data_new\\class_sampling_manifest_final_seed42.csv",
+  "manifest_sha256": "904a53dc6ed7741c91765cd2ca3d38929a10f8b34d10d6019b8175b5f514af3b",
+  "recipes_csv": "D:\\A_ThucNghiem\\scripts_v2\\data_new\\build_recipes_portable.csv",
+  "recipes_sha256": "3407de675ec6cb2798b8f96c2f7ff94004015d679eb9441ac9f993629d4d7a7f",
+  "compiledrepos_root": "D:\\A_ThucNghiem\\compiledrepos",
+  "model": "gpt-4o-mini-2024-07-18",
+  "prompt": "rbl4-zero-shot",
+  "workers": null,
+  "prompt_hash_sha256": "af9bd7227ecbebf631af20b6a3b8bcc774bd14a5c9a3ae90baf77e8217293dd2",
+  "prompt_protocol": "AgoneTest base zero-shot from proposal; no java_language_rules.",
+  "source_sample_n": 300,
+  "buildable_run_n": 300,
+  "precheck_skipped_n": 0,
+  "baseline_pass_n": 300,
+  "baseline_failed_n": 0,
+  "repo_n": 30,
+  "build_scope_n": 48,
+  "classes_per_repo_min": 10,
+  "classes_per_repo_max": 10,
+  "split_name_counts": {
+    "remaining240": 240,
+    "pilot60": 60
+  },
+  "complexity_half_counts": {
+    "lower_complexity_half": 150,
+    "higher_complexity_half": 150
+  },
+  "build_tool_counts": {
+    "maven": 260,
+    "gradle": 40
+  },
+  "gpt_rows": 300,
+  "evosuite_rows": 300,
+  "fairness_policy": {
+    "replacement_after_dataset_lock": false,
+    "generated_test_repair": false,
+    "prompt": "original AgoneTest zero-shot prompt from proposal",
+    "sandbox_policy": "one focal class per sandbox; only that generated test is installed and measured",
+    "baseline_gate": "all classes/scopes must pass clean baseline build and per-class sandbox prewarm readiness before generation starts",
+    "failure_scoring": "failed generated tests are compilation=0 and strict metrics=0"
+  }
+}

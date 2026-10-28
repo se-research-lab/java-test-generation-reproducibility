@@ -1,0 +1,22 @@
+{
+  "reason": {
+    "scope": "B1 source snapshot only; no benchmark active",
+    "reason": "Technical pause: replace repeated per-file ancestor traversal with cached validated directory identities; preserve v1 committed snapshots and logs before explicit v2 continuation",
+    "requested_by": "assistant executing authorized B1 preparation",
+    "automatic_resume": false
+  },
+  "previous_interruption": {
+    "timestamp_utc": "2026-10-25T22:20:44.792982+00:00",
+    "completed_roots": 7,
+    "error_type": "IntegrityError",
+    "detail": "Explicit B1 stop request; no automatic resume",
+    "auto_resume": false
+  },
+  "old_store_sha256": "b0c00a06784a9a0757c09b33376ec3c6fe3825ecbf338af647764881c0a329f2",
+  "v1_code_sha256": "8532c609f21118d6cc272f51e74ac26afbd486981e42c8b9f3abda11a36e4a21",
+  "v2_reader_sha256": "6a842fa9b862fcc6a48033a83f993ca8d19325d9177891952fd09c581332581b",
+  "committed_roots_reused": 7,
+  "new_experiment_calls": 0,
+  "explicit_technical_continuation": true,
+  "v2_driver_sha256": "487093910181c30499a6deb5b6517b10e8751085b8fe733616e79c5ce2cd9a12"
+}

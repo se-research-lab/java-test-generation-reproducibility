@@ -1,0 +1,593 @@
+{
+  "status": "PLANNED_NOT_EXECUTED",
+  "created_utc": "2026-10-23T14:19:55.876Z",
+  "selection_algorithm": "Within each of15 observed repos choose min SHA256(FISAT2026-repeat-v1|repo_id|class_key) among all original fixed49; no outcome/status filters",
+  "source_manifest_sha256": "701c11517df070f687b019e3baa138bcdb94830553f0ea94cadf52f441dec6d5",
+  "candidate_count": 49,
+  "selected_count": 15,
+  "replicates_new_per_arm": 5,
+  "planned_GPT_generation_requests_no_API_retry": 75,
+  "planned_EvoSuite_generation_runs": 75,
+  "original_G0_E0_E1_frozen": true,
+  "profile_not_yet_admitted": true,
+  "candidates": [
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/extractor/constructormetaextractor.java",
+      "job_index": 1,
+      "focal_path": "core/src/main/java/org/junithelper/core/extractor/ConstructorMetaExtractor.java",
+      "module": "core",
+      "focal_sha256": "7941cbaf4a1ef23109bec1cae6b00f2e44f5c247db0f2bfcdff8ec96cb3398f0",
+      "selection_digest": "ca26e6e84c8711e918897bcdfe6b0d7a6376b462b13003f41e2b7be36b178639"
+    },
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/file/filesearcherfactory.java",
+      "job_index": 2,
+      "focal_path": "core/src/main/java/org/junithelper/core/file/FileSearcherFactory.java",
+      "module": "core",
+      "focal_sha256": "38a072cd521a2399050cfae0804c8647cd25ae8e6247e95145b4e57fc32d98da",
+      "selection_digest": "f835f49075297b84ca353e88434eeb52d2e92e6deb4aac11ceb5eb252ff3ec4b"
+    },
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/filter/impl/triminsideofbracefilter.java",
+      "job_index": 3,
+      "focal_path": "core/src/main/java/org/junithelper/core/filter/impl/TrimInsideOfBraceFilter.java",
+      "module": "core",
+      "focal_sha256": "b47ff2b074b64f96c19c1362977397e3d55fca9b5e5840bd43adb2151fff43ac",
+      "selection_digest": "f1269148c40acf90915942511d6a3133bac44710e81c557497febba01763df31"
+    },
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/generator/linebreakprovider.java",
+      "job_index": 4,
+      "focal_path": "core/src/main/java/org/junithelper/core/generator/LineBreakProvider.java",
+      "module": "core",
+      "focal_sha256": "0108926d43deafda63564177c81b75c580fb791e26c96b03a957d372e1e87fd0",
+      "selection_digest": "db9f7e041ed9faa15727d60d601116fc20947b0036879984f16e9d443a44e7ba"
+    },
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/argtypemeta.java",
+      "job_index": 5,
+      "focal_path": "core/src/main/java/org/junithelper/core/meta/ArgTypeMeta.java",
+      "module": "core",
+      "focal_sha256": "15b2ffa3cdff53390fbea7fb44720ba244a20f0410e52a8b895d4bee3a320678",
+      "selection_digest": "33e5b43a9c73fd355730ee279c6cc3f326c65d831e58858b2d3cef7c726d5baf"
+    },
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/returntypemeta.java",
+      "job_index": 6,
+      "focal_path": "core/src/main/java/org/junithelper/core/meta/ReturnTypeMeta.java",
+      "module": "core",
+      "focal_sha256": "6ac66f1691206089d46fd7d45afb608018fbf2eadd4a15c1b3b62e3a7e836e95",
+      "selection_digest": "db34fbcb0af1c76c523c8bded12310bf7cdb978c0624b2c864b071aeb603297c"
+    },
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/util/primitivetypeutil.java",
+      "job_index": 7,
+      "focal_path": "core/src/main/java/org/junithelper/core/util/PrimitiveTypeUtil.java",
+      "module": "core",
+      "focal_sha256": "dfa1d65c5d50021cbdd13b136aa83412c601b619feabfaa0fc405d500608a034",
+      "selection_digest": "055b332b8780be5fced4b3f7e697cf2e17b7ef4057149a4a2359dcc2c1786177"
+    },
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/util/threadutil.java",
+      "job_index": 8,
+      "focal_path": "core/src/main/java/org/junithelper/core/util/ThreadUtil.java",
+      "module": "core",
+      "focal_sha256": "3019dbfa63051e44355ed2f8aad6b5d75b395505bafaf971f341954c095f3ebc",
+      "selection_digest": "f1f6dc62cb1bbe55a44b5bb66a71f48c6ffb6f9d3da94e138656149ce65ee2a3"
+    },
+    {
+      "repo_id": "3847504",
+      "class_key": "3847504:modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/urlimpl.java",
+      "job_index": 9,
+      "focal_path": "modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/UrlImpl.java",
+      "module": "modules/weblounge-common",
+      "focal_sha256": "9797102f34ce87c3df86241e8246ec7ee6b785983ab627cd3e7284807adc1aa5",
+      "selection_digest": "b4d72d7f5e64db158c6d3a26a81414ee368d3f05c0c87b2d051dd16dbad4b15a"
+    },
+    {
+      "repo_id": "41547678",
+      "class_key": "41547678:turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/qualifiedname.java",
+      "job_index": 10,
+      "focal_path": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/QualifiedName.java",
+      "module": "turin-compiler",
+      "focal_sha256": "df0e46a247d77d73581c2c94a926e2fdc8048f4f25577e184727f9cc3012e5ea",
+      "selection_digest": "fd4e4f38a5dfa31ebee8380b6a9005521ecfc950a15fbd998289f3e26d9d3c32"
+    },
+    {
+      "repo_id": "41547678",
+      "class_key": "41547678:turin-standard-library/src/main/java/turin/context/context.java",
+      "job_index": 11,
+      "focal_path": "turin-standard-library/src/main/java/turin/context/Context.java",
+      "module": "turin-standard-library",
+      "focal_sha256": "85a0423c8f1bfc104d832701458ca93215b4842b8966267a458a9ce25d3ab2db",
+      "selection_digest": "fdaabafb8b93dc836e48dc64844a36dabede2d28eed7f97ac41e91d29aac6def"
+    },
+    {
+      "repo_id": "45997449",
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/resource/resourceurn.java",
+      "job_index": 12,
+      "focal_path": "WebRex/src/main/java/com/ebayopensource/webrex/resource/ResourceUrn.java",
+      "module": "WebRex",
+      "focal_sha256": "361bd4b4e54c57212ca83a3ac4217260c532c916aba3a6641513ede1f7030219",
+      "selection_digest": "8a46fef7cfd54cff52483cc9e26e7dda18fb31881d0e72a60e9cbd509bd1761e"
+    },
+    {
+      "repo_id": "45997449",
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/joiners.java",
+      "job_index": 13,
+      "focal_path": "WebRex/src/main/java/com/ebayopensource/webrex/util/Joiners.java",
+      "module": "WebRex",
+      "focal_sha256": "7cd781b8c71a9a84d02afd0da41c7272ed1f6cf216e28178f6c13e6883d24134",
+      "selection_digest": "9d53400bc355659281645de1bba8b4025a2f8b3d976e4b8464097d0feb1fb89e"
+    },
+    {
+      "repo_id": "45997449",
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/splitters.java",
+      "job_index": 14,
+      "focal_path": "WebRex/src/main/java/com/ebayopensource/webrex/util/Splitters.java",
+      "module": "WebRex",
+      "focal_sha256": "02cf9c9a70c65ff0b9d98b8250fd86ecf13c8de108e9e4f1eb4fd77141dc6180",
+      "selection_digest": "e743f1602b860b8ca7ad0b8e563e96f17536d1b1848edd729a5abe9ec8d053f8"
+    },
+    {
+      "repo_id": "45997449",
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/xmls.java",
+      "job_index": 15,
+      "focal_path": "WebRex/src/main/java/com/ebayopensource/webrex/util/Xmls.java",
+      "module": "WebRex",
+      "focal_sha256": "0c4c4767328cee6d2d680e805005b69992aa0805fc992c9f93e5f9e27df58c49",
+      "selection_digest": "b58b05a5d15bd11f2ac8d6bb4002b83002831bf7f32ce4fac286a69b358174fb"
+    },
+    {
+      "repo_id": "46396068",
+      "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/alertsender.java",
+      "job_index": 16,
+      "focal_path": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/AlertSender.java",
+      "module": "hbase0.98/hbase-common-0.98",
+      "focal_sha256": "f4a00ea20ecd7bbf4ae37894758988abf68f61f7f5f17c2b0fb9e467bebaf063",
+      "selection_digest": "c5216687ac7238ab53d6531971530326bceaaff216bf04f996c90ea37d9416e3"
+    },
+    {
+      "repo_id": "46396068",
+      "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/decimalstringsplit.java",
+      "job_index": 17,
+      "focal_path": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/DecimalStringSplit.java",
+      "module": "hbase0.98/hbase-common-0.98",
+      "focal_sha256": "50bcf6d250c7eb1050d93555e6334816fe3aec5a9a73432da2dc79d293ddecfe",
+      "selection_digest": "64f0603827e56ae5dc9e705a404ea4c9417018e3124234e1c6e1b48d995bbf58"
+    },
+    {
+      "repo_id": "48046454",
+      "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/resettablesingletontraverser.java",
+      "job_index": 18,
+      "focal_path": "hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/ResettableSingletonTraverser.java",
+      "module": "hazelcast-jet-core",
+      "focal_sha256": "81b122a64d696b339db603e28ec524484ab0ed9fdb17a89c7c0957145d5f1913",
+      "selection_digest": "3c2b39bdac024ffad71a16deca4118fce9586dae6846f269c2213f5a4fcf44cb"
+    },
+    {
+      "repo_id": "48046454",
+      "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/slidingwindowpolicy.java",
+      "job_index": 19,
+      "focal_path": "hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/SlidingWindowPolicy.java",
+      "module": "hazelcast-jet-core",
+      "focal_sha256": "329656168d4645b27c3aec9dfbd6a710ee3abcc8f0a61013449277a95747dc26",
+      "selection_digest": "37fcc8e0b29585c1bf532724df3979d2495568ae2ea3e2fdaaae217d15029c4c"
+    },
+    {
+      "repo_id": "558963",
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/directives.java",
+      "job_index": 20,
+      "focal_path": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Directives.java",
+      "module": "httpcache4j-api",
+      "focal_sha256": "14bc6f27fa934fbb36ec18005421ea91bafaf4d9ed3b3af8f2ee477f18312494",
+      "selection_digest": "9e6c00bfe2f684171b587b6e252ef17e87c32d00625ff83f4575dc34aeb1fdd5"
+    },
+    {
+      "repo_id": "558963",
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/headers.java",
+      "job_index": 21,
+      "focal_path": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Headers.java",
+      "module": "httpcache4j-api",
+      "focal_sha256": "48d596e1aac96cd4ecfcaa099791fb0d6f96a6e88113a17a81821f020bebaac7",
+      "selection_digest": "91450433d4ab1962251a25aa86a8c70556471868689752359977fcf86de9b7a1"
+    },
+    {
+      "repo_id": "558963",
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mimetype.java",
+      "job_index": 22,
+      "focal_path": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/MIMEType.java",
+      "module": "httpcache4j-api",
+      "focal_sha256": "7b956fa10cdae618c8e2532fafc8232c15b5d72c3b5c643a6e799ce23c452ffe",
+      "selection_digest": "24fc9942fdcb4c58f5d68082943d53a71894f45130643bd59d822902a0e826df"
+    },
+    {
+      "repo_id": "558963",
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/status.java",
+      "job_index": 23,
+      "focal_path": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Status.java",
+      "module": "httpcache4j-api",
+      "focal_sha256": "206d6e50daf1cebcade3edb8d51090417ec0fe5be3174f748f758b1e85f71c98",
+      "selection_digest": "dd72a0bf543bb98cdbbbee0a879b23372c92b86c8ab46ee4c5d26a41e259fa8f"
+    },
+    {
+      "repo_id": "60578004",
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/jobexecutionmultipleshardingcontext.java",
+      "job_index": 24,
+      "focal_path": "elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/JobExecutionMultipleShardingContext.java",
+      "module": "elastic-jobx-core",
+      "focal_sha256": "bf5d7ff2f6a907dd55c1ec4a767c4ef9d4756c2b1eba64f82a5dad99ca3e6e08",
+      "selection_digest": "40b998fa9717d3cb566ff9d85b2eef4565569c6cbf22fdae470df2341b77e37a"
+    },
+    {
+      "repo_id": "60578004",
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/config/configurationnode.java",
+      "job_index": 25,
+      "focal_path": "elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/config/ConfigurationNode.java",
+      "module": "elastic-jobx-core",
+      "focal_sha256": "e2fe0f7433304b90d35154c499e4e91308bc58d34fcf8c0ddbe19e429e96f4a8",
+      "selection_digest": "5072790a17e2330325c514e29d0c13cefa2c18cbb3d85c98271d7dc8de4323f0"
+    },
+    {
+      "repo_id": "60578004",
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/election/leaderelectionservice.java",
+      "job_index": 26,
+      "focal_path": "elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/election/LeaderElectionService.java",
+      "module": "elastic-jobx-core",
+      "focal_sha256": "069be761ff260be53e7769d7518994bc354827215e1610e5e8c9c965b672c6a6",
+      "selection_digest": "72dca2c7512e190bc406dccd874fea988fb14e0084612968f427a67a696cde06"
+    },
+    {
+      "repo_id": "60578004",
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/statistics/processcountjob.java",
+      "job_index": 27,
+      "focal_path": "elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/statistics/ProcessCountJob.java",
+      "module": "elastic-jobx-core",
+      "focal_sha256": "dc5f182f04bd6d278e4d46c990776ac8ccb5f4cec19115db54c0d4e4917386f8",
+      "selection_digest": "60e315cf6f93ffe54c2304b3da5fe870425761383ec349854273ade95b6a728a"
+    },
+    {
+      "repo_id": "6437134",
+      "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/boundingbox.java",
+      "job_index": 28,
+      "focal_path": "enav-model/src/main/java/dk/dma/enav/model/geometry/BoundingBox.java",
+      "module": "enav-model",
+      "focal_sha256": "1da5ab0755ca676cbdf9b690a1e44fefe94afaa09ae6c4230c913efea198c9fd",
+      "selection_digest": "4bb922873e122f5458c823b49a9f9ce2e8df4781b4d4712f4a51ea61539451c6"
+    },
+    {
+      "repo_id": "6437134",
+      "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/positiontime.java",
+      "job_index": 29,
+      "focal_path": "enav-model/src/main/java/dk/dma/enav/model/geometry/PositionTime.java",
+      "module": "enav-model",
+      "focal_sha256": "b95f36981baccaba849b083365381f8d49412a48cd324428d0fe5300b1dd1270",
+      "selection_digest": "e67a1e7608442ed4daa880cb51b47d091cfe3512ff4cbcaa58ff2361f51bdbf8"
+    },
+    {
+      "repo_id": "6437134",
+      "class_key": "6437134:enav-serialization/src/main/java/dk/dma/enav/serialization/simplerouteparser.java",
+      "job_index": 30,
+      "focal_path": "enav-serialization/src/main/java/dk/dma/enav/serialization/SimpleRouteParser.java",
+      "module": "enav-serialization",
+      "focal_sha256": "c71b3040cb852a0fc6f6eeda5e2e67cf76411dc674e5b8fb48143ebeccb97d27",
+      "selection_digest": "db7f6a38f6ae9539640d94e7387b2a834fd8f7fd283b536691efe77f8cea94ac"
+    },
+    {
+      "repo_id": "6437134",
+      "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/compass/compassutils.java",
+      "job_index": 31,
+      "focal_path": "enav-util/src/main/java/dk/dma/enav/util/compass/CompassUtils.java",
+      "module": "enav-util",
+      "focal_sha256": "a2c343b46fabbf805a361708fa3169a37824caa5141328d96d1442f58794fd4d",
+      "selection_digest": "eef8932f7354959783c3780768b21afa1c32546d9bab9b34f6cda5556c092feb"
+    },
+    {
+      "repo_id": "6437134",
+      "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/coordinateconverter.java",
+      "job_index": 32,
+      "focal_path": "enav-util/src/main/java/dk/dma/enav/util/CoordinateConverter.java",
+      "module": "enav-util",
+      "focal_sha256": "0c2eded0ad9a8a9ca9fa4d2c3c8ad7623aca0db0c79d42d1e28d690a0f68afaa",
+      "selection_digest": "9e11ff882c96549103a840a5cdee8d4fbbb467b5e03c6c05d0dac761e68ae20f"
+    },
+    {
+      "repo_id": "64487983",
+      "class_key": "64487983:bridge/src/main/java/com/iluwatar/bridge/app.java",
+      "job_index": 33,
+      "focal_path": "bridge/src/main/java/com/iluwatar/bridge/App.java",
+      "module": "bridge",
+      "focal_sha256": "db59a896b7bcd2f74650c566c43363af4dd33bd121c0163501426118286f7fcc",
+      "selection_digest": "1c2a38dcaab2d99b54a52c1370a22990522376a3be072ac73ed70ce0bf0ffb56"
+    },
+    {
+      "repo_id": "64487983",
+      "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/app.java",
+      "job_index": 34,
+      "focal_path": "dependency-injection/src/main/java/com/iluwatar/dependency/injection/App.java",
+      "module": "dependency-injection",
+      "focal_sha256": "71e35cb9f1f8efce1caab7f07c3e04d29af04f3034bb08a367ce2c3faeabc5c5",
+      "selection_digest": "5e29e699b97683aa0f323028babd44b4f75080e7b571e174041c93aca07c0530"
+    },
+    {
+      "repo_id": "64487983",
+      "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/guicewizard.java",
+      "job_index": 35,
+      "focal_path": "dependency-injection/src/main/java/com/iluwatar/dependency/injection/GuiceWizard.java",
+      "module": "dependency-injection",
+      "focal_sha256": "0563c3c1212c3ca7ec23af5084394f943e06daec748987ee19a8e1b2644a5ccf",
+      "selection_digest": "68c18aef2dfff9b7aeb315749a72801f4a3825dd9cb49cb49e4068e0b617b902"
+    },
+    {
+      "repo_id": "64487983",
+      "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/lotterynumbers.java",
+      "job_index": 36,
+      "focal_path": "hexagonal/src/main/java/com/iluwatar/hexagonal/domain/LotteryNumbers.java",
+      "module": "hexagonal",
+      "focal_sha256": "3a8921a0fe21569debf36a5e8758f563257cfc5176575eff44c878ac9efbcec9",
+      "selection_digest": "279173bf7758c3833874852c36d1e1e6b8714539ba039f5b7f539c642bbd283a"
+    },
+    {
+      "repo_id": "64487983",
+      "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/playerdetails.java",
+      "job_index": 37,
+      "focal_path": "hexagonal/src/main/java/com/iluwatar/hexagonal/domain/PlayerDetails.java",
+      "module": "hexagonal",
+      "focal_sha256": "be8f0c92aa39f2bd3a20062b38cf2dd10179c1bca145d17e39cf4863180c9177",
+      "selection_digest": "92ff5bc0fec67c517620610248aba3de4cbbbb802b6408a6f446c1012493892c"
+    },
+    {
+      "repo_id": "66303306",
+      "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/api/dedupeventstorechannels.java",
+      "job_index": 38,
+      "focal_path": "event/src/main/java/com/bazaarvoice/emodb/event/api/DedupEventStoreChannels.java",
+      "module": "event",
+      "focal_sha256": "693e88962934ec5d5c45ae4ac407c9519ff5a1ade0376914f551bedca75f6680",
+      "selection_digest": "e675979112b1253b5a84b47464f38fbb0f244edacae2bd8a72d651ed2cf783d0"
+    },
+    {
+      "repo_id": "66303306",
+      "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/eventstoremodule.java",
+      "job_index": 39,
+      "focal_path": "event/src/main/java/com/bazaarvoice/emodb/event/EventStoreModule.java",
+      "module": "event",
+      "focal_sha256": "ae2d805ee215a5919bb4603f03c224610485ac0d476fddbd6a73000b865693f7",
+      "selection_digest": "c6f5831efd4f084f910595ed2469069fc69774bd1fec7ba98005ffe5d512ad41"
+    },
+    {
+      "repo_id": "78444970",
+      "class_key": "78444970:examples/graph/src/main/java/graph/algorithm/mst/jarnikprim.java",
+      "job_index": 40,
+      "focal_path": "examples/graph/src/main/java/graph/algorithm/mst/JarnikPrim.java",
+      "module": "examples/graph",
+      "focal_sha256": "e67f8d57d726e15e9f2f419380e88e5eef436904d259a9535c60b78935ce8bbd",
+      "selection_digest": "a38f75c9c3b6b2e7a21a87d18993cfa0715a77a35ac6bda95ed8ef6df3ea8ecc"
+    },
+    {
+      "repo_id": "78444970",
+      "class_key": "78444970:examples/random/src/main/java/random/reservoirsamplingmultipleitems.java",
+      "job_index": 41,
+      "focal_path": "examples/random/src/main/java/random/ReservoirSamplingMultipleItems.java",
+      "module": "examples/random",
+      "focal_sha256": "829bead886f7544c3506d0bcd35f7fa5bcd5a3b3c3078ea0c277f0376db5a590",
+      "selection_digest": "f10afb93c6339d5ee0575d2bee4dccc529bd80c1566a1b568f0e2e71639a866f"
+    },
+    {
+      "repo_id": "78444970",
+      "class_key": "78444970:examples/structures/src/main/java/ds/heap/arrayheap.java",
+      "job_index": 42,
+      "focal_path": "examples/structures/src/main/java/ds/heap/ArrayHeap.java",
+      "module": "examples/structures",
+      "focal_sha256": "605a3553762a7f98a3856e0ba4423f61240c8c2b171551896699978d2db7fa43",
+      "selection_digest": "3a478ca50104d5cda625fadd55b3a7a93bfcef0a814778b5eea9dac5ccc6f9b1"
+    },
+    {
+      "repo_id": "78444970",
+      "class_key": "78444970:examples/structures/src/main/java/ds/stack/arraystack.java",
+      "job_index": 43,
+      "focal_path": "examples/structures/src/main/java/ds/stack/ArrayStack.java",
+      "module": "examples/structures",
+      "focal_sha256": "012dad2e6b6bd9bc6a750f5a482c3381483d3b463690e5d97147c8d85da9b9e7",
+      "selection_digest": "b196969b8b2d12d29c07f004d47cefd194bfa62d96599e56cca670b4dbf98653"
+    },
+    {
+      "repo_id": "9619226",
+      "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/simpledbexceptiontranslator.java",
+      "job_index": 44,
+      "focal_path": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/SimpleDbExceptionTranslator.java",
+      "module": "spring-data-simpledb-impl",
+      "focal_sha256": "7e5ed0ef8d6e646a84e18a93607da8956803f9d89b6618be304e86669eadbd93",
+      "selection_digest": "5c1ebf2fa5b495832d92e037ec88a753e5aaf331455d4c5ccaf444eb492d6c5d"
+    },
+    {
+      "repo_id": "9619226",
+      "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/alphanumstringcomparator.java",
+      "job_index": 45,
+      "focal_path": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/AlphanumStringComparator.java",
+      "module": "spring-data-simpledb-impl",
+      "focal_sha256": "7f9885e251aa36f1dfd9a0241d308374d10439fc7ffc8f1871903bb0a41a433f",
+      "selection_digest": "6ebf89cc41a1759f30d48a04ddfb96d40d29657b3038f4952cbde5bf92fee438"
+    },
+    {
+      "repo_id": "97822421",
+      "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/nodoubleclassdefined.java",
+      "job_index": 46,
+      "focal_path": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/NoDoubleClassDefined.java",
+      "module": "infrastructure",
+      "focal_sha256": "9d78f78fc2aea3f7427c4e02bdd1639eea5427f0b56c29f5ba74ff10171757de",
+      "selection_digest": "5fc944c719dba9ec63161cea3dccb4a800d6ba1f90ca85ca723d80bcf198322e"
+    },
+    {
+      "repo_id": "97822421",
+      "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/doublename.java",
+      "job_index": 47,
+      "focal_path": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/DoubleName.java",
+      "module": "infrastructure",
+      "focal_sha256": "dd00cf71de4038e46ffede1d1166ea83cb4f5c5252c7136c1c43f24f4bb1f32b",
+      "selection_digest": "bcc9437171b0ff6abd3fb2c2fd717e0f567b0cdf22d3f77e8f08e2d9132c08c9"
+    },
+    {
+      "repo_id": "98410891",
+      "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+      "job_index": 48,
+      "focal_path": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/PropertiesConfiguration.java",
+      "module": "applications/demo",
+      "focal_sha256": "a7dba826a3c2eabf19964b27e62ab6f839f05437cc15bb5543f639ee0eeca7aa",
+      "selection_digest": "af5ee8144ee8f3fd2881296a8398b229c09eed4265e45498cff1314e22020850"
+    },
+    {
+      "repo_id": "98410891",
+      "class_key": "98410891:core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/numberinterval.java",
+      "job_index": 49,
+      "focal_path": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/NumberInterval.java",
+      "module": "core-interface",
+      "focal_sha256": "0ec047ce6e07f7d76d9fff56f4d831b205852db86f30096d039c07df14185976",
+      "selection_digest": "ef92da74546eb143410534759d1e8716714333ed622ec150fa640f56b6f977d4"
+    }
+  ],
+  "selected": [
+    {
+      "repo_id": "3713233",
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/util/primitivetypeutil.java",
+      "job_index": 7,
+      "focal_path": "core/src/main/java/org/junithelper/core/util/PrimitiveTypeUtil.java",
+      "module": "core",
+      "focal_sha256": "dfa1d65c5d50021cbdd13b136aa83412c601b619feabfaa0fc405d500608a034",
+      "selection_digest": "055b332b8780be5fced4b3f7e697cf2e17b7ef4057149a4a2359dcc2c1786177"
+    },
+    {
+      "repo_id": "3847504",
+      "class_key": "3847504:modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/urlimpl.java",
+      "job_index": 9,
+      "focal_path": "modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/UrlImpl.java",
+      "module": "modules/weblounge-common",
+      "focal_sha256": "9797102f34ce87c3df86241e8246ec7ee6b785983ab627cd3e7284807adc1aa5",
+      "selection_digest": "b4d72d7f5e64db158c6d3a26a81414ee368d3f05c0c87b2d051dd16dbad4b15a"
+    },
+    {
+      "repo_id": "41547678",
+      "class_key": "41547678:turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/qualifiedname.java",
+      "job_index": 10,
+      "focal_path": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/QualifiedName.java",
+      "module": "turin-compiler",
+      "focal_sha256": "df0e46a247d77d73581c2c94a926e2fdc8048f4f25577e184727f9cc3012e5ea",
+      "selection_digest": "fd4e4f38a5dfa31ebee8380b6a9005521ecfc950a15fbd998289f3e26d9d3c32"
+    },
+    {
+      "repo_id": "45997449",
+      "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/resource/resourceurn.java",
+      "job_index": 12,
+      "focal_path": "WebRex/src/main/java/com/ebayopensource/webrex/resource/ResourceUrn.java",
+      "module": "WebRex",
+      "focal_sha256": "361bd4b4e54c57212ca83a3ac4217260c532c916aba3a6641513ede1f7030219",
+      "selection_digest": "8a46fef7cfd54cff52483cc9e26e7dda18fb31881d0e72a60e9cbd509bd1761e"
+    },
+    {
+      "repo_id": "46396068",
+      "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/decimalstringsplit.java",
+      "job_index": 17,
+      "focal_path": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/DecimalStringSplit.java",
+      "module": "hbase0.98/hbase-common-0.98",
+      "focal_sha256": "50bcf6d250c7eb1050d93555e6334816fe3aec5a9a73432da2dc79d293ddecfe",
+      "selection_digest": "64f0603827e56ae5dc9e705a404ea4c9417018e3124234e1c6e1b48d995bbf58"
+    },
+    {
+      "repo_id": "48046454",
+      "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/slidingwindowpolicy.java",
+      "job_index": 19,
+      "focal_path": "hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/SlidingWindowPolicy.java",
+      "module": "hazelcast-jet-core",
+      "focal_sha256": "329656168d4645b27c3aec9dfbd6a710ee3abcc8f0a61013449277a95747dc26",
+      "selection_digest": "37fcc8e0b29585c1bf532724df3979d2495568ae2ea3e2fdaaae217d15029c4c"
+    },
+    {
+      "repo_id": "558963",
+      "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mimetype.java",
+      "job_index": 22,
+      "focal_path": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/MIMEType.java",
+      "module": "httpcache4j-api",
+      "focal_sha256": "7b956fa10cdae618c8e2532fafc8232c15b5d72c3b5c643a6e799ce23c452ffe",
+      "selection_digest": "24fc9942fdcb4c58f5d68082943d53a71894f45130643bd59d822902a0e826df"
+    },
+    {
+      "repo_id": "60578004",
+      "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/jobexecutionmultipleshardingcontext.java",
+      "job_index": 24,
+      "focal_path": "elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/JobExecutionMultipleShardingContext.java",
+      "module": "elastic-jobx-core",
+      "focal_sha256": "bf5d7ff2f6a907dd55c1ec4a767c4ef9d4756c2b1eba64f82a5dad99ca3e6e08",
+      "selection_digest": "40b998fa9717d3cb566ff9d85b2eef4565569c6cbf22fdae470df2341b77e37a"
+    },
+    {
+      "repo_id": "6437134",
+      "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/boundingbox.java",
+      "job_index": 28,
+      "focal_path": "enav-model/src/main/java/dk/dma/enav/model/geometry/BoundingBox.java",
+      "module": "enav-model",
+      "focal_sha256": "1da5ab0755ca676cbdf9b690a1e44fefe94afaa09ae6c4230c913efea198c9fd",
+      "selection_digest": "4bb922873e122f5458c823b49a9f9ce2e8df4781b4d4712f4a51ea61539451c6"
+    },
+    {
+      "repo_id": "64487983",
+      "class_key": "64487983:bridge/src/main/java/com/iluwatar/bridge/app.java",
+      "job_index": 33,
+      "focal_path": "bridge/src/main/java/com/iluwatar/bridge/App.java",
+      "module": "bridge",
+      "focal_sha256": "db59a896b7bcd2f74650c566c43363af4dd33bd121c0163501426118286f7fcc",
+      "selection_digest": "1c2a38dcaab2d99b54a52c1370a22990522376a3be072ac73ed70ce0bf0ffb56"
+    },
+    {
+      "repo_id": "66303306",
+      "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/eventstoremodule.java",
+      "job_index": 39,
+      "focal_path": "event/src/main/java/com/bazaarvoice/emodb/event/EventStoreModule.java",
+      "module": "event",
+      "focal_sha256": "ae2d805ee215a5919bb4603f03c224610485ac0d476fddbd6a73000b865693f7",
+      "selection_digest": "c6f5831efd4f084f910595ed2469069fc69774bd1fec7ba98005ffe5d512ad41"
+    },
+    {
+      "repo_id": "78444970",
+      "class_key": "78444970:examples/structures/src/main/java/ds/heap/arrayheap.java",
+      "job_index": 42,
+      "focal_path": "examples/structures/src/main/java/ds/heap/ArrayHeap.java",
+      "module": "examples/structures",
+      "focal_sha256": "605a3553762a7f98a3856e0ba4423f61240c8c2b171551896699978d2db7fa43",
+      "selection_digest": "3a478ca50104d5cda625fadd55b3a7a93bfcef0a814778b5eea9dac5ccc6f9b1"
+    },
+    {
+      "repo_id": "9619226",
+      "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/simpledbexceptiontranslator.java",
+      "job_index": 44,
+      "focal_path": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/SimpleDbExceptionTranslator.java",
+      "module": "spring-data-simpledb-impl",
+      "focal_sha256": "7e5ed0ef8d6e646a84e18a93607da8956803f9d89b6618be304e86669eadbd93",
+      "selection_digest": "5c1ebf2fa5b495832d92e037ec88a753e5aaf331455d4c5ccaf444eb492d6c5d"
+    },
+    {
+      "repo_id": "97822421",
+      "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/nodoubleclassdefined.java",
+      "job_index": 46,
+      "focal_path": "infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/NoDoubleClassDefined.java",
+      "module": "infrastructure",
+      "focal_sha256": "9d78f78fc2aea3f7427c4e02bdd1639eea5427f0b56c29f5ba74ff10171757de",
+      "selection_digest": "5fc944c719dba9ec63161cea3dccb4a800d6ba1f90ca85ca723d80bcf198322e"
+    },
+    {
+      "repo_id": "98410891",
+      "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+      "job_index": 48,
+      "focal_path": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/PropertiesConfiguration.java",
+      "module": "applications/demo",
+      "focal_sha256": "a7dba826a3c2eabf19964b27e62ab6f839f05437cc15bb5543f639ee0eeca7aa",
+      "selection_digest": "af5ee8144ee8f3fd2881296a8398b229c09eed4265e45498cff1314e22020850"
+    }
+  ]
+}

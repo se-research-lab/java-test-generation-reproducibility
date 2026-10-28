@@ -1,0 +1,145 @@
+[
+  {
+    "index": 74,
+    "started_utc": "2026-10-26T03:53:57.469152+00:00",
+    "result_sha256": "60f2fb89a1b0676dac0655c2fe02db11bb3d3ac65b94b763ae8267aa2f27faa7",
+    "legacy_process_build": 1,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": false,
+    "strict_measurement_evidence": false,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 76,
+    "started_utc": "2026-10-26T03:56:35.312973+00:00",
+    "result_sha256": "89a079ae66db03f92a0b256c102311129152755b32a9de84722923dacf619dfb",
+    "legacy_process_build": 0,
+    "generation_success": false,
+    "measurement_attempted": false,
+    "strict_suite_evidence": false,
+    "strict_measurement_evidence": false,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 77,
+    "started_utc": "2026-10-26T04:00:56.126699+00:00",
+    "result_sha256": "a4b2891a594563ae9b4191f8b75642cfe8b0eee4edd438c4e31f5e5df5ec2d81",
+    "legacy_process_build": 1,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 78,
+    "started_utc": "2026-10-26T04:05:51.025711+00:00",
+    "result_sha256": "3fa3ae15f88fdc7652978bdeb7372db059082454d47185cda26385acc097ca7a",
+    "legacy_process_build": 1,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 79,
+    "started_utc": "2026-10-26T04:08:02.246359+00:00",
+    "result_sha256": "2af8c7ddaca07cb9fb64ea53abed90c92faaedac30e66349fbe6323b1f8b5527",
+    "legacy_process_build": 0,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": false,
+    "strict_measurement_evidence": false,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 82,
+    "started_utc": "2026-10-26T04:10:07.745515+00:00",
+    "result_sha256": "c3c3ed46811cf0f6c11a0df5866d3ad1a78de537766108bbfa7c834810cdbf5c",
+    "legacy_process_build": 0,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": false,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 83,
+    "started_utc": "2026-10-26T04:12:34.783973+00:00",
+    "result_sha256": "670b72c4aff3387a4eb75158e627207b7ad6b762f28e14aabb6d24e44e636fa7",
+    "legacy_process_build": 1,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 85,
+    "started_utc": "2026-10-26T04:13:52.860024+00:00",
+    "result_sha256": "c0470bab8bbdfdc625843736c0b2548cfc043bfcd5a0f7dabdf163713c9fff62",
+    "legacy_process_build": 0,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": false,
+    "strict_measurement_evidence": false,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 86,
+    "started_utc": "2026-10-26T04:15:47.602148+00:00",
+    "result_sha256": "647c9038704a8d470e1509cb9859662e76534583a51ab39139b13a3209b9a174",
+    "legacy_process_build": 1,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 87,
+    "started_utc": "2026-10-26T04:17:14.070737+00:00",
+    "result_sha256": "f73843b0274c24d6e152376c5d4f18132e3731e24f8c98960ddaeaa43582c200",
+    "legacy_process_build": 1,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 89,
+    "started_utc": "2026-10-26T04:18:37.460414+00:00",
+    "result_sha256": "5cafa8916c0e4bb44b86747f87cbc451f6278713bd47aeaabb6b8503a0c108c6",
+    "legacy_process_build": 1,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 90,
+    "started_utc": "2026-10-26T04:22:40.521405+00:00",
+    "result_sha256": "7395396e4d6a152fbe1930d674f6ef6e21eb60728fd151d2d1ca651d9c159765",
+    "legacy_process_build": 0,
+    "generation_success": false,
+    "measurement_attempted": false,
+    "strict_suite_evidence": false,
+    "strict_measurement_evidence": false,
+    "GPT_API_calls": 0
+  },
+  {
+    "index": 91,
+    "started_utc": "2026-10-26T04:24:08.919205+00:00",
+    "result_sha256": "df0e4b10f538e711ac905c3e5bb3f763c243cda429f6f0090db0cd4e0e9f6502",
+    "legacy_process_build": 0,
+    "generation_success": true,
+    "measurement_attempted": true,
+    "strict_suite_evidence": false,
+    "strict_measurement_evidence": false,
+    "GPT_API_calls": 0
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "job_index": 37,
+  "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/playerdetails.java",
+  "repo_id": "64487983",
+  "G0_archived_mutation_percent": "52.94",
+  "E0_archived_mutation_percent": "26.47",
+  "E1_archived_mutation_percent": "79.41",
+  "seed": 20261302,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.iluwatar.hexagonal.domain.PlayerDetails_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.iluwatar.hexagonal.domain.PlayerDetails_ESTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 148,
+  "focal_mutants": 34,
+  "killed_mutants": 27,
+  "focal_mutant_qualified_classes": [
+    "com.iluwatar.hexagonal.domain.PlayerDetails"
+  ],
+  "mutation_score_percent": 79.41,
+  "legacy_strict_mutation_percent": 79.41,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "hexagonal",
+      "PACKAGE": "com.iluwatar.hexagonal.domain",
+      "CLASS": "PlayerDetails",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "142",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "30",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "38",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "22",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "7"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

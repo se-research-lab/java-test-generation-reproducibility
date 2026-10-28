@@ -1,0 +1,604 @@
+{
+  "files": [
+    {
+      "path": "admission_maven_v4.json",
+      "bytes": 31194,
+      "sha256": "a97211b3b3f2a3e98177c5018514a9cf218b650920ae4f17e196fca032a235bb"
+    },
+    {
+      "path": "audit/gradle_g0_zero_provenance_v3/REPORT.md",
+      "bytes": 1346,
+      "sha256": "71f4fd56d225d7fd92b6ae4d4f2542dc49cda1fb1cb9cdfd532597410e64926d"
+    },
+    {
+      "path": "audit/gradle_g0_zero_provenance_v3/result.json",
+      "bytes": 14980,
+      "sha256": "fcaa353a2083eb8851d7d5bb3800d5bb74dfe0113652f2a24b2a5358e770c022"
+    },
+    {
+      "path": "audit/progress_v8.json",
+      "bytes": 4691,
+      "sha256": "462232cd16d1e04034e42daf3d8eab49ef1c996a6b6d6ee2b677c85adba44c5b"
+    },
+    {
+      "path": "launch_remaining_maven183_v4.json",
+      "bytes": 2447,
+      "sha256": "8583f15fdce12ffe06e93f30f91b8005c7d6a7f9bfdd68e1890d867b9f48392a"
+    },
+    {
+      "path": "NON_JUNIT4_DEFERRAL_V1.md",
+      "bytes": 3081,
+      "sha256": "8ef4969ae0fe2b3d76b3701017c61afbaa90117dc0d5180092a7d4a33477c56a"
+    },
+    {
+      "path": "PROGRESS_B1_V8.md",
+      "bytes": 5106,
+      "sha256": "c33f10345ceb70f32c04b393f47d48060503524b8eb7361c8cd8c7b22ad7180b"
+    },
+    {
+      "path": "README_CONTINUE_V8.md",
+      "bytes": 537,
+      "sha256": "72c1d1fc76894c44cd8d67580b438d65ba7490ba1e299ed05cefdb617397b626"
+    },
+    {
+      "path": "runtime/gradle_native_after_maven_v1/state.json",
+      "bytes": 213,
+      "sha256": "72b98cd7f73d0fc4a431c9b596b1f401f167e1014b420f3031a1697d180ac6b7"
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/048.json",
+      "bytes": 1725,
+      "sha256": "e40ec08a0ecfa86f8aa7b91ccea8930935d86bfe6a5811a5060cfd5cd0feda29"
+    },
+    {
+      "path": "src/admit_maven_b1_v1.py",
+      "bytes": 3670,
+      "sha256": "1af5d8e420fb226cfb1770c2c14dc45434ae3d7d958f2ef2d7308bcfdfc22d56"
+    },
+    {
+      "path": "src/admit_maven_b1_v2.py",
+      "bytes": 4435,
+      "sha256": "99229e7776d62fdce1a526f8548f3410e566252c48a49a143d4855f21b903ff1"
+    },
+    {
+      "path": "src/admit_maven_b1_v3.py",
+      "bytes": 6600,
+      "sha256": "2c8e99ea7a05ea0dd04c12ec7842ac844972a4485b0701825c223091f3ff82b8"
+    },
+    {
+      "path": "src/admit_maven_continuation_v4.py",
+      "bytes": 8120,
+      "sha256": "e12e8a3089bc3521b584994024584e4770d01f55cd1e3568fc68a8b62fec990f"
+    },
+    {
+      "path": "src/audit_gradle_g0_measurement_v1.py",
+      "bytes": 6474,
+      "sha256": "b4b51633e2bf44e7d8c80b06b940f870f0d8490ac8689865d0f0331541be2cd3"
+    },
+    {
+      "path": "src/audit_gradle_g0_zero_provenance_v2.py",
+      "bytes": 6809,
+      "sha256": "3f02ce799fb0b39166d1efda0f35c3a164ab3ea81c476d9afd52f54b104c2811"
+    },
+    {
+      "path": "src/audit_gradle_g0_zero_provenance_v3.py",
+      "bytes": 7207,
+      "sha256": "ad9f08a1ab24648854050f7b311b8d9ffa23d21c4524ae87adf6b11c4372f808"
+    },
+    {
+      "path": "src/audit_native_junit_scope_v1.py",
+      "bytes": 3142,
+      "sha256": "be895c494afd6ceb2c809068c251717a42495a989af12e16afa477b746e7fde8"
+    },
+    {
+      "path": "src/b1_maven_commands_v1.py",
+      "bytes": 8855,
+      "sha256": "a75d340c83634d0ce173c6f5882bb657135e385aec0ba825db052c75b9f54884"
+    },
+    {
+      "path": "src/b1_maven_commands_v2.py",
+      "bytes": 9667,
+      "sha256": "a163aaf8c4230848a3f45c7d617dd0b5469174eabb05d85efeb96af994222f45"
+    },
+    {
+      "path": "src/b1_maven_commands_v3.py",
+      "bytes": 11206,
+      "sha256": "b16fefd57f7727f3ce69dadd6db3cb3dcf06c61073285ccd793f9d7dc6a4a69d"
+    },
+    {
+      "path": "src/checkpoint_archive_guard_v1.py",
+      "bytes": 1604,
+      "sha256": "d916c90a645e88a78d5311e4e7eea809f6320b1311616430b6078f3ea5e2152d"
+    },
+    {
+      "path": "src/checkpoint_archive_guard_v2.py",
+      "bytes": 680,
+      "sha256": "977e0a6613c19c7d22828f7a4d37a5365b9486fb6870013b9226fe7986239b80"
+    },
+    {
+      "path": "src/classpath_transport_v1.py",
+      "bytes": 6505,
+      "sha256": "e60275e3952cb53ca27f0fc8174c1ff01728ef166a0858d360b3dc60b5459882"
+    },
+    {
+      "path": "src/diagnose_native_junit_003_v1.py",
+      "bytes": 5606,
+      "sha256": "d51a9769b4c29242822f28c68cf563ad7707b9da1701838f3f2bc589be22b1bd"
+    },
+    {
+      "path": "src/diagnose_native_junit_003_v2.py",
+      "bytes": 5745,
+      "sha256": "58cfbead91a6a6fc44aad9bfdabb69d78f8be2ed74b77c9ab69e0e51e5dff667"
+    },
+    {
+      "path": "src/diagnose_native_junit_003_v3.py",
+      "bytes": 5871,
+      "sha256": "cbc5c6028a4d7eacfefff1ba364c362866cf028e01a59be7acf08a3e046efb40"
+    },
+    {
+      "path": "src/extract_e49_adapter_v1.py",
+      "bytes": 2463,
+      "sha256": "d752d07587da9c77afc0558d5cb8b97ccb174ee98c9558f4cb7bfdf7a8589813"
+    },
+    {
+      "path": "src/finalize_gradle_version_qualifier_sources_v1.py",
+      "bytes": 3692,
+      "sha256": "3d44a25ff6a4d3536210c16a71ba6530656bfae83e3d2d650f730896348ad42d"
+    },
+    {
+      "path": "src/finalize_preparation_v2.py",
+      "bytes": 6310,
+      "sha256": "3735af9af5d387f26c8f97304c13543846d3b946f9fe95f5058564b8ef69e6ac"
+    },
+    {
+      "path": "src/finish_b1_preparation_v3.py",
+      "bytes": 6015,
+      "sha256": "09a095f990771c77b5bd0977dbb3f2baa0e30be7804719ab2bfd5dc12e571f15"
+    },
+    {
+      "path": "src/freeze_sources_v1.py",
+      "bytes": 6861,
+      "sha256": "8532c609f21118d6cc272f51e74ac26afbd486981e42c8b9f3abda11a36e4a21"
+    },
+    {
+      "path": "src/freeze_sources_v2.py",
+      "bytes": 8026,
+      "sha256": "487093910181c30499a6deb5b6517b10e8751085b8fe733616e79c5ce2cd9a12"
+    },
+    {
+      "path": "src/freeze_sources_v3.py",
+      "bytes": 7928,
+      "sha256": "2cca39f8abcfe633a2f9705be69243c66cd8f243a6ac6339309eaf11ecc570a1"
+    },
+    {
+      "path": "src/gradle_cache_census_v1.py",
+      "bytes": 8205,
+      "sha256": "47834818cf64f4fc915939c32f11b18d09fa05a56ce1670ffaaae52a26083b93"
+    },
+    {
+      "path": "src/gradle_command_policy_v1.py",
+      "bytes": 7473,
+      "sha256": "1bd1b1849c4ea887bae3e2c5c29bce7fc199746dcd32f52ff6886cd0d0d4ed51"
+    },
+    {
+      "path": "src/gradle_command_policy_v2.py",
+      "bytes": 7719,
+      "sha256": "1d1fd240b4beaa16ff24888bdb4e2f80be18d3da89b70c8a06c28b4a7ef0f375"
+    },
+    {
+      "path": "src/gradle_native_recipe_v1.py",
+      "bytes": 23229,
+      "sha256": "b51d192589765d5f1d4ae6ec584c58e7d981cee2807fa62c67bce2ec3d2923a8"
+    },
+    {
+      "path": "src/gradle_native_recipe_v2.py",
+      "bytes": 25492,
+      "sha256": "47e11884c39eb08ccd5e863f55aa2d42c104b97642dd912e05833b5c6a6b32ad"
+    },
+    {
+      "path": "src/gradle_native_recipe_v3.py",
+      "bytes": 26857,
+      "sha256": "c588c406824128accf2832a2ea8fa8fb460f79672b8c5165c922652dff576301"
+    },
+    {
+      "path": "src/gradle_native_recipe_v4.py",
+      "bytes": 28466,
+      "sha256": "edf979fa664fee6e7a7669f92342f5c294079e547f954efa0ed7437cbf87500b"
+    },
+    {
+      "path": "src/gradle_process_supervisor_v1.py",
+      "bytes": 3863,
+      "sha256": "83a95f234d25fcbe5fd71b612c267547dd5207baa600f2e54993d508f367ec4c"
+    },
+    {
+      "path": "src/gradle_process_supervisor_v2.py",
+      "bytes": 3911,
+      "sha256": "de2b5d8b94d21224793beaab1b396014a3895511f6d9f5d4598370c52ce1808a"
+    },
+    {
+      "path": "src/gradle_scope_review_v1.py",
+      "bytes": 5492,
+      "sha256": "d1b08cd6031f22b17c88d54dee9740a98b381021a7fdc1e2cc955c54240cf4b8"
+    },
+    {
+      "path": "src/maven_adapter_v1.py",
+      "bytes": 6885,
+      "sha256": "5fa300f08dded3777962e1de28617ec7d3fd247a2975d5df46c9af57c924a80c"
+    },
+    {
+      "path": "src/maven_controller_v1.py",
+      "bytes": 8670,
+      "sha256": "64deabfd9faa58b6d626059722c059da18fe23cb6b750c265dcb41e00aff2149"
+    },
+    {
+      "path": "src/maven_controller_v2.py",
+      "bytes": 9034,
+      "sha256": "4624ac3be9f2bb8c2d0ec9b2bed4bcbe22d180cc3bd566cffc051524bf0e5c6b"
+    },
+    {
+      "path": "src/maven_fixture_commands_v1.py",
+      "bytes": 4580,
+      "sha256": "b28e365edf12a744c29fd236dda50b55863c3667a2f58e3cd917ffa76c678ba6"
+    },
+    {
+      "path": "src/maven_runtime_fixture_v1.py",
+      "bytes": 5754,
+      "sha256": "a550fb470838a7fb646c1e063e50e5d2bde6bf0e5f9a5da76112047bca0457af"
+    },
+    {
+      "path": "src/measurement_parser_v1.py",
+      "bytes": 3447,
+      "sha256": "efcc938a2f28948c6124560bf1ee91340d5b9bfb2cb3963cca2788a1f643d24a"
+    },
+    {
+      "path": "src/native_junit_policy_candidate_v1.py",
+      "bytes": 2952,
+      "sha256": "6e92879282f5a7b3ebb86e11c57a3e4ba738302224474b6a0cea14b20ad8227a"
+    },
+    {
+      "path": "src/non_junit4_deferral_v1.py",
+      "bytes": 5082,
+      "sha256": "4b0882e297bd7958f103f0da3f62bf4f7fa1bc22e3083df72cfe67f6210f16fa"
+    },
+    {
+      "path": "src/pom_integration_guard_v1.py",
+      "bytes": 2874,
+      "sha256": "5a54d9985053d2fec8aaa7c5aa7a9ffb1b5818cabad13a5d4f27bc3cdd331d19"
+    },
+    {
+      "path": "src/prepare_context251_v1.py",
+      "bytes": 3198,
+      "sha256": "44a372b2556b68003e5de5f88b015a7436cb259834998ee6034207426d45052e"
+    },
+    {
+      "path": "src/prepare_gradle_g0_provenance_v3.py",
+      "bytes": 2224,
+      "sha256": "5a71a387f172d752f24c74e3026280bf20318b81da3a7ed65990196f0b40ec54"
+    },
+    {
+      "path": "src/prepare_gradle_metadata_v2.py",
+      "bytes": 11839,
+      "sha256": "4f410c5ce3265ffbc76548b795c113a55285d0c6072d38cbaead2f22d40b6d5e"
+    },
+    {
+      "path": "src/prepare_gradle_native_recipe_v2.py",
+      "bytes": 4105,
+      "sha256": "089e4b22c150815d920e0f789e53c2e126cb4b26c87d92d962a9c35761da921f"
+    },
+    {
+      "path": "src/prepare_gradle_native_recipe_v3.py",
+      "bytes": 3852,
+      "sha256": "2d18524cf7e537c7fd3de9c70f86dbd9d48649ba5e9f3c47148d9b3783161b64"
+    },
+    {
+      "path": "src/prepare_gradle_native_recipe_v4.py",
+      "bytes": 2931,
+      "sha256": "3e9efea15b740e0f697cb6033f47fcdcabff543e18bedd8d1b58b01c31125f25"
+    },
+    {
+      "path": "src/prepare_gradle_qualification_sources_v1.py",
+      "bytes": 2778,
+      "sha256": "81244d556267b76298f8b2edbf9246c7002c0d5a6193dd9db366295ef1ec2d38"
+    },
+    {
+      "path": "src/prepare_maven_amendment_v2.py",
+      "bytes": 3173,
+      "sha256": "f62ea6dd3c4f25660af06b2913d53d08c7b0919c46994bbb2ffafd5f5bdab459"
+    },
+    {
+      "path": "src/prepare_monitor_v2.py",
+      "bytes": 2995,
+      "sha256": "d9b0a2b89e6bb83f3d9366f868c292ff0298aee147dab6a8096316b13c9851ce"
+    },
+    {
+      "path": "src/prepare_native_junit_diagnostic_v2.py",
+      "bytes": 2263,
+      "sha256": "71a9f00375ad28a03f839c1a1d69770ebc46958101c2f2016c6bec53ba256cc9"
+    },
+    {
+      "path": "src/prepare_native_junit_diagnostic_v3.py",
+      "bytes": 1476,
+      "sha256": "2bad4ffe381722595610fc37994faf445752d638e46c16790db2528738301c19"
+    },
+    {
+      "path": "src/prepare_private_gradle_cache_recovery_v2.py",
+      "bytes": 12718,
+      "sha256": "1a600dbff2af7b177f4decf143ad888bf6f00fb8951820a95791519ceaa389ba"
+    },
+    {
+      "path": "src/prepare_private_gradle_cache_v1.py",
+      "bytes": 10454,
+      "sha256": "1d75350e8811ce9fdaf314dc2b85ced7c7139d0d7b4f5a31c13d3ba3008ffb98"
+    },
+    {
+      "path": "src/prepare_private_maven_cache_v1.py",
+      "bytes": 3493,
+      "sha256": "6977d9566d9716b1d04d96453fe766ff42919dc96a8025be25f1fda63dc25b11"
+    },
+    {
+      "path": "src/prepare_progress_v7.py",
+      "bytes": 6484,
+      "sha256": "81d7eef9cbb22f3d4bee6b0b9d352d8716aa6bc0f42383930b4f8b838d383e99"
+    },
+    {
+      "path": "src/prepare_projection_reconciliation_v2.py",
+      "bytes": 1335,
+      "sha256": "5056021382d564391cc2f9c8d0ded22e2a926b6c8fcfb00ab2cd74b793c09650"
+    },
+    {
+      "path": "src/prepare_sandbox_v1.py",
+      "bytes": 4324,
+      "sha256": "e1024bf5ad7b0932fcd5397467e5c028a24190bfcaff30eacc40ebfd8b0e5cd4"
+    },
+    {
+      "path": "src/prepare_snapshot_continuation_v2.py",
+      "bytes": 4525,
+      "sha256": "cd7f86fd13c3e075efb00d06422f7f38a9679f4bab9ddba68e07899fb6e1fd95"
+    },
+    {
+      "path": "src/prepare_snapshot_continuation_v3.py",
+      "bytes": 3109,
+      "sha256": "dcdcbc6be5ece16bacf33c41e517e31d1d8aa3f156acff7683386fa30cfc52d6"
+    },
+    {
+      "path": "src/process_supervisor_v1.py",
+      "bytes": 7427,
+      "sha256": "d14e614459e327b823c0c2e26306e046d22710e507e84a6b3ffb3c3b7f8b80f7"
+    },
+    {
+      "path": "src/projection_io_v1.py",
+      "bytes": 6404,
+      "sha256": "a45d4bb1a4c2ed04259fd083aa40c67279e991391d071e096985852430035d5d"
+    },
+    {
+      "path": "src/queue_gradle_native_after_maven_v1.py",
+      "bytes": 7251,
+      "sha256": "d648fba989cd52acc16c3c040ea2af12b994ce3d1015dda252f8433328fe9af5"
+    },
+    {
+      "path": "src/reconcile_projection_failure_v1.py",
+      "bytes": 7629,
+      "sha256": "3b60840d2c08cad47631c52b71121f5ac79a5cba098ef143d9e421e5993510e3"
+    },
+    {
+      "path": "src/reconcile_projection_failure_v2.py",
+      "bytes": 7709,
+      "sha256": "9d9d946e2efaabc24a3deecd2b35199319baa26aafca265da89121921d1686fb"
+    },
+    {
+      "path": "src/record_handoff_v1.py",
+      "bytes": 1209,
+      "sha256": "978ceafa0c3a82ec50979f54081cc5ce07fe624efb59157580282768116cdac3"
+    },
+    {
+      "path": "src/record_progress_v4.py",
+      "bytes": 3093,
+      "sha256": "fcd39c70e25e539609d12c99e0020e5beec6fdf8d1ef58d606ff89d495fb025a"
+    },
+    {
+      "path": "src/record_progress_v5.py",
+      "bytes": 8374,
+      "sha256": "b56d3d61a67da4cf9a3ff510484aa040d6a9a5d7d599fd9dec208693675f9a03"
+    },
+    {
+      "path": "src/record_progress_v6.py",
+      "bytes": 11182,
+      "sha256": "96247c50d62e5a8faababae8f3945575315d0165a599cd044e7674aab9ec4206"
+    },
+    {
+      "path": "src/record_progress_v7.py",
+      "bytes": 12134,
+      "sha256": "a83275d67a1d9053247d2496529b51e0175d2bf59662a27f21ddc459c958ecff"
+    },
+    {
+      "path": "src/record_progress_v8_active.py",
+      "bytes": 9985,
+      "sha256": "4ace54825a7c3251e5c061373d5bc55271bbe60cb490277616e86b86409f2f95"
+    },
+    {
+      "path": "src/review_frozen_inputs251_v1.py",
+      "bytes": 3394,
+      "sha256": "8970cd451b7737331891c0c884e6f93871555bd771d488d87346a1d847388e8c"
+    },
+    {
+      "path": "src/review_maven_runtime_configs_v1.py",
+      "bytes": 2708,
+      "sha256": "7f08639923d64abca634c42f40c970dc8b225acd4e0b593af564a7bc60b8359e"
+    },
+    {
+      "path": "src/run_controller_fixture_v1.py",
+      "bytes": 4333,
+      "sha256": "4e3ff1e3500bfc052b5709170bbd474ceea6c5ddae5c08b42310a44ae6598392"
+    },
+    {
+      "path": "src/run_gradle_native_fixture_v1.py",
+      "bytes": 16331,
+      "sha256": "35ca0537fcd19e24abd2afd7298038787f18881c6540bf099806617eb7faa431"
+    },
+    {
+      "path": "src/run_gradle_versions_qualification_v1.py",
+      "bytes": 11551,
+      "sha256": "d402ceebc27822f5695be4eb11b3617cfe861e7733b51459aa7612c0d697a82c"
+    },
+    {
+      "path": "src/run_long_classpath_fixture_v1.py",
+      "bytes": 10382,
+      "sha256": "5a81a8c2d71f1f650ef1e782a0be425f49d3bb9568cde6978bea4b54ad6a05b2"
+    },
+    {
+      "path": "src/run_maven_b1_v1.py",
+      "bytes": 6498,
+      "sha256": "c2691c7acef11d6450d5964bf8fb68339c51cb9b31d71a48170e7657115a9203"
+    },
+    {
+      "path": "src/run_maven_b1_v2.py",
+      "bytes": 6749,
+      "sha256": "37cb1e7c1c3c686e49bb693d7a63abcf314a9d821b561185fe58046dc8bc597e"
+    },
+    {
+      "path": "src/run_maven_b1_v3.py",
+      "bytes": 9578,
+      "sha256": "b54e42c3febd781d0263d1a494cc4fb92a7645885c264af12aa784c01f112ffb"
+    },
+    {
+      "path": "src/run_remaining_maven183_v4.py",
+      "bytes": 10885,
+      "sha256": "4cc2ff181c4391cc9da5fed4517b66e0cebd6cf3ae901d7c4fa4fac57de9eb93"
+    },
+    {
+      "path": "src/run_remaining_maven198_monitored_v1.py",
+      "bytes": 4586,
+      "sha256": "484166e86b59eca3f374b0dfc245b1b6b6797981b4180178ae2d8299f1cccf44"
+    },
+    {
+      "path": "src/snapshot_reader_v2.py",
+      "bytes": 2419,
+      "sha256": "6a842fa9b862fcc6a48033a83f993ca8d19325d9177891952fd09c581332581b"
+    },
+    {
+      "path": "src/snapshot_reader_v3.py",
+      "bytes": 2217,
+      "sha256": "ac091cdd2816c9cad4c14f0c71d8fe756032b34987ec6b1a30bbcfb41cb00aca"
+    },
+    {
+      "path": "src/snapshot_store_v1.py",
+      "bytes": 4225,
+      "sha256": "e245f7a4f20e4e50485ef6bd53cabab9da24f7c73bcb1a45ea41c3482194d390"
+    },
+    {
+      "path": "src/source_census_v1.py",
+      "bytes": 3656,
+      "sha256": "ae32ad62cd31296af3690e8d5b5ef97e3cd73128c43f2fe1a09b77a885859703"
+    },
+    {
+      "path": "src/validate_b1_maven_commands_v1.py",
+      "bytes": 2455,
+      "sha256": "770d050ef5a2b25e173d63419799e3d815342ae700884dd1a16fdace6186ae0e"
+    },
+    {
+      "path": "src/validate_b1_source_syntax_v1.py",
+      "bytes": 1112,
+      "sha256": "49c40db286f12901f80d27aa794992993ce2d9d2227cfb20e36b4ff255d6af4b"
+    },
+    {
+      "path": "src/validate_classpath_transport_v1.py",
+      "bytes": 6139,
+      "sha256": "72cd6883600e703ae3c2b3ebc3411338c0ba1939732f5447d1996b44fe8f84c1"
+    },
+    {
+      "path": "src/validate_gradle_command_policy_v1.py",
+      "bytes": 7659,
+      "sha256": "5e20b6fe2515e3fb09c8f822e473150b25375b4120ef684987490a8c55db2a16"
+    },
+    {
+      "path": "src/validate_gradle_command_policy_v2.py",
+      "bytes": 8009,
+      "sha256": "19ad9eb50c6bb4d2feda3cc89c4b57b3880171131bc8e70a66a85b18bad64496"
+    },
+    {
+      "path": "src/validate_gradle_fixture_continuation_v1.py",
+      "bytes": 1428,
+      "sha256": "2148fd85ea29a33858bd4e89dfbf0cfc0ee86e95c0b30dafc23bac880132bef1"
+    },
+    {
+      "path": "src/validate_gradle_native_fixture_preparation_v1.py",
+      "bytes": 4113,
+      "sha256": "33c3a00ee1f535f1911fa37c6307cece2e962e05bb9e4e31952800adb0ceb00f"
+    },
+    {
+      "path": "src/validate_maven_adapter_v1.py",
+      "bytes": 6629,
+      "sha256": "5f5116aa73b81cdd8b4a6d5cd78f878531d8585d53efc7d178781afbdd517c8d"
+    },
+    {
+      "path": "src/validate_maven_transport_v3_static_v1.py",
+      "bytes": 2893,
+      "sha256": "d6baadf1a835d93165eeb7f3bf567e6ff97f27469cc74df10fb0f78fc1baa3c2"
+    },
+    {
+      "path": "src/validate_measurement_parser_v1.py",
+      "bytes": 2161,
+      "sha256": "590b231fa00c0ab9bfa71c1bf66aa70ed9f75af5c754133272ce3ce236ece97d"
+    },
+    {
+      "path": "src/validate_native_junit_candidate_v1.py",
+      "bytes": 2137,
+      "sha256": "9bee07e53dac0771234ec4bf3e232cc1b91c3b86c98f3dce4598c4635d7aad3c"
+    },
+    {
+      "path": "src/validate_pom_integration_guard_v1.py",
+      "bytes": 1827,
+      "sha256": "86cbd1f151d80d9d33087a487f547e2f150b1250e421dd0179296e12054c9aac"
+    },
+    {
+      "path": "src/validate_prepare_sandbox_v1.py",
+      "bytes": 3179,
+      "sha256": "270d04ca99a2948c67c1a42378d3b6545d71b97c78ab1ed126d3bce06e129863"
+    },
+    {
+      "path": "src/validate_process_supervisor_v1.py",
+      "bytes": 3266,
+      "sha256": "575034d7b639207161ceffa342264f420bb467259dcbe7a28eccd17c468ea23d"
+    },
+    {
+      "path": "src/validate_projection_io_v1.py",
+      "bytes": 4138,
+      "sha256": "b79665d8c64408a18bd45409a2c612e542b123255c5380bc92f25de1e70e68f4"
+    },
+    {
+      "path": "src/validate_snapshot_reader_v2.py",
+      "bytes": 1462,
+      "sha256": "7a8e4e9789f0db3fe00ec7fefaf7734f73a1444ada8d285dfae6e6639c778725"
+    },
+    {
+      "path": "src/validate_snapshot_reader_v3.py",
+      "bytes": 1625,
+      "sha256": "d4a42096df543cfd6602db1b7909d579749b1598dc1442e10d33efc5df911722"
+    },
+    {
+      "path": "src/validate_snapshot_store_v1.py",
+      "bytes": 1947,
+      "sha256": "4c34866857df7421834ac58fc381d0a4b785bdca09a5f96c202a2531c066571b"
+    },
+    {
+      "path": "validation/gradle_fixture_continuation_v1/result.json",
+      "bytes": 684,
+      "sha256": "2c9c6eb66c35667c4642fb78e1d52e4a6a93cc468f6862cc2d3aa76f5a5de288"
+    },
+    {
+      "path": "validation/gradle_native_fixture_preparation_v1/result.json",
+      "bytes": 4707,
+      "sha256": "d519bd2bb840df80b4d47304683c283bd0c3085bca40b5ce7682fcd4547907ce"
+    },
+    {
+      "path": "validation/gradle_native_recipe_v4/result.json",
+      "bytes": 4032,
+      "sha256": "f039a95ae5733dfb39e6297529d2fb48f85ca0731426d4308895d1668318ebb0"
+    },
+    {
+      "path": "validation/maven_dispatch_v4/result.json",
+      "bytes": 13160,
+      "sha256": "012edb08d76bf551a653b5edabeba5766ccb3aa1fad142c27479248a9469859e"
+    }
+  ]
+}

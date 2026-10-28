@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "source": "backups/accepted49_adapter/evo_patch/working/AgoneTest/mavenLib.py",
+      "source_sha256": "5dac38274def8c18600fa40bc92c25a187cdc57453ebc31f8e26bcf0d716ae94",
+      "target": "adapters/e49_generation_functions.py",
+      "target_sha256": "ca9433496a205b702b696477ee34d56babfae832d36057674cbe80c744357981",
+      "functions": [
+        "command_output_tail",
+        "timeout_output_tail",
+        "evosuite_classpath_entries",
+        "sanitize_evosuite_generation_classpath",
+        "should_retry_evosuite_with_sanitized_classpath",
+        "write_pom_tree",
+        "common_maven_skip_args",
+        "edit_pom_file",
+        "run_maven_test_command",
+        "run_evosuite_generation_maven",
+        "add_evosuite_pom"
+      ],
+      "AST_unchanged": true
+    },
+    {
+      "source": "backups/accepted49_adapter/src/replay_fixed49_measurement_v5.py",
+      "source_sha256": "fc76b20e41958646e5974394be29f0076fb137d1342362720bd9885b7025cc54",
+      "target": "adapters/e49_measurement_policy.py",
+      "target_sha256": "a78ba1a62f7f13e6ec0ae6d92b9b8e46bac6f91b412b5375f81b111acaed33cf",
+      "functions": [
+        "normalize",
+        "patch_pom",
+        "compare_cp"
+      ],
+      "AST_unchanged": true
+    },
+    {
+      "source": "backups/accepted49_adapter/evo_patch/working/AgoneTest/evosuite_profile.py",
+      "source_sha256": "82aa3a4fff73200a1b4d5ddf9b560d3dc408d3cbabe78c5698e698a1fe902ef6",
+      "target": "adapters/e49_profile.py",
+      "target_sha256": "1995a84c3a31a0e267ad8eb06c59bd5d5bc6628d87f47e3e47019480ff135088",
+      "functions": [
+        "maven_generation_options"
+      ],
+      "AST_unchanged": true
+    }
+  ],
+  "experiment_calls": 0,
+  "scope": "function-only extraction, no module execution and no benchmark admission"
+}

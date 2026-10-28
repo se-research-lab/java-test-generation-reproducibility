@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "admission_maven_v6.json",
+      "sha256": "6eb780c0c0a43766713adafc9d3fbf3a4223efb48dc28ed78e81ca9ea8a15318",
+      "bytes": 47749
+    },
+    {
+      "path": "audit/partial300_inventory_v15.csv",
+      "sha256": "e3e6472b3d46a348aeec5b371967da81f82b0644dbf2dc84cf7329533da72908",
+      "bytes": 75865
+    },
+    {
+      "path": "audit/progress_v15.json",
+      "sha256": "10e0f5f5f2ad847c62360766b81cfc541512a02f0b8f82edbe717d6b58c2d84a",
+      "bytes": 52517
+    },
+    {
+      "path": "launch_remaining_maven153_v6.json",
+      "sha256": "3405101b800bee26f5b706b67c9e0b73c223a00c227bbcec3ee137be77569f69",
+      "bytes": 2477
+    },
+    {
+      "path": "PROGRESS_B1_V15.md",
+      "sha256": "4ff3f99ec87110eee0c7a12897ddf18b1240f8ff7b2f768a33c53a82166509b0",
+      "bytes": 5249
+    },
+    {
+      "path": "runtime/gradle_after_v6_process_launch_v1/plan.json",
+      "sha256": "2cb915f2bfa7db2baf8d8851df24d6067af15b712a74065713a15c397ce408a3",
+      "bytes": 834
+    },
+    {
+      "path": "runtime/gradle_after_v6_process_launch_v1/started.json",
+      "sha256": "aea06177c37f6c800b19c9b060cdfb8bfaadfc6bbf21eb4d9e4d8c459012907b",
+      "bytes": 67
+    },
+    {
+      "path": "runtime/gradle_native_after_v6_v1/plan.json",
+      "sha256": "8a1efa89b2efe096729847516ad22b7959598ea2ec6f1ec54a415b06586c298d",
+      "bytes": 3531
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/048.json",
+      "sha256": "e40ec08a0ecfa86f8aa7b91ccea8930935d86bfe6a5811a5060cfd5cd0feda29",
+      "bytes": 1725
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/049.json",
+      "sha256": "491cbb34baf2d2eaa64f879f46bcf348a4278d5ef54fab62e32f558d40b26f1a",
+      "bytes": 1722
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/128.json",
+      "sha256": "1290906921bf3a2e00c7cf5938174f56cb573caa5d75f2d945239c6bd6542b92",
+      "bytes": 1721
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/138.json",
+      "sha256": "028add2960a77b8a586c3f6823a29a29deaa17025a919dd9cc5104b7cb25a90a",
+      "bytes": 1717
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/145.json",
+      "sha256": "aa93d1c652fe0f0b5d80f378557e23aefe94efddc64693314654ea095c23529f",
+      "bytes": 1665
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/148.json",
+      "sha256": "a34683cb34e0dcf8536c722c342c9d7892ec64b6029c03cbcb1d69b42a93c91d",
+      "bytes": 1659
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/198.json",
+      "sha256": "29b4fea282c646d324c580bb29fc8d8d14e9433fa5f7ed791208d6a36f969daf",
+      "bytes": 1705
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/202.json",
+      "sha256": "78fe3440c8d46c48d878a21d4e3bf698aa95bb7edd2c16204dd5185003cd39d1",
+      "bytes": 1732
+    },
+    {
+      "path": "src/prepare_gradle_fixture_after_v6_v1.py",
+      "sha256": "47af65d36a54dc86760be1c487bae2ab5e115aaee5bee9f5e3d4295542b7339f",
+      "bytes": 6059
+    },
+    {
+      "path": "src/queue_gradle_native_after_v6_v1.py",
+      "sha256": "3f74b03c0ba24f9da19d5c221fddca4aabbeb03069ff055aa8f6cfbf83bd77e1",
+      "bytes": 8734
+    },
+    {
+      "path": "src/record_progress_v15_inventory_v1.py",
+      "sha256": "c14eeed88e0d53df5ee937d669f55cd0f8fab8e198c873faab2fc1d9527a47be",
+      "bytes": 14384
+    },
+    {
+      "path": "validation/gradle_fixture_after_v6_v1/result.json",
+      "sha256": "03072a733f2f8704d58afc20347f876aff60ecac9e78783fcaab1bbf79da0edc",
+      "bytes": 1550
+    }
+  ]
+}

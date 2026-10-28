@@ -1,0 +1,1350 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\215_9619226_3b9a0f18\\compiledrepos\\9619226",
+  "class_indices": [
+    282
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "fbcd1b104d44e4f4f888e61b98a8d691c78300f10410bc967d985fa3a2509dce",
+      "bytes": 329,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217897528400
+    },
+    {
+      "relative": ".sonar-ide.properties",
+      "sha256": "c98ec9e4216f441cca40c31fd1b460421f440ffa99a64c4f7f260e3032d1cba0",
+      "bytes": 77,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217897528400
+    },
+    {
+      "relative": "atlassian-ide-plugin.xml",
+      "sha256": "600c33fac29817753b9e5b1eb39a4be3dc9f15e887c2922c78c80cafbc836cee",
+      "bytes": 490,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217898530700
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "7e7e4293208b97572d4fe99e5e1d800d9da526c40bf6186ea24fb55ea76c3f64",
+      "bytes": 1108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217898530700
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "fbec3be39d52e32beb23cc33465d0428db56d31cd92c718f5d394b288d4d09d4",
+      "bytes": 4747,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217902530700
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "2fa0de159bc151e943f99974f5c7c76543fe4ac0f5b874d0831dcd3cb7b9aaa7",
+      "bytes": 7799,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854396212529700
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "05393322aeb6968d0eba2c4050792a0b07bc926ab8a99dd20070e5ebcbb43bef",
+      "bytes": 10823,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854396138981400
+    },
+    {
+      "relative": "README.md",
+      "sha256": "51e661fa6317b86e2ad24d42e77850fe594683d01e64b0eb9917e72d5346da55",
+      "bytes": 27830,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217898530700
+    },
+    {
+      "relative": "etc/check-style-suppressions.xml",
+      "sha256": "add6622ce9c2eb09866fa18c37fb6c9b06e2fbaf89f4e47e5908286111021200",
+      "bytes": 316,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217901529800
+    },
+    {
+      "relative": "etc/CheckstyleSonar.xml",
+      "sha256": "1a63464f7327712f143bf8c20c17e7a5c4bbd0015befd5bbedce257c4fb3b74c",
+      "bytes": 6431,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217899530200
+    },
+    {
+      "relative": "etc/FindbugsSonar.xml",
+      "sha256": "7907bdce7433bdd62ce9e0fede661791ebadd0cf521463e63117d52d1d7ca9fd",
+      "bytes": 28443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217900530000
+    },
+    {
+      "relative": "etc/FindbugsSonarExclude.xml",
+      "sha256": "a8c7942dd04897a1479eebb9771a1ab156e1837ce28848bf1d5cbe8b4ca8813e",
+      "bytes": 622,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217900530000
+    },
+    {
+      "relative": "etc/PMDSonar.xml",
+      "sha256": "18f763cd29a658160c7b87ce36c8f0aa2068884b6b65a0c296a3c2214fa32fc2",
+      "bytes": 8741,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217900530000
+    },
+    {
+      "relative": "etc/sdsdb.formatter.eclipse.xml",
+      "sha256": "a35ed955d5f6b36075e6847608ffdbae334832302ce32eff7beefe98f12cfdb4",
+      "bytes": 31226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217901529800
+    },
+    {
+      "relative": "etc/sdsdb.formatter.intellij.prefs",
+      "sha256": "d8c7f09754dcaab3f83d6798b7753832d4882ef093d19bb414155d2f3ecd9c19",
+      "bytes": 24206,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217902530700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/pom.xml",
+      "sha256": "48decb781a750cdf017a84b7318cfd8ddead931dac8dcc01b3c5d93158dfc7d1",
+      "bytes": 3914,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854526089775700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/evosuite-report/statistics.csv",
+      "sha256": "27161c8a26d17c15b3acff3e906316b00b2f2979c34b426f61c031e02198e971",
+      "bytes": 151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854482867360700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/annotation/Attributes.java",
+      "sha256": "da1604fac678352e196e9f4a30d1d8e2daceef41ceb166fbde66572368f62200",
+      "bytes": 1085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217904528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/annotation/DomainPrefix.java",
+      "sha256": "39f6d20e38573739f1afe1e596506459870b4ae200eb1123b6cba3f0eeef0a81",
+      "bytes": 1104,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217904528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/annotation/Query.java",
+      "sha256": "f028f690fb8f84881f49d6bb7242a7e937eb44dfbe3690f2cb6052ee8d23db1b",
+      "bytes": 1258,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217904528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/attributeutil/AmazonSimpleDBUtil.java",
+      "sha256": "1da203e09df34f2d3912d25671ae83af225df6fce2c019b5b6bf7001d118f185",
+      "bytes": 8936,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217905528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/attributeutil/AttributesKeySplitter.java",
+      "sha256": "39dcf5a3b45c3bc1b7632860f78385533e3c3cb3f047cb555410816da65a6452",
+      "bytes": 1789,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217905528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/attributeutil/SimpleDBAttributeConverter.java",
+      "sha256": "ad1a96888c9d706086d63ec2567fbcb0121eca0eb8283300bcfdb9bf61acb6b1",
+      "bytes": 3726,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217905528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/attributeutil/SimpleDbAttributeValueSplitter.java",
+      "sha256": "91007f471b0f565181ce7e74dda26c7870ec58deab16739117024bca0b877bf9",
+      "bytes": 3309,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217906529200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/config/AbstractSimpleDBConfiguration.java",
+      "sha256": "60cdf60957e063384a987515c2fdcb27968d605f6e3d52be0b81190687197148",
+      "bytes": 1248,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217907527700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/config/AWSCredentials.java",
+      "sha256": "7f5680a790c7777e4ac4dd8bb2ac9d88c65b105615bbe75b7bde88ab5d323a55",
+      "bytes": 440,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217906529200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/AbstractServiceUnavailableOperationRetrier.java",
+      "sha256": "5dbb8aac604b24091edfb3e9a2837c1f0857c41ee07ec141a7d4965410801a56",
+      "bytes": 3077,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217907527700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/AbstractSimpleDbTemplate.java",
+      "sha256": "dd8c2c44538f4851282016078653ee5da61c5de4651165f2a6bb2f1bfe4d876c",
+      "bytes": 14549,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217908527600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/DomainItemBuilder.java",
+      "sha256": "52daca4aead9ff8559f73d79556161caaeb576e7d251193ab63ec4b965b28041",
+      "bytes": 2277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217908527600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/QueryBuilder.java",
+      "sha256": "a7058c1cdd7b1ae1aa75ef9e9904d4eb4e4c99ae551e19be2a0fca268ba84c2e",
+      "bytes": 3030,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217908527600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/SimpleDb.java",
+      "sha256": "0fef370298942b6b8a8962bf96651f22dadee5468d41e1e8accf086285a02b25",
+      "bytes": 4495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217909527800
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/SimpleDbDomain.java",
+      "sha256": "6ebd041be11607c37b8e2cf4efa7c1de39030cd1c487a4c3b33064bbc4ddc604",
+      "bytes": 1220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217909527800
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/SimpleDbOperations.java",
+      "sha256": "0fa52fb21f5e1a2871704b0f5f86b5561bc27e313e41541e66cf3eb01a103500",
+      "bytes": 7606,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217909527800
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/SimpleDbRequestBuilder.java",
+      "sha256": "512e8a82b37a6a60d02acf16fb00ed1ef89cb0d9a8de9e77ddc57d35b4cf6c7e",
+      "bytes": 2228,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217910527700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/SimpleDbTemplate.java",
+      "sha256": "a7c829c8ff8f9a2b2888fca5c3e057246d3bd847b2ba6891832d9be331840211",
+      "bytes": 16365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217910527700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/domain/DomainManagementPolicy.java",
+      "sha256": "9f1f1f3bdefff67e205affecf872a5bfdc7ca5a84a1dfbdf4ef6bdb82a988346",
+      "bytes": 317,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217910527700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/domain/DomainManager.java",
+      "sha256": "e45182df71dde94b658aeedc490dee396d029fec6c7f1690ec0a971f29d9ee6a",
+      "bytes": 3824,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217911528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/AbstractFieldWrapper.java",
+      "sha256": "ff3c02ca8c0791da0ccfb6c3e74feda73e7a658ec139c7ae450d057ab2e2298b",
+      "bytes": 1924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217911528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/AbstractSimpleFieldWrapper.java",
+      "sha256": "5225c5fd2315708105c5ffedf6b3660babeb2ac3b7747cf652c5bcd417a0a03d",
+      "bytes": 1253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217912528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/EntityWrapper.java",
+      "sha256": "125ae70b82e791af8f840ef5baf4a8df4fd26144bbf4138192f136ef942562f4",
+      "bytes": 5773,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217912528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/FieldWrapperFactory.java",
+      "sha256": "7a4f37ad3fbeb394875c11d18974ce373381ef5e1f9e975c99b0765abf922a85",
+      "bytes": 3463,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217912528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/InstantiableFieldWrapper.java",
+      "sha256": "77006bbb715b28b239220cefdd61c7ee8fc3b2f4e03252a93253fa20695a6cc4",
+      "bytes": 865,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217912528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/JSONFieldWrapper.java",
+      "sha256": "dab9c15b820d4d12f3dff5ed053c6100f3020193d259fcf8a5460f4891d3e9fd",
+      "bytes": 930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217913529200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/NestedEntityFieldWrapper.java",
+      "sha256": "19516afd94b9d8f96f83d4b613ea9c2db88a109db9cd39efa56769c96b1d3eb1",
+      "bytes": 2587,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217913529200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/ReferenceEntityFieldWrapper.java",
+      "sha256": "f1012ad868daf618c763c1626a737c6f26c8110db466ee36532ae7409dc356e7",
+      "bytes": 1100,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217913529200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/SimpleFieldWrapper.java",
+      "sha256": "1c3707bd37e7f2f35d520fec6a7460bcb3c59de7c6651859e85435c56bde61dd",
+      "bytes": 1048,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217914528400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/json/JsonMarshaller.java",
+      "sha256": "4a6897cf0a28e2be65f54686f90658e1fe2f365627c51a60e962e83459a7c5bf",
+      "bytes": 2044,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217914528400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/core/entity/json/JsonUnknownPropertyHandler.java",
+      "sha256": "85bf638f96807e27e4ef6b8d52b0b71a286320be9e94fdcd31f9d0b00a4aa7a3",
+      "bytes": 883,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217914528400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/InvalidSimpleDBQueryException.java",
+      "sha256": "c934d9324601c43dac6ef90ac230a6b423eb17d1544445abe1bf5545c62fd2a6",
+      "bytes": 364,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217915528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/SimpleDbExceptionTranslator.java",
+      "sha256": "7e5ed0ef8d6e646a84e18a93607da8956803f9d89b6618be304e86669eadbd93",
+      "bytes": 3229,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217915528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/UncategorizedSpringDaoException.java",
+      "sha256": "eed8695aeef7bda30235c7f4e8a6bc4b7b972a8ecd1741d3cb7694b56d1bc172",
+      "bytes": 378,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217915528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/PartTreeConverter.java",
+      "sha256": "c6d61d23b258dcf4907742e2ca60bdb1194e1623ae596ecded45363ce7ff1212",
+      "bytes": 2535,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217916528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/QueryUtils.java",
+      "sha256": "63c5d8cb477a2aad04e8b4b50a7ccd8c72aafda4f2fe937e678c09e2c12ef55e",
+      "bytes": 8415,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217916528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/SdbItemQuery.java",
+      "sha256": "91991cb5148a75eae049731f95f687e41ae412ab249e37d032e401dee77d06ac",
+      "bytes": 1542,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217916528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/SimpleDbPartTreeQueryMethod.java",
+      "sha256": "e61d2a0f3854e83f01d41a297f74a691297ff03866e8ce9a0cb27ad294e4b189",
+      "bytes": 1592,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217917528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/SimpleDbQueryLookupStrategy.java",
+      "sha256": "fb77d0da740aa0430bb10f9bcaab17bd3be3b44d3d0dc5975a3adfc082737c3d",
+      "bytes": 2027,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217917528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/SimpleDbQueryMethod.java",
+      "sha256": "7e104e544aa709e21238b7824b35d57290fdd8b4d35d79038b73e75e83a7a067",
+      "bytes": 5868,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217917528000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/SimpleDbQueryRunner.java",
+      "sha256": "8058edc8dac0fc1c117c22b1b3aeca9d2803cf597b69b97f853c1dbb6d854088",
+      "bytes": 2234,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217918528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/SimpleDbRepositoryQuery.java",
+      "sha256": "de4b44226d46b7d6498259a72032bd8e6627df425dc25eb63231fcd2406f7b06",
+      "bytes": 3975,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217918528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/SimpleDbResultConverter.java",
+      "sha256": "ea54ff21890cad797ea84e04cfd25400c852e4d0559897526867fee7d815c355",
+      "bytes": 1502,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217918528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/executions/AbstractSimpleDbQueryExecution.java",
+      "sha256": "c8057f1bab9ee040d25b63f5430ca0d00f322eef3b9310e4af3536caa3792e9a",
+      "bytes": 2085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217919529400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/executions/MultipleResultExecution.java",
+      "sha256": "d7d8b957914a650d1c5ad4a6ae4cb9466f9f44a97c1bfdf22fa0dbfceb3a0b8f",
+      "bytes": 4049,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217919529400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/executions/PagedResultExecution.java",
+      "sha256": "ef94a02a1d465ea50ca906ac90c5cd19c4bb6e1ac8099f1ac5cca236fa191fd4",
+      "bytes": 978,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217920537700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/executions/SingleResultExecution.java",
+      "sha256": "e0ec1431f1a7bc93d17eac1bddc76bb464d148c86095c852fd331a02128d7778",
+      "bytes": 2875,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217920537700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/query/parser/QueryParserUtils.java",
+      "sha256": "adf82fb5ca5d6009c5770dc0e2595694af31a4edf61d711348a32f3ead9fab0c",
+      "bytes": 1919,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217920537700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/reflection/FieldType.java",
+      "sha256": "4a3be1a2da9bdee1ef22af55fda9fdb1cf7868aaa6db923a7d9e5a2206ce2b44",
+      "bytes": 2804,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217921531200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/reflection/FieldTypeIdentifier.java",
+      "sha256": "37493055e3331afb7a35d8971cb489829bb0edb85474457d195c8428082aa375",
+      "bytes": 1258,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217921531200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/reflection/MetadataParser.java",
+      "sha256": "430b6f96304d4987445ee5721bb064986260d1049af6c518b6ae77e76ff41ced",
+      "bytes": 4506,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217922530700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/reflection/ReflectionUtils.java",
+      "sha256": "febf5d88a1055a11446553c4f6a51b9ec973ca0d3b0fc395c36a6bdd7df46284",
+      "bytes": 11229,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217922530700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/reflection/SupportedCoreTypes.java",
+      "sha256": "441feb769f8d78a0e94f8c02fbe146c2580526485f7c79d26931583749d61e43",
+      "bytes": 2091,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217922530700
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/SimpleDbPagingAndSortingRepository.java",
+      "sha256": "e43a67a425d7fd98027bdeef2f09cec68d226eb0b038ed73a7b489b524269a81",
+      "bytes": 4292,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217923531000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/config/EnableSimpleDBRepositories.java",
+      "sha256": "d9d4f26333731f67e89aa27d09e17d4cb4ea267b3db7e3ae69657f6322256b55",
+      "bytes": 3979,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217923531000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/config/SimpleDBRepositoriesRegistrar.java",
+      "sha256": "ec9333747f4df1266048abb243209c46949c78ce8701c30de7098c9034aafff0",
+      "bytes": 1079,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217924528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/config/SimpleDbRepositoryConfigExtension.java",
+      "sha256": "d605ca4ab301c9dea05ab6f2b56802278b0194b354e278a743cc270863d58a1c",
+      "bytes": 3434,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217924528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/config/SimpleDbRepositoryNamespaceHandler.java",
+      "sha256": "60b2fd145573bf20d1b6e6f4424252a1b74e1f555b52e90a809e3ee62bc4c3a9",
+      "bytes": 826,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217924528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/EmptyResultDataAccessException.java",
+      "sha256": "1281029a51612d87fd2df1ae00e10fa59d77cc8c63f0a202ee5c86239f2966df",
+      "bytes": 425,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217925528500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/SimpleDbRepositoryFactory.java",
+      "sha256": "0e6ec2d33743ec4bb2b8ff287b681b777ef1cd72f26fd6e0868de68cafbe4bdd",
+      "bytes": 2916,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217925528500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/SimpleDbRepositoryFactoryBean.java",
+      "sha256": "503ebab22fc26c1201dc68da8f3e96538ebbd92d0c3fe6a8990451dbc8414fc6",
+      "bytes": 1247,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217925528500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/SimpleDbRepositoryImpl.java",
+      "sha256": "23f5121512965626612b74032572d0d0f8b17250a242cbd7d47954c099990d8a",
+      "bytes": 6230,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217926528500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/entityinformation/SimpleDbEntityInformation.java",
+      "sha256": "f25b98accdc73c3e861eeeae009ad386ce0f4d6ed9640b536cf6139d80ba5964",
+      "bytes": 1381,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217927528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/entityinformation/SimpleDbEntityInformationSupport.java",
+      "sha256": "bd5c12340607adb1df0f8886f1b3722d826d6f3dd0016398001d6b6652f8a147",
+      "bytes": 1940,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217927528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/entityinformation/SimpleDBEntityMappingInformation.java",
+      "sha256": "5f88fe2295085ff3507e1d71109d40adaa065c04e1303c16784e4fabc800ad00",
+      "bytes": 342,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217926528500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/repository/support/entityinformation/SimpleDbMetamodelEntityInformation.java",
+      "sha256": "4b2faf9cf5c0e2b9c1eea99c5c7b56098841c8a3e71a4facaea5c268b0e1273e",
+      "bytes": 2657,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217927528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/AlphanumStringComparator.java",
+      "sha256": "7f9885e251aa36f1dfd9a0241d308374d10439fc7ffc8f1871903bb0a41a433f",
+      "bytes": 896,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217928528500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/MapUtils.java",
+      "sha256": "e74520a8832a09f0019354f789703774c5c321656f85480b4e24ef3df88a4f79",
+      "bytes": 1308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217928528500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/RandomValueGenerator.java",
+      "sha256": "5d3d3394a60f91651fc999d253802b630f270612d4a2cdae5d5b0270958178eb",
+      "bytes": 573,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217929528200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/StringUtil.java",
+      "sha256": "30c1867af55a5d7082f53fdf2cf9e63a60afafcfda818d9d3a4953e8ed53cdf7",
+      "bytes": 573,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217929528200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/resources/META-INF/spring.handlers",
+      "sha256": "3f1ea67773a1fff1ff61e3c2c7ce6b6f5157b57e5c41ccd2000357d0dc290515",
+      "bytes": 141,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217929528200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/resources/META-INF/spring.schemas",
+      "sha256": "ed468fbb852cd2c6dea3ae0c84d28156fa4056063c791369e3bd87e9b2ead7b0",
+      "bytes": 137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217930528200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/resources/META-INF/spring.tooling",
+      "sha256": "fe03b8667b7e0f9fb0b08082dfe0f393291af5b626a4d5733622e5b391632413",
+      "bytes": 148,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217930528200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/main/resources/org/springframework/data/simpledb/config/spring-simpledb.xsd",
+      "sha256": "eea9bc2839b38c527000010e250e36d418e8b4b884592f6a04b81aafe5b3f413",
+      "bytes": 2112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217931528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/attributeutil/SimpleDBAttributeConverterTest.java",
+      "sha256": "1a2dccfaedd6d60ecf0916dd021147ee25a90be59de5bcfa793a3a4702e97123",
+      "bytes": 9674,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217933528200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/attributeutil/SimpleDBAttributeConverter_RBL4_3b9a0f18Test.java",
+      "sha256": "24eda502e1d6c58f77f7bfa262940e85c745f3bfc09926bf7187e131d80eb7e8",
+      "bytes": 124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854526084563900
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/attributeutil/SimpleDbAttributeValueSplitterTest.java",
+      "sha256": "b71d76e2656ba71711902e4f5b0adfcc9aa6a06a212f9573e9d1e48284bbf0fe",
+      "bytes": 2561,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217933528200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/DomainItemBuilderTest.java",
+      "sha256": "52abdad8dc075a70dc98bf1184fe7974c23484e0c6eec74f0e3994d49cc980eb",
+      "bytes": 1947,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217934528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/NestedDomainEntitiesTest.java",
+      "sha256": "2ae5db1e67782cbbc8e2ae58347099432b6780c95bf5089082f0071027c569f6",
+      "bytes": 1048,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217934528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/NestedReferencedDomainTest.java",
+      "sha256": "e8b2c0349525ade7820be32297b79d850032d65c8ba9fdf6e01ed06475f474fa",
+      "bytes": 1630,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217934528600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/QueryBuilderTest.java",
+      "sha256": "fe97ccd9c36d900984e2451155b2351c577e9c72580159e67978d1bf0f9dcb78",
+      "bytes": 1844,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217935532000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/SimpleDbOperationRetrierTest.java",
+      "sha256": "a499635a32d73598c995c5ce23ab336057eb5396ea509a86d6f2591ff1174e6e",
+      "bytes": 2292,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217935532000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/domain/SimpleDbReferencesEntity.java",
+      "sha256": "ba1f268c95cefd43676f245b01b4bec08d05471616d1cb250b421c03fdb0760c",
+      "bytes": 486,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217935532000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/domain/SimpleDbSampleEntity.java",
+      "sha256": "544dd3fc6f3d3a97bf51a681a970cf209ca64493bd48cb68a940d5299ca5d93c",
+      "bytes": 1442,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217936749200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/CollectionWrapperTest.java",
+      "sha256": "8cb057c609def18b014a0ddc66801bb86aaca64423639f62a62a0a2cc83d244b",
+      "bytes": 9175,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217936749200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/CoreTypeWrapperTest.java",
+      "sha256": "eb39a5c2455d47492c692452eec7d03d52a19dbda5697a3b2eb4db1ec243a6a9",
+      "bytes": 4152,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217937749100
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/EntityWrapperTest.java",
+      "sha256": "0d3a98440f755a47ef7ce38b663d359610bb1d3db63822de020748f5ba89354b",
+      "bytes": 9881,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217937749100
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/MapWrapperTest.java",
+      "sha256": "0df21a4fe6b906605ddc68c9627f9bbd177b6fcbadab8f77a9c7e8df65b01e7d",
+      "bytes": 4551,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217937749100
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/ObjectFieldWrapperTest.java",
+      "sha256": "091866a99925e8e67cb16b4b2f24e6ef37f4aba37eaaa866861dcd41c272ba90",
+      "bytes": 3457,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217937749100
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/PrimitiveArrayWrapperTest.java",
+      "sha256": "e376e1fbd18a9120429c58efdc82b50db107d4db1d2b4823cec78564e5b2c146",
+      "bytes": 3782,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217939148200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/json/JsonMarshallerTest.java",
+      "sha256": "f14942ddba9cfb4d9c7079804c0ab82b4912e5795e40a9d3fb64a42198acb9d9",
+      "bytes": 4927,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217939148200
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/core/entity/util/AttributeUtil.java",
+      "sha256": "62d73040a6c38240860eacf12a9148df467e25afaf93e6e5d227986a52822d7d",
+      "bytes": 685,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217940147400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/exception/SimpleDbExceptionTranslatorTest.java",
+      "sha256": "9ad15c7cb0acae193e96432af33829f452477c4f8a04a89e608cc8854a7ffd71",
+      "bytes": 6760,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217940147400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/PartTreeConverterTest.java",
+      "sha256": "587750f25c91bd1c59a4256e7bb5953768b332c14d124a2e981c4fdd75598fac",
+      "bytes": 1803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217940147400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/QueryUtilsArrayTest.java",
+      "sha256": "178c001477cdd0a7bfb33b55c8cfdf89964d5a7b9bace237adc44b479624040f",
+      "bytes": 3651,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217941413400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/QueryUtilsEscapeTest.java",
+      "sha256": "0c50d74ef81ba53da0be6de11444a0869b4844534936d5752f367c21b2e131ea",
+      "bytes": 1690,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217941413400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/QueryUtilsIndexByQueryTest.java",
+      "sha256": "c1ee9e87d283821fb8ad143652e1427595d8d6f19b34da7e6ea2253ab7b7f8ab",
+      "bytes": 9289,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217941413400
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/QueryUtilsNamedQueryTest.java",
+      "sha256": "4b482e946176f8e4596d304fc38b9ebb51baca17e60e7ea00132cc25a42b57b9",
+      "bytes": 8950,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217942412000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/QueryUtilsPartialFieldNamesTest.java",
+      "sha256": "abe1e834b19c9dce9f7c0528fb4960f85184dd5c3051071f2dbdd7e576d78064",
+      "bytes": 979,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217942412000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SampleEntity.java",
+      "sha256": "84e7f6051f74cefeec14ac6714fee6c267674afe3f5a8047ea69aefadefd1779",
+      "bytes": 1466,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217942412000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbIndexByQueryMethodBindedTest.java",
+      "sha256": "d127ed2ddb695eb18d687f332e4503de9cbb5a6ef9df152bf7641686673166e2",
+      "bytes": 5046,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217942412000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbNamedQueryMethodBindedTest.java",
+      "sha256": "5b84a431465f1c9c94bc279dcb6cb2f39be8b616da46b32faab77b9e6aa58ddc",
+      "bytes": 6299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217943689600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbQueryMethodWithSelectAndWhereClauseTest.java",
+      "sha256": "ac68cb519cd89fb06370a836684ff23b86b31e96295e4304d1cd8328b56eda22",
+      "bytes": 3672,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217943689600
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbQueryMethodWithSelectClauseTest.java",
+      "sha256": "55bce5d2f57e1d43e1e74124425f5d9b38960d594eba9f95f5e6b4b0b5ae025c",
+      "bytes": 2405,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217944689000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbQueryMethodWithWhereClauseTest.java",
+      "sha256": "8ebde46e1ac043893e79cb46499c7531b00a38bedefbb09a8c992dc15d149eaf",
+      "bytes": 2255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217944689000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbQueryRunnerTest.java",
+      "sha256": "13e1b1a2510dfe3f36099da078fa20b794e494439043eaef593d41bb19e70d1a",
+      "bytes": 2166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217944689000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbRepositoryQueryTest.java",
+      "sha256": "32be83c3deca82e96d492ee4ec951b5d72148ae39d4a32b8cae2ff051585c343",
+      "bytes": 698,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217944689000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/SimpleDbResultConverterTest.java",
+      "sha256": "bd685176deff582e0aba7203047166da15163fa87e2cbcd35e7e51d33ba238b5",
+      "bytes": 3316,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217944689000
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/executions/MultipleResultExecutionTest.java",
+      "sha256": "6937102a21565d6500c5921f744fd99181618bdbf3777047ed5a75824b561f36",
+      "bytes": 6607,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217946093300
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/query/executions/PagedResultExecutionTest.java",
+      "sha256": "33bcd5b4fdd3d804ca0c873bd512637ce2b368443f0a99c9c092378d074f1782",
+      "bytes": 3107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217946093300
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/util/AlphanumStringComparatorTest.java",
+      "sha256": "45900990c0284a49d5a1e1c797c9d6b0fde8aaa0e2788d1f55c7d5e91b5c0f7c",
+      "bytes": 518,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217946093300
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/util/EntityInformationSupport.java",
+      "sha256": "5e8137160e001286c1c129813f933560f57d62dfa07b7dda732d122066272058",
+      "bytes": 639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217946093300
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/util/GetterAndSetterTest.java",
+      "sha256": "fd500cde5839919b615f7ee4e04197a8d357c7588476df5159b8893d9c8adc2d",
+      "bytes": 2298,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217947443500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/util/MapUtilsTest.java",
+      "sha256": "19a55eb03b1e3b77cff2695238826126f093322105fccad6248fb12ef5460222",
+      "bytes": 1141,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217947443500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/util/MetadataParserFieldDefinitionTest.java",
+      "sha256": "7ed506dd469ef4aa9a94b58fbb75156e14babd5c3cb8f38702427ec073fe9e43",
+      "bytes": 4883,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217947443500
+    },
+    {
+      "relative": "spring-data-simpledb-impl/src/test/java/org/springframework/data/simpledb/util/MetadataParserTest.java",
+      "sha256": "2fbf309d269b67414d8d4b150538af2479e516fd61046173f9d4140cbb2360e5",
+      "bytes": 5351,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217948644400
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/pom.xml",
+      "sha256": "58a7b3dc806f4c98f3b4b3b40d19b6056ba6221a0b775894a9032cc0b2869699",
+      "bytes": 4132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217948644400
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/domain/JSONCompatibleClass.java",
+      "sha256": "796407e3063a1f98184384e64b61a096cc30769feeb920cb2b2d945d2995e8a5",
+      "bytes": 702,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217949643600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/domain/SimpleDbReferences.java",
+      "sha256": "82b0d9dc6ddefd6e25ceeb20d117de301d96a92df1ad194f60e4f76cad8222cb",
+      "bytes": 3026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217950646000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/domain/SimpleDbUser.java",
+      "sha256": "e7f8eeacb57a7ae9b8a89a46fcd341dfa9f410c81e59f3b75cf681009ae3d021",
+      "bytes": 5087,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217950646000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/domain/demo/Source.java",
+      "sha256": "9a4836df40d742ec0eba0fa7fb3adb8cfd9ddc08d2c72a37c392e8f2523b93c6",
+      "bytes": 230,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217950646000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/domain/demo/UserJob.java",
+      "sha256": "cea3b7424271dfec2954dda46b6d697c4f542a6f7da34155939815e0c69fe49f",
+      "bytes": 633,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217952005400
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/logging/LoggingConfiguration.java",
+      "sha256": "98886cdc2fc9c908de6177ca27b699d7063d3f5d30d5a912ba96d56767b4cfeb",
+      "bytes": 2179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217952005400
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/BasicSimpleDbUserRepository.java",
+      "sha256": "1fb1ddb5eb50452d2ed902fcf9ddc8e7e2f92e11ed1193fb7f876ad8cf010edd",
+      "bytes": 280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217953042500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/PagingAndSortingUserRepository.java",
+      "sha256": "7adc05546717a5d48eea685963045dc234f39ca5b8849bfebfa378fd36d4afdf",
+      "bytes": 444,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217953042500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/SimpleDbReferencesRepository.java",
+      "sha256": "1928536bb74b4c182f23b8adc4c042c10ce7994a20320d725bd16c8f2942a064",
+      "bytes": 291,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217954353300
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/SimpleDbUserRepositoryConsistent.java",
+      "sha256": "f09fbb364e59c0b49fe52e11356a61fe4aa6524fa5b4ef1352e642a5ce2b7f98",
+      "bytes": 334,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217954353300
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/demo/UserJobRepository.java",
+      "sha256": "52c8d49f2e878e5c8ca1dbb220d50499ade682e66eaaf81f663bed40dc1fe338",
+      "bytes": 643,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217954353300
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/query/AnnotatedQueryRepository.java",
+      "sha256": "ce967c23095af151135c2286843aa7654066d058d854d2109e46706dfa5747c0",
+      "bytes": 1463,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217955450000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/query/AnnotatedSingleResultQueryRepository.java",
+      "sha256": "406e9878e80b2d2c15fa24b28f53630cccad1e0435bd37623369ee32fbdf6cb2",
+      "bytes": 783,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217955450000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/query/NamedQueryRepository.java",
+      "sha256": "445d49425f863653ff813dcadab7b0e0bdd44e8f78849d45f0f21e1f5a63de34",
+      "bytes": 859,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217955450000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/java/org/springframework/data/simpledb/repository/query/PagedAnnotatedQueryRepository.java",
+      "sha256": "b05332f583d0d55c798b06742cd73f3ee465691d15c2fdeb5c6c6900abd4f71b",
+      "bytes": 989,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217956552500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/resources/aws-keys.properties.sample",
+      "sha256": "96ca478a06d31d3eabd82f68c9a0098193356171358797577cc92ed1306509b3",
+      "bytes": 23,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217956552500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/resources/log4j.properties",
+      "sha256": "9d6caef5f8bd724c75210ae21ea1593aceaa2225fccdf83f0aa3408b8dfa37de",
+      "bytes": 501,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217956552500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/resources/simpledb-configured-template-context.xml",
+      "sha256": "cc097812f766bf8259011bf88903bb699c01065e49ea813746327994de937bd7",
+      "bytes": 1321,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217957631600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/resources/simpledb-consistent-repository-context.xml",
+      "sha256": "d71035c5d861123f71eccbe9793900a3b6531a09181bcb5678f9a040baf43174",
+      "bytes": 1921,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217957631600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/resources/simpledb-repository-context.xml",
+      "sha256": "061d6c5028ffbf1d21a469e585b5a21738c1ad6557594a3030d7283df1b0f592",
+      "bytes": 1806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217957631600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/main/resources/simpledb-with-templates-context.xml",
+      "sha256": "89f05675370311760c13e27da5a1b0f65cf1a7d82026389dd5544f4f04874f49",
+      "bytes": 1448,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217957631600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/config/SampleConfiguration.java",
+      "sha256": "a699b32bafb2008472102b27d6b645267a12f50fe83d2fabd45c099d74357a89",
+      "bytes": 501,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217960038000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/config/SampleConfigurationTest.java",
+      "sha256": "6255307421c7ef5489e214fecd4649242a69d06c37a1b40fdbd3635ef7d2dab6",
+      "bytes": 701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217960038000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/config/SimpleDBJavaConfiguration.java",
+      "sha256": "72d80e7e4358cb68010385478197b19c74683fa11635a6ab4b1fe28b6d918064",
+      "bytes": 1063,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217960038000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/core/SimpleDBTemplateInjectionTest.java",
+      "sha256": "15d358b8fc3e4e0450d49c5875fe3c129939b2ef2b2284d6cc7b013ab97b8739",
+      "bytes": 1123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217961141600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/core/SimpleDbTemplateTest.java",
+      "sha256": "d30058c4cfd9c9cd73b71a2f3b51f159c746159024c52bdc4be9838043a3e449",
+      "bytes": 6463,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217961141600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/core/domain/DomainManagerTest.java",
+      "sha256": "1f5a36c8a37e1157739a65858887667274db7a0e88b2da22782c41e0a968a308",
+      "bytes": 3429,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217961141600
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/BasicSimpleDbUserConsistentExtendedRepositoryTest.java",
+      "sha256": "6da3e3c48036e3fbd3a8a38e562d72335f9f04770f0efb007bc32cd6681fefa0",
+      "bytes": 1255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217962304800
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/BasicSimpleDbUserConsistentPropertyRepositoryTest.java",
+      "sha256": "017495f83d0eefa075315e88bbbeae0abb6e0b8ddc0ab7f7d6a56aaac0af2506",
+      "bytes": 5743,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217962304800
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/BasicSimpleDbUserRepositoryTest.java",
+      "sha256": "a900d77cb9f23a44144cc928e993d63264c08f6df566d4f36dd3d80d6542cff2",
+      "bytes": 1678,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217962304800
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/PagingAndSortingSimpleDbUserRepositoryTest.java",
+      "sha256": "e9aeba1ccad22f22a98ad15c56b8f1e41d2777b7ca70564a6f6d88eceb9c3fd5",
+      "bytes": 3934,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217963465000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/SimpleDBJavaConfigurationRepositoryTest.java",
+      "sha256": "2d21264fe04444cac7122af470a125ea31b58147aaa33c9c07772688e636090b",
+      "bytes": 1574,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217963465000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/SimpleDBLimitationsTest.java",
+      "sha256": "c5216be96ccf9d1442144e8501b75e320debabec51cb345d16dcce7079db7bf5",
+      "bytes": 3027,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217963465000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/SimpleDbReferencesRepositoryTest.java",
+      "sha256": "49d1557c46021d9b1a4cfe0774d5166242b972e1c3a2fc5c1d544974b2adfd47",
+      "bytes": 5727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217964549000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/config/EnableSimpleDBRepositoriesAnnotationTest.java",
+      "sha256": "d77e71e23fe9a0723c1ba4a838c7699c0a82c956be89c3d4254c097a96a9ed50",
+      "bytes": 1697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217964549000
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/demo/UserJobTest.java",
+      "sha256": "26896ee749d1cfbce3ed0f7696e1316a6414a491001d428ef8f568b94b15ed54",
+      "bytes": 2718,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217965687500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/query/AnnotatedQueryTest.java",
+      "sha256": "a67f2e63aa9e4c691e9e5f1c47c7b0fdae3fa26bf8283651c0f6a27f77e58881",
+      "bytes": 4296,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217965687500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/query/AnnotatedSingleResultQueryTest.java",
+      "sha256": "8a48881e628f745fee3acbba39bce69c2ab81302312d4ff8dc8de691ceb02b86",
+      "bytes": 2601,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217965687500
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/query/NamedQueryRepositoryTest.java",
+      "sha256": "fd89cca9672554f657f494ce6bd26a21dff2326b0d0fdaab8132b8b5e8f63922",
+      "bytes": 3864,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217966703200
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/query/PagedAnnotatedQueryRepositoryTest.java",
+      "sha256": "77288f164f6a120c9517034d95aedc6a9996f77033d4777ec11518f1b53dc824",
+      "bytes": 4471,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217966703200
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/util/IncrementalWait.java",
+      "sha256": "17961dc4e20b30fb969c78f9ca42e03c36bfced66950ddbb0f55754d26e5a0af",
+      "bytes": 1729,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217967907200
+    },
+    {
+      "relative": "spring-data-simpledb-integration-tests/src/test/java/org/springframework/data/simpledb/repository/util/SimpleDbUserBuilder.java",
+      "sha256": "0522f7ae6f14b66a9d3a59fa952f37b092f19e4e7b49cc2261e69fb9e79db9f6",
+      "bytes": 2278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217967907200
+    },
+    {
+      "relative": "spring-data-simpledb-parser/pom.xml",
+      "sha256": "33c9e382637c2139ed053ceb9083ba6d17892c1b11cbc3764e8439a560c7033b",
+      "bytes": 2391,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217969071100
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/java/org/springframework/data/simpledb/parser/ParseException.java",
+      "sha256": "f7f6acea3645b49c2b3dee2d06b1dfe3893dd2a97e3a062f88126b1bef854eaf",
+      "bytes": 6385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217970278000
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/java/org/springframework/data/simpledb/parser/SimpleCharStream.java",
+      "sha256": "3801577fd2c73dbde02c90afbcb62c1ec208a8b1a285c2bdd4af573934127fad",
+      "bytes": 12192,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217970278000
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/java/org/springframework/data/simpledb/parser/SimpleDBParser.java",
+      "sha256": "c7cb885364c8a243fc7078b63f79c872a889543daa8a99d8b54e7464eb1f1027",
+      "bytes": 14383,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217971645400
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/java/org/springframework/data/simpledb/parser/SimpleDBParserConstants.java",
+      "sha256": "886874b30ca5935ffe8ca4a3b74d58e08691b24cc0e79d703c0865503f688bdd",
+      "bytes": 3708,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217971645400
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/java/org/springframework/data/simpledb/parser/SimpleDBParserTokenManager.java",
+      "sha256": "7fb9cf777cdcafcd0d0f132ed63f124d1cf302f17f3317bf4f8dd0b6135df68d",
+      "bytes": 34956,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217971645400
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/java/org/springframework/data/simpledb/parser/Token.java",
+      "sha256": "30bfd128114848231968d80b66a21270d7df907e47dc9744fa57445ea56f7e18",
+      "bytes": 4237,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217972645500
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/java/org/springframework/data/simpledb/parser/TokenMgrError.java",
+      "sha256": "e8d38d950fc19adb8bf4451bb29fd493c2293430de8c8702afcca346835f7fb5",
+      "bytes": 4597,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217972645500
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/main/javacc/SimpleDB.jj",
+      "sha256": "f95c862be999af1486f5f3aff2a86b82820f13d70e3a89dfd3e88c2eaf1c1745",
+      "bytes": 5593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217972645500
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/test/java/org/springframework/data/simpledb/parser/SimpleDBParserFromTest.java",
+      "sha256": "e98fc8d0a8630f8e40f53d5cc0184c3a9679cfaa71d55417d2fdfc3c83da2378",
+      "bytes": 1006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217974706600
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/test/java/org/springframework/data/simpledb/parser/SimpleDBParserLimitTest.java",
+      "sha256": "f627a2a0baa37fbeec9b9b300138c6fa1feb7c1b2fcb6eb6c5ec30a1505927ac",
+      "bytes": 782,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217974706600
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/test/java/org/springframework/data/simpledb/parser/SimpleDBParserSelectTest.java",
+      "sha256": "fd08a84958a45579779ea31ec11cd39b65d3c241e7bdc41e4114c27bdeb8eb3b",
+      "bytes": 1679,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217975707300
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/test/java/org/springframework/data/simpledb/parser/SimpleDBParserSortTest.java",
+      "sha256": "350423af22ab74ef071f3b55b2a22e44fd02b33f114f8dbc27c5fdc27a9d7bb5",
+      "bytes": 1619,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217975707300
+    },
+    {
+      "relative": "spring-data-simpledb-parser/src/test/java/org/springframework/data/simpledb/parser/SimpleDBParserWhereTest.java",
+      "sha256": "d3098e869ea9b6ad6d13e4b6b5d464ae96352ee46d2c0178eed23af4857e9bfe",
+      "bytes": 5200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784769217975707300
+    }
+  ],
+  "excluded": [
+    "spring-data-simpledb-impl/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\215_9619226_3b9a0f18\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:50:57.805446+00:00"
+}

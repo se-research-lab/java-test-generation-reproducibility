@@ -1,0 +1,19 @@
+{
+  "status": "ADMITTED_AFTER_STATIC_REVIEW",
+  "created_utc": "2026-10-23T15:51:21.030Z",
+  "driver_sha256": "9303fab5fc6b8c6167eb39354a1c9504265371782024f109c785a1386eda1b8b",
+  "analyzer_sha256": "dbed961bcd199864ed2c8da044ea8f71498dd83d7b477f3dfe69c66a606adfc5",
+  "protocol_sha256": "6bc155652470ef74c0b173149041090b183eb84a8e665cbd223a459eed5d0f13",
+  "readiness_lock_sha256": "6fa1b9422317fd9d599182d89a7b13359d67da5a33e3ae0490698a624cafad2e",
+  "controls_results_sha256": "df3d8e36f9f0ea34e33f213221862e477a0e2a821d73cafd4eb9144f72298707",
+  "controls_passed": 56,
+  "jobs": 49,
+  "test_bytecode_baseline_files": 98,
+  "first_jobs": [
+    18,
+    19
+  ],
+  "generation_calls": 0,
+  "GPT_API_calls": 0,
+  "review_scope": "E-only conditional compatibility measurement; no shared runner or scoring change; all49results required before analytics"
+}

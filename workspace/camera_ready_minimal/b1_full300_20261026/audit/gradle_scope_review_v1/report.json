@@ -1,0 +1,514 @@
+{
+  "n": 40,
+  "repositories": [
+    {
+      "repo_id": "74999474",
+      "classes": [
+        {
+          "sample_index": 2,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynccompletionhandlerbase.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 7,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/randomnameresolver.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 20,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/delegatenameresolver.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 97,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parseccompletablefuture.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 106,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsechttputil.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 134,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/defaultasynccompletionhandler.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 165,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynchttpclient.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 175,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecclientprofilinglogutil.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 215,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasyncprogresstimer.java",
+          "module": "parsec-clients"
+        },
+        {
+          "sample_index": 274,
+          "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynchttprequest.java",
+          "module": "parsec-clients"
+        }
+      ],
+      "wrapper_versions": [
+        "5.2.1"
+      ],
+      "frameworks": [
+        {
+          "junit": "None",
+          "testng": "7"
+        }
+      ],
+      "descriptor_evidence": {
+        "build.gradle#2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621": {
+          "relative": "build.gradle",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\040_74999474_d0018ed9\\compiledrepos\\74999474\\build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        },
+        "settings.gradle#d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172": {
+          "relative": "settings.gradle",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\040_74999474_d0018ed9\\compiledrepos\\74999474\\settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        },
+        "gradle/wrapper/gradle-wrapper.properties#f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6": {
+          "relative": "gradle/wrapper/gradle-wrapper.properties",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\040_74999474_d0018ed9\\compiledrepos\\74999474\\gradle\\wrapper\\gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": "5.2.1"
+        },
+        "parsec-clients/build.gradle#82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364": {
+          "relative": "parsec-clients/build.gradle",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\040_74999474_d0018ed9\\compiledrepos\\74999474\\parsec-clients\\build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "markers": {
+            "useTestNG": true,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": true,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        }
+      },
+      "status": "NOT_EXECUTION_QUALIFIED"
+    },
+    {
+      "repo_id": "41627638",
+      "classes": [
+        {
+          "sample_index": 4,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/singlenumber/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 40,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/invertbinarytree/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 45,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maximumdepthofbinarytree/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 129,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/battleship/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 135,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/battleship/parser.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 156,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/wordladder/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 169,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/movezeroes/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 170,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/reverselinkedlist/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 184,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/islandperimeter/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        },
+        {
+          "sample_index": 197,
+          "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maxpointonline/plainloop/solution.java",
+          "module": "leetcode/battleships-in-a-board"
+        }
+      ],
+      "wrapper_versions": [],
+      "frameworks": [
+        {
+          "junit": "4",
+          "testng": "None"
+        }
+      ],
+      "descriptor_evidence": {
+        "leetcode/battleships-in-a-board/build.gradle#5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171": {
+          "relative": "leetcode/battleships-in-a-board/build.gradle",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\032_41627638_899cbe08\\compiledrepos\\41627638\\leetcode\\battleships-in-a-board\\build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": true,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        }
+      },
+      "status": "NOT_EXECUTION_QUALIFIED"
+    },
+    {
+      "repo_id": "85795396",
+      "classes": [
+        {
+          "sample_index": 15,
+          "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardgauge.java",
+          "module": "metrics-dropwizardmetrics"
+        },
+        {
+          "sample_index": 21,
+          "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardhistogram.java",
+          "module": "metrics-dropwizardmetrics"
+        },
+        {
+          "sample_index": 24,
+          "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/protobufhandler.java",
+          "module": "core"
+        },
+        {
+          "sample_index": 31,
+          "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardmetricssystem.java",
+          "module": "metrics-dropwizardmetrics"
+        },
+        {
+          "sample_index": 80,
+          "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/protobufservice.java",
+          "module": "core"
+        },
+        {
+          "sample_index": 81,
+          "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardmetricssystemfactory.java",
+          "module": "metrics-dropwizardmetrics"
+        },
+        {
+          "sample_index": 194,
+          "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/connectionconfigimpl.java",
+          "module": "core"
+        },
+        {
+          "sample_index": 257,
+          "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/kerberosconnection.java",
+          "module": "core"
+        },
+        {
+          "sample_index": 271,
+          "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/connectionpropertiesimpl.java",
+          "module": "core"
+        },
+        {
+          "sample_index": 299,
+          "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/querystate.java",
+          "module": "core"
+        }
+      ],
+      "wrapper_versions": [
+        "8.14.4"
+      ],
+      "frameworks": [
+        {
+          "junit": "4",
+          "testng": "None"
+        }
+      ],
+      "descriptor_evidence": {
+        "build.gradle.kts#e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47": {
+          "relative": "build.gradle.kts",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\192_85795396_3f1ba9c7\\compiledrepos\\85795396\\build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        },
+        "settings.gradle.kts#13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2": {
+          "relative": "settings.gradle.kts",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\192_85795396_3f1ba9c7\\compiledrepos\\85795396\\settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        },
+        "gradle/wrapper/gradle-wrapper.properties#1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9": {
+          "relative": "gradle/wrapper/gradle-wrapper.properties",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\192_85795396_3f1ba9c7\\compiledrepos\\85795396\\gradle\\wrapper\\gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": "8.14.4"
+        },
+        "metrics-dropwizardmetrics/build.gradle.kts#bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05": {
+          "relative": "metrics-dropwizardmetrics/build.gradle.kts",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\192_85795396_3f1ba9c7\\compiledrepos\\85795396\\metrics-dropwizardmetrics\\build.gradle.kts",
+          "sha256": "bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": true,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        },
+        "core/build.gradle.kts#526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e": {
+          "relative": "core/build.gradle.kts",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\194_85795396_d33c3262\\compiledrepos\\85795396\\core\\build.gradle.kts",
+          "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": true,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        }
+      },
+      "status": "NOT_EXECUTION_QUALIFIED"
+    },
+    {
+      "repo_id": "6944525",
+      "classes": [
+        {
+          "sample_index": 98,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/zkfs/zkfsutil.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 110,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/discovery/stores/zk/zookeeperconnectionawarestore.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 161,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/loadbalancerutil.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 199,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/discovery/event/propertyeventbusrequeststhrottler.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 207,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/hashing/ringbasedurimapper.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 227,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/servers/zookeeperconnectionmanager.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 241,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/warmuploadbalancer.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 251,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/clientselector.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 264,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/backuprequests/trackingbackuprequestsstrategy.java",
+          "module": "d2"
+        },
+        {
+          "sample_index": 268,
+          "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/stateupdater.java",
+          "module": "d2"
+        }
+      ],
+      "wrapper_versions": [
+        "6.9.4"
+      ],
+      "frameworks": [
+        {
+          "junit": "None",
+          "testng": "7"
+        }
+      ],
+      "descriptor_evidence": {
+        "build.gradle#bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590": {
+          "relative": "build.gradle",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\038_6944525_ba0e160d\\compiledrepos\\6944525\\build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "markers": {
+            "useTestNG": true,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": true,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        },
+        "settings.gradle#aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59": {
+          "relative": "settings.gradle",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\038_6944525_ba0e160d\\compiledrepos\\6944525\\settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        },
+        "gradle/wrapper/gradle-wrapper.properties#4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9": {
+          "relative": "gradle/wrapper/gradle-wrapper.properties",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\038_6944525_ba0e160d\\compiledrepos\\6944525\\gradle\\wrapper\\gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": false,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": "6.9.4"
+        },
+        "d2/build.gradle#0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911": {
+          "relative": "d2/build.gradle",
+          "source_path": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\038_6944525_ba0e160d\\compiledrepos\\6944525\\d2\\build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "markers": {
+            "useTestNG": false,
+            "useJUnit": false,
+            "JUnitPlatform": false,
+            "pitest": false,
+            "jacoco": false,
+            "EvoSuite_runtime": false,
+            "testImplementation": false,
+            "testCompile": true,
+            "custom_buildDir": false
+          },
+          "gradle_wrapper_version": null
+        }
+      },
+      "status": "NOT_EXECUTION_QUALIFIED"
+    }
+  ],
+  "original_gradleLib_sha256": "5c2c34426a166b3b8f573f3246ff238839131a21c9998221044307ecdd469dba",
+  "experiment_calls": 0,
+  "qualification": "not yet executed",
+  "gate_issue": "Historical Gradle test+JaCoCo success returns build=True even if PIT later fails; cannot silently apply Maven literal BUILD SUCCESS gate to Gradle. Separate build/report evidence and declare gate mapping before admission.",
+  "timeout_issue": "Historical Gradle PIT default900s differs from proposed uniform300s. Timeout policy needs explicit scope decision before running Gradle, not outcome-dependent retuning."
+}

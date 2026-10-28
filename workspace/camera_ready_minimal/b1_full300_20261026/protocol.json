@@ -1,0 +1,31 @@
+{
+  "status": "DESIGN_LOCKED_EXECUTION_NOT_ADMITTED",
+  "target_n": 300,
+  "reuse49": 49,
+  "new_maven211": 211,
+  "new_gradle40": 40,
+  "workers": 1,
+  "seed_rule": "20261023 + original sampling manifest 1-based row index",
+  "search_budget_seconds": 60,
+  "generation_timeout_seconds": 240,
+  "max_generation_attempts": 2,
+  "retry": "one conditional sanitized-classpath technical retry, same seed; never choose highest score",
+  "measurement_timeout_seconds": 300,
+  "dependency_timeout_seconds": 180,
+  "generation_options": [
+    "-Dassertions=true",
+    "-Dassertion_strategy=MUTATION",
+    "-Dtest_scaffolding=true",
+    "-Dno_runtime_dependency=false",
+    "-Dcriterion=BRANCH",
+    "-Dsearch_budget=60",
+    "-Dtest_archive=false",
+    "-Duse_separate_classloader=false"
+  ],
+  "measurement_policy": "inherit accepted E49 policy; raw BUILD SUCCESS/no timeout process gate and KILLED/all focal SourceFile+package incl nested, rounded2, zero-fill only after actual terminal execution outcomes",
+  "JUnit_selector_policy_source_sha256": "6bc155652470ef74c0b173149041090b183eb84a8e665cbd223a459eed5d0f13",
+  "Maven_status": "adapter and copied-source freeze pending; no admission yet",
+  "Gradle_status": "separate E-only adapter qualification required; native scaffold/runtime and JUnit vs TestNG isolation unresolved; no fallback zero for unattempted classes",
+  "GPT": "no API, no remeasurement, no shared runner/dependency edits, retain61/45/300 and298+2",
+  "claim": "post-review single-run full-cohort extension if all300 terminal and audit PASS; not default-all-options EvoSuite, not repeated variance or assertion-only causal effect"
+}

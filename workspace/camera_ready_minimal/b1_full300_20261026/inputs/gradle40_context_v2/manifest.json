@@ -1,0 +1,3732 @@
+[
+  {
+    "sample_index_1based": 2,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynccompletionhandlerbase.java",
+    "repo_id": "74999474",
+    "original_seed": 20261025,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\040_74999474_d0018ed9\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/001.json",
+      "manifest_sha256": "20a842838ed6670c23c7326dca6c30950af48293f59c639d4c8c1ca7a78baaf9",
+      "snapshot_index": 1,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/ParsecAsyncCompletionHandlerBase.java",
+      "focal_sha256": "9c023751466a0b3604ddf95129c81767cc96d404786fbb63e492227cfb77ddb0",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 4,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/singlenumber/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261027,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\032_41627638_899cbe08\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/003.json",
+      "manifest_sha256": "2a9fa1821cb20aee9a91c5d2fc1280068730d0afc99087130dfdd30648f24a48",
+      "snapshot_index": 3,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/SingleNumber/Solution.java",
+      "focal_sha256": "465a4f94dffbe48dd49b5da3cb808262d967184c368d984c4065b6057f27ebb4",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 7,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/randomnameresolver.java",
+    "repo_id": "74999474",
+    "original_seed": 20261030,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\160_74999474_835787fd\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/005.json",
+      "manifest_sha256": "9999ff28e202642b744a2fcade96ec405baf664d94b5babf8ab42a452a16cb68",
+      "snapshot_index": 5,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/RandomNameResolver.java",
+      "focal_sha256": "cf03d932dd09f15d732c5e56c4b06d97c69a081ba03980973b385aec35d77bfb",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 15,
+    "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardgauge.java",
+    "repo_id": "85795396",
+    "original_seed": 20261038,
+    "sampled_module": "metrics-dropwizardmetrics",
+    "framework_key": "85795396_metrics-dropwizardmetrics",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "metrics-dropwizardmetrics",
+    "module_selector": "metrics-dropwizardmetrics",
+    "task_prefix": ":metrics-dropwizardmetrics:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\192_85795396_3f1ba9c7\\output\\project_info.json",
+      "sha256": "07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "bytes": 650,
+      "exact_framework_key": "85795396_metrics-dropwizardmetrics"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/009.json",
+      "manifest_sha256": "e61e3db374ed7aa756a52f7841e3ff465137fc9e0af3d316d9ab12c7f6592356",
+      "snapshot_index": 9,
+      "focal_path": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardGauge.java",
+      "focal_sha256": "fcdfeb53ff7dd68b16eb99a877eace17fe1752fb5d704cd71923d8a752c2dfbb",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/build.gradle.kts",
+          "relative_to_build_root": "metrics-dropwizardmetrics/build.gradle.kts",
+          "sha256": "bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05",
+          "bytes": 1173,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/gradle.properties",
+          "relative_to_build_root": "metrics-dropwizardmetrics/gradle.properties",
+          "sha256": "189ace3a650574eb2f8bb369f381627805024fab3ae7abe48d7fe24ca02dc6d9",
+          "bytes": 983,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 20,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/delegatenameresolver.java",
+    "repo_id": "74999474",
+    "original_seed": 20261043,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\161_74999474_ab7abb98\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/014.json",
+      "manifest_sha256": "115e9da86c8b97d47e1a0a4cd2641dffa775a8605e85942b063a08c20263bd4e",
+      "snapshot_index": 14,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/DelegateNameResolver.java",
+      "focal_sha256": "6da0b702f5291706298233b8186965f7f8a16689fe607055753c591edb3bb777",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 21,
+    "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardhistogram.java",
+    "repo_id": "85795396",
+    "original_seed": 20261044,
+    "sampled_module": "metrics-dropwizardmetrics",
+    "framework_key": "85795396_metrics-dropwizardmetrics",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "metrics-dropwizardmetrics",
+    "module_selector": "metrics-dropwizardmetrics",
+    "task_prefix": ":metrics-dropwizardmetrics:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\193_85795396_0b144c66\\output\\project_info.json",
+      "sha256": "07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "bytes": 650,
+      "exact_framework_key": "85795396_metrics-dropwizardmetrics"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/015.json",
+      "manifest_sha256": "bbab07c27cf15f0e306feb5dd826395d7bc0d396db4e99bc9868241f98927a8f",
+      "snapshot_index": 15,
+      "focal_path": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardHistogram.java",
+      "focal_sha256": "e9f79b8d2899bf9df23e59f8544e70e545f5865a10a12d08aa91f267ea4192ea",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/build.gradle.kts",
+          "relative_to_build_root": "metrics-dropwizardmetrics/build.gradle.kts",
+          "sha256": "bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05",
+          "bytes": 1173,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/gradle.properties",
+          "relative_to_build_root": "metrics-dropwizardmetrics/gradle.properties",
+          "sha256": "189ace3a650574eb2f8bb369f381627805024fab3ae7abe48d7fe24ca02dc6d9",
+          "bytes": 983,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 24,
+    "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/protobufhandler.java",
+    "repo_id": "85795396",
+    "original_seed": 20261047,
+    "sampled_module": "core",
+    "framework_key": "85795396_core",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "core",
+    "module_selector": "core",
+    "task_prefix": ":core:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\194_85795396_d33c3262\\output\\project_info.json",
+      "sha256": "e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "bytes": 524,
+      "exact_framework_key": "85795396_core"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/018.json",
+      "manifest_sha256": "d47a0eb7dd2f2420ac41e548d3e9eea81be46b3ea46535d6b27927b6df5cce8a",
+      "snapshot_index": 18,
+      "focal_path": "core/src/main/java/org/apache/calcite/avatica/remote/ProtobufHandler.java",
+      "focal_sha256": "75ff02822eb4e2152490473cc8c73a64131109b22655d40a48ce0d6b638ec520",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/build.gradle.kts",
+          "relative_to_build_root": "core/build.gradle.kts",
+          "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+          "bytes": 4483,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/gradle.properties",
+          "relative_to_build_root": "core/gradle.properties",
+          "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+          "bytes": 870,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 31,
+    "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardmetricssystem.java",
+    "repo_id": "85795396",
+    "original_seed": 20261054,
+    "sampled_module": "metrics-dropwizardmetrics",
+    "framework_key": "85795396_metrics-dropwizardmetrics",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "metrics-dropwizardmetrics",
+    "module_selector": "metrics-dropwizardmetrics",
+    "task_prefix": ":metrics-dropwizardmetrics:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\195_85795396_b6cb9e18\\output\\project_info.json",
+      "sha256": "07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "bytes": 650,
+      "exact_framework_key": "85795396_metrics-dropwizardmetrics"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/024.json",
+      "manifest_sha256": "b46ef041cb68b2bc1c2bcf7461c67ca36282537bf90fd3a78a30503a3fad9511",
+      "snapshot_index": 24,
+      "focal_path": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMetricsSystem.java",
+      "focal_sha256": "1fb0db2d3c70c1c97c7bd3e47209c815417f9fd9ac702b03d8081ed958386df6",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/build.gradle.kts",
+          "relative_to_build_root": "metrics-dropwizardmetrics/build.gradle.kts",
+          "sha256": "bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05",
+          "bytes": 1173,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/gradle.properties",
+          "relative_to_build_root": "metrics-dropwizardmetrics/gradle.properties",
+          "sha256": "189ace3a650574eb2f8bb369f381627805024fab3ae7abe48d7fe24ca02dc6d9",
+          "bytes": 983,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 40,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/invertbinarytree/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261063,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\033_41627638_900e296f\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/032.json",
+      "manifest_sha256": "cdf551d62bd3693fad931b35cc85b2b238ef1da6f9fa9ea04249dd2bb262a90f",
+      "snapshot_index": 32,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/InvertBinaryTree/Solution.java",
+      "focal_sha256": "cb44d2d63c80448709a104ea92d81b96a461a6a08688005297edcf984f064f3e",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 45,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maximumdepthofbinarytree/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261068,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\034_41627638_194905a6\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/036.json",
+      "manifest_sha256": "3733bc7f578bb9672eabb4d761dd4cc40453f70963ba882d78806c687a22444d",
+      "snapshot_index": 36,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/MaximumDepthofBinaryTree/Solution.java",
+      "focal_sha256": "1fb9316c7bc72c3af87604c7c0d9d72657049c2f1fd62b1eb81ff1a901eeeea7",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 80,
+    "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/protobufservice.java",
+    "repo_id": "85795396",
+    "original_seed": 20261103,
+    "sampled_module": "core",
+    "framework_key": "85795396_core",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "core",
+    "module_selector": "core",
+    "task_prefix": ":core:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\196_85795396_33f17a9f\\output\\project_info.json",
+      "sha256": "e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "bytes": 524,
+      "exact_framework_key": "85795396_core"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/065.json",
+      "manifest_sha256": "bc61dff13f9dec0c01e2855ee88bcb9978c285646a0683a15dc75db78ea648ec",
+      "snapshot_index": 65,
+      "focal_path": "core/src/main/java/org/apache/calcite/avatica/remote/ProtobufService.java",
+      "focal_sha256": "ea50fd46c7b7527180ad84e4043c8682f37b08c8e529732bb22fd42843691e8e",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/build.gradle.kts",
+          "relative_to_build_root": "core/build.gradle.kts",
+          "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+          "bytes": 4483,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/gradle.properties",
+          "relative_to_build_root": "core/gradle.properties",
+          "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+          "bytes": 870,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 81,
+    "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardmetricssystemfactory.java",
+    "repo_id": "85795396",
+    "original_seed": 20261104,
+    "sampled_module": "metrics-dropwizardmetrics",
+    "framework_key": "85795396_metrics-dropwizardmetrics",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "metrics-dropwizardmetrics",
+    "module_selector": "metrics-dropwizardmetrics",
+    "task_prefix": ":metrics-dropwizardmetrics:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\048_85795396_33421196\\output\\project_info.json",
+      "sha256": "07f6237b01c02b81d1413955e74963493b4ad54e1a1ea7a24094e42c48239131",
+      "bytes": 650,
+      "exact_framework_key": "85795396_metrics-dropwizardmetrics"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/066.json",
+      "manifest_sha256": "7d6ca3543f2b2e4be7cea58c859880b833215f50fcf215d384f739e3fa4ca1e3",
+      "snapshot_index": 66,
+      "focal_path": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMetricsSystemFactory.java",
+      "focal_sha256": "ad45d5bf21483b7b73589ac37156d19bd04e8f63d22c02e622dadbcd41941a3a",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/build.gradle.kts",
+          "relative_to_build_root": "metrics-dropwizardmetrics/build.gradle.kts",
+          "sha256": "bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05",
+          "bytes": 1173,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "metrics-dropwizardmetrics/gradle.properties",
+          "relative_to_build_root": "metrics-dropwizardmetrics/gradle.properties",
+          "sha256": "189ace3a650574eb2f8bb369f381627805024fab3ae7abe48d7fe24ca02dc6d9",
+          "bytes": 983,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 97,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parseccompletablefuture.java",
+    "repo_id": "74999474",
+    "original_seed": 20261120,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\162_74999474_fd9ad981\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/080.json",
+      "manifest_sha256": "3460717430698980279fa20bb6d12505594ac111499ea95e6b65b6625f807360",
+      "snapshot_index": 80,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/ParsecCompletableFuture.java",
+      "focal_sha256": "ab87f691a609a7d0256f89016f9ff52ca54907e58115e1b36266186ac45c49d5",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 98,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/zkfs/zkfsutil.java",
+    "repo_id": "6944525",
+    "original_seed": 20261121,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\038_6944525_ba0e160d\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/081.json",
+      "manifest_sha256": "690c8a751067a2e8e13848e3a8f81d307933fb99127afee5a6c49566d3fcfd5c",
+      "snapshot_index": 81,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/balancer/zkfs/ZKFSUtil.java",
+      "focal_sha256": "54cacf1e06a89212b5d3f320659bc79527d5aac8abfc5e35bd7ff6a33a7414b3",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 106,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsechttputil.java",
+    "repo_id": "74999474",
+    "original_seed": 20261129,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\163_74999474_603d73bf\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/087.json",
+      "manifest_sha256": "0aca9ed7da1cf91c79c1809c42b568953e3f28353da06aac4468c187c3f87098",
+      "snapshot_index": 87,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/ParsecHttpUtil.java",
+      "focal_sha256": "13052184b73122077cf36d64d531f87a097d84837dff422192e39f30d07572ee",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 110,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/discovery/stores/zk/zookeeperconnectionawarestore.java",
+    "repo_id": "6944525",
+    "original_seed": 20261133,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\152_6944525_0e47558f\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/090.json",
+      "manifest_sha256": "6e8096a06840032b4a78e4f700b0164856db37ec26eaa438b0f71da99dc6664f",
+      "snapshot_index": 90,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/discovery/stores/zk/ZooKeeperConnectionAwareStore.java",
+      "focal_sha256": "1b85133f0e45c74d37964fa6040c0926ec2d76037a11a4cda9154d4ed5d95287",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 129,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/battleship/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261152,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\008_41627638_d71b298e\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/105.json",
+      "manifest_sha256": "1ce4380710a25a38ca5dc4dac46f12f56cb33b72735890dfde84cc269486c8da",
+      "snapshot_index": 105,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/battleship/Solution.java",
+      "focal_sha256": "d2526b453ade2356168ebd9b072619b596dec5bfc665e534fe6ac45ddb8dba60",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 134,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/defaultasynccompletionhandler.java",
+    "repo_id": "74999474",
+    "original_seed": 20261157,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\164_74999474_e521567f\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/109.json",
+      "manifest_sha256": "0c80398acfae02b1c88a074251308d7a241fdc0a102847ab3cd35fde109d620b",
+      "snapshot_index": 109,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/DefaultAsyncCompletionHandler.java",
+      "focal_sha256": "15129969e0a4e0989bb5bfce32cc552810d6cc7ccb0d3386e05982dce327178b",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 135,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/battleship/parser.java",
+    "repo_id": "41627638",
+    "original_seed": 20261158,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\035_41627638_6bf65714\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/110.json",
+      "manifest_sha256": "121a057e55e31cb3e4df2a6510d4764d69d19550e09a961fb6794570a8d5f1f1",
+      "snapshot_index": 110,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/battleship/Parser.java",
+      "focal_sha256": "f2d390c134690cc4f36acd6c87fffd2daefaa908ce46fe5ebc1a66b6f0ccf5c9",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 156,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/wordladder/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261179,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\036_41627638_5af78817\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/128.json",
+      "manifest_sha256": "38e25b843dac729c01e66d7f0c07f3f5bcd15ccd9bd0f82987929b42ce285c59",
+      "snapshot_index": 128,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/WordLadder/Solution.java",
+      "focal_sha256": "562221fe1bcb0c2f3b94e92eb6f3a51a6e06fd94f2da2659397b3b8f473d2c66",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 161,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/loadbalancerutil.java",
+    "repo_id": "6944525",
+    "original_seed": 20261184,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\039_6944525_fa60eb27\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/133.json",
+      "manifest_sha256": "c475c10fd7a94a3495707ceb4743aa555b87b41bf3d093b2482a5e49beee5db8",
+      "snapshot_index": 133,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/balancer/util/LoadBalancerUtil.java",
+      "focal_sha256": "8d29646a839b167709fee50807e14e6f848598345e94cff68d307b7500c21984",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 165,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynchttpclient.java",
+    "repo_id": "74999474",
+    "original_seed": 20261188,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\041_74999474_b68a888f\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/137.json",
+      "manifest_sha256": "deab11744db6c24624f3ee02a95e7a652cf6a6e85bd14b2605f788c81c5c3063",
+      "snapshot_index": 137,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/ParsecAsyncHttpClient.java",
+      "focal_sha256": "46aefb1180410996e961644334ba164b05fcf9faf2ec60e60eb2b0b79fd7834a",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 169,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/movezeroes/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261192,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\037_41627638_2857f9c6\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/139.json",
+      "manifest_sha256": "5de54d44a685382f3111125683a519a28a207ef334c07d899c87f302ba0b0ec6",
+      "snapshot_index": 139,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/MoveZeroes/Solution.java",
+      "focal_sha256": "214b2cbb3f1d56b3baf41e27d61beabe41666d4f6871963c320d12628849890e",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 170,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/reverselinkedlist/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261193,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\038_41627638_9f4d73af\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/140.json",
+      "manifest_sha256": "daec956d1fcbc4f2744d5408ed3735a46fdf6d8ceacaf713f7cd66bfef96961d",
+      "snapshot_index": 140,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/ReverseLinkedList/Solution.java",
+      "focal_sha256": "a8f0a0c50998fe9d5d1b144f6b49b2892c87b7d27f52a65d43559ba21b62a2cb",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 175,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecclientprofilinglogutil.java",
+    "repo_id": "74999474",
+    "original_seed": 20261198,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\165_74999474_05c2f6b5\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/145.json",
+      "manifest_sha256": "e67d24b61e77a4d75a3843c166d5054d2749a0bc0f8d1535675244a127795e4e",
+      "snapshot_index": 145,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/ParsecClientProfilingLogUtil.java",
+      "focal_sha256": "ad704f95dcf782f3223363cad06493a4f041ac4af3fe156bd8aa5d5c77e8bb7f",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 184,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/islandperimeter/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261207,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\039_41627638_562560bf\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/154.json",
+      "manifest_sha256": "27c8510cf21872d345ccfc7c438d625c4851b509829a1d42af433155b6f146e9",
+      "snapshot_index": 154,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/IslandPerimeter/Solution.java",
+      "focal_sha256": "bd7c0f122a414a02dd038a29b36500a9ce1d06fc020f7ed736ace368e65e4808",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 194,
+    "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/connectionconfigimpl.java",
+    "repo_id": "85795396",
+    "original_seed": 20261217,
+    "sampled_module": "core",
+    "framework_key": "85795396_core",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "core",
+    "module_selector": "core",
+    "task_prefix": ":core:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\049_85795396_625c2e75\\output\\project_info.json",
+      "sha256": "e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "bytes": 524,
+      "exact_framework_key": "85795396_core"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/164.json",
+      "manifest_sha256": "8ac9a9a0254940cf6bf2ab1165c671022c0cb3dbc254f77369e908e00d6d63ab",
+      "snapshot_index": 164,
+      "focal_path": "core/src/main/java/org/apache/calcite/avatica/ConnectionConfigImpl.java",
+      "focal_sha256": "63ea042361f62f123e330e87a38f05d8c7b09cc23dd7e239b2c38a0a0bbb69e9",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/build.gradle.kts",
+          "relative_to_build_root": "core/build.gradle.kts",
+          "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+          "bytes": 4483,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/gradle.properties",
+          "relative_to_build_root": "core/gradle.properties",
+          "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+          "bytes": 870,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 197,
+    "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maxpointonline/plainloop/solution.java",
+    "repo_id": "41627638",
+    "original_seed": 20261220,
+    "sampled_module": "leetcode/battleships-in-a-board",
+    "framework_key": "41627638_leetcode/battleships-in-a-board",
+    "Gradle_version": "2.13",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_dir_relative_to_repo": "leetcode/battleships-in-a-board",
+    "module_selector": ".",
+    "task_prefix": "",
+    "wrapper_windows_relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+    "wrapper_properties_relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-2.13-all.zip",
+    "wrapper_distribution_type": "all",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\009_41627638_5e962fc1\\output\\project_info.json",
+      "sha256": "f6f4c2920bdae735a77f205690f425bb6302d773c098965fcbca4b1638247e3e",
+      "bytes": 682,
+      "exact_framework_key": "41627638_leetcode/battleships-in-a-board"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/167.json",
+      "manifest_sha256": "b1cc19fc5635d89e177b0183ba6192cce560cc995f535f6af169100c230e2aed",
+      "snapshot_index": 167,
+      "focal_path": "leetcode/battleships-in-a-board/src/main/java/com/github/maxpointonline/plainloop/Solution.java",
+      "focal_sha256": "112096b8ee30aa438c0624319953fa2a1d56b95a32459c16874c6c9031e6e8b0",
+      "selected_files": [
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "5ef4c008ea44bdd915675277a5572c56787d0e6a5dcfe761d54703a9c2f12171",
+          "bytes": 223,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "0c3c576e28b44eddcab6b8b4854f484363dfbcd047657d41654e839835da2c53",
+          "bytes": 53556,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "a209067259d57ecdb73493dd7122053c194772c6d6f3140f77171cfdcf8c7964",
+          "bytes": 237,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "435515c2ebd701d7e69b3b1e6d70eea3d2f70a9f14025a1d273565e412d6d4f7",
+          "bytes": 5210,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "398db6d288bcbfc7b2059f15e2bb6f301cb39e8c421bd1e5c5682ab9bb8ed104",
+          "bytes": 2404,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "leetcode/battleships-in-a-board/settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "e2438f2f0a2a018eb4d1e6c83964d732f03f95c896954276fd0c33996ac05cb1",
+          "bytes": 35,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 199,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/discovery/event/propertyeventbusrequeststhrottler.java",
+    "repo_id": "6944525",
+    "original_seed": 20261222,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\153_6944525_41aae381\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/169.json",
+      "manifest_sha256": "c48eda1041b7f5d8bd71224bd6a6bbd72ae711f731a3b2b77f89d91ebb37ed85",
+      "snapshot_index": 169,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/discovery/event/PropertyEventBusRequestsThrottler.java",
+      "focal_sha256": "a651fee3fa71715f607ca0dc7d4569de2e59364c08eac0ba7c068ee19553a5df",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 207,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/hashing/ringbasedurimapper.java",
+    "repo_id": "6944525",
+    "original_seed": 20261230,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\154_6944525_077b6da2\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/176.json",
+      "manifest_sha256": "bece202b306106d0d0bcce8cc7be98b70051973f58647eb220d83d8d9cbf5fb1",
+      "snapshot_index": 176,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/balancer/util/hashing/RingBasedUriMapper.java",
+      "focal_sha256": "ebe2aff05b826acf00c8fdfc5c018771d7f9a67cedd748a470ea416579635d7e",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 215,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasyncprogresstimer.java",
+    "repo_id": "74999474",
+    "original_seed": 20261238,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\166_74999474_9551429b\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/183.json",
+      "manifest_sha256": "e02367b80e7baa9af5f01856711a8028ee1e29f547ecf655269ce36efb4ac89c",
+      "snapshot_index": 183,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/ParsecAsyncProgressTimer.java",
+      "focal_sha256": "ff0c72a1b6209342bff02e46840aa60fcc2b35d9477e21a756d43a84f2e607ee",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 227,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/servers/zookeeperconnectionmanager.java",
+    "repo_id": "6944525",
+    "original_seed": 20261250,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\155_6944525_3804399d\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/193.json",
+      "manifest_sha256": "694c0b6c909cf614907ce6632027d0ec081b766b6c89a5b19d347fddb2bb04c6",
+      "snapshot_index": 193,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/balancer/servers/ZooKeeperConnectionManager.java",
+      "focal_sha256": "64165882ae56c51b45336fe5b5804b49bf19a857bba43280988a384c133c9a4a",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 241,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/warmuploadbalancer.java",
+    "repo_id": "6944525",
+    "original_seed": 20261264,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\156_6944525_7142b9fa\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/201.json",
+      "manifest_sha256": "61a7e835b2a8a2b8a295ac754453ed9db5647ba780aa1a17458f67edd438d459",
+      "snapshot_index": 201,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/balancer/util/WarmUpLoadBalancer.java",
+      "focal_sha256": "d02b0f0e71170cf137b5c021f8de16017f425eab16e9a0cafd07f7fea0db19e4",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 251,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/clientselector.java",
+    "repo_id": "6944525",
+    "original_seed": 20261274,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\157_6944525_2a9168ba\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/210.json",
+      "manifest_sha256": "8217c9dbe1f4bc4ea0f4f96ff4cc4a8002b4c18914bd662a74bc4f80c42b7df2",
+      "snapshot_index": 210,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/ClientSelector.java",
+      "focal_sha256": "d2c8774cc1f49cd6998b43254a33e55ff8b63b442fca7878b3f97c100e6edbbc",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 257,
+    "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/kerberosconnection.java",
+    "repo_id": "85795396",
+    "original_seed": 20261280,
+    "sampled_module": "core",
+    "framework_key": "85795396_core",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "core",
+    "module_selector": "core",
+    "task_prefix": ":core:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\197_85795396_e0bbdbb3\\output\\project_info.json",
+      "sha256": "e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "bytes": 524,
+      "exact_framework_key": "85795396_core"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/216.json",
+      "manifest_sha256": "c3fcf30fc0c2b70b1dde17d56b53bf647c2428109331fcc22777c7fb0be4215d",
+      "snapshot_index": 216,
+      "focal_path": "core/src/main/java/org/apache/calcite/avatica/remote/KerberosConnection.java",
+      "focal_sha256": "c241d5f5734349e24569ee0380480b7e7d3080ea0d61b0b004bec01b388e734c",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/build.gradle.kts",
+          "relative_to_build_root": "core/build.gradle.kts",
+          "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+          "bytes": 4483,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/gradle.properties",
+          "relative_to_build_root": "core/gradle.properties",
+          "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+          "bytes": 870,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 264,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/backuprequests/trackingbackuprequestsstrategy.java",
+    "repo_id": "6944525",
+    "original_seed": 20261287,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\158_6944525_f80fcb7a\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/223.json",
+      "manifest_sha256": "1afdf6ae44b6f80d50803bdca943d02dcca71563be314b6559dea8cbd916b1f3",
+      "snapshot_index": 223,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/backuprequests/TrackingBackupRequestsStrategy.java",
+      "focal_sha256": "4998d8954556d1cfc16e004761fd454a73570639cf2cbe4a603f5315c44ca822",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 268,
+    "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/stateupdater.java",
+    "repo_id": "6944525",
+    "original_seed": 20261291,
+    "sampled_module": "d2",
+    "framework_key": "6944525_d2",
+    "Gradle_version": "6.9.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "d2",
+    "module_selector": "d2",
+    "task_prefix": ":d2:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-6.9.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\159_6944525_c1262f90\\output\\project_info.json",
+      "sha256": "cb9f3aeafa8636a5b9994d72f801597be87ec81fd4c7b13faba145bf660090fd",
+      "bytes": 508,
+      "exact_framework_key": "6944525_d2"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/226.json",
+      "manifest_sha256": "4cf02123cf2ffa252c87cea2669d3d15c0ccc3963f0e872ebb33f002bf41905f",
+      "snapshot_index": 226,
+      "focal_path": "d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/StateUpdater.java",
+      "focal_sha256": "1b661c16cc74415353b3de6d4b89c94ab85f11f7f7b742b24d79fdf52b2c981c",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "bd6577143fd7bd1e964498cfc4570cb5059bbd1e088b70053ad53ec72915b590",
+          "bytes": 18341,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "d2/build.gradle",
+          "relative_to_build_root": "d2/build.gradle",
+          "sha256": "0820e0d869d7aeb85ad8369a3568e374257e54705c50e13cbaa6e0bb133ee911",
+          "bytes": 2719,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "9e4b0bb24d2379d14429ec5a5cb9ff5ea53f40ba80e4b55dd7e63eb4e3b154a3",
+          "bytes": 162,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637",
+          "bytes": 59203,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "4e9cdc1cde88d949b967beaab062bb4209b864a4fe96eb36a4dcfe1bdc7c04e9",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "a65c5770afb02757235d404e2b19d7a29da69593a6c2e843f7139de6940751ee",
+          "bytes": 8304,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+          "bytes": 2763,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "aae9f4054cf8fc9bd54991d0c1ed17d9fcba9a57cee72261785277a8ae5f9b59",
+          "bytes": 1787,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 271,
+    "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/connectionpropertiesimpl.java",
+    "repo_id": "85795396",
+    "original_seed": 20261294,
+    "sampled_module": "core",
+    "framework_key": "85795396_core",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "core",
+    "module_selector": "core",
+    "task_prefix": ":core:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\198_85795396_5c0f04f0\\output\\project_info.json",
+      "sha256": "e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "bytes": 524,
+      "exact_framework_key": "85795396_core"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/229.json",
+      "manifest_sha256": "aef3db9bdbe62d4edde346c8f589e456a419941f800750411e88018349d15e6e",
+      "snapshot_index": 229,
+      "focal_path": "core/src/main/java/org/apache/calcite/avatica/ConnectionPropertiesImpl.java",
+      "focal_sha256": "0f30a20c0cecfded75308ce795027c6cbd84c45e8eab4c0d18f2a139d97b432a",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/build.gradle.kts",
+          "relative_to_build_root": "core/build.gradle.kts",
+          "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+          "bytes": 4483,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/gradle.properties",
+          "relative_to_build_root": "core/gradle.properties",
+          "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+          "bytes": 870,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 274,
+    "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynchttprequest.java",
+    "repo_id": "74999474",
+    "original_seed": 20261297,
+    "sampled_module": "parsec-clients",
+    "framework_key": "74999474_parsec-clients",
+    "Gradle_version": "5.2.1",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "parsec-clients",
+    "module_selector": "parsec-clients",
+    "task_prefix": ":parsec-clients:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-5.2.1-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": null,
+    "junit_version_metadata": null,
+    "testng_version_metadata": "7",
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\167_74999474_4328525a\\output\\project_info.json",
+      "sha256": "520dfbfa04937ff808b933d31d5104fac1da8e54c44c8184a7abaf6eb8bcc656",
+      "bytes": 582,
+      "exact_framework_key": "74999474_parsec-clients"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/232.json",
+      "manifest_sha256": "a7fa2fd7cbc0a3a84e84dcf587d01c1c9bc26b951f34c3e0af6dfece011cdbdc",
+      "snapshot_index": 232,
+      "focal_path": "parsec-clients/src/main/java/com/yahoo/parsec/clients/ParsecAsyncHttpRequest.java",
+      "focal_sha256": "a500f22dcf20b45547c8ad437b6b46117ae0c1d27a2a6a6a9286c4c20f655f09",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle",
+          "relative_to_build_root": "build.gradle",
+          "sha256": "2f2e27403c4bb6e91d17450b043e7b38f3c10e30603b34818c10611b9cba4621",
+          "bytes": 3248,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "bc7d5df4ba94c2786a86ca139bef0496ca4090460fefbc7ccab63bdfc40b0917",
+          "bytes": 158,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "76b12da7f4a7cdd025e5996811a2e49bf5df0fb62d72554ab555c0e434b63aae",
+          "bytes": 55190,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "f2d4e4f11e2be9bbb0889c7c778d91709f2184e370764400e9b09208f494e2a6",
+          "bytes": 207,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "d8d2ff252a0e96290a1ed2a37243fb9b1a45340769067de7fbd97fa2a13bb5c5",
+          "bytes": 5477,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "243108dac5812721c633e75ca00fb22e69ee27d140544cfe0bb2cc19860a700d",
+          "bytes": 2269,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "parsec-clients/build.gradle",
+          "relative_to_build_root": "parsec-clients/build.gradle",
+          "sha256": "82725a259f0321e7fe0b3c5d196093fa7e1aa36f3e7ea67a6ac12b1a88df2364",
+          "bytes": 1791,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle",
+          "relative_to_build_root": "settings.gradle",
+          "sha256": "d2b84432de4d433b9231566984c99b243dc76b1c707b1fba1696d1fa7295c172",
+          "bytes": 242,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  },
+  {
+    "sample_index_1based": 299,
+    "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/querystate.java",
+    "repo_id": "85795396",
+    "original_seed": 20261322,
+    "sampled_module": "core",
+    "framework_key": "85795396_core",
+    "Gradle_version": "8.14.4",
+    "Java_version_metadata": "1.8",
+    "build_root_relative_to_repo": ".",
+    "module_dir_relative_to_repo": "core",
+    "module_selector": "core",
+    "task_prefix": ":core:",
+    "wrapper_windows_relative_to_repo": "gradlew.bat",
+    "wrapper_properties_relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+    "wrapper_distribution_url": "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip",
+    "wrapper_distribution_type": "bin",
+    "wrapper_distribution_SHA256_if_declared": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+    "junit_version_metadata": "4",
+    "testng_version_metadata": null,
+    "dependency_interpretation": "metadata labels only; resolved classpath controls later additions",
+    "metadata_evidence": {
+      "frozen_blob_relative_to_B1": "inputs/context251_v1/blobs/e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "source_label_only_not_read": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\199_85795396_22b34a0a\\output\\project_info.json",
+      "sha256": "e985e7a850185a9dcc92fdc65e9c8b7292876755f4570cf15f42406505f168f2",
+      "bytes": 524,
+      "exact_framework_key": "85795396_core"
+    },
+    "snapshot_evidence": {
+      "manifest_relative_to_B1": "inputs/snapshot_v3/manifests/251.json",
+      "manifest_sha256": "8838c1ca0d4832e14e26ecf7bcd9cddbaa87168aa04c58f86da30d415a3f1377",
+      "snapshot_index": 251,
+      "focal_path": "core/src/main/java/org/apache/calcite/avatica/QueryState.java",
+      "focal_sha256": "db56e1ca4d9a76ed080a3a40d13f0546408cd2a59fc29e44447419149d035090",
+      "selected_files": [
+        {
+          "relative_to_repo": "build.gradle.kts",
+          "relative_to_build_root": "build.gradle.kts",
+          "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+          "bytes": 22547,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/build.gradle.kts",
+          "relative_to_build_root": "core/build.gradle.kts",
+          "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+          "bytes": 4483,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "core/gradle.properties",
+          "relative_to_build_root": "core/gradle.properties",
+          "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+          "bytes": 870,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle.properties",
+          "relative_to_build_root": "gradle.properties",
+          "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+          "bytes": 3127,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.jar",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.jar",
+          "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+          "bytes": 43764,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradle/wrapper/gradle-wrapper.properties",
+          "relative_to_build_root": "gradle/wrapper/gradle-wrapper.properties",
+          "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+          "bytes": 1145,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew",
+          "relative_to_build_root": "gradlew",
+          "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+          "bytes": 8733,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "gradlew.bat",
+          "relative_to_build_root": "gradlew.bat",
+          "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+          "bytes": 2937,
+          "CAS_blob_rehashed": true
+        },
+        {
+          "relative_to_repo": "settings.gradle.kts",
+          "relative_to_build_root": "settings.gradle.kts",
+          "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+          "bytes": 3640,
+          "CAS_blob_rehashed": true
+        }
+      ]
+    },
+    "status": "METADATA_VERIFIED_EXECUTION_NOT_ADMITTED"
+  }
+]

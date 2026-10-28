@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-07-24T01:31:03+00:00",
+  "prompt_name": "rbl4-zero-shot",
+  "model": "gpt-4o-mini-2024-07-18",
+  "prompt_hash_sha256": "af9bd7227ecbebf631af20b6a3b8bcc774bd14a5c9a3ae90baf77e8217293dd2",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are provided with Java class. Create a test class that fully tests the proposed Java class using the project information for imports. Reply with code only, do not add other text that is not code."
+    },
+    {
+      "role": "user",
+      "content": "The project uses {{testing_framework}} and Java {{java_version}} and Java class is:\n<code>\n{{focal_class}}\n</code>"
+    }
+  ],
+  "protocol_note": "AgoneTest base zero-shot prompt from proposal; source-level rule placeholder removed."
+}

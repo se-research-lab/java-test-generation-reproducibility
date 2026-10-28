@@ -1,0 +1,2905 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\237_9884445_7bd3161b\\compiledrepos\\9884445",
+  "class_indices": [
+    183
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "c4970b44061bcdf4189fc35e1396af22887082c6996d81c55468549de6cef991",
+      "bytes": 205,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297945825600
+    },
+    {
+      "relative": ".travis.yml",
+      "sha256": "7eccb6fa90d022ea80560796425d34c2edae3f1580fe4c3219ed39d5f0c76600",
+      "bytes": 146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297945825600
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "9e358866a9978ffab4d26672cd0196fa8225cc6fd21eb47b772a51e9ff64da49",
+      "bytes": 11615,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297945825600
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "4210d4bbe064d75fe91af9234e05117373e736073c15f0459da0a225efa39839",
+      "bytes": 8183,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298124020600
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "24b810bf294d3ce110d684f18386358c70206bc993c5091ef55cebef97ed4a9c",
+      "bytes": 15465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784855106265956600
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "360c38998914368ac317851736d055a47c1e74c575c88861e217a10844554ba9",
+      "bytes": 23237,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784855106136376600
+    },
+    {
+      "relative": "README.md",
+      "sha256": "45b34e1c94448b52646f8752d7d2c7950bbce0262134166966616d06084b0519",
+      "bytes": 2215,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297947300200
+    },
+    {
+      "relative": "docs/Makefile",
+      "sha256": "13cc7490fcfa215104a3ac25e8577879672745cacbbc00bc8d0f08b0fd24b36e",
+      "bytes": 6948,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297947300200
+    },
+    {
+      "relative": "docs/source/conf.py",
+      "sha256": "40ef30082cf3fbc88d20dc81ab0f7e8f6ebb2065cb83ab00c918b920e83964cd",
+      "bytes": 10829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297950831400
+    },
+    {
+      "relative": "docs/source/contact.rst",
+      "sha256": "b9f3c59472f05b742c7eda6eb835bf4c2e1c94e009679f4e493c1281238d8056",
+      "bytes": 964,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297950831400
+    },
+    {
+      "relative": "docs/source/faq.rst",
+      "sha256": "6aa6c92064a9125beb9f5f291a1c01527c2e89b7e4f3e1f31995374d75892514",
+      "bytes": 1038,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297951953000
+    },
+    {
+      "relative": "docs/source/getting-started.rst",
+      "sha256": "151e4b9b1b1b3aa49db14d80a7e995e47d40cc6be4d712d7985fde80c69f121f",
+      "bytes": 14537,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297951953000
+    },
+    {
+      "relative": "docs/source/index.rst",
+      "sha256": "d13e60321638cfb5d42e16683d97afca902bdfcab587f94d12b1979e7a43f773",
+      "bytes": 1273,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297951953000
+    },
+    {
+      "relative": "docs/source/release-notes.rst",
+      "sha256": "113925649c1a8d1defa2f6a1fcaf3f6c685e06a9068a72981e9334e61939d786",
+      "bytes": 16003,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297957395300
+    },
+    {
+      "relative": "docs/source/requirements.txt",
+      "sha256": "460e3ed88b7824aba3c2b89cbaa479cd87a4c1f05169114f1bb4ca366efbce19",
+      "bytes": 24,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297957395300
+    },
+    {
+      "relative": "docs/source/about/index.rst",
+      "sha256": "7373a4f8434cbb3947fca0d55fd9fcdd6d58d3421eafdccd2ae4117c32b33655",
+      "bytes": 62,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297950831400
+    },
+    {
+      "relative": "docs/source/manual/api.rst",
+      "sha256": "827c88b5fdffe79660f3af7a7d9c72f614c311e2948b4b7a637837f991c23e50",
+      "bytes": 826,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297952952400
+    },
+    {
+      "relative": "docs/source/manual/application_config.yml",
+      "sha256": "ec37a3d10a849a3bae9da38667749a79c621b188080744fd70b2f6bf1100c86e",
+      "bytes": 989,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297952952400
+    },
+    {
+      "relative": "docs/source/manual/container_config.yml",
+      "sha256": "9f237ca3068f5a79ba67c4604c2d47b8387f9b4cd0b88cae214c309d1a1061a6",
+      "bytes": 1546,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297952952400
+    },
+    {
+      "relative": "docs/source/manual/core.rst",
+      "sha256": "5d9e1f2b17e88abbd5440eb2bf16291b1eb0562cd027a99b7c9e35a551fc7e14",
+      "bytes": 12403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297952952400
+    },
+    {
+      "relative": "docs/source/manual/examples.rst",
+      "sha256": "cb9b37027f3ce24a92a3c091fd4415b6e9407d3a6a3807dd91034e1dd1ba85a5",
+      "bytes": 676,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297954367400
+    },
+    {
+      "relative": "docs/source/manual/generator.rst",
+      "sha256": "1d80231e0cc15e6dc0cf569640eee5881636bbea364fed825dc439d9ad9a4eaa",
+      "bytes": 2528,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297954367400
+    },
+    {
+      "relative": "docs/source/manual/index.rst",
+      "sha256": "c82aa95cca047be702071cbf1b96c5a754469c270bd13e9fed1782298a006458",
+      "bytes": 1915,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297954367400
+    },
+    {
+      "relative": "docs/source/manual/instrumentation.rst",
+      "sha256": "8c3fe196e59571124d69e1d190bad3a42e62c37f816172d0f4bba2241948d914",
+      "bytes": 18912,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297955368000
+    },
+    {
+      "relative": "docs/source/manual/jpa.rst",
+      "sha256": "f476c2782a22421f59f27fdba8b3753090d6336ee06ab272aa1a3dca0477c3f5",
+      "bytes": 1508,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297955368000
+    },
+    {
+      "relative": "docs/source/manual/metrics.rst",
+      "sha256": "bbeda1cb8c2675555e0f471ab521a003856ccd35c63bd2e4045660d9effaec86",
+      "bytes": 3375,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297956394700
+    },
+    {
+      "relative": "docs/source/manual/migrations.rst",
+      "sha256": "8a675538daa3097abe1a2a01c398751d4fab5d0e44a28b1e79fe01cfa1eac768",
+      "bytes": 1900,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297956394700
+    },
+    {
+      "relative": "docs/source/manual/security.rst",
+      "sha256": "7adb8b35713ba9ed589b16861ea6cafbd2e0bd22dbc09453ab7a8acc03623a45",
+      "bytes": 6413,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297956394700
+    },
+    {
+      "relative": "docs/source/manual/test.rst",
+      "sha256": "f29c61b5a61901189f1b66d5b6d820f452a316fc96b97a8b332ef6e25ad622b5",
+      "bytes": 4102,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297957395300
+    },
+    {
+      "relative": "docs/source/_static/hero.png",
+      "sha256": "0ae2da5edff90a8c2d050fab34fe70edbe8ccf2bc6710d1cc47a8838cef61ff6",
+      "bytes": 17369,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297948500900
+    },
+    {
+      "relative": "docs/source/_static/logo.png",
+      "sha256": "6ff68e242d36f13fe12affacac56d0999739917f1db1abab5df389bac993ec49",
+      "bytes": 1397,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297949697000
+    },
+    {
+      "relative": "docs/source/_static/logo24.png",
+      "sha256": "02fe9464449c707befffd1e990a8b24b5674aaa07963f3ac0793adc855b4e18e",
+      "bytes": 986,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297949697000
+    },
+    {
+      "relative": "docs/source/_static/my-styles.css",
+      "sha256": "ba092b8f210ada14d7ab6739599cc2db8a8b5f13abc7d55efadcc313456e61bd",
+      "bytes": 2201,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297949697000
+    },
+    {
+      "relative": "docs/source/_static/images/minnal.png",
+      "sha256": "936b8ede5288ab164704f8c25ceb89d440a0d05613f144209840890476ad50e8",
+      "bytes": 58119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297948500900
+    },
+    {
+      "relative": "docs/source/_templates/layout.html",
+      "sha256": "88212dc5c48214be9a05676dccd6d7f0b3b55acd2c771b80cb617b85e610974c",
+      "bytes": 1129,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297949697000
+    },
+    {
+      "relative": "docs/source/_templates/sidebartoc.html",
+      "sha256": "f3e0de8241a474e05c5464630610802b37018f77fc072f29cbe9c30980adf2a8",
+      "bytes": 120,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297950831400
+    },
+    {
+      "relative": "minnal-api/pom.xml",
+      "sha256": "3dba233c3348a14b04babc14d3bb5d3de684b7eb255e0d9f921818db92cd8d9f",
+      "bytes": 2031,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297958396000
+    },
+    {
+      "relative": "minnal-api/src/main/java/org/minnal/api/ApiBundle.java",
+      "sha256": "1115311b27864be75b4e10c9dee72dcfe0ab743da5d0fb8e53db045efcef7773",
+      "bytes": 3626,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297959394700
+    },
+    {
+      "relative": "minnal-api/src/main/java/org/minnal/api/ApiBundleConfiguration.java",
+      "sha256": "fa5ce745f029eaba4fb1487cb5865e42b1ea12ff990cdf8aff636b6df99c3dca",
+      "bytes": 1419,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297960395000
+    },
+    {
+      "relative": "minnal-api/src/main/java/org/minnal/api/ApiPlugin.java",
+      "sha256": "f2ee4b9c0478653804e08f97a34c88c61969ff070069a3d8f6485a2dd52f33d5",
+      "bytes": 1040,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297960395000
+    },
+    {
+      "relative": "minnal-api/src/main/java/org/minnal/api/filter/CorsFilter.java",
+      "sha256": "3cf68e7ea46022f43da5fa3f314abe92a9bc3fdfc0047c53f9e6ce886072adb3",
+      "bytes": 865,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297960395000
+    },
+    {
+      "relative": "minnal-api/src/main/java/org/minnal/api/filter/ExcludeAnnotationsConvertor.java",
+      "sha256": "1783b3927006221d0dc71d9897f720f302d23345de135a3f51d0f9b409a09929",
+      "bytes": 1647,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297961395300
+    },
+    {
+      "relative": "minnal-api/src/main/java/org/minnal/api/filter/MinnalApiSpecFilter.java",
+      "sha256": "10469fcf6b383b8b5110c6f796f3ee233d5adf1025851e62235ff907026c3c4b",
+      "bytes": 805,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297961395300
+    },
+    {
+      "relative": "minnal-api/src/main/resources/META-INF/services/org.minnal.core.Bundle",
+      "sha256": "a1b0a71b04e7a19e550b921b9a69820b6b76dd53e63ccd4c02d00743265d802f",
+      "bytes": 26,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297962395200
+    },
+    {
+      "relative": "minnal-api/src/test/java/org/minnal/api/ApiBundleTest.java",
+      "sha256": "a46edcb73dc4efde5d2070cc46689abd30b39d9502f7a57d9699e126f06e4ba8",
+      "bytes": 5240,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297963394600
+    },
+    {
+      "relative": "minnal-api/src/test/java/org/minnal/api/ApiPluginTest.java",
+      "sha256": "32180aa15b99483eb7bb1d95d9a734573dc0cc82620d06ffb0e4caa56402336e",
+      "bytes": 1800,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297963394600
+    },
+    {
+      "relative": "minnal-api/src/test/java/org/minnal/api/filter/CorsFilterTest.java",
+      "sha256": "6b7e379fe67f25402f3c51306d41c92819ded9df06ba2638277eadbf3c8f735d",
+      "bytes": 1589,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297964395800
+    },
+    {
+      "relative": "minnal-api/src/test/java/org/minnal/api/filter/ExcludeAnnotationsConvertorTest.java",
+      "sha256": "645d9c2bc56cc09a6c5d335989848b503dee693b8325907b7ae030833a56f308",
+      "bytes": 3828,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297964395800
+    },
+    {
+      "relative": "minnal-api/src/test/java/org/minnal/api/filter/MinnalApiSpecFilterTest.java",
+      "sha256": "ce79a782af36b1a647ac75785668712f4712f119f523b52b4d179941f2665202",
+      "bytes": 1457,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297965395500
+    },
+    {
+      "relative": "minnal-core/pom.xml",
+      "sha256": "83ec0056ebb6fc34220f18d8d48a11e72ce5fba4c5a33e5ddafadf7e6631a903",
+      "bytes": 2077,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297965395500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/Bootstrap.java",
+      "sha256": "97a64689dd521085b6035ae65f8d7ad336be21e1f2850a95443e0278afb30ec8",
+      "bytes": 1479,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297966396000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/Application.java",
+      "sha256": "6667f73c8345844752f10f96011613239e613b6b536877204f68fc49137cde6f",
+      "bytes": 4191,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297967395500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/ApplicationContext.java",
+      "sha256": "3addcf6358e2e5be23a9eba372397124d5912dfa7f917e566b6c4373da0f654b",
+      "bytes": 3759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297967395500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/ApplicationMapping.java",
+      "sha256": "9ee8bad4f3f7b47d690fa686e394605495b6587849984fca1df22a4b1e987a5d",
+      "bytes": 4176,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297967395500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/Bundle.java",
+      "sha256": "0e77204d86f6412225af5d02c9b388a4ab7df9dc5cb298eb20a044a7496a0fac",
+      "bytes": 252,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297967395500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/BundleConfiguration.java",
+      "sha256": "a0b6cc1f4b987afb7a619ddd1a82b396da0355f88c7475d1a1367060500cd545",
+      "bytes": 359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297968395200
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/Container.java",
+      "sha256": "da84af00f5646596a83c1a3f309c0adaf2845b618d51b0f6d0bfeb28cd5053e2",
+      "bytes": 6253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297968395200
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/ContainerAdapter.java",
+      "sha256": "2b166d9a0232bbf52a24b4c73236206d5b04ef79f4d1a9ecdd4ed5d0985fffdb",
+      "bytes": 822,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297968395200
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/ContainerLifecycleListener.java",
+      "sha256": "77b41824eb924fafd4b07c4198d39c57defcc70ae658fc0c06ca7ef19805a3fb",
+      "bytes": 1165,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297969395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/ContainerMessageObserver.java",
+      "sha256": "7a0f86d0929d8dacf9157a2192d2ee36f10b4a1d54403a3f986f9ff28c745a95",
+      "bytes": 2890,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297969395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/JacksonProvider.java",
+      "sha256": "ebe9251bcec249cc742b47557a5120d78511a15f18af56501a1fbf9604558362",
+      "bytes": 3053,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297969395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/Lifecycle.java",
+      "sha256": "c5057e5c1b687a62fc90e4f6969fd84cece956e0e276b9293d48f9aea4f43944",
+      "bytes": 146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297969395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/LifecycleListener.java",
+      "sha256": "62cc1b7e3981a4759768e579360f6afa338d319d3836165e3c6febefdf1e7f43",
+      "bytes": 278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297970394400
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/MessageListener.java",
+      "sha256": "c1c7d349a2131ab1e7fb79dbfc7a937e2fc40d9b55baa5d65beb6ebd112acb0d",
+      "bytes": 452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297970394400
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/MessageListenerAdapter.java",
+      "sha256": "c5e4d5cf9dda7023800b7be3fde369221320167151595accfb464ab1aa96faf6",
+      "bytes": 621,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297970394400
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/MinnalException.java",
+      "sha256": "a822c22a486e4f0023436d393e9bf435468d13e3604c1b9ac29787227a5285d0",
+      "bytes": 564,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297970394400
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/Plugin.java",
+      "sha256": "d082a6f4c822691ac53a68d4c97c04aad919c40f1906e6e1825e1eb450ae6e0c",
+      "bytes": 265,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297971394300
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/Router.java",
+      "sha256": "6c3128a03c452f6430250dce2cf6667ae3917f0b7635a0a99c5740c9ffc5ab46",
+      "bytes": 6522,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297971394300
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/RouterListener.java",
+      "sha256": "5f84aae3c6409137956fd84882f29cdcb3b623fced7279424193cead076f90ea",
+      "bytes": 223,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297971394300
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/ApplicationConfiguration.java",
+      "sha256": "d31ac7f229496b449cbea37a656b9ae6ad922abf9f1822462452763c8ca51f62",
+      "bytes": 2689,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297972394000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/Configurable.java",
+      "sha256": "93aee8d21e3b3593fc0c75d5756d4a4a908fbe6be1e851f3df8221a685f53beb",
+      "bytes": 177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297972394000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/Configuration.java",
+      "sha256": "90daeed554970d9b14a3fdc3652e1c7521befc59f4a53f9d68944e59e691d8a0",
+      "bytes": 969,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297972394000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/ConfigurationProvider.java",
+      "sha256": "6803ffd51d75324a04610a099c696a4a8184f71af047cd71e85b4b64c3e57d6c",
+      "bytes": 752,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297972394000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/ConnectorConfiguration.java",
+      "sha256": "1621605ed7db0c498feb77478571ace4a99a36ace7eb5b72136a1633146ac997",
+      "bytes": 3074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297973395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/ContainerConfiguration.java",
+      "sha256": "73cdea738736295eb6c00226aeaad946049834d301da7b06d37fcc25785f2043",
+      "bytes": 1908,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297973395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/DatabaseConfiguration.java",
+      "sha256": "9acf1d89256669f0f2faf2aa6dd8f74d6f1f2cca7432f412052f6bd62b9b20e2",
+      "bytes": 4517,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297973395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/DefaultConfigurationProvider.java",
+      "sha256": "9472bb203178161af6346ee51fff06a762846f1b8bea53a037b3b2a2a63a30e5",
+      "bytes": 1359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297974394800
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/ResourceConfiguration.java",
+      "sha256": "63c9719926faba6a6feee4da749df206bc230fef1aaf482d28fd4f4fa6c7e715",
+      "bytes": 315,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297974394800
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/RouteConfiguration.java",
+      "sha256": "5f2755c90a2c812208e18ce9b998ef98b6aa586cad48ea8a5acb8075c8eb4753",
+      "bytes": 307,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297974394800
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/ServerConfiguration.java",
+      "sha256": "39bf122f40df5718192da4f27bb17c59bc5c39fcf31c4ac97f2e681f3363d099",
+      "bytes": 1162,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297975394500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/config/SSLConfiguration.java",
+      "sha256": "cfe5a778ea1773efe480d90dfe4e3508f8d3ee4584aab23cabe2cd85d6f59395",
+      "bytes": 2063,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297975394500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/db/C3P0DataSourceProvider.java",
+      "sha256": "41d97718a9064e1e5d4d846aaaebd3b5dc94c76179ad7a6e392dcc7146b586c3",
+      "bytes": 2795,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297975394500
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/db/C3P0DataSourceStatistics.java",
+      "sha256": "d7dc5db4dcb57ef1f6408da07a3761e20b55bd43250e3c17ad12626f238d5c39",
+      "bytes": 3028,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297976395100
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/db/DataSourceProvider.java",
+      "sha256": "9a425a98855d3cc50603985585686b4162e4ebcfafd8035ffd3e3647c68c215d",
+      "bytes": 610,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297976395100
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/db/DataSourceStatistics.java",
+      "sha256": "198db42c2a48c33193b3c82d1a90cab92cc6b1efc8626e116b140554be8078dd",
+      "bytes": 644,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297976395100
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/AbstractHttpConnector.java",
+      "sha256": "3fd71593412f2e2c44617b21eb2eb5a0151a70dfb509c6acfe4fd8974e1a7cfe",
+      "bytes": 5570,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297977393900
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/ConnectorListener.java",
+      "sha256": "d1a158bffe521643e43528447e798994cd367d3456ecf72a6dd11fe14cfde587",
+      "bytes": 340,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297977393900
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/HttpConnector.java",
+      "sha256": "3e76a5f2bcb0d85c345a53baac47948d3c0644d76ce65ed417f0ba76b72c6ee7",
+      "bytes": 480,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297978395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/HttpsConnector.java",
+      "sha256": "1bc1cf4e6ba3cbcbb3c5d511964c1dca69d93bc31fdac15d331e13da5329fa2e",
+      "bytes": 3064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297978395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/MessageContext.java",
+      "sha256": "c59dff2b0524fa2a462ba4bc8fd21c38826ab57600d63d34ad0788df4915d709",
+      "bytes": 2438,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297978395000
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/ResponseWriter.java",
+      "sha256": "84b09d9177bf6e1c604d2102f3a1f1f7c78294bfe5c9d7b2eb3af2b6bfe07b5b",
+      "bytes": 160,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297979394400
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/Server.java",
+      "sha256": "6188fd4cabf52c62299cd159d696f4143264c5a4e3892a517bf730d05575ab7b",
+      "bytes": 2532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297979394400
+    },
+    {
+      "relative": "minnal-core/src/main/java/org/minnal/core/server/ServerBundleConfiguration.java",
+      "sha256": "5e4d52fc79f4b775b8fbe044dd0a49afc83a2dc2a9e9a6d8cf050a53ede391fc",
+      "bytes": 206,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297979394400
+    },
+    {
+      "relative": "minnal-core/src/main/resources/META-INF/container.sample.yml",
+      "sha256": "ab34b5af42983713ae57ab923ee5f2c5c618caa9c57d277a1c6c74b33ece83c0",
+      "bytes": 640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297980395300
+    },
+    {
+      "relative": "minnal-core/src/main/resources/META-INF/services/org.minnal.core.Bundle",
+      "sha256": "31a253832c58c4fd6bb30f4eeb40e82775d19cf7e32ece15d3b9884a7b7c821c",
+      "bytes": 31,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297981394300
+    },
+    {
+      "relative": "minnal-core/src/main/resources/META-INF/services/org.minnal.core.entity.metadata.handler.AnnotationHandler",
+      "sha256": "ebbc97218965dba2375b75f2df743faf654662302658d82a6999075a4c15a5a1",
+      "bytes": 134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297981394300
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/ApplicationContextTest.java",
+      "sha256": "2cdd7c27c0c7fac67f70dbe531b78c3d55ddf85c4b401dabd75bacd4844bdf6f",
+      "bytes": 1832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297982403300
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/ApplicationMappingTest.java",
+      "sha256": "aa8f5b14148432321281ee042bb82c949cd5c80929d73594b1d370d7b4eca70b",
+      "bytes": 4558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297982403300
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/ApplicationTest.java",
+      "sha256": "113c1061d61f5aa0b3553dcc6a55626f762e591292f1ad151e4c3b6f17a70231",
+      "bytes": 1064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297982403300
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/ContainerMessageObserverTest.java",
+      "sha256": "cf960498acd16350c7458faaa35c7844fd065032bb667985e00d8bc641fc25c8",
+      "bytes": 2406,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297983396000
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/RouterTest.java",
+      "sha256": "5967a0d9b5259b5f7b63ae4a3279d659f7e5f6c2c00127281e61ef135b0f5aa7",
+      "bytes": 8327,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297983396000
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/db/C3P0DataSourceProviderTest.java",
+      "sha256": "5fac2413c0e4302ce5d9f37e799d94e900209343caf5ae443fa20fc9a4805457",
+      "bytes": 1639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297984396000
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/db/C3P0DataSourceStatisticsTest.java",
+      "sha256": "253f99bbca38774597195e4f1c45ba9f2cfc9f2df0ff84056614cb9b1a1fec98",
+      "bytes": 2718,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297984396000
+    },
+    {
+      "relative": "minnal-core/src/test/java/org/minnal/core/server/ServerTest.java",
+      "sha256": "bf12716e418eb1201f17e110983633be43464bfed5da83c19969d35a73728284",
+      "bytes": 3258,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297984396000
+    },
+    {
+      "relative": "minnal-core/src/test/resources/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297985393300
+    },
+    {
+      "relative": "minnal-core/src/test/resources/META-INF/dummy.yml",
+      "sha256": "a2bc24edc5579111af407b77588b08a2fabc9c3823589ecafe0e0b0260038f2c",
+      "bytes": 13,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297985393300
+    },
+    {
+      "relative": "minnal-examples/pom.xml",
+      "sha256": "2e9fb6a96dc053ffcc1315fceab17d40b04dd83a9826387074d6a73d917840b5",
+      "bytes": 641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298005279800
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/pom.xml",
+      "sha256": "0768cd4655ee4adf3cb79030e71b731fb63c91b42cdf45136560625d247dc2f3",
+      "bytes": 3111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297986393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/java/org/minnal/examples/oms/OrderApplication.java",
+      "sha256": "05f35da000338ec94d0418d5bd35b19afda64125c5a3091cade219d93d59291f",
+      "bytes": 1540,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297987393400
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/java/org/minnal/examples/oms/OrderConfiguration.java",
+      "sha256": "3b2b4910904da2ac5feaedc49dd786d8cbb0af8cd46d8fd77df5302db72bde77",
+      "bytes": 1068,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297988392800
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/java/org/minnal/examples/oms/domain/Order.java",
+      "sha256": "2c99cc932ba865859ebcdf28db242f831ff21f2d1aa852138e3c661f28fe185f",
+      "bytes": 4348,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297988392800
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/java/org/minnal/examples/oms/domain/OrderItem.java",
+      "sha256": "5a0e333d5c0c355fc20c3d4fef24aecdd5d8cd060324c8fd351b372e60cff63d",
+      "bytes": 3042,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297989393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/java/org/minnal/examples/oms/domain/Payment.java",
+      "sha256": "73d0fe6a5ddc95f6325a299b3b1f677f7dbee3a96b2aaa6f5858a2b1f53ddd5b",
+      "bytes": 1142,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297989393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/java/org/minnal/examples/oms/domain/Product.java",
+      "sha256": "892107b2c13173e59c849fff052e85340606df49a1c4d73cbfffd5217f3ca820",
+      "bytes": 926,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297989393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/java/org/minnal/examples/oms/resource/OrderResource.java",
+      "sha256": "e954e12477fcd1e8211a79fe3ad7fe195bbd11a92ec0f14f364f55c6e69aa76a",
+      "bytes": 333,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297989393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/resources/log4j.properties",
+      "sha256": "efb0978c4078a309c959aae307dbfa34d3cd4d96d3683f2a1600c7e2acb76771",
+      "bytes": 701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297991393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/resources/role_permissions.properties",
+      "sha256": "5e3d195e8cb0f705d52d819edf669512aa35e6dcf5275ff28698ed26d7325b46",
+      "bytes": 96,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297991393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/resources/user_roles.properties",
+      "sha256": "d080c174dcfaa5f650f0721a5feb51e7f5f96d6ed3e839336a1953e12f6b9f72",
+      "bytes": 80,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297992392800
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/resources/META-INF/container.yml",
+      "sha256": "2140d18092c8552a3498861cdef1a6a13a5697c8d3551627a6938a3450be83d8",
+      "bytes": 225,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297990393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/resources/META-INF/order.yml",
+      "sha256": "ad38a1f14cb190b8c8be6a9167452d269fa0862355c2030c3e7e7518223bccb5",
+      "bytes": 782,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297990393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/main/resources/META-INF/services/org.minnal.core.Application",
+      "sha256": "31bf0f3b8e9aa67c43734024279018dbb82105615549dbc6029c580caa0392d2",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297991393000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/test/java/org/minnal/examples/oms/domain/generated/OrderResourceTest.java",
+      "sha256": "d1d0098eeb0a7270f28f63c69b9016348b6c27488eb9d1ef6083da44b1a38aa2",
+      "bytes": 10242,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297994690000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/test/java/org/minnal/examples/oms/domain/generated/PaymentResourceTest.java",
+      "sha256": "341030eabc7b4a83572bdcc25a1fa6c22544e7d56b6f5ae100fd47ed4d83605a",
+      "bytes": 3078,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297994690000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/test/java/org/minnal/examples/oms/domain/generated/ProductResourceTest.java",
+      "sha256": "ebefc50a7090f0eff82b72ad47ed8eba2f0b8a19d6f17a2b70a7460efa3ff0db",
+      "bytes": 3078,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297994690000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-oms/src/test/resources/META-INF/order.yml",
+      "sha256": "ad38a1f14cb190b8c8be6a9167452d269fa0862355c2030c3e7e7518223bccb5",
+      "bytes": 782,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297995844000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/pom.xml",
+      "sha256": "40816959ff1cfd2b985549176aba348158d944bd757c204803e8427a73ba9624",
+      "bytes": 5227,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297996850000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/README",
+      "sha256": "778846f296c49b92e186f01035c27c54dbe4916892d4cdc17e9fb9fbf953c0ab",
+      "bytes": 318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297995844000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/PetclinicApplication.java",
+      "sha256": "fcdf5de3836f007b0523e91674ee2070129bf6fe98bd6c6ff5dccf334d1c03a2",
+      "bytes": 701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297998206900
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/PetclinicConfiguration.java",
+      "sha256": "3cf1fe444edf8ab0a6a1700460301f6581ae61960aff8da16d444f1eea67cf5a",
+      "bytes": 176,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297998206900
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/BaseEntity.java",
+      "sha256": "edc6306c12060861a2183d8090226bdf7ecc1defb4e7aa1287160cca0810e110",
+      "bytes": 193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297999218700
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/NamedEntity.java",
+      "sha256": "1a8413fcaa1dbf25829276d0d9b4d6f01664cc358a52be8c01329c89655827ef",
+      "bytes": 637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297999218700
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/Owner.java",
+      "sha256": "87cd65d55788802c167762c513d44e2ee44a08bbeee3fc197f7b6bb433e715b6",
+      "bytes": 1888,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765297999218700
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/Person.java",
+      "sha256": "b86ca5b27250e5b1f79ae5de3514b76aab7b40ae102068b2b20496c7452b3bea",
+      "bytes": 1116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298000217700
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/Pet.java",
+      "sha256": "c42cfba6831f4a2d2978391abd710ee43cf80a15effe58da75c799e4adbec437",
+      "bytes": 2608,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298000217700
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/PetType.java",
+      "sha256": "c69fa88eca3b8d50c94134f1fb29e1183d3af3595409631d04d63b254b347d3b",
+      "bytes": 416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298000217700
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/Specialty.java",
+      "sha256": "3b66fa34853c860f35f95f8a40d7f07e2c49cb0b06a3e6e63086fc4acc99da58",
+      "bytes": 354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298000217700
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/Vet.java",
+      "sha256": "7b589e826adc56a8bdd76f96e2620c579ac0fde6298300195dd533dcc0f7f2f6",
+      "bytes": 1136,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298001279000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/java/org/minnal/examples/petclinic/domain/Visit.java",
+      "sha256": "92f6f7f578780c1bee7e5e0e4366b3ebdfaf51a39b7b8e4889541bc10b96a0bd",
+      "bytes": 1474,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298001279000
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/resources/log4j.properties",
+      "sha256": "0a5add236d1619b7adaa3c8c5fe28936a27db36f07dfd660947772b07e4fe5b4",
+      "bytes": 219,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298002278300
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/resources/META-INF/container.yml",
+      "sha256": "80438e5944d95b575a2dbde49244cab9b5daa15543501f88460b98f69f601061",
+      "bytes": 231,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298002278300
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/resources/META-INF/petclinic.yml",
+      "sha256": "1acede76a44a52ffccb48b7fcb81aa5493bf01bc02b2a916d8a96114a9fac193",
+      "bytes": 669,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298002278300
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/main/resources/META-INF/services/org.minnal.core.Application",
+      "sha256": "88749e81837ae3c0c6e3e82eb04549b954a51762883323fe633c1f00a908ac93",
+      "bytes": 52,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298002278300
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/test/java/org/minnal/examples/petclinic/domain/generated/OwnerResourceTest.java",
+      "sha256": "6036e9f8403a60054d04641563b57f5419627fc32fd29a3f328cfd8c75fdb0d8",
+      "bytes": 11233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298004280300
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/test/java/org/minnal/examples/petclinic/domain/generated/PetTypeResourceTest.java",
+      "sha256": "c4ec16f4c874cef2d112aa39e474b499db21411150b3c285109059a30bf95e0c",
+      "bytes": 3105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298004280300
+    },
+    {
+      "relative": "minnal-examples/minnal-examples-petclinic/src/test/java/org/minnal/examples/petclinic/domain/generated/VetResourceTest.java",
+      "sha256": "58491d8be4391254cdf11d463a7972460a0bd11d800f9a0d6745b6ced1b04581",
+      "bytes": 6682,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298004280300
+    },
+    {
+      "relative": "minnal-generator/pom.xml",
+      "sha256": "cd774853cf199145514e1c0bbc95d5b413f1d1baf789bdd18f69872e8bbd705b",
+      "bytes": 3309,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298005279800
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/Args.java",
+      "sha256": "c75a341e21eef2de3ec2bdb8c13f52c2f2f20256305ef48569cb54828ef2321d",
+      "bytes": 1049,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298006279500
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/Command.java",
+      "sha256": "6b41d5e9a473a0cad15e625529d2b4dc2cd81e7c269b6f12310d253743b4acfb",
+      "bytes": 133,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298006279500
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/CommandAdd.java",
+      "sha256": "94747e11e94b3ed5429c1362fde2dd3c819bee3e72db5b6f800dc4e1ae41de64",
+      "bytes": 957,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298007280000
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/CommandGenerateModel.java",
+      "sha256": "02a133e5dc669472f7ca1e37c47a1a1d7deec9750ea97ceb1f023f9c308b000d",
+      "bytes": 2446,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298007280000
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/CommandGenerateTests.java",
+      "sha256": "e0826179c9ee2e1fde9330fc484c54e7cd80e36170f5e5534caee74cde4c51ad",
+      "bytes": 1819,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298007280000
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/CommandNew.java",
+      "sha256": "fa4be0758b3f854bd5ac275c6f313a6a941629ca63697cec46d2d071391b9a50",
+      "bytes": 2645,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298008279600
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/CommandStart.java",
+      "sha256": "90fc64667b322afb0836b664a2cee47104473555ca7958ea3045fe3abb187337",
+      "bytes": 923,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298008279600
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/ExecutableCommand.java",
+      "sha256": "d607a75d411b0a53c4ab42d11aa8611ec11b9d623d306f0388f60d5ad6d67ab0",
+      "bytes": 1106,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298008279600
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/Field.java",
+      "sha256": "c4f18e2e4ebddfba321650ce39299bdbb144b427a7965edbf04cb9f4232dd7b3",
+      "bytes": 1664,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298009278800
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/MinnalGenerator.java",
+      "sha256": "27038f1636619c8f83c248f03c40e9144ba5ac6eb2df42f39fb0c80355e808b9",
+      "bytes": 3719,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298009278800
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/AbstractGenerator.java",
+      "sha256": "5e01e64c5c89ae3a6d0cd92c53d7b1051f3b6d84b1be094079fe0c986850a9b5",
+      "bytes": 6259,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298010279700
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/AbstractTemplateGenerator.java",
+      "sha256": "c1907ae2c79925f633a24dcb40387d58467fad5cb88ae6b1fd24ea0fedbb61e6",
+      "bytes": 2431,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298010279700
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/ApplicationConfigGenerator.java",
+      "sha256": "83a99309071aea6095657330eba372d3bee89e6f446695255f3f8ff25d3ec533",
+      "bytes": 2873,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298011279600
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/ApplicationGenerator.java",
+      "sha256": "6fb448d16105ce8f11527f5925d0840d00850a15e4910db2822d61766f1e273a",
+      "bytes": 2067,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298011279600
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/ApplicationSpiGenerator.java",
+      "sha256": "40175b5973e7f5ee981c26bb6af0f4bdd00f4030441e52c9b9bcbfe17231d30e",
+      "bytes": 1278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298011279600
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/ContainerConfigGenerator.java",
+      "sha256": "9b94f76f65b076ed09f975bb1f5108f9b185eb9e1af55ebdc83a1983775fa984",
+      "bytes": 2192,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298012280700
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/Generator.java",
+      "sha256": "c0086555cd2be73dcf761a1ea83d7bd869b6fb914346907f0dfaa3ca3d35d573",
+      "bytes": 159,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298012280700
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/LoggerConfigGenerator.java",
+      "sha256": "bf1fd0ee3684d61daadd40d6354ff5b4c7259038141c99601801bf76816b21ea",
+      "bytes": 874,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298012280700
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/ModelGenerator.java",
+      "sha256": "79a34fbd004caeb5f45d8fa5fcff994dc670357a535dbeb8c198a0088126952a",
+      "bytes": 1320,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298012280700
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/PomGenerator.java",
+      "sha256": "de4b7ff0a6c96a6b8b1182c4e417ab30b208cc4bdd545b7771a57deab92ba77f",
+      "bytes": 6322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298013279000
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/core/ProjectGenerator.java",
+      "sha256": "a2a71065c5c9fbecc31855acbf1f169d3193f1ef715af4d69f709847fe2262c4",
+      "bytes": 3985,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298013279000
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/exception/MinnalGeneratorException.java",
+      "sha256": "d7ead255e07472a8765e601fc740ebb53aaab3054fc3ff7b49daa6155e4503ec",
+      "bytes": 648,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298014278400
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/test/ResourceClassTestGenerator.java",
+      "sha256": "e75c1b3d124c1ff5371f48f8bf4dbeafdfaa957c76bc7d8ae9fbf4fa5777c3ef",
+      "bytes": 6427,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298014278400
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/test/TestsGenerator.java",
+      "sha256": "dd534966c2cee094a47d09686e18db3c33f790a1348f7b0f2aaea5a7707cf9aa",
+      "bytes": 1631,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298014278400
+    },
+    {
+      "relative": "minnal-generator/src/main/java/org/minnal/generator/util/CodeUtils.java",
+      "sha256": "322683dc459af616240f292543f7f7f9baff1b00533e6e8200674dacd7067d01",
+      "bytes": 1691,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298015279000
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/log4j.properties",
+      "sha256": "cd7c9dcd1c07f293f8a98662bff158c156b91348739a8a6d95fd29a9028b3ce9",
+      "bytes": 206,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298019277600
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/create_application.vm",
+      "sha256": "125b45ae8e35b6c7925e2fa9e908efc652591b8a4195f13e389a51ddad1e881e",
+      "bytes": 385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298015279000
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/create_application_configuration.vm",
+      "sha256": "53fed865d6dc801b26e8542214a87354d943cc1b9ba9f269d5c0df5bcbc0e0e3",
+      "bytes": 166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298016279000
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/create_method_test.vm",
+      "sha256": "80019619126be0bbd4c3c14e76991b48a84eaf8dd78e6a935b267dcf16f48ef1",
+      "bytes": 1638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298016279000
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/create_model.vm",
+      "sha256": "133026c74d3c975b1e47bfef9350543a73eff60dbda8da1f00c49423c2eb98da",
+      "bytes": 1125,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298016279000
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/create_resource_class_test.vm",
+      "sha256": "d8da374230aa6b850929cf78cd5add3ac06b73ac8c52bfc9401bda67cb756536",
+      "bytes": 367,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298016279000
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/delete_method_test.vm",
+      "sha256": "9117b8fa268129691bf80032b3ae3706c013b056a6d0f9e022a7625b752396bb",
+      "bytes": 2051,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298017279600
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/list_method_test.vm",
+      "sha256": "f78f4afc3b59fded314bed02edaea4997fdbfe714e54b83b310146bf1d12237b",
+      "bytes": 2234,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298017279600
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/log4j_properties.vm",
+      "sha256": "0a5add236d1619b7adaa3c8c5fe28936a27db36f07dfd660947772b07e4fe5b4",
+      "bytes": 219,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298018278100
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/read_method_test.vm",
+      "sha256": "dd5ad280eba5118773b6fbcc2b9ce08ad98ea314560c8fca6147f94745c33857",
+      "bytes": 1985,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298018278100
+    },
+    {
+      "relative": "minnal-generator/src/main/resources/META-INF/templates/update_method_test.vm",
+      "sha256": "8d97839fe4b7b392887375e1cd774de668921befb14f314007e324e8a1d7b4e5",
+      "bytes": 2090,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298018278100
+    },
+    {
+      "relative": "minnal-instrumentation/pom.xml",
+      "sha256": "04fb3a48775c0625186a9fc6b8817db0103678ad15abaa0ee23394326f2c7310",
+      "bytes": 1232,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298019277600
+    },
+    {
+      "relative": "minnal-instrumentation/src/main/java/org/minnal/instrument/InstrumentationBundle.java",
+      "sha256": "197025e73b7e26bf298316d85a043675f41cb7938f0a8bf7d29982814473000c",
+      "bytes": 1700,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298020780800
+    },
+    {
+      "relative": "minnal-instrumentation/src/main/java/org/minnal/instrument/InstrumentationBundleConfiguration.java",
+      "sha256": "b72839ecdc41cd991cc12bf39adcf5e32d1235c7a5c184849440dfa51494e5ec",
+      "bytes": 214,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298021781200
+    },
+    {
+      "relative": "minnal-instrumentation/src/main/java/org/minnal/instrument/MinnalApplicationEnhancer.java",
+      "sha256": "9e7b334e19f915dd18944b2571f3fc3cec6aeab1c090145cbeb7c223040fbd0f",
+      "bytes": 996,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298021781200
+    },
+    {
+      "relative": "minnal-instrumentation/src/main/resources/META-INF/services/org.minnal.core.Bundle",
+      "sha256": "be447ef42e96bbfbcbed7099e106d9405ec392ff1524a9e1ba299b1475350f5c",
+      "bytes": 45,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298021781200
+    },
+    {
+      "relative": "minnal-instrumentation/src/test/java/org/minnal/instrument/InstrumentationBundleTest.java",
+      "sha256": "cc699dde3d5fd6ea052ff520b37f6b529fa5567cc399eba264e1bd6e5c9f8f61",
+      "bytes": 2238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298023147000
+    },
+    {
+      "relative": "minnal-instrumentation/src/test/java/org/minnal/instrument/MinnalApplicationEnhancerTest.java",
+      "sha256": "6158f7dae9eb5329bda4ea4408cb5f0eb5752c0dc2da7ec9ce816966ee873425",
+      "bytes": 2409,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298024148000
+    },
+    {
+      "relative": "minnal-jaxrs/pom.xml",
+      "sha256": "f626c4e8be7434f27b723a0900ec9e5246fe95babd5c506ca2e11d8fd89791f6",
+      "bytes": 678,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298072766500
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/pom.xml",
+      "sha256": "3df664379495464434ed8a8a2d050aab61bf54abf328424f2d8130f399e3bbd8",
+      "bytes": 3418,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784855215984315900
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/evosuite-report/statistics.csv",
+      "sha256": "0b3d94fee9fe0d8e6c1ab8c859de7b7bff7cceb310b0ac886780c9427e415915",
+      "bytes": 132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784855190062424200
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/ApplicationEnhancer.java",
+      "sha256": "cb9460457f8a8970de02343a4d1ccba6c6ca3ba7f56e3ff25d2b250a30ecd099",
+      "bytes": 3637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298025000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/MinnalInstrumentationException.java",
+      "sha256": "f97b083a9aefb2db4d6f920187292bb2840df56095a0480df8ef9480a9e4a078",
+      "bytes": 645,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298025000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/NamingStrategy.java",
+      "sha256": "4f26b5108d2bb321fd41a1da479b5c72ef8d4a58535d253eece9600d4bf932df",
+      "bytes": 1339,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298026000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/UnderscoreNamingStrategy.java",
+      "sha256": "8a9223786e4b3d7aac54479198a0e55e207079df8ea8acbb1f034a1f82d621e7",
+      "bytes": 1384,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298026000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/Action.java",
+      "sha256": "2b714dc6b27845b2d0861f0ecb5d857a4d9513e0a0afea9a5d45ba1a92be5137",
+      "bytes": 1554,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298026000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/AggregateRoot.java",
+      "sha256": "d1c672a9bf3c45612a16e3a3411cceebc754af6b0cbc83b7ea9efbfb2f7ca5cb",
+      "bytes": 528,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298028000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/AggregateRootScanner.java",
+      "sha256": "0912e26ba148e284e3c0fce5e1f7666bfd4526716436fe32e7fd20f228f06d8b",
+      "bytes": 527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298028000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/Collection.java",
+      "sha256": "0f506575d3dfa1c08e941476f3376f0d264b2edb9b95f8519c3b718cc65109e9",
+      "bytes": 548,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298028000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/EntityKey.java",
+      "sha256": "b54a3220d29f26790206aaba06b3ae2f749f0bb94ea001b8804efeeff8ff3b1e",
+      "bytes": 380,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298028000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/EntityNode.java",
+      "sha256": "1313bf0b3d73ffb5e05974d2268d56ceb76fc53e5647cf6209cc306455ed5e2c",
+      "bytes": 10382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298029000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/PaginatedResponse.java",
+      "sha256": "5be838233b274afb5bce6a1e5276db72d1d5568f0621413aea63b70f182a2254",
+      "bytes": 1635,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298029000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/Searchable.java",
+      "sha256": "0089fd996216342ebc46786ac2da74bb191851436c499dc2eb2f2dc1d0e4c524",
+      "bytes": 410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298029000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/Secure.java",
+      "sha256": "9757fbaca3ba2a062b280ffda09f745c451fe3b9c22fd6ecd067421a8e448336",
+      "bytes": 920,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298030000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/SecureMultiple.java",
+      "sha256": "02b70f364bf738afbfc22f3f207304a4b6c731c0c4a8a026357fd9f1706a7c5f",
+      "bytes": 537,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298030000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/ActionMetaData.java",
+      "sha256": "4dfa29a11a913b1681f2dbb148f6d51f1d0cd1f855458a16b185b9749e9722ca",
+      "bytes": 2015,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298030000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/AssociationMetaData.java",
+      "sha256": "891f15e3bcf547915b3580d391172ebcf12b955e0f32c4ed697a73484e251659",
+      "bytes": 1774,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298030000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/CollectionMetaData.java",
+      "sha256": "c6a856e19675449ba64f7f087213fb640005c9849c5b085c522bbca67e235607",
+      "bytes": 3436,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298032000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/EntityMetaData.java",
+      "sha256": "7f967346ef41a5d42d260b79d697d2c56c4231a0ad598d3407cae70a105f4a97",
+      "bytes": 1876,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298032000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/EntityMetaDataBuilder.java",
+      "sha256": "f0627dcb2b8ed922d8cd40ff011f2a0cc9e018d1b96f78671ad40807982605a0",
+      "bytes": 601,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298032000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/EntityMetaDataProvider.java",
+      "sha256": "74ea1b8aa11df123d149495945f395f33fc9853d1d296cc207d23bdf572c70a8",
+      "bytes": 915,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298033000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/ParameterMetaData.java",
+      "sha256": "4e300d757e00badcdef7bbb4c33bbe03a1424ad7d56f0f9e64763936358ba2e9",
+      "bytes": 675,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298033000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/PermissionMetaData.java",
+      "sha256": "aa9c0f015b05e667ff50920feba823b7131273862cb635628ad1efe6052bb3a9",
+      "bytes": 1715,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298034000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/SecurableMetaData.java",
+      "sha256": "0922e0e469f01cc1b0335036d5a31ba5af1ca21ad35093ffdfc02747d952f655",
+      "bytes": 2174,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298034000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/AbstractEntityAnnotationHandler.java",
+      "sha256": "bb166303e2281771339705f0576779d6cd1da5717b3fa34a241d31655be919f4",
+      "bytes": 1937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298034000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/ActionAnnotationHandler.java",
+      "sha256": "bda419abc8a083d4acff9cc67fff6009ce0c6b6cf216782198f6f85b6eaaf14d",
+      "bytes": 2487,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298034000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/ElementCollectionAnnotationHandler.java",
+      "sha256": "512aa3daaaca7f5b95332f62c5b8eee768adfeac537ea96cbcb2177ac37e72fc",
+      "bytes": 1905,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298035000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/EntityKeyAnnotationHandler.java",
+      "sha256": "bf2c85ef247281a7f686ad72503e7f31312da700915b7729f8ddb56d7574f5a1",
+      "bytes": 806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298035000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/ManyToManyAnnotationHandler.java",
+      "sha256": "64f06624817d5b05c829fe6a945fbbcc9125792e30891f51be47c6d8215a18fb",
+      "bytes": 316,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298035000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/ManyToOneAnnotationHandler.java",
+      "sha256": "79347e0be23ead5801ad06938ec6522339e99f0493ef55a0d4490164298e908d",
+      "bytes": 312,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298035000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/OneToManyAnnotationHandler.java",
+      "sha256": "60118dd69aaed72ecf9ec8ce45962074e40a3ec0f886a29575991ffdbd764a5a",
+      "bytes": 1375,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298037000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/OneToOneAnnotationHandler.java",
+      "sha256": "eececeefba60e539680757ebe191b588b4654807f8cdb96f01fb1353c33fe325",
+      "bytes": 1155,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298037000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/SearchableAnnotationHandler.java",
+      "sha256": "5738871f5a46c726852ffecb14096318bca1b25c201b33e79e3be342044011c0",
+      "bytes": 1375,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298037000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/SecureAnnotationHandler.java",
+      "sha256": "500827b601d78da45dca9c900d421f6e364e3208b47d6c6b4c165c23b9700abb",
+      "bytes": 909,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298038000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/SecureMultipleAnnotationHandler.java",
+      "sha256": "140ba264d2c45eff6b86c71ff70e20825b11d2f404b0995007fbd3a6a810dbc3",
+      "bytes": 584,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298038000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/filter/ResponseTransformationFilter.java",
+      "sha256": "24f5a75b8c8263ee8996c4a31cce3d5025d0f957c80d78877b2d3eb4539a8cbc",
+      "bytes": 3491,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298038000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/metadata/MetaData.java",
+      "sha256": "bfa0671454f70b461e31a5e29981b9705a95a6233ac8736631ca964c0ba3308b",
+      "bytes": 965,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298039000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/metadata/MetaDataBuilder.java",
+      "sha256": "f2765773b5cef00874752a037efcaed19be8884b802bb5391cca41ecbd8a3845",
+      "bytes": 2246,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298039000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/metadata/handler/AbstractAnnotationHandler.java",
+      "sha256": "d27dd8021d29bb5112d31fd30eacb74b9da09e355eb2bf99c55d20f261204628",
+      "bytes": 1220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298039000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/PathScanner.java",
+      "sha256": "b1649cbe22b0db2fd8d44ce6c7a9ed40ab463fcdb044c4534fb24a38cb0f950c",
+      "bytes": 608,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298040000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/Resource.java",
+      "sha256": "42265cacc38c484688520c5de0c6757a61a44a52972fd88ffde53a0c9158a8b4",
+      "bytes": 451,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298040000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/ResourceEnhancer.java",
+      "sha256": "bb1533fffe2085e66b4f277ade748a5671252de9f2e4cf88dc3a3d0cb2e0ed78",
+      "bytes": 1469,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298040000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/ResourceUtil.java",
+      "sha256": "535c256cef8bcc9befa8a126d1a10eff53880c1563ff9b03c9eb796ee9984335",
+      "bytes": 6903,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298041000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/ResourceWrapper.java",
+      "sha256": "f20d48b6a30d125d252f95087286828f1668f2b2cba7b288453c6375a453f597",
+      "bytes": 8048,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298041000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/AbstractMethodCreator.java",
+      "sha256": "d0fba88ecfd2fd6d91ca7b8682f53d53d2285be5098687c5077d769ce9684b71",
+      "bytes": 18421,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298042000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/ActionMethodCreator.java",
+      "sha256": "a9ba62318596dfe9b2c5af2e4861534a8e68bc73f21b9160d0523726d2ffb490",
+      "bytes": 3538,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298042000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/CreateMethodCreator.java",
+      "sha256": "23a0bc6a1a1dcecdd95b860956276f3c4933e6bcddc16fd3908a8dd260780239",
+      "bytes": 5332,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298042000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/DeleteMethodCreator.java",
+      "sha256": "6c83a6a845c625fc5551f6c4ae81f8d92cd672f117da48e93332de1aee3eefaf",
+      "bytes": 2834,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298042000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/ListMethodCreator.java",
+      "sha256": "677f7443071d26388553c0bf3b4fcec1858f68871091d0adcb092e3cc4db81dc",
+      "bytes": 5050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298043000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/ReadMethodCreator.java",
+      "sha256": "d0f8df83e51100b84f9006ff8f89a88fd66248de5940be2f1f5e945bebb3b822",
+      "bytes": 3280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298043000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/ResourceClassCreator.java",
+      "sha256": "072dfd4e73acfb95386748c7c2a0acc39b60406cc22f4e446f498ec0fb550467",
+      "bytes": 3747,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298043000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/creator/UpdateMethodCreator.java",
+      "sha256": "cf2d37da740defdfffb1f9fb20fbc093ca384297f3cc8102584a0a53aea39e23",
+      "bytes": 2338,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298044000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/ResourceMetaData.java",
+      "sha256": "a64bb5e595041bc692d51debff6fa8d8e87e0379355cd4d78cf2c1ce88d866ab",
+      "bytes": 3039,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298044000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/ResourceMetaDataBuilder.java",
+      "sha256": "b4d6ddcb93d2afc9f165840a8c32d4e8ca8782606742eff75f885ba22612f7f1",
+      "bytes": 1171,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298046000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/ResourceMetaDataProvider.java",
+      "sha256": "22007f781914aa6cec58f95b5d340ab4166043db5741363b4c9047d8f389bf9e",
+      "bytes": 969,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298046000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/ResourceMethodMetaData.java",
+      "sha256": "b1dd0c63e1d244c1b0143839f36edf3168cb50274d7f6e413418b1af8a9602e4",
+      "bytes": 2056,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298046000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/AbstractResourceAnnotationHandler.java",
+      "sha256": "64813a2d683e738ff652549285d0007db70b3c8331b1c3a659f431f5735d2f04",
+      "bytes": 365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298046000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/DELETEAnnotationHandler.java",
+      "sha256": "646ac8f3b953433af9be08cc4a0a94583909975be2a030c242607a3d4219c1bf",
+      "bytes": 406,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298046000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/GETAnnotationHandler.java",
+      "sha256": "abaced844b8809c5aa09b78254de3a579a0608eccd5fa3492d3bde4b8e2ddd9e",
+      "bytes": 394,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298047000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/HEADAnnotationHandler.java",
+      "sha256": "584e4c5f64afc89347f8f8130ca9eca0cc36c8247b36e3107c0fdb3cbb6a842e",
+      "bytes": 398,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298047000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/HttpMethodAnnotationHandler.java",
+      "sha256": "92b306c9799e1d3e481936266b168ada5ff0afd2fb09fc78849f8ca608946a05",
+      "bytes": 1227,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298047000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/OPTIONSAnnotationHandler.java",
+      "sha256": "311a94d76d0b2aa547ce0f73acc447c45076b91e9529c7b175563dc7a4a301a4",
+      "bytes": 410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298047000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/PathAnnotationHandler.java",
+      "sha256": "002860a0e943adc443608e8fc4fd53b26e78a3987e89aae7ecfb01c72cf2ca50",
+      "bytes": 1820,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298048000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/POSTAnnotationHandler.java",
+      "sha256": "1dd5ceaef3adc5b270069e1f19c97df761a71b6d2f838d3ba6529ba30d5c396a",
+      "bytes": 398,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298048000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/resource/metadata/handler/PUTAnnotationHandler.java",
+      "sha256": "3debdb8de3cd4874ac7b12bb064712c6c760eb3c9dbcc0ccc274c93b24be9232",
+      "bytes": 394,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298048000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/util/DynaBean.java",
+      "sha256": "0636dcfcb72a0e8860a817034ac2700a5da99c48c689c11d0cd6283e904f8056",
+      "bytes": 1473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298049000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/util/JavassistUtils.java",
+      "sha256": "2a68d279276829ad60a938890817743fe2e9c4d47c5b026b95579d8a98ed4165",
+      "bytes": 2500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298049000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/util/MinnalModule.java",
+      "sha256": "f418b5b624d44be9f43c302c3d6c8997eb63209c0b8b9f569ba3e22a3ff7a9dd",
+      "bytes": 922,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298049000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/util/ParameterNameDiscoverer.java",
+      "sha256": "62b91cfd225605c0af3f3a9d7c7ce0b4ee6db24a74cc288424b34b24ed622bb6",
+      "bytes": 849,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298050000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/resources/META-INF/services/org.minnal.instrument.metadata.handler.AbstractAnnotationHandler",
+      "sha256": "d0eafad4abbd2097536b49b09cef963e11203c64072a8fe70669694de1446488",
+      "bytes": 1098,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298050000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/resources/META-INF/templates/action_method.vm",
+      "sha256": "24b2da3f88c5e312fae2aa58664b4829a9bf73da9b30fecf2a3e559553b14ca1",
+      "bytes": 3421,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298051000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/resources/META-INF/templates/create_method.vm",
+      "sha256": "5bd69ffdcb9645a1cb39c94ec695fdd5c3c885721dbb3d9237ce050a21b2183d",
+      "bytes": 3238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298051000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/resources/META-INF/templates/delete_method.vm",
+      "sha256": "20c3b2189837b9db136e0c0f94f6bfed90768ddf650fee1d31aa7bc0437af8aa",
+      "bytes": 2757,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298051000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/resources/META-INF/templates/list_method.vm",
+      "sha256": "2299a19d8ae05a03ecfe56c43eca138f7365a6f5cb7219c2e632406ebb39af80",
+      "bytes": 3241,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298051000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/resources/META-INF/templates/read_method.vm",
+      "sha256": "ad91850753082d2ab9161d3bf1a405abb7f7dbf20522f81fd27a982829a80ce5",
+      "bytes": 2301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298053000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/resources/META-INF/templates/update_method.vm",
+      "sha256": "3d22952ea380d95773d6a12a15f8c8e35479f30f653db37e6b2115bacd643d6b",
+      "bytes": 2918,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298053000000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298053389800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/ApplicationEnhancerTest.java",
+      "sha256": "8129f1688ffbd2e29d1e90764a4ce8ba4cbb679da95a5eeb88599facbb4ca0c2",
+      "bytes": 3995,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298054886800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/ApplicationEnhancer_RBL4_7bd3161bTest.java",
+      "sha256": "dc4ab8111f9d8a1e7d4b92e10b48ace995f7008313e0053cf5bab8281cb8200d",
+      "bytes": 91,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784855215973214300
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/AggregateRootScannerTest.java",
+      "sha256": "f8f2d918fe5c5cfb36182151952b6fe9e8173bb45bfb869387bf64b1075103af",
+      "bytes": 1972,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298054886800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/DummyModel.java",
+      "sha256": "fc9c00559f318c62b606856eaeb6c7b07e782c2b9592742a29ff43eb3a074e0b",
+      "bytes": 2862,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298056185000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/EntityNodePathTest.java",
+      "sha256": "615d16ae03565cd6ace4891a3dd3dcd9cd2b8f19d88ef7b19758113b43649e9a",
+      "bytes": 5712,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298056185000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/EntityNodeTest.java",
+      "sha256": "107c3e6d3eb5b70b089e6153556aac341dbd45e1deead130e8c79341a57fcf90",
+      "bytes": 4641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298056185000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/NonAggregateRootModel.java",
+      "sha256": "6aae7aded13ea43bda3e8d4e8ddb9067b81c15a6429e7e367e279820d4a0088d",
+      "bytes": 760,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298057185000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/ActionMetaDataTest.java",
+      "sha256": "d6a9031b9edef2e0e50d167aee45d5f9c765169fe7538d33dd65bc0f500ddf33",
+      "bytes": 1365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298058186500
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/CollectionMetaDataTest.java",
+      "sha256": "e442c32a3aa9731dbceb3d41c250930bc3a9f28fcd8950c536d2ca6b916e2386",
+      "bytes": 3078,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298058186500
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/EntityMetaDataBuilderTest.java",
+      "sha256": "ccef0028465d9a2b518d085fa444fb580ee625eb10b81ba0e26a32c996ba07fa",
+      "bytes": 2003,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298058186500
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/EntityMetaDataProviderTest.java",
+      "sha256": "e35484f39b113b2a60ceb77ab75da86252ce2333575ac7c50b0132e4ef387bae",
+      "bytes": 1124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298059467300
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/EntityMetaDataTest.java",
+      "sha256": "be9890c5f0d5be3d7814ed3a8941c8f2ccbb53ac5870689ea08954c2d4610ad4",
+      "bytes": 1984,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298059467300
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/AbstractEntityAnnotationHandlerTest.java",
+      "sha256": "ba66fbf585273a0352737fce714312c8dc4344a6afdaf5d5c4b51fea557cd829",
+      "bytes": 2947,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298059467300
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/ActionAnnotationHandlerTest.java",
+      "sha256": "221cfd3f180e70107e56837da6584c34dc8bbeaf9183738cc5bc5984eff1bb0e",
+      "bytes": 3259,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298060464100
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/ElementCollectionAnnotationHandlerTest.java",
+      "sha256": "d1cfdd103c99315dda8d2a44f098789898a46e05932bace4b19ee7826ded4ab9",
+      "bytes": 1871,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298060464100
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/EntityKeyAnnotationHandlerTest.java",
+      "sha256": "7fd641024169391e2d74008a249a09334433f1d9285bdfd864243d293bd625cf",
+      "bytes": 1799,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298060464100
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/ManyToManyAnnotationHandlerTest.java",
+      "sha256": "9423ec36ceec3a0052634db669cb6a1a1af87417d066b72b0ec75ff63aa7df84",
+      "bytes": 2707,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298061519400
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/ManyToOneAnnotationHandlerTest.java",
+      "sha256": "84738d39154de6c5d3e0693c4f5437695b867b47e5451e37b5243a0f5dad0264",
+      "bytes": 1750,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298061519400
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/OneToManyAnnotationHandlerTest.java",
+      "sha256": "8fb4ce15aaf3e411d3a67b0e9434e467924bf5c308965c88db96d0c0ad2648c4",
+      "bytes": 2700,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298061519400
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/OneToOneAnnotationHandlerTest.java",
+      "sha256": "cfc1c1be3d3bc43d5c0f7bc539f2cca270b11366cf0f08ae64336f21b5051ab0",
+      "bytes": 1743,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298062652800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/SearchableAnnotationHandlerTest.java",
+      "sha256": "7b124c0b93eb98ab10fce5c5d01a30523f5d201c35ef2da7e15e23fb2ec03754",
+      "bytes": 2501,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298062652800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/SecureAnnotationHandlerTest.java",
+      "sha256": "d7d4400f8a1c3d83f242bb962d8aaa5a7ef59cfe8e2a4a893918d446ba5e242e",
+      "bytes": 1132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298062652800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/entity/metadata/handler/SecureMultipleAnnotationHandlerTest.java",
+      "sha256": "177cf2190c0fd0961c8778d2c5d4bcb50b64936753aff89ad1af9ff68efd5323",
+      "bytes": 1629,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298062652800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/ResourceEnhancerTest.java",
+      "sha256": "e6f9648e0fb1455d57f77e8b6998979bd01defbcdb6368d88337fb2d135d807f",
+      "bytes": 1964,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298063652500
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/ResourceUtilTest.java",
+      "sha256": "a8a0d1b990c85bbae1d3de13f554c7276bf709e58d6db30d2ac73fa7f8419720",
+      "bytes": 11397,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298063652500
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/ResourceWrapperTest.java",
+      "sha256": "63bf76a8562f2234ddd71f08c35b3952dcab831dd2eed1bda7be567594183d8c",
+      "bytes": 10110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298063652500
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/creator/ReadMethodCreatorTest.java",
+      "sha256": "5e5097e84c4cf74bf8ee2bad99e0156b131053eeba2366afe715a2f7ca400fef",
+      "bytes": 261,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298065075200
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/metadata/ResourceMetaDataBuilderTest.java",
+      "sha256": "a27dc05ff41f8d91de7dc201b132a8613d5a461261a29ac0ed710a370d23764c",
+      "bytes": 1652,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298066076000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/metadata/ResourceMetaDataProviderTest.java",
+      "sha256": "b7c95190e0271d7828d74401d2b4857ade41c07d4af7f0a74feee277c6fbb551",
+      "bytes": 1255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298066076000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/metadata/ResourceMetaDataTest.java",
+      "sha256": "c91ac7397543a2ebfc050b307d19319a1876094a884051790f99b2ebaf9ec956",
+      "bytes": 1476,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298066076000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/metadata/handler/AbstractResourceAnnotationHandlerTest.java",
+      "sha256": "5ee750b30a75dcf406dda03672395f7e814bc8ed77e5ade264b03a00712422a1",
+      "bytes": 2798,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298067077000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/metadata/handler/HttpMethodAnnotationHandlerTest.java",
+      "sha256": "9e2f9f0caf6bb73c9a2c69089000ee847cb30b56c66f4b12708bedc416b21283",
+      "bytes": 7090,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298067077000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/resource/metadata/handler/PathAnnotationHandlerTest.java",
+      "sha256": "2fd8f7fa276a3faaf719f085d0d3d29fa62c2b9120396e16b8ac135b51b33d33",
+      "bytes": 1893,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298067077000
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/java/org/minnal/instrument/util/ClassUtilsTest.java",
+      "sha256": "7d2f88123fe45b7392f63b5aea1baeb87a559465f72ae0be5a44fd246b18a03d",
+      "bytes": 1322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298068519800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-instrumentation-jaxrs/src/test/resources/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298068519800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/pom.xml",
+      "sha256": "16f9e163127f36c8ae05b82b24a0ff3f164eb6f9fb1bf4435c8f6dfcc1838140",
+      "bytes": 1747,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298068519800
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/src/main/java/org/minnal/jaxrs/test/BaseJPAResourceTest.java",
+      "sha256": "e603315ad524117dccf75abfb5e18ab040bf313a4968bf9d1fa72df2bc54b2c1",
+      "bytes": 2357,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298070519700
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/src/main/java/org/minnal/jaxrs/test/BaseResourceTest.java",
+      "sha256": "7217ba75c16c50c58bb0193594e88f493c461c252820bcd1441000e7c7b5d1b2",
+      "bytes": 8916,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298070519700
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/src/main/java/org/minnal/jaxrs/test/BiDirectionalCollectionResolver.java",
+      "sha256": "6085fe9b2a8d0bc0f7c5a5ca80a4585684697daced4e6efa8a347236dcc17f83",
+      "bytes": 2718,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298070519700
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/src/main/java/org/minnal/jaxrs/test/BiDirectionalObjectResolver.java",
+      "sha256": "639c0689c925826cf43ae4deb36b110923f5a814a1a2e6be76cfe2eaeab92140",
+      "bytes": 2109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298071765200
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/src/main/java/org/minnal/jaxrs/test/ByteBufferOutputStream.java",
+      "sha256": "390c39a32b892467833d78ee51ecb7e71bcc59e2c8b533368fc83266006aa69e",
+      "bytes": 678,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298071765200
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/src/main/java/org/minnal/jaxrs/test/exception/MinnalJaxrsTestException.java",
+      "sha256": "e110e29168cf2af0a5c83012135850e76c95c667df1bb62cf1c54e7999893f79",
+      "bytes": 649,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298071765200
+    },
+    {
+      "relative": "minnal-jaxrs/minnal-jaxrs-test/src/main/java/org/minnal/jaxrs/test/provider/JacksonProvider.java",
+      "sha256": "d6a92876aec513c6e2b31cfac52656e1ebbfd34dfa7cf3a815757d274ab8f3c2",
+      "bytes": 3324,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298072766500
+    },
+    {
+      "relative": "minnal-jpa/pom.xml",
+      "sha256": "0f68d36f190d85b20a234ae7684d6c5675ffe56d3cd374c6d0e5d17a34c85255",
+      "bytes": 1676,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298074077600
+    },
+    {
+      "relative": "minnal-jpa/src/main/java/org/minnal/jpa/JerseyApplicationEventListener.java",
+      "sha256": "c5c59a5b72f572624896f951dcfd7a0b215b63d7d931fa79f35bacad57dc634d",
+      "bytes": 908,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298075079200
+    },
+    {
+      "relative": "minnal-jpa/src/main/java/org/minnal/jpa/JPAPlugin.java",
+      "sha256": "2fb34269e6fd976955c9612677c0c19a4604a61d3ca2092e635205ada617ef55",
+      "bytes": 1773,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298075079200
+    },
+    {
+      "relative": "minnal-jpa/src/main/java/org/minnal/jpa/MinnalPersistenceUnitInfo.java",
+      "sha256": "b8de7f25d03cf6554cec5a9c35e3f183cb724adcf4c7f22317b2ec1c3214d4f7",
+      "bytes": 4067,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298076077500
+    },
+    {
+      "relative": "minnal-jpa/src/main/java/org/minnal/jpa/OpenSessionInViewFilter.java",
+      "sha256": "b90294da0fa0a7775691f1bb96b130db7188fdc9485946dc1fb15de04248efc3",
+      "bytes": 2066,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298076077500
+    },
+    {
+      "relative": "minnal-jpa/src/main/java/org/minnal/jpa/entity/BaseDomain.java",
+      "sha256": "953c1a1fd9ab5b673925d81ca15228c3ac849af38ddb323ff92d6a5fca3c00f7",
+      "bytes": 637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298076077500
+    },
+    {
+      "relative": "minnal-jpa/src/main/java/org/minnal/jpa/entity/ConverterScanner.java",
+      "sha256": "7b9dacd6f7bec39751ed7f1c88bf689f61af2296825663ba30f338f005b91abd",
+      "bytes": 609,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298077076400
+    },
+    {
+      "relative": "minnal-jpa/src/main/java/org/minnal/jpa/entity/EntityScanner.java",
+      "sha256": "3312fcd6711f185e8cb6ca5499b974b460f773bdece0ec34a027d1db2e1bdd0a",
+      "bytes": 594,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298077076400
+    },
+    {
+      "relative": "minnal-jpa/src/main/resources/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298077076400
+    },
+    {
+      "relative": "minnal-jpa/src/test/java/org/minnal/jpa/JerseyApplicationEventListenerTest.java",
+      "sha256": "36a8feaf8384a5422ea54e47cf45703b2adedbfa85ee154ee39838e0159d3c10",
+      "bytes": 1033,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298079075600
+    },
+    {
+      "relative": "minnal-jpa/src/test/java/org/minnal/jpa/JPAPluginTest.java",
+      "sha256": "071f8258c353bff0b7e5b5ad1be036c10dbc9685e6a308fcbc07dd19e618fd9c",
+      "bytes": 2697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298079075600
+    },
+    {
+      "relative": "minnal-jpa/src/test/java/org/minnal/jpa/OpenSessionInViewFilterTest.java",
+      "sha256": "6c342cfa22d20f429915a2e4ebd3036c532baec2a3d5d08c594ce3db45d7792c",
+      "bytes": 1848,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298079075600
+    },
+    {
+      "relative": "minnal-jpa/src/test/java/org/minnal/jpa/entity/EntityScannerTest.java",
+      "sha256": "5d06246be3278880b74a681a2d326c6d7823e51e6eb09817e29bec565b39fd96",
+      "bytes": 1776,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298080075500
+    },
+    {
+      "relative": "minnal-jpa/src/test/resources/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298080075500
+    },
+    {
+      "relative": "minnal-metrics/pom.xml",
+      "sha256": "ea0a4d91de141c7e8a5fe23f69d726b7d665bda05449d1bdaaed52579a65bd45",
+      "bytes": 1279,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298081075700
+    },
+    {
+      "relative": "minnal-metrics/src/main/java/org/minnal/metrics/DataSourcePoolMetricCollector.java",
+      "sha256": "4cff6b5ffea4f75a802702d7b5b9072c11f2b6c299db238e298545d42c87e205",
+      "bytes": 4142,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298082079200
+    },
+    {
+      "relative": "minnal-metrics/src/main/java/org/minnal/metrics/GraphiteReporterConfiguration.java",
+      "sha256": "3e8bba456ccd4870290ca35a0880223a4965f09eafda83c3f0d5c253e92c471a",
+      "bytes": 1709,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298082079200
+    },
+    {
+      "relative": "minnal-metrics/src/main/java/org/minnal/metrics/MetricRegistries.java",
+      "sha256": "b3362cccf33dd84843e864e9f3e9fe71c6545556d20f8da05d7dca48dd49b531",
+      "bytes": 1218,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298082079200
+    },
+    {
+      "relative": "minnal-metrics/src/main/java/org/minnal/metrics/MetricsBundle.java",
+      "sha256": "8c6d02d6fe0837723d2fedebaaa7358d3ddf08800dca90ba99fe8a9bf020062e",
+      "bytes": 3026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298082079200
+    },
+    {
+      "relative": "minnal-metrics/src/main/java/org/minnal/metrics/MetricsBundleConfiguration.java",
+      "sha256": "8ea6b719a2f6457fff1cdc31dc84af523ddf90d72aa7bfc354308344b3fb23da",
+      "bytes": 2006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298083074800
+    },
+    {
+      "relative": "minnal-metrics/src/main/java/org/minnal/metrics/ResponseMetricCollector.java",
+      "sha256": "38c777c60da9d70e7f156e16eddd90114b8624446cf418d6643ba8987c5f5057",
+      "bytes": 2571,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298083074800
+    },
+    {
+      "relative": "minnal-metrics/src/main/resources/META-INF/services/org.minnal.core.Bundle",
+      "sha256": "e54494ef7c8ba3fbcc8aef36e37e765e9d0d61e216327361d72dffcf2ce32b28",
+      "bytes": 34,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298084076200
+    },
+    {
+      "relative": "minnal-metrics/src/test/java/org/minnal/metrics/DataSourcePoolMetricCollectorTest.java",
+      "sha256": "a9bf1735e00f5fdae3922aa876ad8c0f6c167f0020ab1c9e269a830a55fb8cae",
+      "bytes": 2549,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298085076000
+    },
+    {
+      "relative": "minnal-metrics/src/test/java/org/minnal/metrics/MetricRegistriesTest.java",
+      "sha256": "7c2085c2eb8c6341bbc47ee4e8b5361b300fe07efcf003560f837966eca1f207",
+      "bytes": 1435,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298085076000
+    },
+    {
+      "relative": "minnal-metrics/src/test/java/org/minnal/metrics/MetricsBundleTest.java",
+      "sha256": "dc4fabcd1920f6a26dea6e5746cb9eac983ef986bc19122e82778d1d7cae5bc9",
+      "bytes": 2808,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298086077200
+    },
+    {
+      "relative": "minnal-metrics/src/test/java/org/minnal/metrics/ResponseMetricCollectorTest.java",
+      "sha256": "b896ad6c25fefcd4fdace0755808c9584c3b335d88d2f942903964c27d1aa101",
+      "bytes": 5318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298086077200
+    },
+    {
+      "relative": "minnal-migrations/pom.xml",
+      "sha256": "8950bdf46cbe2a20fdef2f5717c8bade07f9f6d14fe04649d467168dc4da04cf",
+      "bytes": 1194,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298086077200
+    },
+    {
+      "relative": "minnal-migrations/src/main/java/org/minnal/migrations/plugin/CleanableMigrationsPlugin.java",
+      "sha256": "9fac4c3e7c3a88b82adbc9213cf7c3fa8df6a825cf71d8b7fe2b2527e84ae6c9",
+      "bytes": 497,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298088075000
+    },
+    {
+      "relative": "minnal-migrations/src/main/java/org/minnal/migrations/plugin/MigrationsPlugin.java",
+      "sha256": "9be5832c2f90754c3e2a2c428ae7d7d3c9c76798af05802c46bea43a81fb7aad",
+      "bytes": 2191,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298088075000
+    },
+    {
+      "relative": "minnal-migrations/src/test/java/org/minnal/migrations/plugin/MigrationsPluginTest.java",
+      "sha256": "01c55a68533d8dfa84f16275967b4f66b84ca76fa497cea8a3654ac4cd4b070c",
+      "bytes": 1643,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298090075700
+    },
+    {
+      "relative": "minnal-security/pom.xml",
+      "sha256": "0838d398803c58bede98ab7d2751169d15ede5568dd57a25237e935b77c545d3",
+      "bytes": 3107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298090075700
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/MinnalSecurityContext.java",
+      "sha256": "f8696a113e34fd04b956f3e876b4f2ab2c96cfea595079e4e0456f3039696eb6",
+      "bytes": 1161,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298091075400
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/SecurityPlugin.java",
+      "sha256": "1378796ad61ffbe526c2767c692073d6f13bafa40ed60c7e4d950ca7a94cf9eb",
+      "bytes": 2217,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298092076000
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/Authorizer.java",
+      "sha256": "fe7be6edef2562eb752dca54e1a2db7bd07159ea7ff2a600c3b160836aaf00a0",
+      "bytes": 570,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298092076000
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/JaxrsWebContext.java",
+      "sha256": "dcc65055bb38a9ff1265243c619c7f1b948bb3267565178d2f7a38554bde941e",
+      "bytes": 4083,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298093075500
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/RolePermissionMapper.java",
+      "sha256": "0497eeaed5bd3c7ded7d6257906b563d934f6f009a2ec69d2ba3d6e5619757d0",
+      "bytes": 202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298093075500
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/SimpleAuthorizer.java",
+      "sha256": "11ed0698a12820e9f074995eb904f6b7977aefc68dd72ccd52d444766cd7f703",
+      "bytes": 2111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298093075500
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/SimpleRolePermissionMapper.java",
+      "sha256": "5150af33735c6b34eff06a9c14f004675c9001734b995134797366cf7ff0afae",
+      "bytes": 2322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298094075400
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/SimpleUserRoleMapper.java",
+      "sha256": "f056a401060f7d6464d168424ef3456bbfe9e72a322149c1921d0c1ab14fc909",
+      "bytes": 2250,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298094075400
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/User.java",
+      "sha256": "1f03a963fac56b0901869611dbc2d5809d91027ab8388d4e452317f129779b86",
+      "bytes": 1891,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298094075400
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/auth/UserRoleMapper.java",
+      "sha256": "05e9f8048baacb5650f194c16364257815375db84c073d08de486fda32feb18f",
+      "bytes": 188,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298095075800
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/config/SecurityAware.java",
+      "sha256": "723604f76bc1bb289b43df6eecba32f020fd6b42f66e5581e13e5439ce351ab8",
+      "bytes": 254,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298095075800
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/config/SecurityConfiguration.java",
+      "sha256": "aea9c3ab44cf10219c203c430dd5a01796eec4ba96459f6139d35b39487de26e",
+      "bytes": 2047,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298096073900
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/filter/AbstractSecurityFilter.java",
+      "sha256": "cad896276f84dea19732a8326dbe0d346c9586380e0297828e823793e035053b",
+      "bytes": 1674,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298096073900
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/filter/AuthenticationFilter.java",
+      "sha256": "a913477d9d86527dbb612c8b381c29f591aa40d78dc5d3cf1a49399bcac21026",
+      "bytes": 5787,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298097074000
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/filter/AuthenticationListener.java",
+      "sha256": "a11fdf67673e98bebbae319650a378920b8b75d9f27cb3a6287c16c94f6b4e23",
+      "bytes": 333,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298097074000
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/filter/CallbackFilter.java",
+      "sha256": "fef13e9456549255cf700dd6c32ec6672b996e9b4e3936861f484a9f67f5e1d6",
+      "bytes": 2813,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298097074000
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/filter/SecurityContextFilter.java",
+      "sha256": "6a76534913d31b161778430ae9f8fcf30ec97f5ed254dd539681f01e6bef8bfc",
+      "bytes": 1021,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298098074000
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/session/CookieSession.java",
+      "sha256": "8ce2b84d9cbd1e8e0a55bb7eabf3d5ab01973c636be5a85efb8c178a91cd1610",
+      "bytes": 1638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298098074000
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/session/JpaSession.java",
+      "sha256": "230f6a083d31ac9513124993b25fe814c942f8f664712931bd75e897f436b6e2",
+      "bytes": 3547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298099075800
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/session/JpaSessionStore.java",
+      "sha256": "58911d90d2eeaec17d87b9962136413c9ac68674af192a2f7d3b2bcce04e685f",
+      "bytes": 769,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298099075800
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/session/Session.java",
+      "sha256": "0969d1021322bb18c350f790326462b4bb37f421d26d36e805d479e05cf4f2d1",
+      "bytes": 473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298099075800
+    },
+    {
+      "relative": "minnal-security/src/main/java/org/minnal/security/session/SessionStore.java",
+      "sha256": "c30306918d1f84467f4287d31a2f9c77918b6c10ee21682ba1a352c05862de52",
+      "bytes": 565,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298099075800
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/MinnalSecurityContextTest.java",
+      "sha256": "d73618010e70f551c1ec6f7fb3e8a93d049bd0bff3ca413a72ea1bd7fc77e8e7",
+      "bytes": 2103,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298101075400
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/SecurityPluginTest.java",
+      "sha256": "ecf5854adf2f759983782d684e9f3739378110e135280d235ee070d8319e6663",
+      "bytes": 2294,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298101075400
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/auth/JaxrsWebContextTest.java",
+      "sha256": "33bb72d484460d3c2c4503cef015d554124cf977e1ba54a28874f56f6e887e66",
+      "bytes": 5203,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298102076300
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/auth/SimpleAuthorizerTest.java",
+      "sha256": "1d7d8bf41b1431a648f9470c3c5b380b027cb31910c8d32fc321d66431def421",
+      "bytes": 2466,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298102076300
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/auth/SimpleRolePermissionMapperTest.java",
+      "sha256": "12781bd1f0548126a6cbc977d78e73c7a7927f189b182034ac6de7f6e86ec9db",
+      "bytes": 1202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298103074600
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/auth/SimpleUserRoleMapperTest.java",
+      "sha256": "0a3209b4a3b2ea993a8aec3c2277512c20b7054c281486ca7dac0ee86e004c9d",
+      "bytes": 1299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298103074600
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/filter/AuthenticationFilterTest.java",
+      "sha256": "be14f6f08568b0122d511e8e9061d52373e0833a2574a80432d183a256b0e3cf",
+      "bytes": 12842,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298104076000
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/filter/CallbackFilterTest.java",
+      "sha256": "11ef6a86567c4a16fa7bb5eb608e4e9096a8fc9f3cd8772c1803d4c924e257c2",
+      "bytes": 3927,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298104076000
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/filter/SecurityContextFilterTest.java",
+      "sha256": "fec485fd0b5017ffc3159df2120169001edcb47f9d6c74f485be54544cde3def",
+      "bytes": 1261,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298104076000
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/session/JpaSessionStoreTest.java",
+      "sha256": "fc98bf3774322fe8eabdf0182224185fa1b10f8c0212c2211988f99544f4f47d",
+      "bytes": 1621,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298105075800
+    },
+    {
+      "relative": "minnal-security/src/test/java/org/minnal/security/session/JpaSessionTest.java",
+      "sha256": "83b38a7d30e667010240f9b2b9ae82aa36b90b4c1e5a64b71cb5b1ba198a6c48",
+      "bytes": 2174,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298105075800
+    },
+    {
+      "relative": "minnal-security/src/test/resources/role_permissions.properties",
+      "sha256": "19bcf89ba0a85afecc5df036f2ce9ff8bf1745608668c33bedc2d2b78d018fe6",
+      "bytes": 68,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298106258000
+    },
+    {
+      "relative": "minnal-security/src/test/resources/user_roles.properties",
+      "sha256": "785b568f13bb1faa1537cb07d5ffebe10a609d6a8857c1302dd0042fcf65fc90",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298106258000
+    },
+    {
+      "relative": "minnal-security/src/test/resources/META-INF/persistence.xml",
+      "sha256": "938a6c19847fc7bdb19f6fef2affbbd0cdb4efa410f03a3281bcb8e2074e65e7",
+      "bytes": 1268,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298106258000
+    },
+    {
+      "relative": "minnal-test/pom.xml",
+      "sha256": "a3251af2fcdc5593b9c51ada98e22dd07b2d15da9a01b10ae71f07362435d732",
+      "bytes": 1454,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298107259500
+    },
+    {
+      "relative": "minnal-test/src/main/java/org/minnal/test/BaseMinnalResourceTest.java",
+      "sha256": "76c4f13771cff723f3bba10b825357703be35c394814895bd89f37147d10eb18",
+      "bytes": 1680,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298108400000
+    },
+    {
+      "relative": "minnal-test/src/main/resources/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298108400000
+    },
+    {
+      "relative": "minnal-test/src/test/java/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298108400000
+    },
+    {
+      "relative": "minnal-test/src/test/resources/dummy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298109399300
+    },
+    {
+      "relative": "minnal-utils/pom.xml",
+      "sha256": "923940ffdbd2245b7e3046fa12036a17e911cd96f69423a7738ec0c7d124fe01",
+      "bytes": 1981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298109399300
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/Comparators.java",
+      "sha256": "a87c82760b329e364fa4b29757a7d36c54838f4827aad4a7a6e1571cd2291276",
+      "bytes": 487,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298110000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/Node.java",
+      "sha256": "837451e957656d5f5da6d4b0761d8d89d88a10d01a59f5c5dff8590a89d15b69",
+      "bytes": 5419,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298111000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/Slf4jLogChute.java",
+      "sha256": "69eb3d186fbff1119209a9473fd3a8b00146d912942ce9b44ebbe0dc8e3c7fce",
+      "bytes": 3221,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298111000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/http/HttpUtil.java",
+      "sha256": "8b3df174ee086782da60a4612521ec3d037165296ab820c9e1d8e80e451a831a",
+      "bytes": 4741,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298111000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/reflection/ClassUtils.java",
+      "sha256": "b68a0e954cf12ff805ea0bac392779288aa3021ae4660b0ca591d960f087f99f",
+      "bytes": 3542,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298112000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/reflection/Generics.java",
+      "sha256": "5bbac56716c4b249ac60822c5547a35d542f6f92e876b3fffa44e7a6925bbfcc",
+      "bytes": 3172,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298112000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/reflection/PropertyUtil.java",
+      "sha256": "444e3273c4197a3b39c27499938c73e8843eb4fab0c8f3fbe53f24cc33345c6a",
+      "bytes": 6845,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298112000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/route/QueryParam.java",
+      "sha256": "3773753e3303c9f69b98239fecb546f5dbfe9d7378ae7856e7364e0f838d463a",
+      "bytes": 2559,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298113000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/route/RoutePattern.java",
+      "sha256": "06a9eb8f340c389f3190937edf8f06f32a1fb5623503ea806a6436ece420d075",
+      "bytes": 6228,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298113000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/scanner/AbstractScanner.java",
+      "sha256": "d364c0e45146778a9ebd4232e76f4dcf8148981db9271c18c9ce6d1f484bbbe2",
+      "bytes": 1119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298114000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/scanner/Scanner.java",
+      "sha256": "ba9b7eb3f2323a5ee3982e16bc464fe4209fcc0cb8a2d2a86e7767d49b714acd",
+      "bytes": 261,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298114000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/AbstractJacksonSerializer.java",
+      "sha256": "b659bd14cd45ac424a3630c536983e3ad43ce79513ca1f6e19d206598a4a3437",
+      "bytes": 3427,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298114000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/DefaultFormSerializer.java",
+      "sha256": "603d85571e3cb785d53dafb6ff8009db76647ecd4c5391dbd2a4dfbee07d0429",
+      "bytes": 1255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298114000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/DefaultJsonSerializer.java",
+      "sha256": "796ac9c3450f3aad96aa9b2e143cac4a4ed3bafc568c611c5eb9f7f56864be6f",
+      "bytes": 547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298114000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/DefaultTextSerializer.java",
+      "sha256": "29bbe8a14a12cde756e3e18ce0ca65d419cda5d3ba917740422afe713ff77b8a",
+      "bytes": 1391,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298116000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/DefaultXmlSerializer.java",
+      "sha256": "243e2e15fa67f241b559f928c207931a004834dc60d6a381a4deb1d423c1deea",
+      "bytes": 677,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298116000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/DefaultYamlSerializer.java",
+      "sha256": "af7dc35b1f6de2f42db71dd1e0144924c5641067214fc4992d47ec3be3da975d",
+      "bytes": 933,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298117000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/SerializationException.java",
+      "sha256": "083c1f16717da1317003eee0c183cc8bdbc0312a4618ecf2b64015672933e61f",
+      "bytes": 648,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298117000000
+    },
+    {
+      "relative": "minnal-utils/src/main/java/org/minnal/utils/serializer/Serializer.java",
+      "sha256": "0803cd1d7b7919d9606bafbd9fde6b38fbbef5857b957d0e4d2a3837b840cff4",
+      "bytes": 2333,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298117000000
+    },
+    {
+      "relative": "minnal-utils/src/test/java/org/minnal/core/serializer/DefaultJsonSerializerTest.java",
+      "sha256": "c8d2883ac57f54f8b34f670ad4f59744655d3f417d1159c7b9fe303cc5e6368a",
+      "bytes": 3458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298118698400
+    },
+    {
+      "relative": "minnal-utils/src/test/java/org/minnal/utils/http/HttpUtilTest.java",
+      "sha256": "9ad6697ce7b959b7efd1ec70cb194c7252189250edc22859b3a630b1cc540f77",
+      "bytes": 803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298119769000
+    },
+    {
+      "relative": "minnal-utils/src/test/java/org/minnal/utils/route/RoutePatternTest.java",
+      "sha256": "4182ad77826d64cdbed9edcb4b117bf3e1b62394a8579a4b65c11c2e354bb896",
+      "bytes": 3894,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298119769000
+    },
+    {
+      "relative": "minnal-validation/pom.xml",
+      "sha256": "9b656c68a86be81a40b420d269dd976c2017afeaf9eb605abd630eae0e59ac7f",
+      "bytes": 1672,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298121019000
+    },
+    {
+      "relative": "minnal-validation/src/main/java/org/minnal/validation/FieldError.java",
+      "sha256": "8fdb6be6bc7cc325a294cdc0889fdcdeb074dc691e20b3df65f8ea6997a2dd91",
+      "bytes": 2146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298122020000
+    },
+    {
+      "relative": "minnal-validation/src/main/java/org/minnal/validation/ValidationPlugin.java",
+      "sha256": "424e0e11fd6803ca743c987a48bce17ee97f765e6e2f9910d5d37e679c5305ec",
+      "bytes": 566,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298122020000
+    },
+    {
+      "relative": "minnal-validation/src/main/java/org/minnal/validation/exception/ConstraintViolationExceptionHandler.java",
+      "sha256": "d8f9dd85cb150e67e6b6db62023a867d50c7d7dad86fef30c1694b51708265df",
+      "bytes": 1861,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298123021600
+    },
+    {
+      "relative": "minnal-validation/src/test/java/org/minnal/validation/ValidationPluginTest.java",
+      "sha256": "a3c514394fa32d5c796842b787eef9137605fc37deef46e79a014cfa08d77dd9",
+      "bytes": 661,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298124020600
+    },
+    {
+      "relative": "minnal-validation/src/test/java/org/minnal/validation/exception/ConstraintViolationExceptionHandlerTest.java",
+      "sha256": "7d0e902573a078337f959d5817c15ab5d10ec83e181e25c639bed65fa03cb866",
+      "bytes": 1592,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765298124020600
+    }
+  ],
+  "excluded": [
+    "minnal-jaxrs/minnal-instrumentation-jaxrs/target",
+    "minnal-utils/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\237_9884445_7bd3161b\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:41:38.288949+00:00"
+}

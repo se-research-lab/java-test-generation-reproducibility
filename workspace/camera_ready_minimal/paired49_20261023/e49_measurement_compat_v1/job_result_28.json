@@ -1,0 +1,59 @@
+{
+  "job_index": 28,
+  "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/boundingbox.java",
+  "repo_id": "6437134",
+  "G0_archived_mutation_percent": "65.79",
+  "E0_archived_mutation_percent": "7.89",
+  "E1_archived_mutation_percent": "73.68",
+  "seed": 20261235,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "dk.dma.enav.model.geometry.BoundingBox_ESTest",
+  "surefire_suites": [
+    {
+      "name": "dk.dma.enav.model.geometry.BoundingBox_ESTest",
+      "tests": 33,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 632,
+  "focal_mutants": 38,
+  "killed_mutants": 28,
+  "focal_mutant_qualified_classes": [
+    "dk.dma.enav.model.geometry.BoundingBox"
+  ],
+  "mutation_score_percent": 73.68,
+  "legacy_strict_mutation_percent": 73.68,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "eNav Model",
+      "PACKAGE": "dk.dma.enav.model.geometry",
+      "CLASS": "BoundingBox",
+      "INSTRUCTION_MISSED": "56",
+      "INSTRUCTION_COVERED": "337",
+      "BRANCH_MISSED": "1",
+      "BRANCH_COVERED": "39",
+      "LINE_MISSED": "8",
+      "LINE_COVERED": "57",
+      "COMPLEXITY_MISSED": "2",
+      "COMPLEXITY_COVERED": "41",
+      "METHOD_MISSED": "1",
+      "METHOD_COVERED": "22"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

@@ -1,0 +1,60 @@
+{
+  "job_index": 13,
+  "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/joiners.java",
+  "repo_id": "45997449",
+  "G0_archived_mutation_percent": "96.0",
+  "E0_archived_mutation_percent": "28.0",
+  "E1_archived_mutation_percent": "0.0",
+  "seed": 20261260,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.ebayopensource.webrex.util.Joiners_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.ebayopensource.webrex.util.Joiners_ESTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 2136,
+  "focal_mutants": 25,
+  "killed_mutants": 24,
+  "focal_mutant_qualified_classes": [
+    "com.ebayopensource.webrex.util.Joiners",
+    "com.ebayopensource.webrex.util.Joiners$StringJoiner"
+  ],
+  "mutation_score_percent": 96.0,
+  "legacy_strict_mutation_percent": 96.0,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "WebRex",
+      "PACKAGE": "com.ebayopensource.webrex.util",
+      "CLASS": "Joiners",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "13",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "0",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "3",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "3",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "3"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

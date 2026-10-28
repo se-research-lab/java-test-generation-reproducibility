@@ -1,0 +1,354 @@
+{
+  "status": "READ_ONLY_HISTORICAL_EVIDENCE_AUDIT",
+  "Gradle_total": 40,
+  "G0_build_success": 10,
+  "G0_build_by_repository": {
+    "41627638": 5,
+    "74999474": 4,
+    "85795396": 1
+  },
+  "rows": [
+    {
+      "sample_index_1based": 4,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/singlenumber/solution.java",
+      "repo_id": "41627638",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "100.0",
+      "selected_G0_test": "Solution_RBL4_899cbe08Test",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\032_41627638_899cbe08\\compiledrepos\\41627638\\leetcode\\battleships-in-a-board\\build\\reports\\pitest\\202607240243\\mutations.csv",
+          "source_sha256": "89c4f927a24e9413ddb2586b485acedf178d51c267200aec8d1a07553895cad3",
+          "backup": "audit/gradle_g0_measurement_v1/raw/004_89c4f927a24e9413ddb2586b485acedf178d51c267200aec8d1a07553895cad3.csv",
+          "focal_mutants": 4,
+          "killed": 4,
+          "raw_percent": 100.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": true,
+          "ownership_limit": null,
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "61c2d3952f41dd3cfb6d4b60c029827c5c530d69fcc2bc5d042b996cede724f3",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 3,
+            "org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator": 1
+          },
+          "mutated_classes": [
+            "com.github.SingleNumber.Solution"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": true
+    },
+    {
+      "sample_index_1based": 7,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/randomnameresolver.java",
+      "repo_id": "74999474",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "0.0",
+      "selected_G0_test": "RandomNameResolver_RBL4_835787fdTest",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\160_74999474_835787fd\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\pitest\\202607240419\\mutations.csv",
+          "source_sha256": "46b6c592679cd93686d57ff0dcdaac0eb304d56eba26d196f601f65d5bbb0cd2",
+          "backup": "audit/gradle_g0_measurement_v1/raw/007_46b6c592679cd93686d57ff0dcdaac0eb304d56eba26d196f601f65d5bbb0cd2.csv",
+          "focal_mutants": 1,
+          "killed": 0,
+          "raw_percent": 0.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": false,
+          "ownership_limit": "No positive killing-test reference cannot prove ownership from CSV alone",
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "d25919b2eea9615b3f3a026be009119bddcdb72eb6b04b578b02ea9b271e7cd5",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 1
+          },
+          "mutated_classes": [
+            "com.yahoo.parsec.clients.RandomNameResolver"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": false
+    },
+    {
+      "sample_index_1based": 20,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/delegatenameresolver.java",
+      "repo_id": "74999474",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "0.0",
+      "selected_G0_test": "DelegateNameResolver_RBL4_ab7abb98Test",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\161_74999474_ab7abb98\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\pitest\\202607240419\\mutations.csv",
+          "source_sha256": "5543224878657ce3b95dc920f836df6cf9eeb8ec957fe9502475ec21d2a4f07d",
+          "backup": "audit/gradle_g0_measurement_v1/raw/020_5543224878657ce3b95dc920f836df6cf9eeb8ec957fe9502475ec21d2a4f07d.csv",
+          "focal_mutants": 2,
+          "killed": 0,
+          "raw_percent": 0.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": false,
+          "ownership_limit": "No positive killing-test reference cannot prove ownership from CSV alone",
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "4505e5922582ce7cd39e7625adc2b0151f95d0d46dbf14b9d629587b83c6e8b1",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 2
+          },
+          "mutated_classes": [
+            "com.yahoo.parsec.clients.DelegateNameResolver"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": false
+    },
+    {
+      "sample_index_1based": 21,
+      "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardhistogram.java",
+      "repo_id": "85795396",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "100.0",
+      "selected_G0_test": "DropwizardHistogram_RBL4_0b144c66Test",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\193_85795396_0b144c66\\compiledrepos\\85795396\\metrics-dropwizardmetrics\\build\\reports\\pitest\\mutations.csv",
+          "source_sha256": "d822decb86897563f238121144db199aba5548a2c0341cb6d458e4e0e1a02ce7",
+          "backup": "audit/gradle_g0_measurement_v1/raw/021_d822decb86897563f238121144db199aba5548a2c0341cb6d458e4e0e1a02ce7.csv",
+          "focal_mutants": 2,
+          "killed": 2,
+          "raw_percent": 100.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": true,
+          "ownership_limit": null,
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "2853259e7a70cab70a01044e17bea272f8abccd43ecdfd5f0c0c5fd74fca9f59",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator": 2
+          },
+          "mutated_classes": [
+            "org.apache.calcite.avatica.metrics.dropwizard.DropwizardHistogram"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": true
+    },
+    {
+      "sample_index_1based": 45,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maximumdepthofbinarytree/solution.java",
+      "repo_id": "41627638",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "100.0",
+      "selected_G0_test": "Solution_RBL4_194905a6Test",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\034_41627638_194905a6\\compiledrepos\\41627638\\leetcode\\battleships-in-a-board\\build\\reports\\pitest\\202607240244\\mutations.csv",
+          "source_sha256": "2dbd528eb359cd64d9a8facaa81a3fef7cacc21acde7b19810a2c1638ddaefef",
+          "backup": "audit/gradle_g0_measurement_v1/raw/045_2dbd528eb359cd64d9a8facaa81a3fef7cacc21acde7b19810a2c1638ddaefef.csv",
+          "focal_mutants": 4,
+          "killed": 4,
+          "raw_percent": 100.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": true,
+          "ownership_limit": null,
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "10fa0b05d774c8b020f7db6381875bc998f2181db3b86793b418a8ed6e09c96b",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.MathMutator": 1,
+            "org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator": 1,
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 2
+          },
+          "mutated_classes": [
+            "com.github.MaximumDepthofBinaryTree.Solution"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": true
+    },
+    {
+      "sample_index_1based": 97,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parseccompletablefuture.java",
+      "repo_id": "74999474",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "0.0",
+      "selected_G0_test": "ParsecCompletableFuture_RBL4_fd9ad981Test",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\162_74999474_fd9ad981\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\pitest\\202607240419\\mutations.csv",
+          "source_sha256": "9eee76755146ffaecfcd16f12cec2df213e230ff7e46773dcbc70fe49bffe8c0",
+          "backup": "audit/gradle_g0_measurement_v1/raw/097_9eee76755146ffaecfcd16f12cec2df213e230ff7e46773dcbc70fe49bffe8c0.csv",
+          "focal_mutants": 8,
+          "killed": 0,
+          "raw_percent": 0.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": false,
+          "ownership_limit": "No positive killing-test reference cannot prove ownership from CSV alone",
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "a36dd0fc97f0a68611eebf3dbfad5634526e09cb21ee855491e127ed37c1aa2e",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator": 2,
+            "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator": 1,
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 5
+          },
+          "mutated_classes": [
+            "com.yahoo.parsec.clients.ParsecCompletableFuture"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": false
+    },
+    {
+      "sample_index_1based": 134,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/defaultasynccompletionhandler.java",
+      "repo_id": "74999474",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "0.0",
+      "selected_G0_test": "DefaultAsyncCompletionHandler_RBL4_e521567fTest",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\164_74999474_e521567f\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\pitest\\202607240420\\mutations.csv",
+          "source_sha256": "687232f1e162bd4be2bcf3cebe1b77122d4e47c2f62a787a566e335a41b6ee14",
+          "backup": "audit/gradle_g0_measurement_v1/raw/134_687232f1e162bd4be2bcf3cebe1b77122d4e47c2f62a787a566e335a41b6ee14.csv",
+          "focal_mutants": 8,
+          "killed": 0,
+          "raw_percent": 0.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": false,
+          "ownership_limit": "No positive killing-test reference cannot prove ownership from CSV alone",
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "0a0d23c95f7497ec828c9318f200ce591afc91f9652283a4412e1d37a8553611",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator": 5,
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 3
+          },
+          "mutated_classes": [
+            "com.yahoo.parsec.clients.DefaultAsyncCompletionHandler"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": false
+    },
+    {
+      "sample_index_1based": 169,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/movezeroes/solution.java",
+      "repo_id": "41627638",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "100.0",
+      "selected_G0_test": "Solution_RBL4_2857f9c6Test",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\037_41627638_2857f9c6\\compiledrepos\\41627638\\leetcode\\battleships-in-a-board\\build\\reports\\pitest\\202607240245\\mutations.csv",
+          "source_sha256": "e639be9e334bcedda2012f1bd4f955485ae6eeb6539b2db000a818b1d73763b0",
+          "backup": "audit/gradle_g0_measurement_v1/raw/169_e639be9e334bcedda2012f1bd4f955485ae6eeb6539b2db000a818b1d73763b0.csv",
+          "focal_mutants": 6,
+          "killed": 6,
+          "raw_percent": 100.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": true,
+          "ownership_limit": null,
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "d319d25beec450b53ccb161c2a29bd5f8eb07b51ed1596c702163fe429dbe524",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator": 3,
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 1,
+            "org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator": 2
+          },
+          "mutated_classes": [
+            "com.github.MoveZeroes.Solution"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": true
+    },
+    {
+      "sample_index_1based": 170,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/reverselinkedlist/solution.java",
+      "repo_id": "41627638",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "100.0",
+      "selected_G0_test": "Solution_RBL4_9f4d73afTest",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\038_41627638_9f4d73af\\compiledrepos\\41627638\\leetcode\\battleships-in-a-board\\build\\reports\\pitest\\202607240246\\mutations.csv",
+          "source_sha256": "54b6a1e7238bc5c13bb6cd5194ab6cb733520496504bba3183e396200ab91460",
+          "backup": "audit/gradle_g0_measurement_v1/raw/170_54b6a1e7238bc5c13bb6cd5194ab6cb733520496504bba3183e396200ab91460.csv",
+          "focal_mutants": 11,
+          "killed": 11,
+          "raw_percent": 100.0,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": true,
+          "ownership_limit": null,
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "57a42a06ded3e9c927328990324a0599e774c6fc9393447f072ef130dcca5683",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator": 1,
+            "org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator": 1,
+            "org.pitest.mutationtest.engine.gregor.mutators.MathMutator": 3,
+            "org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator": 4,
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 2
+          },
+          "mutated_classes": [
+            "com.github.ReverseLinkedList.Solution"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": true
+    },
+    {
+      "sample_index_1based": 197,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maxpointonline/plainloop/solution.java",
+      "repo_id": "41627638",
+      "frozen_G0_build": 1,
+      "frozen_G0_mutation_percent": "93.55",
+      "selected_G0_test": "Solution_RBL4Test_5e962fc1",
+      "candidates": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\009_41627638_5e962fc1\\compiledrepos\\41627638\\leetcode\\battleships-in-a-board\\build\\reports\\pitest\\202607240838\\mutations.csv",
+          "source_sha256": "32eaf25bc7cf9c31f39af072b910263cf7928314cae555ba779af3748dfe3322",
+          "backup": "audit/gradle_g0_measurement_v1/raw/197_32eaf25bc7cf9c31f39af072b910263cf7928314cae555ba779af3748dfe3322.csv",
+          "focal_mutants": 31,
+          "killed": 29,
+          "raw_percent": 93.55,
+          "archived_percent_matches": true,
+          "G0_owner_confirmed_by_killing_test": true,
+          "ownership_limit": null,
+          "foreign_killing_tests": [],
+          "observable_universe_sha256_excluding_status": "b5e697815ecf7eaea1cdc6373590cd45d1cc9e29aee37ad64916c60e16391c25",
+          "observable_universe_fields": "SourceFile, mutatedClass, mutator, method, line; multiplicity retained; CSV cannot identify finer bytecode site",
+          "mutators_observed": {
+            "org.pitest.mutationtest.engine.gregor.mutators.MathMutator": 8,
+            "org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator": 10,
+            "org.pitest.mutationtest.engine.gregor.mutators.ReturnValsMutator": 5,
+            "org.pitest.mutationtest.engine.gregor.mutators.ConditionalsBoundaryMutator": 4,
+            "org.pitest.mutationtest.engine.gregor.mutators.IncrementsMutator": 3,
+            "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator": 1
+          },
+          "mutated_classes": [
+            "com.github.maxpointonline.plainloop.Solution"
+          ],
+          "engine_version_from_CSV": null
+        }
+      ],
+      "unique_owner_confirmed_report": true
+    }
+  ],
+  "metrics_sha256": "92ba89c3000be4b28ffc361ea19630764582d262c1e8817477dc54ac0fd4e724",
+  "measurement_scope_rule": "Preserve legacy Gradle exact focal FQCN target; do not expand to nested targets merely to resemble Maven. Compare observable mutant universe where historical owner evidence exists; never alter G0 scores/cohorts. Engine effective version needs evidence beyond CSV.",
+  "new_generation_calls": 0,
+  "new_measurements": 0,
+  "GPT_API_calls": 0
+}

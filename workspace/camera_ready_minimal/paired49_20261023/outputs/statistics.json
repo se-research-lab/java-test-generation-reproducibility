@@ -1,0 +1,88 @@
+{
+  "dataset": "submitted full300_merged_20260724_paper; E0 assertions=false",
+  "n": 49,
+  "repositories": 15,
+  "maven": 49,
+  "gradle": 0,
+  "gpt_mean": 58.438571428571436,
+  "evo_mean": 17.628367346938777,
+  "gpt_median": 65.79,
+  "evo_median": 12.9,
+  "paired_mean_difference_pp": 40.810204081632655,
+  "paired_median_difference_pp": 40.0,
+  "gpt_wins": 39,
+  "evo_wins": 4,
+  "ties": 6,
+  "paired_directional_probability_half_ties": 0.8571428571428571,
+  "cluster_percentile_95ci_mean_difference_pp": [
+    32.99139832041344,
+    49.057824999999994
+  ],
+  "bootstrap_seed": 20261023,
+  "bootstrap_draws": 20000,
+  "repository_equal_mean_difference_pp": 42.51125,
+  "repository_equal_cluster_95ci": [
+    32.443064583333324,
+    53.33289041666666
+  ],
+  "repository_means_positive_zero_negative": [
+    15,
+    0,
+    0
+  ],
+  "leave_one_repository_out_range_pp": [
+    38.74744680851064,
+    42.69488888888889
+  ],
+  "original_survivors": {
+    "gpt_n": 61,
+    "evo_n": 158,
+    "gpt_median": 66.67,
+    "evo_median": 8.11
+  },
+  "strict300_context": {
+    "mean_difference_pp": 4.842066666666668,
+    "gpt_wins": 46,
+    "evo_wins": 70,
+    "ties": 184,
+    "tie_build_decomposition": [
+      {
+        "gpt_build": 0,
+        "evo_build": 0,
+        "pairs": 130
+      },
+      {
+        "gpt_build": 0,
+        "evo_build": 1,
+        "pairs": 43
+      },
+      {
+        "gpt_build": 1,
+        "evo_build": 0,
+        "pairs": 5
+      },
+      {
+        "gpt_build": 1,
+        "evo_build": 1,
+        "pairs": 6
+      }
+    ]
+  },
+  "artifact_files_in_paired49": 98,
+  "new_generation_calls": 0,
+  "new_java_measurement_jobs": 0,
+  "limitations": [
+    "historical process/build gate, not a fresh passing-test or raw-PIT audit",
+    "E0 assertions disabled; does not establish fairness of oracle configuration",
+    "conditional survivor cohort, all Maven, not representative of all300 buildability",
+    "rounded archived percentages, no inference of raw mutant counts",
+    "15 observed repository clusters; CI conditional on this cohort and assumptions",
+    "post-review analysis, outcomes previously seen; no new confirmatory/NI claim"
+  ],
+  "environment": {
+    "python": "3.10.6",
+    "numpy": "1.26.4",
+    "pandas": "2.0.3",
+    "matplotlib": "3.7.3"
+  }
+}

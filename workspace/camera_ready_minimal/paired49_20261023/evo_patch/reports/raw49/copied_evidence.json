@@ -1,0 +1,1766 @@
+[
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\001_3713233_ConstructorMetaExtractor.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\001_3713233_ConstructorMetaExtractor.stdout.log",
+    "sha256": "810922873f69d32531214aa56305797a926b8c1813b96c07d8480d8dc473556d",
+    "bytes": 2602
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "33cb983c9eb411cfbde058bb1083cda70df8033e15caa41a2deb17786185b991",
+    "bytes": 960
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "b63bc8b77623b8d9ab83224f05874bbb75c16ad6004f8437f717acdc64d831fd",
+    "bytes": 962
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.extractor.ConstructorMetaExtractor_RBL4Test_aefe9473.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.extractor.ConstructorMetaExtractor_RBL4Test_aefe9473.xml",
+    "sha256": "c78d9b40b9ff0a908dc166824a688ff43c3eb2b1cc4859e63a825527ad609f3d",
+    "bytes": 14632
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "8032771be58c50ce8765893144a29b62d04c91982580cd093bafbf9b3fd1ba0e",
+    "bytes": 165768
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "286e01b39de3a2642e4e95749e014143fd803aad02c4a2943ee32cd189be72df",
+    "bytes": 7678
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\000_3713233_FileSearcherFactory.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\000_3713233_FileSearcherFactory.stdout.log",
+    "sha256": "e01f05dfdad1a5627ac836d4f34a6ec6cb8aeaccf3ec3a39ccd658e8c0baa487",
+    "bytes": 2562
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "90d14aa2fdf1fa9bd7f9db8fa5cf592d208bbfba88a0a82cd3dec3d545a1e6e3",
+    "bytes": 923
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "cbd272eb24ed6b476ba6e4ac0921a0d2cfff8869cb83098b19461d819817f3cd",
+    "bytes": 925
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.file.FileSearcherFactory_RBL4Test_5e446228.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.file.FileSearcherFactory_RBL4Test_5e446228.xml",
+    "sha256": "09d2a3936d265fed186f04ca40dd07af9457ce6b7e258b852efdda9d3b31a647",
+    "bytes": 11987
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "695e93c21295ad1affb7e3f0533218823e62c7c82ba13fbdfa89a629722c6203",
+    "bytes": 160854
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "7e9a0ee82799aeb8f303b143c0bf5910d3b0decfdefdef3f779590ba8bb55277",
+    "bytes": 7643
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\007_3713233_TrimInsideOfBraceFilter.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\007_3713233_TrimInsideOfBraceFilter.stdout.log",
+    "sha256": "b34511777faf0aab1106b62d0232d7d2fb84835d567bee6fc2038f16790888f9",
+    "bytes": 2600
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "e98fcac05fddab0e72c3135bc1cff39af0955e4021697c06a207ea84375dcf1f",
+    "bytes": 960
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "23e88137497a186b07d23dceeeb5a73f21e830a50b9ee97f19cdee501b9a2c16",
+    "bytes": 964
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.filter.impl.TrimInsideOfBraceFilter_RBL4_4b7d40a8Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.filter.impl.TrimInsideOfBraceFilter_RBL4_4b7d40a8Test.xml",
+    "sha256": "9db14325b52542e481fc11ad53960c594fabf7f45e743ed76f8d6af1ebdecaf1",
+    "bytes": 17043
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "269771610b7fa8af6036567c7c5fd8eceeabaaaed01b3a60eee2c65985686c1e",
+    "bytes": 162981
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "f3cb5af4894b48a4cbfcfeace2079eeceedf5c7d4f178dda40c71d44b983852c",
+    "bytes": 7649
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\004_3713233_LineBreakProvider.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\004_3713233_LineBreakProvider.stdout.log",
+    "sha256": "fa2c60a69d2d8bb27e03478e76881e896d1967adf82d89b8ed6d6123b79e8d43",
+    "bytes": 2560
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "2dd7873915053ac540b9bbbc6fd3b0455b00e9be1c3f6c8ab293584d8b015ac9",
+    "bytes": 930
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "52dcf1c0d8d3f152b5d381688a0c6912c3475d81a025b2bb31cf40ba23b23697",
+    "bytes": 931
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.generator.LineBreakProvider_RBL4_dcf587c0Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.generator.LineBreakProvider_RBL4_dcf587c0Test.xml",
+    "sha256": "0d10ea1eb20d4ab0f97e99b7fc4bb1276e4fc00b9e0f34cb8b77172b642a4f87",
+    "bytes": 13532
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "d9b03b5d38dbc0c082e297737727e75b4a86d125bb58f1be1365311c53d044b7",
+    "bytes": 163345
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "98b0f027c7aa44f7f3883369bd6ae7e4acf9f5650dbf987f41f2ad0211bfe0f8",
+    "bytes": 7645
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\003_3713233_ArgTypeMeta.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\003_3713233_ArgTypeMeta.stdout.log",
+    "sha256": "e27c20b18144512e42564343ffea69ed88377eb1711cb20b21b05eb98b57696a",
+    "bytes": 2514
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "ef5179307145b480ae3e792bbd95d363fbbdd63f3422f5f786f1171037f2cf01",
+    "bytes": 898
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "d013c362f1ed6f1dce6df402233db23fda744cfe6270a1d16f8efe9f3e4de801",
+    "bytes": 898
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.meta.ArgTypeMeta_RBL4_5cccf4b4Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.meta.ArgTypeMeta_RBL4_5cccf4b4Test.xml",
+    "sha256": "2d85f0a6aae7bc4d182ed7e4a479e6f92c9140ece122750595210dbbdc95eda7",
+    "bytes": 12632
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "dde3d5d9b6d0129985799e2fda346a21c7afec29f87eb82a306e69f6814de016",
+    "bytes": 161576
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "843775c6fe41c366f2078e2ce592d50cb5727fb03a8b3f67fde0f89f5a9e4ae5",
+    "bytes": 7643
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\002_3713233_ReturnTypeMeta.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\002_3713233_ReturnTypeMeta.stdout.log",
+    "sha256": "15ab4c52fba25b314a78e4b87e0f8403f0dc781c556607a301382a8664febb9c",
+    "bytes": 2532
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "65c84ddf1cf5c8fd35d417aa3a3df886496193ced6fc4b5e3751e7e457b133b2",
+    "bytes": 910
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "0e51fc1df4f79040bcbbd76b50dbc8594d35344d69ad996ea750c2ea976ec4c4",
+    "bytes": 910
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.meta.ReturnTypeMeta_RBL4_d95af645Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.meta.ReturnTypeMeta_RBL4_d95af645Test.xml",
+    "sha256": "31e7457219838261599f2909edfd8e7d7cdc98ec1812bf038d923f9a6fa911c6",
+    "bytes": 12528
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "b267e4f5c6a661b1824ecd8516921c92d242a744ca8f9db38e269807c99cb5d8",
+    "bytes": 161597
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "d980357105f76e447b29342dbeb51222b93d3de9ef6d358df7a68b316c666278",
+    "bytes": 7643
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\006_3713233_PrimitiveTypeUtil.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\006_3713233_PrimitiveTypeUtil.stdout.log",
+    "sha256": "1b5386cdd9a82d01a99ddd88798b3d2f83a1e08ddc074936823d90c60f65f09c",
+    "bytes": 2550
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "8a1686c8c0ff8366dd7c40f63ddf8f95e0acb9f2b16b63068625adb3c4be05fd",
+    "bytes": 926
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "c1bf20491ec829271c296e0ff63aa3ce24bfb22fa441a736963800c9421f4e6d",
+    "bytes": 921
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.util.PrimitiveTypeUtil_RBL4_0aa8a201Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.util.PrimitiveTypeUtil_RBL4_0aa8a201Test.xml",
+    "sha256": "a99fb72b6a849ba9b95b771fc59efb72c9a3704065f7544ff0466eb79a67902c",
+    "bytes": 13292
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "4ff9c43471cf7f62ecc5853bb098448b8fa6f46a0d9724c5a7bd7c8ca9b7fec0",
+    "bytes": 160724
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "e05c1dd765a5833b0b225f87758bb2bcc28b51e8c417922063bce2ff7c998117",
+    "bytes": 7646
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\001_3713233_ThreadUtil.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\001_3713233_ThreadUtil.stdout.log",
+    "sha256": "66e506ba4f146373cb61e5a74e74a38bd1254331c2cf2b61a955d199bb15faec",
+    "bytes": 2508
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\output\\3713233\\TestClasses_3713233_core_evosuite.csv",
+    "sha256": "90bb5bf65c0e449142d3aed521b165782f7a9f85e40d4ecc29179da192b7c8c0",
+    "bytes": 883
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\output\\3713233\\TestClasses_3713233_core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "74f3ccc0dd77f1144a57facd530844488e6abc5ca9307bd556b0e2ba21763e07",
+    "bytes": 888
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.util.ThreadUtil_RBL4_f790382eTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.util.ThreadUtil_RBL4_f790382eTest.xml",
+    "sha256": "1dc70cd630c3bf97febfae228df526ff7d602c02a529e499fd3ce285c104d2a4",
+    "bytes": 12368
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\target\\pit-reports\\mutations.csv",
+    "sha256": "5a927386dd36b64487441ae9555cb976bde72ddae94e199b065fd12115e3f9ec",
+    "bytes": 160957
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "651990ac1bac00ede33054ef0f370e589e93f3863edf96c1dee1ce26e58845fe",
+    "bytes": 7643
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\009_3847504_UrlImpl.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\009_3847504_UrlImpl.stdout.log",
+    "sha256": "b3aa09f210251e15a4e90078e2bda82873159ea09a755b05640fd380d3a4f6bf",
+    "bytes": 2632
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\output\\3847504\\TestClasses_3847504_modules_weblounge-common_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\output\\3847504\\TestClasses_3847504_modules_weblounge-common_evosuite.csv",
+    "sha256": "559a4fcf7aa4a43d9c06848907d2ae0cb60efd6214f62ee4d84fa333209751c0",
+    "bytes": 1007
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\output\\3847504\\TestClasses_3847504_modules_weblounge-common_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\output\\3847504\\TestClasses_3847504_modules_weblounge-common_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "1125f549eaf7445f0cf2f7a856caa1a1f4bd05d1e9c3cfe8e17990625a876538",
+    "bytes": 1006
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\target\\surefire-reports\\TEST-ch.entwine.weblounge.common.impl.url.UrlImpl_RBL4_8ce169b0Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\target\\surefire-reports\\TEST-ch.entwine.weblounge.common.impl.url.UrlImpl_RBL4_8ce169b0Test.xml",
+    "sha256": "7cae6105ea57afec390c9b06776bf3747fead70e2e620760de41e60537b34658",
+    "bytes": 18685
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+    "sha256": "cbe80e257bf16c6052f71ae83fe963abf86ec603463710e6763a87af5c61ddbd",
+    "bytes": 718627
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "f0498a7e34686a145519a4bb15a705348c41472720d292c299cd9c508012987a",
+    "bytes": 22083
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\030_41547678_QualifiedName.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\030_41547678_QualifiedName.stdout.log",
+    "sha256": "e38c8fe29d5788d16ee1a24545b795ced6aaabe85deb03de7f1ccc4b23ad6254",
+    "bytes": 2607
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\output\\41547678\\TestClasses_41547678_turin-compiler_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\output\\41547678\\TestClasses_41547678_turin-compiler_evosuite.csv",
+    "sha256": "b7c81e6009218bdf6a7a6ba4dcaad5684b923f32f6bbd937107f32dec47dd510",
+    "bytes": 975
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\output\\41547678\\TestClasses_41547678_turin-compiler_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\output\\41547678\\TestClasses_41547678_turin-compiler_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "29d5646ff2f7f7e19c650208102eeefdf9189d25a9d007e995ddc89b28a6b362",
+    "bytes": 973
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\target\\surefire-reports\\TEST-me.tomassetti.turin.parser.ast.QualifiedName_RBL4_3bf6f68aTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\target\\surefire-reports\\TEST-me.tomassetti.turin.parser.ast.QualifiedName_RBL4_3bf6f68aTest.xml",
+    "sha256": "cb8e12d2ca5015fd81ab246d76a678633be683da09c97f3bdc953be352565d4c",
+    "bytes": 15952
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\target\\pit-reports\\mutations.csv",
+    "sha256": "5d246a28f67e5c9a6b21769ead8944c12f102177c26e9a4aa3940979e96b3e58",
+    "bytes": 476805
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "898d9d8f744c812dd0efa183e109dba5cac2d3892ff826d2a5f9b3d9895f3a3f",
+    "bytes": 17532
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\006_41547678_Context.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\006_41547678_Context.stdout.log",
+    "sha256": "0bda4e25626617d715e0d8f41e84bd4fab748fc8b14969f1b45faa8155815987",
+    "bytes": 2585
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\output\\41547678\\TestClasses_41547678_turin-standard-library_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\output\\41547678\\TestClasses_41547678_turin-standard-library_evosuite.csv",
+    "sha256": "a73b9a02bf409f63ce9eda80c557195e05d868994fbc837eef9b537d4fbbfdfa",
+    "bytes": 943
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\output\\41547678\\TestClasses_41547678_turin-standard-library_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\output\\41547678\\TestClasses_41547678_turin-standard-library_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "5db1b27d328fbe26583c4cc9c2c2809923892e41d7d8f72f2f1b799226b9b8c4",
+    "bytes": 952
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\target\\surefire-reports\\TEST-turin.context.Context_RBL4Test_34266f79.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\target\\surefire-reports\\TEST-turin.context.Context_RBL4Test_34266f79.xml",
+    "sha256": "fe51ca6b0cddd2eb92f8d0bd44872f8b5924dd6fba57054c997bffcaf7188984",
+    "bytes": 11801
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\target\\pit-reports\\mutations.csv",
+    "sha256": "9b51ff79ff71630c60d8c50c88a84af55e0c62d3f91a258ef85088c1232a00b4",
+    "bytes": 14309
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "f31b02fbae8a8d697324939a018a519228d48260ec295d2f17bfeaee936d295b",
+    "bytes": 992
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\063_45997449_ResourceUrn.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\063_45997449_ResourceUrn.stdout.log",
+    "sha256": "87deafcbc87d30b80b5402b6e501c601af4b35a0c26c0df9462b19702a8abf08",
+    "bytes": 2555
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "sha256": "f6aa1d2c524ade55ae721f24cdd448b523288583e64329ecb3867b9703659bf5",
+    "bytes": 934
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "9126d0d084a7b4451a42b7ab81e4c4ac6bd3386aaf3afd69fdccffbd227a319c",
+    "bytes": 931
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.resource.ResourceUrn_RBL4_ef2a07abTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.resource.ResourceUrn_RBL4_ef2a07abTest.xml",
+    "sha256": "47b9eb3d33474cd2947611a40f158d88be9b6fea02b0f69b9d012cdeabc95a4d",
+    "bytes": 12645
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "sha256": "71d5af2eedfb451d37a5253a784904061d2d09942e75386a09fbcf0b79241829",
+    "bytes": 396105
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "ecb36221b8ff461da30aa52d5f2ac72dc1a6c3a0562d7321731f46bd4fb50750",
+    "bytes": 14803
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\061_45997449_Joiners.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\061_45997449_Joiners.stdout.log",
+    "sha256": "e01bac3778cae7e909eb97aa3c3cdd2ab3a927c25e3c074dbdb7e8380ab428b3",
+    "bytes": 2523
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "sha256": "eb144316f9ec31f1aea2e8c9d5ba260e6a6ba475ce2ca6823ea435160f3063de",
+    "bytes": 903
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "312773a0f59824e43d0f51100dbd0c024b107fd35c7d77b9786026bd36ee8240",
+    "bytes": 900
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Joiners_RBL4_dbe644b5Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Joiners_RBL4_dbe644b5Test.xml",
+    "sha256": "75eff2d414a308a55938b892ef5a7ddf8aad38169ac707c25694163d8dd9162d",
+    "bytes": 12088
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "sha256": "b6373ac2e417f3489588d485c507a06b9055a466c882c3c3106d22deb1bacff6",
+    "bytes": 396313
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "4e70bbb0a46074276a709c383aa48c9d21bd6faefb6e32145d77e208e5249ef4",
+    "bytes": 14800
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\060_45997449_Splitters.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\060_45997449_Splitters.stdout.log",
+    "sha256": "51e6b12ebe1e3d72750a9fc4666a6a53686a97c3aa45fefd35323f4a9d9597ae",
+    "bytes": 2535
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "sha256": "6868c1652f0921bb9176d4e8070f64e2926e7e5addbc8ab67e0b95ba0ce5adf1",
+    "bytes": 918
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "4acd7e82d6cd5c590b055f347e0be1689f8ec92c7131408d776728b5e01b774a",
+    "bytes": 913
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Splitters_RBL4_4e640540Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Splitters_RBL4_4e640540Test.xml",
+    "sha256": "d0e75aa3cb7ab3da369a4bd07260375fce64c7af3218fa72f15374d31552aa60",
+    "bytes": 12133
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "sha256": "de5901799acc206fdab8e1e01d51ae7c768434d351abaefba21a4423af385b11",
+    "bytes": 397984
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "2495acf5b9a88aa8c6819bb0cef9e832b516dd393bacbc9c712b7826403bdb4b",
+    "bytes": 14802
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\057_45997449_Xmls.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\057_45997449_Xmls.stdout.log",
+    "sha256": "23879620123b563b2fd98cca7d02ada639ebee0c895e84da4188b07d4c870a9f",
+    "bytes": 2505
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\output\\45997449\\TestClasses_45997449_WebRex_evosuite.csv",
+    "sha256": "c0ce6c7bbdb43a2e59c3563d4cc97c1d64cd6cfaa74addef91c415d614cd3c0f",
+    "bytes": 888
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\output\\45997449\\TestClasses_45997449_WebRex_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "ff8371e3f353e69c5570ca8c9fed6bb637664f09f25560f7ea90c13533ae94fc",
+    "bytes": 887
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Xmls_RBL4_522a42d1Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Xmls_RBL4_522a42d1Test.xml",
+    "sha256": "673d9116d46356d0bcd3f8e2391f3d0dfda4b18ff9f7a50d80b42c4fdf677435",
+    "bytes": 11961
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\target\\pit-reports\\mutations.csv",
+    "sha256": "62895a71c7425498a7aa671c2a19a73c868367d05771872a4f77cd537ca72b0f",
+    "bytes": 394902
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "5a19435ea109db2d538ca45e00a0b3587b5a926b4c466b09394c9fd4dc7f6449",
+    "bytes": 14799
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\016_46396068_AlertSender.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\016_46396068_AlertSender.stdout.log",
+    "sha256": "1fbeabf5c79ad7e645eedad0bbab61f0392cbc3a8ef9525002d24c63f889fba7",
+    "bytes": 2667
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_evosuite.csv",
+    "sha256": "5fe5baacfd39b6ced0867d5ce88b14e95644f2e53fc1e0df93f70f5881370a7d",
+    "bytes": 1014
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "d2b1b49b3b91a6d23e4cd191a071b57316cb9dab876f05accbb9514786169107",
+    "bytes": 1016
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\surefire-reports\\TEST-com.kakao.hbase.common.util.AlertSender_RBL4Test_ed64392c.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\surefire-reports\\TEST-com.kakao.hbase.common.util.AlertSender_RBL4Test_ed64392c.xml",
+    "sha256": "7f5eaebe00119e1887da3651f3b8ae7816e9a68088da478a4d91213c78d926b0",
+    "bytes": 40327
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\pit-reports\\mutations.csv",
+    "sha256": "a8c0241c4d05b99bd23840970fba2c055a37886e2eab38f9ebbe69429eceb8f5",
+    "bytes": 62637
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "7fcee3921277b8e8b6d29ceb584b740c27fc214b6a2f6f95a22434084ac477df",
+    "bytes": 2973
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\066_46396068_DecimalStringSplit.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\066_46396068_DecimalStringSplit.stdout.log",
+    "sha256": "6374a4dc3da249662d6ad01702a7c003fc23c1834bdb72e34d80687e34a6178b",
+    "bytes": 2709
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_evosuite.csv",
+    "sha256": "c036a03f6ba94c2215f68f432b60d626c134f42954d2d85fa4167f82a5cb7e67",
+    "bytes": 1050
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\output\\46396068\\TestClasses_46396068_hbase0.98_hbase-common-0.98_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "624e896512d8843daef2cac4d647e81e0b20804e4304ca22aaa0d031795da9b4",
+    "bytes": 1050
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\surefire-reports\\TEST-com.kakao.hbase.common.util.DecimalStringSplit_RBL4_3a04c22aTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\surefire-reports\\TEST-com.kakao.hbase.common.util.DecimalStringSplit_RBL4_3a04c22aTest.xml",
+    "sha256": "c5f121388f5d48d292d26f0fb080d7e6a7235036e8df19229ba6a7102f0e7f9d",
+    "bytes": 32972
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\pit-reports\\mutations.csv",
+    "sha256": "8b8bf65792c8daf91e1311c2b8fd18febed4fe046e94ef2768f05c1c36e786da",
+    "bytes": 63244
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "5de624f90796987232ce2402fa0200ea515230c9e14807c19fccadc245b347d2",
+    "bytes": 2972
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\080_48046454_ResettableSingletonTraverser.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\080_48046454_ResettableSingletonTraverser.stdout.log",
+    "sha256": "3449b1b5761f80d4d26dc256d9f3b3bfed8e2a9c7f28c4d449631618beb4a522",
+    "bytes": 3244
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_evosuite.csv",
+    "sha256": "b3756861da58a27906f695f109585e2a07cd306f35e25f19cc40bd2eebf11201",
+    "bytes": 1024
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "123c5fb5900c788942e813926988fde3b015cd538e9aeca08228e2d16b21678f",
+    "bytes": 1033
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\surefire-reports\\TEST-com.hazelcast.jet.core.ResettableSingletonTraverser_RBL4_c7d874e7Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\surefire-reports\\TEST-com.hazelcast.jet.core.ResettableSingletonTraverser_RBL4_c7d874e7Test.xml",
+    "sha256": "3b63ca7e017c3c52757905b6dc06638cd5829d35fd3408c57c98b64db9390d57",
+    "bytes": 52317
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+    "sha256": "26fa42e94af943be7c71395cdb857a9fd5d1df8b9892ea37fa19c7dd0c18a208",
+    "bytes": 1288306
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "7daa5ddecf530c39296bef14720b943fada1bf0998910579bbf76c086ffce6bb",
+    "bytes": 64666
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\081_48046454_SlidingWindowPolicy.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\081_48046454_SlidingWindowPolicy.stdout.log",
+    "sha256": "8405e389e42964769831c1f945d6e8a1de231ff5d56f178a3f44a6ce95b7b381",
+    "bytes": 3190
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_evosuite.csv",
+    "sha256": "a1aaa438e7c8cb3a5301c3f9038cf52550e1fb789b743c6d5849d0bf0e6c3c4b",
+    "bytes": 996
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\output\\48046454\\TestClasses_48046454_hazelcast-jet-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "91e6831e661dd9f8479d2ff4d91401a9f77567170aca3333032af281e8fd219e",
+    "bytes": 1000
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\surefire-reports\\TEST-com.hazelcast.jet.core.SlidingWindowPolicy_RBL4_0ca1a5feTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\surefire-reports\\TEST-com.hazelcast.jet.core.SlidingWindowPolicy_RBL4_0ca1a5feTest.xml",
+    "sha256": "18b3989cbf1efb50cea11cec9d447ceb729284f742b9402f8b7d63057c1b5b77",
+    "bytes": 63936
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+    "sha256": "00b5f251f3803318bcb4f726f5032a9945acae5e839a09d39558e94a3963c580",
+    "bytes": 1290417
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "d04eb8e0e9441dddebaefe35298f55a3fcc37b08dc89c1dd922d45eebcc5ea55",
+    "bytes": 64667
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\097_558963_Directives.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\097_558963_Directives.stdout.log",
+    "sha256": "d952db8efad996f8794fdd8fc37764f120dec87fb19fec4ef1bf5fff44db8cd3",
+    "bytes": 2561
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "sha256": "4791fed2b46036a34e807cb25ed5565d2f6acbfa151fb94760b8017ad011736f",
+    "bytes": 944
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "f55c060344697e62bccdb96fa19015b3bc55ebb845024c064836ee04fdef8556",
+    "bytes": 943
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Directives_RBL4_38f5b07cTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Directives_RBL4_38f5b07cTest.xml",
+    "sha256": "a60a03b1b43db8bc8ac7adf09b9dfb09b9d484b781e33f4d1a2174271cd68b8a",
+    "bytes": 12348
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "sha256": "8422029666f13feaaea652e0cc482440f7e5c19696449b29ee6d35f37870dd12",
+    "bytes": 190117
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "389be6b867b67454b0187e06044ceb9525166521fad66c70e7d9a0ffc2fc305f",
+    "bytes": 8961
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\098_558963_Headers.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\098_558963_Headers.stdout.log",
+    "sha256": "cae4dfaefb266fd6863b9f5fb96c33a6970b113eef645277f3e058b8f3690c26",
+    "bytes": 2543
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "sha256": "64ac1c49c3d13effe93cc5f6da4202d9c0d64786ff4203c177dd7435ad9915af",
+    "bytes": 938
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "9ef0b2cba0ce74cd230760956aad0fd30dc018947d7c48d5878d2727205bf75d",
+    "bytes": 939
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Headers_RBL4_341e479eTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Headers_RBL4_341e479eTest.xml",
+    "sha256": "a24ebc2b67c6b5a3ef197fe2ee3ac70d56914c32542a50af84aae93ed6d388b2",
+    "bytes": 12858
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "sha256": "4a29ce96204bc1198e36f9242114326f854d0fa792bd313151d23118ea2d66ce",
+    "bytes": 199568
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "7d1f8aa46898b2042f4984da191385490fe4093dfd7e7a53f118f4ea5ec62781",
+    "bytes": 8975
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\100_558963_MIMEType.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\100_558963_MIMEType.stdout.log",
+    "sha256": "0f62a7190589b7e984b545f48a7d55ff69ad98611eaec99015d0f70a124d47aa",
+    "bytes": 2549
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "sha256": "4d7c20443c73327aa7e89b25b5237e995cdae92bdc6fbc89c379f384c208dcdb",
+    "bytes": 941
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "5cdac7970c8ef4c1f776e3e48952b4d33cf506ddc79bbf3629e77e249463eb0e",
+    "bytes": 940
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.MIMEType_RBL4_d908a814Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.MIMEType_RBL4_d908a814Test.xml",
+    "sha256": "fea1c3c13468ab7ac8eea9a871eb4c047869c394822accf462b75bdbc2e74ffd",
+    "bytes": 12582
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "sha256": "0c0d584ab3db15b59fe31fe3def183a19b3a2a60e7581c4e39d800fc805a0619",
+    "bytes": 191257
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "96fd84473ee647c818170cfd8b4a9a3a810acbb3b3ee9ca872f651098d9f6104",
+    "bytes": 8966
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\025_558963_Status.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\025_558963_Status.stdout.log",
+    "sha256": "79b40d7c84c9f2be15de9a5250977f12937456317027a65727748ef3942f2f94",
+    "bytes": 2537
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\output\\558963\\TestClasses_558963_httpcache4j-api_evosuite.csv",
+    "sha256": "6051cd119eb0dde7fb0cafef0f14b6f03a2720ce0df5ca2572d13c8f64759f49",
+    "bytes": 932
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\output\\558963\\TestClasses_558963_httpcache4j-api_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "4a0191e3aa8623c5fac8a83f3d1776cbd31c4baf834501bfdd9d0a5bc338b284",
+    "bytes": 931
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Status_RBL4Test_095adb46.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Status_RBL4Test_095adb46.xml",
+    "sha256": "9c8b84b7a5e45f2bfffe76bd6f32f8e73e8c357c652f33804146e3c62e55bec1",
+    "bytes": 12354
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+    "sha256": "3e817904aedd84e0dd275375e0500dbff45264f0192ae3fbb7c41f0987cb9864",
+    "bytes": 191499
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "346e40c28f5e35718ceb1128e90e061f06cc0e8515763f27d4d6d7c70c083591",
+    "bytes": 8964
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\026_60578004_JobExecutionMultipleShardingContext.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\026_60578004_JobExecutionMultipleShardingContext.stdout.log",
+    "sha256": "c35c1132c8d63c2bcdd3953b40f39625f93b7584ee7cc8cbfa3f84ee4b97167c",
+    "bytes": 2753
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "sha256": "625306ae5f0eff69eb97d210c0bc7b589ebd7089f6f895f8ab88929e481698fc",
+    "bytes": 1061
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "6b3f7daa4919cd4ae9f72e438ccd315d64e9fdbb4566399e9aa7689b4bb6904d",
+    "bytes": 1063
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_RBL4Test_c6723af1.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_RBL4Test_c6723af1.xml",
+    "sha256": "f2bfe2f3e4d0058145af2d262c39493de793fa590b4161779189abc4453eeb52",
+    "bytes": 16842
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "sha256": "099eab5729a66e68b13d95ba51fb822dbb27b97e09fe8903f1eaca4310d05a5d",
+    "bytes": 200271
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "23e0551105d2e73b94ada274858e57023a6c227843e273a9cb6f34c5551fd4fa",
+    "bytes": 13720
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\105_60578004_ConfigurationNode.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\105_60578004_ConfigurationNode.stdout.log",
+    "sha256": "bd01b59a336581479ffaa8f44f16b8acbb2c5e1f9e8079e80694edf98de3157c",
+    "bytes": 2669
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "sha256": "9fe3888cf6d37c117d5e07e133b4a84809385d200d6e12b64bf895bf0162c09c",
+    "bytes": 1014
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "305c605d096be0e3a55141841254e86269e96d9d44f217dfbe1bcbc2f0a5b8dc",
+    "bytes": 1014
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.config.ConfigurationNode_RBL4_5ed65ca9Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.config.ConfigurationNode_RBL4_5ed65ca9Test.xml",
+    "sha256": "8568d19e5399b938651bbfae6c76f228a83d570dea2da4fb9ab6979c6a3dc5d0",
+    "bytes": 18232
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "sha256": "3dd806f855a3d52cc6897654dba52244d0b23cf2cf63b93bf3f065435ec80043",
+    "bytes": 198483
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "9d0571f8eaf33346b2240e2c7c1e579ac98ec6e5de6453e73da1de5fd231fe0e",
+    "bytes": 13721
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\107_60578004_LeaderElectionService.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\107_60578004_LeaderElectionService.stdout.log",
+    "sha256": "714c0107b524378150e613f1099f2bfedfe3623421741bb97d387ac3b7f7707f",
+    "bytes": 2697
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "sha256": "28544b28881b5bffd89fb9de4d10d53fbe3b18395a0c81e3f26e00d807cd6f51",
+    "bytes": 1037
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "b31526cde615a91313ee97d9807e7b890275b67e33766557bd5e0f2584530097",
+    "bytes": 1041
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.election.LeaderElectionService_RBL4_04265ecaTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.election.LeaderElectionService_RBL4_04265ecaTest.xml",
+    "sha256": "5e486252bd4aac2cef527578882c538c47dbc2655b779830f3c3bd172c9bb4a2",
+    "bytes": 19166
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "sha256": "008a68fa6b71f44c84575f9cbea49437ccfb33d041f0c19bc580f47df6db73cf",
+    "bytes": 198990
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "49da24a28bee9877474fda3f17839457bd0a1309be0fc4020e2fcd9d9dcb8716",
+    "bytes": 13725
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\104_60578004_ProcessCountJob.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\104_60578004_ProcessCountJob.stdout.log",
+    "sha256": "93a834cff265e512cdd69244d5c8a50251b0df3f36b02ba914af0efc7b9fc3e9",
+    "bytes": 2665
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_evosuite.csv",
+    "sha256": "8eb04e92e969457d354b54833d846e7a749429263c672f3b4c1e482b13e49c76",
+    "bytes": 1013
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\output\\60578004\\TestClasses_60578004_elastic-jobx-core_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "b90988d2f4ceb19f552e3607960aa592365f614825ae218ea00f3bbf51a32cd5",
+    "bytes": 1012
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.statistics.ProcessCountJob_RBL4_fc02f3bfTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.statistics.ProcessCountJob_RBL4_fc02f3bfTest.xml",
+    "sha256": "dabc10c8155e223d4ffa02da6803785af3b06b3983a42e5b5c30494f22579103",
+    "bytes": 16310
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+    "sha256": "3dd806f855a3d52cc6897654dba52244d0b23cf2cf63b93bf3f065435ec80043",
+    "bytes": 198483
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "1792b25ae8453ca8660aa9eee9bc8aceb9cf218016853ad250b0e6c7482e8ee9",
+    "bytes": 13723
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\131_6437134_BoundingBox.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\131_6437134_BoundingBox.stdout.log",
+    "sha256": "e899c7c97d678eea2e20b508c22472712131367fbb2db94b0bb6b744dcb3e9b6",
+    "bytes": 2552
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\output\\6437134\\TestClasses_6437134_enav-model_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\output\\6437134\\TestClasses_6437134_enav-model_evosuite.csv",
+    "sha256": "225a5d801cfd5d3a78849a15c5c0f3e709aec508e024f53de8e9a1e09d500827",
+    "bytes": 934
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\output\\6437134\\TestClasses_6437134_enav-model_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\output\\6437134\\TestClasses_6437134_enav-model_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "74e7b251d341a8ded8460a98cff8e2142474b83e6c049e95b83c821dab28efc4",
+    "bytes": 933
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\target\\surefire-reports\\TEST-dk.dma.enav.model.geometry.BoundingBox_RBL4_1f61159dTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\target\\surefire-reports\\TEST-dk.dma.enav.model.geometry.BoundingBox_RBL4_1f61159dTest.xml",
+    "sha256": "a6776fcb97ef83720d0896e7497ae3c733842f938201ba114e9354cc100b6229",
+    "bytes": 12526
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\target\\pit-reports\\mutations.csv",
+    "sha256": "94353b361d525621b4bacdc0be4aa7e0f06b326ad21537cf9c1f3a46382a23ed",
+    "bytes": 105764
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "d2ca711522f96df482772b5271c7b3f9e9161f76b555ed3ed1021e5068523ce4",
+    "bytes": 5197
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\033_6437134_PositionTime.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\033_6437134_PositionTime.stdout.log",
+    "sha256": "1dfa1f1c498c3f506704e403fd53ca5b2e1a283d2b902fb6831aca56832d35b0",
+    "bytes": 2558
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\output\\6437134\\TestClasses_6437134_enav-model_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\output\\6437134\\TestClasses_6437134_enav-model_evosuite.csv",
+    "sha256": "9eac990f1af2e7a87aab4ff985f0149c03e63a4620576f44b9e5b33fb05c9e85",
+    "bytes": 940
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\output\\6437134\\TestClasses_6437134_enav-model_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\output\\6437134\\TestClasses_6437134_enav-model_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "ae4023a8349780f052e1ebc4fc2834490dd3ab301593da2da7ada6f6b9437651",
+    "bytes": 934
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\target\\surefire-reports\\TEST-dk.dma.enav.model.geometry.PositionTime_RBL4Test_e9d79346.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\target\\surefire-reports\\TEST-dk.dma.enav.model.geometry.PositionTime_RBL4Test_e9d79346.xml",
+    "sha256": "0d1793ff0436051028e80591cceac66ba5450ab78598c8827aa717de6eb3a256",
+    "bytes": 12744
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\target\\pit-reports\\mutations.csv",
+    "sha256": "18f27f4379e2a1aa85f0f78d8df4a281b2f067c6ca1fc1f34c234d719c088839",
+    "bytes": 102257
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "edd23fc69e66ffea5c74721e54e312135979805d2c6c87768505bd7f70658929",
+    "bytes": 5193
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\134_6437134_SimpleRouteParser.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\134_6437134_SimpleRouteParser.stdout.log",
+    "sha256": "5b7fa2075a58f3557ff2b891fe799ccb00393c554dad4215bf20abc90229297b",
+    "bytes": 2634
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\output\\6437134\\TestClasses_6437134_enav-serialization_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\output\\6437134\\TestClasses_6437134_enav-serialization_evosuite.csv",
+    "sha256": "94a0a1a449427c5ef3694435e180c7c724c1e6c8a319d43c6f1e54236e951fbb",
+    "bytes": 992
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\output\\6437134\\TestClasses_6437134_enav-serialization_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\output\\6437134\\TestClasses_6437134_enav-serialization_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "ba8538e816d7393d02cdfe49ac11c0f443b4b69b586ef25d3c2999d756669b5f",
+    "bytes": 992
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\target\\surefire-reports\\TEST-dk.dma.enav.serialization.SimpleRouteParser_RBL4_3ed00afbTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\target\\surefire-reports\\TEST-dk.dma.enav.serialization.SimpleRouteParser_RBL4_3ed00afbTest.xml",
+    "sha256": "2ba4cb5001d4b4b45d8185666bae665d5cd5b7cdeda76fa28f3256e113bce580",
+    "bytes": 14161
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\target\\pit-reports\\mutations.csv",
+    "sha256": "37d3e5c9c6747040ad01967d46e1689d5c3754ab39b9b1f92a62fafec5feb980",
+    "bytes": 34726
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "0bf2a6344e9b89004826599d9f9f63be6acb2fa76310cd7577be568e7ab46ce4",
+    "bytes": 865
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\129_6437134_CompassUtils.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\129_6437134_CompassUtils.stdout.log",
+    "sha256": "b0f779e0f9072bfc30739d0bf141c3e030922c868765b93e7998ab091b7dd9d0",
+    "bytes": 2548
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\output\\6437134\\TestClasses_6437134_enav-util_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\output\\6437134\\TestClasses_6437134_enav-util_evosuite.csv",
+    "sha256": "04ff938c82e56679bd8b4b90476c0c923c207dede1b3a7eb1ef0d22d9f4f4e8b",
+    "bytes": 924
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\output\\6437134\\TestClasses_6437134_enav-util_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\output\\6437134\\TestClasses_6437134_enav-util_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "1608ba58024719a8ca145de22fcc4d2d21683146ea563a3c1ccb21496445bc0b",
+    "bytes": 923
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\target\\surefire-reports\\TEST-dk.dma.enav.util.compass.CompassUtils_RBL4_262d6b6cTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\target\\surefire-reports\\TEST-dk.dma.enav.util.compass.CompassUtils_RBL4_262d6b6cTest.xml",
+    "sha256": "be636dc865123d6071b9595c6e3b11b36afadafc41dbdb59dc7c1f95575d66f5",
+    "bytes": 12275
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\target\\pit-reports\\mutations.csv",
+    "sha256": "196a422bff99ef711aa0ff31acf3c9cc9fdc2341c1b1dfe57d2376a57e667022",
+    "bytes": 14689
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "72761253ec126603d2873b1b489409ae7e3fd255e1a1ce1681dc6cdbec4085b2",
+    "bytes": 982
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\128_6437134_CoordinateConverter.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\128_6437134_CoordinateConverter.stdout.log",
+    "sha256": "4402150c747a0b466b768e3cd300c5dd3851fb4db5d02e70ee99ab3073646703",
+    "bytes": 2574
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\output\\6437134\\TestClasses_6437134_enav-util_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\output\\6437134\\TestClasses_6437134_enav-util_evosuite.csv",
+    "sha256": "c2fce3b17626ffa4efb651db238bada62c0f10137fa77053e1451ad145e72a3d",
+    "bytes": 935
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\output\\6437134\\TestClasses_6437134_enav-util_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\output\\6437134\\TestClasses_6437134_enav-util_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "993921de3a0f55e83d66dea45243d3b29e35643e82e0378b3ac0e06fbd963f8c",
+    "bytes": 937
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\target\\surefire-reports\\TEST-dk.dma.enav.util.CoordinateConverter_RBL4_8d23156cTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\target\\surefire-reports\\TEST-dk.dma.enav.util.CoordinateConverter_RBL4_8d23156cTest.xml",
+    "sha256": "a5733749f92ba6b53321f5a8bbe0112640a937b77095f023aced244b80b884b9",
+    "bytes": 12072
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\target\\pit-reports\\mutations.csv",
+    "sha256": "57dc8e29f5b384ae00317e26ef0407b4a4c75e54a1dee13fa1984ac5a386b522",
+    "bytes": 17590
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "a11f5219667c999a912c809f618123c93523acf176cecef7389c099452fcb83e",
+    "bytes": 984
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\034_64487983_App.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\034_64487983_App.stdout.log",
+    "sha256": "80fe7e39aa2883c14d2cf6c64477b728fafa00f3b0bcfb8158d394458e36aa4c",
+    "bytes": 2477
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\output\\64487983\\TestClasses_64487983_bridge_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\output\\64487983\\TestClasses_64487983_bridge_evosuite.csv",
+    "sha256": "f8cdef6d8de684998dce959ffb19a7aa7dd06efded5b1cefc29df2074f7ea114",
+    "bytes": 861
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\output\\64487983\\TestClasses_64487983_bridge_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\output\\64487983\\TestClasses_64487983_bridge_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "ac9e294209f510eb321b1247ef6c505e88d329b5863fe75f2952013f60134be2",
+    "bytes": 860
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\target\\surefire-reports\\TEST-com.iluwatar.bridge.App_RBL4Test_58f65afc.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\target\\surefire-reports\\TEST-com.iluwatar.bridge.App_RBL4Test_58f65afc.xml",
+    "sha256": "f3e2a74fa84db03119b26a803217e1e6c68f9833e52bdbfd93a57ebe55498655",
+    "bytes": 11075
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\target\\pit-reports\\mutations.csv",
+    "sha256": "a13854989326b9e6b6d75c1a4f86a70afdfd11320b44a7fc2ac35345c53cc9e0",
+    "bytes": 6032
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "e9cd80828e44d74119b2a6348856c7257de3e9502286c9b96b03c74d72eac649",
+    "bytes": 963
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\136_64487983_App.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\136_64487983_App.stdout.log",
+    "sha256": "76a30b2c633db5cfd4f82d6df16af6676494d1aeb62d05402a7a2d854c0df646",
+    "bytes": 2589
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\output\\64487983\\TestClasses_64487983_dependency-injection_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\output\\64487983\\TestClasses_64487983_dependency-injection_evosuite.csv",
+    "sha256": "5130e4119760260fb7b207319ca308f3fb87cc6fb8e564a94de9f1722236e6b4",
+    "bytes": 958
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\output\\64487983\\TestClasses_64487983_dependency-injection_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\output\\64487983\\TestClasses_64487983_dependency-injection_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "3d28b542e541823b474392b1391350d7af56ffcb4078f0a52b1f5fd9a398deb8",
+    "bytes": 957
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\target\\surefire-reports\\TEST-com.iluwatar.dependency.injection.App_RBL4_f077e771Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\target\\surefire-reports\\TEST-com.iluwatar.dependency.injection.App_RBL4_f077e771Test.xml",
+    "sha256": "52050ff3f4efba24d11ebc6f041d44c9f16a6d91aff7c14d9a5dc478b7578092",
+    "bytes": 11770
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\target\\pit-reports\\mutations.csv",
+    "sha256": "df5c493d269deb17300a0c71841f5c9872c1f00d3e22744d6e5e849d75a74da3",
+    "bytes": 1041
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "aeea28ce93cbf3a434f3d536361ae0472563429d893fb956ea013e84b691900e",
+    "bytes": 991
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\137_64487983_GuiceWizard.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\137_64487983_GuiceWizard.stdout.log",
+    "sha256": "5460cebe3f5422e6b539350b3e05763638d8322d800ef2d3985d63c62386f22f",
+    "bytes": 2637
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\output\\64487983\\TestClasses_64487983_dependency-injection_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\output\\64487983\\TestClasses_64487983_dependency-injection_evosuite.csv",
+    "sha256": "2c45925db564bb6f6a2256a99efd68e72e0f338abbc4c04f047e5e16a49c4e3d",
+    "bytes": 990
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\output\\64487983\\TestClasses_64487983_dependency-injection_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\output\\64487983\\TestClasses_64487983_dependency-injection_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "37102e90e2e442ce6afd19aa90c01a50360a712a653accb1c3e78c642a325ba3",
+    "bytes": 992
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\target\\surefire-reports\\TEST-com.iluwatar.dependency.injection.GuiceWizard_RBL4_f36a1968Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\target\\surefire-reports\\TEST-com.iluwatar.dependency.injection.GuiceWizard_RBL4_f36a1968Test.xml",
+    "sha256": "46969336e39d0b68b843a08f1a97b070dfcd19f34a7d69c1c954f0be1b3fcec3",
+    "bytes": 11795
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\target\\pit-reports\\mutations.csv",
+    "sha256": "6231ecc6b1959f58dfed1dbe16cc660fcd24481fed31add37ff0ed0ecc0a739e",
+    "bytes": 1191
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "3ebcb75ca4f51a8809f905f032f964c354a78bc48c058ca7656d97934bdfb581",
+    "bytes": 991
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\142_64487983_LotteryNumbers.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\142_64487983_LotteryNumbers.stdout.log",
+    "sha256": "7e5d2c0e0bbfc3a70dae28441feef616727df51ba8d348ef698ff58b31d2ece4",
+    "bytes": 2581
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\output\\64487983\\TestClasses_64487983_hexagonal_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\output\\64487983\\TestClasses_64487983_hexagonal_evosuite.csv",
+    "sha256": "90c47d75f4912ecbdf723287b70ab5366450c5234a15948d712abda9817da748",
+    "bytes": 948
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\output\\64487983\\TestClasses_64487983_hexagonal_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\output\\64487983\\TestClasses_64487983_hexagonal_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "009ad2f6e99f4c3ba6cedcdd774b6ef654ebdad36c989a543092c272a0a84d2e",
+    "bytes": 947
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\target\\surefire-reports\\TEST-com.iluwatar.hexagonal.domain.LotteryNumbers_RBL4_eef37d9aTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\target\\surefire-reports\\TEST-com.iluwatar.hexagonal.domain.LotteryNumbers_RBL4_eef37d9aTest.xml",
+    "sha256": "50e875ca0cb78daa5893e328b42b146b32633a44ca7fe01de184c1234cb13533",
+    "bytes": 11330
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\target\\pit-reports\\mutations.csv",
+    "sha256": "184ef13829474dbb69fef0da54a1e971c173e16dc11f99cb2d94d46aa16170b5",
+    "bytes": 27965
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "864cc480a2e35b401a43c45a516bb85c56cc0ab0da3d53a5078e1a36ad6a2ccc",
+    "bytes": 1381
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\143_64487983_PlayerDetails.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\143_64487983_PlayerDetails.stdout.log",
+    "sha256": "04ab6f4a645d262d4bba0624622cacabdaa581239f8b53200f37f41aff2a0a87",
+    "bytes": 2575
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\output\\64487983\\TestClasses_64487983_hexagonal_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\output\\64487983\\TestClasses_64487983_hexagonal_evosuite.csv",
+    "sha256": "4eb3734ecf8a4f6ae1762337a830122306a8ec9ce0418484585123ccb903bca9",
+    "bytes": 948
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\output\\64487983\\TestClasses_64487983_hexagonal_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\output\\64487983\\TestClasses_64487983_hexagonal_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "8d6322936fa42039c22150e93607fda6b85b3d7838b0d042604e15762f84c0cb",
+    "bytes": 943
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\target\\surefire-reports\\TEST-com.iluwatar.hexagonal.domain.PlayerDetails_RBL4_77b9df0eTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\target\\surefire-reports\\TEST-com.iluwatar.hexagonal.domain.PlayerDetails_RBL4_77b9df0eTest.xml",
+    "sha256": "b8de257ed2dbc06b9fd11cc70f2bd783e423ef9b561c36a6e348c789ad27ca87",
+    "bytes": 11314
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\target\\pit-reports\\mutations.csv",
+    "sha256": "0dd29f75fa2ac88ede9e6222969314fe19015c2d83497ce8d35e2406c7801575",
+    "bytes": 28566
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "1ab357e828d20c5dd1f9c1660d25984754c5c4bd3c7ea76a5a830eb7ab29381e",
+    "bytes": 1383
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\145_66303306_DedupEventStoreChannels.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\145_66303306_DedupEventStoreChannels.stdout.log",
+    "sha256": "fa2cb40ec83c1355b731be5b668fe5e8eb4eb0e111f4bccf5f7366a09c9643d3",
+    "bytes": 2615
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\output\\66303306\\TestClasses_66303306_event_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\output\\66303306\\TestClasses_66303306_event_evosuite.csv",
+    "sha256": "48c11e5e8a14e72619b7358633c6c35bb91b5d65264c42ca3103541c20fe9325",
+    "bytes": 960
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\output\\66303306\\TestClasses_66303306_event_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\output\\66303306\\TestClasses_66303306_event_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "b1847b1990ece7b9cd23813c5e1896fc89672fdefbcae1b7672ad961a81c6e39",
+    "bytes": 962
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\target\\surefire-reports\\TEST-com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_RBL4_1ac113bfTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\target\\surefire-reports\\TEST-com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_RBL4_1ac113bfTest.xml",
+    "sha256": "9cbc96e88c69bf741eed49ddce71fa720ea25d0ae8cccfc5d11925606200fa8e",
+    "bytes": 34658
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\target\\pit-reports\\mutations.csv",
+    "sha256": "4d4d7ac74b9d236c20350c6d3d80e171e3aaac0acdabc4bfec8df42544f5ad05",
+    "bytes": 155883
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "e6565919d55cd4f381a744df2b9445cc10ba470dca9a0d0ed938aa48360d2e93",
+    "bytes": 11524
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\144_66303306_EventStoreModule.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\144_66303306_EventStoreModule.stdout.log",
+    "sha256": "76be985e36d29c21755672ef40c50a9713954d4da77a3fbbef747d7663ce6096",
+    "bytes": 2565
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\output\\66303306\\TestClasses_66303306_event_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\output\\66303306\\TestClasses_66303306_event_evosuite.csv",
+    "sha256": "c91724ad8cd133b3df81c90b6cebb220ed79b9eb12e48378593ca62f39f1e405",
+    "bytes": 920
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\output\\66303306\\TestClasses_66303306_event_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\output\\66303306\\TestClasses_66303306_event_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "10ca4d26983484befcbc0f43113be98f1e109097c6bb9b6d42f7a8bb46a21c0d",
+    "bytes": 924
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\target\\surefire-reports\\TEST-com.bazaarvoice.emodb.event.EventStoreModule_RBL4_40681041Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\target\\surefire-reports\\TEST-com.bazaarvoice.emodb.event.EventStoreModule_RBL4_40681041Test.xml",
+    "sha256": "e2a352c97cbca7f8e84592661edfcb7a5cdc883587dcc7bc6317751c98bb4735",
+    "bytes": 34400
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\target\\pit-reports\\mutations.csv",
+    "sha256": "fddf8a21a0e65be85ffd0db1ce782f3ab1922f5fca86e6ac8913cc841edc37ad",
+    "bytes": 154720
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "c013beffe12e268a0f2b1c6f338bbccc998e25bb399a80a5835e3800b20acf1b",
+    "bytes": 11525
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\182_78444970_JarnikPrim.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\182_78444970_JarnikPrim.stdout.log",
+    "sha256": "42a58b488a600c328398389a10faa1b9bd4120ec2171fe30519c2963768069f0",
+    "bytes": 2567
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\output\\78444970\\TestClasses_78444970_examples_graph_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\output\\78444970\\TestClasses_78444970_examples_graph_evosuite.csv",
+    "sha256": "f46ec05096a2b5cade61925e5097d44ffe3979649b3015505a1bdd37f5e43163",
+    "bytes": 936
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\output\\78444970\\TestClasses_78444970_examples_graph_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\output\\78444970\\TestClasses_78444970_examples_graph_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "d2b74c90f6b78e506b13158e0e54c585fbd0767d1b1c791eb38f5d017c386f37",
+    "bytes": 935
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\target\\surefire-reports\\TEST-graph.algorithm.mst.JarnikPrim_RBL4_9f5bd54aTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\target\\surefire-reports\\TEST-graph.algorithm.mst.JarnikPrim_RBL4_9f5bd54aTest.xml",
+    "sha256": "bee59eab2587b70f9cf1f8f5eadff7630cb9056bbb05ab90e4b5be9a0e87c83c",
+    "bytes": 11852
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\target\\pit-reports\\mutations.csv",
+    "sha256": "c221039f0c8fa3e8ccdeddb7eb2e01068384894e9abff012b0d57dc68bc65d3e",
+    "bytes": 35464
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "fb35b73f18277391216262d9b732d7fe5ef310b553e13214ca6fc93a9e32bbbe",
+    "bytes": 1462
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\045_78444970_ReservoirSamplingMultipleItems.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\045_78444970_ReservoirSamplingMultipleItems.stdout.log",
+    "sha256": "57e4abc37dcd5d453ef61cd4b8ff3c087eb91f9d85ba210160982613e2011347",
+    "bytes": 2667
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\output\\78444970\\TestClasses_78444970_examples_random_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\output\\78444970\\TestClasses_78444970_examples_random_evosuite.csv",
+    "sha256": "bd553a7c34d7c00d7eee211de24773c88eea6f2b49bcc0d8b48c8b730ea153a7",
+    "bytes": 992
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\output\\78444970\\TestClasses_78444970_examples_random_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\output\\78444970\\TestClasses_78444970_examples_random_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "c3e7260c2218b346036274dbffc2979b736e4b315efed5041a69b820d46bd481",
+    "bytes": 992
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\target\\surefire-reports\\TEST-random.ReservoirSamplingMultipleItems_RBL4Test_01a0a377.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\target\\surefire-reports\\TEST-random.ReservoirSamplingMultipleItems_RBL4Test_01a0a377.xml",
+    "sha256": "8ebc4ca4ab2281a5322373ce5cd51e806ddebe18848279becfcd82afb5e1bba7",
+    "bytes": 11495
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\target\\pit-reports\\mutations.csv",
+    "sha256": "aceb317b5f051c909e175740a7e427febf4544c6ed27dae586b5fdf9beb55d1f",
+    "bytes": 14913
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "db21a8c67f016d8fbc7650c9e9386032dbb7fa6b4a4ef17abfc51a8be45bf47b",
+    "bytes": 514
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\181_78444970_ArrayHeap.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\181_78444970_ArrayHeap.stdout.log",
+    "sha256": "9a24acd5c233ab551782cad5e46942cb5665df39305dfa582bc35845de159cd8",
+    "bytes": 2567
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\output\\78444970\\TestClasses_78444970_examples_structures_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\output\\78444970\\TestClasses_78444970_examples_structures_evosuite.csv",
+    "sha256": "1815d11faa17f9b3b77f6d085a5f7ad2ec3003e14e0f3cf17b6d4cd965f66a7f",
+    "bytes": 934
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\output\\78444970\\TestClasses_78444970_examples_structures_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\output\\78444970\\TestClasses_78444970_examples_structures_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "c0ae697e78a47fe9d41b09046c92abf69a3385b9a5131ac366c17f4a2fbfdaea",
+    "bytes": 933
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\target\\surefire-reports\\TEST-ds.heap.ArrayHeap_RBL4_cc0b81f1Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\target\\surefire-reports\\TEST-ds.heap.ArrayHeap_RBL4_cc0b81f1Test.xml",
+    "sha256": "7d13d2bafc1391c481de458dffa0d52adaa64a26c7d3f79e1d1a4b58ee01a4cc",
+    "bytes": 12191
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\target\\pit-reports\\mutations.csv",
+    "sha256": "cacaf66b58296ee44894c7a982b9f959b94f843711de9e614983b6041f072d51",
+    "bytes": 40872
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "37e92a0956bb49b6992a0688626494f0b2c8e38c40745d1c4d4d407a31b8a787",
+    "bytes": 1540
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\177_78444970_ArrayStack.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\177_78444970_ArrayStack.stdout.log",
+    "sha256": "346df7284ee52c9ce47a160651b4a6646051abd0531302f975614cf18fbb315e",
+    "bytes": 2575
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\output\\78444970\\TestClasses_78444970_examples_structures_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\output\\78444970\\TestClasses_78444970_examples_structures_evosuite.csv",
+    "sha256": "77d278e14c1c6397eed086972879ea59f646dda4e4d05b33d4ff9f6eff0efebc",
+    "bytes": 937
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\output\\78444970\\TestClasses_78444970_examples_structures_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\output\\78444970\\TestClasses_78444970_examples_structures_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "2bcd0b8e9e43cf3cc2f0c2a6db9caee7e5aed530ccd024fe22fbe424d4646dd7",
+    "bytes": 939
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\target\\surefire-reports\\TEST-ds.stack.ArrayStack_RBL4_b8276d51Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\target\\surefire-reports\\TEST-ds.stack.ArrayStack_RBL4_b8276d51Test.xml",
+    "sha256": "59d79c4eafa1d03e724e0a4054c3b4d9bcf4ed30fc9d571dcc6a7b06e8110921",
+    "bytes": 11768
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\target\\pit-reports\\mutations.csv",
+    "sha256": "9a487fefead862b255349fef9f90fdd826734b7ac745b3ad7ff8aa7fdcba55f1",
+    "bytes": 38855
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "1ebcc0fdbc96e6fd8dd29b668b44c106e53f66c2553a1b20ebc078efafc9bd4b",
+    "bytes": 1540
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\213_9619226_SimpleDbExceptionTranslator.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\213_9619226_SimpleDbExceptionTranslator.stdout.log",
+    "sha256": "3d08b761241f5e7f21b37cda00642d7c97d3761f7d16393fc2217a1bd98b3927",
+    "bytes": 2772
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_evosuite.csv",
+    "sha256": "d6fc9ca92323f3b58ae4cad5cc163ab7b79ac3c1ba7aa390ebc558bfec209624",
+    "bytes": 1106
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "6d4e6585dda99c4bcfc0dd75aa0af562d8375c726c857806085d2d139023c7f4",
+    "bytes": 1105
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\surefire-reports\\TEST-org.springframework.data.simpledb.exception.SimpleDbExceptionTranslator_RBL4_9f019880Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\surefire-reports\\TEST-org.springframework.data.simpledb.exception.SimpleDbExceptionTranslator_RBL4_9f019880Test.xml",
+    "sha256": "1a18a3351e2aff1a812c56f7f6318b28b7e080a1f77623b26b6d71dbc2a4f2c9",
+    "bytes": 17425
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+    "sha256": "f4f252cba7d2dd580b8cf0e140a1075d6031b81aa8f8b31661bebcf1f51f0903",
+    "bytes": 159247
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "9377dfea907a02a8e1975b2308a489c26828e79bdc6452559dcca3b1b6622cd0",
+    "bytes": 12584
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\208_9619226_AlphanumStringComparator.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\208_9619226_AlphanumStringComparator.stdout.log",
+    "sha256": "0844515a5377170c2219505e0452692c00bc5be4b2d8f420346a2d2ab92d857d",
+    "bytes": 2744
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_evosuite.csv",
+    "sha256": "7090e0f7f7b00c06372466c09b942448e818657e38931151cd003b0ae0d461e6",
+    "bytes": 1081
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\output\\9619226\\TestClasses_9619226_spring-data-simpledb-impl_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "90a0e26b1adbc036a5c8af250bf7171848b4ddc360ecf371b814a3c3b941e3e7",
+    "bytes": 1080
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\surefire-reports\\TEST-org.springframework.data.simpledb.util.AlphanumStringComparator_RBL4_324510faTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\surefire-reports\\TEST-org.springframework.data.simpledb.util.AlphanumStringComparator_RBL4_324510faTest.xml",
+    "sha256": "4f1c7a8a6c9fb058b90c6c0640304efb29e2e95ce0981f7d15b5532a6f2d97e4",
+    "bytes": 17884
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+    "sha256": "9817f027be7bac3df601c054cb09ca97247695c58ac30a30b30e654d50cfef0e",
+    "bytes": 157837
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "d8bfffc9fe7bc287ae688556bb489fd64fdaa402b594ae80eb1a65a55890f0d1",
+    "bytes": 12584
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\217_97822421_NoDoubleClassDefined.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\217_97822421_NoDoubleClassDefined.stdout.log",
+    "sha256": "3a53e7f7df7972e8d6778387bbea2f149d0f23d63bd96b64ac0e7db90237b9c1",
+    "bytes": 2687
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\output\\97822421\\TestClasses_97822421_infrastructure_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\output\\97822421\\TestClasses_97822421_infrastructure_evosuite.csv",
+    "sha256": "0f6e07088fb901600df574c1311c4e3dee6a2dab2e9d95cc10f3ebb642d18e7b",
+    "bytes": 1032
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\output\\97822421\\TestClasses_97822421_infrastructure_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\output\\97822421\\TestClasses_97822421_infrastructure_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "5e4b35b49367afdba5af6b968956eb7b63015bd25ddc7a53af3ed7c796946f74",
+    "bytes": 1032
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\target\\surefire-reports\\TEST-com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_RBL4_f739e0feTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\target\\surefire-reports\\TEST-com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_RBL4_f739e0feTest.xml",
+    "sha256": "25a94d9861f406f14ae6893d80e28b166c698d0e70d319068e35515c9fe598c2",
+    "bytes": 13998
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\target\\pit-reports\\mutations.csv",
+    "sha256": "8c2bdbaf4d29d5a9cd1e096d61d8a502bcc5f8822fd71fe916ded0f3b4e4c772",
+    "bytes": 64599
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "20fe346775b00e908c410aaa2792cbcc5516b1352c8d81cc0016db0bdd0e9daf",
+    "bytes": 4281
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\223_97822421_DoubleName.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\223_97822421_DoubleName.stdout.log",
+    "sha256": "5045a037751c7c5d980bb7a1ae82f2a2707d28ed29c77e2271c23db2cd887e4f",
+    "bytes": 2627
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\output\\97822421\\TestClasses_97822421_infrastructure_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\output\\97822421\\TestClasses_97822421_infrastructure_evosuite.csv",
+    "sha256": "c092313b55688891d70e96c453028bed8ca6ed172f0c2703eb4d84fdc835c1bd",
+    "bytes": 999
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\output\\97822421\\TestClasses_97822421_infrastructure_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\output\\97822421\\TestClasses_97822421_infrastructure_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "055d160304bbd123e855707029ff4793b09ae7e8533ddb0e4c1669689f74a389",
+    "bytes": 998
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\target\\surefire-reports\\TEST-com.pchudzik.springmock.infrastructure.definition.DoubleName_RBL4_a3466d37Test.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\target\\surefire-reports\\TEST-com.pchudzik.springmock.infrastructure.definition.DoubleName_RBL4_a3466d37Test.xml",
+    "sha256": "35596d0e174daab2a19e909a6459b645acaf172b6ea936d9bd6677ae84ada2ba",
+    "bytes": 15559
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\target\\pit-reports\\mutations.csv",
+    "sha256": "d6b14b9cc10c8f68ce606140983f7a13e67c335b4192297891deab3aed292d4d",
+    "bytes": 66201
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "47f007eb2b823be5f4bcacb63d577384291bf829606bc4f13a31e3cc334a286f",
+    "bytes": 4280
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\227_98410891_PropertiesConfiguration.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\20260724_022225_resume240\\227_98410891_PropertiesConfiguration.stdout.log",
+    "sha256": "a115960b45a24929be3a2c39ea818b87c4438e1b76779d9a01695527b2379967",
+    "bytes": 2707
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\output\\98410891\\TestClasses_98410891_applications_demo_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\output\\98410891\\TestClasses_98410891_applications_demo_evosuite.csv",
+    "sha256": "43bee69fba0a2f8c3e97bd9e3850345d280c117ac6c2db4ab998323024e18685",
+    "bytes": 1044
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\output\\98410891\\TestClasses_98410891_applications_demo_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\output\\98410891\\TestClasses_98410891_applications_demo_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "e1bd3ec8d782f08ac570b9b936afb2e754d861579fd87da32b41dd65f3af5d5c",
+    "bytes": 1046
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\target\\surefire-reports\\TEST-com.softavail.comms.demo.application.impl.PropertiesConfiguration_RBL4_1e12e7ddTest.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\target\\surefire-reports\\TEST-com.softavail.comms.demo.application.impl.PropertiesConfiguration_RBL4_1e12e7ddTest.xml",
+    "sha256": "08aba4bab5ee2be7c4776042247b8fe239f6ef24e849634014376fc15433c227",
+    "bytes": 27373
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\target\\pit-reports\\mutations.csv",
+    "sha256": "51e71505fb201aa9e9489dd86abbbe40e6dff775111601f06552fb239542a75e",
+    "bytes": 78443
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "a5dec1130bbc68da39724b511fe48e5455706e2a9d5b2e9c982c5cb2558c54d7",
+    "bytes": 5130
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\057_98410891_NumberInterval.stdout.log",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\class_logs\\pilot60_resume_20260724_083102\\057_98410891_NumberInterval.stdout.log",
+    "sha256": "9d530a03d5c4ba3ae782df5dbb291f4b6e84f632e356043e0464729e05dbc8e9",
+    "bytes": 2643
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\output\\98410891\\TestClasses_98410891_core-interface_evosuite.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\output\\98410891\\TestClasses_98410891_core-interface_evosuite.csv",
+    "sha256": "1559feab89c04dd88033b2de62c671f3fa686c15e5f33a7b4391f1461e6cb9c1",
+    "bytes": 1008
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\output\\98410891\\TestClasses_98410891_core-interface_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\output\\98410891\\TestClasses_98410891_core-interface_gpt-4o-mini-2024-07-18_rbl4-zero-shot.csv",
+    "sha256": "e0a0a539037b57ba152e76d7e591bf316d57a549993852e37f143e4bb16d65f7",
+    "bytes": 1007
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\target\\surefire-reports\\TEST-com.softavail.commsrouter.api.dto.model.skill.NumberInterval_RBL4Test_e3efc426.xml",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\target\\surefire-reports\\TEST-com.softavail.commsrouter.api.dto.model.skill.NumberInterval_RBL4Test_e3efc426.xml",
+    "sha256": "bd58f0fbf10713610e058e9f425ad4dd3f625a4a220335938f86b572d7055b3f",
+    "bytes": 14229
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\target\\pit-reports\\mutations.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\target\\pit-reports\\mutations.csv",
+    "sha256": "79dac04922864829360660fbb75ff597721dac6762c228f37373d995fc151250",
+    "bytes": 70706
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\target\\site\\jacoco\\jacoco.csv",
+    "copy": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\target\\site\\jacoco\\jacoco.csv",
+    "sha256": "6bc67ed40dc1c7458a546459638be93d495c5b9940407373a236eb494e55340a",
+    "bytes": 8380
+  }
+]

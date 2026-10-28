@@ -1,0 +1,39 @@
+[
+  {
+    "name": "compile",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\javac.exe",
+      "-cp",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\attach_loader_06;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\attach_loader_06\\LoaderProbe.java"
+    ],
+    "returncode": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "4d7123ae82df4797ce5d3930baf2626094e4355200a432356b4b16b5d1b5a6f1"
+  },
+  {
+    "name": "loader",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+      "-cp",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\attach_loader_06;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar",
+      "LoaderProbe"
+    ],
+    "returncode": 1,
+    "stdout_sha256": "fe4198c2a37f7788e3ca9d1845a2c0e67d9427eb1fc484734d8478d04aed151c",
+    "stderr_sha256": "6a1867509c28b53d3c8bd4aa21ed48852f2a5e5ba268676b75fd3cf030a8fef8"
+  },
+  {
+    "name": "nativepath",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+      "-Djava.library.path=C:\\Program Files\\Java\\jdk1.8.0_172\\jre\\bin",
+      "-cp",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\attach_loader_06;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar",
+      "LoaderProbe"
+    ],
+    "returncode": 1,
+    "stdout_sha256": "fe4198c2a37f7788e3ca9d1845a2c0e67d9427eb1fc484734d8478d04aed151c",
+    "stderr_sha256": "6a1867509c28b53d3c8bd4aa21ed48852f2a5e5ba268676b75fd3cf030a8fef8"
+  }
+]

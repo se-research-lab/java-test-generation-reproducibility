@@ -1,0 +1,2 @@
+population,n,gpt_mean_pct,evo_mean_pct,gpt_median_pct,evo_median_pct,paired_mean_pp,paired_median_pp,cluster_ci_low_pp,cluster_ci_high_pp,gpt_win,evo_win,tie
+historical common-success49,49,58.438571428571436,17.628367346938777,65.79,12.9,40.810204081632655,40.0,32.99139832041344,49.057824999999994,39,4,6

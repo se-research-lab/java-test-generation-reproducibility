@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "admission_maven_v6.json",
+      "bytes": 47749,
+      "sha256": "6eb780c0c0a43766713adafc9d3fbf3a4223efb48dc28ed78e81ca9ea8a15318"
+    },
+    {
+      "path": "audit/first_v6_checkpoint074_v1.json",
+      "bytes": 4928,
+      "sha256": "8e508e6f66c9dd8ac229a2d65dea37a1e212030ae01ab07194bbc147755097dd"
+    },
+    {
+      "path": "audit/progress_registry_v12.json",
+      "bytes": 27340,
+      "sha256": "4268a8cf8f65ca383847928dd8a3a6bf15c6fe309430f3198c58fa5e81c28be2"
+    },
+    {
+      "path": "jobs/074/artifact_manifest.json",
+      "bytes": 170582,
+      "sha256": "e61c80770fad6ec5745f20aa991a1b27620a180b3abc3f46dad8aa627e4d5cff"
+    },
+    {
+      "path": "jobs/074/result.json",
+      "bytes": 6453,
+      "sha256": "60f2fb89a1b0676dac0655c2fe02db11bb3d3ac65b94b763ae8267aa2f27faa7"
+    },
+    {
+      "path": "launch_remaining_maven153_v6.json",
+      "bytes": 2477,
+      "sha256": "3405101b800bee26f5b706b67c9e0b73c223a00c227bbcec3ee137be77569f69"
+    },
+    {
+      "path": "PROGRESS_B1_V12.md",
+      "bytes": 9103,
+      "sha256": "daab9a05d35b93c2f63a84423254271ba2fc87aad236f429a7bf6ce610263de9"
+    },
+    {
+      "path": "PROGRESS_B1_V13.md",
+      "bytes": 2601,
+      "sha256": "1176953f7aeca73fe55eb52df6a86a6896ee7609a1d0deb465007eaaf0526c17"
+    },
+    {
+      "path": "src/record_first_v6_checkpoint_v1.py",
+      "bytes": 5441,
+      "sha256": "9580aaa217eb2f8c15eb6d1f3b09812b9b444402350db1a7182b1249a300cd5c"
+    }
+  ]
+}

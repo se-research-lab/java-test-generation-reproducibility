@@ -1,0 +1,2818 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\093_49384652_d070942a\\compiledrepos\\49384652",
+  "class_indices": [
+    181
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "b470f6cb36d66bb0731d3460dd835f9af9c299321017150bb346de98adaaf930",
+      "bytes": 481,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258100595000
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "26730096c8817eef15dbf3885acecdc1fb114f96f9bbbf2b43cbca0c5b04eee9",
+      "bytes": 11556,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258101594200
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "de0f4426bf2b0c0e7c630fa9798f2ce244323452de8c44989f7177c0b0222da6",
+      "bytes": 21472,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258548131700
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "51c76290ce42b3799b07aa206dead36ac9dad1a9ab10de8cc75146558078395d",
+      "bytes": 11204,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838324710242200
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "025622f7b72357d1be3f0d0a6536e400761431dc68d4159ecb79b9d6309a4e0c",
+      "bytes": 22067,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838324506881200
+    },
+    {
+      "relative": "README.md",
+      "sha256": "401b83498211fc2020e6d5bae8c818bbe671ecd16e1f8c80f4cf6e660de8bb66",
+      "bytes": 3421,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258101594200
+    },
+    {
+      "relative": "niubi-job-build/pom.xml",
+      "sha256": "6885c8d2ca00d3293f212a23056bafb4e0ccd9fb1df5879c207e79d7551938aa",
+      "bytes": 7026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258103101700
+    },
+    {
+      "relative": "niubi-job-framework/pom.xml",
+      "sha256": "7f1a7cf47b29ea273ed54669106b9e5e4f0f3b88a5396ae692d01608317ef0dc",
+      "bytes": 2042,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258528059200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/pom.xml",
+      "sha256": "a0404348432c1916bffdc62efbfc2a0136b5babcb1611a5f18159c9e2353c6af",
+      "bytes": 1236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258104111200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/MasterSlaveApiFactory.java",
+      "sha256": "03d74e0c6cba517e7c3c0114dddcb133fec35e3630f01f5e7da005ff8c784428",
+      "bytes": 947,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258106111000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/MasterSlaveJobApi.java",
+      "sha256": "ce5c5daca639b0596f3cd3b2a2af3bfdf66bd83cb3ead9b9e8cb32e0fc54f825",
+      "bytes": 1222,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258107111500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/MasterSlaveNodeApi.java",
+      "sha256": "2219af8ad2eaaf7843e491f33b8d61cdbc24b6f70c6fe3c2075b814c5addf8e1",
+      "bytes": 1147,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258107111500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/MasterSlavePathApi.java",
+      "sha256": "4fc3a7a4ff6462c5b2ed75ad133be9bc0b1c9c4fa860a42cd8e50b470914816d",
+      "bytes": 829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258108117000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/NodeApi.java",
+      "sha256": "8733920d956f7e6cc59aa29dc5926a6d322730c56107da011e3843e09863de85",
+      "bytes": 813,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258108117000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/PathApi.java",
+      "sha256": "0290610aa1e23e82a6ecd6da13ca7cd1416b66539b804ba226dda158b5fd5b54",
+      "bytes": 910,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258109110600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/StandbyApiFactory.java",
+      "sha256": "8fc09f77c57242cddc6cd96c90dc1a7572dd396eedbcc419a632476bc923692a",
+      "bytes": 931,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258109110600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/StandbyJobApi.java",
+      "sha256": "491b48bcebe8c90766303ea6149e4e82cbab5bfb515df7ba38a5888324d5c6fd",
+      "bytes": 1194,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258110619500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/StandbyNodeApi.java",
+      "sha256": "b6aa4cea629a46c24fd993c86799e016e2797f499afd33e4979ab823a946deb0",
+      "bytes": 1123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258111628300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/StandbyPathApi.java",
+      "sha256": "dc331fecca83d92eb366b07e7d82b70d54d6296e4b9b31f32ebdce0969f927c1",
+      "bytes": 827,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258111628300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/AbstractCurdApiImpl.java",
+      "sha256": "bd4bfc545f46fd2c9e90c59f270664499ebf697e73c61f5121eee31d2f4464ca",
+      "bytes": 6143,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258113137200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/MasterSlaveApiFactoryImpl.java",
+      "sha256": "91619b33eb4a4b85d844feba07128ed390b2527cf39dfb43ea219e9d2367e5fe",
+      "bytes": 1652,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258113137200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/MasterSlaveJobApiImpl.java",
+      "sha256": "1f20657cf98c122df2492e4f219667079ba9767aeb7b02b52f4c66b98f071f40",
+      "bytes": 3042,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258114150500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/MasterSlaveNodeApiImpl.java",
+      "sha256": "a401e348cec294bd66fda10bc0b3d9eb8c6c50a07d767778620deaefac71a13a",
+      "bytes": 2408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258114150500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/MasterSlavePathApiImpl.java",
+      "sha256": "135b044f9a39d6b3b4dbcb9503c351232fbfa89c4e956bcc330d1555abfc2498",
+      "bytes": 1622,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258115160000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/StandbyApiFactoryImpl.java",
+      "sha256": "3e0af725a7b04ada9646146461fd097baf43c82e25484f07321878f25ba8ec4c",
+      "bytes": 1600,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258116169500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/StandbyJobApiImpl.java",
+      "sha256": "fbe0ca0258d14bc86e7de330a48af38140c61dd19741798ad89db732c5af2e7f",
+      "bytes": 2918,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258117169100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/StandbyNodeApiImpl.java",
+      "sha256": "66649fadaf1728cd21022cc6d798573cd30f1f4f174f63167ce024d98330b569",
+      "bytes": 2316,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258117169100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/curator/StandbyPathApiImpl.java",
+      "sha256": "49db3eda8f1c44581e1047fa02a0a9d52a3c1563d81a87516c6f0f1c3d807331",
+      "bytes": 1568,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258118168000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/AbstractData.java",
+      "sha256": "5ec175a83f48847d94012879c7e150294ce52e7ec9be781e4fa394d9738b204b",
+      "bytes": 1134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258119169000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/AbstractGenericData.java",
+      "sha256": "8c9e571b205dfafa9e9c9324302fa899f213fc767f83457894a03a90d5f3d00e",
+      "bytes": 2655,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258119169000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/AbstractJobData.java",
+      "sha256": "08731c5b5e1a62299d3156cb4d61898322cf439063e4cd55b29540ca999a09fe",
+      "bytes": 6960,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258120679100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/AbstractNodeData.java",
+      "sha256": "2428c4442e1828c597e6cad463441c86061278dbbfd2068e742d1dc741811332",
+      "bytes": 2163,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258120679100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/MasterSlaveJobData.java",
+      "sha256": "8e5f4f8bf8fbc90fcd0b264f7d90e4ecc925e16d2b6a40d471b4121bf99d743d",
+      "bytes": 1853,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258121696500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/MasterSlaveNodeData.java",
+      "sha256": "f9b49beb726e77b30714bc4b793185b7a00155546197cf8c1041c605e260d591",
+      "bytes": 2108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258121696500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/StandbyJobData.java",
+      "sha256": "53c0ec36ed9a8ba2096d2ce93328f6dd34524117039a365d34135c6d4e6f7082",
+      "bytes": 1378,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258123204500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/StandbyNodeData.java",
+      "sha256": "fe6fc7a7f1e7bdcdfe9fe6e0d9407bcd379d05f44cf199432dfe25a4c1d6b8ba",
+      "bytes": 1556,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258123204500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/helper/EventHelper.java",
+      "sha256": "85931825d482ea4f6ca68d63f98db2ac2e3bb7c763374718c583feed8f70152b",
+      "bytes": 1581,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258124214200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/helper/PathHelper.java",
+      "sha256": "3cda2faadde5cc5ffbee8143c7bfece30180828bf11c2fb7447434538d6b3a99",
+      "bytes": 1678,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258125214800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/test/java/com/zuoxiaolong/niubi/job/api/curator/AbstractZookeeperServerTest.java",
+      "sha256": "499f12175f0477743b789a53f6cacdd76c697060de92d30ae7528ffd955da439",
+      "bytes": 2339,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258128213600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/test/java/com/zuoxiaolong/niubi/job/api/curator/MasterSlaveJobApiTest.java",
+      "sha256": "2f56aeee10090a4991a1ff7276c0588c29e8abc3f4e6d34950113263eba5ef6b",
+      "bytes": 3366,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258129212400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/test/java/com/zuoxiaolong/niubi/job/api/curator/MasterSlaveNodeApiTest.java",
+      "sha256": "2ba08781215b19be17bd5e6dd7dc9a63293a692498c4cbef5e59a0a1aee5d446",
+      "bytes": 3092,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258129212400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/test/java/com/zuoxiaolong/niubi/job/api/curator/StandbyJobApiTest.java",
+      "sha256": "32a0feb90a32d7049dc0f41f5935df580c0ff15116d4d50fa5d1eec2643e9ab0",
+      "bytes": 3294,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258129212400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/test/java/com/zuoxiaolong/niubi/job/api/curator/StandbyNodeApiTest.java",
+      "sha256": "a5a4155798b53fc30e89331eea615512e6193f151809637d893b861a66473e15",
+      "bytes": 2993,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258130719200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-api/src/test/java/com/zuoxiaolong/niubi/job/api/helper/PathHelperTest.java",
+      "sha256": "74dbb0cd7d3364314e88e01faf339cf4219490de1cfd4da425741a65adde24c6",
+      "bytes": 2004,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258131727700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/pom.xml",
+      "sha256": "116d27108c5c85246051f7dfb5a7b487d56959005eea936e4eea3f3adc3b90bd",
+      "bytes": 3862,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258131727700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/java/com/zuoxiaolong/niubi/job/cluster/node/AbstractClusterJobNode.java",
+      "sha256": "6b970852ce5967e55520853d66c0d94b3b9d3d1245ae86739b063136fc0ff43e",
+      "bytes": 5033,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258135245600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/java/com/zuoxiaolong/niubi/job/cluster/node/MasterSlaveNode.java",
+      "sha256": "6e1ed0724e86c16c0f57492e7585e25ef861f379182e404909d2946018abb018",
+      "bytes": 17195,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258136243800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/java/com/zuoxiaolong/niubi/job/cluster/node/StandbyNode.java",
+      "sha256": "d88367741415ac50a10358dae5843bc0b79b081912d3b53a485059aa537cdb91",
+      "bytes": 10536,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258137245400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/java/com/zuoxiaolong/niubi/job/cluster/startup/Bootstrap.java",
+      "sha256": "e94a0f35f612fc984fd1e1d8664805f36edd320a4c4ed6227073174ea327584c",
+      "bytes": 8789,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258138244200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/bootstrap.bat",
+      "sha256": "54348cd344c5bde3c2f67d022a433b2bdf8469b183f9478476f92b290f7ca3c0",
+      "bytes": 182,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784781258139244000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/bootstrap.sh",
+      "sha256": "d3aeb5f7c86dbdd6e1ac4d7bbbbebfdfcf0ad5ec706e2183b7a63e67aa511da9",
+      "bytes": 151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258139244000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/job.properties",
+      "sha256": "b9f3d8c6d41a529b8e9a8bdf0f66f94a8650e3a58724625cd621f859ac5c7df4",
+      "bytes": 168,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258139244000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/log4j.properties",
+      "sha256": "e1403b9505d574453b6b7ef014b6cddff404d6ca5a7216ebd0969e89f3f0bfb8",
+      "bytes": 605,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258140753500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/quartz.properties",
+      "sha256": "f61380364c0f9e0f6c6e905da2fbf9018d937a05890260fb948be857dccbe7ea",
+      "bytes": 516,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258141764900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/shutdown.bat",
+      "sha256": "c1056e25dd36163329172caef0d6a16e2065ba1ba1272742d92a4f44c7bdd768",
+      "bytes": 188,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784781258141764900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/shutdown.sh",
+      "sha256": "11e1aee7592a1a02bb2bee92f72c83f8a15f39a88b865a71d9e6032fbad48cd4",
+      "bytes": 122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258143271700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/startup.bat",
+      "sha256": "64a5d93d3e485a799a9d16900f5d0f301178cf496ceea1f6aabfdf2ae94103d5",
+      "bytes": 188,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784781258143271700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/main/resources/startup.sh",
+      "sha256": "c9c356cb771dc1d4c314a5148f43d43b444bfce60de5547983221bf5fbdaee0a",
+      "bytes": 146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258144280400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-cluster/src/test/java/com/zuoxiaolong/niubi/job/cluster/startup/BootstrapExample.java",
+      "sha256": "9090808568d72a1aa62d435638b79cc9baf10acfba83c8b5c3b40fcbc0de986e",
+      "bytes": 1064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258147287400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/pom.xml",
+      "sha256": "b79446efb2063900db2a138ea6aa1401ebd7e7f1481219392abc2c710485d26e",
+      "bytes": 3969,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258148283200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/AbstractController.java",
+      "sha256": "fe4d70275e8dc7cda4482a02f5f3cf543dcc2bddb39a3868f1949b5899dacbb6",
+      "bytes": 2911,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258151807800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/DashboardController.java",
+      "sha256": "b9abec8ff70e4e5d198d44de8c6a7d0b64b295349dd2c52ce530212ae02dcdb3",
+      "bytes": 1090,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258153314800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/ErrorController.java",
+      "sha256": "0327a12a980bd996fe3ce963fc8afb46f80c7fe9d59aa5b77f093394b7f3b268",
+      "bytes": 1074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258153314800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/MasterSlaveDashboardController.java",
+      "sha256": "c2a9177686d2f0357a98d80244baefca77f27baa0761038f727e3c9f3d3097bc",
+      "bytes": 1125,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258154324300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/MasterSlaveJobController.java",
+      "sha256": "b12635d7d700c0c15263df0d7b991874bcf008f9c1a2cccdcebc8692f303878e",
+      "bytes": 2776,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258155332600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/MasterSlaveJobLogController.java",
+      "sha256": "4a94de43e978d7454b479fc625e81e6ac7e83674fcc8079a103fe331b56dbf81",
+      "bytes": 1455,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258155332600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/MasterSlaveJobSummaryController.java",
+      "sha256": "c6218e1f1a6339ae9bef47d02c90270be12b59b20a6a5351fb8023c9c174d3ac",
+      "bytes": 3281,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258156331800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/MasterSlaveNodeController.java",
+      "sha256": "3d701fc9505d0211b0fcccc35a1467e323e69f137385bb1155ec808ee2a645c8",
+      "bytes": 1436,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258156331800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/ShiroController.java",
+      "sha256": "121a9400bb1afb292c92f984939e15d2eb03dddc1d50a46b8e0e012afc131b80",
+      "bytes": 2782,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258157337400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/StandbyDashboardController.java",
+      "sha256": "c987bc434be26ef34885d92eefab29c43e87bcb9595603069b90ba48eedff585",
+      "bytes": 1112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258158339300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/StandbyJobController.java",
+      "sha256": "f2c444cf991e5be0a5780106b58194af5ba078798931856652aaf63ea7a74c78",
+      "bytes": 2726,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258158339300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/StandbyJobLogController.java",
+      "sha256": "8aef425fbc9552e80623f0b7011be072c53f4428f2f7f9a02b0ea82afe5c387f",
+      "bytes": 1426,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258159338500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/StandbyJobSummaryController.java",
+      "sha256": "8e46ec59c7331ba99d11156a7657dc5f22e91f2d328c7e42e218c613c89b5fbc",
+      "bytes": 3105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258159338500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/controller/StandbyNodeController.java",
+      "sha256": "5ac08f8be31fed79261d79b38a9b0ff2d7da72939a26307eba98bd356546551d",
+      "bytes": 1407,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258159338500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/exception/DefaultHandlerExceptionResolver.java",
+      "sha256": "69c777728a9fa9cf6ba8ed726872451e2b98d22f59da469eb006e4ff3892b5ed",
+      "bytes": 2833,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258160849600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/exception/ExceptionForward.java",
+      "sha256": "b2f842197cc06ec0bc8436554176bf3984e720eb6a5974bd3a1b937b363295c6",
+      "bytes": 1158,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258161861400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/java/com/zuoxiaolong/niubi/job/console/shiro/SessionFormAuthenticationFilter.java",
+      "sha256": "255df39041f26d3d52a6e189d85e13eaf61a64f8db15db76a04555a206b5d5ae",
+      "bytes": 1548,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258161861400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/resources/applicationContext-shiro.xml",
+      "sha256": "6b8b9a27515db47206a717662823dc36d71a7996ab33ad3940bcb1cb39b16aeb",
+      "bytes": 1829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258163374400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/resources/applicationContext.xml",
+      "sha256": "94e02a3b145ee1d19b0dee7b7fe4e787e0f120f4df6d8ef16d0669ce9f394bcb",
+      "bytes": 817,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258163374400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/resources/config.properties",
+      "sha256": "65bad14641f988e36a03c0202fb15a95bf0fc20332132023e40a585232520f5f",
+      "bytes": 500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258164390300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/resources/dispatcherServlet-servlet.xml",
+      "sha256": "954da2d4a191fd3ffcc8a74c2e3f1c282812e7d5111d2edb0bca7c067e5bc458",
+      "bytes": 1895,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258164390300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/resources/log4j.properties",
+      "sha256": "31cb1c04cb41ae3191f8ead441e6aa4ccec2514c42103bdab9df801f38bd7a46",
+      "bytes": 236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258165389300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/favicon.ico",
+      "sha256": "e4f2aa725c0c91193c480dc6c1caf2b5b4b2240b02a6b83fd2ddccbb97fcec5c",
+      "bytes": 1255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258175438600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/bootstrap-responsive.min.css",
+      "sha256": "8ecf3a0e821d0521bacbb6996efd04d1227e6610b6214e659153dade97efce6a",
+      "bytes": 16858,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258167389000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/bootstrap-wysihtml5.css",
+      "sha256": "a66241eb51ddde3d85f0411062ca1d6fc96a01111d9c94e2378d04a81b3f5361",
+      "bytes": 2434,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258167389000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/bootstrap.min.css",
+      "sha256": "d8d6d129d3f30dfe381eb300c88197b838a19c96954617c5d0cf170ad66a6010",
+      "bytes": 108132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258169386100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/colorpicker.css",
+      "sha256": "f89617ebe7d9fa1066e7b6761407a50966dd0556be3bdc58b804ea4f878fa899",
+      "bytes": 2194,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258169386100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/datepicker.css",
+      "sha256": "8990f2c45cc9a0fc15d3e49128a23bc3fc81b3be77e5d75900f740759dd5ea2b",
+      "bytes": 3535,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258169386100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/fullcalendar.css",
+      "sha256": "47cbff3700690079082570f612aeaabf6f5fa91ea4adc9696aab8dd7d43ff5df",
+      "bytes": 8793,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258170897000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/jquery.gritter.css",
+      "sha256": "c481d9b1b517c8fd628244ad87c41fed5c602e003101b8e017628a56fff8cd16",
+      "bytes": 1690,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258171911500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/matrix-login.css",
+      "sha256": "9352d1ceacce3219e2a36a27b94325f1b8c0f7e4525ed3c42fa4ad21b4697943",
+      "bytes": 3900,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258171911500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/matrix-media.css",
+      "sha256": "09843d620451a87e0c7fd577734f9703b2f517e10ec86b28650558bd0f52f889",
+      "bytes": 2911,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258171911500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/matrix-style.css",
+      "sha256": "3e5f854c781734c9595323cd7028ef1e2e1f258e0b2cd6751e7373de7e156e60",
+      "bytes": 34295,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258173419500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/select2.css",
+      "sha256": "022876f128e4bfb01a9755fb20429ee8bf980bef3100482f495c3df635c18c94",
+      "bytes": 15320,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258174430100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/css/uniform.css",
+      "sha256": "d79928cfe69ffbbec1ee903b16627191cf18febfddb8dd66da373c25979333cc",
+      "bytes": 10462,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258175438600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/font-awesome/css/Descr.WD3",
+      "sha256": "3f17aacade1c7bf8d0213b2ef2c0cd71a6dcbafe0e431e7ba7c8f1e5811946f0",
+      "bytes": 104,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258177439200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/font-awesome/css/font-awesome.css",
+      "sha256": "1bc042a2cd3a92fb4369843df29451890cc13b75561e8040874e1e9f08ef8f9f",
+      "bytes": 20026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258177439200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/font-awesome/font/Descr.WD3",
+      "sha256": "7d7b297ba7bf120c900b491ad347e1436c7dc4161c27be3efc07402110eb1324",
+      "bytes": 446,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258178439600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/font-awesome/font/fontawesome-webfont.eot",
+      "sha256": "e07d3b0225ad8e9438927341d63485e01c767edf1e2930b16f0a0bf907ae0d82",
+      "bytes": 25395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258179437900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/font-awesome/font/fontawesome-webfont.eot@",
+      "sha256": "e07d3b0225ad8e9438927341d63485e01c767edf1e2930b16f0a0bf907ae0d82",
+      "bytes": 25395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258179437900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/font-awesome/font/fontawesome-webfont.ttf",
+      "sha256": "1eb7466293db9378858da3694dd11620ec9c351fb7cefef1a94a3802803e1fa3",
+      "bytes": 55096,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258180945200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/font-awesome/font/fontawesome-webfont.woff",
+      "sha256": "a6fb906942932de53852ee244ee3fec27bca0bf63a96421672aa4784851b8d4b",
+      "bytes": 29380,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258181958000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/images/backgrounds/blank2",
+      "sha256": "132b116eaf811c558f8086b38f66f9d097f4edc216c2996c49c1e8abca5d94e4",
+      "bytes": 2680430,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258209286700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/images/backgrounds/calActiveBg.html",
+      "sha256": "3b32416c29423b8445f1cc3e0fada798617e2790f6be4f68e0f7d3fb50ff4bfe",
+      "bytes": 9137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258209286700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/images/backgrounds/Descr.WD3",
+      "sha256": "30819b667070bc1e56612a33ea7907e25d1fca4567ad5884c6cfd0ac727dd677",
+      "bytes": 217,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258183466700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/images/backgrounds/skype_3Asuniljoshi19@call",
+      "sha256": "3b32416c29423b8445f1cc3e0fada798617e2790f6be4f68e0f7d3fb50ff4bfe",
+      "bytes": 9137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258210809000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/images/gallery/imgbox3.html",
+      "sha256": "4ebc993706ff60152e0af2c2a40626451fd0696439d1b6b16231af017788589b",
+      "bytes": 9354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258211821800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/alpha.html",
+      "sha256": "4ebc993706ff60152e0af2c2a40626451fd0696439d1b6b16231af017788589b",
+      "bytes": 9354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258214337600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/breadcrumb.png",
+      "sha256": "eef549e436307aac2bb0871fb8b44d8b96729a074db6017bc42526c9fb6e8015",
+      "bytes": 1118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258214337600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/Descr.WD3",
+      "sha256": "dafcec1e8b8bf6a3b4cebd60d9eb72f5f3a56ea492ef1e40dd0ba1bb21245cb4",
+      "bytes": 1303,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258211821800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/glyphicons-halflings-white.png",
+      "sha256": "f0e0d95a9c8abcdfabf46348e2d4285829bb0491f5f6af0e05af52bffb6324c4",
+      "bytes": 8777,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258229378500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/glyphicons-halflings.html",
+      "sha256": "4ebc993706ff60152e0af2c2a40626451fd0696439d1b6b16231af017788589b",
+      "bytes": 9354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258230887000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gritter.png",
+      "sha256": "877683e7ac1bbdd2b85491b081d6453fb5abc171804b13ee8a8f3dadfeba14d8",
+      "bytes": 3071,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258230887000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/hue.png",
+      "sha256": "5313bcb59e138b50c71c5ba9d4c0d623a4ad5f11d09af6fefb68311b28287f22",
+      "bytes": 2937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258231896000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/larrow.png",
+      "sha256": "80196f64ace6893ba6f6063a47a4256ce465a99ae94e03f441bf1146281f6324",
+      "bytes": 1196,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258231896000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/line.png",
+      "sha256": "c10efa2e6f029451fee432dc7d77fcd9fe586e20cdb3670a5027ecd2b9ff2483",
+      "bytes": 1054,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258231896000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/logo.png",
+      "sha256": "e4f2aa725c0c91193c480dc6c1caf2b5b4b2240b02a6b83fd2ddccbb97fcec5c",
+      "bytes": 1255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258233403400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/menu-active.png",
+      "sha256": "969b121c700b8b156631fbef75731b3e263538907ec96a149758bc1a3bd23d63",
+      "bytes": 1149,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258234413000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/rarrow.png",
+      "sha256": "4ef074670a6f4cebf54a12f8068943a33fbb950455a1ba14080304e7f672ebfd",
+      "bytes": 1191,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258234413000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/saturation.png",
+      "sha256": "9e59dd8e326f099df5a8e92bb4a37f0f3aed057bf686eaa3c94ce354a9daa89f",
+      "bytes": 9998,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258235421400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/select2.png",
+      "sha256": "ea71a623a6d48c553ba544709f02348b0ed59d59634a2d359d92383761c78264",
+      "bytes": 1097,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258236421300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/spinner.gif",
+      "sha256": "f6ecff617ec2ba7f559e6f535cad9b70a3f91120737535dab4d4548a6c83576c",
+      "bytes": 1849,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258236421300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/sprite.png",
+      "sha256": "9188c035329a389bc5d809129a3ea6950399dde012220e5cb1695997c06136a6",
+      "bytes": 45686,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258237421300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/Thumbs.db",
+      "sha256": "22ead0d536dbfc2cc479b56dfff2f711d71038cf5ec52f38ab3a9a232d08794e",
+      "bytes": 18432,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258213330000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/av1.jpg",
+      "sha256": "947cb5e2510b4a250520f6bf93664d34db2f7bae854e7d34201c24031cf09e58",
+      "bytes": 2110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258216343200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/av2.jpg",
+      "sha256": "bfc1cac95817d96ad0d9b0edf83175ff4b75ba93f58bd343890eeec93ac5ee43",
+      "bytes": 1803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258217349500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/av3.jpg",
+      "sha256": "52e2a7bc02716be2344dc033a98c273cc343442ad50a698fa10b260e4672fc44",
+      "bytes": 2129,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258217349500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/av4.jpg",
+      "sha256": "54f35056303e5e19b923eb801e2f5f2296ec4a3b8a68f578f1bb5da8f942fa73",
+      "bytes": 1467,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258218338300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/av5.jpg",
+      "sha256": "7c577ad1075c1f4ea59d53f4bbdbacc86281835afd64b0fa5d8b0a01d30fbad9",
+      "bytes": 1664,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258219339600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/demo-image1.jpg",
+      "sha256": "2eb53efb0c4daae9fb04e7d4fca3e384d75d899dd789ddac25cd90ffd13c5a50",
+      "bytes": 55992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258219339600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/demo-image2.jpg",
+      "sha256": "29180d0f72cfb2a51a02cb6d0488f92af9b409e2409cf4b2dc0f1e832b54752a",
+      "bytes": 71354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258221859000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/demo-image3.jpg",
+      "sha256": "11ab1ea90813e29d672709a8b0cce69317d0c6c154fcd2e56657461a8330895e",
+      "bytes": 48675,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258221859000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/Descr.WD3",
+      "sha256": "664de1615e5991dd1a29d0a5282057ffaf3530db0db0f718c8697ed4083392ae",
+      "bytes": 784,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258215340000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/envelope.png",
+      "sha256": "3f2bc7c530e7ba872af5db46276d217eca2da3ef0978e104c4aa173b7864857b",
+      "bytes": 924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258223367700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/demo/Thumbs.db",
+      "sha256": "2a344ad0bdec8c7760e6afb708004201c1a79f9568988d0585bd9f2a3d948d97",
+      "bytes": 6144,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258216343200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gallery/Descr.WD3",
+      "sha256": "a8309db7f96231e83009bd5e5d25827a1ebdb618c81b8e2882e72eadb2644204",
+      "bytes": 495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258224377400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gallery/imgbox1.jpg",
+      "sha256": "bc36386399724613d13334a5b7a336a4c6efd82e1f027573315c7ba51ba21f9b",
+      "bytes": 28793,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258225377800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gallery/imgbox2.jpg",
+      "sha256": "4af379d804a5cea01c4565c178cc81ccc7631b37963783dddf89f11441e2ecfa",
+      "bytes": 23666,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258226378000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gallery/imgbox3.jpg",
+      "sha256": "4c8cc60b8b3b85de5a9b36dc9b1118b93f54c6e5d82c4a9abf235f859597dcd6",
+      "bytes": 45799,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258227380500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gallery/imgbox4.jpg",
+      "sha256": "b44a07981854cf6c4fec8d73eac0f10f881ab89a75efac79c564c9ab3b6cdf5c",
+      "bytes": 48236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258227380500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gallery/imgbox5.jpg",
+      "sha256": "763eba80043914156525932b446c25f24db1ad5b4d06e1a2526127a772ddf6ab",
+      "bytes": 57641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258229378500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/img/gallery/Thumbs.db",
+      "sha256": "f604a86251fc8863869d50594c4c440fd4876afbdaaacce1e8cec469d8de513a",
+      "bytes": 7680,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258224377400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/bootstrap-colorpicker.js",
+      "sha256": "b381091af90ca44962c041bd448a6092fa2092ce384e3b9fb53ad9a6930021ca",
+      "bytes": 13897,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258238420000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/bootstrap-datepicker.js",
+      "sha256": "9e7e7c2adc361f2c37d4d73562fec05b7e33d4a447ffbed2582101cc3062e1f9",
+      "bytes": 13631,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258239421800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/bootstrap-wysihtml5.js",
+      "sha256": "66094a428afa9f219c852be8013b9f6f985974f863cbed9bfa9dd5489863feb6",
+      "bytes": 21115,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258239421800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/bootstrap.min.js",
+      "sha256": "b650ee15124705f1f2b56028c0f1796a82edf2b2cdc15ddb818a404ad57d89de",
+      "bytes": 25748,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258240929600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/excanvas.min.js",
+      "sha256": "f98cb332c803a746862b762c94e95379b2407d1a87af8c69299590a4e9473781",
+      "bytes": 19415,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258241939300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/fullcalendar.min.js",
+      "sha256": "ab1dd843c8897434fc681bbc42a7f2e55c0652a3b971bfeee00cc8f977a3d9be",
+      "bytes": 49498,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258242939200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.dataTables.min.js",
+      "sha256": "cf58eee44ab1036436a5e58561f017c6a1269c29485a9b5fdcd695ce7a32d30d",
+      "bytes": 389609,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258246336500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.flot.min.js",
+      "sha256": "52cb1f60646b1d9e45e0fa16d52ede2312c412f3aaf874bb30956271e7a7a12c",
+      "bytes": 37569,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258247339200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.flot.pie.min.js",
+      "sha256": "ca6e70260de6fc4cc8cb74f4845f3a33857c8407d68df8fdf3847e04a2854702",
+      "bytes": 8855,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258247339200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.flot.resize.min.js",
+      "sha256": "2d06b85ba46dc1088cb7b046a31220e9e50291b968642257264262ccab1ea73e",
+      "bytes": 1239,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258248337700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.gritter.min.js",
+      "sha256": "802a043b94d19833ce4aa912fff8afd566dae3b6700e6e5f7157477fd9707563",
+      "bytes": 4242,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258249347700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.min.js",
+      "sha256": "4332316d0fe4e2c7a9e213afa4d9cbf983ad5bf80cb47d98c9cacd5470e35889",
+      "bytes": 94842,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258250857800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.peity.min.js",
+      "sha256": "c30008aec7ef73a46397b279f19603f81b5200048b60511c2baed055b3ff9a9d",
+      "bytes": 2500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258251870400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.toggle.buttons.html",
+      "sha256": "4ebc993706ff60152e0af2c2a40626451fd0696439d1b6b16231af017788589b",
+      "bytes": 9354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258251870400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.ui.custom.js",
+      "sha256": "90b7349fe783895a23ef91b12e6e3674af923e21e87583f6a2de97d168dbe9f8",
+      "bytes": 198455,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258254390500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.uniform.js",
+      "sha256": "8649086b7e6a7ae051d2fdad5e9398079390a24fc6a222bfa4035f3cdf4091c5",
+      "bytes": 20258,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258255388500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.validate.js",
+      "sha256": "1647f9bf64e2357959aea259fd881bf0c3dbb6dae54b77f2c4eeda834f028f34",
+      "bytes": 39457,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258255388500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/jquery.wizard.js",
+      "sha256": "1d545c69cdb340c4606c79f92a8410ca7de846a4d1178574dbaa1cad77296ede",
+      "bytes": 14473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258256390000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/maruti.html",
+      "sha256": "4ebc993706ff60152e0af2c2a40626451fd0696439d1b6b16231af017788589b",
+      "bytes": 9354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258257393800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/masked.js",
+      "sha256": "69bad6eeedcefc77eec946bb81dbb750853dfeca3e6116d5af93876bcd456a53",
+      "bytes": 3349,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258257393800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.calendar.js",
+      "sha256": "c7661c149b51a2bb01e04bf2d1f46264eaa2fb0d510135c1ccf305493a9fa721",
+      "bytes": 3545,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258258396400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.charts.js",
+      "sha256": "6964e61175af9ce2e04275f83a8b9358f8080b75a7416b457398ff274317413e",
+      "bytes": 3170,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258258396400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.chat.js",
+      "sha256": "19c9799308dbc1999c3d729bb929de83d5b99de0f3c56b8aaca6fbdf3aa47eac",
+      "bytes": 2365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258259392700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.dashboard.js",
+      "sha256": "3408536222be66c2a4ca63aa82613ef7fe6a000d07fd26f770ceb39add38e181",
+      "bytes": 3833,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258259392700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.form_common.js",
+      "sha256": "5bc5db2285813832239023753ed48c2a8a495e07d45574fad201af8527fe32f1",
+      "bytes": 219,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258259392700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.interface.js",
+      "sha256": "c1026ee9d049b90fd2e61ab723d0b654997f3f98a8bc70d7c254c11947ab9ecc",
+      "bytes": 1646,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258260898000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.js",
+      "sha256": "3ca2fab6e6c36c6f4a430320421a855cee3343a23cd2c7c2be1ff22738c0a2ec",
+      "bytes": 4192,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258261908000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.login.js",
+      "sha256": "cb33d76fd0f662f32191f14d3445798b027d8e6f661569550c31c60d5339ff67",
+      "bytes": 1043,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258261908000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.popover.js",
+      "sha256": "1a4e45c073dc2fcb3b67b1f42e7221a68b57e703e8339f26d3eec39d16a436a7",
+      "bytes": 1857,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258261908000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.tables.js",
+      "sha256": "2eca8741a1fc93d7a5693af54ee8870f2f997f8d951e095deb0ab63ec0cd0d6d",
+      "bytes": 753,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258263416000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/matrix.wizard.js",
+      "sha256": "b3664d501a88a3ff26c381b225283edf98a914fcd268ce4435f674770fb6b6ac",
+      "bytes": 1402,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258263416000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/select2.min.js",
+      "sha256": "516375832fc3dba8cdce9fb186fa7d329c6926cc51f5f132ed7f7c3deea53ba2",
+      "bytes": 35537,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258264428000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/js/wysihtml5-0.3.0.js",
+      "sha256": "e2dc554f05b375ae76f973e5429f17975ded9bfbf2af7911767d40547ec0851e",
+      "bytes": 341644,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258268445700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_bottom.jsp",
+      "sha256": "6f7fa6e78ef071c88682451b97399c5fbead5a4748951a77520ef8d08677c1f4",
+      "bytes": 3218,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258269436400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_container.jsp",
+      "sha256": "ef6d16459e19a0ff5ba7d5caa2087a13f4b479d7af91d522bdbbea7c0e30878e",
+      "bytes": 2195,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258269436400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_footer.jsp",
+      "sha256": "2d6f1afd9b7a63e058ff6c4572268f01e5b873885287d30110968e72118ad2a1",
+      "bytes": 856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258270943900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_head.jsp",
+      "sha256": "e5d5df0eb63d31154fc66083bf6ac2ffafa118dbe990fc7d8f025dc696553149",
+      "bytes": 1817,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258270943900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_header.jsp",
+      "sha256": "20a8fa477db7e8298fbe9ceefd0f2b6a4fcf3789d45f059c86fd1cdb54c01acf",
+      "bytes": 2978,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258271952400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_index.jsp",
+      "sha256": "3b43b8795a918c2e418606d7256f1870a6c2985a750521ef8c5187b35bab2074",
+      "bytes": 1152,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258272955200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_sidebar.jsp",
+      "sha256": "c8f2e65dfef9ef37756fbbf5d78e2de47f2899824a9ec59e590f61c1419db565",
+      "bytes": 3508,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258272955200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/dashboard_top.jsp",
+      "sha256": "ddd15afa7ef63e4ef1110dda13d7351684ecda03042be2d94e6cb9a64d1702a8",
+      "bytes": 945,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258274087700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/error_403.jsp",
+      "sha256": "24e47a4e4c6097640067b2481dd199493d4925be41cb917f68b4c17bd881aa57",
+      "bytes": 2181,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258274087700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/error_404.jsp",
+      "sha256": "ead50cd8643e62d27b05705f8ee45a1f2b53aadbe2211de3f21a050527d7483d",
+      "bytes": 2193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258275086900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/error_405.jsp",
+      "sha256": "134efe38bcdc189f2f532d9c082405b596f3122c05c24e189aa04b7ab8df5961",
+      "bytes": 2169,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258275086900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/error_500.jsp",
+      "sha256": "59c7b2641cea769746ef1bdce115d80210416d02cab7676433445dd409a13e7b",
+      "bytes": 2204,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258276086600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/input_bottom.jsp",
+      "sha256": "66f7190fe7b4e993d6b0cacb40ca87b7abf70ac506e3f9c6d634fee70d738cb1",
+      "bytes": 4271,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258281614000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/input_head.jsp",
+      "sha256": "532678466df7a64138416d93de593d38dff59ebfcba89782a6d8d655a8fe05c1",
+      "bytes": 1911,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258281614000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/list_bottom.jsp",
+      "sha256": "4eeeb5450c027bfc1aa4195c06c6eded54804fac285aee19fbcfd5a09ae1bcf7",
+      "bytes": 1422,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258283123000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/list_head.jsp",
+      "sha256": "57211b28765225bd56a1416bec1e2be8e8fcd09fb7d91be88223060c58d1625a",
+      "bytes": 1634,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258284134100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_dashboard_container.jsp",
+      "sha256": "e0a45fd5de0659f91bdae6027b2b66624dc792516b48d27959d1555bb63022de",
+      "bytes": 2720,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258284134100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_dashboard_index.jsp",
+      "sha256": "5011bc3ad386e336144780deaf9e054178527768f476d00621c1893a69abe4f2",
+      "bytes": 1259,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258285134800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_dashboard_sidebar.jsp",
+      "sha256": "f3772bb735801bc38de5491f7c648221d2dcc55be475d29345787dc1ce95eb48",
+      "bytes": 4609,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258285134800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_list.jsp",
+      "sha256": "bfe9ecae029ae1c537bd368ef84f3620c4cd3505f7a261262b72a72b376a93f9",
+      "bytes": 1235,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258286145400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_list_container.jsp",
+      "sha256": "e7e0ff897c7b03edbe8ca03bc719e5757f884188618d7fb411bdc3a3f2f444b0",
+      "bytes": 2581,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258287142500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_log_list.jsp",
+      "sha256": "35d51bb8384f6633e5d85ea0a806b828b01b02472ffc4f8196d7f563ec2a5cba",
+      "bytes": 1243,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258287142500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_log_list_container.jsp",
+      "sha256": "abec92dcfce524454eb1096aa9211a9fa4713ff7f7a06cce55704e418077e82a",
+      "bytes": 4477,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258288143900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_summary_input.jsp",
+      "sha256": "bf54addc49bb02d97671a9a8d6ddad43f554e43b22245fba8e5a2eb660d95018",
+      "bytes": 1255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258288143900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_summary_input_container.jsp",
+      "sha256": "8950914a8d350fd725646a714bb9312d4ff989b8b3a0685787684e6aaba0fdb5",
+      "bytes": 5598,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258289145200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_summary_list.jsp",
+      "sha256": "ee37efa3d4334f4607782b250e92b2f4c0a0e66e24a9960b8a661f06e5355fdd",
+      "bytes": 1252,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258289145200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_summary_list_container.jsp",
+      "sha256": "2a0acd4ad3f6fa48ecbc334e4e8bcd08722a6847358f13834cb603ffd2e9e4e2",
+      "bytes": 3632,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258290652800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_upload.jsp",
+      "sha256": "d688ee2a634fc64cbc07eb91d13ff9a35ae4310308474f2d9aaf52b12428ff67",
+      "bytes": 1248,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258290652800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_job_upload_container.jsp",
+      "sha256": "259e7a196ad8f6239a8ebdfa7899d40249c091aa32a556680397025adcbc5051",
+      "bytes": 2639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258291661500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_node_list.jsp",
+      "sha256": "86692c9f03b39a55a6d5fd498f5aeff42fcd7a9862bcdab85caec1848e661f74",
+      "bytes": 1237,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258291661500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/master_slave_node_list_container.jsp",
+      "sha256": "08161e10a775d92de7fdc6cc7d65337ceb2525fd3ad153a45361442bee0eb5e4",
+      "bytes": 4286,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258293168500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/shiro_login.jsp",
+      "sha256": "7ce772317270b8c283561569176c2ef97150350f55ee307483bc7fe816991817",
+      "bytes": 3758,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258293168500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/shiro_password.jsp",
+      "sha256": "b36ac666a6015f3ec017054a709d1b8a03bb1bc78ea6bba6de7f21c6767bde45",
+      "bytes": 1147,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258294179700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/shiro_password_container.jsp",
+      "sha256": "5094f10336f9fe4329f8f0d647629d3fcf23344fe07a0fdb493f8292ab7d8770",
+      "bytes": 2676,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258294179700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_dashboard_container.jsp",
+      "sha256": "f0f4cb732ce21340ee4d41c319c83a4ef1b980a305e84cc8499c08710c2baf1d",
+      "bytes": 2722,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258295178400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_dashboard_index.jsp",
+      "sha256": "bdaf1d177cebd68f333a2a94feeac5ecd782c00d2d8396c1914f2853045475e3",
+      "bytes": 1245,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258296178300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_dashboard_sidebar.jsp",
+      "sha256": "0c7ae4b81d398c253b70b27c66c1278c51633d17ff14419fb55aaa3eb10840f6",
+      "bytes": 4561,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258296178300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_list.jsp",
+      "sha256": "9409166ae558df52f9f53ca2e93ecc3cab3a192cb1f250f9fb31e995884f1a07",
+      "bytes": 1221,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258297177300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_list_container.jsp",
+      "sha256": "281c1e39feb553397d8945c3dbc9edf0a65a042caf3fd2c7be36f708f9c7aea9",
+      "bytes": 2560,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258298181000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_log_list.jsp",
+      "sha256": "b4ab1ea7d7bb89ffaa08cc61df825c4054fc4f65467c1dddba8366086f74c835",
+      "bytes": 1229,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258298181000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_log_list_container.jsp",
+      "sha256": "ffe295a92799d2d0f9a2d4fce302b90ad0df17954a767169e946c0ab6243dcae",
+      "bytes": 4473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258298181000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_summary_input.jsp",
+      "sha256": "fe10459866a75c3cbe7db1d80cbd7f51b251db2a06691f00111fba41b0492464",
+      "bytes": 1241,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258299692400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_summary_input_container.jsp",
+      "sha256": "f76326bf9559951121a7393f4a21ec8f82ce97ef32711e5b511606cf9e482972",
+      "bytes": 5590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258300705200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_summary_list.jsp",
+      "sha256": "a7adfe4a566025c6c42534b61fd8b370cac8207cf55c2a509751f6cc908a9dbb",
+      "bytes": 1238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258300705200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_summary_list_container.jsp",
+      "sha256": "a9757e2237a23c66de672bbfb6a0b0a9fca7274922e9e3044daa91f7853a90cf",
+      "bytes": 3624,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258301705000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_upload.jsp",
+      "sha256": "45749a87a000b1dcf66fa64d3bc9c293955b6b3f279fe42a01df6ad512ab4901",
+      "bytes": 1234,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258301705000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_job_upload_container.jsp",
+      "sha256": "969941746619a9e17b6f3d4d00e1c17ff4d1758696f1ed5e50c9b2ab6c6adcbc",
+      "bytes": 2631,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258303215000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_node_list.jsp",
+      "sha256": "fd86b45db7f475f9f9d0a1bc9adfa30b60c6cdb190e1f10d50351aa9945f789a",
+      "bytes": 1223,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258303215000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/standby_node_list_container.jsp",
+      "sha256": "e07a6f86b95ca384eb4e1d5abea9d6404916f052221d2d3fb8cf9a5e53e092a3",
+      "bytes": 2588,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258304227600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/example/buttons.html",
+      "sha256": "80258a49b9ae6eb3760c235b147573dc21f553ff0d99645d9ac284297ec5d377",
+      "bytes": 32946,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258277087700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/example/form-common.html",
+      "sha256": "7b17fec945a2caa4e44cbcdfed1e8881eb16e9f4ad712bc6957509ea76dc1971",
+      "bytes": 27739,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258278087000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/example/form-validation.html",
+      "sha256": "a6980fc745ca7fdcbb46459cc757f7e3b2c084ad7dc9d88a090eb40bebb10197",
+      "bytes": 10828,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258279093000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/example/interface.html",
+      "sha256": "97c2b17edd18d12017cd75ca4354f60f549a7f4ca78a0656c9cc97f7ab2952d3",
+      "bytes": 27438,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258279093000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/example/invoice.html",
+      "sha256": "366e54b46e48c09cf35b28f01f98f2b434d7d24b8417a68452d37a4eee841bdb",
+      "bytes": 12452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258279093000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/example/login.html",
+      "sha256": "dd19b1a2782d9d56151a3c54989fb22282ac4a227725e9771badc36c916d3e42",
+      "bytes": 2915,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258280604600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/jsp/example/tables.html",
+      "sha256": "ffd1801953cc633c51aa87559eb9613126202e4018003a294389b22f1d5ff599",
+      "bytes": 27723,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258281614000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-console/src/main/webapp/WEB-INF/web.xml",
+      "sha256": "164197037a974e41ffbe398bcfc3032feca57c468ebc32514f3a10e66d680283",
+      "bytes": 2960,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258166392600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/pom.xml",
+      "sha256": "f5e3d3ac0e807c6a3bcd4b1ef0143769303b10ace0648b1ab73f9937248bff28",
+      "bytes": 1061,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258305230400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/exception/ConfigException.java",
+      "sha256": "75d07e64e519b1b1ce262f61fbc61f881f7a7b48c339dac76929fd56b1a19038",
+      "bytes": 888,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258308226000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/exception/NiubiException.java",
+      "sha256": "1c776d1978eb08a4e5431a9126d21b57a4629fa74057618baff5bfde40e99d24",
+      "bytes": 924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258309227000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/exception/UnknownGenericTypeException.java",
+      "sha256": "853195a8fc3a1a75337150455ab568e0c4f0d73ac1c5157eab24c52b083216bd",
+      "bytes": 921,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258309227000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/AssertHelper.java",
+      "sha256": "09f43b9e93d9cf14476bc5ee352bb62b2bf35a9ee86d00e41be1b8fb268c25a4",
+      "bytes": 2076,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258310734500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/ClassHelper.java",
+      "sha256": "48b9110350d5183b600e747bec6c259fab2d2f94bb058786e8f3d6d5b6487d0b",
+      "bytes": 4004,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258310734500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/DateHelper.java",
+      "sha256": "ebd9ea97e1688a5b254b7e798c9bf737e8e7c3da0deda6db7dd7346091dceb13",
+      "bytes": 1166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258311743000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/ExceptionHelper.java",
+      "sha256": "ad1c9de93be2f43a4199bfbf8b21f1e0b24b1461429f82eaa7a6c60330169c0a",
+      "bytes": 3464,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258311743000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/HttpHelper.java",
+      "sha256": "07d68a2ce5ef6c239c59e33695f08a7b46c50a89b5083ea28a24c8bd85362a8e",
+      "bytes": 1536,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258313249600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/IOHelper.java",
+      "sha256": "4aeba65b71b8ec876e17d6e252145b1e30dac15e9a1d056adb852f0a3d2156e2",
+      "bytes": 2304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258313249600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/JarFileHelper.java",
+      "sha256": "61f1b1d975ae9c5dd2cc8d66183c02856848de82c821da37584d9860f4cd52b2",
+      "bytes": 1715,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258314261700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/JsonHelper.java",
+      "sha256": "b9617db8587c7d0cad6510ac8328627ec889cf83117f1f4ca87e436bf93073a1",
+      "bytes": 1436,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258315272800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/ListHelper.java",
+      "sha256": "1a2a7772792a32e5bf5d1432192318920340cff75a42b3ec81b17a9b17c55803",
+      "bytes": 1421,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258315272800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/LoggerHelper.java",
+      "sha256": "3440b48841de665ac51ac9e88ae325075019284cb65810a58b27eb46ed247265",
+      "bytes": 3811,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258316283500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/ObjectHelper.java",
+      "sha256": "799199a1dada95f96f795b7163ded7040bb5304325804cc41c6e43f0207562fb",
+      "bytes": 1434,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258316283500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/ReflectHelper.java",
+      "sha256": "54f2458f0a1ac71748f29f183a2b9a85e2d04a06038f8b5988876c116d92567a",
+      "bytes": 5937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258317284000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/main/java/com/zuoxiaolong/niubi/job/core/helper/StringHelper.java",
+      "sha256": "ab388950522fa73e1d7364457d0e5d7f4d49dae14f9150d880261a6783490ca8",
+      "bytes": 3179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258318281400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/AssertHelperTest.java",
+      "sha256": "ab26bebdbbc2be4efd6353be1510332e06f1feee8a502f3cc5d85354c999c36e",
+      "bytes": 1514,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258321799800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/ClassHelperTest.java",
+      "sha256": "55f228737ae570bed029f6a18b8f2b9167bd004bd82ab98abded5cc068b6aa11",
+      "bytes": 1786,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258321799800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/DateHelperTest.java",
+      "sha256": "b7e5271976897ee7b2bb4faa793eff0649a26ebc075e71a0f443f412812b698a",
+      "bytes": 1179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258321799800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/ExceptionHelperTest.java",
+      "sha256": "44e278a7c08fc6516215de03c7e25b570868d31201e28abb403f63f9d59c6b2f",
+      "bytes": 906,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258323311600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/HttpHelperTest.java",
+      "sha256": "503ac51a7c75e3145295a00a940353997f1f00d69da01bd822d50c447c8e16a6",
+      "bytes": 1873,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258323311600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/IOHelperTest.java",
+      "sha256": "9125b934e6c07b3666ee0e8e393ec493a4b053846a508396fb07a8ec304b196e",
+      "bytes": 2901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258324323700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/JarFileHelperTest.java",
+      "sha256": "f4e518d96cab0578adb033023cb99682b7491e1ec190fdcab9fc73f07cc89d4c",
+      "bytes": 1910,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258325331700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/JsonHelperTest.java",
+      "sha256": "819488d4f31ddcdd2bfcc55eda5301de3661520796e0b251a1ead0ac0e908c58",
+      "bytes": 2403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258325331700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/ListHelperTest.java",
+      "sha256": "52817d407b177c118ad7c6e416f657af77af12d6d891876b033f628709a00bd3",
+      "bytes": 2051,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258326333300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/LoggerHelperTest.java",
+      "sha256": "0d243fbe2346e2e5d29c9813ca72accc689c70069fce8a433be70146c6bc1f2e",
+      "bytes": 1706,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258326333300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/ObjectHelperTest.java",
+      "sha256": "8e39d48a3599a428702377976d510f143cbab8da625d6b9bcbf7a40a91e5f565",
+      "bytes": 1982,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258327334000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/ReflectHelperTest.java",
+      "sha256": "cbd2fc27d7bf442b283890375fa76cdaaa9f1d64878735a8cb3f1b4f0455fe81",
+      "bytes": 4012,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258327334000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-core/src/test/java/com/zuoxiaolong/niubi/job/core/helper/StringHelperTest.java",
+      "sha256": "533840ec3a73317ba81b2b5eb28f51ce773eb83c6e7099f3ad5104895565377a",
+      "bytes": 4477,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258328332400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/pom.xml",
+      "sha256": "a4b01e1a8a3ec1377b8fbde5b1667d90afe227be9038478b949ae1cc28f83d7e",
+      "bytes": 2192,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258329333300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/BaseDao.java",
+      "sha256": "5e5d103883864336b309f5b52bdc27601d166491f82a34d214ca63fa3f15ddf4",
+      "bytes": 1513,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258333372600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/BaseDaoImpl.java",
+      "sha256": "75c6ff69f19bc46325d850556f4210a114c892a3c895468f2fb64f557301aa56",
+      "bytes": 7163,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258334384200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/Pager.java",
+      "sha256": "f522dddf7a45627094a8833062c74a539a710e03c50d3847c84be7fa05870dff",
+      "bytes": 2402,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258334384200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/AbstractEntity.java",
+      "sha256": "ae7ae1832054a83d89e6a5876e69f1dc5bbe75b3d299ceb90d28cba78bd8c91b",
+      "bytes": 2663,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258335394100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/AbstractJob.java",
+      "sha256": "44648d7ce1468e4aa271a0099d6f18c20495df53dc4e2fec214932c205c62b73",
+      "bytes": 2382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258336404300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/AbstractJobLog.java",
+      "sha256": "4e35abe1adbfb55cbd83e56f5b6be1b908513a5621f54d19669ad3d406e58a2c",
+      "bytes": 4083,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258337403300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/AbstractJobSummary.java",
+      "sha256": "09cb4178ee8b7c9303ba05b1216776ed94e6eb7db68b0810f8a6484d141550ee",
+      "bytes": 4121,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258337403300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/MasterSlaveJob.java",
+      "sha256": "66a24060729c3341be1321b81ab28a204516ab1498a94a5f547334b086629722",
+      "bytes": 1196,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258338404700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/MasterSlaveJobLog.java",
+      "sha256": "31798aaab05f780c1e90efc46bd5c53071df0c9ab0a8da1ed07ae66eaaafec4a",
+      "bytes": 985,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258339403900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/MasterSlaveJobSummary.java",
+      "sha256": "a9c493c74c2da6253bf101af7b10d50ad77b37af75d021249bd80b180a40a7a4",
+      "bytes": 1202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258339403900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/Permission.java",
+      "sha256": "4a7ee97a37634c0099573ed5904ce3a7b6b3e8d5cbe495828d3814545c957158",
+      "bytes": 1646,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258340914700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/Role.java",
+      "sha256": "6db8b1f1b81397cefe4453dbd20deee48c5e15ea670c87ded6b9a671e2255268",
+      "bytes": 1894,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258340914700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/StandbyJob.java",
+      "sha256": "4291d48115f03a5d17b255fa7e6f3afe22ad54a341460b5347c8e4fa85b5fae3",
+      "bytes": 1187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258341930400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/StandbyJobLog.java",
+      "sha256": "8b2e836981eb70e53b24df9efcf4482b4f7745314dcfeab7e7eb7a5e4e6e7900",
+      "bytes": 981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258341930400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/StandbyJobSummary.java",
+      "sha256": "7afa265420e9aa2826bc6d335f75e044d72733373d9492d7aa5380e8c57736d7",
+      "bytes": 1193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258343439800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/entity/User.java",
+      "sha256": "e1949b5784b2bc1a2ee952d335cd707937489b924407c7b58c35c3b7a34d7481",
+      "bytes": 3739,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258343439800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/hibernate/EntityInterceptor.java",
+      "sha256": "44e9f9c829a76c0d145b6794c08cb6d04d67d2776738aaa1bed6e8bc5806318d",
+      "bytes": 1916,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258345455400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/hibernate/HibernateNamingStrategy.java",
+      "sha256": "042155cfc02f9d46fbe653f0a04f0bd1b5ab6360a539a0a683583abd71256579",
+      "bytes": 5146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258345455400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/shiro/HashHelper.java",
+      "sha256": "313799fb63d44fb1037b42d2a7e8e3a744defaddb772f50917e589bb2ead028a",
+      "bytes": 1123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258346450800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/java/com/zuoxiaolong/niubi/job/persistent/shiro/HibernateRealm.java",
+      "sha256": "3f13f0c3bcd9870a4d266112cfdb2bbcdd563820553dbffa7d888e15d7005b37",
+      "bytes": 2105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258347452400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/main/resources/applicationContext-persistent.xml",
+      "sha256": "ce4ddc87fc191854381a0214644e9d6574e93191ed0d942381265b413413ec19",
+      "bytes": 1952,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258348452600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/test/java/com/zuoxiaolong/niubi/job/persistent/AbstractSpringTestCase.java",
+      "sha256": "04bead861dfd4c6833fa1a8a0dc6d0439249daf5f8f1e05fab041dba029cfae4",
+      "bytes": 1166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258350957200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/test/java/com/zuoxiaolong/niubi/job/persistent/BaseDaoTest.java",
+      "sha256": "c6ce501d0a79b3791154bf7cdbd003eaeedd382e2d240ca0e0734c77bed0d904",
+      "bytes": 7535,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258350957200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/test/java/com/zuoxiaolong/niubi/job/persistent/shiro/HashHelperTest.java",
+      "sha256": "76e4f14fe50da9352be931f4c0705dd294f3dc35030d60a825b42b0c0cc528e6",
+      "bytes": 1009,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258351965400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/test/resources/applicationContext-persistent-test.xml",
+      "sha256": "0553d89b5996df60448b3a464a13cbe44a64ddd0e64afa0e6ab08eb4e6accf43",
+      "bytes": 2032,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258352968000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/test/resources/config.properties",
+      "sha256": "295660ea248684b62ec64b086afa90ac2a7792105a26b694f6b99a32ea22b0d7",
+      "bytes": 390,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258354067300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-persistent/src/test/resources/log4j.properties",
+      "sha256": "252e36069877fee4827a4fcd557f06e8831f420b647dd1bdae0bb0f73d262cb8",
+      "bytes": 236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258354067300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/pom.xml",
+      "sha256": "9309464fcca9a9f72df73a72d0c1840b5ef51fcc8edcddd26637bacba0ee1a35",
+      "bytes": 796,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258355066300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/AbstractJobScanner.java",
+      "sha256": "7b01ceda9675b0efdc22e9cc7711df4eaf87502b239e0e13df54e35117b62d41",
+      "bytes": 6093,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258359068200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/ApplicationClassLoader.java",
+      "sha256": "779ace71ff264be7d4e901ca8f084690c738fefe876f85a358f448c89dae2385",
+      "bytes": 8211,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258359068200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/ApplicationClassLoaderFactory.java",
+      "sha256": "a553b9cf17435878d4eead3b4b9a66417456ef14d0ea2dcd9a0f69aa4858db16",
+      "bytes": 3921,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258360579500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/JobScanner.java",
+      "sha256": "9bfed7626915aff2f93ac1aff2925ea86b7c44798ce87db97de4cab41953823c",
+      "bytes": 1050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258360579500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/JobScannerFactory.java",
+      "sha256": "e349abcbd0b2709556835abb1335aa8c67d11efd2fcd971b30128835998e1d3c",
+      "bytes": 1389,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258361594700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/LocalAndRemoteJobScanner.java",
+      "sha256": "1ba2524227f731e22b128f79d6f2ddd2f8633c723908e13a49af6064aaad6828",
+      "bytes": 4861,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258361594700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/annotation/Disabled.java",
+      "sha256": "b8865910e3094df131d3001b4407aabef850a2ef5ce8091261100847ea127db6",
+      "bytes": 1358,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258363102000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/annotation/MisfirePolicy.java",
+      "sha256": "c4d803e46493dd6173f8c20714a4abce5e21a8e987141174d348960c0a039f18",
+      "bytes": 1385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258364112100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/annotation/Schedule.java",
+      "sha256": "ea806e90481cd773b486fd221ae1f06967754d56585f337c6ff61aeaa90de6b6",
+      "bytes": 1733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258364112100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/job/DefaultJobDescriptor.java",
+      "sha256": "d42149be72f72e0f0f29846dc174ae551f9aa91ad7e58aef77fe507e4277684b",
+      "bytes": 2715,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258365116600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/job/JobDescriptor.java",
+      "sha256": "ac4e9418e2d5c7b623350988552e351f3bfb96d850232ee550c2e1ad527e8002",
+      "bytes": 1155,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258366116300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/job/JobDescriptorFactory.java",
+      "sha256": "cc0c8099cecc25b111c10b422be15a58ff0eaf0f724f2c004fb3b99eb6890d76",
+      "bytes": 1513,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258366116300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/main/java/com/zuoxiaolong/niubi/job/scanner/job/JobParameter.java",
+      "sha256": "c853a7dd0f1982f2251837e0c36e391faf4ab067c4a1e91d968ab95dabd6b787",
+      "bytes": 1190,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258367113800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scanner/src/test/java/com/zuoxiaolong/niubi/job/scanner/ApplicationClassLoaderTest.java",
+      "sha256": "32493eb9f850378533ba18eae2addfcf69074d17e413ae711a3661a1818a7497",
+      "bytes": 1885,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258369121800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/pom.xml",
+      "sha256": "276e8ceda057eeab2befe81b98628f08504d43bc536a0c24c890e79c17821347",
+      "bytes": 1086,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258370629500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/AbstractScheduleManager.java",
+      "sha256": "1feab263c558a55c53f46dc9b979ff44fd50acc5637b2285c85a5813745e52ee",
+      "bytes": 4604,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258373147500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/AutomaticScheduleManager.java",
+      "sha256": "c68b3a795b8d7c2063d2da3f61646a96c5a8921c3c8ccb4340644b4e178227b0",
+      "bytes": 1026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258374156500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/DefaultAutomaticScheduleManager.java",
+      "sha256": "cd6b42aa2fd93798e6cbfe8b121ecb35bc5296ecb4efd34c4f80dacf4c27217c",
+      "bytes": 6225,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258375163300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/DefaultManualScheduleManager.java",
+      "sha256": "fb482d77b9dedce07c756cd7f25ce7b1fd95f6583bc0751464bce1ad76cb2915",
+      "bytes": 4604,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258375163300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/DefaultScheduleJobDescriptor.java",
+      "sha256": "2f441ad2a95890d1d3ee396b03b8f5c6f206a706a65e5cc478d1e47acd4599d2",
+      "bytes": 3976,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258376171000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/JobDataMapManager.java",
+      "sha256": "b016f5cb28054e5342baf427cec1540586ebbeffdfc08b49086832d47ab8cee5",
+      "bytes": 4416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258377166500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/JobEnvironmentCache.java",
+      "sha256": "2a6a4773202844f2013663ad371677d4f99b494c5bee0a075c305b4ae34d0b53",
+      "bytes": 5815,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258377166500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/ManualScheduleManager.java",
+      "sha256": "6753960188ce12eda0d8b389850834e003e98b1c5b928355cb1eca11e5a69a00",
+      "bytes": 1338,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258378165000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/ScheduleJobDescriptor.java",
+      "sha256": "34f1530ffee3206ba4e194337e1eb69704c710dd2804a8a22c0b919db303e22b",
+      "bytes": 1397,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258379165000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/ScheduleManager.java",
+      "sha256": "95e3980a33d50b785482d69fa8cf9e2cef37811248dd5a9d416eac3f5ddddcea",
+      "bytes": 1157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258379165000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/ScheduleMode.java",
+      "sha256": "af125c4e3a334b6bd42476b1034eabf271e4fbd1f192463dd2851783439fd50e",
+      "bytes": 900,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258379165000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/ScheduleStatus.java",
+      "sha256": "442187f8c834e6bbe6589714b48950141a0866d663cd2bea0fc40bfacccac700",
+      "bytes": 1033,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258380674000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/StubJob.java",
+      "sha256": "06bf9fd8262f0e0e3655a426bf8dbad4b74c92cd4afa72b46b7efdc7fd135516",
+      "bytes": 3287,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258380674000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/bean/DefaultJobBeanFactory.java",
+      "sha256": "a15982e6682cdc04189cb119ef47889fd53a77af5cc5a1abf924d7f03fbb23ff",
+      "bytes": 2043,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258381684000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/bean/JobBeanFactory.java",
+      "sha256": "5dc751c3babf078b87f59df0b85ddcf6157414f550c96a7c3feebbf4b534a7ec",
+      "bytes": 961,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258381684000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/node/AbstractNode.java",
+      "sha256": "14ac324a446dd469afca510f0866c8877f7ea6740dc9e9c5d9883307c4ff43a2",
+      "bytes": 2654,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258383193300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/node/Node.java",
+      "sha256": "2d05acb73d30d7e5d7bd09432e0c98c52de8ca498e354f69f09d943a8b25bf9e",
+      "bytes": 871,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258383193300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/java/com/zuoxiaolong/niubi/job/scheduler/node/SimpleLocalJobNode.java",
+      "sha256": "9d7c7736840d5aa2ddecbfcb1989fe0d337c2833b0fb6bd7313b9b72e0fb723f",
+      "bytes": 2145,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258384201800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/resources/com/zuoxiaolong/niubi/job/scheduler/quartz-default.properties",
+      "sha256": "45dbdc376a1eded1cd8aa62129180e5cf779dab4fdf5a10271c02f4c29e93d0b",
+      "bytes": 527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258420838000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-scheduler/src/main/resources/com/zuoxiaolong/niubi/job/scheduler/node/log4j-default.properties",
+      "sha256": "31cb1c04cb41ae3191f8ead441e6aa4ccec2514c42103bdab9df801f38bd7a46",
+      "bytes": 236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258419330600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/pom.xml",
+      "sha256": "4a80b9fdf73ee1124a625f6632e5e266f9b5823330f2fec4ac2865d17615f477",
+      "bytes": 2392,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838468681160400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/evosuite-report/statistics.csv",
+      "sha256": "087ead7ad5e99beb45597fd877e81842f1ef4086333f6032e0259341e0b11c6b",
+      "bytes": 154,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838427504802400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/DatabaseInitializationService.java",
+      "sha256": "01688baff9fb9a8e6a57f506b9a2099fadffad1ed0d184a16d8f31ee321eb029",
+      "bytes": 856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258427375300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/MasterSlaveJobLogService.java",
+      "sha256": "ba51a200fda02715dcea74c03175e8fab11ad5ab3286c01f726f00b97294d166",
+      "bytes": 1200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258428381700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/MasterSlaveJobService.java",
+      "sha256": "ed0f94cce491d2679237e375248d9fa2e8cbbf2d435fd18ad4307c9b7ea04db6",
+      "bytes": 1131,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258430883000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/MasterSlaveJobSummaryService.java",
+      "sha256": "fac40d57be3c590c73cc320c47178ead0828423d2f0aa4ca3444a455b60ea175",
+      "bytes": 1238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258431899500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/MasterSlaveNodeService.java",
+      "sha256": "ee027718991573b8a5d519f0853191939e7449326ac35dcc6ab0246d870d60a9",
+      "bytes": 920,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258433407500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/ServiceException.java",
+      "sha256": "ac5e0bf8f41ae0b3495ddce8bcbfda80d314f8e669669c00632f066d1de6945a",
+      "bytes": 985,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258433407500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/StandbyJobLogService.java",
+      "sha256": "3af1e6928e84986d1169a41f8329f1c9e5d57a3ffdb5febf1aa0ff250df8d161",
+      "bytes": 1168,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258434417000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/StandbyJobService.java",
+      "sha256": "2ebfd51d3e43dc05b8b51e28a9b9501820370f91d18799d4a2014a1659ab5561",
+      "bytes": 1115,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258435423900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/StandbyJobSummaryService.java",
+      "sha256": "2e68eb6559e21cdc182074388c055cd2280a52538e30a5f91741542dcbe0b62e",
+      "bytes": 1210,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258436426600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/StandbyNodeService.java",
+      "sha256": "e936407161a5e3e7bf92ba2f73cbe8d5b52789501352eb93841a88495615e117",
+      "bytes": 918,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258437425900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/UserService.java",
+      "sha256": "0dcff89033096f1fd6834eaa074ef8ae70a4cae09fbe88e597b8113ce7dfaa90",
+      "bytes": 930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258438424800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/AbstractService.java",
+      "sha256": "61f8518ad9a061bc595479f4f9f6d3068962e174b7fdce83fd56315445714d9b",
+      "bytes": 1830,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258439424500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/DatabaseInitializationServiceImpl.java",
+      "sha256": "af4e11c500613dbc4ab2d901839671fa515f4f1a286baac664fb6e6cbda07de5",
+      "bytes": 2555,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258441946300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveJobLogServiceImpl.java",
+      "sha256": "71a189466b04f5853e98f5ef1e8263edc7ad4218b73369dd4381d12f55e68e25",
+      "bytes": 2985,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258442948800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveJobServiceImpl.java",
+      "sha256": "048977721cda2151d9cf603a6bda413ca9b21b8cb95dd6e280cec55207acf6ae",
+      "bytes": 5391,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258442948800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveJobSummaryServiceImpl.java",
+      "sha256": "a9dddc0baefefa054c4a65a82898774d7c9fb99c6d855c496ec8fe8c39b89ca8",
+      "bytes": 5537,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258444077300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveNodeServiceImpl.java",
+      "sha256": "4150d33785c5d5aa9c774bb0b37f5fe57da3768510971eaddd0ef91be2c9c68d",
+      "bytes": 2388,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258444077300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/StandbyJobLogServiceImpl.java",
+      "sha256": "bdd11a23e583792ef3da3b91cd784fba6b1c0289f7c30d29e55bae985dcb361a",
+      "bytes": 2889,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258445078400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/StandbyJobServiceImpl.java",
+      "sha256": "a715e2eb04a1e0400505580ada5c1d6b44f45ba2693a08fd59b8866230235d16",
+      "bytes": 5207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258446076200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/StandbyJobSummaryServiceImpl.java",
+      "sha256": "a6ea4833fb273d73f5c38fb476e5bedb9a1a368b9fa2fa36d384a633263c4032",
+      "bytes": 5209,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258446076200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/StandbyNodeServiceImpl.java",
+      "sha256": "a620d881ceca5fa8bc6001af38f99473b273b7a87eeb0bee3a92a217ed131068",
+      "bytes": 2247,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258447078200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/impl/UserServiceImpl.java",
+      "sha256": "a4e11a6ddc5d293ce1ed08fc931e3083f14659f935debe2c404578c087b9a1e1",
+      "bytes": 2166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258448078000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/spring/CuratorFrameworkFactoryBean.java",
+      "sha256": "2ad9ea09a64f1c5b5189b2f6d0807db254386c1505ff10e0023bfefa96c1436a",
+      "bytes": 2686,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258449077100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/spring/DatabaseInitListener.java",
+      "sha256": "ad1e5a4c6deabb227791555d70097d8b424715e61aea598a91d4c7612bbbd3cb",
+      "bytes": 1270,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258449077100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/spring/MasterSlaveJobSummaryListener.java",
+      "sha256": "c9eac14b43ad3b29eabbffdb93fca548952001722cf192157f560930c224d9c9",
+      "bytes": 3469,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258449077100
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/spring/StandbyJobSummaryListener.java",
+      "sha256": "3345811fb5db258be340bdc1adb5345315813079ef194ba85433ef6caaa505cc",
+      "bytes": 3363,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258450585800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/view/AbstractNodeView.java",
+      "sha256": "4276dae4741b093975c3f65f337cf2e71ce6d2286242db732160e619fe3aaa47",
+      "bytes": 1620,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258451599600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/view/MasterNodeView.java",
+      "sha256": "9384b426031bd9a7f569bed8f18a1fb8e7179e19ab618bc8d7fbc8eaf4c9396e",
+      "bytes": 1717,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258451599600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/java/com/zuoxiaolong/niubi/job/service/view/StandbyNodeView.java",
+      "sha256": "c4785f1c67dd88bb9cfd4a1da51f5da1f060319f206fad44049f06b87b068de4",
+      "bytes": 1067,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258451599600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/resources/applicationContext-service.xml",
+      "sha256": "e6da7302e63cc6dce33ba2c23d44fe8d725baf233bd66f8ced6af87ad6835912",
+      "bytes": 841,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258453106600
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/main/resources/applicationContext-transaction.xml",
+      "sha256": "6de04e9b67e8e1638c055ad7a4a6dd2dc82fc0a341d3bfa226029c48eb367d76",
+      "bytes": 1701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258454115900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/AbstractSpringContextTest.java",
+      "sha256": "7faafdaa3d261500f96165d0d2325b01b6997892767cf0e4fb27ec83ef22ce8d",
+      "bytes": 1693,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258457115200
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveJobLogServiceImplTest.java",
+      "sha256": "ad0aab7878f7ff9ecf7196eb5845349734ec18f6665ffb6866881acb8d79b316",
+      "bytes": 5424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258458117700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveJobServiceImplTest.java",
+      "sha256": "698d11fe6dccb85d98289434ece43f076cf9d24b710ad5318c9af4ca1168183a",
+      "bytes": 2388,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258458117700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveJobServiceImpl_RBL4_d070942aTest.java",
+      "sha256": "d4d9ea5f3201b5a3914e4b4c6c1aa2161ea623fdd6c49797405bbf9802c251aa",
+      "bytes": 114,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838468676150900
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveJobSummaryServiceImplTest.java",
+      "sha256": "8a1c9eeaeec5925769b80dc5299dd5b451bc660b10c147445a4454782e2a38ef",
+      "bytes": 6792,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258459116000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/MasterSlaveNodeServiceImplTest.java",
+      "sha256": "a2d5aef1026d6bf4a39edd64264b896a19959a165d9462f7a53b8fb3c0af7ea0",
+      "bytes": 1404,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258459116000
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/StandbyJobLogServiceImplTest.java",
+      "sha256": "ff9d4d30cad7dddc3f23a2fd250e931b325b09fbd81c01f6959ea2b3b194d1c5",
+      "bytes": 5288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258460625400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/StandbyJobServiceImplTest.java",
+      "sha256": "3d44c8da04625a329eb3e624d167e52855dd6aabaff8e9e0fcdfd105795d42dc",
+      "bytes": 2332,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258460625400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/StandbyJobSummaryServiceImplTest.java",
+      "sha256": "09b91dfd33041b28c1b4451af43f2de60c46413a22ae5f003270c0a4fb83a1be",
+      "bytes": 6596,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258461638700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/java/com/zuoxiaolong/niubi/job/service/impl/StandbyNodeServiceImplTest.java",
+      "sha256": "e3368c8ced9e8d428f3846f412d96f574004e0edfb8d897587a9d96a67ba2b7a",
+      "bytes": 1386,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258461638700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/resources/applicationContext-persistent-test.xml",
+      "sha256": "0553d89b5996df60448b3a464a13cbe44a64ddd0e64afa0e6ab08eb4e6accf43",
+      "bytes": 2032,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258463149300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/resources/applicationContext-service-test.xml",
+      "sha256": "56be95f5ea44a646cf322a40f1877f4287433045f4d0900fd9e17431dd7178e3",
+      "bytes": 500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258463149300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/resources/config.properties",
+      "sha256": "07f7d775adade3f7d5210529656af983733a5d771dd885735ecb923d6c81e47e",
+      "bytes": 452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258464163800
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-service/src/test/resources/niubi-job-sample-spring.jar",
+      "sha256": "9b2df95b9630a61d6f57a861e820b23f9a0e3fb57e9f2de39fd557d58cadb513",
+      "bytes": 5727074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258516054400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/pom.xml",
+      "sha256": "8db0eaeca725d395cfd38aeb0d5e190cd9a9d874c60fabff821a3404aa600d7a",
+      "bytes": 989,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258517035700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/java/com/zuoxiaolong/niubi/job/spring/bean/SpringJobBeanFactory.java",
+      "sha256": "e7ede26dda0f0dc0fe3a8243886b9677f933670d81ce4ffff425fe8e910a3929",
+      "bytes": 2904,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258520544500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/java/com/zuoxiaolong/niubi/job/spring/config/JobDrivenBeanDefinitionParser.java",
+      "sha256": "275271ebfa6595ea3efee405452c31f967e656fed4c7f16e1f31d34fffbc16b2",
+      "bytes": 2039,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258521553500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/java/com/zuoxiaolong/niubi/job/spring/config/NiubiJobNamespaceHandler.java",
+      "sha256": "2a1b2d4b0d9598a0f762fbf753c0be2d9ddcb6ed2119900af906d979458861f4",
+      "bytes": 1063,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258521553500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/java/com/zuoxiaolong/niubi/job/spring/config/SpringContextJobDriver.java",
+      "sha256": "4a99a6b90fb532732f635b9fadf17f109a37c6bd007595d27457288e2e0c4427",
+      "bytes": 1629,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258521553500
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/java/com/zuoxiaolong/niubi/job/spring/node/SimpleSpringLocalJobNode.java",
+      "sha256": "c750476543e51264b6fa3db80e357d6a3e7345c7340e1573ef99385ec1b51b73",
+      "bytes": 2312,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258524039700
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/resources/com/zuoxiaolong/niubi/job/spring/config/niubi-job-1.0.xsd",
+      "sha256": "666ec93c9d66c4d0baa928f791176a4dde3be0e70f26ad8d596d700f0d583a24",
+      "bytes": 638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258527058400
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/resources/META-INF/spring.handlers",
+      "sha256": "280cf61d818146dd5f088c6ac8ac2d09840df57f357c80d2191d43f41b728733",
+      "bytes": 111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258525047300
+    },
+    {
+      "relative": "niubi-job-framework/niubi-job-spring/src/main/resources/META-INF/spring.schemas",
+      "sha256": "8295b3b35144fa357d4ac4e0fe58378ff30aeb3c5fe947800b2f8cc87ab92df8",
+      "bytes": 122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258525047300
+    },
+    {
+      "relative": "niubi-job-parent/pom.xml",
+      "sha256": "29b28ddf1915cabe253e9e3fd6c9e995a20d796f1bd5bdcdafaf96b648f7f3cc",
+      "bytes": 1998,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258529058000
+    },
+    {
+      "relative": "niubi-job-samples/pom.xml",
+      "sha256": "11ed2d01771b2a653c233bdd0260c90479c3cad208e51056ec2e261d33c57b4d",
+      "bytes": 1074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258541614500
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-common/pom.xml",
+      "sha256": "97f6b407ae385eb62ff15375040f0cb240c9d9ec7f2783288c55a04d27757024",
+      "bytes": 1220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258530566500
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-common/src/main/java/com/zuoxiaolong/niubi/job/sample/common/Test.java",
+      "sha256": "6239231a56afadb599d84a282d5ac95972f185eb1a6a32f6bffdb3875703c261",
+      "bytes": 1164,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258534093900
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-common/src/main/java/com/zuoxiaolong/niubi/job/sample/common/job/Job1.java",
+      "sha256": "e4166ef082bd82d0719d5ddcdac2940f472f6c8878ef0184ae11a70e9ae38d07",
+      "bytes": 1040,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258534093900
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-common/src/main/java/com/zuoxiaolong/niubi/job/sample/common/job/Job2.java",
+      "sha256": "aa69793f19df4cf5489f9098b7cde9f43db3915fdb857d5c14c6720e04ec1108",
+      "bytes": 1040,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258535093800
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-spring/pom.xml",
+      "sha256": "4bfc9fe4f5b880181d13e7d2d6775e9e77ff5488cd070305db74f9e6b4c16e02",
+      "bytes": 1453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258536094700
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-spring/src/main/java/com/zuoxiaolong/niubi/job/sample/spring/Test.java",
+      "sha256": "f7e9c44629c3797d265fb4daf95799dd6f2f6941e1ef8d7a19e2aede3bfe86a1",
+      "bytes": 1010,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258539094000
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-spring/src/main/java/com/zuoxiaolong/niubi/job/sample/spring/bean/OneService.java",
+      "sha256": "9900c1b6eb1ba05ff657119b52813007cc6f06b7df577ef7c57d59a8ebc40a03",
+      "bytes": 1167,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258539094000
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-spring/src/main/java/com/zuoxiaolong/niubi/job/sample/spring/job/Job1.java",
+      "sha256": "d8dedb8ec09236d5267746f03df609effa00426a8ea6ea6dbd8b56e6ac2b4d6c",
+      "bytes": 1207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258540604600
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-spring/src/main/java/com/zuoxiaolong/niubi/job/sample/spring/job/Job2.java",
+      "sha256": "69e132f891bbcf9daaf3e819475710711804c51420f4e020f66c99fb57805e95",
+      "bytes": 1207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258540604600
+    },
+    {
+      "relative": "niubi-job-samples/niubi-job-sample-spring/src/main/resources/applicationContext.xml",
+      "sha256": "c27ea70475ba5a5176e711068f22280933c1cc3994596cd4f6746fa56b3ef349",
+      "bytes": 1113,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258541614500
+    },
+    {
+      "relative": "niubi-job-test/pom.xml",
+      "sha256": "fa799109b035948ff050c3c16163aa4dc1c7306e796ac4cb5694d038c504c797",
+      "bytes": 1733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258541614500
+    },
+    {
+      "relative": "niubi-job-test/src/main/java/com/zuoxiaolong/niubi/job/test/helper/FileHelper.java",
+      "sha256": "24d050b639a719e5c09446a5024b327fd3f2fae723810d72bdeca076f950a4f9",
+      "bytes": 1172,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258545131400
+    },
+    {
+      "relative": "niubi-job-test/src/main/java/com/zuoxiaolong/niubi/job/test/http/DownloadFileController.java",
+      "sha256": "128852c62e08a101d21083cafd5977d9dfa5089d60b638ca36bfde2527503252",
+      "bytes": 2118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258546133300
+    },
+    {
+      "relative": "niubi-job-test/src/main/java/com/zuoxiaolong/niubi/job/test/http/server/HttpServer.java",
+      "sha256": "9c3550098066f631a025f0e45a1614f03eaf0fa9c2ae30d4d9da01fdacfa2e43",
+      "bytes": 1458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258547130600
+    },
+    {
+      "relative": "niubi-job-test/src/main/java/com/zuoxiaolong/niubi/job/test/zookeeper/ZookeeperServerCluster.java",
+      "sha256": "399de024370f39fc37a24a01fc4d803b165480ea674326d005d2562aeb65a194",
+      "bytes": 2592,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784781258548131700
+    }
+  ],
+  "excluded": [
+    "niubi-job-framework/niubi-job-api/target",
+    "niubi-job-framework/niubi-job-core/target",
+    "niubi-job-framework/niubi-job-persistent/target",
+    "niubi-job-framework/niubi-job-scanner/target",
+    "niubi-job-framework/niubi-job-service/target",
+    "niubi-job-test/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\093_49384652_d070942a\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:41:36.368186+00:00"
+}

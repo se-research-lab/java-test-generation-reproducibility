@@ -1,0 +1,75 @@
+{
+  "n": 49,
+  "repositories": 15,
+  "scope": "historical common-build fixed49; all Maven; no replacement/selection on E1 success",
+  "G0_mean": 58.43857142857143,
+  "G0_median": 65.79,
+  "E0_mean": 17.628367346938777,
+  "E0_median": 12.9,
+  "E1_legacy_strict_mean": 50.40816326530612,
+  "E1_legacy_strict_median": 64.29,
+  "G0_minus_E0": {
+    "mean_pp": 40.810204081632655,
+    "median_pp": 40.0,
+    "G_higher": 39,
+    "E_higher": 4,
+    "ties": 6
+  },
+  "G0_minus_E1": {
+    "mean_pp": 8.030408163265307,
+    "median_pp": 0.0,
+    "G_higher": 18,
+    "E_higher": 23,
+    "ties": 8
+  },
+  "E1_minus_E0_mean_pp": 32.77979591836735,
+  "E1_counts": {
+    "legacy_process_build": 49,
+    "suite_pass": 41,
+    "measurement_evidence_complete": 41,
+    "generation_success": 49,
+    "PIT_report_present": 49,
+    "JaCoCo_focal_present": 49,
+    "TestRule_missing": 5
+  },
+  "E1_classes_with_skips": 0,
+  "E1_classes_with_non_skipped_surefire_cases": 47,
+  "GPT_API_calls": 0,
+  "new_NI_test": false,
+  "historical_GPT_remeasured": false,
+  "RQ123_membership_or_scores_updated": false,
+  "repository_cluster_percentile_95CI_G0_minus_E1_mean_pp": [
+    -4.8045868644067795,
+    26.98847833333333
+  ],
+  "bootstrap": {
+    "replicates": 20000,
+    "seed": 20261023,
+    "repo_order": [
+      "3713233",
+      "3847504",
+      "41547678",
+      "45997449",
+      "46396068",
+      "48046454",
+      "558963",
+      "60578004",
+      "6437134",
+      "64487983",
+      "66303306",
+      "78444970",
+      "9619226",
+      "97822421",
+      "98410891"
+    ],
+    "estimand": "class-weighted mean difference; resample whole observed repositories; exploratory sensitivity, not a new NI or repeated-run CI"
+  },
+  "observed_focal_mutants": {
+    "classes_with_nonempty_reports": 49,
+    "missing_or_empty": 0,
+    "min": 1,
+    "median": 17,
+    "max": 47,
+    "mean": 20.20408163265306
+  }
+}

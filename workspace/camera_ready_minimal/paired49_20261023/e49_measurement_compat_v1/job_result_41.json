@@ -1,0 +1,59 @@
+{
+  "job_index": 41,
+  "class_key": "78444970:examples/random/src/main/java/random/reservoirsamplingmultipleitems.java",
+  "repo_id": "78444970",
+  "G0_archived_mutation_percent": "70.0",
+  "E0_archived_mutation_percent": "30.0",
+  "E1_archived_mutation_percent": "60.0",
+  "seed": 20261190,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "random.ReservoirSamplingMultipleItems_ESTest",
+  "surefire_suites": [
+    {
+      "name": "random.ReservoirSamplingMultipleItems_ESTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 79,
+  "focal_mutants": 10,
+  "killed_mutants": 6,
+  "focal_mutant_qualified_classes": [
+    "random.ReservoirSamplingMultipleItems"
+  ],
+  "mutation_score_percent": 60.0,
+  "legacy_strict_mutation_percent": 60.0,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "random",
+      "PACKAGE": "random",
+      "CLASS": "ReservoirSamplingMultipleItems",
+      "INSTRUCTION_MISSED": "27",
+      "INSTRUCTION_COVERED": "30",
+      "BRANCH_MISSED": "3",
+      "BRANCH_COVERED": "5",
+      "LINE_MISSED": "8",
+      "LINE_COVERED": "10",
+      "COMPLEXITY_MISSED": "2",
+      "COMPLEXITY_COVERED": "4",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "2"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

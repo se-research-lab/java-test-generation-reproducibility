@@ -1,0 +1,59 @@
+{
+  "job_index": 1,
+  "class_key": "3713233:core/src/main/java/org/junithelper/core/extractor/constructormetaextractor.java",
+  "repo_id": "3713233",
+  "G0_archived_mutation_percent": "11.54",
+  "E0_archived_mutation_percent": "3.85",
+  "E1_archived_mutation_percent": "38.46",
+  "seed": 20261303,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "org.junithelper.core.extractor.ConstructorMetaExtractor_ESTest",
+  "surefire_suites": [
+    {
+      "name": "org.junithelper.core.extractor.ConstructorMetaExtractor_ESTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 866,
+  "focal_mutants": 26,
+  "killed_mutants": 10,
+  "focal_mutant_qualified_classes": [
+    "org.junithelper.core.extractor.ConstructorMetaExtractor"
+  ],
+  "mutation_score_percent": 38.46,
+  "legacy_strict_mutation_percent": 38.46,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "junithelper-core",
+      "PACKAGE": "org.junithelper.core.extractor",
+      "CLASS": "ConstructorMetaExtractor",
+      "INSTRUCTION_MISSED": "203",
+      "INSTRUCTION_COVERED": "202",
+      "BRANCH_MISSED": "21",
+      "BRANCH_COVERED": "13",
+      "LINE_MISSED": "39",
+      "LINE_COVERED": "45",
+      "COMPLEXITY_MISSED": "13",
+      "COMPLEXITY_COVERED": "10",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "6"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

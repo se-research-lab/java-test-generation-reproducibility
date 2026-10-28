@@ -1,0 +1,12 @@
+{
+  "name": "version",
+  "argv": [
+    "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+    "-version"
+  ],
+  "returncode": 0,
+  "expected": 0,
+  "seconds": 0.0779999999977008,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "3b3b66aa7890fa8df9df898105e87990004cda48593caed6ee2b23cef540d290"
+}

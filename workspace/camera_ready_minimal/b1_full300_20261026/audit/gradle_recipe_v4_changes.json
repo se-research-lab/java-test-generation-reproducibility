@@ -1,0 +1,11 @@
+{
+  "old_source_sha256": "c588c406824128accf2832a2ea8fa8fb460f79672b8c5165c922652dff576301",
+  "new_source_sha256": "edf979fa664fee6e7a7669f92342f5c294079e547f954efa0ed7437cbf87500b",
+  "changes": [
+    "add a separate resolved dependency/tool evidence task for the measurement phase",
+    "preserve main classpath order and compare compile closure before/after test integration",
+    "leave exact focal target, original resources/gate, native provider/selector and task isolation unchanged"
+  ],
+  "new_processes": 0,
+  "runtime_qualified": false
+}

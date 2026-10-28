@@ -1,0 +1,29 @@
+{
+  "name": "generate",
+  "argv": [
+    "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+    "-jar",
+    "D:\\A_ThucNghiem\\scripts_v2\\evosuite-1.2.0.jar",
+    "-class",
+    "fixture.BranchFixture",
+    "-projectCP",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\classes",
+    "-Dtest_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\generated",
+    "-Dreport_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\reports",
+    "-Duse_separate_classloader=false",
+    "-Dtest_archive=false",
+    "-Dcriterion=BRANCH",
+    "-Dassertions=true",
+    "-Dno_runtime_dependency=false",
+    "-Dtest_scaffolding=true",
+    "-Dsearch_budget=60",
+    "-Dassertion_strategy=MUTATION",
+    "-seed",
+    "20261023"
+  ],
+  "returncode": 0,
+  "expected": 0,
+  "seconds": 6.812000000001717,
+  "stdout_sha256": "f6be65a2b2b4c481a69f1ec0c02f4612829cf405776a267de661b3b555eb2ba1",
+  "stderr_sha256": "9a57c79ce1c0c4aed92dceb441c2983d886c9179c998814245544d1e83a47328"
+}

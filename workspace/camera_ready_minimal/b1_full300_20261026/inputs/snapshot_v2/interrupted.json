@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-25T22:31:48.358409+00:00",
+  "completed_roots": 34,
+  "error_type": "IntegrityError",
+  "detail": "Explicit B1 stop request; no automatic resume",
+  "auto_resume": false
+}

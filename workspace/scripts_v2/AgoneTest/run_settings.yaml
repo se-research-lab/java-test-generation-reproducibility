@@ -1,0 +1,24 @@
+agents:
+- model: evosuite
+- model: gpt-4o-mini-2024-07-18
+  temperature: 0
+  top_p: 1
+  max_tokens: 2048
+  frequency_penalty: 0
+  presence_penalty: 0
+prompts:
+- name: rbl4-zero-shot
+  value:
+  - role: system
+    content: You are provided with Java class. Create a test class that fully tests
+      the proposed Java class using the project information for imports. Reply with
+      code only, do not add other text that is not code.
+  - role: user
+    content: 'The project uses {{testing_framework}} and Java {{java_version}} and
+      Java class is:
+
+      <code>
+
+      {{focal_class}}
+
+      </code>'

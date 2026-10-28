@@ -1,0 +1,59 @@
+{
+  "job_index": 46,
+  "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/nodoubleclassdefined.java",
+  "repo_id": "97822421",
+  "G0_archived_mutation_percent": "100.0",
+  "E0_archived_mutation_percent": "0.0",
+  "E1_archived_mutation_percent": "100.0",
+  "seed": 20261066,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_ESTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 292,
+  "focal_mutants": 3,
+  "killed_mutants": 3,
+  "focal_mutant_qualified_classes": [
+    "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined"
+  ],
+  "mutation_score_percent": 100.0,
+  "legacy_strict_mutation_percent": 100.0,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "springmock-infrastructure",
+      "PACKAGE": "com.pchudzik.springmock.infrastructure.annotation",
+      "CLASS": "NoDoubleClassDefined",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "13",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "4",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "2",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "4",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "2"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

@@ -1,0 +1,2085 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\005_3713233_87a370f3\\compiledrepos\\3713233",
+  "class_indices": [
+    249
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "069a77690edc19edd47ec29b3dfdcdcdecc6397f440f13afe33057a490ec3b7f",
+      "bytes": 158,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668558795200
+    },
+    {
+      "relative": "LICENSE.txt",
+      "sha256": "c5a68277fb9365d2c6122f4b0fba99b4f412620993ed350db16cb5cfbab4caa3",
+      "bytes": 579,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668558795200
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "c445f569e14b6f2a61c48c7fb020137b98fb6cc3131a224be13d7f22d63f52a3",
+      "bytes": 1361,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784834665253106900
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "9e42410f57537aa9f5ec11206941a2ab53f36e38423de29be138ee2de2917698",
+      "bytes": 10036,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784834665248104000
+    },
+    {
+      "relative": "readme.md",
+      "sha256": "ef988e52d68a70daea7dd2b330e86c4a0621225882fdbf145305a6d3d7cea9af",
+      "bytes": 28812,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668682723500
+    },
+    {
+      "relative": "core/assembly.bat",
+      "sha256": "d0044dd0f7c361ec54d19bad29b7c4fc58870ed55249bf495b1e1aeb2deac9cc",
+      "bytes": 29,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784766668559794700
+    },
+    {
+      "relative": "core/assembly.sh",
+      "sha256": "1e10a699027e79ecc4ef26e57446bf7325f2ab03642bab30236368b84c2e09ee",
+      "bytes": 38,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668559794700
+    },
+    {
+      "relative": "core/eclipse-formatter.xml",
+      "sha256": "bd714c50983c66b0d89e8e8fafd7d420d0a80872449c366af0534416fd5cdbe3",
+      "bytes": 33939,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668559794700
+    },
+    {
+      "relative": "core/junithelper-extension.xml",
+      "sha256": "073ea21de27172b6358a045d50e6d7aea317fea0073f7c97442f89a01400521f",
+      "bytes": 9804,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668560794600
+    },
+    {
+      "relative": "core/pom.xml",
+      "sha256": "23ff601931d64efe563180001575d5babf4de1f31c969547f74574b80e1376e1",
+      "bytes": 8727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784834815330719200
+    },
+    {
+      "relative": "core/evosuite-report/statistics.csv",
+      "sha256": "15eb9a93417115b1051515c6672f76b569e274d4dd85be1aae8f1e77b80a2167",
+      "bytes": 128,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784834750997523900
+    },
+    {
+      "relative": "core/release/junithelper",
+      "sha256": "73de8fe4dbe9dbb8aae23513dea27122abaf48f3312e60791d39891e3ea63c45",
+      "bytes": 265,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668560794600
+    },
+    {
+      "relative": "core/release/junithelper-config.properties",
+      "sha256": "9d536d478ba763b33304d59403fbc55cfae9aa1228f9ec6d85bf18410568e98d",
+      "bytes": 1366,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668561794500
+    },
+    {
+      "relative": "core/release/junithelper-extension.xml",
+      "sha256": "30ca51755d18ee679ad6a9f4fc44d089fde890682ba0bd919fd3328d82a99f35",
+      "bytes": 9823,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668561794500
+    },
+    {
+      "relative": "core/release/junithelper.bat",
+      "sha256": "51391c4945c710763085e314f3d24c67575bc915ef12c2f63003e4a8fb462593",
+      "bytes": 206,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784766668561794500
+    },
+    {
+      "relative": "core/release/release_notes.txt",
+      "sha256": "116aaca52388584f2180b535632134668d3ebf566dbeaa580b82001284eceac7",
+      "bytes": 3067,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668564794300
+    },
+    {
+      "relative": "core/release/lib/commons-io-2.0.jar",
+      "sha256": "af8bc41fa57a98659c046f92b2e6753cc21461914f2ff337fcac29c9be676bbd",
+      "bytes": 159235,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668563794600
+    },
+    {
+      "relative": "core/release/lib/juniversalchardet-1.0.3.jar",
+      "sha256": "0dcf1e17511b31eb1036fd0df9eb9b5ef936a0be36d68f4a6473afafb72ea665",
+      "bytes": 206373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668564794300
+    },
+    {
+      "relative": "core/src/main/assembly/executable.xml",
+      "sha256": "350a351ff838d5284afca43893597281d8de78a4002b3f5f0aa15a27499b4c91",
+      "bytes": 955,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668565794200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/command/AbstractCommand.java",
+      "sha256": "47b5ca63a43bde83e5676dea727b8ac6909ce4620f8d7fccaf99da9c59ca6c01",
+      "bytes": 5724,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668566794400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/command/CommandLine.java",
+      "sha256": "38eed8c83458d25714cd84b26b1ac5ab5c21301cec5f0c54faea8122da89cb23",
+      "bytes": 2954,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668567795500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/command/ForceJUnitVersion3Command.java",
+      "sha256": "64a8e996d97feb9be8dca566e894cbe5751a7c8fbb50b96765f80dafc79f9bfd",
+      "bytes": 4010,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668567795500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/command/ForceJUnitVersion4Command.java",
+      "sha256": "581daaf32adfcf3066542a945d61b0a9dc20d3115f9af780f962e3fae35b45e8",
+      "bytes": 4012,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668567795500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/command/MakeTestCommand.java",
+      "sha256": "d042c62b15ad3b6127c4f7e3aa8b8edf7a70af12e2d759814d1851b1a0a2ef5b",
+      "bytes": 4902,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668567795500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/Version.java",
+      "sha256": "72fe3d3c56ad2f6796a7bf92bbb5fb382515d10aef9c4605acc56ede84833187",
+      "bytes": 1403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668568883700
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/Configuration.java",
+      "sha256": "7a089b741207598d046a36a14720b13cc5844789780df50073c3c509fd87610d",
+      "bytes": 1871,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668568883700
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/ConfigurationLoader.java",
+      "sha256": "a536fa850c0cac81fb66dcc91fcbd02a9eb2a5e288140f9203fcbe379e99a994",
+      "bytes": 3139,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668569883600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/JUnitVersion.java",
+      "sha256": "f73faf6a43b95ef160cfbf8ba07d84ad2cfae0034e3de4e9ef6776f85197ae4b",
+      "bytes": 946,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668569883600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/LineBreakPolicy.java",
+      "sha256": "6c355fa0b284cda7685058235552b2565b3a569aca7f83d311e9036a399edb94",
+      "bytes": 1024,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668570881600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/MessageKey.java",
+      "sha256": "dc0d58dbf08bc592882044129bbcbd79bfc3e3216331ceeb56a97900568bd742",
+      "bytes": 993,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668570881600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/MessageValue.java",
+      "sha256": "f5856ffc16fc74c524690810b8d286e6c355651497d3865dcc1d586449c7352d",
+      "bytes": 2026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668570881600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/MockObjectFramework.java",
+      "sha256": "dfd2fbb9865c562f6c2a65f2b00a5361ca752d04ae2d11b8293ffff26aa4c16b",
+      "bytes": 996,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668570881600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/TestingPatternExplicitComment.java",
+      "sha256": "2ac1084d5acae478e1133bd85c050fd7b1087269884c4fa6a374db572db6902a",
+      "bytes": 1020,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668572317400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/TestingTarget.java",
+      "sha256": "11347d01ee72dfc38a74670d58075aff17a0d6e31baf0b8b8f32376447e1d507",
+      "bytes": 1193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668572317400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/TestMethodName.java",
+      "sha256": "5dfa476a260b4aca1eba062b9a3b1d231a57e8671ed3c2a8d489c740ddedcdba",
+      "bytes": 1127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668570881600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/extension/ExtArg.java",
+      "sha256": "f150811a6c373e9c73a8e6b05ffb2d56bbd8259f47392e6c74328eaa726fa30d",
+      "bytes": 1731,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668573316800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/extension/ExtArgPattern.java",
+      "sha256": "089f89db8943710d5864dcd33ade2f2467f30de19b9c6c44da9f91e0a52a8ab9",
+      "bytes": 1353,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668573316800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/extension/ExtConfiguration.java",
+      "sha256": "a035419d151dbeb16cb6bca6481fcf41c4a4f816c0512b1ee2018b26295b72ab",
+      "bytes": 1326,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668573316800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/extension/ExtConfigurationLoader.java",
+      "sha256": "c13efa31524afc72931d8d14268254c36c9246135f4684b78ec48d2b3bf70254",
+      "bytes": 1530,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668573316800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/extension/ExtConfigurationParserHandler.java",
+      "sha256": "8c53cefdb218f0012949c9538ca6d35dd9ae5a58aa0158d3f27cf1d06eed0c7a",
+      "bytes": 5640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668574432800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/extension/ExtInstantiation.java",
+      "sha256": "a25537b1b5d7be7f270af8c1bbee1c8d63b2ef91e5de103f997d0418b4c70a46",
+      "bytes": 1780,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668574432800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/config/extension/ExtReturn.java",
+      "sha256": "747d4944c156461338879864b2b62a70ce370e5d719439e2b7a03da3a82021c8",
+      "bytes": 1179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668574432800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/constant/RegExp.java",
+      "sha256": "7c06c4dc2855caca944b2f3dc2eb6e2ef7ae86ddfa4f50d8c93226834441dd24",
+      "bytes": 4842,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668575432800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/constant/StringValue.java",
+      "sha256": "681b8f1fcbd251be8aa5693a369a7c6c4824a90c0ea20b2185fdef012d063dd1",
+      "bytes": 1718,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668575432800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/exception/JUnitHelperCoreException.java",
+      "sha256": "8015613c6fc6a8bf44c4c67ea22889b0961df415c2ecf4878bb04a72f52c2d67",
+      "bytes": 1066,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668576432700
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/ArgExtractorHelper.java",
+      "sha256": "af7055696659c9866d1a2c2105566a7be9d94933cbc0e4b2059076455659f89f",
+      "bytes": 4085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668576432700
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/ArgTypeMetaExtractor.java",
+      "sha256": "6cb0057d2ecec7fbc3155d389305bd4bf800d832a2787c9ab9f7357ad10bea87",
+      "bytes": 5304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668577432900
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/AvailableTypeDetector.java",
+      "sha256": "946c23c81d5988cf2a3968acd7f2b9bf45534cecfe1516bf6396976d0fc3b3e4",
+      "bytes": 4786,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668577432900
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/ClassMetaExtractor.java",
+      "sha256": "8526413785892f46e1374badfa1b3f72e0ceaff0045fbbbbd2756c527f652fcc",
+      "bytes": 7401,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668577432900
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/ConstructorMetaExtractor.java",
+      "sha256": "7941cbaf4a1ef23109bec1cae6b00f2e44f5c247db0f2bfcdff8ec96cb3398f0",
+      "bytes": 8784,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668578432000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/CurrentLineBreakDetector.java",
+      "sha256": "4fcb1646fb1d76228ea74efe0c3f526a5c44e4ff4b212cdbf47cb3cc695fcd00",
+      "bytes": 569,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668578432000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/ImportedListExtractor.java",
+      "sha256": "ce238f0f2982c9c50f4f0a62122a2f39972c105a4fd77a464c8db15e554a7462",
+      "bytes": 1980,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668578432000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/MethodMetaExtractor.java",
+      "sha256": "4e5153935113b12f40dfbeec0d55785f7601dfef4d215bd83d5a7cd5de96060c",
+      "bytes": 12001,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668579432500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/extractor/TypeNameConverter.java",
+      "sha256": "c66c47e3d18302ec37255f972ff983dd71a7a158212936b7e8c9015fe51190c9",
+      "bytes": 6566,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668579432500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileReader.java",
+      "sha256": "4db6a5afbd9730f64be714ce1849fd40b7dea81f360351e9c06e4557ebbeab4b",
+      "bytes": 966,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668579432500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileReaderCommonsIOImpl.java",
+      "sha256": "b766ae50facac9b3c18d1877c07f06e7edc68451f55b16e1dbd4f5ea6f5287db",
+      "bytes": 2331,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668580431200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileReaderFactory.java",
+      "sha256": "d4199bb58d6c22c46a9961c272a48c573ee17353a3ef9daf85d8c4d38ca07778",
+      "bytes": 852,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668580431200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileSearcher.java",
+      "sha256": "a18a58c8be4afcb1e7ebf00d3941b29afb1aed7bcde0319cf4ab31859e15f7d5",
+      "bytes": 837,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668580431200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileSearcherCommonsIOImpl.java",
+      "sha256": "12b57383c6ba9a90cd6ca5715cda7b22e1cf39e09adb9969284895bc7ba29ba1",
+      "bytes": 1774,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668580431200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileSearcherFactory.java",
+      "sha256": "38a072cd521a2399050cfae0804c8647cd25ae8e6247e95145b4e57fc32d98da",
+      "bytes": 860,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668581431200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileWriter.java",
+      "sha256": "f99791315d0f6aa3b42bf4369fae351bf24bfdb7fa0e889f178392dbf698f864",
+      "bytes": 981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668581431200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileWriterCommonsIOImpl.java",
+      "sha256": "710d5d59d33a32a6b6ada8221e434f4d7720605e89599c97b451ee0db0cafc39",
+      "bytes": 1860,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668581431200
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/file/FileWriterFactory.java",
+      "sha256": "a3d2120c9d1d21d86d3c7c6ab33c602b03e5190508ad3776f4737eb62fdbf625",
+      "bytes": 889,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668582431300
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/TrimFilter.java",
+      "sha256": "f5fa01b4acd1a0602291cb21683b40cc1384a0386d6a596cd22722d18c56bbbf",
+      "bytes": 745,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668582431300
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/TrimFilterManager.java",
+      "sha256": "03e1530a5b2d585546d43eec30210b91844a839a163ba704e6e4fe7422008f58",
+      "bytes": 1535,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668582431300
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/TrimFilterUtil.java",
+      "sha256": "b4c974161add861f253b9ed437e44968693aea3fd9068597def93289e22c19bf",
+      "bytes": 691,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668582431300
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/impl/TrimAnnotationFilter.java",
+      "sha256": "98e79777601ab8c719416b884fb715a171072d338c178b38fad59f2f5c060b26",
+      "bytes": 1084,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668583898500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/impl/TrimCommentFilter.java",
+      "sha256": "44609b0d72bafad3f24f1b9c8defb6132b2a13b1029dc7f6239c5b96f07d6746",
+      "bytes": 1548,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668583898500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/impl/TrimInsideOfBraceFilter.java",
+      "sha256": "b47ff2b074b64f96c19c1362977397e3d55fca9b5e5840bd43adb2151fff43ac",
+      "bytes": 5308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668583898500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/impl/TrimInsideOfStringFilter.java",
+      "sha256": "922034c71d6e1620e4d21c388fa00f5934a5269f9aa610ff65cec50bf933b349",
+      "bytes": 2299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668583898500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/filter/impl/TrimQuotationFilter.java",
+      "sha256": "388bfba4d8806448c1a065bf8c7a6cc6655c3ada0e033daa2bf029d71fea6305",
+      "bytes": 1065,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668584955000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/ConstructorGenerator.java",
+      "sha256": "e3b57b4eb216e2009ef21ee98c94a219b8a362c6cd9833615e018c87e734ed2b",
+      "bytes": 1204,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668584955000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/ConstructorGeneratorFactory.java",
+      "sha256": "002c4b5569552937e783298f53ad5b4d9be37853c96a48a292279bd0f03871d4",
+      "bytes": 1023,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668585957000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/ConstructorGeneratorImpl.java",
+      "sha256": "3e95a1b9a8cf38291e0c1c29c55988fc009f125cb8e7afc13274fe9cf97194b5",
+      "bytes": 6699,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668585957000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/GeneratorImplFunction.java",
+      "sha256": "b13924b3a86cbf2521739f238b191d555e1f91fbc6cdc36c85f8ebe5f0a8083b",
+      "bytes": 5987,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668585957000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/IndentationProvider.java",
+      "sha256": "7e15118505f32c91ddc1ef2f86ae2e0e538e52f0065b85e2ee0e7dc226bdfc53",
+      "bytes": 1283,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668586956300
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/LineBreakProvider.java",
+      "sha256": "0108926d43deafda63564177c81b75c580fb791e26c96b03a957d372e1e87fd0",
+      "bytes": 2471,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668586956300
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/SourceCodeAppender.java",
+      "sha256": "6a33f552007b58a5b29d21a7137680eec42d4153ff8cce466208209adf32a252",
+      "bytes": 5709,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668586956300
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/TestCaseGenerator.java",
+      "sha256": "8f764f362a5403e4b6c156b44f5da4233cfd2cecc13ca5cde057f15d4400b920",
+      "bytes": 1448,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668587958000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/TestCaseGeneratorFactory.java",
+      "sha256": "b65495c053c1a1a1496452b677d42cd15507d264c0330870fd530fabb2e80cd1",
+      "bytes": 1011,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668587958000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/TestCaseGeneratorImpl.java",
+      "sha256": "80950bdd0b3df191e6ea50ae7402df316f0c5747b53e1b613a22e4f224322ab6",
+      "bytes": 24117,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668587958000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/TestMethodGenerator.java",
+      "sha256": "8aa7dcb16aa9d7ea76857981ba15cdcd1cd554421f0c22e4cfd7c1d9652a43f4",
+      "bytes": 1365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668588960600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/TestMethodGeneratorFactory.java",
+      "sha256": "21f6aa13eda6753e1b4e3f3c8c0e5782915bc0e222065d6c590658b369633be2",
+      "bytes": 1019,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668588960600
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/generator/TestMethodGeneratorImpl.java",
+      "sha256": "c62b05ef9d5242697e9ccfebe27b9d722b3482ff83c7e5e5c93df4ed28fbdd47",
+      "bytes": 29606,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668589957500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/AccessModifier.java",
+      "sha256": "c3fa05102dbf0f7932de80533765283ec4670a4db28fff73a6a560f76ad7dc1a",
+      "bytes": 984,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668589957500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/ArgTypeMeta.java",
+      "sha256": "15b2ffa3cdff53390fbea7fb44720ba244a20f0410e52a8b895d4bee3a320678",
+      "bytes": 1506,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668589957500
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/ClassMeta.java",
+      "sha256": "d6074461c55b9508e88a99b20228570828caaa7fd0fffabcc125707ffeac7c7d",
+      "bytes": 1105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668590957400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/ConstructorMeta.java",
+      "sha256": "be9b1fcec2375f990273f74c57856fa1c66364cdd7f867201d9138b41c6dc8ee",
+      "bytes": 1104,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668590957400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/CurrentLineBreak.java",
+      "sha256": "58b2eeb254d63f865cfbe9d906d18e36d2091c10cd125a7970d1bfdaf03d1b4f",
+      "bytes": 298,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668590957400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/ExceptionMeta.java",
+      "sha256": "ea9e6aea6a47ec32db68774e2c7bfd22217a40249f70f3e82cbc8d494c68c490",
+      "bytes": 773,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668591957000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/MethodMeta.java",
+      "sha256": "5c9304a4faffe4737e25816bd67e813783de690fc9c33a810086a09bbe7a1bab",
+      "bytes": 1509,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668591957000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/ReturnTypeMeta.java",
+      "sha256": "6ac66f1691206089d46fd7d45afb608018fbf2eadd4a15c1b3b62e3a7e836e95",
+      "bytes": 1399,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668591957000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/TestCaseMeta.java",
+      "sha256": "19eb8a35e22469c19264a6eb96092648bf7cf3aacf05aa87bcae5800cbd54810",
+      "bytes": 918,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668592956000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/meta/TestMethodMeta.java",
+      "sha256": "561d100fd55b81967f6e574e5814219ae873e178bb480eb262000c400993139a",
+      "bytes": 1107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668592956000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/AccessModifierDetector.java",
+      "sha256": "10729d470b8b075a2ea067198c9759adc7892f67bec15bfd8aedd9547a491ad4",
+      "bytes": 1874,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668592956000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/Assertion.java",
+      "sha256": "61f64edaf004b4396381512735583e256780a2860d45a6908df605e2c38b650c",
+      "bytes": 3594,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668593956000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/IOUtil.java",
+      "sha256": "ec4a0b82f8a6e16c21b25f7ef777dae5de12c0094bf9cef159234058d7e3e34b",
+      "bytes": 2130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668593956000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/ObjectUtil.java",
+      "sha256": "49b580424f858559456b5aef52a9b7dd37e77c275569885154c0528603742251",
+      "bytes": 3081,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668593956000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/PrimitiveTypeUtil.java",
+      "sha256": "dfa1d65c5d50021cbdd13b136aa83412c601b619feabfaa0fc405d500608a034",
+      "bytes": 3228,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668593956000
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/Stderr.java",
+      "sha256": "d92d64c512a77eff83908249bedc974527c774bf06f01563c8663c06ede8359d",
+      "bytes": 1003,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668594956400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/Stdout.java",
+      "sha256": "b9e5fe8f566715028ffc8203062a9bb68a5c63a4bd4ea2a1e64054f9bb3f7af8",
+      "bytes": 1003,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668594956400
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/ThreadUtil.java",
+      "sha256": "3019dbfa63051e44355ed2f8aad6b5d75b395505bafaf971f341954c095f3ebc",
+      "bytes": 964,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668595956800
+    },
+    {
+      "relative": "core/src/main/java/org/junithelper/core/util/UniversalDetectorUtil.java",
+      "sha256": "cbc22c123e889e831e15176fa071e1e726838644848138a1c2f7370da4275496",
+      "bytes": 1033,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668595956800
+    },
+    {
+      "relative": "core/src/main/resources/junithelper-core_en.properties",
+      "sha256": "195f3fdcbc08f1c7cdcf742d245e459506f0887192acd66ac19242514ae2d191",
+      "bytes": 181,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668596957400
+    },
+    {
+      "relative": "core/src/main/resources/junithelper-core_ja.properties",
+      "sha256": "de505f498da425ab748e051feebaa14706bc53e495c89944a2c28d8fe6ea86f3",
+      "bytes": 286,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668597954800
+    },
+    {
+      "relative": "core/src/main/resources/version.txt",
+      "sha256": "dc2484c29c8c4ba97fd9bbb0c9b86b0386775783ed99fcbd6efec230d9bcf063",
+      "bytes": 18,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668597954800
+    },
+    {
+      "relative": "core/src/main/resources/META-INF/MANIFEST.MF",
+      "sha256": "f7a3e7a56ba78795a1c5dd8bf3a021ddb3a469f3f9290c958ecf15b21e458578",
+      "bytes": 193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668596957400
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/command/CommandLineTest.java",
+      "sha256": "ea99258ecc7c5caa0af7b749add7a793db8fa57125a703e7f16e6df528227fb9",
+      "bytes": 842,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668598957500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/command/ForceJUnitVersion3CommandTest.java",
+      "sha256": "166743c38c0e156794d1b233b99831d941da6f63ac7e01cffdbddd07a494ae9c",
+      "bytes": 898,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668599954800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/command/ForceJUnitVersion3Command_RBL4_87a370f3Test.java",
+      "sha256": "603c4475f958c0babe2704276f9f41faad51ac8c0ff3f60aad5ff9df7bd70461",
+      "bytes": 99,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784834815308007500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/command/ForceJUnitVersion4CommandTest.java",
+      "sha256": "a81cfb7e77e93841e75961467cacc6c6ff95b7615bbc72c49c3089d5f4151cf5",
+      "bytes": 898,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668599954800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/command/MakeTestCommandTest.java",
+      "sha256": "f5a8fe73e0ba73adc0e8f3fba01c87784436c6ce60b9750e6ac77ab7b147ffe3",
+      "bytes": 10727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668600956000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/VersionTest.java",
+      "sha256": "92131cc6a0987b2745e624e26d5edfb8098cb63f52498043c07d911aadc3419b",
+      "bytes": 368,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668600956000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/ConfigurationLoaderTest.java",
+      "sha256": "998413c68a403a96cceb135ac4477a2432f1f56217f29e9abb0cd37b41fa4764",
+      "bytes": 2893,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668601955200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/ConfigurationTest.java",
+      "sha256": "10287884539e7663b75f1a84c0beb4deeb3d47a1e172653017b6f2aae2d0fdf0",
+      "bytes": 407,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668601955200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/JUnitVersionTest.java",
+      "sha256": "363eebf4e2211e8a2e680a3a33bc0c72f09812ea5853ada654709567fa3e1b8b",
+      "bytes": 457,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668601955200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/LineBreakPolicyTest.java",
+      "sha256": "f1d4a8dd34681e8d29465c3f5b04d24a6dc744afc90d116e7fffb671c1c266ce",
+      "bytes": 536,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668601955200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/MessageKeyTest.java",
+      "sha256": "6ff77a406695778e4ceb0906cec30edbaea34f9e521162eb13aef4fe8765876f",
+      "bytes": 395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668601955200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/MessageValueTest.java",
+      "sha256": "b9584b6ff803ae028480d691d4fe5ed21bdea78520e038b8d7dfd815638b1788",
+      "bytes": 3416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668603458400
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/MockObjectFrameworkTest.java",
+      "sha256": "7fec1fb7a98ef9f8b5c9db8c72308359ef297cf498a5c63592fc97134bfa0bdb",
+      "bytes": 478,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668603458400
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/TestingPatternExplicitCommentTest.java",
+      "sha256": "582a01a37d12d370f303c444530e2857643efbe63026e67625558fc4f6cdc2fb",
+      "bytes": 648,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668604470000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/TestingTargetTest.java",
+      "sha256": "481d9105d786af188d61617bdf0d7fbfb80ddd0acc39c1bf720a9174e700d7c2",
+      "bytes": 772,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668604470000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/TestMethodNameTest.java",
+      "sha256": "60d9ec872fb818585a66f744c05f3cdc90b5e84ae9e0faa8d6b62fef38303e73",
+      "bytes": 411,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668603458400
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/extension/ExtArgPatternTest.java",
+      "sha256": "c59d315c8127db6f785cc711acd57fefe3c14dac62f63805b82e2120a315faff",
+      "bytes": 981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668604470000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/extension/ExtArgTest.java",
+      "sha256": "ece4e269dffd00bc97d66bdbd10ecb905623651263ad2cd9f6ab3eb644aca1bb",
+      "bytes": 901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668605929100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/extension/ExtConfigurationLoaderTest.java",
+      "sha256": "ba8473059c46aad6b6a57cdfc589cf7d1428db14c9a4a180417861c7ed3fdc1c",
+      "bytes": 2682,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668605929100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/extension/ExtConfigurationParserHandlerTest.java",
+      "sha256": "a6823c86f623c5d72f9d0af3c3eed5be093613b9618b3c5c4e7961cd3a2c7c47",
+      "bytes": 6819,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668605929100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/extension/ExtConfigurationTest.java",
+      "sha256": "a40e04d274f75ffe30da0778eca92e7c42378688887de5378dcfe100103e6eec",
+      "bytes": 499,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668605929100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/extension/ExtInstantiationTest.java",
+      "sha256": "401024ce88c4bb7600a84cb9401a0c41b615980eeafc80f0ff62565daf8e8a92",
+      "bytes": 961,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668607334100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/config/extension/ExtReturnTest.java",
+      "sha256": "c71e9687b74788030e219b6199c4a462ad7812ffc1cb65d5dec351b59fb6aec1",
+      "bytes": 546,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668607334100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/constant/RegExpTest.java",
+      "sha256": "5e418712107d9e906e26a955ec0a84f06408b3fd18120f6b795251902366c38c",
+      "bytes": 5636,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668607334100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/constant/StringValueTest.java",
+      "sha256": "f66b1a9c5387d620a0e4f97385ce88f3fcb7912cce45bde1cbfc8ae7961a6b38",
+      "bytes": 401,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668607334100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/exception/JUnitHelperCoreExceptionTest.java",
+      "sha256": "64a1df93da46a33996b85c0946e1a37ee7116828ae8c8f16a5c75210f403db15",
+      "bytes": 524,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668608662600
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/ArgExtractorHelperTest.java",
+      "sha256": "3e3cd660ab368f1d21a7586b1ff38a1ebcda73ea9aa295be01cdbcc1a1f3c700",
+      "bytes": 3099,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668608662600
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/ArgTypeMetaExtractorTest.java",
+      "sha256": "5ba3ba3955f5d2bad88dac49100f03a1a0d69845c8ed1b05fe7816590aa44ae1",
+      "bytes": 5628,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668608662600
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/AvailableTypeDetectorTest.java",
+      "sha256": "9cd32ea28f5e96d65d31ae91761a711ad3008a02e11e7fc7352c15971e031c6c",
+      "bytes": 10614,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668608662600
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/ClassMetaExtractorTest.java",
+      "sha256": "1cd75b1e57b7a56ddda58d44658d1e1ee141042469fe538169856bd403c02a6e",
+      "bytes": 11830,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668609854200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/ConstructorMetaExtractorTest.java",
+      "sha256": "974a395be041b26388eb8e1498897ea69adeb34575782b2c6032769e7ebd4a9f",
+      "bytes": 10153,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668609854200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/CurrentLineBreakDetectorTest.java",
+      "sha256": "9f6dc527fd938f635babb01e560e284cade92731a497d554d148a527c52cdfa3",
+      "bytes": 1958,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668610946200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/ImportedListExtractorTest.java",
+      "sha256": "d0b0559a4c50fa7d45b8f6f1ad484b6ea8446057f526785e8d758d0b698e5de2",
+      "bytes": 1990,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668610946200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/MethodMetaExtractorTest.java",
+      "sha256": "a7f7ff78a7d46b36e75b2cbf0ea92816b362b4c20551d62e9c46a58e3c8fdd8a",
+      "bytes": 12366,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668610946200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/Sample.java",
+      "sha256": "b636b87f0ec7bd30932a8285629286ddb84822c7c17f70a9ebe528bed9ec69a7",
+      "bytes": 148,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668610946200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/extractor/TypeNameConverterTest.java",
+      "sha256": "997a7c6a9e169166b88ff179b933fb32d8ff1c7568b27ccf01f9ec8356c7c121",
+      "bytes": 7140,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668612207200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/file/FileReaderCommonsIOImplTest.java",
+      "sha256": "96d75152b7affc6e6208d778cf6656092fa9d4dfca905162c0574c556b63af2e",
+      "bytes": 3185,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668612207200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/file/FileReaderFactoryTest.java",
+      "sha256": "399e5a767d8d4fa36d260a6e392cd28129ec6c9cd27c1e28e00901459e757a1d",
+      "bytes": 487,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668613207800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/file/FileSearcherCommonsIOImplTest.java",
+      "sha256": "dc2a5e29ec9e8adae9b90e427ab32e23a45b1cd24a675c858373265a7c4bd878",
+      "bytes": 1778,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668613207800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/file/FileSearcherFactoryTest.java",
+      "sha256": "d9acf71043d75ed7208c0f9f8ea0319a982ce69c879da772de4f63704100c830",
+      "bytes": 495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668613207800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/file/FileWriterCommonsIOImplTest.java",
+      "sha256": "fa52b43d079461de11ada802298784389cdbc439e2ab8fce887507c0bba16705",
+      "bytes": 4752,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668614207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/file/FileWriterFactoryTest.java",
+      "sha256": "d82a352c36170a16bb1e20cdf53074bb87dc95ce9895e1d4a1670f0b4b31388a",
+      "bytes": 546,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668614207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/filter/TrimFilterManagerTest.java",
+      "sha256": "717cdeb3400bcdfd94227bcd9c024f561a15ecfdf77a9007f1f6f51a90b3f99f",
+      "bytes": 3937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668615207700
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/filter/TrimFilterUtilTest.java",
+      "sha256": "ee6a3eb34e5f8aaebe2849865941f7ce61d3a397e4e133c4992de7f44ab5b538",
+      "bytes": 2101,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668615207700
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/filter/impl/TrimAnnotationFilterTest.java",
+      "sha256": "75311bb54cef560111cbd3e7577313db6b4fa8fac7b5063c374563daf8911a77",
+      "bytes": 3535,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668615207700
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/filter/impl/TrimCommentFilterTest.java",
+      "sha256": "a62925305fc9189104dc46cfe057c41f44632220492aafee83ab2a624f4b22a4",
+      "bytes": 6528,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668616207000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/filter/impl/TrimInsideOfBraceFilterTest.java",
+      "sha256": "5f8a6bbc0b0e7141d94fc29b7feb44b159bcad4449bcd5d1349fa4e378b8730f",
+      "bytes": 6713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668616207000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/filter/impl/TrimInsideOfStringFilterTest.java",
+      "sha256": "f3a705ad0ee5cb16cb8eeb9e261e487f43990d75eae141d6649cb01c938ad48d",
+      "bytes": 6916,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668616207000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/filter/impl/TrimQuotationFilterTest.java",
+      "sha256": "7162181a70816fba6790d5fd981702506784323ad9830f20a2413054163efd86",
+      "bytes": 1852,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668617207300
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/ConstructorGeneratorFactoryTest.java",
+      "sha256": "e97094ac93694c698c53111f944be27ff77effa00a8243f0cc91d4bb9ad07cbe",
+      "bytes": 845,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668617207300
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/ConstructorGeneratorImplTest.java",
+      "sha256": "5ddc6cc2b1041dba8c1acc049034ccd22922d07b54ae6487195b559de21413f6",
+      "bytes": 6046,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668617207300
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/GeneratorImplFunctionTest.java",
+      "sha256": "7407544edeb29cd52967515906d6fee33f17644b72d0d7a7e18ba900967eb009",
+      "bytes": 11659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668618207200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/IndentationProviderTest.java",
+      "sha256": "8a616abf366d46deb038b28647047821d13617212d7d36ac7ffcaaf1fb1f6129",
+      "bytes": 1739,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668618207200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/LineBreakProviderTest.java",
+      "sha256": "9282157ee437d6732ec915c31aea0a88ac596543ab00da24d7ad296cf5438738",
+      "bytes": 3731,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668618207200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/SourceCodeAppenderTest.java",
+      "sha256": "d52f66edf677b2ab5bb267b13648e9314f3321600d35b872754c90f1e15f4f20",
+      "bytes": 17123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668618207200
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/TestCaseGeneratorFactoryTest.java",
+      "sha256": "7947f32335e06ede3ed3516b5606b246ad00b7e6f043d00436ed9f09d3688f74",
+      "bytes": 833,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668619207100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/TestCaseGeneratorImplTest.java",
+      "sha256": "fe78b327d43df2ffcdb463874050552d69d862247ed9afbd0fa944262c6c48b5",
+      "bytes": 37244,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668619207100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/TestMethodGeneratorFactoryTest.java",
+      "sha256": "bd988b34d6f4fabd08e718e474dc208b12e88415f884fec6ed8bd02fb11ae249",
+      "bytes": 841,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668619207100
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/generator/TestMethodGeneratorImplTest.java",
+      "sha256": "8748bc006c1e6af2ffcea6ef42dde0cffb35633428a589550cd685a4a6b03335",
+      "bytes": 47855,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668620207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/AccessModifierTest.java",
+      "sha256": "72164d9001b304c279fc97b234eae4c092f01792244d3263a045172cd6002de5",
+      "bytes": 610,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668620207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/ArgTypeMetaTest.java",
+      "sha256": "f97c512c986bf456e19d81c3741bdd22617565f786fc2d3dc9bd8b4ff436c337",
+      "bytes": 1045,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668620207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/ClassMetaTest.java",
+      "sha256": "6461624fd100ae69f742664482a31148adfc2dc7b55d2ca3b20dbc25d61140a4",
+      "bytes": 389,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668621207700
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/ConstructorMetaTest.java",
+      "sha256": "a5b7d3e058427bd75abde651dfb86e212c32d0732f33bb47762f43559c0abb36",
+      "bytes": 413,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668621207700
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/CurrentLineBreakTest.java",
+      "sha256": "502ca79e3bf0c2ed010409302cae9199bfe472608df874d625ddba6a0e56795d",
+      "bytes": 527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668621207700
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/ExceptionMetaTest.java",
+      "sha256": "fb2e43075c6150628568c13ff11189eb6f5a59baa322412bec37b27740ffb55a",
+      "bytes": 405,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668622209800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/MethodMetaTest.java",
+      "sha256": "42d078d001fa91d510c338cc465595986b1ce9c76e971ebd1bf57acbcc4a90f4",
+      "bytes": 1177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668622209800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/ReturnTypeMetaTest.java",
+      "sha256": "b9802baa49ec42f6bbc0130ae26338c1a79de6e50dd185808bb4a16731e89d91",
+      "bytes": 820,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668622209800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/TestCaseMetaTest.java",
+      "sha256": "60e0c53a7212d36cc004d7ffa981ad28c71d3a281131cf3ab7df00bdd48d033b",
+      "bytes": 401,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668622209800
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/meta/TestMethodMetaTest.java",
+      "sha256": "e29b1a04610bafb6dd2b6b5022e280d86f81fcbd85039efbf63f6dc2f5e1fd37",
+      "bytes": 409,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668623209000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/AccessModifierDetectorTest.java",
+      "sha256": "bf2cced419e38be1654d0f00e2f68d8e2d79994f8dbc5030127c5e63d379d94b",
+      "bytes": 5652,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668623209000
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/AssertionTest.java",
+      "sha256": "12652cdf71a17d6c9d3f1822e73a78723e8a8a5e8da1c3de174a986ccdff87fd",
+      "bytes": 20571,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668624207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/IOUtilTest.java",
+      "sha256": "eebc2f9c9b398fd2b9cc7d88c918edc813e5a2cf407225e740eb5cceff32113b",
+      "bytes": 2731,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668624207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/ObjectUtilTest.java",
+      "sha256": "0d0d64c7086503cc18de247fb6064399340650a311c57dae3a72a35cae98c794",
+      "bytes": 2936,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668624207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/PrimitiveTypeUtilTest.java",
+      "sha256": "868d9c177442f453e8f2d4d4d214ab073227ed900a0538e9bb9be548da885e0c",
+      "bytes": 3422,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668624207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/StderrTest.java",
+      "sha256": "eab94127981e9c250f2271418ed1497c05a12580160541bdbf0d1d7e35ca0e93",
+      "bytes": 1523,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668624207500
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/StdoutTest.java",
+      "sha256": "0d4f150c7e9218e0c476120583ed4ebb2a2d6b61d9c073ce9b100bd94d48928f",
+      "bytes": 1623,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668625697600
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/ThreadUtilTest.java",
+      "sha256": "277fecd49f6f453da6692392f2da1e8a8512cf1b116055c84614e1209f8e4f5c",
+      "bytes": 1712,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668625697600
+    },
+    {
+      "relative": "core/src/test/java/org/junithelper/core/util/UniversalDetectorUtilTest.java",
+      "sha256": "645d484e5e0dfb448a5579ba8ea2ac755dc994ccb3ce8acdcab10283a4e1f78c",
+      "bytes": 2641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668625697600
+    },
+    {
+      "relative": "core/src/test/resources/IndentationProviderTestAfter.txt",
+      "sha256": "8a616abf366d46deb038b28647047821d13617212d7d36ac7ffcaaf1fb1f6129",
+      "bytes": 1739,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668625697600
+    },
+    {
+      "relative": "core/src/test/resources/IndentationProviderTestBefore.txt",
+      "sha256": "3c14ab7731f8a7306224ae894e2d7e7d36f1c46375f19842471eb66cc0baf27c",
+      "bytes": 599,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668626806500
+    },
+    {
+      "relative": "core/src/test/resources/IndentationProviderTestHardTabs.txt",
+      "sha256": "0dd71896496cc6e49a7ed3b7f5fc81c388ee1b1947faa129c5286fcab02be599",
+      "bytes": 1202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668626806500
+    },
+    {
+      "relative": "core/src/test/resources/IndentationProviderTestSoftTabsSize2.txt",
+      "sha256": "117fd7e88ead8bdc6d863830e983fef7a82eefeddaeadc250940f4cb1adfb83f",
+      "bytes": 1227,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668626806500
+    },
+    {
+      "relative": "core/src/test/resources/junithelper-config.properties",
+      "sha256": "38121679b96a3e4c6f6bf0d415c42f61a7b1a418d9c9350ec55939c0f7c10ead",
+      "bytes": 1084,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668633105500
+    },
+    {
+      "relative": "core/src/test/resources/junithelper-config_forceCRLF.properties",
+      "sha256": "ee952524ad32357f4c3c5403e3d5e32353857fdcd3c533732b2781ebbcca1999",
+      "bytes": 1050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668633105500
+    },
+    {
+      "relative": "core/src/test/resources/junithelper-config_forceLF.properties",
+      "sha256": "0899c36a465c7b63f79a191648c479c3d6f9cfd9624a3c352bd11a42e09c8d5f",
+      "bytes": 1048,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668634105700
+    },
+    {
+      "relative": "core/src/test/resources/junithelper-config_forceNewFileLF.properties",
+      "sha256": "6eabbe4a3f227a8b031428dcac58d82667b34e7abfdb7c2c3255f00c55caeb28",
+      "bytes": 1055,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668634105700
+    },
+    {
+      "relative": "core/src/test/resources/junithelper-config_softTabs.properties",
+      "sha256": "dff7bd54bc873a44bfd23b89e5dd36f0ba3016025af1d8981a528810b680ac8a",
+      "bytes": 1083,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668634105700
+    },
+    {
+      "relative": "core/src/test/resources/junithelper-extension.xml",
+      "sha256": "d994f2f89f923f4c9b8c54e674ac6d1059cc497f9f0712a376cd26b1c8234c04",
+      "bytes": 1634,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668634105700
+    },
+    {
+      "relative": "core/src/test/resources/LineBreakPolicyTest.txt",
+      "sha256": "f1d4a8dd34681e8d29465c3f5b04d24a6dc744afc90d116e7fffb671c1c266ce",
+      "bytes": 536,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668626806500
+    },
+    {
+      "relative": "core/src/test/resources/LineBreakPolicyTestBefore.txt",
+      "sha256": "0db04880f4f3829d3ccddb0ae90cb7ffed2e0cd3d2d49adc452650907a70bf00",
+      "bytes": 311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668627801700
+    },
+    {
+      "relative": "core/src/test/resources/LineBreakPolicyTestBeforeLF.txt",
+      "sha256": "a29536295a255c40d35da3a45b69ea139a69b494216e62800b433575f6fd4b09",
+      "bytes": 409,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668627801700
+    },
+    {
+      "relative": "core/src/test/resources/Shift_JIS.txt",
+      "sha256": "9d7519abadffa8b2d1dce0131c6bfe04fcb63576c9b5003ca1f6e0f25159bd23",
+      "bytes": 17,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668627801700
+    },
+    {
+      "relative": "core/src/test/resources/UTF-8.txt",
+      "sha256": "d90244814bf7644238d5c0350cf7518dfea459975f1030b3a891daeab48ebc70",
+      "bytes": 15,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668627801700
+    },
+    {
+      "relative": "core/src/test/resources/inputs/DefaultTestCaseGenerator.txt",
+      "sha256": "9e14ef08153eff630733705bda01b960fae90884571512e45a305e4642eba9a0",
+      "bytes": 9707,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668627801700
+    },
+    {
+      "relative": "core/src/test/resources/inputs/DefaultTestCaseGenerator_AnsiDialect.txt",
+      "sha256": "188ec2fdec2009abafed2bcb9a6dc26a8bcfbe6be9a826323c9fcead8a5e8979",
+      "bytes": 12591,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668629306600
+    },
+    {
+      "relative": "core/src/test/resources/inputs/DefaultTestCaseGenerator_AnsiDialectTest.txt",
+      "sha256": "b236d64a831262e313cc75e352c044ebf3b94783fe048e0b30336a40f56e6a53",
+      "bytes": 10403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668629306600
+    },
+    {
+      "relative": "core/src/test/resources/inputs/DefaultTestCaseGenerator_Log.txt",
+      "sha256": "b5c965b67d24295a88caec99bb8e2b1715f7246b621d907e88bb64bf6c5f3f05",
+      "bytes": 4906,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668630609300
+    },
+    {
+      "relative": "core/src/test/resources/inputs/DefaultTestCaseGenerator_SimpleHttpClient.txt",
+      "sha256": "9be719d56ee0e0ee8e4f21325f3a15bff3612ca4ff1933f37aa0092140b2ab98",
+      "bytes": 9950,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668630609300
+    },
+    {
+      "relative": "core/src/test/resources/inputs/Enum_ContentType.txt",
+      "sha256": "a616e4297b637c79ade582292acc49cbc7e06f3e314d9810a8d6870ecd43e585",
+      "bytes": 570,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668630609300
+    },
+    {
+      "relative": "core/src/test/resources/inputs/IOUtil.txt",
+      "sha256": "d75e37fbd6be14b66d9d716d78551a47c2a676ac43ed3a280a217d16a8b0eaea",
+      "bytes": 3023,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668630609300
+    },
+    {
+      "relative": "core/src/test/resources/inputs/ObjectUtil.txt",
+      "sha256": "fbd40af3f6af88c40225e2bb22eda160d5f319e812dbba1e6c0b7046493e3710",
+      "bytes": 1955,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668630609300
+    },
+    {
+      "relative": "core/src/test/resources/inputs/Sample.txt",
+      "sha256": "06d28274ef772952dd683e8c55bc77db497d85516c48db06c1d84e58cb61761d",
+      "bytes": 157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668630609300
+    },
+    {
+      "relative": "core/src/test/resources/inputs/Slim3_AbstractModelRef.txt",
+      "sha256": "8c52c033a51779a2fd5f9d00507a34e22942c9ce154a86b8ddcedbbde59b5c6d",
+      "bytes": 3408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668632105800
+    },
+    {
+      "relative": "core/src/test/resources/inputs/Slim3_GlobalTransaction.txt",
+      "sha256": "8a3e9b91cd62f56b07c5c17e32017f7511f9d7b549398891ede35bb4b2024b51",
+      "bytes": 4978,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668632105800
+    },
+    {
+      "relative": "core/src/test/resources/inputs/Slim3_HtmlUtil.txt",
+      "sha256": "11bd60dea7cb2c29fb1a70bff5a82673ecfa14fa24faeba1a63907febf86e621",
+      "bytes": 2616,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668632105800
+    },
+    {
+      "relative": "core/src/test/resources/inputs/TrimFilterManager.txt",
+      "sha256": "da87e0e75257f2a62a42fe087240fb30ee603c1af7680ca64d0d9292d8c2469c",
+      "bytes": 1394,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668633105500
+    },
+    {
+      "relative": "core/src/test/resources/inputs/TrimFilterManagerTest.txt",
+      "sha256": "593fde7665fc083992cbfd51f5908074eced4375841b39306162e6985bc458d4",
+      "bytes": 2982,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668633105500
+    },
+    {
+      "relative": "core/tools/junithelper",
+      "sha256": "993ec37a4ce17dac4408290f13c242ca3105595e74f362eb7658d699c4bd2189",
+      "bytes": 251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668635105600
+    },
+    {
+      "relative": "core/tools/junithelper-config.properties",
+      "sha256": "e7e365d8cdb7ae3bcaddf8097db4d43c8f9557a657a0cf12dafe3afa7299ab60",
+      "bytes": 1335,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668635105600
+    },
+    {
+      "relative": "core/tools/junithelper-core-1.12.jar",
+      "sha256": "23712a8427af743c484109b96582a7dea95755e16b437c5789bbb0d72bfd108b",
+      "bytes": 124082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668636170400
+    },
+    {
+      "relative": "core/tools/junithelper-extension.xml",
+      "sha256": "30ca51755d18ee679ad6a9f4fc44d089fde890682ba0bd919fd3328d82a99f35",
+      "bytes": 9823,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668636170400
+    },
+    {
+      "relative": "core/tools/junithelper.bat",
+      "sha256": "705be99e033d360c851d1f169970a08321115c45195b81b0b6640d5a570c0342",
+      "bytes": 192,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784766668636170400
+    },
+    {
+      "relative": "core/tools/release_notes.txt",
+      "sha256": "de757405352d43564d58f53bcf69b44b411010089e0de65eb76d2b86f119bbda",
+      "bytes": 2891,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668639895700
+    },
+    {
+      "relative": "core/tools/lib/commons-io-2.0.jar",
+      "sha256": "af8bc41fa57a98659c046f92b2e6753cc21461914f2ff337fcac29c9be676bbd",
+      "bytes": 159235,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668638426500
+    },
+    {
+      "relative": "core/tools/lib/juniversalchardet-1.0.3.jar",
+      "sha256": "0dcf1e17511b31eb1036fd0df9eb9b5ef936a0be36d68f4a6473afafb72ea665",
+      "bytes": 206373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668639895700
+    },
+    {
+      "relative": "eclipse-plugin/.classpath",
+      "sha256": "343054ac91bbc6101452c383e6d8b3c06bb38285de258485f681004c624ad2ee",
+      "bytes": 4963,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668651284700
+    },
+    {
+      "relative": "eclipse-plugin/.project",
+      "sha256": "a07b8acb90edacc84624743a9f73645131e3d416dc82d906de20f72b639c210b",
+      "bytes": 941,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784773718719914400
+    },
+    {
+      "relative": "eclipse-plugin/about.html",
+      "sha256": "9db70eac65825ecce47e931307bea8a442f516f062d1429fe57ad06bab686f9a",
+      "bytes": 842,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668653287400
+    },
+    {
+      "relative": "eclipse-plugin/about.ini",
+      "sha256": "d444a7f7469731a78154ee4e0abc34bfc0592891f37b7e3bbda423ef0f7e84f4",
+      "bytes": 1045,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668653287400
+    },
+    {
+      "relative": "eclipse-plugin/build.properties",
+      "sha256": "e320f14a50b6780559f4083d4aada5ee663ac7ac7d0a1065937e65a7b7bbc0d4",
+      "bytes": 395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668653287400
+    },
+    {
+      "relative": "eclipse-plugin/eclipse-formatter.xml",
+      "sha256": "99162bed4836b0bbee663984b48444e8f493f0e978625c70d1d4eabb747a57d3",
+      "bytes": 33949,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668654428000
+    },
+    {
+      "relative": "eclipse-plugin/plugin.xml",
+      "sha256": "fc18770f3c5ea878c6661065c2b4b5b4bf9173201b680a956c5725b5ed78607c",
+      "bytes": 7439,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668661720000
+    },
+    {
+      "relative": "eclipse-plugin/pom.xml",
+      "sha256": "88b5c8eabcc4df696de7244b2eaadc949481195f856f9ded99d1978b1b7b6a58",
+      "bytes": 13397,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668661720000
+    },
+    {
+      "relative": "eclipse-plugin/releasenotes.html",
+      "sha256": "106fbb42e02380170dc0118d6a1bc3378b05384995ec68d816c3cc96e1554ec1",
+      "bytes": 9687,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668661720000
+    },
+    {
+      "relative": "eclipse-plugin/icon/junithelper.png",
+      "sha256": "3a6b28156a411f821338a011ff501c88ab58044cf3d1aa2d997a6ce20b49cdbc",
+      "bytes": 1021,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668654428000
+    },
+    {
+      "relative": "eclipse-plugin/images/120_101.png",
+      "sha256": "e025a09359b8533af1f3a128a361de3c8b2c77093655a6a8ed8bcff907590cf3",
+      "bytes": 3911,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668655568600
+    },
+    {
+      "relative": "eclipse-plugin/images/180_151.jpg",
+      "sha256": "b9421e787bf409d13c65dc3f49024af7825c3c43679beede1241aa97d0dc009a",
+      "bytes": 19605,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668655568600
+    },
+    {
+      "relative": "eclipse-plugin/images/240_201.gif",
+      "sha256": "bc7065d6549aa7b555cf247d5e8027aab7594cd206f7b7e75001d2fc718a72ee",
+      "bytes": 2850,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668656567000
+    },
+    {
+      "relative": "eclipse-plugin/images/30_25.png",
+      "sha256": "8b6412451e921a279087c1f1a08df34148a8b4579ce9f280868accb35bfdc703",
+      "bytes": 1111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668656567000
+    },
+    {
+      "relative": "eclipse-plugin/images/80_67.png",
+      "sha256": "2e2d6f8bec86c522b3a3b3b6cd1869e6e71e6baa44305953134ea4afd68d4018",
+      "bytes": 2586,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668656567000
+    },
+    {
+      "relative": "eclipse-plugin/lib/commons-io-2.0.jar",
+      "sha256": "af8bc41fa57a98659c046f92b2e6753cc21461914f2ff337fcac29c9be676bbd",
+      "bytes": 159235,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668658650400
+    },
+    {
+      "relative": "eclipse-plugin/lib/junithelper-core-1.12.jar",
+      "sha256": "b2ef9f2c22b8de82d5f9c1172ef93d83ce439b15e752ad3f436924fc2c8c18ca",
+      "bytes": 124082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668659649800
+    },
+    {
+      "relative": "eclipse-plugin/lib/juniversalchardet-1.0.3.jar",
+      "sha256": "0dcf1e17511b31eb1036fd0df9eb9b5ef936a0be36d68f4a6473afafb72ea665",
+      "bytes": 206373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668660650500
+    },
+    {
+      "relative": "eclipse-plugin/META-INF/MANIFEST.MF",
+      "sha256": "0bf91f5d849dd41dafb930a073e6936d1978143123fd981beb027c1ebf81ea59",
+      "bytes": 823,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668652287000
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/Activator.java",
+      "sha256": "d2e088ffb28016f9245bffe24dda1decf0c551e927e69be492b0c48ae0b35f01",
+      "bytes": 1348,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668662746400
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/action/AbstractAction.java",
+      "sha256": "a1d909dc160659c4e7cd9c0149d5c298011de449e37f48c1452fc9b925ea1e51",
+      "bytes": 8585,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668664245100
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/action/CreateNewTestCaseAction.java",
+      "sha256": "565438f64e7f3608e333904148ff30e720963cbec1f93b35084be64c4e0f0110",
+      "bytes": 12110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668664245100
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/action/Force3TestCaseAction.java",
+      "sha256": "ce3b5f932ef7e0ad1fc591256e6cad6b01f96c08ef12b9216ff025806ed637ab",
+      "bytes": 5917,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668664245100
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/action/Force4TestCaseAction.java",
+      "sha256": "2974d50627abfff34243c64a64ec03deb417febf073b5166c73c5045da3a54c8",
+      "bytes": 5917,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668665245800
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/action/OpenTestCaseAction.java",
+      "sha256": "4cd3fc885ddfc94338c7dcb12330b60e43059091b3c264e06115d7eda4dcb6de",
+      "bytes": 10642,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668665245800
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/action/OpenTestTargetAction.java",
+      "sha256": "760edd475e3d6c1959e7e5aedc12d80057c260826924036b193c63366d17bcc0",
+      "bytes": 4818,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668665245800
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/constant/Dialog.java",
+      "sha256": "68192edb54dbdd9ef61be0a24f96d06433391980631be2525bc9e83e1867a43c",
+      "bytes": 2131,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668666696300
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/constant/Preference.java",
+      "sha256": "7648464bc7c66b12f329bf2ef2c553a7d96f7589697ecf96f204593583fa57eb",
+      "bytes": 5633,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668666696300
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/exception/InvalidPreferenceException.java",
+      "sha256": "71f29683ffdf44bade854bfb83c4c306d9c13840073c25fe6f9aa477a79e0e72",
+      "bytes": 801,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668666696300
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/handler/Force3TestCaseHandler.java",
+      "sha256": "6b78894e97ce0d1055a813e98772f236dd9b69c67b69fb5cdf9091406dfeee01",
+      "bytes": 1422,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668667894800
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/handler/Force4TestCaseHandler.java",
+      "sha256": "d600720dbc670bcc66ad318fc464c3cf3cfe5d0a54399ae82a2e8d3f06db2217",
+      "bytes": 1424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668667894800
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/handler/OpenTestCaseHandler.java",
+      "sha256": "cbe8bfc05ffc1170dafebfd3882ade0afae595f74293538387bbe75250bd820b",
+      "bytes": 1414,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668667894800
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/handler/OpenTestTargetHandler.java",
+      "sha256": "ed9f209ac4be90b51cb627ea017e54f4d2c02e3fd8533f0d03a474b58f02aa26",
+      "bytes": 1424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668667894800
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/io/PropertiesLoader.java",
+      "sha256": "6fb6aa98512a708495d88c8733ba66e00a284e84d651dad9f0fb4bfc850f6f05",
+      "bytes": 992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668669216900
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/page/PreferenceLoader.java",
+      "sha256": "fd16cf2be9c47a55d0b5527dbdf698c7a5dbef95cd959569b11ebb69b537535e",
+      "bytes": 10023,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668669216900
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/page/PreferencePage.java",
+      "sha256": "0bf21dc489fe7a61fba7bd6f53d9e40f6c628d7ee4cd387f028b7756370c2b20",
+      "bytes": 13973,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668669216900
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/page/PreferencePageInitializer.java",
+      "sha256": "6b146190ae0604b4b27840eee8a38fc53d61dba16520c1ef2bcd25ce4e5ea2a8",
+      "bytes": 3433,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668670464000
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/util/EclipseIFileUtil.java",
+      "sha256": "cfb11380bb78d1e3212df4195d0b4b91353b05aff5b2e586900d15fafacd67fe",
+      "bytes": 2722,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668670464000
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/util/ResourcePathUtil.java",
+      "sha256": "85b4fb861eb7b78ec80c85d7aafdae0b1b6235db60baf33cabd6e607371772ec",
+      "bytes": 3479,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668671464700
+    },
+    {
+      "relative": "eclipse-plugin/src/main/java/org/junithelper/plugin/util/ResourceRefreshUtil.java",
+      "sha256": "7499033cf23f632e9ea84fecc41fc9ce8fb61045056d852e7b7efff7a628983d",
+      "bytes": 2378,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668671464700
+    },
+    {
+      "relative": "eclipse-plugin/src/main/resources/application_en.properties",
+      "sha256": "ccd5a76ee91266ffdadb80c5c35f5cc8b2d56539b1be2a72f1e7c23d9bfdf3c3",
+      "bytes": 3932,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668672464600
+    },
+    {
+      "relative": "eclipse-plugin/src/main/resources/application_ja.properties",
+      "sha256": "614477cdd8dc9a76109898cefe80c670cee13ca838917b9fe325e3a5cf722d0e",
+      "bytes": 7588,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668672464600
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/org/junithelper/plugin/action/CreateNewTestCaseActionTest.java",
+      "sha256": "2801538915e5575f73294674621df4cd7dea59521e21796dd881498afbaa22db",
+      "bytes": 2398,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668673941100
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/org/junithelper/plugin/action/OpenTestCaseActionTest.java",
+      "sha256": "b956b0d2aa85751290736d36c3ab00fbd64a32fe370e5c6131cceda8b9814a4c",
+      "bytes": 1749,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668673941100
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/org/junithelper/plugin/action/OpenTestTargetActionTest.java",
+      "sha256": "1fbea7e11b0888917066461668e46de52f62d796e0644e9c21d41ebe2246a30e",
+      "bytes": 1814,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668673941100
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/org/junithelper/plugin/exception/InvalidPreferenceExceptionTest.java",
+      "sha256": "c02e28f26989670bc724a57058c9f7e6f7737243529d2cefc5483ac018fb8860",
+      "bytes": 262,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668674940600
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/org/junithelper/plugin/page/PropertiesLoaderTest.java",
+      "sha256": "1662ed8dede3953c7e5ad2c25620588a329492e353d8900af18f14bf12ee2f23",
+      "bytes": 636,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668674940600
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/org/junithelper/plugin/util/EclipseIFileUtilTest.java",
+      "sha256": "3a7ee6aba43d8cb0a7d0bc5248f22d290b5484174894b31c41aecba439a03630",
+      "bytes": 1499,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668674940600
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/org/junithelper/plugin/util/ResourcePathUtilTest.java",
+      "sha256": "61e4990e215ae3a8e44db834a7553006aa2473c7c93711bfc9e5ab535890e30e",
+      "bytes": 588,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668676429500
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/test/JUnitHelperTestBean.java",
+      "sha256": "df0d8d8396aa07adc55bbc3f7ba91355a4b2df781f11456e5a719f23e101d34e",
+      "bytes": 8545,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668676429500
+    },
+    {
+      "relative": "eclipse-plugin/src/test/java/test/bean/SampleBean.java",
+      "sha256": "e6add0857c9fd36341678e6f63649b56918ed53a58bf9fa0a7d444cbbb4ce3c7",
+      "bytes": 55,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668677432000
+    },
+    {
+      "relative": "eclipse-plugin-feature/.project",
+      "sha256": "1371adcc3251f75669f58964bc69a06344ea0f98b341933caaf28f3a9c6b3822",
+      "bytes": 223,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668639895700
+    },
+    {
+      "relative": "eclipse-plugin-feature/build.properties",
+      "sha256": "b8a81100459fea030b33decf660ec8c74ac5773e5af91354c3aade0c1cda2784",
+      "bytes": 28,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668639895700
+    },
+    {
+      "relative": "eclipse-plugin-feature/feature.xml",
+      "sha256": "240ee7b18bfd6187a16dddcdfcd834d31faff4f71ac2b054888503eb9f177924",
+      "bytes": 12697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668641261800
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/.project",
+      "sha256": "e9761d58504cf168ee9c07057cce7822e77a140b12799266a659e003a64a02d3",
+      "bytes": 400,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668641261800
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/artifacts.jar",
+      "sha256": "e8b7e9fbdea93d4fb43156e9a9f4545f6238a3a3803347189bd1b353aed0b5e4",
+      "bytes": 590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668641261800
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/content.jar",
+      "sha256": "65d39ee3dc7423dccc395da4cc18724bfed99e6699453e8392d700c973b7fff9",
+      "bytes": 5626,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668642687600
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/site.xml",
+      "sha256": "f603fbade455b16f009812364b5c21af5f0b767f1197f72d9505c61334343512",
+      "bytes": 425,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668650284300
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/features/org.junithelper.plugin_1.10.0.jar",
+      "sha256": "2172e4d2a9a131dfcea37e03991ff44d1e033f48f629b2d0cddfd55e70f72329",
+      "bytes": 4702,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668642687600
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/features/org.junithelper.plugin_1.11.0.jar",
+      "sha256": "0674ce63767c5449ccaf4413ca291b4d44bb761a70c70fb67ba13168864df21c",
+      "bytes": 4701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668642687600
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/features/org.junithelper.plugin_1.12.0.jar",
+      "sha256": "022277a4e4ee8440ce6aca9c2d5729f47d644138d0dbbf8c77fe802f8a590379",
+      "bytes": 4701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668643685300
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/plugins/org.junithelper.plugin_1.10.0.jar",
+      "sha256": "f054d16de5bebc1403e6978af321175c9dd712a3cc91ad834227eed449f73739",
+      "bytes": 484287,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668646231400
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/plugins/org.junithelper.plugin_1.11.0.jar",
+      "sha256": "f83675a960c62f2951c72290eaca6b23cb91bd9451db641e6a8b1e68fc38af4f",
+      "bytes": 484692,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668648276600
+    },
+    {
+      "relative": "eclipse-plugin-updatesite/plugins/org.junithelper.plugin_1.12.0.jar",
+      "sha256": "ec6e2ec1955ffa05945c67b2cf93d4b60e7970dfd2c952f5c54d311f913b8dcd",
+      "bytes": 484482,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668650284300
+    },
+    {
+      "relative": "maven-plugin/eclipse-formatter.xml",
+      "sha256": "0723b8c753e440ab9b8d9260c2fdc21c9988f6373b536e261f7cdb0f6d08a259",
+      "bytes": 33947,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668677432000
+    },
+    {
+      "relative": "maven-plugin/pom.xml",
+      "sha256": "42132c10c1aac465e64f5887ebc4c8f9f1471e56fe980d37810d567626894cdc",
+      "bytes": 5179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668677432000
+    },
+    {
+      "relative": "maven-plugin/src/main/java/org/junithelper/mavenplugin/AbstractJUnitHelperMojo.java",
+      "sha256": "135d1787e612a22af7b4483ba3d01fa6e8e998140ffc4bdb94cd4aaa92c56b02",
+      "bytes": 5894,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668679435300
+    },
+    {
+      "relative": "maven-plugin/src/main/java/org/junithelper/mavenplugin/Force3Mojo.java",
+      "sha256": "6e7eb52f1c993f1845915774eacd93c0f525343e4d77c002d7e60fc62a4895f1",
+      "bytes": 649,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668679435300
+    },
+    {
+      "relative": "maven-plugin/src/main/java/org/junithelper/mavenplugin/Force4Mojo.java",
+      "sha256": "18febd1d30cf663d9d56861318d2d90c59421fe71a128cf3dc1b688d755131eb",
+      "bytes": 649,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668680428500
+    },
+    {
+      "relative": "maven-plugin/src/main/java/org/junithelper/mavenplugin/MakeMojo.java",
+      "sha256": "f2fb5ddb348d2e746573c03dbf157aad82094b536c1617a10258211692e0c95d",
+      "bytes": 1247,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668680428500
+    },
+    {
+      "relative": "maven-plugin/src/test/java/org/junithelper/mavenplugin/Force3MojoTest.java",
+      "sha256": "f9ccb56bc0654f47fef3f86c1b742c61b89d2044c641e78bd6de6fc04d86b9cd",
+      "bytes": 578,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668681504000
+    },
+    {
+      "relative": "maven-plugin/src/test/java/org/junithelper/mavenplugin/Force4MojoTest.java",
+      "sha256": "fa0e0d62fc44e04c0e92d981c74f12d30351cb5263ce74a9d8c837353e3e3ae5",
+      "bytes": 578,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668681504000
+    },
+    {
+      "relative": "maven-plugin/src/test/java/org/junithelper/mavenplugin/MakeMojoTest.java",
+      "sha256": "970202e44c29d8858fa472c477eeab172d7fad37cc4aa19b4b0c73e98332ca26",
+      "bytes": 623,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766668681504000
+    }
+  ],
+  "excluded": [
+    "core/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\005_3713233_87a370f3\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:47:04.036064+00:00"
+}

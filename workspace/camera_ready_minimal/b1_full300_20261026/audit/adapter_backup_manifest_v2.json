@@ -1,0 +1,50 @@
+[
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\src\\e49_driver.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\src\\e49_driver.py",
+    "sha256": "afac9d826061f79292e629f973ba2a5a3138d6c86e40eba2a2ece709ef5345d4",
+    "preexisting_partial_backup": true
+  },
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\src\\run_e49_supplement.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\src\\run_e49_supplement.py",
+    "sha256": "164eaabcbad5eff4bc2a638a61329777db2eb916b274e32773bd310d90b7c3bd",
+    "preexisting_partial_backup": true
+  },
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\src\\replay_fixed49_measurement_v5.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\src\\replay_fixed49_measurement_v5.py",
+    "sha256": "fc76b20e41958646e5974394be29f0076fb137d1342362720bd9885b7025cc54",
+    "preexisting_partial_backup": true
+  },
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\src\\diagnose_e1_compatibility_v4.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\src\\diagnose_e1_compatibility_v4.py",
+    "sha256": "82ad00778ff7cb423f16051ede46d316238dbf45b354e90d9216ca20a9517ed9",
+    "preexisting_partial_backup": true
+  },
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\src\\analyze_e49_final_v2.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\src\\analyze_e49_final_v2.py",
+    "sha256": "802133f6313ff3f2fa42d09d85dd7718cbb3a9d0015db4c0a5455931313c73ed",
+    "preexisting_partial_backup": true
+  },
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\src\\junit_method_inventory_v1.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\src\\junit_method_inventory_v1.py",
+    "sha256": "ae4190f3fb1b70886f506fcc3080598011a1cb6055a9fb5ad6ede6e4e403c655",
+    "preexisting_partial_backup": false
+  },
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\working\\AgoneTest\\mavenLib.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\evo_patch\\working\\AgoneTest\\mavenLib.py",
+    "sha256": "5dac38274def8c18600fa40bc92c25a187cdc57453ebc31f8e26bcf0d716ae94",
+    "preexisting_partial_backup": false
+  },
+  {
+    "original": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\working\\AgoneTest\\evosuite_profile.py",
+    "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\backups\\accepted49_adapter\\evo_patch\\working\\AgoneTest\\evosuite_profile.py",
+    "sha256": "82aa3a4fff73200a1b4d5ddf9b560d3dc408d3cbabe78c5698e698a1fe902ef6",
+    "preexisting_partial_backup": false
+  }
+]

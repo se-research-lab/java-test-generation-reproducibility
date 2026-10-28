@@ -1,0 +1,120 @@
+{
+  "observed_utc": "2026-10-26T21:36:38.275574+00:00",
+  "scope": "additive read-only interpretation; not an execution-policy change or final recoding",
+  "issues": [
+    {
+      "sample_index": 4,
+      "category": "MEASUREMENT_DEPENDENCY_UNSCORED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\004_gradle_v1\\commands\\003\\stderr.txt",
+      "evidence_sha256": "3c9bc1054b7f16ce88449b925805495e0c1a91484d10213cf67f82705f865c7e",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\004_gradle_v1\\deferred.json",
+      "raw_sha256": "0308389d86b629c2e89864a2010a22e8dd930737dcafb7c797bd174275ae8c79",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 40,
+      "category": "MEASUREMENT_DEPENDENCY_UNSCORED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\040_gradle_v1\\commands\\003\\stderr.txt",
+      "evidence_sha256": "2c59b4ac8a0819caec6bddee1f260ea107d53aa2e6ba821e2ffed24e475adcf9",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\040_gradle_v1\\deferred.json",
+      "raw_sha256": "57a1c14765b07d359c66de1fbe577695ca00c31a65c414156cd4c3321417d23c",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 45,
+      "category": "MEASUREMENT_DEPENDENCY_UNSCORED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\045_gradle_v1\\commands\\003\\stderr.txt",
+      "evidence_sha256": "b4df44dae1add4a9e2816cf9bb0556860ee68c426e6ae6059c81ebd7cbb8f53c",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\045_gradle_v1\\deferred.json",
+      "raw_sha256": "758139f544a0a2af4c89dba454fda7aaccd5fc24a00099578120d95faabd47f2",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 98,
+      "category": "HARNESS_TASK_MISSING_REVIEW_REQUIRED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\098_gradle_v1\\commands\\001\\stderr.txt",
+      "evidence_sha256": "4755005bdc96ead00098a9b15cd164f9f5b5e8ddad2141897feb1bfc89f74a3c",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\098_gradle_v1\\result.json",
+      "raw_sha256": "ca65d554e5a1103414a0274e478f45e9382f9adfa67b98da982286cf98a64c19",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 110,
+      "category": "HARNESS_TASK_MISSING_REVIEW_REQUIRED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\110_gradle_v1\\commands\\001\\stderr.txt",
+      "evidence_sha256": "690d853b805aec3637999f8908d8d5c70177bbbc0ae03bb083995cd3e6fd7979",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\110_gradle_v1\\result.json",
+      "raw_sha256": "756b1224d80438af47e8c5ee46f1803882218185c2c3bb3ee37ef0f059aa513e",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 21,
+      "category": "GENERATION_CLASS_LOADING_REVIEW_REQUIRED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\021_gradle_v1\\commands\\002\\stderr.txt",
+      "evidence_sha256": "89d004e8fb2cf8684a8463417772582c3ead5aa53e757909b963e8114018a531",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\021_gradle_v1\\result.json",
+      "raw_sha256": "89a4dcf59e68d620d247736941084f67097362e1492c074a7c775dd0af69bbff",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 31,
+      "category": "GENERATION_CLASS_LOADING_REVIEW_REQUIRED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\031_gradle_v1\\commands\\002\\stderr.txt",
+      "evidence_sha256": "cead371441bada4d869199434673f5b2bbb6e1b14ae64be25e59cb0dfaad107e",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\031_gradle_v1\\result.json",
+      "raw_sha256": "f34fd3e5da8cbcaaaa62b8373bc585bb9d99c0344049898180ec8b83be526805",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 81,
+      "category": "GENERATION_CLASS_LOADING_REVIEW_REQUIRED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\081_gradle_v1\\commands\\002\\stderr.txt",
+      "evidence_sha256": "8ae7e1bb3ecb45381f71d1093aa162b4acb2a208d484b4af7d91bd204251ad3d",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\081_gradle_v1\\result.json",
+      "raw_sha256": "660739db21e9ba61461b85f78b8f5a7f640063328654882756c1401cffda877e",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 24,
+      "category": "GENERATION_BYTECODE_SUPPORT_REVIEW_REQUIRED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\024_gradle_v1\\commands\\002\\stderr.txt",
+      "evidence_sha256": "f01718983d65e10b83475584d68d2e59d3ce4636279c8564fca0510c9c4c7421",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\024_gradle_v1\\result.json",
+      "raw_sha256": "fcc7394bbaa95ef54af082a7bae403e71488542720593a5aaf283e17c9fd71ce",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    },
+    {
+      "sample_index": 80,
+      "category": "GENERATION_BYTECODE_SUPPORT_REVIEW_REQUIRED",
+      "evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\080_gradle_v1\\commands\\002\\stderr.txt",
+      "evidence_sha256": "f89aca980faba0e0c3d9d2b8bfb10b05c1dbd8591498ce10de1ccc135c388bec",
+      "raw_record": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\080_gradle_v1\\result.json",
+      "raw_sha256": "62b212c3adcc937fc6c1486a742d8d47007ca9146bd54a9aec983c8abd376b8b",
+      "raw_record_modified": false,
+      "scientific_acceptance": "REVIEW_REQUIRED",
+      "rerun_authorized_by_this_check": false
+    }
+  ],
+  "experiment_configuration_changed": false,
+  "GPT_calls": 0,
+  "new_experiment_calls": 0,
+  "batch_action": "Existing locked one-pass continues; no repair or retry requested. Withhold interpretation of flagged rows until provenance/fairness review."
+}

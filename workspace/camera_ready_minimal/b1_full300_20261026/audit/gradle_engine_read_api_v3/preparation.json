@@ -1,0 +1,40 @@
+{
+  "scope": "synthetic qualification read-API correction only",
+  "old_recipe_sha256": "8f26fe73741064b35e78eb57ee20366e6756efdd16e93daa5677268b019dee73",
+  "new_recipe_sha256": "21a9106fc390e2f27ea3f71ad9f7a039b185927aa86f5aa77ec62ba4dc0d39e5",
+  "old_runner_sha256": "5859e991e3e0f9443f9814b27b909f303f3998b30a180a53b2d9617243c3126b",
+  "new_runner_sha256": "d67eb7ebcb5bb2d0c9334a5a8715e4e332ca1b30a5fe04ec26f43fa1eec118f9",
+  "diff_sha256": "98df53fc937fb6b394d32662dafe87c1d9b1d073821deb34dd2c4a65688e7d51",
+  "primary_binary_API_evidence": [
+    {
+      "plugin_version": "1.3.0",
+      "jar": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\cache_preparation_gradle_v1\\gradle_user_home\\caches\\modules-2\\files-2.1\\info.solidsoft.gradle.pitest\\gradle-pitest-plugin\\1.3.0\\544d22a32e5c409c643a6a7f15513f74bbabccde\\gradle-pitest-plugin-1.3.0.jar",
+      "jar_sha256": "ed410abf827cb0d64347999988a62204c81d77826dc1be35e9139d150e098f62",
+      "typed_API_evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\gradle_engine_read_api_v3\\PitestTask_1.3.0.txt",
+      "evidence_sha256": "cf1844f889a3cfa7edee6de5677ecdc42aea4dc20e3bb33a5fe3480c11fdbb57"
+    },
+    {
+      "plugin_version": "1.4.0",
+      "jar": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\cache_preparation_gradle_v1\\gradle_user_home\\caches\\modules-2\\files-2.1\\info.solidsoft.gradle.pitest\\gradle-pitest-plugin\\1.4.0\\29a4ed185eeca1d90b0f4160911029ec692e746f\\gradle-pitest-plugin-1.4.0.jar",
+      "jar_sha256": "28d2ab7dc2bcd43c543a3ff83d67d2de31b52a461074ebf4a426618d948751de",
+      "typed_API_evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\gradle_engine_read_api_v3\\PitestTask_1.4.0.txt",
+      "evidence_sha256": "3d63e2cc09b2942158037dccfa35c4f890c7d6a4ae627878662ac6434512d8ac"
+    },
+    {
+      "plugin_version": "1.15.0",
+      "jar": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\cache_preparation_gradle_v1\\gradle_user_home\\caches\\modules-2\\files-2.1\\info.solidsoft.gradle.pitest\\gradle-pitest-plugin\\1.15.0\\ce78b43036e607631fd051c341862902dc4c7b1a\\gradle-pitest-plugin-1.15.0.jar",
+      "jar_sha256": "b95d64797a85c03be486f9cb993609c910901ee2106d75c91be1a5af23d35748",
+      "typed_API_evidence": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\gradle_engine_read_api_v3\\PitestTask_1.15.0.txt",
+      "evidence_sha256": "b8be85be0fc1ac04dc5b7e733827c781c8a372dba3c296c513e23a9909e4c4f0"
+    }
+  ],
+  "reason": "1.3.0 createConfigurations uses rootProject.buildscript.configurations; selected-project ordinary pitest configuration is absent. Typed launchClasspath is the task engine classpath.",
+  "test_source_edits": 0,
+  "dependency_changes": 0,
+  "selector_changes": 0,
+  "generation_profile_changes": 0,
+  "benchmark_admitted": false,
+  "new_EvoSuite_calls": 0,
+  "GPT_API_calls": 0,
+  "prior_failures_preserved": true
+}

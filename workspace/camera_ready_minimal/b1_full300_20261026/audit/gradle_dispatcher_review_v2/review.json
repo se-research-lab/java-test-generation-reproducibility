@@ -1,0 +1,9 @@
+{
+  "scope": "pre-admission dispatcher review",
+  "old_sha256": "c0b3594d9800b4a1bc0bc2a2e31a651ea1c0564cb483ef7caaa0f56041fdceb7",
+  "new_sha256": "5d36ca13a6cfa3f7e188a02e6a761998f0968960f93b4d22f071bd46221fae91",
+  "diff_sha256": "126063994ec617b3c27321eed10fbfe6c6c375c25c26b10f65ed702344945fe5",
+  "change": "Full original cache verification before reporting pass completion",
+  "generation_measurement_policy_unchanged": true,
+  "corpus_jobs_started": 0
+}

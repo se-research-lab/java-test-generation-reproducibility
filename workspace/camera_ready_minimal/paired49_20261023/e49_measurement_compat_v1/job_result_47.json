@@ -1,0 +1,59 @@
+{
+  "job_index": 47,
+  "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/doublename.java",
+  "repo_id": "97822421",
+  "G0_archived_mutation_percent": "92.86",
+  "E0_archived_mutation_percent": "14.29",
+  "E1_archived_mutation_percent": "64.29",
+  "seed": 20261163,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.pchudzik.springmock.infrastructure.definition.DoubleName_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.pchudzik.springmock.infrastructure.definition.DoubleName_ESTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 292,
+  "focal_mutants": 14,
+  "killed_mutants": 9,
+  "focal_mutant_qualified_classes": [
+    "com.pchudzik.springmock.infrastructure.definition.DoubleName"
+  ],
+  "mutation_score_percent": 64.29,
+  "legacy_strict_mutation_percent": 64.29,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "springmock-infrastructure",
+      "PACKAGE": "com.pchudzik.springmock.infrastructure.definition",
+      "CLASS": "DoubleName",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "90",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "10",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "23",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "12",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "7"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

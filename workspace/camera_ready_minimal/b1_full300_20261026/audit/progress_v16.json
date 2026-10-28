@@ -1,0 +1,451 @@
+{
+  "status": "PASS_LIVE_RUNNER_AND_PARTIAL_FIXED300_CHECK",
+  "at_utc": "2026-10-26T11:19:59.954631+00:00",
+  "observations": [
+    {
+      "at_utc": "2026-10-26T11:19:39.834914+00:00",
+      "runner_PID_and_creation_match": true,
+      "runner_CPU_seconds": 1947.796875,
+      "runner_IO": {
+        "read_count": 9950050,
+        "write_count": 298794,
+        "read_bytes": 232573652985,
+        "write_bytes": 4659949580,
+        "other_count": 100429444,
+        "other_bytes": 4314982516
+      },
+      "owned_children": [
+        {
+          "pid": 10372,
+          "name": "cmd.exe",
+          "create_time": 1793013564.8431735
+        },
+        {
+          "pid": 16912,
+          "name": "conhost.exe",
+          "create_time": 1793013564.862642
+        },
+        {
+          "pid": 24624,
+          "name": "java.exe",
+          "create_time": 1793013565.0682385
+        },
+        {
+          "pid": 27376,
+          "name": "cmd.exe",
+          "create_time": 1793013573.7237988
+        },
+        {
+          "pid": 12992,
+          "name": "conhost.exe",
+          "create_time": 1793013573.7384727
+        },
+        {
+          "pid": 13752,
+          "name": "java.exe",
+          "create_time": 1793013573.7618003
+        }
+      ],
+      "disk_free_bytes": 16233713664,
+      "runtime": {
+        "phase": "MAVEN V6 / RUNNING",
+        "updated_utc": "2026-10-26T11:19:25.146359+00:00",
+        "target": 300,
+        "reused_verified": 49,
+        "new_completed": 180,
+        "running": 1,
+        "maven_pending": 31,
+        "gradle_pending": 40,
+        "new_API_calls": 0,
+        "new_EvoSuite_calls": 209,
+        "GPT_guard": "PASS",
+        "reuse49_guard": "PASS",
+        "benchmark_admitted": true,
+        "missing_focal_candidates": 0,
+        "focal_candidate_disagreements": 0,
+        "disk_free_GB": 16.23,
+        "blockers": [
+          "Maven chưa có kết quả: 31; chưa thử: 10; giữ lại chưa chấm: [48, 49, 72, 112, 119, 128, 138, 145, 148, 163, 173, 198, 202, 211, 220, 224, 239, 269, 275, 294]",
+          "Class giữ lại vẫn thuộc mẫu300; không gán0, không giảm denominator hoặc tuyên bố E1-full300 hoàn tất",
+          "12 class đầu vào/provider chưa chấm; không sửa POM/JUnit, không giảm mẫu300",
+          "Gradle40 chưa admit benchmark; queue fixture cũ đã SKIPPED và không tự khởi động lại",
+          "GPT/API/repeated subset và paper giữ nguyên; STOP và ngưỡng đĩa12GB vẫn áp dụng"
+        ],
+        "tasks": [
+          {
+            "id": "B1.0",
+            "name": "Khóa 300 keys và phạm vi E-only",
+            "status": "DONE"
+          },
+          {
+            "id": "B1.1",
+            "name": "Xác minh E49 và GPT guard",
+            "status": "DONE"
+          },
+          {
+            "id": "B1.2",
+            "name": "Maven controller và input đã nghiệm thu",
+            "status": "DONE"
+          },
+          {
+            "id": "B1.3",
+            "name": "Qualify Gradle 40 class, chỉ trong sandbox E",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "B1.4",
+            "name": "Maven controller fixture PASS; Gradle chưa qualify",
+            "status": "IN_PROGRESS"
+          },
+          {
+            "id": "B1.5",
+            "name": "Maven v6: giữ nguyên cách đo; tách class chưa hỗ trợ, không gán điểm",
+            "status": "IN_PROGRESS"
+          },
+          {
+            "id": "B1.6",
+            "name": "Audit 300 và phân tích RQ4/RQ5 riêng",
+            "status": "NOT_STARTED"
+          }
+        ],
+        "source_census": {
+          "timestamp_utc": "2026-10-25T22:12:03.458037+00:00",
+          "class_count": 251,
+          "unique_candidate_roots": 251,
+          "candidate_files": 517483,
+          "candidate_bytes": 8230643238,
+          "candidate_GB": 8.231,
+          "backup_adapter_files": 8,
+          "disk_free_GB": 28.52,
+          "scope": "metadata census, descriptor hashes and adapter backup; no complete source snapshot or execution adapter yet",
+          "new_experiment_calls": 0,
+          "recovery": "v1 metadata census completed, adapter backup stopped at wrong helper basename. v2 verified existing copies and backed up correct junit_method_inventory_v1.py; v1 script/error retained."
+        },
+        "GPT_guard_checked_utc": "2026-10-26T11:17:45.115259+00:00",
+        "source_snapshot_roots_completed": 251,
+        "source_snapshot_files": 517483,
+        "fixture_EvoSuite_calls": 3,
+        "private_cache_status": "PASS",
+        "runtime_fixture_status": "PASS",
+        "benchmark_EvoSuite_calls": 206,
+        "active_sample_index": 285,
+        "benchmark_EvoSuite_commands_planned": 209,
+        "benchmark_EvoSuite_commands_not_started": 3,
+        "benchmark_EvoSuite_not_started_sample_indices": [
+          12,
+          16,
+          23
+        ],
+        "ui_projection_health": "RECONCILED",
+        "ui_technical_hold": false,
+        "automatic_v2_resume": false,
+        "Gradle_version_qualification_allowed": true,
+        "Gradle_benchmark_admitted": false,
+        "new_policy_accepted": 180,
+        "pending_transport_recovery": [],
+        "maven_policy_pending": 31,
+        "maven_unattempted": 10,
+        "maven_deferred_unscored": 20,
+        "deferred_sample_indices": [
+          48,
+          49,
+          72,
+          112,
+          119,
+          128,
+          138,
+          145,
+          148,
+          163,
+          173,
+          198,
+          202,
+          211,
+          220,
+          224,
+          239,
+          269,
+          275,
+          294
+        ],
+        "full300_complete": false,
+        "automatic_resume": false,
+        "live_process_check_at_utc": "2026-10-26T11:19:39.834914+00:00",
+        "runner_invocation_version": "v6",
+        "runner_liveness": "PRESENT_MATCHED_PID_AND_CREATE_TIME"
+      }
+    },
+    {
+      "at_utc": "2026-10-26T11:19:59.864880+00:00",
+      "runner_PID_and_creation_match": true,
+      "runner_CPU_seconds": 1950.109375,
+      "runner_IO": {
+        "read_count": 9964770,
+        "write_count": 298897,
+        "read_bytes": 232899136841,
+        "write_bytes": 4660392625,
+        "other_count": 100512799,
+        "other_bytes": 4318587096
+      },
+      "owned_children": [],
+      "disk_free_bytes": 16233189376,
+      "runtime": {
+        "phase": "MAVEN V6 / CHECKPOINT",
+        "updated_utc": "2026-10-26T11:19:57.142281+00:00",
+        "target": 300,
+        "reused_verified": 49,
+        "new_completed": 181,
+        "running": 0,
+        "maven_pending": 30,
+        "gradle_pending": 40,
+        "new_API_calls": 0,
+        "new_EvoSuite_calls": 209,
+        "GPT_guard": "PASS",
+        "reuse49_guard": "PASS",
+        "benchmark_admitted": true,
+        "missing_focal_candidates": 0,
+        "focal_candidate_disagreements": 0,
+        "disk_free_GB": 16.23,
+        "blockers": [
+          "Maven chưa có kết quả: 30; chưa thử: 10; giữ lại chưa chấm: [48, 49, 72, 112, 119, 128, 138, 145, 148, 163, 173, 198, 202, 211, 220, 224, 239, 269, 275, 294]",
+          "Class giữ lại vẫn thuộc mẫu300; không gán0, không giảm denominator hoặc tuyên bố E1-full300 hoàn tất",
+          "12 class đầu vào/provider chưa chấm; không sửa POM/JUnit, không giảm mẫu300",
+          "Gradle40 chưa admit benchmark; queue fixture cũ đã SKIPPED và không tự khởi động lại",
+          "GPT/API/repeated subset và paper giữ nguyên; STOP và ngưỡng đĩa12GB vẫn áp dụng"
+        ],
+        "tasks": [
+          {
+            "id": "B1.0",
+            "name": "Khóa 300 keys và phạm vi E-only",
+            "status": "DONE"
+          },
+          {
+            "id": "B1.1",
+            "name": "Xác minh E49 và GPT guard",
+            "status": "DONE"
+          },
+          {
+            "id": "B1.2",
+            "name": "Maven controller và input đã nghiệm thu",
+            "status": "DONE"
+          },
+          {
+            "id": "B1.3",
+            "name": "Qualify Gradle 40 class, chỉ trong sandbox E",
+            "status": "BLOCKED"
+          },
+          {
+            "id": "B1.4",
+            "name": "Maven controller fixture PASS; Gradle chưa qualify",
+            "status": "IN_PROGRESS"
+          },
+          {
+            "id": "B1.5",
+            "name": "Maven v6: giữ nguyên cách đo; tách class chưa hỗ trợ, không gán điểm",
+            "status": "IN_PROGRESS"
+          },
+          {
+            "id": "B1.6",
+            "name": "Audit 300 và phân tích RQ4/RQ5 riêng",
+            "status": "NOT_STARTED"
+          }
+        ],
+        "source_census": {
+          "timestamp_utc": "2026-10-25T22:12:03.458037+00:00",
+          "class_count": 251,
+          "unique_candidate_roots": 251,
+          "candidate_files": 517483,
+          "candidate_bytes": 8230643238,
+          "candidate_GB": 8.231,
+          "backup_adapter_files": 8,
+          "disk_free_GB": 28.52,
+          "scope": "metadata census, descriptor hashes and adapter backup; no complete source snapshot or execution adapter yet",
+          "new_experiment_calls": 0,
+          "recovery": "v1 metadata census completed, adapter backup stopped at wrong helper basename. v2 verified existing copies and backed up correct junit_method_inventory_v1.py; v1 script/error retained."
+        },
+        "GPT_guard_checked_utc": "2026-10-26T11:19:56.923058+00:00",
+        "source_snapshot_roots_completed": 251,
+        "source_snapshot_files": 517483,
+        "fixture_EvoSuite_calls": 3,
+        "private_cache_status": "PASS",
+        "runtime_fixture_status": "PASS",
+        "benchmark_EvoSuite_calls": 206,
+        "active_sample_index": null,
+        "benchmark_EvoSuite_commands_planned": 209,
+        "benchmark_EvoSuite_commands_not_started": 3,
+        "benchmark_EvoSuite_not_started_sample_indices": [
+          12,
+          16,
+          23
+        ],
+        "ui_projection_health": "RECONCILED",
+        "ui_technical_hold": false,
+        "automatic_v2_resume": false,
+        "Gradle_version_qualification_allowed": true,
+        "Gradle_benchmark_admitted": false,
+        "new_policy_accepted": 181,
+        "pending_transport_recovery": [],
+        "maven_policy_pending": 30,
+        "maven_unattempted": 10,
+        "maven_deferred_unscored": 20,
+        "deferred_sample_indices": [
+          48,
+          49,
+          72,
+          112,
+          119,
+          128,
+          138,
+          145,
+          148,
+          163,
+          173,
+          198,
+          202,
+          211,
+          220,
+          224,
+          239,
+          269,
+          275,
+          294
+        ],
+        "full300_complete": false,
+        "automatic_resume": false,
+        "live_process_check_at_utc": "2026-10-26T11:19:59.864880+00:00",
+        "runner_invocation_version": "v6",
+        "runner_liveness": "PRESENT_MATCHED_PID_AND_CREATE_TIME"
+      }
+    }
+  ],
+  "observed_change": {
+    "runner_CPU_seconds": 2.3125,
+    "read_operations": 14720,
+    "write_operations": 103,
+    "runtime_completed_change": 1
+  },
+  "new_Maven_terminal_records_seen": 181,
+  "total_terminal_records_with49": 230,
+  "remaining_Maven_without_job_folder": [
+    287,
+    288,
+    289,
+    291,
+    293,
+    295,
+    296,
+    297,
+    298
+  ],
+  "incomplete_job_observations": [
+    {
+      "index": 286,
+      "source_restore_receipt": false,
+      "job_admission_present": false,
+      "command_plans": 0,
+      "terminal_result_present": false
+    }
+  ],
+  "unscored_indices": [
+    48,
+    49,
+    72,
+    112,
+    119,
+    128,
+    138,
+    145,
+    148,
+    163,
+    173,
+    198,
+    202,
+    211,
+    220,
+    224,
+    239,
+    269,
+    275,
+    294
+  ],
+  "native_JUnit_receipt_checks": [
+    {
+      "index": 48,
+      "receipt_sha256": "e40ec08a0ecfa86f8aa7b91ccea8930935d86bfe6a5811a5060cfd5cd0feda29",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 49,
+      "receipt_sha256": "491cbb34baf2d2eaa64f879f46bcf348a4278d5ef54fab62e32f558d40b26f1a",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 128,
+      "receipt_sha256": "1290906921bf3a2e00c7cf5938174f56cb573caa5d75f2d945239c6bd6542b92",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 138,
+      "receipt_sha256": "028add2960a77b8a586c3f6823a29a29deaa17025a919dd9cc5104b7cb25a90a",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 145,
+      "receipt_sha256": "aa93d1c652fe0f0b5d80f378557e23aefe94efddc64693314654ea095c23529f",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 148,
+      "receipt_sha256": "a34683cb34e0dcf8536c722c342c9d7892ec64b6029c03cbcb1d69b42a93c91d",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 198,
+      "receipt_sha256": "29b4fea282c646d324c580bb29fc8d8d14e9433fa5f7ed791208d6a36f969daf",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 202,
+      "receipt_sha256": "78fe3440c8d46c48d878a21d4e3bf698aa95bb7edd2c16204dd5185003cd39d1",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 224,
+      "receipt_sha256": "6d93aef002d9a8a8b1f43c460836e9dbc5b4bf5bd17bbed54b7c85b2921277cb",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    },
+    {
+      "index": 239,
+      "receipt_sha256": "7068fab62ab4f3018cae6039d317b73090c8d816382add0428810e067b28964c",
+      "anchor_check": "PASS",
+      "scope": "receipt/manifest/native/dependency anchors only; no new full repo census"
+    }
+  ],
+  "latest_closed_archive_spot_check": {
+    "index": 285,
+    "archive": {
+      "status": "PASS",
+      "files_verified": 225,
+      "manifest_sha256": "e7c240034fa88ecc326da2f1053f8d7307584cac44a610159fa5462d97a3b753",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "scope": "one closed archive; not a cohort-wide byte audit"
+  },
+  "Gradle_component_queue_state": "WAITING_FOR_CURRENT153_CLEAN_COMPLETION",
+  "new_Gradle_JVMs": 0,
+  "new_GPT_API_calls": 0,
+  "experiment_config_changed": false,
+  "paper_changed": false,
+  "full300_complete": false,
+  "multi_file_read_is_transactional": false
+}

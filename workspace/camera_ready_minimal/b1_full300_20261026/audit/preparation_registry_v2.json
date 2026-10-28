@@ -1,0 +1,150 @@
+{
+  "created_utc": "2026-10-25T22:12:04.370795+00:00",
+  "files": [
+    {
+      "path": "audit/adapter_backup_manifest_v2.json",
+      "sha256": "80d2640ab4241a9bbf1cddac27e0ef0880115212c18723667e7f7bd29a00a5df",
+      "bytes": 3130
+    },
+    {
+      "path": "audit/GPT_guard_after_preparation_v2.json",
+      "sha256": "51340907666e148c38c642a3aeab96d7a0db3fe3c2ca154742a8b3089455f69d",
+      "bytes": 222
+    },
+    {
+      "path": "audit/GPT_guard_initial.json",
+      "sha256": "51340907666e148c38c642a3aeab96d7a0db3fe3c2ca154742a8b3089455f69d",
+      "bytes": 222
+    },
+    {
+      "path": "audit/gradle_readiness_inventory_v1.json",
+      "sha256": "c96f71733751710f5dd9123e23239e3a8d30fd3c3fcfd8fb2767b0e5addad237",
+      "bytes": 68547
+    },
+    {
+      "path": "audit/input_lock.json",
+      "sha256": "ba64e7a74d055c0cd7396613bc34d419366d77162ce6f419c4897448abf1ec8a",
+      "bytes": 2481
+    },
+    {
+      "path": "audit/monitor_http_checks_v1.json",
+      "sha256": "4a5480f5d189be4281f4fce5e731658ef111f970dd6f344cf461923efbb1875c",
+      "bytes": 434
+    },
+    {
+      "path": "audit/source_census_summary_v2.json",
+      "sha256": "192ad2f275a95e7a734c424c2c71f53eaa0198bc0878c7bc6639108f70e98495",
+      "bytes": 618
+    },
+    {
+      "path": "audit/source_census_v1.json",
+      "sha256": "9f6cfc69b38b0effbbdc337f45d381e83fce4780c23d647dc7065de2b5d97eef",
+      "bytes": 84370880
+    },
+    {
+      "path": "authorization.json",
+      "sha256": "85e6c04815c6fa6089ebe6311c97b5521c70181913f2c772badc0f80e639c5e2",
+      "bytes": 524
+    },
+    {
+      "path": "backups/accepted49_adapter/evo_patch/working/AgoneTest/evosuite_profile.py",
+      "sha256": "82aa3a4fff73200a1b4d5ddf9b560d3dc408d3cbabe78c5698e698a1fe902ef6",
+      "bytes": 869
+    },
+    {
+      "path": "backups/accepted49_adapter/evo_patch/working/AgoneTest/mavenLib.py",
+      "sha256": "5dac38274def8c18600fa40bc92c25a187cdc57453ebc31f8e26bcf0d716ae94",
+      "bytes": 104678
+    },
+    {
+      "path": "backups/accepted49_adapter/src/analyze_e49_final_v2.py",
+      "sha256": "802133f6313ff3f2fa42d09d85dd7718cbb3a9d0015db4c0a5455931313c73ed",
+      "bytes": 20190
+    },
+    {
+      "path": "backups/accepted49_adapter/src/diagnose_e1_compatibility_v4.py",
+      "sha256": "82ad00778ff7cb423f16051ede46d316238dbf45b354e90d9216ca20a9517ed9",
+      "bytes": 19336
+    },
+    {
+      "path": "backups/accepted49_adapter/src/e49_driver.py",
+      "sha256": "afac9d826061f79292e629f973ba2a5a3138d6c86e40eba2a2ece709ef5345d4",
+      "bytes": 14843
+    },
+    {
+      "path": "backups/accepted49_adapter/src/junit_method_inventory_v1.py",
+      "sha256": "ae4190f3fb1b70886f506fcc3080598011a1cb6055a9fb5ad6ede6e4e403c655",
+      "bytes": 6322
+    },
+    {
+      "path": "backups/accepted49_adapter/src/replay_fixed49_measurement_v5.py",
+      "sha256": "fc76b20e41958646e5974394be29f0076fb137d1342362720bd9885b7025cc54",
+      "bytes": 33640
+    },
+    {
+      "path": "backups/accepted49_adapter/src/run_e49_supplement.py",
+      "sha256": "164eaabcbad5eff4bc2a638a61329777db2eb916b274e32773bd310d90b7c3bd",
+      "bytes": 6664
+    },
+    {
+      "path": "backups/status_before_preparation_v2.json",
+      "sha256": "85acc0600e06572ad63b27696bdc3b7a7dc51b40e380b259049a9605dc040d0b",
+      "bytes": 1647
+    },
+    {
+      "path": "EXECUTION_ACCEPTANCE.md",
+      "sha256": "4e4c558063ab282062426bf6ed6a0d29af1f59058bba9425be21a2677264c711",
+      "bytes": 4837
+    },
+    {
+      "path": "manifest300.json",
+      "sha256": "ba1dcae0c0fdca7dc985dee073696afed3568b343510573a4565bb2652b99b39",
+      "bytes": 657535
+    },
+    {
+      "path": "monitor/dist/index.html",
+      "sha256": "efcbea3b1780524d58efc65473ccd0d800411f56feea741228811e619fdac7b7",
+      "bytes": 11252
+    },
+    {
+      "path": "monitor/serve.py",
+      "sha256": "148303fa7be3826d984177fe2c9c9832c2ef2066d7d692cf4f77bee519722445",
+      "bytes": 2044
+    },
+    {
+      "path": "PLAN_B1.md",
+      "sha256": "73e98ea8f152d96dacf3d378dfc04526a80921194c780f09fb600e26be210ed6",
+      "bytes": 13028
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "48bac14a8c61b7e8a220deaec03aef07cf5ae8eecd7ed1fa94921ab4032388c6",
+      "bytes": 1678
+    },
+    {
+      "path": "README.md",
+      "sha256": "49c1fd699a576dfb1d6620a1e703689ea1be66c8a2bcfbf7d2f7b7806f54f8c4",
+      "bytes": 1778
+    },
+    {
+      "path": "reuse49_admission.json",
+      "sha256": "3e62050d7e7201f32afadbb39494665a5a2754fd9a319d6a3ad6414066b56d88",
+      "bytes": 674
+    },
+    {
+      "path": "src/finalize_preparation_v2.py",
+      "sha256": "3735af9af5d387f26c8f97304c13543846d3b946f9fe95f5058564b8ef69e6ac",
+      "bytes": 6310
+    },
+    {
+      "path": "src/source_census_v1.py",
+      "sha256": "ae32ad62cd31296af3690e8d5b5ef97e3cd73128c43f2fe1a09b77a885859703",
+      "bytes": 3656
+    }
+  ],
+  "mutable_projections": [
+    "status.json",
+    "events.jsonl"
+  ],
+  "benchmark_admitted": false
+}

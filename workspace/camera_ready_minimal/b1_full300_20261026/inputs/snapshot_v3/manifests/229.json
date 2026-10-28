@@ -1,0 +1,3587 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\198_85795396_5c0f04f0\\compiledrepos\\85795396",
+  "class_indices": [
+    271
+  ],
+  "files": [
+    {
+      "relative": ".asf.yaml",
+      "sha256": "966dcf9109a21de930143951c59b17e636a794c422408fa01da2493875150e39",
+      "bytes": 1476,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596697629000
+    },
+    {
+      "relative": ".editorconfig",
+      "sha256": "ece3b82c0d34f9b8d88630fe63964dc9fa7e0b34c85265b2518c73398bd175c6",
+      "bytes": 1609,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596697629000
+    },
+    {
+      "relative": ".gitattributes",
+      "sha256": "877340658176a14fe06bc13e095338365986b82798e1adca37bfd2ec12d28db2",
+      "bytes": 766,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596697629000
+    },
+    {
+      "relative": ".gitignore",
+      "sha256": "cd71973bc71a00a7247ab5a0c3d0750c08423f644903e46198c4d3a219ad974f",
+      "bytes": 301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596701169500
+    },
+    {
+      "relative": ".ratignore",
+      "sha256": "37a6fdcb4effbb3a926b5b0022c0e197f6152d88c83876f3ac31de4c4fd3f52a",
+      "bytes": 874,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596701169500
+    },
+    {
+      "relative": "build.gradle.kts",
+      "sha256": "e76b734da56c28e698c873d767a6c531c25b239bafcaea0bcf418e37e6947e47",
+      "bytes": 22547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596703171000
+    },
+    {
+      "relative": "docker-compose.yml",
+      "sha256": "e2b167b38c7eeb271140429b6ffe4446f3ed46c350987b63869a5c498fc19f5c",
+      "bytes": 1842,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596798895600
+    },
+    {
+      "relative": "docker.sh",
+      "sha256": "1fd340673918d038424d6b842878864dc4288e76cfb71f69ecc292eea667dd73",
+      "bytes": 9906,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596798895600
+    },
+    {
+      "relative": "gradle.properties",
+      "sha256": "c0d2b453cd0fcdfeb1218e6877e0e3ce94b799280f21714f0d3a3008ed6b0469",
+      "bytes": 3127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596806225500
+    },
+    {
+      "relative": "gradlew",
+      "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+      "bytes": 8733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596807230700
+    },
+    {
+      "relative": "gradlew.bat",
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+      "bytes": 2937,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784761596808226000
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "f636654dde04ee4da731f58adad379886f731dedec5890b61af675464be3f76c",
+      "bytes": 10996,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596702174200
+    },
+    {
+      "relative": "NOTICE",
+      "sha256": "08a60fd085f8f4c567bf58e411128f0bf4d1a2de0bcf887e336ef5564180d082",
+      "bytes": 184,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596702174200
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784843047981820500
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "aeb102da546dc15a4729a8a595633b8ff0d85f3d29e282bfc7366277d3daf8d9",
+      "bytes": 20183,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784843047895952600
+    },
+    {
+      "relative": "README",
+      "sha256": "3400181dfc58fef999e1b628fe7c24691eaa7baa527d06afaa05e8b0553f3cbc",
+      "bytes": 708,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596702174200
+    },
+    {
+      "relative": "README.md",
+      "sha256": "a68f9baa2e46d0f70a8d31968091ff568456a5a16444b73d7e757e395b01c368",
+      "bytes": 1547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596703171000
+    },
+    {
+      "relative": "settings.gradle.kts",
+      "sha256": "13d323953c2ed9c3c30211b69f9909764e867578bc7cc4621f97a31d382070a2",
+      "bytes": 3640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596865076000
+    },
+    {
+      "relative": ".github/workflows/build-docker-hub-images.yml",
+      "sha256": "e0d838ad7c6bd4fae7847be1934d9ce8b2a590d8bc65ce8eae04dec2595ab50c",
+      "bytes": 3381,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596698625300
+    },
+    {
+      "relative": ".github/workflows/cifuzz.yml",
+      "sha256": "e3c5c791a84013556c5e73a9e49c0e85cb114752cc2cbf8f26fafecf36334046",
+      "bytes": 2471,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596698625300
+    },
+    {
+      "relative": ".github/workflows/gradle-wrapper-validation.yml",
+      "sha256": "c85dafa947054fc25b16606efda0b097339aa8297f2b92d479fa8cd4970c2ee6",
+      "bytes": 1030,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596698625300
+    },
+    {
+      "relative": ".github/workflows/main.yml",
+      "sha256": "14c856caca300b36a825236684886b6c468aa1e016f513a2bb9b0e0970808d8d",
+      "bytes": 6659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596700084400
+    },
+    {
+      "relative": ".github/workflows/publish-non-release-website-updates.yml",
+      "sha256": "c9a8a02fd8b28457d9a2444a93cc5c26f9aed449dbbca1b002cbe4e680b29f38",
+      "bytes": 2388,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596700084400
+    },
+    {
+      "relative": ".github/workflows/publish-site-and-javadocs-on-release.yml",
+      "sha256": "f71ade3b1cec980ea923774d2226365f0d858ffaf7519d547dbcef48babab001",
+      "bytes": 1957,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596700084400
+    },
+    {
+      "relative": "bom/build.gradle.kts",
+      "sha256": "d8829e9ef985b393bfa4c50f1c6e9743e7cb6027aba9ab99392a830547727c02",
+      "bytes": 4023,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596703171000
+    },
+    {
+      "relative": "core/build.gradle.kts",
+      "sha256": "526e134f117c1e4cdeaaa76fa633816b165ee1873931992038292d447168536e",
+      "bytes": 4483,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784852982503173600
+    },
+    {
+      "relative": "core/gradle.properties",
+      "sha256": "863912bf1118e67fd14e77d2eed34222db77b6e4908ed887ab2df6e61dde2b8d",
+      "bytes": 870,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596704661600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaClientRuntimeException.java",
+      "sha256": "124cddf90f9e773b10887cb0e4c38899058eabd5eff2f7f510a61ca3984ba39c",
+      "bytes": 3373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596708516400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaConnection.java",
+      "sha256": "b776be7ad3c60f3db06df09d078a6623c214b6e125e82ef5241193925d965eb4",
+      "bytes": 28742,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596708516400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaDatabaseMetaData.java",
+      "sha256": "56f69ae8b8893a3adedbf7fa6c076f736027dfc3b76d8b6f83b4f066314bf7db",
+      "bytes": 46355,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596709516800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaFactory.java",
+      "sha256": "4cc951581e6b4ea9682a278d6fbe3066061bf6ccdac32005871365f10f05451c",
+      "bytes": 2992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596709516800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaJdbc41Factory.java",
+      "sha256": "e805ac4b46236510c8cd991d66e0b70988f4cb3b134871adcc392f979e66e81f",
+      "bytes": 8382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596709516800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaParameter.java",
+      "sha256": "6371433c49361de4ba59cc21b7fb040a57a9418ddbe81e1970549ad332807a1b",
+      "bytes": 3953,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596710891200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaPreparedStatement.java",
+      "sha256": "844d966ed0697883a3f07e3cd5d79a0e377947d6a58414f0d1bab988c25c87d0",
+      "bytes": 16290,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596710891200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaResultSet.java",
+      "sha256": "d0ad61cb6b30b09af8604e2a189a83d1b7a10a526da7fcdd0f85390b64493fc7",
+      "bytes": 33346,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596710891200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaResultSetMetaData.java",
+      "sha256": "b0258f1c797b3a8f4ea95cc6964bc234e321b36929f82cc17765edf6af2513fe",
+      "bytes": 4531,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596711882800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaSeverity.java",
+      "sha256": "da91994fe2270eb67a82103b60ecb7f226547a198af93a89ce9997195ceba08a",
+      "bytes": 2700,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596711882800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaSite.java",
+      "sha256": "2b359264687021e490eb6c31b8ba4dda127a7c25268583550210ea08d1a0ca12",
+      "bytes": 16927,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596711882800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaSpecificDatabaseMetaData.java",
+      "sha256": "3f84157fc0eef9da443f4913551e336285e28906ab80d759ac90984814579aac",
+      "bytes": 2521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596713305200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaSqlException.java",
+      "sha256": "531a49799e648de3f4658d96d72ec7ca6ef2e0bb1d7f7e36fa941c8a2e8fb741",
+      "bytes": 4248,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596713305200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaStatement.java",
+      "sha256": "e0f8e593576d82f74185085dd8849ccefb096790a40904057f76149e7db43129",
+      "bytes": 19889,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596713305200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/AvaticaUtils.java",
+      "sha256": "9c867a001d76a5fd68e1ed4a25cf64a9d156756fcae73040a21f3f6188da6005",
+      "bytes": 17649,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596713305200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/BuiltInConnectionProperty.java",
+      "sha256": "edb0ba63b8a2622920113a44a6207b4b5f3351ec5dde8dce42f4b3a609151554",
+      "bytes": 7971,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596714634400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ColumnMetaData.java",
+      "sha256": "78af3ff2d982315d5677318667ffa64b218005a07de076e4a4eb3635c6f86a6e",
+      "bytes": 24817,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596714634400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ConnectionConfig.java",
+      "sha256": "426732b7bc542b4f7bd1c21323cf7aac58fd905acaa1e3282332b77e02949cfe",
+      "bytes": 4044,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596716075200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ConnectionConfigImpl.java",
+      "sha256": "63ea042361f62f123e330e87a38f05d8c7b09cc23dd7e239b2c38a0a0bbb69e9",
+      "bytes": 16605,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596716075200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ConnectionPropertiesImpl.java",
+      "sha256": "0f30a20c0cecfded75308ce795027c6cbd84c45e8eab4c0d18f2a139d97b432a",
+      "bytes": 9220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596716075200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ConnectionProperty.java",
+      "sha256": "f9f8f9ee6b5cdf5e7d4362a688b7315f8bfa95b7dba8bd230249edc04c8eecd2",
+      "bytes": 4023,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596716075200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ConnectionPropertyValue.java",
+      "sha256": "48e89d9c9d99e197c2275f9e9a594a441d128ee0ef770305601f66473550911a",
+      "bytes": 3395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596717563400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ConnectStringParser.java",
+      "sha256": "c381518008f88edb6a8b2df0e0499366ac09329feb6f4a91d1a4fbe4d65cf0f9",
+      "bytes": 11431,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596714634400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/DriverVersion.java",
+      "sha256": "bdfa5e1f6a47565da56997d04b5eec8d3435dfb3b8becc66e8eb76af620b5b4b",
+      "bytes": 5571,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596717563400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/Handler.java",
+      "sha256": "4b8538d701c3624abf44e24c4ad2e116a2f4a9fdcbb373f2a0a5899cf2839a36",
+      "bytes": 3320,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596717563400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/HandlerImpl.java",
+      "sha256": "560083beb00441be2da95c60c0932737d1e3341f21acd1877dcdae0cee4239e7",
+      "bytes": 1578,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596718562600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/Helper.java",
+      "sha256": "7a0c6decbbd7b43ee52c9376f7645dfd186e59f0b062e88890042bf4c7608f2a",
+      "bytes": 2720,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596718562600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/InternalProperty.java",
+      "sha256": "43f816e5c8aad7d8820116f67fb875317d31f6b37d5bba77fdd72b1cbe425137",
+      "bytes": 3709,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596718562600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/Meta.java",
+      "sha256": "c311ef98405fbf60b857a635435f20d5258bac20a7e762ab57becd7de87545ba",
+      "bytes": 50507,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596719563200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/MetaImpl.java",
+      "sha256": "c9b048ea62aedf48b54c66ccf66a0416626c4e15cdad22487bd467961949805c",
+      "bytes": 55266,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596719563200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/MissingResultsException.java",
+      "sha256": "76073e010daa76450a42567a8a4a843e8d482de103cd223c025aa422fd844ee0",
+      "bytes": 1406,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596720917500
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/NoSuchConnectionException.java",
+      "sha256": "fd6a724fbd73fb45543d68d1270e28e4efae9d09a3ccd95d22e7ec3f9b1a9551",
+      "bytes": 1314,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596720917500
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/NoSuchStatementException.java",
+      "sha256": "40c1a2ec50536d289a8bd36bb1b86449ab9b21d2a2e7c5a0297eaf30cc708d6b",
+      "bytes": 1382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596720917500
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/package-info.java",
+      "sha256": "39d2eb9e7e0dea003c3f87ee45063a40ea2ba9e104a62ba92bd3da307c1b6d94",
+      "bytes": 919,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596726122000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/QueryState.java",
+      "sha256": "db56e1ca4d9a76ed080a3a40d13f0546408cd2a59fc29e44447419149d035090",
+      "bytes": 15885,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596720917500
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/SqlState.java",
+      "sha256": "21884dfbf5959e10c1659b947ca84e9860338e54a3307e1e5348deccb1138927",
+      "bytes": 64452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596722328200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/SqlType.java",
+      "sha256": "a0e86befa7fe90ce8f299ee74cd2f2cf12c3953c06393fc83a31d6d935ca7c88",
+      "bytes": 23668,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596722328200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/UnregisteredDriver.java",
+      "sha256": "37ac4a33f67a7bcab601aa8b538140625501452cabd2d749da3dfbcd4bc5cc70",
+      "bytes": 8651,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596723671000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ha/LBStrategy.java",
+      "sha256": "06bb3edcdb03fbfcf522a83012b94cc3673a7750509eef5fa096ae531438b54c",
+      "bytes": 1070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596723671000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ha/package-info.java",
+      "sha256": "c7ae2198bac96aded442060d2a0f800cc52299cea04498ac4d1f598641ae8db1",
+      "bytes": 951,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596724672600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ha/RandomSelectLBStrategy.java",
+      "sha256": "92886be5eb41adc41f73c9e7c55987d7adb6fa70c494d68a1a24f365881e54f4",
+      "bytes": 1575,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596724672600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ha/RoundRobinLBStrategy.java",
+      "sha256": "de0fd39b41cf6b6119e5acfcbd5c80cbd1b83a1662abc3752c4716d1c0b62fe7",
+      "bytes": 2350,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596724672600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/ha/ShuffledRoundRobinLBStrategy.java",
+      "sha256": "1dc768376d80dc451d0454eb29c2170587a5333b1f98b05dba023a9ee9490fa8",
+      "bytes": 2900,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596724672600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AbstractHandler.java",
+      "sha256": "6375f023470c8be556b64b829a21954ef2e1f800bb718565e4793c1d787b0ef5",
+      "bytes": 6763,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596726122000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AbstractService.java",
+      "sha256": "48aaf5493b9c3c5346a72b7e7af84e5cd460636bb1492fef3a50876422c1202d",
+      "bytes": 5023,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596727124200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AuthenticationType.java",
+      "sha256": "1f3b625ca2d490e54e912a2ed59d07e7809d3bf06bbbd8cb578d8e53949ab7a2",
+      "bytes": 1079,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596727124200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaCommonsHttpClientImpl.java",
+      "sha256": "73ca87e8119bd7ee4358b1574a231e2e2826edb0644baf2bdd5b0951a69afc41",
+      "bytes": 13698,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596727124200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaHttpClient.java",
+      "sha256": "77b6f8221376de8fc9ffc655eb7f78b98b268d8dcfc029656e7af176da9f2a73",
+      "bytes": 1216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596727124200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaHttpClientFactory.java",
+      "sha256": "a478b9dfd9d6dada952c15b579baabb331ab890757c6aedcf40b62ef73a5f189",
+      "bytes": 1477,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596728602000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaHttpClientFactoryImpl.java",
+      "sha256": "2e6a93c0b7aa7341d6a4c2e50ca0dbd30cb8e986a14d83f11502c83a64433867",
+      "bytes": 7243,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596728602000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaHttpClientImpl.java",
+      "sha256": "0130c3ce05418d059f8839ebaf5645e88e61eb08e5afbb6fafeb3fc58734796f",
+      "bytes": 2852,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596729990000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaRemoteConnectionConfigImpl.java",
+      "sha256": "9094aeabf0ad5a794d4ddd65d41e862b12c40b6a4ad9c3cfbbfbef99e93de943",
+      "bytes": 1475,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596729990000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaRemoteConnectionProperty.java",
+      "sha256": "0b2d16ce4a977f9f5019f707da8929bb0188fdb35cc9d6cde274310f0b53b8fe",
+      "bytes": 2597,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596729990000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/AvaticaRuntimeException.java",
+      "sha256": "e4781f56cfc55fc62858e44c4feeffeec109fd38f52e9ad3537ec39117bc4c0c",
+      "bytes": 3572,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596731352800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/BearerAuthenticateable.java",
+      "sha256": "c0106815a9aa3da0ffbdd45e2355d2963d68470c85be6c67363b4eee8acc0540",
+      "bytes": 1265,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596731352800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/BearerTokenProvider.java",
+      "sha256": "04b5cf26a580b8a47cdba73f05efe1e56b58e0c4a0c601ba7cb44f41ea237b52",
+      "bytes": 1406,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596732355000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/BearerTokenProviderFactory.java",
+      "sha256": "f9f86205afea18ee03a89a579d50be55ceb2f78414f539e407e2d6e6b87b6ce6",
+      "bytes": 2442,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596732355000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/ClientKeytabJaasConf.java",
+      "sha256": "ab4db66f2bd92e839c00291f39939f4dec0ced14a6ff8be58602f5f71ff00806",
+      "bytes": 2532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596732355000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/CommonsHttpClientPoolCache.java",
+      "sha256": "a2ec177b5c324df70dddef1f29c1ab0be05203caa9a48dddd97f741e8eaba3a9",
+      "bytes": 7823,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596733353000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/ConstantBearerTokenProvider.java",
+      "sha256": "ee47207ca074a5ef988a69b4524ed617fe4e93898c29ebdad38691170df95fa5",
+      "bytes": 1576,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596733353000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/DoAsAvaticaHttpClient.java",
+      "sha256": "7b8a0635726aee5c74e033da9ac7a97849b8a5df05161fc7557648ab1aa381b3",
+      "bytes": 1771,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596733353000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/Driver.java",
+      "sha256": "112fdf8fc0c407762901f03ea41a4647e12fcd71c61bdbb20ac081fa01bbb03b",
+      "bytes": 8245,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596734354700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/GSSAuthenticateable.java",
+      "sha256": "25755b17fc2f23cf2df4481da2b0a570f43c984a2adbf65711dc6e975941f0be",
+      "bytes": 1293,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596734354700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/Handler.java",
+      "sha256": "b4492236c237ccf5fe05e99efc07f27831324455c26c6931807d64308c2fc29b",
+      "bytes": 2278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596734354700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/HostnameVerificationConfigurable.java",
+      "sha256": "1010d37122bbf538eccda3219d1c03e7ba8ce67329d9b2790e29501ef5faf714",
+      "bytes": 1687,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596735508200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/HttpClientPoolConfigurable.java",
+      "sha256": "3144030d23ecdb41448c14b54c257bd705575667cd8127db38079bff5591bbcf",
+      "bytes": 1609,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596735508200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/JsonHandler.java",
+      "sha256": "bc77599d9b3429ade5545939127c3961b7b4dfb76428ff736a012c57af71759d",
+      "bytes": 2699,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596735508200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/JsonService.java",
+      "sha256": "46570ab6d16d5ac773cb8269b14b9f3fbe8d872bb30d55fd4fb1f7c02678158c",
+      "bytes": 7395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596736543700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/KerberosConnection.java",
+      "sha256": "c241d5f5734349e24569ee0380480b7e7d3080ea0d61b0b004bec01b388e734c",
+      "bytes": 14116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596736543700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/KeyStoreConfigurable.java",
+      "sha256": "8f464edcbf3c062de62d4a5677e37b5838028c61b4cd4283bcac1cb131abe2f5",
+      "bytes": 1552,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596737718000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/LocalJsonService.java",
+      "sha256": "0905eb9da4f6ee52e986d3cb2b04f39790d440a5214361c81cd40ed15a64cdad",
+      "bytes": 1638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596740104700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/LocalProtobufService.java",
+      "sha256": "a3966da362752e4cfc51b520d86a9d294125d77bbeed4402ce6cdc5944f9b9d7",
+      "bytes": 2286,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596740104700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/LocalService.java",
+      "sha256": "5919f642f9d92d7022aa73e2a7c3cc1e0639699eadd2bc0b77cc9e08081f0290",
+      "bytes": 15123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596741608400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/MetaDataOperation.java",
+      "sha256": "95765c9d02510d253b46a979c5f70b28e3a82dfc586d37c3458180f83d64ded2",
+      "bytes": 6608,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596741608400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/MetricsHelper.java",
+      "sha256": "a935ffc44319102ff51fbb314a6a07e91b610a8fc39151bc96db901511a425da",
+      "bytes": 1293,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596741608400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/MockJsonService.java",
+      "sha256": "3f73783e67ddcaa4892830937355b1e90915f1b0d1e00b44526836c695fb5695",
+      "bytes": 6605,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596741608400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/MockProtobufService.java",
+      "sha256": "55fc98b72ac6098538032aeb9e00167a9914ffa49a3feb97c7af87d74074894e",
+      "bytes": 5828,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596743028400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/package-info.java",
+      "sha256": "84455bd0e16d365217429a83d537b522077407779e007441ec799f3a47015057",
+      "bytes": 948,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596751173500
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/ProtobufHandler.java",
+      "sha256": "75ff02822eb4e2152490473cc8c73a64131109b22655d40a48ce0d6b638ec520",
+      "bytes": 2406,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596743028400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/ProtobufMeta.java",
+      "sha256": "507ab726c30b8b9886d17c4454b544f29ac5c0a46e4b9b67e650caf0d2d1493b",
+      "bytes": 2023,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596744027600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/ProtobufService.java",
+      "sha256": "ea50fd46c7b7527180ad84e4043c8682f37b08c8e529732bb22fd42843691e8e",
+      "bytes": 5136,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596744027600
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/ProtobufTranslation.java",
+      "sha256": "a9261ba00d3e51657f26195184001c78b55b6d9561093f7345bba45026f4f68b",
+      "bytes": 2410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596745330800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/ProtobufTranslationImpl.java",
+      "sha256": "871edc725efdd535b51fdb9c17b21f29c462a14627b6da569e156320d2411f3e",
+      "bytes": 21440,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596746329800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/RemoteMeta.java",
+      "sha256": "a087a44fe081bf7af5539331b89c288aea68fb8c57768778374b257246c34ee7",
+      "bytes": 18254,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596746329800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/RemoteProtobufService.java",
+      "sha256": "c6e22f94809e21a988d8f6a62d9fd24d966f34ade1878b2d4fd62d5bd5ec4ef6",
+      "bytes": 2497,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596746329800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/RemoteService.java",
+      "sha256": "a5457be4fefa54de810e2d328c75d8193cff01aebb71a41ed95cbc218dd98531",
+      "bytes": 1537,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596747555700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/Service.java",
+      "sha256": "7f5801aea1d5672e6e4ee02fcb462211774ff440c6ee9484bdaf47fe46c0f157",
+      "bytes": 114478,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596748558300
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/TrustStoreConfigurable.java",
+      "sha256": "711954937acb5f99211e8441cc580c6030ed6b6157027e465b70f9f12468ee78",
+      "bytes": 1418,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596748558300
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/TypedValue.java",
+      "sha256": "7c8e6589026749d263e5e035d262219796b36974236981056278bb7e7cfa72a9",
+      "bytes": 34912,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596749974300
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/remote/UsernamePasswordAuthenticateable.java",
+      "sha256": "93c8dac73a1bc482ec1902a855a4bea31cc567ccbbbcd5bb9e9973ed5e435d17",
+      "bytes": 1371,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596749974300
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/AbstractCursor.java",
+      "sha256": "e22d1b798081bd3ce2e40b4f7bdf7d070eac4fc54b6477a0f9e7aa1178955234",
+      "bytes": 54151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596752339000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/ArrayFactoryImpl.java",
+      "sha256": "66a96bbd07ea4c74b9b6319231c32ba92a98afe243f1db6938a579dd83cbcd46",
+      "bytes": 6194,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596752339000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/ArrayImpl.java",
+      "sha256": "7ba35ab2c9240e1c9f1abb09c763a8593a898bdf187c9219e7c932a832984b18",
+      "bytes": 9325,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596752339000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/ArrayIteratorCursor.java",
+      "sha256": "d657f18399b2f7954069d769735740d611085e511bd1c2d7599210f03ee4ee6f",
+      "bytes": 1416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596753546000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Base64.java",
+      "sha256": "d1d0c9830a37da6c601c370e51c162e0dc426b5190bda61503bad3529b506ed2",
+      "bytes": 81934,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596753546000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/ByteString.java",
+      "sha256": "c435e845f8a9421b89f544efa1945269e747a1e2a697129f46c5c79e29012746",
+      "bytes": 10493,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596754953900
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Casing.java",
+      "sha256": "69049ae4eae9130dbccb2526b48489000868611d1c1f29415adb99f6aec8029c",
+      "bytes": 1367,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596754953900
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Cursor.java",
+      "sha256": "45648de72ce225e8af2dcc0dfe2e4636148ccadea3fb630b2191e11f3153fead",
+      "bytes": 4425,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596755953300
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/DateTimeUtils.java",
+      "sha256": "9da13e07bf2397a13a22e648a66433d5b139511e2ff769430dff2a3fe5f70ea6",
+      "bytes": 54216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596756955400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/IteratorCursor.java",
+      "sha256": "f694708f550a15ecb9b1fafd1cb550ee171a56f20cbe00d67920c41bf5fc6b7f",
+      "bytes": 2560,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596756955400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/ListIteratorCursor.java",
+      "sha256": "99be01220ceab9143f7c7e51e70b2fcebfc76dec9ea557f40322279fa02a7f39",
+      "bytes": 1434,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596756955400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/MapIteratorCursor.java",
+      "sha256": "fe716b74c8e9b2750ec8caf672f479c2698e4ea0c8a1eddd418edb2a476cbc54",
+      "bytes": 1723,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596756955400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/package-info.java",
+      "sha256": "1bce9de81f6d0ed0f376582ef75034434e90fa10a4f3f498fae405de26152b6e",
+      "bytes": 919,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596764266000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/PackageMarker.java",
+      "sha256": "81ff69919844c9cc3bc39d04789d5ae2a79f4c4a278bffe21feb0d200bfe4775",
+      "bytes": 1426,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596758400400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/PositionedCursor.java",
+      "sha256": "b9ea759343ba5533a25566e75c50ed9da1049dcae7eb92ed4a0c05a2496d10e9",
+      "bytes": 4806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596758400400
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Quoting.java",
+      "sha256": "41df27087a56dda780cf38f53a9b628d6d0d55ad4c81dc3185ba87052a32808e",
+      "bytes": 2087,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596759398200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/RecordIteratorCursor.java",
+      "sha256": "9926f756684a30963c8423900f572b329e07331bd14400bc05fdfa16b83b1d51",
+      "bytes": 2202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596759398200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/SecurityUtils.java",
+      "sha256": "366ad1c482462478483c397a5a8c6d90781a24d026fdb66447b6c5aefd8fc98b",
+      "bytes": 8121,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596759398200
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Source.java",
+      "sha256": "deb32009e89fce5771af431e1d9a9a6cb32d5634a64b5e67e29f0a43b801cea7",
+      "bytes": 2251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596760396000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Sources.java",
+      "sha256": "6c2a338fbb3918556dbacc307f73d13dcdcc4f8ca069e996ee4686f09e94b277",
+      "bytes": 8438,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596760396000
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Spacer.java",
+      "sha256": "eeb320a6bb6d285abb133f9d10f0415b4a04c3c60e683636d8cf532d5b895c5e",
+      "bytes": 2379,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596761399700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Spaces.java",
+      "sha256": "6f88bf3374d2c99a47227077a7f08c576aad0d5f52463c212f2bc04024f46a99",
+      "bytes": 5932,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596761399700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/StructImpl.java",
+      "sha256": "e5975134fab0b2ff10b311afcbcd75304d0696589bdd32d1d8d6bd0600747380",
+      "bytes": 2385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596761399700
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/TimeUnit.java",
+      "sha256": "9c4f6ed6571d437cc3e2dc8402aa468259320224179504b278a0cabeea1bf381",
+      "bytes": 4134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596762879800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/TimeUnitRange.java",
+      "sha256": "5ae0b5732323ddc18aede94c0bb861b28a80c09a2205b784b520d4511850b4e2",
+      "bytes": 4146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596762879800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/Unsafe.java",
+      "sha256": "5d327f54218292cf270d86d53b407074958821c4b424e8a6adfd08f997e0c0bc",
+      "bytes": 2254,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596762879800
+    },
+    {
+      "relative": "core/src/main/java/org/apache/calcite/avatica/util/UnsynchronizedBuffer.java",
+      "sha256": "78393a177dcb643c09a7680f129a3bfadda57b13670555c5bfcdefb9d0fb199e",
+      "bytes": 4096,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596762879800
+    },
+    {
+      "relative": "core/src/main/java-filtered/org/apache/calcite/avatica/util/FilteredConstants.java",
+      "sha256": "bb93643e47a212fbc7af72b2ec977b31ec10ab20aa4634f9c94d8408ffcb8186",
+      "bytes": 1098,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596707144000
+    },
+    {
+      "relative": "core/src/main/protobuf/common.proto",
+      "sha256": "9401fc4895c68714bf9379be4c935e40fd3aa6026366c8dd88f88172703bcedc",
+      "bytes": 7295,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596764266000
+    },
+    {
+      "relative": "core/src/main/protobuf/requests.proto",
+      "sha256": "4bd688e607157e1b2c5ad74f3cfc92d3a4c3585331ceae379ec31c7d341f6bde",
+      "bytes": 5640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596765528400
+    },
+    {
+      "relative": "core/src/main/protobuf/responses.proto",
+      "sha256": "f44a38878970492db879741056e4796c9b6bea848a67b963b14cfec9495fffe9",
+      "bytes": 4226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596765528400
+    },
+    {
+      "relative": "core/src/main/resources/META-INF/services/java.sql.Driver",
+      "sha256": "6cd821f6fce4d7f8485dbcf5d89c126acaa3419720f668c2bd1d3ee5f74123aa",
+      "bytes": 42,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596765528400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaClosedConnectionTest.java",
+      "sha256": "13dba24121400d842e283715716effcd5134aaebd438f7f5c509f6bbce382acf",
+      "bytes": 4243,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596768029200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaClosedPreparedStatementTest.java",
+      "sha256": "8f6a7ce6f64cffa2071df9daaeba1a6fe1be2e61b0f938a7693597493900c167",
+      "bytes": 3947,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596768029200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaClosedResultSetTest.java",
+      "sha256": "8bc41561276653c6763794b02f1bde5324b2b4f899ba307d3233ce9623f9f2d7",
+      "bytes": 3739,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596769310200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaClosedResultSetWithNullStatementTest.java",
+      "sha256": "8708984bc9b0cbb3eabb4af1e6e48e5c3a3b5bdc987082fa0af321c82b14519a",
+      "bytes": 3192,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596769310200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaClosedStatementTest.java",
+      "sha256": "a0b25bf9af0434fed00b81474dae077cb2436977d89ee043516939906a254dc2",
+      "bytes": 3396,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596770491100
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaClosedTestBase.java",
+      "sha256": "183c792ef9201711fc5aa26bfcd4b559ef533cbe9fa300dd3049702ce6a01a56",
+      "bytes": 6521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596770491100
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaConnectionTest.java",
+      "sha256": "05e6abcecc6264ac0cf3c99c287798b51912815ce4d030713a506c32bb75356a",
+      "bytes": 4570,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596771499900
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaMatchers.java",
+      "sha256": "849acb1439cfd3ea8459e0054eda8d4c516a784c15dbdde51e472a2864fc4238",
+      "bytes": 2398,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596771499900
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaResultSetConversionsTest.java",
+      "sha256": "a832f688adb802a9219bc3ee3ea24adba63583a52e271b4d4a4589419c9d84bc",
+      "bytes": 61280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596771499900
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaResultSetTest.java",
+      "sha256": "d477d234f3af40c5ba77fc1d099b7d493294292f8beb0cb98dc821f025c8748f",
+      "bytes": 2524,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596772764000
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaResultSetThrowsSqlExceptionTest.java",
+      "sha256": "1170a3ffc99c4dda7e7f891be94ba9320c5769f022caf027b5aefd1575c27e43",
+      "bytes": 7630,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596772764000
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/AvaticaStatementTest.java",
+      "sha256": "a0b6bcd2758adc4f5b8542d3fe65f44da7404f6efc1521cab2f2a93fd3981c11",
+      "bytes": 4155,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596773763400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/ConnectionConfigImplTest.java",
+      "sha256": "aac05b16b57540a83897ea23fee3763c937d6205b654999333debd5f23f1129c",
+      "bytes": 2690,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596773763400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/ConnectionPropertiesImplTest.java",
+      "sha256": "f8f8d56f3902739e5b87935591f84ec7c8fb77122a6eba7b38b4fabc83aff79e",
+      "bytes": 2981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596773763400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/ConnectionPropertiesImpl_RBL4_5c0f04f0Test.java",
+      "sha256": "e3607b17529eaea6e62a5fd36f7405166b4c4cb938ca97a9a164f43e7aa759a2",
+      "bytes": 101,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784852982498169300
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/CursorFactoryDeduceTest.java",
+      "sha256": "81192a160f4a8bcd02b883518f93069833365dd381948c109eb355675af50faa",
+      "bytes": 14258,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596774762900
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/FrameTest.java",
+      "sha256": "690e07f1787bef4e009c45123521459a48cde187743f908a5ea3b34400b909cd",
+      "bytes": 11517,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596774762900
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/IsArrayAccessorResultSetEqual.java",
+      "sha256": "e813e506aff79e7656babe15f93c6456a6c6d4acae1292f60d5de661dd6135a9",
+      "bytes": 3313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596775763500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/MetaImplCollectTest.java",
+      "sha256": "999a2540bd48bfded8878ac652f562152c958f12bd07debf6ff38df0589d18f2",
+      "bytes": 4398,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596775763500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/MetaImplCreateIterableTest.java",
+      "sha256": "c798e03a67bacb64a5600b989998587641d0232163ef9a8f474d4e532e1344ad",
+      "bytes": 4998,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596775763500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/MetaResultSetTest.java",
+      "sha256": "5f4885aae3ffba09f69c0ca1b9c1de95f3a1a6420008a18f1566305976faba19",
+      "bytes": 37547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596776766500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/QueryStateTest.java",
+      "sha256": "928b355abb8ce52a9e21d386a312604b955b32b8a533515faabd3c39850f7c94",
+      "bytes": 14863,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596776766500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/RepTest.java",
+      "sha256": "788f2b03475a8508e035669da79fd77c9978bdb96e1d42226484f34009eddd97",
+      "bytes": 2510,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596777764800
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/UnregisteredDriverTest.java",
+      "sha256": "42c9f4a6a0694dfce803522073ea7467f352a162e3886f5b8675e2f638426efb",
+      "bytes": 2204,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596777764800
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/fuzz/AvaticaSiteFuzzer.java",
+      "sha256": "dc1e5478832a7632f1fcb24f0400f48dbf38763eb6249601d17e9f4cee6516d1",
+      "bytes": 7626,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596778760700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/fuzz/Base64Fuzzer.java",
+      "sha256": "62178101e05a26375c6c42427d167ea93894e7575737b9c270b2582c252497f7",
+      "bytes": 1581,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596778760700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/fuzz/ConnectStringParserFuzzer.java",
+      "sha256": "de90d012af6367a0d1aaeb91905695be0ced8d5ad45293fd7d2f00574eddcde4",
+      "bytes": 1483,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596778760700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/fuzz/JsonHandlerFuzzer.java",
+      "sha256": "393fd7cfa63095b8112d7c8652ec98580a99e0075e58e907ce8bcc59c86d1cb0",
+      "bytes": 5182,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596779764400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/fuzz/ProtobufHandlerFuzzer.java",
+      "sha256": "a191f78ee125917971d969a4695975645d3c44e08ff9ebb04714682280dfec61",
+      "bytes": 6591,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596779764400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/fuzz/TypedValueFuzzer.java",
+      "sha256": "87f523a4fcf1439d448beac0f6f23f2101c09683e3c575a0a8a36dd2b7be3d27",
+      "bytes": 3967,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596779764400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/ha/RandomSelectLBStrategyTest.java",
+      "sha256": "2f1c2b667cf0bd9f62c5b5fd8b42c8c3a0225d83980fc3c78b5b068a90751994",
+      "bytes": 1860,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596780764000
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/ha/RoundRobinLBStrategyTest.java",
+      "sha256": "4e014901e29888ec293980c6d0531e9d51a51645d390c9755c27723dcd89f4c9",
+      "bytes": 1721,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596780764000
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/ha/ShuffledRoundRobinLBStrategyTest.java",
+      "sha256": "4ab1c2724946cdd9e780ca7f5e7d5e3199bdb86a188a90e6db86fc4b895078bb",
+      "bytes": 2704,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596781766200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/metrics/MetricsHelperTest.java",
+      "sha256": "3c14e206c74a28bd13f980e2bb716e324ccbb80b7bb01f42ad06389b7c172ecc",
+      "bytes": 1451,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596781766200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/AbstractHandlerTest.java",
+      "sha256": "902b4db01bc38e37fb2efcfc0d950d0bce28451b0181388774e6a80badba46fd",
+      "bytes": 8757,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596783030500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/AvaticaCommonsHttpClientImplTest.java",
+      "sha256": "f14c137ddb9d95d15020949a55711d962a7e20095319eeb4022047864af563ba",
+      "bytes": 7502,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596783030500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/AvaticaHttpClientFactoryTest.java",
+      "sha256": "331fb76d64374661241db8b675bfcad291737e28ee3cfee85a9f8dce92f7da7c",
+      "bytes": 3145,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596783030500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/AvaticaHttpClientTest.java",
+      "sha256": "ebcff7f28aa3af9eaa926a60aa6a5bc15504e9419389e2e1df04b77fc698b3e9",
+      "bytes": 3512,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596784374500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/BearerTokenProviderFactoryTest.java",
+      "sha256": "ca50d6027ba61291b6bb911b58ddb2588935b5122585eb013d1550598a0b3915",
+      "bytes": 8687,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596784374500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ConstantBearerTokenProviderTest.java",
+      "sha256": "1e48892361891820aed30e98bb7b7be9abb8baab5a0a93e7450dc43e1ed9d028",
+      "bytes": 2156,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596784374500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ErrorResponseTest.java",
+      "sha256": "5b37c42f0d3fd5cf0e189a81b9d76438bd6dfb47fecbebea99715504352e60bb",
+      "bytes": 3057,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596785374600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ExecuteBatchRequestTest.java",
+      "sha256": "413a7aaebd1c5cd75256ba7016c8b6d379b79acb55e05abfc14e69390597877c",
+      "bytes": 3356,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596786463700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ExecuteRequestTest.java",
+      "sha256": "42bf46917753479129223682cbefc26d14d593626945d0a3391ff37a0843c1e7",
+      "bytes": 2988,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596786463700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/KerberosConnectionTest.java",
+      "sha256": "065eca87bb913e510ce7c221079aca6ab347e3d938f71af79dedd9f4d6babc75",
+      "bytes": 5551,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596786463700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/MetaDataOperationTest.java",
+      "sha256": "fb53061b119cc5ab61eb7f159e17f1faecddf4901dfe640e3d074b4f738b2bd4",
+      "bytes": 1287,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596787461500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ProtobufHandlerTest.java",
+      "sha256": "27e02f3c82c320d6ddbe1655ee7da14647977df8743929235936e4350200ceac",
+      "bytes": 5436,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596787461500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ProtobufSerializationTest.java",
+      "sha256": "8ec119ff35b29ce223ba86a1b862a5d460bc394b2b8d0f5fb3cc9769c123dda6",
+      "bytes": 11293,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596787461500
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ProtobufServiceTest.java",
+      "sha256": "32de14f01da9cac1032beaaa57df1cb5ea1ee9ec597f3e46eccbda6d7f59b5bd",
+      "bytes": 2241,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596788496300
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/ProtobufTranslationImplTest.java",
+      "sha256": "8d861f6863783314936f873a7b9f7fc924488dc0200b0fab08f9712fe137d3a2",
+      "bytes": 17308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596788496300
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/remote/TypedValueTest.java",
+      "sha256": "d69426aa58320e635ba3abc8daf4810e9b863104d3de7cae4cf6626c0e3a6dbb",
+      "bytes": 11935,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596788496300
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/test/AvaticaClientRuntimeExceptionTest.java",
+      "sha256": "fce0c1569a1ff7fd9bb194a56df3c96e3d65762fed775efa17272862dad9a8c7",
+      "bytes": 2118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596789757700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/test/AvaticaSeverityTest.java",
+      "sha256": "2b804988e8020fad9701c0d150cd5a638aefb440f99cebdfe08e780b3d9abc2c",
+      "bytes": 1322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596789757700
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/test/AvaticaSqlExceptionTest.java",
+      "sha256": "8c309aadd3446b346a20d8c88b0e820bd828e2dc05a04822292433a553d379f1",
+      "bytes": 1857,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596790769300
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/test/AvaticaUtilsTest.java",
+      "sha256": "227fd4b1ffb2796edfdaf97e57daf340e0c1f5006c032f223e7b679f2b611f38",
+      "bytes": 20269,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596790769300
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/test/ConnectStringParserTest.java",
+      "sha256": "5572f69da2edb38992ba274145ecdc39351cd68155d318ecef9f38eb43c4faf6",
+      "bytes": 9371,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596790769300
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/test/JsonHandlerTest.java",
+      "sha256": "f32f06eca5353c723fbb6b6f4bb643ec6cc6222fc1526f614084b8603c78f81f",
+      "bytes": 6659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596791803100
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/test/package-info.java",
+      "sha256": "8c1858c904e0ccbe9b7715d438236d188f97efe3ac525935236e0fb02c759c02",
+      "bytes": 915,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596791803100
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/ArrayAccessorTest.java",
+      "sha256": "30819a7b504d4a0fd9b6aa7e6bc10cb7eef4dec21a27a64f24a8ab5506e2130d",
+      "bytes": 7850,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596792894600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/ArrayImplTest.java",
+      "sha256": "911c1cbad9088d2b00e7679b95906b591f0f3c9597d2c4c020b10029a481dbf8",
+      "bytes": 17518,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596792894600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/CursorTestUtils.java",
+      "sha256": "d69e7e6a7a98431a8a329e290d95322b0cf60f61ba35602593ea6c96b66d862c",
+      "bytes": 2399,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596792894600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/DateAccessorTest.java",
+      "sha256": "f604ddd6bd9ae58406a20245bb04374e0173ddd385fa669b75c1f177e64377ba",
+      "bytes": 5324,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596793895200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/DateFromNumberAccessorTest.java",
+      "sha256": "23ae2334f68710a4baea3eaaba71516ca2bf8ed7a6330a664a6b9336ef1839a9",
+      "bytes": 9450,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596793895200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/DateTimeUtilsTest.java",
+      "sha256": "5b4fd0be98650465914be2712e361745de694f082fc1c51ab1be84b853fe4ce4",
+      "bytes": 85567,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596794895600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/LastDayTest.java",
+      "sha256": "363e9340381a251584d49f80c926f1b5e2fedab4a12b87e1098354af187f5ce8",
+      "bytes": 2696,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596794895600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/NumberAccessorTest.java",
+      "sha256": "4b8f676543949b8f06b7753b3a904c91b56d0aaf36b25d1f5258b87afbbc50b7",
+      "bytes": 1784,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596795894400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/StructImplTest.java",
+      "sha256": "36450a8435d824b131e3e375e307cba521103eae73e1a46c01657b2a7467caca",
+      "bytes": 7029,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596795894400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/TimeAccessorTest.java",
+      "sha256": "d67d2e5e0069c7a45410ab46d40f4e0fa55ad76216096baa1ab65181597eb95e",
+      "bytes": 4569,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596795894400
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/TimeFromNumberAccessorTest.java",
+      "sha256": "8f7b88922cfca0d1f8e1336bfbc0eaf5b70d2b842ada3ce800d1fe65ef07330f",
+      "bytes": 6351,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596796894600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/TimestampAccessorTest.java",
+      "sha256": "09fd3a2eb6a62184c56637974bda119575c56b90bbe469b42fd476ae2108e773",
+      "bytes": 9512,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596796894600
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/TimestampFromNumberAccessorTest.java",
+      "sha256": "87036e360feb6b59e0cb2bdf2a07aeaaed1b2be820a57d716e5e49f220aa8688",
+      "bytes": 12079,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596797895200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/TimestampFromUtilDateAccessorTest.java",
+      "sha256": "d79c23aee1b35ff90e036680307f9064928ee880077a7a3823c8cd8e1f4fd2d9",
+      "bytes": 9732,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596797895200
+    },
+    {
+      "relative": "core/src/test/java/org/apache/calcite/avatica/util/UnsynchronizedBufferTest.java",
+      "sha256": "ec9f15e273ff848324feaffa14e024915db0a9ab03f5a1701434f71c262b76ea",
+      "bytes": 1410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596798895600
+    },
+    {
+      "relative": "docker/gradle.properties",
+      "sha256": "68a6140f80a56e544db8e55ac7def1b366b482b05e4b689993c9b9f4fcdafab1",
+      "bytes": 899,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596799895500
+    },
+    {
+      "relative": "docker/README.md",
+      "sha256": "e663cb856de14cfcbb6a4fd2a919cd0927310277868c8e54a14ace997b86f1cf",
+      "bytes": 1966,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596799895500
+    },
+    {
+      "relative": "docker/src/assembly/docker-files.xml",
+      "sha256": "44e0761be5e82d71f37cbf6a13adb2fbd2985e557615cc5cb6d2d89b11adae47",
+      "bytes": 1413,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596800895000
+    },
+    {
+      "relative": "docker/src/main/docker/Dockerfile",
+      "sha256": "bb4e6938079101a50d30ef5c222c1836977cf3a65409ed74e90e11a08643cdc4",
+      "bytes": 1534,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596801893200
+    },
+    {
+      "relative": "docker/src/main/docker/hypersql/build.sh",
+      "sha256": "2e7a1519ce2d1fbab367ec784064317cdb09a9533ca0f5095f750ab52a1d675f",
+      "bytes": 855,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596802926300
+    },
+    {
+      "relative": "docker/src/main/docker/hypersql/Dockerfile",
+      "sha256": "e276110fc0a7fd7b38240819c77692c7627cdb1ff5846b48cf3194d4c78b3f46",
+      "bytes": 1251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596801893200
+    },
+    {
+      "relative": "docker/src/main/docker/mysql/build.sh",
+      "sha256": "05576bc66e87cedf553d0549a8a52bee55e07b93c4b03bb69eae6038e5e25e36",
+      "bytes": 854,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596802926300
+    },
+    {
+      "relative": "docker/src/main/docker/mysql/docker-compose.yml",
+      "sha256": "e5afc9f7072822a7de926aea894fb309d765968b3e4b2e5132c7ccecab2df740",
+      "bytes": 1200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596803924600
+    },
+    {
+      "relative": "docker/src/main/docker/mysql/Dockerfile",
+      "sha256": "30beec9aa36fe05a1e1fc41badc5b5aa782f4a75d77b155f4b4a4edcd649b6bb",
+      "bytes": 1121,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596802926300
+    },
+    {
+      "relative": "docker/src/main/docker/postgresql/build.sh",
+      "sha256": "b70d2af0a76046d7ae265e01f6dbb273ccc5d2adffa84c35e317bd3c072775c6",
+      "bytes": 859,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596804925200
+    },
+    {
+      "relative": "docker/src/main/docker/postgresql/docker-compose.yml",
+      "sha256": "d0c6493f1e3aaf46c949ad0d272dfa29cf29542477656efb7c9ea6a2e70cf99e",
+      "bytes": 1241,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596804925200
+    },
+    {
+      "relative": "docker/src/main/docker/postgresql/Dockerfile",
+      "sha256": "2add116ef448aec040104b3d032c39bce306ef23d5801487352fafa4ee4fcaa7",
+      "bytes": 1125,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596803924600
+    },
+    {
+      "relative": "docker/src/main/dockerhub/Dockerfile",
+      "sha256": "469df01c65b7b94d683a6ffb52adfc8e1813a9bccd5a5c0899c33c7513426b76",
+      "bytes": 1660,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596804925200
+    },
+    {
+      "relative": "docker/src/main/dockerhub/Dockerfile.hypersql",
+      "sha256": "6903bcf56b589f0d6918203dd1d53f67ad1cc28f91e9056f16d62fbe2da96c49",
+      "bytes": 1312,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596804925200
+    },
+    {
+      "relative": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "bytes": 43764,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596807230700
+    },
+    {
+      "relative": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "1b17c38a44dbdb8c01de0fb8a5725e372e54a310f96402fafb3e9a5f7b680dc9",
+      "bytes": 1145,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596807230700
+    },
+    {
+      "relative": "metrics/build.gradle.kts",
+      "sha256": "868964d6eb60ec7721f67cbf5ec441a9b1062585e9e0b8881cb89f1c2ba8c3ce",
+      "bytes": 1125,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596818795000
+    },
+    {
+      "relative": "metrics/gradle.properties",
+      "sha256": "cd2ffeea8b24e1898d01119f4a398292799cff6a9a87929d30f8446ab6bbe7fc",
+      "bytes": 937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596818795000
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/Counter.java",
+      "sha256": "43f56adb00cee210b3c1c67908e4184cd2872260d4f31813388106ebc3c46b6a",
+      "bytes": 1355,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596821283800
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/Gauge.java",
+      "sha256": "a4c67a85f45f3fafb4efaf8d11dce069c3db2c82e86611652613a9c22f2f02b2",
+      "bytes": 1050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596821283800
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/Histogram.java",
+      "sha256": "01177b1c15a528c980c95bd17cca7b69ec391dda7502f646ce2f9ae37fdf2b50",
+      "bytes": 1261,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596821283800
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/Meter.java",
+      "sha256": "3b429df9fe1c147eaa14e022dcd266703791065b88e2dfb7e07377af8dcec682",
+      "bytes": 1216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596822283300
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/Metric.java",
+      "sha256": "99bc5bca3adf4bc4e22dea81194efe0c6e5d9d5227ad8faf30876e4a27eb1192",
+      "bytes": 963,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596822283300
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/MetricsSystem.java",
+      "sha256": "4c66e765987865ab58f4aa9fc21d5723bdaf582f7ee3b46f38cc88a914cbf046",
+      "bytes": 2361,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596822283300
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/MetricsSystemConfiguration.java",
+      "sha256": "420451cc72295b76ca7d76ecf79424dad1d75818576c7ef14d2ee15eacfafc29",
+      "bytes": 1233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596823284400
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/MetricsSystemFactory.java",
+      "sha256": "ac70b2e2ad07615c2070e3c46f5aff1741f9ac4395af6ff787a75c0787b04857",
+      "bytes": 1256,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596823284400
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/MetricsSystemLoader.java",
+      "sha256": "32bd79906460438bd3aaacffde0da3e92572be22b4ceea276d8b93e2cff985d2",
+      "bytes": 3588,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596823284400
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/package-info.java",
+      "sha256": "49ce6213cf3b006610843ffb55b82f7bacd96c8a35e0865c6b4717739436a30d",
+      "bytes": 938,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596827284600
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/PackageMarker.java",
+      "sha256": "4bee3bc847b2dae0fa3055ae230c77959e9a64e6a2677107df37a9608d60d3e2",
+      "bytes": 1429,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596824284300
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/Timer.java",
+      "sha256": "55d1307bfbb0b5357e01f5c7391e8190804b86179fc83c273a6bbdb2bf3cb03f",
+      "bytes": 1207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596824284300
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/NoopCounter.java",
+      "sha256": "b7f25b60dfd22dcf678335b9af3e15b2d05b45147f283710de1c443b64066453",
+      "bytes": 1244,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596825283500
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/NoopHistogram.java",
+      "sha256": "9aaa6b4e245f2ae0d893edd0aa4e110bda0e8196db463b516148caf94a231baf",
+      "bytes": 1156,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596825283500
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/NoopMeter.java",
+      "sha256": "d8c30133ffed654c55851c31ec35f1b868871b4ebcca5d201dd344f7be80b46e",
+      "bytes": 1124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596825283500
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/NoopMetricsSystem.java",
+      "sha256": "1fae7a99d13302f51e4793431c4660cd57057ac151c6bf0f27cf822769e137ff",
+      "bytes": 2399,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596826283000
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/NoopMetricsSystemConfiguration.java",
+      "sha256": "7b10ad4e43cb0677240b9f16e857a1e492ea4d147a44980c1c80d59e83be6fa0",
+      "bytes": 1464,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596826283000
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/NoopMetricsSystemFactory.java",
+      "sha256": "3d9bf3fbe2cfa953cd744c43ebdc93deace31287b75df994d9eb456934760894",
+      "bytes": 1523,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596826283000
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/NoopTimer.java",
+      "sha256": "dd072fb55da437f704162499b880722048a50beff3fb578bbae2515b5e7e94bd",
+      "bytes": 1393,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596827284600
+    },
+    {
+      "relative": "metrics/src/main/java/org/apache/calcite/avatica/metrics/noop/package-info.java",
+      "sha256": "45a1ef6fa37b880a10288afaa5003b25096ea7c86b8e00429bc5fd04e599721b",
+      "bytes": 971,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596827284600
+    },
+    {
+      "relative": "metrics/src/test/java/org/apache/calcite/avatica/metrics/MetricsSystemLoaderTest.java",
+      "sha256": "d18f88e63438a0fa347846d4a43265326e232ddefa095426fc504f763b451657",
+      "bytes": 4543,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596828555800
+    },
+    {
+      "relative": "metrics/src/test/java/org/apache/calcite/avatica/metrics/noop/NoopMetricsSystemFactoryTest.java",
+      "sha256": "b3e200fb67b7b91a1930373c63e909ca01ef21e165275569ac1599cac7f5b632",
+      "bytes": 1445,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596829808700
+    },
+    {
+      "relative": "metrics/src/test/java/org/apache/calcite/avatica/metrics/noop/NoopMetricsSystemTest.java",
+      "sha256": "807950a53a7032b3a8561e636c0461c1cc74aee339cea5b93b1282bcac19f00d",
+      "bytes": 2534,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596829808700
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/build.gradle.kts",
+      "sha256": "bcec50025d40c8cc06b580fbad604ce930349b2f760fc62745f4797477e5dc05",
+      "bytes": 1173,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596808226000
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/gradle.properties",
+      "sha256": "189ace3a650574eb2f8bb369f381627805024fab3ae7abe48d7fe24ca02dc6d9",
+      "bytes": 983,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596808226000
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardCounter.java",
+      "sha256": "4534fa79e2638a0de02e67976e065a7d97c9b1a98315978b50668d411ad343f7",
+      "bytes": 1609,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596810424600
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardGauge.java",
+      "sha256": "fcdfeb53ff7dd68b16eb99a877eace17fe1752fb5d704cd71923d8a752c2dfbb",
+      "bytes": 1401,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596810424600
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardHistogram.java",
+      "sha256": "e9f79b8d2899bf9df23e59f8544e70e545f5865a10a12d08aa91f267ea4192ea",
+      "bytes": 1500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596810424600
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMeter.java",
+      "sha256": "6fc9c20bf26040eee9befeba993649c13e8d3b47c0d219e8f39a0d01476136b3",
+      "bytes": 1432,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596811792100
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMetricsSystem.java",
+      "sha256": "1fb0db2d3c70c1c97c7bd3e47209c815417f9fd9ac702b03d8081ed958386df6",
+      "bytes": 2221,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596811792100
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMetricsSystemConfiguration.java",
+      "sha256": "3dc6550d359e90ced58f4e10eb5ed8c394ad073cd59eaccc4a7f16510dcf25f5",
+      "bytes": 1544,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596811792100
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMetricsSystemFactory.java",
+      "sha256": "ad45d5bf21483b7b73589ac37156d19bd04e8f63d22c02e622dadbcd41941a3a",
+      "bytes": 1839,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596813094600
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardTimer.java",
+      "sha256": "d4bce1aa283e687e4ad7b3913b2a3b4f9f0ad99c255689b8d60a89e67ab1a720",
+      "bytes": 1885,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596813094600
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/package-info.java",
+      "sha256": "61c50ed990a6a6ec4550b4eaf1c3203235a8ed6101b7643174c25e70c8546edc",
+      "bytes": 987,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596813094600
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/main/resources/META-INF/services/org.apache.calcite.avatica.metrics.MetricsSystemFactory",
+      "sha256": "2d0b624db6ecd0016b482167911b13c7a34021d5c07f113787d341a95da7c595",
+      "bytes": 80,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596814176300
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/test/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardCounterTest.java",
+      "sha256": "f935ac55eec7b90a344a6040f674b196e654cc8d0e19787eb1fa600d4cfa2271",
+      "bytes": 1948,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596815216300
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/test/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardGaugeTest.java",
+      "sha256": "6422715a5e0b4e2ab205492197b7da32d9aa3444ceed77a862fb3b0314e1522c",
+      "bytes": 1816,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596816591300
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/test/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardHistogramTest.java",
+      "sha256": "4a1ab0df15b35037b59356fb8fd0cf610bcce0f5184adfaacaa12170f4572fb1",
+      "bytes": 1530,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596816591300
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/test/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMeterTest.java",
+      "sha256": "88939e2938c558d5af10c1a43381b94551ae1f47dd59e239a1d67e98bbc6d05c",
+      "bytes": 1515,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596816591300
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/test/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMetricsSystemFactoryTest.java",
+      "sha256": "fc7ef9af93896dcd285d510f19471bfa6dc86eca08e51fb551271e10635d4334",
+      "bytes": 1986,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596817795300
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/test/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardMetricsSystemTest.java",
+      "sha256": "0f4cad968686acc1b91a0a08484e583a67f3397814efc787e645fa7d8290d38a",
+      "bytes": 5004,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596817795300
+    },
+    {
+      "relative": "metrics-dropwizardmetrics/src/test/java/org/apache/calcite/avatica/metrics/dropwizard/DropwizardTimerTest.java",
+      "sha256": "c8ca8ce3a142c3ab24b44fca65ae9e2d09b02b3dab911cfcdaa03a8239f2520e",
+      "bytes": 1748,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596817795300
+    },
+    {
+      "relative": "noop-driver/build.gradle.kts",
+      "sha256": "c118edd2698564be2796d5104d6fd1db20bf511f1b071859eb69b61129a07981",
+      "bytes": 848,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596830808000
+    },
+    {
+      "relative": "noop-driver/gradle.properties",
+      "sha256": "a4c15fddd080910f23d87b2dcc210a91369fa9bf00e6184b45940e1ada527ec6",
+      "bytes": 872,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596830808000
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopConnection.java",
+      "sha256": "167109a69c9a0af8a58335e1807c547a5ca3604ad510efd05e7e033dcc3a020b",
+      "bytes": 8055,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596831809500
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopDatabaseMetaData.java",
+      "sha256": "c73a92cf176cefd9336ddb3bb053737820e6f7366b095ccbfbdd16545060e8c8",
+      "bytes": 21759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596832963700
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopDriver.java",
+      "sha256": "eb200093b6160c7941156e15a3b983bd74b765af650716f46645bf1a2bbc3407",
+      "bytes": 2303,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596832963700
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopParameterMetaData.java",
+      "sha256": "c77a48a886e0c2ba5af68cb59154bc062819e48f5328cb27c2c5efef1e765e66",
+      "bytes": 2587,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596833963000
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopPreparedStatement.java",
+      "sha256": "d406909e7dd79f094a11959250f7ab7e9534877b559de25d73128caabf7adcd6",
+      "bytes": 11748,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596833963000
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopResultSet.java",
+      "sha256": "413481a1c4d882e02ba73e5003461870cc0a8614679ba642248862d83411e42e",
+      "bytes": 21670,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596834965500
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopResultSetMetaData.java",
+      "sha256": "660e993bbb96acb98307802f30615b892e40e7723028e6a57e7005435e6716b9",
+      "bytes": 3830,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596834965500
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/AvaticaNoopStatement.java",
+      "sha256": "f014e18c0adec4c06f8a3ee1a0c2272c606c0ca03e29daf858cc8987b7a0d834",
+      "bytes": 5653,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596834965500
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/package-info.java",
+      "sha256": "5458a692127442c16e4d8e8adf92f798bdbd6e438a7b453f17f49b5dc50894a5",
+      "bytes": 974,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596836190500
+    },
+    {
+      "relative": "noop-driver/src/main/java/org/apache/calcite/avatica/noop/PackageMarker.java",
+      "sha256": "0b704db6576c832e34d8fdb61755daa8b208b45ce74111dc01d9b9c106593b8a",
+      "bytes": 1426,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596836190500
+    },
+    {
+      "relative": "noop-driver/src/main/resources/META-INF/services/java.sql.Driver",
+      "sha256": "848696121c5044637abde49785d31501d3f7fb4d13857875e66a0381f30fbc99",
+      "bytes": 51,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596837189200
+    },
+    {
+      "relative": "release/build.gradle.kts",
+      "sha256": "b6a00a77839337bd74a3ed3b88696c224d64473cb7332ec8f98406f1fa4223f1",
+      "bytes": 8201,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596837189200
+    },
+    {
+      "relative": "server/build.gradle.kts",
+      "sha256": "0f4b517f9be3877e6353d1b6fcf2f7f823221d617ce22dff7b2a7e9bb589660e",
+      "bytes": 2384,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596838581000
+    },
+    {
+      "relative": "server/gradle.properties",
+      "sha256": "0f6cc0505efca3eae288f434ece729dd56ab65320d7018875e3bbc48405bae27",
+      "bytes": 867,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596838581000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/jdbc/JdbcMeta.java",
+      "sha256": "72d652d7290f01bb167ae587a1eefeeff3a815980c542002e748e2007ca53713",
+      "bytes": 42148,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596839716000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/jdbc/JdbcResultSet.java",
+      "sha256": "f21bffa34917b961daa368d2acfb02fcf11b66677e63cb364f9497f8371afdff",
+      "bytes": 11760,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596840878500
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/jdbc/package-info.java",
+      "sha256": "cd94665e8639017e8fab877a90496833a0bfd97002001088a328227f24532003",
+      "bytes": 967,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596840878500
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/jdbc/StatementInfo.java",
+      "sha256": "618b7be9bd3261a22ff21f528e07157faf818c2b4aef4c07b8cb7ae036c1431d",
+      "bytes": 5311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596840878500
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/AbstractAvaticaHandler.java",
+      "sha256": "74737f6fd980c599afc4e1ef01c18a746681f2cf32baef558812d329bac60dda",
+      "bytes": 3643,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596842071500
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/AvaticaHandler.java",
+      "sha256": "5e50e45a90eecece4e1af69727ee53db6e57a22bcf4bdf7ecc3e5f0a012478f8",
+      "bytes": 1231,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596842071500
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/AvaticaJsonHandler.java",
+      "sha256": "29e3d74f5096f7dc9c7703be301f1f99d6c31f2a5174fc9965e96294dde27062",
+      "bytes": 7027,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596843152000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/AvaticaProtobufHandler.java",
+      "sha256": "cca9711dfca7067744f04c8f02d6333f06ece9692e3ba4be9d41aad798928dcb",
+      "bytes": 7179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596843152000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/AvaticaServerConfiguration.java",
+      "sha256": "0515619a3e8287fc131e781668810ccacbe59e1033d970e1abfcef776176542d",
+      "bytes": 4496,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596843152000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/AvaticaSpnegoAuthenticator.java",
+      "sha256": "c7015eec2186f730b2eba7e768cd0c4941f1f1080338d16be1d9bdb36393c722",
+      "bytes": 4298,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596844305300
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/AvaticaUserStore.java",
+      "sha256": "2fea3c3cc7e3a1afab03de84e605201f909aa70159e84658adeb8b294c916291",
+      "bytes": 1761,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596844305300
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/BadRequestException.java",
+      "sha256": "6db4b476addd0868fa441dd6260b775b5e27c682e82c2c3fb3c9f5ce99cdb79b",
+      "bytes": 1253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596844305300
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/DelegatingAvaticaHandler.java",
+      "sha256": "c359aad34650ffb755a61f47f339e1fd0672709d46e332f1c670744d5cf81277",
+      "bytes": 3621,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596845305700
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/DoAsRemoteUserCallback.java",
+      "sha256": "016a215c690a9e93f451ff810b4e4d8e802b61c65b3896bad91b6ba83904d6e1",
+      "bytes": 1866,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596845305700
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/HandlerFactory.java",
+      "sha256": "48a1b9f25147b928a251adb6bd763ae22eb9bfd489d87b66cb7ccde89bc7a1ad",
+      "bytes": 6207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596845305700
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/HttpQueryStringParameterRemoteUserExtractor.java",
+      "sha256": "6a7172469d2f975f9ec9a65ecda60297adde38c78ab3f78a5227330ccbe36497",
+      "bytes": 1743,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596846306000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/HttpRequestRemoteUserExtractor.java",
+      "sha256": "3d4274ce42fab13c96e948a580feb10751e26f859de6914b1773f2170596479d",
+      "bytes": 1479,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596846306000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/HttpServer.java",
+      "sha256": "c445b603073b15bcab7c52f9c51bc9928192e948bd91a17ccacd51d6e8126577",
+      "bytes": 43509,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596847306000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/Main.java",
+      "sha256": "8eb878f9343b73ea0432ffa0c13692be47834b2a5d24d719fde4d6d59ef12065",
+      "bytes": 3966,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596847306000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/MetricsAwareAvaticaHandler.java",
+      "sha256": "8a943ff72afecdf7d03950cd454eb277dc963e8ccc47685bf09680ba967a1a18",
+      "bytes": 1473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596847306000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/package-info.java",
+      "sha256": "17795b331b99215daa254cec7d87e26167047b0ebcfdb8d8fd950a8bf00baca8",
+      "bytes": 949,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596849927400
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/PropertyBasedSpnegoLoginService.java",
+      "sha256": "e17f4e9054f3ab85dc68fddbbf0ca89b8e6d2c25cfdc26d7737a7fecc31c68ed",
+      "bytes": 5184,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596847306000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/RemoteUserDisallowedException.java",
+      "sha256": "9b08bd6bd6a9c19606d4731962acbd4aa303d719db41c992fe2ad7ea494a9bd7",
+      "bytes": 1307,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596848556000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/RemoteUserExtractionException.java",
+      "sha256": "10770c623867bdc8a953992247bf2bcfe3718c040606b756cb8dfa7a1edd1ec9",
+      "bytes": 1457,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596848556000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/RemoteUserExtractor.java",
+      "sha256": "cf7d1dc13e5deb9e7dbe5086dd13df2510e611d57189ffe428ebc217da9edf6e",
+      "bytes": 1124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596848556000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/ServerCustomizer.java",
+      "sha256": "06f39c40b44604a01434a906784b46e82e186e993fa38edf2cd79de7aea12c20",
+      "bytes": 1151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596848556000
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/ServerKeytabJaasConf.java",
+      "sha256": "bced3599070c11cbacfa192ec1403fd8cb0c254115efb98368c78f9f7e4fb710",
+      "bytes": 2610,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596849927400
+    },
+    {
+      "relative": "server/src/main/java/org/apache/calcite/avatica/server/SubjectPreservingPrivilegedThreadFactory.java",
+      "sha256": "836348fb7effae3a81ded08aec367248b21b24b725fbf8d3d53e9ef62a893b36",
+      "bytes": 2684,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596849927400
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/AvaticaSpnegoTest.java",
+      "sha256": "6efe55cbc0389fa19d93a4a2f393b3521da79baadad8ed79bb30f515d1aa82be",
+      "bytes": 10424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596851930000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/ConnectionSpec.java",
+      "sha256": "3d1ca6854a41b37fe21cd2749c935d9c6624cecfd3359f744b1ef6d4d6476020",
+      "bytes": 2093,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596851930000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/HttpBaseTest.java",
+      "sha256": "92959d9dd2b3ff53dec18541ede11cb2d61d6b4c314fc0d6143d70a8cfa7b45b",
+      "bytes": 8017,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596851930000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/RemoteDriverMockTest.java",
+      "sha256": "304ec7b6f26a733b4138f07adb63323eb399c4552e3bbac206f74ed249b59074",
+      "bytes": 8029,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596853230500
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/RemoteDriverTest.java",
+      "sha256": "4af062d75ab3f1b8626eaf670e1650195e46b175ad089cc3880a547165d73449",
+      "bytes": 83947,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596853230500
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/SpnegoTestUtil.java",
+      "sha256": "97b62f89c8663bc2194a0492a040eb90d3340047c9c31d4df160f729419243ff",
+      "bytes": 7847,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596854230600
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/SslDriverTest.java",
+      "sha256": "b3d799e1b65ff2f16c2d97221e855161d6a54484f198d52a581284be18af3744",
+      "bytes": 5421,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596854230600
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/TLSCipherTest.java",
+      "sha256": "657b78d024ad1517d3fd1a76caa6b27efe22d196de2059e9dc9242f4ba5593e5",
+      "bytes": 4658,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596854230600
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/ha/ConnectionPropertiesHATest.java",
+      "sha256": "faab8065bffa6969e279d86ce548fbabcc063c61a5f527ee55432884104fe223",
+      "bytes": 21612,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596855495700
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/jdbc/JdbcMetaTest.java",
+      "sha256": "ef0bca821b083ea9cb3cb1a0711f2da765536fdcabc386e817cd771e0dcd44de",
+      "bytes": 8575,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596855495700
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/jdbc/StatementInfoTest.java",
+      "sha256": "ab0c541e27e570866d7ea071291b716ee2ce19b509ef8f9b340afd95fa2debc1",
+      "bytes": 4827,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596856495400
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/remote/AlternatingRemoteMetaTest.java",
+      "sha256": "ad7fa464bbae15cc38c2e1159b4a087c5e84e7c284374c9db2eb11233bc4734b",
+      "bytes": 15114,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596856495400
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/remote/ArrayTypeTest.java",
+      "sha256": "0310b38bd36cdc16545519a1af0d70fad0d1d37de6ba226929052726ba94a781",
+      "bytes": 30627,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596857494800
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/remote/AvaticaServersForTest.java",
+      "sha256": "70dab4209a8704d318503b1e9ba995ad8ccd091a66ca8b62f5fb43d0a6e5badf",
+      "bytes": 10464,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596857494800
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/remote/ConnectionPropertiesTest.java",
+      "sha256": "2cd595a0d04aa46acf091a3a53820df001c2f1c314b4277f1f8373a1fa869b28",
+      "bytes": 5770,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596858495000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/remote/RemoteHttpClientTest.java",
+      "sha256": "69df529ac194c3dbe8fed208f05498345dc0f53ccbd1a6a7f8e86d740fb25bb3",
+      "bytes": 4882,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596858495000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/remote/RemoteMetaTest.java",
+      "sha256": "506bf35591f62cb1e4b04033c1b733fec313ae132ae75c26da1064ddac7502aa",
+      "bytes": 34070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596858495000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/AbstractAvaticaHandlerTest.java",
+      "sha256": "cfdf5180803c3978e8dbca6a9f61f9b31ab32f61d9585b627d7d59bc95634b2d",
+      "bytes": 4724,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596859495600
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/AvaticaJaasKrbUtil.java",
+      "sha256": "c1d28a9f77991cdf3fdb2c84bc232cb6c40d28e5e1f3ced5ab2142963864728e",
+      "bytes": 2222,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596859495600
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/AvaticaSpnegoAuthenticatorTest.java",
+      "sha256": "9dfd239f52b0597ee86a02e69a60602d640fa63c48c5d409817ec6a469a4b14a",
+      "bytes": 3773,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596860495000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/BasicAuthHttpServerTest.java",
+      "sha256": "6b0c79cd5650df36c14ea112a01251d59b7c0b69dfb19053fee9a98b63ad4575",
+      "bytes": 6586,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596860495000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/CustomAuthHttpServerTest.java",
+      "sha256": "62574f5ba9efa7fe55737dd975d2f297297c993bad4e3976fdc6475c4c95617a",
+      "bytes": 12254,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596860495000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/DigestAuthHttpServerTest.java",
+      "sha256": "8442dc0aae2bf718b713ae897a5e80c233302ea7a50711a3a25c160fa8aa5e98",
+      "bytes": 7072,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596861496700
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/HandlerFactoryTest.java",
+      "sha256": "31621032d7f513d1f90e3f5f1effc8cc97722e6f39eca9b663096f56c87b865d",
+      "bytes": 2038,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596861496700
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/HttpAuthBase.java",
+      "sha256": "7699776e5c0d5b9ad51012f9a1c606f80308036cb5a06fd0b0e4114b5ffc5a7e",
+      "bytes": 3699,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596862497000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/HttpQueryStringParameterRemoteUserExtractorTest.java",
+      "sha256": "179384ddd6f5c547cfabc28f47c6329e1ab1bc9f6be9503360ce5071b92283ba",
+      "bytes": 6530,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596862497000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/HttpServerCustomizerTest.java",
+      "sha256": "9e21715cd22d7f3776e1313c3aecfae759bc08c5978c2dc822539080fda154a6",
+      "bytes": 4576,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596862497000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/server/HttpServerSpnegoWithoutJaasTest.java",
+      "sha256": "d61200e7f11c61f66f76d982215add20f9f25325d6d3dc6523262b254ba814ed",
+      "bytes": 10416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596862497000
+    },
+    {
+      "relative": "server/src/test/java/org/apache/calcite/avatica/test/AvaticaSuite.java",
+      "sha256": "5adb5e8480d6ff460841f8d2812f303261d323c73df79ba887fb0c9631522523",
+      "bytes": 1263,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596863970500
+    },
+    {
+      "relative": "server/src/test/resources/auth-users.properties",
+      "sha256": "2cd1b5d838a8d8542403b6d64043356a3989634967e48d4d5d95f349a94542d4",
+      "bytes": 949,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596863970500
+    },
+    {
+      "relative": "server/src/test/resources/log4j2-test.xml",
+      "sha256": "61e62ae37eee87e8a5392a54c1b52e59d4d3d09d76ec66550115cc1eaa84b208",
+      "bytes": 1163,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596863970500
+    },
+    {
+      "relative": "shaded/core/build.gradle.kts",
+      "sha256": "e974a27e81f197282818cf4033b261811143e8d30c509f95ef916aab63324d9d",
+      "bytes": 3284,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596865076000
+    },
+    {
+      "relative": "shaded/core/gradle.properties",
+      "sha256": "1d1091129a6c0abb2b495b4b23d884e15eaecc16e1e1924c287864b397a7823b",
+      "bytes": 879,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596865076000
+    },
+    {
+      "relative": "shaded/core/src/main/resources/META-INF/LICENSE",
+      "sha256": "57c8984b0f1b3416d4befc372c287612df23f275d701cd0facb1cb90781caaae",
+      "bytes": 14082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596866207400
+    },
+    {
+      "relative": "shaded/core/src/test/java/org/apache/calcite/avatica/shadetest/ShadingTest.java",
+      "sha256": "fe8344db21c8f67b983ca223749df88a40069c4e3820f57416579c32ec065158",
+      "bytes": 2512,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596868503600
+    },
+    {
+      "relative": "site/.gitignore",
+      "sha256": "1c498e5e09f05a961b9ef0b88203c9c6dc607f509418a858855a34765bf1e320",
+      "bytes": 46,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596868503600
+    },
+    {
+      "relative": "site/add-avatica-go-docs.sh",
+      "sha256": "2cfd99f3e92b729a46ed630499205c031d23f81211d246cdf42fa8a76d10ac21",
+      "bytes": 1308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596896628400
+    },
+    {
+      "relative": "site/doap_calcite-avatica.rdf",
+      "sha256": "897fef7c87452cb229a7bf869ca69503b5faee4e5c871ba14358a770dca81776",
+      "bytes": 2931,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596898630600
+    },
+    {
+      "relative": "site/docker-compose.yml",
+      "sha256": "ff2cf6cfe2b15f960298b0db001d8a0e051a7a463362d1a3b234a1505e1acae6",
+      "bytes": 2008,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596898630600
+    },
+    {
+      "relative": "site/favicon.ico",
+      "sha256": "8b88b106f6d87e34a192ceedb39195a575a4873f1d4c82ce76fdadc16905c7ba",
+      "bytes": 5683,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596899631000
+    },
+    {
+      "relative": "site/Gemfile",
+      "sha256": "9251fc52ff3fae0038a65b6690b3467997626d248db72630046f19db5671568a",
+      "bytes": 951,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596868503600
+    },
+    {
+      "relative": "site/Gemfile.lock",
+      "sha256": "5fab3cffb5c070887825400b71417012f0c5a559c2abfab79b3254ef4208b354",
+      "bytes": 4547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596869503300
+    },
+    {
+      "relative": "site/index.html",
+      "sha256": "7ad6d0534d64ce1975d355d58ec304197bf6673e1a1137dba251bea8a0980142",
+      "bytes": 2806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596911945600
+    },
+    {
+      "relative": "site/README.md",
+      "sha256": "95a486352226b6dc69c199f8588a5c46d8cd4d20ace239937bb69005d3bd5a3e",
+      "bytes": 2163,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596869503300
+    },
+    {
+      "relative": "site/_config.yml",
+      "sha256": "2489bec1d4a122c9cdae2eae75cf32ceaf1a81a2cc9c3111299a6b7c0a15ca2f",
+      "bytes": 1738,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596869503300
+    },
+    {
+      "relative": "site/community/index.md",
+      "sha256": "ba77b6c72197a767686f0f786c128a81adf3b77952651b9d915fb9247dd81c98",
+      "bytes": 904,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596896628400
+    },
+    {
+      "relative": "site/css/screen.scss",
+      "sha256": "5497a35b65535fe0eae76846ae47b8f61dde4a0812e2813f9aeb69b834b4a09c",
+      "bytes": 138,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596897627600
+    },
+    {
+      "relative": "site/develop/avatica.md",
+      "sha256": "8f6f15b7248e52196d37a5183916553014b63500cde08b28b285a6f2faf00230",
+      "bytes": 4257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596897627600
+    },
+    {
+      "relative": "site/develop/index.md",
+      "sha256": "b0995e9b4651421c03aeafac41fbae3f7daea9994359756cdc6c169ca3550f70",
+      "bytes": 1238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596897627600
+    },
+    {
+      "relative": "site/downloads/avatica-go.md",
+      "sha256": "b1e0870b5273e4b3c7ccf17e85683aa18f10ebc3869f81f9744a1e05f0f4b221",
+      "bytes": 6138,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596898630600
+    },
+    {
+      "relative": "site/downloads/avatica.md",
+      "sha256": "83bad23838dbcac93ea9bc266ee66038806d047b8a2aaa4441e68c161f9e3223",
+      "bytes": 6766,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596899631000
+    },
+    {
+      "relative": "site/downloads/index.md",
+      "sha256": "6d762473d75cc827ba9572f45c08130552dd374ddcc22d9d22735f1ddbc9a66a",
+      "bytes": 1180,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596899631000
+    },
+    {
+      "relative": "site/fonts/fontawesome-webfont.eot",
+      "sha256": "e511891d3e01b0b27aed51a219ced5119e2c3d0460465af8242e9bff4cb61b77",
+      "bytes": 56006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596900630500
+    },
+    {
+      "relative": "site/fonts/fontawesome-webfont.svg",
+      "sha256": "786d16d1d3d91584364be09b199b6e38c5cff4dfe068cd661062bcb6a6da1bae",
+      "bytes": 287527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596902947200
+    },
+    {
+      "relative": "site/fonts/fontawesome-webfont.ttf",
+      "sha256": "4d6eb9e9d852a2a6f74e7c428456a2f07fc63a1613d10192d8ed3401d9da5ffa",
+      "bytes": 112160,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596903946400
+    },
+    {
+      "relative": "site/fonts/fontawesome-webfont.woff",
+      "sha256": "199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1",
+      "bytes": 65452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596903946400
+    },
+    {
+      "relative": "site/fonts/lato-300-ext.woff2",
+      "sha256": "c9455def209bbd015200db4ecf838ee149944d0e229b519b8e237738946c8724",
+      "bytes": 5624,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596904945600
+    },
+    {
+      "relative": "site/fonts/lato-300.woff2",
+      "sha256": "115f6a626ca115d4ad5581b59275327e0e860b30330a52b0f785561332dd2429",
+      "bytes": 23236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596904945600
+    },
+    {
+      "relative": "site/fonts/lato-400-ext.woff2",
+      "sha256": "1c2fc265baaeba4f3f5b8c7285b93343aead25590f08be73d3056718b376c5d7",
+      "bytes": 5472,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596905945000
+    },
+    {
+      "relative": "site/fonts/lato-400.woff2",
+      "sha256": "918b7dc3e2e2d015c16ce08b57bcb64d2253bafc1707658f361e72865498e537",
+      "bytes": 23580,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596905945000
+    },
+    {
+      "relative": "site/fonts/lato-700-ext.woff2",
+      "sha256": "4ef7cd3d4ed7de91e7eb3c05a31c6fa1da0b08d07cbfab8ae108c34d5e39cdb9",
+      "bytes": 5368,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596905945000
+    },
+    {
+      "relative": "site/fonts/lato-700.woff2",
+      "sha256": "c447dd7677b419db7b21dbdfc6277c7816a913ffda76fd2e52702df538de0e49",
+      "bytes": 23040,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596906944800
+    },
+    {
+      "relative": "site/fonts/lato-900-ext.woff2",
+      "sha256": "f89e4b21bccfed71ba5ad8bad21dfe6de6e152959c227731ff27b046cda16ade",
+      "bytes": 5412,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596906944800
+    },
+    {
+      "relative": "site/fonts/lato-900.woff2",
+      "sha256": "08664859baab5ed98f0bf818ed77e38464ff1826dc6406d5ecbd651409afbd92",
+      "bytes": 22504,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596906944800
+    },
+    {
+      "relative": "site/fonts/lato-italic-300-ext.woff2",
+      "sha256": "930c525f792cc92f84c19945f3423daba6294fb688e1d8d34f198cab2e25c9ac",
+      "bytes": 4340,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596907946000
+    },
+    {
+      "relative": "site/fonts/lato-italic-300.woff2",
+      "sha256": "a961366b4346f6078cc2f164d2c019f63b37e2693f6fc93a995048a98b25c083",
+      "bytes": 17728,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596907946000
+    },
+    {
+      "relative": "site/fonts/lato-italic-400-ext.woff2",
+      "sha256": "ff0c0340150f8d44ba71b2ba2b97fad1d868b2f8e4812fecc15d28aa83564060",
+      "bytes": 5600,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596907946000
+    },
+    {
+      "relative": "site/fonts/lato-italic-400.woff2",
+      "sha256": "bca1d88ada544d9c80872d4da27133fab6d347361fa26e932b47ec9559088fd0",
+      "bytes": 24408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596908945000
+    },
+    {
+      "relative": "site/fonts/lato-italic-700-ext.woff2",
+      "sha256": "c6c11bbe6b80203775a1c3814e57e232748ad057a4ba74dc798f363ad48dae3a",
+      "bytes": 5616,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596908945000
+    },
+    {
+      "relative": "site/fonts/lato-italic-700.woff2",
+      "sha256": "6c84348296ebe2e2a0830c3962eb02156419d9bc76371c2eadaf7329d827d550",
+      "bytes": 24448,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596908945000
+    },
+    {
+      "relative": "site/img/avatica-architecture.png",
+      "sha256": "d00caf34840207a7f377f6eff19dcd210d21160d744d3903576d0bdb115c4fad",
+      "bytes": 180905,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596910945400
+    },
+    {
+      "relative": "site/img/feather.png",
+      "sha256": "a25ae19c727dfbf8f516c42d4bda30e9c8c5f5a6e1b704535094a980c4c225c1",
+      "bytes": 12607,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596910945400
+    },
+    {
+      "relative": "site/img/logo.png",
+      "sha256": "68bad318c52c6f50e8bbd39304230c86cce03041b269407cb1bdb6693611b38e",
+      "bytes": 27763,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596911945600
+    },
+    {
+      "relative": "site/news/index.html",
+      "sha256": "13f2f4eda836427d35bc0a3064bbb69ea6ca1c8135fb341b03439515a9f61abb",
+      "bytes": 1252,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596913946200
+    },
+    {
+      "relative": "site/news/avatica-go-releases/index.html",
+      "sha256": "6c2536306ca7c2390960c558a5c264dd8c9aaddeea488bd3245722e55b78a466",
+      "bytes": 1064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596912945300
+    },
+    {
+      "relative": "site/news/avatica-releases/index.html",
+      "sha256": "933475376475ad09b44362ebdcbd277e160b74541869db5c9fe12c58ab8680c8",
+      "bytes": 1055,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596912945300
+    },
+    {
+      "relative": "site/news/releases/index.html",
+      "sha256": "577e6a31de8b6add73cad308b3e1554626ea7476df0ff20b6cbbf01bb0b0b740",
+      "bytes": 932,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596913946200
+    },
+    {
+      "relative": "site/_data/contributors.yml",
+      "sha256": "9567f5b6117ab309d03ad381a1ffb125b842e559128298a6516fa71f1c323256",
+      "bytes": 3185,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596870538500
+    },
+    {
+      "relative": "site/_data/docs.yml",
+      "sha256": "93f47fe519e43c5a6b2ec8b406ab0a530b8a5cdab88748d5f0787e0b776500f0",
+      "bytes": 1319,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596870538500
+    },
+    {
+      "relative": "site/_docs/api.md",
+      "sha256": "832830175f6d3c97bc2aeeed6613781d41ed9f11e20d33e3192486026fc3ed2a",
+      "bytes": 1092,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596871599200
+    },
+    {
+      "relative": "site/_docs/client_reference.md",
+      "sha256": "a1838c0d7bd27ac2502e9f7ab22570c9beb8361c7fc569d1e46267ef8df3beca",
+      "bytes": 10633,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596871599200
+    },
+    {
+      "relative": "site/_docs/compatibility.md",
+      "sha256": "c357704013f059d7d0aa57d00752da620691c0af3f67692e3a709761daa79d70",
+      "bytes": 5309,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596872928000
+    },
+    {
+      "relative": "site/_docs/custom_client_artifacts.md",
+      "sha256": "e03d7b1e269fb76962e7b3a5f891f3c29a3d6f58c1704411ffba3e200069ee49",
+      "bytes": 5494,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596872928000
+    },
+    {
+      "relative": "site/_docs/docker_images.md",
+      "sha256": "c12f13fcc7b65ac192d09d02c955826cf1a44072bceb967d9843d678c74d1279",
+      "bytes": 6444,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596872928000
+    },
+    {
+      "relative": "site/_docs/history.md",
+      "sha256": "fbc17c999407d2de74e576d28d0c1c25f91c4ac064c4b83de1d1c6732631943c",
+      "bytes": 82157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596874004000
+    },
+    {
+      "relative": "site/_docs/howto.md",
+      "sha256": "3522cf367103d7168859c3287a69834a18d839634099a57c07a4736d6738b2be",
+      "bytes": 17991,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596874004000
+    },
+    {
+      "relative": "site/_docs/index.md",
+      "sha256": "e300e4aa1ea88a935b877fcb98c2bfd83f1a24171c278ea355da7f99a1fba290",
+      "bytes": 7441,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596874004000
+    },
+    {
+      "relative": "site/_docs/json_reference.md",
+      "sha256": "70c234843298387be47abe716360e547f12342c01b6d498157b962bc9c3c1fbb",
+      "bytes": 36263,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596875498300
+    },
+    {
+      "relative": "site/_docs/protobuf_reference.md",
+      "sha256": "6ae2c5c136017e81af9fbf6b0c36737e4ae74b1662df261e3c1986be28ab8a95",
+      "bytes": 41126,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596875498300
+    },
+    {
+      "relative": "site/_docs/protocol_testing.md",
+      "sha256": "551eb4dd614eac61f555fa3a5c0e7cf3ffeab036e321e9a15a8fe619d60f65a2",
+      "bytes": 3367,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596876506300
+    },
+    {
+      "relative": "site/_docs/roadmap.md",
+      "sha256": "edba5548a6aa89850454bb1b2d80c8a426d372a2d50b6571eb62860f3d3d4903",
+      "bytes": 1642,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596876506300
+    },
+    {
+      "relative": "site/_docs/security.md",
+      "sha256": "5936fed8982e615053fa5184fe8a4de8f57d5f326eb26b50977b266a3fbf883f",
+      "bytes": 16382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596876506300
+    },
+    {
+      "relative": "site/_includes/anchor_links.html",
+      "sha256": "08efb3e5f07cc702722623f65537fc94591736c283ec37e396a3164a3821dd37",
+      "bytes": 1073,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596877511700
+    },
+    {
+      "relative": "site/_includes/docs_contents.html",
+      "sha256": "ac364f3df43a633309eae8a367c67d697b59adb824d57936eb3c3e2942108ec3",
+      "bytes": 221,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596877511700
+    },
+    {
+      "relative": "site/_includes/docs_contents_mobile.html",
+      "sha256": "90ec8055b99ef7045dad10e86f64fbcfdc54a69d432d6b66817f785c9e34442b",
+      "bytes": 379,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596877511700
+    },
+    {
+      "relative": "site/_includes/docs_option.html",
+      "sha256": "5267431ad7d3c33105fd7144d8856f0bce4568bb716dd658fc50490907409c40",
+      "bytes": 330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596877511700
+    },
+    {
+      "relative": "site/_includes/docs_ul.html",
+      "sha256": "deee2c0618783f7ac256ea4157b3cb55e0f0fc9ea7ef48a3b9afe21aba215154",
+      "bytes": 1353,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596878976000
+    },
+    {
+      "relative": "site/_includes/footer.html",
+      "sha256": "0f124cd8dc34b02a2aacea59ed2cfe80e2a4478daaaebf7ceaa8b682d27c87c5",
+      "bytes": 781,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596878976000
+    },
+    {
+      "relative": "site/_includes/header.html",
+      "sha256": "6d11a448fb1cb4c26f35cbdc28f4649d96500f8e32b3d6a946f4ac20bf3479ae",
+      "bytes": 584,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596879977700
+    },
+    {
+      "relative": "site/_includes/news_contents.html",
+      "sha256": "248dfeb869d8631c4dae9ea431420f00b6a5d608420e0221c9c01246b9e302f9",
+      "bytes": 1318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596879977700
+    },
+    {
+      "relative": "site/_includes/news_contents_mobile.html",
+      "sha256": "0abe3cb04db8e2cdb46427b19e463b942f30a6d0574802fc5cd91b7230991806",
+      "bytes": 428,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596880977900
+    },
+    {
+      "relative": "site/_includes/news_item.html",
+      "sha256": "b4e639b426cbcf3376cdf3a01ae75190d5b820c3bad7d14eb22a076ef3da9412",
+      "bytes": 2773,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596880977900
+    },
+    {
+      "relative": "site/_includes/primary-nav-items.html",
+      "sha256": "5a23e3dadc1dfa2ba6a56de71cfdb01ec63fabac04028ba37bfd32f7e4562eaf",
+      "bytes": 801,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596880977900
+    },
+    {
+      "relative": "site/_includes/section_nav.html",
+      "sha256": "0c2183145f194c4befb3804f32dda15657367eac3ea2dd239e2933d2d468f552",
+      "bytes": 1806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596881978300
+    },
+    {
+      "relative": "site/_includes/top.html",
+      "sha256": "ceef73c97fb7b6a358cd181c8a2e1c8e213815686bb3d3f268efc14ee8398dfe",
+      "bytes": 1234,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596881978300
+    },
+    {
+      "relative": "site/_layouts/default.html",
+      "sha256": "b5a1d0d30ac98bc205d864dfc8996cea463f60c6f7d9f4a36892ffd4a6256c42",
+      "bytes": 181,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596882976800
+    },
+    {
+      "relative": "site/_layouts/docs.html",
+      "sha256": "1b5814bc7e9c58c988e96587855a771f460a99bf5b24008e407bde8712fd644a",
+      "bytes": 430,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596882976800
+    },
+    {
+      "relative": "site/_layouts/external.html",
+      "sha256": "d6a4411c4218dc444c5bb0331db7801c13a1f2af4e508eab695fc758e9b9fcbc",
+      "bytes": 220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596882976800
+    },
+    {
+      "relative": "site/_layouts/news.html",
+      "sha256": "f6c760aee21644dd7a272bd1968ec4f0445a2fc2b3fccb42552b829cbb85d555",
+      "bytes": 310,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596882976800
+    },
+    {
+      "relative": "site/_layouts/news_item.html",
+      "sha256": "c7f7ad32647125e51c9fcffcb599d01cd2d73b8e34a3977200d2bb9a4b422278",
+      "bytes": 2010,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596883977200
+    },
+    {
+      "relative": "site/_layouts/page.html",
+      "sha256": "fca4156e2e55778d85c85fddaf5008f53a0c849f96315e71698bb66f13aa4015",
+      "bytes": 275,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596883977200
+    },
+    {
+      "relative": "site/_plugins/bundler.rb",
+      "sha256": "0a64a091a6e7b7c30c08a98b3232d002acc955557f2e04a5dc7dd895351ded8c",
+      "bytes": 886,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596884976100
+    },
+    {
+      "relative": "site/_posts/2016-03-03-separate-project.md",
+      "sha256": "76a9bdd8931ee0c6a60c766d93d6558ab6428fb4d827a118acda345d3f6dd692",
+      "bytes": 1409,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596884976100
+    },
+    {
+      "relative": "site/_posts/2016-03-18-release-1.7.1.md",
+      "sha256": "1bc5590a368b5dda6b89e5d16d06ed820e13099de77b01fc974108d1d45b5e39",
+      "bytes": 3843,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596884976100
+    },
+    {
+      "relative": "site/_posts/2016-06-04-release-1.8.0.md",
+      "sha256": "67393810de4a3bcd8f62d6d911b0834f3da3245a56d8168d8237b71eeecf8187",
+      "bytes": 5629,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596885976300
+    },
+    {
+      "relative": "site/_posts/2016-11-01-release-1.9.0.md",
+      "sha256": "0fb865b402d831f31e9ef7db19771722dffffc493d4093ebdbd96bd637a15d65",
+      "bytes": 1818,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596885976300
+    },
+    {
+      "relative": "site/_posts/2017-03-31-new-avatica-repository.md",
+      "sha256": "e77a87fa1f213dc564f797d5f4ebe83aadb038b7d23c98edb0ed2a1ae2cc886a",
+      "bytes": 1673,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596886977400
+    },
+    {
+      "relative": "site/_posts/2017-05-30-release-1.10.0.md",
+      "sha256": "61acaa17d44a30693ef9c1f3ec304c907883a1eff65b9853bd6e90569f76eb50",
+      "bytes": 1924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596886977400
+    },
+    {
+      "relative": "site/_posts/2018-03-09-release-1.11.0.md",
+      "sha256": "da890db6644cae2082d255092356b30b3031d162e2cc03fe023fdbea481353f3",
+      "bytes": 1163,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596886977400
+    },
+    {
+      "relative": "site/_posts/2018-06-24-release-1.12.0.md",
+      "sha256": "b11fa90796c3c40309e7dbd379bca3b522d3566701b690edf110fba996cf2d6b",
+      "bytes": 1184,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596887979700
+    },
+    {
+      "relative": "site/_posts/2018-12-04-release-1.13.0.md",
+      "sha256": "1d00b4017b4ba2cc5f56a3bf6e798e889a77999655dea88baeb70b8309341e15",
+      "bytes": 1116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596887979700
+    },
+    {
+      "relative": "site/_posts/2019-04-29-release-1.14.0.md",
+      "sha256": "0fa205d5c192be33d6863ce8d4d97e68e08053a6d4f22bb8c1b33f16e0d5d428",
+      "bytes": 1343,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596887979700
+    },
+    {
+      "relative": "site/_posts/2019-05-13-release-1.15.0.md",
+      "sha256": "943c352e18ac268321b14c81f1ba05f4367660bee27045ecf8da21e4500f2fb1",
+      "bytes": 1492,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596888974400
+    },
+    {
+      "relative": "site/_posts/2019-12-19-release-1.16.0.md",
+      "sha256": "19f552c29c337201fb7883950ecfc4f779eec09eaf4c9d8b66cc3cd2a7aedbdd",
+      "bytes": 1384,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596888974400
+    },
+    {
+      "relative": "site/_posts/2020-06-22-release-1.17.0.md",
+      "sha256": "8b8776f17a2b90dc30f8ddf1286917d6cb1ee5bc21551076bf5ac46a6927868d",
+      "bytes": 1390,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596888974400
+    },
+    {
+      "relative": "site/_posts/2021-05-18-release-1.18.0.md",
+      "sha256": "7e93a5497bc6d07a5f3b7654f1cfc2ce848ee24f039d01fdf2380a778f4a463e",
+      "bytes": 2219,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596889976300
+    },
+    {
+      "relative": "site/_posts/2021-10-11-release-1.19.0.md",
+      "sha256": "d9759b6f360cfc0631e38dc07aa27d283dded017c1a2832a39819b888e940bd0",
+      "bytes": 1253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596889976300
+    },
+    {
+      "relative": "site/_posts/2021-12-13-release-1.20.0.md",
+      "sha256": "37ce9b2e9d742bbfb209c6fd82469e525425658024437771aee2ba7e4ff87269",
+      "bytes": 1443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596889976300
+    },
+    {
+      "relative": "site/_posts/2022-05-08-release-1.21.0.md",
+      "sha256": "ec3fe82c0a1a839e0ce7da9dfa9a563e80a2fa77f17de776e3590df4445fe913",
+      "bytes": 1593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596890974300
+    },
+    {
+      "relative": "site/_posts/2022-07-28-release-1.22.0.md",
+      "sha256": "9dfdeb045d7abc3853362e49a987012491cca2c83d05a10a3ac4c8fd823fb649",
+      "bytes": 1521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596890974300
+    },
+    {
+      "relative": "site/_posts/2023-01-19-release-1.23.0.md",
+      "sha256": "788f06008033ace5165afb7bac1253f8a7a680f0d06ce73258986f8eba0e1561",
+      "bytes": 2083,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596891976000
+    },
+    {
+      "relative": "site/_posts/2023-12-04-release-1.24.0.md",
+      "sha256": "91fe81e7652a44beeb9568e95a8576b0765afc56b24833e7a58b4915b204baa2",
+      "bytes": 1379,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596891976000
+    },
+    {
+      "relative": "site/_posts/2024-04-05-release-1.25.0.md",
+      "sha256": "d642431772e16e3fb8cb6e653f33354f6d9957a89312acc9af4a97bffaf4e6bf",
+      "bytes": 1596,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596891976000
+    },
+    {
+      "relative": "site/_posts/2025-02-24-release-1.26.0.md",
+      "sha256": "f274184bbbc7120c5cdb8baaf27187f2e6e0e1eac8d1f5aa2fc72c3b2442bf13",
+      "bytes": 1199,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596891976000
+    },
+    {
+      "relative": "site/_posts/2025-09-30-release-1.27.0.md",
+      "sha256": "0cad71db76c065fe6bc3263d1c334e5153984950f3789e2fe6a9d8789efbc8e8",
+      "bytes": 1200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596891976000
+    },
+    {
+      "relative": "site/_posts/2026-05-12-release-1.28.0.md",
+      "sha256": "84292a295f28ca04ed5c3005888131cff0459b0859893c5af731544d87235a5f",
+      "bytes": 1612,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596893264300
+    },
+    {
+      "relative": "site/_sass/_font-awesome.scss",
+      "sha256": "3cb8cf5d3ffd49599c220088aa62b1439d69bbeb345be19409df571618cd9673",
+      "bytes": 930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596893264300
+    },
+    {
+      "relative": "site/_sass/_gridism.scss",
+      "sha256": "7f6d021bce9de4101a42316c63895d88f1458aaa277c044a0ff1b5e06455f041",
+      "bytes": 3448,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596893264300
+    },
+    {
+      "relative": "site/_sass/_lato.scss",
+      "sha256": "999487e9642e47927ca025d29100d931b1c586bcc2e6f16dc27555c64518a0cc",
+      "bytes": 5082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596894628300
+    },
+    {
+      "relative": "site/_sass/_mixins.scss",
+      "sha256": "63fb8479ac5ee067910ef3614580408229b4941ed01ad8e0fa8709c7483aa0b0",
+      "bytes": 1106,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596894628300
+    },
+    {
+      "relative": "site/_sass/_normalize.scss",
+      "sha256": "560c452163a84c199b652e3562a80a094946f6cd6320fd98a14b90244eee9469",
+      "bytes": 1981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596894628300
+    },
+    {
+      "relative": "site/_sass/_pygments.scss",
+      "sha256": "9a0fc0dd1d4a3986f1f680bf5b643a7a310333e384887aa15e845ee73bd82bc7",
+      "bytes": 3745,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596895631300
+    },
+    {
+      "relative": "site/_sass/_style.scss",
+      "sha256": "e4559321ace26ce9a091f4e810985d76a563e49fce07512a37a1b01ea68d99c4",
+      "bytes": 26572,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596895631300
+    },
+    {
+      "relative": "src/main/config/assemblies/source-assembly.xml",
+      "sha256": "1156ceae6c9ed38c18d9fef2537fa8337caa4e8c6c7bbcaba77c7f9627061765",
+      "bytes": 4712,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596914949400
+    },
+    {
+      "relative": "src/main/config/checkstyle/checker.xml",
+      "sha256": "957fe823cf85d59c71e3ddf2c357d53829d6aeef613f86222d9d0b27a6598597",
+      "bytes": 10628,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596915947400
+    },
+    {
+      "relative": "src/main/config/checkstyle/suppressions.xml",
+      "sha256": "b987c233168916d1d88a7fafc043d0cc04b08cdc8555773c0d8f4e4c010b87f3",
+      "bytes": 3177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596915947400
+    },
+    {
+      "relative": "src/main/config/dependency-check/suppressions.xml",
+      "sha256": "f93a12c96b2ca8decb719058e3b885df60a540c9c7440ff3846e387baa08bc46",
+      "bytes": 1471,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596915947400
+    },
+    {
+      "relative": "src/main/config/forbidden-apis/signatures.txt",
+      "sha256": "0d7fb108ec2b8f076867f69bcb7db96aac10c3260075adf8ea8bff03316bd4c3",
+      "bytes": 1772,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596916943800
+    },
+    {
+      "relative": "src/main/config/licenses/LICENSE",
+      "sha256": "eb3d7b5485466acbd81f2b496f595ab637d2792e268206b27d99e793bdb67549",
+      "bytes": 10351,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596916943800
+    },
+    {
+      "relative": "src/main/config/licenses/font-awesome-code/LICENSE",
+      "sha256": "9564dbb866b03411f44a78b7d0853006fe78905181c541215e355c579ed5360d",
+      "bytes": 465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596918090300
+    },
+    {
+      "relative": "src/main/config/licenses/font-awesome-font/LICENSE",
+      "sha256": "9564dbb866b03411f44a78b7d0853006fe78905181c541215e355c579ed5360d",
+      "bytes": 465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596918090300
+    },
+    {
+      "relative": "src/main/config/licenses/gridsim/LICENSE",
+      "sha256": "b74220dac8b126dfcd0e64136866f6587f9e37995dad5a72fa0edef7bc5a086a",
+      "bytes": 1154,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596919093600
+    },
+    {
+      "relative": "src/main/config/licenses/hsqldb/LICENSE-hsqldb",
+      "sha256": "db1e591b11fca8d8b739dde82497ba3eef0c302a3c679b4940fbb973eadc7ebf",
+      "bytes": 1630,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596919093600
+    },
+    {
+      "relative": "src/main/config/licenses/hsqldb/LICENSE-hypersonic",
+      "sha256": "b3cd668111564acf844f72ef7cab4eaa4b1761e1ee4da2c88aea5e7ddc01af8d",
+      "bytes": 3505,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596920092800
+    },
+    {
+      "relative": "src/main/config/licenses/html5shiv/LICENSE",
+      "sha256": "def8f069f4c6cdf7f3b5b891f4f8dc8984783df7cee6aa281a1c49bf88daa619",
+      "bytes": 1171,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596920092800
+    },
+    {
+      "relative": "src/main/config/licenses/jekyll/LICENSE",
+      "sha256": "1d2c8fc2aa50db50045572923870fbb9423eb41133346d6cf6f7062abe0cfbe4",
+      "bytes": 1138,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596921092500
+    },
+    {
+      "relative": "src/main/config/licenses/normalize/LICENSE",
+      "sha256": "9c77508fe011f5c080b8959ecc77d8fa993a26e2a2f3fe0506e5ab729e224f7a",
+      "bytes": 1150,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596921092500
+    },
+    {
+      "relative": "src/main/config/licenses/protobuf-java/LICENSE",
+      "sha256": "f4df8b2457697851385d9ebb93267832c1dfa24e0e61881952f6b0c452663dc9",
+      "bytes": 1764,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596922088900
+    },
+    {
+      "relative": "src/main/config/licenses/respond/LICENSE",
+      "sha256": "65e6ce3829c29fddb0289f63673351481f9c8bdb6a52bd30e8491535d0c86068",
+      "bytes": 1130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596923097400
+    },
+    {
+      "relative": "src/main/config/licenses/slf4j-api/LICENSE",
+      "sha256": "7eda39e2350dbd2b71b3ead17e20830d9b9c006d336cb0d976022f332fc83c07",
+      "bytes": 1153,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596923097400
+    },
+    {
+      "relative": "src/main/config/spotbugs/spotbugs-filter.xml",
+      "sha256": "cf0c40214329077af216d1d95a188a1fbaba327955579d24eaa646520d4dbb7f",
+      "bytes": 1639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596924091600
+    },
+    {
+      "relative": "standalone-server/build.gradle.kts",
+      "sha256": "388793e7c0226b6dc610f2b67a1c38d6f5bae5433f105a571f2c53ff11bddd79",
+      "bytes": 4216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596924091600
+    },
+    {
+      "relative": "standalone-server/gradle.properties",
+      "sha256": "0881602df8c829ba190a6c6808346b647afce914e7ab03befef706acf8e63a89",
+      "bytes": 909,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596924091600
+    },
+    {
+      "relative": "standalone-server/src/main/java/org/apache/calcite/avatica/standalone/package-info.java",
+      "sha256": "8a66dec20677543f5733c28b9bbc96988dbf2cc52f97bd2a3676886ddba45f9d",
+      "bytes": 969,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596926311000
+    },
+    {
+      "relative": "standalone-server/src/main/java/org/apache/calcite/avatica/standalone/StandaloneServer.java",
+      "sha256": "c4e214338186429f00f5ce4916b5431f577640ccb00f07204e75cb469e8114bf",
+      "bytes": 5719,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596926311000
+    },
+    {
+      "relative": "standalone-server/src/main/resources/log4j2.xml",
+      "sha256": "9485fce4333a3494072b94fe6b4724b822fbb1244448de04bde420a5b549a54b",
+      "bytes": 1177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596927329000
+    },
+    {
+      "relative": "standalone-server/src/main/shaded-resources/LICENSE",
+      "sha256": "ac5820d5f9d30f6122060cb07a6fbe2ebe919d90280260c853073f8a016e261a",
+      "bytes": 13846,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596927329000
+    },
+    {
+      "relative": "standalone-server/src/test/java/org/apache/calcite/avatica/shadetest/ShadingTest.java",
+      "sha256": "1613016e4308d9ebabbc6b6222b35a5099e747f1874138f93d48a754980a4bfd",
+      "bytes": 2976,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596928328500
+    },
+    {
+      "relative": "tck/build.gradle.kts",
+      "sha256": "25484fa46e69666925d9649aca965370003857f8c11cbff11f84da6f44fbd397",
+      "bytes": 4376,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596929607000
+    },
+    {
+      "relative": "tck/gradle.properties",
+      "sha256": "5797c408f029c89ea778d7516ff76c329f3e611a382cc662e11463c0f09932d6",
+      "bytes": 927,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596929607000
+    },
+    {
+      "relative": "tck/README.md",
+      "sha256": "c4f2147e001f103f1835a2160feaee543c27540f98b289eb897a0ea3b450e424",
+      "bytes": 3786,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596929607000
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/package-info.java",
+      "sha256": "affb1419431c229888aef133992bfacce343f38141d2098f60a82e465cabc171",
+      "bytes": 932,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596932978600
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/PackageMarker.java",
+      "sha256": "57668e869f4eb6259eb6092b214798e341a9b4e631aad65030dc15961c16d871",
+      "bytes": 1425,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596931982500
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/TestRunner.java",
+      "sha256": "fc469058ed0f7138f3d8096ad2eb19aa5abf3e91a718199517b5f3515c9eb62a",
+      "bytes": 9181,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596931982500
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/Unsafe.java",
+      "sha256": "12f5f67a395c5987edad82e5ccd43a463fe406da4ee3a09bf599a9d29aae5c9a",
+      "bytes": 1803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596932978600
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/tests/BaseTckTest.java",
+      "sha256": "59e3a665240d8ddb642b1a91f277a8f9766f507dd916bb272bcb1d83b6dada37",
+      "bytes": 1688,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596933977800
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/tests/BinaryTest.java",
+      "sha256": "924dc72d114b5c2c8dffac91f98b88560b91cb6ab558feccc27ea23cb50858c6",
+      "bytes": 4124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596933977800
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/tests/InsertTest.java",
+      "sha256": "df9ad66546f86fb8d572f8e0462101f2ae5b10135d083576c19ee1153050eec9",
+      "bytes": 8019,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596933977800
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/tests/MetadataTest.java",
+      "sha256": "3c8b7daf91dd855c682fadcedc353fc5e112b76da9633aa8420296e4f37846f6",
+      "bytes": 6099,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596933977800
+    },
+    {
+      "relative": "tck/src/main/java/org/apache/calcite/avatica/tck/tests/package-info.java",
+      "sha256": "e1a0b1d915d6e9928e6e4ca00e368141fbb8823c3417406da21fd7e18ac7191f",
+      "bytes": 952,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596934978000
+    },
+    {
+      "relative": "tck/src/main/resources/example_config.yml",
+      "sha256": "7a66b0926df2c1edf937b0c83c94899b04ea9ba231fbf75f68802e7f7b62114c",
+      "bytes": 2016,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596935979000
+    },
+    {
+      "relative": "tck/src/main/resources/log4j2.xml",
+      "sha256": "9485fce4333a3494072b94fe6b4724b822fbb1244448de04bde420a5b549a54b",
+      "bytes": 1177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596935979000
+    },
+    {
+      "relative": "tck/src/main/resources/META-INF/LICENSE",
+      "sha256": "ac5820d5f9d30f6122060cb07a6fbe2ebe919d90280260c853073f8a016e261a",
+      "bytes": 13846,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596934978000
+    },
+    {
+      "relative": "tck/src/main/ruby/test_runner.rb",
+      "sha256": "0347d8311c9a9f1fbf9217c69b3f4b2b165622b2fe53701bf08e5ccf925368db",
+      "bytes": 4642,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784761596935979000
+    }
+  ],
+  "excluded": [
+    ".gradle",
+    ".idea",
+    "build",
+    "core/build",
+    "metrics/build"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\198_85795396_5c0f04f0\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:50:28.385588+00:00"
+}

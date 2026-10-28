@@ -1,0 +1,30 @@
+{
+  "stage": "EvoSuite generation profile only, plus raw-evidence inventory49",
+  "reviewer_points": [
+    "R2.1",
+    "R1.3",
+    "R1.11",
+    "R3 assertions/runtime"
+  ],
+  "scope": [
+    "copy before edits",
+    "Maven generation flags only",
+    "explicit legacy/assertions-enabled profile",
+    "no Gradle changes",
+    "no shared evaluator changes",
+    "synthetic fixture only"
+  ],
+  "forbidden": [
+    "GPT API",
+    "changes to original scripts/paper",
+    "RQ123 data updates",
+    "benchmark generation"
+  ],
+  "baseline_limit": "current audited source; exact historical execution source provenance not yet certified",
+  "runtime_integration_status": "not complete; profile success is not end-to-end readiness",
+  "benchmark_scope_not_frozen": true,
+  "fixture_seed": 20261023,
+  "search_budget": 60,
+  "generation_outer_timeout": 240,
+  "fixture_not_in_primary_data": true
+}

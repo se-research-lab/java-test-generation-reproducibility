@@ -1,0 +1,4 @@
+﻿population,n,repositories,GPT_builds,E0_builds,GPT_percent,E0_percent,difference_GPT_minus_E0_pp,both_build,GPT_only,E0_only,neither_build
+all300,300,30,61,158,20.333333333333332,52.666666666666664,-32.333333333333336,49,12,109,130
+Maven260,260,26,51,158,19.615384615384617,60.76923076923077,-41.15384615384615,49,2,109,100
+Gradle40,40,4,10,0,25.0,0.0,25.0,0,10,0,30

@@ -1,0 +1,59 @@
+{
+  "job_index": 49,
+  "class_key": "98410891:core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/numberinterval.java",
+  "repo_id": "98410891",
+  "G0_archived_mutation_percent": "55.26",
+  "E0_archived_mutation_percent": "31.58",
+  "E1_archived_mutation_percent": "92.11",
+  "seed": 20261313,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.softavail.commsrouter.api.dto.model.skill.NumberInterval_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.softavail.commsrouter.api.dto.model.skill.NumberInterval_ESTest",
+      "tests": 35,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 346,
+  "focal_mutants": 38,
+  "killed_mutants": 35,
+  "focal_mutant_qualified_classes": [
+    "com.softavail.commsrouter.api.dto.model.skill.NumberInterval"
+  ],
+  "mutation_score_percent": 92.11,
+  "legacy_strict_mutation_percent": 92.11,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "Comms Router Core Interface",
+      "PACKAGE": "com.softavail.commsrouter.api.dto.model.skill",
+      "CLASS": "NumberInterval",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "330",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "76",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "56",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "53",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "15"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

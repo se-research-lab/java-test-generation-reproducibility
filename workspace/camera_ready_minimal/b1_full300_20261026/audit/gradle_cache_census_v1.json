@@ -1,0 +1,1252 @@
+{
+  "status": "READ_ONLY_CENSUS_NOT_FROZEN",
+  "started_utc": "2026-10-25T23:26:46.523545+00:00",
+  "finished_utc": "2026-10-25T23:26:59.406911+00:00",
+  "script_sha256": "47834818cf64f4fc915939c32f11b18d09fa05a56ce1670ffaaae52a26083b93",
+  "source": "C:\\Users\\admin\\.gradle",
+  "network_calls": 0,
+  "Java_calls": 0,
+  "Gradle_calls": 0,
+  "EvoSuite_calls": 0,
+  "GPT_API_calls": 0,
+  "cache_copies": 0,
+  "cache_deletions": 0,
+  "credential_configuration_contents_read": false,
+  "top_components": {
+    ".tmp": {
+      "root": "C:\\Users\\admin\\.gradle\\.tmp",
+      "exists": true,
+      "files": 21,
+      "directories": 22,
+      "bytes": 184172,
+      "GB_decimal": 0.0002,
+      "GiB": 0.0002,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 18,
+        ".html": 3
+      },
+      "stat_inventory_sha256": "a14e9de3e79382acf29a380c76de36e516b6a496e9e40bfed0f7452e397dac66",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "caches": {
+      "root": "C:\\Users\\admin\\.gradle\\caches",
+      "exists": true,
+      "files": 37082,
+      "directories": 19636,
+      "bytes": 891068656,
+      "GB_decimal": 0.8911,
+      "GiB": 0.8299,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 5213,
+        ".class": 20870,
+        ".exe": 2,
+        ".jar": 3351,
+        ".kotlin_module": 62,
+        ".kt": 1697,
+        ".kts": 2,
+        ".lock": 2291,
+        ".marker": 602,
+        ".module": 53,
+        ".pom": 630,
+        ".properties": 2122,
+        ".receipt": 160,
+        ".tag": 1,
+        ".xml": 26
+      },
+      "stat_inventory_sha256": "e5a7decb352945c343e8e93ea9e12f98bb0118b6c720a2ee22e431c8bdf7177d",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "daemon": {
+      "root": "C:\\Users\\admin\\.gradle\\daemon",
+      "exists": true,
+      "files": 317,
+      "directories": 4,
+      "bytes": 15045888,
+      "GB_decimal": 0.015,
+      "GiB": 0.014,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 4,
+        ".lock": 4,
+        ".log": 308,
+        ".tag": 1
+      },
+      "stat_inventory_sha256": "71679a4d14a70d5e1ab1d8b5709ddca8423cd8df3abdf228fdefa1fbe899c1ed",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "jdks": {
+      "root": "C:\\Users\\admin\\.gradle\\jdks",
+      "exists": true,
+      "files": 1,
+      "directories": 0,
+      "bytes": 181,
+      "GB_decimal": 0.0,
+      "GiB": 0.0,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".tag": 1
+      },
+      "stat_inventory_sha256": "9bdb70b74f5f4fb11c91cfe084c8f4d6c22f27cecb21f4dbd21386b0c8a5f759",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "native": {
+      "root": "C:\\Users\\admin\\.gradle\\native",
+      "exists": true,
+      "files": 15,
+      "directories": 19,
+      "bytes": 2473990,
+      "GB_decimal": 0.0025,
+      "GiB": 0.0023,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".dll": 9,
+        ".lock": 6
+      },
+      "stat_inventory_sha256": "651ce17b1ded7b7f7dbd06ccfa6664307f3c15ff94230f1092c685d7f8edf25a",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "notifications": {
+      "root": "C:\\Users\\admin\\.gradle\\notifications",
+      "exists": true,
+      "files": 3,
+      "directories": 3,
+      "bytes": 0,
+      "GB_decimal": 0.0,
+      "GiB": 0.0,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".rendered": 3
+      },
+      "stat_inventory_sha256": "7e59d4891ce9b5839249eec23155a97baaf10d4863835b5acacb85693f052e5d",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "workers": {
+      "root": "C:\\Users\\admin\\.gradle\\workers",
+      "exists": true,
+      "files": 0,
+      "directories": 0,
+      "bytes": 0,
+      "GB_decimal": 0.0,
+      "GiB": 0.0,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {},
+      "stat_inventory_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "wrapper": {
+      "root": "C:\\Users\\admin\\.gradle\\wrapper",
+      "exists": true,
+      "files": 10739,
+      "directories": 3305,
+      "bytes": 780083496,
+      "GB_decimal": 0.7801,
+      "GiB": 0.7265,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        "(no suffix)": 43,
+        ".a": 4,
+        ".asttransformation": 1,
+        ".bat": 4,
+        ".c": 15,
+        ".coffee": 2,
+        ".conf": 10,
+        ".connectionversion4": 1,
+        ".cpp": 27,
+        ".css": 30,
+        ".csv": 1,
+        ".dependencymanagementservices": 1,
+        ".filters": 1,
+        ".g": 1,
+        ".gif": 7,
+        ".gpg": 2,
+        ".gradle": 434,
+        ".groovy": 414,
+        ".h": 51,
+        ".hpp": 1,
+        ".html": 3247,
+        ".icns": 2,
+        ".ico": 2,
+        ".idl": 1,
+        ".jar": 950,
+        ".java": 5077,
+        ".js": 19,
+        ".jsp": 3,
+        ".key": 1,
+        ".lck": 4,
+        ".lib": 8,
+        ".m": 2,
+        ".md": 5,
+        ".mm": 2,
+        ".ok": 4,
+        ".pdf": 1,
+        ".pluginserviceregistry": 23,
+        ".png": 56,
+        ".projectconfigureaction": 4,
+        ".properties": 99,
+        ".pump": 4,
+        ".rc": 1,
+        ".routes": 5,
+        ".s": 2,
+        ".scala": 35,
+        ".sh": 2,
+        ".sln": 1,
+        ".tag": 1,
+        ".template": 14,
+        ".txt": 36,
+        ".vcxproj": 1,
+        ".war": 1,
+        ".xml": 68,
+        ".xsl": 3,
+        ".zip": 5
+      },
+      "stat_inventory_sha256": "2f7f67555642e4f738dfa16bda4d6d670cbeaf9d074ace7c5fe43913b5257271",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    }
+  },
+  "cache_components": {
+    "2.13": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\2.13",
+      "exists": true,
+      "files": 6780,
+      "directories": 2822,
+      "bytes": 13078350,
+      "GB_decimal": 0.0131,
+      "GiB": 0.0122,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 682,
+        ".class": 4731,
+        ".jar": 1,
+        ".lock": 683,
+        ".properties": 683
+      },
+      "stat_inventory_sha256": "777820d794e093a41d59eb7a4a8287c31d3a415c4903a127f340e0939d6a80c7",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "5.2.1": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\5.2.1",
+      "exists": true,
+      "files": 10153,
+      "directories": 5117,
+      "bytes": 23169959,
+      "GB_decimal": 0.0232,
+      "GiB": 0.0216,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 1262,
+        ".class": 6365,
+        ".jar": 1,
+        ".lock": 1265,
+        ".properties": 1260
+      },
+      "stat_inventory_sha256": "914b17b04005f0aad4b207ea982ef1e9a2d92229b66202f23952fc6e630aad49",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "6.9.4": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\6.9.4",
+      "exists": true,
+      "files": 2048,
+      "directories": 502,
+      "bytes": 164203527,
+      "GB_decimal": 0.1642,
+      "GiB": 0.1529,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 168,
+        ".class": 1540,
+        ".jar": 2,
+        ".lock": 172,
+        ".properties": 166
+      },
+      "stat_inventory_sha256": "9a8b9268e83232cb9658c52acaa8ea3896727c1e870fcba46c694fbfc0b4bff5",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "8.14.4": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\8.14.4",
+      "exists": true,
+      "files": 10879,
+      "directories": 3260,
+      "bytes": 355041048,
+      "GB_decimal": 0.355,
+      "GiB": 0.3307,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 2156,
+        ".class": 6225,
+        ".jar": 122,
+        ".kotlin_module": 62,
+        ".kt": 1697,
+        ".kts": 2,
+        ".lock": 7,
+        ".marker": 602,
+        ".properties": 6
+      },
+      "stat_inventory_sha256": "d92b63673717c0b5cc5f3eec7c47258d5fbad466f256824533dd54af29d03341",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "jars-3": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\jars-3",
+      "exists": true,
+      "files": 1,
+      "directories": 0,
+      "bytes": 0,
+      "GB_decimal": 0.0,
+      "GiB": 0.0,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".properties": 1
+      },
+      "stat_inventory_sha256": "aa8dba7504c8f7e75d8bb50baf47169bb03a9fa8a0f3750e2f63a6156390bee3",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "jars-8": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\jars-8",
+      "exists": true,
+      "files": 2859,
+      "directories": 2857,
+      "bytes": 90953451,
+      "GB_decimal": 0.091,
+      "GiB": 0.0847,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".jar": 2857,
+        ".lock": 1,
+        ".properties": 1
+      },
+      "stat_inventory_sha256": "aca0ec5e731be8661162d0e24d6d1f87a5d3a88dd0f135a16f7d396bcfd304e8",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "jars-9": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\jars-9",
+      "exists": true,
+      "files": 2331,
+      "directories": 320,
+      "bytes": 9773904,
+      "GB_decimal": 0.0098,
+      "GiB": 0.0091,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".class": 2009,
+        ".lock": 161,
+        ".properties": 1,
+        ".receipt": 160
+      },
+      "stat_inventory_sha256": "54e3ee382af8fc133f1bc8f754cf4bc41aeb258a0c6cde0ca4d983fa7dae52f8",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "journal-1": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\journal-1",
+      "exists": true,
+      "files": 3,
+      "directories": 0,
+      "bytes": 339698,
+      "GB_decimal": 0.0003,
+      "GiB": 0.0003,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 1,
+        ".lock": 1,
+        ".properties": 1
+      },
+      "stat_inventory_sha256": "1493b895bebe282b35307f2742ee4b495f43cf01426260cc48b9839fedcbb83a",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "modules-2": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2",
+      "exists": true,
+      "files": 2025,
+      "directories": 4747,
+      "bytes": 234508538,
+      "GB_decimal": 0.2345,
+      "GiB": 0.2184,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 944,
+        ".exe": 2,
+        ".jar": 368,
+        ".lock": 1,
+        ".module": 53,
+        ".pom": 630,
+        ".properties": 1,
+        ".xml": 26
+      },
+      "stat_inventory_sha256": "a1386fa83667ccc4b417d159b581a737321fd02c023f6f0899896cb03babddb2",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "transforms-2": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\transforms-2",
+      "exists": true,
+      "files": 1,
+      "directories": 0,
+      "bytes": 0,
+      "GB_decimal": 0.0,
+      "GiB": 0.0,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".properties": 1
+      },
+      "stat_inventory_sha256": "37fcb6c9f8c2e31b0fa1fd0ef8ba48fab0507233783fb36a7d9efdd501062713",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "transforms-3": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\transforms-3",
+      "exists": true,
+      "files": 1,
+      "directories": 0,
+      "bytes": 0,
+      "GB_decimal": 0.0,
+      "GiB": 0.0,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".properties": 1
+      },
+      "stat_inventory_sha256": "43e0573bb2ebad725c792940fd90a0e519b51268e043ad51a3a73c0cd91f7676",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    }
+  },
+  "modules2_components": {
+    "files-2.1": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1",
+      "exists": true,
+      "files": 1053,
+      "directories": 2248,
+      "bytes": 230109207,
+      "GB_decimal": 0.2301,
+      "GiB": 0.2143,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".exe": 2,
+        ".jar": 368,
+        ".module": 53,
+        ".pom": 630
+      },
+      "stat_inventory_sha256": "466b346b2de42df1738d9cc65088227103ff41c240ff6d3726b9814a73868514",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "metadata-2.107": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\metadata-2.107",
+      "exists": true,
+      "files": 539,
+      "directories": 1188,
+      "bytes": 3268202,
+      "GB_decimal": 0.0033,
+      "GiB": 0.003,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 539
+      },
+      "stat_inventory_sha256": "f927822793c2a67472131db93ca19f7208950258994222b77d0620d7db38dd46",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "metadata-2.16": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\metadata-2.16",
+      "exists": true,
+      "files": 29,
+      "directories": 87,
+      "bytes": 179541,
+      "GB_decimal": 0.0002,
+      "GiB": 0.0002,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 3,
+        ".xml": 26
+      },
+      "stat_inventory_sha256": "420db31cc159f2b03044c817b93981f8b9791c1ad4cc9ec86b73b979f128c4ee",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "metadata-2.69": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\metadata-2.69",
+      "exists": true,
+      "files": 94,
+      "directories": 312,
+      "bytes": 209071,
+      "GB_decimal": 0.0002,
+      "GiB": 0.0002,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 94
+      },
+      "stat_inventory_sha256": "df71db7456379a52f5f298fdb464b77d4a08b612b6e0d0be8bc420c1efb0b549",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    },
+    "metadata-2.97": {
+      "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\metadata-2.97",
+      "exists": true,
+      "files": 308,
+      "directories": 907,
+      "bytes": 742500,
+      "GB_decimal": 0.0007,
+      "GiB": 0.0007,
+      "reparse_points_skipped": [],
+      "read_errors": [],
+      "suffix_counts": {
+        ".bin": 308
+      },
+      "stat_inventory_sha256": "c9f969e5110bcbba81b40312336fc38b28fd57cd7e4e3b27e5540d500ce6d72d",
+      "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+    }
+  },
+  "distribution_slots": [
+    {
+      "key": "gradle-2.13-all",
+      "version": "2.13",
+      "wrapper_hash_directory": "1b9wlm73elu4cqnbc0rk7r7qn",
+      "wrapper_hash_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn",
+      "distribution_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13",
+      "whole_wrapper_slot": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn",
+        "exists": true,
+        "files": 9957,
+        "directories": 3279,
+        "bytes": 210819949,
+        "GB_decimal": 0.2108,
+        "GiB": 0.1963,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 32,
+          ".a": 4,
+          ".asttransformation": 1,
+          ".bat": 1,
+          ".c": 15,
+          ".coffee": 2,
+          ".conf": 10,
+          ".connectionversion4": 1,
+          ".cpp": 27,
+          ".css": 30,
+          ".csv": 1,
+          ".dependencymanagementservices": 1,
+          ".filters": 1,
+          ".g": 1,
+          ".gif": 7,
+          ".gpg": 2,
+          ".gradle": 434,
+          ".groovy": 414,
+          ".h": 51,
+          ".hpp": 1,
+          ".html": 3246,
+          ".icns": 1,
+          ".ico": 2,
+          ".idl": 1,
+          ".jar": 204,
+          ".java": 5077,
+          ".js": 19,
+          ".jsp": 3,
+          ".key": 1,
+          ".lck": 1,
+          ".lib": 8,
+          ".m": 2,
+          ".md": 5,
+          ".mm": 2,
+          ".ok": 1,
+          ".pdf": 1,
+          ".pluginserviceregistry": 23,
+          ".png": 48,
+          ".projectconfigureaction": 4,
+          ".properties": 99,
+          ".pump": 4,
+          ".rc": 1,
+          ".routes": 5,
+          ".s": 2,
+          ".scala": 35,
+          ".sh": 2,
+          ".sln": 1,
+          ".template": 14,
+          ".txt": 33,
+          ".vcxproj": 1,
+          ".war": 1,
+          ".xml": 68,
+          ".xsl": 3,
+          ".zip": 3
+        },
+        "stat_inventory_sha256": "4688712eb2aee54657b67a7235d3cebde06395169990c2f138384fb5b377bd64",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "unpacked_distribution": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13",
+        "exists": true,
+        "files": 9954,
+        "directories": 3278,
+        "bytes": 140950870,
+        "GB_decimal": 0.141,
+        "GiB": 0.1313,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 32,
+          ".a": 4,
+          ".asttransformation": 1,
+          ".bat": 1,
+          ".c": 15,
+          ".coffee": 2,
+          ".conf": 10,
+          ".connectionversion4": 1,
+          ".cpp": 27,
+          ".css": 30,
+          ".csv": 1,
+          ".dependencymanagementservices": 1,
+          ".filters": 1,
+          ".g": 1,
+          ".gif": 7,
+          ".gpg": 2,
+          ".gradle": 434,
+          ".groovy": 414,
+          ".h": 51,
+          ".hpp": 1,
+          ".html": 3246,
+          ".icns": 1,
+          ".ico": 2,
+          ".idl": 1,
+          ".jar": 204,
+          ".java": 5077,
+          ".js": 19,
+          ".jsp": 3,
+          ".key": 1,
+          ".lib": 8,
+          ".m": 2,
+          ".md": 5,
+          ".mm": 2,
+          ".pdf": 1,
+          ".pluginserviceregistry": 23,
+          ".png": 48,
+          ".projectconfigureaction": 4,
+          ".properties": 99,
+          ".pump": 4,
+          ".rc": 1,
+          ".routes": 5,
+          ".s": 2,
+          ".scala": 35,
+          ".sh": 2,
+          ".sln": 1,
+          ".template": 14,
+          ".txt": 33,
+          ".vcxproj": 1,
+          ".war": 1,
+          ".xml": 68,
+          ".xsl": 3,
+          ".zip": 2
+        },
+        "stat_inventory_sha256": "328768690778dce1c1670e16944f0f4d1567ef413886c5449cd4a99a3943e12e",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_bin": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13\\bin",
+        "exists": true,
+        "files": 2,
+        "directories": 0,
+        "bytes": 7432,
+        "GB_decimal": 0.0,
+        "GiB": 0.0,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 1,
+          ".bat": 1
+        },
+        "stat_inventory_sha256": "6b570db060c3e57e3687091bf124c31d4c8662a896b0ef871bda620966757d04",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_lib": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13\\lib",
+        "exists": true,
+        "files": 161,
+        "directories": 2,
+        "bytes": 52020284,
+        "GB_decimal": 0.052,
+        "GiB": 0.0484,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 161
+        },
+        "stat_inventory_sha256": "47c922993a57d7215aa84bf258724f7ed3a01f2ab5dcf2b46afbf3d21694b370",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "bin_launcher_exists": true,
+      "license_files": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13\\LICENSE",
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13\\NOTICE"
+      ],
+      "zip_ok_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13-all.zip.ok"
+      ],
+      "zip_lock_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13-all.zip.lck"
+      ],
+      "zip_files": [
+        {
+          "path": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13-all.zip",
+          "bytes": 69869079,
+          "sha256": "fb126ed684150f9dc39a811cbcf4daada4292fd387ed998c151ff2cf2536d94d"
+        }
+      ]
+    },
+    {
+      "key": "gradle-5.2.1-bin",
+      "version": "5.2.1",
+      "wrapper_hash_directory": "9lc4nzslqh3ep7ml2tp68fk8s",
+      "wrapper_hash_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s",
+      "distribution_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1",
+      "whole_wrapper_slot": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s",
+        "exists": true,
+        "files": 224,
+        "directories": 6,
+        "bytes": 187497894,
+        "GB_decimal": 0.1875,
+        "GiB": 0.1746,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 3,
+          ".bat": 1,
+          ".html": 1,
+          ".icns": 1,
+          ".jar": 206,
+          ".lck": 1,
+          ".ok": 1,
+          ".png": 8,
+          ".txt": 1,
+          ".zip": 1
+        },
+        "stat_inventory_sha256": "3c23ecb50be20dabb632236cde96cf8cdaaab7e1f57bbd9ec656d54657cc8470",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "unpacked_distribution": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1",
+        "exists": true,
+        "files": 221,
+        "directories": 5,
+        "bytes": 100067373,
+        "GB_decimal": 0.1001,
+        "GiB": 0.0932,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 3,
+          ".bat": 1,
+          ".html": 1,
+          ".icns": 1,
+          ".jar": 206,
+          ".png": 8,
+          ".txt": 1
+        },
+        "stat_inventory_sha256": "fff937fe0ab9c663b4ea4e8dfb4ea4266d79d06b67c13aaedc2832a05e84907a",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_bin": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1\\bin",
+        "exists": true,
+        "files": 2,
+        "directories": 0,
+        "bytes": 7558,
+        "GB_decimal": 0.0,
+        "GiB": 0.0,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 1,
+          ".bat": 1
+        },
+        "stat_inventory_sha256": "bcc6c65c1910cda1a3fbe957b2d5d6941e5e4016e50978636d856d1df2f272a8",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_lib": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1\\lib",
+        "exists": true,
+        "files": 206,
+        "directories": 1,
+        "bytes": 99449632,
+        "GB_decimal": 0.0994,
+        "GiB": 0.0926,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 206
+        },
+        "stat_inventory_sha256": "99338bdf0560108f734bb9405b016981c9f880c2b689d1a862a98f76c53f8656",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "bin_launcher_exists": true,
+      "license_files": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1\\LICENSE",
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1\\NOTICE"
+      ],
+      "zip_ok_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1-bin.zip.ok"
+      ],
+      "zip_lock_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1-bin.zip.lck"
+      ],
+      "zip_files": [
+        {
+          "path": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-5.2.1-bin\\9lc4nzslqh3ep7ml2tp68fk8s\\gradle-5.2.1-bin.zip",
+          "bytes": 87430521,
+          "sha256": "748c33ff8d216736723be4037085b8dc342c6a0f309081acf682c9803e407357"
+        }
+      ]
+    },
+    {
+      "key": "gradle-6.9.4-bin",
+      "version": "6.9.4",
+      "wrapper_hash_directory": "5a0lguq60r1skx3y8d5qdl7d9",
+      "wrapper_hash_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9",
+      "distribution_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4",
+      "whole_wrapper_slot": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9",
+        "exists": true,
+        "files": 238,
+        "directories": 5,
+        "bytes": 229672007,
+        "GB_decimal": 0.2297,
+        "GiB": 0.2139,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 4,
+          ".bat": 1,
+          ".jar": 229,
+          ".lck": 1,
+          ".ok": 1,
+          ".txt": 1,
+          ".zip": 1
+        },
+        "stat_inventory_sha256": "122c9d6d96a68451d5d176afaf20e47b069f8a7a0c64b101b5f2a2cb479c2123",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "unpacked_distribution": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4",
+        "exists": true,
+        "files": 235,
+        "directories": 4,
+        "bytes": 121992548,
+        "GB_decimal": 0.122,
+        "GiB": 0.1136,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 4,
+          ".bat": 1,
+          ".jar": 229,
+          ".txt": 1
+        },
+        "stat_inventory_sha256": "b93449abbf5e37ed63bdb788e5c2be54da67e0a1299a648cbe87d8a2dd414eea",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_bin": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4\\bin",
+        "exists": true,
+        "files": 2,
+        "directories": 0,
+        "bytes": 10817,
+        "GB_decimal": 0.0,
+        "GiB": 0.0,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 1,
+          ".bat": 1
+        },
+        "stat_inventory_sha256": "cb79fb3d1e6d33d81153efc4baa84beb409a3fead34804e102fdc411d7a48b2e",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_lib": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4\\lib",
+        "exists": true,
+        "files": 229,
+        "directories": 1,
+        "bytes": 121956227,
+        "GB_decimal": 0.122,
+        "GiB": 0.1136,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 229
+        },
+        "stat_inventory_sha256": "a63a8c4dbb45467952724f7749876ed2725a134f2bff6453f133e7d2d5332969",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "bin_launcher_exists": true,
+      "license_files": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4\\LICENSE",
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4\\NOTICE",
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4\\README"
+      ],
+      "zip_ok_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4-bin.zip.ok"
+      ],
+      "zip_lock_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4-bin.zip.lck"
+      ],
+      "zip_files": [
+        {
+          "path": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-6.9.4-bin\\5a0lguq60r1skx3y8d5qdl7d9\\gradle-6.9.4-bin.zip",
+          "bytes": 107679459,
+          "sha256": "3e240228538de9f18772a574e99a0ba959e83d6ef351014381acd9631781389a"
+        }
+      ]
+    },
+    {
+      "key": "gradle-8.14.4-bin",
+      "version": "8.14.4",
+      "wrapper_hash_directory": "92wwslzcyst3phie3o264zltu",
+      "wrapper_hash_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu",
+      "distribution_root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4",
+      "whole_wrapper_slot": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu",
+        "exists": true,
+        "files": 319,
+        "directories": 6,
+        "bytes": 152093465,
+        "GB_decimal": 0.1521,
+        "GiB": 0.1416,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 4,
+          ".bat": 1,
+          ".jar": 311,
+          ".lck": 1,
+          ".ok": 1,
+          ".txt": 1
+        },
+        "stat_inventory_sha256": "6900bfbe3f8bd3d259309fdcb45a8dfb1b9ad93b4f66adc8ecd79eaa62d08253",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "unpacked_distribution": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4",
+        "exists": true,
+        "files": 317,
+        "directories": 5,
+        "bytes": 152093465,
+        "GB_decimal": 0.1521,
+        "GiB": 0.1416,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 4,
+          ".bat": 1,
+          ".jar": 311,
+          ".txt": 1
+        },
+        "stat_inventory_sha256": "140efd7740ab4ec26971083756812c99369f0c60603dcc86ecfd1640c0ed794b",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_bin": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4\\bin",
+        "exists": true,
+        "files": 2,
+        "directories": 0,
+        "bytes": 11835,
+        "GB_decimal": 0.0,
+        "GiB": 0.0,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          "(no suffix)": 1,
+          ".bat": 1
+        },
+        "stat_inventory_sha256": "74c9c0654133a03a224965e165b90477c16d1bcac0fce385a6d6fdaba49a31a0",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "runtime_lib": {
+        "root": "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4\\lib",
+        "exists": true,
+        "files": 311,
+        "directories": 2,
+        "bytes": 152056045,
+        "GB_decimal": 0.1521,
+        "GiB": 0.1416,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 311
+        },
+        "stat_inventory_sha256": "ddcc4bb00512fd35ce7f31ff42f55c918b78d80fd79aca28d42d54e372e6529d",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "bin_launcher_exists": true,
+      "license_files": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4\\LICENSE",
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4\\NOTICE",
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4\\README"
+      ],
+      "zip_ok_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4-bin.zip.ok"
+      ],
+      "zip_lock_paths": [
+        "C:\\Users\\admin\\.gradle\\wrapper\\dists\\gradle-8.14.4-bin\\92wwslzcyst3phie3o264zltu\\gradle-8.14.4-bin.zip.lck"
+      ],
+      "zip_files": []
+    }
+  ],
+  "relevant_artifact_inventory_not_resolution_proof": {
+    "info.solidsoft.gradle.pitest": {
+      "census": {
+        "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1\\info.solidsoft.gradle.pitest",
+        "exists": true,
+        "files": 6,
+        "directories": 10,
+        "bytes": 333457,
+        "GB_decimal": 0.0003,
+        "GiB": 0.0003,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 3,
+          ".pom": 3
+        },
+        "stat_inventory_sha256": "10e85e3d8b2a21cbf851fceb584fff365e5f3f817fe4344880dea76d9e12b023",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "artifacts": {
+        "gradle-pitest-plugin": [
+          "1.15.0",
+          "1.3.0",
+          "1.4.0"
+        ]
+      }
+    },
+    "junit": {
+      "census": {
+        "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1\\junit",
+        "exists": true,
+        "files": 6,
+        "directories": 10,
+        "bytes": 997592,
+        "GB_decimal": 0.001,
+        "GiB": 0.0009,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 3,
+          ".pom": 3
+        },
+        "stat_inventory_sha256": "c64060f7eb0f8885090b18d7543ad91a958b89c88257d7d4324f77a0f7ef330c",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "artifacts": {
+        "junit": [
+          "4.11",
+          "4.12",
+          "4.13.2"
+        ]
+      }
+    },
+    "org.jacoco": {
+      "census": {
+        "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1\\org.jacoco",
+        "exists": true,
+        "files": 16,
+        "directories": 30,
+        "bytes": 1238498,
+        "GB_decimal": 0.0012,
+        "GiB": 0.0012,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 7,
+          ".pom": 9
+        },
+        "stat_inventory_sha256": "546efdce9f1e2e46cfaf6c7e30f347c715f48e798d209d056e21a0121a54ce4e",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "artifacts": {
+        "org.jacoco.agent": [
+          "0.8.6",
+          "0.8.7"
+        ],
+        "org.jacoco.ant": [
+          "0.8.6",
+          "0.8.7"
+        ],
+        "org.jacoco.build": [
+          "0.8.6",
+          "0.8.7"
+        ],
+        "org.jacoco.core": [
+          "0.8.6",
+          "0.8.7"
+        ],
+        "org.jacoco.report": [
+          "0.8.6"
+        ]
+      }
+    },
+    "org.junit": {
+      "census": {
+        "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1\\org.junit",
+        "exists": true,
+        "files": 34,
+        "directories": 52,
+        "bytes": 212005,
+        "GB_decimal": 0.0002,
+        "GiB": 0.0002,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".module": 17,
+          ".pom": 17
+        },
+        "stat_inventory_sha256": "683819b7440355544fc0a7bac5d652350ef867fc33b0defec83f1081415a4e0f",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "artifacts": {
+        "junit-bom": [
+          "5.10.0",
+          "5.10.1",
+          "5.10.2",
+          "5.11.0-M1",
+          "5.11.0-M2",
+          "5.11.2",
+          "5.11.4",
+          "5.12.2",
+          "5.13.1",
+          "5.14.2",
+          "5.7.1",
+          "5.7.2",
+          "5.8.0-M1",
+          "5.8.2",
+          "5.9.0",
+          "5.9.1",
+          "5.9.3"
+        ]
+      }
+    },
+    "org.pitest": {
+      "census": {
+        "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1\\org.pitest",
+        "exists": true,
+        "files": 23,
+        "directories": 41,
+        "bytes": 6820126,
+        "GB_decimal": 0.0068,
+        "GiB": 0.0064,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 10,
+          ".pom": 13
+        },
+        "stat_inventory_sha256": "b131594d21fa2e22962a517fd9efafe39b21483094400d792b7dca1f763c1d89",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "artifacts": {
+        "pitest": [
+          "1.15.0",
+          "1.3.1",
+          "1.4.3"
+        ],
+        "pitest-command-line": [
+          "1.15.0",
+          "1.3.1",
+          "1.4.3"
+        ],
+        "pitest-entry": [
+          "1.15.0",
+          "1.3.1",
+          "1.4.3"
+        ],
+        "pitest-parent": [
+          "1.15.0",
+          "1.3.1",
+          "1.4.3"
+        ],
+        "pitest-testng-plugin": [
+          "1.0.0"
+        ]
+      }
+    },
+    "org.testng": {
+      "census": {
+        "root": "C:\\Users\\admin\\.gradle\\caches\\modules-2\\files-2.1\\org.testng",
+        "exists": true,
+        "files": 4,
+        "directories": 7,
+        "bytes": 1669309,
+        "GB_decimal": 0.0017,
+        "GiB": 0.0016,
+        "reparse_points_skipped": [],
+        "read_errors": [],
+        "suffix_counts": {
+          ".jar": 2,
+          ".pom": 2
+        },
+        "stat_inventory_sha256": "95205723efb3ee3363b510300a38485cf01098cb00b1fa644f7bcdb779c6f12f",
+        "fingerprint_scope": "paths+sizes+mtimes, NOT file-content hashes; cache not yet frozen/copied"
+      },
+      "artifacts": {
+        "testng": [
+          "6.13.1",
+          "6.8.21"
+        ]
+      }
+    }
+  },
+  "disk": {
+    "workspace_free_bytes": 18729402368,
+    "workspace_free_GB_decimal": 18.7294,
+    "minimum_reserved_bytes": 12000000000,
+    "copy_options": [
+      {
+        "option": "complete wrapper slots including ZIPs + modules-2",
+        "estimated_copy_bytes": 1014591853,
+        "estimated_GB_decimal": 1.0146,
+        "free_after_copy_GB_decimal": 17.7148,
+        "above_12GB_reserve_now": true,
+        "new_private_cache_generation_overhead_included": false
+      },
+      {
+        "option": "complete unpacked distributions + modules-2 (no redundant ZIPs/locks)",
+        "estimated_copy_bytes": 749612794,
+        "estimated_GB_decimal": 0.7496,
+        "free_after_copy_GB_decimal": 17.9798,
+        "above_12GB_reserve_now": true,
+        "new_private_cache_generation_overhead_included": false
+      },
+      {
+        "option": "runtime bin+lib subset + modules-2 (requires explicit subset qualification)",
+        "estimated_copy_bytes": 660028368,
+        "estimated_GB_decimal": 0.66,
+        "free_after_copy_GB_decimal": 18.0694,
+        "above_12GB_reserve_now": true,
+        "new_private_cache_generation_overhead_included": false
+      }
+    ]
+  },
+  "recommendation": [
+    "Use a new private GRADLE_USER_HOME with independent copied files and content hashes; no shared mutable cache, hardlinks or shared daemon.",
+    "Start with four pinned unpacked distributions plus modules-2 including all existing metadata-* formats and files-2.1. Exclude source lock files and regenerate locks privately. This is a conservative cache seed, not proof every dependency resolves offline.",
+    "Version-specific caches (2.13/5.2.1/6.9.4/8.14.4), jars-*, transforms-*, journal-* and native caches can be recomputed privately; leave source caches unchanged. Recompute requires disk headroom not included in estimates.",
+    "Keep exact wrapper URL/version/hash-slot mapping. Existing .zip.ok and unpacked distro can avoid redownloading, but verify copied distro with a bounded --version qualification under the pinned JDK before admission.",
+    "Use offline dependency resolution, no refresh-dependencies, and --no-daemon (or owned single-use daemon only when tool enforces it), with owned-process stop and explicit task allowlists.",
+    "Do not copy user gradle.properties, init.gradle/init.gradle.kts/init.d, daemon logs/state, notifications, .tmp, workers, jdks, native state, credential files or unrelated user configuration. Do not read/print their values.",
+    "Recheck D disk reserve immediately before copy and before every job; this census may overlap parent Maven execution. Prefer incremental per-wrapper independent copy if full seed leaves inadequate runtime reserve.",
+    "A runtime-only bin/lib subset saves docs/samples/ZIP duplication but must be documented and qualified; do not silently claim complete original -all distribution bytes."
+  ]
+}

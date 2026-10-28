@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-25T22:32:10.738956+00:00",
+  "n": 251,
+  "format": "SQLite content-addressed raw bytes + per-input JSON manifest",
+  "dedup": "only identical SHA256 and length; no path/repo/focal substitution",
+  "source_type": "historical pipeline-prepared source, not certified pristine Git",
+  "exclusions": "exact census exclusion list; target/build/tool metadata excluded, nested src paths retained",
+  "settings": "capture historical sandbox settings.xml separately when present; keep private",
+  "resume": "no automatic resume; partial evidence retained",
+  "min_free_bytes": 12000000000,
+  "snapshot_code_sha256": "2cca39f8abcfe633a2f9705be69243c66cd8f243a6ac6339309eaf11ecc570a1",
+  "store_code_sha256": "e245f7a4f20e4e50485ef6bd53cabab9da24f7c73bcb1a45ea41c3482194d390",
+  "manifest300_sha256": "ba1dcae0c0fdca7dc985dee073696afed3568b343510573a4565bb2652b99b39",
+  "census_sha256": "9f6cfc69b38b0effbbdc337f45d381e83fce4780c23d647dc7065de2b5d97eef",
+  "fixture_sha256": "97e4de160979e0338396e7de7fef8404c0b658720b9487d759fa9b5e2ca8ff1d",
+  "reader_v3_sha256": "ac091cdd2816c9cad4c14f0c71d8fe756032b34987ec6b1a30bbcfb41cb00aca",
+  "explicit_continuation_record_sha256": "a66df845f1450fd09b7d39914ff2102aaa6da1ae20be0c68178db5ab17c147ec",
+  "prior_committed_roots": 34,
+  "source_read_workers": 8,
+  "benchmark_workers": 1
+}

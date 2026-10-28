@@ -1,0 +1,59 @@
+{
+  "job_index": 34,
+  "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/app.java",
+  "repo_id": "64487983",
+  "G0_archived_mutation_percent": "0.0",
+  "E0_archived_mutation_percent": "0.0",
+  "E1_archived_mutation_percent": "66.67",
+  "seed": 20261028,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.iluwatar.dependency.injection.App_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.iluwatar.dependency.injection.App_ESTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 7,
+  "focal_mutants": 3,
+  "killed_mutants": 2,
+  "focal_mutant_qualified_classes": [
+    "com.iluwatar.dependency.injection.App"
+  ],
+  "mutation_score_percent": 66.67,
+  "legacy_strict_mutation_percent": 66.67,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "dependency-injection",
+      "PACKAGE": "com.iluwatar.dependency.injection",
+      "CLASS": "App",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "36",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "0",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "9",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "2",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "2"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

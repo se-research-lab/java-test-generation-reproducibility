@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "concurrent_writers": 20,
+  "all_records_present_once": true,
+  "serialized_chain": "PASS",
+  "original730_records_imported_losslessly": true,
+  "original_branched_ledger_preserved": true
+}

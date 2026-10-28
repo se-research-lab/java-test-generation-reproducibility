@@ -1,0 +1,1420 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\118_61565876_68accc5a\\compiledrepos\\61565876",
+  "class_indices": [
+    219
+  ],
+  "files": [
+    {
+      "relative": ".checkstyle.xml",
+      "sha256": "aca62f3ed8a25d3581da10894704d94f004f3e9c10fceb07f1fc997d448d7dbc",
+      "bytes": 8402,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196735037000
+    },
+    {
+      "relative": ".codeclimate.yml",
+      "sha256": "8f79c825029675c4ca06a81dccb7736644b0c447a6c8351d7482227c63daf953",
+      "bytes": 937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196736037700
+    },
+    {
+      "relative": ".gitignore",
+      "sha256": "7953ecadd9c311c4ef689baf9192170d037f232f46b76831ceb33e9b47cd1ed5",
+      "bytes": 2015,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196737037200
+    },
+    {
+      "relative": ".travis.yml",
+      "sha256": "37bdea5f0a17d6271c36865c3ff388047719c9e048288a3a4b7f484f9112eda1",
+      "bytes": 364,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196737037200
+    },
+    {
+      "relative": "CHANGELOG.md",
+      "sha256": "7060018150e8f80360cd1ab8c177f113bc4d754308662c0de506ea3534d52aed",
+      "bytes": 2989,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196737037200
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "9ad696ccba40617705cf65e24f6205a5705887b337747eca0e2ba7cba3bc212a",
+      "bytes": 1098,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196738037000
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "537ca0c5e13abc42c16343e534c4af77adb8e36c00d264e6e8b11825b338e8f8",
+      "bytes": 10043,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196799068700
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "00069620aa300c618366d8183a811a08330440ed6afddc9c7ddf996308993e19",
+      "bytes": 6280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784839158098256900
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "d7976225a847f8cff6e2fc3fbd6b304ef42db89f5a6439822582a2502a07d572",
+      "bytes": 6725,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784839158025348700
+    },
+    {
+      "relative": "README.md",
+      "sha256": "39cfdf05c86533a5e6f21e006ce1e2c9a02c1bc14e0430bd991ffa0c58ab7928",
+      "bytes": 3109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196738037000
+    },
+    {
+      "relative": ".github/dependabot.yml",
+      "sha256": "b9c674a56ce21d41a290cec02102557ef127278a7bb334d4372a44da4978d5b6",
+      "bytes": 768,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196736037700
+    },
+    {
+      "relative": ".github/workflows/maven_jdk11.yml",
+      "sha256": "0ed57c0d67d5c22b653db9e1b7e4fde355a1e3844b66c2fa3b8df132f739a892",
+      "bytes": 478,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196736037700
+    },
+    {
+      "relative": ".github/workflows/maven_jdk8.yml",
+      "sha256": "6bdf07215f285550c09c564a6214ac5475c51a4046b427966c9233c1536e5aee",
+      "bytes": 785,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196737037200
+    },
+    {
+      "relative": "injector/pom.xml",
+      "sha256": "0ad4db988cc44d3403f109a7175b3250f64c70f753e4e9d0984bcb444e4981d9",
+      "bytes": 2590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784839275657329100
+    },
+    {
+      "relative": "injector/evosuite-report/statistics.csv",
+      "sha256": "374d441ce8e1e9e81581babcb4597e2b681de1d87b6da8d5d1ef32d182956a1d",
+      "bytes": 157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784839247014490900
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/Injector.java",
+      "sha256": "c848d428d2a0ede5e622f852c585e939a38540a23b0c629b20dad47b0d19e23e",
+      "bytes": 4655,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196753039400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/InjectorBuilder.java",
+      "sha256": "dcbb33bb2220471cc9a1392909edf5177c329cddd3a8c4a12bccfe1a76e9d0df",
+      "bytes": 4466,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196753039400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/InjectorConfig.java",
+      "sha256": "13c6928892728da3c91dd0120ed26e5d7f09e031dc113cef7c3c990a4c3bac3d",
+      "bytes": 719,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196754038800
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/InjectorImpl.java",
+      "sha256": "9b0ff9d5c86225947516f0724017aae2f6e7588b209dd8da05dd9e36eaa616a7",
+      "bytes": 10931,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196754038800
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/annotations/NoFieldScan.java",
+      "sha256": "1dbee0b790828f82248bd82f37ef17d3faea177be34306372936cc770ad02b64",
+      "bytes": 381,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196755037500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/annotations/NoMethodScan.java",
+      "sha256": "d7cedd14e261ab9095ce6f4d57dfa133d7e3bc63a52b1658c67d777da87f8db2",
+      "bytes": 383,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196755037500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/context/ObjectIdentifier.java",
+      "sha256": "64be1e5ec93bd684cfae3e94f25ec3a6b3f684b9f4a79b52f1cea3b525a1a561",
+      "bytes": 2832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196756038400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/context/ResolutionContext.java",
+      "sha256": "ec436d07b984d44fcbabc1c55688882d97001986acd4fbeca5846920409889f9",
+      "bytes": 2491,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196756038400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/context/ResolutionType.java",
+      "sha256": "f15fc7867b8c83859cb8203ed4e5a9e3d43fccdf5a1902093c425ba4b760cd37",
+      "bytes": 273,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196756038400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/context/StandardResolutionType.java",
+      "sha256": "5634cad8fdcf80e34a5727e3e67459d385fd3c05e6e41bb68ad1f539078f2514",
+      "bytes": 459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196756038400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/exceptions/InjectorException.java",
+      "sha256": "7abf072c5e8f08192a446612c26c225048536c462c8963afa3f2bf8d22bea361",
+      "bytes": 341,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196757039800
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/exceptions/InjectorReflectionException.java",
+      "sha256": "9b778b9ca4ca29f7392cac4bd219d77b24b0aa452374fa3855c073b75e262d22",
+      "bytes": 301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196757039800
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/factory/Factory.java",
+      "sha256": "a42b5d13171c438557f3a85145e5040e7fca6336183adb7e55140bf39033ff75",
+      "bytes": 470,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196757039800
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/factory/SingletonStore.java",
+      "sha256": "3423ed594845b681d44b322293bcab71de1235d49fb572f365ce56e960e4c352",
+      "bytes": 1071,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196758038300
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/Handler.java",
+      "sha256": "b277152580a5e26a0c6f0b4dea8543634100a43583b018e47704e531760c1ec9",
+      "bytes": 3224,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196758038300
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/dependency/CyclicDependenciesDetector.java",
+      "sha256": "fa38d08d5ebb2af5e05f677a40eee23a76eaa5f0b4600408a08f99e0e9536527",
+      "bytes": 2027,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196759038700
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/dependency/FactoryDependencyHandler.java",
+      "sha256": "20dae3483786439984c33023d0fdc4f704a0f8f7e4753e5dfce62823ab4b0717",
+      "bytes": 1923,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196759038700
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/dependency/SavedAnnotationsHandler.java",
+      "sha256": "9d64dab705fb91e96fdee5ec9ff190e29166158f0edea46f46cf09dfe8546d95",
+      "bytes": 1794,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196759038700
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/dependency/SingletonStoreDependencyHandler.java",
+      "sha256": "486f24a918a2d9cbad7a4f1dacdc2623dd14fe9548b96cac40527b7229a80273",
+      "bytes": 2442,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196759038700
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/dependency/TypeSafeAnnotationHandler.java",
+      "sha256": "9ee2a53c62f8fca0bb3eeaea471a04e29e84032d99d0524c6c0bf6a4a79ffabf",
+      "bytes": 1583,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196760038100
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/DefaultInjectionProvider.java",
+      "sha256": "aa70e45b4f1fea85174336671c28b91f3f1e3545223b50dcafc6eac12dcba8b4",
+      "bytes": 2668,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196760038100
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/DirectInstantiationProvider.java",
+      "sha256": "7cb454ef03dcf787cf9236c0a035375d77785df385dbca859c8709a98cc9ee1c",
+      "bytes": 1133,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196760038100
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/InstantiationCache.java",
+      "sha256": "033628804ad284277a3922de92f4ef290f651c48212252a6bd34c4e7be7ee025",
+      "bytes": 1992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196761039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/ProviderHandler.java",
+      "sha256": "e8e51d8b9ca2a8b2b324316bc4351d79405d1e08d7c26b437b5d98023f9f68ba",
+      "bytes": 6190,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196761039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/Resolution.java",
+      "sha256": "f6f2fe9ccf1632037cf0221376b6d8b49ecfd040b3efbcb98a3fa9ada3fece38",
+      "bytes": 1587,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196761039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/SimpleResolution.java",
+      "sha256": "ed4f88776967255fd59127eb0546ddb106f3fbfb9c418a1caf2ab5d3c94a5c2c",
+      "bytes": 675,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196762038700
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/StandardInjection.java",
+      "sha256": "6e0efe01af7255b77088bd961952cf5d6d9dbfd446501f357e4e00d7e15d9350",
+      "bytes": 3593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196762038700
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/instantiation/StandardInjectionProvider.java",
+      "sha256": "032da907271048dd57ca101525a3ac4480715063837e2a8119f166578b34f188",
+      "bytes": 6630,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196762038700
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/handlers/postconstruct/PostConstructMethodInvoker.java",
+      "sha256": "27dad32acffd303bb756368b3ea29cd4476c3f2e055aaa83e889991ca49e01d7",
+      "bytes": 2793,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196763039400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/BeforeInjecting.java",
+      "sha256": "6967d40b35cb04b6a507d55db9fbac4651dad6397149100014d204f05f9ab3c5",
+      "bytes": 399,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196763039400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/DelayedInjectionExtension.java",
+      "sha256": "efb191c9bab8599bbb1082cd88e06d0d8c0058655590e3f6e21078164106f7bb",
+      "bytes": 1022,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196763039400
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/DelayedInjectionRunner.java",
+      "sha256": "47f6f98ec0f2278090836aaa36dcb6b8a2dd4a5c282a12d4d683fb5e96b2dab1",
+      "bytes": 4774,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196764039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/InjectDelayed.java",
+      "sha256": "a26efa078c059eb0f917a822062f81c23c1649ae32eeb143199f459b48a1cac1",
+      "bytes": 521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196764039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/extension/AnnotationResolver.java",
+      "sha256": "12c3c8f845b4d152d47b455b24e48ca02581440467ced2d12fa9bcc6ebc53782",
+      "bytes": 2435,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196764039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/extension/DelayedInjectionRunnerValidator.java",
+      "sha256": "e868727b43e9452b8119433ff5cff0e5b38c337d7f239904e104c69ad1282bfa",
+      "bytes": 843,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196764039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/extension/ExtensionUtils.java",
+      "sha256": "30e9bd1141544650ba78dc12694c860d65bd5cad94a1f4c0ca53cb426626906b",
+      "bytes": 1586,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196764039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/extension/MockDependencyHandler.java",
+      "sha256": "f439d9123ffa84cc941ee470a6e54d7ec35399c5141ffb483cac7faa6be01c84",
+      "bytes": 2834,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196764039500
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/extension/RunBeforeInjectings.java",
+      "sha256": "94f1402a3ff20953a4754bec47a0075da9ec4910fccfaac9485b6466501bff69",
+      "bytes": 846,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196765520800
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/extension/RunDelayedInjects.java",
+      "sha256": "39046d49ade70267695366ead4b36348d6b489223ff5933632536666f01ff86b",
+      "bytes": 2091,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196765520800
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/runner/AnnotationResolver.java",
+      "sha256": "3c15346718e7bf7101b98ee2ee854dfe3111f0d7cccd5d73b5c285472c8c272d",
+      "bytes": 2665,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196766522000
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/runner/DelayedInjectionRunnerValidator.java",
+      "sha256": "af5b62b72fa32ce2e5a6c4087267491fdc8f23f7a65866dcb8bce9814ca6d202",
+      "bytes": 1304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196766522000
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/runner/MockDependencyHandler.java",
+      "sha256": "1783318623728f4503eb72d578e23461863d724d0a7f871bddfefd578a48fa7f",
+      "bytes": 2956,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196766522000
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/runner/RunBeforeInjectings.java",
+      "sha256": "e5174c94d66c9f5f2161b193bd3429f7046b1d83c685ffc32dd80b4bd0173e70",
+      "bytes": 1140,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196766522000
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/testing/runner/RunDelayedInjects.java",
+      "sha256": "895b9cb12296d466dc75cf1300846eb264d0034bc12e5f4b8f2dc60736bc13d5",
+      "bytes": 2641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196767629100
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/utils/InjectorUtils.java",
+      "sha256": "ff68328dc80888bc58c120707d82df81b6e9207b19b81c114b80e3bc0217fad5",
+      "bytes": 1948,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196767629100
+    },
+    {
+      "relative": "injector/src/main/java/ch/jalu/injector/utils/ReflectionUtils.java",
+      "sha256": "d286be992ec75a81810d750dabdb82110f904924e862bccd962e25298cfaee5c",
+      "bytes": 7085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196767629100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/InjectorBuilderTest.java",
+      "sha256": "dcf81770d4d36d996c72344db9da6374deef6b379a400b2ee67d1b17f5142083",
+      "bytes": 6432,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196768995800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/InjectorDemoTest.java",
+      "sha256": "b4b75dfecc98a803a8590804de3d8975a268d468cd7fcf477bed707e9b62ad6c",
+      "bytes": 454,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196768995800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/InjectorImplTest.java",
+      "sha256": "a24d64f316500927a112f859fa8ea165fdef762d7753dfd27dff179f459ec818",
+      "bytes": 22974,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196768995800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/InjectorTestHelper.java",
+      "sha256": "98472bca2eb268250b15097b988171a5d28a3326b016f9bd91c6a786c179cb7d",
+      "bytes": 1554,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196770058000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/TestUtils.java",
+      "sha256": "cf19f52a522a4916ef896b48f604e1fb4b62d502ab18ce991c928018d41fa4ba",
+      "bytes": 2005,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196770058000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/context/ObjectIdentifierTest.java",
+      "sha256": "74738a0b99e7dfffd2e8e9883b8f5d4fdbd12d6ca160ae809cddf21e5de86eb1",
+      "bytes": 3468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196770058000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/context/ResolutionContextTest.java",
+      "sha256": "72276ee5bbf5cb9afe442a3e48926daa48d22f1c43a9bf91fe23aa7c254a41da",
+      "bytes": 1033,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196770058000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/demo/CalculationService.java",
+      "sha256": "9a8abc8ebd550bdf3096cece8ea8f344594507649881b22d5f9fa645132acc2c",
+      "bytes": 1463,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196771416700
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/demo/Messages.java",
+      "sha256": "8009ba3d482bdf3b7d5d472a1afe8ea4910a6f2e0752e96e0b3c4b899be4bd38",
+      "bytes": 1239,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196771416700
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/demo/MyApp.java",
+      "sha256": "3b6429e5c5ac8f7c740f83a14154937b820fec2c24bd31b736eab538093bc068",
+      "bytes": 1330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196771416700
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/demo/README.md",
+      "sha256": "1eeff8a373e02566ebbac091ba0f3d41b5063d28dd43a5d17820564b09641581",
+      "bytes": 154,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196772416600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/demo/RoundingService.java",
+      "sha256": "271cd08cc9c4623806c701d384bd8d207819869b0925f1b7f232565e5a1c8cdf",
+      "bytes": 580,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196772416600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/demo/RoundMode.java",
+      "sha256": "f897c5f9545a7a7fa5be6b248deb349948471a9528d295a0fe986381e80df609",
+      "bytes": 1319,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196772416600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/demo/Settings.java",
+      "sha256": "54c0f57deefa707e557a511f4a57d1d1fbeac22653d1bd06209e526a411654b4",
+      "bytes": 632,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196772416600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/FactoryDependencyHandlerTest.java",
+      "sha256": "7ff79f78dc766d9ca62fd97477022f57e144eca05a8e1c318f00345cc1194417",
+      "bytes": 5722,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196773630400
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/SavedAnnotationsHandlerTest.java",
+      "sha256": "50bb2981c2a512759009bdff11e59f8340faf6eca2d75a88af911647290f1f17",
+      "bytes": 2930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196773630400
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/SingletonStoreDependencyHandlerTest.java",
+      "sha256": "c9bb0f309aa0f4cee22bcfa4ce2cbf33c77ed0709be1192a28a95fd0616ef826",
+      "bytes": 7656,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196774629400
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/TypeSafeAnnotationHandlerTest.java",
+      "sha256": "27e120cebc08e6ff8a891bf70e5880ccb1704d2afb01070659f989fc9bad4ae5",
+      "bytes": 3139,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196774629400
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Alfa.java",
+      "sha256": "be7cc97820cdefc69cad5afc340624afbbbbb119e1ffc91cdb29b2f8f11d6bb0",
+      "bytes": 194,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196774629400
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Bravo.java",
+      "sha256": "a8ae3f432427ddddd87e4e24d47769b4c474a64795972ce5c7d43a8202ca3b27",
+      "bytes": 328,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196774629400
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Charlie.java",
+      "sha256": "b01bfc0f75f20e6ebaf874fec33f2b73cf79d20965646a76525aa0ea2fc54cbc",
+      "bytes": 360,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196775970500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/ClassWithInjectedProviders.java",
+      "sha256": "affc6339ffc7850c7fa780aa2437c0ebb0408295898f20527ad73a3180347b6b",
+      "bytes": 1170,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196775970500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Delta.java",
+      "sha256": "d1b34e0c7259ad4096f5eedcbbd50d6a42937cffcee891179b32c8d6b58ee9db",
+      "bytes": 146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196775970500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Delta1.java",
+      "sha256": "35f61a0f51d1c7274f36da69fc3917a540a4e290f9e30fcbfd029106da102e4b",
+      "bytes": 527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196775970500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Delta1Provider.java",
+      "sha256": "362d031c990aa281aabf111933a097ac80f150035b7f20f7c92193c655d5a2bd",
+      "bytes": 359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196775970500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Delta2.java",
+      "sha256": "1f9fe9d0112526effdf150bf72eab994bc476338f161f046303e9d0f5ce5d15d",
+      "bytes": 470,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196777197800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/dependency/providers/Delta2Provider.java",
+      "sha256": "15bd004d58b47097f72622eba6ef93cdc4ccad08d6e57b8213b35ee423afbf8b",
+      "bytes": 480,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196777197800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/instantiation/DefaultInjectionProviderTest.java",
+      "sha256": "58e425f3df7cba73c64ba2435b4f6c4ff028143ec780124f5f2d8c6c32d938ef",
+      "bytes": 3804,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196778195000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/instantiation/InstantiationCacheTest.java",
+      "sha256": "eec9dd57afc882971ec9cbc4059ab23d37c60e9508b368f81b677ce3a4ac57c6",
+      "bytes": 3671,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196778195000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/instantiation/ProviderHandlerTest.java",
+      "sha256": "80e4db45ad2c12ba1c38fd16b20d5efe52ae0655fc7a31ad4a19cbe915b6e9ac",
+      "bytes": 9035,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196778195000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/instantiation/StandardInjectionTest.java",
+      "sha256": "7db2d028f370b1765395956c0652342097fadf4e9ace75ca4c7ca6eec775e367",
+      "bytes": 13156,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196779197000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/postconstruct/PostConstructMethodInvokerTest.java",
+      "sha256": "53c45829863584e9d4bf6094c61120477c08de15eca4f27f7e1274caae13915f",
+      "bytes": 5658,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196779197000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/postconstruct/PostConstructMethodInvoker_RBL4_68accc5aTest.java",
+      "sha256": "c9ad12bb91e191a3517bb7574edaefd1771bb2db8e1a42881958c414a1a8b280",
+      "bytes": 116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784839275638327500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/postconstruct/PostConstructRemappingTest.java",
+      "sha256": "611714d8ce7ec9f6469889fc49415aa14515786c96e1ca7cbd9d94ed23168b5c",
+      "bytes": 2659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196779197000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/testimplementations/AbstractCountingHandler.java",
+      "sha256": "6e62c37f8056187263245fb9aa6e859a2929b2239519642cccbb4ca683622301",
+      "bytes": 499,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196780692000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/testimplementations/ImplementationClassHandler.java",
+      "sha256": "8ebd57405e12820ff07ba556da2f83dabc5739f3109e67bb80c237bc7966bc10",
+      "bytes": 2271,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196780692000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/testimplementations/ListeningDependencyHandler.java",
+      "sha256": "caaeaf2c6f674df2c58a627087c5917869976d9e39e7d3750a83f921e8dc5bc7",
+      "bytes": 544,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196780692000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/testimplementations/ProfilePostConstructHandler.java",
+      "sha256": "15efbce346ba06d144965a496899840c050fa1b0d2d01658207dcaf35a1ba9cc",
+      "bytes": 4385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196780692000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/handlers/testimplementations/ThrowingPostConstructHandler.java",
+      "sha256": "8745d8ffc645ae320efb9f992313050a513edfa9e28e0627ca77d992a5e47060",
+      "bytes": 973,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196781690100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/AlphaService.java",
+      "sha256": "cea5f9b3f6de8054ae7a24c8afa06d8974724bc6a08d6d5482417711ce5c0105",
+      "bytes": 695,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196781690100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/BadFieldInjection.java",
+      "sha256": "1f1e1d205603093ff65d9e322d3957b487d45d3ed9d94b3aeeb566fe86dd8775",
+      "bytes": 382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196781690100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/BetaManager.java",
+      "sha256": "4285e576e8e77380cdccb5413cbf695904d3014949de2a0dac10bf0b122a0b2d",
+      "bytes": 446,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196782745000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/CircularClasses.java",
+      "sha256": "c52f165fe04971a833b1646e09e3dab3e40aa9aa75b1c3a98f1b071b2b8f0da0",
+      "bytes": 658,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196782745000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/ClassWithAbstractDependency.java",
+      "sha256": "4ddb5fd559c94479b4945a41762f52ea3c8c7fc0c688d0c01bc1baeb5b0f15b4",
+      "bytes": 801,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196782745000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/ClassWithAnnotations.java",
+      "sha256": "d0d2c92ba1684ad462891c5506f38c010b2ca735d4a4cf87836f73e693bedac6",
+      "bytes": 642,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196782745000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/ClassWithInjectMethod.java",
+      "sha256": "aa63648b93981af33c364ed7c34b78e051d8eb645f3b6e62e26f5fe86266e0a5",
+      "bytes": 443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196782745000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/Duration.java",
+      "sha256": "6c5f8c7f2f525a2a4065ecb1810cf5e24d8a9b2082dfcd39e96d8952bc43b9bf",
+      "bytes": 360,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196784238600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/FieldInjectionWithAnnotations.java",
+      "sha256": "406b8202de895899464b06f0f255f3ec1a88f4ac3a30b047d4c7852b324c3a0f",
+      "bytes": 787,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196784238600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/GammaService.java",
+      "sha256": "575551dc1225e76858f5b0974838603d5d38a15edbf51359bef3f82ce6a71f9e",
+      "bytes": 340,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196785236000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/InjectOnDifferentMembersClass.java",
+      "sha256": "92790f77f204d5f1bb3c4c7c61246f6419bf8e6ae51cf3f6f1c8dc46c983c137",
+      "bytes": 554,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196785236000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/InstantiationFallbackClasses.java",
+      "sha256": "2a40f9c6c09d590033f546023e25cd83b74afdee2293c01dc071fbb6ae256627",
+      "bytes": 1128,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196785236000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/InvalidClass.java",
+      "sha256": "dddfcbd5e914d9270550da5e6b75a0cb29b27085a6ec2acf6b311de7bdeb6cca",
+      "bytes": 375,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196785236000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/InvalidFinalInjectField.java",
+      "sha256": "4ffbfd5f7308e23652fbc4fb1eca187d25a88abe30fd66d81945e85199168b5c",
+      "bytes": 289,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196785236000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/InvalidMultipleInjectConstructors.java",
+      "sha256": "4da990b8d0eb291a48314c6205acf37eec360f9d4d340cf7d78b47a290f604ac",
+      "bytes": 713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196786595000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/PostConstructTestClass.java",
+      "sha256": "0735d24a00ca9650545781c3b98eff72c9e458703dda4ef5ee923f5c16ec5bde",
+      "bytes": 828,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196786595000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/ProvidedClass.java",
+      "sha256": "186a1ea5271847cc274147e090f92fbeb3510054138e166ba7343c7ad77d217c",
+      "bytes": 426,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196786595000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/Reloadable.java",
+      "sha256": "04de9dfb890e2745852dff3275547c40bd0fb46967f5045521435cf203d912f3",
+      "bytes": 127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196786595000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/SampleInstantiationImpl.java",
+      "sha256": "d9a4323b6658b3b7c009fa8516f6279170d5cbb6e3eb5b9d3e0506ed3cb6e6e3",
+      "bytes": 1869,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196786595000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/Size.java",
+      "sha256": "41e25dcf81ffabd5aa88f1df3e858895aaff52eed2300fda5a27b9697d44adbd",
+      "bytes": 377,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196787784600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/StaticFieldInjection.java",
+      "sha256": "100537675db4955831c3ac932311b494850595f06ce41b08379710c16ac18dd3",
+      "bytes": 514,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196787784600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/inheritance/Child.java",
+      "sha256": "57c46d366897cc46421bc3bb51cbde47c7d91f610879239900ce964c9c17ae71",
+      "bytes": 883,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196787784600
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/inheritance/ChildWithNoInjection.java",
+      "sha256": "558ebd5538481419a5c67af1213157f8fd2dfd3432953770d5ac816d777e786b",
+      "bytes": 256,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196788784500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/inheritance/Grandparent.java",
+      "sha256": "d61fbd6a051f9b872389720f320d4e2c3265b23d42cb55d4e629500adcba0b5b",
+      "bytes": 506,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196788784500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/inheritance/Parent.java",
+      "sha256": "598f5b4bd0667a032b8dc66f3baecc922a07278f5d428004060118de61e67cc8",
+      "bytes": 820,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196788784500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/subpackage/SubpackageClass.java",
+      "sha256": "b11498a1c12c0f5596d1180c466c460feed6c6e5c9abe0f4780c64f870c4087c",
+      "bytes": 395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196789786000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/Bicycle.java",
+      "sha256": "6d5867ae344e96196a1540cd88b08514acce6c7b538c9b51f32c05d351781d08",
+      "bytes": 468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196789786000
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/Car.java",
+      "sha256": "32a637d5dfba6c5f6db303770a02d4a812ab9723a1ae3ba5412d5bba17e63e2a",
+      "bytes": 871,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196790789100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/Plane.java",
+      "sha256": "d3a07998b2a865a1ff40052ec66ae82450c09851374b57fa09f9926187e2d43d",
+      "bytes": 659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196790789100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/Ship.java",
+      "sha256": "753c70d32637e37f616eed25468b64406623bff764ab79aafc759d658a112cc8",
+      "bytes": 698,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196790789100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/ShoppingCart.java",
+      "sha256": "e9f4b2b1c887949fdcde2ecaef853863c7ab790a227126f4921dcfded857607d",
+      "bytes": 386,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196790789100
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/UnidentifiableVehicle.java",
+      "sha256": "ae2fe062176467e9ed97f7af1aed57a12f8c66b01db1fd92c875ee93ed1a9853",
+      "bytes": 325,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196791784500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/Vehicle.java",
+      "sha256": "a7e01bac12e6f7b3270ab172d311aef3bbc8fa9827e20a67a7901b73fbab34b5",
+      "bytes": 156,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196791784500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/VehiclesJourneyService.java",
+      "sha256": "2b85f69a6ed2e7c8a6c466d057b2a6f48d8d6c06cfdab3e3632b1ce417a00bbf",
+      "bytes": 637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196791784500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/VehicleWithHorn.java",
+      "sha256": "ac6aafe3b4e684a53851b79da4391aaf265dc3e1b5109f3e9637dba46fbe45e2",
+      "bytes": 159,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196791784500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/services/DriveService.java",
+      "sha256": "b4821841118792951411a2ca35c3f872483af7fd34e32044a30dd3d80961d512",
+      "bytes": 345,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196792784200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/services/IdentificationService.java",
+      "sha256": "63f1925a9159f1200d7f3a4fce0077ea674c1440c4507bf645df147db4b57b2f",
+      "bytes": 332,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196792784200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/services/PilotService.java",
+      "sha256": "ce8a4b0e373e9f2b12106b6789523317fc3203fc66389c87b934f4a8de438e70",
+      "bytes": 249,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196792784200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/services/SailService.java",
+      "sha256": "c456f580d3d660a3d056a470eb8f9d5fce597a31e4ae5042e92b3a01817eeeb1",
+      "bytes": 336,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196792784200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/services/SailServiceProvider.java",
+      "sha256": "2e42eac7412aab69b7963b4c19a2b79132fe24d697cc6a806c17c3a443246e0a",
+      "bytes": 440,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196792784200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/services/SteeringService.java",
+      "sha256": "4e1c99328672d6945e5bc8e256962568ad2691764d620531d0dc639f8adf98db",
+      "bytes": 190,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196794069300
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/samples/vehicles/services/SteerServiceManager.java",
+      "sha256": "435713903f13415c6311c99b2c29a18c0ad91e02883ba906ba7d9f56039dba56",
+      "bytes": 582,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196794069300
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/CustomAnnotation.java",
+      "sha256": "0bfddf479344ef911423380dfca15a63d1f16d5e04fe6af986cd0262fb15c62c",
+      "bytes": 366,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196795068500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/DelayedInjectionExtensionIntegrationTest.java",
+      "sha256": "e16b8fa56a27376e9783665c0b33b71776b8ab4252193a1fd0be22292cbf2a46",
+      "bytes": 3046,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196795068500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/DelayedInjectionRunnerIntegrationTest.java",
+      "sha256": "caae9e5e5ec3744ed13ae8e4ef6c3800de7131ad23ab062e35b39a15b623024b",
+      "bytes": 2992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196795068500
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/MultipleDelayedInjectExtensionIntegrationTest.java",
+      "sha256": "eb740d8f38a2670a244e3defa00c976148cef985cff0932f96778c9b88932260",
+      "bytes": 2608,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196796072200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/MultipleDelayedInjectRunnerIntegrationTest.java",
+      "sha256": "faa8b85cc3196c2551fdb4309e6098f7d88844037ab723c0ef9fb700eaf6e43d",
+      "bytes": 2574,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196796072200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/SampleInjectClass.java",
+      "sha256": "ff06745c1712e3c94bf78255191019673d7205aeabb157ac4c10920301e1e80c",
+      "bytes": 1166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196796072200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/runner/DelayedInjectionRunnerValidatorTest.java",
+      "sha256": "58de2e704c97a501f0fef8ef948b38c069847c466eaad07243731fc7908ef11d",
+      "bytes": 2283,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196797069800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/runner/MockDependencyHandlerTest.java",
+      "sha256": "55d2f7a4a2a49831c1e4a27af83ab110552dbbca2b2652c16c2da137069bc855",
+      "bytes": 3734,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196797069800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/testing/runner/RunDelayedInjectsTest.java",
+      "sha256": "e1fffadac6fa13f8d5897696209e2117487ce1c90092e3a2dc300b4856fbba83",
+      "bytes": 3096,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196797069800
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/utils/InjectorUtilsTest.java",
+      "sha256": "b5868e60ecb04b0f3b784cf67b67817bd14c9247acb2d01010260eedd779e692",
+      "bytes": 5521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196798070200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/utils/ReflectionsTestClass.java",
+      "sha256": "a87529396ff5580e8869f674ef040954720072576666e8a6a050d8703afec55a",
+      "bytes": 1066,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196798070200
+    },
+    {
+      "relative": "injector/src/test/java/ch/jalu/injector/utils/ReflectionUtilsTest.java",
+      "sha256": "205b2b40a4c6777cc00c606830bb3468947dc53a028607b765404f17e9ee42af",
+      "bytes": 13195,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196798070200
+    },
+    {
+      "relative": "injector-extras/pom.xml",
+      "sha256": "b91eb6f861e9067c1d1c874a9b228d977fefdb13578d1e88627db477ed6c866d",
+      "bytes": 1558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196739037000
+    },
+    {
+      "relative": "injector-extras/src/main/java/ch/jalu/injector/extras/AllInstances.java",
+      "sha256": "62d6b31f5f13248d8aafd8fc690f55711323f326eaaf55a03e4e0b678120398d",
+      "bytes": 939,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196740036700
+    },
+    {
+      "relative": "injector-extras/src/main/java/ch/jalu/injector/extras/AllTypes.java",
+      "sha256": "550e824d215a1ebc47d49f0131013c325f5a0d84fedd2e940722a8e1485bec5b",
+      "bytes": 833,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196741037000
+    },
+    {
+      "relative": "injector-extras/src/main/java/ch/jalu/injector/extras/handlers/AllInstancesAnnotationHandler.java",
+      "sha256": "80c4dfc8a1fc029f8cc049c66e4d12e03e512023cb94333bc06d19bfbbaee4d2",
+      "bytes": 3597,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196741037000
+    },
+    {
+      "relative": "injector-extras/src/main/java/ch/jalu/injector/extras/handlers/AllTypesAnnotationHandler.java",
+      "sha256": "6b374531c5c98978d5943105ca6c1e7e5b9aa5f85e098d9ca3a015dd620bfc98",
+      "bytes": 1638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196742037300
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/handlers/AllInstancesAnnotationHandlerTest.java",
+      "sha256": "b3023c7413c72ebc8ac2801f54f01be4c239609d7c1fa72b28bcb809def19f35",
+      "bytes": 6690,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196743037200
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/handlers/AllTypesAnnotationHandlerTest.java",
+      "sha256": "7692de1dd726533ca39f3aaf06dc4b5b73802f697fd1c777b8e85500dd801fdc",
+      "bytes": 1890,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196743037200
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/CinnamonService.java",
+      "sha256": "e46126679233121588592cb3624bd2612375af1b955e955b2a4b6f30606d7fe2",
+      "bytes": 135,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196744037200
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/LilacService.java",
+      "sha256": "a7b5fe547d43b57618e17559f7c458601810ca196e1f2fb0dd6bdc0a9cac7696",
+      "bytes": 105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196744037200
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/PaprikaService.java",
+      "sha256": "14074671fb8e9ff74abfafae52bff81389e93b86bc56663e4cf57d4e4641964e",
+      "bytes": 133,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196744037200
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/SpiceService.java",
+      "sha256": "861b7ea654097e7b5227deb9ac2b47f8c18694591d3ee20cdb7d448ba7f03953",
+      "bytes": 118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196744037200
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Animal.java",
+      "sha256": "3ef3fcb1f3045e27a3ffaf31b84741e786a5911479e24bb184fb4b6045e3f953",
+      "bytes": 193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196745036800
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/AnimalHandler.java",
+      "sha256": "f944bbc0ba0d3016fa25ed359df7fa420466d04f6aa897c842ba7d01dbfd6085",
+      "bytes": 1321,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196745036800
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/AnimalLister.java",
+      "sha256": "192be3a65e8db5a57a98b545b0da328f19a40418fe5c512af8659ee839ffbb5b",
+      "bytes": 501,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196745036800
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Bird.java",
+      "sha256": "f83647a87b29297801bafa1677b24f414bc2216baa9cbfb1063e6aaa849adbc1",
+      "bytes": 566,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196745036800
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Chicken.java",
+      "sha256": "e67084d2cd711d18577ae723c212a16933f1141784422a20576dd2a1fbb7cf4c",
+      "bytes": 468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196746037500
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Frog.java",
+      "sha256": "b927fb8c5c5649cd5413f1e8a2da9495bedaf932790e2d25bcd9971bf03ef7d5",
+      "bytes": 660,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196746037500
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Lion.java",
+      "sha256": "08611a5d4198f413ca09541e2d98e6b166ff93376cc5108a7bb94bf844a08d80",
+      "bytes": 679,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196746037500
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Ostrich.java",
+      "sha256": "c3c98cefd0803bc9c5005bce15c1e22f606faa5f0fd44d30aad96dbbecc95fab",
+      "bytes": 749,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196747037400
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Reptile.java",
+      "sha256": "c5477363e87fc8b29a917d1330f267d3390604f91209b75946e551519e0ea854",
+      "bytes": 220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196747037400
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Snake.java",
+      "sha256": "ccb7251444e5b7342a3f47ca362670448758d15412fd48da7718451a91dcdd85",
+      "bytes": 1053,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196747037400
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Sparrow.java",
+      "sha256": "a448256da2c82a7787e1862ac01d7cc581afcd829fe6bd95173f614ea35a2e2e",
+      "bytes": 650,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196747037400
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/Turtle.java",
+      "sha256": "225c10fe0079528a595d7c7d267f913f6d0062d8ee52ccaa68ecf158cb51ff06",
+      "bytes": 585,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196748037000
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/ChirpService.java",
+      "sha256": "fdff32ee1e7bccd17cf20f49455fc40c9157f2c9e2db93ec308f6b9ebb0836f3",
+      "bytes": 422,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196748037000
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/Configuration.java",
+      "sha256": "7d60379f69e8ea23e49d14876f2503ce0ed0cc06308000fb4dc2481797f8001d",
+      "bytes": 297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196748037000
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/CroakService.java",
+      "sha256": "8a46ff245939f71c3046a85f8e746c63887465d1e88afe14b8ef941023a346ab",
+      "bytes": 462,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196748037000
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/HissService.java",
+      "sha256": "051271426ef0a5c89c86c097ef697434a1afe31c1c89f52ef2ccbf6340f28967",
+      "bytes": 686,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196749038500
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/HissServiceProvider.java",
+      "sha256": "654450ff2cb6cb19faab88f2c48934224df1625286e8ec537de0c6df74dcb7a1",
+      "bytes": 523,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196749038500
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/LanguageService.java",
+      "sha256": "79b5ceef801f7549629447c63d96a1c60d3e6bb7ef4834234d314c8a05231ab4",
+      "bytes": 774,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196749038500
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/NameService.java",
+      "sha256": "6d54a465e860c6d5aeedac1ca9b6661fac4b0928eae0625bcbddd374b582fcb0",
+      "bytes": 558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196750038100
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/RoarService.java",
+      "sha256": "1c8ce8c945552904e235b2c77e68f8492efa78fa49924c5e856783bc0a9a0981",
+      "bytes": 392,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196750038100
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/SoundService.java",
+      "sha256": "ac8edb7d5d1bce3ac34225798774cf978503b06e960ba8c157c9ebfa611ff5fe",
+      "bytes": 187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196751038600
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/SoundServiceSupervisor.java",
+      "sha256": "d8e6a114fbf27196eb44869740f0d11965bf497bdccaf568a0f6d20fba62ce73",
+      "bytes": 848,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196751038600
+    },
+    {
+      "relative": "injector-extras/src/test/java/ch/jalu/injector/extras/samples/animals/services/SqueakService.java",
+      "sha256": "ac53229072aedfbaabc04c238da73e839277ddf824e2c1d1d0f7bc87c9f01e13",
+      "bytes": 643,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196751038600
+    },
+    {
+      "relative": "test-module/pom.xml",
+      "sha256": "899340d1d600e22f8cdc2f130035e6d10b53a489cc9e107635ced97e2451495b",
+      "bytes": 1949,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196799068700
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/ClassWithField.java",
+      "sha256": "e6082e70e2da9d6caa4f2ce3c6423235f652559f970d8810627567a74fa730a4",
+      "bytes": 416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196800069000
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/ClassWithMethodParam.java",
+      "sha256": "dfc06144e2357f3dbf63f60daefdc1bd6b3344511cbface3da45bdcda9668b37",
+      "bytes": 585,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196800069000
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/Main.java",
+      "sha256": "0ae072f778f7629bf7eb5b7487519ff205aee870006dbfe8b36c546f76f69f53",
+      "bytes": 2544,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196801068300
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/OneService.java",
+      "sha256": "7545608398aa3cb4baf9d1d96e33b1c0b5cf8eb9c9c6f72323c09ad467f4cc2c",
+      "bytes": 200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196801068300
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/ThreeService.java",
+      "sha256": "018b11245194fadfbf6bfec04162e42cfce95680002f091513df81c4721a80de",
+      "bytes": 366,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196801068300
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/TwoService.java",
+      "sha256": "318308b0345c3f0d739db59bca17aed51ef667e6612fe5f796958bfd7cb11744",
+      "bytes": 316,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196801068300
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/providers/FiveService.java",
+      "sha256": "a5b038d641686340f0f7e458a5098a9d0d59d66e535de33940772f73f6cf9837",
+      "bytes": 458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196802069000
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/providers/FiveServiceProvider.java",
+      "sha256": "927f63c5763e29fe692a65994207b07c49fdddc85285cd28c13e969f55d31cc1",
+      "bytes": 826,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196802069000
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/providers/FiveServiceProviderProvider.java",
+      "sha256": "cfbc98e72fd75da436f68c0ba01cfd2f9972ba9da79c071262bfc01ac97781c7",
+      "bytes": 543,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196802069000
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/providers/FourService.java",
+      "sha256": "80ceed7e0479db62a7adace10b77358be24d93aa2b34506b590a290c29a91190",
+      "bytes": 423,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196803073600
+    },
+    {
+      "relative": "test-module/src/main/java/ch/jalu/testmodule/services/providers/FourServiceProvider.java",
+      "sha256": "0123d3733be680df19f597352946c0a1f0abd913f99174897583599cbf6e5043",
+      "bytes": 815,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771196803073600
+    }
+  ],
+  "excluded": [
+    "injector/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\118_61565876_68accc5a\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:44:41.300490+00:00"
+}

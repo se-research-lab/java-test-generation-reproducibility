@@ -1,0 +1,2442 @@
+[
+  {
+    "index": 280,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\01\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261303,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 9,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\02\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261032,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 300,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\03\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261323,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 216,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\04\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261239,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 123,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\05\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261146,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 120,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\06\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261143,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 265,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\07\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261288,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 46,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\08\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261069,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 233,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\09\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261256,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 228,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\10\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261251,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 59,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\11\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261082,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 281,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\12\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261304,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 237,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\13\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261260,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 230,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\14\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261253,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 131,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\15\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261154,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 124,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\16\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261147,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 114,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\17\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261137,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 11,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\18\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261034,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 75,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\19\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261098,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 73,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\20\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261096,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 166,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\21\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261189,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 240,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\22\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261263,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 229,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\23\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261252,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 88,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\24\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261111,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 35,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\25\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261058,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 142,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\26\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261165,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 13,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\27\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261036,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 212,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\28\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261235,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 153,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\29\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261176,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 292,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\30\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261315,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 101,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\31\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261124,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 70,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\32\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261093,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 1,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\33\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261024,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 5,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\34\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261028,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 14,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\35\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261037,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 222,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\36\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261245,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 279,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\37\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261302,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 105,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\38\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261128,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 26,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\39\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261049,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 248,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\40\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261271,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 167,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\41\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261190,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 203,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\42\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261226,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 62,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\43\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261085,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 276,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\44\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261299,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 84,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\45\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261107,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 43,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\46\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261066,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 140,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\47\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261163,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 108,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\48\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261131,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 290,
+    "phase": "E49_ORIGINAL",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\jobs\\49\\command_02.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261313,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 3,
+    "phase": "B1_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\003\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261026,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 6,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\006\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261029,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 8,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\008\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261031,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 10,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\010\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261033,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 12,
+    "phase": "B1_CP_TRANSPORT_RECOVERY",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\012_cpfile_v3\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261035,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 16,
+    "phase": "B1_CP_TRANSPORT_RECOVERY",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\016_cpfile_v3\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261039,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 17,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\017\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261040,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 18,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\018\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261041,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 19,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\019\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261042,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 19,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\019\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261042,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 22,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\022\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261045,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 23,
+    "phase": "B1_CP_TRANSPORT_RECOVERY",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\023_cpfile_v3\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261046,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 25,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\025\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261048,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 27,
+    "phase": "B1_V2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\027\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261050,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 28,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\028\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261051,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 29,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\029\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261052,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 29,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\029\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261052,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 30,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\030\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261053,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 32,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\032\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261055,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 33,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\033\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261056,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 33,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\033\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261056,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 34,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\034\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261057,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 36,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\036\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261059,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 37,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\037\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261060,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 38,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\038\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261061,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 39,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\039\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261062,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 41,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\041\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261064,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 42,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\042\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261065,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 44,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\044\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261067,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 47,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\047\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261070,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 48,
+    "phase": "B1_V3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\048\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261071,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 49,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\049\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261072,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 50,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\050\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261073,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 51,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\051\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261074,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 52,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\052\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261075,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 53,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\053\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261076,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 54,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\054\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261077,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 55,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\055\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261078,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 56,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\056\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261079,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 57,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\057\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261080,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 58,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\058\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261081,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 60,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\060\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261083,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 61,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\061\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261084,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 63,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\063\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261086,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 64,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\064\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261087,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 65,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\065\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261088,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 66,
+    "phase": "B1_V4",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\066\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261089,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 67,
+    "phase": "B1_V5",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\067\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261090,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 68,
+    "phase": "B1_V5",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\068\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261091,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 69,
+    "phase": "B1_V5",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\069\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261092,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 71,
+    "phase": "B1_V5",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\071\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261094,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 74,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\074\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261097,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 76,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\076\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261099,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 76,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\076\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261099,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 77,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\077\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261100,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 78,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\078\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261101,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 79,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\079\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261102,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 82,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\082\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261105,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 82,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\082\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261105,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 83,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\083\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261106,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 85,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\085\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261108,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 86,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\086\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261109,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 87,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\087\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261110,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 89,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\089\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261112,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 90,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\090\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261113,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 91,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\091\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261114,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 92,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\092\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261115,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 93,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\093\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261116,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 94,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\094\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261117,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 95,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\095\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261118,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 96,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\096\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261119,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 99,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\099\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261122,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 100,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\100\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261123,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 100,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\100\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261123,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 102,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\102\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261125,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 103,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\103\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261126,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 104,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\104\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261127,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 104,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\104\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261127,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 107,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\107\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261130,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 109,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\109\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261132,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 111,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\111\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261134,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 113,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\113\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261136,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 115,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\115\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261138,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 116,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\116\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261139,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 117,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\117\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261140,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 118,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\118\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261141,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 121,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\121\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261144,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 122,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\122\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261145,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 125,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\125\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261148,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 126,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\126\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261149,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 127,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\127\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261150,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 128,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\128\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261151,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 130,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\130\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261153,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 130,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\130\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261153,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 132,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\132\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261155,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 133,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\133\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261156,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 136,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\136\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261159,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 137,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\137\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261160,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 138,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\138\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261161,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 139,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\139\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261162,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 141,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\141\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261164,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 141,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\141\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261164,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 143,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\143\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261166,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 144,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\144\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261167,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 145,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\145\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261168,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 146,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\146\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261169,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 147,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\147\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261170,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 148,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\148\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261171,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 149,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\149\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261172,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 150,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\150\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261173,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 151,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\151\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261174,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 151,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\151\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261174,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 152,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\152\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261175,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 154,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\154\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261177,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 155,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\155\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261178,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 157,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\157\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261180,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 158,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\158\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261181,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 159,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\159\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261182,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 160,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\160\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261183,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 162,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\162\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261185,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 164,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\164\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261187,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 168,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\168\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261191,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 171,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\171\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261194,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 172,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\172\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261195,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 174,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\174\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261197,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 176,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\176\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261199,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 176,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\176\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261199,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 177,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\177\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261200,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 178,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\178\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261201,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 179,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\179\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261202,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 180,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\180\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261203,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 181,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\181\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261204,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 182,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\182\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261205,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 182,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\182\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261205,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 183,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\183\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261206,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 185,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\185\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261208,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 186,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\186\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261209,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 187,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\187\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261210,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 188,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\188\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261211,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 189,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\189\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261212,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 189,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\189\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261212,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 190,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\190\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261213,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 191,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\191\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261214,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 192,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\192\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261215,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 193,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\193\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261216,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 195,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\195\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261218,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 196,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\196\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261219,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 198,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\198\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261221,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 200,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\200\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261223,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 201,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\201\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261224,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 202,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\202\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261225,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 204,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\204\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261227,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 205,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\205\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261228,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 206,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\206\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261229,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 208,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\208\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261231,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 209,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\209\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261232,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 210,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\210\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261233,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 213,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\213\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261236,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 214,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\214\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261237,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 217,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\217\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261240,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 218,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\218\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261241,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 219,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\219\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261242,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 219,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\219\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261242,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 221,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\221\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261244,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 223,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\223\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261246,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 224,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\224\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261247,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 225,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\225\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261248,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 226,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\226\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261249,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 231,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\231\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261254,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 232,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\232\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261255,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 234,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\234\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261257,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 235,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\235\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261258,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 236,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\236\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261259,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 238,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\238\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261261,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 239,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\239\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261262,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 242,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\242\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261265,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 243,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\243\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261266,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 244,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\244\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261267,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 244,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\244\\commands\\003\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261267,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 245,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\245\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261268,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 246,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\246\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261269,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 247,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\247\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261270,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 249,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\249\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261272,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 250,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\250\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261273,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 252,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\252\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261275,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 253,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\253\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261276,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 254,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\254\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261277,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 255,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\255\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261278,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 256,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\256\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261279,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 258,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\258\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261281,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 259,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\259\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261282,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 260,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\260\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261283,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 261,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\261\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261284,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 262,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\262\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261285,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 263,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\263\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261286,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 266,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\266\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261289,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 267,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\267\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261290,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 270,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\270\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261293,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 272,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\272\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261295,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 273,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\273\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261296,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 277,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\277\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261300,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 278,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\278\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261301,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 282,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\282\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261305,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 283,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\283\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261306,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 284,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\284\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261307,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 285,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\285\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261308,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 286,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\286\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261309,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 287,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\287\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261310,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 288,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\288\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261311,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 289,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\289\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261312,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 291,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\291\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261314,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 293,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\293\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261316,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 295,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\295\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261318,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 296,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\296\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261319,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 297,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\297\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261320,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 298,
+    "phase": "B1_V6",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\298\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261321,
+    "generation_cap": 240.0
+  },
+  {
+    "index": 2,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\002_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261025,
+    "generation_cap": 240
+  },
+  {
+    "index": 4,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\004_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261027,
+    "generation_cap": 240
+  },
+  {
+    "index": 7,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\007_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261030,
+    "generation_cap": 240
+  },
+  {
+    "index": 15,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\015_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261038,
+    "generation_cap": 240
+  },
+  {
+    "index": 20,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\020_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261043,
+    "generation_cap": 240
+  },
+  {
+    "index": 21,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\021_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261044,
+    "generation_cap": 240
+  },
+  {
+    "index": 24,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\024_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261047,
+    "generation_cap": 240
+  },
+  {
+    "index": 31,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\031_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261054,
+    "generation_cap": 240
+  },
+  {
+    "index": 40,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\040_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261063,
+    "generation_cap": 240
+  },
+  {
+    "index": 45,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\045_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261068,
+    "generation_cap": 240
+  },
+  {
+    "index": 72,
+    "phase": "COMPLETION_completion_pom_v1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\072_completion_pom_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261095,
+    "generation_cap": 240
+  },
+  {
+    "index": 80,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\080_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261103,
+    "generation_cap": 240
+  },
+  {
+    "index": 81,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\081_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261104,
+    "generation_cap": 240
+  },
+  {
+    "index": 97,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\097_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261120,
+    "generation_cap": 240
+  },
+  {
+    "index": 106,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\106_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261129,
+    "generation_cap": 240
+  },
+  {
+    "index": 112,
+    "phase": "COMPLETION_completion_pom_v2",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\112_completion_pom_v2\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261135,
+    "generation_cap": 240
+  },
+  {
+    "index": 119,
+    "phase": "COMPLETION_completion_pom_v3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\119_completion_pom_v3\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261142,
+    "generation_cap": 240
+  },
+  {
+    "index": 129,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\129_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261152,
+    "generation_cap": 240
+  },
+  {
+    "index": 134,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\134_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261157,
+    "generation_cap": 240
+  },
+  {
+    "index": 135,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\135_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261158,
+    "generation_cap": 240
+  },
+  {
+    "index": 156,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\156_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261179,
+    "generation_cap": 240
+  },
+  {
+    "index": 163,
+    "phase": "COMPLETION_completion_pom_v3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\163_completion_pom_v3\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261186,
+    "generation_cap": 240
+  },
+  {
+    "index": 165,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\165_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261188,
+    "generation_cap": 240
+  },
+  {
+    "index": 169,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\169_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261192,
+    "generation_cap": 240
+  },
+  {
+    "index": 170,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\170_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261193,
+    "generation_cap": 240
+  },
+  {
+    "index": 173,
+    "phase": "COMPLETION_completion_pom_v3",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\173_completion_pom_v3\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261196,
+    "generation_cap": 240
+  },
+  {
+    "index": 175,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\175_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261198,
+    "generation_cap": 240
+  },
+  {
+    "index": 184,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\184_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261207,
+    "generation_cap": 240
+  },
+  {
+    "index": 194,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\194_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261217,
+    "generation_cap": 240
+  },
+  {
+    "index": 197,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\197_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261220,
+    "generation_cap": 240
+  },
+  {
+    "index": 211,
+    "phase": "COMPLETION_completion_pom_resume_after173_v1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\211_completion_pom_resume_after173_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261234,
+    "generation_cap": 240
+  },
+  {
+    "index": 215,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\215_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261238,
+    "generation_cap": 240
+  },
+  {
+    "index": 220,
+    "phase": "COMPLETION_completion_pom_resume_after173_v1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\220_completion_pom_resume_after173_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261243,
+    "generation_cap": 240
+  },
+  {
+    "index": 257,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\257_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261280,
+    "generation_cap": 240
+  },
+  {
+    "index": 269,
+    "phase": "COMPLETION_completion_pom_resume_after173_v1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\269_completion_pom_resume_after173_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261292,
+    "generation_cap": 240
+  },
+  {
+    "index": 271,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\271_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261294,
+    "generation_cap": 240
+  },
+  {
+    "index": 274,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\274_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261297,
+    "generation_cap": 240
+  },
+  {
+    "index": 275,
+    "phase": "COMPLETION_completion_pom_resume_final2_v1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\275_completion_pom_resume_final2_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261298,
+    "generation_cap": 240
+  },
+  {
+    "index": 294,
+    "phase": "COMPLETION_completion_pom_resume_final2_v1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\294_completion_pom_resume_final2_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261317,
+    "generation_cap": 240
+  },
+  {
+    "index": 299,
+    "phase": "GRADLE_FROZEN_V1",
+    "record_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\299_gradle_v1\\commands\\002\\plan.json",
+    "profile_seed_cap_match": true,
+    "seed": 20261322,
+    "generation_cap": 240
+  }
+]

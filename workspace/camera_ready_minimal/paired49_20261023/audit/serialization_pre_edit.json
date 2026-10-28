@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-10-23T11:41:05.490831+00:00",
+  "source_sha256": "25010f7d5febbd4c6c74abcadd892911bb3539e9c4df8afc1b5f0a7c45c95800",
+  "source_backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\backup\\infrastructure\\audit_before_serialization.py",
+  "old_ledger_sha256": "6f5b2eec9a8f21f981833e4f4b609c84f20d645ca464f82b2bd6fb991d5b00fe",
+  "reason": "Concurrent COMMAND_START records shared a previous hash. Preserve original ledger and recover all records by physical order; serialize future appends with interprocess lock."
+}

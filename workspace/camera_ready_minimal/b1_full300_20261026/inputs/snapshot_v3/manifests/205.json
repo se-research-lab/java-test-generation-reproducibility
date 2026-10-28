@@ -1,0 +1,3790 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\230_98410891_cb7f3212\\compiledrepos\\98410891",
+  "class_indices": [
+    245
+  ],
+  "files": [
+    {
+      "relative": ".bash_profile",
+      "sha256": "fe3da2c49fd0b332cbc7aa51f0b54169e5107f0873dab803cd2924570b4dc48b",
+      "bytes": 146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937989632600
+    },
+    {
+      "relative": ".gitignore",
+      "sha256": "0847110f80300b5ec687ff5c44973f15e5cf6c5f4b44d36be32ef3ae2740769a",
+      "bytes": 2123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937989632600
+    },
+    {
+      "relative": "CHANGELOG.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937989632600
+    },
+    {
+      "relative": "comms_router_inbound_use_case_flow.png",
+      "sha256": "31e1dda96ac52ddd76a0dcc7108155e472ac6eb7ced2267902ac462c4ffd573b",
+      "bytes": 75777,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938112269400
+    },
+    {
+      "relative": "comms_router_sequence_diagram.png",
+      "sha256": "d314f224c8b0e2f3b009e351e32cadf57dd18e4ccdfe2bc72d0d296d4994eabc",
+      "bytes": 269259,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938115270100
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "7ce6a7fa6fa324f3ab4847ebf37e5d1197d9a7412427e2067e097c1572cbf413",
+      "bytes": 11546,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937989632600
+    },
+    {
+      "relative": "linuxComms.sh",
+      "sha256": "e8e9e78141b83ba987fce40519889dc4aa6866edcaba87b7ef93c2f96c3c18d4",
+      "bytes": 3435,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938184893600
+    },
+    {
+      "relative": "nbactions.xml",
+      "sha256": "f7289cfd3fa2de3fcc50663f748ac9b77d6aee87210863281eac95a07853be39",
+      "bytes": 458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938184893600
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "21f87859da190ac35d342a1ae7f100c0d9c8cf60f15ce092fd715e446bb5b3d5",
+      "bytes": 16983,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938184893600
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "ab567f2660800d255ca647049a7e2fdf575ba0a69443295b63607fd4fbfa9864",
+      "bytes": 20201,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854891244080100
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "349e239c46ea453dd57d354906fd9613eecbc2f812caa9e89fce3e19a4ee59d5",
+      "bytes": 26232,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854891118457100
+    },
+    {
+      "relative": "README.md",
+      "sha256": "cd91a3786c406a29380e44dc0a4619743275db0b32104c7ad816b2ff8d1277ad",
+      "bytes": 6852,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937990632500
+    },
+    {
+      "relative": "winComms.bat",
+      "sha256": "eaf1fb5d9055d7ab66f7f277d7372b68806af5ca8b8d754996fc530e5b5e85e2",
+      "bytes": 3449,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784766938228462700
+    },
+    {
+      "relative": "applications/demo/nb-configuration.xml",
+      "sha256": "174bdb01da25c0f0f6646936ffe0ad53598f59734609a216b4a7cd3060fc3867",
+      "bytes": 1443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937991632200
+    },
+    {
+      "relative": "applications/demo/pom.xml",
+      "sha256": "2f2a70ffcc383b8a049bf4926f54de81c4b0135fd1f3b43af99c6c5c7535ae1b",
+      "bytes": 5409,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937992632400
+    },
+    {
+      "relative": "applications/demo/README.md",
+      "sha256": "ce561f49a0bf762045db79e00c10e60e15c4de6224994d5b2d867c94fe26f435",
+      "bytes": 4498,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937990632500
+    },
+    {
+      "relative": "applications/demo/php/composer.json",
+      "sha256": "c7800574618fec5d37e662b2850ca94b00e180af4aebf451c6617ba963c93c32",
+      "bytes": 1087,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937991632200
+    },
+    {
+      "relative": "applications/demo/php/ivr.php",
+      "sha256": "5efd2b4c71b9d76aeb1151782f693887e8a3725cc25cc5a34c5451045dd672f7",
+      "bytes": 7525,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937991632200
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/ApplicationBinder.java",
+      "sha256": "aa6beaa5e2894569babf05fcb99355b96343dd0ac8c326e95916ed7d3f2413b4",
+      "bytes": 3679,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937993631800
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/DemoApplication.java",
+      "sha256": "e91afe6c2905812d7686d7d2e6a796a605e17f31f431b4387d1e10de822cc7f8",
+      "bytes": 843,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937994632200
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/api/CommsCallbackResource.java",
+      "sha256": "d258fdcafed9891502d6e25f263f624b1db9eb49567793d9f9424159d93ecc56",
+      "bytes": 16585,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937994632200
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/api/NexMoAnswerInResource.java",
+      "sha256": "3f653294e783326a029291ade59940b66ee2a86b63bd6749024f7c234686a828",
+      "bytes": 5904,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937995635300
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/api/NexMoAnswerOutResource.java",
+      "sha256": "e5b53292e265a28c79015ab2860914837ce70b1281663b9bc2e71b6e62982191",
+      "bytes": 1936,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937995635300
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/api/NexMoEventCallbackResource.java",
+      "sha256": "2b882804fdf01d9cd26b5a26efd973eb4c3aeb07258fab097e111eb4018b3b0b",
+      "bytes": 3391,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937995635300
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/api/NexMoEventIvrResource.java",
+      "sha256": "4fc3656b1925ac4e9fdd02aa7f809856231641fc38cea02d34cf8689820e07de",
+      "bytes": 2098,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937996633800
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/api/NexMoEventOutResource.java",
+      "sha256": "5e73904d7757149deadcebc277fc95c6ab3ffcc6a4c769d29402cedde94fd42f",
+      "bytes": 11838,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937996633800
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/api/NexMoEventResource.java",
+      "sha256": "3b31e84a6779e369ecbc970a2931bfe7175c5e3784a0fb6358069efefe1c30b3",
+      "bytes": 8962,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937996633800
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/AgentServiceClientFactory.java",
+      "sha256": "909d81b61078b251abdc093bf6a36da8d397d18969dfe4397df72e77b37c0e2d",
+      "bytes": 832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937997632700
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/ClientFactory.java",
+      "sha256": "ba483142cd711105d80aee77aad59df45fdffb75144b2a62e464f00ef6150321",
+      "bytes": 962,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937997632700
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/ExecutionFactory.java",
+      "sha256": "73888707550d616c91674ed49be048197ba5bdf78bc1c650eac608ecaa393aaa",
+      "bytes": 691,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937997632700
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/NexMoModelFactory.java",
+      "sha256": "639dd10357fbbd6e057813d976955622af741b0cc889c1c3d20a12c7b719cb8d",
+      "bytes": 1895,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937998631000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/PlanServiceClientFactory.java",
+      "sha256": "2e7716328fbe06490d6aeec5e313c3bd6beb49a20df1c2063dcf5162175f699e",
+      "bytes": 825,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937998631000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/QueueServiceClientFactory.java",
+      "sha256": "6c43fe9743a03aeb900bc229f7c30ae7c04b8f73e8eb16d21ba17fb7c74c779d",
+      "bytes": 832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937998631000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/RouterServiceClientFactory.java",
+      "sha256": "1662731407b9cea4740ad21da172a827b5a2afc4170d383ba855222ce2589bcd",
+      "bytes": 795,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937999631600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/factory/TaskServiceClientFactory.java",
+      "sha256": "d6e0c59d093a36ba01a707490da61c49646409736ebd5a75abc319a5c119a8d1",
+      "bytes": 825,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766937999631600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/Cfg4jConfiguration.java",
+      "sha256": "e0ab8be98800c5739d0de21cfaaa0ddaeddea62c3b7da0aebdcf14a0afcd5b92",
+      "bytes": 2989,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938000631600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/ConfigurationImpl.java",
+      "sha256": "3af784b856ed80b0ebf305ed378de3b83c867672ce122f8c431339aea55aeab6",
+      "bytes": 3749,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938000631600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/ConfigurationProperties.java",
+      "sha256": "ea15484ba94b0f109e752231b11637ff96076635ab01036ef85100fd1c79e9bc",
+      "bytes": 499,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938000631600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/NexMoConversationServiceImpl.java",
+      "sha256": "1541ba4bc35292f09e28d6b87553baf8fc15e882fb96652559ff9667c260151c",
+      "bytes": 7581,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938000631600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/NexMoServiceImpl.java",
+      "sha256": "1229d1cc934c89d7103881e1b7511898058239f29a9f08fc87ad970d3fa11a5f",
+      "bytes": 2599,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938000631600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/PropertiesConfiguration.java",
+      "sha256": "a7dba826a3c2eabf19964b27e62ab6f839f05437cc15bb5543f639ee0eeca7aa",
+      "bytes": 3299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938002128100
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/impl/compat/ModifyCallPayload.java",
+      "sha256": "69349c14129c6da53782cb95998f07bdbd972ffa0be5afc4ad8df6766b36e67e",
+      "bytes": 1814,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938002128100
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/ConversationNccoEx.java",
+      "sha256": "074f4caf628ad189f4901d72597aa0ca414fb0fbb1c7a86330e97955dd6de0a9",
+      "bytes": 2432,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938003127600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/NexMoCall.java",
+      "sha256": "c26c3606b909cb02865c4eab069d6c3064e0bb5d7d81e1de980bc68b2933ccde",
+      "bytes": 1603,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938003127600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/NexMoCallDirection.java",
+      "sha256": "75178419066633c180591ff280096cf1a899b6859c90f1629d22e92959bc85cd",
+      "bytes": 469,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938003127600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/NexMoCallEvent.java",
+      "sha256": "c212444add487b647698623ac65189efe10b4ae5b28704baaad2add209d59204",
+      "bytes": 1648,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938003127600
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/NexMoCallStatus.java",
+      "sha256": "1bc6b8493814c967f52d1862d2302bf1cd7c528a89c0109ff60011548a4fe697",
+      "bytes": 556,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938004128000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/NexMoConversation.java",
+      "sha256": "5d346703cf0788fb514300f919f2be2111c45a5a809409c0a1044e98a2f26555",
+      "bytes": 1901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938004128000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/NexMoConversationStatus.java",
+      "sha256": "4ddce14cb18aa8320c46281384b6dbb030d85ea0428aeef590a493c92753ef92",
+      "bytes": 262,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938004128000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/SipConnectNcco.java",
+      "sha256": "7cb55b81ecc296c84c4964fae15cd44c77597c30092783e9f7264cb079d48383",
+      "bytes": 2691,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938004128000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/model/UpdateNexMoConversationArg.java",
+      "sha256": "b8b4ee9b351445f59a047190d943f5d3d88fc130419aabb11c99eb3bde8f1800",
+      "bytes": 1131,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938005336000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/services/Configuration.java",
+      "sha256": "cfc182653ba7dd15f955c1dad69782cd396481b6ca89490293848b3cfeccc068",
+      "bytes": 544,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938005336000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/services/ConversationService.java",
+      "sha256": "a26b38b21cfd79faadac5bd11a7cdb22ba93d1623f2d16c5ed3192bf7609d0ca",
+      "bytes": 2169,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938006337000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/demo/application/services/NexMoService.java",
+      "sha256": "3a8851419a09b5b7753b776058036209954f19c21e67f7862b4a9c3299dc146a",
+      "bytes": 352,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938006337000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/answer/AnswerStrategy.java",
+      "sha256": "f604bd3228d663e45ae47161d3ae7e47dbbe846122bfb01820293aabe6bc752b",
+      "bytes": 828,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938006337000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/answer/AnswerStrategyException.java",
+      "sha256": "8f9f57da41cf6a5c31c4ec5c758af793bb9aab951f249dc49721573c9f84987d",
+      "bytes": 430,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938006337000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/answer/AnswerStrategyWithCallback.java",
+      "sha256": "1b22e2cd8203ebd5b38f1e312a69ff95ade0d92805dd5ae8dc736b36982b9376",
+      "bytes": 41782,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938007818700
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/ivr/IvrStrategy.java",
+      "sha256": "4ea7c3b3ccc6948a248ffb9e52cc1eea398846cb721c27559c767ef6159b915f",
+      "bytes": 442,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938007818700
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/ivr/IvrStrategyWithSimpleFlow.java",
+      "sha256": "eb5a76cebc861f77d4d25a436d40354b92d11b9ed02118c379de18b9ed3d3c62",
+      "bytes": 13529,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938007818700
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/ivr/StateCallbackIvr.java",
+      "sha256": "56cdc2ce6305e32cfbd4a85d4b7e55d156fe9071f7d0a5319889cea76156ec86",
+      "bytes": 109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938009169000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/ivr/StateIvr.java",
+      "sha256": "84abea770eae3848a016ccafd971eb0378e601ec07d309489c67495255a776d3",
+      "bytes": 76,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938009169000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/model/NexmoCallDirection.java",
+      "sha256": "ee3072356b5f0dddc52467bdf0a8bb00428819cb1cdb6a2c9a97e6fcfc001b48",
+      "bytes": 458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938009169000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/model/NexmoCallEvent.java",
+      "sha256": "59f7dbf4ec7b8dd3f82610fba861ff42609b997f3c5fda3c224c64eed1816d6c",
+      "bytes": 1452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938009169000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/model/NexmoCallStatus.java",
+      "sha256": "7ff8ed720374da4b581ca93877d0dbed87f122673f00a839ab59756cdbcb9b8b",
+      "bytes": 551,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938009169000
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/ncco/NccoFactory.java",
+      "sha256": "e35fd97f2f563a17a0a0a28f631992c1e2b55fd49179a1dbeeabbf362cd5c522",
+      "bytes": 5256,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938010639200
+    },
+    {
+      "relative": "applications/demo/src/main/java/com/softavail/comms/nexmo/util/PhoneConverter.java",
+      "sha256": "21988e84e8310c1d0aa6ca872763c392ea222e3ae431bee39609601d157da511",
+      "bytes": 891,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938010639200
+    },
+    {
+      "relative": "applications/demo/src/main/resources/application.properties.template",
+      "sha256": "6230feabe8f067a74f9dd2474bbcc3a4ea6ffbc499f5d8d0815829ee0ddf0d4b",
+      "bytes": 184,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938011637200
+    },
+    {
+      "relative": "applications/demo/src/main/resources/log4j2.json",
+      "sha256": "63855451fa8424302e43787e1151644bc053c50bf093041fe1761b375c62e40f",
+      "bytes": 444,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938011637200
+    },
+    {
+      "relative": "applications/demo/src/test/java/com/softavail/comms/demo/application/impl/Cfg4jConfigurationTest.java",
+      "sha256": "aa323969fcf687f9e139347baa68b61320151c917109d6b51bad7824be981a83",
+      "bytes": 1088,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938013639200
+    },
+    {
+      "relative": "applications/demo/src/test/java/com/softavail/comms/demo/application/impl/ConfigurationImplTest.java",
+      "sha256": "b9d2f5c8c6b5d10d141a3b7362e6f46119660e952c50d359e7f189f480b8f305",
+      "bytes": 1453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938013639200
+    },
+    {
+      "relative": "applications/demo/src/test/java/com/softavail/comms/demo/application/impl/PropertiesConfigurationTest.java",
+      "sha256": "946b81a1d4801053664cabfe2f88729a948fade2feca24c003ba65528242ef09",
+      "bytes": 1098,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938013639200
+    },
+    {
+      "relative": "applications/demo/src/test/resources/log4j2-test.json",
+      "sha256": "63855451fa8424302e43787e1151644bc053c50bf093041fe1761b375c62e40f",
+      "bytes": 444,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938013639200
+    },
+    {
+      "relative": "applications/gui/.babelrc",
+      "sha256": "2af1c3523137c441b485668d92b4f2130d1adf55ccb72cc78c0c31367a843a87",
+      "bytes": 135,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938015143200
+    },
+    {
+      "relative": "applications/gui/.editorconfig",
+      "sha256": "4f8b6f8ac892654f5419abe292e40760e0cd67ade6e0e8ae4503db55761b5ffa",
+      "bytes": 156,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938015143200
+    },
+    {
+      "relative": "applications/gui/.eslintignore",
+      "sha256": "53cb40566ebf06294c883444e92b3564cc0bca9e50d41367e79ee31727f8adf2",
+      "bytes": 16,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938015143200
+    },
+    {
+      "relative": "applications/gui/.eslintrc.js",
+      "sha256": "2d29be07e0c61cd620a3132d1bf35a26c95489ef15ce391c7fee8cccb2e47d44",
+      "bytes": 622,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938016142600
+    },
+    {
+      "relative": "applications/gui/.gcloudignore",
+      "sha256": "90ea2876aad6006867a9d062075684692aa3ee5ebe3b36a55d55544bbd4ce187",
+      "bytes": 42,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938016142600
+    },
+    {
+      "relative": "applications/gui/.gitignore",
+      "sha256": "1b0bbda4e320526c74ab58d504c880336a6a59cd6dadbfdc773ba216c746c39b",
+      "bytes": 136,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938016142600
+    },
+    {
+      "relative": "applications/gui/.travis.yml",
+      "sha256": "8ca30b7f1f08ff8122fd7bb2f230e64b44e5e64e9979dd875d0670eb69979be2",
+      "bytes": 179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938016142600
+    },
+    {
+      "relative": "applications/gui/appveyor.yml",
+      "sha256": "90f1e0c0292cd95c57597ee9ac7c559072f74402a67ebff90f80cbd93a828b6b",
+      "bytes": 326,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938017144000
+    },
+    {
+      "relative": "applications/gui/electronIndex.js",
+      "sha256": "b32fc7aaee7cdc4469cc22d869a0d7477b7cbe4ad705d902e2377a8f355059f9",
+      "bytes": 2056,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938089762700
+    },
+    {
+      "relative": "applications/gui/index.html",
+      "sha256": "2d484b35f6d99703c4ea8748681879d735340a683f46b7e4026155535f817245",
+      "bytes": 322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938089762700
+    },
+    {
+      "relative": "applications/gui/package-lock.json",
+      "sha256": "5fc5c9864b7a2e7b4f36a52f509a656dc0a9e652d195967bde0b795253344665",
+      "bytes": 372579,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938090758800
+    },
+    {
+      "relative": "applications/gui/package.json",
+      "sha256": "57dbab741877cfd6f80a9dbbf04efbc41e8f54f1e3a04c95897b91692b92faeb",
+      "bytes": 3336,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938091762800
+    },
+    {
+      "relative": "applications/gui/README.md",
+      "sha256": "d492409f7d779d86bdf98b142e1a7bbdd4fc03809b965e7b010fdcc3aa0ac379",
+      "bytes": 3384,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938017144000
+    },
+    {
+      "relative": "applications/gui/client/app.js",
+      "sha256": "8e5427feecec4c0f3aad77dd3b7828f08b0d61417d45eaeab4b486000c352209",
+      "bytes": 1705,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938022521500
+    },
+    {
+      "relative": "applications/gui/client/App.vue",
+      "sha256": "15d8645100c0a0d92bdbb996d2b57404811fd7ef395d57f9f0b4633a5af3610b",
+      "bytes": 5016,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938020480200
+    },
+    {
+      "relative": "applications/gui/client/custom-directives.js",
+      "sha256": "5ebe1965097916fe9fa5245147587637b893c19310e473e55a3bc7fdf691c89e",
+      "bytes": 570,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938075473500
+    },
+    {
+      "relative": "applications/gui/client/index.js",
+      "sha256": "37e68cb2e0ed88fedf69fa240d2fb97170272bcc6c102f02c165b72fb49679e4",
+      "bytes": 52,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938076470900
+    },
+    {
+      "relative": "applications/gui/client/mixins.js",
+      "sha256": "25de69c27e1841308a586d9ad5965960332eb9c34343c8745698e8319bc2d682",
+      "bytes": 856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938076470900
+    },
+    {
+      "relative": "applications/gui/client/api/api-client.js",
+      "sha256": "dc3f25490569f3e3e14e721b5ddf18edebbf4527e16ebe96f48bed8678661ac7",
+      "bytes": 14769,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938021479000
+    },
+    {
+      "relative": "applications/gui/client/api/auth.js",
+      "sha256": "1b18f0319f3a8e6e05095973e61d7eaa60b9cf0d92df01105dd77ace961265b9",
+      "bytes": 4792,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938021479000
+    },
+    {
+      "relative": "applications/gui/client/assets/favicon.ico",
+      "sha256": "043f548b3ffcb8828cf4a83fc943321a11061eb188dfcae83db5ebb446d0b947",
+      "bytes": 22486,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938022521500
+    },
+    {
+      "relative": "applications/gui/client/assets/vg-logo-sm.svg",
+      "sha256": "4ba7b271c60f9c953670bd73cedbfe96548085ee9b9340691543c4ea8bb90209",
+      "bytes": 471,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938044106500
+    },
+    {
+      "relative": "applications/gui/client/assets/vg-logo.svg",
+      "sha256": "2225c53862462f91b0cdf58f191dfd53d1a8227ea1696db50d5335ef67f4b10e",
+      "bytes": 3226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938044106500
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Bold.ttf",
+      "sha256": "f71f833c099f450606f8107b83ef208ae918c0ea00779466d45e9be96b0bc7cc",
+      "bytes": 600856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938026648300
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Bold.woff",
+      "sha256": "0e56b17d142eb366c8007031d14e34da48c70b4a9d9a0ca492e696a7bae45e1e",
+      "bytes": 309728,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938028156800
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Bold.woff2",
+      "sha256": "ae88fc0d7a961832f809527d30bd3983a6866d42f66a56ade23f543681594db6",
+      "bytes": 184912,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938029173000
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Medium.ttf",
+      "sha256": "60d0527bc5eafc7f06dd2fbe1176b29a35b53f759f49c098326205c202fb0a05",
+      "bytes": 600476,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938033629400
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Medium.woff",
+      "sha256": "2f6aff50fadac80607e8051511d9a97497d70a80d9bc5b942763d079c0f783eb",
+      "bytes": 305920,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938034632200
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Medium.woff2",
+      "sha256": "537a85fb47f6a43a7654bb015c2109d579e098c635a8f713711185abdc7f8f4c",
+      "bytes": 182144,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938035632800
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Regular.ttf",
+      "sha256": "089ab6d4a57e0e6c4dd3b681b6fd50a5184f1b902429d35e1227e52d6ccad1bd",
+      "bytes": 607720,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938040695200
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Regular.woff",
+      "sha256": "5b9025dda4d7688e3311b0c17eddc501133b807def33effaef6593843cf5416e",
+      "bytes": 309192,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938041694900
+    },
+    {
+      "relative": "applications/gui/client/assets/fonts/Lato-Regular.woff2",
+      "sha256": "983b0caf336e8542214fc17019a4fc5e0360864b92806ca14d55c1fc1c2c5a0f",
+      "bytes": 182708,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938043106300
+    },
+    {
+      "relative": "applications/gui/client/assets/style/_styles.scss",
+      "sha256": "e5f33e3eed09898443253aee09c7ca855e2eed80685ee1fb0f822f2cfb29ea41",
+      "bytes": 1619,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938043106300
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/README.md",
+      "sha256": "f4a19c69bc85fcc189fedd36e91b9fd806068841a7226a097ddc1d67712d4135",
+      "bytes": 4909,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938045111000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/volta-icons.svg",
+      "sha256": "e48b07bdc997a621b4538b53ebdbf3eb5a9b668feba1e6938e106be241bb81e8",
+      "bytes": 216867,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938066912700
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/fonts/Lato-Black.woff",
+      "sha256": "f2d422579facaddc7bdeb87ee408e2944ba365b189d545bbf8b30da7a95911ab",
+      "bytes": 346184,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938046441300
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/fonts/Lato-Black.woff2",
+      "sha256": "83bf27bdbc00a46cedf021bf8a9bcf52440904abc472a895dd9f5a1e47885a3b",
+      "bytes": 218128,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938048457400
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/fonts/Lato-Regular.woff",
+      "sha256": "0acfe0b6273c6a28b131e6e53f5ebac87cf55507bd4bb75ef376ff8939d7007f",
+      "bytes": 363616,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938049456600
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/fonts/Lato-Regular.woff2",
+      "sha256": "2b667fdbf05a5bd1fbadfed919377cada25bb0a0bba678d26a43c1a30593a0e7",
+      "bytes": 227484,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938050468200
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/fonts/Lato-Semibold.woff",
+      "sha256": "dea2e629abc4706ae2da1c1874f1e1db58845c37c1c332732b94e17692575b67",
+      "bytes": 368676,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938052470400
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/fonts/Lato-Semibold.woff2",
+      "sha256": "6259be79f4aebf01a8906cddc1ca5bb908c09ed6303d45a25a8587d18e00c46e",
+      "bytes": 229216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938053491400
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/volta.scss",
+      "sha256": "aeb7521ca9ccdcfd2c64bb6b0db59605f18d0eff1ab4536ee7a972df055fe1ba",
+      "bytes": 1249,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938065912700
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_accordions.scss",
+      "sha256": "b6d66ed1c8425407a5a40216a27660caf4cd97f13edf249d7440372d7575d2c6",
+      "bytes": 1923,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938054491500
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_badge.scss",
+      "sha256": "e8ccf460b328ac46b41413c44b1ce4a610488d00f16001275a9f0eee6147cf01",
+      "bytes": 2133,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938054491500
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_boxes.scss",
+      "sha256": "977766fac18801d2f0e56f5425f6b93c50ac01867eeafa7cb5327f5af54343f6",
+      "bytes": 1130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938055493000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_buttons.scss",
+      "sha256": "e3312831a677d30deeb7034c0c051e9b97a11f3469b574efe4b78614caa19d26",
+      "bytes": 7686,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938055493000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_callouts.scss",
+      "sha256": "977552c43722196ad8ce3e8c05ffd83e3940d7b423251bf1b6dba39c3235a839",
+      "bytes": 21107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938055493000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_card.scss",
+      "sha256": "cf6961d516d22526660f36f77f294901dc78f73e187595c5b039c5ad9866c684",
+      "bytes": 62357,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938056492300
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_color-classes.scss",
+      "sha256": "d999d707a8fd0338b7c30ffb0dd2d3d6138948ed5cd2f0c6556afa68fa449463",
+      "bytes": 1859,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938056492300
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_dialpad.scss",
+      "sha256": "9c19787c1216de41cd678088b855893bbd1f3058d14060cde19e444c1bd88e7b",
+      "bytes": 2487,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938056492300
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_dropdowns.scss",
+      "sha256": "3bc96b162e75fc6280c2994567a600826e7d09a57cdc6607ecc93569d334e701",
+      "bytes": 6250,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938057885400
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_empties.scss",
+      "sha256": "db19b8d5430d492b85e7f777f2a00f060e37981ba8b6c829005f3d075cc529e9",
+      "bytes": 11259,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938057885400
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_flash-messages.scss",
+      "sha256": "2714dd3d03db73800077c48d687941818dac02a0d0f6fc221a12a245788ca537",
+      "bytes": 965,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938057885400
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_form-elements.scss",
+      "sha256": "c0b64a7bb7482079a4af14102f8738ec812e0b4f48d38cf3288daae04a398329",
+      "bytes": 12274,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938058899900
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_lists.scss",
+      "sha256": "829050d0f592ed9f97c5e5365bebdff8bf115de728dad763988945953a03ff55",
+      "bytes": 2197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938058899900
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_modals.scss",
+      "sha256": "805ed4fee16cc375c6fdb4e1cf67c141809dc1997a7e6a78d4653ab586b0e075",
+      "bytes": 4720,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938058899900
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_other-elements.scss",
+      "sha256": "1e1b6b672c14dec9b874728e5abb71e2e4b255937af96d452220f35d029fac66",
+      "bytes": 559,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938058899900
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_spinner.scss",
+      "sha256": "c9a604fcddea3433b0c117529bfe9f329e0eaff1a89b93f28770708bc3ab2a89",
+      "bytes": 1929,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938059896700
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_steps.scss",
+      "sha256": "68d7cd2c47c2646e0528281093db128b56e8a801d4568e4d2bc2d393c4e7be66",
+      "bytes": 2312,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938059896700
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_switch.scss",
+      "sha256": "eaa5a1d051152550c3e49ee9aeda3b2554212a49774d88e26c9f94523d96d101",
+      "bytes": 1490,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938059896700
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_tables.scss",
+      "sha256": "c66d8373b8ee03d1e48a69f7a612ec346b8ac442a64cfdbe77e90f8b5ce4d09c",
+      "bytes": 11500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938060914500
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_tabs.scss",
+      "sha256": "f46618858855b5cdccb34698b54d5ed96c85959c70eb436f9732617e7ad079b8",
+      "bytes": 2582,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938060914500
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_text-separator.scss",
+      "sha256": "2b7a0ca2f89b0cd1042ddd002b2ee0a77741a24d15c651f46e7d55c3258cc7c7",
+      "bytes": 697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938060914500
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/_tooltips.scss",
+      "sha256": "b8409f2f3313380f38aaf6128216bc5c95a8c60b54f879ff8bb73fd5d57d4877",
+      "bytes": 2150,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938061915200
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/side-navigation/_side-nav--aqua.scss",
+      "sha256": "9577b4ec55ef8fb4fcd7291fdff94f397e2503fe143bad39e5f2da1feac88930",
+      "bytes": 2957,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938061915200
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/side-navigation/_side-nav--collapsible.scss",
+      "sha256": "f5d86bc6b8d945b1bd51835a8e4f7d81b16776729d366a53603cd0c44e506827",
+      "bytes": 6141,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938061915200
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/side-navigation/_side-nav--dark.scss",
+      "sha256": "4487cc652264ed6bf73545c74d66b43aaa329e193258cd9a1eeb82975b6d47c3",
+      "bytes": 2791,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938062913200
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/side-navigation/_side-nav--light.scss",
+      "sha256": "a9efe8c6423b8324e227a65e74be30034b19a5f621b89941f0e75fc8a0c1b9a0",
+      "bytes": 2666,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938062913200
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/side-navigation/_side-nav--rounded.scss",
+      "sha256": "ecfc31d74e9e328040ab2ad93c5dabbc57cc76340d2f23183ad7556434a71abd",
+      "bytes": 540,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938062913200
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/side-navigation/_side-nav--structure.scss",
+      "sha256": "3ac65691e0e357c040e75fd11b6a3d8440133c5425414deeb6ea50d70fb45c33",
+      "bytes": 5278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938063912900
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/components/side-navigation/_side-nav--tabs.scss",
+      "sha256": "19c196a01063666c006816adc7c0988bfb4fc77938add4ccd215f19da9921755",
+      "bytes": 1219,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938063912900
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/layout/_article.scss",
+      "sha256": "319e62940f4c3b0e83132a4334f6cad364f15e04232ffd8d909cf38c189cbe24",
+      "bytes": 1393,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938063912900
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/lib/_grid.scss",
+      "sha256": "298a857edfc4ba0438ed7658d8f82d15de1059d000dfc212003b316baadca980",
+      "bytes": 3863,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938064912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/lib/_mediaqueries.scss",
+      "sha256": "5428b391e039402339c94f851ba38a76724463288c31c9fa7f3a4cb5f3c238ca",
+      "bytes": 1086,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938064912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/lib/_reset.scss",
+      "sha256": "9fd409babf243979dafe74223cb839f9c46c116e48d6a536448dfe899b4f150a",
+      "bytes": 992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938064912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/lib/_type.scss",
+      "sha256": "61b249869d25cbfb487dfb8c89e7e688e4b451ba980f42e3e6ab2a59f72b10ff",
+      "bytes": 3841,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938065912700
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/scss/lib/_variables.scss",
+      "sha256": "63727e900404b5f3fb8f16baa126b55b9d95fe140abfeb20c6e6a5d92c3d5ad7",
+      "bytes": 1883,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938065912700
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/index.js",
+      "sha256": "f3840ca58271f54399c5e37a7ef5f0662c0a2385add6e7066376a1c62f4e7e89",
+      "bytes": 825,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938071917300
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltAutocomplete.vue",
+      "sha256": "21e6adbbb2c0e374baf04d1a383ec467e558a6ba6de4fb5a8b8753b34a321043",
+      "bytes": 12693,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938067912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltBadge.vue",
+      "sha256": "e4fa8a9cb2d848fd55d929782a9448b4c19c552ef4a32fdddd734b4214861573",
+      "bytes": 1349,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938067912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltCheckbox.vue",
+      "sha256": "2311b337b0e446df7fc990055fd95ac1c0f30d6c97d901512c3789c36b4ad33c",
+      "bytes": 1073,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938067912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltComposite.vue",
+      "sha256": "5fac8465fea803960db53c3249508df930f4d587da5a7e5e53f267a3686fb240",
+      "bytes": 520,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938068913000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltDropdown.vue",
+      "sha256": "ad5ceb6b20526448f236f261d8e7a0cec56dfd37aefd79ac1b55a86146db52a3",
+      "bytes": 2518,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938068913000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltDropdownNative.vue",
+      "sha256": "cfcc1c372ad4714143002cd3b7b154e6ff5a2adc04dca3533b5d8f3bd00f33e9",
+      "bytes": 187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938068913000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltField.vue",
+      "sha256": "dade9e883df4bfd0c748b102b3f11bba100de8f153a37c40e8d98d8385ca475e",
+      "bytes": 996,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938069913000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltIcon.vue",
+      "sha256": "f1f4c6dd8bd9636b53047c220871cd56a2125ca9c54e60adfce4852f5d52aafd",
+      "bytes": 1284,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938069913000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltInput.vue",
+      "sha256": "92641b29729ab1b6e439b46b396cc74537c99fc2b1d6ca891f6c5e321cf56eed",
+      "bytes": 1350,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938069913000
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltModal.vue",
+      "sha256": "8b20b4868bf855346ca898527789964c1ecee1bd214c5008a64333fe0ec39bbe",
+      "bytes": 2910,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938070912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltRadio.vue",
+      "sha256": "8b92e68e973a10cec9acbf09b1df25254597627c0b7492bae1ede5aeb6cc4b51",
+      "bytes": 1297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938070912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltSwitch.vue",
+      "sha256": "8713869e4c3f632f15e5f433beaefa2ffa8e5669b3c4914bae7f939d3f031a21",
+      "bytes": 1041,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938070912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltTable.vue",
+      "sha256": "691713e291ceace8ea42c924e8a10a0dea4aa03dbda061b3a404670c98508958",
+      "bytes": 5821,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938070912800
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltTaginput.vue",
+      "sha256": "f2b25d09e1a60797d4473efcfb4d8be5651b9072b623dd47db64fb250608d55e",
+      "bytes": 7232,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938071917300
+    },
+    {
+      "relative": "applications/gui/client/assets/volta/vue/VltTooltip.vue",
+      "sha256": "35cb8df0bda8a3733f77e017908c1e3c909e39608d367a286fe8da397393de42",
+      "bytes": 849,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938071917300
+    },
+    {
+      "relative": "applications/gui/client/components/AgentCapability.vue",
+      "sha256": "d538310ba3b2925dfc429f7f24d987c7ccd620363f2af9466a4a070e955cd1d9",
+      "bytes": 3987,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938072915600
+    },
+    {
+      "relative": "applications/gui/client/components/CrSearch.vue",
+      "sha256": "e4c0cc0135afad6616a18f955f24bb96d6d6b5d67fdf2c44563817dbf904783e",
+      "bytes": 849,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938072915600
+    },
+    {
+      "relative": "applications/gui/client/components/graph/FlowGraph.vue",
+      "sha256": "f626924c9f278966929acf8f9451e0e4de6f65730ed51ddf1a699b0405ddb65e",
+      "bytes": 23610,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938072915600
+    },
+    {
+      "relative": "applications/gui/client/components/layout/AppMain.vue",
+      "sha256": "dd9e580c468171e55c8605f07105fc09b886f90e7f7d0db56cdb02ebf90f8dd6",
+      "bytes": 1137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938074329900
+    },
+    {
+      "relative": "applications/gui/client/components/layout/index.js",
+      "sha256": "b940a5fe9bba50b0ad4e283555e303a30f6835b2b84828223ad36b5ce9a61f5a",
+      "bytes": 100,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938075473500
+    },
+    {
+      "relative": "applications/gui/client/components/layout/Levelbar.vue",
+      "sha256": "442a420539f01354d47686f4ed5b18aea64a48a73258cdab88d10bff6074215a",
+      "bytes": 1319,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938074329900
+    },
+    {
+      "relative": "applications/gui/client/components/layout/Navbar.vue",
+      "sha256": "aeee5b0470862b25f90250d5bb24c21711ca36e7c18540cbf5daf81cc6627133",
+      "bytes": 2759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938074329900
+    },
+    {
+      "relative": "applications/gui/client/components/layout/Sidebar.vue",
+      "sha256": "8d14e53f3d387a586d2ccab36e287513ab20a6c4d6edb8dd90980ca34af72344",
+      "bytes": 5099,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938074329900
+    },
+    {
+      "relative": "applications/gui/client/filters/index.js",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938075473500
+    },
+    {
+      "relative": "applications/gui/client/i18n/en.js",
+      "sha256": "f499673f34789ad09c3732c4649ef28e8f16e08ead756a166dd548a5a32e4991",
+      "bytes": 8253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938076470900
+    },
+    {
+      "relative": "applications/gui/client/i18n/index.js",
+      "sha256": "6a9a34d0f0f50b61ca27a11f373fb1fbae443058fac9e6b73eeced6d084fda12",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938076470900
+    },
+    {
+      "relative": "applications/gui/client/router/index.js",
+      "sha256": "ab463d38686aee2c54fc32bea2d922785c350a8e03af9a2a1edb43474f72e32b",
+      "bytes": 1144,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938077471000
+    },
+    {
+      "relative": "applications/gui/client/store/actions.js",
+      "sha256": "eda690d206d63f0ba0b641904b10deaf00d36b04daff6cc96f40bd68891c5d7a",
+      "bytes": 883,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938077471000
+    },
+    {
+      "relative": "applications/gui/client/store/getters.js",
+      "sha256": "3f61306385a409bea5e703420873d375491add536212f58e8dabf82d4b265461",
+      "bytes": 671,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938078472400
+    },
+    {
+      "relative": "applications/gui/client/store/index.js",
+      "sha256": "2094410115c3a15491ad5732b9b01f18892bf45aa15bce024c9c09e95a67c7bc",
+      "bytes": 474,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938078472400
+    },
+    {
+      "relative": "applications/gui/client/store/mutation-types.js",
+      "sha256": "3da5f16826abb6173312b2389d7b5c90fad13c23cb77409078d8aebfc19cdde2",
+      "bytes": 367,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938080470300
+    },
+    {
+      "relative": "applications/gui/client/store/modules/app.js",
+      "sha256": "c5ebcfd5425153e0d67200c763ac2f5afb51a64b3df607ff2610b4264856fcb5",
+      "bytes": 1464,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938078472400
+    },
+    {
+      "relative": "applications/gui/client/store/modules/menu/index.js",
+      "sha256": "a9647e315ca5046824fe566f8a042fe150821fe4b9f18f26f6633afec97abb4d",
+      "bytes": 1796,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938079470600
+    },
+    {
+      "relative": "applications/gui/client/store/modules/menu/lazyLoading.js",
+      "sha256": "1919caa72f88b8ff2cacc7837a3830cc2d9aaee8852ccf6be0ab2fa1a6eaf775",
+      "bytes": 208,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938079470600
+    },
+    {
+      "relative": "applications/gui/client/utils/Utils.js",
+      "sha256": "5ff6763a7bc4ac1557cbe9443855dc34047f183988a5f4d53f67566e05814705",
+      "bytes": 1837,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938080470300
+    },
+    {
+      "relative": "applications/gui/client/views/Home.vue",
+      "sha256": "8d46ac1ba67614a1e24c4ef3537793cbc4ccfbcb771f4df5eee85da84d3ae899",
+      "bytes": 2111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938081470300
+    },
+    {
+      "relative": "applications/gui/client/views/auth/Login.vue",
+      "sha256": "bf510215a85d95ef15286c61c70dc564e5ea1b3e0a24c54dbeba00dc1265b25a",
+      "bytes": 3063,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938081470300
+    },
+    {
+      "relative": "applications/gui/client/views/config/Routers.vue",
+      "sha256": "ece818518a96a0af4d5d7d5ecb85324c858a9c768a2de381014f4fa136f0013d",
+      "bytes": 1555,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938081470300
+    },
+    {
+      "relative": "applications/gui/client/views/general/Agents.vue",
+      "sha256": "83bb46006b131d117b33f812a9b8f3573560ba6bc669904a7f83906a528e9906",
+      "bytes": 10233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938082470400
+    },
+    {
+      "relative": "applications/gui/client/views/general/Flows.vue",
+      "sha256": "8f0c6bb04094c9fe9b5592fba5bc63a2e5683409303a1f8dfac3fe6aa79575a4",
+      "bytes": 14726,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938082470400
+    },
+    {
+      "relative": "applications/gui/client/views/general/Queues.vue",
+      "sha256": "71af8aa007065446187e3698c04184823a2a3013444b66367e18544ee6817d3d",
+      "bytes": 7186,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938083470000
+    },
+    {
+      "relative": "applications/gui/client/views/general/Skills.vue",
+      "sha256": "b8549a341386f3d813ac9c1389d94c34b39f98eeb072d235366096bd4d59a14c",
+      "bytes": 8994,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938083470000
+    },
+    {
+      "relative": "applications/gui/client/views/general/modals/AgentModal.vue",
+      "sha256": "3d449068d73daa6dfc31339387f8f9158234040ff35c1d44c7f040f14635926d",
+      "bytes": 19296,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938083470000
+    },
+    {
+      "relative": "applications/gui/client/views/general/modals/FlowRouteModal.vue",
+      "sha256": "1187d2276f2375bca628b5ccb0d34c79dd9bb52ca67444bac8b85eb939cfcaf1",
+      "bytes": 4342,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938084470700
+    },
+    {
+      "relative": "applications/gui/client/views/general/modals/FlowRuleModal.vue",
+      "sha256": "f11b3064ad70b2f1e38c1ee80b615188d23a262f993a3bfe0db42b283ff41be8",
+      "bytes": 4063,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938084470700
+    },
+    {
+      "relative": "applications/gui/client/views/general/modals/QueueModal.vue",
+      "sha256": "a890087f80e034f2490e0baf1f065656645a4da2583ee29b445a22a8d0ac6be9",
+      "bytes": 4473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938084470700
+    },
+    {
+      "relative": "applications/gui/client/views/general/modals/SkillModal.vue",
+      "sha256": "e859331b863dac2ea91b9b794902a36d21c4defd127d766dadbfd04d8f66c437",
+      "bytes": 11261,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938084470700
+    },
+    {
+      "relative": "applications/gui/client/views/monitor/Agents.vue",
+      "sha256": "8120c426a3238524ea8fe5445e72c8be61c68f15ee08db8e67e1a1200d291c98",
+      "bytes": 11552,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938085749100
+    },
+    {
+      "relative": "applications/gui/client/views/monitor/Queues.vue",
+      "sha256": "8a35cd2bda03342a2b97ebd2bef956a904fb46bf6abce3bc1046d93e8706f08e",
+      "bytes": 10002,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938085749100
+    },
+    {
+      "relative": "applications/gui/client/views/skills-query-builder/QueryBuilderGroup.vue",
+      "sha256": "dc76ecf3cee6c8b6a303c2461691cc3e0b81e550fe32c42ce10d30ae9af66ebd",
+      "bytes": 6868,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938085749100
+    },
+    {
+      "relative": "applications/gui/client/views/skills-query-builder/QueryBuilderRule.vue",
+      "sha256": "aaab0bfceb258b002e5e26949c798b7aa6b9affbb4d43c85d114a5e515ce9783",
+      "bytes": 4442,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938086758600
+    },
+    {
+      "relative": "applications/gui/client/views/skills-query-builder/rsql.js",
+      "sha256": "27c0a9219d0ba30c67157e49f0fc86da7255ab86f6ad33e65b16f97591e1f58b",
+      "bytes": 7258,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938086758600
+    },
+    {
+      "relative": "applications/gui/client/views/skills-query-builder/utilities.js",
+      "sha256": "2204a93d5023783de82cd6f57f9c11b452ac5de5bf24db4d4e65f0071d5cacb9",
+      "bytes": 531,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938087758500
+    },
+    {
+      "relative": "applications/gui/client/views/skills-query-builder/VueQueryBuilder.vue",
+      "sha256": "97974b56baffcad174aeda80f018c7ce99bab4b823228af5f76d052cd3c95d2d",
+      "bytes": 7366,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938086758600
+    },
+    {
+      "relative": "applications/gui/config/dev.env.js",
+      "sha256": "16d9d82ef8bb424d8b917efa0caa590dc72cb215ff1201aefe797c72056cbef5",
+      "bytes": 169,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938087758500
+    },
+    {
+      "relative": "applications/gui/config/index.js",
+      "sha256": "c3d3d2f41450f3a9973622afff6befd36c3bfa5e42810e376de87ce76c9b7bec",
+      "bytes": 1383,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938088760100
+    },
+    {
+      "relative": "applications/gui/config/prod.env.js",
+      "sha256": "13ebb30038bc27ab48801b228d43803d57414c902d2b143daec3fad45607999e",
+      "bytes": 69,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938088760100
+    },
+    {
+      "relative": "applications/gui/config/test.env.js",
+      "sha256": "4115000bad599d29897c898c35335da8bcd8b6644585984031e780e5045b0501",
+      "bytes": 158,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938088760100
+    },
+    {
+      "relative": "checkstyle/eclipse-java-google-style.xml",
+      "sha256": "4f31798b2d44de6178b0cb0782204042c85ea601aa850c66440134c4a01d143f",
+      "bytes": 36340,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938091762800
+    },
+    {
+      "relative": "checkstyle/intellij-java-google-style.xml",
+      "sha256": "9e479be1d0bfe9b277ac34e034dec7265c3668c7916b70a03cd8f7be6628caba",
+      "bytes": 22608,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938092762700
+    },
+    {
+      "relative": "checkstyle/suppressions.xml",
+      "sha256": "57b55c099fa31630ed0f40b408475f3890a44922f75fe1b650e64a90716adeef",
+      "bytes": 405,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938092762700
+    },
+    {
+      "relative": "client/pom.xml",
+      "sha256": "615611993286cd74b49842e4f2dc5fc9552a989810bdf4622b4db29e79aa7308",
+      "bytes": 2532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938093759000
+    },
+    {
+      "relative": "client/src/main/java/com/softavail/commsrouter/client/AgentServiceClient.java",
+      "sha256": "ac0a240c2866afa801dd8a4f89a85127587cf9155d2c774ec3f4d92a4f95434b",
+      "bytes": 3299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938094759700
+    },
+    {
+      "relative": "client/src/main/java/com/softavail/commsrouter/client/PlanServiceClient.java",
+      "sha256": "dea7b36a290bd6e284a3b733bf9e0febb547e4e43d32d8cc6a3e4d16287e8433",
+      "bytes": 3350,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938095760300
+    },
+    {
+      "relative": "client/src/main/java/com/softavail/commsrouter/client/QueueServiceClient.java",
+      "sha256": "6636073cae12e97ed81d2095f926cd2b90e384a07bbc476022d4a3a961bcb9a4",
+      "bytes": 4450,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938095760300
+    },
+    {
+      "relative": "client/src/main/java/com/softavail/commsrouter/client/RouterServiceClient.java",
+      "sha256": "4e2e3ea0e57b0b729ae007e7675c88401c41af937c469a6fa6955a10e5549eb6",
+      "bytes": 2966,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938095760300
+    },
+    {
+      "relative": "client/src/main/java/com/softavail/commsrouter/client/ServiceClientBase.java",
+      "sha256": "7126ce6694ce14d55f3480f5be297468e939c5d10a8bbf78e737ac35f8b2de35",
+      "bytes": 7956,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938096758800
+    },
+    {
+      "relative": "client/src/main/java/com/softavail/commsrouter/client/TaskServiceClient.java",
+      "sha256": "5169a751e1220351b36f65c3ad5fb6135ac33ac4063eca9803bd4c2b67bbdb6b",
+      "bytes": 5408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938096758800
+    },
+    {
+      "relative": "client/src/test/java/com/softavail/commsrouter/client/AgentServiceClientTest.java",
+      "sha256": "1ff0ae63e8370c3fe8044f18f2352bb971c22d3ce4e4b0d566d64c2f3b2b3747",
+      "bytes": 5937,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938097759500
+    },
+    {
+      "relative": "client/src/test/resources/log4j2-test.json",
+      "sha256": "0da3a060ffa90ad1381d6e93ac87eba6e048e1a2743d67acae8ef4301a00205e",
+      "bytes": 681,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938098759700
+    },
+    {
+      "relative": "common/pom.xml",
+      "sha256": "3f5ea84bec68494e24a403496e60180ff287f817ce94654851a6dd6dd77026fa",
+      "bytes": 2303,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938104759700
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/api/service/CoreApiObjectService.java",
+      "sha256": "2b94333fa3d0e8e821f224febb6d098b6a1658dc83e2e7c920ed5e03d237ecb6",
+      "bytes": 2368,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938106759800
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/api/service/PaginationHelper.java",
+      "sha256": "f952657449dcdb3c61791331b404a889cea3439cdf87b96af3980a11e373ca46",
+      "bytes": 10283,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938106759800
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/domain/ApiObject.java",
+      "sha256": "9f87113436c4fb4719baf75f01a4ff11cba4a4431e27be44afc21a40aff0dfb3",
+      "bytes": 2597,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938107759000
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/domain/dto/mappers/EntityMapper.java",
+      "sha256": "5d1247b7c524e9284aa0dc8d06efeb91473a5d6290c0bdcfde3b120068d9cb3a",
+      "bytes": 1592,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938108761300
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/jpa/GenericRepository.java",
+      "sha256": "3b78e936c41383c16db8787c235da25c7449644e3290b55b3363de895cacfee5",
+      "bytes": 2393,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938108761300
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/providers/ClientFactory.java",
+      "sha256": "61ac549023f9983f55cd42832c2e2b6d5f0d482aa61087449ca9597ef877c3dc",
+      "bytes": 1761,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938108761300
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/util/Fields.java",
+      "sha256": "dc5dea22d2a3fd3b32ba8d09c9f117ea266ac0cd6194d851fb292bc1987188d7",
+      "bytes": 1670,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938109758100
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/util/PeriodicJobRunner.java",
+      "sha256": "0e2a113b8c7df14454b04b9e02545292f844839479c353a5335de6bceedbd822",
+      "bytes": 2186,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938110262900
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/util/ThreadPoolKiller.java",
+      "sha256": "f45a31e247e6eef07fdb7bc973d7b26723ef8978af594ec81f1d6a71264c3534",
+      "bytes": 2032,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938110262900
+    },
+    {
+      "relative": "common/src/main/java/com/softavail/commsrouter/util/Uuid.java",
+      "sha256": "de6814681ba3fe724dea20a6cc412abea80b13e59c393a1521dbd1ee541d6b67",
+      "bytes": 2000,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938110262900
+    },
+    {
+      "relative": "common/src/test/java/com/softavail/commsrouter/util/PeriodicJobRunnerTest.java",
+      "sha256": "07dd346c500bbc830788ec40b788f8f1db8a08b422021fb62d939242f2564833",
+      "bytes": 1881,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938111270200
+    },
+    {
+      "relative": "common/src/test/java/com/softavail/commsrouter/util/ThreadPoolKillerTest.java",
+      "sha256": "d96ecab2ded92ec72ba14a19b6aed498444696246ef5fa59c3fababa4aa9e9d4",
+      "bytes": 3468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938112269400
+    },
+    {
+      "relative": "common-db/pom.xml",
+      "sha256": "e37a93708c1b830da626babb11b37b7be0f976b7a2e71cf560e6c6603afd73ed",
+      "bytes": 2057,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938098759700
+    },
+    {
+      "relative": "common-db/src/main/java/com/softavail/commsrouter/jpa/JpaTransactionManager.java",
+      "sha256": "ab1840312b901d7f3cd272f9030cc18521280f352094cc37aa1c648c664e9de4",
+      "bytes": 4428,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938100759300
+    },
+    {
+      "relative": "common-db/src/main/java/com/softavail/commsrouter/jpa/TransactionLogic.java",
+      "sha256": "25f64582c000d2d29c8d1d8f7a907601996ea90609e1e0a3c276e9ad329bfa97",
+      "bytes": 922,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938101759200
+    },
+    {
+      "relative": "common-db/src/main/java/com/softavail/commsrouter/jpa/VoidTransactionLogic.java",
+      "sha256": "b677cd635a325aac907180191dfc2c6ae2cb6936462a719e072ead81efd67528",
+      "bytes": 1084,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938101759200
+    },
+    {
+      "relative": "common-exceptions/pom.xml",
+      "sha256": "378b0f52756caf0dc1a35e01522182854e01ab5b25ef2899e5149972720ff2bc",
+      "bytes": 1479,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938101759200
+    },
+    {
+      "relative": "common-exceptions/src/main/java/com/softavail/commsrouter/api/exception/CommsRouterException.java",
+      "sha256": "0277620104277a0903db0805366e7bf0ead4647e711a3e46c58be143eecc73f7",
+      "bytes": 1074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938103759300
+    },
+    {
+      "relative": "common-exceptions/src/main/java/com/softavail/commsrouter/api/exception/ReferenceIntegrityViolationException.java",
+      "sha256": "67fd711f19263b20f4553b66b4b6baa2afb6c8f2dd6209044092b87e5dc0e026",
+      "bytes": 1386,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938104759700
+    },
+    {
+      "relative": "core/pom.xml",
+      "sha256": "38bac5492f3f7971a476c87d782c0df33af72887c9a914706c66a5e5f9dbd0f5",
+      "bytes": 2941,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784855043179799400
+    },
+    {
+      "relative": "core/evosuite-report/statistics.csv",
+      "sha256": "851a87d4f3916833a90c9da19c2e42ab2a6c1af1b6a225c8e6492460aed0184c",
+      "bytes": 143,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784854993177246400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/CoreAgentService.java",
+      "sha256": "a7a81b1592c82b7d1455c666a73fc578d73046dbba4eeee0683dfda5a20ee07f",
+      "bytes": 10639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938143270700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/CorePlanService.java",
+      "sha256": "60036d21081a2d49fe49d731bf28b9b40ba7eb0b0cebee7460b74b90488d5c37",
+      "bytes": 5444,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938143270700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/CoreQueueService.java",
+      "sha256": "ecf2c93869e51bfc157a01b03e7eabe1c6ecef5063df146b1808c9e3c7ba5b30",
+      "bytes": 8133,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938143270700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/CoreRouterObjectService.java",
+      "sha256": "b06ebd29a897c743f456d7f02b85d95da8f3405a57eb739a4e79dc9b0bee685f",
+      "bytes": 5027,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938144271400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/CoreRouterService.java",
+      "sha256": "d35a5de799bf44cc566543855b16c66d330fbf789003542fbf5f9b6bbed1d0fa",
+      "bytes": 5975,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938144271400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/CoreSkillService.java",
+      "sha256": "5f2e492de4d15d8b7c989ce58d11c97818a118be5664aa3c42cb60aaa5923f49",
+      "bytes": 4104,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938144271400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/CoreTaskService.java",
+      "sha256": "18bcb7171ae8e1fd1e87a3e29b8abc37e0c71579c0b466bfb513acf11a88d1bb",
+      "bytes": 14394,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938145269400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/FilterHelper.java",
+      "sha256": "96522bec34188b9ec93082bb06e2db890a02d991431049680916b5c2b351c3d0",
+      "bytes": 7307,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938145269400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/PlanResolver.java",
+      "sha256": "13be1ff1fdeb07cde865bc0734ae590450c908ee95b998de5ad2029db644cc5d",
+      "bytes": 2789,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938145269400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/Services.java",
+      "sha256": "54431b532a1df1412c0e2a57d0f4fb34cbf4aa6974d8806e0e03f6dfa0f72547",
+      "bytes": 1363,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938145269400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/SkillValidator.java",
+      "sha256": "b8c9e30dcf2e3716ef52a2d270704d90aa2dcde2397cb66881e21d82a8eb67ad",
+      "bytes": 10511,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938146440500
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/api/service/Validators.java",
+      "sha256": "49edf32ded43602981489ee0cb7379e5c3141026a3bdbb354f8fc3c4d134ca6e",
+      "bytes": 3070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938146440500
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/AgentDispatchInfo.java",
+      "sha256": "611d22254397862c4e6e29b6a6fb920e62c0b024d8c1068633001b994ec04072",
+      "bytes": 1058,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938146440500
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/AppContext.java",
+      "sha256": "6360929301f388e62dcdc8652f8a20ce083a34229c247984d0d1b30101e9f503",
+      "bytes": 1814,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938147576000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/CoreConfiguration.java",
+      "sha256": "6d48752c7222da7eb4771445156d336a57604586ee9c65696c0b13f0be5550cd",
+      "bytes": 2325,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938147576000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/QueueProcessor.java",
+      "sha256": "720f8c5ea2f609f57e1542e6bba6ccd7c42575edf798b6831d179c4c13f015fb",
+      "bytes": 6534,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938147576000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/QueueProcessorManager.java",
+      "sha256": "6c13c2cf395fc8b347d394d0cf31dccdd7aa5aba0334ba027c7b03f400a30e9e",
+      "bytes": 3087,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938147576000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/QueueProcessorState.java",
+      "sha256": "e110e0fd34846bba178f467dadb2b0b11e423e8c9b35455887a254dc760f0b6e",
+      "bytes": 777,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938148746300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/StateChangeEvent.java",
+      "sha256": "2cb0e3e6fe88183615ebfc20694cdc7d15682844c18586455258bfa45f292716",
+      "bytes": 1293,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938148746300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/StateChangeListener.java",
+      "sha256": "1f8599352bc11181254b79dacb0cb4997791077cca62fbfc2fe338389bf7a9c6",
+      "bytes": 889,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938148746300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/StateIdleListener.java",
+      "sha256": "38613c9b37aaa8c45105f6b3bbb152706480ad231588fa8b763e7fbbc6e955e8",
+      "bytes": 1037,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938148746300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/TaskDispatcher.java",
+      "sha256": "4298751e1af9c54fa25896f23fc1527f393af02ce7ce94ab9658d5c17f8df8d9",
+      "bytes": 12203,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938149747100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/app/TaskDispatchInfo.java",
+      "sha256": "778217947ba029178d1a8d4e5ae27d179e08a00b5228b3d7bdf54fe730471712",
+      "bytes": 1789,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938149747100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Agent.java",
+      "sha256": "5a629e9daab527e6b6eda565dec480372bc5a1e7bd03c1039fc6a872e4993e50",
+      "bytes": 3364,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938149747100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/AgentQueueMapping.java",
+      "sha256": "cd8f20cef58fa35a69377b667b03debbe4fe9e6a822a1a6848817de0acb49f12",
+      "bytes": 2295,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938149747100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/AgentQueueMappingId.java",
+      "sha256": "146011796c9e722ceeb6f61256cd3661f95ee68b7e4010a3cb49f446d87db9c8",
+      "bytes": 1610,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938151016700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Attribute.java",
+      "sha256": "30b1a7a44cabb0fd1216771c91e0d450ed50f0821aaccb6aeb74bc13128231bd",
+      "bytes": 3818,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938151016700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/AttributeDomain.java",
+      "sha256": "225d4443aa65d02575bac8280712a38f29226e34d1ca449f0de4b203738bac1d",
+      "bytes": 3038,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938151016700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/AttributeDomainDefinition.java",
+      "sha256": "bf7e81935a2b946f415f641c81c9ece9ded6191272c54b91f431ddd3661f99f1",
+      "bytes": 3461,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938151016700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/AttributeGroup.java",
+      "sha256": "7205374412cd31d22a0522137622b83fb60fbf10fc8bc3c4cb8e488f3c51c786",
+      "bytes": 4050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938152250300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Plan.java",
+      "sha256": "58af00c8c54a6247df46fdc5399decc557ce40481d5a1899c4c31165a7e28fb7",
+      "bytes": 2865,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938152250300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Queue.java",
+      "sha256": "c9143d350d66f3d2aba7fad55175c8e653b1c43dce6d32c19907770be2d6d5c6",
+      "bytes": 1927,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938152250300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Route.java",
+      "sha256": "966c5aae99ca6406669c87f2ae1cffa94a9d1c092207ca7824945e13725548b2",
+      "bytes": 2526,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938152250300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Router.java",
+      "sha256": "c14f93fa677912008eec673ddcc4ce07f2ec3b2daed24276fe84b1e388a514d7",
+      "bytes": 1886,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938153250700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/RouterConfig.java",
+      "sha256": "20b2a4543355740e9a0c7f2196fffd5ae81d8adc68c4d5f304cba7701c50904a",
+      "bytes": 1322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938153250700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/RouterObject.java",
+      "sha256": "9e6ccd3c5c6089a15f580faffcee42f10fd3d8c1f65e978d987cbfbf4d6c8af7",
+      "bytes": 1876,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938153250700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Rule.java",
+      "sha256": "76186714206644aa95d3471b13c9e7e49a19df284448da805d8fc3c72322d76c",
+      "bytes": 2970,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938154250100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Skill.java",
+      "sha256": "9567bbf3daf86072f016df571bdb9303c8bf7cbee7eb0c578b984ebf8566d9de",
+      "bytes": 2029,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938154250100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/Task.java",
+      "sha256": "1d43bc9d5a084558084fc5b1a0b0cdd2b0652c75678ccdcbb16d094cb1069bef",
+      "bytes": 5697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938154250100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/AgentMapper.java",
+      "sha256": "90c602c4f144f6a23b84328dbb1aa3147a69def3811be9af504882cfadeabc11",
+      "bytes": 1692,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938155250800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/AttributeDomainMapper.java",
+      "sha256": "148c8785c8c74ab2c6a4c7cd36549418f6a6d4c42c2ab9f3755891f93dfa71a4",
+      "bytes": 5698,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938155250800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/AttributesMapper.java",
+      "sha256": "465fdc961231d2392fa390e4c81747692c303604bb158296711b274c2bcc89f5",
+      "bytes": 4640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938156251400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/EntityMappers.java",
+      "sha256": "08139dcda9e97cdfc565d7525e4f9ad28af2084ff47b1b6244d4b42c35ab6793",
+      "bytes": 1408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938156251400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/PlanMapper.java",
+      "sha256": "0a3cdbd094b43f358f5e16980191f7bfe9d5cd8275f8d0cb46fa77c06cb4c460",
+      "bytes": 2579,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938156251400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/QueueMapper.java",
+      "sha256": "0ac2ee778405d8dca325b387c30011251a6a6d4f23b7656969f92be648fbe378",
+      "bytes": 1112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938156251400
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/RouterMapper.java",
+      "sha256": "84217a5dc3ced687e2fb509ce397442637b9ee7b8537cf89b377b417ad3c0f8e",
+      "bytes": 1142,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938157543000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/RouterObjectEntityMapper.java",
+      "sha256": "406e46d4352407e4a8d683ae0a3dcd790e3ea474ce7ba72310c962255980d1bb",
+      "bytes": 1195,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938157543000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/SkillMapper.java",
+      "sha256": "423ad3caaea6277e83c4eb0dce3b203506a0ed1db8b51c913c079aff6a9bc1a5",
+      "bytes": 1368,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938157543000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/dto/mappers/TaskMapper.java",
+      "sha256": "88ac91c38252afa08531873e8b3645ff8ddf09f44b9c38e4837878a7515d0f1b",
+      "bytes": 2146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938157543000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/domain/result/MatchResult.java",
+      "sha256": "cba7cd757625ccaaccc44813c49fa5da4724d01f53aa8465b70f396c2505b672",
+      "bytes": 1000,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938158719500
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/CommsRouterEvaluator.java",
+      "sha256": "9e34bdaefac827b9378ac2d2ae8a88e1808d13ea38b71ef212e80fb3155a64ff",
+      "bytes": 1415,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938158719500
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/CommsRouterEvaluatorFactory.java",
+      "sha256": "d91ebe5424643f24f678375d3c1baa4384894574f1d046128df24328eb8c7cb8",
+      "bytes": 3236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938158719500
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/CommsRouterVariableResolver.java",
+      "sha256": "b027548b949bd383f29303e1f8a956b9eb4fce17ef72701a611256ac055e3239",
+      "bytes": 1537,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938159745700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/ContainsFunction.java",
+      "sha256": "17da7bb9a273d2dd7d02c5f2089cb85d9b11595b5de581bf952f9cd5fda74b87",
+      "bytes": 3729,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938159745700
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/EvalRsqlVisitor.java",
+      "sha256": "6fffc0139aa9f1eea5fb1de80ee7d467f43481e87e7f49bf8e0f97a42f1fd3d1",
+      "bytes": 6108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938160804000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/EvaluatorBase.java",
+      "sha256": "2ad1fa5a58d1cfbe38b09af8d5b4db848367371ee22e75960cfc8b7c2a5b6b0a",
+      "bytes": 1268,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938160804000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/EvaluatorHelpers.java",
+      "sha256": "d24faece56478382eb5e7cf50fb668a3785d61184229f78aa8f5b3f5ac8ef619",
+      "bytes": 6982,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938160804000
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/ExpressionEvaluator.java",
+      "sha256": "a5fc232c51fc3e8852e6ceb142ab6e7b45c45af91be84f25cc15c2f8ea75b647",
+      "bytes": 6814,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938161807800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/FalseEvaluator.java",
+      "sha256": "c338b97d4951be4bdbcaa356870450562438d00957058e4a667427af2f1fa49a",
+      "bytes": 989,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938161807800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/HasFunction.java",
+      "sha256": "87b0c5620f0dd0283e01fac1c0035a728fe37cadf00a39211d6219ef06fa711a",
+      "bytes": 5221,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938162805800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/InFunction.java",
+      "sha256": "142f2ea80268119573548c34e44f899775ea521e720a490aa4510a4b29b9fcdb",
+      "bytes": 5225,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938162805800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/JEvalEvaluator.java",
+      "sha256": "a6bcb84c09db6586abd1744a6d6f4265a3fb0b8e3fd6844028a4c0961ddb44ac",
+      "bytes": 2786,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938162805800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/RsqlDummyValidator.java",
+      "sha256": "e6ef792c040857f316d4258c5b23616030687c4ec6766528b5d9002ffc00d78b",
+      "bytes": 1157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938163805200
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/RsqlEvaluator.java",
+      "sha256": "f52907d246a5b9f36b0f74cad2dadb1cc393c1f538bf6ceccfb836c755331370",
+      "bytes": 1762,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938163805200
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/RsqlEvaluatorFactory.java",
+      "sha256": "a12c55b9fd2e73984226a6a1ce25af41c6f61ba87a6978152b83d92da35d4462",
+      "bytes": 2087,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938163805200
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/RsqlSkillValidator.java",
+      "sha256": "344121d799f43a1cd85376c7fe3afdbd358fb42db3d97db4f9e39dd2baaac4b5",
+      "bytes": 5052,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938164803300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/RsqlValidator.java",
+      "sha256": "6e2b9ad67fce4d1880c90d5a9470777089b42a812fedfc8d1ac42f9cc8674776",
+      "bytes": 918,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938164803300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/TrueEvaluator.java",
+      "sha256": "02fd83cba5522377afa05a7b07a6300e5b0823818a11a9773cc07435b228b19f",
+      "bytes": 984,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938164803300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/eval/ValidationUtils.java",
+      "sha256": "5c5fd5955aef1caad398bfb6fe4879a1cc4005dd2359935f9e224aec01c259c4",
+      "bytes": 2826,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938165806300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/AgentRepository.java",
+      "sha256": "65e9279d2036e120818a24c5b9af446452f47edecd5a0f4328fe7d450aee8903",
+      "bytes": 924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938165806300
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/JpaDbFacade.java",
+      "sha256": "3a43f8d90281e38dfcfb80ccdc3aa1f2ad23875d96f63e6092a2684102ed27b9",
+      "bytes": 2339,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938166804800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/PlanRepository.java",
+      "sha256": "7f1d495cfb4aec932ddd98e28eacdd2008bf7ce508e623cca11a3c8a48a0a328",
+      "bytes": 922,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938166804800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/QueueRepository.java",
+      "sha256": "71691f580ba1ed76de7a03a828af94c29855463074379e5c2e31a70d81846713",
+      "bytes": 3877,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938166804800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/RouterObjectRepository.java",
+      "sha256": "eacb42f5bbb2fb5106340d82fc21d1df568511f8d143cd6526c1edfd7053cb60",
+      "bytes": 2771,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938166804800
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/RouterRepository.java",
+      "sha256": "4710b03ce13ac73e952406d57c69b09bb9db0d907a8466650ee8ba7c9026f8c9",
+      "bytes": 3291,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938167802600
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/SkillRepository.java",
+      "sha256": "af064e3875485b1d9e8853705a0d2fdb684d1c9b37cf1ac1f11cda5ee033f8e7",
+      "bytes": 930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938167802600
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/TaskRepository.java",
+      "sha256": "e7217f7a52428c6a1df86114d022428958f4497c5e0738d860d02366b189840a",
+      "bytes": 1857,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938167802600
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/result/EnumeratableResult.java",
+      "sha256": "353c8d44bc15042ca3a12221e7b60f67689ee6009ec8995c99adaaef7de52ad4",
+      "bytes": 3009,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938168805100
+    },
+    {
+      "relative": "core/src/main/java/com/softavail/commsrouter/jpa/result/TaskEnumerableResult.java",
+      "sha256": "90e7de9074339312920e9a9ca8b9209a457a2323cb1656b9f73cd884b882cef4",
+      "bytes": 1951,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938168805100
+    },
+    {
+      "relative": "core/src/main/resources/log4j2.json",
+      "sha256": "43d7cf529e67c633f06da77ec6c77103051be0e592e4b430ab470636efddcd85",
+      "bytes": 446,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938169804000
+    },
+    {
+      "relative": "core/src/main/resources/META-INF/persistence.xml",
+      "sha256": "770dadd86c1b08a260f5a94ba868f380cd539319646dbf10582ffcd5d7bfda78",
+      "bytes": 729,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938169804000
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/api/service/SkillValidatorTest.java",
+      "sha256": "4ab83710fac92dddea63703eb27b1fc2584ee3b12ac0f5a0b6876ad0802940e3",
+      "bytes": 9846,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938171805100
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/api/service/SkillValidator_RBL4_cb7f3212Test.java",
+      "sha256": "7602a6570960df7923fae0cbd0cb0694d45dca81fa03e07a5406aeb374e35ef5",
+      "bytes": 102,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784855043173800300
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/domain/RouterObjectTest.java",
+      "sha256": "22980938970f3f712870e7ce4be0a27018a308d2b0bcf74f439a382d3def7f94",
+      "bytes": 2109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938171805100
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/domain/dto/mappers/AttributeDomainMapperTest.java",
+      "sha256": "98f4fd01cf635921b832ef77a670dd78d4e498b58c7f70d0eea558872e133cfa",
+      "bytes": 3197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938172807500
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/domain/test/RouterTest.java",
+      "sha256": "f3f52c00b7299d493e813ccf51952a488d9018a2ff80ef3538fd86f6fc9a7544",
+      "bytes": 1441,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938173805000
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/eval/JEvalEvaluatorTest.java",
+      "sha256": "7f37955da7b0103fdbcc8bb0c74e06d45b494554ad54bac034d949cfc07b1f65",
+      "bytes": 7594,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938173805000
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/eval/RsqlEvaluatorFactoryTest.java",
+      "sha256": "3b4b3e5f077b1271f35fac987fe5a5296aaf03168a63cbd700fb2cb5a541d702",
+      "bytes": 6760,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938174802800
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/jpa/test/CoreAgentServiceJpaTest.java",
+      "sha256": "9340ae6a42e1d92b1e58bf0bcdb36e3c7887f9451cc7671c93012fed532f2742",
+      "bytes": 3702,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938175804600
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/jpa/test/CorePlanServiceJpaTest.java",
+      "sha256": "992e90a1cbec506535139b105117652fd02d8ea40bf1e48990837ba1d8ea066d",
+      "bytes": 4438,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938175804600
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/jpa/test/CoreQueueServiceJpaTest.java",
+      "sha256": "2604885a34d073a0948836ca274a0b0498d62f1e25d5b7cfad449ac0531a71de",
+      "bytes": 2955,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938175804600
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/jpa/test/CoreRouterServiceJpaTest.java",
+      "sha256": "85f95a9e465b380f01de0c99900fd36d864442819c5e8b50b27fb8ae3df7acb6",
+      "bytes": 3308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938175804600
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/jpa/test/CoreTaskServiceJpaTest.java",
+      "sha256": "a9f0c463c733aa99ba384ce2f159c96f57cbfbc6045e1ddea5e329757f4efee8",
+      "bytes": 5186,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938175804600
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/jpa/test/TestBase.java",
+      "sha256": "72be4863c418891d7b23c67b67d6265e873a81152cb95837836a32409d5b5a53",
+      "bytes": 10544,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938177296600
+    },
+    {
+      "relative": "core/src/test/java/com/softavail/commsrouter/util/IdGenTest.java",
+      "sha256": "9083153e865d52404b8fded7b261570b6778136f1bffb809626e35497a6224e3",
+      "bytes": 914,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938177296600
+    },
+    {
+      "relative": "core/src/test/resources/jndi.properties",
+      "sha256": "e25d84581fee246c7aba96c79b692ca3280f1a4f89ee4b15930d50c507a6d495",
+      "bytes": 281,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938178513300
+    },
+    {
+      "relative": "core/src/test/resources/log4j2-test.json",
+      "sha256": "399d71420241acc7dcd6d43da2fc24a0b56709ac025335c04457fef9503fb6bd",
+      "bytes": 1028,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938178513300
+    },
+    {
+      "relative": "core/src/test/resources/ds/jdbc/commsRouterDB.properties",
+      "sha256": "29af56a7aa672e8beab34c2837f05a8765bceccd674cace989372cafd739ad6d",
+      "bytes": 270,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938178513300
+    },
+    {
+      "relative": "core/src/test/resources/META-INF/persistence.xml",
+      "sha256": "001c0e79e31b8eaaa8bcee77db42a7453ab0d502a74aaa742ed8ce725deeea25",
+      "bytes": 2477,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938178513300
+    },
+    {
+      "relative": "core-interface/pom.xml",
+      "sha256": "5da7a158eef8cbb77f747952dcddbd1eb95f078e655f6382f7f29cbc91a562b9",
+      "bytes": 2156,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938115270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/CreateAgentArg.java",
+      "sha256": "22dca02a2ad5b5c77aa536588f79702b2d6e88bfb18bc80cb8838b53af1c3a29",
+      "bytes": 2363,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938117269500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/CreatePlanArg.java",
+      "sha256": "74dde2819262de437d9298a655163d72b4ca31500ef5d1c9a6c9831d96a937e0",
+      "bytes": 2054,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938118269700
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/CreateQueueArg.java",
+      "sha256": "44477e541de252c712f1abcd71827b68d2ea47cba124babe9f2fa51e45b463bd",
+      "bytes": 1561,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938118269700
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/CreateRouterArg.java",
+      "sha256": "e04fe97a902f75330bb99e52ad8c3d3a0246beaebd6051747567f61f0788a52d",
+      "bytes": 1566,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938118269700
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/CreateSkillArg.java",
+      "sha256": "eefe40c0ed44705e9535cac253908a1da9d606c01a0ffe1dd09b5a404eaeccad",
+      "bytes": 2224,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938118269700
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/CreateTaskArg.java",
+      "sha256": "9e0eb60a3a1359ffe2eab2ab1b71530d91ba5416037911ff736b3ae2623e03c9",
+      "bytes": 2595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938119270600
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/UpdateAgentArg.java",
+      "sha256": "18215ef1ff667a34dc57bc24703d0c9c7576b7d16150a002b33ced6c405e80e3",
+      "bytes": 2459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938119270600
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/UpdatePlanArg.java",
+      "sha256": "262fe6f3db5ca1a0f1353ee6612fed2802c000f59f745c96ae9df852ff3c2b54",
+      "bytes": 1637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938119270600
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/UpdateQueueArg.java",
+      "sha256": "9985bda46ff11f1fb577afddec0efc9c26c96be014f76fc49fba9db45660518f",
+      "bytes": 1133,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938120270300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/UpdateRouterArg.java",
+      "sha256": "4baf596ee5ca81955c4478812a4cd35fc09fb164fd323f2de3cef16ccc60be6f",
+      "bytes": 1082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938120270300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/UpdateSkillArg.java",
+      "sha256": "7efa8ea498bd1a1179909b70c8f462916c5a1cc1cbe5a6d06195ca7e57cb9007",
+      "bytes": 1975,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938120270300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/UpdateTaskArg.java",
+      "sha256": "754bb2fd2cc3c7da713158c6454ab5e5b4848973f5b947030fd3cc3ac4c58658",
+      "bytes": 1265,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938121269700
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/arg/UpdateTaskContext.java",
+      "sha256": "9787bdf2c73bd5ebdc8ed8be29c0ee1e97848803b3a6d34410f166ac4d775ce7",
+      "bytes": 1067,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938121269700
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/misc/PaginatedList.java",
+      "sha256": "de6d4d39335554c6264ffce8921aab3bb63a4c91b75b4181d92f32d765791dce",
+      "bytes": 1351,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938122269400
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/misc/PagingRequest.java",
+      "sha256": "f9749917723da40e52fc2b2ec69ee5dbacefc4d39833d460d0b195832d2a560e",
+      "bytes": 3189,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938122269400
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/misc/SizeDto.java",
+      "sha256": "b62011eafc665f33d71da73d2d4073a9f3baef7c3ccb5ed97853423badeb8c5e",
+      "bytes": 981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938122269400
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/AgentDto.java",
+      "sha256": "c66960a362d905912f88e2a9998ffff268a9d45eeb2ad01dda729cd19a969ac3",
+      "bytes": 2511,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938123270300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/AgentState.java",
+      "sha256": "a468c78a1db6d095dd443ec4c0c5010ab71f9514a0ee0e09ec7c62ba0129e9fb",
+      "bytes": 995,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938123270300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/ApiObjectRef.java",
+      "sha256": "c2e6c37f7d92d82eac100fe4cfbbf20c55fc6c4b06e83f6582b9fbfa113593f8",
+      "bytes": 1893,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938123270300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/CreatedTaskDto.java",
+      "sha256": "288a31a8e1f4a867c55ac3b5181436a352f9243a809a50f980d6650d95b9c454",
+      "bytes": 1026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938123270300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/PlanDto.java",
+      "sha256": "11ca82de112ace8229adf84032f1aafddc264b24fae5bacfe92f894076a8edc6",
+      "bytes": 1691,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938124269500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/QueueDto.java",
+      "sha256": "3bd69850733d6cc33029c13047d6294aaf0415fa9630238082624888a72513b6",
+      "bytes": 1453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938124269500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/RouteDto.java",
+      "sha256": "925625edc7817fbb641e9239fe093da64a7088d7ec0b4735a6d9965a8b6512fd",
+      "bytes": 1751,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938124269500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/RouterDto.java",
+      "sha256": "c4fe697ac33e22dc39c50b3ebdb71ee3afd32f469bfce8de699574e2f854f8ca",
+      "bytes": 1365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938125270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/RouterObjectRef.java",
+      "sha256": "0dc19e240e938658ae104325b613dd1ebf3ec85965223f4afa3862b06395447a",
+      "bytes": 1914,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938125270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/RuleDto.java",
+      "sha256": "cd089ecad092a84f77c0507fa5b5e51871cf2b810c4936a46a9343900960fc4d",
+      "bytes": 1802,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938125270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/TaskAssignmentDto.java",
+      "sha256": "c690ba1d4ef311769823b058c69731b2dfc570333953bbff1513d7dcbdefe4e6",
+      "bytes": 1203,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938125270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/TaskDto.java",
+      "sha256": "1eed5e7bc84a2a5a5af74f2bf47d47a87432b02b9ab8d44e2b26ec4540f1fc1f",
+      "bytes": 3939,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938126269600
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/TaskState.java",
+      "sha256": "3139877a1786a53bfc00173d3e9aa281e6bb1696123067a5dbbbcda2809ae060",
+      "bytes": 1365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938126269600
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/ArrayAttributeValueDto.java",
+      "sha256": "ffb3f60c8101ecaf174374cccd22e81e22055a06859f36d4b523048158ef964a",
+      "bytes": 1162,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938126269600
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/ArrayOfDoublesAttributeValueDto.java",
+      "sha256": "7b5c8925f8f81420028e13c64c9a559a11e11cf962bda1798cf224cabccb40d5",
+      "bytes": 1129,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938127270500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/ArrayOfStringsAttributeValueDto.java",
+      "sha256": "ef0a81e65e278db392665ccc392e527ea9805eafc05b96c20f2f418dedcd00b8",
+      "bytes": 1120,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938127270500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/AttributeGroupDto.java",
+      "sha256": "ccb2a125de5b6b1e8ece44b95a5da5b3c1f5e57eb1eebf740aac7fc36d5eaf5d",
+      "bytes": 2400,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938127270500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/AttributeValueDeserializer.java",
+      "sha256": "294fe2c4f5c8ea51ca7d98c3e524b7a1a8ca043a43b0217c425db83548c01a2b",
+      "bytes": 4292,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938128270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/AttributeValueDto.java",
+      "sha256": "cab5ed0b245e8a603252ec3c2b7d7b2d231106d6d57115864fba350e8bb28d7f",
+      "bytes": 1177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938128270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/AttributeValueSerializer.java",
+      "sha256": "d71b450d4b58b031378033e0ea013521851c0bbf81f84540c9dec259c3578d86",
+      "bytes": 3616,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938128270100
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/AttributeValueVisitor.java",
+      "sha256": "9f7337c2e8466905bbe85dde5702d5507d14a0476a9dc56c44e64e5145f5f346",
+      "bytes": 1307,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938129269800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/BooleanAttributeValueDto.java",
+      "sha256": "5144e529e74f5cf28460d71dd03724a72c818551e46e5d9dad7c3e2c4fd4e2cf",
+      "bytes": 1377,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938129269800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/DoubleAttributeValueDto.java",
+      "sha256": "796761beea28d05188821e751a236f3f05ee78ddac52fb7f21a8dca7238d98e2",
+      "bytes": 1384,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938129269800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/attribute/StringAttributeValueDto.java",
+      "sha256": "e70ae0ed331a82cac9bc1a7ad14e8adddb79602ee683d2ab936014e97b74ad04",
+      "bytes": 1345,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938129269800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/AttributeDomainDto.java",
+      "sha256": "7b86561ac543503db5cf54a320c11301a9bc13ce6fc8c2adaaf289b21a349542",
+      "bytes": 1629,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938130269500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/AttributeDomainDtoVisitor.java",
+      "sha256": "82d6a2d442bc201e37bd95650975a00ea3692d1b95a912f9203170890086abd7",
+      "bytes": 973,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938130269500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/AttributeType.java",
+      "sha256": "b0a6295418b8ab1bfbefd8384a65aab1eb19852eb99a8c82e91a1f275c25bfb1",
+      "bytes": 789,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938130269500
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/BoolAttributeDomainDto.java",
+      "sha256": "e5303e9da048e0cbf30b77d9d1e9df16a0e4deaa2096e978ec8e45325b50cf1d",
+      "bytes": 1038,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938131273300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/EnumerationAttributeDomainDto.java",
+      "sha256": "93528886ffb93e704d1e36de7faed8439e4f666208ffa4c28310ba34c836e7fa",
+      "bytes": 1403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938131273300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/NumberAttributeDomainDto.java",
+      "sha256": "5821c8c28022cd5fcb77dfdb19abe167817374f60427c495d0615268532be9fe",
+      "bytes": 2560,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938131273300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/NumberInterval.java",
+      "sha256": "0ec047ce6e07f7d76d9fff56f4d831b205852db86f30096d039c07df14185976",
+      "bytes": 4146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938132275300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/NumberIntervalBoundary.java",
+      "sha256": "cd92f112183235d4c08304ff51630d6c72364cd8a39b97993b8386cea96070ce",
+      "bytes": 2679,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938132275300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/SkillDto.java",
+      "sha256": "5f0077e8462c62a77f97cea0c78d7583a8cda149a7ef64929d929c4ccbb80484",
+      "bytes": 1447,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938132275300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/StringAttributeDomainDto.java",
+      "sha256": "f75b6011d483fcd58e73f5727773816277711abd136e222f20811e8b6ffe6df0",
+      "bytes": 1713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938132275300
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/BadValueException.java",
+      "sha256": "a5af0aabadfcff33ab7762cfe996ec605f32c40f66e7fe412346057e3baf2498",
+      "bytes": 938,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938133271200
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/CallbackException.java",
+      "sha256": "d7362369aa8b329b3aa7012d97e9a341ed15a65578169ed32335af6a8c88cb20",
+      "bytes": 902,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938133271200
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/ExceptionPresentation.java",
+      "sha256": "c903b46acefb58565264824cb79480d1dd449c473aea5513f03bd87447ab2d02",
+      "bytes": 3550,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938133271200
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/ExpressionException.java",
+      "sha256": "aee2504cd58b99bf6cb53acbb53541aa454b81e30b972c57ab86446022a7e6e2",
+      "bytes": 958,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938134271000
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/InternalErrorException.java",
+      "sha256": "b71d8209b5600c5068c4e99a86231c156940e18a9d342926c644007a8e8cab85",
+      "bytes": 856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938134271000
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/InvalidStateException.java",
+      "sha256": "06dd2dd215e040714307d7558f3efd41ff3d6d3e871dff6df8b9fd9436bb0f14",
+      "bytes": 854,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938134271000
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/NotFoundException.java",
+      "sha256": "32f08465c13715bdc5ce5fb4da49a2e0905644b6eae6e1bf65d6891c32f14123",
+      "bytes": 846,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938135270800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/exception/PreconditionFailedException.java",
+      "sha256": "4dc45150bee32eb9af4dc902c264d0b17ec9ef9478e6ce260750900f27bd5695",
+      "bytes": 1474,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938135270800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/AgentService.java",
+      "sha256": "48bff680803a9785925dbf9d95bf8b4a6f489ce06da463bf7b4cdb927c25c2b9",
+      "bytes": 1504,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938135270800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/PaginatedService.java",
+      "sha256": "4dd97bb1b58bea46d1292a96317f724e8c8ebcba0589de927aa238d537a39d22",
+      "bytes": 1252,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938136269800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/PlanService.java",
+      "sha256": "060087bf4fabc1f5f4fd7397505b68c8f8887c548b6e247c14542af2fe7c4e6a",
+      "bytes": 1496,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938136269800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/QueueService.java",
+      "sha256": "22d239d354fb33e3f957d2f876856f12cec955a5902178fc1279437b3d6162ef",
+      "bytes": 1774,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938136269800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/RouterObjectService.java",
+      "sha256": "b0e4719bd0c0cba35356e2f1ae475a2ba243614e78c9779898692ad0ff259501",
+      "bytes": 1147,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938137272400
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/RouterService.java",
+      "sha256": "d63e13028e30376b15f4bc4a20441a7e6a4de23445bafc3359cac5f5d3b665cc",
+      "bytes": 1551,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938137272400
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/SkillService.java",
+      "sha256": "1174a16343b7189b8ae9e4f20f8bc0c9003efb7fe377227fcc75992f467d882f",
+      "bytes": 1493,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938137272400
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/TaskEventHandler.java",
+      "sha256": "2e644673dc8eeeb7533f795a643fc0dfc7c96be85775e3ac6051e90a7aabb99f",
+      "bytes": 975,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938138271800
+    },
+    {
+      "relative": "core-interface/src/main/java/com/softavail/commsrouter/api/interfaces/TaskService.java",
+      "sha256": "e8e6a618970d48022f136cb3dd7a3ec328c74557601f768aeb79f6d6dae760d4",
+      "bytes": 1930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938138271800
+    },
+    {
+      "relative": "core-interface/src/test/java/com/softavail/commsrouter/api/dto/model/skill/AttributeDomainDtoSerializationTest.java",
+      "sha256": "47518a4ef390115782859e14072f7ea74e54594d64c10fafad9ef59067cb9918",
+      "bytes": 8889,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938140271700
+    },
+    {
+      "relative": "core-interface/src/test/java/com/softavail/commsrouter/api/dto/model/skill/NumberAttributeDomainDtoTest.java",
+      "sha256": "ed0e4ef1990ec16c6202d70329b596ca8fe7e3237d4860548893f94eb124d297",
+      "bytes": 4143,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938140271700
+    },
+    {
+      "relative": "core-interface/src/test/java/com/softavail/commsrouter/api/dto/model/skill/NumberIntervalBoundaryTest.java",
+      "sha256": "2072c6d72149fc945cad2ae1874227899fb2dd48497c2a9bf179e394137e5f38",
+      "bytes": 5798,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938140271700
+    },
+    {
+      "relative": "core-interface/src/test/java/com/softavail/commsrouter/api/dto/model/skill/NumberIntervalTest.java",
+      "sha256": "2a81061145f2f75604ff0949eb0b09109975f876a6f47f2bd48ff080b8abc7e2",
+      "bytes": 12552,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938141271800
+    },
+    {
+      "relative": "core-interface/src/test/java/com/softavail/commsrouter/api/dto/model/skill/StringAttributeDomainDtoTest.java",
+      "sha256": "2f1c3946c996eb73771f52638a3d9603c2769545cd62bb175422a1833c4edc0a",
+      "bytes": 1921,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938141271800
+    },
+    {
+      "relative": "db-migrations/pom.xml",
+      "sha256": "c1f04d9176916d9b94f36c191cf75a5807721ad31187dbcbe635b4e7fae47ca3",
+      "bytes": 2315,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938179940000
+    },
+    {
+      "relative": "db-migrations/src/main/resources/liquibase.properties.template",
+      "sha256": "1925db544d483a16d87e4fb2b2e2fdab8e66305bf0bf474e0126e0127707916a",
+      "bytes": 1238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938180939700
+    },
+    {
+      "relative": "db-migrations/src/main/resources/db/changelog.yaml",
+      "sha256": "8b0ae87808e9f91e3129b9b8c5d85eaadc71af1233dd500536edeec8e29101f0",
+      "bytes": 753,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938180939700
+    },
+    {
+      "relative": "db-migrations/src/main/resources/db/migrations/changelog-master.yaml",
+      "sha256": "1f65f5c66145724cbeff0c38bf615aae9002ea00f369948343b22f42b0a3030b",
+      "bytes": 30456,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938180939700
+    },
+    {
+      "relative": "docs/Authentication.md",
+      "sha256": "6e61f2181261d002d22fd1f9a1c50fc2658d746d5f31a134434c5b7b676f7539",
+      "bytes": 6019,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938182417900
+    },
+    {
+      "relative": "docs/ConfiguringDatabaseAccess.md",
+      "sha256": "ce17d0a6b633e1585a5f44bef70b399d33c665e2d73bb7ed78bdc1d9c2defd21",
+      "bytes": 6665,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938182417900
+    },
+    {
+      "relative": "docs/demo-setup.sh",
+      "sha256": "c968ed0793100dad30a871365fe161563a46db313ca4c4b2103f77ca8daff1fc",
+      "bytes": 3584,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938183889600
+    },
+    {
+      "relative": "docs/demosetup.sh",
+      "sha256": "cef9023e25392202cb5ac71c8aa7a4cb2475c5d05c893bbe06968253171ffd69",
+      "bytes": 1973,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938183889600
+    },
+    {
+      "relative": "docs/ExpressionSyntax.md",
+      "sha256": "650272c783f89a4c2e346b76025f81a8a2422049654fd6666ce906c4ab2bb54f",
+      "bytes": 4287,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938182417900
+    },
+    {
+      "relative": "docs/GettingStartedGuide.md",
+      "sha256": "1243ea26597d6b2cd0dbee01ff149bb52b8041ce8958b6fcb37843c079d160e7",
+      "bytes": 8710,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938182417900
+    },
+    {
+      "relative": "docs/ManageDBMigrations.md",
+      "sha256": "622ae2f52fb7a0114614699c02884e568d6cf66f3eb5c98d99d63d5af5d4b9aa",
+      "bytes": 4304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938182417900
+    },
+    {
+      "relative": "test/api-test/nbactions.xml",
+      "sha256": "51a60421b64dde17e941b633a11a031ab140896aa7456d8af354630b8e180dd1",
+      "bytes": 541,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938186012500
+    },
+    {
+      "relative": "test/api-test/pom.xml",
+      "sha256": "58969d00c14dc92edf327555ed02833810b21557bb05aebbb7f61c0502dd96b0",
+      "bytes": 1987,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938186012500
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/Agent.java",
+      "sha256": "78ade2ebe3d1a754e366f6e93725268c055ff0b3f3e2a49d09336f3f2436ce8b",
+      "bytes": 5535,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938187488000
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/ApiAgent.java",
+      "sha256": "d7369f89fe4a709864fd5aca0aec7744ce6822feb3530921dcacf25eeb32e6f1",
+      "bytes": 2614,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938187488000
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/ApiPlan.java",
+      "sha256": "a9092632f4d4fb076aacb8146ee2e841093d0b393006d04b7622a6cac441dac6",
+      "bytes": 2452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938188481800
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/ApiQueue.java",
+      "sha256": "166aec6190feb7f80bf187c071ac3d25384eeb6d6f363d9e422900596f5ac27e",
+      "bytes": 2360,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938188481800
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/ApiRouter.java",
+      "sha256": "b7e4476563a5ccc688ee2ba2e8dbb1cdd203131f1f2b04ea99a9defad3707886",
+      "bytes": 2386,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938188481800
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/ApiSkill.java",
+      "sha256": "921b6913f6029d3f261333bc618b4e3ce68f7f55102c4faa85bd907008a1a57a",
+      "bytes": 2363,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938188481800
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/ApiTask.java",
+      "sha256": "70ddda4acc9f65ff0096557b92f2aaf1b205f25dd46d2876a9d999fcbdecd362",
+      "bytes": 2345,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938188481800
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/CommsRouterResource.java",
+      "sha256": "238714a74400a583a3a880b94bce7d1a0c99f6c4bf8aad1aacda879e080737d0",
+      "bytes": 915,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938189908700
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/GResource.java",
+      "sha256": "42f7d9996958b567076315a07017797f292a5259f53355a4014f50b9b874405d",
+      "bytes": 5291,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938189908700
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/Plan.java",
+      "sha256": "132b3626f9bcaca974fa713cd97231ec5c28dd53bcbf2c0c321d2b91fcd1f47e",
+      "bytes": 5078,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938189908700
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/Queue.java",
+      "sha256": "174f6df06c50c56bfc0b25e1d39252a66140141d67ced2776d0bef16e4a2cd2d",
+      "bytes": 6188,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938190907000
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/Resource.java",
+      "sha256": "22dc3d9a187945e192dbe6c4816751598309a426b0163486893cfbec5a0bd4e5",
+      "bytes": 2225,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938190907000
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/Router.java",
+      "sha256": "88edd0a32dfc38059aac11af194289118ec5fc3d6aa84f6d40108ef822e1fe70",
+      "bytes": 3972,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938190907000
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/Skill.java",
+      "sha256": "5bd78d98c1fffd61fed2fd991da4e2e80fec099a2d55e0fd96f2c9c030729391",
+      "bytes": 4909,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938191906500
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/SpecInfo.java",
+      "sha256": "519b05cd7e1bcd1ec265e152b2e482b27ea0b4d3f0bbeb7c75f2bcd4a3a87d5a",
+      "bytes": 1122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938191906500
+    },
+    {
+      "relative": "test/api-test/src/main/java/com/softavail/commsrouter/test/api/Task.java",
+      "sha256": "e37a56c0dcc6825a3755a663e911f54abdea1542e817aff45d4c421717fff412",
+      "bytes": 6349,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938191906500
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/AgentSkillValidateTest.java",
+      "sha256": "4b076856785b84bbea8e83a8133d3619af9d600d95554bb4c75eb980e00ac815",
+      "bytes": 9878,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938192906600
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/AgentTest.java",
+      "sha256": "a3feae57b5398a1173c5063b718a0b6d62bfeb0967899ceb0ac9c0eb41e26569",
+      "bytes": 34156,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938193906300
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/AppTest.java",
+      "sha256": "70bb71f04c863549f0b662b9471e53f586e68fd488f465f6c68aa2de2b53e63c",
+      "bytes": 7079,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938193906300
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/BaseRouterTest.java",
+      "sha256": "9b394dddc4196542d2e16a32ae28d539db9cd47083b45fe4357324316f28fbba",
+      "bytes": 16975,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938194909800
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/BaseTest.java",
+      "sha256": "ed8c0eaefd43360d0f7032ffca82dc146417190fadf1ca3f95edccd7a09ded8b",
+      "bytes": 1019,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938194909800
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/NegativeCasesTest.java",
+      "sha256": "e8a04ea97b0d66159a36b898df5f45a407a3f84232b4783da3979f8b7e7d3f1a",
+      "bytes": 34105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938195910000
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/PlanTest.java",
+      "sha256": "11fdafa3900246f6343bd913b5137d5b5117c8f588c6a48a2f817b01dfcc9fd7",
+      "bytes": 15634,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938196909400
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/PTaskQueueTest.java",
+      "sha256": "91ca2f84ff5d5ebe187e007ab597ed2658ddd76b2fc8f074374e2e50d4ab6cac",
+      "bytes": 8231,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938195910000
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/QueryParamsNegativeTest.java",
+      "sha256": "68432e846eaa71cbe8534a9f60786a44bfe0821910be4effc299432096500633",
+      "bytes": 3644,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938196909400
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/QueryParamsTest.java",
+      "sha256": "2e516a288432e9d0aab0d0b3f76f45b71f18708603095e805ed4028ce415b02b",
+      "bytes": 13362,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938196909400
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/QueueSkillValidationTest.java",
+      "sha256": "b8f0c5c3a1f4c0c44f59549c9b6ad562a2854121fd34d567d0021efeb31db2bc",
+      "bytes": 5419,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938197908600
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/QueueTest.java",
+      "sha256": "f33ac7e08860e97894659a5601f5153e7be84282af4bce9495f9ea82e30992ac",
+      "bytes": 11727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938197908600
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/SkillTest.java",
+      "sha256": "5b179931ba0e732e6660db64bb422b94918c9e638c88b8f9b3a9987a9eb00b7b",
+      "bytes": 8174,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938197908600
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/TaskQueueTest.java",
+      "sha256": "03890cc111d3f6ff396a8381ab191ec36014fbba48849ba12ff9abdfc08e1ac3",
+      "bytes": 15059,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938197908600
+    },
+    {
+      "relative": "test/api-test/src/test/java/com/softavail/api/test/TaskTest.java",
+      "sha256": "e847e96c3e41024b0687b70b9fef380d81b977fa57154a3bb45fced7d4fe4a0d",
+      "bytes": 6293,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938198907100
+    },
+    {
+      "relative": "test/api-test/src/test/resources/log4j2-test.json",
+      "sha256": "036155ad3af2169f6028e25f206e5f034f8aac25b4f42af8f01bf44ef8bbb945",
+      "bytes": 456,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938198907100
+    },
+    {
+      "relative": "test/demo-helper/demo-helper.asd",
+      "sha256": "60cb2b19377fd1dd187f7c0f9a2e7578f6db1d614a5d2306485d8836d8c147c2",
+      "bytes": 403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938199909000
+    },
+    {
+      "relative": "test/demo-helper/demo-helper.lisp",
+      "sha256": "4abfcfbcec0ba1c9821962b1fa59175d4b34dc31f4b561f34df5305d7bab44b5",
+      "bytes": 3249,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938199909000
+    },
+    {
+      "relative": "test/demo-helper/package.lisp",
+      "sha256": "b8f00123533a28a6c56fcb2bce9fe9af3e2f4bd8ac39d9cf77c0b0353d35ae41",
+      "bytes": 73,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938200909400
+    },
+    {
+      "relative": "test/demo-helper/README.txt",
+      "sha256": "fbc2a67ffe7c1a5222d81cb1f6763da9cdd873c160ff03d5ee259c9fcee819ac",
+      "bytes": 56,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938199909000
+    },
+    {
+      "relative": "test/demo-helper/setup-demo.sh",
+      "sha256": "33c470f1b96f9afe4cc8a23c2d6d5050f9287932e8163101e1ef8768cce59a74",
+      "bytes": 3686,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938205184500
+    },
+    {
+      "relative": "test/demo-helper/play-helper/build.gradle",
+      "sha256": "aaadade4748696cbb640f0702fb3dd8ba2d32a606e07efa12f1fd1b03ae1d48c",
+      "bytes": 1053,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938202911100
+    },
+    {
+      "relative": "test/demo-helper/play-helper/build.sbt",
+      "sha256": "41698647b401547e072ac3f9d3449a2300d7ef21adedb9216661953d785df608",
+      "bytes": 1163,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938202911100
+    },
+    {
+      "relative": "test/demo-helper/play-helper/app/client/Rest.scala",
+      "sha256": "11b6c0d992b09365794578b7f17fb79476338dc45333abb2a00531a003c35d41",
+      "bytes": 11132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938200909400
+    },
+    {
+      "relative": "test/demo-helper/play-helper/app/controllers/HomeController.scala",
+      "sha256": "7fb5cd715aa7684332f3193f2befeb50384919ef19ed522d932c13b4ae2af074",
+      "bytes": 636,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938201909800
+    },
+    {
+      "relative": "test/demo-helper/play-helper/app/views/index.scala.html",
+      "sha256": "a83a202bd01ccb32c3d22eab1870f02ed67d4a5fc5bf8ea0ed5188265c01b10d",
+      "bytes": 67,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938201909800
+    },
+    {
+      "relative": "test/demo-helper/play-helper/app/views/main.scala.html",
+      "sha256": "a728aee80d78955009bcaff2f60187ec872c1859afa01f69b2c9fecd2598ebdd",
+      "bytes": 924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938202911100
+    },
+    {
+      "relative": "test/demo-helper/play-helper/conf/application.conf",
+      "sha256": "9a8375546dab40228f811bfb3ca09b4f631a4cc6fc3b6b9835c11b13e85fd431",
+      "bytes": 88,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938202911100
+    },
+    {
+      "relative": "test/demo-helper/play-helper/conf/logback.xml",
+      "sha256": "f49cae65b93651869eb71d8ad3d5addc04f1055e5425ef7cbb449c2777b50de2",
+      "bytes": 1564,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938204185500
+    },
+    {
+      "relative": "test/demo-helper/play-helper/conf/messages",
+      "sha256": "b8637f7cf5c6963560efc184b604566fd06dfdf18902c248c72f27dc66aa850a",
+      "bytes": 64,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938204185500
+    },
+    {
+      "relative": "test/demo-helper/play-helper/conf/routes",
+      "sha256": "473fe445058e07309a6ef64b82466b0905094fa2ff36cb52986ae163013cf851",
+      "bytes": 453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938204185500
+    },
+    {
+      "relative": "test/performance/task-completer/package.lisp",
+      "sha256": "2897aaf51a77042421617d08050863966e71c2b177dae752351191303f5b8147",
+      "bytes": 69,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938205184500
+    },
+    {
+      "relative": "test/performance/task-completer/README.txt",
+      "sha256": "9d4a494a5670a3b66fff265d910cddf19a1fe26ec53bf188a7079fc38d88f65c",
+      "bytes": 197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938205184500
+    },
+    {
+      "relative": "test/performance/task-completer/task-completer.asd",
+      "sha256": "eb5e978a4c5eb6007a22c50cf99c87b533161f7ca94efc93b3cf396fa3350ef2",
+      "bytes": 360,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938206185800
+    },
+    {
+      "relative": "test/performance/task-completer/task-completer.lisp",
+      "sha256": "75b7c38cca3ebee77c34ae4820a44f4b09a3c8c0a91a8b645caa6adab61ba8c1",
+      "bytes": 4311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938206185800
+    },
+    {
+      "relative": "test/rchecker/api.lisp",
+      "sha256": "011428533e1651571a1fb96237007fc0a70c569f0c47ce251a018158ca378bc2",
+      "bytes": 22397,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938206185800
+    },
+    {
+      "relative": "test/rchecker/auto-complete.lisp",
+      "sha256": "63a1d3d92dd4b4b5ffee6e3db3cf992173f4d9f7afca3c85ad84f5d3cabe90bf",
+      "bytes": 13680,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938207580000
+    },
+    {
+      "relative": "test/rchecker/eapi.lisp",
+      "sha256": "026ded7574d1f369ece410d1b37dbbfb7a06013fbebc0aa7b7f519a738274deb",
+      "bytes": 21236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938207580000
+    },
+    {
+      "relative": "test/rchecker/emodel.lisp",
+      "sha256": "1d9b00bd52e0a18b912f8f4c288aabf2648e1eefd3d6a2d42710bcc49fa9ded0",
+      "bytes": 32117,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938207580000
+    },
+    {
+      "relative": "test/rchecker/etest.lisp",
+      "sha256": "831d05381af1bde68912083d619216282ba26d4de6f90a59263b86d418482f22",
+      "bytes": 14823,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938207580000
+    },
+    {
+      "relative": "test/rchecker/package.lisp",
+      "sha256": "eb82784ba088f226671d2025fb3efd43daf7c74d33c663f57e2bbc7d0f1f6c2a",
+      "bytes": 86,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938207580000
+    },
+    {
+      "relative": "test/rchecker/rchecker.asd",
+      "sha256": "6b6f2477f1714b1364052da8612b5a9743e82b3369fb9ac9b19c0ea58de62afd",
+      "bytes": 754,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938209046800
+    },
+    {
+      "relative": "test/rchecker/rchecker.lisp",
+      "sha256": "f88f8aed68dcdaa6ed7d40913ca9771ca91786c1d667031f2ef680c48d988ef6",
+      "bytes": 17039,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938209046800
+    },
+    {
+      "relative": "test/rchecker/README.txt",
+      "sha256": "6f30bfbdba60c93803e77415313deeac4d813ac1c0dee5a47b31b4fd158fd1b6",
+      "bytes": 132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938206185800
+    },
+    {
+      "relative": "test/rchecker/rl.lisp",
+      "sha256": "b36a1bdbc918840cae057edfe74c5a32c88ef48214e1d79fb105a0b48b9d2545",
+      "bytes": 6719,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938209046800
+    },
+    {
+      "relative": "test/rchecker/transport.lisp",
+      "sha256": "370ac32334cf87e891525460fae33c0957e05a1a5b1ed375f184becdc2164455",
+      "bytes": 3575,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938210265900
+    },
+    {
+      "relative": "test/rchecker/tests/task-queue.lisp",
+      "sha256": "cb69a17eb2e6400674797fbac019dcff641cfe78bd720f94d83e98a64a2cb735",
+      "bytes": 41929,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938210265900
+    },
+    {
+      "relative": "web/nb-configuration.xml",
+      "sha256": "79cfb92e9ec97fc9c1def55ef436c91afde5bbb2e903d40aaad52cddc31ae736",
+      "bytes": 1656,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938211265300
+    },
+    {
+      "relative": "web/nbactions.xml",
+      "sha256": "c8b18773ca95a0393391e9381359d239e66eef5144a12b57b1ccb83941da7db4",
+      "bytes": 1878,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938211265300
+    },
+    {
+      "relative": "web/pom.xml",
+      "sha256": "20bce17b76bf979c231210cdaeb6531c86bcdf4880f6ed95908f88d24675959a",
+      "bytes": 5200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938211265300
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/shiro/CommsRouterAuthFilter.java",
+      "sha256": "d602d5fdc14154be75b44cb1e253ed6b2b713b7df98a21ca282c594e62558db2",
+      "bytes": 1280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938213265700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/shiro/CommsRouterCallbackLogic.java",
+      "sha256": "5f2a67ef6b1068371e102cfd8c6ccd2f783d5714af69c07523fcdb6d8c8b2ef2",
+      "bytes": 6369,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938213265700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/shiro/CommsRouterLogoutCallbackLogic.java",
+      "sha256": "5d625337a28363c5def147dcd5bfb59f25a10f09855b7e5cb58e3e7c093f8302",
+      "bytes": 3070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938213265700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/shiro/CommsRouterNoAuthFilter.java",
+      "sha256": "1b9b355d9c2562bd36d758902b8b35a0551b943c841433c265b15a5561299232",
+      "bytes": 2213,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938213265700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/shiro/CommsRouterSecurityLogic.java",
+      "sha256": "d5985a980b7cabb258b5a69266d0b8b928e0d9fd9da2641c3335a2bbcc746ecf",
+      "bytes": 7317,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938214267000
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/shiro/RouterCustomAuthorizer.java",
+      "sha256": "ab8d8d599e8b987f6793add3e0da08c0a434d718b9389eca4fcee8eb85db75f0",
+      "bytes": 1467,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938214267000
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/shiro/ShiroConstants.java",
+      "sha256": "0371fb09aac4d9882c458e3e483cd0b8c2acf5a2ad750cd1c17a00626eee2d27",
+      "bytes": 2527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938215265800
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/ApplicationBindings.java",
+      "sha256": "b3a69988439e071d6ef67692deeba8548b44d1f72fffc92a244104771ab5324f",
+      "bytes": 2670,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938215265800
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/ApplicationContext.java",
+      "sha256": "4d0875f72f12eb83a9d7d11575a2049116cc181b411d5dc7ac4c00733c7ceccb",
+      "bytes": 4872,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938216266600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/CommsRouterApplication.java",
+      "sha256": "8f97954f56215866c6e1a58a7c379c3fd93228160b69a7129672cabbfd220342",
+      "bytes": 2652,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938216266600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/WebServletListener.java",
+      "sha256": "ad6f71250eb8a0cfef7451deb463bb6ed06d727bb8b9c6b59ad762ce0b748484",
+      "bytes": 2721,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938216266600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/config/Configuration.java",
+      "sha256": "20daa447ff153b12bd8721789fe4a0f07a0f89a595eec5be3b834250541e5409",
+      "bytes": 1426,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938216266600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/config/ConfigurationImpl.java",
+      "sha256": "447c0f9464fb40607f0b617a01a2b0815cc2a6b6b038a33c4acc0baa7c9bb189",
+      "bytes": 9570,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938216266600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/config/ManifestConfiguration.java",
+      "sha256": "39627b0fd5c740b44d5320dd6e7cee6dc9b8b548c4be0acb575e482a8e58bd13",
+      "bytes": 957,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938217754000
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/config/ManifestConfigurationImpl.java",
+      "sha256": "292f9223babbbc44196532d460c7006dcb565a1c9171f3a5b0ac64ad4345c8cb",
+      "bytes": 5020,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938217754000
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/config/SkipMissingConfigurationSource.java",
+      "sha256": "87177bce7903d5b7592bebf3d622c3bbf7e879be4acdd885f0f2225e32851456",
+      "bytes": 2390,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938217754000
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/helpers/GenericRouterObjectResource.java",
+      "sha256": "6fdfab58920793bf8c3a3f520fb089ff41d802dffcf29be624fc15405bec91e5",
+      "bytes": 7728,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938218755000
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/helpers/RouterObjectResource.java",
+      "sha256": "818691127c41ea6f3dc7ddbaf3906b25f684d54aa773e3a2443fe59e42f382f7",
+      "bytes": 1288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938218755000
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/BadValueMapper.java",
+      "sha256": "6a29907dc68fdfe2389b746f4394aee991eb123514453e43ab863fde6995c0dd",
+      "bytes": 1035,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938219755200
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/BaseExceptionMapper.java",
+      "sha256": "fe22bddeba77c3f58975a726ae7d88afe464507e79bf48b630926ea4a23c160d",
+      "bytes": 1826,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938219755200
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/CheckedExceptionMapper.java",
+      "sha256": "4a422d943b9b2e07bf5b4a7424a412d3b69e895fd6b6f3e7fc1ce779fee903a3",
+      "bytes": 974,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938220754600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/ConstraintViolationMapper.java",
+      "sha256": "37fa4d41a4e1d5f8afe4bd998a6b52ae0aae9620ce109569dcd983913eed9028",
+      "bytes": 1373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938220754600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/IllegalArgumentMapper.java",
+      "sha256": "e6574a38623b5b9871a45e559396eab1c4b645c6d3db1c32b4c6ed495aa0051e",
+      "bytes": 987,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938220754600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/NotFoundMapper.java",
+      "sha256": "658e5abda0c12494f833d49ef3d90915407a72e204c6d68f75a4354483976244",
+      "bytes": 1033,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938221754600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/NpeMapper.java",
+      "sha256": "4205516606434d8f7541e9da4a3bf4f1d3b1de4003d59e93826e461158ff3dc6",
+      "bytes": 1348,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938221754600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/PreconditionFailedMapper.java",
+      "sha256": "b742a39df29dbb088fc89c516bff6d1430bb68e6ef433290e1e39f5fd5fa7e2b",
+      "bytes": 1329,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938221754600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/ReferenceIntegrityViolationExceptionMapper.java",
+      "sha256": "172aef96e66fc89064cd0574c6594bc7927c907bf41ebe9aa734cff03758e5ec",
+      "bytes": 2459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938221754600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/RollbackExceptionMapper.java",
+      "sha256": "404138eebdecd44da4cb44b1f5d11b97df2cf7b1693340aad19e5d0f13508fce",
+      "bytes": 1389,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938222754700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/RuntimeExceptionMapper.java",
+      "sha256": "c1e654c0fb170c5a5334fe8bff28a2f749bf93bb0f778525732f22de2ff78f58",
+      "bytes": 991,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938222754700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/mappers/ValidationExceptionMapper.java",
+      "sha256": "325b838d0f4108506227b8db8049015e7b3bd2d8921266c7b25d76505beaf4d3",
+      "bytes": 1333,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938222754700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/providers/ObjectMapperContextResolver.java",
+      "sha256": "149d9923b7c0926d160f4048496e59812a24ebca1cbd3ce4b755edc4848d40a3",
+      "bytes": 1318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938222754700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/AgentResource.java",
+      "sha256": "739552d9590792fa5e23dbfafecc9f10ebfd21081d9547afe0340b30550b8615",
+      "bytes": 6401,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938224250600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/CommsRouterApiConfig.java",
+      "sha256": "1a973e46951753ff13e3b7ec22253d7326c06ffbc4c58f13300f597af65609b7",
+      "bytes": 1652,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938224250600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/PlanResource.java",
+      "sha256": "5b78207e31fd86c00b89a37c7308f051a3a854cd3a88b0e2fb6e7dfbf79fa605",
+      "bytes": 6364,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938224250600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/QueueResource.java",
+      "sha256": "6995c905e6d14c0bb541b4af22eb6eaad63fbb0d1f30788778836407cfaf0cb9",
+      "bytes": 7860,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938224250600
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/RouterResource.java",
+      "sha256": "d3e68cd158585842de750ac91895ebec34a466fb9c8fe344a8e4bc4cd1791724",
+      "bytes": 15340,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938225250700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/SkillResource.java",
+      "sha256": "0a3f4c6071148120a7b721e727495e896cc12a41e1afbbc9ebadeca2ddaa9fc8",
+      "bytes": 6320,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938225250700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/TaskResource.java",
+      "sha256": "db0af028ba3a85d90f5aa9d6544d209e4e5959eeabf425d3055e299b92eeec11",
+      "bytes": 7160,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938225250700
+    },
+    {
+      "relative": "web/src/main/java/com/softavail/commsrouter/webservice/resources/UserContextResource.java",
+      "sha256": "9d5d5ac3bedf64ea4e200736646ebe7fe398a4a44a19590cd45dff996ba3cecb",
+      "bytes": 4179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938226250400
+    },
+    {
+      "relative": "web/src/main/resources/application.properties",
+      "sha256": "3c2db6cb497051167971b3b37aa2f4795b0cda0c1e51b5c9b3b7edabd7d8c7cf",
+      "bytes": 2803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938226250400
+    },
+    {
+      "relative": "web/src/main/resources/application.properties.template",
+      "sha256": "5dfa7bb8941d9a4765b0b2a3e261b1b7acc3ae39c6c1670d0b7e4e4968ff4362",
+      "bytes": 2791,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938226250400
+    },
+    {
+      "relative": "web/src/main/resources/log4j2.json",
+      "sha256": "9597169c5359ebcb50593e525bfa468c3aa0c68f08440fa46e9de8fe402b8a38",
+      "bytes": 1058,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938227462800
+    },
+    {
+      "relative": "web/src/main/resources/ValidationMessages.properties",
+      "sha256": "349df34059dbd6c5836a54c04205c094d98c62ec3004ee3fb4b29df255555db6",
+      "bytes": 1178,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938226250400
+    },
+    {
+      "relative": "web/src/main/webapp/swagger-ui.html",
+      "sha256": "6992dad88ec5e2419920c0bdf3e97d12c1c6aec26c29b7315b7975a022289266",
+      "bytes": 892,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938227462800
+    },
+    {
+      "relative": "web/src/main/webapp/WEB-INF/web.xml",
+      "sha256": "2eae67ff7bfb0503ec99bcd8b72e3d81cafbe7f8b7a0543f5849cad6b4f2e280",
+      "bytes": 424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784766938227462800
+    }
+  ],
+  "excluded": [
+    "common/target",
+    "common-db/target",
+    "common-exceptions/target",
+    "core/target",
+    "core-interface/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\230_98410891_cb7f3212\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:47:01.296343+00:00"
+}

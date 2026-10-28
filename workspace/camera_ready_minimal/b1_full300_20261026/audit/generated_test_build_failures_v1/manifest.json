@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "audit/generated_test_build_failures_v1/class_inventory300.csv",
+      "sha256": "f018658ad30aed2e8734ba9b54f8aa94086dd98429217b317d49d2eabd4cd37d",
+      "bytes": 106054
+    },
+    {
+      "path": "audit/generated_test_build_failures_v1/failure_log_evidence.json",
+      "sha256": "582e83a2310e19a2b7c3d8854d63d08f5a220dd6cfa668dc158502b5289fad71",
+      "bytes": 11320
+    },
+    {
+      "path": "audit/generated_test_build_failures_v1/generated_failed18.csv",
+      "sha256": "8a8a87b8f367c9f8d45036f0d64a8d9d81b8a5b1f172a3c93d3046080b603e4f",
+      "bytes": 8438
+    },
+    {
+      "path": "audit/generated_test_build_failures_v1/generated_unmeasured10.csv",
+      "sha256": "6e21ffe7e326f00def2998b7cafc06374a2aabf1abb1a62e7114c38a4081f3c0",
+      "bytes": 4328
+    },
+    {
+      "path": "audit/generated_test_build_failures_v1/REPORT.md",
+      "sha256": "d3cd4aaa96058e397b22b57dd99766347936a5a2e06956faf4c11a0cfbc1548d",
+      "bytes": 7427
+    },
+    {
+      "path": "audit/generated_test_build_failures_v1/result_anchors.json",
+      "sha256": "963ab4aebc7b7604b9a9a09e87f42160a7bb8f5bd988117f66fbfed0a2421f94",
+      "bytes": 53723
+    },
+    {
+      "path": "audit/generated_test_build_failures_v1/summary.json",
+      "sha256": "ff0e20064099f9f027ee19749a63c29fddc6b35b53ab280c60ae690a1c2401f3",
+      "bytes": 1794
+    }
+  ]
+}

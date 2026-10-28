@@ -1,0 +1,16 @@
+{
+  "status": "PASS_EXACT_BODY_EXCEPT_BUILD_TOOL_AND_NAME",
+  "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\maven_adapter_v1.py",
+  "source_sha256": "5fa300f08dded3777962e1de28617ec7d3fd247a2975d5df46c9af57c924a80c",
+  "target": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_generation_argv_v1.py",
+  "target_sha256": "afc09e67e12cba78080fd11eacd81f2793e194dde771cf96bebc7632b89f8425",
+  "changes": [
+    "function name",
+    "explicit build_tool guard maven to gradle",
+    "guard error message"
+  ],
+  "generation_flags_seed_budget_logic_unchanged": true,
+  "execution_admitted": false,
+  "new_EvoSuite_calls": 0,
+  "GPT_API_calls": 0
+}

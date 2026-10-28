@@ -1,0 +1,348 @@
+{
+  "at_utc": "2026-10-26T00:37:39.940926+00:00",
+  "terminal_new_classes": 13,
+  "accepted49": 49,
+  "pending_transport_recovery": [],
+  "new_classes_accepted_under_v3": 13,
+  "Maven_unattempted": 198,
+  "Gradle_unattempted": 40,
+  "generation_commands_planned": 17,
+  "actual_benchmark_EvoSuite_starts": 14,
+  "actual_fixture_EvoSuite_starts": 3,
+  "new_GPT_API_calls": 0,
+  "original585_GPT_E49_guards": "PASS",
+  "disk_free_bytes": 17440436224,
+  "class_results": [
+    {
+      "index": 3,
+      "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/manytomanyannotationhandler.java",
+      "selected_result": "jobs/003_native_junit_diagnostic_v3/diagnostic_result.json",
+      "selected_sha256": "71e9ce560764107f91bf9ac240a163f86af1c4341606959f7687fee0ffb9c7a6",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 100.0,
+      "killed": 1,
+      "focal_mutants": 1,
+      "suite_evidence": true,
+      "measurement_evidence": true
+    },
+    {
+      "index": 6,
+      "class_key": "39195736:sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/javapropertiesplugin.java",
+      "selected_result": "jobs/006/result.json",
+      "selected_sha256": "9bf4f192b507631106f6f3680ef4c86009942f54c677f1febbe18f973cbcaf8f",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 0,
+      "suite_evidence": true,
+      "measurement_evidence": false
+    },
+    {
+      "index": 8,
+      "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/secureannotationhandler.java",
+      "selected_result": "jobs/008/result.json",
+      "selected_sha256": "70c27dc056dd88bc1488abd00f3e76f3e54c84314424cd55d4b7597598b2f125",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 2,
+      "suite_evidence": true,
+      "measurement_evidence": true
+    },
+    {
+      "index": 10,
+      "class_key": "77481567:core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/discretetimeframeconvertingindicator.java",
+      "selected_result": "jobs/010/result.json",
+      "selected_sha256": "55aa50a2e69946cb71b03889c44922ba3c7e02d3d69d7cd39b800a9a662615bc",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 2,
+      "suite_evidence": false,
+      "measurement_evidence": false
+    },
+    {
+      "index": 12,
+      "class_key": "81384608:integrations/spark/spark-catalog/spark-catalog-core/src/main/java/com/thinkbiganalytics/kylo/catalog/spark/sources/spark/flaggingvisitor.java",
+      "selected_result": "jobs/012_cpfile_v3/result.json",
+      "selected_sha256": "29355a20ff62798e6671453e3d788fe1f914fd0f54c9f6283fc481ac3319411c",
+      "transport_recovery_pending": false,
+      "build_gate": 0,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 0,
+      "suite_evidence": true,
+      "measurement_evidence": false
+    },
+    {
+      "index": 16,
+      "class_key": "81384608:integrations/spark/spark-catalog/spark-catalog-core/src/main/java/com/thinkbiganalytics/kylo/catalog/spark/sources/jdbc/jdbchighwatermarkvisitor.java",
+      "selected_result": "jobs/016_cpfile_v3/result.json",
+      "selected_sha256": "1b70de9c06da07146b8f35af37671c926376d908db58d7cb5d085e4dc210b1a7",
+      "transport_recovery_pending": false,
+      "build_gate": 0,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 0,
+      "suite_evidence": false,
+      "measurement_evidence": false
+    },
+    {
+      "index": 17,
+      "class_key": "39195736:jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/missingtranslationscheck.java",
+      "selected_result": "jobs/017/result.json",
+      "selected_sha256": "a4189ae892db20e915dcfd0b26735a36acc5759476060c858e65864613125eb7",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 3,
+      "suite_evidence": true,
+      "measurement_evidence": false
+    },
+    {
+      "index": 18,
+      "class_key": "3713233:core/src/main/java/org/junithelper/core/util/stderr.java",
+      "selected_result": "jobs/018/result.json",
+      "selected_sha256": "604a9c47001d97161b195cda445d35c21c10fac1755c2e6dce30af9f02ec15d2",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 50.0,
+      "killed": 1,
+      "focal_mutants": 2,
+      "suite_evidence": true,
+      "measurement_evidence": true
+    },
+    {
+      "index": 19,
+      "class_key": "46450575:flo-workflow/src/main/java/com/spotify/flo/evalcontextwithtask.java",
+      "selected_result": "jobs/019/result.json",
+      "selected_sha256": "6474986ee0b7c1b4ce6a39573acd55410a8b00014b054ec4a60678bb2b31f4f3",
+      "transport_recovery_pending": false,
+      "build_gate": 0,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 0,
+      "suite_evidence": false,
+      "measurement_evidence": false
+    },
+    {
+      "index": 22,
+      "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/registry/doublenameresolver.java",
+      "selected_result": "jobs/022/result.json",
+      "selected_sha256": "866906db5203d6e6ba744e726164e9ad046b716a3f0dcb47255755db554d10dd",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 60.0,
+      "killed": 3,
+      "focal_mutants": 5,
+      "suite_evidence": true,
+      "measurement_evidence": true
+    },
+    {
+      "index": 23,
+      "class_key": "81384608:integrations/spark/spark-catalog/spark-catalog-core/src/main/java/com/thinkbiganalytics/kylo/catalog/spark/sources/jdbc/jdbchighwatermarkaccumulableparam.java",
+      "selected_result": "jobs/023_cpfile_v3/result.json",
+      "selected_sha256": "911acfbd27d22e9a934f87a27c001ad4dcdd129003f1d92d62f8f72777738f49",
+      "transport_recovery_pending": false,
+      "build_gate": 0,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 0,
+      "suite_evidence": true,
+      "measurement_evidence": false
+    },
+    {
+      "index": 25,
+      "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/safety/safetyzones.java",
+      "selected_result": "jobs/025/result.json",
+      "selected_sha256": "a2419cb2549535b8326af1b8448453f6b68a01b5e72cca100e131f6167b8aec7",
+      "transport_recovery_pending": false,
+      "build_gate": 1,
+      "strict_percent": 100.0,
+      "killed": 16,
+      "focal_mutants": 16,
+      "suite_evidence": true,
+      "measurement_evidence": true
+    },
+    {
+      "index": 27,
+      "class_key": "46450575:contrib/flo-styx/src/main/java/com/spotify/flo/contrib/styx/structuredlogging.java",
+      "selected_result": "jobs/027/result.json",
+      "selected_sha256": "f3c9216570c82c7fca8213fb74d3121e5c6e43a2776a14bacd00c4d1e1bd7ec5",
+      "transport_recovery_pending": false,
+      "build_gate": 0,
+      "strict_percent": 0.0,
+      "killed": 0,
+      "focal_mutants": 0,
+      "suite_evidence": false,
+      "measurement_evidence": false
+    }
+  ],
+  "archive_checks": {
+    "3": {
+      "status": "PASS",
+      "files_verified": 605,
+      "manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d",
+      "post_archive_append": {
+        "relative": "events.jsonl",
+        "prefix_bytes": 10213,
+        "prefix_sha256": "199729585a3ed673f450e8ef3c0f80d7f13dc398e216c617a267e2468cc8f121",
+        "appended_bytes": 419,
+        "appended_sha256": "61974a7dfc65896b23ba786c136ce1ddac7b4c0494468c5a10c4b0799b1595c8",
+        "current_sha256": "9a9066e895152343c582946e6dae243220662de357f6b34a81c3c3db2345c9db",
+        "verified_terminal_event": {
+          "timestamp_utc": "2026-10-25T23:09:27.392717+00:00",
+          "kind": "JOB_TERMINAL",
+          "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/manytomanyannotationhandler.java",
+          "result_sha256": "b0eb2d05f91787a62e078e5edd2fc01ab306c3ed020c846afb96766f3793568c",
+          "artifact_manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d"
+        }
+      },
+      "file_census": "PASS"
+    },
+    "003_native_junit_diagnostic_v3": {
+      "status": "PASS",
+      "files_verified": 696,
+      "manifest_sha256": "e4d8638c73bed3b0c40e636a663990ec800183fe72a94afe4b3e64d0b56f2455",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "6": {
+      "status": "PASS",
+      "files_verified": 508,
+      "manifest_sha256": "2f241f9bcc13d97358bd550d1164f8025ba6dec7dd9ece16f2f1ebf111dc8788",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "8": {
+      "status": "PASS",
+      "files_verified": 759,
+      "manifest_sha256": "9b0934bc923c7df8ab7996929e6019a676676c3514d87659389165bdf576a1e4",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "10": {
+      "status": "PASS",
+      "files_verified": 709,
+      "manifest_sha256": "0319fd3b3da5867652e03199262027e9ff6d1b648887599bb6cc5b9029d6149a",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "12": {
+      "status": "PASS",
+      "files_verified": 5684,
+      "manifest_sha256": "b64c80050d4a67ff5f2004483dd423c8a976c2267548663f3305cfa152ea4723",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "012_cpfile_v3": {
+      "status": "PASS",
+      "files_verified": 5778,
+      "manifest_sha256": "5fbd4035d64aa509253ea2afc996b102f390e0bc7cba2b8cfe2ccbdba1e7301c",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "16": {
+      "status": "PASS",
+      "files_verified": 5684,
+      "manifest_sha256": "0abef0f5556b8debc0c13e4dda46724f311ac615c947ab30bd5b1f3d75471665",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "016_cpfile_v3": {
+      "status": "PASS",
+      "files_verified": 5687,
+      "manifest_sha256": "74a3e651229414d353eb1c345233eedddd8e4f249b58f5dbda69cae53375e658",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "17": {
+      "status": "PASS",
+      "files_verified": 660,
+      "manifest_sha256": "41871d70023d8f60337cb0cb51aa04402d886088dab242468bd8fdc81dabffea",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "18": {
+      "status": "PASS",
+      "files_verified": 661,
+      "manifest_sha256": "f15e586458a1063d14a8acdc10ddafe1b30f1324e57239636cd4db25a8ec10c3",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "19": {
+      "status": "PASS",
+      "files_verified": 404,
+      "manifest_sha256": "56a799d011ad4217e001d482205481bd04dfa1acf3121b1869913f371ba3c4cb",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "22": {
+      "status": "PASS",
+      "files_verified": 709,
+      "manifest_sha256": "7105762c516073ad57d1df5fd111dbfa46156c940ac958531cb58dde9699b773",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "23": {
+      "status": "PASS",
+      "files_verified": 5684,
+      "manifest_sha256": "0d30e6dbff1c232c9b9c11ac63559e815e3c4b5985aa4d65bb6721539c081232",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "023_cpfile_v3": {
+      "status": "PASS",
+      "files_verified": 5778,
+      "manifest_sha256": "9c551690e84bf3e63f0e6e31d93067b846d4a3dd3d92bafd99138d6e0ac251c1",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "25": {
+      "status": "PASS",
+      "files_verified": 284,
+      "manifest_sha256": "42442ae3f2e18f195dae72b89eaaac06c79b86cc456d5f8c93e514d012a97138",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    },
+    "27": {
+      "status": "PASS",
+      "files_verified": 253,
+      "manifest_sha256": "cc5b983ee18e46b61b27290c2cfd74c73baa532b0ccf065ed864265a94b047c6",
+      "post_archive_append": null,
+      "file_census": "PASS"
+    }
+  },
+  "http_checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/status.json",
+      "status": 200
+    },
+    {
+      "path": "/manifest.json",
+      "status": 200
+    },
+    {
+      "path": "/jobs/012/result.json",
+      "status": 404
+    },
+    {
+      "path": "/audit/",
+      "status": 404
+    }
+  ],
+  "visual_QA": "not repeated: browser control disabled",
+  "Gradle_launcher_check": "PASS_VERSION_COMMANDS_ONLY",
+  "Gradle_recipe_v3": "NOT_RUNTIME_QUALIFIED",
+  "full300_complete": false,
+  "paper_modified": false
+}

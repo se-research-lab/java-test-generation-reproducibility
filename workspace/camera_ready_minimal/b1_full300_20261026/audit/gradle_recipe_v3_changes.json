@@ -1,0 +1,13 @@
+{
+  "old_source_sha256": "47e11884c39eb08ccd5e863f55aa2d42c104b97642dd912e05833b5c6a6b32ad",
+  "new_source_sha256": "c588c406824128accf2832a2ea8fa8fb460f79672b8c5165c922652dff576301",
+  "reason": "Scope control before any Gradle benchmark: preserve original Gradle exact focal mutant target and original task resource/process-gate settings",
+  "changes": [
+    "remove unrequested nested-target expansion from unadmitted prototype",
+    "copy heap/JVM/system properties/assertions/forks/workingdir/ignoreFailures; do not reenable a disabled original task",
+    "keep native JUnit provider/selector and separate task dependencies"
+  ],
+  "runtime_qualified": false,
+  "GPT_modified": false,
+  "new_experiment_calls": 0
+}

@@ -1,0 +1,2865 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\029_41547678_6e5d9f86\\compiledrepos\\41547678",
+  "class_indices": [
+    221
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "a6aa280033488d7626ca913d4e8e9131ba461d261ab00b8660dd8a2d17c9648d",
+      "bytes": 294,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211036572500
+    },
+    {
+      "relative": ".travis.yml",
+      "sha256": "eab828d3b7a354c8e0dbaae22b1e9c53b6676076d91e40151e3e7e416aa45348",
+      "bytes": 108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211036572500
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "2e54cd84a645bea25943c75dd8ae67cb291e66a47a11578333c9b4b3b6b86c85",
+      "bytes": 11560,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211037576000
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "160ff759a4a42aff2457fc42c5c04e7f7b8ec39ec427666f0f601e729199fba5",
+      "bytes": 5611,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211057064300
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "db730d3a3ac4bde1c16b17015ff83f9a6338afc744986aa5206aed89387fc34b",
+      "bytes": 5924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835622845427400
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "6dd1c564b8e6d13d779e40d04a89a599362bcb7df911533b6708147e69e3f268",
+      "bytes": 19696,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835622718756800
+    },
+    {
+      "relative": "README.md",
+      "sha256": "a00d6aae8448ab93326530bef13e15bbfe627c8a2b5b39f7df39364dcdd7ae8a",
+      "bytes": 3076,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211037576000
+    },
+    {
+      "relative": "run_asmifier.sh",
+      "sha256": "8895068410a28d3319b3202a7af1eeea07bc4fedb4d9c5b216aa50541dd9c005",
+      "bytes": 376,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211057064300
+    },
+    {
+      "relative": "update_coverage.sh",
+      "sha256": "cb198e34f0405f6e16c9c23f45914dbd769182adca05bd04db0933f2d2dfe8db",
+      "bytes": 33,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211177738400
+    },
+    {
+      "relative": "walkmod.xml",
+      "sha256": "6777b2f5d78bb8cfbaa44eee3d83ab2cf90935d832c9958c4222fcfdef1848e6",
+      "bytes": 867,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211178837500
+    },
+    {
+      "relative": "bytecode-generation/pom.xml",
+      "sha256": "3975cb5f09633d015a26713258fae7cdf0d799dffc82a8a8a9ffb5bc204bb3a3",
+      "bytes": 2586,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211037576000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/ArrayAccessBS.java",
+      "sha256": "74a01623cf6533c40d50a000143b1dc6e50c1802482c3502f549d1a68e2fe384",
+      "bytes": 485,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211038576000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/ArrayLengthBS.java",
+      "sha256": "8878acadca77a2e62b363c5ea052f73d28bc1db5d5b7bfcfa7bafd3464c2a6ea",
+      "bytes": 298,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211039573700
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/BytecodeSequence.java",
+      "sha256": "ad88078fefadfa88459c974aff4cecd258a87fce378d42048fcd60f58ee1913a",
+      "bytes": 268,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211039573700
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/ComposedBytecodeSequence.java",
+      "sha256": "3c8611c0c2f2d435a0e36f64d3966355be80589a8dd437ff80a1cbbcb6de1ae5",
+      "bytes": 740,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211040574300
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/IfBS.java",
+      "sha256": "af7e47ec8295b3dddc71f8c3a821946aa85ab16f91ab9be26a89e0e3b46153e7",
+      "bytes": 2832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211040574300
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/IntToLongBS.java",
+      "sha256": "b34c0d6e7e1ace0307123403ca6ed1b42fca67dc301aedb622e4ad82c501676d",
+      "bytes": 283,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211040574300
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/LocalVarAssignmentBS.java",
+      "sha256": "1b55843f191a0e945e4302e8dcc5939128ac52f6457bdec5543b5c9fa2a040c3",
+      "bytes": 856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211041574000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/MathOperationBS.java",
+      "sha256": "8982c3eb8e2428c3800e5ea708dbdfd2d7b33672f4bd3605bb6e0cec177d1344",
+      "bytes": 363,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211041574000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/MethodInvocationBS.java",
+      "sha256": "bf0d8041488b2141ad458b9f8b847bdd44861be8a66e19fffed5ded616657a56",
+      "bytes": 1727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211041574000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/NewInvocationBS.java",
+      "sha256": "f3c3de5f734ad9b79a9ac87ecfd414bf66a9fdf9edc185eedbe285e6ae007bd8",
+      "bytes": 1047,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211041574000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/NoOp.java",
+      "sha256": "3771a7f83f6a56c17ca49ee3ea1da0eb44b65407cbd8af5e105ba141ec529fe6",
+      "bytes": 524,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211041574000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/OpcodesUtils.java",
+      "sha256": "2db3000196e58feddad5ef6b7aeb376c53e75b676df74a793c90b9cb37b9cf09",
+      "bytes": 1437,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211042923200
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/RelationalOperationBS.java",
+      "sha256": "955066a7a1c6aceca5c8819722068d742d0a15e5b9ebc1e5760449209cc3a150",
+      "bytes": 715,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211042923200
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/ThrowBS.java",
+      "sha256": "80c7574934c738dcae737acf23c5237396c942802537de5dba177379cf5f4b7f",
+      "bytes": 485,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211042923200
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/UnboxBS.java",
+      "sha256": "e4784c617bc917a2c63f8dcaa38fd28af7d032066faf5ddfd499bd0d2b5ed2f7",
+      "bytes": 2041,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211042923200
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/logicalop/CastBS.java",
+      "sha256": "8b0e217ebe86e4b723820798076182df4595cc3eee4284be93d2ec9acbf0651c",
+      "bytes": 464,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211042923200
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/logicalop/LogicalAndBS.java",
+      "sha256": "8e3e0eae64a1e4103ca8b11b6d37862c05b54d84462fd4e02f1ab9bb4a49472d",
+      "bytes": 359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211044415000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/logicalop/LogicalNotBS.java",
+      "sha256": "de00311dd4bacee3a0db376d1e7dc1e7d5f2dd43743ba51496ab65fad219388e",
+      "bytes": 1054,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211044415000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/logicalop/LogicalOrBS.java",
+      "sha256": "692419abe4554580704ab08b5a4e7f2aebfe7fc885f42080fd7f2f3894c65089",
+      "bytes": 357,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211044922000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushBoolean.java",
+      "sha256": "9befa49d8cdf778867698d295d9e1e2d619b972eda577691cac4f315ab4ec144",
+      "bytes": 566,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211044922000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushDoubleConst.java",
+      "sha256": "4dd0d2986142302272dfa3f0e8f47276a45b1db38eb29011dd99da935a96c93f",
+      "bytes": 476,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211045428800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushFloatConst.java",
+      "sha256": "2a7c0ec8ec955ce6f53e6943f0df47f73a5c3d920dbf2b0d324a16a38d82561e",
+      "bytes": 472,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211045428800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushInstanceField.java",
+      "sha256": "6dca044af475aa2e5aef65a9a906264f4a52f073769354c812ca16ecb7ea40c8",
+      "bytes": 1136,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211045428800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushIntConst.java",
+      "sha256": "48620a1b21d74c68c8501fa0d6eb26ad1d882f5679d68a01f7229ccad243a039",
+      "bytes": 1071,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211045428800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushLocalVar.java",
+      "sha256": "957bc01d5540067fd4db265b217b08680de39f42a2d544ef2c81b6357a9971a5",
+      "bytes": 553,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211046435600
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushLongConst.java",
+      "sha256": "1d8a02ae25ca483c9a22def64ee5595596799c9b03810cb0656bc5fba1427fb0",
+      "bytes": 503,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211046435600
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushStaticField.java",
+      "sha256": "2b1c4609e49933daaa857a6cf271972a324a0f80cec13ba45792732132f8eca9",
+      "bytes": 830,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211046435600
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushStringConst.java",
+      "sha256": "a9ca4657e54b58b61fbd016e81563b40aae40730ce857712cf6d7f45170a0cb0",
+      "bytes": 473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211047439000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/pushop/PushThis.java",
+      "sha256": "593eca329bb680818bdd004d05ba85eb073185acd76d15a517f47df42734ad5a",
+      "bytes": 690,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211047439000
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/returnop/ReturnFalseBS.java",
+      "sha256": "639f9d7ac83733f38d646f5292515d5e7badb52c5a388788abe2b9f2c9c561ff",
+      "bytes": 455,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211048436400
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/returnop/ReturnTrueBS.java",
+      "sha256": "f055eccca18e244d80954e08eb27c58ab85f7e345d234c64f8231a1ffc582550",
+      "bytes": 454,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211048436400
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/returnop/ReturnValueBS.java",
+      "sha256": "078696e7f9e284d81f99c5a2726bfc9a00be3f4fe20e9fd0aab020a4235a3684",
+      "bytes": 583,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211048436400
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/bytecode_generation/returnop/ReturnVoidBS.java",
+      "sha256": "4f9084cb67e5518757a158a9c418cc3b8cc29da9edbbe17088fa72c3710add54",
+      "bytes": 360,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211048436400
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/jvm/JvmConstructorDefinition.java",
+      "sha256": "c233bd64efdbbd7d24d6e6746383659a218b9b26354146877e4792ad457734da",
+      "bytes": 717,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211049437800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/jvm/JvmFieldDefinition.java",
+      "sha256": "accdc419bbf654932150aee0d4861437116a996e2ff238862019989e1e80106c",
+      "bytes": 787,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211049437800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java",
+      "sha256": "6305c7f36283822aa76fe2828f40050da21d18bfe727333c560ac164b9208d89",
+      "bytes": 3212,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211049437800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/jvm/JvmMethodDefinition.java",
+      "sha256": "63dbe0d2ac9a6fa6a748c6e2097e222edd9dd28fc47ecc6c3eae1fab39d2654f",
+      "bytes": 1616,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211049437800
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/jvm/JvmNameUtils.java",
+      "sha256": "3f0b0bbe901c0e9510d61ac2d5c2e78f7498d6d6330e77638e8759c2ecdca259",
+      "bytes": 4956,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211050436500
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/jvm/JvmType.java",
+      "sha256": "69126833c11b3da1bf9635d5ac3d5d527eae14eee69fe461aaa105bb646410fb",
+      "bytes": 3712,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211050436500
+    },
+    {
+      "relative": "bytecode-generation/src/main/java/me/tomassetti/jvm/JvmTypeCategory.java",
+      "sha256": "bb39755eacd4a2aa437aeba8b1e5c816b302e065ae903ac28e37b17b72f42c0c",
+      "bytes": 1214,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211050436500
+    },
+    {
+      "relative": "bytecode-generation/src/test/java/me/tomassetti/turin/resolvers/compiled/JvmNameUtilsTest.java",
+      "sha256": "632286b8c6bb930a449aab8dfc03ead98991d6e980beaac8b6e1efb7a83d65a6",
+      "bytes": 2207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211052805200
+    },
+    {
+      "relative": "dev-files/eclipse-formatter.xml",
+      "sha256": "1a4f9fbb8fb8cf83751ed0e8586e49dfaccd84a26df38d63df1eef6c9bb3f1c1",
+      "bytes": 31573,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211052805200
+    },
+    {
+      "relative": "documentation/.gitignore",
+      "sha256": "6112d0ca66ad44c71992de03d99255d2c791fe3680d40161ec6115532030ae4b",
+      "bytes": 8,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211053853300
+    },
+    {
+      "relative": "documentation/conf.py",
+      "sha256": "787ab081646e454e6674bd13def3d4049bc942180ac8a9d4bbd953fffe105620",
+      "bytes": 9671,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211053853300
+    },
+    {
+      "relative": "documentation/functions.rst",
+      "sha256": "1828629e174e98606fecb42e5620177c171147546b4c361760e91dedcdbd54c2",
+      "bytes": 101,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211053853300
+    },
+    {
+      "relative": "documentation/imports.rst",
+      "sha256": "26ceb1608b6e316817f481eb0ce23f5517a966d75395326a4b4397a255370346",
+      "bytes": 947,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211054851300
+    },
+    {
+      "relative": "documentation/index.rst",
+      "sha256": "5d9e8fc6414bed67f379a5084ad41abebd33f8be8a08ed15b35e6b15d382df6b",
+      "bytes": 1427,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211054851300
+    },
+    {
+      "relative": "documentation/javadiff.rst",
+      "sha256": "ea0f975e881567e31ce94bcd2760aeca4d7b9eb7933df316fc03c0b7394a0bae",
+      "bytes": 2928,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211054851300
+    },
+    {
+      "relative": "documentation/make.bat",
+      "sha256": "afd5819f80d4e92cc1ff2c82f34c68ec0d138ae3aea5732b5801995fd63686dd",
+      "bytes": 7280,
+      "mode": 511,
+      "mtime_ns_at_capture": 1784759211054851300
+    },
+    {
+      "relative": "documentation/Makefile",
+      "sha256": "5e1fe9ba361e327a59b414d9adbd699e183846a02bb2f9c416f18fc49c03bf13",
+      "bytes": 7673,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211053853300
+    },
+    {
+      "relative": "documentation/namespace.rst",
+      "sha256": "e2dd1197da70765b7602fc98cdf507cc088dba35f5523ff1b6a975a48ec65d85",
+      "bytes": 53,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211055854600
+    },
+    {
+      "relative": "documentation/programs.rst",
+      "sha256": "bc6dc77e118465cdaafa27b9125575c5fb483923c2509e137216e22e51b2c0ce",
+      "bytes": 38,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211055854600
+    },
+    {
+      "relative": "documentation/properties.rst",
+      "sha256": "6076b6b18d89f430b37bba9c1b440b148adbd1149147e66bd222500cae7da29e",
+      "bytes": 22,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211055854600
+    },
+    {
+      "relative": "documentation/syntax.rst",
+      "sha256": "79810483124d40352b190a08dcc64a58e80e4c4f32c3b4ead11c5445068da300",
+      "bytes": 129,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211055854600
+    },
+    {
+      "relative": "documentation/types.rst",
+      "sha256": "c8fd9a90184abd97f2400aab39ebd67d8de6464f8afad12f474dceb0bb16a1f8",
+      "bytes": 3556,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211055854600
+    },
+    {
+      "relative": "samples/ranma.to",
+      "sha256": "9b3ba53e20b4ce6135afa2d1d667d8f4b965b5312110e05109ba576a04328384",
+      "bytes": 333,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211057064300
+    },
+    {
+      "relative": "turin-compiler/log.txt",
+      "sha256": "cdd36a2a551a8a07f231b562a8f26f1aa070f47abb0b5a42acfbd090170aa1a2",
+      "bytes": 69560,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211058062800
+    },
+    {
+      "relative": "turin-compiler/log2.txt",
+      "sha256": "026c356ae715a17230aad973dbb39964ee109a3569e7827fbef5e6dcb12e9d5d",
+      "bytes": 70443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211058062800
+    },
+    {
+      "relative": "turin-compiler/pom.xml",
+      "sha256": "e54f9f9d4e190e070c377dc6e56140f89eb0bed422f5e603ee6986c8c282a310",
+      "bytes": 5489,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835760148318900
+    },
+    {
+      "relative": "turin-compiler/evosuite-report/statistics.csv",
+      "sha256": "32a7646edd68d318f61f8477491a2cdd35d475de2c20f3e1cc831fc2eb1ecb33",
+      "bytes": 118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835712836206800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/classloading/ClassFileDefinition.java",
+      "sha256": "1064620c5b6fe3e948b593b6a35ebf44bcef09ba40f56b20d389e3bbd09a4415",
+      "bytes": 563,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211059068000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/classloading/TurinClassLoader.java",
+      "sha256": "5a00c53cc5ab903d79f4b8f85e957360e5767fdfcdc475319a7d1120adf056b9",
+      "bytes": 640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211060506300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/AmbiguousCallException.java",
+      "sha256": "1c1de676a2f05830eee29de9e3b38f42fa4e842e75883071dbab6678c6ff33fb",
+      "bytes": 1275,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211060506300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/BoxUnboxing.java",
+      "sha256": "aa9ac184e143f7b260c6bbb3df04b15af53d460e5814b5cfcd7a58b5a4bfd473",
+      "bytes": 3301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211061500500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/BytecodeUtils.java",
+      "sha256": "aa61b3e260bc816924fc46f6f49a51f6261eea6a38ef02ecd465715deac04e34",
+      "bytes": 4540,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211061500500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/Compilation.java",
+      "sha256": "df40aed19d70f15213ced7f1325a2b5738cee3343ef6798fa45dd385a3138d87",
+      "bytes": 32424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211061500500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/CompilationOfGeneratedMethods.java",
+      "sha256": "eb0dee9679477c015490110c94a284fab954121194a8d4442093bc503ab1234c",
+      "bytes": 27118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211062504000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/CompilationOfPush.java",
+      "sha256": "b017dc7ba2e089a91cf4128952312a966a9aedf70ac49343908004d2ff528fee",
+      "bytes": 21892,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211062504000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/CompilationOfStatements.java",
+      "sha256": "0df4e495591dfb56f11a7c369c04190dda3db65cf0056c0436790c8719a54894",
+      "bytes": 10827,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211063501400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/Compiler.java",
+      "sha256": "1898a7d56509d0140c163274088f5704ad95f76acd49f6f373b96ed948189afd",
+      "bytes": 8602,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211063501400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/LocalVarsSymbolTable.java",
+      "sha256": "b0ab250465d34d54fc4f1ed5eac2c35838ed3c73d67a8c5be5ee762f06c3f5b2",
+      "bytes": 3649,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211063501400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/ParamUtils.java",
+      "sha256": "85c026c871f17eed36dee4af156d00b7918a2c53a4abd684cdc96e94a0a9b868",
+      "bytes": 4637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211064499600
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/errorhandling/ErrorCollector.java",
+      "sha256": "588990eca255a1c06bc955d6d4ed254553a55b4f31394975bc86092202bc0fd3",
+      "bytes": 218,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211064499600
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/compiler/errorhandling/SemanticErrorException.java",
+      "sha256": "882677222fc90ebd18a06102500b5773eae095e3adeb631b4a058993f1cd8425",
+      "bytes": 1274,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211064499600
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/definitions/ContextDefinition.java",
+      "sha256": "9fe75d7a6d79f01c6f7f21bc768354fbc1168dc7fc5c3abf7328fb5e56441dac",
+      "bytes": 259,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211065499500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/definitions/ExposedField.java",
+      "sha256": "cf0652f51070b14e0136eaab765138c4da75af87c51f333f122e386c31bc8a6e",
+      "bytes": 439,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211065499500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/definitions/InternalConstructorDefinition.java",
+      "sha256": "cc1ca59e09382e60e264b3f404ed3dc32965d1ff7fb3a7422e8d6965646d37e2",
+      "bytes": 2843,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211065499500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/definitions/InternalInvokableDefinition.java",
+      "sha256": "5b4f7ced07323634608a3d15febea483f3022d9aa2956befab95a4b4c285ce08",
+      "bytes": 6259,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211066499000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/definitions/InternalMethodDefinition.java",
+      "sha256": "80a4bc4c4b006af95dd9fafe3ca0e8339276733c35b000e60d25aaeb0f589d4f",
+      "bytes": 3074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211066499000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/definitions/TypeDefinition.java",
+      "sha256": "ceb92871d2ebe91329dec40052a1f53ad55151c5ff447cf19c3b6a6243608571",
+      "bytes": 5686,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211066499000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/Parser.java",
+      "sha256": "fbe540d177ea6f505c455f13c8a4e6dec52b132c6bfbc267f48b38f2b0f837b9",
+      "bytes": 1467,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211067822700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ParseTreeToAst.java",
+      "sha256": "fce02bd8bb834d3b05d3059a79ce8ef50f4ed7e76bf926c2b71689feb9694341",
+      "bytes": 39027,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211066499000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/TurinFileWithSource.java",
+      "sha256": "074cd03f53a5fabd96fc7e0c1787f904d35edc7d386583a53c2affe7555d34b7",
+      "bytes": 1143,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211067822700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/analysis/Property.java",
+      "sha256": "eacb458994f29116aa8fb96ccde9241351ca72d7d55a769fa8aaba7c6d1b0278",
+      "bytes": 4405,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211067822700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/analysis/exceptions/UnsolvedConstructorException.java",
+      "sha256": "5744d7993542dc5bb9824fc8fea8972de46451e2739f5b3ff668363ebf878284",
+      "bytes": 923,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211068974700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/analysis/exceptions/UnsolvedException.java",
+      "sha256": "33ef40c36be7005426c3df6c94636fa0eac6439481db3ea8f3dc1abfaac484d3",
+      "bytes": 214,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211068974700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/analysis/exceptions/UnsolvedInvokableException.java",
+      "sha256": "0371b4b01493d9232db80f75d51b3c828fe13ba755fa87b38c1e5d8e34abd1d9",
+      "bytes": 343,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211068974700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/analysis/exceptions/UnsolvedMethodException.java",
+      "sha256": "81b93b3478d6b936857b5d7b97a9f63054dc4b6a19c28c04bdb60e53b13eecaf",
+      "bytes": 833,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211068974700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/analysis/exceptions/UnsolvedSymbolException.java",
+      "sha256": "6b3df21bbdb0475438a1522f6c3344e0d6ea620bfea761b0d2d5d07da64e7501",
+      "bytes": 641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211069971000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/analysis/exceptions/UnsolvedTypeException.java",
+      "sha256": "bc06531932dad44e137deb14f773391d12cb462981c783d8fe782f2abb32138e",
+      "bytes": 317,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211069971000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/FormalParameterNode.java",
+      "sha256": "b1fefb42189ed01fc6427896b32c7fc45b7553b1e5f6ac49c61287dd027f958c",
+      "bytes": 3428,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211069971000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/MethodSetAsInvokableType.java",
+      "sha256": "f25b8bb0c8540f237d1e787a1ff614fcce8540263befa750cd07bffca0389c72",
+      "bytes": 1242,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211071003700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/Named.java",
+      "sha256": "c6f2233511980e98cd736b5dc0eb56616b3cf9ce2db51f25533dfb9ddc38d932",
+      "bytes": 95,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211071003700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/NamespaceDefinition.java",
+      "sha256": "704ec5828a9eaeed6e650f4be0075f68027317a28b17a140afbb163c61b71950",
+      "bytes": 1141,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211071003700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/NoContext.java",
+      "sha256": "2c8eea1bf6ac1bfa16f4bf59722c937f583d34c009c3cfda902a1296e8d0be1d",
+      "bytes": 492,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211071003700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/Node.java",
+      "sha256": "0b2004c5132ef85b043c10ae39cc71259a3ebd1433f8946bafc527bd6c6f30fc",
+      "bytes": 6326,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211072419400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/Placeholder.java",
+      "sha256": "5eafc6ef5e5b2e9372204920b8a3353056892271f2adc75c8670c3a073d2282f",
+      "bytes": 878,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211072419400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/Point.java",
+      "sha256": "bc4d7d4a347329d157780c579f6cff78ba63859cc37065037a1a3f56a9e85345",
+      "bytes": 930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211072419400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/Position.java",
+      "sha256": "855b94114687651c5fc2b934da951145a7f02994e37a413bd643d6ca37be4488",
+      "bytes": 1221,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211072419400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/Program.java",
+      "sha256": "548b8a64877a51a1799704d2cf6107719914b6ac2755e57e80dcf0b7e290c064",
+      "bytes": 2725,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211073419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/QualifiedName.java",
+      "sha256": "df0e46a247d77d73581c2c94a926e2fdc8048f4f25577e184727f9cc3012e5ea",
+      "bytes": 3075,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211073419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/TurinFile.java",
+      "sha256": "53a42df0bf2763e15c1f57ab5fb3850d41500d45576a0441611d52f5d7be34c3",
+      "bytes": 7607,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211073419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/TurinTypeDefinition.java",
+      "sha256": "a7c6ba756fb6d897d1946b20bee7870c8bab7b0817f6bb9e730241eaf5d1883f",
+      "bytes": 22624,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211073419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/TypeDefinitionNode.java",
+      "sha256": "c99772614ea971b2fea51ab4a4c146ea20bb421f4e06d4b0f1e7cd5e291eb4f9",
+      "bytes": 2316,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211074419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/annotations/AnnotationUsage.java",
+      "sha256": "f22fb74245b15527398e45370b814307f3d3075ffd60bc96897ec3c16ce903ff",
+      "bytes": 1276,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211074419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/context/ContextDefinitionNode.java",
+      "sha256": "8568413d01878ff063edd1be069bce3d644f72fb3a0903605ef72179d4db6723",
+      "bytes": 1284,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211075419400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/ActualParam.java",
+      "sha256": "beb164769edd91055d2ce2f0f1c81f9ab26ee90343090e3c68120205e725356e",
+      "bytes": 2095,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211075419400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/ArrayAccess.java",
+      "sha256": "69520d417576ed86b2fd43af2d778a62794e4b6587603e9a1817c528354a6704",
+      "bytes": 1069,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211075419400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/AssignmentExpression.java",
+      "sha256": "e09ae35db94aa42977a693dd87365415ce74b8ee0f5fe2f6e25bffaf75bbfcf4",
+      "bytes": 1589,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211076419800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/ContextAccess.java",
+      "sha256": "a6da61a97cf1253759ccdf3fe11d1d76c4ecfab002cf68e6150911ea79d1b31b",
+      "bytes": 1982,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211076419800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/Creation.java",
+      "sha256": "7aecd2edba8856ce230b88252170eea05716e9987c2bcc1c931a850f3c3cef0c",
+      "bytes": 2876,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211076419800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/Expression.java",
+      "sha256": "6bd30b0ff211d23b41ecfde93c2540898b621f69b1e7c257fe123e4386fdb14e",
+      "bytes": 1226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211076419800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/FieldAccess.java",
+      "sha256": "dda97a98a3950f05da32a6a56e0906ae7777b3027fa9be49bc3ac535ee227087",
+      "bytes": 2832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211077419000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/FunctionCall.java",
+      "sha256": "b08b01e741e2baba6ecde42b13121c252d64c21d60a72060a7c77c34d478e1f3",
+      "bytes": 3010,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211077419000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/InstanceFieldAccess.java",
+      "sha256": "1df997259194e4abe3932babacbd85d8f728fec14c506266bfab6b7c6ee7b9ef",
+      "bytes": 2255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211077419000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/InstanceMethodInvokation.java",
+      "sha256": "4b6730f0c4275d0a9709c5de6e24ac776bad6a2cb06d5f2796ff7864015638f8",
+      "bytes": 3503,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211078420200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/InvokableExpr.java",
+      "sha256": "6dc7c48cb48924ea7b809f5d9b0eec112aa6e4874ceaebca14cd0bda7d626690",
+      "bytes": 9222,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211078420200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/LogicOperation.java",
+      "sha256": "e6f092e64eb2d470f5e10a991bc19c46f8884d017ec298a6261fe4c53eead073",
+      "bytes": 1605,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211078420200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/MathOperation.java",
+      "sha256": "ddde0fb4a543b57aa49b9e948386dc380e22c4ebc696f49886d45c4b2c04dad0",
+      "bytes": 1593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211078420200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/NotOperation.java",
+      "sha256": "2b143fb870e23b18a1bb851db876837379d1c2ecff193844cdee4d3255151e9b",
+      "bytes": 741,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211079419900
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/RelationalOperation.java",
+      "sha256": "bf3172bd85582486950d7387e8827b770dfb3301eed3d5a6cc178507e46aa08d",
+      "bytes": 1944,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211079419900
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/RelationSubset.java",
+      "sha256": "107f52724317c3c3ddda156c6475835be61741420c39d8bac545933511eb5e8d",
+      "bytes": 987,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211079419900
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/SemanticError.java",
+      "sha256": "779c6257aca98c86eee6b2ea08205be5fa305d0bca6189b727df90cbae05bcc0",
+      "bytes": 1056,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211079419900
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/StaticFieldAccess.java",
+      "sha256": "bee5cf14e2d6fe1675e0f0ea24a4692d90f42fe5ffa67797ff22511c50903ffb",
+      "bytes": 3783,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211080419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/StringInterpolation.java",
+      "sha256": "22d463e0575a05678a7cd8d0402e232d867adeb6286304e1f8a60e334b4643f0",
+      "bytes": 1626,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211080419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/ThisExpression.java",
+      "sha256": "1a35d500c3dae6f3c4523795f12de816c8bef8434086764e26fd0b92811f7d63",
+      "bytes": 1118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211080419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/TypeIdentifier.java",
+      "sha256": "8afed4ae9e7f7d78e2a18cfeb44a4d17eafabff95a3ea83f43e6fb9aa52ccc51",
+      "bytes": 2505,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211080419300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/ValueReference.java",
+      "sha256": "195f1e6b4e59bac861ad14d9fb68c984726ef2cd918bf146bf593bdbf3840fa3",
+      "bytes": 4857,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211081419700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/BooleanLiteral.java",
+      "sha256": "4c60bd60a8ce25927f8792085e10ce5eb9d7dfa686d2d05bdd84822a716cb1f5",
+      "bytes": 759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211081419700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/ByteLiteral.java",
+      "sha256": "2796dfab3eaa247fdd790d4b2289b79e1b7125c694dda7aaa468e2cdf73967e9",
+      "bytes": 1262,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211081419700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/DoubleLiteral.java",
+      "sha256": "6b9f40375f52aa02bed906347dcb9de31e080533843f846ef0360d6729816ebf",
+      "bytes": 1297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211082419600
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/FloatLiteral.java",
+      "sha256": "0fca003d79f162e729e4006eaac8ac48894c24207e0a766aa44aaebf1de38efb",
+      "bytes": 1312,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211082419600
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/IntLiteral.java",
+      "sha256": "1c4f9c6be670da8fac5cda3eb28f1ca7952450009947c45a65637336b4bf118d",
+      "bytes": 1253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211082419600
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/LongLiteral.java",
+      "sha256": "3fcc732fbbd48ba626c116d75a7a9aff2010f38fd999f47cd5ff3526b798258f",
+      "bytes": 1277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211083424000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/ShortLiteral.java",
+      "sha256": "1c5b4b3895553f7e5e1f94c9c882a0e2ac91d342d3fdc2d48007beec7549adb1",
+      "bytes": 1271,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211083424000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/literals/StringLiteral.java",
+      "sha256": "473af8524687ac7fd351e745e94e9f3d45ffa3f09fd0fceed49128d8df2ae4c8",
+      "bytes": 1325,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211083424000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/expressions/relations/AccessEndpoint.java",
+      "sha256": "0f1d2d9c05ed28a0f0887d5675446a95d94b86ccec6277f26e8ab34099ca5d47",
+      "bytes": 1264,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211083424000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/imports/AllFieldsImportDeclaration.java",
+      "sha256": "b4756c963dbb7b8e71d74141799dcc92bbab39be7e7ef176539268ebcf7a563a",
+      "bytes": 2202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211084557300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/imports/AllPackageImportDeclaration.java",
+      "sha256": "65e02a97a5de4282af86b169bef999fa14bfa306fceadf9017f0ad2dacc545bb",
+      "bytes": 1837,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211084557300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/imports/ImportDeclaration.java",
+      "sha256": "3a091ca9d41ae7b8d2ae6461fe186eb8857a35281cafc9c9ab50b14a9ee16c06",
+      "bytes": 382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211084557300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/imports/SingleFieldImportDeclaration.java",
+      "sha256": "defd2a15d0a2f0f3a1cf69b2b08635a11dca5aabc82e807c0b58ccb420e0357d",
+      "bytes": 3085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211085556500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/imports/TypeImportDeclaration.java",
+      "sha256": "12d795f1d0af53a53ed8c04fe69fcf1b4d75a7d1831311900fbf1ed41a6b6240",
+      "bytes": 2897,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211085556500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/invokables/FunctionDefinitionNode.java",
+      "sha256": "b20304a73de7abdba46e05651e7bb93792c98019b653e7a73dad4c4387b9489e",
+      "bytes": 4016,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211085556500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/invokables/InvokableDefinitionNode.java",
+      "sha256": "d209b2442f13eb7d729cabfe617ca81aa38608ff03777e79b82b85c14eff67b9",
+      "bytes": 2174,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211085556500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/invokables/TurinTypeContructorDefinitionNode.java",
+      "sha256": "b57a7fff4443fd0ed5b66f5a80ef99a20062fc19440488a6028430e4969af77c",
+      "bytes": 1025,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211086954400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/invokables/TurinTypeMethodDefinitionNode.java",
+      "sha256": "b570e53ea526250b7c8cd91b44e74e09bdaf8bc4f82aba1774a53344b2760c90",
+      "bytes": 771,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211086954400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/properties/PropertyConstraint.java",
+      "sha256": "09e7d9c7fc210468cffa2cbfbcb51c3ba1253e21bc7f93407b5761f0737154ce",
+      "bytes": 1997,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211086954400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/properties/PropertyDefinition.java",
+      "sha256": "0e3755a66b20e4d40c964d9a93fcb73d61b74add92ccba3e29acea1815179d88",
+      "bytes": 3495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211086954400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/properties/PropertyReference.java",
+      "sha256": "bb54dfce625ce700f85a722b5b538d047c84bd79531638185c1a7a7e625523f0",
+      "bytes": 1578,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211088100400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/relations/RelationDefinition.java",
+      "sha256": "40039de24dca4e2931772b9bc3ad1ae0bec3482ce7ee10ebca5e17eff1b4254b",
+      "bytes": 5105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211088100400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/relations/RelationFieldDefinition.java",
+      "sha256": "93ae84a90cdeea393f71b2d8b1e2814678d22870a7c173806e22ee1186219715",
+      "bytes": 4602,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211088100400
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/BlockStatement.java",
+      "sha256": "3f12a49cc7febebfe3148fc944bfa87f07346654400a428bc69fe07f962a9664",
+      "bytes": 1582,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211089177000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/CatchClause.java",
+      "sha256": "40b5549b14bb77e27942ef9d8acf17cf75f936a7384d697d0972be3bdbb7f599",
+      "bytes": 1676,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211089177000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/ContextAssignment.java",
+      "sha256": "5929916ce463c7a59ff4590240791632354d1a4bccb0fcb53eb56c46a13c84c5",
+      "bytes": 1817,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211089177000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/ContextScope.java",
+      "sha256": "b6a73af1ecb6f64ed65f8e81cfb1f2395b39fe5f04f85118926dedfe74925beb",
+      "bytes": 1034,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211089177000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/ElifClause.java",
+      "sha256": "1e27570d6adaf72fe1bed57ebbefdf2c0df05f83c3d6dabed2821695476d391e",
+      "bytes": 809,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211090210200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/ExpressionStatement.java",
+      "sha256": "d5a0007293ae206c86bb9340e16ffb07975c4467625946da677524e7927c7f7d",
+      "bytes": 1224,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211090210200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/IfStatement.java",
+      "sha256": "9ac2916792b562dec6031dc3a44d9652b402fa703d18250386bf2747f8dead6d",
+      "bytes": 2122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211090210200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/ReturnStatement.java",
+      "sha256": "d85035683746ded6b8b4e2a69d00ae1633a91a48b2b8c0cf05898022390fa81e",
+      "bytes": 710,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211090210200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/Statement.java",
+      "sha256": "772d1f47461d1b7b6edc39b4a1429c4f1d9323d4aebce3e1405fbd6aeba2d9a8",
+      "bytes": 178,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211091366500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/SuperInvokation.java",
+      "sha256": "db7e6edc5ab0dcf30032d24fb93b6e5b03183d7fadfd550b77dee419b6da8c08",
+      "bytes": 1846,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211091366500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/ThrowStatement.java",
+      "sha256": "c6157925c11c0f9caff863be20be658e01c41edf6a89e8dcf90024ca95c1d45e",
+      "bytes": 2370,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211092367000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/TryCatchStatement.java",
+      "sha256": "cf9e2a011e01852db9567a282aa26babe596df626c8c7351c5cb7318f78b2216",
+      "bytes": 904,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211092367000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/statements/VariableDeclaration.java",
+      "sha256": "490c624ae969b7c768e37500fd735a70af03fce81d72dfbe09e7e072fa863736",
+      "bytes": 2993,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211092367000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/ArrayTypeUsageNode.java",
+      "sha256": "fd4f7f84a35fc43ed5ccd74609c97a00bd2719cd4076034dc633d1c08d974eb4",
+      "bytes": 1416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211092367000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/BasicTypeUsageNode.java",
+      "sha256": "3201ef9a1713db1b5f237cf3328c756da778dbfa684b2a9e0d8ca56114dacf97",
+      "bytes": 832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211093367300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/PrimitiveTypeUsageNode.java",
+      "sha256": "bf6c01fdac5d42aeec59cffb3461499739109cc12c14f798456f088427c151d7",
+      "bytes": 2882,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211093367300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/ReferenceTypeUsageNode.java",
+      "sha256": "102b3ed269ca5a3749b53e432bfbbedc81cee8ede8144b235c176629b84df616",
+      "bytes": 4135,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211093367300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/TypeUsageNode.java",
+      "sha256": "0b9f15aeeb9c77eecfe51783bb05777800d7b8f06178e3993a89d68fcfac4d0d",
+      "bytes": 5320,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211094367500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/TypeUsageWrapperNode.java",
+      "sha256": "b14da8eb2ff475e2073f9e6b63849e7880d6dce0b99a434b90f990a74cced21f",
+      "bytes": 3149,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211094367500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/TypeVariableTypeNode.java",
+      "sha256": "2f5a359013c048a9a9c797db81bda4509eaed49f63bcf8c191177b5c3ac2e82b",
+      "bytes": 1024,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211094367500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/typeusage/VoidTypeUsageNode.java",
+      "sha256": "db560839e45d9d42eb1bfdec9b0e98e01f144d3d3d6ea92c6da9c7e501da2fa2",
+      "bytes": 595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211094367500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/virtual/ArrayLength.java",
+      "sha256": "4a1b95396d7a5089912b021e6ec5762d82f8a1c75c06e55ecc679308687ef3c8",
+      "bytes": 516,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211095366700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/ComposedSymbolResolver.java",
+      "sha256": "3f9e5164d3c95730181095d449caffeead87490ab7c26e4ab380c42d37a5879c",
+      "bytes": 3886,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211095366700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/ComposedTypeResolver.java",
+      "sha256": "1f0d8791c94bbc2426cdec05b4593e0bfa59989c6e245e9c07fcf0d23f3d85d7",
+      "bytes": 2520,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211096367800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/InFileSymbolResolver.java",
+      "sha256": "20a8428cf780333aeaa6bfff0695a7fc756430ae5bfc0e88e76164450f821585",
+      "bytes": 10645,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211096367800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/ResolverProvider.java",
+      "sha256": "7fca3656d3881ace5452fd270965a2198b22b0ae54f6136dc0edbfbb22dc96b0",
+      "bytes": 311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211096367800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/ResolverRegistry.java",
+      "sha256": "ba85c3644efe2316bbc4cf435e2d494cbd41407190c012c865ea2564ed5fe727",
+      "bytes": 1122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211096367800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/SrcSymbolResolver.java",
+      "sha256": "69670334f44599ca783362b95df67038eeb4362f02938fccaff4dfdf29d28c79",
+      "bytes": 5683,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211097367300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/SymbolResolver.java",
+      "sha256": "675ec6f421dfd964e99ec5a65b98fc4adeda49feb1e75d1d76aab0c93bf9acee",
+      "bytes": 3484,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211097367300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/TypeResolver.java",
+      "sha256": "aecac7a15e2ad7700702d6c0f24050cef1ebba8b149ad4760feb18970ef3f638",
+      "bytes": 641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211097367300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/AbstractCompiledTypeResolver.java",
+      "sha256": "89bc34f8e6e31f19716194e0b47fea0cd93053bf1b07f00672e1d80664653edb",
+      "bytes": 7459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211098567700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/ClasspathElement.java",
+      "sha256": "3b53d3d8684bf039c97d253a00d7a7641159be8e1833e1cd8c4759fd821dafd8",
+      "bytes": 318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211098567700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/ClassPoolFactory.java",
+      "sha256": "1fdf34898718a485fbc6ec6d70b5a416d2afefebab38d85cf3d94b83c905a214",
+      "bytes": 546,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211098567700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/DirClassesClasspathElement.java",
+      "sha256": "23c8edca1ce8d703df2b2a8f34ddb085fa9d053ca60f79a0ed895decdef82dc6",
+      "bytes": 1222,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211098567700
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/DirClassesTypeResolver.java",
+      "sha256": "e52167be11dfacb312360c9fe953d9ce2b617f809ad9580477dafdc578becb6b",
+      "bytes": 2163,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211099746000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/JarClasspathElement.java",
+      "sha256": "41d9210b465e3e60b33a2f05d3866853ab767fc043e79577a91dc192cbe3cd44",
+      "bytes": 1482,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211099746000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/JarTypeResolver.java",
+      "sha256": "1fe5718792781bb5f62447c0e6964c492210f27b097b298b67063ba9cbf0def7",
+      "bytes": 3495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211099746000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/JavassistBasedMethodResolution.java",
+      "sha256": "743e408289f152ebe6ffd53bc007ed1d627d2791a45fcb9c3c9f6630d237b542",
+      "bytes": 11286,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211099746000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/JavassistTypeDefinition.java",
+      "sha256": "b06c55b5481d7207b301c1b533fde04e4f77c11f94c7860cf79d207a367d2500",
+      "bytes": 26043,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211101027000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/JavassistTypeDefinitionFactory.java",
+      "sha256": "5c073ecbbfde0821f190ff27bdb66102cad12889698ab6e16c9a475ca521a5af",
+      "bytes": 4582,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211101027000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/compiled/LoadedFunctionDefinition.java",
+      "sha256": "beb63b5647f899bef845d40358718be8add9580792b15c65579c33925f8af43b",
+      "bytes": 1406,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211101027000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/jdk/JdkTypeResolver.java",
+      "sha256": "1c98ade9569162b3c2454e386e6931e9e8c4cb72f677133f327fa9c61be825e5",
+      "bytes": 1818,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211102245300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/jdk/ReflectionBasedField.java",
+      "sha256": "dd64b172000ffd284fcfe2d59c355871bd2ed348cf52d8867752e4904f224ae6",
+      "bytes": 2100,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211102245300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/jdk/ReflectionBasedMethodResolution.java",
+      "sha256": "6fc571632fc21e674584129ee328ae9a0b3500d084ff690c5eafaf252ed38869",
+      "bytes": 14528,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211102245300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/jdk/ReflectionBasedSetOfOverloadedMethods.java",
+      "sha256": "a91a599dd78d21249df1c6a7a9d3114967ef9ea446d2b871ef2a1ab97f3cf3b2",
+      "bytes": 3640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211102245300
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/jdk/ReflectionBasedTypeDefinition.java",
+      "sha256": "8ec60c1744cad3b157ae8a634fec793c8fccbaeaaf6436b274e75c77a9a486ba",
+      "bytes": 13896,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211103256500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/resolvers/jdk/ReflectionTypeDefinitionFactory.java",
+      "sha256": "f66a7862378e8ecc3e14f62e3e5ade775dca9feb4f30205289f489430fe66415",
+      "bytes": 5240,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211103256500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/symbols/FormalParameter.java",
+      "sha256": "8ad0762453ed23434ce960061dd9681c06e9cb4218d9ab958dce58413fae9551",
+      "bytes": 323,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211103256500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/symbols/FormalParameterSymbol.java",
+      "sha256": "1edc6a001b1809d8e3e8894a2a83d3f74a0318ce137940215db251862d7b402d",
+      "bytes": 2074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211103256500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/symbols/InvokableDefinition.java",
+      "sha256": "9bf475d11aa4da1da4c0fa8aab800c8dacdc3ee6d7ad81e3f25907259317c420",
+      "bytes": 289,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211104653000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/symbols/Symbol.java",
+      "sha256": "c8c0da615f75febc72cf3619b062785bf0c82039debe7729e08e7b78e4240de4",
+      "bytes": 1277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211104653000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/ArrayTypeUsage.java",
+      "sha256": "ca6e2fbd6604aac3ff004bd09367057a76525bf8acc01a86eae070fc8073628f",
+      "bytes": 3207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211104653000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/ConcreteTypeVariableUsage.java",
+      "sha256": "3a884fcc0d91216192804f0836e7caaa2ac1f25a5e91c699f2c8286f851bb173",
+      "bytes": 2285,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211105673800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/Invokable.java",
+      "sha256": "a877311c3aa1a281feac2fd310ca9965c1becb484fa6e2f9bf50efb381cfd60e",
+      "bytes": 468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211105673800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/InvokableReferenceTypeUsage.java",
+      "sha256": "a4e0de6236ba7e2cb1e8c7ee1f1db2b5f0d39cb3cbc9973662a5cae8ed42a2a1",
+      "bytes": 6082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211106179000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/MethodResolutionLogic.java",
+      "sha256": "186f72c226017b606db740ddd16ebe8987ac38b3c4bdeadf9df81dc0e3fb5626",
+      "bytes": 4590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211106179000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/OverloadedFunctionReferenceTypeUsage.java",
+      "sha256": "96487e20db8066555b7072ab0c901ba1bede9c1dd6b4bd8c273e62e1983f22e8",
+      "bytes": 643,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211106179000
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/OverloadedInvokableReferenceTypeUsage.java",
+      "sha256": "8e459442b59211dd0912f029d9367fdcca426d43d89e2911edbb758eb7dbcd32",
+      "bytes": 3527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211107235200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/PrimitiveTypeUsage.java",
+      "sha256": "7617af0454aadabed7a894ccbdd315fe37583a78c509541ef9e29110f59e9949",
+      "bytes": 8152,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211107235200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/ReferenceTypeUsage.java",
+      "sha256": "a6108c721644752ed288daf1b9ab8e6f76ff808ee8a3eed3d27085d06fdead9d",
+      "bytes": 7118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211107235200
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/TypeUsage.java",
+      "sha256": "b472a3893dfb9e7baf1aae14459bdc160161256359881b0dff3d98e6839f4b9c",
+      "bytes": 3004,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211108313800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/TypeVariableUsage.java",
+      "sha256": "2c71f3b6a47313f49b7307dd554c9319f1006b6816717fc175eaccf4a14e15f6",
+      "bytes": 2667,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211108313800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/UnsignedPrimitiveTypeUsage.java",
+      "sha256": "9f9a725018a0b4582b6f0841e6522cea9285f2a771b9005a8515b0dbceb63e6a",
+      "bytes": 4571,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211108313800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/typesystem/VoidTypeUsage.java",
+      "sha256": "25b2159778829c407256661fda1d570ad4ab7a7f706fdfbb0c3ee786a1b6a226",
+      "bytes": 1220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211108313800
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/util/Either.java",
+      "sha256": "c3321fc985d0f6ae3fedfbd03224b3325f3fac0d1ef70573fba84f6296532171",
+      "bytes": 1872,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211109420500
+    },
+    {
+      "relative": "turin-compiler/src/main/java/me/tomassetti/turin/util/StringUtils.java",
+      "sha256": "2fd7dfdb7e0a373b501f90c629d86a327236e2d3dccfe3229dbae4db9abd4b15",
+      "bytes": 336,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211109420500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/AbstractCompilerTest.java",
+      "sha256": "bcaffbab3252845881af99461fc45fcf3a0aff2a99e80b6e4dd17fd62feb9b37",
+      "bytes": 7157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211110433600
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/AdvancedExamplesCompilationTest.java",
+      "sha256": "7207fd33cd727f1b022224a73875662ebaa3a010a374a9655d2f5eaae3e9f01d",
+      "bytes": 3628,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211111439000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/AnnotationCompilationTest.java",
+      "sha256": "07d1decf999f12be18e588259a451c11713d343a2c14fa28a6fd2916ecbfa847",
+      "bytes": 2549,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211111439000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ArrayAccessCompilationTest.java",
+      "sha256": "02a0622ed182d479bef042a7361237bb602e88a6f646989fd77bb904cdeccee3",
+      "bytes": 1675,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211111439000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/AsteriskParameterCompilationTest.java",
+      "sha256": "de2a15ec273ffdfe0e423a6a19c6387ffa621e084147cb12755dd61c42e7a14d",
+      "bytes": 8896,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211112433700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/BasicTypesTest.java",
+      "sha256": "77dc15222fd770b89917666d65a513c596d7ec6544dfadb2ee57e4ad3cd6c352",
+      "bytes": 9124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211112433700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/CompileArrayOperationsTest.java",
+      "sha256": "7233e497b21b93c92010d9085ef5cf8a21ac3bec275db23af6240f0bb3a81617",
+      "bytes": 759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211112433700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/CompilerJarReferenceTest.java",
+      "sha256": "d38715724c9cb73837539d06a25111523e840e03dcea804f0e8aba05b1f49d85",
+      "bytes": 2556,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211112433700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/CompilerOnAstTest.java",
+      "sha256": "5e242c17af30a33735c25df7d83bca09c4f8dcf55d1436b0a856d5bf1fdb44ff",
+      "bytes": 20818,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211112433700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/CompilerOnFileTest.java",
+      "sha256": "df0c1540926d8a80f7d22840243aef04e0b8e4502730c8958d3de65a68c178f9",
+      "bytes": 34816,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211113849900
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/CompilerOnProgramTest.java",
+      "sha256": "6f3de21149924b523907b001c414ffca154b750bb81c127e7663b924d7fe26db",
+      "bytes": 4829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211113849900
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ConstructorsAndExtensionCompilationTest.java",
+      "sha256": "9e67c079dcc5bbbc4ec3cd83895fe527cd8f07e097d208de3acc5d29f0279136",
+      "bytes": 4869,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211113849900
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/DefaultValuesCompilationTest.java",
+      "sha256": "2d738963860658186ec363592f3b6ab4b79f286df0a21caaccb8aed002e555ce",
+      "bytes": 4574,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211114851500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/DuplicateNamesCompilationTest.java",
+      "sha256": "c2f7eb2bfb7071f72cf4c2a50af24417285b6b73b6a1ff3300b0e4104d84c41a",
+      "bytes": 2901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211114851500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ExamplesAst.java",
+      "sha256": "6b5af4a19abda2bd0eb4235e371167777c0e9b414bec0acdc4361c00112a9d69",
+      "bytes": 2307,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211114851500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ExplicitConstructorsTest.java",
+      "sha256": "0d734124d53a7978b2fc2ca7ef7468bf10b7326265c426c0d497aa66947736a5",
+      "bytes": 2480,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211114851500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ExtensionsCompilerTest.java",
+      "sha256": "28ec52d9760fedc7c3cd4fd173f2c3469cd4e7ea649a3ba32fc2c4ed45f6dab2",
+      "bytes": 2251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211115868600
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/FieldConstraintsCompilationTest.java",
+      "sha256": "be3cf4ec1394b4cd41289c98cb241afc92bc834c1d6349c5b5692aefe21bf64b",
+      "bytes": 5822,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211115868600
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/FunctionsCompilationTest.java",
+      "sha256": "ed2e64085f148f41081a78dd7727336e09599ac5281f9f17b09685bec47652f3",
+      "bytes": 4126,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211115868600
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ImportsTest.java",
+      "sha256": "e5ca89eb5b7bf4d3ef9a11b32fcb2eae21c2f41f4f68b3c55f6ef877f0b292f5",
+      "bytes": 4934,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211115868600
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/InitialValuesCompilationTest.java",
+      "sha256": "8093badac7b8470c376e623c8fb3c1e4c6e81865837f7e661e36275ead89f898",
+      "bytes": 3121,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211117192500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/LocalVarSymbolTableTest.java",
+      "sha256": "b91310d4706db4fef9481b6794e286b25b2e000e1f26750608c7da533b550561",
+      "bytes": 5257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211117192500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ParamUtilsTest.java",
+      "sha256": "1b1fd7aae214f54fa441c5f8e0b94b434534f92a6dba05ad52cbb943e1fbbe88",
+      "bytes": 11535,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211117192500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ParamUtils_RBL4_6e5d9f86Test.java",
+      "sha256": "af08861cd79cf3b55e5120f90071ff27e304df12e710fb8aae7f32f47bf0ebca",
+      "bytes": 89,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835760144331300
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ReferencesInOtherSrcFileTest.java",
+      "sha256": "f8ae75e1439c5b7e18af17285e555c6492bddb42775359a6c4e7e605fe8f45ad",
+      "bytes": 9283,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211118191200
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ReferenceToCaughtExceptionCompilationTest.java",
+      "sha256": "3f5db60ec3243da7cb54916327a8960cc72e19fae2692d723c1a7d64e9707478",
+      "bytes": 667,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211117192500
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ReferenceToLocalVarCompilationTest.java",
+      "sha256": "c953be47b8ec290f1fad3b6703b24a4c654e99ab0a86cb1d450f9540266460e6",
+      "bytes": 1933,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211118191200
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ReferenceToStaticFieldInCompiledClassCompilationTest.java",
+      "sha256": "304971467987b592e5734bb95bad91ffcbf9884005c1c7aa49bd94f0ef68c517",
+      "bytes": 865,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211118191200
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/StaticMethodsInvokationCompilationTest.java",
+      "sha256": "fb18d5eaa66a3d713d84039843e71437dac9db2f62ee82cf112787966d956fe7",
+      "bytes": 1737,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211119189700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/ThrowCatchCompilationTest.java",
+      "sha256": "d907583ffe6d1fdbd2c05afcd52d85a3d26484165408f697087982cbb6adf75a",
+      "bytes": 4014,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211119189700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/TopLevelFunctionInvokationCompilationTest.java",
+      "sha256": "6944632e6f63d008001b953ac22fb6935353adb882194dbe2f8879a1fc2cb4a1",
+      "bytes": 1813,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211119189700
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/context/ContextCompilationTest.java",
+      "sha256": "3066676b98c88b216e900fec527de0a12eec606eb10c1fc921efb19ed63381e4",
+      "bytes": 4998,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211120437400
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/compiler/relations/RelationsCompilationTest.java",
+      "sha256": "1958e47c875eee8a107be7da42f59d2118222a59853f2827a6ce6b1707592e0c",
+      "bytes": 8770,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211120437400
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ParseTreeToAstTest.java",
+      "sha256": "125fdaf4c99318159174df7695e13cd706e769060c5806614c999c82e5a66cdb",
+      "bytes": 6116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211120437400
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/analysis/jar/JarTypeResolverTest.java",
+      "sha256": "c0be0aac40bb5dc290c9d12a9651de93ace0a9318deb14f2f46a70f3fee1b46b",
+      "bytes": 5679,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211121556800
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/QualifiedNameTest.java",
+      "sha256": "6f3454c96de4f0aeca44984456179df35e3eb24969114cdfb58a4a08f79c24ad",
+      "bytes": 2741,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211122557400
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/TurinTypeDefinitionTest.java",
+      "sha256": "188339c0a8c8cd57d2ccb473434ce67e2bba38b7d0210ecd20dcf0e177e7193c",
+      "bytes": 11288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211122557400
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/TypeDefinitionTest.java",
+      "sha256": "e7d024b46e4ea1be5a0f224bf45ae9b4918cb192aa39f84f509d44210b156a9f",
+      "bytes": 83,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211122557400
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/ValueReferenceTest.java",
+      "sha256": "55dd6c17a5cb907920641439903938143111e236e6df3258171297203f758fcd",
+      "bytes": 3455,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211123557000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/reflection/ReflectionBasedTypeDefinitionTest.java",
+      "sha256": "1cc32e90fd740fd23c5d27c11f517fd1c04370ca3fe08ce73f4f79b167705db4",
+      "bytes": 3472,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211123557000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/reflection/ReflectionTypeDefinitionFactoryTest.java",
+      "sha256": "aba67488dd8414f7779d52467f5303961fc898ba72a84caa13f616255a982456",
+      "bytes": 2128,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211123557000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/typeusage/ReferenceTypeUsageTest.java",
+      "sha256": "8266c2c8ef04ce141e9f53cb42ee3bd4ef99925d27eb32ece5412d68b47307df",
+      "bytes": 3372,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211124556000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/parser/ast/typeusage/TypeDefinitionTest.java",
+      "sha256": "77fbb01cb664bfe79513baec104d3c68e47a0f9860eea26f8098a8a46c93bccc",
+      "bytes": 3288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211124556000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/resolvers/SrcSymbolResolverTest.java",
+      "sha256": "91f9df9057c2eea21a1810aa08ea147901a9bfd1c72f378dfac6998023f5f6e8",
+      "bytes": 5382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211124556000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/resolvers/compiled/DirClassTypeResolverTest.java",
+      "sha256": "a759b9e1a1b5cacfca3c92cab7f48dd3b6c6b87d5ea65a72b6e91c161d964235",
+      "bytes": 7141,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211125993000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/typesystem/ArrayTypeUsageTest.java",
+      "sha256": "a86a13ab7f74433eda32153f44a5d5e11126117d48c7c351bc00b3f1db2791b4",
+      "bytes": 11523,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211125993000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/typesystem/InvokableReferenceTypeUsageTest.java",
+      "sha256": "59b8e74da0ea210661e6b242a59ea34b6ba729188b422d15e82242ff55e9e150",
+      "bytes": 16274,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211125993000
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/typesystem/PrimitiveTypeUsageTest.java",
+      "sha256": "234e5ccf3a3f629fe782e555733173e35d763e05b5505b832f5d2e8ffccd2434",
+      "bytes": 15330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211127406100
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/typesystem/UnsignedPrimitiveTypeUsageTest.java",
+      "sha256": "3458380a832a746aec396435059d7220b5a33f7b2f5ff72a1b466be2a6bb9892",
+      "bytes": 20672,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211127406100
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/typesystem/VoidTypeUsageTest.java",
+      "sha256": "b47b7745c8051e86113c3147a834dc8868ecff588a65758a913a9005b33491f5",
+      "bytes": 643,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211127406100
+    },
+    {
+      "relative": "turin-compiler/src/test/java/me/tomassetti/turin/util/EitherTest.java",
+      "sha256": "a1f5f29ce2a475531b719f2edf6ee39641cdc557cf2ffcf7c56ac593a256321b",
+      "bytes": 1113,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211128786000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/annotations.to",
+      "sha256": "65e86c8a08eccdda934eeb9f4c1788e89c433f7607bb0a69031dd56893d47e8d",
+      "bytes": 135,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211128786000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/array_access.to",
+      "sha256": "372966805383df172369b43dc1d1ccf09306b0e54eaa6942b5e1c5292b611fe7",
+      "bytes": 74,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211128786000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/array_length.to",
+      "sha256": "5f926889291892f361bf82fb891e92eb37cc3f2b9327cb38c32aa061a535923f",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211128786000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/bad_usage_of_asterisk_on_creation1.to",
+      "sha256": "222e701ff901c0c7ffefd04f7c2c4eaae3b0abcc46ae594d446090a992cae702",
+      "bytes": 134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211128786000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/bad_usage_of_asterisk_on_creation2.to",
+      "sha256": "ade88ad292fcbb5b6b764fba004287cb6e7eddcf9a9e4f4c6f5dd10b71bc79cd",
+      "bytes": 136,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211130172000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/bad_usage_of_asterisk_on_creation3.to",
+      "sha256": "bdda0f102bbfd6f01f4a0b68b9ba1d74800dc4b70e90c43a859b3bb350a198e5",
+      "bytes": 150,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211130172000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/bad_usage_of_asterisk_on_method1.to",
+      "sha256": "1b9547c082a49d84bb114ae3cda8c1e8fdad05e741b402c10b154707a258f3e9",
+      "bytes": 149,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211130172000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/basicManga.to",
+      "sha256": "d81a43a746542875f1e6fe6b9087fab59145101a91ec6522746a734192489af7",
+      "bytes": 97,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211131171700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/boolean_literals.to",
+      "sha256": "d1ee2d22bbbf81c0ebcf98cf0c072440b34f3a0dee65f7086f4ed54c6dde4217",
+      "bytes": 92,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211131171700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/call_void_function.to",
+      "sha256": "e35694c3d9d639cfe2141f1514df04d1e2725b37c2f2f554bfeb35ad485b3139",
+      "bytes": 78,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211131171700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/common_methods.to",
+      "sha256": "2ba79f693c9d28547c34ab5da059779e74e411a65aead83939f16a092fd27618",
+      "bytes": 338,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211131171700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/default_values.to",
+      "sha256": "e99bb06059cae4d9f963748780911cc0d22454c2444b7eaf2abd129abc1699eb",
+      "bytes": 207,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211132453000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/duplicate_functions.to",
+      "sha256": "27f15eeb1e1eb6fda617b94af61257965a08cc3e23e83b7bcd81f21ce9f1eca6",
+      "bytes": 58,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211132453000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/duplicate_programs.to",
+      "sha256": "4314056a8364d0af48b0260578b72a50dc85fa42e3e625e98bdbcf5584cdb8e4",
+      "bytes": 85,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211132453000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/duplicate_types.to",
+      "sha256": "5488465d55694d0098dc87f3dd98959bc2f0e7f260deec16766460cd54deecca",
+      "bytes": 49,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211132453000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/explicit_constructors.to",
+      "sha256": "963a1c3d2de3add44ab49224bd3ff5c420552919dd8029d069ed8dcfeafa5211",
+      "bytes": 109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211134602800
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/explicit_constructor_no_extend.to",
+      "sha256": "509c965973f41d5074bf648417b2b8eed350d0d542505b85c51ae91cf59f4ec2",
+      "bytes": 132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211134602800
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/field_constraints_on_default_param.to",
+      "sha256": "01f99eb903dbfe55620e7b465507203b4a021555dfdab5a43d4668aa1918c7fd",
+      "bytes": 529,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211134602800
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/field_constraints_on_non_default_param.to",
+      "sha256": "c0c121776cab78afbe10a3e305ae57a6193b6d53154089c0203e0ed98e85d78c",
+      "bytes": 519,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211134602800
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/function_reference.to",
+      "sha256": "89b57abe1b8e8b2e71f9630a5059d85e1c116f14832762d6afec020b4881ec57",
+      "bytes": 67,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211135603700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/function_with_block_body.to",
+      "sha256": "de20fa651250740bab8acc5346d693a4909b454c3649b89c11f8df5ef46ebc2b",
+      "bytes": 63,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211135603700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/function_with_expression_body.to",
+      "sha256": "88c2efd647efada09d164cb2327e65511acd5aabcde299f74433f3143f008d7e",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211135603700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/if.to",
+      "sha256": "8b1120046b9caeff461d5a5ee898cef957e989f90dd8fafb91c67d4dc061dae7",
+      "bytes": 736,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211135603700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfAllFieldsInType.to",
+      "sha256": "9acc8f210479ecf343375ac271b5d39cb6778954a3d67ff4a0e89d54cd11906e",
+      "bytes": 70,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211136602000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfAllFieldsInUnexistingType.to",
+      "sha256": "aec8edc5ad18a8da3ae7cf68a7e287fa1a318505a2b1b70576af56a871aca4a2",
+      "bytes": 58,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211136602000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfFieldsInTypeWithAlias.to",
+      "sha256": "6068758440f93db0378236e63930d8a2b455c3766f9389ba298fe5263658bfdf",
+      "bytes": 75,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211136602000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfFieldsInTypeWithoutAlias.to",
+      "sha256": "accfa3e2bd48e7558ef1a2fbda05eae196934cf9287222c5530247fc2dff74d5",
+      "bytes": 72,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211136602000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfTypesFromUnexistingPackage.to",
+      "sha256": "faa411294947f67497543aebc4087c1652d5c27e3b792fbb9222fde1850517ba",
+      "bytes": 46,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211137601600
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfTypesInPackage.to",
+      "sha256": "3b77800117513b811d45fbcd03dd29ba4bb3fde832e1a4ffe68ffcb98c57b5bd",
+      "bytes": 86,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211137601600
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfTypeWithAlias.to",
+      "sha256": "0f064d3da5076a85c87c88df346a76be77cdfc5f85c6b06b891b760e446debc6",
+      "bytes": 103,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211137601600
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfTypeWithoutAlias.to",
+      "sha256": "01ae47e2f9ccd31fb3315beb1f59349185a38f25a6a937387b13e20d3e288e7b",
+      "bytes": 105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211137601600
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfUnexistingField.to",
+      "sha256": "616ce6d1d42c99431ab56da91a64393cecbbdc438d16fcba41ac21e41cafe18e",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211138601300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/importOfUnexistingType.to",
+      "sha256": "430c9fd9491c3ce4fa29766cca09967f26eb1d53e921bbc9d0b5005e44afb4c0",
+      "bytes": 49,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211138601300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/import_date_without_asterisk.to",
+      "sha256": "6ebce32ed315e7cc4c52ea5bae2113b2472bcbda90ee6e477750459a800f4861",
+      "bytes": 104,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211139601700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/import_date_with_alias.to",
+      "sha256": "2f85381f56fb1a8823d1b82187c6e059eae9fa87989562ac60ce74b1e5a14bc5",
+      "bytes": 106,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211138601300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/import_date_with_asterisk.to",
+      "sha256": "fa0fd842d1e9e15312486eaffda1345dad2027e6207355f7d4af5402d3762f94",
+      "bytes": 101,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211139601700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/initial_values.to",
+      "sha256": "4a4406c1453c4915a35f4138df4e678287010fadfaa1893e565354d5a237f15a",
+      "bytes": 108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211139601700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/instantiation_of_date.to",
+      "sha256": "85642ad8690eb90a1fe4b6d9f16a07ebd5e561cb27ff230abf7c09646a632d59",
+      "bytes": 89,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211139601700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/logical_operators.to",
+      "sha256": "fb761a12bc888816528b46b9d72c01a3028eab8636e2a7aa03c5c3d4a62e76f3",
+      "bytes": 496,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211144601000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/manga.to",
+      "sha256": "8a52038fdad062ad4f6497a90d3d2c686adf258b5612fa0120ba105f8d0a301d",
+      "bytes": 228,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211144601000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/manga_with_methods.to",
+      "sha256": "d87e37c1e1989248ba3c5c45e089a385b899d923a2e8572c6550bbc7e2e20e29",
+      "bytes": 321,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211145601500
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/math.to",
+      "sha256": "eef982b5984ab1e50802016698922da81e1516588335ae0d8ba527e3bf77aaf2",
+      "bytes": 93,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211145601500
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ok_usage_of_asterisk_in_creation_with_object.to",
+      "sha256": "3ebdf3cc14279bea95932707b5f377c7b61f65a0df092454cfee14cb2bbef7f8",
+      "bytes": 199,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211145601500
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ok_usage_of_asterisk_in_method_with_object.to",
+      "sha256": "6f78774ea4672b018c85c7a66054252ef03fd2dba90e4154243f38ec2d35bcc6",
+      "bytes": 297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211146969000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/primitive_data.to",
+      "sha256": "efe5bada0c5ae8059074dd5adfe75dc73c34bb52a9209f1c0bed86dc4c2a1ab0",
+      "bytes": 552,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211146969000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ranma.to",
+      "sha256": "777a1747ae487791fa2f8c9264d5e9d009b84e3eeb980704460c53a80c6a9912",
+      "bytes": 325,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211146969000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/reference_to_caught_exception.to",
+      "sha256": "5f2fd473f6b120d18869e8398243979c63e07e0347d2c99f759f8f4eb0a9ea43",
+      "bytes": 161,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211148336400
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/reference_to_localvar.to",
+      "sha256": "a4c3c8630aeaf788c05347768fc39953d9855423b0ac4b34152ee1fca5bc1f54",
+      "bytes": 359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211148336400
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/reference_to_static_field_compiled.to",
+      "sha256": "ec69189a9a815b0d624d3c283d114b51796c8ca0463990e64865e11b1b2fb550",
+      "bytes": 111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211148336400
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ref_to_function_in_classes.to",
+      "sha256": "33aeb1e8a5273b0baff46f0faac38cf30e5e9c937a26b457eb4f07e3864af89e",
+      "bytes": 91,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211146969000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/relational_operators.to",
+      "sha256": "14fadf236716b9953937f560b9fbbc235f3e5136861e329f92a316fabbfcd461",
+      "bytes": 837,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211148336400
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/static_methods_invokation.to",
+      "sha256": "f9f906407bda5d0e4d4fb1f2a0b45e59aebbcb1f1b26be6c1a8f8afb21603d26",
+      "bytes": 99,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211155486800
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/throw_statement.to",
+      "sha256": "ed2247ebe64a49ee202d154f01a05ca1a96a31b3353a3aefc08e5118beb4a7fb",
+      "bytes": 108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211155486800
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/throw_statement_using_string.to",
+      "sha256": "6ec2eb1d908fd6f6ac439256dbe33226384b37abdc431c9c81e4b4f2802edbdc",
+      "bytes": 80,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211155486800
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/try_catch_statement.to",
+      "sha256": "a0bd15ef0870671f6d9ca9fb1c2e7b8e461f616587cfe35493aeb3ded9def86e",
+      "bytes": 372,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211156487000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/type_extending.to",
+      "sha256": "3c66933bba5abbbfadd226a0fd601abf2b0462fa8c285d83d8348358fa3583d0",
+      "bytes": 59,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211156487000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/type_implementing.to",
+      "sha256": "a7b58a3150f82354616e3ec06bd57862975d583c1aef368a9db3f7003ad8c786",
+      "bytes": 100,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211156487000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ubyte_property.to",
+      "sha256": "54b2798098cb4a8a1f73c489eacad844583e3b237b2e4adfac69afd4dfe236c6",
+      "bytes": 107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211157738200
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/udouble_property.to",
+      "sha256": "30bc8199e3d44068bd84d7a43ff8fb94b8932226c82b9b255b3d59e97c3d3224",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211157738200
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ufloat_property.to",
+      "sha256": "2845e7429eaa175a94817d451f2f73244a1fe42263e3d75a110496b551e2277a",
+      "bytes": 114,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211157738200
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/uint_property.to",
+      "sha256": "a0d97e03e86b6d78692ef0a1bb2deffb325aadaa3d7d9a69f197c82d993241a4",
+      "bytes": 103,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211157738200
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ulong_property.to",
+      "sha256": "9b798a95e22abe075ba0a679ea9dae1ad676f49f2992ac25c31a29a4c3eb4dfb",
+      "bytes": 107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211158739300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/use_jar.to",
+      "sha256": "4f8b1531f8bddcd5608aa83ddbbd31d4414ffb20fc15dfa3ea4d6f9e1878cc02",
+      "bytes": 153,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211158739300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/use_jar_constructor.to",
+      "sha256": "89f4ab0c4c0dfb9e71923aa4c4cf51516ed5ab3e230cf40d8f32eab04616558b",
+      "bytes": 131,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211158739300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/use_jar_method.to",
+      "sha256": "772f7d2f8a80e1e83f8ab5921c11d037c743bd815ad24678824adaa4230d046f",
+      "bytes": 137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211159738300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/use_jar_static_method.to",
+      "sha256": "e2b8b5959c479cbba69bff0219853a74d2547aa26b48607248e21f874ab431b1",
+      "bytes": 181,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211159738300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/ushort_property.to",
+      "sha256": "66c4cf5116f307b89261a24ec5bd712ddce7f198e6a5b43f5ae2a81c076c0a58",
+      "bytes": 108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211159738300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/context/context_definition.to",
+      "sha256": "d07daf90fda12b9443454b9ba7bf4eff861073660ea6e450bb735d9f862f053e",
+      "bytes": 52,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211131171700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/context/context_usage.to",
+      "sha256": "bd138954f7067e7fb0bd15e53703e7b17eddb7671095b7f97096597146d0f70d",
+      "bytes": 247,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211132453000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/examples/formatter1.to",
+      "sha256": "2afea9426fb1b24765acaeafd969f10682177b874bbfe5deb3c63a45631c3ef3",
+      "bytes": 684,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211133451700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/examples/formatter2.to",
+      "sha256": "54270c3070754ae9118227ca1b317faac3851301d2847ea78e1649036be45f37",
+      "bytes": 795,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211133451700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/examples/formatter3.to",
+      "sha256": "3a73d2aa79a26ed75e1b7bebaccc0792f58cd8528962c2d8406470f40cf93359",
+      "bytes": 1287,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211133451700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/jars/javaparser-core-2.2.1.jar",
+      "sha256": "6625c1b6a452023ce3f2308ce88145828a8b35f0c34ce1f35eb4bfca364b8ee9",
+      "bytes": 320127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211142602200
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/jars/junit-4.12.jar",
+      "sha256": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a",
+      "bytes": 314932,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211144601000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/parser_examples/type_extending_and_implementing.to",
+      "sha256": "d910afe44129220da92dca48d5f40955dcd5ada2adc87b464a9d869bdf7a274e",
+      "bytes": 84,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211146969000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/relations/relation_subset.to",
+      "sha256": "582c78dff82d2e5bee6bb6c544558c3e956fd87ec4407c9231d1584c04d23ac2",
+      "bytes": 373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211149583300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/relations/relation_usage.to",
+      "sha256": "f96c863549cfad02e0ba3dae2fc7ec0d3978fba291dec2dcf4e6cacbebdb25a7",
+      "bytes": 792,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211150089300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/relations/simple_relation.to",
+      "sha256": "c7164b6dcecd8cd1e6c4e184cf89eeb110644b166ae03a831008609e86e1307b",
+      "bytes": 130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211150089300
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/constructorinseparateclassdir/classdira/foo.to",
+      "sha256": "b25ad0b694108c38000c5094bc5472c70c05c0b4df9ed19741bdecfa1f731752",
+      "bytes": 67,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211151098700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/constructorinseparateclassdir/classdirb/foo_test.to",
+      "sha256": "4c5b64493ec7071c2c68b323cbd61b2b4cf8af6920e95750c022155c08d0e17e",
+      "bytes": 147,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211152097000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/constructor_extends1/points.to",
+      "sha256": "37c4e74b72934dc564ca687638b5a9f2967e2b8d7d5ec2fc129795d3638b1ed0",
+      "bytes": 401,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211151098700
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/overloadresolution/foo.to",
+      "sha256": "0296b699703bdca34069ac80e1e4f916ae5873412f7717fb147b85e5bfee856e",
+      "bytes": 32,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211152097000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/overloadresolution/foo_test.to",
+      "sha256": "ca1a47fbc8ecf62b4d29748fde39fe46dd0b46c192c073fba650ac63caf9b476",
+      "bytes": 123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211152097000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/referencefunctionfromothersrcfile/foo.to",
+      "sha256": "0296b699703bdca34069ac80e1e4f916ae5873412f7717fb147b85e5bfee856e",
+      "bytes": 32,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211153101000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/referencefunctionfromothersrcfile/foo_test.to",
+      "sha256": "b562cf1b190b03b397f64550d9f3d6280eef924b2b4ead3edaf5218e1d1e6bfe",
+      "bytes": 119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211153101000
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/referencetoseparateclassdir/classdira/foo.to",
+      "sha256": "bfa2860fd021cef2480f5a12a330fbae56d858feb2fc19ad7ea202df43fc1bd9",
+      "bytes": 53,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211154096600
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/referencetoseparateclassdir/classdirb/foo_test.to",
+      "sha256": "dfe85c73eb14a3ace0b4a3ca4225581ac868c4ef7f0d671d49eb8deaaa652c25",
+      "bytes": 61,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211154096600
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/referencetypefromothersrcfile/foo.to",
+      "sha256": "bfa2860fd021cef2480f5a12a330fbae56d858feb2fc19ad7ea202df43fc1bd9",
+      "bytes": 53,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211154096600
+    },
+    {
+      "relative": "turin-compiler/src/test/resources/scenarios/referencetypefromothersrcfile/foo_test.to",
+      "sha256": "dfe85c73eb14a3ace0b4a3ca4225581ac868c4ef7f0d671d49eb8deaaa652c25",
+      "bytes": 61,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211155486800
+    },
+    {
+      "relative": "turin-parser/pom.xml",
+      "sha256": "f893e369345048553521e646fe9de2f7e1b78e921f16bfdd0f1b29bb82a04249",
+      "bytes": 2555,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211160738000
+    },
+    {
+      "relative": "turin-parser/src/main/antlr4/me/tomassetti/parser/antlr/TurinLexer.g4",
+      "sha256": "0e8b1b0b93cdc2a77fc8f53377a6746f39e0a186c9dd6197a8141917c33fee3b",
+      "bytes": 7975,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211161740000
+    },
+    {
+      "relative": "turin-parser/src/main/antlr4/me/tomassetti/parser/antlr/TurinParser.g4",
+      "sha256": "4980a120c38b151cd55e4e791888f16edd1f222c697fb26ff25b406bb49602d4",
+      "bytes": 8292,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211162742100
+    },
+    {
+      "relative": "turin-parser/src/main/java/me/tomassetti/turin/parser/InternalParser.java",
+      "sha256": "e9ef4c934f97ed4dd3138103df3389feb13222e1a6f48ab118c8e8f0656cb3d8",
+      "bytes": 1171,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211163742000
+    },
+    {
+      "relative": "turin-parser/src/test/java/me/tomassetti/parser/antlr/TurinLexerTest.java",
+      "sha256": "791a3c78bc048677b2cd9772b2f21dd8aa3b4a4564da4b28d6442d1513bcf345",
+      "bytes": 11177,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211165738300
+    },
+    {
+      "relative": "turin-parser/src/test/java/me/tomassetti/parser/antlr/TurinParserTest.java",
+      "sha256": "884ddd7c43d3a3fe918daf37408dd5309b21baaf1f568a72b390790d735946f9",
+      "bytes": 7483,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211165738300
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/args_length_different_from_one.to",
+      "sha256": "c8d5485fdc62895d126bb3013f18b11c056e61f7d4f9d19f4027eabef679420b",
+      "bytes": 46,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211166739000
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/context_definition.to",
+      "sha256": "d07daf90fda12b9443454b9ba7bf4eff861073660ea6e450bb735d9f862f053e",
+      "bytes": 52,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211166739000
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/context_scope.to",
+      "sha256": "537d7ed8639a258bbedf4e42dbb23d1be27f085c6c2ae218052d38c8a7db9de9",
+      "bytes": 106,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211166739000
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/context_usage.to",
+      "sha256": "27951ae803dc0d7bc0f54fd548f0782ba20a070815137d926c00a2a8ff264dd9",
+      "bytes": 100,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211166739000
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/explicit_constructor.to",
+      "sha256": "509c965973f41d5074bf648417b2b8eed350d0d542505b85c51ae91cf59f4ec2",
+      "bytes": 132,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211167739200
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/field_access.to",
+      "sha256": "25bc1f55265d24a88554652f56e2f7015f2f73d58b9c5acf9d0f32f2626f17a2",
+      "bytes": 41,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211167739200
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/field_constraint.to",
+      "sha256": "043915f5b9dfed65e4a46fa859cbc37fd6e39b84ca99ebf09882a9d5d2e0c8ce",
+      "bytes": 128,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211167739200
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/function_definitions_block.to",
+      "sha256": "de20fa651250740bab8acc5346d693a4909b454c3649b89c11f8df5ef46ebc2b",
+      "bytes": 63,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211168740500
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/function_definitions_expression.to",
+      "sha256": "5a9d7348203a05a14ce3cb1fe45879d240191a7a639b25d2160fb9a3ae94f387",
+      "bytes": 42,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211168740500
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/imports_example.to",
+      "sha256": "0cf6621230ceba590aeb67fc6ffd9654bdfae6e28b75866031bab729a823f32f",
+      "bytes": 171,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211168740500
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/local_var.to",
+      "sha256": "68eb55918f98b9f20c10b2536dc4cbd080928777a3482edacd5f1eb3830e9f05",
+      "bytes": 117,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211168740500
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/method_definitions_block.to",
+      "sha256": "83e9ba9fa8062848bf1a96fde88ab07ee3c85a60e40acf85055ce48eca582789",
+      "bytes": 98,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211168740500
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/method_definitions_expression.to",
+      "sha256": "31607eaecb2109a5fa50eba57dc7ad1b90721d03f7a259693b1f1bdd2a0b1b4a",
+      "bytes": 69,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211169740700
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/method_invokation.to",
+      "sha256": "f69bdf5994b08bc33a9ae7ff2e8dfac3e161730115314e3ae5b51bc0fabf16ae",
+      "bytes": 43,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211169740700
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/relation_subset.to",
+      "sha256": "a8a08ca1dd190600fb470ca396a18d8fb5104c5670b78690bb2f1a252de658c9",
+      "bytes": 278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211169740700
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/simple_relation.to",
+      "sha256": "e444b6e6e6a258a8cda918fef9b91a80fdab4a57d3483884a99218539dd38d71",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211169740700
+    },
+    {
+      "relative": "turin-parser/src/test/resources/me/tomassetti/turin/string_interp1.to",
+      "sha256": "7394ebca9b635fe6ef597dd47794df56fd6901c929dbd722e03e03d38daabc04",
+      "bytes": 75,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211170740400
+    },
+    {
+      "relative": "turin-standard-library/pom.xml",
+      "sha256": "7556b14f1ce55fa44f0fc3a9049477dcfbc0a1414e22e4a1ac064a61f3120946",
+      "bytes": 1908,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211170740400
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/collections/MapBuilder.java",
+      "sha256": "c1375d0a4fc40d5811420b2e29b72f5d9c5536178b8da94c6d31dc097d18a9c1",
+      "bytes": 385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211171741000
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/compilation/DefaultParam.java",
+      "sha256": "94dc972aa629d77ee1168751ae26ba17c0853e9a217345f40ef1cd30a10e441b",
+      "bytes": 394,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211172741400
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/context/Context.java",
+      "sha256": "85a0423c8f1bfc104d832701458ca93215b4842b8966267a458a9ce25d3ab2db",
+      "bytes": 933,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211172741400
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/relations/ManyToManyRelation.java",
+      "sha256": "042d41aa47adf53f7517d91986aa253ed553db21c27fe8fc6cfe2fb49c94aeb3",
+      "bytes": 2131,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211173741300
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/relations/OneToManyRelation.java",
+      "sha256": "f8a35020c0672dc28f8952cd6d79a9608f64615099b8cca09b0f34d3656b5c97",
+      "bytes": 2139,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211173741300
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/relations/OneToOneRelation.java",
+      "sha256": "fb4c4abb1a501e9ddb3f7a734b37529e5235e4ee59e1d17172dabe99099e882a",
+      "bytes": 1410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211173741300
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/relations/Relation.java",
+      "sha256": "0e27268a68d23f51283a626f72dd303e5a5c3e499f561c4dd32b7153c6792dec",
+      "bytes": 9165,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211173741300
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/relations/Subset.java",
+      "sha256": "1c8e38ac6d7d04e1971d2c0e49b37342a3aeb04a08df6fe821d561f9cbe32b7a",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211174739800
+    },
+    {
+      "relative": "turin-standard-library/src/main/java/turin/test/Test.java",
+      "sha256": "f109933aa9c561933a678b80697e9655e52e4416b0b8561be3b45f8f5648c42f",
+      "bytes": 343,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211174739800
+    },
+    {
+      "relative": "turin-standard-library/src/test/java/turin/context/ContextTest.java",
+      "sha256": "4900250425aecef4b9b2a2894d6a11ebde4ebf03726bb45876c4893d48deafb3",
+      "bytes": 1624,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211175741200
+    },
+    {
+      "relative": "turin-standard-library/src/test/java/turin/relations/Course.java",
+      "sha256": "67aca396cab428121aa4efd5f925098f02167e15494b794888c2129c56400985",
+      "bytes": 380,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211176743000
+    },
+    {
+      "relative": "turin-standard-library/src/test/java/turin/relations/OneToManyRelationTest.java",
+      "sha256": "5407307ed2043f445dbd562735caf7692a1608ff72d5c8ce8b23e5d994ad1830",
+      "bytes": 9202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211177738400
+    },
+    {
+      "relative": "turin-standard-library/src/test/java/turin/relations/Professor.java",
+      "sha256": "11fe0c1507956e7790285ef9305bddd299d331f2e98ca8c6db3fd9780dbbab20",
+      "bytes": 361,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211177738400
+    },
+    {
+      "relative": "turin-standard-library/src/test/java/turin/relations/Teaching.java",
+      "sha256": "7aba292cdc29d507627d573f4aebaecaa8a73bbb9fa0ee8d17d35f04c431be31",
+      "bytes": 713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784759211177738400
+    }
+  ],
+  "excluded": [
+    "bytecode-generation/target",
+    "turin-compiler/target",
+    "turin-parser/target",
+    "turin-standard-library/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\029_41547678_6e5d9f86\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:45:03.788894+00:00"
+}

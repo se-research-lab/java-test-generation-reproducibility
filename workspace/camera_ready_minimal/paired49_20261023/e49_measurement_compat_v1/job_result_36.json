@@ -1,0 +1,60 @@
+{
+  "job_index": 36,
+  "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/lotterynumbers.java",
+  "repo_id": "64487983",
+  "G0_archived_mutation_percent": "50.0",
+  "E0_archived_mutation_percent": "11.54",
+  "E1_archived_mutation_percent": "73.08",
+  "seed": 20261245,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.iluwatar.hexagonal.domain.LotteryNumbers_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.iluwatar.hexagonal.domain.LotteryNumbers_ESTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 148,
+  "focal_mutants": 26,
+  "killed_mutants": 19,
+  "focal_mutant_qualified_classes": [
+    "com.iluwatar.hexagonal.domain.LotteryNumbers",
+    "com.iluwatar.hexagonal.domain.LotteryNumbers$RandomNumberGenerator"
+  ],
+  "mutation_score_percent": 73.08,
+  "legacy_strict_mutation_percent": 73.08,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "hexagonal",
+      "PACKAGE": "com.iluwatar.hexagonal.domain",
+      "CLASS": "LotteryNumbers",
+      "INSTRUCTION_MISSED": "15",
+      "INSTRUCTION_COVERED": "108",
+      "BRANCH_MISSED": "5",
+      "BRANCH_COVERED": "13",
+      "LINE_MISSED": "6",
+      "LINE_COVERED": "30",
+      "COMPLEXITY_MISSED": "5",
+      "COMPLEXITY_COVERED": "12",
+      "METHOD_MISSED": "1",
+      "METHOD_COVERED": "7"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

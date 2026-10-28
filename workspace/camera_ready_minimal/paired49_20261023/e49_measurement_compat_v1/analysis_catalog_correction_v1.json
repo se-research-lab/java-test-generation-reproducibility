@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-23T17:51:32.041Z",
+  "changes": "analysis_catalog_only",
+  "score_gate_config_unchanged": true,
+  "same_readiness_lock_sha256": "6fa1b9422317fd9d599182d89a7b13359d67da5a33e3ae0490698a624cafad2e",
+  "same_inspection_amendment_sha256": "47d1a6ab4b211ea14c19e82ae798e666055fd043e3497a872395a6840923ddf2",
+  "reason": "Canonical target/classes bytecode belongs in required artifact index; WAR WEB-INF/classes are packaged duplicates. All56 copies were independently checked byte-identical to canonical archived production bytecode. No source, report, result, artifact_manifest, score or execution modified.",
+  "code_input_hashes": {
+    "src/analyze_measurement_compat49_v3.py": "28a986cf56f33d1df04f9eae654d619aee35574f1e2e15db2afe1191b7c56084",
+    "validation/packaged_class_index_correction_v1/packaged_duplicate_checks.json": "80e54500b3f9dd2952904b9108f2f456a5c1a999f0f6ca245e971e2d70006041"
+  },
+  "packaged_duplicate_files": 56,
+  "all_packaged_copies_match": true
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "unique_measurement_calls": 1,
+  "repeated_measurement_calls": 0,
+  "legacy_score": 0.0,
+  "no_behavior_placeholder_count": 1,
+  "non_placeholder_test_methods": 0,
+  "raw_analyzer_revalidation": "PASS",
+  "completed_prefix_unchanged": true,
+  "existing_guard_files_not_overwritten": true
+}

@@ -1,0 +1,59 @@
+{
+  "job_index": 17,
+  "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/decimalstringsplit.java",
+  "repo_id": "46396068",
+  "G0_archived_mutation_percent": "31.58",
+  "E0_archived_mutation_percent": "36.84",
+  "E1_archived_mutation_percent": "63.16",
+  "seed": 20261137,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.kakao.hbase.common.util.DecimalStringSplit_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.kakao.hbase.common.util.DecimalStringSplit_ESTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 387,
+  "focal_mutants": 19,
+  "killed_mutants": 12,
+  "focal_mutant_qualified_classes": [
+    "com.kakao.hbase.common.util.DecimalStringSplit"
+  ],
+  "mutation_score_percent": 63.16,
+  "legacy_strict_mutation_percent": 63.16,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "hbase-common-0.98",
+      "PACKAGE": "com.kakao.hbase.common.util",
+      "CLASS": "DecimalStringSplit",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "153",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "10",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "24",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "19",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "14"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

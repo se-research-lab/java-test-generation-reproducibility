@@ -1,0 +1,77 @@
+{
+  "explicit_file_exclusions": [
+    {
+      "path": "scripts_v2/.env",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/evosuite-1.2.0.jar",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/evosuite-standalone-runtime-1.2.0.jar",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/settings.xml",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/TestSmellDetector.jar",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/tmp_jacoco.exec",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/tmp_jacoco_agent_smoke.jar",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/AgoneTest/evosuite-1.2.0.jar",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/AgoneTest/evosuite-standalone-runtime-1.2.0.jar",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    },
+    {
+      "path": "scripts_v2/AgoneTest/TestSmellDetector.jar",
+      "reason": "local secrets/settings or dependency/binary, not source"
+    }
+  ],
+  "excluded_tree_names": [
+    ".git",
+    ".gradle",
+    ".m2",
+    "__pycache__",
+    "artifact_archive",
+    "artifacts",
+    "build",
+    "cache",
+    "cache_preparation_gradle_v1",
+    "cache_preparation_v1",
+    "compiledrepos",
+    "dist",
+    "gradle_cache",
+    "jobs",
+    "maven_cache",
+    "node_modules",
+    "repo",
+    "repos",
+    "target",
+    "tectonic_cache",
+    "tools",
+    "workspaces"
+  ],
+  "other_exclusions": [
+    "tool binaries",
+    "sqlite input snapshots",
+    "raw job workspaces/log archives",
+    "generated-test output archives",
+    "SLR PDFs",
+    "real credentials"
+  ],
+  "scope": "existing source and small configuration/result snapshots"
+}

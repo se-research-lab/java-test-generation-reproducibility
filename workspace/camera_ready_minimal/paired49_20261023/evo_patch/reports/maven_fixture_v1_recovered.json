@@ -1,0 +1,28 @@
+{
+  "status": "FAIL",
+  "returncode": 0,
+  "surefire": [
+    {
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\maven_runtime_09\\target\\surefire-reports\\TEST-fixture.BranchFixture_ESTest.xml",
+      "sha256": "b0c1853701b127979673d6a8b48c6fa82b33d8c1a5d7ddef11f9f187c0411b87",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "mutant_rows": 10,
+  "mutant_statuses": {
+    "KILLED": 7,
+    "SURVIVED": 3
+  },
+  "jacoco": [],
+  "raw_artifact_hashes": {
+    "target\\pit-reports\\mutations.csv": "2407b90693419ef4b181517efd25ab2427815550e8e45979bd3a611ee1dacf5e"
+  },
+  "generated_bytes_unchanged": true,
+  "parent_environment_unchanged": true,
+  "study_projects_executed": 0,
+  "original_code_modified": false,
+  "limitation": "Mirrored synthetic POM; actual copied pipeline, renaming/scaffold handling and benchmark repos still require validation"
+}

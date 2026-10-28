@@ -1,0 +1,15 @@
+{
+  "name": "junit_negative",
+  "argv": [
+    "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+    "-cp",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\testclasses;D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\classes;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar;C:\\Users\\admin\\.m2\\repository\\junit\\junit\\4.13.2\\junit-4.13.2.jar;C:\\Users\\admin\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar",
+    "org.junit.runner.JUnitCore",
+    "fixture.IntentionalFailure"
+  ],
+  "returncode": 1,
+  "expected": 1,
+  "seconds": 0.20300000000133878,
+  "stdout_sha256": "3d536a532a4ac5ae52d0969004bd94abe16bc75a53ced531a73392b31b0e40e5",
+  "stderr_sha256": "9a57c79ce1c0c4aed92dceb441c2983d886c9179c998814245544d1e83a47328"
+}

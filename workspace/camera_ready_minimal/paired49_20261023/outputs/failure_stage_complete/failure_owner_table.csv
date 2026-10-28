@@ -1,0 +1,4 @@
+﻿failure_owner,gpt_n,gpt_percent,evosuite_n,evosuite_percent
+ok,61,20.33,158,52.67
+agonetest_harness,79,26.33,108,36.0
+generator_output,160,53.33,34,11.33

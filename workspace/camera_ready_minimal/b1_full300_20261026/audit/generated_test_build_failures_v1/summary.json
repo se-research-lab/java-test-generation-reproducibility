@@ -1,0 +1,62 @@
+{
+  "status": "PASS_UNIQUE_CLASS_GENERATION_BUILD_FAILURE_COUNT",
+  "at_utc": "2026-10-26T12:26:00.925181+00:00",
+  "scope": "E1 fixed300;49 reused+191 new terminal;10 generated deferred;10 POM deferred;40 Gradle not attempted",
+  "groups": {
+    "reuse49_generated_build_pass": 49,
+    "Gradle_not_attempted": 40,
+    "new_generated_build_pass": 146,
+    "generated_measurement_process_gate_failed": 18,
+    "generation_unsuccessful_terminal": 27,
+    "generated_but_not_measured_JUnit_guard": 10,
+    "POM_unscored_no_generation": 10
+  },
+  "generated_unique_classes_with_native_tests": 223,
+  "generated_and_process_gate_failed": 18,
+  "failure_kinds": {
+    "LICENSE_HEADER_PLUGIN": 8,
+    "PIT_COVERAGE_MINION_UNKNOWN_ERROR": 10
+  },
+  "generated_but_not_measured_guard_stops": 10,
+  "generated_without_process_gate_success_including_unmeasured": 28,
+  "failed_process_group_with_passing_unit_suite": 13,
+  "compiler_error_markers_in_the18": 0,
+  "process_gate_true_total": 195,
+  "gate_true_evidence_limitations": {
+    "gate_true_but_suite_evidence_false": [
+      10,
+      58,
+      74,
+      108,
+      247,
+      289
+    ],
+    "gate_true_but_measurement_evidence_false": [
+      6,
+      10,
+      17,
+      52,
+      58,
+      60,
+      74,
+      108,
+      132,
+      137,
+      150,
+      160,
+      247,
+      250,
+      261,
+      289
+    ]
+  },
+  "completion_sha256": "9ab51ee416c05bcc02dcf13ae6896d93b382427a233c11a7055c568d9f7cd156",
+  "Gradle_fixture_failure_excluded_from_class_count": true,
+  "full300_complete": false,
+  "class_count_not_attempt_count": true,
+  "metric_redefined": false,
+  "raw_evidence_changed": false,
+  "new_Java_or_EvoSuite_jobs": 0,
+  "new_GPT_API_calls": 0,
+  "paper_modified": false
+}

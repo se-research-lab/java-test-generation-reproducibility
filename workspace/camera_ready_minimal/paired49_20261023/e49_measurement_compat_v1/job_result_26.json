@@ -1,0 +1,60 @@
+{
+  "job_index": 26,
+  "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/election/leaderelectionservice.java",
+  "repo_id": "60578004",
+  "G0_archived_mutation_percent": "11.76",
+  "E0_archived_mutation_percent": "0.0",
+  "E1_archived_mutation_percent": "17.65",
+  "seed": 20261165,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.dangdang.ddframe.job.internal.election.LeaderElectionService_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.dangdang.ddframe.job.internal.election.LeaderElectionService_ESTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 975,
+  "focal_mutants": 17,
+  "killed_mutants": 3,
+  "focal_mutant_qualified_classes": [
+    "com.dangdang.ddframe.job.internal.election.LeaderElectionService",
+    "com.dangdang.ddframe.job.internal.election.LeaderElectionService$LeaderElectionExecutionCallback"
+  ],
+  "mutation_score_percent": 17.65,
+  "legacy_strict_mutation_percent": 17.65,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "elastic-jobx-core",
+      "PACKAGE": "com.dangdang.ddframe.job.internal.election",
+      "CLASS": "LeaderElectionService",
+      "INSTRUCTION_MISSED": "58",
+      "INSTRUCTION_COVERED": "32",
+      "BRANCH_MISSED": "6",
+      "BRANCH_COVERED": "0",
+      "LINE_MISSED": "14",
+      "LINE_COVERED": "8",
+      "COMPLEXITY_MISSED": "7",
+      "COMPLEXITY_COVERED": "3",
+      "METHOD_MISSED": "4",
+      "METHOD_COVERED": "3"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

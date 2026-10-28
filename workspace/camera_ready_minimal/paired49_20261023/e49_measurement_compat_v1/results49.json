@@ -1,0 +1,2903 @@
+[
+  {
+    "job_index": 1,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/extractor/constructormetaextractor.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "11.54",
+    "E0_archived_mutation_percent": "3.85",
+    "E1_archived_mutation_percent": "38.46",
+    "seed": 20261303,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.extractor.ConstructorMetaExtractor_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.extractor.ConstructorMetaExtractor_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 26,
+    "killed_mutants": 10,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.extractor.ConstructorMetaExtractor"
+    ],
+    "mutation_score_percent": 38.46,
+    "legacy_strict_mutation_percent": 38.46,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.extractor",
+        "CLASS": "ConstructorMetaExtractor",
+        "INSTRUCTION_MISSED": "203",
+        "INSTRUCTION_COVERED": "202",
+        "BRANCH_MISSED": "21",
+        "BRANCH_COVERED": "13",
+        "LINE_MISSED": "39",
+        "LINE_COVERED": "45",
+        "COMPLEXITY_MISSED": "13",
+        "COMPLEXITY_COVERED": "10",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "6"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 2,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/file/filesearcherfactory.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "100.0",
+    "seed": 20261032,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.file.FileSearcherFactory_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.file.FileSearcherFactory_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 1,
+    "killed_mutants": 1,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.file.FileSearcherFactory"
+    ],
+    "mutation_score_percent": 100.0,
+    "legacy_strict_mutation_percent": 100.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.file",
+        "CLASS": "FileSearcherFactory",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "4",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "1",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "1",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "1"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 3,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/filter/impl/triminsideofbracefilter.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "33.33",
+    "E0_archived_mutation_percent": "26.19",
+    "E1_archived_mutation_percent": "54.76",
+    "seed": 20261323,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.filter.impl.TrimInsideOfBraceFilter_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.filter.impl.TrimInsideOfBraceFilter_ESTest",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 42,
+    "killed_mutants": 23,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.filter.impl.TrimInsideOfBraceFilter"
+    ],
+    "mutation_score_percent": 54.76,
+    "legacy_strict_mutation_percent": 54.76,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.filter.impl",
+        "CLASS": "TrimInsideOfBraceFilter",
+        "INSTRUCTION_MISSED": "97",
+        "INSTRUCTION_COVERED": "210",
+        "BRANCH_MISSED": "35",
+        "BRANCH_COVERED": "45",
+        "LINE_MISSED": "19",
+        "LINE_COVERED": "45",
+        "COMPLEXITY_MISSED": "21",
+        "COMPLEXITY_COVERED": "22",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 4,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/generator/linebreakprovider.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "75.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "87.5",
+    "seed": 20261239,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.generator.LineBreakProvider_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.generator.LineBreakProvider_ESTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 16,
+    "killed_mutants": 14,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.generator.LineBreakProvider"
+    ],
+    "mutation_score_percent": 87.5,
+    "legacy_strict_mutation_percent": 87.5,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.generator",
+        "CLASS": "LineBreakProvider",
+        "INSTRUCTION_MISSED": "2",
+        "INSTRUCTION_COVERED": "64",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "13",
+        "LINE_MISSED": "1",
+        "LINE_COVERED": "19",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "9",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 5,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/argtypemeta.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "85.71",
+    "E0_archived_mutation_percent": "42.86",
+    "E1_archived_mutation_percent": "85.71",
+    "seed": 20261146,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.meta.ArgTypeMeta_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.meta.ArgTypeMeta_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 7,
+    "killed_mutants": 6,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.meta.ArgTypeMeta"
+    ],
+    "mutation_score_percent": 85.71,
+    "legacy_strict_mutation_percent": 85.71,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.meta",
+        "CLASS": "ArgTypeMeta",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "66",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "6",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "13",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "6",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 6,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/returntypemeta.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "85.71",
+    "E0_archived_mutation_percent": "42.86",
+    "E1_archived_mutation_percent": "85.71",
+    "seed": 20261143,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.meta.ReturnTypeMeta_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.meta.ReturnTypeMeta_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 7,
+    "killed_mutants": 6,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.meta.ReturnTypeMeta"
+    ],
+    "mutation_score_percent": 85.71,
+    "legacy_strict_mutation_percent": 85.71,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.meta",
+        "CLASS": "ReturnTypeMeta",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "61",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "6",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "12",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "5",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 7,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/util/primitivetypeutil.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "0.0",
+    "E0_archived_mutation_percent": "12.9",
+    "E1_archived_mutation_percent": "90.32",
+    "seed": 20261288,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.util.PrimitiveTypeUtil_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.util.PrimitiveTypeUtil_ESTest",
+        "tests": 30,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 31,
+    "killed_mutants": 28,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.util.PrimitiveTypeUtil"
+    ],
+    "mutation_score_percent": 90.32,
+    "legacy_strict_mutation_percent": 90.32,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.util",
+        "CLASS": "PrimitiveTypeUtil",
+        "INSTRUCTION_MISSED": "2",
+        "INSTRUCTION_COVERED": "202",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "55",
+        "LINE_MISSED": "1",
+        "LINE_COVERED": "61",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "30",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 8,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/util/threadutil.java",
+    "repo_id": "3713233",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261069,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.junithelper.core.util.ThreadUtil_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.util.ThreadUtil_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 866,
+    "focal_mutants": 2,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "org.junithelper.core.util.ThreadUtil"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "junithelper-core",
+        "PACKAGE": "org.junithelper.core.util",
+        "CLASS": "ThreadUtil",
+        "INSTRUCTION_MISSED": "3",
+        "INSTRUCTION_COVERED": "4",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "2",
+        "LINE_COVERED": "3",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "1",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "1"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 9,
+    "class_key": "3847504:modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/urlimpl.java",
+    "repo_id": "3847504",
+    "G0_archived_mutation_percent": "77.5",
+    "E0_archived_mutation_percent": "25.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261256,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "ch.entwine.weblounge.common.impl.url.UrlImpl_ESTest",
+    "surefire_suites": [
+      {
+        "name": "ch.entwine.weblounge.common.impl.url.UrlImpl_ESTest",
+        "tests": 26,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 3771,
+    "focal_mutants": 40,
+    "killed_mutants": 35,
+    "focal_mutant_qualified_classes": [
+      "ch.entwine.weblounge.common.impl.url.UrlImpl"
+    ],
+    "mutation_score_percent": 87.5,
+    "legacy_strict_mutation_percent": 87.5,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Weblounge Common",
+        "PACKAGE": "ch.entwine.weblounge.common.impl.url",
+        "CLASS": "UrlImpl",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "352",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "49",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "77",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "41",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "17"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 10,
+    "class_key": "41547678:turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/qualifiedname.java",
+    "repo_id": "41547678",
+    "G0_archived_mutation_percent": "82.86",
+    "E0_archived_mutation_percent": "42.86",
+    "E1_archived_mutation_percent": "88.57",
+    "seed": 20261251,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "me.tomassetti.turin.parser.ast.QualifiedName_ESTest",
+    "surefire_suites": [
+      {
+        "name": "me.tomassetti.turin.parser.ast.QualifiedName_ESTest",
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 2490,
+    "focal_mutants": 35,
+    "killed_mutants": 31,
+    "focal_mutant_qualified_classes": [
+      "me.tomassetti.turin.parser.ast.QualifiedName"
+    ],
+    "mutation_score_percent": 88.57,
+    "legacy_strict_mutation_percent": 88.57,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "turin-compiler",
+        "PACKAGE": "me.tomassetti.turin.parser.ast",
+        "CLASS": "QualifiedName",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "217",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "36",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "44",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "32",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "14"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 11,
+    "class_key": "41547678:turin-standard-library/src/main/java/turin/context/context.java",
+    "repo_id": "41547678",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261082,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "turin.context.Context_ESTest",
+    "surefire_suites": [
+      {
+        "name": "turin.context.Context_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 83,
+    "focal_mutants": 6,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "turin.context.Context",
+      "turin.context.Context$1"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "turin-standard-library",
+        "PACKAGE": "turin.context",
+        "CLASS": "Context",
+        "INSTRUCTION_MISSED": "54",
+        "INSTRUCTION_COVERED": "0",
+        "BRANCH_MISSED": "2",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "14",
+        "LINE_COVERED": "0",
+        "COMPLEXITY_MISSED": "6",
+        "COMPLEXITY_COVERED": "0",
+        "METHOD_MISSED": "5",
+        "METHOD_COVERED": "0"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 12,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/resource/resourceurn.java",
+    "repo_id": "45997449",
+    "G0_archived_mutation_percent": "62.5",
+    "E0_archived_mutation_percent": "15.62",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261304,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.ebayopensource.webrex.resource.ResourceUrn_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.resource.ResourceUrn_ESTest",
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 2136,
+    "focal_mutants": 32,
+    "killed_mutants": 25,
+    "focal_mutant_qualified_classes": [
+      "com.ebayopensource.webrex.resource.ResourceUrn"
+    ],
+    "mutation_score_percent": 78.12,
+    "legacy_strict_mutation_percent": 78.12,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "WebRex",
+        "PACKAGE": "com.ebayopensource.webrex.resource",
+        "CLASS": "ResourceUrn",
+        "INSTRUCTION_MISSED": "7",
+        "INSTRUCTION_COVERED": "173",
+        "BRANCH_MISSED": "4",
+        "BRANCH_COVERED": "32",
+        "LINE_MISSED": "2",
+        "LINE_COVERED": "44",
+        "COMPLEXITY_MISSED": "3",
+        "COMPLEXITY_COVERED": "22",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "7"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 13,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/joiners.java",
+    "repo_id": "45997449",
+    "G0_archived_mutation_percent": "96.0",
+    "E0_archived_mutation_percent": "28.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261260,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.ebayopensource.webrex.util.Joiners_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.util.Joiners_ESTest",
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 2136,
+    "focal_mutants": 25,
+    "killed_mutants": 24,
+    "focal_mutant_qualified_classes": [
+      "com.ebayopensource.webrex.util.Joiners",
+      "com.ebayopensource.webrex.util.Joiners$StringJoiner"
+    ],
+    "mutation_score_percent": 96.0,
+    "legacy_strict_mutation_percent": 96.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "WebRex",
+        "PACKAGE": "com.ebayopensource.webrex.util",
+        "CLASS": "Joiners",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "13",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "3",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "3",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 14,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/splitters.java",
+    "repo_id": "45997449",
+    "G0_archived_mutation_percent": "76.09",
+    "E0_archived_mutation_percent": "39.13",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261253,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.ebayopensource.webrex.util.Splitters_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.util.Splitters_ESTest",
+        "tests": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 2136,
+    "focal_mutants": 46,
+    "killed_mutants": 38,
+    "focal_mutant_qualified_classes": [
+      "com.ebayopensource.webrex.util.Splitters",
+      "com.ebayopensource.webrex.util.Splitters$StringSplitter"
+    ],
+    "mutation_score_percent": 82.61,
+    "legacy_strict_mutation_percent": 82.61,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "WebRex",
+        "PACKAGE": "com.ebayopensource.webrex.util",
+        "CLASS": "Splitters",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "97",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "13",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "25",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "11",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "5"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 15,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/xmls.java",
+    "repo_id": "45997449",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "46.15",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261154,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.ebayopensource.webrex.util.Xmls_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.util.Xmls_ESTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 2136,
+    "focal_mutants": 13,
+    "killed_mutants": 11,
+    "focal_mutant_qualified_classes": [
+      "com.ebayopensource.webrex.util.Xmls",
+      "com.ebayopensource.webrex.util.Xmls$Data"
+    ],
+    "mutation_score_percent": 84.62,
+    "legacy_strict_mutation_percent": 84.62,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "WebRex",
+        "PACKAGE": "com.ebayopensource.webrex.util",
+        "CLASS": "Xmls",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "7",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "2",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "2",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 16,
+    "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/alertsender.java",
+    "repo_id": "46396068",
+    "G0_archived_mutation_percent": "33.33",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261147,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.kakao.hbase.common.util.AlertSender_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.kakao.hbase.common.util.AlertSender_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 387,
+    "focal_mutants": 6,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "com.kakao.hbase.common.util.AlertSender"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "hbase-common-0.98",
+        "PACKAGE": "com.kakao.hbase.common.util",
+        "CLASS": "AlertSender",
+        "INSTRUCTION_MISSED": "79",
+        "INSTRUCTION_COVERED": "8",
+        "BRANCH_MISSED": "4",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "15",
+        "LINE_COVERED": "2",
+        "COMPLEXITY_MISSED": "3",
+        "COMPLEXITY_COVERED": "2",
+        "METHOD_MISSED": "1",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 17,
+    "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/decimalstringsplit.java",
+    "repo_id": "46396068",
+    "G0_archived_mutation_percent": "31.58",
+    "E0_archived_mutation_percent": "36.84",
+    "E1_archived_mutation_percent": "63.16",
+    "seed": 20261137,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.kakao.hbase.common.util.DecimalStringSplit_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.kakao.hbase.common.util.DecimalStringSplit_ESTest",
+        "tests": 14,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 387,
+    "focal_mutants": 19,
+    "killed_mutants": 12,
+    "focal_mutant_qualified_classes": [
+      "com.kakao.hbase.common.util.DecimalStringSplit"
+    ],
+    "mutation_score_percent": 63.16,
+    "legacy_strict_mutation_percent": 63.16,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "hbase-common-0.98",
+        "PACKAGE": "com.kakao.hbase.common.util",
+        "CLASS": "DecimalStringSplit",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "153",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "10",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "24",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "19",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "14"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 18,
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/resettablesingletontraverser.java",
+    "repo_id": "48046454",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261034,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.hazelcast.jet.core.ResettableSingletonTraverser_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.hazelcast.jet.core.ResettableSingletonTraverser_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 7028,
+    "focal_mutants": 1,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "com.hazelcast.jet.core.ResettableSingletonTraverser"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "hazelcast-jet-core",
+        "PACKAGE": "com.hazelcast.jet.core",
+        "CLASS": "ResettableSingletonTraverser",
+        "INSTRUCTION_MISSED": "2",
+        "INSTRUCTION_COVERED": "43",
+        "BRANCH_MISSED": "2",
+        "BRANCH_COVERED": "4",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "6",
+        "COMPLEXITY_MISSED": "2",
+        "COMPLEXITY_COVERED": "5",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "4"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 19,
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/slidingwindowpolicy.java",
+    "repo_id": "48046454",
+    "G0_archived_mutation_percent": "59.26",
+    "E0_archived_mutation_percent": "22.22",
+    "E1_archived_mutation_percent": "77.78",
+    "seed": 20261098,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.hazelcast.jet.core.SlidingWindowPolicy_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.hazelcast.jet.core.SlidingWindowPolicy_ESTest",
+        "tests": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 7028,
+    "focal_mutants": 27,
+    "killed_mutants": 21,
+    "focal_mutant_qualified_classes": [
+      "com.hazelcast.jet.core.SlidingWindowPolicy"
+    ],
+    "mutation_score_percent": 77.78,
+    "legacy_strict_mutation_percent": 77.78,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "hazelcast-jet-core",
+        "PACKAGE": "com.hazelcast.jet.core",
+        "CLASS": "SlidingWindowPolicy",
+        "INSTRUCTION_MISSED": "12",
+        "INSTRUCTION_COVERED": "154",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "10",
+        "LINE_MISSED": "1",
+        "LINE_COVERED": "24",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "15",
+        "METHOD_MISSED": "1",
+        "METHOD_COVERED": "10"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 20,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/directives.java",
+    "repo_id": "558963",
+    "G0_archived_mutation_percent": "90.0",
+    "E0_archived_mutation_percent": "40.0",
+    "E1_archived_mutation_percent": "70.0",
+    "seed": 20261096,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.codehaus.httpcache4j.Directives_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.Directives_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 1098,
+    "focal_mutants": 10,
+    "killed_mutants": 7,
+    "focal_mutant_qualified_classes": [
+      "org.codehaus.httpcache4j.Directives"
+    ],
+    "mutation_score_percent": 70.0,
+    "legacy_strict_mutation_percent": 70.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Java HTTP cache :: API",
+        "PACKAGE": "org.codehaus.httpcache4j",
+        "CLASS": "Directives",
+        "INSTRUCTION_MISSED": "12",
+        "INSTRUCTION_COVERED": "92",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "2",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "20",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "11",
+        "METHOD_MISSED": "1",
+        "METHOD_COVERED": "10"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 21,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/headers.java",
+    "repo_id": "558963",
+    "G0_archived_mutation_percent": "42.55",
+    "E0_archived_mutation_percent": "21.28",
+    "E1_archived_mutation_percent": "87.23",
+    "seed": 20261189,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.codehaus.httpcache4j.Headers_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.Headers_ESTest",
+        "tests": 56,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 1098,
+    "focal_mutants": 47,
+    "killed_mutants": 41,
+    "focal_mutant_qualified_classes": [
+      "org.codehaus.httpcache4j.Headers",
+      "org.codehaus.httpcache4j.Headers$HeaderHashMap"
+    ],
+    "mutation_score_percent": 87.23,
+    "legacy_strict_mutation_percent": 87.23,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Java HTTP cache :: API",
+        "PACKAGE": "org.codehaus.httpcache4j",
+        "CLASS": "Headers",
+        "INSTRUCTION_MISSED": "71",
+        "INSTRUCTION_COVERED": "670",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "36",
+        "LINE_MISSED": "8",
+        "LINE_COVERED": "133",
+        "COMPLEXITY_MISSED": "8",
+        "COMPLEXITY_COVERED": "79",
+        "METHOD_MISSED": "8",
+        "METHOD_COVERED": "61"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 22,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mimetype.java",
+    "repo_id": "558963",
+    "G0_archived_mutation_percent": "54.05",
+    "E0_archived_mutation_percent": "10.81",
+    "E1_archived_mutation_percent": "81.08",
+    "seed": 20261263,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.codehaus.httpcache4j.MIMEType_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.MIMEType_ESTest",
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 1098,
+    "focal_mutants": 37,
+    "killed_mutants": 30,
+    "focal_mutant_qualified_classes": [
+      "org.codehaus.httpcache4j.MIMEType"
+    ],
+    "mutation_score_percent": 81.08,
+    "legacy_strict_mutation_percent": 81.08,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Java HTTP cache :: API",
+        "PACKAGE": "org.codehaus.httpcache4j",
+        "CLASS": "MIMEType",
+        "INSTRUCTION_MISSED": "111",
+        "INSTRUCTION_COVERED": "264",
+        "BRANCH_MISSED": "8",
+        "BRANCH_COVERED": "30",
+        "LINE_MISSED": "22",
+        "LINE_COVERED": "47",
+        "COMPLEXITY_MISSED": "9",
+        "COMPLEXITY_COVERED": "32",
+        "METHOD_MISSED": "4",
+        "METHOD_COVERED": "18"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 23,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/status.java",
+    "repo_id": "558963",
+    "G0_archived_mutation_percent": "87.5",
+    "E0_archived_mutation_percent": "12.5",
+    "E1_archived_mutation_percent": "90.62",
+    "seed": 20261252,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.codehaus.httpcache4j.Status_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.Status_ESTest",
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 1098,
+    "focal_mutants": 32,
+    "killed_mutants": 29,
+    "focal_mutant_qualified_classes": [
+      "org.codehaus.httpcache4j.Status",
+      "org.codehaus.httpcache4j.Status$Category"
+    ],
+    "mutation_score_percent": 90.62,
+    "legacy_strict_mutation_percent": 90.62,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Java HTTP cache :: API",
+        "PACKAGE": "org.codehaus.httpcache4j",
+        "CLASS": "Status",
+        "INSTRUCTION_MISSED": "5",
+        "INSTRUCTION_COVERED": "476",
+        "BRANCH_MISSED": "2",
+        "BRANCH_COVERED": "28",
+        "LINE_MISSED": "3",
+        "LINE_COVERED": "88",
+        "COMPLEXITY_MISSED": "2",
+        "COMPLEXITY_COVERED": "28",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "15"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 24,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/jobexecutionmultipleshardingcontext.java",
+    "repo_id": "60578004",
+    "G0_archived_mutation_percent": "66.67",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "33.33",
+    "seed": 20261111,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_ESTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 975,
+    "focal_mutants": 9,
+    "killed_mutants": 3,
+    "focal_mutant_qualified_classes": [
+      "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext"
+    ],
+    "mutation_score_percent": 33.33,
+    "legacy_strict_mutation_percent": 33.33,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "elastic-jobx-core",
+        "PACKAGE": "com.dangdang.ddframe.job.api",
+        "CLASS": "JobExecutionMultipleShardingContext",
+        "INSTRUCTION_MISSED": "12",
+        "INSTRUCTION_COVERED": "100",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "4",
+        "LINE_COVERED": "16",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "9",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "9"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 25,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/config/configurationnode.java",
+    "repo_id": "60578004",
+    "G0_archived_mutation_percent": "0.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "50.0",
+    "seed": 20261058,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.dangdang.ddframe.job.internal.config.ConfigurationNode_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.internal.config.ConfigurationNode_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 975,
+    "focal_mutants": 14,
+    "killed_mutants": 7,
+    "focal_mutant_qualified_classes": [
+      "com.dangdang.ddframe.job.internal.config.ConfigurationNode"
+    ],
+    "mutation_score_percent": 50.0,
+    "legacy_strict_mutation_percent": 50.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "elastic-jobx-core",
+        "PACKAGE": "com.dangdang.ddframe.job.internal.config",
+        "CLASS": "ConfigurationNode",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "58",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "10",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "8",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "8"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 26,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/election/leaderelectionservice.java",
+    "repo_id": "60578004",
+    "G0_archived_mutation_percent": "11.76",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "17.65",
+    "seed": 20261165,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.dangdang.ddframe.job.internal.election.LeaderElectionService_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.internal.election.LeaderElectionService_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 975,
+    "focal_mutants": 17,
+    "killed_mutants": 3,
+    "focal_mutant_qualified_classes": [
+      "com.dangdang.ddframe.job.internal.election.LeaderElectionService",
+      "com.dangdang.ddframe.job.internal.election.LeaderElectionService$LeaderElectionExecutionCallback"
+    ],
+    "mutation_score_percent": 17.65,
+    "legacy_strict_mutation_percent": 17.65,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "elastic-jobx-core",
+        "PACKAGE": "com.dangdang.ddframe.job.internal.election",
+        "CLASS": "LeaderElectionService",
+        "INSTRUCTION_MISSED": "58",
+        "INSTRUCTION_COVERED": "32",
+        "BRANCH_MISSED": "6",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "14",
+        "LINE_COVERED": "8",
+        "COMPLEXITY_MISSED": "7",
+        "COMPLEXITY_COVERED": "3",
+        "METHOD_MISSED": "4",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 27,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/statistics/processcountjob.java",
+    "repo_id": "60578004",
+    "G0_archived_mutation_percent": "0.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261036,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.dangdang.ddframe.job.internal.statistics.ProcessCountJob_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.internal.statistics.ProcessCountJob_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 975,
+    "focal_mutants": 3,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "com.dangdang.ddframe.job.internal.statistics.ProcessCountJob"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "elastic-jobx-core",
+        "PACKAGE": "com.dangdang.ddframe.job.internal.statistics",
+        "CLASS": "ProcessCountJob",
+        "INSTRUCTION_MISSED": "13",
+        "INSTRUCTION_COVERED": "17",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "4",
+        "LINE_COVERED": "5",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "2",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 28,
+    "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/boundingbox.java",
+    "repo_id": "6437134",
+    "G0_archived_mutation_percent": "65.79",
+    "E0_archived_mutation_percent": "7.89",
+    "E1_archived_mutation_percent": "73.68",
+    "seed": 20261235,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "dk.dma.enav.model.geometry.BoundingBox_ESTest",
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.model.geometry.BoundingBox_ESTest",
+        "tests": 33,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 632,
+    "focal_mutants": 38,
+    "killed_mutants": 28,
+    "focal_mutant_qualified_classes": [
+      "dk.dma.enav.model.geometry.BoundingBox"
+    ],
+    "mutation_score_percent": 73.68,
+    "legacy_strict_mutation_percent": 73.68,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "eNav Model",
+        "PACKAGE": "dk.dma.enav.model.geometry",
+        "CLASS": "BoundingBox",
+        "INSTRUCTION_MISSED": "56",
+        "INSTRUCTION_COVERED": "337",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "39",
+        "LINE_MISSED": "8",
+        "LINE_COVERED": "57",
+        "COMPLEXITY_MISSED": "2",
+        "COMPLEXITY_COVERED": "41",
+        "METHOD_MISSED": "1",
+        "METHOD_COVERED": "22"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 29,
+    "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/positiontime.java",
+    "repo_id": "6437134",
+    "G0_archived_mutation_percent": "20.51",
+    "E0_archived_mutation_percent": "23.08",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261176,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "dk.dma.enav.model.geometry.PositionTime_ESTest",
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.model.geometry.PositionTime_ESTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 632,
+    "focal_mutants": 39,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "dk.dma.enav.model.geometry.PositionTime"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "eNav Model",
+        "PACKAGE": "dk.dma.enav.model.geometry",
+        "CLASS": "PositionTime",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "320",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "20",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "41",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "22",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "12"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 30,
+    "class_key": "6437134:enav-serialization/src/main/java/dk/dma/enav/serialization/simplerouteparser.java",
+    "repo_id": "6437134",
+    "G0_archived_mutation_percent": "27.27",
+    "E0_archived_mutation_percent": "31.82",
+    "E1_archived_mutation_percent": "77.27",
+    "seed": 20261315,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "dk.dma.enav.serialization.SimpleRouteParser_ESTest",
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.serialization.SimpleRouteParser_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 203,
+    "focal_mutants": 22,
+    "killed_mutants": 17,
+    "focal_mutant_qualified_classes": [
+      "dk.dma.enav.serialization.SimpleRouteParser"
+    ],
+    "mutation_score_percent": 77.27,
+    "legacy_strict_mutation_percent": 77.27,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "eNav Serialization",
+        "PACKAGE": "dk.dma.enav.serialization",
+        "CLASS": "SimpleRouteParser",
+        "INSTRUCTION_MISSED": "178",
+        "INSTRUCTION_COVERED": "137",
+        "BRANCH_MISSED": "7",
+        "BRANCH_COVERED": "17",
+        "LINE_MISSED": "48",
+        "LINE_COVERED": "36",
+        "COMPLEXITY_MISSED": "7",
+        "COMPLEXITY_COVERED": "13",
+        "METHOD_MISSED": "2",
+        "METHOD_COVERED": "6"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 31,
+    "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/compass/compassutils.java",
+    "repo_id": "6437134",
+    "G0_archived_mutation_percent": "33.33",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "71.43",
+    "seed": 20261124,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "dk.dma.enav.util.compass.CompassUtils_ESTest",
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.util.compass.CompassUtils_ESTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 90,
+    "focal_mutants": 21,
+    "killed_mutants": 15,
+    "focal_mutant_qualified_classes": [
+      "dk.dma.enav.util.compass.CompassUtils"
+    ],
+    "mutation_score_percent": 71.43,
+    "legacy_strict_mutation_percent": 71.43,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "eNav Util",
+        "PACKAGE": "dk.dma.enav.util.compass",
+        "CLASS": "CompassUtils",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "69",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "10",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "16",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "10",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "5"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 32,
+    "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/coordinateconverter.java",
+    "repo_id": "6437134",
+    "G0_archived_mutation_percent": "73.81",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "95.24",
+    "seed": 20261093,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "dk.dma.enav.util.CoordinateConverter_ESTest",
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.util.CoordinateConverter_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 90,
+    "focal_mutants": 42,
+    "killed_mutants": 40,
+    "focal_mutant_qualified_classes": [
+      "dk.dma.enav.util.CoordinateConverter"
+    ],
+    "mutation_score_percent": 95.24,
+    "legacy_strict_mutation_percent": 95.24,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "eNav Util",
+        "PACKAGE": "dk.dma.enav.util",
+        "CLASS": "CoordinateConverter",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "230",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "7",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "35",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "8",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "5"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 33,
+    "class_key": "64487983:bridge/src/main/java/com/iluwatar/bridge/app.java",
+    "repo_id": "64487983",
+    "G0_archived_mutation_percent": "0.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261024,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.iluwatar.bridge.App_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.bridge.App_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 40,
+    "focal_mutants": 12,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "com.iluwatar.bridge.App"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "bridge",
+        "PACKAGE": "com.iluwatar.bridge",
+        "CLASS": "App",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "49",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "17",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "2",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 34,
+    "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/app.java",
+    "repo_id": "64487983",
+    "G0_archived_mutation_percent": "0.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "66.67",
+    "seed": 20261028,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.iluwatar.dependency.injection.App_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.dependency.injection.App_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 7,
+    "focal_mutants": 3,
+    "killed_mutants": 2,
+    "focal_mutant_qualified_classes": [
+      "com.iluwatar.dependency.injection.App"
+    ],
+    "mutation_score_percent": 66.67,
+    "legacy_strict_mutation_percent": 66.67,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "dependency-injection",
+        "PACKAGE": "com.iluwatar.dependency.injection",
+        "CLASS": "App",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "36",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "9",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "2",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 35,
+    "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/guicewizard.java",
+    "repo_id": "64487983",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261037,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.iluwatar.dependency.injection.GuiceWizard_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.dependency.injection.GuiceWizard_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 7,
+    "focal_mutants": 1,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "com.iluwatar.dependency.injection.GuiceWizard"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "dependency-injection",
+        "PACKAGE": "com.iluwatar.dependency.injection",
+        "CLASS": "GuiceWizard",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "11",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "5",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "2",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 36,
+    "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/lotterynumbers.java",
+    "repo_id": "64487983",
+    "G0_archived_mutation_percent": "50.0",
+    "E0_archived_mutation_percent": "11.54",
+    "E1_archived_mutation_percent": "73.08",
+    "seed": 20261245,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.iluwatar.hexagonal.domain.LotteryNumbers_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.hexagonal.domain.LotteryNumbers_ESTest",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 148,
+    "focal_mutants": 26,
+    "killed_mutants": 19,
+    "focal_mutant_qualified_classes": [
+      "com.iluwatar.hexagonal.domain.LotteryNumbers",
+      "com.iluwatar.hexagonal.domain.LotteryNumbers$RandomNumberGenerator"
+    ],
+    "mutation_score_percent": 73.08,
+    "legacy_strict_mutation_percent": 73.08,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "hexagonal",
+        "PACKAGE": "com.iluwatar.hexagonal.domain",
+        "CLASS": "LotteryNumbers",
+        "INSTRUCTION_MISSED": "15",
+        "INSTRUCTION_COVERED": "108",
+        "BRANCH_MISSED": "5",
+        "BRANCH_COVERED": "13",
+        "LINE_MISSED": "6",
+        "LINE_COVERED": "30",
+        "COMPLEXITY_MISSED": "5",
+        "COMPLEXITY_COVERED": "12",
+        "METHOD_MISSED": "1",
+        "METHOD_COVERED": "7"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 37,
+    "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/playerdetails.java",
+    "repo_id": "64487983",
+    "G0_archived_mutation_percent": "52.94",
+    "E0_archived_mutation_percent": "26.47",
+    "E1_archived_mutation_percent": "79.41",
+    "seed": 20261302,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.iluwatar.hexagonal.domain.PlayerDetails_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.hexagonal.domain.PlayerDetails_ESTest",
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 148,
+    "focal_mutants": 34,
+    "killed_mutants": 27,
+    "focal_mutant_qualified_classes": [
+      "com.iluwatar.hexagonal.domain.PlayerDetails"
+    ],
+    "mutation_score_percent": 79.41,
+    "legacy_strict_mutation_percent": 79.41,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "hexagonal",
+        "PACKAGE": "com.iluwatar.hexagonal.domain",
+        "CLASS": "PlayerDetails",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "142",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "30",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "38",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "22",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "7"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 38,
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/api/dedupeventstorechannels.java",
+    "repo_id": "66303306",
+    "G0_archived_mutation_percent": "86.67",
+    "E0_archived_mutation_percent": "20.0",
+    "E1_archived_mutation_percent": "93.33",
+    "seed": 20261128,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_ESTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 839,
+    "focal_mutants": 15,
+    "killed_mutants": 14,
+    "focal_mutant_qualified_classes": [
+      "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels",
+      "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels$Impl"
+    ],
+    "mutation_score_percent": 93.33,
+    "legacy_strict_mutation_percent": 93.33,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "EmoDB Event Store",
+        "PACKAGE": "com.bazaarvoice.emodb.event.api",
+        "CLASS": "DedupEventStoreChannels",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "17",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "3",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "3",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 39,
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/eventstoremodule.java",
+    "repo_id": "66303306",
+    "G0_archived_mutation_percent": "0.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "5.0",
+    "seed": 20261049,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.bazaarvoice.emodb.event.EventStoreModule_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.bazaarvoice.emodb.event.EventStoreModule_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 839,
+    "focal_mutants": 20,
+    "killed_mutants": 1,
+    "focal_mutant_qualified_classes": [
+      "com.bazaarvoice.emodb.event.EventStoreModule",
+      "com.bazaarvoice.emodb.event.EventStoreModule$1"
+    ],
+    "mutation_score_percent": 5.0,
+    "legacy_strict_mutation_percent": 5.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "EmoDB Event Store",
+        "PACKAGE": "com.bazaarvoice.emodb.event",
+        "CLASS": "EventStoreModule",
+        "INSTRUCTION_MISSED": "121",
+        "INSTRUCTION_COVERED": "22",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "0",
+        "LINE_MISSED": "22",
+        "LINE_COVERED": "5",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "2",
+        "METHOD_MISSED": "1",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 40,
+    "class_key": "78444970:examples/graph/src/main/java/graph/algorithm/mst/jarnikprim.java",
+    "repo_id": "78444970",
+    "G0_archived_mutation_percent": "50.0",
+    "E0_archived_mutation_percent": "35.71",
+    "E1_archived_mutation_percent": "50.0",
+    "seed": 20261271,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "graph.algorithm.mst.JarnikPrim_ESTest",
+    "surefire_suites": [
+      {
+        "name": "graph.algorithm.mst.JarnikPrim_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 219,
+    "focal_mutants": 14,
+    "killed_mutants": 7,
+    "focal_mutant_qualified_classes": [
+      "graph.algorithm.mst.JarnikPrim"
+    ],
+    "mutation_score_percent": 50.0,
+    "legacy_strict_mutation_percent": 50.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "graph",
+        "PACKAGE": "graph.algorithm.mst",
+        "CLASS": "JarnikPrim",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "121",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "22",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "26",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "14",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 41,
+    "class_key": "78444970:examples/random/src/main/java/random/reservoirsamplingmultipleitems.java",
+    "repo_id": "78444970",
+    "G0_archived_mutation_percent": "70.0",
+    "E0_archived_mutation_percent": "30.0",
+    "E1_archived_mutation_percent": "60.0",
+    "seed": 20261190,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "random.ReservoirSamplingMultipleItems_ESTest",
+    "surefire_suites": [
+      {
+        "name": "random.ReservoirSamplingMultipleItems_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 79,
+    "focal_mutants": 10,
+    "killed_mutants": 6,
+    "focal_mutant_qualified_classes": [
+      "random.ReservoirSamplingMultipleItems"
+    ],
+    "mutation_score_percent": 60.0,
+    "legacy_strict_mutation_percent": 60.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "random",
+        "PACKAGE": "random",
+        "CLASS": "ReservoirSamplingMultipleItems",
+        "INSTRUCTION_MISSED": "27",
+        "INSTRUCTION_COVERED": "30",
+        "BRANCH_MISSED": "3",
+        "BRANCH_COVERED": "5",
+        "LINE_MISSED": "8",
+        "LINE_COVERED": "10",
+        "COMPLEXITY_MISSED": "2",
+        "COMPLEXITY_COVERED": "4",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 42,
+    "class_key": "78444970:examples/structures/src/main/java/ds/heap/arrayheap.java",
+    "repo_id": "78444970",
+    "G0_archived_mutation_percent": "86.11",
+    "E0_archived_mutation_percent": "41.67",
+    "E1_archived_mutation_percent": "44.44",
+    "seed": 20261226,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "ds.heap.ArrayHeap_ESTest",
+    "surefire_suites": [
+      {
+        "name": "ds.heap.ArrayHeap_ESTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 252,
+    "focal_mutants": 36,
+    "killed_mutants": 16,
+    "focal_mutant_qualified_classes": [
+      "ds.heap.ArrayHeap"
+    ],
+    "mutation_score_percent": 44.44,
+    "legacy_strict_mutation_percent": 44.44,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "structures",
+        "PACKAGE": "ds.heap",
+        "CLASS": "ArrayHeap",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "200",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "20",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "46",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "21",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "11"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 43,
+    "class_key": "78444970:examples/structures/src/main/java/ds/stack/arraystack.java",
+    "repo_id": "78444970",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "50.0",
+    "E1_archived_mutation_percent": "87.5",
+    "seed": 20261085,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "ds.stack.ArrayStack_ESTest",
+    "surefire_suites": [
+      {
+        "name": "ds.stack.ArrayStack_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 252,
+    "focal_mutants": 8,
+    "killed_mutants": 7,
+    "focal_mutant_qualified_classes": [
+      "ds.stack.ArrayStack"
+    ],
+    "mutation_score_percent": 87.5,
+    "legacy_strict_mutation_percent": 87.5,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "structures",
+        "PACKAGE": "ds.stack",
+        "CLASS": "ArrayStack",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "64",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "6",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "12",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "7",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "4"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 44,
+    "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/simpledbexceptiontranslator.java",
+    "repo_id": "9619226",
+    "G0_archived_mutation_percent": "36.0",
+    "E0_archived_mutation_percent": "4.0",
+    "E1_archived_mutation_percent": "68.0",
+    "seed": 20261299,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.springframework.data.simpledb.exception.SimpleDbExceptionTranslator_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.springframework.data.simpledb.exception.SimpleDbExceptionTranslator_ESTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 774,
+    "focal_mutants": 25,
+    "killed_mutants": 17,
+    "focal_mutant_qualified_classes": [
+      "org.springframework.data.simpledb.exception.SimpleDbExceptionTranslator"
+    ],
+    "mutation_score_percent": 68.0,
+    "legacy_strict_mutation_percent": 68.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Spring Data SimpleDB Implementation",
+        "PACKAGE": "org.springframework.data.simpledb.exception",
+        "CLASS": "SimpleDbExceptionTranslator",
+        "INSTRUCTION_MISSED": "2",
+        "INSTRUCTION_COVERED": "111",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "27",
+        "LINE_MISSED": "1",
+        "LINE_COVERED": "26",
+        "COMPLEXITY_MISSED": "1",
+        "COMPLEXITY_COVERED": "16",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 45,
+    "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/alphanumstringcomparator.java",
+    "repo_id": "9619226",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "66.67",
+    "E1_archived_mutation_percent": "66.67",
+    "seed": 20261107,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "org.springframework.data.simpledb.util.AlphanumStringComparator_ESTest",
+    "surefire_suites": [
+      {
+        "name": "org.springframework.data.simpledb.util.AlphanumStringComparator_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 774,
+    "focal_mutants": 3,
+    "killed_mutants": 2,
+    "focal_mutant_qualified_classes": [
+      "org.springframework.data.simpledb.util.AlphanumStringComparator"
+    ],
+    "mutation_score_percent": 66.67,
+    "legacy_strict_mutation_percent": 66.67,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Spring Data SimpleDB Implementation",
+        "PACKAGE": "org.springframework.data.simpledb.util",
+        "CLASS": "AlphanumStringComparator",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "45",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "4",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "12",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "5",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 46,
+    "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/nodoubleclassdefined.java",
+    "repo_id": "97822421",
+    "G0_archived_mutation_percent": "100.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "100.0",
+    "seed": 20261066,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 292,
+    "focal_mutants": 3,
+    "killed_mutants": 3,
+    "focal_mutant_qualified_classes": [
+      "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined"
+    ],
+    "mutation_score_percent": 100.0,
+    "legacy_strict_mutation_percent": 100.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "springmock-infrastructure",
+        "PACKAGE": "com.pchudzik.springmock.infrastructure.annotation",
+        "CLASS": "NoDoubleClassDefined",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "13",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "4",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "2",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "4",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "2"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 47,
+    "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/doublename.java",
+    "repo_id": "97822421",
+    "G0_archived_mutation_percent": "92.86",
+    "E0_archived_mutation_percent": "14.29",
+    "E1_archived_mutation_percent": "64.29",
+    "seed": 20261163,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.pchudzik.springmock.infrastructure.definition.DoubleName_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.pchudzik.springmock.infrastructure.definition.DoubleName_ESTest",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 292,
+    "focal_mutants": 14,
+    "killed_mutants": 9,
+    "focal_mutant_qualified_classes": [
+      "com.pchudzik.springmock.infrastructure.definition.DoubleName"
+    ],
+    "mutation_score_percent": 64.29,
+    "legacy_strict_mutation_percent": 64.29,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "springmock-infrastructure",
+        "PACKAGE": "com.pchudzik.springmock.infrastructure.definition",
+        "CLASS": "DoubleName",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "90",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "10",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "23",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "12",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "7"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  },
+  {
+    "job_index": 48,
+    "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+    "repo_id": "98410891",
+    "G0_archived_mutation_percent": "0.0",
+    "E0_archived_mutation_percent": "0.0",
+    "E1_archived_mutation_percent": "0.0",
+    "seed": 20261131,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.softavail.comms.demo.application.impl.PropertiesConfiguration_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.softavail.comms.demo.application.impl.PropertiesConfiguration_ESTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 4,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": false,
+    "pit_report_present": true,
+    "module_mutants": 388,
+    "focal_mutants": 15,
+    "killed_mutants": 0,
+    "focal_mutant_qualified_classes": [
+      "com.softavail.comms.demo.application.impl.PropertiesConfiguration"
+    ],
+    "mutation_score_percent": 0.0,
+    "legacy_strict_mutation_percent": 0.0,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Demo Application",
+        "PACKAGE": "com.softavail.comms.demo.application.impl",
+        "CLASS": "PropertiesConfiguration",
+        "INSTRUCTION_MISSED": "82",
+        "INSTRUCTION_COVERED": "21",
+        "BRANCH_MISSED": "2",
+        "BRANCH_COVERED": "2",
+        "LINE_MISSED": "18",
+        "LINE_COVERED": "5",
+        "COMPLEXITY_MISSED": "12",
+        "COMPLEXITY_COVERED": "3",
+        "METHOD_MISSED": "10",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "measurement_evidence_complete": false,
+    "strict_suite_evidence": false,
+    "strict_measurement_evidence": false
+  },
+  {
+    "job_index": 49,
+    "class_key": "98410891:core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/numberinterval.java",
+    "repo_id": "98410891",
+    "G0_archived_mutation_percent": "55.26",
+    "E0_archived_mutation_percent": "31.58",
+    "E1_archived_mutation_percent": "92.11",
+    "seed": 20261313,
+    "archived_E1_generation_success": true,
+    "generation_attempts": 0,
+    "generation_calls": 0,
+    "reused_E1_generated_tests": true,
+    "generated_bytes_unchanged": true,
+    "GPT_API_calls": 0,
+    "configuration": "frozen_E1_suite_compatibility_measurement",
+    "command_returncode": 0,
+    "legacy_process_build": 1,
+    "selected_test_fqcn": "com.softavail.commsrouter.api.dto.model.skill.NumberInterval_ESTest",
+    "surefire_suites": [
+      {
+        "name": "com.softavail.commsrouter.api.dto.model.skill.NumberInterval_ESTest",
+        "tests": 35,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "only_selected_suite_executed": true,
+    "suite_pass": true,
+    "pit_report_present": true,
+    "module_mutants": 346,
+    "focal_mutants": 38,
+    "killed_mutants": 35,
+    "focal_mutant_qualified_classes": [
+      "com.softavail.commsrouter.api.dto.model.skill.NumberInterval"
+    ],
+    "mutation_score_percent": 92.11,
+    "legacy_strict_mutation_percent": 92.11,
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Comms Router Core Interface",
+        "PACKAGE": "com.softavail.commsrouter.api.dto.model.skill",
+        "CLASS": "NumberInterval",
+        "INSTRUCTION_MISSED": "0",
+        "INSTRUCTION_COVERED": "330",
+        "BRANCH_MISSED": "0",
+        "BRANCH_COVERED": "76",
+        "LINE_MISSED": "0",
+        "LINE_COVERED": "56",
+        "COMPLEXITY_MISSED": "0",
+        "COMPLEXITY_COVERED": "53",
+        "METHOD_MISSED": "0",
+        "METHOD_COVERED": "15"
+      }
+    ],
+    "measurement_evidence_complete": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true
+  }
+]

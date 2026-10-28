@@ -1,0 +1,2728 @@
+{
+  "summary": {
+    "status": "PASS",
+    "verified_selected_raw_PIT_reports": 221,
+    "valid_observed_zero": 41,
+    "class294": {
+      "index": 294,
+      "focal_mutants": 44,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 38,
+        "TIMED_OUT": 6
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\294_completion_pom_resume_final2_v1\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "5f3b7aef4f5559c553d38abafbef3c24bee1170d5c1c167a5d1b8309be7868b3"
+    },
+    "all_formula": "round(100*KILLED/all_focal_SourceFile_package_rows,2)",
+    "TIMED_OUT_is_numerator": false,
+    "new_experiments": 0
+  },
+  "reports": [
+    {
+      "index": 1,
+      "focal_mutants": 12,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 12
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\33\\repo\\bridge\\target\\pit-reports\\mutations.csv",
+      "sha256": "2c6c428f02c240194b8f103a0d46b5258234d8b34bf041b5c9fe8ea701249bee"
+    },
+    {
+      "index": 2,
+      "focal_mutants": 1,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\002_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270403\\mutations.csv",
+      "sha256": "6a9cafe79f5813cb7985a5080085fc056469d77df7bcb8bed5e7d3617f5af584"
+    },
+    {
+      "index": 3,
+      "focal_mutants": 1,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\003_native_junit_diagnostic_v3\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "9c8ee061ac13698c99f87dfa374aabfb32978386d3cb0aa1eadf076f9139d0f0"
+    },
+    {
+      "index": 4,
+      "focal_mutants": 4,
+      "killed": 4,
+      "statuses": {
+        "KILLED": 4
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\004_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270920\\mutations.csv",
+      "sha256": "88a75807f0fcc805f249a54ff244935a10d8cec772eee1075590933c75962494"
+    },
+    {
+      "index": 5,
+      "focal_mutants": 3,
+      "killed": 2,
+      "statuses": {
+        "KILLED": 2,
+        "SURVIVED": 1
+      },
+      "observed_percent": 66.67,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\34\\repo\\dependency-injection\\target\\pit-reports\\mutations.csv",
+      "sha256": "ded752bd1fa980d56b7fcd06307cf8fa8e1fbb5e1487da22fddf822ad636b5a8"
+    },
+    {
+      "index": 7,
+      "focal_mutants": 1,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\007_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270407\\mutations.csv",
+      "sha256": "82d433c75e9eb408e68713ebdd9b02930d73a79577de359e972f9068d50d31fe"
+    },
+    {
+      "index": 8,
+      "focal_mutants": 2,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\008\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "01ed611d500317dcffdf637997c2e41ee15fb609b74338a67ce6a3931b8df770"
+    },
+    {
+      "index": 9,
+      "focal_mutants": 1,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\02\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "38c180cd130b7f7e147f2991528ef6d340b44c06e10db27ec7b85a103cec6cb8"
+    },
+    {
+      "index": 10,
+      "focal_mutants": 2,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\010\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "c67853ac69891e90da98221c85e89c66afc2cf8523532296582f17767124ddd7"
+    },
+    {
+      "index": 11,
+      "focal_mutants": 1,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\18\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "93483fcb54efee2ccba8a3915a761b35156bb9b788586b4841abf7db861f7689"
+    },
+    {
+      "index": 13,
+      "focal_mutants": 3,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\27\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "f92fa4c38ac603925f8ac0ed34ee3fd758038f1010edfb052c812fcd463be7ec"
+    },
+    {
+      "index": 14,
+      "focal_mutants": 1,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\35\\repo\\dependency-injection\\target\\pit-reports\\mutations.csv",
+      "sha256": "915717f86533261b28ecbc32830c381dd98b26e1430881f70316439f8dc7e9a1"
+    },
+    {
+      "index": 15,
+      "focal_mutants": 1,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\015_gradle_v1\\recipes\\measure\\evidence\\pit-native\\mutations.csv",
+      "sha256": "736a50664752cf05deec2b29c82e196f22e0c8633481714c1b04b8f0c71950bd"
+    },
+    {
+      "index": 17,
+      "focal_mutants": 3,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\017\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "0e2023b88ce440e6070f66dd8a7cee06b5e3972c77b4f53664e0323a157b69e1"
+    },
+    {
+      "index": 18,
+      "focal_mutants": 2,
+      "killed": 1,
+      "statuses": {
+        "SURVIVED": 1,
+        "KILLED": 1
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\018\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "8b3cb76a6eff9e7d271ae1432edda1e73d55aeef4db3ec226a0af0453096935a"
+    },
+    {
+      "index": 20,
+      "focal_mutants": 2,
+      "killed": 2,
+      "statuses": {
+        "KILLED": 2
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\020_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270414\\mutations.csv",
+      "sha256": "d4d06508a055a244c18db575f4d7e404f8513970dd3fc6276dd4ef7b6f89802d"
+    },
+    {
+      "index": 22,
+      "focal_mutants": 5,
+      "killed": 3,
+      "statuses": {
+        "SURVIVED": 1,
+        "KILLED": 3,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 60.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\022\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "d16eec2f4536f83db45dc37365ecb28b882794ebe7a04a1ad500d1e162f84846"
+    },
+    {
+      "index": 25,
+      "focal_mutants": 16,
+      "killed": 16,
+      "statuses": {
+        "KILLED": 16
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\025\\repo\\enav-model\\target\\pit-reports\\mutations.csv",
+      "sha256": "79a37cf207d01ab39e1d8cc8d98f6ea320411b24843705b9ff590e58b4c70a96"
+    },
+    {
+      "index": 26,
+      "focal_mutants": 20,
+      "killed": 1,
+      "statuses": {
+        "SURVIVED": 1,
+        "NO_COVERAGE": 18,
+        "KILLED": 1
+      },
+      "observed_percent": 5.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\39\\repo\\event\\target\\pit-reports\\mutations.csv",
+      "sha256": "3239670e63bf4a2f16a686c50be1acedd0dac00c58163e5e2c3f6bd628455cf6"
+    },
+    {
+      "index": 28,
+      "focal_mutants": 5,
+      "killed": 1,
+      "statuses": {
+        "SURVIVED": 4,
+        "KILLED": 1
+      },
+      "observed_percent": 20.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\028\\repo\\bridge\\target\\pit-reports\\mutations.csv",
+      "sha256": "6c93769f8af0eb511080a8929d71fcf251421a43b138ceb563693b0ba6ea460f"
+    },
+    {
+      "index": 30,
+      "focal_mutants": 5,
+      "killed": 2,
+      "statuses": {
+        "SURVIVED": 3,
+        "KILLED": 2
+      },
+      "observed_percent": 40.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\030\\repo\\bridge\\target\\pit-reports\\mutations.csv",
+      "sha256": "eac5cd012fcfceede37b5ed95872baa19aaeea40fc109f91859f13be91dbbb89"
+    },
+    {
+      "index": 32,
+      "focal_mutants": 5,
+      "killed": 2,
+      "statuses": {
+        "SURVIVED": 3,
+        "KILLED": 2
+      },
+      "observed_percent": 40.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\032\\repo\\bridge\\target\\pit-reports\\mutations.csv",
+      "sha256": "a9601b710d2698a8b26b2ae0782d5f5b0e1fe26b5d7b17c24fb54451fddd9f84"
+    },
+    {
+      "index": 34,
+      "focal_mutants": 5,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 5
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\034\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "7b239db5522f4fd0ab1a413d87ef46b989633a44aec5cc15e4bcf40f3c92c5fa"
+    },
+    {
+      "index": 35,
+      "focal_mutants": 14,
+      "killed": 7,
+      "statuses": {
+        "SURVIVED": 7,
+        "KILLED": 7
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\25\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "c0b0adc90c0b5a09b1ad44f231bfad0b11afacdda58dc17b35d55396d8bd37a5"
+    },
+    {
+      "index": 36,
+      "focal_mutants": 6,
+      "killed": 6,
+      "statuses": {
+        "KILLED": 6
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\036\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "30fee019ccd6f0c50ca5e7ccdf5d50e6a5e4581a114f0dc2c587a64689c8aadc"
+    },
+    {
+      "index": 37,
+      "focal_mutants": 11,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 2,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 63.64,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\037\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "9bf32811a9556914245d878c300d7071ee6637251a0bb4c7acbfd1cd7aecf0e3"
+    },
+    {
+      "index": 38,
+      "focal_mutants": 15,
+      "killed": 3,
+      "statuses": {
+        "NO_COVERAGE": 11,
+        "SURVIVED": 1,
+        "KILLED": 3
+      },
+      "observed_percent": 20.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\038\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "f329e4037b1ad5888aff97694c745f08d9ef40a0cc7805cef7d7392f870cf3c2"
+    },
+    {
+      "index": 39,
+      "focal_mutants": 4,
+      "killed": 2,
+      "statuses": {
+        "SURVIVED": 2,
+        "KILLED": 2
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\039\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "12f74274c4b9d94a4ca2ab7f416bde4c2d62652228ce9a646b12159cee758198"
+    },
+    {
+      "index": 40,
+      "focal_mutants": 3,
+      "killed": 3,
+      "statuses": {
+        "KILLED": 3
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\040_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270921\\mutations.csv",
+      "sha256": "e20f5a28d5aeeaa9b715daa12edbd33a3b604433209cdab8fc6343998bf85e7f"
+    },
+    {
+      "index": 41,
+      "focal_mutants": 1,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\041\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "01ed611d500317dcffdf637997c2e41ee15fb609b74338a67ce6a3931b8df770"
+    },
+    {
+      "index": 42,
+      "focal_mutants": 10,
+      "killed": 3,
+      "statuses": {
+        "SURVIVED": 7,
+        "KILLED": 3
+      },
+      "observed_percent": 30.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\042\\repo\\examples\\graph\\target\\pit-reports\\mutations.csv",
+      "sha256": "45e0080d65c261b5d4bdd62314b680077edb4ceaa46a56e23b740abb37522159"
+    },
+    {
+      "index": 43,
+      "focal_mutants": 3,
+      "killed": 3,
+      "statuses": {
+        "KILLED": 3
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\46\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "9b3a020c216b95f24d57b23c1ddc41821c11a9ffb0fc72d0fb48bb74b6783e93"
+    },
+    {
+      "index": 45,
+      "focal_mutants": 4,
+      "killed": 3,
+      "statuses": {
+        "SURVIVED": 1,
+        "KILLED": 3
+      },
+      "observed_percent": 75.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\045_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270923\\mutations.csv",
+      "sha256": "3f96e6039a8fb9ad7499dbfcafbc0755ff0429634c2ec8535fb486f60a3e7fb8"
+    },
+    {
+      "index": 46,
+      "focal_mutants": 2,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\08\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "f5d0e94a7c190e8a7d54dede71ca3e6db141aab0a84e36d006185e4fae773706"
+    },
+    {
+      "index": 47,
+      "focal_mutants": 3,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "NO_COVERAGE": 1,
+        "SURVIVED": 1
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\047\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "bc21761ec5d8861f944b6853a682e8ace517291f49ea869ae694d6964c5871fe"
+    },
+    {
+      "index": 50,
+      "focal_mutants": 5,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "SURVIVED": 1,
+        "NO_COVERAGE": 3
+      },
+      "observed_percent": 20.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\050\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "6b13e97c5ea81551c28d65d15b13971336f7f91372f672e68d666df311fabb50"
+    },
+    {
+      "index": 51,
+      "focal_mutants": 5,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 5
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\051\\repo\\hexagonal\\target\\pit-reports\\mutations.csv",
+      "sha256": "bee90b7578f2267a109af25d81ac79bfbf72e33e350ac528ad12e7c6c503685b"
+    },
+    {
+      "index": 52,
+      "focal_mutants": 6,
+      "killed": 2,
+      "statuses": {
+        "SURVIVED": 3,
+        "KILLED": 2,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\052\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "a0f7b4f87a6a9c393f0d976c59d99ff0d00051e93fe064d1d8058a09d49f2dbe"
+    },
+    {
+      "index": 53,
+      "focal_mutants": 4,
+      "killed": 1,
+      "statuses": {
+        "SURVIVED": 2,
+        "KILLED": 1,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 25.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\053\\repo\\hbase0.98\\hbase-manager-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "3cd26ee6820fcc59aeeabb5e6c9fc08b3e204b9d1ce7d6fefcf2936e2df7e9f9"
+    },
+    {
+      "index": 54,
+      "focal_mutants": 5,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 20.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\054\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "f8d4050cff3ae6b42de583cb4fe5461668dec427eb85f0e3ef47bd8f860b3ea6"
+    },
+    {
+      "index": 55,
+      "focal_mutants": 2,
+      "killed": 2,
+      "statuses": {
+        "KILLED": 2
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\055\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "659f611caf2366b1774335bb3f02ab5933b78a7a37cc14f107254ef8264e8770"
+    },
+    {
+      "index": 56,
+      "focal_mutants": 5,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 20.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\056\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "57075dadfcd81b0585720bacc02b7bafc96b8134dbfa47d2c7e72addde2180ec"
+    },
+    {
+      "index": 57,
+      "focal_mutants": 6,
+      "killed": 3,
+      "statuses": {
+        "SURVIVED": 3,
+        "KILLED": 3
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\057\\repo\\niubi-job-framework\\niubi-job-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "3e0f49b3d064e122547d242ffc8632cc606f0bf1010349ccc24c8fa98136bd76"
+    },
+    {
+      "index": 58,
+      "focal_mutants": 4,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1,
+        "NO_COVERAGE": 3
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\058\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "3326dcfe1a0767d261ccf091e4d54dd7e675dd316affc66e265d4c8a378c7dea"
+    },
+    {
+      "index": 59,
+      "focal_mutants": 6,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 6
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\11\\repo\\turin-standard-library\\target\\pit-reports\\mutations.csv",
+      "sha256": "5d76143f28000e04acc8bc3615136128c963f358f5b130107058ed191dde3f19"
+    },
+    {
+      "index": 60,
+      "focal_mutants": 3,
+      "killed": 1,
+      "statuses": {
+        "SURVIVED": 2,
+        "KILLED": 1
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\060\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "79dfedcf7d9a035b772c9bfe10d737d2f001f107977732f0940b525b4ced7f73"
+    },
+    {
+      "index": 62,
+      "focal_mutants": 8,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 1
+      },
+      "observed_percent": 87.5,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\43\\repo\\examples\\structures\\target\\pit-reports\\mutations.csv",
+      "sha256": "8b062d9b05e0b86206d3f5f504fef091f9323cc6a0e2f41109b13411f74e17cf"
+    },
+    {
+      "index": 63,
+      "focal_mutants": 4,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\063\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "e48d1669c8a89e3fffd08acfcbe21cdefdae266b2992a12c4e08199a6635c6c9"
+    },
+    {
+      "index": 65,
+      "focal_mutants": 12,
+      "killed": 5,
+      "statuses": {
+        "NO_COVERAGE": 5,
+        "SURVIVED": 2,
+        "KILLED": 5
+      },
+      "observed_percent": 41.67,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\065\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "65c0628d1003d9e151792c3dafc6778447852fe7dd64917932ad41d0a9baeb0b"
+    },
+    {
+      "index": 67,
+      "focal_mutants": 6,
+      "killed": 2,
+      "statuses": {
+        "KILLED": 2,
+        "SURVIVED": 2,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\067\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "68ca43967d0f8f33a628999d2f410563817341e8a204e158be89adf347877abf"
+    },
+    {
+      "index": 68,
+      "focal_mutants": 7,
+      "killed": 3,
+      "statuses": {
+        "KILLED": 3,
+        "SURVIVED": 3,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 42.86,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\068\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "742da171051d535c070d7763b28927b55939b29ab8f2796ec9fb86db624012ac"
+    },
+    {
+      "index": 70,
+      "focal_mutants": 42,
+      "killed": 40,
+      "statuses": {
+        "KILLED": 40,
+        "SURVIVED": 2
+      },
+      "observed_percent": 95.24,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\32\\repo\\enav-util\\target\\pit-reports\\mutations.csv",
+      "sha256": "80242d00f31c8a7330983e358ffe0d67df15a1f7959b8ca3327003fad9013811"
+    },
+    {
+      "index": 71,
+      "focal_mutants": 20,
+      "killed": 10,
+      "statuses": {
+        "SURVIVED": 6,
+        "KILLED": 10,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\071\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "311df34491094c15f7b303c729078d70f0e9fd83d8e4dacc5945a86caed88458"
+    },
+    {
+      "index": 72,
+      "focal_mutants": 13,
+      "killed": 4,
+      "statuses": {
+        "KILLED": 4,
+        "SURVIVED": 8,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 30.77,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\072_completion_pom_v2\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "cd721f1876e60bf336d751ca6d7147362444bb46bb5177f52f15cabbc5276335"
+    },
+    {
+      "index": 73,
+      "focal_mutants": 10,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 3
+      },
+      "observed_percent": 70.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\20\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "402253ccea1a65031624c8cbc2f3e0f91dae36fc6f205e30c396a3f9c62c630d"
+    },
+    {
+      "index": 74,
+      "focal_mutants": 12,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 12
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\074\\repo\\applications\\demo\\target\\pit-reports\\mutations.csv",
+      "sha256": "51e71505fb201aa9e9489dd86abbbe40e6dff775111601f06552fb239542a75e"
+    },
+    {
+      "index": 75,
+      "focal_mutants": 27,
+      "killed": 21,
+      "statuses": {
+        "KILLED": 21,
+        "SURVIVED": 5,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 77.78,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\19\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "37945113d30cd888ac281566b0de86bb90f0afe84ceda656edc8b4c072595f00"
+    },
+    {
+      "index": 77,
+      "focal_mutants": 20,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 20
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\077\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "1acf0e8a259371a90ea7ed875a2f32d8c565b12d1657e4200fe001c2c85c6c2a"
+    },
+    {
+      "index": 78,
+      "focal_mutants": 18,
+      "killed": 15,
+      "statuses": {
+        "KILLED": 15,
+        "SURVIVED": 3
+      },
+      "observed_percent": 83.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\078\\repo\\hbase0.98\\hbase-table-stat-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "25311d64891d55f4301a81a74e4cbb5535613c01be2961d51725c68326069986"
+    },
+    {
+      "index": 83,
+      "focal_mutants": 4,
+      "killed": 4,
+      "statuses": {
+        "KILLED": 4
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\083\\repo\\examples\\graph\\target\\pit-reports\\mutations.csv",
+      "sha256": "06765a574d3525a673eaeb311ecbd9b8547636db70ca33392a76594938bec82a"
+    },
+    {
+      "index": 84,
+      "focal_mutants": 3,
+      "killed": 2,
+      "statuses": {
+        "KILLED": 2,
+        "SURVIVED": 1
+      },
+      "observed_percent": 66.67,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\45\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "1f9e5395c60d66bcbed94bf4ac600c68c1c7d9d1977a6498fd21df4a4592b30a"
+    },
+    {
+      "index": 86,
+      "focal_mutants": 6,
+      "killed": 2,
+      "statuses": {
+        "SURVIVED": 2,
+        "KILLED": 2,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\086\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "ef68b75788b129fd860b96ee5c078f235f5e87e8781d1fa54c852a2797f71591"
+    },
+    {
+      "index": 87,
+      "focal_mutants": 9,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 2
+      },
+      "observed_percent": 77.78,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\087\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "3cc129fcf9e4c4ce2a7c3d8f4ecf8f4b30bbf00217b0e49d899aaad37837e190"
+    },
+    {
+      "index": 88,
+      "focal_mutants": 9,
+      "killed": 3,
+      "statuses": {
+        "SURVIVED": 6,
+        "KILLED": 3
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\24\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "db328180c4b42aa466f142375f3f04501eb6fe27ed846bae069dee9cb312c014"
+    },
+    {
+      "index": 89,
+      "focal_mutants": 5,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 5
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\089\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "36da5374159926aca497d3530ecdaa67725b8b97fe66bd11d14b378f7f19f784"
+    },
+    {
+      "index": 92,
+      "focal_mutants": 9,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 1,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 77.78,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\092\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "4b2af10f2c1afa9c4fb0d4fe1f91df8a0222b349d092383f80a09204f965eaab"
+    },
+    {
+      "index": 93,
+      "focal_mutants": 6,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 6
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\093\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "bd38b6dd968aed90f92a680000d22088d92ee0df0266386281be9e7907941e1b"
+    },
+    {
+      "index": 94,
+      "focal_mutants": 19,
+      "killed": 3,
+      "statuses": {
+        "SURVIVED": 16,
+        "KILLED": 3
+      },
+      "observed_percent": 15.79,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\094\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "3a07cb81f4f1d47226ba150da2b459340a5110e078ec774e1de18e9bd74de02e"
+    },
+    {
+      "index": 95,
+      "focal_mutants": 22,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 20,
+        "SURVIVED": 2
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\095\\repo\\niubi-job-framework\\niubi-job-service\\target\\pit-reports\\mutations.csv",
+      "sha256": "e0d8dbab823051462a544174dc5381e50af74a668ba478cb7422b52b8dfa7e79"
+    },
+    {
+      "index": 96,
+      "focal_mutants": 22,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 20,
+        "SURVIVED": 2
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\096\\repo\\niubi-job-framework\\niubi-job-service\\target\\pit-reports\\mutations.csv",
+      "sha256": "e27f353b7353dd25644966ba6ab8fa47b40ee489ef72ba9bda692721d341f682"
+    },
+    {
+      "index": 97,
+      "focal_mutants": 8,
+      "killed": 4,
+      "statuses": {
+        "KILLED": 4,
+        "SURVIVED": 4
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\097_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270426\\mutations.csv",
+      "sha256": "5b734ce4a267164518152c04730297452f5112ae4ea304d335d78894888c2f7d"
+    },
+    {
+      "index": 99,
+      "focal_mutants": 14,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "SURVIVED": 2,
+        "TIMED_OUT": 1,
+        "NO_COVERAGE": 10
+      },
+      "observed_percent": 7.14,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\099\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "4435e5fd2941c7ce35e4fdc4a1a70073051f422687a12418d8d8cac16f128435"
+    },
+    {
+      "index": 101,
+      "focal_mutants": 21,
+      "killed": 15,
+      "statuses": {
+        "SURVIVED": 6,
+        "KILLED": 15
+      },
+      "observed_percent": 71.43,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\31\\repo\\enav-util\\target\\pit-reports\\mutations.csv",
+      "sha256": "2bb0a9f481baadb0de9d5aa46672651715810ce945de71b8af1cfc8d43589b8d"
+    },
+    {
+      "index": 102,
+      "focal_mutants": 16,
+      "killed": 5,
+      "statuses": {
+        "SURVIVED": 7,
+        "KILLED": 5,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 31.25,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\102\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "d07399e801af8323716fa90db99cbf252c0289c7233b2cb4c8b506cbbd60fc3e"
+    },
+    {
+      "index": 105,
+      "focal_mutants": 15,
+      "killed": 14,
+      "statuses": {
+        "KILLED": 14,
+        "SURVIVED": 1
+      },
+      "observed_percent": 93.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\38\\repo\\event\\target\\pit-reports\\mutations.csv",
+      "sha256": "31ce055b03419ee09035ed9866088b641d0d3ab2599a36a4b2141392584ade0f"
+    },
+    {
+      "index": 106,
+      "focal_mutants": 14,
+      "killed": 6,
+      "statuses": {
+        "SURVIVED": 6,
+        "KILLED": 6,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 42.86,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\106_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270432\\mutations.csv",
+      "sha256": "626f5f67d65856c18195d32bb4ddcb26029e2f157b2a49394e1bb1970360fbb5"
+    },
+    {
+      "index": 107,
+      "focal_mutants": 13,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 12,
+        "KILLED": 1
+      },
+      "observed_percent": 7.69,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\107\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "aa325f41a7414aad11fba93d47db098d5f5e148f07c8ab843086b9dab843e82b"
+    },
+    {
+      "index": 108,
+      "focal_mutants": 15,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 15
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\48\\repo\\applications\\demo\\target\\pit-reports\\mutations.csv",
+      "sha256": "51e71505fb201aa9e9489dd86abbbe40e6dff775111601f06552fb239542a75e"
+    },
+    {
+      "index": 109,
+      "focal_mutants": 15,
+      "killed": 14,
+      "statuses": {
+        "NO_COVERAGE": 1,
+        "KILLED": 14
+      },
+      "observed_percent": 93.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\109\\repo\\core-interface\\target\\pit-reports\\mutations.csv",
+      "sha256": "6df152935a09d110d01b5e344af19c5683a61defb77076887b206de236df7718"
+    },
+    {
+      "index": 111,
+      "focal_mutants": 28,
+      "killed": 14,
+      "statuses": {
+        "SURVIVED": 4,
+        "KILLED": 14,
+        "NO_COVERAGE": 10
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\111\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "2677887d73d42625ac02ce889fa5ae0f6e91c5722e4f8d4cbe8965699be0de59"
+    },
+    {
+      "index": 113,
+      "focal_mutants": 17,
+      "killed": 3,
+      "statuses": {
+        "SURVIVED": 4,
+        "KILLED": 3,
+        "NO_COVERAGE": 10
+      },
+      "observed_percent": 17.65,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\113\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "44703e1160cf2e0ca4fdb644671c02967c65ab6711d40ecea9384bfc810443c3"
+    },
+    {
+      "index": 114,
+      "focal_mutants": 19,
+      "killed": 12,
+      "statuses": {
+        "KILLED": 12,
+        "SURVIVED": 7
+      },
+      "observed_percent": 63.16,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\17\\repo\\hbase0.98\\hbase-common-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "a5fce154b5ce13fdfb91c38f7d29a1ca59de3354dbd0e5a3aab0ad29108fb40d"
+    },
+    {
+      "index": 115,
+      "focal_mutants": 15,
+      "killed": 2,
+      "statuses": {
+        "KILLED": 2,
+        "NO_COVERAGE": 12,
+        "SURVIVED": 1
+      },
+      "observed_percent": 13.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\115\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "8ba3086c5f4e1be0af9cc66f80641cff76ec91c826a487cc373c72c9df26be23"
+    },
+    {
+      "index": 117,
+      "focal_mutants": 15,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 8,
+        "TIMED_OUT": 2,
+        "SURVIVED": 4,
+        "KILLED": 1
+      },
+      "observed_percent": 6.67,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\117\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "32476afdef8ecf982566896e36a095b09c1bff47c4bf4f52e8f99bb47f5313fe"
+    },
+    {
+      "index": 118,
+      "focal_mutants": 15,
+      "killed": 8,
+      "statuses": {
+        "KILLED": 8,
+        "NO_COVERAGE": 4,
+        "SURVIVED": 3
+      },
+      "observed_percent": 53.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\118\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "850f86214921a8b4ce833f3d07ac8fa8b05e89bb6386a9f4296b7458f5421b19"
+    },
+    {
+      "index": 119,
+      "focal_mutants": 27,
+      "killed": 14,
+      "statuses": {
+        "KILLED": 14,
+        "SURVIVED": 8,
+        "NO_COVERAGE": 4,
+        "TIMED_OUT": 1
+      },
+      "observed_percent": 51.85,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\119_completion_pom_v3\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "b3ab0579605927d85723d1ea04b0a6464feb00a870730ac7519387a40f4e57f8"
+    },
+    {
+      "index": 120,
+      "focal_mutants": 7,
+      "killed": 6,
+      "statuses": {
+        "KILLED": 6,
+        "SURVIVED": 1
+      },
+      "observed_percent": 85.71,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\06\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "5413398e4aa45b530ea47ac8b9415040f0d721a8b0fc0789c46a0d88df2c872a"
+    },
+    {
+      "index": 121,
+      "focal_mutants": 6,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 6
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\121\\repo\\niubi-job-framework\\niubi-job-service\\target\\pit-reports\\mutations.csv",
+      "sha256": "5ca14a7de8a189aedb39dc7b4691bea40ae0e97abae92dc84fba2499e3035bef"
+    },
+    {
+      "index": 122,
+      "focal_mutants": 11,
+      "killed": 1,
+      "statuses": {
+        "SURVIVED": 10,
+        "KILLED": 1
+      },
+      "observed_percent": 9.09,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\122\\repo\\examples\\graph\\target\\pit-reports\\mutations.csv",
+      "sha256": "8af6ddd67d854910f2f337210ae5fddc45d1c7657c9e360bca8be07631fdfdde"
+    },
+    {
+      "index": 123,
+      "focal_mutants": 7,
+      "killed": 6,
+      "statuses": {
+        "KILLED": 6,
+        "SURVIVED": 1
+      },
+      "observed_percent": 85.71,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\05\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "f075155b1fc74e11770d26288cec31dd772e36e0ac7ecc0c709131d446340bd8"
+    },
+    {
+      "index": 124,
+      "focal_mutants": 6,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 1,
+        "NO_COVERAGE": 5
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\16\\repo\\hbase0.98\\hbase-common-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "a06fac26d81e03a9ac87b291fbb47039f144d0ce7303597f7b9884bb37e34c1f"
+    },
+    {
+      "index": 125,
+      "focal_mutants": 9,
+      "killed": 3,
+      "statuses": {
+        "KILLED": 3,
+        "NO_COVERAGE": 6
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\125\\repo\\niubi-job-framework\\niubi-job-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "4ff56f0d1ef5370ecdce87f9aea5f470077ff3f731270b907b594a7f8ab3a510"
+    },
+    {
+      "index": 127,
+      "focal_mutants": 11,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 6,
+        "KILLED": 1,
+        "SURVIVED": 4
+      },
+      "observed_percent": 9.09,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\127\\repo\\examples\\graph\\target\\pit-reports\\mutations.csv",
+      "sha256": "debb57664d8c178d8c505a6a5d71a0e26d3c6b2c4ed73f1e2b35e4601e6b74e6"
+    },
+    {
+      "index": 129,
+      "focal_mutants": 14,
+      "killed": 10,
+      "statuses": {
+        "KILLED": 10,
+        "NO_COVERAGE": 1,
+        "SURVIVED": 3
+      },
+      "observed_percent": 71.43,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\129_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270925\\mutations.csv",
+      "sha256": "b9c940e9288ceb02a618aebfe42458fd8456a0bda3a4ed7aa36e9496fd075e89"
+    },
+    {
+      "index": 131,
+      "focal_mutants": 13,
+      "killed": 11,
+      "statuses": {
+        "KILLED": 11,
+        "SURVIVED": 2
+      },
+      "observed_percent": 84.62,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\15\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "e60aa8b4f4fe7fbbbbf9e54d4cc230407dcfdacf6e760e52476ec9b295083d90"
+    },
+    {
+      "index": 132,
+      "focal_mutants": 8,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 7,
+        "KILLED": 1
+      },
+      "observed_percent": 12.5,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\132\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "38c4706e29c7872bb5bbdde6b4f4ca98109ecd4062c7dd418a375f304f553505"
+    },
+    {
+      "index": 133,
+      "focal_mutants": 5,
+      "killed": 2,
+      "statuses": {
+        "SURVIVED": 3,
+        "KILLED": 2
+      },
+      "observed_percent": 40.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\133\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "7ccd1af5c84ddce870a20dbc3a692fdd9f1f782bd1e73cea59910c8811e77739"
+    },
+    {
+      "index": 134,
+      "focal_mutants": 8,
+      "killed": 6,
+      "statuses": {
+        "KILLED": 6,
+        "NO_COVERAGE": 1,
+        "SURVIVED": 1
+      },
+      "observed_percent": 75.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\134_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270440\\mutations.csv",
+      "sha256": "bfed5b1a583649e5ddc9ad1af854759d7cce87f92e62bc42085fc2dded84d8d1"
+    },
+    {
+      "index": 135,
+      "focal_mutants": 22,
+      "killed": 6,
+      "statuses": {
+        "KILLED": 6,
+        "SURVIVED": 16
+      },
+      "observed_percent": 27.27,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\135_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270927\\mutations.csv",
+      "sha256": "47b200c0d2aefe56842a06be0a606064d8a3780da60bd3f163d203bb0e0f9a6a"
+    },
+    {
+      "index": 137,
+      "focal_mutants": 9,
+      "killed": 6,
+      "statuses": {
+        "SURVIVED": 3,
+        "KILLED": 6
+      },
+      "observed_percent": 66.67,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\137\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "2a5987131f0b6470e2638830ed83f16678f4d1f538f9f7d267b84cb9fc742546"
+    },
+    {
+      "index": 139,
+      "focal_mutants": 12,
+      "killed": 10,
+      "statuses": {
+        "KILLED": 10,
+        "SURVIVED": 1,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 83.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\139\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "19eb57fc634f3f7b71cd28ba6f49c21b818c23838deafe99dd9ca7b0fb608520"
+    },
+    {
+      "index": 140,
+      "focal_mutants": 14,
+      "killed": 9,
+      "statuses": {
+        "KILLED": 9,
+        "SURVIVED": 5
+      },
+      "observed_percent": 64.29,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\47\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "430504468947fec5652907f334311d1321c0e3a88887c6f5f4714b62d1a9ee2f"
+    },
+    {
+      "index": 141,
+      "focal_mutants": 25,
+      "killed": 5,
+      "statuses": {
+        "NO_COVERAGE": 16,
+        "SURVIVED": 4,
+        "KILLED": 5
+      },
+      "observed_percent": 20.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\141\\repo\\event\\target\\pit-reports\\mutations.csv",
+      "sha256": "b77b777f29af0e031428f7c89e6df233810e7e3bc702cb6a21e32bdcfb4c50d3"
+    },
+    {
+      "index": 142,
+      "focal_mutants": 17,
+      "killed": 3,
+      "statuses": {
+        "NO_COVERAGE": 14,
+        "KILLED": 3
+      },
+      "observed_percent": 17.65,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\26\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "ac0e18ce44e152b0b623e4b2ace97b17acba4187ee6c95bb3619863bc2171768"
+    },
+    {
+      "index": 143,
+      "focal_mutants": 12,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 11,
+        "SURVIVED": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\143\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "739cd06fd60e0332923f3be9b850dc9e7283124c32252879a58328e78fa52fe8"
+    },
+    {
+      "index": 144,
+      "focal_mutants": 14,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 7
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\144\\repo\\turin-standard-library\\target\\pit-reports\\mutations.csv",
+      "sha256": "3260ad2f80fb4ef04ff3accf946e32fdd0bbf672c8b44c738cf72b98a379ac86"
+    },
+    {
+      "index": 147,
+      "focal_mutants": 13,
+      "killed": 10,
+      "statuses": {
+        "KILLED": 10,
+        "SURVIVED": 3
+      },
+      "observed_percent": 76.92,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\147\\repo\\core-interface\\target\\pit-reports\\mutations.csv",
+      "sha256": "1a6fb3b3d802b6674f90dc9593bbc5c4cd46e2ec839a3cd18ee1f5758d2e6196"
+    },
+    {
+      "index": 150,
+      "focal_mutants": 17,
+      "killed": 7,
+      "statuses": {
+        "SURVIVED": 8,
+        "KILLED": 7,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 41.18,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\150\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "a3779043966071500a560e2057d9055942cbc238adc4baf0168d3e939e2ae11f"
+    },
+    {
+      "index": 151,
+      "focal_mutants": 26,
+      "killed": 11,
+      "statuses": {
+        "KILLED": 11,
+        "NO_COVERAGE": 14,
+        "SURVIVED": 1
+      },
+      "observed_percent": 42.31,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\151\\repo\\web\\target\\pit-reports\\mutations.csv",
+      "sha256": "7c0e557a89f1504cb9794c7420420d2bd5264c2859359a31194b266aa96cf234"
+    },
+    {
+      "index": 152,
+      "focal_mutants": 25,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 25
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\152\\repo\\web\\target\\pit-reports\\mutations.csv",
+      "sha256": "79c5f0c506b7a349ac509da503f2bec9b029cfbd54dd6af5fb1f09677f6b59f5"
+    },
+    {
+      "index": 153,
+      "focal_mutants": 39,
+      "killed": 0,
+      "statuses": {
+        "RUN_ERROR": 39
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\29\\repo\\enav-model\\target\\pit-reports\\mutations.csv",
+      "sha256": "eeb4928c1e8f62d21c58aca9037b0891f153c0f168cfdf9087fbe730577dbe16"
+    },
+    {
+      "index": 155,
+      "focal_mutants": 20,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 19,
+        "KILLED": 1
+      },
+      "observed_percent": 5.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\155\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "f53ec5372e6e8fb66ed57a3533dde340d1dae3d000392735074fb36b71a790b4"
+    },
+    {
+      "index": 156,
+      "focal_mutants": 36,
+      "killed": 21,
+      "statuses": {
+        "KILLED": 21,
+        "SURVIVED": 11,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 58.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\156_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270929\\mutations.csv",
+      "sha256": "29e2027f3fdd1f98bb1cecf991111662e7c48244e06ff3d5819bee6d48f61d9a"
+    },
+    {
+      "index": 157,
+      "focal_mutants": 34,
+      "killed": 28,
+      "statuses": {
+        "KILLED": 28,
+        "SURVIVED": 6
+      },
+      "observed_percent": 82.35,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\157\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "6c4605cd683efca0cfc9f1699a184e458da5cc4ff5f278539e51ccd37d4fb2b1"
+    },
+    {
+      "index": 158,
+      "focal_mutants": 42,
+      "killed": 17,
+      "statuses": {
+        "KILLED": 17,
+        "SURVIVED": 25
+      },
+      "observed_percent": 40.48,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\158\\repo\\enav-model\\target\\pit-reports\\mutations.csv",
+      "sha256": "b3c324d8a01e99ccf279eb1f5515259219990ed93d21f0983eba27cf126f7d4e"
+    },
+    {
+      "index": 159,
+      "focal_mutants": 33,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 2,
+        "NO_COVERAGE": 24
+      },
+      "observed_percent": 21.21,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\159\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "00445261c4fdc6399f146ae61535608456f781e48586fd44da47ceb67b143496"
+    },
+    {
+      "index": 160,
+      "focal_mutants": 28,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 28
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\160\\repo\\sonar-jproperties-plugin\\target\\pit-reports\\mutations.csv",
+      "sha256": "29b59b561f4864d9a0a17bc7fb414d01cb47091d80b90e661f94bf91d8359e50"
+    },
+    {
+      "index": 162,
+      "focal_mutants": 35,
+      "killed": 7,
+      "statuses": {
+        "NO_COVERAGE": 28,
+        "KILLED": 7
+      },
+      "observed_percent": 20.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\162\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "eb7f8d8238bee363b79b3b776e54ab4bd038921fbc8b4f66cb76264936dbc957"
+    },
+    {
+      "index": 163,
+      "focal_mutants": 47,
+      "killed": 7,
+      "statuses": {
+        "SURVIVED": 27,
+        "KILLED": 7,
+        "TIMED_OUT": 3,
+        "NO_COVERAGE": 10
+      },
+      "observed_percent": 14.89,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\163_completion_pom_v3\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "cd3030637ab81e664b1af178f220a0feeb2e918dd713425c676fe226d3e89215"
+    },
+    {
+      "index": 164,
+      "focal_mutants": 37,
+      "killed": 10,
+      "statuses": {
+        "NO_COVERAGE": 26,
+        "KILLED": 10,
+        "SURVIVED": 1
+      },
+      "observed_percent": 27.03,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\164\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "66ad17ce5666bae0b1649846f3a6423e8bcafaf4a0bb35fff03d53abc27fdb6b"
+    },
+    {
+      "index": 166,
+      "focal_mutants": 47,
+      "killed": 41,
+      "statuses": {
+        "KILLED": 41,
+        "NO_COVERAGE": 3,
+        "SURVIVED": 3
+      },
+      "observed_percent": 87.23,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\21\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "b9c4304a57cfac20fd85f055ca77fbcda4b51f2cb85afac3cfcde35568af2f87"
+    },
+    {
+      "index": 167,
+      "focal_mutants": 10,
+      "killed": 6,
+      "statuses": {
+        "KILLED": 6,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 60.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\41\\repo\\examples\\random\\target\\pit-reports\\mutations.csv",
+      "sha256": "673b65ecc6c1922a95345ea8abe9a5a238fc0cfae387b6a269fb946414c5d793"
+    },
+    {
+      "index": 168,
+      "focal_mutants": 8,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 8
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\168\\repo\\niubi-job-framework\\niubi-job-service\\target\\pit-reports\\mutations.csv",
+      "sha256": "5ca14a7de8a189aedb39dc7b4691bea40ae0e97abae92dc84fba2499e3035bef"
+    },
+    {
+      "index": 169,
+      "focal_mutants": 6,
+      "killed": 5,
+      "statuses": {
+        "KILLED": 5,
+        "SURVIVED": 1
+      },
+      "observed_percent": 83.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\169_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270932\\mutations.csv",
+      "sha256": "15976785bae23513762fdcea4fea6a98c257c1c54e11225c3dfeccbfac8c94b2"
+    },
+    {
+      "index": 170,
+      "focal_mutants": 11,
+      "killed": 9,
+      "statuses": {
+        "SURVIVED": 2,
+        "KILLED": 9
+      },
+      "observed_percent": 81.82,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\170_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270934\\mutations.csv",
+      "sha256": "5a09d59c0a61718360566aa8ed474d0be3a005ed15a5859ad4b4fbe70235033f"
+    },
+    {
+      "index": 171,
+      "focal_mutants": 7,
+      "killed": 6,
+      "statuses": {
+        "KILLED": 6,
+        "SURVIVED": 1
+      },
+      "observed_percent": 85.71,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\171\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "4234edb39f256801cad5dd1ff25c0950be2eb7ca79519b2b082367046420e86a"
+    },
+    {
+      "index": 172,
+      "focal_mutants": 15,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 15
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\172\\repo\\examples\\graph\\target\\pit-reports\\mutations.csv",
+      "sha256": "9d41c69db3c004c5177cabdc7eb2c5a22da204626269923e0ed68b38a39f4d21"
+    },
+    {
+      "index": 173,
+      "focal_mutants": 10,
+      "killed": 9,
+      "statuses": {
+        "KILLED": 9,
+        "SURVIVED": 1
+      },
+      "observed_percent": 90.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\173_completion_pom_v3\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "0005d8a5dfd176abddd2e59318033b127847bed19cae92fbea566151fa056652"
+    },
+    {
+      "index": 174,
+      "focal_mutants": 16,
+      "killed": 11,
+      "statuses": {
+        "KILLED": 11,
+        "SURVIVED": 5
+      },
+      "observed_percent": 68.75,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\174\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "243e60ddb7f2f03a67131364db5d6e40eee581617294361bd50da29eb3aa2293"
+    },
+    {
+      "index": 177,
+      "focal_mutants": 22,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 19,
+        "SURVIVED": 3
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\177\\repo\\niubi-job-framework\\niubi-job-service\\target\\pit-reports\\mutations.csv",
+      "sha256": "8c7b19770f18f35a42ff73f99434f29af4f0a24c61d68cf6e6c7dca73dbf8380"
+    },
+    {
+      "index": 178,
+      "focal_mutants": 19,
+      "killed": 14,
+      "statuses": {
+        "KILLED": 14,
+        "SURVIVED": 5
+      },
+      "observed_percent": 73.68,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\178\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "a4cb2a83f469746d49cd21f6c239b1a2b6d685bfddf0c7b6605adc3af9afefb1"
+    },
+    {
+      "index": 180,
+      "focal_mutants": 16,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 16
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\180\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "3dd806f855a3d52cc6897654dba52244d0b23cf2cf63b93bf3f065435ec80043"
+    },
+    {
+      "index": 181,
+      "focal_mutants": 22,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 19,
+        "SURVIVED": 3
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\181\\repo\\niubi-job-framework\\niubi-job-service\\target\\pit-reports\\mutations.csv",
+      "sha256": "3a5835e81d3ef0e19a95b568e7b962dbb7397b0b66b5672635be956c66195250"
+    },
+    {
+      "index": 183,
+      "focal_mutants": 9,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "NO_COVERAGE": 3,
+        "SURVIVED": 5
+      },
+      "observed_percent": 11.11,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\183\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "e2a932da49dc399c8bb1c1d0bd86ca624f37d3afe56bbb586452e92b9e9356a4"
+    },
+    {
+      "index": 184,
+      "focal_mutants": 34,
+      "killed": 23,
+      "statuses": {
+        "KILLED": 23,
+        "SURVIVED": 11
+      },
+      "observed_percent": 67.65,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\184_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270936\\mutations.csv",
+      "sha256": "c82f2875fae54fc4a58e39264a804a03ae6332fbe3e26e56dda44c966e607956"
+    },
+    {
+      "index": 185,
+      "focal_mutants": 22,
+      "killed": 3,
+      "statuses": {
+        "KILLED": 3,
+        "NO_COVERAGE": 16,
+        "SURVIVED": 3
+      },
+      "observed_percent": 13.64,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\185\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "f10bcee68412d9f236744180d286b1c507ea02b27a49b43cb382985dd6868f10"
+    },
+    {
+      "index": 186,
+      "focal_mutants": 21,
+      "killed": 14,
+      "statuses": {
+        "KILLED": 14,
+        "SURVIVED": 6,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 66.67,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\186\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "e404256c47e0e9c7b9c322c02d997128ae83d9b9e2a97a0051d5aea67514ed6c"
+    },
+    {
+      "index": 187,
+      "focal_mutants": 27,
+      "killed": 7,
+      "statuses": {
+        "NO_COVERAGE": 18,
+        "KILLED": 7,
+        "SURVIVED": 2
+      },
+      "observed_percent": 25.93,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\187\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "b18eba83694a5ecfefd5e845dee497902139bdb31f1a63e49c13ba6ee5c308da"
+    },
+    {
+      "index": 188,
+      "focal_mutants": 31,
+      "killed": 26,
+      "statuses": {
+        "KILLED": 26,
+        "SURVIVED": 5
+      },
+      "observed_percent": 83.87,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\188\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "c86dbd9a9bfad2cd1b3031e97289bc1e9f521634bea4194325092eb79818d5d1"
+    },
+    {
+      "index": 190,
+      "focal_mutants": 38,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 37,
+        "SURVIVED": 1
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\190\\repo\\elastic-jobx-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "75f0a0924512d7b95fe5e2ed99b00e3deeb015a8d45a3164b0d9f2be8cae4344"
+    },
+    {
+      "index": 192,
+      "focal_mutants": 40,
+      "killed": 0,
+      "statuses": {
+        "SURVIVED": 19,
+        "NO_COVERAGE": 18,
+        "TIMED_OUT": 3
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\192\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "e93d6737549dcc49a070e8a9f58c6e6de72dad50056c60cdb437a15a397511a1"
+    },
+    {
+      "index": 193,
+      "focal_mutants": 42,
+      "killed": 24,
+      "statuses": {
+        "SURVIVED": 14,
+        "KILLED": 24,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 57.14,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\193\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "41e0b55ebd2da7eba6fdbcf2990e301e22c77be2ee5f52c9fbfa0e8341eb537a"
+    },
+    {
+      "index": 195,
+      "focal_mutants": 13,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 11,
+        "SURVIVED": 1,
+        "KILLED": 1
+      },
+      "observed_percent": 7.69,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\195\\repo\\niubi-job-framework\\niubi-job-service\\target\\pit-reports\\mutations.csv",
+      "sha256": "e7ce6ab0677ba8002f0bb873acf7a2921609258bcf0674b4d248dcfd859a61c3"
+    },
+    {
+      "index": 196,
+      "focal_mutants": 20,
+      "killed": 6,
+      "statuses": {
+        "SURVIVED": 10,
+        "NO_COVERAGE": 4,
+        "KILLED": 6
+      },
+      "observed_percent": 30.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\196\\repo\\infrastructure\\target\\pit-reports\\mutations.csv",
+      "sha256": "7add566a6b2fc2ecd8491e5af847a45ef5a5eec155010697f164faf966298172"
+    },
+    {
+      "index": 197,
+      "focal_mutants": 31,
+      "killed": 24,
+      "statuses": {
+        "SURVIVED": 7,
+        "KILLED": 24
+      },
+      "observed_percent": 77.42,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\197_completion_pit_v2\\recipes\\measure\\evidence\\pit-native\\202610270938\\mutations.csv",
+      "sha256": "4e7f01a1b2f6418be33bbe9f9478248b320325ea6c050d5521dd95af6048dbd6"
+    },
+    {
+      "index": 203,
+      "focal_mutants": 36,
+      "killed": 16,
+      "statuses": {
+        "KILLED": 16,
+        "SURVIVED": 20
+      },
+      "observed_percent": 44.44,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\42\\repo\\examples\\structures\\target\\pit-reports\\mutations.csv",
+      "sha256": "14ff47807a3d3db9992ef01d694641e983d008a30cdaea3c9e958a930784fd6f"
+    },
+    {
+      "index": 204,
+      "focal_mutants": 33,
+      "killed": 1,
+      "statuses": {
+        "NON_VIABLE": 31,
+        "NO_COVERAGE": 1,
+        "KILLED": 1
+      },
+      "observed_percent": 3.03,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\204\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "cc1ac72c2152734207ed28c799a83df2e2e4a8e49ed6f6795784d7a6a0a46213"
+    },
+    {
+      "index": 205,
+      "focal_mutants": 30,
+      "killed": 28,
+      "statuses": {
+        "KILLED": 28,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 93.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\205\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "25e944e1193efa9fd9a30cee8061fa98455e9b5dc139abc1b29ab234c9ad4c03"
+    },
+    {
+      "index": 206,
+      "focal_mutants": 21,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 14
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\206\\repo\\niubi-job-framework\\niubi-job-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "f56ceb084d03c5cc09f0c68a3372ad194b6dd0d5d3cecc9844537e27d9969b04"
+    },
+    {
+      "index": 208,
+      "focal_mutants": 35,
+      "killed": 16,
+      "statuses": {
+        "NO_COVERAGE": 19,
+        "KILLED": 16
+      },
+      "observed_percent": 45.71,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\208\\repo\\hbase0.98\\hbase-manager-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "659117a8c1b6cd68841efb1f7072cac5b5c0569c8af28ab6702861e7028d53d7"
+    },
+    {
+      "index": 209,
+      "focal_mutants": 36,
+      "killed": 0,
+      "statuses": {
+        "RUN_ERROR": 36
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\209\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "29a2c9eeb884cdd0170b67709d0064b1621064bf9a636f711463b4dafd98cba8"
+    },
+    {
+      "index": 210,
+      "focal_mutants": 35,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 35
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\210\\repo\\web\\target\\pit-reports\\mutations.csv",
+      "sha256": "79c5f0c506b7a349ac509da503f2bec9b029cfbd54dd6af5fb1f09677f6b59f5"
+    },
+    {
+      "index": 211,
+      "focal_mutants": 32,
+      "killed": 13,
+      "statuses": {
+        "SURVIVED": 7,
+        "KILLED": 13,
+        "NO_COVERAGE": 12
+      },
+      "observed_percent": 40.62,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\211_completion_pom_resume_after173_v1\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "f68639c2be685833de0cda80996326e90be87c98a7ff718deebb156796a3449b"
+    },
+    {
+      "index": 212,
+      "focal_mutants": 38,
+      "killed": 28,
+      "statuses": {
+        "KILLED": 28,
+        "SURVIVED": 5,
+        "NO_COVERAGE": 5
+      },
+      "observed_percent": 73.68,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\28\\repo\\enav-model\\target\\pit-reports\\mutations.csv",
+      "sha256": "7f7289f6ab6fb027c0e8b31fa17d218a0bddadd7b8423949745a1d75167a97aa"
+    },
+    {
+      "index": 213,
+      "focal_mutants": 31,
+      "killed": 25,
+      "statuses": {
+        "KILLED": 25,
+        "SURVIVED": 3,
+        "NO_COVERAGE": 3
+      },
+      "observed_percent": 80.65,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\213\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "0f1b13a883e93dc8a5b728d1922275d048c4af8c75305098848e68ffbbcd03e3"
+    },
+    {
+      "index": 215,
+      "focal_mutants": 12,
+      "killed": 12,
+      "statuses": {
+        "KILLED": 12
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\215_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270509\\mutations.csv",
+      "sha256": "6a55bb7ae4ad21ac827b9732bcb66aea18796f57f02321cd9e114628ea61f303"
+    },
+    {
+      "index": 216,
+      "focal_mutants": 16,
+      "killed": 14,
+      "statuses": {
+        "KILLED": 14,
+        "SURVIVED": 1,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 87.5,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\04\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "5b22cf7933de04b817b4821131a398e97304969a445c10cb271124f9dd199118"
+    },
+    {
+      "index": 217,
+      "focal_mutants": 17,
+      "killed": 12,
+      "statuses": {
+        "KILLED": 12,
+        "NO_COVERAGE": 1,
+        "SURVIVED": 4
+      },
+      "observed_percent": 70.59,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\217\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "ac01479aca790b3a517ec7ddda638418bb4e06e1985ad3da773c1232a92394d3"
+    },
+    {
+      "index": 218,
+      "focal_mutants": 18,
+      "killed": 15,
+      "statuses": {
+        "KILLED": 15,
+        "SURVIVED": 3
+      },
+      "observed_percent": 83.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\218\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "f946bc4b8777db373582c55008ee9283862434b7fc5cad6f70a35730828887a6"
+    },
+    {
+      "index": 220,
+      "focal_mutants": 23,
+      "killed": 10,
+      "statuses": {
+        "KILLED": 10,
+        "SURVIVED": 13
+      },
+      "observed_percent": 43.48,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\220_completion_pom_resume_after173_v1\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "e66ea62f89ff5738ef1806daee1d7e6832a665b079a2cc74a44bc5e81c43fcb3"
+    },
+    {
+      "index": 221,
+      "focal_mutants": 31,
+      "killed": 14,
+      "statuses": {
+        "KILLED": 14,
+        "NO_COVERAGE": 14,
+        "SURVIVED": 3
+      },
+      "observed_percent": 45.16,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\221\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "4907e92224533226b1ca1b5cdafed47c0c8f4b46aa0a5fa22b46ff40d5aaf421"
+    },
+    {
+      "index": 222,
+      "focal_mutants": 26,
+      "killed": 19,
+      "statuses": {
+        "SURVIVED": 4,
+        "KILLED": 19,
+        "NO_COVERAGE": 3
+      },
+      "observed_percent": 73.08,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\36\\repo\\hexagonal\\target\\pit-reports\\mutations.csv",
+      "sha256": "d8502c052130a326ebaaab1724af9ccfbf1621c83594896e840d74f1984ca4b5"
+    },
+    {
+      "index": 223,
+      "focal_mutants": 19,
+      "killed": 8,
+      "statuses": {
+        "SURVIVED": 3,
+        "KILLED": 8,
+        "NO_COVERAGE": 8
+      },
+      "observed_percent": 42.11,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\223\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "73a7dbb40092c9f15ce1a1c74e665aad6e4959beaffc86033a0aa140086e3793"
+    },
+    {
+      "index": 225,
+      "focal_mutants": 38,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "NO_COVERAGE": 37
+      },
+      "observed_percent": 2.63,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\225\\repo\\enav-serialization\\target\\pit-reports\\mutations.csv",
+      "sha256": "267a88a9a637ca5e41447ac6a26451d191539ae5db0eddb585ad49e06ea9b721"
+    },
+    {
+      "index": 226,
+      "focal_mutants": 22,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 22
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\226\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "af2ea5f7a4a41446047c4ba02b59b9ced575b4bfd23173bf9f607506a71fef33"
+    },
+    {
+      "index": 228,
+      "focal_mutants": 35,
+      "killed": 31,
+      "statuses": {
+        "KILLED": 31,
+        "SURVIVED": 4
+      },
+      "observed_percent": 88.57,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\10\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "0e351765403782cef236376b8029d28623d4884b61d361af8d8f52a256de3032"
+    },
+    {
+      "index": 229,
+      "focal_mutants": 32,
+      "killed": 29,
+      "statuses": {
+        "KILLED": 29,
+        "NO_COVERAGE": 1,
+        "SURVIVED": 2
+      },
+      "observed_percent": 90.62,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\23\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "27a25a5ce8bb671ae8524f772a83e434be85d35aa32ce2981ec028d6d5552625"
+    },
+    {
+      "index": 230,
+      "focal_mutants": 46,
+      "killed": 38,
+      "statuses": {
+        "KILLED": 38,
+        "SURVIVED": 8
+      },
+      "observed_percent": 82.61,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\14\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "a270e674064788f5113d58af39ad943f6fadb234996d75f1dba430d6ebec967e"
+    },
+    {
+      "index": 231,
+      "focal_mutants": 34,
+      "killed": 4,
+      "statuses": {
+        "KILLED": 4,
+        "NO_COVERAGE": 26,
+        "SURVIVED": 3,
+        "TIMED_OUT": 1
+      },
+      "observed_percent": 11.76,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\231\\repo\\hbase0.98\\hbase-manager-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "991d7f9c2accc105ac3cee7990ca7c9818f57ac947421f4c2daeb2f82c572508"
+    },
+    {
+      "index": 232,
+      "focal_mutants": 39,
+      "killed": 8,
+      "statuses": {
+        "NO_COVERAGE": 29,
+        "KILLED": 8,
+        "RUN_ERROR": 1,
+        "SURVIVED": 1
+      },
+      "observed_percent": 20.51,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\232\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "5068a8ddc66c7fb13c872723f2285b0e3aa29c976f9ce04e1e14478087ef21f5"
+    },
+    {
+      "index": 233,
+      "focal_mutants": 40,
+      "killed": 35,
+      "statuses": {
+        "KILLED": 35,
+        "SURVIVED": 5
+      },
+      "observed_percent": 87.5,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\09\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "64f529d820b227fa8891d1b0baa9d99d526b1cd3e45539108f43920fbff77fa4"
+    },
+    {
+      "index": 234,
+      "focal_mutants": 41,
+      "killed": 33,
+      "statuses": {
+        "KILLED": 33,
+        "NO_COVERAGE": 2,
+        "SURVIVED": 6
+      },
+      "observed_percent": 80.49,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\234\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "e8b1cf1bf5a1431c905dced3b9078b4d0ab9bb1ffb3712b9221f433bfe9d5fb3"
+    },
+    {
+      "index": 235,
+      "focal_mutants": 46,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 32,
+        "SURVIVED": 7,
+        "TIMED_OUT": 6,
+        "KILLED": 1
+      },
+      "observed_percent": 2.17,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\235\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "1424ad87e277d7c3fc3ff7397815c0228e9fd10bc9dd7d175ce85214923469d0"
+    },
+    {
+      "index": 237,
+      "focal_mutants": 25,
+      "killed": 24,
+      "statuses": {
+        "KILLED": 24,
+        "SURVIVED": 1
+      },
+      "observed_percent": 96.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\13\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "7e6a4bfb389639f5cc1070e7537f1266814f1439279c24303f0be68dde3b1db6"
+    },
+    {
+      "index": 238,
+      "focal_mutants": 35,
+      "killed": 19,
+      "statuses": {
+        "SURVIVED": 16,
+        "KILLED": 19
+      },
+      "observed_percent": 54.29,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\238\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "2eecd11c638bd1fabfa9ddc09aaee06ce59bec2873fd6cb633f58bf1e564d22b"
+    },
+    {
+      "index": 240,
+      "focal_mutants": 37,
+      "killed": 30,
+      "statuses": {
+        "KILLED": 30,
+        "SURVIVED": 5,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 81.08,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\22\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "7655da8509fd3da484a52b559952278a7bec8c3a698b8bc20ac71d75f3bf7308"
+    },
+    {
+      "index": 242,
+      "focal_mutants": 38,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 37,
+        "KILLED": 1
+      },
+      "observed_percent": 2.63,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\242\\repo\\web\\target\\pit-reports\\mutations.csv",
+      "sha256": "763657fb22e2015d8cd31842b2440e1aee031fb3926846e6f01513e444c2c898"
+    },
+    {
+      "index": 243,
+      "focal_mutants": 36,
+      "killed": 16,
+      "statuses": {
+        "KILLED": 16,
+        "NO_COVERAGE": 20
+      },
+      "observed_percent": 44.44,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\243\\repo\\hbase0.98\\hbase-table-stat-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "56c0bd5a4e73d8eece5e4a9af59f6f0436d7da5de3f85678df7c9d2fcd50e0eb"
+    },
+    {
+      "index": 245,
+      "focal_mutants": 33,
+      "killed": 2,
+      "statuses": {
+        "NO_COVERAGE": 31,
+        "KILLED": 2
+      },
+      "observed_percent": 6.06,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\245\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "48937a325b6e68e7ddcc9a4ef53ce19f14ecbfa67eb8e865bbdb0766b7cb148b"
+    },
+    {
+      "index": 247,
+      "focal_mutants": 32,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 32
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\247\\repo\\hbase0.98\\hbase-common-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "ef76da342fd4b9c1001d732acc60078993aa83213db9c224eb9944cfa4680ba8"
+    },
+    {
+      "index": 248,
+      "focal_mutants": 14,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "SURVIVED": 7
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\40\\repo\\examples\\graph\\target\\pit-reports\\mutations.csv",
+      "sha256": "0a267fcbb4ec9f9d67bf16be3e305181abfbf839f26ea14f9e1b088921277e86"
+    },
+    {
+      "index": 249,
+      "focal_mutants": 11,
+      "killed": 7,
+      "statuses": {
+        "KILLED": 7,
+        "NO_COVERAGE": 4
+      },
+      "observed_percent": 63.64,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\249\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "28b47c12881a1fc2993974127145b7d6a48d01b1493f9df3fa588ba654612141"
+    },
+    {
+      "index": 250,
+      "focal_mutants": 19,
+      "killed": 9,
+      "statuses": {
+        "SURVIVED": 5,
+        "KILLED": 9,
+        "NO_COVERAGE": 5
+      },
+      "observed_percent": 47.37,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\250\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "9ae6a21750267ad6dc4141d6c457333c2c6bf04378e17cef6857b32eef1bd451"
+    },
+    {
+      "index": 252,
+      "focal_mutants": 18,
+      "killed": 6,
+      "statuses": {
+        "NO_COVERAGE": 8,
+        "KILLED": 6,
+        "SURVIVED": 4
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\252\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "692edb1794cd0e985cc1bbc45d43704dfa0f05fdb3bde1bf6b4eff75df16b002"
+    },
+    {
+      "index": 253,
+      "focal_mutants": 28,
+      "killed": 14,
+      "statuses": {
+        "KILLED": 14,
+        "SURVIVED": 14
+      },
+      "observed_percent": 50.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\253\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "8b14d1b5d9ca6508e0e17b997bb631539ac2be3590e94096bd61f019a92aeaf9"
+    },
+    {
+      "index": 254,
+      "focal_mutants": 29,
+      "killed": 15,
+      "statuses": {
+        "KILLED": 15,
+        "SURVIVED": 12,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 51.72,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\254\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "30bdc6ef0aa43ec13b2e1b95c415267dcf7d25c96f16bedcd103c58dad30b81b"
+    },
+    {
+      "index": 255,
+      "focal_mutants": 35,
+      "killed": 19,
+      "statuses": {
+        "SURVIVED": 14,
+        "KILLED": 19,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 54.29,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\255\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "94f4c936c991487b38b1abf26daf2a33ce5511c8fc9334c1cf5ab77fd12ec050"
+    },
+    {
+      "index": 256,
+      "focal_mutants": 39,
+      "killed": 39,
+      "statuses": {
+        "KILLED": 39
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\256\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "4ca3ae204aa4f4f060a929443ebcddc77a95dbc968e59bf0ec5a7f30d1a79f3d"
+    },
+    {
+      "index": 258,
+      "focal_mutants": 36,
+      "killed": 21,
+      "statuses": {
+        "KILLED": 21,
+        "NO_COVERAGE": 12,
+        "SURVIVED": 3
+      },
+      "observed_percent": 58.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\258\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "cbd4b30cf85ebc1a43ed5bf928692f3e4e3ecd61a21f3c2a72b405935756e13c"
+    },
+    {
+      "index": 259,
+      "focal_mutants": 65,
+      "killed": 3,
+      "statuses": {
+        "NO_COVERAGE": 60,
+        "KILLED": 3,
+        "SURVIVED": 2
+      },
+      "observed_percent": 4.62,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\259\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "4d8acc9ac8dd0f2763a37a9c7232d31eb1f0c1158a1250b0ff4cc3667470fa15"
+    },
+    {
+      "index": 260,
+      "focal_mutants": 34,
+      "killed": 10,
+      "statuses": {
+        "KILLED": 10,
+        "SURVIVED": 5,
+        "NO_COVERAGE": 17,
+        "TIMED_OUT": 2
+      },
+      "observed_percent": 29.41,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\260\\repo\\turin-compiler\\target\\pit-reports\\mutations.csv",
+      "sha256": "5862a778af92f12ad932266ff38b92aa65432db54cf108f051245d88a5df1b22"
+    },
+    {
+      "index": 261,
+      "focal_mutants": 11,
+      "killed": 9,
+      "statuses": {
+        "SURVIVED": 2,
+        "KILLED": 9
+      },
+      "observed_percent": 81.82,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\261\\repo\\jproperties-checks\\target\\pit-reports\\mutations.csv",
+      "sha256": "57308726b33ba05ff7c364c6280b9399e18b3d8a9548e6e37c4989cdd20d6713"
+    },
+    {
+      "index": 262,
+      "focal_mutants": 27,
+      "killed": 21,
+      "statuses": {
+        "KILLED": 21,
+        "SURVIVED": 6
+      },
+      "observed_percent": 77.78,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\262\\repo\\hexagonal\\target\\pit-reports\\mutations.csv",
+      "sha256": "781474af14cf112d7e43cd396bf82e1753d52b052902657e0979088b165b7ce6"
+    },
+    {
+      "index": 265,
+      "focal_mutants": 31,
+      "killed": 28,
+      "statuses": {
+        "KILLED": 28,
+        "SURVIVED": 2,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 90.32,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\07\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "ac01bd84c03a2c30bc99e0870f433d114ca1a3acce5f605e9b754f38b25bcd11"
+    },
+    {
+      "index": 270,
+      "focal_mutants": 39,
+      "killed": 23,
+      "statuses": {
+        "SURVIVED": 8,
+        "KILLED": 23,
+        "NO_COVERAGE": 7,
+        "TIMED_OUT": 1
+      },
+      "observed_percent": 58.97,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\270\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "815cd28ee97ad7dbd9ce4558e0db250cc510c13c7cab1aa0f1d9cf66920d9c8f"
+    },
+    {
+      "index": 272,
+      "focal_mutants": 37,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 34,
+        "KILLED": 1,
+        "SURVIVED": 2
+      },
+      "observed_percent": 2.7,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\272\\repo\\hbase0.98\\hbase-manager-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "4bbf09e05d6a6c47750a28d33059a9ba9b34e06d11e5a74e5d98188eb3c48f68"
+    },
+    {
+      "index": 273,
+      "focal_mutants": 38,
+      "killed": 8,
+      "statuses": {
+        "NO_COVERAGE": 30,
+        "KILLED": 8
+      },
+      "observed_percent": 21.05,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\273\\repo\\hbase0.98\\hbase-snapshot-0.98\\target\\pit-reports\\mutations.csv",
+      "sha256": "61cd29ea28ff4f84b5db83faf17d7ee803315a68c07cae1053ec0688fd83b51a"
+    },
+    {
+      "index": 274,
+      "focal_mutants": 38,
+      "killed": 24,
+      "statuses": {
+        "KILLED": 24,
+        "SURVIVED": 12,
+        "NO_COVERAGE": 2
+      },
+      "observed_percent": 63.16,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\274_gradle_v1\\recipes\\measure\\evidence\\pit-native\\202610270526\\mutations.csv",
+      "sha256": "522db2e95ff8284d2adac30aff80b62da785547a2e3e6e5f036dbe712b3bda79"
+    },
+    {
+      "index": 275,
+      "focal_mutants": 20,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 10,
+        "SURVIVED": 9,
+        "KILLED": 1
+      },
+      "observed_percent": 5.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\275_completion_pom_resume_final2_v1\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "a79f6059a746b74b7d8bdb6e30a61bc1ba92e16c216daf165518f6a2e150f046"
+    },
+    {
+      "index": 276,
+      "focal_mutants": 25,
+      "killed": 17,
+      "statuses": {
+        "SURVIVED": 8,
+        "KILLED": 17
+      },
+      "observed_percent": 68.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\44\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "38beccd133df5dd2421d7a5c360c53c715f80727100e1c2005fc0a81b026cd44"
+    },
+    {
+      "index": 277,
+      "focal_mutants": 6,
+      "killed": 2,
+      "statuses": {
+        "NO_COVERAGE": 4,
+        "KILLED": 2
+      },
+      "observed_percent": 33.33,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\277\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "c85de3ab82d48661fafa0b2b99867142260892ce9975ba3017ce8d0080dfefac"
+    },
+    {
+      "index": 278,
+      "focal_mutants": 34,
+      "killed": 18,
+      "statuses": {
+        "SURVIVED": 11,
+        "KILLED": 18,
+        "NO_COVERAGE": 5
+      },
+      "observed_percent": 52.94,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\278\\repo\\minnal-jaxrs\\minnal-instrumentation-jaxrs\\target\\pit-reports\\mutations.csv",
+      "sha256": "5942de2cb24e755a32472c8432967a6729cb7f3eb703b51464c2ea1492c9891e"
+    },
+    {
+      "index": 279,
+      "focal_mutants": 34,
+      "killed": 27,
+      "statuses": {
+        "KILLED": 27,
+        "SURVIVED": 7
+      },
+      "observed_percent": 79.41,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\37\\repo\\hexagonal\\target\\pit-reports\\mutations.csv",
+      "sha256": "80a2b0600f7a2ca5d0564c9da52492ce3a1c6d9e20c910324484b25a2e861cda"
+    },
+    {
+      "index": 280,
+      "focal_mutants": 26,
+      "killed": 10,
+      "statuses": {
+        "NO_COVERAGE": 11,
+        "KILLED": 10,
+        "SURVIVED": 5
+      },
+      "observed_percent": 38.46,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\01\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "9e76191c8c99c571a96342377c708cc281009f8c779b8fcd69cfbdbeda040e66"
+    },
+    {
+      "index": 281,
+      "focal_mutants": 32,
+      "killed": 25,
+      "statuses": {
+        "KILLED": 25,
+        "NO_COVERAGE": 2,
+        "SURVIVED": 5
+      },
+      "observed_percent": 78.12,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\12\\repo\\WebRex\\target\\pit-reports\\mutations.csv",
+      "sha256": "a48986832e498d34cd475f8011129bbd26aa9fbe97203f7e2b48148b9305b1d8"
+    },
+    {
+      "index": 282,
+      "focal_mutants": 38,
+      "killed": 18,
+      "statuses": {
+        "NO_COVERAGE": 16,
+        "KILLED": 18,
+        "SURVIVED": 4
+      },
+      "observed_percent": 47.37,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\282\\repo\\spring-data-simpledb-impl\\target\\pit-reports\\mutations.csv",
+      "sha256": "f087e41793bed71853f8a7dea2ac35f7e98f2722af359d07854dd9fa7b4830d0"
+    },
+    {
+      "index": 283,
+      "focal_mutants": 40,
+      "killed": 32,
+      "statuses": {
+        "KILLED": 32,
+        "SURVIVED": 7,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 80.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\283\\repo\\httpcache4j-api\\target\\pit-reports\\mutations.csv",
+      "sha256": "512ad95ba2413429079796a4043048449dccbd6ea5b42ba9a9ab23cb5c0388e0"
+    },
+    {
+      "index": 285,
+      "focal_mutants": 42,
+      "killed": 16,
+      "statuses": {
+        "KILLED": 16,
+        "NO_COVERAGE": 26
+      },
+      "observed_percent": 38.1,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\285\\repo\\enav-serialization\\target\\pit-reports\\mutations.csv",
+      "sha256": "4975fa215605bd6682657ea139e550fa97c176cc7e13e077dc849c4ea41a1080"
+    },
+    {
+      "index": 286,
+      "focal_mutants": 46,
+      "killed": 6,
+      "statuses": {
+        "NO_COVERAGE": 30,
+        "SURVIVED": 10,
+        "KILLED": 6
+      },
+      "observed_percent": 13.04,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\286\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "307481f70686b7a62d4fae0e28e1bb0856e59cf84325dc0e20bfed1065d2acf0"
+    },
+    {
+      "index": 288,
+      "focal_mutants": 68,
+      "killed": 1,
+      "statuses": {
+        "NO_COVERAGE": 65,
+        "SURVIVED": 2,
+        "KILLED": 1
+      },
+      "observed_percent": 1.47,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\288\\repo\\event\\target\\pit-reports\\mutations.csv",
+      "sha256": "424085e794cf01fad67cc75e7cab5186dd9a4f24439cf1e4e1d30de25d99c7a3"
+    },
+    {
+      "index": 289,
+      "focal_mutants": 42,
+      "killed": 15,
+      "statuses": {
+        "KILLED": 15,
+        "NO_COVERAGE": 18,
+        "SURVIVED": 9
+      },
+      "observed_percent": 35.71,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\289\\repo\\hazelcast-jet-core\\target\\pit-reports\\mutations.csv",
+      "sha256": "107b35ebf94c61d86f3b032c8ac99ffb39c63986b38d6906a42d8e6434db2a31"
+    },
+    {
+      "index": 290,
+      "focal_mutants": 38,
+      "killed": 35,
+      "statuses": {
+        "KILLED": 35,
+        "SURVIVED": 3
+      },
+      "observed_percent": 92.11,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\49\\repo\\core-interface\\target\\pit-reports\\mutations.csv",
+      "sha256": "93eea186c7c8eaf15012459a2fa88497e63fdefbed28198a55e0e3263551e61f"
+    },
+    {
+      "index": 291,
+      "focal_mutants": 39,
+      "killed": 29,
+      "statuses": {
+        "KILLED": 29,
+        "TIMED_OUT": 4,
+        "NO_COVERAGE": 6
+      },
+      "observed_percent": 74.36,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\291\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "ea0a000a085f413e7344ce57aafae25e253743ac02299b1c71633eed25a20b09"
+    },
+    {
+      "index": 292,
+      "focal_mutants": 22,
+      "killed": 17,
+      "statuses": {
+        "KILLED": 17,
+        "NO_COVERAGE": 5
+      },
+      "observed_percent": 77.27,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\30\\repo\\enav-serialization\\target\\pit-reports\\mutations.csv",
+      "sha256": "303d1cf8caafc3003361fbe6e05fba93715ad35b70d8bc6c5b124707b60c4f54"
+    },
+    {
+      "index": 293,
+      "focal_mutants": 34,
+      "killed": 8,
+      "statuses": {
+        "KILLED": 8,
+        "SURVIVED": 13,
+        "NO_COVERAGE": 13
+      },
+      "observed_percent": 23.53,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\293\\repo\\examples\\graph\\target\\pit-reports\\mutations.csv",
+      "sha256": "573413e35fd4a4f7a4e12bf40c541191c8ad28fb6e826a8f1f50aa601b9be97f"
+    },
+    {
+      "index": 294,
+      "focal_mutants": 44,
+      "killed": 0,
+      "statuses": {
+        "NO_COVERAGE": 38,
+        "TIMED_OUT": 6
+      },
+      "observed_percent": 0.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\294_completion_pom_resume_final2_v1\\repo\\server\\target\\pit-reports\\mutations.csv",
+      "sha256": "5f3b7aef4f5559c553d38abafbef3c24bee1170d5c1c167a5d1b8309be7868b3"
+    },
+    {
+      "index": 295,
+      "focal_mutants": 23,
+      "killed": 23,
+      "statuses": {
+        "KILLED": 23
+      },
+      "observed_percent": 100.0,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\295\\repo\\weixin-mp\\target\\pit-reports\\mutations.csv",
+      "sha256": "898aafd49e86dcb023efa80c27c6a0d8c199508f87b05b72ccdb021c0e2003a7"
+    },
+    {
+      "index": 296,
+      "focal_mutants": 35,
+      "killed": 13,
+      "statuses": {
+        "SURVIVED": 8,
+        "KILLED": 13,
+        "NO_COVERAGE": 14
+      },
+      "observed_percent": 37.14,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\296\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "8816d53fc44bd99954f04db7794b7eae8b9901b3a7956b6e711c1954587d4722"
+    },
+    {
+      "index": 297,
+      "focal_mutants": 37,
+      "killed": 26,
+      "statuses": {
+        "KILLED": 26,
+        "SURVIVED": 10,
+        "NO_COVERAGE": 1
+      },
+      "observed_percent": 70.27,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\297\\repo\\modules\\weblounge-common\\target\\pit-reports\\mutations.csv",
+      "sha256": "6943d47f148db0234d51cc2d9ba7948ddd29f2987a07140de3a24479755720b9"
+    },
+    {
+      "index": 298,
+      "focal_mutants": 41,
+      "killed": 1,
+      "statuses": {
+        "KILLED": 1,
+        "NO_COVERAGE": 40
+      },
+      "observed_percent": 2.44,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\298\\repo\\enav-serialization\\target\\pit-reports\\mutations.csv",
+      "sha256": "f120fee3485aa538f3b635f21e031a5c8858c9daaa06527b95fcd982c99748a2"
+    },
+    {
+      "index": 300,
+      "focal_mutants": 42,
+      "killed": 23,
+      "statuses": {
+        "KILLED": 23,
+        "SURVIVED": 12,
+        "NO_COVERAGE": 7
+      },
+      "observed_percent": 54.76,
+      "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\jobs\\03\\repo\\core\\target\\pit-reports\\mutations.csv",
+      "sha256": "39b144658df66b4d870629a3e6bb67d120588ca4b009274d0dfde2ef7f7a4e5d"
+    }
+  ]
+}

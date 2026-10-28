@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "source_sha256": "92ba89c3000be4b28ffc361ea19630764582d262c1e8817477dc54ac0fd4e724",
+  "scope": "post-review descriptive sensitivity of historical E0/G0 process-build flags",
+  "table": [
+    {
+      "population": "all300",
+      "n": 300,
+      "repositories": 30,
+      "GPT_builds": 61,
+      "E0_builds": 158,
+      "GPT_percent": 20.333333333333332,
+      "E0_percent": 52.666666666666664,
+      "difference_GPT_minus_E0_pp": -32.333333333333336,
+      "both_build": 49,
+      "GPT_only": 12,
+      "E0_only": 109,
+      "neither_build": 130
+    },
+    {
+      "population": "Maven260",
+      "n": 260,
+      "repositories": 26,
+      "GPT_builds": 51,
+      "E0_builds": 158,
+      "GPT_percent": 19.615384615384617,
+      "E0_percent": 60.76923076923077,
+      "difference_GPT_minus_E0_pp": -41.15384615384615,
+      "both_build": 49,
+      "GPT_only": 2,
+      "E0_only": 109,
+      "neither_build": 100
+    },
+    {
+      "population": "Gradle40",
+      "n": 40,
+      "repositories": 4,
+      "GPT_builds": 10,
+      "E0_builds": 0,
+      "GPT_percent": 25.0,
+      "E0_percent": 0.0,
+      "difference_GPT_minus_E0_pp": 25.0,
+      "both_build": 0,
+      "GPT_only": 10,
+      "E0_only": 0,
+      "neither_build": 30
+    }
+  ],
+  "no_new_generation": true,
+  "no_new_hypothesis_test": true,
+  "RQ3_primary_preserved": "61/300; Maven51/260 is RQ5 sensitivity only",
+  "limitations": [
+    "E0 assertions-off",
+    "legacy process gate not all-tests-pass certification",
+    "Maven260 sensitivity is not a Gradle harness repair",
+    "does not establish E1 full300 buildability"
+  ]
+}

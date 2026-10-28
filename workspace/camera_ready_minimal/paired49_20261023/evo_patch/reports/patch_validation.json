@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "changed_functions": [
+    "run_evosuite_generation_maven"
+  ],
+  "approved_option_delta": {
+    "no_runtime_dependency": [
+      "true",
+      "false"
+    ],
+    "test_scaffolding": [
+      "false",
+      "true"
+    ],
+    "assertions": [
+      "false",
+      "true"
+    ],
+    "assertion_strategy": [
+      null,
+      "MUTATION"
+    ]
+  },
+  "unchanged_shared_files": 5,
+  "all_other_top_level_AST_unchanged": true,
+  "legacy_generation_argv_preserved": true,
+  "mock_invocations": [
+    {
+      "argv": [
+        "mvn",
+        "-DskipTests=true",
+        "compile",
+        "dependency:build-classpath",
+        "-Dmdep.outputFile=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\target\\evosuite-classpath.txt"
+      ],
+      "cwd": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_",
+      "timeout": 300
+    },
+    {
+      "argv": [
+        "java8",
+        "-jar",
+        "evosuite-1.2.0.jar",
+        "-class",
+        "fixture.Example",
+        "-projectCP",
+        "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\target\\classes",
+        "-Dtest_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\src\\test\\java",
+        "-Dreport_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\evosuite-report",
+        "-Duse_separate_classloader=false",
+        "-Dtest_archive=false",
+        "-Dcriterion=BRANCH",
+        "-Dassertions=false",
+        "-Dno_runtime_dependency=true",
+        "-Dtest_scaffolding=false",
+        "-Dsearch_budget=60"
+      ],
+      "cwd": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_",
+      "timeout": 240
+    },
+    {
+      "argv": [
+        "mvn",
+        "-DskipTests=true",
+        "compile",
+        "dependency:build-classpath",
+        "-Dmdep.outputFile=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\target\\evosuite-classpath.txt"
+      ],
+      "cwd": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_",
+      "timeout": 300
+    },
+    {
+      "argv": [
+        "java8",
+        "-jar",
+        "evosuite-1.2.0.jar",
+        "-class",
+        "fixture.Example",
+        "-projectCP",
+        "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\target\\classes",
+        "-Dtest_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\src\\test\\java",
+        "-Dreport_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_\\evosuite-report",
+        "-Duse_separate_classloader=false",
+        "-Dtest_archive=false",
+        "-Dcriterion=BRANCH",
+        "-Dassertions=true",
+        "-Dno_runtime_dependency=false",
+        "-Dtest_scaffolding=true",
+        "-Dsearch_budget=60",
+        "-Dassertion_strategy=MUTATION"
+      ],
+      "cwd": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\argv_controls_t0yby3d_",
+      "timeout": 240
+    }
+  ],
+  "original_experiment_code_edits": 0,
+  "runtime_integration_tested": false,
+  "caller_note": "Existing process_maven_project/module still use legacy default; reviewer profile must be explicitly called by isolated E-only driver.",
+  "gitnexus": "No matching indexed repo; inspected callers and AST directly",
+  "source_provenance_limit": "Current source snapshot only; not proof of exact historical code version"
+}

@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-25T23:02:50.826080+00:00",
+  "files": [
+    {
+      "path": "PROGRESS_B1_V4.md",
+      "sha256": "1d08a24f2d72f5f7d233ca8a93bf035502994f1a5b1497ba30da208c09777ef5",
+      "bytes": 5584
+    },
+    {
+      "path": "src/record_progress_v4.py",
+      "sha256": "fcd39c70e25e539609d12c99e0020e5beec6fdf8d1ef58d606ff89d495fb025a",
+      "bytes": 3093
+    },
+    {
+      "path": "src/b1_maven_commands_v1.py",
+      "sha256": "a75d340c83634d0ce173c6f5882bb657135e385aec0ba825db052c75b9f54884",
+      "bytes": 8855
+    },
+    {
+      "path": "src/validate_b1_maven_commands_v1.py",
+      "sha256": "770d050ef5a2b25e173d63419799e3d815342ae700884dd1a16fdace6186ae0e",
+      "bytes": 2455
+    },
+    {
+      "path": "src/review_frozen_inputs251_v1.py",
+      "sha256": "8970cd451b7737331891c0c884e6f93871555bd771d488d87346a1d847388e8c",
+      "bytes": 3394
+    },
+    {
+      "path": "validation/b1_maven_commands_v1/result.json",
+      "sha256": "71cd1135a0606c6cdbc607c79feb0dc43db184abb0cc32fd16a1fd7d628dad98",
+      "bytes": 581
+    },
+    {
+      "path": "audit/frozen_inputs251_review_v1/rows.json",
+      "sha256": "4e0ec4aeb80d395a21bcc1f8e262ecabdc6fe492d51d329c89f2da9a90512822",
+      "bytes": 167119
+    },
+    {
+      "path": "audit/frozen_inputs251_review_v1/summary.json",
+      "sha256": "56624add80db59eec3f053c8ccbfc647c2852562616d81453b057e890c954726",
+      "bytes": 577
+    },
+    {
+      "path": "backups/status_before_progress_v4.json",
+      "sha256": "3530cd8eb155587540d71e44ac401f8f2fccb69f1cb4c74cc6e1135c9a7c19b0",
+      "bytes": 2553
+    }
+  ],
+  "GPT_guard": "PASS",
+  "originals_585": "PASS",
+  "benchmark_admitted": false,
+  "new_benchmark_class_count": 0,
+  "fixture_EvoSuite_calls": 1,
+  "GPT_API_calls": 0
+}

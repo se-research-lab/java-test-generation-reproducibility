@@ -1,0 +1,60 @@
+{
+  "job_index": 38,
+  "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/api/dedupeventstorechannels.java",
+  "repo_id": "66303306",
+  "G0_archived_mutation_percent": "86.67",
+  "E0_archived_mutation_percent": "20.0",
+  "E1_archived_mutation_percent": "93.33",
+  "seed": 20261128,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_ESTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 839,
+  "focal_mutants": 15,
+  "killed_mutants": 14,
+  "focal_mutant_qualified_classes": [
+    "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels",
+    "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels$Impl"
+  ],
+  "mutation_score_percent": 93.33,
+  "legacy_strict_mutation_percent": 93.33,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "EmoDB Event Store",
+      "PACKAGE": "com.bazaarvoice.emodb.event.api",
+      "CLASS": "DedupEventStoreChannels",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "17",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "0",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "3",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "3",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "3"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

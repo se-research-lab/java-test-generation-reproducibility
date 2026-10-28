@@ -1,0 +1,287 @@
+{
+  "status": "PASS_FIRST_V4_TERMINAL_AND_QUARANTINE_PATHS",
+  "at_utc": "2026-10-26T01:46:53.011567+00:00",
+  "previous_verified_new_results": 27,
+  "new_verified_terminal_index": 50,
+  "verified_new_results": 28,
+  "verified_reuse49": 49,
+  "verified_unscored_deferrals": [
+    48,
+    49
+  ],
+  "class050_result_sha256": "133fdd97d4055454c04d738b5aefdcc95c6a528777830504ffb05c3d3f38e007",
+  "class050_archive_check": {
+    "status": "PASS",
+    "files_verified": 709,
+    "manifest_sha256": "a3fa79389010e1f83d0505058b1334f06aff062c40dc2187abf68891e41f3679",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "class050_result": {
+    "sample_index_1based": 50,
+    "class_key": "77481567:core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/timeframeconvertingtradeguard.java",
+    "repo_id": "77481567",
+    "seed": 20261073,
+    "configuration": "E1_Maven_native_JUnit_amendment_v2",
+    "native_junit_added": false,
+    "generation_success": true,
+    "generation_calls": 1,
+    "measurement_attempted": true,
+    "GPT_API_calls": 0,
+    "source_guard": "PASS",
+    "production_bytecode_guard": "PASS",
+    "terminal": true,
+    "legacy_process_build": 1,
+    "legacy_strict_mutation_percent": 20.0,
+    "mutation_score_percent": 20.0,
+    "focal_mutants": 5,
+    "killed_mutants": 1,
+    "focal_mutant_qualified_classes": [
+      "de.voidnode.trading4j.functionality.timeframeconversion.TimeFrameConvertingTradeGuard"
+    ],
+    "pit_report_present": true,
+    "strict_suite_evidence": true,
+    "strict_measurement_evidence": true,
+    "inventory": {
+      "parser": "junit_method_inventory_v1",
+      "annotation_count": 2,
+      "methods": [
+        "test0",
+        "test1"
+      ],
+      "method_details": [
+        {
+          "name": "test0",
+          "annotation": "Test",
+          "line": 27,
+          "empty_or_semicolon_only_body": false,
+          "no_behavior_placeholder": false
+        },
+        {
+          "name": "test1",
+          "annotation": "Test",
+          "line": 34,
+          "empty_or_semicolon_only_body": false,
+          "no_behavior_placeholder": false
+        }
+      ],
+      "no_behavior_placeholder_methods": [],
+      "no_behavior_placeholder_count": 0,
+      "behavior_test_method_count": 2
+    },
+    "cases": [
+      {
+        "name": "test1",
+        "method": "test1",
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0
+      },
+      {
+        "name": "test0",
+        "method": "test0",
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0
+      }
+    ],
+    "surefire_suites": [
+      {
+        "name": "de.voidnode.trading4j.functionality.timeframeconversion.TimeFrameConvertingTradeGuard_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "jacoco_focal_rows": [
+      {
+        "GROUP": "Trading4j - core",
+        "PACKAGE": "de.voidnode.trading4j.functionality.timeframeconversion",
+        "CLASS": "TimeFrameConvertingTradeGuard",
+        "INSTRUCTION_MISSED": "21",
+        "INSTRUCTION_COVERED": "21",
+        "BRANCH_MISSED": "1",
+        "BRANCH_COVERED": "1",
+        "LINE_MISSED": "6",
+        "LINE_COVERED": "8",
+        "COMPLEXITY_MISSED": "3",
+        "COMPLEXITY_COVERED": "3",
+        "METHOD_MISSED": "2",
+        "METHOD_COVERED": "3"
+      }
+    ],
+    "metric_policy": "original process gate, KILLED/all focal mutants incl nested, round2; evidence flags do not replace score"
+  },
+  "deferral_checks": {
+    "48": {
+      "sample_index_1based": 48,
+      "class_key": "44308560:src/robotframeworkcore/org.robotframework.ide.core-functions/src/main/java/org/rf/ide/core/execution/server/response/terminateexecution.java",
+      "seed": 20261071,
+      "reason": "Existing non-JUnit4 requires separate review",
+      "JUnit3_on_production_compile_classpath": true,
+      "archive_sha256": "cc02ea5fb529aeebc80b28b4463c0050edfc799b506cc8de8e58c732749d1da5",
+      "interruption_sha256": "3bee9f03bcd49a8edba8eafcaa3d50bb44a9ff4366b448da5e9354c85af42b47",
+      "dependency_evidence_sha256": "1d99336a47781c63ba8cfae4adb54228a34c8dcbd5cea064cb76fdc288a6e69a",
+      "native_suite": [
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\048\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\TerminateExecution_ESTest.java",
+          "sha256": "816b30b5397e5bef6b1c70a1f7ef9752e5baa1b77ccf6ef69f10d91acb7d8762"
+        },
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\048\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\TerminateExecution_ESTest_scaffolding.java",
+          "sha256": "a06d2fe3ffa18a0e8da438180193bb608b2235e9936d4aaae061573f8ccf9f33"
+        }
+      ],
+      "actual_generation_starts": 1,
+      "score": null,
+      "scored_terminal": false,
+      "measurement_attempted": false,
+      "rerun_generation_allowed": false,
+      "automatic_resume": false,
+      "retained_in_fixed300_manifest": true,
+      "denominator_may_be_reduced": false,
+      "full300_claim_allowed": false,
+      "status": "DEFERRED_UNSCORED_COMPATIBILITY_REVIEW"
+    },
+    "49": {
+      "sample_index_1based": 49,
+      "class_key": "44308560:src/robotframeworkcore/org.robotframework.ide.core-functions/src/main/java/org/rf/ide/core/execution/server/response/evaluatecondition.java",
+      "seed": 20261072,
+      "reason": "Existing non-JUnit4 requires separate review",
+      "JUnit3_on_production_compile_classpath": true,
+      "archive_sha256": "74b7f31536cb2826e5e67a837df9f4b33e577f44292b9896703655664ff43362",
+      "interruption_sha256": "f08870f7270a7defec08f136d8cec49c0b7bc78242787010042100315ae8aa99",
+      "dependency_evidence_sha256": "1d99336a47781c63ba8cfae4adb54228a34c8dcbd5cea064cb76fdc288a6e69a",
+      "native_suite": [
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\049\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\EvaluateCondition_ESTest.java",
+          "sha256": "678ee8ea696ac96f39fd392fde62aeb5e1f83255fa9eae0d2ab5e36c9b232ae3"
+        },
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\049\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\EvaluateCondition_ESTest_scaffolding.java",
+          "sha256": "67ff3dad104f0d4df518298c94f6839c6693edd9e41085855a0284ca31c462b9"
+        }
+      ],
+      "actual_generation_starts": 1,
+      "score": null,
+      "scored_terminal": false,
+      "measurement_attempted": false,
+      "rerun_generation_allowed": false,
+      "automatic_resume": false,
+      "retained_in_fixed300_manifest": true,
+      "denominator_may_be_reduced": false,
+      "full300_claim_allowed": false,
+      "status": "DEFERRED_UNSCORED_COMPATIBILITY_REVIEW"
+    }
+  },
+  "runtime_observation": {
+    "phase": "MAVEN V4 / RUNNING",
+    "updated_utc": "2026-10-26T01:46:45.212496+00:00",
+    "target": 300,
+    "reused_verified": 49,
+    "new_completed": 28,
+    "running": 1,
+    "maven_pending": 183,
+    "gradle_pending": 40,
+    "new_API_calls": 0,
+    "new_EvoSuite_calls": 37,
+    "GPT_guard": "PASS",
+    "reuse49_guard": "PASS",
+    "benchmark_admitted": true,
+    "missing_focal_candidates": 0,
+    "focal_candidate_disagreements": 0,
+    "disk_free_GB": 16.87,
+    "blockers": [
+      "Maven chưa có kết quả: 183; chưa thử: 180; giữ lại chưa chấm: [48, 49]",
+      "Class giữ lại vẫn thuộc mẫu300; không gán0, không giảm denominator hoặc tuyên bố E1-full300 hoàn tất",
+      "Gradle40 chưa admit benchmark; queue fixture cũ đã SKIPPED và không tự khởi động lại",
+      "GPT/API/repeated subset và paper giữ nguyên; STOP và ngưỡng đĩa12GB vẫn áp dụng"
+    ],
+    "tasks": [
+      {
+        "id": "B1.0",
+        "name": "Khóa 300 keys và phạm vi E-only",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.1",
+        "name": "Xác minh E49 và GPT guard",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.2",
+        "name": "Maven controller và input đã nghiệm thu",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.3",
+        "name": "Qualify Gradle 40 class, chỉ trong sandbox E",
+        "status": "BLOCKED"
+      },
+      {
+        "id": "B1.4",
+        "name": "Maven controller fixture PASS; Gradle chưa qualify",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "id": "B1.5",
+        "name": "Maven v4: giữ nguyên cách đo; tách class chưa hỗ trợ, không gán điểm",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "id": "B1.6",
+        "name": "Audit 300 và phân tích RQ4/RQ5 riêng",
+        "status": "NOT_STARTED"
+      }
+    ],
+    "source_census": {
+      "timestamp_utc": "2026-10-25T22:12:03.458037+00:00",
+      "class_count": 251,
+      "unique_candidate_roots": 251,
+      "candidate_files": 517483,
+      "candidate_bytes": 8230643238,
+      "candidate_GB": 8.231,
+      "backup_adapter_files": 8,
+      "disk_free_GB": 28.52,
+      "scope": "metadata census, descriptor hashes and adapter backup; no complete source snapshot or execution adapter yet",
+      "new_experiment_calls": 0,
+      "recovery": "v1 metadata census completed, adapter backup stopped at wrong helper basename. v2 verified existing copies and backed up correct junit_method_inventory_v1.py; v1 script/error retained."
+    },
+    "GPT_guard_checked_utc": "2026-10-26T01:46:45.212496+00:00",
+    "source_snapshot_roots_completed": 251,
+    "source_snapshot_files": 517483,
+    "fixture_EvoSuite_calls": 3,
+    "private_cache_status": "PASS",
+    "runtime_fixture_status": "PASS",
+    "benchmark_EvoSuite_calls": 34,
+    "active_sample_index": 51,
+    "benchmark_EvoSuite_commands_planned": 37,
+    "benchmark_EvoSuite_commands_not_started": 3,
+    "benchmark_EvoSuite_not_started_sample_indices": [
+      12,
+      16,
+      23
+    ],
+    "ui_projection_health": "RECONCILED",
+    "ui_technical_hold": false,
+    "automatic_v2_resume": false,
+    "Gradle_version_qualification_allowed": true,
+    "Gradle_benchmark_admitted": false,
+    "new_policy_accepted": 28,
+    "pending_transport_recovery": [],
+    "maven_policy_pending": 183,
+    "maven_unattempted": 180,
+    "maven_deferred_unscored": 2,
+    "deferred_sample_indices": [
+      48,
+      49
+    ],
+    "full300_complete": false,
+    "automatic_resume": false
+  },
+  "observation_is_transactional_with_other_files": false,
+  "GPT_API_calls": 0,
+  "paper_modified": false,
+  "full300_complete": false
+}

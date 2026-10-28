@@ -1,0 +1,2723 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\045_43105609_bb977cfc\\compiledrepos\\43105609",
+  "class_indices": [
+    235
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "5ed30969bb0618cc711789e1707385f8f4e38aca51b783c1466f5199b360cb8e",
+      "bytes": 558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139176778600
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "bytes": 11560,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139176778600
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "9d2a422145c4e7bbbcd357d8d405571fafa1011a59ef592e8318cb90e5f1eee5",
+      "bytes": 6482,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139178787500
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "4c41ff3053ef01555ffa64fc052f4557fc66a6536deefe9c6526e18dc4f756b4",
+      "bytes": 14353,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784836124580699100
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "38f3725f18ef5c8659f2a6ee528d4728e69648718f3fab3ed601a35ecf9588a3",
+      "bytes": 28273,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784836124464144900
+    },
+    {
+      "relative": "README.md",
+      "sha256": "d7602960d8475f9550093b7b0b260b87f62e523261f53028fe5419ad9e424136",
+      "bytes": 2495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139177789000
+    },
+    {
+      "relative": "RELEASES.md",
+      "sha256": "e72234d8adaf2cbe694e7c20cb0bfafbec4edfe00b8eed50d50041591018a83b",
+      "bytes": 584,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139177789000
+    },
+    {
+      "relative": "weixin-app/pom.xml",
+      "sha256": "5b5b6cdcb6b0022b2b8012662cdfa3874c6e585760af2881e9469b6c95408580",
+      "bytes": 2767,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139179789800
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/AppWxClientFactory.java",
+      "sha256": "f6522ef7619b0b230d050c06854f9c8d488d4d43d4a39d5fb5b53d1a8ac0def9",
+      "bytes": 2309,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139183387500
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/base/AppSetting.java",
+      "sha256": "cf7874b82ec7efcd9c8daa343ab5df823fa97a970817a9b5f683ff0fc1d6e53a",
+      "bytes": 4202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139184390300
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/base/WxEndpoint.java",
+      "sha256": "52704844cac724e125185a60d079d7ab6b340a1336a312c74c8561282aba35bb",
+      "bytes": 1025,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139184390300
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/care/CareMessages.java",
+      "sha256": "b5c5d19f73a75b59cb18cbd79dff99a6103f72865d479933b9467ec6a078b0ba",
+      "bytes": 2102,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139185388300
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/event/UserEnterSession.java",
+      "sha256": "275586d1f4e69f8178512ce9af2c03934f5c4407386cd1662f878fff6c3d4998",
+      "bytes": 595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139185388300
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/media/Medias.java",
+      "sha256": "5bc145723b40f235de5401c1fc96c981b6eaf0d90a545a96be63d6b190583262",
+      "bytes": 2524,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139186894000
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/message/AppXmlMessages.java",
+      "sha256": "9d9b1c686f7b5561d27f91ed9800663a8f8d60a26af7dd0409144c7f6a77cbd5",
+      "bytes": 2547,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139187902200
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/qrcode/QrCodes.java",
+      "sha256": "42f79fdeb5490e566708c2d9cc0d03a654b04f95858bd459530209d09dd4323f",
+      "bytes": 1592,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139188903800
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/template/Message.java",
+      "sha256": "5fc7a173aa7c668a84b39359ee1e16d81d6e995235d3c8a786060f0c2050df93",
+      "bytes": 2127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139189904700
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/template/Templates.java",
+      "sha256": "6e09d15a2249759b25369d7314dc6b564fa6e3a47c5bf7e28bcc57093074dbde",
+      "bytes": 1445,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139191030500
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/user/SessionKey.java",
+      "sha256": "42e2067d259bac1dd84be821e6467325ea4cb28d887a4e060dbce69b78935bc1",
+      "bytes": 1409,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139191030500
+    },
+    {
+      "relative": "weixin-app/src/main/java/com/riversoft/weixin/app/user/Users.java",
+      "sha256": "e591d1f3e002d223fc58d26bed06f17e9afe4b4e52abc822bf840e1effcf37a5",
+      "bytes": 1341,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139192537800
+    },
+    {
+      "relative": "weixin-app/src/main/resources/wx-app-endpoint.properties",
+      "sha256": "7c99acaec2488eaa75f895e970f5a55bca9a6da608770f7c7635ec785dfed16a",
+      "bytes": 618,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139193549000
+    },
+    {
+      "relative": "weixin-app/src/test/java/com/riversoft/weixin/app/user/UsersTest.java",
+      "sha256": "7857c009b0c12f7ce095c7cb021c110300862696a0aaf3798a956aab6798acb9",
+      "bytes": 482,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139195545200
+    },
+    {
+      "relative": "weixin-common/pom.xml",
+      "sha256": "679cba9a130a363af7b086657689748965e9b441a9b2444bcc21b46923533c19",
+      "bytes": 2851,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139197052700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/AccessToken.java",
+      "sha256": "060228042294ae4468979cfbc6ac5ebae840354fa692719d14715b0edc982475",
+      "bytes": 1130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139200569600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/AccessTokenHolder.java",
+      "sha256": "b9a2bb7480fecdbb1e2814139a1cf31b6ba0ec3d9c932b39c3baffefd0de27fb",
+      "bytes": 3450,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139200569600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/DefaultAccessTokenHolder.java",
+      "sha256": "9c00a44bb57c8ee51542983a4474a07ce69845c9f8c5b090dc83559d354fab26",
+      "bytes": 981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139201576700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/WxClient.java",
+      "sha256": "5e71d3045b8ffca510ff2a5482c47f38c2c34a69cc9d220231104c226bf6effa",
+      "bytes": 17050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139202573000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/WxSslClient.java",
+      "sha256": "ebe4811ee561cb1a23bf783718f5a31f27342b0bf7c2b995d17e1399f87bbb8b",
+      "bytes": 4246,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139202573000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/decrypt/AesException.java",
+      "sha256": "c83733b498e5ba512559b0068e51a606c7b3125a6b6434f7c91f1e08840936d8",
+      "bytes": 2000,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139204572700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/decrypt/ByteGroup.java",
+      "sha256": "88462d372e6d927e2fec91575f9d6f329d3f8e11876a9a8baa554a1db459e4b0",
+      "bytes": 623,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139204572700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/decrypt/MessageDecryption.java",
+      "sha256": "395bb0dd63abc7b53ac8c028370819a55216dc69b81559e2e4a925d35f432514",
+      "bytes": 10134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139205573800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/decrypt/PKCS7Encoder.java",
+      "sha256": "e370d923f31a6e4447d85905ad626f44ab1b87eb98bfa09539d98e5c46b262de",
+      "bytes": 1896,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139205573800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/decrypt/SHA1.java",
+      "sha256": "2dba64beab614d72f5ec6a346625b3dff35aa1fecc68fb1508930afcc24a3bf0",
+      "bytes": 1696,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139205573800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/decrypt/XMLParse.java",
+      "sha256": "212a53436ee96b59aaf2a93e01d778b1a5ea0deaf39d1eddf560839e9c9670b3",
+      "bytes": 2507,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139207083200
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/ClickEvent.java",
+      "sha256": "a3d8edc461308ac19e65a40924aa1de1907119b681505847a8fa248b1649ae81",
+      "bytes": 521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139208092000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/EventRequest.java",
+      "sha256": "d42796ce5de21ed7e34e30d530251eca69d9be2e556d73a4fd369b4bcbe8097c",
+      "bytes": 602,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139209091700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/EventType.java",
+      "sha256": "3cfd710cf6b1dff29442c831edb0b9c1d77d0c506be731c13b40ae341b1ca650",
+      "bytes": 1085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139209091700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/LocationReportEvent.java",
+      "sha256": "ebb51e1caade3303474cd9cc67bc64cf8a1a01d6883f2c58d3420a3c42840ed8",
+      "bytes": 901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139210094200
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/LocationSelectEvent.java",
+      "sha256": "6e5103209c832ef8ac6085775207f3e6fbe9a30ae21ed459202b32eb1a512adf",
+      "bytes": 2170,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139210094200
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/PhotoEvent.java",
+      "sha256": "37cceb9dfb574252c830c5c185db49c4f348495ee96c460383dd6ea3add1b0f7",
+      "bytes": 1811,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139211131000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/ScanEvent.java",
+      "sha256": "50cd09b045ac9bd2d7dbd2f2e655a3b6d33c33bc8325ed8347310c23fefe4830",
+      "bytes": 1429,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139211131000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/SubscriptionEvent.java",
+      "sha256": "cfbdd94dcf75f7bd3c73f47ccde44b7644e498a31c49dccb046b1352c350f06c",
+      "bytes": 278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139212641500
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/event/ViewEvent.java",
+      "sha256": "1258102eaaf697091258bd096a0d9b66f624691f46b05d278211cdf76a1ce28b",
+      "bytes": 485,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139212641500
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/exception/WxError.java",
+      "sha256": "65cf2757463f7350c70c14f344d7236f9d1fe4cb184fe0b0d6a3f0ae1a895e1d",
+      "bytes": 1101,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139213650500
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/exception/WxRuntimeException.java",
+      "sha256": "a39d8d935ad846d99177a4a7c7bfc226b5609da37d54dac6792e22b3025c577d",
+      "bytes": 956,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139214649700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/jsapi/JsAPISignature.java",
+      "sha256": "ead20abe629b9e0c2b7e1fe1b9b5a3cf3ca2201eb4e5f4dae3acc91989a36fa7",
+      "bytes": 1240,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139215649000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/jsapi/WxCardAPISignature.java",
+      "sha256": "72edb0cf52fad2dce739a74174fbba3e30470141da28b1bb0054a0d2a59b1577",
+      "bytes": 2461,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139215649000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/media/Media.java",
+      "sha256": "d276996f297227fd1c4614caee242c302a28474fa9383791cbeea70275d8f4e3",
+      "bytes": 1005,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139217156000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/media/MediaType.java",
+      "sha256": "01431d708e86b60c640e99d9567d625a7e89bfefd2a9339d460f5f6eb9b31cef",
+      "bytes": 304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139217156000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/media/MpArticle.java",
+      "sha256": "4b51821ba983c21164c2011fed43a32a0dd70cba926a4cfa0aa64b43225d7fc2",
+      "bytes": 3301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139218163300
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/media/MpNews.java",
+      "sha256": "48fee6d67c5e15cae1ea5a880ca36ecc2ed9be2447a3b759fd1d5e5eb7bce8c2",
+      "bytes": 874,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139218163300
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/media/Video.java",
+      "sha256": "ccf61213ed25208bb9fa0372635affc979ba17c0f12d6af0949820cc4dbd882e",
+      "bytes": 741,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139219163400
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/menu/Menu.java",
+      "sha256": "dda95ad3d705f1fc1033886d7148bfcbeb10afedf63966a65dd4d10ac173800b",
+      "bytes": 638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139220163600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/menu/MenuItem.java",
+      "sha256": "1d89d824cb62475ccc1c9c1a65b289fb2e4ecedd9e6657677a67dc6984ae8999",
+      "bytes": 2459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139220163600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/menu/MenuType.java",
+      "sha256": "eff77763936f477ef3595b9bd65ce41e2cb4f7dabff18f5391905d38bb52d91e",
+      "bytes": 483,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139221222900
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/menu/Rule.java",
+      "sha256": "acf58b2234678c2c215050b898db1ce95f3d53942ca2e9e9e72820cd3c490b31",
+      "bytes": 1907,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139221222900
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/menu/RuleMenu.java",
+      "sha256": "f75b8efb1b4cd7c85fb313f0018ad9342b340bc52619e334e84adfdf4da001fb",
+      "bytes": 671,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139222225000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/Article.java",
+      "sha256": "0357bbaf50c2fbbdaae1458174bc5e5deece76221662191ac3cb994b919e4f10",
+      "bytes": 1968,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139223224200
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/Media.java",
+      "sha256": "fe3eca6f800ee8c4f0c39d6c798bb5dd9fd08cdfe53db8b57f827b3aa0553e81",
+      "bytes": 653,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139223224200
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/Message.java",
+      "sha256": "a23cbba1747f36ed1a7bebe0933d65da83e60a5121722959d7d677cad26bbf82",
+      "bytes": 126,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139224223000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/MpArticle.java",
+      "sha256": "5fca0f0c704e8c28d43b1ef3188c511b3bc6e1d9dec483abd2f39222b428a618",
+      "bytes": 2918,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139224223000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/MpNews.java",
+      "sha256": "9f1960b8d5db67c8dd8ae722b412c148a4a7361f46112ea73a593b207cc1f4e7",
+      "bytes": 689,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139225223800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/MsgType.java",
+      "sha256": "3f119c81c5fc49580720146f8c913ddfc35dfba65368c46a389c2920a90c6064",
+      "bytes": 349,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139225223800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/News.java",
+      "sha256": "3af26bc92afc0c73990c00bfaa3c28f346e353cc0a96edcf96794728710844e7",
+      "bytes": 930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139226730300
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/Text.java",
+      "sha256": "8e4a05695f0180f208e3ef374c85f140b1adafa2943b21b315cf3e96aabc72cb",
+      "bytes": 439,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139226730300
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/Video.java",
+      "sha256": "ad3c5fe21f7b2b41db9d3be1eeef063abd2b58e862e4dfafe8b0a68667a9ecb3",
+      "bytes": 1532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139227738000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/XmlMessageHeader.java",
+      "sha256": "d1a9073ca55a8a293ea44a34ca99ad66affbbdcf8b9c11d183304412a6530cb0",
+      "bytes": 2154,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139227738000
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/xml/ImageXmlMessage.java",
+      "sha256": "c7ac082a60ccf8f8b1338e9020649197cd75e031f84cfd6f27f59e0cd8d6927d",
+      "bytes": 974,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139228738800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/xml/NewsXmlMessage.java",
+      "sha256": "fd8e551b5c343bc0174258fbddbbad3d368eaf0b6315847dbe3098f00106c292",
+      "bytes": 992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139228738800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/xml/TextXmlMessage.java",
+      "sha256": "20c5fc9b8a06141b3b84700575676d79447578eb09f35ac6aa55fa5c103304d5",
+      "bytes": 1026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139228738800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/xml/VideoXmlMessage.java",
+      "sha256": "034ec61c3c3ab07d50c0110b9034d2d4f1c518aed23f90f2044528783d7abbb8",
+      "bytes": 958,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139230636800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/message/xml/VoiceXmlMessage.java",
+      "sha256": "54079a6d4b90e58b1d0de8947e8a46753a78f0f7a18858a0590de0eddcfa36e3",
+      "bytes": 974,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139231296800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/oauth2/AccessToken.java",
+      "sha256": "b24f7d96d922aaa0220a319120ec7c41893b6268a73b33696e0237070ec4c8e2",
+      "bytes": 1710,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139231296800
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/oauth2/OpenUser.java",
+      "sha256": "d4f9c620f191550edc6b25dc6cb24ed8fe4bb6ac3600b1e9def4dd08ab0e3bb6",
+      "bytes": 2280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139232804300
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/request/ImageRequest.java",
+      "sha256": "e297c711410bf3bbbc4655c6c08c6bd1ade90c081451b3d12341c6f206799a15",
+      "bytes": 1137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139233812600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/request/LocationRequest.java",
+      "sha256": "6642022afa46d732bad734e83db6cf5e26fba1dc02bcce8516491fda6e02dbac",
+      "bytes": 1450,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139233812600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/request/ShortVideoRequest.java",
+      "sha256": "87828dc70fbd19632b6f2fbd0e969364bc2572f9af8734d4baaf4a3052d2cdab",
+      "bytes": 1190,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139234815600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/request/TextRequest.java",
+      "sha256": "e89bc018c26dc406c639c6560f5eac403ef6986dff1d5930a859be5fcc7dcfff",
+      "bytes": 905,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139234815600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/request/VideoRequest.java",
+      "sha256": "1665944b8a965b1ebbc348f4793d0ad0ae960ccd52f66e19fe7bb6fe5cef23b4",
+      "bytes": 1185,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139235812200
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/request/VoiceRequest.java",
+      "sha256": "957c825c3301ef7dfff009eb53d50a61b047d0a213ae7a32f36cf0397abb8a0b",
+      "bytes": 1414,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139235812200
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/user/Gender.java",
+      "sha256": "9c7c468db0328c758a8b2a2ed1c40a076abb7fca9f5fff579667d82d4578eaf6",
+      "bytes": 550,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139236814700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/BooleanDeserializer.java",
+      "sha256": "6529a5c26caac0eb365a3d9af2106c14b80c858db0e261110ef4b7590591131c",
+      "bytes": 558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139237814700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/BooleanSerializer.java",
+      "sha256": "bad5338799d2f2a8aa8fdead303de41e57a07443c81601b5f145dd0fa70ba8be",
+      "bytes": 570,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139238812700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/DateDeserializer.java",
+      "sha256": "62e37986842c7d7693ac213f68f0b62722f3e799e84716fc341bd66e0b58bc57",
+      "bytes": 1097,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139238812700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/DateSerializer.java",
+      "sha256": "e7ae7f9d8386a056fe2e262761e1ac0a99260b5ac00fcfa232679e9ea6430036",
+      "bytes": 688,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139239816700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/GenderDeserializer.java",
+      "sha256": "d14189a0a85c9a1190832967156e5ab88bb470faea191bd3d7bd87a46113773b",
+      "bytes": 639,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139239816700
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/GenderSerializer.java",
+      "sha256": "a1c2ec18be786cb9958d001f7bb0ebb7485d47af44d4c9552660db0f511c1952",
+      "bytes": 614,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139240919400
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/JsonMapper.java",
+      "sha256": "d37a2c2373aab201764bf5bf6a25da3c616867dc749d237b05417d7e7155a5c2",
+      "bytes": 5915,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139240919400
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/MD5.java",
+      "sha256": "f1d38aeffd8d740b3304d1747272aa9b5107c5b7932e1b83b89601ccadd001ab",
+      "bytes": 396,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139240919400
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/RandomStringGenerator.java",
+      "sha256": "2ad863b07bf14055600433bc9bffeb428c3de7a63c8dd4f58566905d24f8108d",
+      "bytes": 721,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139242426600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/URLEncoder.java",
+      "sha256": "95f9602d662c2cade4a9d0bf6023c9f33ddbcf0f5d9e2cec63f03df2d5b354fb",
+      "bytes": 1436,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139242426600
+    },
+    {
+      "relative": "weixin-common/src/main/java/com/riversoft/weixin/common/util/XmlObjectMapper.java",
+      "sha256": "5f15595679cf6da3f184fd45f2c4ac861d3a1de89e1854697850e22186cd8947",
+      "bytes": 1909,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139243434200
+    },
+    {
+      "relative": "weixin-common/src/test/java/com/riversoft/common/util/MD5Test.java",
+      "sha256": "d336264bd7809724d6cdeffe6de3592d1eccffc15fbfbf011041e77d5523bb6e",
+      "bytes": 1958,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139245433600
+    },
+    {
+      "relative": "weixin-mp/pom.xml",
+      "sha256": "de8e8be1dd4bca81d1a3cf31a5c89ced964c32f5b0456970d444080004998958",
+      "bytes": 3084,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784836259860783000
+    },
+    {
+      "relative": "weixin-mp/evosuite-report/statistics.csv",
+      "sha256": "edf212c6b93e04080a013fff9cd541fdc192792bf7cc5576ba38ed80f7659454",
+      "bytes": 133,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784836208807862700
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/MpWxClientFactory.java",
+      "sha256": "4f5a10ce3e335d9b22ad2774ec4a12706e40dd5573a856df6b40672cbb3de626",
+      "bytes": 2436,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139248948000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/base/AppSetting.java",
+      "sha256": "5042d40c603ce183b9ded624ec14a86b5c52c451e3c21ae75544202eae3ac3d6",
+      "bytes": 4202,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139249948500
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/base/WxEndpoint.java",
+      "sha256": "66866710231d8f56ec68d78ec028cd2232e5eba0fd1ce068cf79a42a590f5241",
+      "bytes": 1022,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139249948500
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/Cards.java",
+      "sha256": "cfd08fe39222f51759eac22d0020ba24dbfd21d9d8cd51ec8e07a4c384a7d0cd",
+      "bytes": 8895,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139250988700
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/AbstractCard.java",
+      "sha256": "a9a16321d157fed23ff83380460b0f9e8a188870695f872aa16256ae8147f237",
+      "bytes": 424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139252494800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/BaseInfo.java",
+      "sha256": "e6da2c3a8b0dbcf582a7234c281adc861ad7dac6b69cacfd4c05352cc417f99f",
+      "bytes": 12481,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139252494800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Card.java",
+      "sha256": "8e1b44ce2bbd564285c9a65d69f7ef55725a9a2fd4092a8a4de8212fa9f77fb4",
+      "bytes": 1765,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139253502400
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Cash.java",
+      "sha256": "1130394c8d0df5c0d10d41fc0f79c08b1515060d70ffd29f5051d83e349777f2",
+      "bytes": 865,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139253502400
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Color.java",
+      "sha256": "f698c8c2db1d7dc9e1f7d2ae4b5cb9eb3b55d4e7f0e49d498c052434743f39c6",
+      "bytes": 456,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139254502000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Coupon.java",
+      "sha256": "25378289e77291de5d14b2c6b5f4f24ab55720888fd697ca21c34fe33cf3e903",
+      "bytes": 495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139254502000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Discount.java",
+      "sha256": "dde10d72c2bc4b05cb3afef2118fc84b30d8e09b25fa8a714b24be15a14f4459",
+      "bytes": 443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139255502200
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Gift.java",
+      "sha256": "deb30d351d485395c3452313eededfe3da466855d1e3460330d0201a74f6a693",
+      "bytes": 385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139255502200
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Groupon.java",
+      "sha256": "4209892c71a34e47bdf645142355833dd6d6de301514844f60fa2b1773759f39",
+      "bytes": 492,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139257008800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/card/bean/Member.java",
+      "sha256": "e17efb1464b23cb5097c638fec72e35b706cdea9642ab4c166944d8f85249862",
+      "bytes": 10751,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139257008800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/Accounts.java",
+      "sha256": "23db168793709b926f7195edabd8666a904877027729566d1bd8516a71f5c49e",
+      "bytes": 4225,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139258016300
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/CareMessages.java",
+      "sha256": "89556349ad2965cfa10731f913b425d28567150ac559db73e7f1294b2123c332",
+      "bytes": 7544,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139259019900
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/Sessions.java",
+      "sha256": "c314142fa45df306be18b00868d60ec8508a71db7fc80939a60a615b5bbb29cc",
+      "bytes": 5705,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139260016200
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/Account.java",
+      "sha256": "69c18666fabc41814efede4889b30c1e0ccdff1840f3efbffb7a3893a05684ea",
+      "bytes": 1046,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139260016200
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/AccountStatus.java",
+      "sha256": "ed6537019695c75b7254efac768dae027e682a4c42da684ce28a2b5e66f16fd5",
+      "bytes": 1752,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139261091500
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/Card.java",
+      "sha256": "6442fd208d778121d626a3799bf0fad00ba670a24830aa911d51e3b3d6c59697",
+      "bytes": 829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139261091500
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/Music.java",
+      "sha256": "8788650358e82992a94448ce74b3838492eb8aeafc89a96eb6086e41494a396b",
+      "bytes": 1873,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139261091500
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/Session.java",
+      "sha256": "b127701bee76a3f1df93c23ec0bbc16313f16ec7f246506ca364e8fb2c53386f",
+      "bytes": 1178,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139262597800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/SessionLog.java",
+      "sha256": "93f36963788bd1fc5d13ca09c3c497c3954bcdde7651e1b08e723e1d95f69a48",
+      "bytes": 1389,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139262597800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/Video.java",
+      "sha256": "bb577a62dc924190cb479bbfe3ce55b872b66e1009e6cb7580706a5405145f79",
+      "bytes": 1501,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139263605000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/care/bean/WaitingSessions.java",
+      "sha256": "2f187bfa824f3d62367ef28d3a7ac459dc4839a9d2908a799e999647ecb6e9dd",
+      "bytes": 742,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139264609800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/MessageSentEvent.java",
+      "sha256": "446bdb133cd4d9ff2874dd3b4ea92441b49fbff76ba4256023073d3394f30185",
+      "bytes": 2064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139265606000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/care/SessionCloseEvent.java",
+      "sha256": "2835528757f08d3f4c3fc632cc76e2df163dab288d7b37397bedae95bb2f26df",
+      "bytes": 464,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139265606000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/care/SessionCreateEvent.java",
+      "sha256": "46a51df8d33d392d31cb3d8cfbf6f37ee9a28ef869f4200bbd0809bf1e6ff184",
+      "bytes": 465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139265606000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/care/SessionForwardEvent.java",
+      "sha256": "44262dcc234e8a5b5ac444c4becf6a62543d0e6e845e1fc5766e8147b16c5859",
+      "bytes": 712,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139267112000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/poi/PoiApprovalEvent.java",
+      "sha256": "ab7a4c2adfb6187d68b093cafe0fc64f1a89eafd371e7fdf1afda40e82e3e597",
+      "bytes": 1299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139268119000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/shop/OrderEvent.java",
+      "sha256": "7e1371e7cf1ff3a366f75965e5d0ced8390e086d7ba37beb37f0893d261e0788",
+      "bytes": 1297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139269119000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/template/JobFinishedEvent.java",
+      "sha256": "ea41248ab156543ab8261beb697f93832e72b97081f00a1acce265ab7acd980c",
+      "bytes": 888,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139270121800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/ticket/SceneScanEvent.java",
+      "sha256": "e3f4789ab2cd55232722a18a1726664e1247b2508bfd5724020f8bf595ddfe18",
+      "bytes": 1377,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139271233800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/event/ticket/SceneSubEvent.java",
+      "sha256": "3c35347bc6536c1c913f5a0e1aa5ea5461cca437534864044ce050c28829d4db",
+      "bytes": 1500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139271233800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/jsapi/JsAPIs.java",
+      "sha256": "44e848533e1822142cc212906733a9c0340cd438cb3e9791fc9227b7aeb28fd4",
+      "bytes": 6512,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139272236600
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/media/Materials.java",
+      "sha256": "af8682a2650c1ae05fa766dd3d696b2c84a15ff6d28baf43e0f49a02b607e69e",
+      "bytes": 13637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139274233000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/media/Medias.java",
+      "sha256": "a2d9491995954fe96b4af5c57e759d3c43ef61ccaf72d74ae2dba30cdce8f9c2",
+      "bytes": 3504,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139274233000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/media/bean/Counts.java",
+      "sha256": "56a2d554cac26d128182c07fd21f76fec62bbfd4dfd70aef6f5b4ec0b4ad70d5",
+      "bytes": 961,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139275232800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/media/bean/Material.java",
+      "sha256": "660c18b17753cc9548174778a1abd9787c3f7e484dd9aaf1f05c1c2b4cbdcfaf",
+      "bytes": 628,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139275232800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/media/bean/MaterialPagination.java",
+      "sha256": "873a7a39a28b588c09ce74fa101bc88ac619e09ae4cf0ae685c0a519115328ae",
+      "bytes": 1913,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139276740800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/media/bean/MpNewsPagination.java",
+      "sha256": "1bde3b7c8c316cdac98fdf0a30511e8b7893aa31bfa362c774e0870393f4a7b5",
+      "bytes": 2466,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139276740800
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/menu/Menus.java",
+      "sha256": "b2a20d4720744c375fa772451a15a1c06a40fe934bf93333905ae55899634d9c",
+      "bytes": 6028,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139277749300
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/menu/bean/MenuButton.java",
+      "sha256": "be75f16a6832d28dfd2da45ebbdeea8981511038c2e2bcf409df160fefe21b6d",
+      "bytes": 1226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139278750200
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/menu/bean/MenuButtonList.java",
+      "sha256": "db36a23658a14427d5e86ed7b63c2870cf8d7047b115776eca4fc34d43815e0d",
+      "bytes": 443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139279749000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/menu/bean/MenuConfig.java",
+      "sha256": "e80f6c3e4d10bb8adb7ad970fa6d28fb9d3e17d36d87ca0bb13621bc311a7bca",
+      "bytes": 1070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139279749000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/menu/bean/MenuInfo.java",
+      "sha256": "9285872fdd18d8ee181f5a3076485bda622e26048dbb4c3fff10951315b4281c",
+      "bytes": 581,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139280828700
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/message/MpMessages.java",
+      "sha256": "50660bd93b9d2227ab386561dddfd9ae623d78e55469a92dd90a945aa42e71a6",
+      "bytes": 13263,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139280828700
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/message/MpXmlMessages.java",
+      "sha256": "47a190a8526611c709796cfb8d8a51cd2cce625c15133da609b1c3f2114fbba0",
+      "bytes": 5904,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139282335500
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/message/Music.java",
+      "sha256": "c4d39f179d844974456b1243e75398f04e3d2f33cb2b26592b78ee533beae5f5",
+      "bytes": 2204,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139282335500
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/message/xml/Forward2CareXmlMessage.java",
+      "sha256": "91f6a2e30955529a5cc5fc20b65e0eebf214ba637a8014e9cd31953ad5761782",
+      "bytes": 1309,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139283343000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/message/xml/MusicXmlMessage.java",
+      "sha256": "882726841eb8a83449f66607cb6431f843d95bccf022bc270cd7077bdd1014e4",
+      "bytes": 949,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139284346000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/oauth2/MpOAuth2s.java",
+      "sha256": "59fd7aead8e7e826756c5c7783503d99dcdc223cd67870551d14e1c95e090d15",
+      "bytes": 4809,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139285343000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/poi/Pois.java",
+      "sha256": "87d6d2b1454ccaf8a280f0302e2d8ac4edf25e0313ccd885b22e3677870895e3",
+      "bytes": 5374,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139285343000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/poi/bean/AvailableState.java",
+      "sha256": "500539da1e1acea386f9b63db41c643decdb40faba4470081d842b63c52290a4",
+      "bytes": 617,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139286850000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/poi/bean/Business.java",
+      "sha256": "bb735e50df63b790782f87a23877e4bf674849f9016c602422cf579e4c8ceb26",
+      "bytes": 5940,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139287858700
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/poi/bean/StateDeserializer.java",
+      "sha256": "23682ec426625ab37178ed3d454bee3fdf572c587cfdf6b51c515fcda1be820f",
+      "bytes": 603,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139287858700
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/request/LinkRequest.java",
+      "sha256": "1e96fd63ab27b52ee84b3aeb1f50ed4f107eec7bd4f38d6bb74cf7086cf43a7f",
+      "bytes": 1114,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139288858700
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/shop/Order.java",
+      "sha256": "81fb0c90bbf532170853f53a75586c0b8bef4d348426eea1dacf7a08169a4611",
+      "bytes": 6313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139289857900
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/shop/Orders.java",
+      "sha256": "51fde177098a5137b8e0df696b545337c7a2bacb7754ad01b7db29a2a1e84896",
+      "bytes": 3200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139290926000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/stat/Stats.java",
+      "sha256": "58824b3e007412800e5469cc98c4bac4ceb230229a99887dc524f3b66449b399",
+      "bytes": 4778,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139290926000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/stat/bean/UserCumulative.java",
+      "sha256": "2151015cf8ddb795e5f713692b5515d7cf962b2c62afef4025e1070852c9ce73",
+      "bytes": 571,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139292434000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/stat/bean/UserSummary.java",
+      "sha256": "6c991f53551e61dc924fde61cb471a2e3e93a418c6405bf522209c7dfb874d32",
+      "bytes": 1078,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139292434000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/template/Data.java",
+      "sha256": "46bb72dbccf95e5b85acf312a8fb74f860750376f7cd37724b958adb942ea0a4",
+      "bytes": 605,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139293442000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/template/Industry.java",
+      "sha256": "8796ba010b31fa5ecc5d578d86bbf8182cf5a4cd87bdc19cf5d3de9d0c722723",
+      "bytes": 804,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139294443000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/template/MiniProgram.java",
+      "sha256": "cd71917edf4e4b1e7b6d96e07033e56f26331b73d3e43de30dab244a0915cec9",
+      "bytes": 596,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139294443000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/template/Template.java",
+      "sha256": "a3516fba784f9933af8b1ba0215892b7aa9ddc968fb3920304b88cfaf22a7fae",
+      "bytes": 1528,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139295443300
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/template/Templates.java",
+      "sha256": "3488f395fa706828396672916c272e8eaa2f524cb0ed0b78ec29f8284ba39e68",
+      "bytes": 9231,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139295443300
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/ticket/Tickets.java",
+      "sha256": "9ff1b613b0d3faac0632b630759f7b21e3d3e528eca446bc5867c827c5424686",
+      "bytes": 3395,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139296949900
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/ticket/bean/Ticket.java",
+      "sha256": "9f4cd0c388647b63e813ba6d7aa7ee5d82645a38cce7de221d5197ae99ec620e",
+      "bytes": 747,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139297957000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/url/Urls.java",
+      "sha256": "16e114c67c431c047086526f76001b1804a6a5d9d81a683de3446c81950a9982",
+      "bytes": 1728,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139297957000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/BlackLists.java",
+      "sha256": "4a12c031f3c563d49a28389286929bfbe739fe58c8828f5e6b8ceee9b739aa11",
+      "bytes": 2597,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139298957000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/Groups.java",
+      "sha256": "40908d475da452fc5b65645e789f1e6acf35b27ff8a5d6809970509ad49d74ea",
+      "bytes": 4424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139299957000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/Tags.java",
+      "sha256": "c776b701dbc7399d96d8f89a34ddc2417c3006d656e7cf2f7f85dabf3049222d",
+      "bytes": 6436,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139299957000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/Users.java",
+      "sha256": "d11b6b20c36fb9f646c1cffcd1135fbdd41eee870b2e70df32684fddbfbc4655",
+      "bytes": 4576,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139299957000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/bean/Group.java",
+      "sha256": "54dc1c7778c36d8b13166559379027bc3b4e29c1cb21ab67ccdfbaeeb93b9ee7",
+      "bytes": 676,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139301348400
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/bean/Tag.java",
+      "sha256": "b5196323d65e2c56629bdb972f16c28571586751026ed65a88461e82a68f381d",
+      "bytes": 574,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139302352000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/bean/User.java",
+      "sha256": "0dba3de3b157b232f70f802223e7f5ad98a54c3a3438cbeab3849c409beb097a",
+      "bytes": 3670,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139302352000
+    },
+    {
+      "relative": "weixin-mp/src/main/java/com/riversoft/weixin/mp/user/bean/UserPagination.java",
+      "sha256": "7a9e61169195344e1f28c84f869410ea2c4aec5a3eaa3b6e5500fc0d0dfde291",
+      "bytes": 1278,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139303349000
+    },
+    {
+      "relative": "weixin-mp/src/main/resources/wx-mp-endpoint.properties",
+      "sha256": "cd026d3aa1a7733bd251eddffc9821601949f772f6ef91f034dd4e7afdbd034f",
+      "bytes": 7117,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139303349000
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/TestConfiguration.java",
+      "sha256": "be456804d4f7848ba278bec9513511665e3af0281414a26e4a33f78431759484",
+      "bytes": 1333,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139305353900
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/WxClientTest.java",
+      "sha256": "7671bee847ea7e877583f7ac17fee93ca98b1386ef3fa4dbc17499d62e7badad",
+      "bytes": 1137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139306860700
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/card/CardsTest.java",
+      "sha256": "394eebaabe6bc4030afd9e1b2ccbd587c29264a2cd29d46b8f711c26db623a17",
+      "bytes": 5824,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139307868200
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/care/AccountsTest.java",
+      "sha256": "dd46747849e560418a3bcef2dac04acce4437211efd369952c2d1a64f721521b",
+      "bytes": 1889,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139308869000
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/care/CareMessagesTest.java",
+      "sha256": "77614872f3176605805493a61a8efd23ca84bbb7a58b185a42646c025f6d1b55",
+      "bytes": 1611,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139308869000
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/jsapi/JsAPIsTest.java",
+      "sha256": "a22d58d4685f876fb7cc59de2ff94279b0b8ee8d4c8023842d054a4702582248",
+      "bytes": 453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139309900800
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/media/MaterialsTest.java",
+      "sha256": "727c1a10a6913e6b808aafe4d8300bc1da62a5b0dbdda16cbbdf9ab99a6c5526",
+      "bytes": 3707,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139311409700
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/media/MediasTest.java",
+      "sha256": "01fdeefef49682debb578d315adadc65c1379ebab55fb5592f8480b89dd649fc",
+      "bytes": 1787,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139311409700
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/menu/MenusTest.java",
+      "sha256": "ab62af275635a1db17ece38c2104e3cead69878e1590d2bcd3215069f24d4e5b",
+      "bytes": 4056,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139312917000
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/message/MpMessagesTest.java",
+      "sha256": "f29b71354bc2b5e2e537d5769b6ab96400914eb6add0fd22d352457bd524e35b",
+      "bytes": 810,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139313924600
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/message/MpMessages_RBL4_bb977cfcTest.java",
+      "sha256": "c4419cfbc5d7a268855fa76d3261a577a780605789b20a4e20a2e49f295f10cd",
+      "bytes": 92,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784836259856178300
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/message/MpXmlMessagesTest.java",
+      "sha256": "9b7bbc9984549626d495bd87faa91ba116fcebadf5b3448006bbf79ebea2fdac",
+      "bytes": 6099,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139314925400
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/oauth2/MpOAuth2STest.java",
+      "sha256": "c93f79ac19c51f505c3879a5d69086f1fb1b2acff22c104118fa0b333ceb0fea",
+      "bytes": 1151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139314925400
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/poi/PoiTest.java",
+      "sha256": "de98293eedfcd2688de80a417dbe573f179383ccd893e9f79232685fbe0bd7bf",
+      "bytes": 1342,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139315925800
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/request/MpXmlMessagesTest.java",
+      "sha256": "28555ce92b28ef9c26465ed51b50bd1776bd39a16e55981aaee27161adb0bbad",
+      "bytes": 10938,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139316925300
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/shop/OrdersTest.java",
+      "sha256": "4d3d2eed894f0de23c75eb54d7f57465e8b04f54480ae49b76eb039873937c10",
+      "bytes": 594,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139318035600
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/stat/StatsTest.java",
+      "sha256": "1281b3a760d03beb83a6ec9611f73f722fc7a4ff4fc079de512086d1b30bbb73",
+      "bytes": 971,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139318925900
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/template/TemplatesTest.java",
+      "sha256": "f52b6b89e5d9117692b930bc8ebad273e54fdf24252adc215cc3f28d32d8105a",
+      "bytes": 2186,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139320436700
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/ticket/TicketsTest.java",
+      "sha256": "23149f0e05219c715455f514e5b7375d02cadae671d83ff83be6a88eb236ad7d",
+      "bytes": 2270,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139321445700
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/user/BlackListsTest.java",
+      "sha256": "06ed0cfba13c330426f456e86369da4ff493c2f160869f9dd54b99aa6289778a",
+      "bytes": 861,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139321445700
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/user/GroupsTest.java",
+      "sha256": "bd0608b00d98eca3e00d36045f8481dee839ea02c3eac9abad5f8576108f930a",
+      "bytes": 3661,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139322453000
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/user/TagsTest.java",
+      "sha256": "0d7f2cb2b42e3b7edbfd4416515fe34061c478175b6f5491a96ef7e657f35e41",
+      "bytes": 1820,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139323588000
+    },
+    {
+      "relative": "weixin-mp/src/test/java/com/riversoft/weixin/mp/user/UsersTest.java",
+      "sha256": "ea2b6b297f56d6eb92fdeb905b69a96134e8575f961b5ad669c25fede8e13fde",
+      "bytes": 1962,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139323588000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/wx-test.properties",
+      "sha256": "f5366aff7cf5dccc45495975ccfe9f33f46843e9d2630b637695e72705f9c41b",
+      "bytes": 49,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139366941200
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/album.xml",
+      "sha256": "78fa48dde31693f15d51a2793fc4ffc0e2157ceccb1255f15509c1ab4a8fb2cb",
+      "bytes": 515,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139324523400
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/click.xml",
+      "sha256": "fac4607d63cee319348b32fb535bc64d8b6b5dab4020039faa94583ea6449adc",
+      "bytes": 284,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139325480000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/location-report.xml",
+      "sha256": "5789ac6d68251b6eeb63708134b5ed1fd84d8971c3da742c1e754f6e847c9182",
+      "bytes": 353,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139325480000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/location-select.xml",
+      "sha256": "dc26bd485f65babf66ecb39c29b57a91ddc054faa383402251b3f4c99bf61eef",
+      "bytes": 594,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139325480000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/scan-push.xml",
+      "sha256": "9d35a63820ddf11f3a522e8036427ac805036c8609db0dd5262a63b048db6804",
+      "bytes": 424,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139327469000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/scan-waitmsg.xml",
+      "sha256": "818ff95d56fb28d95cd11bb22d4a958d3565137b1de560c8aa82159fe3170395",
+      "bytes": 427,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139327469000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/subscribe.xml",
+      "sha256": "9a498be7b6acb011392029e23d6d79f68b68b9a73058090318ce169ff45284e0",
+      "bytes": 240,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139328169800
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/sys-photo-or-album.xml",
+      "sha256": "917a14d0e352e87860726ec2cbfb448c5c213d4dab7140ed7fe70a288bf3edec",
+      "bytes": 523,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139329169000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/sys-photo.xml",
+      "sha256": "c174dd6bd94f0a410a008fce2b82d1f7dda4a4026787e7bef567522b9ec68458",
+      "bytes": 517,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139329169000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/unsubscribe.xml",
+      "sha256": "65e9dadea8523c05008cf68170443b4793c522633633b2b2dcb5904727e41772",
+      "bytes": 242,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139329169000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/event/view.xml",
+      "sha256": "7304428c1c2d4b7a090685fadf17ad26d6279ef61c69893d998540acf6566e44",
+      "bytes": 285,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139330354700
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/media/borball.jpg",
+      "sha256": "84292a26fb233e6557765d08ae6c294fdad1c23760e1d444d91c76d02b4bcf5b",
+      "bytes": 574443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139336874500
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/media/html5.html",
+      "sha256": "db311e7bca56cf28502c054199b001ca21bbda7ebd99ca0efb9ee0ee7b618f24",
+      "bytes": 1350,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139337883000
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/media/image.png",
+      "sha256": "8c7b89cbece6c32347225e4d596398959dca41d8bfdd3c3f278551f169991381",
+      "bytes": 9900,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139338883400
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/media/test.mp3",
+      "sha256": "71213263ab42df960d4d3372824b7f0f2ad94eeeae1ffa4b31b3dd5de9b46fd6",
+      "bytes": 309980,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139342496400
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/media/test.mp4",
+      "sha256": "baeebc0b780c2cc6e76135fb76f359ca9bc518a70f44981b06152000f90a8409",
+      "bytes": 3771577,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139362447300
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/message/image.xml",
+      "sha256": "effc2fead7428f661d94ce22e3800a077dd10f2c2b047fd1513f3ef60cdcd7f3",
+      "bytes": 330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139363447200
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/message/link.xml",
+      "sha256": "d25048479ecc95656d43cb7429de292e3efc181096fbc65746df58aa8002ebc0",
+      "bytes": 394,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139363447200
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/message/location.xml",
+      "sha256": "be4c985a7044b418b51a73282ab93042a00735b8845b6949a2fa75a2f09bfd37",
+      "bytes": 390,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139364432600
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/message/shortvideo.xml",
+      "sha256": "12c30b6fe46f6faa540ec2662931c27161cf821e2624b489e28e71eee345555a",
+      "bytes": 348,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139365426500
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/message/text.xml",
+      "sha256": "91900f03d0327f61b11421bcff001c57a485882abd063f29c75036d916537636",
+      "bytes": 287,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139365426500
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/message/video.xml",
+      "sha256": "97e51fa6bd61c893594ff0c1efb416626f347ee9e0f966a3875955dd3454d1e5",
+      "bytes": 343,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139365426500
+    },
+    {
+      "relative": "weixin-mp/src/test/resources/message/voice.xml",
+      "sha256": "d0fa5c43a67055aa2891fcb3d69f45eb325469274e66d394f0951de58b1bd1eb",
+      "bytes": 323,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139366941200
+    },
+    {
+      "relative": "weixin-open/pom.xml",
+      "sha256": "0a1201f158fa24c912667e3db3b7bd11a3daecbf7f475b2cb36fb4148fe4ce75",
+      "bytes": 3211,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139367951000
+    },
+    {
+      "relative": "weixin-open/src/main/java/com/riversoft/weixin/open/OpenWxClientFactory.java",
+      "sha256": "fbc0359eb09db622d9e1e8b75c9cbc6740920f0bdb30f2571db76a4b7c10f121",
+      "bytes": 2452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139371149000
+    },
+    {
+      "relative": "weixin-open/src/main/java/com/riversoft/weixin/open/base/AppSetting.java",
+      "sha256": "0951f5f0c9eac953a09bf4b34b0ce8029f2fb8ac6a250f0bc0bf14219576816c",
+      "bytes": 3873,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139371149000
+    },
+    {
+      "relative": "weixin-open/src/main/java/com/riversoft/weixin/open/base/WxEndpoint.java",
+      "sha256": "85a75bb100fd5cf9349887569ce0b1bd61ca807904acf8a2ef9c22f26edb73c6",
+      "bytes": 1028,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139372656000
+    },
+    {
+      "relative": "weixin-open/src/main/java/com/riversoft/weixin/open/oauth2/OpenOAuth2s.java",
+      "sha256": "3424220403d98603220a161f39e71416e5d25136377d1936ff0c7cff9f46cad8",
+      "bytes": 4595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139373666300
+    },
+    {
+      "relative": "weixin-open/src/main/resources/wx-open-endpoint.properties",
+      "sha256": "4f572a45b0617141bb2b6c58aa092e8fc3a7728a660e35888ba5fce3746ee521",
+      "bytes": 659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139374666200
+    },
+    {
+      "relative": "weixin-open/src/test/java/com/riversoft/weixin/open/oauth2/OpenOAuth2sTest.java",
+      "sha256": "32f5ee281165e8b7b1f7dc20319823b76af139bc2f24066e4f00dfea6de004de",
+      "bytes": 364,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139377174100
+    },
+    {
+      "relative": "weixin-parent/pom.xml",
+      "sha256": "66d5363a36300149cd17d8052f6800dff3c4c8ee08cebb1025e3235dabf54137",
+      "bytes": 6005,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139378182000
+    },
+    {
+      "relative": "weixin-pay/pom.xml",
+      "sha256": "962f0596ffb6b45dbc7299b38dadb7b0b8963a9e2c5ab5f2e1f614207ed77cdb",
+      "bytes": 3227,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139378182000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/PayWxClientFactory.java",
+      "sha256": "c19577ff3b40a9afa1782d622db47a7882d7fd468c8a1f9c2329a603e451b55f",
+      "bytes": 1328,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139381402500
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/base/BaseResponse.java",
+      "sha256": "e4a79167ca335cd70561282df6bd9692210997afe649afa1fb82c9b50d57d978",
+      "bytes": 1531,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139382401000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/base/PaySetting.java",
+      "sha256": "0aa78e56780c5475c8e2afcf721a8ccaf6a5f641e2be5dede50353f5bab6dbe0",
+      "bytes": 4292,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139382401000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/base/WxEndpoint.java",
+      "sha256": "fd403865a840b28784371b8f89e778d900ed47f32dd028af54e2a95bb3b9de5e",
+      "bytes": 1025,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139383400200
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/Payments.java",
+      "sha256": "84e64e506917982617c44f64d737b4ef2130dc28fa0ae10d8048cbebf434f3c9",
+      "bytes": 12002,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139384401000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/Signatures.java",
+      "sha256": "a9a118860a2a5723de72f88f6d5b0edddf45c9b31532f9d0d3a2bcea07d292b5",
+      "bytes": 2817,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139384401000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/OrderQueryRequest.java",
+      "sha256": "bd876c770bcde37808ee151054e96516d473f7130cd0fb9fd1db99f6894fe444",
+      "bytes": 697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139385404000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/OrderQueryResponse.java",
+      "sha256": "c2f4546e8803a69388783cd65d2de3062ec61787166c977819501774a212f85b",
+      "bytes": 4713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139385404000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/PaymentNotification.java",
+      "sha256": "883771615d382db94b6bda2fbb0054fffd7fc9a87d0e33331eff1cfa8a5a988f",
+      "bytes": 6573,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139386911400
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/RefundQuery.java",
+      "sha256": "176d3d0d9bb883902ba9dcf23b769554ea2b46cd586205a9ad17aa586b82af1c",
+      "bytes": 9166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139386911400
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/RefundRequest.java",
+      "sha256": "aa06ce35960fdb5972aa03f984d4fb046411fa4e634ae03e400da58fe834e126",
+      "bytes": 1901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139387918700
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/RefundResponse.java",
+      "sha256": "30fbdd5274dd2f22a888b760154f8bdd50ac6b9119efc1b6d2e7cf7bb387d980",
+      "bytes": 2965,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139388920300
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/Signature.java",
+      "sha256": "2bae9c2e5b6dbf7597ad4b7fa0820f6e60eefbdae73b93b2355da647d788f883",
+      "bytes": 1015,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139388920300
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/UnifiedOrderRequest.java",
+      "sha256": "8760300b04786e3fa41bc486e6017f84ed1f9e7e9dc3922e9fdea8ffc7223def",
+      "bytes": 4301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139389920000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/bean/UnifiedOrderResponse.java",
+      "sha256": "081ccad371bb26f5ac7989481075aeb995cb43fce19278da08eba836eb07b746",
+      "bytes": 1295,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139389920000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/BaseSettings.java",
+      "sha256": "1056ba46c41aa9030140a010aee57cae222e1e78fa1256904572142966fbe218",
+      "bytes": 953,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139390975500
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/BillRequestWrapper.java",
+      "sha256": "e16c26c22d0d178cd34d9c1d26cdfdfcf8eeb4d753f8e3dfdba4c3c0f2951fed",
+      "bytes": 604,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139390975500
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/OrderCloseRequestWrapper.java",
+      "sha256": "0b1a94c3cf95fbb66c22d2f652b5dce965705d5f90e91da909ccb7d8a3bd3f96",
+      "bytes": 462,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139392482800
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/OrderCloseResponseWrapper.java",
+      "sha256": "31871919eab0720ecc69627f3f1cd5568c8c9062f7c4d9860abac6d143992258",
+      "bytes": 498,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139392482800
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/OrderQueryRequestWrapper.java",
+      "sha256": "6ca388776a891764ea3c898ac305b82550650db03764fde4f95ae06423461816",
+      "bytes": 640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139393489800
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/OrderQueryResponseWrapper.java",
+      "sha256": "79465fd99ae4880dd4b2c11f094178e0b517e5a794be1df14765f80f6119921d",
+      "bytes": 566,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139394491000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/RefundQueryRequestWrapper.java",
+      "sha256": "831bb891032f902dd2226e236e7315d6ec61c47c69e0d7368e6cdef79fa057ce",
+      "bytes": 1213,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139394491000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/RefundQueryWrapper.java",
+      "sha256": "6b84983e8e92caaa95fd934fd7bf353083819e1826e39365f915358238c7d226",
+      "bytes": 1065,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139395491800
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/RefundRequestWrapper.java",
+      "sha256": "c166e6423c1d46a94d9d6304e177366b4c8e70940532f92c965e45ca50c546df",
+      "bytes": 498,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139395491800
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/RefundResponseWrapper.java",
+      "sha256": "e8452c418b5be28f7f12053e14766b4e54b0a6396d3c2f4044a4991000ba7596",
+      "bytes": 510,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139395491800
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/UnifiedOrderRequestWrapper.java",
+      "sha256": "9e075abf09262ee3b21705b78a3c6dc803ec1250934cbae48547476dfe69fb98",
+      "bytes": 648,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139396996700
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/payment/wrapper/UnifiedOrderResponseWrapper.java",
+      "sha256": "44bdb6476502f3b6012cb6ccd07be9573a6c2ad4b9a381e3298ba9abe3e367a6",
+      "bytes": 536,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139396996700
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/redpack/RedPacks.java",
+      "sha256": "bb0bef282d6a2f9f32572a3698c129348a3706c0b35f23e017aca36de33da1b5",
+      "bytes": 9790,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139398005200
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/redpack/bean/RedPackRequest.java",
+      "sha256": "6d45a920a7811d5ff109612f32a9cea42bf86a9f001c3bc079c2eaaae2e87927",
+      "bytes": 2759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139399012800
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/redpack/bean/RedPackResponse.java",
+      "sha256": "ce774111aa6954bfc1f5f17556fe8d4115f893b8fa5cd24421aaab2e46b3a69b",
+      "bytes": 1666,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139400007000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/redpack/bean/RedPackResult.java",
+      "sha256": "6627474a7e2573a8a9f309cc62d7a2389c840d1c5092b6cfe0b7c27d24cb27f9",
+      "bytes": 3590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139400007000
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/transfer/Transfers.java",
+      "sha256": "9557169c59e2b58cd38b0ec3634e1eebc5c6ad3187f3de194edd80398c074789",
+      "bytes": 7673,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139401199600
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/transfer/bean/TransferRequest.java",
+      "sha256": "7a19df66788133aaa2b85b1460d09a23c42f495e379662525e8c5cac0445b08c",
+      "bytes": 2099,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139402197600
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/transfer/bean/TransferResponse.java",
+      "sha256": "e475b7e981d3619d35a4cc6d834513aeb31e1b630df08f7626a53090b9d29ee2",
+      "bytes": 1265,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139402197600
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/transfer/bean/TransferResult.java",
+      "sha256": "907087cdc684394afbacfbc68306c5fa31498df8ac578dafd8d6583d55354958",
+      "bytes": 2242,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139403198200
+    },
+    {
+      "relative": "weixin-pay/src/main/java/com/riversoft/weixin/pay/util/SignatureUtil.java",
+      "sha256": "a3934acc3589377d260749e29660124d4efb718fa234cabb01546e9bb43c9e61",
+      "bytes": 465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139404197700
+    },
+    {
+      "relative": "weixin-pay/src/main/resources/wx-pay-endpoint.properties",
+      "sha256": "76397ad5e553ecc2e575c856816028d5802e7558de493d278770968ef21a0a63",
+      "bytes": 811,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139405200200
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/payment/AnySetter349Test.java",
+      "sha256": "8ca883c650d83cbde9fac68f35bcc5a2d09e1b2c25b63de29accdaf1f5447941",
+      "bytes": 1312,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139407195800
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/payment/JacksonTest.java",
+      "sha256": "a2ca3a9983660757f152e87a387b2e685fb2c56e4c5a6f9ab5eca61c92772021",
+      "bytes": 3791,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139408196400
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/payment/PaymentsTest.java",
+      "sha256": "8ec1539b4e82f78679fb8d471360bf9dea8b1ac8516e1201f6ec8c11d6d6a72d",
+      "bytes": 2020,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139408196400
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/payment/RefundQueryTest.java",
+      "sha256": "9cfc48a7058a041451f311db482090380d2da52ac886ad8bf0359c5b4dad97d9",
+      "bytes": 4001,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139409196000
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/payment/SignaturesTest.java",
+      "sha256": "3eba9467f6269091c0b5fb2c1105a8ae46f09507d7d43fc722bac1f977cede16",
+      "bytes": 626,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139410197300
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/redpack/Bean2MapTest.java",
+      "sha256": "e823444d162e3d11011049535947748dc3ac3bdac868a163afe0b955c132f104",
+      "bytes": 2836,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139410197300
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/redpack/RedPacksTest.java",
+      "sha256": "8863cd632abd3fc3ad25b17587bf9fe1eb2ab7a10c89a62df8d0d7ff9556a0c8",
+      "bytes": 2493,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139411258200
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/redpack/TransfersTest.java",
+      "sha256": "4a0b3709455051971deef225d3a501d7f6ee8f6e44ee11bfdd66bb976b6a3bbe",
+      "bytes": 952,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139411258200
+    },
+    {
+      "relative": "weixin-pay/src/test/java/com/riversoft/weixin/pay/util/SignatureUtilTest.java",
+      "sha256": "0a8ee36b4d561ae0a1e6290af83d934798397c4a65b8de18cdd55ea5c8456c80",
+      "bytes": 3006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139412256700
+    },
+    {
+      "relative": "weixin-qydev/pom.xml",
+      "sha256": "35c648643e6ce347233b190c3b0db8dd0a3f767b33f25de94a5e3f7cd6688584",
+      "bytes": 3266,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139413259000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/QyWxClientFactory.java",
+      "sha256": "cfdc1b4285b894bcd94a9d145d116ea7e1b786b8e654dbd2a55fda21636def35",
+      "bytes": 2480,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139415254800
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/agent/Agents.java",
+      "sha256": "ae90142c9e12d13b37849cd0a6ec3d7bfa858b4edd470ce8b6b87bea20315eb1",
+      "bytes": 2957,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139416761900
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/agent/bean/Agent.java",
+      "sha256": "cf229547cce45738b103a047c99889f72eb047448523e6f1a9b37fa8db39fd5d",
+      "bytes": 1279,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139417770900
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/agent/bean/WritableAgent.java",
+      "sha256": "d8b80e8872950f8d00a3b38ce7ff3fa5bd7cb7277d4086921a1a4fff3c030daa",
+      "bytes": 3048,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139418769800
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/base/AgentSetting.java",
+      "sha256": "f250c44da9bf95584e5a3f8f64b50569be484ec9454caead8f85c140ed21435e",
+      "bytes": 1024,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139419770000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/base/CorpSetting.java",
+      "sha256": "a0203c22dc3c6884df4d7b1332669b3ecb25441e29563ea8e9623bd958de6a14",
+      "bytes": 3991,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139419770000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/base/WxEndpoint.java",
+      "sha256": "59d5ba442cb233f52365cccc1242dae9a20927456438d1a17add99145e0e5e0f",
+      "bytes": 1022,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139420858000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/Departments.java",
+      "sha256": "523ccc07df27240713ecd1bedf8a6fef0823c698ea9aba4684dc504a0e6c8807",
+      "bytes": 3446,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139420858000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/Jobs.java",
+      "sha256": "693dfc7875ff78a09f4354c5da895654006a8940d1e42a4318e34b0c4f3d084d",
+      "bytes": 4882,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139422365400
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/Tags.java",
+      "sha256": "3a76ec1f77db276b0037415cb2e5e1ac7b17423156d847db8d1cb6b4c2f3f082",
+      "bytes": 4871,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139422365400
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/Users.java",
+      "sha256": "fcd81d616ac6ae1572a226bd272b4dc9ac87750cdb97f95e37a98b661c525696",
+      "bytes": 6167,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139423373700
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/department/Department.java",
+      "sha256": "d35df58a312eac678829930de9c5060d74a7fd487e147f12dbe1d505f4ca71b2",
+      "bytes": 874,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139424373900
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/job/JobResult.java",
+      "sha256": "1e7702c0a60d9d04ea8b1abd26cd9766fa2208d9638ede3f8a5a8c0cea2640f0",
+      "bytes": 1552,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139424373900
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/tag/Tag.java",
+      "sha256": "69452a38773bd4f2e63811f044b8841f063dbc18e0b77e98d1eafa2ee178ec09",
+      "bytes": 725,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139425373300
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/tag/TagUsers.java",
+      "sha256": "f567a62a198038edb20f20db440144610b5de354d3da4e3c6284abe1724e8efe",
+      "bytes": 957,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139426880100
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/tag/TagUsersResult.java",
+      "sha256": "21e72f051b9cd3d6b5cf154fd35b494b24fc2fdd96e66e2902d2d653b3b1bfec",
+      "bytes": 1398,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139427387500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/user/AbstractUser.java",
+      "sha256": "fe1ec888c5856a5408910e81675b6323206d544628166117c05b1fb9b56e12ce",
+      "bytes": 2915,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139428401500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/user/CreateUser.java",
+      "sha256": "65ca8ee765636f4830e337df07262b8c2c83c75b9e663511d2bffbf8ab4fa947",
+      "bytes": 470,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139428401500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/user/Invitation.java",
+      "sha256": "2b5b624b7350364df357efe1ebed2a96d9716021ac8864a0f628acdd2102e1a8",
+      "bytes": 532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139428401500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/user/ReadUser.java",
+      "sha256": "0bc96deadadeb3330a1c9100b27ce1a1bb70dcd9cbf9bf353aa5dbb853bc0b4f",
+      "bytes": 794,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139429909000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/user/SimpleUser.java",
+      "sha256": "2ace1b1afae46eb23e0501535cd02fbcb8c22b30b5f63de90cb9fd18aa7cbbe9",
+      "bytes": 759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139429909000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/user/UpdateUser.java",
+      "sha256": "c09bd694f65ba13366a099d726b2970349cd9505babed71ddec29087fb4b106e",
+      "bytes": 693,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139430916800
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/contact/user/UserStatus.java",
+      "sha256": "cc8f0ab110f27d132d884bec3038e56aa5ef9aa909f8b9d090ef5184085e85c6",
+      "bytes": 351,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139430916800
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/BatchJobResultEvent.java",
+      "sha256": "83e07d7b8f48490f279e64f7694ceeab82e5ab2404c392e814c2cc5d9add144e",
+      "bytes": 2025,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139432423400
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/EnterAgentEvent.java",
+      "sha256": "e57fa30dbf81209574f67fb548c254f59bf97173991ce3c7e09924e9678975cc",
+      "bytes": 468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139432423400
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/QyClickEvent.java",
+      "sha256": "db05bd342593ba4248f647b550956a0f5a32f9a7196f24f2be9afb6d92707749",
+      "bytes": 461,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139433436000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/QyLocationReportEvent.java",
+      "sha256": "b70737b63849928a45703cc8432e5ca61ff7c5aa8ad5dcb038f1d2b0307f3c95",
+      "bytes": 488,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139433436000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/QyLocationSelectEvent.java",
+      "sha256": "ee047b0807ce35ad44346bf5b7c9cdf6a4dd44dbca854ab1897372b7abea185a",
+      "bytes": 488,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139434432000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/QyPhotoEvent.java",
+      "sha256": "fd1a313ee3c0279d2e704178f4a4b03392b045ca0e2445da379f6dcd8ac741ee",
+      "bytes": 461,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139434432000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/QyScanEvent.java",
+      "sha256": "1f9812cad71b5ffabff906c78884e4f504f3508ce663627ef47365f77a07c94b",
+      "bytes": 458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139435431500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/QySubscriptionEvent.java",
+      "sha256": "26bb88bee1492b37009bbb0519621a3e5bca72751e7480d2527f72568a3f61fd",
+      "bytes": 482,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139435431500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/event/QyViewEvent.java",
+      "sha256": "3d8e8f1fbfaab188af06fadf741af7d0831de78976bc7d9b75a77e2faa90099c",
+      "bytes": 458,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139435431500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/jsapi/JsAPIs.java",
+      "sha256": "4de0489c47388fb50c0b33cff87d227003ecdcb572a2584bc14fa35fd9ee14c8",
+      "bytes": 5785,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139436938500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/media/Materials.java",
+      "sha256": "5f03ea4b148e703f91ef6100a6f3ea9b60da386e004b0fbc5fac231810404097",
+      "bytes": 10127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139437953500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/media/Medias.java",
+      "sha256": "128b1148f94be8fd106d097d9aa1267120636065c0bc37bb9465254e5f87313d",
+      "bytes": 2645,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139438954800
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/media/bean/Counts.java",
+      "sha256": "6ce6575717244984d370d24d9fbd7f1585b6f1aeb35cf33d328bce130ac00ec5",
+      "bytes": 1365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139439950000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/media/bean/MaterialPagination.java",
+      "sha256": "815ba093591e285383949bb4a58c2fd32baee7288369bbf6a3476c82473432d3",
+      "bytes": 1734,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139439950000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/media/bean/MpNewsPagination.java",
+      "sha256": "4561b816efa692c18716d28645c73fc2f9f7e31eb5c13b9d822021e7937259cc",
+      "bytes": 2390,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139441030700
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/menu/Menus.java",
+      "sha256": "ef5162a655ea29ed63cd305cf4c93ce76de4b3f062d1ff9ba7539e71493fe3e7",
+      "bytes": 2127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139441030700
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/Messages.java",
+      "sha256": "91fdff7f86cdcf66059276b11b2ed68715d4839b01635229f71f9623a3a54ea8",
+      "bytes": 1289,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139442537500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/QyXmlMessages.java",
+      "sha256": "caa4dc4d3a3ea0dc38be067c7488589da9fef6fe2ada79e8ced742325c858d6e",
+      "bytes": 4654,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139442537500
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/FileMessage.java",
+      "sha256": "27a5e5c81e9e2da15bb6389cbba30cc85be1043539b86bcfdceb0cd5dcd139db",
+      "bytes": 1323,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139443545600
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/ImageMessage.java",
+      "sha256": "b2845abb85fd278a04b81de5e4040f87f58d59e2b63914d8bf5f02d06968559d",
+      "bytes": 1330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139444546200
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/JsonMessage.java",
+      "sha256": "7f98eb6475a0fcbb7ad1d5dea9704b4a0dca273a5c3fb72077be958beb0243a4",
+      "bytes": 1767,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139444546200
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/MpNewsMediaIdMessage.java",
+      "sha256": "5e1a2e01797ea9cb066c8131be4b06f6abb63b772341a5aa3c230cbef34a5332",
+      "bytes": 681,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139445545000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/MpNewsMessage.java",
+      "sha256": "b2f24521e21ccd812f72b7a13e706aa0741e44e1071082f4ef18c617d4553b45",
+      "bytes": 1336,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139445545000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/NewsMessage.java",
+      "sha256": "dbad8ca5ccf275a89a5705efec450a854899e45901243db122eef7bd0f59ee2a",
+      "bytes": 587,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139447052200
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/TextMessage.java",
+      "sha256": "20af348f1f6e6ea6c16cc383b89d01f38633407599ff3c185e9996f5ca43a207",
+      "bytes": 1234,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139447052200
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/VideoMessage.java",
+      "sha256": "e434203ea445ca640c1078f427f1204ef8456a9974df89d32bc3262b2b0376f5",
+      "bytes": 1229,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139448059800
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/message/json/VoiceMessage.java",
+      "sha256": "e217123241e2ab06e4a40bdafc148a5beba4e498a6664942f1524633560c1141",
+      "bytes": 1330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139448059800
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/oauth2/QyOAuth2s.java",
+      "sha256": "673e9556f40d7c7f69f2b5d93ea8f0058dbfb7369234d6ceffed55b341631add",
+      "bytes": 4385,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139449065400
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/oauth2/bean/QyUser.java",
+      "sha256": "3639183fc7ac8c0040e3e6aef9f8ed11fd1f155287f04d456963b83d35b9c3f2",
+      "bytes": 821,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139450059400
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/request/QyImageRequest.java",
+      "sha256": "c86da2b31a1e819dde69e17f381d8b65e93d88a8c219b023af36ee3c881bf744",
+      "bytes": 593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139451150000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/request/QyLocationRequest.java",
+      "sha256": "15dee15582ebbcef02dbc67af598819032a53ecb8e5a5c82b75095f099ca52c9",
+      "bytes": 602,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139451150000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/request/QyShortVideoRequest.java",
+      "sha256": "82ee7c67238212a59a423d746ba1ba20a825c70d07c5d6379dfd6c4188682274",
+      "bytes": 608,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139451150000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/request/QyTextRequest.java",
+      "sha256": "4931149bd368cb7193e475dc879b30d4f82ce966eb63a045d73e48c912ea85b9",
+      "bytes": 590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139452657700
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/request/QyVideoRequest.java",
+      "sha256": "9380ce712ab9eea7ed213eb20c7d09e597783ddbf637bc02e6c0162051393c2b",
+      "bytes": 593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139452657700
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/request/QyVoiceRequest.java",
+      "sha256": "f3eb8722fec6f5f237a6a7bbfcadfa41321e9508657a1a8127d6711b615fd133",
+      "bytes": 593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139453666000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/shake/Shakes.java",
+      "sha256": "c5826f4d20e41f8bbfb152ea3aef8f558b4b684a52455b0314c5310eee9d77a3",
+      "bytes": 1803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139454666100
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/shake/bean/Beacon.java",
+      "sha256": "951f760355e108474911f5e67bbf6102be6fcbba21d3bbcbe2544ffd94ae385c",
+      "bytes": 798,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139455666300
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/shake/bean/Shake.java",
+      "sha256": "4b0c628f77b8b9358d4f2ceeaa2d26580a8f5bdadfcc0ffe105020246d4012a0",
+      "bytes": 1002,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139455666300
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/util/GenderDeserializer.java",
+      "sha256": "4fb5b220b94069f451b14e00a61180d2772c4bac58bf18fbcecbdca4866563b4",
+      "bytes": 902,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139457172900
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/util/GenderSerializer.java",
+      "sha256": "8eb1aa171b404236a1b5afe502cd3c5739ab35ad50bf75702dbdd174ff3e050f",
+      "bytes": 902,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139457172900
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/util/ReportLocationDeserializer.java",
+      "sha256": "844789ebf180459c95d3114d0a6671db02231ad285e537364ce1b1da924ca854",
+      "bytes": 910,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139458180000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/util/ReportLocationSerializer.java",
+      "sha256": "c3e9cfe0b0d207a182b76cce3c2f10deacef158b9b194bb5c17cd826dd9c36f5",
+      "bytes": 924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139458180000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/util/UserStatusDeserializer.java",
+      "sha256": "83256a0505871457843a604f9014dd2887ad0d096d43828cd0b5783f795a7b94",
+      "bytes": 824,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139459180000
+    },
+    {
+      "relative": "weixin-qydev/src/main/java/com/riversoft/weixin/qy/util/UserStatusSerializer.java",
+      "sha256": "40c46e42e5475f84e0a7a3ccdb07f94f1d9d8849005a21bb3e8875fe13afd159",
+      "bytes": 816,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139460181200
+    },
+    {
+      "relative": "weixin-qydev/src/main/resources/wx-qy-endpoint.properties",
+      "sha256": "2ac17efd2762faff2aeadf164a379aef8e058d922da37f8ef3ee120b280ad13d",
+      "bytes": 4209,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139460181200
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/Starter.java",
+      "sha256": "f259d04d994fb9d92d57c55a0e57ab3c0de6ebf55d628a2ebddc10b52e0b2d11",
+      "bytes": 1742,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139463233500
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/TestConfiguration.java",
+      "sha256": "14f6181ba9963926cc1513e063ef0659d9a38b1aeb13d7fef36c74b1345d683e",
+      "bytes": 1335,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139464234000
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/WxClientTest.java",
+      "sha256": "493bd08ffe48157ce2da903a3977b722ce79e087368d699c5175aa35f5dc5666",
+      "bytes": 1148,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139464234000
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/agent/AgentsTest.java",
+      "sha256": "ee6ed319dbe2a8036263ac6c630654f9c9d27a5db80fb4889567b03b32a9057d",
+      "bytes": 878,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139465235200
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/contact/JobsTest.java",
+      "sha256": "01c90c13685250561993c1a9279d37d0a4b62a76b58e052fd55a566f36528f0a",
+      "bytes": 5940,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139466741300
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/contact/JsonTest.java",
+      "sha256": "c713165d5cd85a41d3e09fbee67ba67d745d35ee4b50d5bfe8e41cdbb4bd9d62",
+      "bytes": 3141,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139466741300
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/contact/TagsTest.java",
+      "sha256": "d4285ac64105a95eda85b72f1c371c69ca4caf66da71353771ba5d4996e48e2d",
+      "bytes": 305,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139467748400
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/contact/UsersTest.java",
+      "sha256": "754d7c4303426baedb32fc800134ad71e1cf37d85dbdee9940a732dc3bd88e3a",
+      "bytes": 1355,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139467748400
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/jsapi/JsAPIsTest.java",
+      "sha256": "38329fa1e6c670595f4c0d4570ddfceaa0810c3312bc7906b6fb165fc7aa1c10",
+      "bytes": 453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139468748800
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/media/MaterialsTest.java",
+      "sha256": "1ae64d4d55578edcabe6b3e90eb790f84fc64f056c307ab8297d8d7e32503029",
+      "bytes": 3849,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139469748300
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/media/MediasTest.java",
+      "sha256": "b462b5db6162949bf903f5b6d795e14c4cda41879e63e39bd7837e0ea73f5932",
+      "bytes": 1788,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139470908200
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/menu/MenusTest.java",
+      "sha256": "82e86066148c03cb88bb5a386c30ff97ebe1e30b3ae2dda77167d778a94b5d7e",
+      "bytes": 765,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139470908200
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/message/MessagesTest.java",
+      "sha256": "2e29a8c5d0d38cdc5d4da491bcaddf17487322073a14a44b43f4a974b9434f9a",
+      "bytes": 5182,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139472416000
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/message/QyXmlMessagesTest.java",
+      "sha256": "b76495c758435c0f873a75a11162e5f491bb674ab4a19050e97af7759dd30af8",
+      "bytes": 16877,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139472416000
+    },
+    {
+      "relative": "weixin-qydev/src/test/java/com/riversoft/weixin/qy/oauth2/QyOAuth2STest.java",
+      "sha256": "25af22853841138efe355a868fe1cab8e80d9eea734ba5054d4508124df0332a",
+      "bytes": 491,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139473425100
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/agent.json",
+      "sha256": "08a809e81a18a4a4b4747659caafbe34911358b6a1d8fe4fa34a52ddbee9df1e",
+      "bytes": 1527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139474424000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/wx-test.properties",
+      "sha256": "bbf07fbe3681c1d5a8edf5cfc1658bae712d8ae35a5b9210303b275a59578bcb",
+      "bytes": 30,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139509744000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/base/setting-test.xml",
+      "sha256": "adae817f83176bfe1a25ac3bddd2a57b5db601a81e8068b7f526ebdb5194e5e9",
+      "bytes": 387,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139474424000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/media/html5.html",
+      "sha256": "db311e7bca56cf28502c054199b001ca21bbda7ebd99ca0efb9ee0ee7b618f24",
+      "bytes": 1350,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139475427900
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/media/image.png",
+      "sha256": "8c7b89cbece6c32347225e4d596398959dca41d8bfdd3c3f278551f169991381",
+      "bytes": 9900,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139476934700
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/media/test.mp3",
+      "sha256": "71213263ab42df960d4d3372824b7f0f2ad94eeeae1ffa4b31b3dd5de9b46fd6",
+      "bytes": 309980,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139479943800
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/media/test.mp4",
+      "sha256": "baeebc0b780c2cc6e76135fb76f359ca9bc518a70f44981b06152000f90a8409",
+      "bytes": 3771577,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139497973400
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/image.xml",
+      "sha256": "33cce2f0e4972ad6a9a94dbffa9e3932da1ea220484f22a5409af61fcf033769",
+      "bytes": 356,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139505723500
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/location.xml",
+      "sha256": "98535e16ba061fa6bc85c49c7bb8c1f0fee6c78b77c88443d558622e11ce6fba",
+      "bytes": 415,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139505723500
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/shortvideo.xml",
+      "sha256": "66f68058c6795f910457de99c5724f05041837d1d6e8f7ef48678c99b1cd9d17",
+      "bytes": 374,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139507230300
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/text.xml",
+      "sha256": "c09e9b6bd0036a5cb380f56d975496995ff5e06ef13805cac65f2aea812a7df3",
+      "bytes": 313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139507230300
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/video.xml",
+      "sha256": "c41b27c65ff800788f9d0965cd1c07a54821ff04f65bf3a54c2cf2b5dd0ce7fa",
+      "bytes": 369,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139508238000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/voice.xml",
+      "sha256": "291e777db6e6f05720d0e461f3abb41b6bcaeca91ca6edaf1c8dd12dc2933280",
+      "bytes": 349,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139508238000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/album.xml",
+      "sha256": "45c0750e857123a8c156cc3c6a4abe710d634c528a87e4ef31afc1a95d1c1b66",
+      "bytes": 541,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139498977700
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/batch-job.xml",
+      "sha256": "d388b0d26e4e357f44e1c1a583276c9eed88f6a9918b8554e33aee86b9326260",
+      "bytes": 495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139499974000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/click.xml",
+      "sha256": "2bc6fc30dcf5d500cb1b1295e80489c1bc990469c04219f82c6403c09edc19bc",
+      "bytes": 310,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139499974000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/enter-agent.xml",
+      "sha256": "7780dac4bcc95522289703f116b0e40a6de6586e304d7c1c8192ba2203295488",
+      "bytes": 309,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139501206600
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/location-report.xml",
+      "sha256": "2499b98b3420d119af48f03c3937bba6ced92263c0e737ac1abe557e4fdcbd3a",
+      "bytes": 379,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139501206600
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/location-select.xml",
+      "sha256": "3975f5013d057a13c2be1b82def99db85e664a1549fc84623265ba57bbe28371",
+      "bytes": 620,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139501206600
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/scan-push.xml",
+      "sha256": "c0fd5ddca0458cb5091e2f65c5c0c5146f02272e2af6be5495281fc57dd624b3",
+      "bytes": 450,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139502715000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/scan-waitmsg.xml",
+      "sha256": "0f26029f0e153bcc9729bc73351588de403e2702350d8bb170b6fe1d21656af1",
+      "bytes": 453,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139502715000
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/subscribe.xml",
+      "sha256": "000219f44b3f59af40be8e96fc42b9323839212d6e4c1bc10352ebae6f2852e0",
+      "bytes": 266,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139503722200
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/sys-photo-or-album.xml",
+      "sha256": "731424d4e19fc0a544042fec3c2d38a5ae716133cf7de98b1a81fcca4c6b84fb",
+      "bytes": 549,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139503722200
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/sys-photo.xml",
+      "sha256": "8ae9ff866ec49f506ba4e1b9096003cf5bd2bb291723ad203f1683afbe4da8cd",
+      "bytes": 543,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139504722400
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/unsubscribe.xml",
+      "sha256": "e1d6a5f455adc0da9ec955e5b539ccf34ebe3d3d08d435673907b585707215a0",
+      "bytes": 268,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139504722400
+    },
+    {
+      "relative": "weixin-qydev/src/test/resources/message/event/view.xml",
+      "sha256": "e4a4e93b2f66d371685cd37b1244a394eed02eacbad44e8436cd653e8823606d",
+      "bytes": 311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784780139505723500
+    }
+  ],
+  "excluded": [
+    "weixin-common/target",
+    "weixin-mp/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\045_43105609_bb977cfc\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:45:57.618797+00:00"
+}

@@ -1,0 +1,59 @@
+{
+  "job_index": 48,
+  "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+  "repo_id": "98410891",
+  "G0_archived_mutation_percent": "0.0",
+  "E0_archived_mutation_percent": "0.0",
+  "E1_archived_mutation_percent": "0.0",
+  "seed": 20261131,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.softavail.comms.demo.application.impl.PropertiesConfiguration_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.softavail.comms.demo.application.impl.PropertiesConfiguration_ESTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 4,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": false,
+  "pit_report_present": true,
+  "module_mutants": 388,
+  "focal_mutants": 15,
+  "killed_mutants": 0,
+  "focal_mutant_qualified_classes": [
+    "com.softavail.comms.demo.application.impl.PropertiesConfiguration"
+  ],
+  "mutation_score_percent": 0.0,
+  "legacy_strict_mutation_percent": 0.0,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "Demo Application",
+      "PACKAGE": "com.softavail.comms.demo.application.impl",
+      "CLASS": "PropertiesConfiguration",
+      "INSTRUCTION_MISSED": "82",
+      "INSTRUCTION_COVERED": "21",
+      "BRANCH_MISSED": "2",
+      "BRANCH_COVERED": "2",
+      "LINE_MISSED": "18",
+      "LINE_COVERED": "5",
+      "COMPLEXITY_MISSED": "12",
+      "COMPLEXITY_COVERED": "3",
+      "METHOD_MISSED": "10",
+      "METHOD_COVERED": "3"
+    }
+  ],
+  "measurement_evidence_complete": false,
+  "strict_suite_evidence": false,
+  "strict_measurement_evidence": false
+}

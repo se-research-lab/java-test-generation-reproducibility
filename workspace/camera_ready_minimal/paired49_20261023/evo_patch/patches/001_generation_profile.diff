@@ -1,0 +1,34 @@
+--- backup/mavenLib.py
++++ working/AgoneTest/mavenLib.py
+@@ -11,6 +11,7 @@
+ import errorCorrection
+ import utils
+ import toolchains
++import evosuite_profile
+ import sys
+ 
+ df_chance = pd.DataFrame(columns=['Test_Class', 'Test_Path', 'Chance'])
+@@ -754,7 +755,7 @@
+ 
+ 
+ 
+-def run_evosuite_generation_maven(path, focal_path, system):
++def run_evosuite_generation_maven(path, focal_path, system, generation_profile=evosuite_profile.LEGACY):
+     """
+     Given a focal class of a Maven project, it runs EvoSuite to generate the corresponding test class.
+         Parameters:
+@@ -859,13 +860,7 @@
+                 classpath,
+                 "-Dtest_dir=" + test_dir,
+                 "-Dreport_dir=" + str(Path(work_path, "evosuite-report").resolve()),
+-                "-Duse_separate_classloader=false",
+-                "-Dtest_archive=false",
+-                "-Dcriterion=BRANCH",
+-                "-Dassertions=false",
+-                "-Dno_runtime_dependency=true",
+-                "-Dtest_scaffolding=false",
+-                "-Dsearch_budget=60",
++                *evosuite_profile.maven_generation_options(generation_profile),
+             ]
+             result = subprocess.run(evosuite_command, cwd=work_path, capture_output=True, text=True, timeout=EVOSUITE_TIMEOUT_SECONDS)
+             copy_generated_test_if_needed()

@@ -1,0 +1,17 @@
+{
+  "BAO_CAO_ANALYTICS_49.md": "24d9802b75d6f8c55a33724b30def363da970aeacf6c7f6f083558c4c72fb23b",
+  "cluster_bootstrap_draws.csv": "9f794e3051723cd34063bab21bf80d92895f5cfc673e954e43f00248dad6f02d",
+  "leave_one_repository_out.csv": "3c8ba8da23245d7ce47851004b86332eb324d84e76af346c3c99de025d76f21f",
+  "paired49.csv": "6a4bd875a6623741a4ddcbbb60a7a03b0c433e2c67f14622f73d8754e238a9df",
+  "paired49_artifact_provenance.csv": "2f5292d4eef60910e0d7498bcd1612dbfe1291f388f0cea915914756d62a2157",
+  "paired49_scatter.png": "28809c4b501f82f3d4366b77c580bd1755525bdcd057e53bd95ccb1e48c57262",
+  "paired49_scatter.svg": "ebe13d45b852ad31f0b1b3a54af842f6023b437d795451bc874dfe76cffdc6fc",
+  "paper_insert_en.md": "ff410595a44284ce052c95560980f63929d5e67b99bf7cdf77f2a55224686e92",
+  "paper_table49.csv": "6dc1a6f00a10623f7101c71a1ed1662eb3cb98efcfb3d6ef815e108421e847d4",
+  "paper_table49.tex": "de7ce04c199a5a165d55f67178326bc8e89ffaf6d345688b919ae1b960e5aa4d",
+  "repository_summary.csv": "211e5530c29cb6bb882e74d8872502ee33878223c2b782b8bffd1c513eaf79a4",
+  "rq1_input_unchanged.csv": "e38d9b16d83d392d21a005ed80865bbc21ce8688425ea10df4abc59c9656aa96",
+  "rq2_input_unchanged.csv": "62e0cbb8720a2ac98978c6c8c9b3816cb86847b89797bc5158a98576054b1897",
+  "rq3_input_unchanged.csv": "92ba89c3000be4b28ffc361ea19630764582d262c1e8817477dc54ac0fd4e724",
+  "statistics.json": "c9bbdd58d9de684a29dd246ee1de5d88dc603b573151501be430923e72330c3a"
+}

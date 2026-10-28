@@ -1,0 +1,2199 @@
+[
+  {
+    "job_index": 1,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/extractor/constructormetaextractor.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\extractor\\ConstructorMetaExtractor_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\extractor\\ConstructorMetaExtractor_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.extractor.ConstructorMetaExtractor_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "KILLED": 62,
+      "SURVIVED": 47,
+      "NO_COVERAGE": 757
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 11,
+      "KILLED": 10,
+      "SURVIVED": 5
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ConstructorMetaExtractor.class": "e8fd0719da533e6cdce0c79514534d5161ddb1065864a854caa17428104c2c72"
+    },
+    "remaining_historical_bytecode": {
+      "ConstructorMetaExtractor.class": "e8fd0719da533e6cdce0c79514534d5161ddb1065864a854caa17428104c2c72"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "94702c8886e760dcc1f5eef489949994a0f1a94127fbdc2c28fd897bbea78ab9",
+    "remaining_historical_multiset_sha256": "94702c8886e760dcc1f5eef489949994a0f1a94127fbdc2c28fd897bbea78ab9",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 99.23400000000402
+  },
+  {
+    "job_index": 2,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/file/filesearcherfactory.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\file\\FileSearcherFactory_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\file\\FileSearcherFactory_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.file.FileSearcherFactory_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 865,
+      "KILLED": 1
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "FileSearcherFactory.class": "bb7c561a4404982721ed676343b0abb331ba9c7d395334630bf6e649d8a8df88"
+    },
+    "remaining_historical_bytecode": {
+      "FileSearcherFactory.class": "bb7c561a4404982721ed676343b0abb331ba9c7d395334630bf6e649d8a8df88"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "7534323d3b556707d98047b0ade3c7c3799ef67087ca8bfa59a1e6112a606bf8",
+    "remaining_historical_multiset_sha256": "7534323d3b556707d98047b0ade3c7c3799ef67087ca8bfa59a1e6112a606bf8",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 22.858000000003813
+  },
+  {
+    "job_index": 3,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/filter/impl/triminsideofbracefilter.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\filter\\impl\\TrimInsideOfBraceFilter_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\filter\\impl\\TrimInsideOfBraceFilter_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.filter.impl.TrimInsideOfBraceFilter_ESTest",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "KILLED": 28,
+      "SURVIVED": 12,
+      "NO_COVERAGE": 826
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 23,
+      "SURVIVED": 12,
+      "NO_COVERAGE": 7
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "TrimInsideOfBraceFilter.class": "197693a386e0551e626aa414eb12d89d668f5ea17b451ceb3abfd96438e7ee1e"
+    },
+    "remaining_historical_bytecode": {
+      "TrimInsideOfBraceFilter.class": "197693a386e0551e626aa414eb12d89d668f5ea17b451ceb3abfd96438e7ee1e"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "acf59a647498e91391b14b5c1ad042a662293dc9cace18b037283a1ae1c2e371",
+    "remaining_historical_multiset_sha256": "acf59a647498e91391b14b5c1ad042a662293dc9cace18b037283a1ae1c2e371",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 86.98399999999674
+  },
+  {
+    "job_index": 4,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/generator/linebreakprovider.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\generator\\LineBreakProvider_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\generator\\LineBreakProvider_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.generator.LineBreakProvider_ESTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 846,
+      "KILLED": 18,
+      "SURVIVED": 2
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 14,
+      "SURVIVED": 1,
+      "NO_COVERAGE": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "LineBreakProvider.class": "e3a630758cccbfc54133f72787472b3333eca1316f949c6caa7cac355d72c59f"
+    },
+    "remaining_historical_bytecode": {
+      "LineBreakProvider.class": "e3a630758cccbfc54133f72787472b3333eca1316f949c6caa7cac355d72c59f"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "5bda8422515dc788fe96b4b09b43fdebdb9d2a084dba61be842c0ba8f14f729f",
+    "remaining_historical_multiset_sha256": "5bda8422515dc788fe96b4b09b43fdebdb9d2a084dba61be842c0ba8f14f729f",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 85.42199999999866
+  },
+  {
+    "job_index": 5,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/argtypemeta.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\meta\\ArgTypeMeta_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\meta\\ArgTypeMeta_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.meta.ArgTypeMeta_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 859,
+      "KILLED": 6,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 6,
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ArgTypeMeta.class": "1bc4dee15bcd3f2b2869ee1779883d315bd3b7e9137d67b793c380d0081706da"
+    },
+    "remaining_historical_bytecode": {
+      "ArgTypeMeta.class": "1bc4dee15bcd3f2b2869ee1779883d315bd3b7e9137d67b793c380d0081706da"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "116cb77055d46734b88447b00d17217ff78d37a737995d423fc41a969784d136",
+    "remaining_historical_multiset_sha256": "116cb77055d46734b88447b00d17217ff78d37a737995d423fc41a969784d136",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 23.922000000005937
+  },
+  {
+    "job_index": 6,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/returntypemeta.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\meta\\ReturnTypeMeta_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\meta\\ReturnTypeMeta_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.meta.ReturnTypeMeta_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 859,
+      "KILLED": 6,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 6,
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ReturnTypeMeta.class": "a226d130492619640420dce2f915050c80bb78afff14aa5b2df41b33d53ef441"
+    },
+    "remaining_historical_bytecode": {
+      "ReturnTypeMeta.class": "a226d130492619640420dce2f915050c80bb78afff14aa5b2df41b33d53ef441"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "bdf9ac850ff665d64cf4d18d775ca11da98999782631c3aa136862d5adf5569b",
+    "remaining_historical_multiset_sha256": "bdf9ac850ff665d64cf4d18d775ca11da98999782631c3aa136862d5adf5569b",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 24.78099999999904
+  },
+  {
+    "job_index": 7,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/util/primitivetypeutil.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\util\\PrimitiveTypeUtil_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\util\\PrimitiveTypeUtil_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.util.PrimitiveTypeUtil_ESTest",
+        "tests": 30,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 831,
+      "KILLED": 33,
+      "SURVIVED": 2
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 28,
+      "SURVIVED": 2,
+      "NO_COVERAGE": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "PrimitiveTypeUtil.class": "d6473881d768858065f5424f5d89bc094fc0e6a8a6ba0d343ec052c6745658a8"
+    },
+    "remaining_historical_bytecode": {
+      "PrimitiveTypeUtil.class": "d6473881d768858065f5424f5d89bc094fc0e6a8a6ba0d343ec052c6745658a8"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "04f74c37bfa0b00ba7d30476e13ec01561a157a373eb6f40d0013eafe4b31a92",
+    "remaining_historical_multiset_sha256": "04f74c37bfa0b00ba7d30476e13ec01561a157a373eb6f40d0013eafe4b31a92",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 89.51600000000326
+  },
+  {
+    "job_index": 8,
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/util/threadutil.java",
+    "native_generated_files": [
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\util\\ThreadUtil_ESTest.java",
+      "repo\\core\\src\\test\\java\\org\\junithelper\\core\\util\\ThreadUtil_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "org.junithelper.core.util.ThreadUtil_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 865,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 1,
+      "NO_COVERAGE": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ThreadUtil.class": "a19463030e1d9b3875bf1c654c9132fff69241fabb993230b5da97225fb125e9"
+    },
+    "remaining_historical_bytecode": {
+      "ThreadUtil.class": "a19463030e1d9b3875bf1c654c9132fff69241fabb993230b5da97225fb125e9"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "e74054e5babca16217a42e806ba54f15dcf919b155a35eabbb9cbd27d3663d50",
+    "remaining_historical_multiset_sha256": "e74054e5babca16217a42e806ba54f15dcf919b155a35eabbb9cbd27d3663d50",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 35,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 32.03199999999924
+  },
+  {
+    "job_index": 9,
+    "class_key": "3847504:modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/urlimpl.java",
+    "native_generated_files": [
+      "repo\\modules\\weblounge-common\\src\\test\\java\\ch\\entwine\\weblounge\\common\\impl\\url\\UrlImpl_ESTest.java",
+      "repo\\modules\\weblounge-common\\src\\test\\java\\ch\\entwine\\weblounge\\common\\impl\\url\\UrlImpl_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "ch.entwine.weblounge.common.impl.url.UrlImpl_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0
+      }
+    ],
+    "errors": [
+      {
+        "kind": "error",
+        "type": "java.lang.NoClassDefFoundError",
+        "message": "org/junit/rules/TestRule"
+      }
+    ],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 3771
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 40
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "UrlImpl.class": "09c8fc41d0bdc856a725f69f1a336c4bff6706607439e8e38f088fa536e0441c"
+    },
+    "remaining_historical_bytecode": {
+      "UrlImpl.class": "09c8fc41d0bdc856a725f69f1a336c4bff6706607439e8e38f088fa536e0441c"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "c13541406ad4cc5448c846e6d8801cf4b96cc55d2307f3bb7b62585a7326a549",
+    "remaining_historical_multiset_sha256": "c13541406ad4cc5448c846e6d8801cf4b96cc55d2307f3bb7b62585a7326a549",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 53,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 148.0769999999975
+  },
+  {
+    "job_index": 10,
+    "class_key": "41547678:turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/qualifiedname.java",
+    "native_generated_files": [
+      "repo\\turin-compiler\\src\\test\\java\\me\\tomassetti\\turin\\parser\\ast\\QualifiedName_ESTest.java",
+      "repo\\turin-compiler\\src\\test\\java\\me\\tomassetti\\turin\\parser\\ast\\QualifiedName_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\turin-compiler\\src\\test\\java\\me\\tomassetti\\turin\\compiler\\BasicTypesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "me.tomassetti.turin.parser.ast.QualifiedName_ESTest",
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 2452,
+      "KILLED": 33,
+      "SURVIVED": 5
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 31,
+      "SURVIVED": 4
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "QualifiedName.class": "047caec29e86d5aeb4926d3bca0930e160f014ac8936845a532358e1c8112278"
+    },
+    "remaining_historical_bytecode": {
+      "QualifiedName.class": "047caec29e86d5aeb4926d3bca0930e160f014ac8936845a532358e1c8112278"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "c679bcf1847a95060599a7a408703b0a7845af28827f56e82a02d6669c4936d6",
+    "remaining_historical_multiset_sha256": "c679bcf1847a95060599a7a408703b0a7845af28827f56e82a02d6669c4936d6",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 38,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 47.13999999999578
+  },
+  {
+    "job_index": 11,
+    "class_key": "41547678:turin-standard-library/src/main/java/turin/context/context.java",
+    "native_generated_files": [
+      "repo\\turin-standard-library\\src\\test\\java\\turin\\context\\Context_ESTest.java",
+      "repo\\turin-standard-library\\src\\test\\java\\turin\\context\\Context_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "turin.context.Context_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 83
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 6
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "Context$1.class": "349d84647bef5678565deddc9c3ad70e112302c1e3e131c8b3dcbcdf2106abef",
+      "Context.class": "a1d857a12687ca9317534469a35a7e2a97ad68be7f53fcb46054d160d88db8d1"
+    },
+    "remaining_historical_bytecode": {
+      "Context$1.class": "349d84647bef5678565deddc9c3ad70e112302c1e3e131c8b3dcbcdf2106abef",
+      "Context.class": "a1d857a12687ca9317534469a35a7e2a97ad68be7f53fcb46054d160d88db8d1"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "fb4decdcc2603a310992c3797652aff813a076ef18f5bec3bbad5e8260c91506",
+    "remaining_historical_multiset_sha256": "fb4decdcc2603a310992c3797652aff813a076ef18f5bec3bbad5e8260c91506",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 38,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 77.85999999999694
+  },
+  {
+    "job_index": 12,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/resource/resourceurn.java",
+    "native_generated_files": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\resource\\ResourceUrn_ESTest.java",
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\resource\\ResourceUrn_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\FilesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.resource.ResourceUrn_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0
+      }
+    ],
+    "errors": [
+      {
+        "kind": "error",
+        "type": "java.lang.NoClassDefFoundError",
+        "message": "org/junit/rules/TestRule"
+      }
+    ],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 2136
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 32
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ResourceUrn.class": "e2a8b708a3db52476f18aaf6baab34eb4fc766e23cb029f1b2326f42456c6307"
+    },
+    "remaining_historical_bytecode": {
+      "ResourceUrn.class": "e2a8b708a3db52476f18aaf6baab34eb4fc766e23cb029f1b2326f42456c6307"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "1067298adeece5f301f2e90bb597d3ded1e31d4efdc930139de9c5a64e966459",
+    "remaining_historical_multiset_sha256": "1067298adeece5f301f2e90bb597d3ded1e31d4efdc930139de9c5a64e966459",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 37,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 91.7029999999977
+  },
+  {
+    "job_index": 13,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/joiners.java",
+    "native_generated_files": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\Joiners_ESTest.java",
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\Joiners_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\FilesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.util.Joiners_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0
+      }
+    ],
+    "errors": [
+      {
+        "kind": "error",
+        "type": "java.lang.NoClassDefFoundError",
+        "message": "org/junit/rules/TestRule"
+      }
+    ],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 2136
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 25
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "Joiners$1.class": "613ff17a244b16972a12c04ff787f245c0e89c0902ee938d40c30aca60b322a4",
+      "Joiners$2.class": "bf05020d9a3734b972452dd73a33e7706702c9adaa0086b6b42431ecbcabbdd1",
+      "Joiners$IBuilder.class": "fb1c32294d49251bf085ed99a02cb65fbf946de811f7df9f748037e43cef695c",
+      "Joiners$StringJoiner.class": "06dece0955288a9e2b15f6311fc6b2aa6b140a5436753833f0e268f638cd4906",
+      "Joiners.class": "0a7dfe3f59ce47256b1bc434ac745457627d36e317df24924bc7407b3daad80f"
+    },
+    "remaining_historical_bytecode": {
+      "Joiners$1.class": "613ff17a244b16972a12c04ff787f245c0e89c0902ee938d40c30aca60b322a4",
+      "Joiners$2.class": "bf05020d9a3734b972452dd73a33e7706702c9adaa0086b6b42431ecbcabbdd1",
+      "Joiners$IBuilder.class": "fb1c32294d49251bf085ed99a02cb65fbf946de811f7df9f748037e43cef695c",
+      "Joiners$StringJoiner.class": "06dece0955288a9e2b15f6311fc6b2aa6b140a5436753833f0e268f638cd4906",
+      "Joiners.class": "0a7dfe3f59ce47256b1bc434ac745457627d36e317df24924bc7407b3daad80f"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "39117433550b2b8cc1d4d06d2617fd6232b5da9d7270dd51e9207b698b57289e",
+    "remaining_historical_multiset_sha256": "39117433550b2b8cc1d4d06d2617fd6232b5da9d7270dd51e9207b698b57289e",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 41,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 25.422000000005937
+  },
+  {
+    "job_index": 14,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/splitters.java",
+    "native_generated_files": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\Splitters_ESTest.java",
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\Splitters_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\FilesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.util.Splitters_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0
+      }
+    ],
+    "errors": [
+      {
+        "kind": "error",
+        "type": "java.lang.NoClassDefFoundError",
+        "message": "org/junit/rules/TestRule"
+      }
+    ],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 2136
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 46
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "Splitters$StringSplitter.class": "acc5c273725175e2327ad4e1d311109f2dce190ae31607c23731e41319a1879b",
+      "Splitters.class": "415043b25f3abaab9bb2b91e367f410a5ac3adf96c5587d57d07b98d09ab1f2d"
+    },
+    "remaining_historical_bytecode": {
+      "Splitters$StringSplitter.class": "acc5c273725175e2327ad4e1d311109f2dce190ae31607c23731e41319a1879b",
+      "Splitters.class": "415043b25f3abaab9bb2b91e367f410a5ac3adf96c5587d57d07b98d09ab1f2d"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "1ed9a1ad43b8d1abf9f4e6124d31d445dc1114e42ac10b4dd0b14d65c7e7da88",
+    "remaining_historical_multiset_sha256": "1ed9a1ad43b8d1abf9f4e6124d31d445dc1114e42ac10b4dd0b14d65c7e7da88",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 38,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 93.46799999999348
+  },
+  {
+    "job_index": 15,
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/xmls.java",
+    "native_generated_files": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\Xmls_ESTest.java",
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\Xmls_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\WebRex\\src\\test\\java\\com\\ebayopensource\\webrex\\util\\FilesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.ebayopensource.webrex.util.Xmls_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0
+      }
+    ],
+    "errors": [
+      {
+        "kind": "error",
+        "type": "java.lang.NoClassDefFoundError",
+        "message": "org/junit/rules/TestRule"
+      }
+    ],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 2136
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 13
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "Xmls$Data.class": "791d5add2680776c580e9dd25180f157ae946060d64ddc92f576a1a4ff322f08",
+      "Xmls.class": "e5f337c7c164690c0a948c5b18205cc60241492e2ace4f5afe72dd880f1dcc70"
+    },
+    "remaining_historical_bytecode": {
+      "Xmls$Data.class": "791d5add2680776c580e9dd25180f157ae946060d64ddc92f576a1a4ff322f08",
+      "Xmls.class": "e5f337c7c164690c0a948c5b18205cc60241492e2ace4f5afe72dd880f1dcc70"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "9cff2b43d1797652a63b7dbd3c8a6049a289fa10c07ebd491de8802cd65989e0",
+    "remaining_historical_multiset_sha256": "9cff2b43d1797652a63b7dbd3c8a6049a289fa10c07ebd491de8802cd65989e0",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 38,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 27.5
+  },
+  {
+    "job_index": 16,
+    "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/alertsender.java",
+    "native_generated_files": [
+      "repo\\hbase0.98\\hbase-common-0.98\\src\\test\\java\\com\\kakao\\hbase\\common\\util\\AlertSender_ESTest.java",
+      "repo\\hbase0.98\\hbase-common-0.98\\src\\test\\java\\com\\kakao\\hbase\\common\\util\\AlertSender_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.kakao.hbase.common.util.AlertSender_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 386,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 1,
+      "NO_COVERAGE": 5
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "AlertSender.class": "dd4b4a2846d28a079b2461e7020fea7ae6777d7359fcf52ee7e950d364accf30"
+    },
+    "remaining_historical_bytecode": {
+      "AlertSender.class": "dd4b4a2846d28a079b2461e7020fea7ae6777d7359fcf52ee7e950d364accf30"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "9bcdcc4be22b085f9115ad23783c491508dd22b170db61577da7b2ff6cfcee96",
+    "remaining_historical_multiset_sha256": "9bcdcc4be22b085f9115ad23783c491508dd22b170db61577da7b2ff6cfcee96",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 57,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 105.20200000000114
+  },
+  {
+    "job_index": 17,
+    "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/decimalstringsplit.java",
+    "native_generated_files": [
+      "repo\\hbase0.98\\hbase-common-0.98\\src\\test\\java\\com\\kakao\\hbase\\common\\util\\DecimalStringSplit_ESTest.java",
+      "repo\\hbase0.98\\hbase-common-0.98\\src\\test\\java\\com\\kakao\\hbase\\common\\util\\DecimalStringSplit_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.kakao.hbase.common.util.DecimalStringSplit_ESTest",
+        "tests": 14,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 368,
+      "KILLED": 12,
+      "SURVIVED": 7
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 12,
+      "SURVIVED": 7
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "DecimalStringSplit.class": "9bc0899e81394239682127cd41d75cd0fd854a554ff80376053b7c960d7ea5b5"
+    },
+    "remaining_historical_bytecode": {
+      "DecimalStringSplit.class": "9bc0899e81394239682127cd41d75cd0fd854a554ff80376053b7c960d7ea5b5"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "08541fd1cb3385ef1182dcf24580dc21dc53bbed49c8926d381735b0629ba393",
+    "remaining_historical_multiset_sha256": "08541fd1cb3385ef1182dcf24580dc21dc53bbed49c8926d381735b0629ba393",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 57,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 64.25099999999657
+  },
+  {
+    "job_index": 18,
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/resettablesingletontraverser.java",
+    "native_generated_files": [
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\core\\ResettableSingletonTraverser_ESTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\core\\ResettableSingletonTraverser_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\core\\metrics\\MeasurementPredicatesTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\pipeline\\OrderedProcessingMergingStagesTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\pipeline\\SourcesTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\pipeline\\test\\TestSourcesTest.java"
+    ],
+    "surefire_suites": [],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 7027,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ResettableSingletonTraverser.class": "bc7462a36afb5464a9255fbf8f768b6b667ed4a494a7955e86e1519f7ea83294"
+    },
+    "remaining_historical_bytecode": {
+      "ResettableSingletonTraverser.class": "bc7462a36afb5464a9255fbf8f768b6b667ed4a494a7955e86e1519f7ea83294"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "517b2a3f039002fe8be72ec8c23c2bb522eb540c21cfff7496911659d9f06fc8",
+    "remaining_historical_multiset_sha256": "517b2a3f039002fe8be72ec8c23c2bb522eb540c21cfff7496911659d9f06fc8",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 95,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 179.90500000000247
+  },
+  {
+    "job_index": 19,
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/slidingwindowpolicy.java",
+    "native_generated_files": [
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\core\\SlidingWindowPolicy_ESTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\core\\SlidingWindowPolicy_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\core\\metrics\\MeasurementPredicatesTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\pipeline\\OrderedProcessingMergingStagesTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\pipeline\\SourcesTest.java",
+      "repo\\hazelcast-jet-core\\src\\test\\java\\com\\hazelcast\\jet\\pipeline\\test\\TestSourcesTest.java"
+    ],
+    "surefire_suites": [],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 6996,
+      "KILLED": 26,
+      "SURVIVED": 6
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 21,
+      "SURVIVED": 5,
+      "NO_COVERAGE": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "SlidingWindowPolicy.class": "cbc9aa6af7bf2f3938f8b12c36e47b80bfab48740922d74bd501232d333da217"
+    },
+    "remaining_historical_bytecode": {
+      "SlidingWindowPolicy.class": "cbc9aa6af7bf2f3938f8b12c36e47b80bfab48740922d74bd501232d333da217"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "85f60ea67be2734535712851fc8d864b380efcc023e69e469b35625801936d43",
+    "remaining_historical_multiset_sha256": "85f60ea67be2734535712851fc8d864b380efcc023e69e469b35625801936d43",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 95,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 100.04699999999866
+  },
+  {
+    "job_index": 20,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/directives.java",
+    "native_generated_files": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\Directives_ESTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\Directives_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\DirectivesTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\PreferencesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.Directives_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 1075,
+      "SURVIVED": 11,
+      "KILLED": 12
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 7,
+      "SURVIVED": 3
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "Directives.class": "e4b1df20b37b51f31b5f152adfcb4e76f714e27461600c1c98a9b660f92e2f40"
+    },
+    "remaining_historical_bytecode": {
+      "Directives.class": "e4b1df20b37b51f31b5f152adfcb4e76f714e27461600c1c98a9b660f92e2f40"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "38076676c9dfad0722f75ede535ec09ad2cffc89b8852dc696e0fce003dffdc4",
+    "remaining_historical_multiset_sha256": "38076676c9dfad0722f75ede535ec09ad2cffc89b8852dc696e0fce003dffdc4",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 45,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 63.78099999999904
+  },
+  {
+    "job_index": 21,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/headers.java",
+    "native_generated_files": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\Headers_ESTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\Headers_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\DirectivesTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\PreferencesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.Headers_ESTest",
+        "tests": 56,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 953,
+      "SURVIVED": 36,
+      "KILLED": 107,
+      "NON_VIABLE": 2
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 41,
+      "NO_COVERAGE": 3,
+      "SURVIVED": 3
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "Headers$HeaderHashMap.class": "562b630b252448a5dc44c9127df3b766b0e6bb50a1324a37ef63371c86026b8d",
+      "Headers.class": "b3e203ed26a8091b5ccb0c30bb8ed7d397d75b7ff44c6f1aa0833d400ab7f861"
+    },
+    "remaining_historical_bytecode": {
+      "Headers$HeaderHashMap.class": "562b630b252448a5dc44c9127df3b766b0e6bb50a1324a37ef63371c86026b8d",
+      "Headers.class": "b3e203ed26a8091b5ccb0c30bb8ed7d397d75b7ff44c6f1aa0833d400ab7f861"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "2bf933b2aff66fcbc4c74c9c841ba2d2d1b28dc8ba65723202feb6317aa40707",
+    "remaining_historical_multiset_sha256": "2bf933b2aff66fcbc4c74c9c841ba2d2d1b28dc8ba65723202feb6317aa40707",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 46,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 87.73400000000038
+  },
+  {
+    "job_index": 22,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mimetype.java",
+    "native_generated_files": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\MIMEType_ESTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\MIMEType_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\DirectivesTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\PreferencesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.MIMEType_ESTest",
+        "tests": 18,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 1054,
+      "KILLED": 31,
+      "SURVIVED": 13
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 30,
+      "SURVIVED": 5,
+      "NO_COVERAGE": 2
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "MIMEType.class": "934f22951c54d10c1d31138ca3384eeb3b571382347404fa2a1e7abb04769c5e"
+    },
+    "remaining_historical_bytecode": {
+      "MIMEType.class": "934f22951c54d10c1d31138ca3384eeb3b571382347404fa2a1e7abb04769c5e"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "0a1426bc5eeee5766ac8676b34503c2d97065f0d66cff10b34735c1adbc529c7",
+    "remaining_historical_multiset_sha256": "0a1426bc5eeee5766ac8676b34503c2d97065f0d66cff10b34735c1adbc529c7",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 45,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 120.95400000000154
+  },
+  {
+    "job_index": 23,
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/status.java",
+    "native_generated_files": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\Status_ESTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\Status_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\DirectivesTest.java",
+      "repo\\httpcache4j-api\\src\\test\\java\\org\\codehaus\\httpcache4j\\PreferencesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "org.codehaus.httpcache4j.Status_ESTest",
+        "tests": 19,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 1067,
+      "KILLED": 29,
+      "SURVIVED": 2
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 29,
+      "NO_COVERAGE": 1,
+      "SURVIVED": 2
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "Status$Category.class": "a7d2ea875460716fe7b1fa9e7b142b9a6885d7c02d068c6667a28163bd994e41",
+      "Status.class": "c3c40fdb128c6bd4428b5bbd1718a8df4eceee88e769216fb1b0ba0c0064cc97"
+    },
+    "remaining_historical_bytecode": {
+      "Status$Category.class": "a7d2ea875460716fe7b1fa9e7b142b9a6885d7c02d068c6667a28163bd994e41",
+      "Status.class": "c3c40fdb128c6bd4428b5bbd1718a8df4eceee88e769216fb1b0ba0c0064cc97"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "0f5ffe65fef86faa57f7619fcdc88e69a4c9c8b5eb3b77da157d81811cf72c7f",
+    "remaining_historical_multiset_sha256": "0f5ffe65fef86faa57f7619fcdc88e69a4c9c8b5eb3b77da157d81811cf72c7f",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 46,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 121.07800000000134
+  },
+  {
+    "job_index": 24,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/jobexecutionmultipleshardingcontext.java",
+    "native_generated_files": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\api\\JobExecutionMultipleShardingContext_ESTest.java",
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\api\\JobExecutionMultipleShardingContext_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\reg\\zookeeper\\ZookeeperRegistryCenterForLocalPropertiesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_ESTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 959,
+      "SURVIVED": 9,
+      "KILLED": 7
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 6,
+      "KILLED": 3
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "JobExecutionMultipleShardingContext.class": "57ce643ba3a2f78c4e5b8809b15b097d4e53fd66746c1ba122072b48a1a8d422"
+    },
+    "remaining_historical_bytecode": {
+      "JobExecutionMultipleShardingContext.class": "57ce643ba3a2f78c4e5b8809b15b097d4e53fd66746c1ba122072b48a1a8d422"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "4f639c025fc7cf03901ba794d9fc570539004bf602318bcf98ea62e825bdb16a",
+    "remaining_historical_multiset_sha256": "4f639c025fc7cf03901ba794d9fc570539004bf602318bcf98ea62e825bdb16a",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 40,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 76.0460000000021
+  },
+  {
+    "job_index": 25,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/config/configurationnode.java",
+    "native_generated_files": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\internal\\config\\ConfigurationNode_ESTest.java",
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\internal\\config\\ConfigurationNode_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\reg\\zookeeper\\ZookeeperRegistryCenterForLocalPropertiesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.internal.config.ConfigurationNode_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 960,
+      "SURVIVED": 7,
+      "KILLED": 8
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 7,
+      "KILLED": 7
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ConfigurationNode.class": "ddbc259e41d1708801f31ea1d37ba84e904f086281404d9171ba7009bde99078"
+    },
+    "remaining_historical_bytecode": {
+      "ConfigurationNode.class": "ddbc259e41d1708801f31ea1d37ba84e904f086281404d9171ba7009bde99078"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "310fa9c179718c0c7d4bdde3af4bb7851b8a0e2fa678e6d9da32fa63b4c9155e",
+    "remaining_historical_multiset_sha256": "310fa9c179718c0c7d4bdde3af4bb7851b8a0e2fa678e6d9da32fa63b4c9155e",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 40,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 66.04699999999866
+  },
+  {
+    "job_index": 26,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/election/leaderelectionservice.java",
+    "native_generated_files": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\internal\\election\\LeaderElectionService_ESTest.java",
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\internal\\election\\LeaderElectionService_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\reg\\zookeeper\\ZookeeperRegistryCenterForLocalPropertiesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.internal.election.LeaderElectionService_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 952,
+      "SURVIVED": 18,
+      "KILLED": 5
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 14,
+      "KILLED": 3
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "LeaderElectionService$LeaderElectionExecutionCallback.class": "0592ea9378d4dfa5584dc0f57d0dab9b1b45fcf55c64c5ffcfabee3dca95c2e4",
+      "LeaderElectionService.class": "d17ab922c7affd3964b4b0b80b5aeb495f4dd84a1a352f03fa6a731991cfcd84"
+    },
+    "remaining_historical_bytecode": {
+      "LeaderElectionService$LeaderElectionExecutionCallback.class": "0592ea9378d4dfa5584dc0f57d0dab9b1b45fcf55c64c5ffcfabee3dca95c2e4",
+      "LeaderElectionService.class": "d17ab922c7affd3964b4b0b80b5aeb495f4dd84a1a352f03fa6a731991cfcd84"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "50cc13fddf3589d067369c72c37bae4a28169d3fb142f2053f7c03b5eea135f3",
+    "remaining_historical_multiset_sha256": "50cc13fddf3589d067369c72c37bae4a28169d3fb142f2053f7c03b5eea135f3",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 41,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 129.0480000000025
+  },
+  {
+    "job_index": 27,
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/statistics/processcountjob.java",
+    "native_generated_files": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\internal\\statistics\\ProcessCountJob_ESTest.java",
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\job\\internal\\statistics\\ProcessCountJob_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\elastic-jobx-core\\src\\test\\java\\com\\dangdang\\ddframe\\reg\\zookeeper\\ZookeeperRegistryCenterForLocalPropertiesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "com.dangdang.ddframe.job.internal.statistics.ProcessCountJob_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 944,
+      "KILLED": 9,
+      "SURVIVED": 22
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 1,
+      "NO_COVERAGE": 2
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ProcessCountJob.class": "eb072c50ebb787c303c14ce9cc05a9455d6b7d4a3e18a4a4481a3d247949c6d1"
+    },
+    "remaining_historical_bytecode": {
+      "ProcessCountJob.class": "eb072c50ebb787c303c14ce9cc05a9455d6b7d4a3e18a4a4481a3d247949c6d1"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "bbbf8cec821b7a01dbd12d921c2404912fca3dae4094ebfe6b8ac83f97694f19",
+    "remaining_historical_multiset_sha256": "bbbf8cec821b7a01dbd12d921c2404912fca3dae4094ebfe6b8ac83f97694f19",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 40,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 72.40700000000288
+  },
+  {
+    "job_index": 28,
+    "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/boundingbox.java",
+    "native_generated_files": [
+      "repo\\enav-model\\src\\test\\java\\dk\\dma\\enav\\model\\geometry\\BoundingBox_ESTest.java",
+      "repo\\enav-model\\src\\test\\java\\dk\\dma\\enav\\model\\geometry\\BoundingBox_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\enav-model\\src\\test\\java\\dk\\dma\\enav\\safety\\SafetyZonesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.model.geometry.BoundingBox_ESTest",
+        "tests": 33,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "RUN_ERROR": 32,
+      "NO_COVERAGE": 567,
+      "KILLED": 28,
+      "SURVIVED": 5
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 28,
+      "SURVIVED": 5,
+      "NO_COVERAGE": 5
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "BoundingBox.class": "9ceb7263a147a0d83f00520d7350f9f8cef0161a7772d0d67370c200319bbcbf"
+    },
+    "remaining_historical_bytecode": {
+      "BoundingBox.class": "9ceb7263a147a0d83f00520d7350f9f8cef0161a7772d0d67370c200319bbcbf"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "69274cf5160c58b456fb90dd9846fff60fc3d2f57f85fa28ba3e1f1da0a4d526",
+    "remaining_historical_multiset_sha256": "69274cf5160c58b456fb90dd9846fff60fc3d2f57f85fa28ba3e1f1da0a4d526",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 37,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 78.43800000000192
+  },
+  {
+    "job_index": 29,
+    "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/positiontime.java",
+    "native_generated_files": [
+      "repo\\enav-model\\src\\test\\java\\dk\\dma\\enav\\model\\geometry\\PositionTime_ESTest.java",
+      "repo\\enav-model\\src\\test\\java\\dk\\dma\\enav\\model\\geometry\\PositionTime_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\enav-model\\src\\test\\java\\dk\\dma\\enav\\safety\\SafetyZonesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.model.geometry.PositionTime_ESTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "RUN_ERROR": 44,
+      "NO_COVERAGE": 588
+    },
+    "PIT_focal_status_counts": {
+      "RUN_ERROR": 39
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "PositionTime.class": "ecfe49e8eed22a185fe9e35977c079a7c4a456c40b4ac0df21432413d6eee27c"
+    },
+    "remaining_historical_bytecode": {
+      "PositionTime.class": "ecfe49e8eed22a185fe9e35977c079a7c4a456c40b4ac0df21432413d6eee27c"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "bb054210e2f6e9a02abb2ab2bbff7965bb3d8669e5525b9cf8a9b80a46c97355",
+    "remaining_historical_multiset_sha256": "bb054210e2f6e9a02abb2ab2bbff7965bb3d8669e5525b9cf8a9b80a46c97355",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 37,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 76.64099999999598
+  },
+  {
+    "job_index": 30,
+    "class_key": "6437134:enav-serialization/src/main/java/dk/dma/enav/serialization/simplerouteparser.java",
+    "native_generated_files": [
+      "repo\\enav-serialization\\src\\test\\java\\dk\\dma\\enav\\serialization\\SimpleRouteParser_ESTest.java",
+      "repo\\enav-serialization\\src\\test\\java\\dk\\dma\\enav\\serialization\\SimpleRouteParser_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.serialization.SimpleRouteParser_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 186,
+      "KILLED": 17
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 17,
+      "NO_COVERAGE": 5
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "SimpleRouteParser.class": "3b073faa361d85390a72c09383380212c71057b0805911735d378d7a8f9b70e5"
+    },
+    "remaining_historical_bytecode": {
+      "SimpleRouteParser.class": "3b073faa361d85390a72c09383380212c71057b0805911735d378d7a8f9b70e5"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "810390c30c45f88ab33eeb154a0c4a10a9516ad6ff19332d477d86932cfacf50",
+    "remaining_historical_multiset_sha256": "810390c30c45f88ab33eeb154a0c4a10a9516ad6ff19332d477d86932cfacf50",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 36,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 119.40699999999924
+  },
+  {
+    "job_index": 31,
+    "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/compass/compassutils.java",
+    "native_generated_files": [
+      "repo\\enav-util\\src\\test\\java\\dk\\dma\\enav\\util\\compass\\CompassUtils_ESTest.java",
+      "repo\\enav-util\\src\\test\\java\\dk\\dma\\enav\\util\\compass\\CompassUtils_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.util.compass.CompassUtils_ESTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 69,
+      "SURVIVED": 6,
+      "KILLED": 15
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 6,
+      "KILLED": 15
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "CompassUtils.class": "d552bf2dc4f238e729847aad9e533137742f794150d70b4c4efa2c9e5b921575"
+    },
+    "remaining_historical_bytecode": {
+      "CompassUtils.class": "d552bf2dc4f238e729847aad9e533137742f794150d70b4c4efa2c9e5b921575"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "390218b209a4d77c6c8d874a57cb3bbe6af34010bfed78d26ac4b25134e9c3e3",
+    "remaining_historical_multiset_sha256": "390218b209a4d77c6c8d874a57cb3bbe6af34010bfed78d26ac4b25134e9c3e3",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 36,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 52.42099999999482
+  },
+  {
+    "job_index": 32,
+    "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/coordinateconverter.java",
+    "native_generated_files": [
+      "repo\\enav-util\\src\\test\\java\\dk\\dma\\enav\\util\\CoordinateConverter_ESTest.java",
+      "repo\\enav-util\\src\\test\\java\\dk\\dma\\enav\\util\\CoordinateConverter_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "dk.dma.enav.util.CoordinateConverter_ESTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "KILLED": 40,
+      "SURVIVED": 2,
+      "NO_COVERAGE": 48
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 40,
+      "SURVIVED": 2
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "CoordinateConverter.class": "2a15e84cced7ccd62931be2666a8f45e5a424e74307fc3112f9d896d819f1ac9"
+    },
+    "remaining_historical_bytecode": {
+      "CoordinateConverter.class": "2a15e84cced7ccd62931be2666a8f45e5a424e74307fc3112f9d896d819f1ac9"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "299305e1fef4d531835d3550ddde408558c8d698d95e4ac8694fa6af73581906",
+    "remaining_historical_multiset_sha256": "299305e1fef4d531835d3550ddde408558c8d698d95e4ac8694fa6af73581906",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 36,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 114.39100000000326
+  },
+  {
+    "job_index": 33,
+    "class_key": "64487983:bridge/src/main/java/com/iluwatar/bridge/app.java",
+    "native_generated_files": [
+      "repo\\bridge\\src\\test\\java\\com\\iluwatar\\bridge\\App_ESTest.java",
+      "repo\\bridge\\src\\test\\java\\com\\iluwatar\\bridge\\App_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.bridge.App_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "SURVIVED": 36,
+      "KILLED": 3,
+      "NO_COVERAGE": 1
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 12
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "App.class": "7e81d58c9d9ae14340d3a0582810bdbf9098ee2c0c4bbbfefe8dbded9522fdc9"
+    },
+    "remaining_historical_bytecode": {
+      "App.class": "7e81d58c9d9ae14340d3a0582810bdbf9098ee2c0c4bbbfefe8dbded9522fdc9"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "2156f588b947d455bb8ccd27db02db3879b301f27b9683184ae792180205f559",
+    "remaining_historical_multiset_sha256": "2156f588b947d455bb8ccd27db02db3879b301f27b9683184ae792180205f559",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 118,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 58.23400000000038
+  },
+  {
+    "job_index": 34,
+    "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/app.java",
+    "native_generated_files": [
+      "repo\\dependency-injection\\src\\test\\java\\com\\iluwatar\\dependency\\injection\\App_ESTest.java",
+      "repo\\dependency-injection\\src\\test\\java\\com\\iluwatar\\dependency\\injection\\App_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.dependency.injection.App_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "KILLED": 2,
+      "SURVIVED": 5
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 2,
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "App.class": "1f8f9ee63f5eb2672d58c0d518b95170af89fac057f1f43e126c09298f31a8fc"
+    },
+    "remaining_historical_bytecode": {
+      "App.class": "1f8f9ee63f5eb2672d58c0d518b95170af89fac057f1f43e126c09298f31a8fc"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "f14fce621f08dbb7beaace18a795ae63563943feff78013957074afbf5859ee7",
+    "remaining_historical_multiset_sha256": "f14fce621f08dbb7beaace18a795ae63563943feff78013957074afbf5859ee7",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 118,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 70.43800000000192
+  },
+  {
+    "job_index": 35,
+    "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/guicewizard.java",
+    "native_generated_files": [
+      "repo\\dependency-injection\\src\\test\\java\\com\\iluwatar\\dependency\\injection\\GuiceWizard_ESTest.java",
+      "repo\\dependency-injection\\src\\test\\java\\com\\iluwatar\\dependency\\injection\\GuiceWizard_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.dependency.injection.GuiceWizard_ESTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 5,
+      "RUN_ERROR": 1,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "GuiceWizard.class": "2b19a27d4e5297103cc73d5d4c4a39b58402d69c4b53780e19ffee29e11c1bd5"
+    },
+    "remaining_historical_bytecode": {
+      "GuiceWizard.class": "2b19a27d4e5297103cc73d5d4c4a39b58402d69c4b53780e19ffee29e11c1bd5"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "608ec27b331db8a46188d932a67fbc379c27b145d8173d86fce84e4835268951",
+    "remaining_historical_multiset_sha256": "608ec27b331db8a46188d932a67fbc379c27b145d8173d86fce84e4835268951",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 118,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 48.7019999999975
+  },
+  {
+    "job_index": 36,
+    "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/lotterynumbers.java",
+    "native_generated_files": [
+      "repo\\hexagonal\\src\\test\\java\\com\\iluwatar\\hexagonal\\domain\\LotteryNumbers_ESTest.java",
+      "repo\\hexagonal\\src\\test\\java\\com\\iluwatar\\hexagonal\\domain\\LotteryNumbers_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.hexagonal.domain.LotteryNumbers_ESTest",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 125,
+      "SURVIVED": 4,
+      "KILLED": 19
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 4,
+      "KILLED": 19,
+      "NO_COVERAGE": 3
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "LotteryNumbers$RandomNumberGenerator.class": "c3a6ae44d7ab3c4d9f9e0ba2eeca7c2b9bb5bb620ec33985b61b4261f1634838",
+      "LotteryNumbers.class": "6edfafe922b83a6b1a8a8c5fdc2b47779f4f6fe9798fda418c5ae84b9f307659"
+    },
+    "remaining_historical_bytecode": {
+      "LotteryNumbers$RandomNumberGenerator.class": "c3a6ae44d7ab3c4d9f9e0ba2eeca7c2b9bb5bb620ec33985b61b4261f1634838",
+      "LotteryNumbers.class": "6edfafe922b83a6b1a8a8c5fdc2b47779f4f6fe9798fda418c5ae84b9f307659"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "dd0b289871b5fcbe94976c06d785199e3adbba5579b036b4de38e1e1a60cb105",
+    "remaining_historical_multiset_sha256": "dd0b289871b5fcbe94976c06d785199e3adbba5579b036b4de38e1e1a60cb105",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 119,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 190.59400000000096
+  },
+  {
+    "job_index": 37,
+    "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/playerdetails.java",
+    "native_generated_files": [
+      "repo\\hexagonal\\src\\test\\java\\com\\iluwatar\\hexagonal\\domain\\PlayerDetails_ESTest.java",
+      "repo\\hexagonal\\src\\test\\java\\com\\iluwatar\\hexagonal\\domain\\PlayerDetails_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.iluwatar.hexagonal.domain.PlayerDetails_ESTest",
+        "tests": 17,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "KILLED": 27,
+      "SURVIVED": 7,
+      "NO_COVERAGE": 114
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 27,
+      "SURVIVED": 7
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "PlayerDetails.class": "fe066a7f906f03803eb2e2300d87e43bef661746977e2939aebbcbc979702b04"
+    },
+    "remaining_historical_bytecode": {
+      "PlayerDetails.class": "fe066a7f906f03803eb2e2300d87e43bef661746977e2939aebbcbc979702b04"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "59e22bf29f3ef260fab00c91aa1cad3d1b4e63ccea3345f6598822b4e41559d0",
+    "remaining_historical_multiset_sha256": "59e22bf29f3ef260fab00c91aa1cad3d1b4e63ccea3345f6598822b4e41559d0",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 118,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 57.81199999999808
+  },
+  {
+    "job_index": 38,
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/api/dedupeventstorechannels.java",
+    "native_generated_files": [
+      "repo\\event\\src\\test\\java\\com\\bazaarvoice\\emodb\\event\\api\\DedupEventStoreChannels_ESTest.java",
+      "repo\\event\\src\\test\\java\\com\\bazaarvoice\\emodb\\event\\api\\DedupEventStoreChannels_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_ESTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 824,
+      "KILLED": 14,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 14,
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "DedupEventStoreChannels$1.class": "c4b1bc4f656b4ac76ef868f147f19292248ea226c73898e002b718698c3a2449",
+      "DedupEventStoreChannels$Impl.class": "602355d098be6ca4ab79799818ed2c0035f760cad5daa61bd74a5ee15a924da0",
+      "DedupEventStoreChannels.class": "3e2d4dafab87f7fe139a50fda53f9a0d8d787230d5e90035759a13c89123df8f"
+    },
+    "remaining_historical_bytecode": {
+      "DedupEventStoreChannels$1.class": "c4b1bc4f656b4ac76ef868f147f19292248ea226c73898e002b718698c3a2449",
+      "DedupEventStoreChannels$Impl.class": "602355d098be6ca4ab79799818ed2c0035f760cad5daa61bd74a5ee15a924da0",
+      "DedupEventStoreChannels.class": "3e2d4dafab87f7fe139a50fda53f9a0d8d787230d5e90035759a13c89123df8f"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "e0fa1ee8ceb46b8808f506877d4f6b9801b85b509f616914e6ca06b0da453d18",
+    "remaining_historical_multiset_sha256": "e0fa1ee8ceb46b8808f506877d4f6b9801b85b509f616914e6ca06b0da453d18",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 120,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 85.37499999999636
+  },
+  {
+    "job_index": 39,
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/eventstoremodule.java",
+    "native_generated_files": [
+      "repo\\event\\src\\test\\java\\com\\bazaarvoice\\emodb\\event\\EventStoreModule_ESTest.java",
+      "repo\\event\\src\\test\\java\\com\\bazaarvoice\\emodb\\event\\EventStoreModule_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.bazaarvoice.emodb.event.EventStoreModule_ESTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 837,
+      "SURVIVED": 1,
+      "KILLED": 1
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 1,
+      "NO_COVERAGE": 18,
+      "KILLED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "EventStoreModule$1.class": "e7b7d9c1ee6a80bd9b10a7d099d2bc61f8dc8fed95f887128123adc06a0b790a",
+      "EventStoreModule.class": "10dc5cb261cf7c47b9fa5f17eddc44c43eb3119dc938a3cbb51f7c1a5bf914a9"
+    },
+    "remaining_historical_bytecode": {
+      "EventStoreModule$1.class": "e7b7d9c1ee6a80bd9b10a7d099d2bc61f8dc8fed95f887128123adc06a0b790a",
+      "EventStoreModule.class": "10dc5cb261cf7c47b9fa5f17eddc44c43eb3119dc938a3cbb51f7c1a5bf914a9"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "6853bf98a2add8c09e40db91e588ab0fb2f2173de3543da1cbe52272957295fd",
+    "remaining_historical_multiset_sha256": "6853bf98a2add8c09e40db91e588ab0fb2f2173de3543da1cbe52272957295fd",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 119,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 157.76500000000306
+  },
+  {
+    "job_index": 40,
+    "class_key": "78444970:examples/graph/src/main/java/graph/algorithm/mst/jarnikprim.java",
+    "native_generated_files": [
+      "repo\\examples\\graph\\src\\test\\java\\graph\\algorithm\\mst\\JarnikPrim_ESTest.java",
+      "repo\\examples\\graph\\src\\test\\java\\graph\\algorithm\\mst\\JarnikPrim_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "graph.algorithm.mst.JarnikPrim_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 198,
+      "KILLED": 12,
+      "SURVIVED": 9
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 7,
+      "SURVIVED": 7
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "JarnikPrim.class": "51bed86ce1da14eb2e4468ee16abcacb4a062909705af86f0190d9479d082ad1"
+    },
+    "remaining_historical_bytecode": {
+      "JarnikPrim.class": "51bed86ce1da14eb2e4468ee16abcacb4a062909705af86f0190d9479d082ad1"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "d59c971f3fbff0c59d495bd75d0f866a857e6d13c32b7a60ddc3e106d86f9de7",
+    "remaining_historical_multiset_sha256": "d59c971f3fbff0c59d495bd75d0f866a857e6d13c32b7a60ddc3e106d86f9de7",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 55,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 62.46799999999348
+  },
+  {
+    "job_index": 41,
+    "class_key": "78444970:examples/random/src/main/java/random/reservoirsamplingmultipleitems.java",
+    "native_generated_files": [
+      "repo\\examples\\random\\src\\test\\java\\random\\ReservoirSamplingMultipleItems_ESTest.java",
+      "repo\\examples\\random\\src\\test\\java\\random\\ReservoirSamplingMultipleItems_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "random.ReservoirSamplingMultipleItems_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 73,
+      "KILLED": 6
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 6,
+      "NO_COVERAGE": 4
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ReservoirSamplingMultipleItems.class": "37a7399dfe70e19c49e0f000e963c3c73156040e4beba04e8b4af8a50b514dbc"
+    },
+    "remaining_historical_bytecode": {
+      "ReservoirSamplingMultipleItems.class": "37a7399dfe70e19c49e0f000e963c3c73156040e4beba04e8b4af8a50b514dbc"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "e858c24de9e52b68fda8a407872f13427a842dccf2e9efa68fea92a709f22ddf",
+    "remaining_historical_multiset_sha256": "e858c24de9e52b68fda8a407872f13427a842dccf2e9efa68fea92a709f22ddf",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 55,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 59.68700000000172
+  },
+  {
+    "job_index": 42,
+    "class_key": "78444970:examples/structures/src/main/java/ds/heap/arrayheap.java",
+    "native_generated_files": [
+      "repo\\examples\\structures\\src\\test\\java\\ds\\heap\\ArrayHeap_ESTest.java",
+      "repo\\examples\\structures\\src\\test\\java\\ds\\heap\\ArrayHeap_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "ds.heap.ArrayHeap_ESTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "KILLED": 16,
+      "SURVIVED": 20,
+      "NO_COVERAGE": 216
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 16,
+      "SURVIVED": 20
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ArrayHeap.class": "1766c6e71769af886ed70e8ba54ee9ed68402982a7690c88b458427f43f4f8a3"
+    },
+    "remaining_historical_bytecode": {
+      "ArrayHeap.class": "1766c6e71769af886ed70e8ba54ee9ed68402982a7690c88b458427f43f4f8a3"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "00ec04f8b7198bc0295f5d1cdb61d2229e45c392d676b3e31fd92244be5056ee",
+    "remaining_historical_multiset_sha256": "00ec04f8b7198bc0295f5d1cdb61d2229e45c392d676b3e31fd92244be5056ee",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 55,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 52.2029999999977
+  },
+  {
+    "job_index": 43,
+    "class_key": "78444970:examples/structures/src/main/java/ds/stack/arraystack.java",
+    "native_generated_files": [
+      "repo\\examples\\structures\\src\\test\\java\\ds\\stack\\ArrayStack_ESTest.java",
+      "repo\\examples\\structures\\src\\test\\java\\ds\\stack\\ArrayStack_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "ds.stack.ArrayStack_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 244,
+      "KILLED": 7,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 7,
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "ArrayStack.class": "81e8cac37c52c8bb9e1107dc4efd542d3543c3e2ec5365bce291416333064968"
+    },
+    "remaining_historical_bytecode": {
+      "ArrayStack.class": "81e8cac37c52c8bb9e1107dc4efd542d3543c3e2ec5365bce291416333064968"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "133f45287830298a3942671fed20fc147cadb5b47fdb6cacb3d4b9fb1697a5d1",
+    "remaining_historical_multiset_sha256": "133f45287830298a3942671fed20fc147cadb5b47fdb6cacb3d4b9fb1697a5d1",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 55,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 50.7200000000048
+  },
+  {
+    "job_index": 44,
+    "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/simpledbexceptiontranslator.java",
+    "native_generated_files": [
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\exception\\SimpleDbExceptionTranslator_ESTest.java",
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\exception\\SimpleDbExceptionTranslator_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\core\\NestedDomainEntitiesTest.java",
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\query\\QueryUtilsPartialFieldNamesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "org.springframework.data.simpledb.exception.SimpleDbExceptionTranslator_ESTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 749,
+      "SURVIVED": 8,
+      "KILLED": 17
+    },
+    "PIT_focal_status_counts": {
+      "SURVIVED": 8,
+      "KILLED": 17
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "SimpleDbExceptionTranslator.class": "2cf1d1bc28f6532af465d4edfeda9f9ea54119337ce2be097b265cde7c34db99"
+    },
+    "remaining_historical_bytecode": {
+      "SimpleDbExceptionTranslator.class": "2cf1d1bc28f6532af465d4edfeda9f9ea54119337ce2be097b265cde7c34db99"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "b4ca766b2805fe09d0f21773520c80c162d4c4863edc73a72664246ff327df1d",
+    "remaining_historical_multiset_sha256": "b4ca766b2805fe09d0f21773520c80c162d4c4863edc73a72664246ff327df1d",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 38,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 141.8589999999931
+  },
+  {
+    "job_index": 45,
+    "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/alphanumstringcomparator.java",
+    "native_generated_files": [
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\util\\AlphanumStringComparator_ESTest.java",
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\util\\AlphanumStringComparator_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\core\\NestedDomainEntitiesTest.java",
+      "repo\\spring-data-simpledb-impl\\src\\test\\java\\org\\springframework\\data\\simpledb\\query\\QueryUtilsPartialFieldNamesTest.java"
+    ],
+    "surefire_suites": [
+      {
+        "name": "org.springframework.data.simpledb.util.AlphanumStringComparator_ESTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 771,
+      "KILLED": 2,
+      "SURVIVED": 1
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 2,
+      "SURVIVED": 1
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "AlphanumStringComparator.class": "6949886ed61eb8edafa37a516fa96aa5179dcf0f061969c9c7f97ea3ca236b02"
+    },
+    "remaining_historical_bytecode": {
+      "AlphanumStringComparator.class": "6949886ed61eb8edafa37a516fa96aa5179dcf0f061969c9c7f97ea3ca236b02"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "11eb9310a520a4cb82e976eb59ec5e50f2047c830e980443076d7f5baef379e1",
+    "remaining_historical_multiset_sha256": "11eb9310a520a4cb82e976eb59ec5e50f2047c830e980443076d7f5baef379e1",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 38,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 64.2489999999998
+  },
+  {
+    "job_index": 46,
+    "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/nodoubleclassdefined.java",
+    "native_generated_files": [
+      "repo\\infrastructure\\src\\test\\java\\com\\pchudzik\\springmock\\infrastructure\\annotation\\NoDoubleClassDefined_ESTest.java",
+      "repo\\infrastructure\\src\\test\\java\\com\\pchudzik\\springmock\\infrastructure\\annotation\\NoDoubleClassDefined_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_ESTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 289,
+      "KILLED": 3
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 3
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "NoDoubleClassDefined.class": "65f7bfc6a2f47611575ddc7bc75944cb53c253c27d86eda0149425ab8abcf488"
+    },
+    "remaining_historical_bytecode": {
+      "NoDoubleClassDefined.class": "65f7bfc6a2f47611575ddc7bc75944cb53c253c27d86eda0149425ab8abcf488"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "66a3ba91bc09780bf5d182156dcf9ceb8430072e5d9bb209d4345d5aabb94976",
+    "remaining_historical_multiset_sha256": "66a3ba91bc09780bf5d182156dcf9ceb8430072e5d9bb209d4345d5aabb94976",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 37,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 51.53099999999904
+  },
+  {
+    "job_index": 47,
+    "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/doublename.java",
+    "native_generated_files": [
+      "repo\\infrastructure\\src\\test\\java\\com\\pchudzik\\springmock\\infrastructure\\definition\\DoubleName_ESTest.java",
+      "repo\\infrastructure\\src\\test\\java\\com\\pchudzik\\springmock\\infrastructure\\definition\\DoubleName_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.pchudzik.springmock.infrastructure.definition.DoubleName_ESTest",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 278,
+      "KILLED": 9,
+      "SURVIVED": 5
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 9,
+      "SURVIVED": 5
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "DoubleName.class": "20b82eb633af247acb840e502cfa2d3b7ef3068d392bea97956f6b986587f6ed"
+    },
+    "remaining_historical_bytecode": {
+      "DoubleName.class": "20b82eb633af247acb840e502cfa2d3b7ef3068d392bea97956f6b986587f6ed"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "f0f1e186edbfbc28e64c59e281b386d1a7265320129b0af02b921eec12d7a8d1",
+    "remaining_historical_multiset_sha256": "f0f1e186edbfbc28e64c59e281b386d1a7265320129b0af02b921eec12d7a8d1",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 37,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 54.01499999999942
+  },
+  {
+    "job_index": 48,
+    "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+    "native_generated_files": [
+      "repo\\applications\\demo\\src\\test\\java\\com\\softavail\\comms\\demo\\application\\impl\\PropertiesConfiguration_ESTest.java",
+      "repo\\applications\\demo\\src\\test\\java\\com\\softavail\\comms\\demo\\application\\impl\\PropertiesConfiguration_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.softavail.comms.demo.application.impl.PropertiesConfiguration_ESTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 4,
+        "skipped": 0
+      }
+    ],
+    "errors": [
+      {
+        "kind": "error",
+        "type": "java.lang.IllegalStateException",
+        "message": "Trying to set up the sandbox while executing a test case"
+      },
+      {
+        "kind": "error",
+        "type": "org.evosuite.runtime.TooManyResourcesException",
+        "message": "Loop has been executed more times than the allowed 10000"
+      },
+      {
+        "kind": "error",
+        "type": "java.lang.IllegalStateException",
+        "message": "Trying to set up the sandbox while executing a test case"
+      },
+      {
+        "kind": "error",
+        "type": "org.evosuite.runtime.TooManyResourcesException",
+        "message": "Loop has been executed more times than the allowed 10000"
+      }
+    ],
+    "PIT_module_status_counts": {
+      "NO_COVERAGE": 388
+    },
+    "PIT_focal_status_counts": {
+      "NO_COVERAGE": 15
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "PropertiesConfiguration.class": "020bff6a1e5bfab7ea90ab3662b4eed48e2dcc7fb53360e74f9257d05cf165af"
+    },
+    "remaining_historical_bytecode": {
+      "PropertiesConfiguration.class": "020bff6a1e5bfab7ea90ab3662b4eed48e2dcc7fb53360e74f9257d05cf165af"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "42fa050ad1af83cf8205e532c16d2cefd6a410def24a08a3fc7aaf0a7c5e8fe6",
+    "remaining_historical_multiset_sha256": "42fa050ad1af83cf8205e532c16d2cefd6a410def24a08a3fc7aaf0a7c5e8fe6",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 43,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 137.40699999999924
+  },
+  {
+    "job_index": 49,
+    "class_key": "98410891:core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/numberinterval.java",
+    "native_generated_files": [
+      "repo\\core-interface\\src\\test\\java\\com\\softavail\\commsrouter\\api\\dto\\model\\skill\\NumberInterval_ESTest.java",
+      "repo\\core-interface\\src\\test\\java\\com\\softavail\\commsrouter\\api\\dto\\model\\skill\\NumberInterval_ESTest_scaffolding.java"
+    ],
+    "extra_unchanged_human_manifest_entries": [],
+    "surefire_suites": [
+      {
+        "name": "com.softavail.commsrouter.api.dto.model.skill.NumberInterval_ESTest",
+        "tests": 35,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "errors": [],
+    "PIT_module_status_counts": {
+      "KILLED": 43,
+      "SURVIVED": 3,
+      "NO_COVERAGE": 300
+    },
+    "PIT_focal_status_counts": {
+      "KILLED": 35,
+      "SURVIVED": 3
+    },
+    "PIT_killing_suite_check": "PASS_no_foreign_kills",
+    "focal_bytecode": {
+      "NumberInterval.class": "434b3a70eb31d9c80cc425eac7ce4902aa440dfb736e9126398a6b44e62e371a"
+    },
+    "remaining_historical_bytecode": {
+      "NumberInterval.class": "434b3a70eb31d9c80cc425eac7ce4902aa440dfb736e9126398a6b44e62e371a"
+    },
+    "bytecode_matches_remaining_snapshot": true,
+    "focal_mutant_multiset_sha256": "4cd14be7bb00df612153e598de8315adfe9d3189e731708c7a8b447e3a006f5c",
+    "remaining_historical_multiset_sha256": "4cd14be7bb00df612153e598de8315adfe9d3189e731708c7a8b447e3a006f5c",
+    "mutant_multiset_matches_remaining_snapshot": true,
+    "history_limit": "remaining historical snapshot is not certified as both arms; cols0-4 multiset is not a complete mutant identifier",
+    "archive_files_verified": 43,
+    "generation_attempts": 1,
+    "actual_command_wall_seconds": 59.8440000000046
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-26T00:42:30.075669+00:00",
+  "scope": "one bounded Maven continuation only; no scheduling or automatic resume",
+  "max_new_jobs": 198,
+  "workers": 1,
+  "admission_sha256": "a9cfefc135a06bda2a86b53b7da7701cd693a2636249206c27f04a129ca6a342",
+  "dispatcher_sha256": "b54e42c3febd781d0263d1a494cc4fb92a7645885c264af12aa784c01f112ffb",
+  "launcher_sha256": "484166e86b59eca3f374b0dfc245b1b6b6797981b4180178ae2d8299f1cccf44",
+  "checkpoint_sha256": "8f100ab55653ec9baf4410b3fb1988a588fb776bf47074aec4b774339d816d7a",
+  "result_map_sha256": "0696c8a71cb1bfcfdae211c99d2ae464a8f79cb2eda922f7d013603583cf3603",
+  "Python_executable_sha256": "32ce1d2650ea8b9d394f5b8f94677d27888dccdc3713365bf903a8c465c9d776",
+  "GPT_generation_authorized": false,
+  "Gradle_benchmark_authorized": false,
+  "paper_edits_authorized_by_this_launcher": false,
+  "minimum_free_bytes_at_job_boundaries": 12000000000,
+  "argv": [
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_maven_b1_v3.py",
+    "--max-jobs",
+    "198"
+  ]
+}

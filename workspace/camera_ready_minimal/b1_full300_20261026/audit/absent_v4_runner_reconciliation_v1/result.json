@@ -1,0 +1,602 @@
+{
+  "status": "PASS_SAVED_TERMINAL_RECOVERED_NO_RERUN",
+  "at_utc": "2026-10-26T03:25:45.751289+00:00",
+  "sample_index_1based": 66,
+  "class_key": "61565876:injector/src/main/java/ch/jalu/injector/context/resolutioncontext.java",
+  "seed": 20261089,
+  "original_job": "jobs/066",
+  "original_result_sha256": "85b2d485dcc1d0403d9fa6ff54a86bfdd81ec20d301f06095070425abedb8fcd",
+  "external_archive_path": "audit/absent_v4_runner_reconciliation_v1/job066_recovered_archive.json",
+  "external_archive_sha256": "d9189df58f822a797d4ff2e0d3d81582821cc034035a5355ec373bc3c3cf7bc7",
+  "raw_job_modified": false,
+  "new_generation_calls": 0,
+  "new_measurement_calls": 0,
+  "GPT_API_calls": 0,
+  "process_exit_receipt_reconstructed": false,
+  "process_absence_cause": "UNKNOWN_FROM_AVAILABLE_EVIDENCE",
+  "policy_result": "retain actual terminal pipeline failure; strict policy0; raw mutation percentage unavailable",
+  "legacy_process_build": 0,
+  "legacy_strict_mutation_percent": 0.0,
+  "mutation_score_percent": null,
+  "verified_new_terminal_indices": [
+    3,
+    6,
+    8,
+    10,
+    12,
+    16,
+    17,
+    18,
+    19,
+    22,
+    23,
+    25,
+    27,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    41,
+    42,
+    44,
+    47,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    60,
+    61,
+    63,
+    64,
+    65,
+    66
+  ],
+  "verified_new_terminal_count": 42,
+  "reused_E49": 49,
+  "deferred_unscored_indices": [
+    48,
+    49
+  ],
+  "Maven_unattempted": 167,
+  "Gradle_unattempted": 40,
+  "full300_complete": false,
+  "command_checks": [
+    {
+      "command": "001",
+      "returncode": 0,
+      "stdout_sha256": "017ce7c6d5fd73dca8fdd3e0fe1f97c2093dd3c78372a7dd8c4c23ff58c66d7c",
+      "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010"
+    },
+    {
+      "command": "002",
+      "returncode": 0,
+      "stdout_sha256": "87b0ea8fe6ffe6afe954aa9ab82263fac0b2f6838447bee65623f707f65290db",
+      "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010"
+    },
+    {
+      "command": "003",
+      "returncode": 0,
+      "stdout_sha256": "f32c4c349a5da6bbfc1a1b813e3267e84e0e9e30f16ae8f234baedb982fc554b",
+      "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010"
+    },
+    {
+      "command": "004",
+      "returncode": 0,
+      "stdout_sha256": "fa51745f04f17fd0564d8cc6407c50b88602dfd86149f4ee13005c007679d1d5",
+      "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010"
+    },
+    {
+      "command": "005",
+      "returncode": 0,
+      "stdout_sha256": "978c1277e958fa1402dc488967ca5b560facab59c28f009d6f28f633336ba0b6",
+      "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010"
+    },
+    {
+      "command": "006",
+      "returncode": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "bb980b8a911929d692c9d8e1c2dcd5d74d1192f40c54767f6ab9382ec689eeba"
+    },
+    {
+      "command": "007",
+      "returncode": 1,
+      "stdout_sha256": "594ae2aa6efd90371b045d73fa7fee30baa9130fb0cc50e0bafd0ef281e5ed06",
+      "stderr_sha256": "0c3f6205e4b9be48dda0bf49667c9efcea536ac25a21da332626c674fdc4c228"
+    }
+  ],
+  "generation_checks": [
+    {
+      "plan": "jobs/066/commands/002/plan.json",
+      "started": true,
+      "plan_sha256": "8263a3891ce841168c17cedd3c4d44f6744d75dd988354e3347c5be5192e9a91",
+      "CP_file_transport": false,
+      "seed": 20261089
+    }
+  ],
+  "original_archive_checks": {
+    "3": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 605,
+        "manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d",
+        "post_archive_append": {
+          "relative": "events.jsonl",
+          "prefix_bytes": 10213,
+          "prefix_sha256": "199729585a3ed673f450e8ef3c0f80d7f13dc398e216c617a267e2468cc8f121",
+          "appended_bytes": 419,
+          "appended_sha256": "61974a7dfc65896b23ba786c136ce1ddac7b4c0494468c5a10c4b0799b1595c8",
+          "current_sha256": "9a9066e895152343c582946e6dae243220662de357f6b34a81c3c3db2345c9db",
+          "verified_terminal_event": {
+            "timestamp_utc": "2026-10-25T23:09:27.392717+00:00",
+            "kind": "JOB_TERMINAL",
+            "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/manytomanyannotationhandler.java",
+            "result_sha256": "b0eb2d05f91787a62e078e5edd2fc01ab306c3ed020c846afb96766f3793568c",
+            "artifact_manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d"
+          }
+        },
+        "file_census": "PASS"
+      },
+      "selected": {
+        "status": "PASS",
+        "files_verified": 696,
+        "manifest_sha256": "e4d8638c73bed3b0c40e636a663990ec800183fe72a94afe4b3e64d0b56f2455",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "6": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 508,
+        "manifest_sha256": "2f241f9bcc13d97358bd550d1164f8025ba6dec7dd9ece16f2f1ebf111dc8788",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "8": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 759,
+        "manifest_sha256": "9b0934bc923c7df8ab7996929e6019a676676c3514d87659389165bdf576a1e4",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "10": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "0319fd3b3da5867652e03199262027e9ff6d1b648887599bb6cc5b9029d6149a",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "12": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 5684,
+        "manifest_sha256": "b64c80050d4a67ff5f2004483dd423c8a976c2267548663f3305cfa152ea4723",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      },
+      "selected": {
+        "status": "PASS",
+        "files_verified": 5778,
+        "manifest_sha256": "5fbd4035d64aa509253ea2afc996b102f390e0bc7cba2b8cfe2ccbdba1e7301c",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "16": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 5684,
+        "manifest_sha256": "0abef0f5556b8debc0c13e4dda46724f311ac615c947ab30bd5b1f3d75471665",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      },
+      "selected": {
+        "status": "PASS",
+        "files_verified": 5687,
+        "manifest_sha256": "74a3e651229414d353eb1c345233eedddd8e4f249b58f5dbda69cae53375e658",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "17": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 660,
+        "manifest_sha256": "41871d70023d8f60337cb0cb51aa04402d886088dab242468bd8fdc81dabffea",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "18": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 661,
+        "manifest_sha256": "f15e586458a1063d14a8acdc10ddafe1b30f1324e57239636cd4db25a8ec10c3",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "19": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 404,
+        "manifest_sha256": "56a799d011ad4217e001d482205481bd04dfa1acf3121b1869913f371ba3c4cb",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "22": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "7105762c516073ad57d1df5fd111dbfa46156c940ac958531cb58dde9699b773",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "23": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 5684,
+        "manifest_sha256": "0d30e6dbff1c232c9b9c11ac63559e815e3c4b5985aa4d65bb6721539c081232",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      },
+      "selected": {
+        "status": "PASS",
+        "files_verified": 5778,
+        "manifest_sha256": "9c551690e84bf3e63f0e6e31d93067b846d4a3dd3d92bafd99138d6e0ac251c1",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "25": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 284,
+        "manifest_sha256": "42442ae3f2e18f195dae72b89eaaac06c79b86cc456d5f8c93e514d012a97138",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "27": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 253,
+        "manifest_sha256": "cc5b983ee18e46b61b27290c2cfd74c73baa532b0ccf065ed864265a94b047c6",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "28": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 1334,
+        "manifest_sha256": "5af5a7eec209cc60d45be14673958ca4d3a73367435cc68ebd52dd04e6d00a47",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "29": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 404,
+        "manifest_sha256": "2ce68c830e5499f4cfe1126cd0e54c0d2ec68035a71027997985f7781c88d1e6",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "30": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 1334,
+        "manifest_sha256": "5b69c404200c77a1863b8d464b143d936589737520eff38f08e7574e51b1f909",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "32": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 1334,
+        "manifest_sha256": "39bbab3023c927ae4a864b114d5a2abc285dd02d40607e4c45c7c8844767e1dd",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "33": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 404,
+        "manifest_sha256": "e5ecadf3757e2d00d204c5ffb5d7c7e94b845e8f5cf47fd97a707a0fb6cc9f67",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "34": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 665,
+        "manifest_sha256": "a4c779c49c06ef34d46bcd8455bc405dc86d52ecece2a61f98c62c5a3c2d14fc",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "36": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 434,
+        "manifest_sha256": "b6e12b32efc13096892475c142be1d532a3c4a2ec8c9dd2cc93172e0495bfd12",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "37": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 872,
+        "manifest_sha256": "51d9bfdc3199a24128df2f6472583b7db3a314df37415f0b47eab16a5b58887f",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "38": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 814,
+        "manifest_sha256": "02a3243815b9f4abadaa9e44b2106b9ce0f8007155e0a655978557d940a9cd18",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "39": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "7f748a301e262c7ba6decea3dd313a246c32f8f2274d7ba333771fd6dfd1b0c2",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "41": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 759,
+        "manifest_sha256": "60e9e1adaafe1c212c61248f6e12fd91ac4612b2fe59ffc4de7789be4c1c739e",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "42": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 905,
+        "manifest_sha256": "33fd964ae45cee8dbd15d34236cb16a0530b2054a5dd09bcc685739ec46656f8",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "44": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 11514,
+        "manifest_sha256": "9a8cac7786864809e47f114064496c250c9cd79f79366d9a867958b4b7bb250b",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "47": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "15903df0247258c1bc79faa0997bbc038c81df2c5afc4506cfeba469f00d2c12",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "50": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "a3fa79389010e1f83d0505058b1334f06aff062c40dc2187abf68891e41f3679",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "51": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 1349,
+        "manifest_sha256": "8dbbc6584aff59b1da96cc66463ab1a4fcbb240ca95ce26a843adc4ff8ddac7a",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "52": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 660,
+        "manifest_sha256": "68eae2ce0630e650d4c08e0e636188555e45a7304fa42f4f4db2d84411b98d8e",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "53": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 415,
+        "manifest_sha256": "1fe2c8b0ed4d07fcd6784ced4d26d4655a90f99f5a2eacd71e7f130d7ad99a5d",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "54": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 759,
+        "manifest_sha256": "9383b170d803dbce9083e4d41ab47e89165e03ba7b8425e0680736cb7cd8eea0",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "55": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 759,
+        "manifest_sha256": "797317ba8d45f2edd0aa0b7c8a41e26fb9624abb730d984adb24307d3feba968",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "56": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 759,
+        "manifest_sha256": "d815160a31e063fa68f96551891c29a318650bf4e53c7b80caefb5b6180be671",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "57": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 534,
+        "manifest_sha256": "6bb18a8c39fa10084863587329ab8f5be8e242f84ba4f44511e80398614ec361",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "58": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "e67d56f6bdd8bb6da227200987be6bf86e8b98f880ba2e07f345d17dd7f1e07c",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "60": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 660,
+        "manifest_sha256": "24f7b2f693ba78a1a6443ce6ee726e3e3803cb8664cb92377940aec2642fcbe6",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "61": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 254,
+        "manifest_sha256": "c5b56fb66e216e01da0b65f93af6161d1caa4d131381a14cfda312b7f17ab5f5",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "63": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 761,
+        "manifest_sha256": "e0a63c0bbcb0b4cba4e635fa8ca4cfe91d9332c20b40af065310888e7123e329",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "64": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 11514,
+        "manifest_sha256": "5f9aeb4a0c160c187197e2393f6bb8e69654eed9763c8e0a44aea3725c9e8074",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    },
+    "65": {
+      "base": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "24261f0baf4f1e3b2204b205d9c32012ec2cef9c0b5d5ee66dc85a732fe366f5",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      }
+    }
+  },
+  "deferral_checks": {
+    "48": {
+      "sample_index_1based": 48,
+      "class_key": "44308560:src/robotframeworkcore/org.robotframework.ide.core-functions/src/main/java/org/rf/ide/core/execution/server/response/terminateexecution.java",
+      "seed": 20261071,
+      "reason": "Existing non-JUnit4 requires separate review",
+      "JUnit3_on_production_compile_classpath": true,
+      "archive_sha256": "cc02ea5fb529aeebc80b28b4463c0050edfc799b506cc8de8e58c732749d1da5",
+      "interruption_sha256": "3bee9f03bcd49a8edba8eafcaa3d50bb44a9ff4366b448da5e9354c85af42b47",
+      "dependency_evidence_sha256": "1d99336a47781c63ba8cfae4adb54228a34c8dcbd5cea064cb76fdc288a6e69a",
+      "native_suite": [
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\048\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\TerminateExecution_ESTest.java",
+          "sha256": "816b30b5397e5bef6b1c70a1f7ef9752e5baa1b77ccf6ef69f10d91acb7d8762"
+        },
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\048\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\TerminateExecution_ESTest_scaffolding.java",
+          "sha256": "a06d2fe3ffa18a0e8da438180193bb608b2235e9936d4aaae061573f8ccf9f33"
+        }
+      ],
+      "actual_generation_starts": 1,
+      "score": null,
+      "scored_terminal": false,
+      "measurement_attempted": false,
+      "rerun_generation_allowed": false,
+      "automatic_resume": false,
+      "retained_in_fixed300_manifest": true,
+      "denominator_may_be_reduced": false,
+      "full300_claim_allowed": false,
+      "status": "DEFERRED_UNSCORED_COMPATIBILITY_REVIEW"
+    },
+    "49": {
+      "sample_index_1based": 49,
+      "class_key": "44308560:src/robotframeworkcore/org.robotframework.ide.core-functions/src/main/java/org/rf/ide/core/execution/server/response/evaluatecondition.java",
+      "seed": 20261072,
+      "reason": "Existing non-JUnit4 requires separate review",
+      "JUnit3_on_production_compile_classpath": true,
+      "archive_sha256": "74b7f31536cb2826e5e67a837df9f4b33e577f44292b9896703655664ff43362",
+      "interruption_sha256": "f08870f7270a7defec08f136d8cec49c0b7bc78242787010042100315ae8aa99",
+      "dependency_evidence_sha256": "1d99336a47781c63ba8cfae4adb54228a34c8dcbd5cea064cb76fdc288a6e69a",
+      "native_suite": [
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\049\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\EvaluateCondition_ESTest.java",
+          "sha256": "678ee8ea696ac96f39fd392fde62aeb5e1f83255fa9eae0d2ab5e36c9b232ae3"
+        },
+        {
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\049\\repo\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\src\\test\\java\\org\\rf\\ide\\core\\execution\\server\\response\\EvaluateCondition_ESTest_scaffolding.java",
+          "sha256": "67ff3dad104f0d4df518298c94f6839c6693edd9e41085855a0284ca31c462b9"
+        }
+      ],
+      "actual_generation_starts": 1,
+      "score": null,
+      "scored_terminal": false,
+      "measurement_attempted": false,
+      "rerun_generation_allowed": false,
+      "automatic_resume": false,
+      "retained_in_fixed300_manifest": true,
+      "denominator_may_be_reduced": false,
+      "full300_claim_allowed": false,
+      "status": "DEFERRED_UNSCORED_COMPATIBILITY_REVIEW"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "old_source_sha256": "b51d192589765d5f1d4ae6ec584c58e7d981cee2807fa62c67bce2ec3d2923a8",
+  "new_source_sha256": "47e11884c39eb08ccd5e863f55aa2d42c104b97642dd912e05833b5c6a6b32ad",
+  "changes": [
+    "bind source/evidence to owned sandbox; reject reparse",
+    "idempotent configuration-only receipt; never task-execution evidence",
+    "preserve native classpath order"
+  ],
+  "runtime_qualified": false,
+  "new_processes": 0
+}

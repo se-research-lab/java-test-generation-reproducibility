@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-26T21:05:26.933816+00:00",
+  "scope": "display only; no experimental configuration or data edits",
+  "target": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\monitor\\dist_v2\\index.html",
+  "before_sha256": "9f02ccc9669aafc4b4ac2eb1fec3ad767a3151258bd9bee1ebf5bfdeb0de6f06",
+  "after_sha256": "21e321cea0a512a3173b6adfa4d019d8882ed61af9750fe8b2d514a96cd8c6ba",
+  "diff_sha256": "6450d013a0fc8b9ba229334ba7e3013b10028f3e575371ba49c15575bb636ed8",
+  "http_exact_bytes_verified": true,
+  "browser_render_checked": false,
+  "experiment_calls": 0,
+  "admission_sha256": "aaa51113304a9dd027671a8650eae2fa555ff860685d0ae895a630d308a7354a"
+}

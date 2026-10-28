@@ -1,0 +1,30 @@
+{
+  "scope": "synthetic integration only; 0 study classes, 0 API calls",
+  "source_copies": [
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\src\\fixture\\BranchFixture.java",
+      "copy": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\maven_runtime_09\\src\\main\\java\\fixture\\BranchFixture.java",
+      "sha256": "7fda35f3663da3174b8ace865657e3395445a98b98e3126b0090765082a6314c"
+    },
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\generated\\fixture\\BranchFixture_ESTest.java",
+      "copy": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\maven_runtime_09\\src\\test\\java\\fixture\\BranchFixture_ESTest.java",
+      "sha256": "fe1f75b9ff8731c67bce19d9b2f3cb8044d9e072021054295bf11f406f1d5be3"
+    },
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\generated\\fixture\\BranchFixture_ESTest_scaffolding.java",
+      "copy": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\maven_runtime_09\\src\\test\\java\\fixture\\BranchFixture_ESTest_scaffolding.java",
+      "sha256": "95f0f0aaa95b92e08671bc651c99493b7b9c5f9cc0e4f5de1178a3b407eae524"
+    }
+  ],
+  "pom_sha256": "675a821b30aed93c16e9945f79354fa203826115d0db2bd4bbe191c09c566443",
+  "configuration": "mirrors E-specific Surefire2.17, JaCoCo0.8.7, PIT1.16.0; compiler3.1 fixture only",
+  "legacy_gate_preserved_in_fixture": true,
+  "validation": "additionally inspect raw Surefire/PIT/JaCoCo; does not change primary scoring",
+  "env_delta": {
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_172",
+    "JAVA_TOOL_OPTIONS": "-Xbootclasspath/a:\"C:\\Program Files\\Java\\jdk1.8.0_172\\lib\\tools.jar\""
+  },
+  "network": "Maven offline; existing dependency cache only",
+  "original_POM_edits": 0
+}

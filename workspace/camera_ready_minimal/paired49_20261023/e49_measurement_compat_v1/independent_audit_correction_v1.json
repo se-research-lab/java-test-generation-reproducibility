@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-23T17:59:10.829Z",
+  "changes": "audit_metadata_only",
+  "score_gate_config_unchanged": true,
+  "same_readiness_lock_sha256": "6fa1b9422317fd9d599182d89a7b13359d67da5a33e3ae0490698a624cafad2e",
+  "same_inspection_amendment_sha256": "47d1a6ab4b211ea14c19e82ae798e666055fd043e3497a872395a6840923ddf2",
+  "reason": "Recognize exact java -version metadata cwd at new job root; all Maven goals still require module cwd. No measurement, result, source or manifest modified.",
+  "code_input_hashes": {
+    "src/independent_measurement49_raw_audit_v3.py": "38ab0d3c34b7be5a0247c7b405aaa92792a39665e18ca68ad732f6f3973d0c19"
+  }
+}

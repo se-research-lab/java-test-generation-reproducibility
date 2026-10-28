@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-23T16:19:08.664655+00:00",
+  "controller_sha256": "ab8a4320ab1a00b04e6436b13cf4834b63c689bf79450c320d66cb661f8f52ae",
+  "auditor_sha256": "74f02c729f3d72d9a43c150366e5254f368ffc0eb42eab2f1182351f82545b28",
+  "scope": "raw audit after COMPLETE49+official output, no experiment/API",
+  "partial_results_refused": true
+}

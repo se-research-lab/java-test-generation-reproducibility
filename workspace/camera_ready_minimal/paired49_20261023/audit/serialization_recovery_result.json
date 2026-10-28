@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "old_ledger_sha256": "6f5b2eec9a8f21f981833e4f4b609c84f20d645ca464f82b2bd6fb991d5b00fe",
+  "physical_records_preserved": 730,
+  "first_divergence": 722,
+  "new_chain_verified": true,
+  "original_experiment_edits": 0,
+  "new_log_lock": true
+}

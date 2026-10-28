@@ -1,0 +1,7 @@
+{
+  "status": "PASS_EXPLICIT_INDEX_MAPPING_NO_SCORE_READ",
+  "source_path": "camera_ready_minimal/b1_full300_20261026/src/run_maven_b1_v3.py",
+  "source_sha256": "b54e42c3febd781d0263d1a494cc4fb92a7645885c264af12aa784c01f112ffb",
+  "function_source": "def selected_result(index):\n    if index == 3:\n        return R / 'jobs/003_native_junit_diagnostic_v3/diagnostic_result.json'\n    if index in RECOVER and (R / RECOVER[index] / 'result.json').exists():\n        return R / RECOVER[index] / 'result.json'\n    return R / 'jobs' / f'{index:03d}' / 'result.json'",
+  "limit": "Current selector is not a best-score algorithm; historical map adoption can still be post-outcome and is disclosed separately"
+}

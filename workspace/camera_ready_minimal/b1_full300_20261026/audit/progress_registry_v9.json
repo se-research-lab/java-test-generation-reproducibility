@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "admission_maven_v4.json",
+      "sha256": "a97211b3b3f2a3e98177c5018514a9cf218b650920ae4f17e196fca032a235bb",
+      "bytes": 31194
+    },
+    {
+      "path": "audit/progress_registry_v8.json",
+      "sha256": "d5b177daf8b71d675539e449a3a44a6b67919285f049473b022f6e43b0a55a66",
+      "bytes": 20837
+    },
+    {
+      "path": "audit/progress_v9.json",
+      "sha256": "dc1c6ed63845ef25c0f17e4f46a137711877147a2aaf8307d2dd72d2843ebac1",
+      "bytes": 11182
+    },
+    {
+      "path": "jobs/050/artifact_manifest.json",
+      "sha256": "a3fa79389010e1f83d0505058b1334f06aff062c40dc2187abf68891e41f3679",
+      "bytes": 154980
+    },
+    {
+      "path": "jobs/050/result.json",
+      "sha256": "133fdd97d4055454c04d738b5aefdcc95c6a528777830504ffb05c3d3f38e007",
+      "bytes": 2744
+    },
+    {
+      "path": "launch_remaining_maven183_v4.json",
+      "sha256": "8583f15fdce12ffe06e93f30f91b8005c7d6a7f9bfdd68e1890d867b9f48392a",
+      "bytes": 2447
+    },
+    {
+      "path": "NON_JUNIT4_DEFERRAL_V1.md",
+      "sha256": "8ef4969ae0fe2b3d76b3701017c61afbaa90117dc0d5180092a7d4a33477c56a",
+      "bytes": 3081
+    },
+    {
+      "path": "PROGRESS_B1_V9.md",
+      "sha256": "931a64d5c910b95d02656d8073718bc700092f09ca22a3420c38c2991a773b99",
+      "bytes": 4772
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/048.json",
+      "sha256": "e40ec08a0ecfa86f8aa7b91ccea8930935d86bfe6a5811a5060cfd5cd0feda29",
+      "bytes": 1725
+    },
+    {
+      "path": "runtime/non_junit4_deferrals_v1/049.json",
+      "sha256": "491cbb34baf2d2eaa64f879f46bcf348a4278d5ef54fab62e32f558d40b26f1a",
+      "bytes": 1722
+    },
+    {
+      "path": "src/record_v4_first_terminal_v1.py",
+      "sha256": "373aafc1609a4a390f2db04b2e01e6a70c453b286c85e1e9c3bd0a18768c0b7f",
+      "bytes": 8225
+    },
+    {
+      "path": "validation/maven_dispatch_v4/result.json",
+      "sha256": "012edb08d76bf551a653b5edabeba5766ccb3aa1fad142c27479248a9469859e",
+      "bytes": 13160
+    }
+  ]
+}

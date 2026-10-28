@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "n": 49,
+  "results49_sha256": "6cad4892a531d54dccd90cbfa04ebb269be1449e1670d7c32d7937ca1f6b45d6",
+  "GPT_API_calls": 0,
+  "generation_calls": 0,
+  "inspection_amendment_sha256": "47d1a6ab4b211ea14c19e82ae798e666055fd043e3497a872395a6840923ddf2",
+  "technical_recovery_without_remeasurement": true
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "new synthetic runtime qualification, before any Gradle40 experiment",
+  "changes": [
+    {
+      "old": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_native_recipe_v6.py",
+      "old_sha256": "21a9106fc390e2f27ea3f71ad9f7a039b185927aa86f5aa77ec62ba4dc0d39e5",
+      "new": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_native_recipe_v7.py",
+      "new_sha256": "bb37a66399b0fae1cbf6a51991d057c297d7e2ed0ba3ab26d1da864a2b312e96",
+      "diff": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\gradle_native_runtime_v6\\gradle_native_recipe_v7.diff",
+      "diff_sha256": "90baea6c6efb8416f914e59e501d679e1501568714475c7df04e3285ffa6bbd1"
+    },
+    {
+      "old": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v2.py",
+      "old_sha256": "de2b5d8b94d21224793beaab1b396014a3895511f6d9f5d4598370c52ce1808a",
+      "new": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v3.py",
+      "new_sha256": "3969172c9db2fc2e982f12f64914a725d4bd0dc4a221fbde70b98ed288d90dd7",
+      "diff": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\gradle_native_runtime_v6\\gradle_process_supervisor_v3.diff",
+      "diff_sha256": "f2df06c9b993b54955f701324f8b63d77becfbf23a72c731053e840a28d8d4de"
+    },
+    {
+      "old": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_gradle_native_fixture_v5.py",
+      "old_sha256": "c6eca52733826339f2d4d54be5c64c8f7c1bcea783abcc03d06668154903581f",
+      "new": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_gradle_native_fixture_v6.py",
+      "new_sha256": "68216a58989fd641eae0bc044a7473344b470f4bed961fa5a990e7d6e05633f5",
+      "diff": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\gradle_native_runtime_v6\\run_gradle_native_fixture_v6.diff",
+      "diff_sha256": "0d118157d4d9affa50a683643e8c974bef63b48501d737272ad2f276b1ffe146"
+    }
+  ],
+  "new_rules": [
+    "Native Test runtime classpath lazily excludes only nonexistent entries; existing dependency files and their order retained",
+    "Exact E49/Maven JAVA_TOOL_OPTIONS bootstrap of pinned JDK8 tools.jar, inherited by child JVMs"
+  ],
+  "reasons": [
+    "2.13 synthetic initializationError: AgentLoader rejected nonexistent build/resources/test",
+    "8.14.4 synthetic initializationError: WindowsAttachProvider unavailable without tools bootstrap"
+  ],
+  "native_Java_edits": 0,
+  "generation_flags_changes": 0,
+  "dependency_versions_changes": 0,
+  "budget_seed_mutator_changes": 0,
+  "benchmark_admitted": false,
+  "GPT_API_calls": 0,
+  "all_previous_failed_fixtures_preserved": true
+}

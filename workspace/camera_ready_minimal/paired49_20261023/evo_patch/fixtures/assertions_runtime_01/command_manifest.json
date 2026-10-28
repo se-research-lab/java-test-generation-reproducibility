@@ -1,0 +1,108 @@
+[
+  {
+    "name": "java_version",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+      "-version"
+    ],
+    "returncode": 0,
+    "expected_returncode": 0,
+    "duration_seconds": 0.2970000000022992,
+    "stdout": "evo_patch\\fixtures\\assertions_runtime_01\\java_version.stdout.txt",
+    "stderr": "evo_patch\\fixtures\\assertions_runtime_01\\java_version.stderr.txt",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "f5f0f90bd745ba0060da56d2b058d27bffedee3657770a4fd24088d0843e676e"
+  },
+  {
+    "name": "compile_cut",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\javac.exe",
+      "-source",
+      "8",
+      "-target",
+      "8",
+      "-d",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\classes",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\src\\fixture\\BranchFixture.java"
+    ],
+    "returncode": 0,
+    "expected_returncode": 0,
+    "duration_seconds": 0.6869999999980791,
+    "stdout": "evo_patch\\fixtures\\assertions_runtime_01\\compile_cut.stdout.txt",
+    "stderr": "evo_patch\\fixtures\\assertions_runtime_01\\compile_cut.stderr.txt",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "generate",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+      "-jar",
+      "D:\\A_ThucNghiem\\scripts_v2\\evosuite-1.2.0.jar",
+      "-class",
+      "fixture.BranchFixture",
+      "-projectCP",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\classes",
+      "-Dtest_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\generated",
+      "-Dreport_dir=D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\reports",
+      "-Duse_separate_classloader=false",
+      "-Dtest_archive=false",
+      "-Dcriterion=BRANCH",
+      "-Dassertions=true",
+      "-Dno_runtime_dependency=false",
+      "-Dtest_scaffolding=true",
+      "-Dsearch_budget=60",
+      "-Dassertion_strategy=MUTATION",
+      "-seed",
+      "20261023"
+    ],
+    "returncode": 0,
+    "expected_returncode": 0,
+    "duration_seconds": 43.40699999999924,
+    "stdout": "evo_patch\\fixtures\\assertions_runtime_01\\generate.stdout.txt",
+    "stderr": "evo_patch\\fixtures\\assertions_runtime_01\\generate.stderr.txt",
+    "stdout_sha256": "0600b4fdf674972348ff18ed71075540908c881991bdd42f1a6db6295f36a8f2",
+    "stderr_sha256": "9173319fbebd5857c9e3a4242b87bcd5fd8bb9b93405e9a7c65dd804ce859021"
+  },
+  {
+    "name": "compile_tests",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\javac.exe",
+      "-source",
+      "8",
+      "-target",
+      "8",
+      "-cp",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\classes;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar;C:\\Users\\admin\\.m2\\repository\\junit\\junit\\4.13.2\\junit-4.13.2.jar;C:\\Users\\admin\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar",
+      "-d",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\testclasses",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\generated\\fixture\\BranchFixture_ESTest.java",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\generated\\fixture\\BranchFixture_ESTest_scaffolding.java"
+    ],
+    "returncode": 0,
+    "expected_returncode": 0,
+    "duration_seconds": 0.5929999999971187,
+    "stdout": "evo_patch\\fixtures\\assertions_runtime_01\\compile_tests.stdout.txt",
+    "stderr": "evo_patch\\fixtures\\assertions_runtime_01\\compile_tests.stderr.txt",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "junit_generated",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+      "-javaagent:D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar",
+      "-cp",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\testclasses;D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\classes;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar;C:\\Users\\admin\\.m2\\repository\\junit\\junit\\4.13.2\\junit-4.13.2.jar;C:\\Users\\admin\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar",
+      "org.junit.runner.JUnitCore",
+      "fixture.BranchFixture_ESTest"
+    ],
+    "returncode": 1,
+    "expected_returncode": 0,
+    "duration_seconds": 5.34400000000096,
+    "stdout": "evo_patch\\fixtures\\assertions_runtime_01\\junit_generated.stdout.txt",
+    "stderr": "evo_patch\\fixtures\\assertions_runtime_01\\junit_generated.stderr.txt",
+    "stdout_sha256": "d7a86dc6a1fa5e7a9d0996d8a8c5932c2236a811131fe476769afa659e1a96d5",
+    "stderr_sha256": "2ea91c717dc052a67ca34e5d8d186f3d107e2d7728f5b73d9123ad8b2dee0e04"
+  }
+]

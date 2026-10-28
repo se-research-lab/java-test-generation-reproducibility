@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "C:/Program Files/Apache/maven/bin/mvn.cmd",
+    "-o",
+    "-B",
+    "clean",
+    "verify",
+    "jacoco:prepare-agent",
+    "jacoco:report",
+    "org.pitest:pitest-maven:1.16.0:mutationCoverage"
+  ],
+  "returncode": 0,
+  "seconds": 14.046999999998661,
+  "stdout_sha256": "fc6e0406638485b3489b2e5ded788e6078ba2a3c37bc228f93b3fd7183e041e4",
+  "stderr_sha256": "342103021c258ba672bc91d996bddbd5c1678e730df78d9211b3a0cd471ee35a"
+}

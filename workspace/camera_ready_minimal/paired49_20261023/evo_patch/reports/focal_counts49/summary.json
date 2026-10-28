@@ -1,0 +1,15 @@
+{
+  "n": 49,
+  "focal_groups_nonempty": 49,
+  "min": 1,
+  "median": 17,
+  "max": 47,
+  "mean": 20.20408163265306,
+  "matches_G0_rounded_scores": 49,
+  "matches_E0_rounded_scores": 6,
+  "module_counts_are_not_focal_counts": true,
+  "raw_arm_provenance_certified": false,
+  "mutant_identity_pairing_certified": false,
+  "original_metrics_changed": false,
+  "use": "internal audit of remaining reports only; not a certified two-arm distribution for the manuscript"
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "synthetic fixture guard qualification only; no corpus admission",
+  "old_runner_sha256": "1d7bbff5fc7779bb06553212d4f68b2a69419f4d1e434dd0d908cafd8f19b108",
+  "new_runner_sha256": "c6eca52733826339f2d4d54be5c64c8f7c1bcea783abcc03d06668154903581f",
+  "unchanged_recipe_sha256": "21a9106fc390e2f27ea3f71ad9f7a039b185927aa86f5aa77ec62ba4dc0d39e5",
+  "diff_sha256": "f0924393a278b5ead1b203f732ca1e542117824b4d70ceea9e424f63d1dab328",
+  "exact_legacy_primary_source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\cache_preparation_gradle_v1\\gradle_user_home\\wrapper\\dists\\gradle-2.13-all\\1b9wlm73elu4cqnbc0rk7r7qn\\gradle-2.13\\src\\dependency-management\\org\\gradle\\internal\\resource\\cached\\ivy\\ArtifactAtRepositoryCachedArtifactIndex.java",
+  "primary_source_sha256": "11bbf5b49c55d21e32209d54b6ef4ad7fb37590b87d789a151084c2344375f8a",
+  "reason": "Private metadata copied from old Gradle retains absolute source artifact paths. Accept only pre-hashed files-2.1 artifacts with byte-identical verified private copies; pin both before every command.",
+  "mutable_cache_home": "private -g / GRADLE_USER_HOME only",
+  "source_cache_verification": "all original copied source cache files verified before and after each fixture",
+  "changes_to_dependency_versions_selectors_test_sources_generation_flags": 0,
+  "no_read_of_credentials_or_user_configuration": true,
+  "benchmark_admitted": false,
+  "new_EvoSuite_calls": 0,
+  "GPT_API_calls": 0
+}

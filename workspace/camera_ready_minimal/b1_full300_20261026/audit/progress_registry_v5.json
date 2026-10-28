@@ -1,0 +1,124 @@
+{
+  "files": [
+    {
+      "path": "admission_maven_v2.json",
+      "sha256": "9fb91632fe782c3d6a72f2cdd69ac85c54858f47924b91d102427a24b73c4c25",
+      "bytes": 11659
+    },
+    {
+      "path": "audit/gradle40_independent_review_v1.md",
+      "sha256": "aac3bdfc1ae68144477811572acd8e7cfced40f134e2c24b5c648d7c45ad51f0",
+      "bytes": 11452
+    },
+    {
+      "path": "audit/maven_amendment_v2_independent_review.md",
+      "sha256": "29c84ba21844b74e94fb55cb2c1c959ba089f84aa9d98f6322909f4606c33858",
+      "bytes": 3374
+    },
+    {
+      "path": "audit/progress_v5.json",
+      "sha256": "7884771ab569b8c51add138c7a0d9c06ed8b5e96146bfcb109576c6cf2f0fd96",
+      "bytes": 4783
+    },
+    {
+      "path": "inputs/gradle40_context_v2/manifest.json",
+      "sha256": "03da159bc259885fd2c970873aeea940c68193b3d01b56ce85e7fdff7f716199",
+      "bytes": 176818
+    },
+    {
+      "path": "inputs/gradle40_context_v2/summary.json",
+      "sha256": "8c5da6b6660bd4829a5d49c2f02f4333cdc6198bdbecf1499d51569abb81cbea",
+      "bytes": 12521
+    },
+    {
+      "path": "MAVEN_NATIVE_JUNIT_AMENDMENT_V2.md",
+      "sha256": "37857c1955edbe183a78936f67abd9820d3b6ba749805808f7a8a383b80b77f9",
+      "bytes": 3993
+    },
+    {
+      "path": "measurement_result_map_v2.json",
+      "sha256": "cd63c772c7a9da9aaa861154b23d6addd4c81db12b41b7840e9cfbd77af204bf",
+      "bytes": 1232
+    },
+    {
+      "path": "PROGRESS_B1_V5.md",
+      "sha256": "79926fef4b28189269a9135ee4d9614d77b1e30849505a4b90f58b2f35b02c8c",
+      "bytes": 3692
+    },
+    {
+      "path": "src/admit_maven_b1_v2.py",
+      "sha256": "99229e7776d62fdce1a526f8548f3410e566252c48a49a143d4855f21b903ff1",
+      "bytes": 4435
+    },
+    {
+      "path": "src/audit_native_junit_scope_v1.py",
+      "sha256": "be895c494afd6ceb2c809068c251717a42495a989af12e16afa477b746e7fde8",
+      "bytes": 3142
+    },
+    {
+      "path": "src/checkpoint_archive_guard_v1.py",
+      "sha256": "d916c90a645e88a78d5311e4e7eea809f6320b1311616430b6078f3ea5e2152d",
+      "bytes": 1604
+    },
+    {
+      "path": "src/checkpoint_archive_guard_v2.py",
+      "sha256": "977e0a6613c19c7d22828f7a4d37a5365b9486fb6870013b9226fe7986239b80",
+      "bytes": 680
+    },
+    {
+      "path": "src/diagnose_native_junit_003_v1.py",
+      "sha256": "d51a9769b4c29242822f28c68cf563ad7707b9da1701838f3f2bc589be22b1bd",
+      "bytes": 5606
+    },
+    {
+      "path": "src/diagnose_native_junit_003_v2.py",
+      "sha256": "58cfbead91a6a6fc44aad9bfdabb69d78f8be2ed74b77c9ab69e0e51e5dff667",
+      "bytes": 5745
+    },
+    {
+      "path": "src/diagnose_native_junit_003_v3.py",
+      "sha256": "cbc5c6028a4d7eacfefff1ba364c362866cf028e01a59be7acf08a3e046efb40",
+      "bytes": 5871
+    },
+    {
+      "path": "src/maven_controller_v2.py",
+      "sha256": "4624ac3be9f2bb8c2d0ec9b2bed4bcbe22d180cc3bd566cffc051524bf0e5c6b",
+      "bytes": 9034
+    },
+    {
+      "path": "src/native_junit_policy_candidate_v1.py",
+      "sha256": "6e92879282f5a7b3ebb86e11c57a3e4ba738302224474b6a0cea14b20ad8227a",
+      "bytes": 2952
+    },
+    {
+      "path": "src/prepare_gradle_metadata_v2.py",
+      "sha256": "4f410c5ce3265ffbc76548b795c113a55285d0c6072d38cbaead2f22d40b6d5e",
+      "bytes": 11839
+    },
+    {
+      "path": "src/prepare_native_junit_diagnostic_v2.py",
+      "sha256": "71a9f00375ad28a03f839c1a1d69770ebc46958101c2f2016c6bec53ba256cc9",
+      "bytes": 2263
+    },
+    {
+      "path": "src/prepare_native_junit_diagnostic_v3.py",
+      "sha256": "2bad4ffe381722595610fc37994faf445752d638e46c16790db2528738301c19",
+      "bytes": 1476
+    },
+    {
+      "path": "src/record_progress_v5.py",
+      "sha256": "b56d3d61a67da4cf9a3ff510484aa040d6a9a5d7d599fd9dec208693675f9a03",
+      "bytes": 8374
+    },
+    {
+      "path": "src/run_maven_b1_v2.py",
+      "sha256": "37cb1e7c1c3c686e49bb693d7a63abcf314a9d821b561185fe58046dc8bc597e",
+      "bytes": 6749
+    },
+    {
+      "path": "src/validate_native_junit_candidate_v1.py",
+      "sha256": "9bee07e53dac0771234ec4bf3e232cc1b91c3b86c98f3dce4598c4635d7aad3c",
+      "bytes": 2137
+    }
+  ]
+}

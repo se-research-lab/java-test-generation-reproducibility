@@ -1,0 +1,28 @@
+{
+  "scope": "pure preparation, no admission",
+  "changes": [
+    {
+      "old_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_command_policy_v2.py",
+      "old_sha256": "1d1fd240b4beaa16ff24888bdb4e2f80be18d3da89b70c8a06c28b4a7ef0f375",
+      "new_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_command_policy_v3.py",
+      "new_sha256": "111006edb362beb5d527f2f234586a383bcb1f2e894170b7d0fabe241cd6599d",
+      "diff_sha256": "7bd457e4b168cc8c2e35bf2c28d33e1db6d5ebb3c0135cd6071bcaa94647549b"
+    },
+    {
+      "old_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v3.py",
+      "old_sha256": "3969172c9db2fc2e982f12f64914a725d4bd0dc4a221fbde70b98ed288d90dd7",
+      "new_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v4.py",
+      "new_sha256": "f97536fd44bbd890d7e772c17584dcf3efebe3f7a86b27070faee1dbc5d81773",
+      "diff_sha256": "2186f3ce1e17200fc62d6864d206685ce33f957f6f1d11a86e193f3bf406ea5c"
+    }
+  ],
+  "generation_guard_sha256": "9ab314e8795ee3bb73f008e4701fa4789dc057883a108ef8522e3338492c311b",
+  "profile_guard_sha256": "afc09e67e12cba78080fd11eacd81f2793e194dde771cf96bebc7632b89f8425",
+  "existing_Gradle_task_validation_unchanged": true,
+  "new_Java_stage": "exact declared240s command; pinned ordered CP; E49 profile+seed; max2 same-seed technical sanitizer attempts; CP-file inverse proof",
+  "no_test_source_repair": true,
+  "no_score_retry": true,
+  "benchmark_admitted": false,
+  "new_EvoSuite_calls": 0,
+  "GPT_API_calls": 0
+}

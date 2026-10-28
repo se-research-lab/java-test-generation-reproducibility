@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "snapshots": 251,
+  "source_files": 517483,
+  "logical_source_bytes": 8230643238,
+  "unique_blobs": 52323,
+  "unique_bytes_including_settings": 876207591,
+  "store_bytes": 916279296,
+  "store_sha256": "8356341728b2a41ad83dc182bf04dd294c90580ad21299c303b6db8fdeb1a33c",
+  "index_sha256": "7e6c92596a88bcd91534a51168bc8fdf91196207a84d110b70d83f61d800a91f",
+  "protocol_sha256": "ad9de7fbb903be7a621c1dfb0aa774f97a25ce370a777b9c31badffb92306408",
+  "every_blob_rehashed": true,
+  "GPT_guard": "PASS",
+  "new_experiment_calls": 0,
+  "benchmark_admitted": false
+}

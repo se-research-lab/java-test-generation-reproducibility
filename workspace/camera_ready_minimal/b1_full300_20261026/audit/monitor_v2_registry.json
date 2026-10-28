@@ -1,0 +1,10 @@
+{
+  "prior_server_sha256": "148303fa7be3826d984177fe2c9c9832c2ef2066d7d692cf4f77bee519722445",
+  "prior_html_sha256": "efcbea3b1780524d58efc65473ccd0d800411f56feea741228811e619fdac7b7",
+  "new_server_sha256": "0a703c0a34ea3194abf8b68544ec7bf0157634719d1e5cc71daa3cea79bc3442",
+  "new_html_sha256": "de2a0bc33bccdc53b82d905bd38d9878acf45d0cb020434a7d2a94f528b09a6b",
+  "port": 8766,
+  "routes_unchanged": true,
+  "public_manifest_fields_unchanged": true,
+  "new_job_control_routes": false
+}

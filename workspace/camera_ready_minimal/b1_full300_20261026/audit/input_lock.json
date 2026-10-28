@@ -1,0 +1,57 @@
+[
+  {
+    "path": "D:\\A_ThucNghiem\\scripts_v2\\data_new\\class_sampling_manifest_final_seed42.csv",
+    "sha256": "904a53dc6ed7741c91765cd2ca3d38929a10f8b34d10d6019b8175b5f514af3b",
+    "bytes": 175928
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\metrics_wide.csv",
+    "sha256": "92ba89c3000be4b28ffc361ea19630764582d262c1e8817477dc54ac0fd4e724",
+    "bytes": 129613
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\metrics_long.csv",
+    "sha256": "dd09724477bbe43dfef6e5f7d5248fa236c9973d7260fe2fe72d4393d64ea53d",
+    "bytes": 755535
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\full300_merged_20260724_paper\\generated_tests_manifest.csv",
+    "sha256": "aa74c0bebe303d721ec0a649083c6328309373ec17976bd5d4687c55066ccf10",
+    "bytes": 406347
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\input_manifest49.json",
+    "sha256": "701c11517df070f687b019e3baa138bcdb94830553f0ea94cadf52f441dec6d5",
+    "bytes": 7171931
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_driver\\protocol49.json",
+    "sha256": "09616a9b5e988441655870fc04877e050f8ed11af5878da6e4d678cd803abe79",
+    "bytes": 2474
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\e49_measurement_compat_v1\\protocol.json",
+    "sha256": "6bc155652470ef74c0b173149041090b183eb84a8e665cbd223a459eed5d0f13",
+    "bytes": 3806
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\repeated_subset_v1\\STOP_DO_NOT_RESUME.json",
+    "sha256": "0ca8cc7e0df5faa1de68259ddff16becdb29beb4db9d35b22a6716a2de43bbdc",
+    "bytes": 826
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\final_handoff_20261025_private\\RELEASE_MANIFEST.json",
+    "sha256": "e3da94709b98212675a197aead2a451657e2e11d1c6becf459d798690328595c",
+    "bytes": 1604
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\review_reports\\minimal_camera_ready_20261023\\guard_rq123_frozen.py",
+    "sha256": "45851bb1201a626ac0c10fc58be88282daa5868e34583cfc8c1f54fcc4353530",
+    "bytes": 6276
+  },
+  {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\src\\prepare_b1_full300_plan_v1.py",
+    "sha256": "f3cef3888949da4ee27ee1790f89c07e98cca377044597a29cdc46b547963749",
+    "bytes": 9749
+  }
+]

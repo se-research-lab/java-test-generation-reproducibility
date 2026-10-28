@@ -1,0 +1,301 @@
+{
+  "status": "READ_ONLY_PROVENANCE_AUDIT",
+  "rows": [
+    {
+      "sample_index_1based": 7,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/randomnameresolver.java",
+      "original_G0_value_unchanged": "0.0",
+      "archived_native_G0_suite_pass": true,
+      "PIT": [
+        {
+          "backup": "audit/gradle_g0_measurement_v1/raw/007_46b6c592679cd93686d57ff0dcdaac0eb304d56eba26d196f601f65d5bbb0cd2.csv",
+          "sha256": "46b6c592679cd93686d57ff0dcdaac0eb304d56eba26d196f601f65d5bbb0cd2",
+          "focal_mutants": 1,
+          "status_counts": {
+            "NO_COVERAGE": 1
+          },
+          "archived_percent_matches": true
+        }
+      ],
+      "suite_XML": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\160_74999474_835787fd\\compiledrepos\\74999474\\parsec-clients\\build\\test-results\\test\\TEST-com.yahoo.parsec.clients.RandomNameResolver_RBL4_835787fdTest.xml",
+          "source_sha256": "46c7d5ee0369b6efb3a247f492cd4af2e4145f6b188f3cfa6c769f1c7b6aab05",
+          "backup": "audit/gradle_g0_zero_provenance_v2/007/TEST-com.yahoo.parsec.clients.RandomNameResolver_RBL4_835787fdTest_46c7d5ee0369b6efb3a247f492cd4af2e4145f6b188f3cfa6c769f1c7b6aab05.xml",
+          "matched_cases": 4,
+          "all_cases_selected": true,
+          "errors": 0,
+          "skipped": 0,
+          "case_names": [
+            "testResolveInvalidHost",
+            "testResolveMultipleAddresses",
+            "testResolveSameAddress",
+            "testResolveValidHost"
+          ]
+        }
+      ],
+      "JaCoCo": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\160_74999474_835787fd\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\jacoco\\jacoco.csv",
+          "source_sha256": "399ae1be99644c4885efe982e002cac8531813db6daf035ac57d3dc1e0a9a8be",
+          "backup": "audit/gradle_g0_zero_provenance_v2/007/jacoco_399ae1be99644c4885efe982e002cac8531813db6daf035ac57d3dc1e0a9a8be.csv",
+          "focal_rows": [
+            {
+              "GROUP": "parsec-clients",
+              "PACKAGE": "com.yahoo.parsec.clients",
+              "CLASS": "RandomNameResolver",
+              "INSTRUCTION_MISSED": "0",
+              "INSTRUCTION_COVERED": "15",
+              "BRANCH_MISSED": "0",
+              "BRANCH_COVERED": "0",
+              "LINE_MISSED": "0",
+              "LINE_COVERED": "4",
+              "COMPLEXITY_MISSED": "0",
+              "COMPLEXITY_COVERED": "2",
+              "METHOD_MISSED": "0",
+              "METHOD_COVERED": "2"
+            }
+          ]
+        }
+      ],
+      "execution_log": {
+        "path": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\20260724_022225_resume240\\class_logs\\160_74999474_RandomNameResolver.stdout.log",
+        "exists": true,
+        "sha256": "13f487d39312690628fb8db693d912b8688092675286373fe0becee411143111",
+        "Gradle_measurement_markers": 1,
+        "E0_scaffolding_move_failed": true,
+        "one_measurement_after_GPT_start": true,
+        "selected_G0_test_mentioned": true,
+        "package_command_completed": true,
+        "extracted_markers": "audit\\gradle_g0_zero_provenance_v2\\007\\execution_markers.json"
+      },
+      "ownership_conclusion": "SUPPORTED_BY_ARCHIVED_EXECUTION_CHAIN",
+      "limit": "Provenance from preserved per-class workspace/log/suite/report chain; CSV alone has no engine version or cryptographic execution timestamp. No G0 remeasurement."
+    },
+    {
+      "sample_index_1based": 20,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/delegatenameresolver.java",
+      "original_G0_value_unchanged": "0.0",
+      "archived_native_G0_suite_pass": true,
+      "PIT": [
+        {
+          "backup": "audit/gradle_g0_measurement_v1/raw/020_5543224878657ce3b95dc920f836df6cf9eeb8ec957fe9502475ec21d2a4f07d.csv",
+          "sha256": "5543224878657ce3b95dc920f836df6cf9eeb8ec957fe9502475ec21d2a4f07d",
+          "focal_mutants": 2,
+          "status_counts": {
+            "NO_COVERAGE": 2
+          },
+          "archived_percent_matches": true
+        }
+      ],
+      "suite_XML": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\161_74999474_ab7abb98\\compiledrepos\\74999474\\parsec-clients\\build\\test-results\\test\\TEST-com.yahoo.parsec.clients.DelegateNameResolver_RBL4_ab7abb98Test.xml",
+          "source_sha256": "9a0946addcde50731d7c565763b98f4945b18fd69e4a3348ccb57a787df50f2b",
+          "backup": "audit/gradle_g0_zero_provenance_v2/020/TEST-com.yahoo.parsec.clients.DelegateNameResolver_RBL4_ab7abb98Test_9a0946addcde50731d7c565763b98f4945b18fd69e4a3348ccb57a787df50f2b.xml",
+          "matched_cases": 4,
+          "all_cases_selected": true,
+          "errors": 0,
+          "skipped": 0,
+          "case_names": [
+            "testConstructorWithNullDelegate",
+            "testGetDelegate",
+            "testResolveInvalidHost",
+            "testResolveValidHost"
+          ]
+        }
+      ],
+      "JaCoCo": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\161_74999474_ab7abb98\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\jacoco\\jacoco.csv",
+          "source_sha256": "ee76fb573ce2c8beec3e1c6cb41dc111f4b586f7303b90cb4fd9025f3ea6017e",
+          "backup": "audit/gradle_g0_zero_provenance_v2/020/jacoco_ee76fb573ce2c8beec3e1c6cb41dc111f4b586f7303b90cb4fd9025f3ea6017e.csv",
+          "focal_rows": [
+            {
+              "GROUP": "parsec-clients",
+              "PACKAGE": "com.yahoo.parsec.clients",
+              "CLASS": "DelegateNameResolver",
+              "INSTRUCTION_MISSED": "0",
+              "INSTRUCTION_COVERED": "18",
+              "BRANCH_MISSED": "0",
+              "BRANCH_COVERED": "0",
+              "LINE_MISSED": "0",
+              "LINE_COVERED": "6",
+              "COMPLEXITY_MISSED": "0",
+              "COMPLEXITY_COVERED": "3",
+              "METHOD_MISSED": "0",
+              "METHOD_COVERED": "3"
+            }
+          ]
+        }
+      ],
+      "execution_log": {
+        "path": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\20260724_022225_resume240\\class_logs\\161_74999474_DelegateNameResolver.stdout.log",
+        "exists": true,
+        "sha256": "cc5464aba23edf24a19b62e2d6ea09469b54170cf1375588659674bf57d68ce9",
+        "Gradle_measurement_markers": 1,
+        "E0_scaffolding_move_failed": false,
+        "one_measurement_after_GPT_start": true,
+        "selected_G0_test_mentioned": true,
+        "package_command_completed": true,
+        "extracted_markers": "audit\\gradle_g0_zero_provenance_v2\\020\\execution_markers.json"
+      },
+      "ownership_conclusion": "UNRESOLVED_REQUIRES_REVIEW",
+      "limit": "Provenance from preserved per-class workspace/log/suite/report chain; CSV alone has no engine version or cryptographic execution timestamp. No G0 remeasurement."
+    },
+    {
+      "sample_index_1based": 97,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parseccompletablefuture.java",
+      "original_G0_value_unchanged": "0.0",
+      "archived_native_G0_suite_pass": true,
+      "PIT": [
+        {
+          "backup": "audit/gradle_g0_measurement_v1/raw/097_9eee76755146ffaecfcd16f12cec2df213e230ff7e46773dcbc70fe49bffe8c0.csv",
+          "sha256": "9eee76755146ffaecfcd16f12cec2df213e230ff7e46773dcbc70fe49bffe8c0",
+          "focal_mutants": 8,
+          "status_counts": {
+            "NO_COVERAGE": 8
+          },
+          "archived_percent_matches": true
+        }
+      ],
+      "suite_XML": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\162_74999474_fd9ad981\\compiledrepos\\74999474\\parsec-clients\\build\\test-results\\test\\TEST-com.yahoo.parsec.clients.ParsecCompletableFuture_RBL4_fd9ad981Test.xml",
+          "source_sha256": "9bc814f01a4ed9c0f6e06c41de10bf730f3551232d72d1fa2c6948637801d9a8",
+          "backup": "audit/gradle_g0_zero_provenance_v2/097/TEST-com.yahoo.parsec.clients.ParsecCompletableFuture_RBL4_fd9ad981Test_9bc814f01a4ed9c0f6e06c41de10bf730f3551232d72d1fa2c6948637801d9a8.xml",
+          "matched_cases": 8,
+          "all_cases_selected": true,
+          "errors": 0,
+          "skipped": 0,
+          "case_names": [
+            "testCancel",
+            "testGet",
+            "testGetThrowsExecutionException",
+            "testGetThrowsInterruptedException",
+            "testGetWithTimeout",
+            "testGetWithTimeoutThrowsTimeoutException",
+            "testIsCancelled",
+            "testIsDone"
+          ]
+        }
+      ],
+      "JaCoCo": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\162_74999474_fd9ad981\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\jacoco\\jacoco.csv",
+          "source_sha256": "2b372e254065252144a5bc38fd90de34be656a0a6baa4e6824ead05762af528b",
+          "backup": "audit/gradle_g0_zero_provenance_v2/097/jacoco_2b372e254065252144a5bc38fd90de34be656a0a6baa4e6824ead05762af528b.csv",
+          "focal_rows": [
+            {
+              "GROUP": "parsec-clients",
+              "PACKAGE": "com.yahoo.parsec.clients",
+              "CLASS": "ParsecCompletableFuture",
+              "INSTRUCTION_MISSED": "15",
+              "INSTRUCTION_COVERED": "36",
+              "BRANCH_MISSED": "2",
+              "BRANCH_COVERED": "2",
+              "LINE_MISSED": "3",
+              "LINE_COVERED": "10",
+              "COMPLEXITY_MISSED": "2",
+              "COMPLEXITY_COVERED": "6",
+              "METHOD_MISSED": "0",
+              "METHOD_COVERED": "6"
+            }
+          ]
+        }
+      ],
+      "execution_log": {
+        "path": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\20260724_022225_resume240\\class_logs\\162_74999474_ParsecCompletableFuture.stdout.log",
+        "exists": true,
+        "sha256": "02023801c7d6a779ff446b2572ac53c5e4ea5c998babb54af8e7421cbd732d94",
+        "Gradle_measurement_markers": 1,
+        "E0_scaffolding_move_failed": false,
+        "one_measurement_after_GPT_start": true,
+        "selected_G0_test_mentioned": true,
+        "package_command_completed": true,
+        "extracted_markers": "audit\\gradle_g0_zero_provenance_v2\\097\\execution_markers.json"
+      },
+      "ownership_conclusion": "UNRESOLVED_REQUIRES_REVIEW",
+      "limit": "Provenance from preserved per-class workspace/log/suite/report chain; CSV alone has no engine version or cryptographic execution timestamp. No G0 remeasurement."
+    },
+    {
+      "sample_index_1based": 134,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/defaultasynccompletionhandler.java",
+      "original_G0_value_unchanged": "0.0",
+      "archived_native_G0_suite_pass": true,
+      "PIT": [
+        {
+          "backup": "audit/gradle_g0_measurement_v1/raw/134_687232f1e162bd4be2bcf3cebe1b77122d4e47c2f62a787a566e335a41b6ee14.csv",
+          "sha256": "687232f1e162bd4be2bcf3cebe1b77122d4e47c2f62a787a566e335a41b6ee14",
+          "focal_mutants": 8,
+          "status_counts": {
+            "NO_COVERAGE": 8
+          },
+          "archived_percent_matches": true
+        }
+      ],
+      "suite_XML": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\164_74999474_e521567f\\compiledrepos\\74999474\\parsec-clients\\build\\test-results\\test\\TEST-com.yahoo.parsec.clients.DefaultAsyncCompletionHandler_RBL4_e521567fTest.xml",
+          "source_sha256": "1143fa280ffc19b37e7f56dc21bdd28f4389afe688fade8d910c09f8594c8dde",
+          "backup": "audit/gradle_g0_zero_provenance_v2/134/TEST-com.yahoo.parsec.clients.DefaultAsyncCompletionHandler_RBL4_e521567fTest_1143fa280ffc19b37e7f56dc21bdd28f4389afe688fade8d910c09f8594c8dde.xml",
+          "matched_cases": 6,
+          "all_cases_selected": true,
+          "errors": 0,
+          "skipped": 0,
+          "case_names": [
+            "testConstructorWithEmptyExpectedStatusCodes",
+            "testConstructorWithExpectedStatusCodes",
+            "testConstructorWithNullExpectedStatusCodes",
+            "testOnCompletedWithEmptyResponseBody",
+            "testOnCompletedWithInvalidStatusCode",
+            "testOnCompletedWithValidResponse"
+          ]
+        }
+      ],
+      "JaCoCo": [
+        {
+          "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\164_74999474_e521567f\\compiledrepos\\74999474\\parsec-clients\\build\\reports\\jacoco\\jacoco.csv",
+          "source_sha256": "8be13f16962a1066f6bb6c22e77ab2c9fe3416d103b8dd9dd9d100c2be15be8e",
+          "backup": "audit/gradle_g0_zero_provenance_v2/134/jacoco_8be13f16962a1066f6bb6c22e77ab2c9fe3416d103b8dd9dd9d100c2be15be8e.csv",
+          "focal_rows": [
+            {
+              "GROUP": "parsec-clients",
+              "PACKAGE": "com.yahoo.parsec.clients",
+              "CLASS": "DefaultAsyncCompletionHandler",
+              "INSTRUCTION_MISSED": "24",
+              "INSTRUCTION_COVERED": "63",
+              "BRANCH_MISSED": "1",
+              "BRANCH_COVERED": "9",
+              "LINE_MISSED": "5",
+              "LINE_COVERED": "16",
+              "COMPLEXITY_MISSED": "3",
+              "COMPLEXITY_COVERED": "7",
+              "METHOD_MISSED": "2",
+              "METHOD_COVERED": "3"
+            }
+          ]
+        }
+      ],
+      "execution_log": {
+        "path": "D:\\A_ThucNghiem\\scripts_v2\\results\\runs\\20260724_022225_resume240\\class_logs\\164_74999474_DefaultAsyncCompletionHandler.stdout.log",
+        "exists": true,
+        "sha256": "464185984761347c486370b3835ebe8345583b78d0ad1f2552e080a7e535aa65",
+        "Gradle_measurement_markers": 1,
+        "E0_scaffolding_move_failed": false,
+        "one_measurement_after_GPT_start": true,
+        "selected_G0_test_mentioned": true,
+        "package_command_completed": true,
+        "extracted_markers": "audit\\gradle_g0_zero_provenance_v2\\134\\execution_markers.json"
+      },
+      "ownership_conclusion": "UNRESOLVED_REQUIRES_REVIEW",
+      "limit": "Provenance from preserved per-class workspace/log/suite/report chain; CSV alone has no engine version or cryptographic execution timestamp. No G0 remeasurement."
+    }
+  ],
+  "supported_count": 1,
+  "G0_values_changed": false,
+  "G0_cohorts_changed": false,
+  "new_measurements": 0,
+  "new_GPT_API_calls": 0,
+  "new_EvoSuite_calls": 0
+}

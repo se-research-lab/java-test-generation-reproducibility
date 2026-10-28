@@ -1,0 +1,631 @@
+[
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/extractor/constructormetaextractor.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.extractor.ConstructorMetaExtractor_RBL4Test_aefe9473.xml",
+    "suite_names": [
+      "org.junithelper.core.extractor.ConstructorMetaExtractor_RBL4Test_aefe9473"
+    ],
+    "tests": 6,
+    "failures": 5,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/file/filesearcherfactory.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.file.FileSearcherFactory_RBL4Test_5e446228.xml",
+    "suite_names": [
+      "org.junithelper.core.file.FileSearcherFactory_RBL4Test_5e446228"
+    ],
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/filter/impl/triminsideofbracefilter.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.filter.impl.TrimInsideOfBraceFilter_RBL4_4b7d40a8Test.xml",
+    "suite_names": [
+      "org.junithelper.core.filter.impl.TrimInsideOfBraceFilter_RBL4_4b7d40a8Test"
+    ],
+    "tests": 10,
+    "failures": 7,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/generator/linebreakprovider.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.generator.LineBreakProvider_RBL4_dcf587c0Test.xml",
+    "suite_names": [
+      "org.junithelper.core.generator.LineBreakProvider_RBL4_dcf587c0Test"
+    ],
+    "tests": 7,
+    "failures": 1,
+    "errors": 1,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/argtypemeta.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.meta.ArgTypeMeta_RBL4_5cccf4b4Test.xml",
+    "suite_names": [
+      "org.junithelper.core.meta.ArgTypeMeta_RBL4_5cccf4b4Test"
+    ],
+    "tests": 6,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/returntypemeta.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.meta.ReturnTypeMeta_RBL4_d95af645Test.xml",
+    "suite_names": [
+      "org.junithelper.core.meta.ReturnTypeMeta_RBL4_d95af645Test"
+    ],
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/util/primitivetypeutil.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.util.PrimitiveTypeUtil_RBL4_0aa8a201Test.xml",
+    "suite_names": [
+      "org.junithelper.core.util.PrimitiveTypeUtil_RBL4_0aa8a201Test"
+    ],
+    "tests": 3,
+    "failures": 1,
+    "errors": 2,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3713233:core/src/main/java/org/junithelper/core/util/threadutil.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\target\\surefire-reports\\TEST-org.junithelper.core.util.ThreadUtil_RBL4_f790382eTest.xml",
+    "suite_names": [
+      "org.junithelper.core.util.ThreadUtil_RBL4_f790382eTest"
+    ],
+    "tests": 2,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "3847504:modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/url/urlimpl.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\target\\surefire-reports\\TEST-ch.entwine.weblounge.common.impl.url.UrlImpl_RBL4_8ce169b0Test.xml",
+    "suite_names": [
+      "ch.entwine.weblounge.common.impl.url.UrlImpl_RBL4_8ce169b0Test"
+    ],
+    "tests": 17,
+    "failures": 3,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "41547678:turin-compiler/src/main/java/me/tomassetti/turin/parser/ast/qualifiedname.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\target\\surefire-reports\\TEST-me.tomassetti.turin.parser.ast.QualifiedName_RBL4_3bf6f68aTest.xml",
+    "suite_names": [
+      "me.tomassetti.turin.parser.ast.QualifiedName_RBL4_3bf6f68aTest"
+    ],
+    "tests": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "41547678:turin-standard-library/src/main/java/turin/context/context.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\target\\surefire-reports\\TEST-turin.context.Context_RBL4Test_34266f79.xml",
+    "suite_names": [
+      "turin.context.Context_RBL4Test_34266f79"
+    ],
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/resource/resourceurn.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.resource.ResourceUrn_RBL4_ef2a07abTest.xml",
+    "suite_names": [
+      "com.ebayopensource.webrex.resource.ResourceUrn_RBL4_ef2a07abTest"
+    ],
+    "tests": 13,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/joiners.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Joiners_RBL4_dbe644b5Test.xml",
+    "suite_names": [
+      "com.ebayopensource.webrex.util.Joiners_RBL4_dbe644b5Test"
+    ],
+    "tests": 9,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/splitters.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Splitters_RBL4_4e640540Test.xml",
+    "suite_names": [
+      "com.ebayopensource.webrex.util.Splitters_RBL4_4e640540Test"
+    ],
+    "tests": 9,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "45997449:webrex/src/main/java/com/ebayopensource/webrex/util/xmls.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\target\\surefire-reports\\TEST-com.ebayopensource.webrex.util.Xmls_RBL4_522a42d1Test.xml",
+    "suite_names": [
+      "com.ebayopensource.webrex.util.Xmls_RBL4_522a42d1Test"
+    ],
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/alertsender.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\surefire-reports\\TEST-com.kakao.hbase.common.util.AlertSender_RBL4Test_ed64392c.xml",
+    "suite_names": [
+      "com.kakao.hbase.common.util.AlertSender_RBL4Test_ed64392c"
+    ],
+    "tests": 3,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "46396068:hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/decimalstringsplit.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\target\\surefire-reports\\TEST-com.kakao.hbase.common.util.DecimalStringSplit_RBL4_3a04c22aTest.xml",
+    "suite_names": [
+      "com.kakao.hbase.common.util.DecimalStringSplit_RBL4_3a04c22aTest"
+    ],
+    "tests": 15,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/resettablesingletontraverser.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\surefire-reports\\TEST-com.hazelcast.jet.core.ResettableSingletonTraverser_RBL4_c7d874e7Test.xml",
+    "suite_names": [
+      "com.hazelcast.jet.core.ResettableSingletonTraverser_RBL4_c7d874e7Test"
+    ],
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "48046454:hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/slidingwindowpolicy.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\target\\surefire-reports\\TEST-com.hazelcast.jet.core.SlidingWindowPolicy_RBL4_0ca1a5feTest.xml",
+    "suite_names": [
+      "com.hazelcast.jet.core.SlidingWindowPolicy_RBL4_0ca1a5feTest"
+    ],
+    "tests": 13,
+    "failures": 3,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/directives.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Directives_RBL4_38f5b07cTest.xml",
+    "suite_names": [
+      "org.codehaus.httpcache4j.Directives_RBL4_38f5b07cTest"
+    ],
+    "tests": 7,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/headers.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Headers_RBL4_341e479eTest.xml",
+    "suite_names": [
+      "org.codehaus.httpcache4j.Headers_RBL4_341e479eTest"
+    ],
+    "tests": 12,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mimetype.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.MIMEType_RBL4_d908a814Test.xml",
+    "suite_names": [
+      "org.codehaus.httpcache4j.MIMEType_RBL4_d908a814Test"
+    ],
+    "tests": 10,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "558963:httpcache4j-api/src/main/java/org/codehaus/httpcache4j/status.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\target\\surefire-reports\\TEST-org.codehaus.httpcache4j.Status_RBL4Test_095adb46.xml",
+    "suite_names": [
+      "org.codehaus.httpcache4j.Status_RBL4Test_095adb46"
+    ],
+    "tests": 12,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/api/jobexecutionmultipleshardingcontext.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_RBL4Test_c6723af1.xml",
+    "suite_names": [
+      "com.dangdang.ddframe.job.api.JobExecutionMultipleShardingContext_RBL4Test_c6723af1"
+    ],
+    "tests": 3,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/config/configurationnode.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.config.ConfigurationNode_RBL4_5ed65ca9Test.xml",
+    "suite_names": [
+      "com.dangdang.ddframe.job.internal.config.ConfigurationNode_RBL4_5ed65ca9Test"
+    ],
+    "tests": 7,
+    "failures": 7,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/election/leaderelectionservice.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.election.LeaderElectionService_RBL4_04265ecaTest.xml",
+    "suite_names": [
+      "com.dangdang.ddframe.job.internal.election.LeaderElectionService_RBL4_04265ecaTest"
+    ],
+    "tests": 6,
+    "failures": 3,
+    "errors": 2,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/statistics/processcountjob.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\target\\surefire-reports\\TEST-com.dangdang.ddframe.job.internal.statistics.ProcessCountJob_RBL4_fc02f3bfTest.xml",
+    "suite_names": [
+      "com.dangdang.ddframe.job.internal.statistics.ProcessCountJob_RBL4_fc02f3bfTest"
+    ],
+    "tests": 1,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/boundingbox.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\target\\surefire-reports\\TEST-dk.dma.enav.model.geometry.BoundingBox_RBL4_1f61159dTest.xml",
+    "suite_names": [
+      "dk.dma.enav.model.geometry.BoundingBox_RBL4_1f61159dTest"
+    ],
+    "tests": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "6437134:enav-model/src/main/java/dk/dma/enav/model/geometry/positiontime.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\target\\surefire-reports\\TEST-dk.dma.enav.model.geometry.PositionTime_RBL4Test_e9d79346.xml",
+    "suite_names": [
+      "dk.dma.enav.model.geometry.PositionTime_RBL4Test_e9d79346"
+    ],
+    "tests": 9,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "6437134:enav-serialization/src/main/java/dk/dma/enav/serialization/simplerouteparser.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\target\\surefire-reports\\TEST-dk.dma.enav.serialization.SimpleRouteParser_RBL4_3ed00afbTest.xml",
+    "suite_names": [
+      "dk.dma.enav.serialization.SimpleRouteParser_RBL4_3ed00afbTest"
+    ],
+    "tests": 9,
+    "failures": 1,
+    "errors": 3,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/compass/compassutils.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\target\\surefire-reports\\TEST-dk.dma.enav.util.compass.CompassUtils_RBL4_262d6b6cTest.xml",
+    "suite_names": [
+      "dk.dma.enav.util.compass.CompassUtils_RBL4_262d6b6cTest"
+    ],
+    "tests": 4,
+    "failures": 3,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "6437134:enav-util/src/main/java/dk/dma/enav/util/coordinateconverter.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\target\\surefire-reports\\TEST-dk.dma.enav.util.CoordinateConverter_RBL4_8d23156cTest.xml",
+    "suite_names": [
+      "dk.dma.enav.util.CoordinateConverter_RBL4_8d23156cTest"
+    ],
+    "tests": 5,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "64487983:bridge/src/main/java/com/iluwatar/bridge/app.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\target\\surefire-reports\\TEST-com.iluwatar.bridge.App_RBL4Test_58f65afc.xml",
+    "suite_names": [
+      "com.iluwatar.bridge.App_RBL4Test_58f65afc"
+    ],
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/app.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\target\\surefire-reports\\TEST-com.iluwatar.dependency.injection.App_RBL4_f077e771Test.xml",
+    "suite_names": [
+      "com.iluwatar.dependency.injection.App_RBL4_f077e771Test"
+    ],
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "64487983:dependency-injection/src/main/java/com/iluwatar/dependency/injection/guicewizard.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\target\\surefire-reports\\TEST-com.iluwatar.dependency.injection.GuiceWizard_RBL4_f36a1968Test.xml",
+    "suite_names": [
+      "com.iluwatar.dependency.injection.GuiceWizard_RBL4_f36a1968Test"
+    ],
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/lotterynumbers.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\target\\surefire-reports\\TEST-com.iluwatar.hexagonal.domain.LotteryNumbers_RBL4_eef37d9aTest.xml",
+    "suite_names": [
+      "com.iluwatar.hexagonal.domain.LotteryNumbers_RBL4_eef37d9aTest"
+    ],
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "64487983:hexagonal/src/main/java/com/iluwatar/hexagonal/domain/playerdetails.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\target\\surefire-reports\\TEST-com.iluwatar.hexagonal.domain.PlayerDetails_RBL4_77b9df0eTest.xml",
+    "suite_names": [
+      "com.iluwatar.hexagonal.domain.PlayerDetails_RBL4_77b9df0eTest"
+    ],
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/api/dedupeventstorechannels.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\target\\surefire-reports\\TEST-com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_RBL4_1ac113bfTest.xml",
+    "suite_names": [
+      "com.bazaarvoice.emodb.event.api.DedupEventStoreChannels_RBL4_1ac113bfTest"
+    ],
+    "tests": 9,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "66303306:event/src/main/java/com/bazaarvoice/emodb/event/eventstoremodule.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\target\\surefire-reports\\TEST-com.bazaarvoice.emodb.event.EventStoreModule_RBL4_40681041Test.xml",
+    "suite_names": [
+      "com.bazaarvoice.emodb.event.EventStoreModule_RBL4_40681041Test"
+    ],
+    "tests": 2,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "78444970:examples/graph/src/main/java/graph/algorithm/mst/jarnikprim.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\target\\surefire-reports\\TEST-graph.algorithm.mst.JarnikPrim_RBL4_9f5bd54aTest.xml",
+    "suite_names": [
+      "graph.algorithm.mst.JarnikPrim_RBL4_9f5bd54aTest"
+    ],
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "78444970:examples/random/src/main/java/random/reservoirsamplingmultipleitems.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\target\\surefire-reports\\TEST-random.ReservoirSamplingMultipleItems_RBL4Test_01a0a377.xml",
+    "suite_names": [
+      "random.ReservoirSamplingMultipleItems_RBL4Test_01a0a377"
+    ],
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "78444970:examples/structures/src/main/java/ds/heap/arrayheap.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\target\\surefire-reports\\TEST-ds.heap.ArrayHeap_RBL4_cc0b81f1Test.xml",
+    "suite_names": [
+      "ds.heap.ArrayHeap_RBL4_cc0b81f1Test"
+    ],
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "78444970:examples/structures/src/main/java/ds/stack/arraystack.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\target\\surefire-reports\\TEST-ds.stack.ArrayStack_RBL4_b8276d51Test.xml",
+    "suite_names": [
+      "ds.stack.ArrayStack_RBL4_b8276d51Test"
+    ],
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/exception/simpledbexceptiontranslator.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\surefire-reports\\TEST-org.springframework.data.simpledb.exception.SimpleDbExceptionTranslator_RBL4_9f019880Test.xml",
+    "parse_status": "ParseError"
+  },
+  {
+    "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/alphanumstringcomparator.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\target\\surefire-reports\\TEST-org.springframework.data.simpledb.util.AlphanumStringComparator_RBL4_324510faTest.xml",
+    "suite_names": [
+      "org.springframework.data.simpledb.util.AlphanumStringComparator_RBL4_324510faTest"
+    ],
+    "tests": 7,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/annotation/nodoubleclassdefined.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\target\\surefire-reports\\TEST-com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_RBL4_f739e0feTest.xml",
+    "suite_names": [
+      "com.pchudzik.springmock.infrastructure.annotation.NoDoubleClassDefined_RBL4_f739e0feTest"
+    ],
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "97822421:infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/doublename.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\target\\surefire-reports\\TEST-com.pchudzik.springmock.infrastructure.definition.DoubleName_RBL4_a3466d37Test.xml",
+    "suite_names": [
+      "com.pchudzik.springmock.infrastructure.definition.DoubleName_RBL4_a3466d37Test"
+    ],
+    "tests": 12,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "98410891:applications/demo/src/main/java/com/softavail/comms/demo/application/impl/propertiesconfiguration.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\target\\surefire-reports\\TEST-com.softavail.comms.demo.application.impl.PropertiesConfiguration_RBL4_1e12e7ddTest.xml",
+    "suite_names": [
+      "com.softavail.comms.demo.application.impl.PropertiesConfiguration_RBL4_1e12e7ddTest"
+    ],
+    "tests": 10,
+    "failures": 0,
+    "errors": 10,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  },
+  {
+    "class_key": "98410891:core-interface/src/main/java/com/softavail/commsrouter/api/dto/model/skill/numberinterval.java",
+    "report": "evo_patch\\artifacts\\raw49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\target\\surefire-reports\\TEST-com.softavail.commsrouter.api.dto.model.skill.NumberInterval_RBL4Test_e3efc426.xml",
+    "suite_names": [
+      "com.softavail.commsrouter.api.dto.model.skill.NumberInterval_RBL4Test_e3efc426"
+    ],
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "arm_attribution": "not certified; shared target after sequential arms",
+    "parse_status": "ok"
+  }
+]

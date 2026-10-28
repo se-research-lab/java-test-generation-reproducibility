@@ -1,0 +1,247 @@
+[
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\extractor\\ConstructorMetaExtractor.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\001_3713233_aefe9473\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\extractor\\ConstructorMetaExtractor.java",
+    "sha256": "7941cbaf4a1ef23109bec1cae6b00f2e44f5c247db0f2bfcdff8ec96cb3398f0"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\file\\FileSearcherFactory.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\000_3713233_5e446228\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\file\\FileSearcherFactory.java",
+    "sha256": "38a072cd521a2399050cfae0804c8647cd25ae8e6247e95145b4e57fc32d98da"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\filter\\impl\\TrimInsideOfBraceFilter.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\007_3713233_4b7d40a8\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\filter\\impl\\TrimInsideOfBraceFilter.java",
+    "sha256": "b47ff2b074b64f96c19c1362977397e3d55fca9b5e5840bd43adb2151fff43ac"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\generator\\LineBreakProvider.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\004_3713233_dcf587c0\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\generator\\LineBreakProvider.java",
+    "sha256": "0108926d43deafda63564177c81b75c580fb791e26c96b03a957d372e1e87fd0"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\meta\\ArgTypeMeta.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\003_3713233_5cccf4b4\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\meta\\ArgTypeMeta.java",
+    "sha256": "15b2ffa3cdff53390fbea7fb44720ba244a20f0410e52a8b895d4bee3a320678"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\meta\\ReturnTypeMeta.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\002_3713233_d95af645\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\meta\\ReturnTypeMeta.java",
+    "sha256": "6ac66f1691206089d46fd7d45afb608018fbf2eadd4a15c1b3b62e3a7e836e95"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\util\\PrimitiveTypeUtil.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\006_3713233_0aa8a201\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\util\\PrimitiveTypeUtil.java",
+    "sha256": "dfa1d65c5d50021cbdd13b136aa83412c601b619feabfaa0fc405d500608a034"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\util\\ThreadUtil.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\001_3713233_f790382e\\compiledrepos\\3713233\\core\\src\\main\\java\\org\\junithelper\\core\\util\\ThreadUtil.java",
+    "sha256": "3019dbfa63051e44355ed2f8aad6b5d75b395505bafaf971f341954c095f3ebc"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\src\\main\\java\\ch\\entwine\\weblounge\\common\\impl\\url\\UrlImpl.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\009_3847504_8ce169b0\\compiledrepos\\3847504\\modules\\weblounge-common\\src\\main\\java\\ch\\entwine\\weblounge\\common\\impl\\url\\UrlImpl.java",
+    "sha256": "9797102f34ce87c3df86241e8246ec7ee6b785983ab627cd3e7284807adc1aa5"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\src\\main\\java\\me\\tomassetti\\turin\\parser\\ast\\QualifiedName.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\030_41547678_3bf6f68a\\compiledrepos\\41547678\\turin-compiler\\src\\main\\java\\me\\tomassetti\\turin\\parser\\ast\\QualifiedName.java",
+    "sha256": "df0e46a247d77d73581c2c94a926e2fdc8048f4f25577e184727f9cc3012e5ea"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\src\\main\\java\\turin\\context\\Context.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\006_41547678_34266f79\\compiledrepos\\41547678\\turin-standard-library\\src\\main\\java\\turin\\context\\Context.java",
+    "sha256": "85a0423c8f1bfc104d832701458ca93215b4842b8966267a458a9ce25d3ab2db"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\resource\\ResourceUrn.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\063_45997449_ef2a07ab\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\resource\\ResourceUrn.java",
+    "sha256": "361bd4b4e54c57212ca83a3ac4217260c532c916aba3a6641513ede1f7030219"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\util\\Joiners.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\061_45997449_dbe644b5\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\util\\Joiners.java",
+    "sha256": "7cd781b8c71a9a84d02afd0da41c7272ed1f6cf216e28178f6c13e6883d24134"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\util\\Splitters.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\060_45997449_4e640540\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\util\\Splitters.java",
+    "sha256": "02cf9c9a70c65ff0b9d98b8250fd86ecf13c8de108e9e4f1eb4fd77141dc6180"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\util\\Xmls.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\057_45997449_522a42d1\\compiledrepos\\45997449\\WebRex\\src\\main\\java\\com\\ebayopensource\\webrex\\util\\Xmls.java",
+    "sha256": "0c4c4767328cee6d2d680e805005b69992aa0805fc992c9f93e5f9e27df58c49"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\src\\main\\java\\com\\kakao\\hbase\\common\\util\\AlertSender.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\016_46396068_ed64392c\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\src\\main\\java\\com\\kakao\\hbase\\common\\util\\AlertSender.java",
+    "sha256": "f4a00ea20ecd7bbf4ae37894758988abf68f61f7f5f17c2b0fb9e467bebaf063"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\src\\main\\java\\com\\kakao\\hbase\\common\\util\\DecimalStringSplit.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\066_46396068_3a04c22a\\compiledrepos\\46396068\\hbase0.98\\hbase-common-0.98\\src\\main\\java\\com\\kakao\\hbase\\common\\util\\DecimalStringSplit.java",
+    "sha256": "50bcf6d250c7eb1050d93555e6334816fe3aec5a9a73432da2dc79d293ddecfe"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\src\\main\\java\\com\\hazelcast\\jet\\core\\ResettableSingletonTraverser.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\080_48046454_c7d874e7\\compiledrepos\\48046454\\hazelcast-jet-core\\src\\main\\java\\com\\hazelcast\\jet\\core\\ResettableSingletonTraverser.java",
+    "sha256": "81b122a64d696b339db603e28ec524484ab0ed9fdb17a89c7c0957145d5f1913"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\src\\main\\java\\com\\hazelcast\\jet\\core\\SlidingWindowPolicy.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\081_48046454_0ca1a5fe\\compiledrepos\\48046454\\hazelcast-jet-core\\src\\main\\java\\com\\hazelcast\\jet\\core\\SlidingWindowPolicy.java",
+    "sha256": "329656168d4645b27c3aec9dfbd6a710ee3abcc8f0a61013449277a95747dc26"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\Directives.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\097_558963_38f5b07c\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\Directives.java",
+    "sha256": "14bc6f27fa934fbb36ec18005421ea91bafaf4d9ed3b3af8f2ee477f18312494"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\Headers.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\098_558963_341e479e\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\Headers.java",
+    "sha256": "48d596e1aac96cd4ecfcaa099791fb0d6f96a6e88113a17a81821f020bebaac7"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\MIMEType.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\100_558963_d908a814\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\MIMEType.java",
+    "sha256": "7b956fa10cdae618c8e2532fafc8232c15b5d72c3b5c643a6e799ce23c452ffe"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\Status.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\025_558963_095adb46\\compiledrepos\\558963\\httpcache4j-api\\src\\main\\java\\org\\codehaus\\httpcache4j\\Status.java",
+    "sha256": "206d6e50daf1cebcade3edb8d51090417ec0fe5be3174f748f758b1e85f71c98"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\api\\JobExecutionMultipleShardingContext.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\026_60578004_c6723af1\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\api\\JobExecutionMultipleShardingContext.java",
+    "sha256": "bf5d7ff2f6a907dd55c1ec4a767c4ef9d4756c2b1eba64f82a5dad99ca3e6e08"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\internal\\config\\ConfigurationNode.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\105_60578004_5ed65ca9\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\internal\\config\\ConfigurationNode.java",
+    "sha256": "e2fe0f7433304b90d35154c499e4e91308bc58d34fcf8c0ddbe19e429e96f4a8"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\internal\\election\\LeaderElectionService.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\107_60578004_04265eca\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\internal\\election\\LeaderElectionService.java",
+    "sha256": "069be761ff260be53e7769d7518994bc354827215e1610e5e8c9c965b672c6a6"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\internal\\statistics\\ProcessCountJob.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\104_60578004_fc02f3bf\\compiledrepos\\60578004\\elastic-jobx-core\\src\\main\\java\\com\\dangdang\\ddframe\\job\\internal\\statistics\\ProcessCountJob.java",
+    "sha256": "dc5f182f04bd6d278e4d46c990776ac8ccb5f4cec19115db54c0d4e4917386f8"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\src\\main\\java\\dk\\dma\\enav\\model\\geometry\\BoundingBox.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\131_6437134_1f61159d\\compiledrepos\\6437134\\enav-model\\src\\main\\java\\dk\\dma\\enav\\model\\geometry\\BoundingBox.java",
+    "sha256": "1da5ab0755ca676cbdf9b690a1e44fefe94afaa09ae6c4230c913efea198c9fd"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\src\\main\\java\\dk\\dma\\enav\\model\\geometry\\PositionTime.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\033_6437134_e9d79346\\compiledrepos\\6437134\\enav-model\\src\\main\\java\\dk\\dma\\enav\\model\\geometry\\PositionTime.java",
+    "sha256": "b95f36981baccaba849b083365381f8d49412a48cd324428d0fe5300b1dd1270"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\src\\main\\java\\dk\\dma\\enav\\serialization\\SimpleRouteParser.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\134_6437134_3ed00afb\\compiledrepos\\6437134\\enav-serialization\\src\\main\\java\\dk\\dma\\enav\\serialization\\SimpleRouteParser.java",
+    "sha256": "c71b3040cb852a0fc6f6eeda5e2e67cf76411dc674e5b8fb48143ebeccb97d27"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\src\\main\\java\\dk\\dma\\enav\\util\\compass\\CompassUtils.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\129_6437134_262d6b6c\\compiledrepos\\6437134\\enav-util\\src\\main\\java\\dk\\dma\\enav\\util\\compass\\CompassUtils.java",
+    "sha256": "a2c343b46fabbf805a361708fa3169a37824caa5141328d96d1442f58794fd4d"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\src\\main\\java\\dk\\dma\\enav\\util\\CoordinateConverter.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\128_6437134_8d23156c\\compiledrepos\\6437134\\enav-util\\src\\main\\java\\dk\\dma\\enav\\util\\CoordinateConverter.java",
+    "sha256": "0c2eded0ad9a8a9ca9fa4d2c3c8ad7623aca0db0c79d42d1e28d690a0f68afaa"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\src\\main\\java\\com\\iluwatar\\bridge\\App.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\034_64487983_58f65afc\\compiledrepos\\64487983\\bridge\\src\\main\\java\\com\\iluwatar\\bridge\\App.java",
+    "sha256": "db59a896b7bcd2f74650c566c43363af4dd33bd121c0163501426118286f7fcc"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\src\\main\\java\\com\\iluwatar\\dependency\\injection\\App.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\136_64487983_f077e771\\compiledrepos\\64487983\\dependency-injection\\src\\main\\java\\com\\iluwatar\\dependency\\injection\\App.java",
+    "sha256": "71e35cb9f1f8efce1caab7f07c3e04d29af04f3034bb08a367ce2c3faeabc5c5"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\src\\main\\java\\com\\iluwatar\\dependency\\injection\\GuiceWizard.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\137_64487983_f36a1968\\compiledrepos\\64487983\\dependency-injection\\src\\main\\java\\com\\iluwatar\\dependency\\injection\\GuiceWizard.java",
+    "sha256": "0563c3c1212c3ca7ec23af5084394f943e06daec748987ee19a8e1b2644a5ccf"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\src\\main\\java\\com\\iluwatar\\hexagonal\\domain\\LotteryNumbers.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\142_64487983_eef37d9a\\compiledrepos\\64487983\\hexagonal\\src\\main\\java\\com\\iluwatar\\hexagonal\\domain\\LotteryNumbers.java",
+    "sha256": "3a8921a0fe21569debf36a5e8758f563257cfc5176575eff44c878ac9efbcec9"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\src\\main\\java\\com\\iluwatar\\hexagonal\\domain\\PlayerDetails.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\143_64487983_77b9df0e\\compiledrepos\\64487983\\hexagonal\\src\\main\\java\\com\\iluwatar\\hexagonal\\domain\\PlayerDetails.java",
+    "sha256": "be8f0c92aa39f2bd3a20062b38cf2dd10179c1bca145d17e39cf4863180c9177"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\src\\main\\java\\com\\bazaarvoice\\emodb\\event\\api\\DedupEventStoreChannels.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\145_66303306_1ac113bf\\compiledrepos\\66303306\\event\\src\\main\\java\\com\\bazaarvoice\\emodb\\event\\api\\DedupEventStoreChannels.java",
+    "sha256": "693e88962934ec5d5c45ae4ac407c9519ff5a1ade0376914f551bedca75f6680"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\src\\main\\java\\com\\bazaarvoice\\emodb\\event\\EventStoreModule.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\144_66303306_40681041\\compiledrepos\\66303306\\event\\src\\main\\java\\com\\bazaarvoice\\emodb\\event\\EventStoreModule.java",
+    "sha256": "ae2d805ee215a5919bb4603f03c224610485ac0d476fddbd6a73000b865693f7"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\src\\main\\java\\graph\\algorithm\\mst\\JarnikPrim.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\182_78444970_9f5bd54a\\compiledrepos\\78444970\\examples\\graph\\src\\main\\java\\graph\\algorithm\\mst\\JarnikPrim.java",
+    "sha256": "e67f8d57d726e15e9f2f419380e88e5eef436904d259a9535c60b78935ce8bbd"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\src\\main\\java\\random\\ReservoirSamplingMultipleItems.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\045_78444970_01a0a377\\compiledrepos\\78444970\\examples\\random\\src\\main\\java\\random\\ReservoirSamplingMultipleItems.java",
+    "sha256": "829bead886f7544c3506d0bcd35f7fa5bcd5a3b3c3078ea0c277f0376db5a590"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\src\\main\\java\\ds\\heap\\ArrayHeap.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\181_78444970_cc0b81f1\\compiledrepos\\78444970\\examples\\structures\\src\\main\\java\\ds\\heap\\ArrayHeap.java",
+    "sha256": "605a3553762a7f98a3856e0ba4423f61240c8c2b171551896699978d2db7fa43"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\src\\main\\java\\ds\\stack\\ArrayStack.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\177_78444970_b8276d51\\compiledrepos\\78444970\\examples\\structures\\src\\main\\java\\ds\\stack\\ArrayStack.java",
+    "sha256": "012dad2e6b6bd9bc6a750f5a482c3381483d3b463690e5d97147c8d85da9b9e7"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\src\\main\\java\\org\\springframework\\data\\simpledb\\exception\\SimpleDbExceptionTranslator.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\213_9619226_9f019880\\compiledrepos\\9619226\\spring-data-simpledb-impl\\src\\main\\java\\org\\springframework\\data\\simpledb\\exception\\SimpleDbExceptionTranslator.java",
+    "sha256": "7e5ed0ef8d6e646a84e18a93607da8956803f9d89b6618be304e86669eadbd93"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\src\\main\\java\\org\\springframework\\data\\simpledb\\util\\AlphanumStringComparator.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\208_9619226_324510fa\\compiledrepos\\9619226\\spring-data-simpledb-impl\\src\\main\\java\\org\\springframework\\data\\simpledb\\util\\AlphanumStringComparator.java",
+    "sha256": "7f9885e251aa36f1dfd9a0241d308374d10439fc7ffc8f1871903bb0a41a433f"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\src\\main\\java\\com\\pchudzik\\springmock\\infrastructure\\annotation\\NoDoubleClassDefined.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\217_97822421_f739e0fe\\compiledrepos\\97822421\\infrastructure\\src\\main\\java\\com\\pchudzik\\springmock\\infrastructure\\annotation\\NoDoubleClassDefined.java",
+    "sha256": "9d78f78fc2aea3f7427c4e02bdd1639eea5427f0b56c29f5ba74ff10171757de"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\src\\main\\java\\com\\pchudzik\\springmock\\infrastructure\\definition\\DoubleName.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\223_97822421_a3466d37\\compiledrepos\\97822421\\infrastructure\\src\\main\\java\\com\\pchudzik\\springmock\\infrastructure\\definition\\DoubleName.java",
+    "sha256": "dd00cf71de4038e46ffede1d1166ea83cb4f5c5252c7136c1c43f24f4bb1f32b"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\src\\main\\java\\com\\softavail\\comms\\demo\\application\\impl\\PropertiesConfiguration.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\20260724_022225_resume240\\227_98410891_1e12e7dd\\compiledrepos\\98410891\\applications\\demo\\src\\main\\java\\com\\softavail\\comms\\demo\\application\\impl\\PropertiesConfiguration.java",
+    "sha256": "a7dba826a3c2eabf19964b27e62ab6f839f05437cc15bb5543f639ee0eeca7aa"
+  },
+  {
+    "source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\src\\main\\java\\com\\softavail\\commsrouter\\api\\dto\\model\\skill\\NumberInterval.java",
+    "copy": "evo_patch\\artifacts\\focal_sources49\\scripts_v2\\workspaces\\pilot60_resume_20260724_083102\\057_98410891_e3efc426\\compiledrepos\\98410891\\core-interface\\src\\main\\java\\com\\softavail\\commsrouter\\api\\dto\\model\\skill\\NumberInterval.java",
+    "sha256": "0ec047ce6e07f7d76d9fff56f4d831b205852db86f30096d039c07df14185976"
+  }
+]

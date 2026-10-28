@@ -1,0 +1,30 @@
+{
+  "scope": "post-review reanalysis of submitted G0/E0; not new generation or remeasurement",
+  "outcomes_previously_seen": true,
+  "selection": "all original class keys where gpt_compilation==1 and evosuite_compilation==1",
+  "expected_n": 49,
+  "expected_repositories": 15,
+  "expected_build_tool": "Maven",
+  "metrics": "archived per-class mutation percentages, same-class difference GPT minus E0 in pp",
+  "primary_summaries": [
+    "arm mean/median",
+    "paired mean/median difference",
+    "win/loss/tie"
+  ],
+  "uncertainty": "whole-repository percentile bootstrap; preserve pairs; class-weighted ratio of sums",
+  "resamples": 20000,
+  "seed": 20261023,
+  "confidence": 0.95,
+  "secondary": [
+    "repository-equal mean difference",
+    "leave-one-repository-out mean difference",
+    "historical strict300 descriptive context and joint-failure ties"
+  ],
+  "no_new_hypothesis_test": true,
+  "no_new_NI_decision": true,
+  "rq123": "frozen membership and every GPT observation; never fed from paired49",
+  "validity_limit": "historical process/build gate; no new suite-pass or raw-mutant validity certification",
+  "new_generation_calls": 0,
+  "new_java_measurement_jobs": 0,
+  "code_scope": "new standalone analytics/audit files only; original experiment and paper code read-only"
+}

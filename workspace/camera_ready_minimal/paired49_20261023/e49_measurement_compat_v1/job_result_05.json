@@ -1,0 +1,59 @@
+{
+  "job_index": 5,
+  "class_key": "3713233:core/src/main/java/org/junithelper/core/meta/argtypemeta.java",
+  "repo_id": "3713233",
+  "G0_archived_mutation_percent": "85.71",
+  "E0_archived_mutation_percent": "42.86",
+  "E1_archived_mutation_percent": "85.71",
+  "seed": 20261146,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "org.junithelper.core.meta.ArgTypeMeta_ESTest",
+  "surefire_suites": [
+    {
+      "name": "org.junithelper.core.meta.ArgTypeMeta_ESTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 866,
+  "focal_mutants": 7,
+  "killed_mutants": 6,
+  "focal_mutant_qualified_classes": [
+    "org.junithelper.core.meta.ArgTypeMeta"
+  ],
+  "mutation_score_percent": 85.71,
+  "legacy_strict_mutation_percent": 85.71,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "junithelper-core",
+      "PACKAGE": "org.junithelper.core.meta",
+      "CLASS": "ArgTypeMeta",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "66",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "6",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "13",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "6",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "3"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

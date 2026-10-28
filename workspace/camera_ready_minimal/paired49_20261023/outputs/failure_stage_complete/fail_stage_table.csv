@@ -1,0 +1,11 @@
+﻿fail_stage,gpt_n,gpt_percent,evosuite_n,evosuite_percent
+ok,61,20.33,158,52.67
+agone_runtime_failed,1,0.33,90,30.0
+generated_test_compile_failed,158,52.67,32,10.67
+generated_test_runtime_failed,2,0.67,2,0.67
+gradle_verify_failed,7,2.33,0,0.0
+jacoco_failed,24,8.0,0,0.0
+maven_reactor_prewarm_failed,2,0.67,2,0.67
+maven_verify_failed,43,14.33,15,5.0
+maven_verify_timeout,1,0.33,0,0.0
+pit_failed,1,0.33,1,0.33

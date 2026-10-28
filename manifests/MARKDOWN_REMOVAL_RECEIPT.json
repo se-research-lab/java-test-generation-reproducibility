@@ -1,0 +1,292 @@
+{
+  "at_utc": "2026-10-28T15:47:21.038321+00:00",
+  "scope": "workspace/**/*.md only",
+  "removed_count": 50,
+  "additional_old_manifest_md_entries_already_absent": [
+    "workspace/camera_ready_minimal/b1_full300_20261026/EXECUTION_ACCEPTANCE.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/GRADLE40_FROZEN_PROTOCOL_V1.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/HANDOFF_20261026.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/MAVEN_COMPATIBILITY_ADDENDUM_V1.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/MAVEN_NATIVE_JUNIT_AMENDMENT_V2.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/NEXT_STEPS_B1_V2.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/NON_JUNIT4_DEFERRAL_V1.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PLAN_B1.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PREPARATION_STATUS_V3.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V10.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V11.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V12.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V13.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V14.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V15.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V16.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V4.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V5.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V7.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V8.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/PROGRESS_B1_V9.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/README.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/README_CONTINUE_V8.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/README_CURRENT.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/CLASS_HISTORY300.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/METHODS_ENVIRONMENT_ASYMMETRY.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/READ_ME_FIRST.md",
+    "workspace/camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v2/REPORT.md"
+  ],
+  "remaining_workspace_markdown": 0,
+  "other_markdown_preserved_count": 8,
+  "nonremoved_files_verified_before_manifest_update": 1617,
+  "source_code_changed": false,
+  "backup_outside_bundle": "D:\\A_ThucNghiem\\review_reports\\github_source_md_cleanup_20261028T154546286Z",
+  "removed_files": [
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/WINDOWS_CP_TRANSPORT_AMENDMENT_V3_DRAFT.md",
+      "sha256": "a0c81b21be2e3ccc6676cb0912fceb3ff93463a5b6fe84d369c880ecabc740c3",
+      "bytes": 3727
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/WINDOWS_CP_TRANSPORT_AMENDMENT_V3.md",
+      "sha256": "1119fc70e6164453e7af29b2d3cb596cee89922834fd0815e532f39d9bb4d700",
+      "bytes": 3446
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/audit_e1_execution_20261028_v2/BAO_CAO_TOAN_BO_E1.md",
+      "sha256": "5673d0a750e7599b4119a003c9c034c82d44ec22b279414726d15c83db6efb3c",
+      "bytes": 26524
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/audit_e1_execution_20261028_v2/CLASS_HISTORY300.md",
+      "sha256": "c49ba47ca4c1d09f89ac51967e7059cf2884b74e3364cfe5397971fa12905eaf",
+      "bytes": 695810
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/audit_e1_execution_20261028_v2/README.md",
+      "sha256": "191299fba51c712c402ae65d7b243adfe7cd16338e1d1d6bcb2dd21cf260bfe0",
+      "bytes": 1787
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/MAVEN_POLICY_ANNEX.md",
+      "sha256": "52d7f646bf1ed69b4c47fe7d402dc82c86688977a760c0b65dcc8b29a8830b31",
+      "bytes": 2296
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/PAPER_CHANGE_RULES.md",
+      "sha256": "8728c2b5ff37bb4d31ba03c2dbd676d2c2637b996a6e415b90b4cfc9c88c4ca4",
+      "bytes": 6740
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/PARTIAL_PIT_POLICY_V3.md",
+      "sha256": "0cabdaa105897f28796583eae75598cd9f55f578a3a07fdb079f95080598739b",
+      "bytes": 2183
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/POLICY.md",
+      "sha256": "38d229821a79765c6389bc2ccfa3896b5790cfe4c8c5e49ad03c7ece6d67757b",
+      "bytes": 5847
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/README.md",
+      "sha256": "45cd73f21bbd3fd83ae788e401630dfd8227f5d7fc6518baece0659136eb9c15",
+      "bytes": 5518
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/REVIEW_ADAPTER_VS_FAILURE.md",
+      "sha256": "f8ecd5c22a4e8c51881720beaaf841552a58fc21d13afd63ea666136341f23c5",
+      "bytes": 4853
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/STAGE_POLICY_ANNEX_V2.md",
+      "sha256": "5277b52042872ad5331047076d8811362ce8d5eb552a5578cc3d322aa29b1324",
+      "bytes": 2447
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/final300_offline_v1/BAO_CAO_CHOT_300.md",
+      "sha256": "cd94173d4ef76c96227fe08ffccf1d8732c8973e0dfa9b95340b53182a8b5b0f",
+      "bytes": 11416
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/final300_offline_v1/PLAN_CAMERA_READY.md",
+      "sha256": "d055b5df4c457be0c1d75f0bccd4daad811fb8676b9da6738141b0ca2ee6b1bb",
+      "bytes": 11900
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/final300_offline_v1/README.md",
+      "sha256": "ea979b982ee31eaed14a5ac654e5d0d91a1e024f969c99096b998c23815d8e30",
+      "bytes": 4616
+    },
+    {
+      "path": "workspace/camera_ready_minimal/b1_full300_20261026/policy_attempt_history_v1/CLASS_HISTORY300.md",
+      "sha256": "d275329a4b6ba0d092322a8f44807de3760908ca1d13f6539581731fb657ad45",
+      "bytes": 16671
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/BAO_CAO_CHAN_DOAN_COMPATIBILITY_E1.md",
+      "sha256": "a43cf5de87e0109b21cc78155897317fc871921881d0bffa065fcd5fafaf66c5",
+      "bytes": 7645
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/BAO_CAO_CHOT_49_VA_KE_HOACH_CAMERA_READY.md",
+      "sha256": "cd10dfe4fc407771cd2e944aa3453e29e48f9a54fd6ebf4f8da0b357f8a9c597",
+      "bytes": 17179
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/BAO_CAO_KET_QUA_49_VA_CAMERA_READY_MOI.md",
+      "sha256": "5a34edad73870eddc99f38a5529466fbca415b12aa84dc8b70728dd465b37771",
+      "bytes": 16002
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/BAO_CAO_TRIEN_KHAI_DO_LAI_49_VA_RUI_RO_RQ.md",
+      "sha256": "a38ad6f4c821ee72097bc36604b3a7e64cef69f84e62737da6f54a56511ae962",
+      "bytes": 8542
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/E49_GUARD_JUNIT_AUDIT_20261023.md",
+      "sha256": "9b329a7bf72e6165006b0a757d6afe95ef307124b1403810521c3287c469824c",
+      "bytes": 5587
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/GIAI_THICH_MEAN_RANK_A12_RQ4.md",
+      "sha256": "e5a780ab13ff8e4a6bab4071d31d9b3df9fea7ddf589964838f7bbb171bc22f6",
+      "bytes": 2809
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/KE_HOACH_DO_LAI_49_SUITE.md",
+      "sha256": "592e4dcab5ef7b76a38eadc7e6f64bde86465e51a346de4dd57b7a511f72130d",
+      "bytes": 3964
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/MANUSCRIPT_MINIMAL_PATCHSET_REVIEWER.md",
+      "sha256": "690c8f13e9a1bc7f8dec3ce6519aa7ed7841f7e481a41504129775fc59701d51",
+      "bytes": 11205
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/PLAN_DO_LAI_49_SAU_COMPATIBILITY.md",
+      "sha256": "7a790438a93771a9711332a99ef24fdd1f0f6312e1019d066fd5daf7808c787f",
+      "bytes": 4005
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/PROTOCOL_CHAN_DOAN_E1_COMPATIBILITY.md",
+      "sha256": "2e45b02880c2f73af273edf04dd782515f37bb5c4dc6991ab9cf4d97016a2505",
+      "bytes": 7004
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/PROTOCOL_REPEATED_SUBSET_DE_XUAT.md",
+      "sha256": "f4e55a36ca984c011b67a127b16d9d27d077f28b21348b387eb35b62c15acadc",
+      "bytes": 4457
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/README.md",
+      "sha256": "32bc4352755c7a1dc31a48f63b92c16f0aa44c7b16bd34779836f73a9b31af63",
+      "bytes": 6228
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/REVIEWER_TASK_MATRIX_COMPAT49_CURRENT.md",
+      "sha256": "549b0ad6bd6a2688b8fde09b0f52ade8b11b914e395b91969a1dbdbc601e8287",
+      "bytes": 9084
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/REVIEWER_TASK_MATRIX_FINAL49.md",
+      "sha256": "ba10a9891759250424447b036b475e2fe2b66b52956c4a5f3ab178eb06866b73",
+      "bytes": 5680
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/SLR_MARGIN_PILOT_EVIDENCE_20261023.md",
+      "sha256": "8ed579c17d87276297e9bdeb3cac5c21210f3722adc1b93c5d5f44612e340a43",
+      "bytes": 12882
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/STATUS_DRIVER_E49_DANG_CHAY.md",
+      "sha256": "a8afbec3e123bcf68351baba57afe01e08b84d660e807cef704281f8d857535c",
+      "bytes": 11319
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/STATUS_EVOSUITE_VA_AUDIT49.md",
+      "sha256": "6cfc3c280338bd666ce61f3799dbdd407ac506d9b3e5c28b6f8bc75f534ea68b",
+      "bytes": 19876
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/TIEP_TUC_ANALYTICS_VA_TRANG_THAI_E49_20261023.md",
+      "sha256": "1a1f7aab74a633c28d46e48f4cc1df4d10eeef1e454e8ff8156150de9ebcb199",
+      "bytes": 7782
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/TRANG_THAI_MOI_NHAT_15TRANG_VA_RUNTIME.md",
+      "sha256": "c46ca5bf5affe8c4c0f616515b12d826a84d606c0ed5915fbccd6c2ef0a910d9",
+      "bytes": 4390
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/TRANG_THAI_TASK_RUI_RO_CAMERA_READY_20261023.md",
+      "sha256": "1f55255c6bde4c6498bed844155056717afc73c72625c58ced9ff0b86d451418",
+      "bytes": 9544
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/BAO_CAO_ANALYTICS_49.md",
+      "sha256": "24d9802b75d6f8c55a33724b30def363da970aeacf6c7f6f083558c4c72fb23b",
+      "bytes": 4612
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/paper_insert_en.md",
+      "sha256": "ff410595a44284ce052c95560980f63929d5e67b99bf7cdf77f2a55224686e92",
+      "bytes": 1245
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/cluster300_sensitivity/BAO_CAO_CLUSTER300.md",
+      "sha256": "e7c5c8eee9709aee45f3effe966ed58973b9eb793bea99ef9ebb001d8aad6105",
+      "bytes": 912
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/e49_final_v2/BAO_CAO_E49.md",
+      "sha256": "47367e71d06fe7ba40ec6d624d2a9601681dddc505e27af30a63f841574a4934",
+      "bytes": 2732
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/e49_final_v2/paper_insert_en.md",
+      "sha256": "412d6eba25289bd57c2a5f23761560e989a7648c4036653b0674e276fc0015ff",
+      "bytes": 683
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/e49_measurement_compat_v1/BAO_CAO_MEASUREMENT_REPLAY49.md",
+      "sha256": "ee7595951d3d33ea40dd4d5bd35b92280db6ea3d4dc125b0527e4e00ea640364",
+      "bytes": 1589
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/failure_stage_complete/BAO_CAO_FAILURE_STAGES.md",
+      "sha256": "d42025e983b5dcd3e9c743174fdd56c5df6adbf77f70b429123cf78907a0d7dc",
+      "bytes": 1256
+    },
+    {
+      "path": "workspace/camera_ready_minimal/paired49_20261023/outputs/maven260_sensitivity/BAO_CAO_MAVEN260.md",
+      "sha256": "b1a1b14970eda57de452c98b4550a75865468e0cb15672b258516d8a0cefd853",
+      "bytes": 1992
+    },
+    {
+      "path": "workspace/scripts_v2/proposal.md",
+      "sha256": "f7c81e8555e052593b06913cb936216583f6bcce632bcf84152a2a213c548ef8",
+      "bytes": 24215
+    },
+    {
+      "path": "workspace/scripts_v2/README.md",
+      "sha256": "9865df4643c647f618ae4946f838dd2b8ad8d2b2ad42e79b58136cef2c420dfd",
+      "bytes": 2683
+    },
+    {
+      "path": "workspace/scripts_v2/RESEARCH_QUESTIONS_UPDATED_WITH_SOURCES.md",
+      "sha256": "48192d7690974feee459d098c03cca7933845786172762b0309b2cb1b5dac16f",
+      "bytes": 24313
+    },
+    {
+      "path": "workspace/scripts_v2/AgoneTest/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "workspace/scripts_v2/data_new/manifest_split_report.md",
+      "sha256": "999f792cdb629d78e99cb455fc8cd628e06f7a192eaa998d62ae2613de08595f",
+      "bytes": 1353
+    },
+    {
+      "path": "workspace/scripts_v2/experiment_tool/README.md",
+      "sha256": "4752ce94c6341afe84b4fb68cbcb413fe8c240f38cb1384320cf605d9d8a99f0",
+      "bytes": 1633
+    }
+  ]
+}

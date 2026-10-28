@@ -1,0 +1,13 @@
+{
+  "scope": "one display label takes the actual integer from status instead of stale literal12",
+  "backup_path": "backups/monitor_index_before_dynamic_deferral_label_v1.html",
+  "backup_sha256": "de2a0bc33bccdc53b82d905bd38d9878acf45d0cb020434a7d2a94f528b09a6b",
+  "before_sha256": "de2a0bc33bccdc53b82d905bd38d9878acf45d0cb020434a7d2a94f528b09a6b",
+  "after_sha256": "9f02ccc9669aafc4b4ac2eb1fec3ad767a3151258bd9bee1ebf5bfdeb0de6f06",
+  "served_new_page_HTTP": true,
+  "browser_render_checked": false,
+  "experiment_source_changed": false,
+  "raw_status_changed": false,
+  "metric_or_denominator_changed": false,
+  "new_experiment_calls": 0
+}

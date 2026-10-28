@@ -1,0 +1,1262 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\077_46450575_ea016342\\compiledrepos\\46450575",
+  "class_indices": [
+    79
+  ],
+  "files": [
+    {
+      "relative": ".codecov.yml",
+      "sha256": "abb237d97b2f3fbaef780cd1d3d39d3c3d7eccb81b8d7acd606e8217420dc970",
+      "bytes": 447,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934197949000
+    },
+    {
+      "relative": ".gitignore",
+      "sha256": "ee6f01694f3b119c76a108d2fdd8755b6dab2fb006b0d1f472be6606367df8a6",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934197949000
+    },
+    {
+      "relative": "LICENSE.txt",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "bytes": 11558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934197949000
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "5a7943632f652d458d4bddfc0782df57bfb7187c411736c064e5d20b68bc1db2",
+      "bytes": 20880,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934278805000
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "99971a45ffa776d67daeb423bb444b863200a08537638285f54aa36ff975cf1b",
+      "bytes": 17103,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837337540516200
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "f344228e1c25f41beef20cbce00bc8f9a4cc15ef8f84c8d6c991eb6f1087e898",
+      "bytes": 10936,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837337455187000
+    },
+    {
+      "relative": "README.md",
+      "sha256": "9889c93c76032ddfb1e46e35a449bcb2bb8d07d90b912437186e235c6b4a189f",
+      "bytes": 11332,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934198948000
+    },
+    {
+      "relative": "update-site.sh",
+      "sha256": "5b1e157de77c7ca6506b664773a2d5b4775ccf3489b6a0ad691406b9e2c8425a",
+      "bytes": 344,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934278805000
+    },
+    {
+      "relative": ".circleci/config.yml",
+      "sha256": "b8686f8153b29041e6cbb024f40f215f1d14e928a1428a2e7bf383c8cb655c4c",
+      "bytes": 1694,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934196947800
+    },
+    {
+      "relative": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "b1cdcc967cb5245ffc009204660ad0d96607792a36369c48361cfab7fde4d3a4",
+      "bytes": 1297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934197949000
+    },
+    {
+      "relative": "contrib/flo-bigquery/pom.xml",
+      "sha256": "f0c0688602c1d17f3e7e9bea2ca54b3e89e64768e4ca4c6021095a34e88a6a7b",
+      "bytes": 1196,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837515068622200
+    },
+    {
+      "relative": "contrib/flo-bigquery/evosuite-report/statistics.csv",
+      "sha256": "0314567971a0368c5d1e290a9520b8670b0d013d2e9211231b496dc2f759fa0a",
+      "bytes": 122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837494427741000
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryClientSingleton.java",
+      "sha256": "f1920e3e8e2dba90aaac4fe028b9e8eccac6290152ff0748a31667bf0094c3c3",
+      "bytes": 1991,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934201251300
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryLookup.java",
+      "sha256": "2892e82e4189782d9052b67e7e23c6dad1c9094894075b8a76260acb3b7137f4",
+      "bytes": 2945,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934201251300
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryLookupOperator.java",
+      "sha256": "d2046b52efafa5b90b7a28e67331246ae72c122864c547c56ebebef39dc9b3ad",
+      "bytes": 1706,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934202327500
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryMocking.java",
+      "sha256": "6c680c68428ec64cfc4422f35ab94215c933feee53b0910f711da92c0239f2a3",
+      "bytes": 5638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934202327500
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryOperation.java",
+      "sha256": "d06fd102bec95e698bb10522f5f918080ecd2ace0f242f53b11ca3b3a90ec8f4",
+      "bytes": 3055,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934202327500
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryOperator.java",
+      "sha256": "99e42aabf363db7a79b074d47b3160b85f7f9ae2dceafb7919b591cbdc4712e0",
+      "bytes": 1803,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934203328000
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryOutput.java",
+      "sha256": "c31c54c916d06c06c45c49d27684d8498b13ae01d0d6ab5046e7075ef7386dd0",
+      "bytes": 3853,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934203328000
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryResult.java",
+      "sha256": "b5831abb096c1e6dc454f1afae6745c8781b58011148a683482efc9367061c46",
+      "bytes": 999,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934203328000
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/BigQueryTasks.java",
+      "sha256": "a1f6d4d4aec31c9661a4376391602343261fcc16f0ecfaac80747c3d97a9cffc",
+      "bytes": 3231,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934204327800
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/DefaultBigQueryClient.java",
+      "sha256": "baa81b423195543015942354fc35a7906a2422e4a41696575bfb847b1028a73d",
+      "bytes": 4251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934204327800
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/FloBigQueryClient.java",
+      "sha256": "1cfa9403d6daf9814a694a6a1ce4b2b87f2ad29eb8a15c922d50a8576107cd76",
+      "bytes": 2499,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934204327800
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/GcpOptions.java",
+      "sha256": "e697ab937b8c1621945187cd428233de9508e323fdcdb74077c425cd8a1470ac",
+      "bytes": 2649,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934204327800
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/main/java/com/spotify/flo/contrib/bigquery/StagingTableId.java",
+      "sha256": "d0f4fac3deda2841a52b111f864306a7bb076e74401c96117b25473e77881625",
+      "bytes": 1862,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934205716000
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/test/java/com/spotify/flo/contrib/bigquery/BigQueryMockingTest.java",
+      "sha256": "9d075f487b1ec02c9b54450b2ee330f3190fce1d22af2668bbed02d7db0e96a8",
+      "bytes": 5599,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934207246300
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/test/java/com/spotify/flo/contrib/bigquery/BigQueryOperatorTest.java",
+      "sha256": "b9d81acb5ee12699f51cf14968a2ca8df461cb15c670e113d432b95118f85962",
+      "bytes": 4854,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934207246300
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/test/java/com/spotify/flo/contrib/bigquery/BigQueryOutputTest.java",
+      "sha256": "9c88671249a17f397e32da2c5d3b99560f3381e54207e63e0af4edcd3cacdb5f",
+      "bytes": 9507,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934208235500
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/test/java/com/spotify/flo/contrib/bigquery/BigQueryOutput_RBL4_ea016342Test.java",
+      "sha256": "de9b9372be24abc17544e03bd9afa58bd057f90cac18c10e7032a56850ae404f",
+      "bytes": 97,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837515061622600
+    },
+    {
+      "relative": "contrib/flo-bigquery/src/test/java/com/spotify/flo/contrib/bigquery/BigQueryTasksTest.java",
+      "sha256": "db9cc5ff342765da17762bb06308f36b3f6f2246ddddbfcb23e17e7601c74874",
+      "bytes": 10145,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934208235500
+    },
+    {
+      "relative": "contrib/flo-scio_2.11/pom.xml",
+      "sha256": "15a215610306e5aae417bb3e691ee0c52a8c0bb96e63021aa1bbe343ed8b5c1e",
+      "bytes": 3979,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934208235500
+    },
+    {
+      "relative": "contrib/flo-scio_2.12/pom.xml",
+      "sha256": "b5861228a8a7929a4940bda7e5a798eb32c26b3a3091f82e10f3694b3d357833",
+      "bytes": 3443,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934209238800
+    },
+    {
+      "relative": "contrib/flo-scio_2.12/src/main/scala/com/spotify/flo/contrib/scio/ScioJobSpec.scala",
+      "sha256": "ce1161aef5e42d00d6bcd9897de71ad3c9b5c881cec00cc10111a26b3f7b8547",
+      "bytes": 2744,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934210246300
+    },
+    {
+      "relative": "contrib/flo-scio_2.12/src/main/scala/com/spotify/flo/contrib/scio/ScioOperator.scala",
+      "sha256": "7f643b89da63b9e5f67b199e21d2cbec16316de00d4c93360157e87e1a9096ec",
+      "bytes": 6665,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934211237000
+    },
+    {
+      "relative": "contrib/flo-scio_2.12/src/test/resources/logback.xml",
+      "sha256": "9c506263a40c5fe67d4cd071fcb69e22880cb1e6e922699f18dbd088bb618045",
+      "bytes": 393,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934212239700
+    },
+    {
+      "relative": "contrib/flo-scio_2.12/src/test/scala/com/spotify/flo/contrib/scio/ScioOperatorTest.scala",
+      "sha256": "3a2bea3c1d853fafe51a479a6aa51c490a141da5401e0c1dfd73d169763fb0f8",
+      "bytes": 7082,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934213238200
+    },
+    {
+      "relative": "contrib/flo-styx/pom.xml",
+      "sha256": "a227b30fc228c86fddf541b950ab2586dd3eb84c6e6e6fe640dcb1c20f05de7a",
+      "bytes": 1977,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934213238200
+    },
+    {
+      "relative": "contrib/flo-styx/src/main/java/com/spotify/flo/contrib/styx/StructuredLogging.java",
+      "sha256": "7cd5b9bab47696c77bd27f132aadd6942ec0040508b0298aa805f34ea12de34f",
+      "bytes": 2354,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934215239800
+    },
+    {
+      "relative": "contrib/flo-styx/src/main/java/com/spotify/flo/contrib/styx/StructuredLoggingEncoder.java",
+      "sha256": "2ef6003f7de72706978aac64985c0f64c6ef313e3566e6bf2342ec3a607a3bd0",
+      "bytes": 7316,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934216239200
+    },
+    {
+      "relative": "contrib/flo-styx/src/main/java/com/spotify/flo/contrib/styx/StructuredLogMessage.java",
+      "sha256": "761cdaa4fda65f06e546a0ba4a62b8bc9071c99b21a0573ac0ed0bc389a39f01",
+      "bytes": 2145,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934215239800
+    },
+    {
+      "relative": "contrib/flo-styx/src/main/java/com/spotify/flo/contrib/styx/TerminationLogging.java",
+      "sha256": "98bf86d9f497918edbb7cb32ba1e613bbf92fa95a2d79e2fd88ac1603e82aaf2",
+      "bytes": 2492,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934216239200
+    },
+    {
+      "relative": "contrib/flo-styx/src/main/java/com/spotify/flo/contrib/styx/TerminationLoggingFactory.java",
+      "sha256": "d3722a19e701ecaaadc6a6957e7d49fd368627abbac05171ac72c3d9d56e7e55",
+      "bytes": 1129,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934216239200
+    },
+    {
+      "relative": "contrib/flo-styx/src/test/java/com/spotify/flo/contrib/styx/StructuredLoggingTest.java",
+      "sha256": "5b2e67b672e0f6e952ba067e141bedd63c4889e12701a27d788c87b337a120d3",
+      "bytes": 11049,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934218239300
+    },
+    {
+      "relative": "contrib/flo-styx/src/test/java/com/spotify/flo/contrib/styx/TerminationLoggingFactoryTest.java",
+      "sha256": "2005aaebb113c52952c422e101d42da352c89df0ef66b7aa6496a441bd716c80",
+      "bytes": 1392,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934218239300
+    },
+    {
+      "relative": "contrib/flo-styx/src/test/java/com/spotify/flo/contrib/styx/TerminationLoggingTest.java",
+      "sha256": "5b5de4107941012866f0d5bca26399327dcee243b3fc73615535aac8600bf8b3",
+      "bytes": 4335,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934219238300
+    },
+    {
+      "relative": "contrib/flo-styx/src/test/resources/logback.xml",
+      "sha256": "495c8de207d7b6e0670dbb36a2aa5ca62b26b624fa272f4685d4b06db140badb",
+      "bytes": 307,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934219238300
+    },
+    {
+      "relative": "doc/flo-eval-context.svg",
+      "sha256": "7c92df91fad7b87fe0bd84a71bf831833ea9ed3dea9eeb70fa271b827a3c2d9e",
+      "bytes": 35943,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934220235600
+    },
+    {
+      "relative": "doc/flo-logo-small.svg",
+      "sha256": "11b12001c26db515485c4a44ff07c1ff7ba4a976cf3563b80f0bba352bb8e7e8",
+      "bytes": 2330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934220235600
+    },
+    {
+      "relative": "doc/flo-logo.png",
+      "sha256": "14957b5feb5a366448aff0aa29a402aa68f4ae83a43cc047fdb3cb15a5f2547a",
+      "bytes": 3550,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934221238000
+    },
+    {
+      "relative": "doc/flo-logo.svg",
+      "sha256": "8e9525e99a1716cc21ff69b030e325dff794edfaa3d4adef25a7da9f7ee22d4f",
+      "bytes": 2499,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934221238000
+    },
+    {
+      "relative": "doc/principles.md",
+      "sha256": "93be1154fef390cfb2c16635309b3b49fd7cac50371243dbd81ce6ae7631627a",
+      "bytes": 729,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934221238000
+    },
+    {
+      "relative": "flo-api-generator/pom.xml",
+      "sha256": "684857d8fbd7748f292584ed8bcc52f2ee064f00a0a4185853cd3629c1e51755",
+      "bytes": 1378,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934222237600
+    },
+    {
+      "relative": "flo-api-generator/src/main/java/com/spotify/flo/gen/ApiGeneratorProcessor.java",
+      "sha256": "deefa035937c7c6bc63ef5cecb56bccee0df0ff6eb107e987dbb0449bd40d9fa",
+      "bytes": 11388,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934223239200
+    },
+    {
+      "relative": "flo-api-generator/src/main/java/com/spotify/flo/gen/GenerateTaskBuilder.java",
+      "sha256": "ca7aaa1a6262f084e31db31e03f3339621b6377b61ff2a6e4669d342af1d2a75",
+      "bytes": 1139,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934224238000
+    },
+    {
+      "relative": "flo-api-generator/src/main/resources/ScalaApi.mustache",
+      "sha256": "ef2ca570d2c2d114bdf41e989454722c5dddaf9ae6283e9dd5676a6867091c3f",
+      "bytes": 1632,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934225238300
+    },
+    {
+      "relative": "flo-api-generator/src/main/resources/ScalaApiImpl.mustache",
+      "sha256": "f91ab8da05a92f50185af057318ddf6f3959ba35c381c371fe2ea3d2cac1c3e5",
+      "bytes": 4751,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934225238300
+    },
+    {
+      "relative": "flo-api-generator/src/main/resources/TaskBuilder.mustache",
+      "sha256": "72624662162eb149ff55dc47655de09e0def0aa7af2b26c1605785c55bdc008b",
+      "bytes": 2356,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934225238300
+    },
+    {
+      "relative": "flo-api-generator/src/main/resources/TaskBuilderImpl.mustache",
+      "sha256": "bb1b4a306458678ae6247d98ef1d8d9bc7c4ca87066fc9ce98e3c011e99a3980",
+      "bytes": 6713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934225238300
+    },
+    {
+      "relative": "flo-api-generator/src/main/resources/META-INF/services/javax.annotation.processing.Processor",
+      "sha256": "9bd992fa934a11a35bb1f0864939897690aecaeceb2a807f26b55738ed6cee5c",
+      "bytes": 43,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934224238000
+    },
+    {
+      "relative": "flo-freezer/pom.xml",
+      "sha256": "020211405b0f4e5bede90ddc73575802b1759a1e194df7da2d38802784d411d6",
+      "bytes": 868,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934226239200
+    },
+    {
+      "relative": "flo-freezer/src/main/java/com/spotify/flo/freezer/EvaluatingContext.java",
+      "sha256": "aaddc2979a044c55b5206975b2eaed12bc6fed5a19ce991c975f0d7e9b10edaf",
+      "bytes": 4879,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934227237200
+    },
+    {
+      "relative": "flo-freezer/src/main/java/com/spotify/flo/freezer/LoggingListener.java",
+      "sha256": "dd11ed232ff8b0b1a731b5208ae53c429ab9df22e920914adbba7e2e12fc1a42",
+      "bytes": 1403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934227237200
+    },
+    {
+      "relative": "flo-freezer/src/main/java/com/spotify/flo/freezer/Persisted.java",
+      "sha256": "7d090e35923c1fdc242e1a06bf84cac147043f84cc32dccc1ad52f2b55cf29f4",
+      "bytes": 923,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934228477000
+    },
+    {
+      "relative": "flo-freezer/src/main/java/com/spotify/flo/freezer/PersistingContext.java",
+      "sha256": "8a402c7dbd7ea4313d987b92516e6382e6c7f6102ef6eea3cca16a4a063b9c2a",
+      "bytes": 3521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934228477000
+    },
+    {
+      "relative": "flo-freezer/src/main/java/com/spotify/flo/freezer/TaskRunnerEntrypoint.java",
+      "sha256": "898ab85abde74abffa05434e038fa149784ec366bd395e2177fc8ea8ae1c0cb0",
+      "bytes": 2724,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934229478100
+    },
+    {
+      "relative": "flo-freezer/src/test/java/com/spotify/flo/freezer/EvaluatingContextTest.java",
+      "sha256": "40b0c58886184fd64ddb77fdaf313cd5cba19f263ef693ed824b9e48fa304861",
+      "bytes": 5926,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934229478100
+    },
+    {
+      "relative": "flo-freezer/src/test/java/com/spotify/flo/freezer/TaskRunnerEntrypointTest.java",
+      "sha256": "094a73ff7cfc915da283541730604cd3c73941a965fd7909fe192dba3795decd",
+      "bytes": 1650,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934230916000
+    },
+    {
+      "relative": "flo-runner/pom.xml",
+      "sha256": "dbfc3fbc7729972e072a54879d185c99e7ce66085d2946bdabcaac1163b7a2f2",
+      "bytes": 1963,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934230916000
+    },
+    {
+      "relative": "flo-runner/README.md",
+      "sha256": "ca356b0a671c7bf05e1cc2125cb458378db5edbd1a8862d254a3c53ee36231fa",
+      "bytes": 2481,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934230916000
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/ChainedListener.java",
+      "sha256": "17568b9cb541172be8d1b232552a122eb38f40760cba57b125a0e8c24b26b97e",
+      "bytes": 2972,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934232934200
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/FloListenerFactory.java",
+      "sha256": "7b40af9cf7dfb90e2aa01a91f9f0713a415613eec22153cdfe3c9c9e4b0b08fb",
+      "bytes": 1241,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934232934200
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/FloRunner.java",
+      "sha256": "54d1869de5cb019b0059ea2b19390ad73704c2213b020b5d7abbb144c0f9c54b",
+      "bytes": 11330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934233934400
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/ForkingContext.java",
+      "sha256": "0b99aa02b9ca2e45a15859355993367bcb0aa64d123e56cf0aed6b37167d5047",
+      "bytes": 3830,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934233934400
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/ForkingExecutor.java",
+      "sha256": "f8c8277f16df86e33441ebb307e6a7548c3d1b018612ce4513d6c1b2a75e1d97",
+      "bytes": 12313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934234933400
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/Logging.java",
+      "sha256": "92e8e7577b0197e2985d54e568756cbe1f96000db14b678458b4fc4e6b93b205",
+      "bytes": 4435,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934234933400
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/LoggingContext.java",
+      "sha256": "543ef55c27c28d1c937087e2f9ad204e5c4f0f6bd86fd79c4b748ecbe794f0a2",
+      "bytes": 2005,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934234933400
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/NoopListener.java",
+      "sha256": "ae758b6c696dd4007037cbe2d95389ebc40bc8444e9347f14aa14390eba2067e",
+      "bytes": 964,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934236302900
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/OverridingContext.java",
+      "sha256": "ef92b3126dac218dc203170345d27227dab922a78e1751c42afc9d543fdbefd1",
+      "bytes": 2582,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934236302900
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/PrintUtils.java",
+      "sha256": "7d3bd9a9d56db5828ce24c1b158d748424b9b8f8137db29cf240124c88d52b40",
+      "bytes": 2220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934236302900
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/TerminationHook.java",
+      "sha256": "4e5d7c1a0e1498b87aa171798016733b11cfed844e476d194b29a6ad6c0283a8",
+      "bytes": 813,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934236302900
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/TerminationHookFactory.java",
+      "sha256": "23c9ee976d6a31f3e81e1b6065687deee6ac076708ce4f60458477859eec4d5a",
+      "bytes": 835,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934236302900
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/context/Version.java",
+      "sha256": "cc12dbfbdd8d31bb0fbdb98222a2cb6d5ceed36700bbb732a5f08c9e5319848b",
+      "bytes": 1514,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934236302900
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/status/NotReady.java",
+      "sha256": "733dca7a56255188049e38cb8893780b0812febc30ccd3144d3dfcbd09e37783",
+      "bytes": 825,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934237777500
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/status/NotRetriable.java",
+      "sha256": "86dab61e900e60f78f674331725df66da65a57720fdc1d9eb7484fd6a2ed4cbc",
+      "bytes": 934,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934237777500
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/status/TaskStatusException.java",
+      "sha256": "afd09001956e6a3725c00055c681a84a351d7764d316e8d40c01c2119b833eb7",
+      "bytes": 983,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934237777500
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/util/Date.java",
+      "sha256": "4ffe1c45c08312fdf98dc39ebf3f0a77a83645d3296ce856d16b97909789d34e",
+      "bytes": 2317,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934238789000
+    },
+    {
+      "relative": "flo-runner/src/main/java/com/spotify/flo/util/DateHour.java",
+      "sha256": "8617481d920495b8a97178497262cd7fe0f8a7e4730392414defb8bded7f550f",
+      "bytes": 3172,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934238789000
+    },
+    {
+      "relative": "flo-runner/src/main/resources/reference.conf",
+      "sha256": "ce1d0f6415e6885935d1141e7e4b27cd0522d36dbd6babe28356d2dd58f07439",
+      "bytes": 179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934239789000
+    },
+    {
+      "relative": "flo-runner/src/main/resources/com/spotify/flo/flo-runner.version",
+      "sha256": "dc2484c29c8c4ba97fd9bbb0c9b86b0386775783ed99fcbd6efec230d9bcf063",
+      "bytes": 18,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934239789000
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/ChainedListenerTest.java",
+      "sha256": "dd79f95d3f7a2d11dd7d869e9af108953fd81fa23ea3e9f00a83b0608b19c071",
+      "bytes": 3549,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934241846800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/FloRunnerTest.java",
+      "sha256": "245f35ee9891db12d546ee1e25791dd4006cd11b80732c6c701ca1176defd2b1",
+      "bytes": 20166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934241846800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/ForkingExecutorTest.java",
+      "sha256": "bb3e0769823c86e2688a343a0e4c9c91e212edcae24c58859513de541ce75693",
+      "bytes": 3629,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934242850500
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/Jobs.java",
+      "sha256": "2aaba1817c09f4573e943ae16af98a80f5822476a2fd0b509661ac6337b12cbb",
+      "bytes": 3356,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934242850500
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/LoggingTest.java",
+      "sha256": "d18b0d643b100ee256e3919852678945b548a4b0121888da50d1171218ef5015",
+      "bytes": 2309,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934243848800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/Mocks.java",
+      "sha256": "abd9ac28aa5cfbb89a07db9df4961f4fbb1a749ee375ae69916080844e257f8a",
+      "bytes": 7284,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934243848800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/OverridingContextTest.java",
+      "sha256": "cdb62026d6067d9fed8fbe6a8ec1ae5548bcffb299ce3bb25f62943860f87238",
+      "bytes": 4261,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934243848800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/RecordingListener.java",
+      "sha256": "e32e046b1af12ed9b382698bbbf7754802310f717c6772ed73e45d9c7e2db4a1",
+      "bytes": 3599,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934244852800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/SerializableConsumer.java",
+      "sha256": "34a72e0de27149de66e95a44d42982774ad8daa594ef00544808988c20e3c478",
+      "bytes": 852,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934244852800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/TestTerminationHookFactory.java",
+      "sha256": "646b5f359a8269682aba6e9ed5824c02722ec0426b4185f4d05af2de2c95cb67",
+      "bytes": 1523,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934245851800
+    },
+    {
+      "relative": "flo-runner/src/test/java/com/spotify/flo/context/VersionTest.java",
+      "sha256": "384a8d537d88d02eb3e863b640886d88405da3113a39dac79f9a01488d508609",
+      "bytes": 1350,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934245851800
+    },
+    {
+      "relative": "flo-runner/src/test/resources/logback.xml",
+      "sha256": "4e393e42887a9aa94f1126fcef966f1290f8439516d67ba5192de9e85ff60f33",
+      "bytes": 340,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934245851800
+    },
+    {
+      "relative": "flo-scala_2.11/pom.xml",
+      "sha256": "cfa2d83ebc1ec09dd4140f9db35377c532013839b176be38a0a8d80fb05028b3",
+      "bytes": 3113,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934246849300
+    },
+    {
+      "relative": "flo-scala_2.12/pom.xml",
+      "sha256": "705919ee20cd08687aed2bde54ec5f0374800fa54731a16cb89cc33ea9578eaa",
+      "bytes": 2850,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934246849300
+    },
+    {
+      "relative": "flo-scala_2.12/src/main/java/com/spotify/flo/dsl/ScalaTaskBuilderTemplate.java",
+      "sha256": "f2d86ec519bcd513487ba981624fbaf7bba3e35082665707a2b6869ec09fca01",
+      "bytes": 896,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934248351000
+    },
+    {
+      "relative": "flo-scala_2.12/src/main/scala/com/spotify/flo/package.scala",
+      "sha256": "7dca9d7966a7a36aad4176a305f1f5b9f9842d6a4eceaabaddba0a057b0ee616",
+      "bytes": 1391,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934249357200
+    },
+    {
+      "relative": "flo-scala_2.12/src/main/scala/com/spotify/flo/dsl/Util.scala",
+      "sha256": "c0be4a19410ed8aacb03c3ad8f8fb65e1d1af4ccbc689fca95e22ecb1ec022f2",
+      "bytes": 5525,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934249357200
+    },
+    {
+      "relative": "flo-scala_2.12/src/test/resources/logback.xml",
+      "sha256": "8e548aeca371492fbf73ce22a636fd240daf2c95e0a4bd556b5b7e0b3e299cc2",
+      "bytes": 341,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934250358000
+    },
+    {
+      "relative": "flo-scala_2.12/src/test/scala/com/spotify/flo/DslTest.scala",
+      "sha256": "981e9ab5c2c80d851ebe897e807f24ab5d3a556e164294c5c44cb45af4fbaf60",
+      "bytes": 3046,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934251357000
+    },
+    {
+      "relative": "flo-scala_2.12/src/test/scala/com/spotify/flo/Examples.scala",
+      "sha256": "de46f115c78f9a501b567d79d2c234a4316ca06f41b085309a1adae91da01d6b",
+      "bytes": 3821,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934251357000
+    },
+    {
+      "relative": "flo-scala_2.12/src/test/scala/com/spotify/flo/PersistingContextTest.scala",
+      "sha256": "dd2d21319d98f955cb97bd2a59e2bdde2e304104c1b28d76039d412677039248",
+      "bytes": 601,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934251357000
+    },
+    {
+      "relative": "flo-tests/run_shading_tests.sh",
+      "sha256": "6699f9267ec31a4133544372494edc61520561c6edfe22000202ad2a89b4fb55",
+      "bytes": 332,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934252358700
+    },
+    {
+      "relative": "flo-tests/shading/pom.xml",
+      "sha256": "5fe59f3e338b6275c4f1459fc7e6ecc46eef6756835deb623fc37372e8d797e2",
+      "bytes": 2480,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934254384500
+    },
+    {
+      "relative": "flo-tests/shading-user/pom.xml",
+      "sha256": "aa79bfca003d280f672c88e1c1ac5ecf7f28f1f2d42ae97ed32b8adcd5f86b21",
+      "bytes": 1500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934252358700
+    },
+    {
+      "relative": "flo-tests/shading-user/src/test/java/shaded/com/spotify/flo/context/VersionTest.java",
+      "sha256": "a8d22436506642cfd6c10ad5591a2b79acd64befc482aa640adf9f096023da17",
+      "bytes": 1346,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934254384500
+    },
+    {
+      "relative": "flo-workflow/dependency-reduced-pom.xml",
+      "sha256": "35c56d78b2d078b10f324e8b228e9d9fa7569d93dd4933df6a2e0f49a6c5673f",
+      "bytes": 4394,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837321004013600
+    },
+    {
+      "relative": "flo-workflow/pom.xml",
+      "sha256": "bf5289de992615fefd4db000aa52a172d2e0510da8c0ea0097f31bb8d67b39e2",
+      "bytes": 1891,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934255583500
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/BaseRefs.java",
+      "sha256": "33b2a8472aea7ab83028fdd663ffd123c3ef7298542b3f8f2a89f0841d2bdfed",
+      "bytes": 1689,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934256616600
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/BuilderUtils.java",
+      "sha256": "4100c5e3e147b892be43b43f0111ec41d8ad8217dd73eb7aeb21386ca31f6125",
+      "bytes": 2968,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934256616600
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/ControlException.java",
+      "sha256": "7f2e792c51a0d20c2c7cb56f9dba9ddce974f2d263e72b6c2532f12dd9228c79",
+      "bytes": 846,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934256616600
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/EvalContext.java",
+      "sha256": "bddfca8bfb7214b493ee7bb3c392d716e3ed0b56be306fca91f24c276ef3a52b",
+      "bytes": 10754,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934257828000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/EvalContextWithTask.java",
+      "sha256": "f758bf026fda08e4ff6de3ff8ab201cb9da159a5cc1f3d3a131b151fa6980e02",
+      "bytes": 1433,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934257828000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/FloTesting.java",
+      "sha256": "2fa448e59d2ecbbed9f71795d35a8c320b8602245a94ba068024377e42de0325",
+      "bytes": 1664,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934257828000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Fn.java",
+      "sha256": "cdde63963b950f3a2b6db4386643e2172250ed99766f459f2fb7af36ec1f84ba",
+      "bytes": 866,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934257828000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Fn1.java",
+      "sha256": "e6e950a328d9018ef738acc56292b02387477ae01a35c50c08db64c4f26948fd",
+      "bytes": 873,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934258958000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Invokable.java",
+      "sha256": "69fd309c74c4d471bb9ae498cb356b861c965ee4ac56a2c48d258546dda52f1d",
+      "bytes": 834,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934258958000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/NamedTaskBuilder.java",
+      "sha256": "e546e6361d8cafbe38a9492f6d93672f1301ba97adb2c17be316be55deb76c46",
+      "bytes": 938,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934258958000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/ProcessFnArg.java",
+      "sha256": "45c86fb3dbdfabbf82da8a4673ba1912b5a8cf50027f0b0e7794de12da3c86f4",
+      "bytes": 877,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934258958000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Serialization.java",
+      "sha256": "afa01a9e97c42cca43c0d3d4b4c05fbb8f805aed0513b5ab959fba0ac46915a7",
+      "bytes": 3491,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934260150000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/SerializationException.java",
+      "sha256": "42dbb8242a1a5a0f1f0fc657ea3fe873a41f559fc662b65989c5faf509f556ff",
+      "bytes": 1016,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934260150000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Singleton.java",
+      "sha256": "c5f21e8a0c1e6239f5d890e8a357a9e761e98152c1afd271ed1d7243551ca500",
+      "bytes": 1427,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934260150000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Task.java",
+      "sha256": "d4d3d41094b55c691cc9f7149badae462325d025880fb8f21e7384c42c2c56d4",
+      "bytes": 3470,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934260150000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskBuilderTemplate.java",
+      "sha256": "02cd001538ba965480dab2daf77d7fd430a1c67fa1a618f1a4f8be6c5f618d74",
+      "bytes": 832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934261220700
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskContext.java",
+      "sha256": "f0022e179fc12c1a2e1ed4e5a0a4fd75509a432e227d456f50746329cfb1ffc1",
+      "bytes": 2393,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934261220700
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskContextGeneric.java",
+      "sha256": "4add581e1f9e4113e644969c265ae1653eddcf208947f402ab3ee3ddd22ed04b",
+      "bytes": 952,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934261220700
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskId.java",
+      "sha256": "007a2b32558ed0a387bd25ea32ec5eff2b24a7e7ff5fdd1b07bd3e72ed8776f0",
+      "bytes": 1954,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934262390400
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskIds.java",
+      "sha256": "e640c35a5f79b78d4e0718100075d276c5dbe61c63919e9eab505e3e579f4953",
+      "bytes": 2505,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934262390400
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskInfo.java",
+      "sha256": "78dc6038f1c7035458bed218981ea2c7cd2fe1942f366ed3a06af27381a9777e",
+      "bytes": 1988,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934262390400
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskOperator.java",
+      "sha256": "f435d6044ad59284604b373e5a8c8c0bc6711805ac680a5a5b2f70be3e876779",
+      "bytes": 1907,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934262390400
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TaskOutput.java",
+      "sha256": "efc0d5349b878bccfc30499707c08edec560ce2904bf7d97cc1f92ef2174be8f",
+      "bytes": 1391,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934263484500
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TestContext.java",
+      "sha256": "d31387b8cbcd17cacfd034aa8d3556317033521c59b6251ad31f52bccedadf22",
+      "bytes": 2370,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934263484500
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/TestScope.java",
+      "sha256": "0e59bd57e3388b4d51984519c6cd8c18d82b3b12566b77c99eb591f5b4740ceb",
+      "bytes": 998,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934263484500
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Tracing.java",
+      "sha256": "2eedf00b3f4763ffc99858aa0cb160a97e979a08c070d8e1ea5690812444327f",
+      "bytes": 1541,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934263484500
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/ValueFold.java",
+      "sha256": "ed2a7b5c3c52e967d38a73a4ff4f727ad5eee40185008fc0cce577a04a126667",
+      "bytes": 1829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934264632700
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/Values.java",
+      "sha256": "5bf8b39408fc082375029332540ed55cd3993ebbe433932ed23fecf37e79af85",
+      "bytes": 3747,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934264632700
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/AsyncContext.java",
+      "sha256": "138d99ff34ea344bf2d06715fe0f948e79a3147c54bb46ba37ec29e482a421a7",
+      "bytes": 2353,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934264632700
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/AwaitingConsumer.java",
+      "sha256": "89c90d0c228c6c94ed67bfe5cbfcc334783a954184b143626caa8dc80b3658c4",
+      "bytes": 1894,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934265798300
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/ForwardingEvalContext.java",
+      "sha256": "09827be82fb2900a7f026d7a3daa43bf812f01a79cfa7851e4cd7277a31071dd",
+      "bytes": 1904,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934265798300
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/FuturePromise.java",
+      "sha256": "92df9d208f1c7b32cd1899bef1ad53ff9655a454196eee447b6d35ca33bba9ef",
+      "bytes": 3896,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934265798300
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/InstrumentedContext.java",
+      "sha256": "384cc79b02d9e303ddb2aaa6b1040d6ec672ffda868dfedb72a5b1bbabdfc1f7",
+      "bytes": 4566,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934266839000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/MemoizingContext.java",
+      "sha256": "9b3253aeb122a324f68824a01488aec03f44795867a0ab03600b0296cfb4180e",
+      "bytes": 2246,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934266839000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/SyncContext.java",
+      "sha256": "dbaced8d7a9f82e9f4680dd6277bb6e34ebbd80ee535d8eb63a36290b232f814",
+      "bytes": 1712,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934266839000
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/context/TracingContext.java",
+      "sha256": "1bb6e7a32797ca3b8c7c34c7ce8c8877c624801006ae839f91a7eb6ae92b9c3a",
+      "bytes": 1466,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934268049700
+    },
+    {
+      "relative": "flo-workflow/src/main/java/com/spotify/flo/proc/Exec.java",
+      "sha256": "2ad9cb9cd801cd87e2a658283c6e2a57108eafc44f8bf060b62d65bed91705bc",
+      "bytes": 2039,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934268049700
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/AwaitValue.java",
+      "sha256": "f688dc90d8545c4b92a29380c13f3459c44bbe51906e1fd239f7eebf8a9328db",
+      "bytes": 1329,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934269106400
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/ControlledBlockingContext.java",
+      "sha256": "6ee685b0ef5b50793869daa1e739bcf643339bd414538b3005814395123bfeb4",
+      "bytes": 5445,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934270522000
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/EvalContextWithTaskTest.java",
+      "sha256": "c0f3b1d643211e7f3ae4f57cb2494023d6f74fb4b83b1da5399f8764f1455860",
+      "bytes": 1421,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934270522000
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/FloTestingTest.java",
+      "sha256": "7b369c9d0aef48b7d9543b788b056d805c2567cfdb9be7aa25c60ce18e770ed4",
+      "bytes": 1816,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934270522000
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/ForwardingTaskContextGeneric.java",
+      "sha256": "03816c68a7dcc4967b1466918f3447b12ee43b6313efaa5b83f833e09f98b09b",
+      "bytes": 1569,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934271771400
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/ForwardingTaskOperator.java",
+      "sha256": "738003ed834f9522bfa99f6f588c08b6ab777cac398606ba3c6c32d93caaf1c7",
+      "bytes": 1507,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934271771400
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/ForwardingTaskOutput.java",
+      "sha256": "66e1cf7f069e94ea3409a67127788da7988e9e1fca818ddfc517de2c986897d6",
+      "bytes": 1656,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934271771400
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/InputSyncCompletionTest.java",
+      "sha256": "872e6fc4b367218b20e21be792f20695113eef65782ef48eb5a60c388e30089f",
+      "bytes": 5935,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934272846700
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/SerializationTest.java",
+      "sha256": "8918f47dff7baf2d730c5936316f5fd3949d5b615ea8079052850612f8ece2bb",
+      "bytes": 9596,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934272846700
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TaskContextTest.java",
+      "sha256": "810171bf6576388483b5eb64c4c1de8f10363c64379bad74b045f4ae1a2967d6",
+      "bytes": 7624,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934272846700
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TaskEvalBehaviorTest.java",
+      "sha256": "8c7da0932f08ce8d7d461793cc05cc63cc124c8c4da2ddc449c38fa0074e0cf5",
+      "bytes": 14754,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934274238600
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TaskIdsTest.java",
+      "sha256": "06295f1c8e8befbbdfabba21896d87020147addca6d1b6f82b4b0c5b7afee05f",
+      "bytes": 3838,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934274238600
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TaskInfoTest.java",
+      "sha256": "aff10d4bdaae2a6715e1fe8f09d40d6c6fbfd02ff7d7bd9348d7160772728700",
+      "bytes": 1897,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934274238600
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TaskTest.java",
+      "sha256": "8d158d51cee4a331ce0acb95a223013f11728c6591425a83705b0ea6d154531d",
+      "bytes": 11713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934274238600
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TestContextTest.java",
+      "sha256": "47eef287077fddee141541748db4e6b47593cfa273d0735019248ce1afd75c9f",
+      "bytes": 1870,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934275735100
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TestScopeTest.java",
+      "sha256": "3c24a023fc7e5561076f134d161fa0d7c7500e932af1c69634163d7bbfd03212",
+      "bytes": 1507,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934275735100
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/TestUtils.java",
+      "sha256": "32507dc344200197ea74c8727903721cd73552d378aa08df6365cf42a749a5a6",
+      "bytes": 1658,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934275735100
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/context/AsyncContextFailurePropagationTest.java",
+      "sha256": "299e6e44dea6f4055df8bbb154c69de2a9b66e8cec45e69b26d685752eb899e5",
+      "bytes": 2532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934276768000
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/context/AsyncContextTest.java",
+      "sha256": "115a10c32aac06d83d2e6e208d3b87db8e6bf1235a63480dac63d959ad760e11",
+      "bytes": 9821,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934276768000
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/context/EvalContextTest.java",
+      "sha256": "82e6792739ae4a2c0ebe84478b536fd34d779642dc07ab7ab51d367542a7b87a",
+      "bytes": 2336,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934276768000
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/context/ForwardingEvalContextTest.java",
+      "sha256": "ee3e43bd8f3d182457beac35ebc90568391456371b74131d698d89073444070c",
+      "bytes": 2984,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934277803200
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/context/InstrumentedContextTest.java",
+      "sha256": "7906236ba28cc51bd9f0d9afaf3710857dbcc3bd9b2afd144eaab570eecbacb3",
+      "bytes": 3423,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934277803200
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/context/MemoizingContextTest.java",
+      "sha256": "3c5e41ee98d067392072d55875c5c4a91f629597faff61d396dfbf1623c55065",
+      "bytes": 2525,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934277803200
+    },
+    {
+      "relative": "flo-workflow/src/test/java/com/spotify/flo/context/SyncContextTest.java",
+      "sha256": "0e2f55ab285755540bb50b5f721cd58f8afd8a36f3589d1dd4a45f21eaf52634",
+      "bytes": 8275,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765934278805000
+    }
+  ],
+  "excluded": [
+    "flo-api-generator/target",
+    "flo-freezer/target",
+    "flo-runner/target",
+    "flo-workflow/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\077_46450575_ea016342\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:34:33.518450+00:00"
+}

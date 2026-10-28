@@ -1,0 +1,104 @@
+{
+  "at_utc": "2026-10-27T09:02:36.684123+00:00",
+  "state": "SEALED_OFFLINE_TABLE_300_NOT_COMPLETE_E1_FULL300",
+  "files": [
+    {
+      "path": "BAO_CAO_CHOT_300.md",
+      "sha256": "cd94173d4ef76c96227fe08ffccf1d8732c8973e0dfa9b95340b53182a8b5b0f",
+      "bytes": 11416
+    },
+    {
+      "path": "class_results300.csv",
+      "sha256": "f9dab68e85dedce31e78a491deac3125ceef1d2863f05feb06541d1209b29329",
+      "bytes": 492778
+    },
+    {
+      "path": "class_results300.json",
+      "sha256": "57f892b3ea89d53c6834b086407d70d3105a0dd74efbe4fbf3f542995b1f8914",
+      "bytes": 6874558
+    },
+    {
+      "path": "class_summary300.csv",
+      "sha256": "52d647278cfbfeae795dc9d3b07878abeec426bb91abd2c4835314510bb93c8f",
+      "bytes": 89588
+    },
+    {
+      "path": "EXTERNAL_EVIDENCE_MANIFEST.json",
+      "sha256": "bf369137e9311f72326dc074b6fb64cc0d4532bf7fba1beff018f1671cba06f7",
+      "bytes": 1425001
+    },
+    {
+      "path": "final300_original_and_backup_guard.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "final300_original_and_backup_guard.stdout.txt",
+      "sha256": "20fb4b58f5243e5e4046cdb4740dbdd29f621decadebe06b8aaa8c740a0de0f7",
+      "bytes": 132
+    },
+    {
+      "path": "final300_rq123_frozen_guard.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "final300_rq123_frozen_guard.stdout.txt",
+      "sha256": "5699d18808a2ca3d8c31d7f203f6bb45fd503bd189d050913e165efd23077da9",
+      "bytes": 224
+    },
+    {
+      "path": "FORMULA_AUDIT.json",
+      "sha256": "e316bbd81f83a402df14ec533285b47a4d066cbc0bd8565f47517873aeeb914d",
+      "bytes": 2917
+    },
+    {
+      "path": "INDEPENDENT_VERIFICATION.json",
+      "sha256": "195af81d03b393c442342a54067d837d199b2a9722369ab314ae7669839dcea1",
+      "bytes": 1404
+    },
+    {
+      "path": "measurement_evidence_review16.csv",
+      "sha256": "dbc313b4ea20260cb828f46f593dba2d03053c4c39cca69fa6a3d1dff5f46a6a",
+      "bytes": 4184
+    },
+    {
+      "path": "measurement_evidence_review16.json",
+      "sha256": "99431e5ac48c49254fea2fac900f77fabf644f4eb1630abe4aa8b5d76cf68857",
+      "bytes": 8579
+    },
+    {
+      "path": "PLAN_CAMERA_READY.md",
+      "sha256": "d055b5df4c457be0c1d75f0bccd4daad811fb8676b9da6738141b0ca2ee6b1bb",
+      "bytes": 11900
+    },
+    {
+      "path": "PROCESS_SNAPSHOT.json",
+      "sha256": "56818b2a46010c606bff1e05b70da74e933acac5a046686b41707fc37e7a6bbf",
+      "bytes": 155
+    },
+    {
+      "path": "README.md",
+      "sha256": "ea979b982ee31eaed14a5ac654e5d0d91a1e024f969c99096b998c23815d8e30",
+      "bytes": 4616
+    },
+    {
+      "path": "statistics.json",
+      "sha256": "f988408f95509c902fb419d7f6a0440d96d18204f084cb8076d64b4ba70ecc06",
+      "bytes": 45776
+    },
+    {
+      "path": "statistics_summary.csv",
+      "sha256": "9734ee141f464681fe8cc7e2faa1111ffd46e120157482514700dbd1827c1af3",
+      "bytes": 1817
+    },
+    {
+      "path": "unresolved_and_policy_zero.csv",
+      "sha256": "917d48c7741e31fb0f1cc59aa467524068104586c4f0e028b5d279b0952d6a51",
+      "bytes": 117685
+    }
+  ],
+  "external_evidence_files": 6376,
+  "new_experiments": 0,
+  "original_files_overwritten": 0
+}

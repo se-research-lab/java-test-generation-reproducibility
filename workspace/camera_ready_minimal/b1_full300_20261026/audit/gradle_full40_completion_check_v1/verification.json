@@ -1,0 +1,1695 @@
+{
+  "checked_utc": "2026-10-26T23:18:52.681888+00:00",
+  "completion": {
+    "all_original_cache_files_unchanged": true,
+    "status": "ONE_PASS_COMPLETED",
+    "finished_utc": "2026-10-26T22:28:26.415768+00:00",
+    "admission_sha256": "aaa51113304a9dd027671a8650eae2fa555ff860685d0ae895a630d308a7354a",
+    "terminal_indices": [
+      2,
+      7,
+      15,
+      20,
+      21,
+      24,
+      31,
+      80,
+      81,
+      97,
+      98,
+      106,
+      110,
+      134,
+      161,
+      165,
+      175,
+      194,
+      199,
+      207,
+      215,
+      227,
+      241,
+      251,
+      257,
+      264,
+      268,
+      271,
+      274,
+      299
+    ],
+    "deferred_unscored_indices": [
+      4,
+      40,
+      45,
+      129,
+      135,
+      156,
+      169,
+      170,
+      184,
+      197
+    ],
+    "attempted_or_preflight_checked": 40,
+    "automatic_resume": false,
+    "GPT_API_calls": 0,
+    "full300_complete": false,
+    "Maven_deferred_preserved": 20
+  },
+  "admission_sha256": "aaa51113304a9dd027671a8650eae2fa555ff860685d0ae895a630d308a7354a",
+  "admission_pin_count": 12941,
+  "original_cache_files_verified": 12755,
+  "archive_entries_verified": 67329,
+  "native_files_verified": 40,
+  "original_and_backup_files_verified": 585,
+  "generation_calls": 30,
+  "retries": 0,
+  "native_complete_classes": 20,
+  "category_counts": {
+    "BUILD_TEST_MEASUREMENT_PASS": 9,
+    "GENERATED_UNMEASURED_PIT_DEPENDENCY": 10,
+    "GENERATION_CLASS_LOADING": 3,
+    "GENERATION_UNSUPPORTED_BYTECODE": 6,
+    "NO_GENERATION_HARNESS_TASK_MISSING": 10,
+    "GENERATION_TIMEOUT": 1,
+    "GENERATED_TEST_EXECUTION_FAILURE": 1
+  },
+  "rows": [
+    {
+      "index": 2,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynccompletionhandlerbase.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "f0ae1ff4d2fb654e286ce06038b3390c40ab99a35682f817e7076bdbfa793c7c",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "0ff7c4a50e4d37be1ce8db946fe6363e590ef4ef8f9c4a164b468cae9e838c78"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "853dfe16539e7748188854d260a7771a1508dd6060f6497f0d32b9d9bea805ea"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "b81c3158ddba25877963ccb7a94be89f89f912027f5f82f5e0bee66d3aeb3fa9"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "cddbc5e430c5fd6e4144bcf71aec369207f668f75a8f1913e06dc66b79e00967"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "039bedee6462864494f2c9179168bbec75c6296f50f7e909c2b9a1806a3033b3"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 4,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/singlenumber/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "0308389d86b629c2e89864a2010a22e8dd930737dcafb7c797bd174275ae8c79",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "55290b7a9a4205a4d47a4859ca7b21e5b569f848fb679f277b93b55adc948278"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "077df9581ede5f77c91c9856d4a77af476e6133f42554481a20d7e5b86cf4a97"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "84ed668118022c6d1282fe3188335d4980ffe4f9658d4096d08f40a4f7e3be90"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\004_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "3c9bc1054b7f16ce88449b925805495e0c1a91484d10213cf67f82705f865c7e"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/randomnameresolver.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "e4181e8d54b480eed8438f7dcf0dfefa6a29aaf070c90f07d7ef238b7d761537",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 100.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "84ee27f225819e38c83e09777c75fa6c9abe666bb18a86d3e6331b7810e94430"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "9e00dd8117f8b7f66f18c0d579c66e635c56a3d2d7745e481ef34a348b84d9da"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "203808ba65c308afcbf93b657350eca813913748d6ba46d2f063b2a643292d67"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "d9d20eafc64dd32006b30ceb09c4c5f09d27cf726cc0f4e48223143da4d67563"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "ef1d70e7c759a8a4cb23ceed18d5e8968dc0b1ab989a826f98461c9f60f5c6fc"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 15,
+      "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardgauge.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "56358c8801162e286799b23b3dac65f997710edaeaac5fb231019b197add1fa7",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "aa6185d42e082c7b42db2fb908b4f1626dc535d1dd94494f08f4936d4e00161c"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "50d795d22d8e8079a6e905032021ad108137187f66fbb463416c847dbaff1095"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "325da6f59e605596abe93f58a7924d8567c505bdb26467c69af502ed6c3b4a35"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "016d79cc1dd848be429b8777b356d32e55567fe4002a260729f32af4f4ebb002"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "92869f50cabe8b1346769345a2c00ae78cf75bbddb23eca5e6b899f563de08af"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 20,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/delegatenameresolver.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "a7eede5f26df9abdaac29a3ca962ec92fc95261d847981011485fe41b3769f0f",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 100.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "f4dd25b19e435def8ce717526120d8e7b338c63a924828d126b804a5af3660f2"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "9521cc1a87b54e2a584e8f8e26dad776f83be351784d881eedbc3d389ea57d8d"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "3480c265050e5c0c59cca8e53d29455d5d6e59420e01b73675bf8c5e31e1c9b3"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "75170a816e66925341f0051af88e3af56bbe4e1b60152959038f407327436b52"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "3973e6868371103a9d152de1b2e8ebf539b0b41c30509835c5482da54f763b75"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 21,
+      "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardhistogram.java",
+      "category": "GENERATION_CLASS_LOADING",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "89a4dcf59e68d620d247736941084f67097362e1492c074a7c775dd0af69bbff",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "643d882d3bd524fb97a353364b160c06acb6851adb242b2dabdcfffa8fd45a18"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "0ea750b3172c08036b9f1e89a4a4a5fcc967bccd071f723fb7526c81b2445cf4"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "CLASS_LOADING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\021_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "89d004e8fb2cf8684a8463417772582c3ead5aa53e757909b963e8114018a531"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/protobufhandler.java",
+      "category": "GENERATION_UNSUPPORTED_BYTECODE",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "fcc7394bbaa95ef54af082a7bae403e71488542720593a5aaf283e17c9fd71ce",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "71e452726dd9c17935feb820c6b6123c60ca9a1d6c48740e4ce5eda578ce308f"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "8b46e1601ce3ecb9494d957a4f95010dbfa3ceb55d821ed04300978039fad1e9"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "UNSUPPORTED_BYTECODE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\024_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "f01718983d65e10b83475584d68d2e59d3ce4636279c8564fca0510c9c4c7421"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardmetricssystem.java",
+      "category": "GENERATION_CLASS_LOADING",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "f34fd3e5da8cbcaaaa62b8373bc585bb9d99c0344049898180ec8b83be526805",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "f5cee1754e8b0b30049b0e0e2e15d04fd9775a7d84ea818893a0b755f711840b"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "93a7aa32d31aff18864b7347de80fbcab74019a9d08b59faef1cb52ef7a6901b"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "CLASS_LOADING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\031_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "cead371441bada4d869199434673f5b2bbb6e1b14ae64be25e59cb0dfaad107e"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/invertbinarytree/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "57a1c14765b07d359c66de1fbe577695ca00c31a65c414156cd4c3321417d23c",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "895bd2d5f3fbe799dbb8ba84e08d991406f0d55cb2154f0d0d9ed2d385f0deb2"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "34eeb0a9b7d25468df0e3a33918bc4d8ac0bb8cbcf404a7536b671b2dafc12a2"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "f01b47c7d8628a500f24d42b168b0b11312d5275be33e75fb8cb80dde16f905b"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\040_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "2c59b4ac8a0819caec6bddee1f260ea107d53aa2e6ba821e2ffed24e475adcf9"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maximumdepthofbinarytree/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "758139f544a0a2af4c89dba454fda7aaccd5fc24a00099578120d95faabd47f2",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "832037a2429f87d760471ba0ce078fa4ce3a11b353f38baa945b0afde9a1cce0"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "5aa888d1a6b6836f0a4a06b8dedf22eb8300146d1fb297511273f8795f3b81bc"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "a5036a4c4fb414dbbcd6b66c97d2b790e50a91d784984e39a83c50db99f18fae"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\045_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "b4df44dae1add4a9e2816cf9bb0556860ee68c426e6ae6059c81ebd7cbb8f53c"
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/protobufservice.java",
+      "category": "GENERATION_UNSUPPORTED_BYTECODE",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "62b212c3adcc937fc6c1486a742d8d47007ca9146bd54a9aec983c8abd376b8b",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "3b252f7d5d7069f0fe44bf2ca6846905b1cffbba3e144aaa8239a06fdbc16b7a"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "689dda70b752d89fb3c8608f4ba0e8948832421c7c8978e1139424157eaeddb9"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "UNSUPPORTED_BYTECODE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\080_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "f89aca980faba0e0c3d9d2b8bfb10b05c1dbd8591498ce10de1ccc135c388bec"
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "class_key": "85795396:metrics-dropwizardmetrics/src/main/java/org/apache/calcite/avatica/metrics/dropwizard/dropwizardmetricssystemfactory.java",
+      "category": "GENERATION_CLASS_LOADING",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "660739db21e9ba61461b85f78b8f5a7f640063328654882756c1401cffda877e",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "08df1b5eab625fe5b190ad15c0208bc8715f945212ddb880840dff762e5e73ce"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "2bb3a4c1d5a83b5eef7ca17ba0fa6be105b1407abee355347975e1fab101cb42"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "CLASS_LOADING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\081_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "8ae7e1bb3ecb45381f71d1093aa162b4acb2a208d484b4af7d91bd204251ad3d"
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parseccompletablefuture.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "8f661a83e5c7a77bdde000514284cce3212c8bb731a973f550ec2431c1ba58ee",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 50.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "a532893d06bd1834675e74651217039fe42b771288179462688a6c4ee1975eb1"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "0942f990628037c340e2af47a507970b4ed3ec6b2357e77bf69e3d7f57471b5c"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "5470c89b301ef1ea0597064232882e0b39d64e87aab93f85b0635c9fad6d9da9"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "81bd50e74eb0b902a364f2ea40798ce9fad1520928be1360b67050d54e6742c3"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "d39d12914a64883ae264e4c41501ced69fc137a60e5e883ca6d71445b42301d1"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 98,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/zkfs/zkfsutil.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "ca65d554e5a1103414a0274e478f45e9382f9adfa67b98da982286cf98a64c19",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "934f7afe28a11d326913c1abded25c751144eac1470352a043e37c399a29ddb9"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\098_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "4755005bdc96ead00098a9b15cd164f9f5b5e8ddad2141897feb1bfc89f74a3c"
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsechttputil.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "95690d4571e2b9aa84b6dbbf1f717e842422911082b73e7f73dea0ef40efd162",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 42.86,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "390822423b70ebf7e5aa6cc7a2814e8d784f1e7d7dd902688a664cb6900f54d6"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "03c3819b1935f8b29666c8fcd05a42a2bedaac134d3847affc8cb8317c38822f"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "0d97141d1ad6b733bdda00c7a5e0b3aa73cbff5c1933e23605a4c2f40c88c124"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "9aa96abc14e90ff28f2601a9cbce07bfa1be6678e5c7cfc26516549063362e4e"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "5e93564a852efb9181d0b964d37130e00cc33e9d7fc035ca7a4c68cc4dddbf7a"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 110,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/discovery/stores/zk/zookeeperconnectionawarestore.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "756b1224d80438af47e8c5ee46f1803882218185c2c3bb3ee37ef0f059aa513e",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "6d195e638c4da2dc363b01d874b825b215a62a4721dba6d09c213d5c2d3505af"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\110_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "690d853b805aec3637999f8908d8d5c70177bbbc0ae03bb083995cd3e6fd7979"
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/battleship/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "959665c4f67b313a22d1c990f18b174afacd7a53666b244e2c4181f95a96eeaa",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "4ec8bb1a54dcc361f0d9d328e55d880889ebadf379a1fa69ef0aa37f19cbf72a"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "a5b3f980c301c75ade6b8edab025d077b9a520b06adfa3af94930d10321d58f9"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "c7630f9cabaf3272e7360aca646d34e2eb9a7011434a807751bb9dc0fca98310"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\129_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "571a30693bf84dbfc54537b5555640c19b3f22d457113cc0346a7c048ec8c18b"
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/defaultasynccompletionhandler.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "4c0f2c2de0746fa4fec5e6ff97f5f526f43a4f1dc8674e7ae459a7f3cbeb2782",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 75.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "d23507dd0822ae8b3fd920e3598ff9c76adfb82ab3867128ed388904d4100e1f"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "2e710c4d744d26ca333c8c9a31433a34a50847112539448b7b1cd518342135c8"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "31768c681027ee2f3de06ea5b8162589131ae77e582801243876be7329ba594b"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "fe866ffd959542a3a0fc8db0d943012070e53237e0e33f38ddf0a0cf3ad4d6d5"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "6eb63b84b5a6bcb1d5c233d93438db00407b518eaa9dd243b7e98a70a5d213ac"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 135,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/battleship/parser.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "8b7183f007a3168054c32fc8b8606cd3e3907d7273b994af89000775dc96aedd",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "4cf43a72ccf36629d5db27637f5df1e680c381992c1b9c115015d6c78d395c22"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "48eb30af5756efbf6e401fa40221d422601bc597a64c79c6a1dde2612779849f"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "8c286ab45549d7c9b4b78c18ff0327aeb406c61e9ebc456c16074dca4a28408c"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\135_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "0ffe618b38d1392ec293a7ca6691650064671d6e5119990a46ac23c577807f8d"
+        }
+      ]
+    },
+    {
+      "index": 156,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/wordladder/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "8a71b700d287c85ea74c62e803df2411840f6bcf36c85e6a4be1af18db1a9848",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "19a3ed3539233d6ccf3ffd6d6651c9f6bc5a5fcd535512652a0da5b09e801e0b"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "09cad9e11022210e39880779d80753978179a10ca24b5ced18f01c5452d2addf"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "d5795afc98eec7ea0615e822abe4b59c1fc471091df99a3754f88618274121af"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\156_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "2278ae8a2941efc04e0a5c28a8d8de262db6ac50858e1c53b288adf751925002"
+        }
+      ]
+    },
+    {
+      "index": 161,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/loadbalancerutil.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "f37c5fbf68abef2ce45318369e3ebef7d249c2dd2a35babe4947b06ecd2c76e0",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "6e262c4c4ded9fd2db9ea988af1017ecdb628d89dbbdc934218d2f40688372ab"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\161_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "2f74e6c2c1967099f7c317eb20da1c24fdd32fe97f91a421ddc618a71ebf6c33"
+        }
+      ]
+    },
+    {
+      "index": 165,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynchttpclient.java",
+      "category": "GENERATION_TIMEOUT",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "d60c025d7d98a11b85c86c0c837ca8c961297a9708a863b82c826063e693a89f",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "e99f335c4512214fd6155fab08ec2bee9a5ac23fd45feebd20dc3d39f01145ba"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 15,
+          "reason": "TIMEOUT",
+          "plan_sha256": "227a4b333d51e10a85dbb217e406d3cf809ee096651a2d540f269538896470ee"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 169,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/movezeroes/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "f46eedbcfd2a4b91e4692e8c1a022328b73bce78bc989891edba0d910da8680f",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "77fff58c55a6498c05f206f2eabf989ef4b2895cbfe7c67103cf533affec2aab"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "71b6d459009958ff5107a600584a048d9430d5a71c6719ec475972b94852a171"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "87896651e9fd4d10da7faf2e74eaf80d0faf30ef1fa36466b425b21d12cf7cdd"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\169_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "8c85fff394002b02005d5aa1333a29992c58a10312d735fdbab0a0b3f99578a0"
+        }
+      ]
+    },
+    {
+      "index": 170,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/reverselinkedlist/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "1887ee3bef2da0985a95af7401d1a33372cce175770175c169075bd78158da3f",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "3d2026dbc26cc9a3841ba02e11ee99edf5816ec794fed5c88e8887f2c745c129"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "b92cec547b5d546f8c1d240f4a305afc9ae16094e464a2d1c3994b6a2431930c"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "d7f042211ad5f70fced11f725c790601b208b1103e6c4ea347ac1238de3f2739"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\170_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "32d2335d4e499e65c4330f98d021b85e632d2d025532bb96d3bb9de3081e9477"
+        }
+      ]
+    },
+    {
+      "index": 175,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecclientprofilinglogutil.java",
+      "category": "GENERATED_TEST_EXECUTION_FAILURE",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "a35b53b7d33341ed842665071de2e544027fb5448bd90424470aa165565c971d",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "deae762f7166632ea3869b75108693c0e11cdd5a1417450ea5b34201e0ae7252"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "e101f4afbc9caa9365417b804309456973c20155a039ba9640c525879bc66441"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "eb4e9a45ce6e08c579e376c854fa76b5e95c01991636afeda73c2ab1d7a6bd53"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "9fc3ad999a8a13cedd9f78c28a70ab10ed31d3357a3db3848f8c1291fbbd0f2d"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "TEST_EXECUTION_FAILURE_NPE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\175_gradle_v1\\commands\\004\\stdout.txt",
+          "sha256": "991d3dcc7526b33445c5c0db6ca9e74ba20ce6322fd7a8ea66e09071fa5abb1c"
+        }
+      ]
+    },
+    {
+      "index": 184,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/islandperimeter/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "944beee40d6505ec580596bdf64a44e98e86e6d9374dee412f1d5bda5f6e6da6",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "550cc018b46c424a9ed6f04b8ba389173c64e71acd8dd83f65c3d3b10b75f99e"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "fd9b6e2048e012c8eb2512705ad43707600e8b00004b6f08957915b2e06630a1"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "a61a521a6e5914b9340dbb85c7eac7b74c6071d696a248edfd9888b627d3565a"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\184_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "353705fcb0a6a3bc8c9127297fdf68f95dd7d45fdd32355ab53831ef2d191ff5"
+        }
+      ]
+    },
+    {
+      "index": 194,
+      "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/connectionconfigimpl.java",
+      "category": "GENERATION_UNSUPPORTED_BYTECODE",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "13bf6e1563edbb715fa07c617e3f2c8b53a614b65041ac1365e5459ad1bc039e",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "9b8f80ec44d75fc5cefb4461f296a302757b64bf47c337a0d4a85d134af7dd49"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "7578899f474e978b8d6ba1162a43941669a1e2d01c5cdeefd28b4408c11d3a83"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "UNSUPPORTED_BYTECODE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\194_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "6b8a5be754551a75c94b3d8f21b7eeb3f52efbb2536872477328985e0fdc4862"
+        }
+      ]
+    },
+    {
+      "index": 197,
+      "class_key": "41627638:leetcode/battleships-in-a-board/src/main/java/com/github/maxpointonline/plainloop/solution.java",
+      "category": "GENERATED_UNMEASURED_PIT_DEPENDENCY",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "6c4827bdb6918ea556723f77be61f5ddb103861d7610d2ad7e6acc34521d3bcf",
+      "raw_process_gate": null,
+      "raw_strict_mutation_percent": null,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "edd130c13cfbcab14e34c912e5212d5ffe44b179e6b82181b38d0cdf6e65d8ac"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "fe606153afdcc37194a01791b2990e0b39c64d066a3aa2e197422e926ff1c1b2"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "ee2b1d034a75ded1892284a3893f094f56b42b530898de7a616273a1aab9eb17"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "PIT_REPOSITORY_UNAVAILABLE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\197_gradle_v1\\commands\\003\\stderr.txt",
+          "sha256": "82b2fe1c483957c3d08c6485067e83d87b266f4952de3145534d4088b362ddf1"
+        }
+      ]
+    },
+    {
+      "index": 199,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/discovery/event/propertyeventbusrequeststhrottler.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "685d78a6f2ce23dbe7309025f0f39e4652fce6786f081f2fff70d10c655a0e1c",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "a040c566229fa01770f7d3d66168867dc1818d71f722bf74fd37991e8aa758b7"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\199_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "145007721680bfa34961d2beb0d91b1149e1bf061f9034d6abf52eeeb57a6591"
+        }
+      ]
+    },
+    {
+      "index": 207,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/hashing/ringbasedurimapper.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "b6ff6dde5748c9f58e3dfb6dcb9996f616f6db4d1a26063f96e6271fac089602",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "754a56ff16105cea0063b13df467f406782f9df78ffb14cc5a4deb3fd78de003"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\207_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "630e271ea2c22122b6bc99a5a75f86166f493fe41ae4268c41931e011b98957b"
+        }
+      ]
+    },
+    {
+      "index": 215,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasyncprogresstimer.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "ed0eddef2e809e44340e050edabc3f3490d67aef15069cf72cbd703efe395053",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 100.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "8d253fe0fd031d850cbf34863447d71e9adb21ae5361ca3d8e672874956b3b1d"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "49eae42a96416e71c33d682b05f35c00fd481f1c934db98b43e04b2fc34dfa07"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "8567598b3be7fcdc6f9969d9f8d7d63e534f3f8cb112a99166bbd9173e2980af"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "a28e1fc2a5609c574602c142f3a5ffca88057d47a99740b761ca395c404dd5ff"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "b96dab7c9ffabcfe610a005c1854cba3f3717ad2a0b8e649320e162c86f33583"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 227,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/servers/zookeeperconnectionmanager.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "19d6448cd19b626d7846732f1215c3b7d8af808abe20d8ffaa06870b68eae81e",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "352e0f367557bb70c5cea682de4e2f8e0ccd2f9b64515e81f885c8779a84170d"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\227_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "bdae5372fc9b343f0aca57ba3864a69dcb2f99297ff418991bf31996cc3c47e5"
+        }
+      ]
+    },
+    {
+      "index": 241,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/util/warmuploadbalancer.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "0de8ca083c683895337384041f136b38ed6d771dc2f3a7c2c138937623039450",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "c975da2226744b3eb17591b59236f06f74dfb1cb1dd86033b591325d31030d0a"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\241_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "6a953d5f04da1d9a2cf87a7757e9c4ed00b88903a7efddf5fbd3178a9442888f"
+        }
+      ]
+    },
+    {
+      "index": 251,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/clientselector.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "ddaee94f6fd0499ce6ca403e97a2a4905f450cb5152bbf9dd22e4f1ac5ef53af",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "1c56f161766067ca5328298ab806600980f45486a54c8609bdcc0a9505f801b0"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\251_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "c4de480d29f65dc80a0acda671d0a7ba888417b638f051561a776f4ef7598cda"
+        }
+      ]
+    },
+    {
+      "index": 257,
+      "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/remote/kerberosconnection.java",
+      "category": "GENERATION_UNSUPPORTED_BYTECODE",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "380d9594a57dd271fc26a84e2c54109502a4bf41acdb0b50d86796e97000d500",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "31179ae4ca591de327aa44b173fcdadfd805c9623d46a0edd8ccaf8b17c3c421"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "48676bd063e6a26b733f9168e0a43279a69f9c2a6250c2ea8d78689c88d6f765"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "UNSUPPORTED_BYTECODE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\257_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "9bb53c374a346c81b9f1b43b82ce1c957f875200549cf8965e1c57e0fcf2150f"
+        }
+      ]
+    },
+    {
+      "index": 264,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/backuprequests/trackingbackuprequestsstrategy.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "6e327123d9a4e8d32fff85b1d9dc7b6aca073dab6a90ba07b714fb2bedecaac7",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "41a2b90a75a4998e534de12d1a45c944d2b826b0a5e7ad26619f16e52b8959c1"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\264_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "9ed0a5ca44e05577b5903047e5f8ca686ed5d30ac450c15b4c8e20b7f9f09943"
+        }
+      ]
+    },
+    {
+      "index": 268,
+      "class_key": "6944525:d2/src/main/java/com/linkedin/d2/balancer/strategies/relative/stateupdater.java",
+      "category": "NO_GENERATION_HARNESS_TASK_MISSING",
+      "generation_calls": 0,
+      "native_complete": false,
+      "raw_record_sha256": "f114a519c7a4b73e9febe9140cd14e79fa4d5023bdd99ffe92e96e6f7652abf3",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 1,
+          "reason": null,
+          "plan_sha256": "a6779dc9d5c1d1d43957e6e2cbf164190fa6c0b8c3ffb36305bf553fe4b59368"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "HARNESS_TASK_MISSING",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\268_gradle_v1\\commands\\001\\stderr.txt",
+          "sha256": "45305eff4b995f3d229c85ae733ea92adf70de2f1d15a7168c06e5d2c31a1101"
+        }
+      ]
+    },
+    {
+      "index": 271,
+      "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/connectionpropertiesimpl.java",
+      "category": "GENERATION_UNSUPPORTED_BYTECODE",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "886864b0a467a9f0231ac9b6fc9d492cf9bbc600b774472830a9f79c25e250c4",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "e2b3bcd4c41013cfcfef125fbd78d63570dfb806e4131a0b6952bab33f149d59"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "15b31cc7fabf7dccd5ba4d151e922bbacf4044b4378945fa591b7820e6022bab"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "UNSUPPORTED_BYTECODE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\271_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "fc0aaf3605b4b30c63d5b4aeebdf37f423c9b38b5443a8d52820621952d27fd3"
+        }
+      ]
+    },
+    {
+      "index": 274,
+      "class_key": "74999474:parsec-clients/src/main/java/com/yahoo/parsec/clients/parsecasynchttprequest.java",
+      "category": "BUILD_TEST_MEASUREMENT_PASS",
+      "generation_calls": 1,
+      "native_complete": true,
+      "raw_record_sha256": "56d1297c91c173c462972dfc9be13fb2ae3622b172fdb5e1ba4e1aff76f038b4",
+      "raw_process_gate": 1,
+      "raw_strict_mutation_percent": 63.16,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "17e34c66d80cd2af3efa9f79c3bd9175d3165cc7a5267990429cd9ad6b0d7644"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "31c245ccdc4d801b38b7e67451890d60ad0695c4e0753f33aef651990aa55f10"
+        },
+        {
+          "command": "003",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "4f09124c0bfb55155f1cf09444769a3dfded21c252f20482b2f0510775f885b7"
+        },
+        {
+          "command": "004",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "e32ae007a4a05bc275591db0c8befd667e09ecdf2faeace0e51b8e6ca032f1ae"
+        },
+        {
+          "command": "005",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "85c004fc89d09f9a98dc661be2e4cbbeb0119a3a1237eb2857c92d162d6d27a2"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "index": 299,
+      "class_key": "85795396:core/src/main/java/org/apache/calcite/avatica/querystate.java",
+      "category": "GENERATION_UNSUPPORTED_BYTECODE",
+      "generation_calls": 1,
+      "native_complete": false,
+      "raw_record_sha256": "1f04ee39bd0fe7787e43d12bf6d19100d8662cdc2388ffd87521c665da04a3b3",
+      "raw_process_gate": 0,
+      "raw_strict_mutation_percent": 0.0,
+      "raw_record_modified": false,
+      "commands": [
+        {
+          "command": "001",
+          "generation": false,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "0b1400c1aa97efe1a713b865f5efb3ec077e4efce6416cbd98487119eefcdaa4"
+        },
+        {
+          "command": "002",
+          "generation": true,
+          "started": true,
+          "returncode": 0,
+          "reason": null,
+          "plan_sha256": "0ad6b4d7dceb52c941d57c83bbd95ec167f2a3f901e4b5ca579153d2a27c58a6"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "UNSUPPORTED_BYTECODE",
+          "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\299_gradle_v1\\commands\\002\\stderr.txt",
+          "sha256": "ec02bc17a540eddb77cb7ba092567d36c06372737ec48f711eb24fa0e7281cfd"
+        }
+      ]
+    }
+  ],
+  "GPT_API_calls": 0,
+  "new_experiment_calls_by_this_audit": 0,
+  "experiment_configuration_changed": false,
+  "full300_scientific_acceptance": false,
+  "raw_results_recoded": false
+}

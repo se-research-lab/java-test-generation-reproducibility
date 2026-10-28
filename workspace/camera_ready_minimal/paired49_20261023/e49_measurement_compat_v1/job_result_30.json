@@ -1,0 +1,59 @@
+{
+  "job_index": 30,
+  "class_key": "6437134:enav-serialization/src/main/java/dk/dma/enav/serialization/simplerouteparser.java",
+  "repo_id": "6437134",
+  "G0_archived_mutation_percent": "27.27",
+  "E0_archived_mutation_percent": "31.82",
+  "E1_archived_mutation_percent": "77.27",
+  "seed": 20261315,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "dk.dma.enav.serialization.SimpleRouteParser_ESTest",
+  "surefire_suites": [
+    {
+      "name": "dk.dma.enav.serialization.SimpleRouteParser_ESTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 203,
+  "focal_mutants": 22,
+  "killed_mutants": 17,
+  "focal_mutant_qualified_classes": [
+    "dk.dma.enav.serialization.SimpleRouteParser"
+  ],
+  "mutation_score_percent": 77.27,
+  "legacy_strict_mutation_percent": 77.27,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "eNav Serialization",
+      "PACKAGE": "dk.dma.enav.serialization",
+      "CLASS": "SimpleRouteParser",
+      "INSTRUCTION_MISSED": "178",
+      "INSTRUCTION_COVERED": "137",
+      "BRANCH_MISSED": "7",
+      "BRANCH_COVERED": "17",
+      "LINE_MISSED": "48",
+      "LINE_COVERED": "36",
+      "COMPLEXITY_MISSED": "7",
+      "COMPLEXITY_COVERED": "13",
+      "METHOD_MISSED": "2",
+      "METHOD_COVERED": "6"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

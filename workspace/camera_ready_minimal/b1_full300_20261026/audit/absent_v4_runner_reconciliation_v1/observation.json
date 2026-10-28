@@ -1,0 +1,16 @@
+{
+  "process_observation": {
+    "at_utc": "2026-10-26T02:55:10.813995+00:00",
+    "matching_B1_runner_or_monitor": [],
+    "Java_processes": [],
+    "Python_processes_with_unavailable_argv": []
+  },
+  "dispatcher_lock_acquired": true,
+  "v4_completion_receipt_present": false,
+  "v4_process_exit_code": null,
+  "cause_of_process_absence": "UNKNOWN_FROM_AVAILABLE_EVIDENCE",
+  "new_JVM_processes": 0,
+  "new_EvoSuite_calls": 0,
+  "GPT_API_calls": 0,
+  "scope": "recover saved terminal evidence only; no generation, measurement or raw job modification"
+}

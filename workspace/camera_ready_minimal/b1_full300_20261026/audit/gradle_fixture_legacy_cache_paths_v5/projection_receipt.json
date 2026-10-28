@@ -1,0 +1,21 @@
+{
+  "published": true,
+  "identifier": "gradle_qualification_v5_2284_1793020358265154300_4c516d23496b46efb8eea56a7510c472",
+  "target": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\status.json",
+  "intended_sha256": "372f998d5ec8540d9ba6722b5adf1fa763a6519dd1871681ca5c777e0d1df24e",
+  "intended_bytes": 3510,
+  "attempts": 1,
+  "replace_completed": true,
+  "backup": {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\backups\\gradle_qualification_v5_2284_1793020358265154300_4c516d23496b46efb8eea56a7510c472_status.json.before",
+    "sha256": "22654a8a5c86d7e8443799486ea51dac8e95c915912cd4a4a9d6d1d3adf2af64",
+    "bytes": 3386
+  },
+  "temporary_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\temporary\\gradle_qualification_v5_2284_1793020358265154300_4c516d23496b46efb8eea56a7510c472_status.json.tmp",
+  "temporary_preserved": false,
+  "published_sha256": "372f998d5ec8540d9ba6722b5adf1fa763a6519dd1871681ca5c777e0d1df24e",
+  "elapsed_seconds": 0.03199999999196734,
+  "stage": "complete",
+  "receipt_path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\projection_io_v1\\receipts\\gradle_qualification_v5_2284_1793020358265154300_4c516d23496b46efb8eea56a7510c472.json",
+  "receipt_sha256": "b3a7cb4901ab29a68e77dec9a4e452915ac05b902981c892a65975dabbff076c"
+}

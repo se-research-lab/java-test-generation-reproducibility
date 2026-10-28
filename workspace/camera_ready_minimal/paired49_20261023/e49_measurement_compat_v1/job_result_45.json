@@ -1,0 +1,59 @@
+{
+  "job_index": 45,
+  "class_key": "9619226:spring-data-simpledb-impl/src/main/java/org/springframework/data/simpledb/util/alphanumstringcomparator.java",
+  "repo_id": "9619226",
+  "G0_archived_mutation_percent": "100.0",
+  "E0_archived_mutation_percent": "66.67",
+  "E1_archived_mutation_percent": "66.67",
+  "seed": 20261107,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "org.springframework.data.simpledb.util.AlphanumStringComparator_ESTest",
+  "surefire_suites": [
+    {
+      "name": "org.springframework.data.simpledb.util.AlphanumStringComparator_ESTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 774,
+  "focal_mutants": 3,
+  "killed_mutants": 2,
+  "focal_mutant_qualified_classes": [
+    "org.springframework.data.simpledb.util.AlphanumStringComparator"
+  ],
+  "mutation_score_percent": 66.67,
+  "legacy_strict_mutation_percent": 66.67,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "Spring Data SimpleDB Implementation",
+      "PACKAGE": "org.springframework.data.simpledb.util",
+      "CLASS": "AlphanumStringComparator",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "45",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "4",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "12",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "5",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "3"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

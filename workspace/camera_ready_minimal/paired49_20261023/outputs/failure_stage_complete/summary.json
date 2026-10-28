@@ -1,0 +1,102 @@
+{
+  "fail_stage": [
+    {
+      "fail_stage": "ok",
+      "gpt_n": 61,
+      "gpt_percent": 20.33,
+      "evosuite_n": 158,
+      "evosuite_percent": 52.67
+    },
+    {
+      "fail_stage": "agone_runtime_failed",
+      "gpt_n": 1,
+      "gpt_percent": 0.33,
+      "evosuite_n": 90,
+      "evosuite_percent": 30.0
+    },
+    {
+      "fail_stage": "generated_test_compile_failed",
+      "gpt_n": 158,
+      "gpt_percent": 52.67,
+      "evosuite_n": 32,
+      "evosuite_percent": 10.67
+    },
+    {
+      "fail_stage": "generated_test_runtime_failed",
+      "gpt_n": 2,
+      "gpt_percent": 0.67,
+      "evosuite_n": 2,
+      "evosuite_percent": 0.67
+    },
+    {
+      "fail_stage": "gradle_verify_failed",
+      "gpt_n": 7,
+      "gpt_percent": 2.33,
+      "evosuite_n": 0,
+      "evosuite_percent": 0.0
+    },
+    {
+      "fail_stage": "jacoco_failed",
+      "gpt_n": 24,
+      "gpt_percent": 8.0,
+      "evosuite_n": 0,
+      "evosuite_percent": 0.0
+    },
+    {
+      "fail_stage": "maven_reactor_prewarm_failed",
+      "gpt_n": 2,
+      "gpt_percent": 0.67,
+      "evosuite_n": 2,
+      "evosuite_percent": 0.67
+    },
+    {
+      "fail_stage": "maven_verify_failed",
+      "gpt_n": 43,
+      "gpt_percent": 14.33,
+      "evosuite_n": 15,
+      "evosuite_percent": 5.0
+    },
+    {
+      "fail_stage": "maven_verify_timeout",
+      "gpt_n": 1,
+      "gpt_percent": 0.33,
+      "evosuite_n": 0,
+      "evosuite_percent": 0.0
+    },
+    {
+      "fail_stage": "pit_failed",
+      "gpt_n": 1,
+      "gpt_percent": 0.33,
+      "evosuite_n": 1,
+      "evosuite_percent": 0.33
+    }
+  ],
+  "failure_owner": [
+    {
+      "failure_owner": "ok",
+      "gpt_n": 61,
+      "gpt_percent": 20.33,
+      "evosuite_n": 158,
+      "evosuite_percent": 52.67
+    },
+    {
+      "failure_owner": "agonetest_harness",
+      "gpt_n": 79,
+      "gpt_percent": 26.33,
+      "evosuite_n": 108,
+      "evosuite_percent": 36.0
+    },
+    {
+      "failure_owner": "generator_output",
+      "gpt_n": 160,
+      "gpt_percent": 53.33,
+      "evosuite_n": 34,
+      "evosuite_percent": 11.33
+    }
+  ],
+  "source_sha256": "dd09724477bbe43dfef6e5f7d5248fa236c9973d7260fe2fe72d4393d64ea53d",
+  "stage_labels_preserved": true,
+  "no_new_generation": true,
+  "GPT_no_call_records": 2,
+  "interpretation": "Recorded pipeline taxonomy, not validated causal blame; ok means legacy process gate, not all assertions pass"
+}

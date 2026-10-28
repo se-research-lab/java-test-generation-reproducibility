@@ -1,0 +1,114 @@
+{
+  "003": {
+    "status": "PASS",
+    "files_verified": 605,
+    "manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d",
+    "post_archive_append": {
+      "relative": "events.jsonl",
+      "prefix_bytes": 10213,
+      "prefix_sha256": "199729585a3ed673f450e8ef3c0f80d7f13dc398e216c617a267e2468cc8f121",
+      "appended_bytes": 419,
+      "appended_sha256": "61974a7dfc65896b23ba786c136ce1ddac7b4c0494468c5a10c4b0799b1595c8",
+      "current_sha256": "9a9066e895152343c582946e6dae243220662de357f6b34a81c3c3db2345c9db",
+      "verified_terminal_event": {
+        "timestamp_utc": "2026-10-25T23:09:27.392717+00:00",
+        "kind": "JOB_TERMINAL",
+        "class_key": "9884445:minnal-jaxrs/minnal-instrumentation-jaxrs/src/main/java/org/minnal/instrument/entity/metadata/handler/manytomanyannotationhandler.java",
+        "result_sha256": "b0eb2d05f91787a62e078e5edd2fc01ab306c3ed020c846afb96766f3793568c",
+        "artifact_manifest_sha256": "9e972b4d6f165d63c5b66f71ffa27bf8c57b0d23206cf82bc9f99731b4d40a3d"
+      }
+    },
+    "file_census": "PASS"
+  },
+  "006": {
+    "status": "PASS",
+    "files_verified": 508,
+    "manifest_sha256": "2f241f9bcc13d97358bd550d1164f8025ba6dec7dd9ece16f2f1ebf111dc8788",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "008": {
+    "status": "PASS",
+    "files_verified": 759,
+    "manifest_sha256": "9b0934bc923c7df8ab7996929e6019a676676c3514d87659389165bdf576a1e4",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "010": {
+    "status": "PASS",
+    "files_verified": 709,
+    "manifest_sha256": "0319fd3b3da5867652e03199262027e9ff6d1b648887599bb6cc5b9029d6149a",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "012": {
+    "status": "PASS",
+    "files_verified": 5684,
+    "manifest_sha256": "b64c80050d4a67ff5f2004483dd423c8a976c2267548663f3305cfa152ea4723",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "016": {
+    "status": "PASS",
+    "files_verified": 5684,
+    "manifest_sha256": "0abef0f5556b8debc0c13e4dda46724f311ac615c947ab30bd5b1f3d75471665",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "017": {
+    "status": "PASS",
+    "files_verified": 660,
+    "manifest_sha256": "41871d70023d8f60337cb0cb51aa04402d886088dab242468bd8fdc81dabffea",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "018": {
+    "status": "PASS",
+    "files_verified": 661,
+    "manifest_sha256": "f15e586458a1063d14a8acdc10ddafe1b30f1324e57239636cd4db25a8ec10c3",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "019": {
+    "status": "PASS",
+    "files_verified": 404,
+    "manifest_sha256": "56a799d011ad4217e001d482205481bd04dfa1acf3121b1869913f371ba3c4cb",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "022": {
+    "status": "PASS",
+    "files_verified": 709,
+    "manifest_sha256": "7105762c516073ad57d1df5fd111dbfa46156c940ac958531cb58dde9699b773",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "023": {
+    "status": "PASS",
+    "files_verified": 5684,
+    "manifest_sha256": "0d30e6dbff1c232c9b9c11ac63559e815e3c4b5985aa4d65bb6721539c081232",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "025": {
+    "status": "PASS",
+    "files_verified": 284,
+    "manifest_sha256": "42442ae3f2e18f195dae72b89eaaac06c79b86cc456d5f8c93e514d012a97138",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "027": {
+    "status": "PASS",
+    "files_verified": 253,
+    "manifest_sha256": "cc5b983ee18e46b61b27290c2cfd74c73baa532b0ccf065ed864265a94b047c6",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  },
+  "003_native_junit_diagnostic_v3": {
+    "status": "PASS",
+    "files_verified": 696,
+    "manifest_sha256": "e4d8638c73bed3b0c40e636a663990ec800183fe72a94afe4b3e64d0b56f2455",
+    "post_archive_append": null,
+    "file_census": "PASS"
+  }
+}

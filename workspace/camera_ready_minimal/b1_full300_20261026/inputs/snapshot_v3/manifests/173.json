@@ -1,0 +1,1357 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\099_558963_383f035c\\compiledrepos\\558963",
+  "class_indices": [
+    204
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "5a2704bbf223dc1d9eb722f5bfe01099b5e7c385698c3528229355b34b804e4e",
+      "bytes": 201,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919218865400
+    },
+    {
+      "relative": ".travis.yml",
+      "sha256": "dbacf15832045e931619a9ec47b684fe9a56f0a73c97641e40a0355c2123bdc5",
+      "bytes": 115,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919218865400
+    },
+    {
+      "relative": "LICENSE.txt",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "bytes": 11558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919219877200
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "bf116a961ae1cd3c31eb0bb56fd9e82aefcf9a973a758783064e236a7e39357c",
+      "bytes": 9998,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919285306200
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "42510442a3c346901fd0ac70ab7f64796ef170f4f20d792ba64bee2bd823bd40",
+      "bytes": 4635,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838487972346400
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "42a3ea569b52b60630a849edcabd8ac79b3e08e389d819cf0e74254aa786d769",
+      "bytes": 12561,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838487883243400
+    },
+    {
+      "relative": "README.md",
+      "sha256": "e557855e888f295811bd8e0ce587147017e6102276054bd1611ee4bd4283efad",
+      "bytes": 2554,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919219877200
+    },
+    {
+      "relative": "httpcache4j-api/pom.xml",
+      "sha256": "16d85abc7495be6cfda5a25ca7d9acbeadfde50e46947948e509cced8b4328f0",
+      "bytes": 899,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838614066121100
+    },
+    {
+      "relative": "httpcache4j-api/evosuite-report/statistics.csv",
+      "sha256": "d61cd4764efc997d2d6266199831e6c673444565a4569a4f1e58aa7612f70d3c",
+      "bytes": 126,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838574358192000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/AuthDirective.java",
+      "sha256": "112920beb4e3060238256dd965e0b14243d24e31fb743533c4179e2c8a99eab8",
+      "bytes": 834,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919221879000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/CacheControl.java",
+      "sha256": "359b9402b5e02d571f80302fbcaea7a496d63ab93f6cdea44f6161f70ff86bd9",
+      "bytes": 4532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919221879000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/CacheHeaderBuilder.java",
+      "sha256": "4f401d6d274859fe1a28c8cf09ca3d4967ebc98b9b595c19ad8f3a710dbc053a",
+      "bytes": 1908,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919222878500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Challenge.java",
+      "sha256": "c4106a34c35c7f4aa7ab24b22c983ed6f4d63a24e45f8407e822fd72da01fe5f",
+      "bytes": 855,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919222878500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Conditionals.java",
+      "sha256": "2b726f2a13e9b5469e20ec79da0806592206656891e00d9c3d3748257453e96e",
+      "bytes": 10738,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919222878500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Directive.java",
+      "sha256": "9210dc08d27c5204fa149e0f75f3879a83dac2f85c0ecacb15f57aae651c2310",
+      "bytes": 2689,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919222878500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Directives.java",
+      "sha256": "14bc6f27fa934fbb36ec18005421ea91bafaf4d9ed3b3af8f2ee477f18312494",
+      "bytes": 2782,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919224288700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Header.java",
+      "sha256": "49682d4c4fb2f9e25c8e3ef2dd689e347ef7d07925e9e7d9b1073bcf8095a0a8",
+      "bytes": 2344,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919226289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HeaderConstants.java",
+      "sha256": "0677255b871de79e8784f6c0f8bebf6ddae3ac690014d1df3bc200a6b5f04222",
+      "bytes": 3581,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919226289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Headers.java",
+      "sha256": "48d596e1aac96cd4ecfcaa099791fb0d6f96a6e88113a17a81821f020bebaac7",
+      "bytes": 15399,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919227290000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HeaderUtils.java",
+      "sha256": "8b81e27fac6c1f83a865e0751a7745dfb60c92b88384ec1174c6f41e90543d44",
+      "bytes": 6665,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919227290000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HTTPException.java",
+      "sha256": "74915039753c58e4b427794db5d67ed50def359e8dd6f48706b077b67015ce8f",
+      "bytes": 1216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919224288700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HTTPHost.java",
+      "sha256": "fd02f35756aff1bc5026331ad0cd0a1ffa10d5e7bd4c09bc5c69aac37f2fd65c",
+      "bytes": 2847,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919225289600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HTTPMethod.java",
+      "sha256": "15d424915be9b2317775f648db41ee3ef106e07556cf260c5bbb1f1ad4f2c4cc",
+      "bytes": 4992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919225289600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HTTPRequest.java",
+      "sha256": "6a5e64d6f6c2db5066f51c8f00243d06bfaa74095bed48c89acb650465cb05f5",
+      "bytes": 8483,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919225289600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HTTPResponse.java",
+      "sha256": "e5c7afd89cc7288f3d058c8ece317ba9a854c8022b899d9e10ebf6142cf44ed8",
+      "bytes": 5250,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919226289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/HTTPVersion.java",
+      "sha256": "0838f81545a43a3d76a7578da0bf3866e3501b86442086068e3c95772ee5a360",
+      "bytes": 1219,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919226289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/LinkDirective.java",
+      "sha256": "1f8a500f250d151a46cc477297bf5ca94305c7ffabea15445d021a79e6b06a38",
+      "bytes": 2405,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919227290000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/LinkDirectiveBuilder.java",
+      "sha256": "20d651e22ce482c87f1337077fb74ffa1423bf9297021105a9d31e5bb2c8fe82",
+      "bytes": 2429,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919228289000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/MIMEType.java",
+      "sha256": "7b956fa10cdae618c8e2532fafc8232c15b5d72c3b5c643a6e799ce23c452ffe",
+      "bytes": 6488,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919228289000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/NameValue.java",
+      "sha256": "62cd24272aba39898332e60d4a724431cefa8598489f9b068af12bd1fdc9576c",
+      "bytes": 1643,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919228289000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Parameter.java",
+      "sha256": "fbfd0ba163bf161e03a5b83b437d488f5c45d50417ccd0506c95908063479ce4",
+      "bytes": 1118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919229288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/QuotedDirective.java",
+      "sha256": "bcfd146857309f819d257ca307e3d1f9178132bf6e0cb167f80f39bfcf62955e",
+      "bytes": 1289,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919229288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/QuotedParameter.java",
+      "sha256": "c49c31e40b779ef0a53f030d81be3224dc0bc40352d9f2510730ae3b3e54c121",
+      "bytes": 486,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919230288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Status.java",
+      "sha256": "206d6e50daf1cebcade3edb8d51090417ec0fe5be3174f748f758b1e85f71c98",
+      "bytes": 8854,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919230288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/StatusLine.java",
+      "sha256": "5a22b1d9136a875a178a77d86ca965f70cd6e48a76aca4ec1a4be291c9dfa209",
+      "bytes": 1912,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919230288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/Tag.java",
+      "sha256": "6e6e06dc3872793f20b84beb642a15edd157ee9e86869a181c26156880ec9ad1",
+      "bytes": 5554,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919230288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/UsernamePasswordChallenge.java",
+      "sha256": "1b06e0973ec1767eb4842bde4d9279a6003d2229b29908c4221492ee3f35d384",
+      "bytes": 1709,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919231287700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/annotation/Beta.java",
+      "sha256": "2d6254e2eff55b5e25481d26b95f21abe3c984458e513e5c97c1e7f4115f205e",
+      "bytes": 124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919231287700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/annotation/Internal.java",
+      "sha256": "84077bfd4d43548672a66815d99b7ab7ac9e5db8a4ed6028042b58433b2f795d",
+      "bytes": 500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919231287700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/Authenticator.java",
+      "sha256": "9400a42eea12f58805464567e210fa1885261932dd3617a886b0df9bc50487e4",
+      "bytes": 1370,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919232288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/AuthenticatorBase.java",
+      "sha256": "adfb00255acf506f79c7a9614a59e7d4a566dc2537a1d5c7ec80ea646de4b44c",
+      "bytes": 3106,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919232288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/AuthenticatorStrategy.java",
+      "sha256": "c2c23536c6d459509691d443fed17ec72c8c736502ca97290491da3f39b4affc",
+      "bytes": 1264,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919233291000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/AuthScheme.java",
+      "sha256": "ff082ba1e09dc458011cb08fdf4767b8bdc44e9e3bca06739ff8f57855fb378b",
+      "bytes": 1381,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919232288000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/BasicAuthentication.java",
+      "sha256": "422aba93d7bea2e8aa4e92d754f9edb858d3ab53478aeab06754a95f38cda9fa",
+      "bytes": 641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919233291000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/BasicAuthenticatorStrategy.java",
+      "sha256": "e5f185d9a9ca1ea908be48ff7d58b3f2d5d831281e984b62a9633c948eeed18d",
+      "bytes": 2263,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919233291000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/ChallengeProvider.java",
+      "sha256": "51dee350068b75c1fbd649c0a725adcb0d18948b41fe6a1071650bf240da55dc",
+      "bytes": 1059,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919234291000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/DefaultAuthenticator.java",
+      "sha256": "89022e50883d2f044717c664a799bda89f63b2da8050ee5b1093ec3fb26b880a",
+      "bytes": 3571,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919234291000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/DefaultProxyAuthenticator.java",
+      "sha256": "dc30aaeca5287b118447949f4e3a0b07d4e349aebacf59d595fab3ef843cb6ce",
+      "bytes": 4244,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919234291000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/DefaultSchemeRegistry.java",
+      "sha256": "ff5ee640ca55ecb12a01a04128c3b1d174a7e2e1aee509a3e407add0a8252737",
+      "bytes": 1567,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919234291000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/DigestAuthenticatorStrategy.java",
+      "sha256": "a39205bc52de57b7abc8311bd5ce986c30c7991508a26349eb2d052c3f42ae46",
+      "bytes": 3732,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919235293400
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/NullAuthenticator.java",
+      "sha256": "31c2977a4245511295c0a6995baeae45424feeff0a718aa2a79fe8cc859b11a3",
+      "bytes": 1548,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919235293400
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/NullAuthenticatorStrategy.java",
+      "sha256": "ff0b98bcb08dd0e07ae888c64a8819015e2fd2834978f2b77eb9a3eb632a5244",
+      "bytes": 1624,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919235293400
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/ProxyAuthenticator.java",
+      "sha256": "08d5be2bbdff4e5898aeaf6022b5b0dbe4eaff35bae869ee81b52e71cecfd288",
+      "bytes": 1402,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919236289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/ProxyConfiguration.java",
+      "sha256": "5f6edbec6a0f54e0e73f62c3f80a8138a624f63791ff6c21888aa0d4c6a0edc9",
+      "bytes": 2815,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919236289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/SchemeRegistry.java",
+      "sha256": "95ee3ea344cdd76efe71600ab47f37dfe2b73ec16ee8b75f2a335beeb6ec0d76",
+      "bytes": 312,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919236289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/bearer/BearerAuthenticatorStrategy.java",
+      "sha256": "5b69949b835459b263b18a3fa87ecc4515b4b67eb508ba3daa456fe50f5c99a9",
+      "bytes": 1721,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919236289500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/bearer/BearerToken.java",
+      "sha256": "e90360d9d4a55396ad0851baa74e699077f2910fa4a14fa2181564b8e7a92441",
+      "bytes": 1050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919237288500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/bearer/BearerTokenChallenge.java",
+      "sha256": "d09a03e6a76bc9e677f3f2e0f606f6840445bb1d813e098063288fa64322464c",
+      "bytes": 585,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919237288500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/digest/Algorithm.java",
+      "sha256": "14bdcc48281e7f6c36614cd057649d16cdf359e9b9f01a7762b3b27491f247f3",
+      "bytes": 1341,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919237288500
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/digest/Digest.java",
+      "sha256": "6dd7f43db3b93e02db20681655aa4f61c588161e477d19ef4201969088eb8ff6",
+      "bytes": 3757,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919238482200
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/auth/digest/RequestDigest.java",
+      "sha256": "99720ffbeb95c0e26b4d73ee3fa9f797349e41f404967d29859084c89cc0dd4a",
+      "bytes": 6467,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919238482200
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mutable/MutableConditionals.java",
+      "sha256": "4d74c63c477a4fb6bed7afe86c8d6f2a37f77f14e6150d3bd7dd6290510851fc",
+      "bytes": 2357,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919238482200
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mutable/MutableHeaders.java",
+      "sha256": "046ade5e34b5dec913b971504d4738084071d30525e334711264dfa3d3e6e900",
+      "bytes": 5444,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919239609700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/mutable/MutableRequest.java",
+      "sha256": "123b46f440406203a61fd703abcbd8f785fada533bc94ef3df838689b26cc55b",
+      "bytes": 3733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919239609700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/ByteArrayPayload.java",
+      "sha256": "416f9c550c23a0c9c60376ad67dd5fbfb953e40cd782f2cfd9f0edaeed9fa2e3",
+      "bytes": 2142,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919239609700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/ClosedInputStreamPayload.java",
+      "sha256": "30d140d2a3aa1ee1a89cf424bf79f1592c7af67b903a65c801d0a61312a0834c",
+      "bytes": 1800,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919239609700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/DelegatingInputStream.java",
+      "sha256": "07d2f299d5fac9b968d004610c9362be2757919a3bb9389c6913025b1c442c02",
+      "bytes": 2001,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919241040000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/FilePayload.java",
+      "sha256": "66cc94415cd91d95c5cadbeabe894c46df31fa60c38d0e4dd915e8993cf6b56b",
+      "bytes": 2268,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919241040000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/FormDataPayload.java",
+      "sha256": "94b9160fb5dfa8e20882ca98da8abeff503c2971da367a54bb35cddb1b04e131",
+      "bytes": 2212,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919241040000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/InputStreamPayload.java",
+      "sha256": "7a98ec65ed371674e840ae5b876787639cb91e5397b6233d549fa252dcc05afc",
+      "bytes": 2415,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919241040000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/Payload.java",
+      "sha256": "8e764ba3e771b32b44dd6a664091fc54e5d5059a98b5b5c9fa92d851b9a02f99",
+      "bytes": 2587,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919242126000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/payload/StringPayload.java",
+      "sha256": "755921422dd6395ecc85210491df8c66c09a6e45150d182876a76f1380337c0c",
+      "bytes": 1934,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919242126000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/preference/Charset.java",
+      "sha256": "5e249cec23bf3cfc69715b6e39caa9c3a4df8f7e7088f0330ece3e982d4bc5eb",
+      "bytes": 832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919243121100
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/preference/Preference.java",
+      "sha256": "4c82a242f72e3b7cc5e6d37f097dbda22622392ffd5bdaef2e15e67bdde9fbc9",
+      "bytes": 4484,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919243121100
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/resolver/AbstractResponseResolver.java",
+      "sha256": "aac6ab2ef56a38fc224b65d5b7c8e59f1722bcc5c49bbc3623703a4b0a83dedf",
+      "bytes": 4780,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919243121100
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/resolver/ConnectionConfiguration.java",
+      "sha256": "d22522cd3a03d3015830312a59e3b8a7ccaf1c4fee01f6628507fbb41e0ce42b",
+      "bytes": 3948,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919244120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/resolver/ResolverConfiguration.java",
+      "sha256": "819bd9bcf1c315462b1a3541854a798c47a2bc1b00fde40a1d57b2175acddc48",
+      "bytes": 3927,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919244120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/resolver/ResponseCreator.java",
+      "sha256": "d150226821abfda62bb9cc289941005baa09f69925a6902eb64a300606c06083",
+      "bytes": 1835,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919244120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/resolver/ResponseResolver.java",
+      "sha256": "a33a8775871637d659a9d093fb17096617184b962a9b43540e820f1c579a483b",
+      "bytes": 1698,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919245119800
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/AbstractHTTPWriter.java",
+      "sha256": "b93b700080abf71f80780eeadfcd94ca3fc2f9b1df9330c0b9a5117e41ff84eb",
+      "bytes": 1534,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919245119800
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/AuthDirectivesParser.java",
+      "sha256": "380f59ca39bc6d32bbcd97b08badb9b8b4b81ab54f0adbb92ac3fd2b6c75b0c6",
+      "bytes": 2431,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919246120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/AvailableInputStream.java",
+      "sha256": "4e578443dd49ebda765bbdcec5dff5162346c5a714dd5f92bfb2f42c6720e3f4",
+      "bytes": 647,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919246120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/CaseInsensitiveKey.java",
+      "sha256": "5cea24d8ed516af2586d6cc66d6311f0e65b674f7dd42ba3af6dd0c04020894b",
+      "bytes": 2056,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919246120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/Digester.java",
+      "sha256": "c3d282302488ecac4e8cefce3909f05bad5053e51ab471b42e77b2ba7d2c5c62",
+      "bytes": 1369,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919246120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/DirectivesParser.java",
+      "sha256": "cabbf0b541f288225ad59df728366885a7508508fb2eb263e0029bdb171b9470",
+      "bytes": 8679,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919247123200
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/Hex.java",
+      "sha256": "318003988df2e233be6de57235697395aa9fecdeb8d6a1680a857340c18da07e",
+      "bytes": 579,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919247123200
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/IOUtils.java",
+      "sha256": "1209345e7a8cd740fecaaa7816a86fec12dee2f573975f99a5085f443c188687",
+      "bytes": 1035,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919247123200
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/NullInputStream.java",
+      "sha256": "82128bd7fc59fa2dbb00fa098e02385f65e49c4f400a0a61377bf6d0fa56795c",
+      "bytes": 311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919248122700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/NumberUtils.java",
+      "sha256": "3c062deb8bdadacda9d55caf28f0e52d16bc96067c6785eaca19b5ac450fdae5",
+      "bytes": 1382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919248122700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/OptionalUtils.java",
+      "sha256": "2ce15d76e84b101d48cd0a7ee4981aae47a3e4cb9d9da34ccaa3b267e56cb994",
+      "bytes": 563,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919248122700
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/Pair.java",
+      "sha256": "d95c30aedc6faff0e4d3c47f1c370477fa94f38e0c652015268c422aa8408e3a",
+      "bytes": 2272,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919249120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/ParserCursor.java",
+      "sha256": "cd5fbda3c6273d475ebc55a680577f0adf4d3e6d561d8f26a493a0aca92ede8c",
+      "bytes": 2519,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919249120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/Preconditions.java",
+      "sha256": "d25a3efd9244982937442d648d308327413c2118cc14c34a2434bf890471d5f8",
+      "bytes": 256,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919249120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/PropertiesLoader.java",
+      "sha256": "0358f47c47a9b7cba5118d5bb5e19e06303d17d5fdd17ea1a4d48c9c7421eb0c",
+      "bytes": 1013,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919250120600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/RequestWriter.java",
+      "sha256": "a0b06508eb71b533592e931bfe7d5026794b8ecbc7ed762931731bccdce5b5e2",
+      "bytes": 1922,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919250120600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/ResponseWriter.java",
+      "sha256": "4def96cb40df48f03c1607acdfa12defcb9925b1c655627e16f584f09e4470ff",
+      "bytes": 1673,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919250120600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/SerializationException.java",
+      "sha256": "7e1ae3f18d4d1f317d7f8063e90d009dac93211074ba1b6b608586b2622468d5",
+      "bytes": 537,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919251120800
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/SerializationUtils.java",
+      "sha256": "9439697c27c4827f3616e47422876d2f23eab46cac2f4956c5d8e93d80c770b4",
+      "bytes": 7681,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919251120800
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/Streamable.java",
+      "sha256": "cab0a4d072d8d9503c5920d3fe63eb7b45c33c6f11c0bbadabec9eea3da45f2c",
+      "bytes": 326,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919251120800
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/TestUtil.java",
+      "sha256": "9073dd9915de35ccc51b58a715ba091bc6632bfb7d72415ac1760f08f08c9265",
+      "bytes": 2257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919252118600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/java/org/codehaus/httpcache4j/util/ThrowableFunction.java",
+      "sha256": "fd3fd4db76722dffb0cf828bed5c7abf910df1879299b5c095484a17d75e0683",
+      "bytes": 740,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919252118600
+    },
+    {
+      "relative": "httpcache4j-api/src/main/resources/version.properties",
+      "sha256": "d9217be2a24b0744ce88cee361870e8746bb28577b134b46f800675c5a528bbc",
+      "bytes": 20,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919253120000
+    },
+    {
+      "relative": "httpcache4j-api/src/main/resources/META-INF/mime.types",
+      "sha256": "b23ee940d784c8a2220837612226247539299a42f78a6fd5f47635efdb63ca4d",
+      "bytes": 54597,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919253120000
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/CacheableHeadersTest.java",
+      "sha256": "dacd9757f2491d4279b7e5b4872f85dc754f12711facfe771349f811113f863b",
+      "bytes": 2897,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919254618000
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/CacheControlTest.java",
+      "sha256": "3b2f385792c210e273ee430c9366ebf418412dd6a0a7319bbd43e1e6dc333f1e",
+      "bytes": 3256,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919254618000
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/ConditionalsTest.java",
+      "sha256": "e0d7f825fd926d884021a15f63965e032081c8538f99e1117fa22db804bf522c",
+      "bytes": 9465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919254618000
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/DirectivesTest.java",
+      "sha256": "9207468dd03412841684648acd65668acd5bd0af749142a9279442083063648b",
+      "bytes": 2285,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919255618800
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/DirectiveTest.java",
+      "sha256": "6b1e50a52e14fb2d9296395dfb50690bc05a36e8ea270ca24d788ae86069683a",
+      "bytes": 1833,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919254618000
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/HeadersTest.java",
+      "sha256": "8f417fe10b71834ee3911d4f4b1b5fbb6e0e159c6a40c7f9c9bec4eb069f93dc",
+      "bytes": 6656,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919256980400
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/HeaderTest.java",
+      "sha256": "be311a9808d4afd717cdc895b2dba6c4f3c7f8cda264f86e6b99632ebe3016f0",
+      "bytes": 417,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919256980400
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/HTTPMethodTest.java",
+      "sha256": "14ad1077ebc5025cffcbee3ef7821b476d3739a5f856e2d40783b474b79d6fe9",
+      "bytes": 1810,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919255618800
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/HTTPMethod_RBL4_383f035cTest.java",
+      "sha256": "5a8be37c4d0a040051c4af3b6f895399ef7e858d104003f2789bcd5564008c55",
+      "bytes": 85,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784838614061073800
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/HTTPRequestTest.java",
+      "sha256": "281bfca5fc5f53344891911dec571e4cf86841c6cd794d03ae8112ca2f55fd84",
+      "bytes": 3935,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919255618800
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/HTTPResponseTest.java",
+      "sha256": "d09b4479e4023a93fa788b0adcc6cfae99deab703df395c35ff37c9afd323686",
+      "bytes": 5365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919255618800
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/LinkDirectiveBuilderTest.java",
+      "sha256": "4a556f72fb08459a00f0d592d5aba590e6bda79dda716eeedef9df906761587c",
+      "bytes": 1151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919256980400
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/LinkDirectiveTest.java",
+      "sha256": "f18bc824166c29c92631517cf7c7cf00c96f68b656aba8e710768d368c9272af",
+      "bytes": 3598,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919256980400
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/MIMETypeTest.java",
+      "sha256": "dade19c0015f715f53c39bf022e4a67567e2453403d60bcc6dafa1913ca9db3d",
+      "bytes": 4416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919258180600
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/PreferencesTest.java",
+      "sha256": "a119c276fa329bb82708b64c23f90870812eb5ef703c4b0eec649f189a0c1594",
+      "bytes": 1780,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919258180600
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/StatusTest.java",
+      "sha256": "ece97ceb9499849df60481395cb1cb2952d3c1725e74d5966e6ab6df0cb6ae07",
+      "bytes": 1501,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919258180600
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/auth/DefaultAuthenticatorTest.java",
+      "sha256": "87afc750c482955dd3e371adea3eda28d4c2ddc25ac09a5b24a0bc5182e5434c",
+      "bytes": 2790,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919258180600
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/auth/IgnoredProxyHostTest.java",
+      "sha256": "cc17d49d1a3dd3a7977f49149695d775d7e7e2a31ce9221554c6729b467dc136",
+      "bytes": 2053,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919259460700
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/auth/ProxyAuthenticatorTest.java",
+      "sha256": "93ce3aa42e4cab7c70422ea5d8a1580827e54f8d9dca674de15a05d4be88758d",
+      "bytes": 2073,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919259460700
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/auth/digest/RequestDigestTest.java",
+      "sha256": "9de097fa6e35cc8b2572885a5b86a743974ed2e2483f648679dddf5ed8fb5307",
+      "bytes": 5546,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919259460700
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/payload/FormDataPayloadTest.java",
+      "sha256": "c41236252a3f24ea9ed7c170fcd6d90bbb299dfca1a89f1e2a4506328292d35c",
+      "bytes": 2320,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919260573900
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/payload/PayloadTest.java",
+      "sha256": "db5ce2b36355b950bb23b50ab994b087493e87684e1cd6c886edefbd87c1f613",
+      "bytes": 1751,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919260573900
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/resolver/ResolverConfigurationTest.java",
+      "sha256": "021ed051f474908db432392464a6745986415f68df31574048defe489c3927be",
+      "bytes": 706,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919261582000
+    },
+    {
+      "relative": "httpcache4j-api/src/test/java/org/codehaus/httpcache4j/util/DigesterTest.java",
+      "sha256": "c9fdcaa8effaa73f8f4062eb2aca44676bfa06124d5f9b30756409bfc1fb8224",
+      "bytes": 857,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919261582000
+    },
+    {
+      "relative": "httpcache4j-api/src/test/resources/multiple-auth.txt",
+      "sha256": "d379c11a9e8f1d65e0ba209be2e6450b84b896f694d88edc4956459b0402c282",
+      "bytes": 412,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919262699000
+    },
+    {
+      "relative": "httpcache4j-core/pom.xml",
+      "sha256": "e2136ff0066ccf1a9326d5f32f7450967e0e33d065c5980a8cdabe14aa5c2ac3",
+      "bytes": 1917,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919262699000
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/cache/CacheStatistics.java",
+      "sha256": "8c082933ff99e3599dcd84d8d8612db831bf4273e4ccc4082d86742f3936d8c2",
+      "bytes": 1558,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919264780000
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/cache/HTTPCache.java",
+      "sha256": "284edfb5eafaadebd845026b152d1ba9e0ce13e12f268de44211a0e373c0eda0",
+      "bytes": 10836,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919264780000
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/cache/HTTPCacheHelper.java",
+      "sha256": "b2fb883493a71d534fbee39f06bff216de8f49caf4a02e1c1462c90747f8d048",
+      "bytes": 9197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919265792600
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/cache/MemoryCacheStorage.java",
+      "sha256": "de7435de186d8d20cd7e723786c6fd6a0b57a1df2acfec0c31eda952bf13c572",
+      "bytes": 7319,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919265792600
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/cache/Mutex.java",
+      "sha256": "e0e6a2290ec6a4f3c3c9b18c5b0b92d01f9ad71308f810e65ec0820dd24f328f",
+      "bytes": 3234,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919265792600
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/cache/Warning.java",
+      "sha256": "ae321041f4448956967f2736008f74ebd7c91e49e14e4536f5a9d76f2fb6f469",
+      "bytes": 3695,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919266793300
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/resolver/JavaNetResponseResolver.java",
+      "sha256": "18aba08c0f9d6c3b4503c765f470a72db60291228791b5622f8333b156aebfad",
+      "bytes": 7049,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919266793300
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/util/CacheStatisticsMXBean.java",
+      "sha256": "f37cff396cef27cd7eed07bdec805cd4174136de4c1e5f765692e81468b5b2ce",
+      "bytes": 910,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919266793300
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/util/LRUMap.java",
+      "sha256": "f0e9130daa25050d1c41080431bf457ed11646406e2fe194985c7d433d42ec56",
+      "bytes": 2502,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919267793400
+    },
+    {
+      "relative": "httpcache4j-core/src/main/java/org/codehaus/httpcache4j/util/MemoryCache.java",
+      "sha256": "b1588e2d0e27f0d1f86a990e798ce2806af7d9f480f090179a50782236b91c13",
+      "bytes": 2827,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919267793400
+    },
+    {
+      "relative": "httpcache4j-core/src/test/java/org/codehaus/httpcache4j/cache/ConcurrentMemoryCacheStorageTest.java",
+      "sha256": "bce38e6c2e497e82214470d747ead67d5d77d88eee291cf60a1594b3fe53ba0d",
+      "bytes": 1150,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919268796000
+    },
+    {
+      "relative": "httpcache4j-core/src/test/java/org/codehaus/httpcache4j/cache/HTTPCacheHelperTest.java",
+      "sha256": "c8b8a97ae67d63e08169a949927846f7297d992ac335f52d0572422f037e3a28",
+      "bytes": 7153,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919269791600
+    },
+    {
+      "relative": "httpcache4j-core/src/test/java/org/codehaus/httpcache4j/cache/HTTPCacheTest.java",
+      "sha256": "ee688fe9df3fec866d709c2fe6cb7976de1c01f3e9ab1b8138e9191a078f8c11",
+      "bytes": 30203,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919269791600
+    },
+    {
+      "relative": "httpcache4j-core/src/test/java/org/codehaus/httpcache4j/cache/MemoryCacheStorageTest.java",
+      "sha256": "757f9a2fb142028d80d493978552420dd531444b6bddaadbcc4af1489ee7c415",
+      "bytes": 1015,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919269791600
+    },
+    {
+      "relative": "httpcache4j-core/src/test/java/org/codehaus/httpcache4j/cache/MutexTest.java",
+      "sha256": "f03314aa942bbd4cb873f208f8646d7c8042824475e5612ad59ab0070d49013e",
+      "bytes": 8958,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919270792700
+    },
+    {
+      "relative": "httpcache4j-core/src/test/java/org/codehaus/httpcache4j/util/LRUMapTest.java",
+      "sha256": "18aa97233b4b9881577268c8030d115ce4e6703cfd7640579c1df4c5065af468",
+      "bytes": 2825,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919270792700
+    },
+    {
+      "relative": "httpcache4j-core/src/test/java/org/codehaus/httpcache4j/util/MemoryCacheTest.java",
+      "sha256": "ab223490ba17165b693669162d63c87564f5817fc9b614a614f5f9d6c57ba1d1",
+      "bytes": 2843,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919270792700
+    },
+    {
+      "relative": "httpcache4j-it/pom.xml",
+      "sha256": "27c293150f1a67b8c5f1b0f7e1ce89a606c761366850681830e1c0acc6cb254a",
+      "bytes": 3382,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919271791500
+    },
+    {
+      "relative": "httpcache4j-it/src/main/java/org/codehaus/httpcache4j/JettyServer.java",
+      "sha256": "df29ebb10d1ad244f2fc95df6ee38bc12e37ee6d8233c393ba0348cebbdd926d",
+      "bytes": 867,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919272791100
+    },
+    {
+      "relative": "httpcache4j-it/src/main/resources/index.html",
+      "sha256": "482520189ef65614526ddf24a4da2cb1238adf89a0aa8637d2ab65f05df5fabd",
+      "bytes": 17061,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919273791000
+    },
+    {
+      "relative": "httpcache4j-it/src/test/java/org/codehaus/httpcache4j/AbstractCacheIntegrationTest.java",
+      "sha256": "7fd7d7088e3e41e081242371776d77f1ac36299f23cc1773a0a58d6c3e7e2445",
+      "bytes": 14931,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919274791000
+    },
+    {
+      "relative": "httpcache4j-it/src/test/java/org/codehaus/httpcache4j/MemoryHTTPComponentsClientCacheIntegrationTest.java",
+      "sha256": "30f3e5d836d3504e9d7bb99f2e4f834bff1000d460bc9798508908a242c1c62d",
+      "bytes": 1304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919274791000
+    },
+    {
+      "relative": "httpcache4j-it/src/test/java/org/codehaus/httpcache4j/MemoryNingCacheIntegrationTest.java",
+      "sha256": "01d6ada465d08708de9d8f492b78a537f745e3c69655c68b7f2cf70ae13cb013",
+      "bytes": 1628,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919274791000
+    },
+    {
+      "relative": "httpcache4j-it/src/test/java/org/codehaus/httpcache4j/MemoryOKHttpCacheIntegrationTest.java",
+      "sha256": "9a2401ea8871ec2fc6ca7429359d60346abada54a4b69f2d4f01f177ec2a4604",
+      "bytes": 1417,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919275794300
+    },
+    {
+      "relative": "httpcache4j-it/src/test/java/org/codehaus/httpcache4j/MemoryURIConnectionCacheIntegrationTest.java",
+      "sha256": "ca562c9ef1eb8f099a6d8a9060b0151177b6934421950a72f0072e20e596fe1d",
+      "bytes": 1359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919275794300
+    },
+    {
+      "relative": "httpcache4j-it/src/test/java/org/codehaus/httpcache4j/VaryResourceServlet.java",
+      "sha256": "49bbe08e182ba0acbac4ae6aa6ee764e92459866effb5198c7d13126b188e0a5",
+      "bytes": 2868,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919276791600
+    },
+    {
+      "relative": "httpcache4j-storage-api/pom.xml",
+      "sha256": "0461823867a9aa98d9227ec8c75d4145705909225e62c211d409f8e7961a5ce3",
+      "bytes": 1427,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919276791600
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/CacheItem.java",
+      "sha256": "624ed814eed2da7a2667234a843969a3f15f98e39891c9d2b94387a2e6e159ac",
+      "bytes": 348,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919278791200
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/CacheStorage.java",
+      "sha256": "f01d99b29a462a710ee306a9c7fa4919e39a2ea4ae49ab452d51e4e8b7b9952d",
+      "bytes": 1290,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919278791200
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/DefaultCacheItem.java",
+      "sha256": "a779cd2d72063588374aa183ca15a51aaa131d474130f46b80f5029d4138528f",
+      "bytes": 4489,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919278791200
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/FileManager.java",
+      "sha256": "d438e75d34e124db7c6636d1bf6d69d20116b4026534163448335144ca3ece54",
+      "bytes": 5452,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919279792800
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/Key.java",
+      "sha256": "efbafc6ac00db2e5876e7824939b231456dfd8bff524858165cb0b770df7f59f",
+      "bytes": 5173,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919279792800
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/NullCacheStorage.java",
+      "sha256": "6e7e86b827004b78153f6f39e89e0b6d07b3864d7414ea3367d63a65c8ae2965",
+      "bytes": 1736,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919279792800
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/SerializableCacheItem.java",
+      "sha256": "aaa58869f246e8e07980ff7ae8047fc7c2962eaeda063c3bea778a2dd0797409",
+      "bytes": 3490,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919280794000
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/cache/Vary.java",
+      "sha256": "27b78ca1e193a40e6ba9e1123616149d9a8457685441585231e409f27d133f5f",
+      "bytes": 6293,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919280794000
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/main/java/org/codehaus/httpcache4j/util/DeletingFileVisitor.java",
+      "sha256": "f871ececf9730894a655b946b0bfaa137a10b1684045ce5c7dbc134324b8cc1e",
+      "bytes": 992,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919280794000
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/CacheItemTest.java",
+      "sha256": "739a044a189376aa8ec03baef1699faee58d81d20dcf97764b839706325d80f8",
+      "bytes": 4784,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919282298300
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/CacheStorageAbstractTest.java",
+      "sha256": "098472306f633c029e6b0d91bf43a26314c6a83ce65e93ca8c544a528fcfee5e",
+      "bytes": 2695,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919282298300
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/ConcurrentCacheStorageAbstractTest.java",
+      "sha256": "52ba4c33ea1634afb3e3b5b83a7f0bb0b7b98e03ab8d93ea694825fa6ca12fea",
+      "bytes": 5311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919283306600
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/FileManagerTest.java",
+      "sha256": "544653266afd05de01d8ef807f61856d469fe334f2e99112862cf1fdd81cf48a",
+      "bytes": 2404,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919283306600
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/KeyTest.java",
+      "sha256": "e07562f4f195d3c233b84f6b4963630c566db6aa116b29a879f863ddaa80b41b",
+      "bytes": 2495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919283306600
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/SerializableCacheItemTest.java",
+      "sha256": "ecf6fe0938fa20a0d1a235fe85a83a7f09bda99df0f4dec4b60f6a69640787d8",
+      "bytes": 1396,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919284306300
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/TTLTest.java",
+      "sha256": "1291cc35c3f1864696153b31afbb88d3b95b9d8a37e5195e4cd89aaea94dc8f8",
+      "bytes": 3243,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919284306300
+    },
+    {
+      "relative": "httpcache4j-storage-api/src/test/java/org/codehaus/httpcache4j/cache/VaryTest.java",
+      "sha256": "5de1b2402875bb1a84556b1dc6c7b49ad1b26f4ae1e7a1649a12addf2db6cdda",
+      "bytes": 7931,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919284306300
+    },
+    {
+      "relative": "resolvers/pom.xml",
+      "sha256": "007474cb7abf00901002c07c56ee37a704a203f0d46b703cf491d872eda05296",
+      "bytes": 2485,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919285306200
+    },
+    {
+      "relative": "resolvers/resolvers-httpcomponents-httpclient/pom.xml",
+      "sha256": "f411b8aad6c66a9f139c77aa4d6ee534311b1da5621e4b50c11a221fc965e8ac",
+      "bytes": 1849,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919286306600
+    },
+    {
+      "relative": "resolvers/resolvers-httpcomponents-httpclient/src/main/java/org/codehaus/httpcache4j/resolver/HttpClientFactory.java",
+      "sha256": "cb6c5b9333f51094a35a81c81b71095858f0e79c926a0fe3dcf47ce293a8b698",
+      "bytes": 4324,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919287306500
+    },
+    {
+      "relative": "resolvers/resolvers-httpcomponents-httpclient/src/main/java/org/codehaus/httpcache4j/resolver/HTTPClientResponseResolver.java",
+      "sha256": "21795bfc067b1f244e8ba231b15f526c17e40e8739023fe7f813081e1aca18ee",
+      "bytes": 8112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919287306500
+    },
+    {
+      "relative": "resolvers/resolvers-httpcomponents-httpclient/src/test/java/org/codehaus/httpcache4j/resolver/HTTPClientResponseResolverTest.java",
+      "sha256": "0cf1094478236df2dc5887ea6453940e9d529ed13f08381ec6b6e2a0feba3a69",
+      "bytes": 5318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919289307000
+    },
+    {
+      "relative": "resolvers/resolvers-ning-async/pom.xml",
+      "sha256": "dccc98cb4261b431817e0569aea48951dc29dd94036020e2913e1a27c66ac6cf",
+      "bytes": 1806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919289307000
+    },
+    {
+      "relative": "resolvers/resolvers-ning-async/src/main/java/org/codehaus/httpcache4j/resolver/ning/NingResponseResolver.java",
+      "sha256": "43af3b3cd08b619784d2317a52fdbef4c497cf702052b6d2cc69689b761d9010",
+      "bytes": 6909,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919291306000
+    },
+    {
+      "relative": "resolvers/resolvers-okhttp/pom.xml",
+      "sha256": "26b1b0c31022ed1c6c22f49228d7afbda7c02d1ad9f2853f9c50299171ca1d49",
+      "bytes": 1774,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919291306000
+    },
+    {
+      "relative": "resolvers/resolvers-okhttp/src/main/java/org/codehaus/httpcache4j/resolver/OKHttpResponseResolver.java",
+      "sha256": "884ae3a1a1b705a1d0248b95fbb754a62bd1550a6d8a6b5b102284e7877c0053",
+      "bytes": 5622,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919293305600
+    },
+    {
+      "relative": "storage/pom.xml",
+      "sha256": "f94fb3afd714470dfdedd2afd41f4a863e4a359cfe8db5ca7f9634c7e8a534ca",
+      "bytes": 1357,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919293305600
+    },
+    {
+      "relative": "storage/storage-file/pom.xml",
+      "sha256": "069f39f8d9fb815b70b0281c26f2e900420aa840e79e314e7f2d55b6726aae86",
+      "bytes": 1697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919293305600
+    },
+    {
+      "relative": "storage/storage-file/src/main/java/org/codehaus/httpcache4j/cache/DefaultSerializationPolicy.java",
+      "sha256": "201a4accbd02fa4aff10d7cf9167e7868a4ed8c8cf617e8b64c3b5ea71da34e4",
+      "bytes": 1058,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919295306200
+    },
+    {
+      "relative": "storage/storage-file/src/main/java/org/codehaus/httpcache4j/cache/FilePersistentCacheStorage.java",
+      "sha256": "ba35b31e8fd1ea33943ccd5442104715c8daba23fde88c3ac8f11505c669b225",
+      "bytes": 8036,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919295306200
+    },
+    {
+      "relative": "storage/storage-file/src/main/java/org/codehaus/httpcache4j/cache/PersistentCacheStorage.java",
+      "sha256": "c5f30c9fee69b08f24fda340d8f671594110b0da5ed9afc4cbfcbb7a71a82bf5",
+      "bytes": 6526,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919295306200
+    },
+    {
+      "relative": "storage/storage-file/src/main/java/org/codehaus/httpcache4j/cache/SerializationPolicy.java",
+      "sha256": "23ef5d376c922f06dc90abf41d7cda31d6b10ec5a720eba72916b38b57abce41",
+      "bytes": 172,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919296305400
+    },
+    {
+      "relative": "storage/storage-file/src/test/java/org/codehaus/httpcache4j/cache/ConcurrentPersistentCacheStorageTest.java",
+      "sha256": "2b6b81e7b6a773c258a89ef76fc1678df7d70e3a539e399e2e78fee280515130",
+      "bytes": 2687,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919297305600
+    },
+    {
+      "relative": "storage/storage-file/src/test/java/org/codehaus/httpcache4j/cache/FilePersistentCacheStorageTest.java",
+      "sha256": "6266171fdb9b8ac6a62317cc49bcbb1fa35b192a3c6aadb870ea15c0ed1fd9ea",
+      "bytes": 3303,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919297305600
+    },
+    {
+      "relative": "storage/storage-file/src/test/java/org/codehaus/httpcache4j/cache/PersistentCacheStorageTest.java",
+      "sha256": "0873238dc1c56ca882eff9d19beb8065015a680f2724c92f721c06883598a5c7",
+      "bytes": 3821,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784765919298306000
+    }
+  ],
+  "excluded": [
+    "httpcache4j-api/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\099_558963_383f035c\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:43:39.464765+00:00"
+}

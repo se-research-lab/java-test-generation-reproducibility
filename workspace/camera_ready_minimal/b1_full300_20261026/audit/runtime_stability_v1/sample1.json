@@ -1,0 +1,320 @@
+{
+  "at_utc": "2026-10-26T04:28:34.956568+00:00",
+  "timestamp": 1792988914.956568,
+  "owner_identity_match": true,
+  "runner_CPU_seconds": 141.90625,
+  "runner_IO": {
+    "read_count": 608902,
+    "write_count": 16350,
+    "read_bytes": 20563569994,
+    "write_bytes": 260019497,
+    "other_count": 5785635,
+    "other_bytes": 246549676
+  },
+  "owned_process_tree": [
+    {
+      "pid": 10800,
+      "parent_pid": 8928,
+      "name": "python.exe",
+      "create_time": 1792986820.1945443,
+      "CPU_seconds": 141.90625,
+      "RSS_bytes": 174100480,
+      "status": "running"
+    },
+    {
+      "pid": 11836,
+      "parent_pid": 10800,
+      "name": "cmd.exe",
+      "create_time": 1792988877.0328443,
+      "CPU_seconds": 0.125,
+      "RSS_bytes": 6918144,
+      "status": "running"
+    },
+    {
+      "pid": 9196,
+      "parent_pid": 11836,
+      "name": "conhost.exe",
+      "create_time": 1792988877.0496778,
+      "CPU_seconds": 0.046875,
+      "RSS_bytes": 7622656,
+      "status": "running"
+    },
+    {
+      "pid": 23152,
+      "parent_pid": 11836,
+      "name": "java.exe",
+      "create_time": 1792988877.243657,
+      "CPU_seconds": 48.015625,
+      "RSS_bytes": 430149632,
+      "status": "running"
+    },
+    {
+      "pid": 13376,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.9364803,
+      "CPU_seconds": 8.5625,
+      "RSS_bytes": 144658432,
+      "status": "running"
+    },
+    {
+      "pid": 22488,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.9436743,
+      "CPU_seconds": 8.3125,
+      "RSS_bytes": 144928768,
+      "status": "running"
+    },
+    {
+      "pid": 24976,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.9494574,
+      "CPU_seconds": 8.34375,
+      "RSS_bytes": 141955072,
+      "status": "running"
+    },
+    {
+      "pid": 3228,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.958748,
+      "CPU_seconds": 8.109375,
+      "RSS_bytes": 143216640,
+      "status": "running"
+    },
+    {
+      "pid": 6452,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.9667485,
+      "CPU_seconds": 8.34375,
+      "RSS_bytes": 141123584,
+      "status": "running"
+    },
+    {
+      "pid": 28296,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.9730122,
+      "CPU_seconds": 8.515625,
+      "RSS_bytes": 143101952,
+      "status": "running"
+    },
+    {
+      "pid": 6468,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.9805293,
+      "CPU_seconds": 8.375,
+      "RSS_bytes": 143089664,
+      "status": "running"
+    },
+    {
+      "pid": 6844,
+      "parent_pid": 23152,
+      "name": "java.exe",
+      "create_time": 1792988907.9873664,
+      "CPU_seconds": 8.046875,
+      "RSS_bytes": 136515584,
+      "status": "running"
+    },
+    {
+      "pid": 18068,
+      "parent_pid": 6844,
+      "name": "conhost.exe",
+      "create_time": 1792988907.9961658,
+      "CPU_seconds": 0.03125,
+      "RSS_bytes": 7720960,
+      "status": "running"
+    },
+    {
+      "pid": 20244,
+      "parent_pid": 6468,
+      "name": "conhost.exe",
+      "create_time": 1792988907.989188,
+      "CPU_seconds": 0.03125,
+      "RSS_bytes": 7733248,
+      "status": "running"
+    },
+    {
+      "pid": 14488,
+      "parent_pid": 28296,
+      "name": "conhost.exe",
+      "create_time": 1792988907.9813387,
+      "CPU_seconds": 0.015625,
+      "RSS_bytes": 7720960,
+      "status": "running"
+    },
+    {
+      "pid": 16768,
+      "parent_pid": 6452,
+      "name": "conhost.exe",
+      "create_time": 1792988907.9745767,
+      "CPU_seconds": 0.015625,
+      "RSS_bytes": 7716864,
+      "status": "running"
+    },
+    {
+      "pid": 27396,
+      "parent_pid": 3228,
+      "name": "conhost.exe",
+      "create_time": 1792988907.9685404,
+      "CPU_seconds": 0.015625,
+      "RSS_bytes": 7725056,
+      "status": "running"
+    },
+    {
+      "pid": 24708,
+      "parent_pid": 24976,
+      "name": "conhost.exe",
+      "create_time": 1792988907.9596157,
+      "CPU_seconds": 0.0,
+      "RSS_bytes": 7720960,
+      "status": "running"
+    },
+    {
+      "pid": 17548,
+      "parent_pid": 22488,
+      "name": "conhost.exe",
+      "create_time": 1792988907.9508512,
+      "CPU_seconds": 0.015625,
+      "RSS_bytes": 7725056,
+      "status": "running"
+    },
+    {
+      "pid": 21500,
+      "parent_pid": 13376,
+      "name": "conhost.exe",
+      "create_time": 1792988907.94447,
+      "CPU_seconds": 0.0,
+      "RSS_bytes": 7725056,
+      "status": "running"
+    }
+  ],
+  "owned_RSS_sum_bytes": 1819168768,
+  "host_memory_available_bytes": 5623570432,
+  "host_memory_total_bytes": 16782307328,
+  "host_memory_used_percent": 66.5,
+  "disk_free_bytes": 15648530432,
+  "runtime_status": {
+    "phase": "MAVEN V6 / RUNNING",
+    "updated_utc": "2026-10-26T04:27:57.182724+00:00",
+    "target": 300,
+    "reused_verified": 49,
+    "new_completed": 59,
+    "running": 1,
+    "maven_pending": 152,
+    "gradle_pending": 40,
+    "new_API_calls": 0,
+    "new_EvoSuite_calls": 70,
+    "GPT_guard": "PASS",
+    "reuse49_guard": "PASS",
+    "benchmark_admitted": true,
+    "missing_focal_candidates": 0,
+    "focal_candidate_disagreements": 0,
+    "disk_free_GB": 15.65,
+    "blockers": [
+      "Maven chưa có kết quả: 152; chưa thử: 139; giữ lại chưa chấm: [48, 49, 72, 112, 119, 163, 173, 211, 220, 269, 275, 294]",
+      "Class giữ lại vẫn thuộc mẫu300; không gán0, không giảm denominator hoặc tuyên bố E1-full300 hoàn tất",
+      "12 class đầu vào/provider chưa chấm; không sửa POM/JUnit, không giảm mẫu300",
+      "Gradle40 chưa admit benchmark; queue fixture cũ đã SKIPPED và không tự khởi động lại",
+      "GPT/API/repeated subset và paper giữ nguyên; STOP và ngưỡng đĩa12GB vẫn áp dụng"
+    ],
+    "tasks": [
+      {
+        "id": "B1.0",
+        "name": "Khóa 300 keys và phạm vi E-only",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.1",
+        "name": "Xác minh E49 và GPT guard",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.2",
+        "name": "Maven controller và input đã nghiệm thu",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.3",
+        "name": "Qualify Gradle 40 class, chỉ trong sandbox E",
+        "status": "BLOCKED"
+      },
+      {
+        "id": "B1.4",
+        "name": "Maven controller fixture PASS; Gradle chưa qualify",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "id": "B1.5",
+        "name": "Maven v6: giữ nguyên cách đo; tách class chưa hỗ trợ, không gán điểm",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "id": "B1.6",
+        "name": "Audit 300 và phân tích RQ4/RQ5 riêng",
+        "status": "NOT_STARTED"
+      }
+    ],
+    "source_census": {
+      "timestamp_utc": "2026-10-25T22:12:03.458037+00:00",
+      "class_count": 251,
+      "unique_candidate_roots": 251,
+      "candidate_files": 517483,
+      "candidate_bytes": 8230643238,
+      "candidate_GB": 8.231,
+      "backup_adapter_files": 8,
+      "disk_free_GB": 28.52,
+      "scope": "metadata census, descriptor hashes and adapter backup; no complete source snapshot or execution adapter yet",
+      "new_experiment_calls": 0,
+      "recovery": "v1 metadata census completed, adapter backup stopped at wrong helper basename. v2 verified existing copies and backed up correct junit_method_inventory_v1.py; v1 script/error retained."
+    },
+    "GPT_guard_checked_utc": "2026-10-26T04:25:47.333881+00:00",
+    "source_snapshot_roots_completed": 251,
+    "source_snapshot_files": 517483,
+    "fixture_EvoSuite_calls": 3,
+    "private_cache_status": "PASS",
+    "runtime_fixture_status": "PASS",
+    "benchmark_EvoSuite_calls": 67,
+    "active_sample_index": 92,
+    "benchmark_EvoSuite_commands_planned": 70,
+    "benchmark_EvoSuite_commands_not_started": 3,
+    "benchmark_EvoSuite_not_started_sample_indices": [
+      12,
+      16,
+      23
+    ],
+    "ui_projection_health": "RECONCILED",
+    "ui_technical_hold": false,
+    "automatic_v2_resume": false,
+    "Gradle_version_qualification_allowed": true,
+    "Gradle_benchmark_admitted": false,
+    "new_policy_accepted": 59,
+    "pending_transport_recovery": [],
+    "maven_policy_pending": 152,
+    "maven_unattempted": 139,
+    "maven_deferred_unscored": 12,
+    "deferred_sample_indices": [
+      48,
+      49,
+      72,
+      112,
+      119,
+      163,
+      173,
+      211,
+      220,
+      269,
+      275,
+      294
+    ],
+    "full300_complete": false,
+    "automatic_resume": false,
+    "live_process_check_at_utc": "2026-10-26T04:28:35.321047+00:00",
+    "runner_invocation_version": "v6",
+    "runner_liveness": "PRESENT_MATCHED_PID_AND_CREATE_TIME"
+  }
+}

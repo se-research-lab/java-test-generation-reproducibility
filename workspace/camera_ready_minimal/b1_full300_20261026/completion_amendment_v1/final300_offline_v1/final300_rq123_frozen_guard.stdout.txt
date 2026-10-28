@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cohorts": {
+    "rq1": 61,
+    "rq2": 45,
+    "rq3": 300
+  },
+  "gpt_artifact_hashes_verified": 298,
+  "no_output_records": 2,
+  "candidates_checked": 0,
+  "experiment_executed": false
+}

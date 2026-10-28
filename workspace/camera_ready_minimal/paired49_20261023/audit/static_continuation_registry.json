@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "path": "GIAI_THICH_MEAN_RANK_A12_RQ4.md",
+      "sha256": "e5a780ab13ff8e4a6bab4071d31d9b3df9fea7ddf589964838f7bbb171bc22f6",
+      "bytes": 2809
+    },
+    {
+      "path": "outputs/budget_accounting/BAO_CAO_BUDGET.md",
+      "sha256": "9ec26123a9d91eee7fdb4bf5cc4b6c2ed09720a302569c57316781b41836bc59",
+      "bytes": 1497
+    },
+    {
+      "path": "outputs/budget_accounting/fixed49_gpt_api_budget.csv",
+      "sha256": "df8e9e326399b65ee060b8c0d3b0b959b50a6012d49a38349a2bd533a86e0945",
+      "bytes": 7158
+    },
+    {
+      "path": "outputs/budget_accounting/gpt_api_budget.json",
+      "sha256": "1b3144747ba1b72cd272f2903d1b5ece64d03619bfabd5cf3badfa47773041fc",
+      "bytes": 2803
+    },
+    {
+      "path": "outputs/pilot_chronology/BAO_CAO_PILOT_TIMELINE.before_link_fix.md",
+      "sha256": "d27554b4debd617b205ccdf7f0913c23dfe552da626428d797982f4b606a2b67",
+      "bytes": 5301
+    },
+    {
+      "path": "outputs/pilot_chronology/BAO_CAO_PILOT_TIMELINE.md",
+      "sha256": "24456190f2d25bb2b84fa14cde9ddd9bb9405d1cb33cd1630ef73155a510ff82",
+      "bytes": 5321
+    },
+    {
+      "path": "outputs/pilot_chronology/link_fix_event.json",
+      "sha256": "ccac0ff78b5eb3b186e3832ed051bdf247dd401877516e7bd7fe00858b54c320",
+      "bytes": 330
+    },
+    {
+      "path": "outputs/pilot_chronology/source_hashes.json",
+      "sha256": "7ded1850784c706d9612c37e0a8488b33f9a6386d805b4a90635d88f9f61413a",
+      "bytes": 1091
+    },
+    {
+      "path": "src/register_continuation_static.py",
+      "sha256": "e86ab0ef68cbee361a88ef7cea2bc8d17ce870fec46433f51602dba3b663c895",
+      "bytes": 1635
+    },
+    {
+      "path": "src/status_e49_readonly.py",
+      "sha256": "53f2f46fb55c7958f84ae5b33017bedab1a9cebea82b3296c232fa4e09efccc5",
+      "bytes": 1842
+    },
+    {
+      "path": "TIEP_TUC_ANALYTICS_VA_TRANG_THAI_E49_20261023.md",
+      "sha256": "1a1f7aab74a633c28d46e48f4cc1df4d10eeef1e454e8ff8156150de9ebcb199",
+      "bytes": 7782
+    },
+    {
+      "path": "validation/e49_raw_prefix17.json",
+      "sha256": "a20b3d4cb02a985d6dbaf5cfebd7b1c065c3c5157b8e1a4323acc4e5abdda134",
+      "bytes": 4291
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/classes/EvoSuiteRuleProbe.class",
+      "sha256": "1e2c8f3366b46a5e18bd154c83d70c4c0dfa88f45d966278d3309bf36d5f99a9",
+      "bytes": 811
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/compile.json",
+      "sha256": "bf6414abf9fdb5e35db963e9d27e372b93390ef3c1913c0fb6024937b1fb7102",
+      "bytes": 591
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/compile.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/compile.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/EvoSuiteRuleProbe.java",
+      "sha256": "d1c82924b7eb0cc7216164267075e71f4818b5eb9fbb8aa6a79db2ad9efdff2a",
+      "bytes": 225
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_13_2.json",
+      "sha256": "f02d2cbc269e842feb2809aa21c683b5c7ef7fe3cc9a994bc4ed72d4656ccc49",
+      "bytes": 673
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_13_2.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_13_2.stdout.txt",
+      "sha256": "3d2895d792e83156ef6b963c7c4de410ff132e985ded92323436b3ba454f742e",
+      "bytes": 63
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_8.json",
+      "sha256": "72ee5aba4b2042861535c077d0507b28622ab6d60eb74c8dc5dc4f00122156fd",
+      "bytes": 661
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_8.stderr.txt",
+      "sha256": "7d333aa7a9abdbe88484fddf8bb98760f92707e347fe404fdae44c0ae37f6ab2",
+      "bytes": 1319
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_8.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_8_2.json",
+      "sha256": "5772d028baddf3d127ab3554046594b933ce2775f6a138b9ab13f288e9b126b0",
+      "bytes": 669
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_8_2.stderr.txt",
+      "sha256": "7d333aa7a9abdbe88484fddf8bb98760f92707e347fe404fdae44c0ae37f6ab2",
+      "bytes": 1319
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/junit_4_8_2.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "validation/junit_rule_probe_v1/summary.json",
+      "sha256": "83270536d0092b34bd44d64144195deee434842b686766d3db901d88dfe6f564",
+      "bytes": 1083
+    }
+  ],
+  "live_job_or_ledger_files_frozen": false
+}

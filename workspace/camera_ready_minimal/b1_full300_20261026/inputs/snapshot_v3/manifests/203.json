@@ -1,0 +1,1764 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\069_46396068_2ca68fd5\\compiledrepos\\46396068",
+  "class_indices": [
+    243
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "8e5b5245311dbc8d123413a2a80244ff92db33845241c9b2f995b7d5397c3a68",
+      "bytes": 110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206062184800
+    },
+    {
+      "relative": "CONTRIBUTING.md",
+      "sha256": "23a033ee75f5400bca922a032bab4878c8eb16bf6c37f880a2ffa598c0fe4b61",
+      "bytes": 295,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206062184800
+    },
+    {
+      "relative": "LICENSE.txt",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+      "bytes": 11560,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206063180700
+    },
+    {
+      "relative": "NOTICE.md",
+      "sha256": "bc4753c112f1c435b65da87dcd1bad6e73ad5958147c8d5bf0bd3ab18785615e",
+      "bytes": 26956,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206063180700
+    },
+    {
+      "relative": "package.sh",
+      "sha256": "10705e075c17c070a241443f817bf87aa696e82a7ec4184602e2e2dfa59f5b43",
+      "bytes": 646,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206176726000
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "7bcb50392b5bece74b344d2a96659f7a59b6251ff9aae684f3f3207de756db16",
+      "bytes": 3308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837184758367300
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "13319bb4e61251749c035bb299443f6a345047dd98f111ff130d0b752663015c",
+      "bytes": 11909,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837184734262800
+    },
+    {
+      "relative": "README.md",
+      "sha256": "85d0275fdbdf401713743ae92f54f51f3b2df44039b26fbea1228b50f15491ca",
+      "bytes": 1582,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206064182500
+    },
+    {
+      "relative": "updateVersion.sh",
+      "sha256": "889b56bd2880eba9f56583d281f00a9ba7881054b341fd7f1ebb7669a6346025",
+      "bytes": 251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206185724700
+    },
+    {
+      "relative": "hbase0.94/pom.xml",
+      "sha256": "396904924ca3e87cc93eecef8ff96ae324e3e85272ad7f1f95da1c61e85ef07d",
+      "bytes": 7119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206078348400
+    },
+    {
+      "relative": "hbase0.94/README.md",
+      "sha256": "75a8c037837cc32dffcf47da1005e4b52c4399e2364cec29b8f13150723875fa",
+      "bytes": 22,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206064182500
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/pom.xml",
+      "sha256": "8ae4632522db104c0c15fd1cfabc1e80f8a91ace9773b4a030e8c62645d9a621",
+      "bytes": 1733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206065182700
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/README.md",
+      "sha256": "14daa995de94e889443ac1ca96f6162b6c39d8c0106d8d5c2cf2866538ce2154",
+      "bytes": 43,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206065182700
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/main/java/com/kakao/hbase/common",
+      "sha256": "b6f857c7c1856fc72b3ee51b8c5aa463bd3717f677fbe466d7b91316bc4eee96",
+      "bytes": 89,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206066566000
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/main/java/com/kakao/hbase/specific/CommandAdapter.java",
+      "sha256": "159a3b625ab1397f3acf6e80a9743bb08865a800171a235a6c1bc51af3c31834",
+      "bytes": 14009,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206067640300
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/main/java/com/kakao/hbase/specific/HBaseAdminWrapper.java",
+      "sha256": "638733e4c0e0e5ccf06854e918489dbee93ce96d92c80fc8c939ba3e95666dce",
+      "bytes": 2856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206067640300
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/main/java/com/kakao/hbase/specific/RegionLoadAdapter.java",
+      "sha256": "b7e23201b7fab8de90d7c11fe21a89ccf1d15459916431af3fef5eef4c46ae8b",
+      "bytes": 2475,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206067640300
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/main/java/com/kakao/hbase/specific/RegionLoadDelegator.java",
+      "sha256": "56841425ebd030caabff22c27c0fb124befc929e5b02611d15eb2fd0183f08da",
+      "bytes": 2459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206068640000
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/main/java/com/kakao/hbase/specific/RegionLocationCleaner.java",
+      "sha256": "6f6cbd44785da462a99886104b44dc2b809aebbd77eb320a315c75b68834f62b",
+      "bytes": 2438,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206068640000
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/main/java/com/kakao/hbase/specific/SnapshotAdapter.java",
+      "sha256": "5e27dfaf77aca0edb260200834b57bbff7603db5d5b5eb1fe3fd094856db530f",
+      "bytes": 2297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206068640000
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/test/java/com/kakao/hbase/common",
+      "sha256": "d80d7df70da363b57efdd9ea54c0f47c1c3a47f193f69cbbe70c3bd375d4f70e",
+      "bytes": 89,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206070692800
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/test/java/com/kakao/hbase/TestBase.java",
+      "sha256": "63c3eb5ff1a228f65b643c59ad085d476fc4a9a62fb2cf97a84df2c4350fe8d7",
+      "bytes": 14921,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206070692800
+    },
+    {
+      "relative": "hbase0.94/hbase-common-0.94/src/test/java/com/kakao/hbase/specific/CommandAdaptorTest.java",
+      "sha256": "2f91527524ce42a23ea67aece0a3c93d05317f6b677835a4d01d4552ec58ea4b",
+      "bytes": 1497,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206070692800
+    },
+    {
+      "relative": "hbase0.94/hbase-manager-0.94/pom.xml",
+      "sha256": "2d00eeaacc163a30aa8c00e3114d32f91bcd1bbce2402541edcb11fac2a74bd6",
+      "bytes": 3075,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206072903900
+    },
+    {
+      "relative": "hbase0.94/hbase-manager-0.94/README.md",
+      "sha256": "b1b92fc56fb083479d5854b3d6df76dacaaeba2ec6c876cb5ae5155a958e2555",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206071884200
+    },
+    {
+      "relative": "hbase0.94/hbase-manager-0.94/src/main",
+      "sha256": "a7e68dd69c23b068d9087e0b32ffe1d0c09fb3e96992abea90b9c1206f441805",
+      "bytes": 47,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206072903900
+    },
+    {
+      "relative": "hbase0.94/hbase-manager-0.94/src/test/java/com/kakao/hbase/manager/command",
+      "sha256": "ed51af4057cf9d165b1cef2c7c2cebdb250cd5f6331edc9bded3bf486ef833fb",
+      "bytes": 102,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206075112600
+    },
+    {
+      "relative": "hbase0.94/hbase-manager-0.94/src/test/java/com/kakao/hbase/manager/ManagerTest.java",
+      "sha256": "d64e4ecb71084e31f6c72527365b79d9c62ffad58e3910f31576bc988e82506d",
+      "bytes": 6590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206075112600
+    },
+    {
+      "relative": "hbase0.94/hbase-snapshot-0.94/pom.xml",
+      "sha256": "288a0e7cec96c85f8840d9195e6551fd8b3a241ce05c6459d024588fbcfbd8a2",
+      "bytes": 2836,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206076350000
+    },
+    {
+      "relative": "hbase0.94/hbase-snapshot-0.94/README.md",
+      "sha256": "28a0cc8d01e190a2403998fd06d04cf15fb4c1645d6b92d79e11c1681b480dae",
+      "bytes": 45,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206075112600
+    },
+    {
+      "relative": "hbase0.94/hbase-snapshot-0.94/src/main",
+      "sha256": "871f8878800c93382be3b2e8ae0bcb4942cf849c42dd0ca3f8e2ac9e2b86ce40",
+      "bytes": 48,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206076350000
+    },
+    {
+      "relative": "hbase0.94/hbase-table-stat-0.94/pom.xml",
+      "sha256": "01118f898f20a99037cd2b2ec2d793c200cc7293ac664637b6ff2836f9900859",
+      "bytes": 3397,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206077348000
+    },
+    {
+      "relative": "hbase0.94/hbase-table-stat-0.94/README.md",
+      "sha256": "d94cf2c5ffc624ac4416c962f5911658c4caa5ab4a96f08b9c52da758b767f7e",
+      "bytes": 47,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206076350000
+    },
+    {
+      "relative": "hbase0.94/hbase-table-stat-0.94/src/main",
+      "sha256": "96c8713e7cfc29f06ca931a915c2ecf4a70cd78f6cba39d316ef61cbd3925b4f",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206077348000
+    },
+    {
+      "relative": "hbase0.96/pom.xml",
+      "sha256": "7aac0b2fa53e98dacafe1940500a0c99fa699bab4c74a9a910d878f067ed52b2",
+      "bytes": 6299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206085320000
+    },
+    {
+      "relative": "hbase0.96/README.md",
+      "sha256": "75a8c037837cc32dffcf47da1005e4b52c4399e2364cec29b8f13150723875fa",
+      "bytes": 22,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206078348400
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/pom.xml",
+      "sha256": "83c070f32786f814f6572191afc6ab32b9c013e58af9d7550c5a169fef26fded",
+      "bytes": 1733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206079625600
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/README.md",
+      "sha256": "14daa995de94e889443ac1ca96f6162b6c39d8c0106d8d5c2cf2866538ce2154",
+      "bytes": 43,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206078348400
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/src/main/java/com/kakao/hbase/common",
+      "sha256": "b6f857c7c1856fc72b3ee51b8c5aa463bd3717f677fbe466d7b91316bc4eee96",
+      "bytes": 89,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206080624300
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/src/main/java/com/kakao/hbase/specific/CommandAdapter.java",
+      "sha256": "b04449cc02e22a5806cc18b0e3ee3e0daa47fde80795c1280e73f4da5ed0de75",
+      "bytes": 113,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206080624300
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/src/main/java/com/kakao/hbase/specific/HBaseAdminWrapper.java",
+      "sha256": "7ebc6443594be40f88fa5e75d98a42522a55f2c036d1c1fe1d506e9a5f8f86da",
+      "bytes": 116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206080624300
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/src/main/java/com/kakao/hbase/specific/RegionLoadAdapter.java",
+      "sha256": "b11f25fc5057513d9f28d6c9dff3d21d92128073b3fff3d00e7364120d11c065",
+      "bytes": 116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206081623800
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/src/main/java/com/kakao/hbase/specific/RegionLoadDelegator.java",
+      "sha256": "2d2a05ce7e23520a8c54b6a5447e9ebee5616882c2558e3004f28a5f9f3fe859",
+      "bytes": 118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206081623800
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/src/main/java/com/kakao/hbase/specific/RegionLocationCleaner.java",
+      "sha256": "4dbbcd6b0ac046dba6a535ed53d71fed7272e6112b1d9c71bbb069fa6f3ce809",
+      "bytes": 120,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206081623800
+    },
+    {
+      "relative": "hbase0.96/hbase-common-0.96/src/main/java/com/kakao/hbase/specific/SnapshotAdapter.java",
+      "sha256": "2a67eb1d6143866f14adf7b445969d56a45e201d89f23d9fd59e8d8ab8e5cf63",
+      "bytes": 1500,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206081623800
+    },
+    {
+      "relative": "hbase0.96/hbase-manager-0.96/pom.xml",
+      "sha256": "33dbd3481a1c8d82629cc5b04794f83bbb323fe48e8b33c1134f5f80df2a2e4a",
+      "bytes": 3075,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206082858800
+    },
+    {
+      "relative": "hbase0.96/hbase-manager-0.96/README.md",
+      "sha256": "b1b92fc56fb083479d5854b3d6df76dacaaeba2ec6c876cb5ae5155a958e2555",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206082858800
+    },
+    {
+      "relative": "hbase0.96/hbase-manager-0.96/src/main",
+      "sha256": "a7e68dd69c23b068d9087e0b32ffe1d0c09fb3e96992abea90b9c1206f441805",
+      "bytes": 47,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206082858800
+    },
+    {
+      "relative": "hbase0.96/hbase-snapshot-0.96/pom.xml",
+      "sha256": "98cac9acf27099146cab879bfa30f1b959e0a1874dd9e9f196cde8d87f48e84e",
+      "bytes": 2836,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206084205200
+    },
+    {
+      "relative": "hbase0.96/hbase-snapshot-0.96/README.md",
+      "sha256": "28a0cc8d01e190a2403998fd06d04cf15fb4c1645d6b92d79e11c1681b480dae",
+      "bytes": 45,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206082858800
+    },
+    {
+      "relative": "hbase0.96/hbase-snapshot-0.96/src/main",
+      "sha256": "871f8878800c93382be3b2e8ae0bcb4942cf849c42dd0ca3f8e2ac9e2b86ce40",
+      "bytes": 48,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206084205200
+    },
+    {
+      "relative": "hbase0.96/hbase-table-stat-0.96/pom.xml",
+      "sha256": "7d62de340024ca143d94378160a86e2c69a20fd1bd72ba61df36da288a55e10b",
+      "bytes": 3174,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206084205200
+    },
+    {
+      "relative": "hbase0.96/hbase-table-stat-0.96/README.md",
+      "sha256": "d94cf2c5ffc624ac4416c962f5911658c4caa5ab4a96f08b9c52da758b767f7e",
+      "bytes": 47,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206084205200
+    },
+    {
+      "relative": "hbase0.96/hbase-table-stat-0.96/src/main",
+      "sha256": "96c8713e7cfc29f06ca931a915c2ecf4a70cd78f6cba39d316ef61cbd3925b4f",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206085320000
+    },
+    {
+      "relative": "hbase0.98/pom.xml",
+      "sha256": "965fbaf8faf6d9fe1a0f201f420077053fd130d555635b61694957501d384271",
+      "bytes": 6196,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206138592000
+    },
+    {
+      "relative": "hbase0.98/README.md",
+      "sha256": "aec20fff046cc0ac6aea3af5bfa6c23915b07340ae7372801522ccc81c8642e2",
+      "bytes": 2006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206086318500
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/pom.xml",
+      "sha256": "92e703be3176eb14e1efac0f8144fca06b3730862ee7943c97c06a2f73d1c0f0",
+      "bytes": 1733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206086318500
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/README.md",
+      "sha256": "f1763c66b7d8e456df9b2208caa0b52f4debc65adc3887cfc9275578b5cd4469",
+      "bytes": 77,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206086318500
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/Args.java",
+      "sha256": "c0645baed6c7b4fb13df95e13e14387a23aec26b95ff010efc36d88328a77a8c",
+      "bytes": 14637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206088487600
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/Constant.java",
+      "sha256": "30dc9ca52f951f2f7bc8ac26968be34f7aff5ee2ab89c5addfd480cbbc4d7c4f",
+      "bytes": 1829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206088487600
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/EmptyRegionChecker.java",
+      "sha256": "6de1e92f9b0fd4785a4ac630dd1e7456d8ed4e066340540287401945c04e75bd",
+      "bytes": 2210,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206089548000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/HBaseClient.java",
+      "sha256": "4294b1e91bc0693c44baaba01b700234948bc7fed6e126fbebaa875e4d047474",
+      "bytes": 9274,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206089548000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/InvalidTableException.java",
+      "sha256": "f31f250213d88f823d50d6fb9b46b64d4325772cb1b6b2d311e3c7d02e142b05",
+      "bytes": 829,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206089548000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/LoadEntry.java",
+      "sha256": "240749a4ddfd1b0386bc3d816d795361476f8e113b78c955faeaab6ff70cc428",
+      "bytes": 17021,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206090643400
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/RatioNumber.java",
+      "sha256": "c8dfce527b1c55ace7c995aeb7a86f6b7178cb2c3df3d88b7e53d96d2ea76f0a",
+      "bytes": 3802,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206090643400
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/AlertSender.java",
+      "sha256": "f4a00ea20ecd7bbf4ae37894758988abf68f61f7f5f17c2b0fb9e467bebaf063",
+      "bytes": 2068,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206092011700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/DecimalStringSplit.java",
+      "sha256": "50bcf6d250c7eb1050d93555e6334816fe3aec5a9a73432da2dc79d293ddecfe",
+      "bytes": 3416,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206092011700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/util/Util.java",
+      "sha256": "b2271fb12abb6e355fcd381b3e39de4a68696d66d52648297d9bcec77b00474b",
+      "bytes": 10815,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206092011700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/specific/CommandAdapter.java",
+      "sha256": "f0bab09447c6ee5cbf24d85722468f985602ce3bb6bf0b08b7fc472bb8020dd5",
+      "bytes": 13869,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206093025700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/specific/HBaseAdminWrapper.java",
+      "sha256": "7578e1059f3b89704ffd6014556491e8fe68336b3ea162e1a0819a3354837b82",
+      "bytes": 3891,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206093025700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/specific/RegionLoadAdapter.java",
+      "sha256": "9006f2bd4784131b799794e216c851eb5a5dca1b2b5d0af0c4e14390e329a381",
+      "bytes": 2325,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206093025700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/specific/RegionLoadDelegator.java",
+      "sha256": "0a856d709e4a049e99c0f8004ff121b699d74332089fdb4fe2d3d7bca16b8b8b",
+      "bytes": 2215,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206093025700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/specific/RegionLocationCleaner.java",
+      "sha256": "649cc105ce5d56307f8aa5a4dab70066e38674d4305bc512e725ec2aec7c43d3",
+      "bytes": 3064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206094025600
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/specific/SnapshotAdapter.java",
+      "sha256": "1e755886b73bd08f0036443ae6b48eea45d1863e3ba5c716b0032affc87f5b86",
+      "bytes": 1842,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206094025600
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/ArgsTest.java",
+      "sha256": "b79bbb37fec48d6a20086b50c3d70f54514cac395839701254c0def6095bb8e7",
+      "bytes": 4662,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206096043300
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/OptionParserTest.java",
+      "sha256": "5db80214158602a1c88e5b5247242389fbb569e913169e2b935b0271075dc9be",
+      "bytes": 1462,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206096043300
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/TestBase.java",
+      "sha256": "c2f71cf02b8712540167eda129ca7a9fcfefccc4ff45644fb347f454ea44ec07",
+      "bytes": 20563,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206096043300
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/common/LoadEntryTest.java",
+      "sha256": "9ce663c8cfe249117f7125e4e3d972796212950e8237d4dd48c1ce551e690522",
+      "bytes": 2917,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206097270000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/common/RatioNumberTest.java",
+      "sha256": "d52b437eec3f3b75df237c61b2af0f5fe633c43154c8b8a1c017ce537d06e7f9",
+      "bytes": 5027,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206097270000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/common/util/AlertSenderTest.java",
+      "sha256": "8c51a38074585161d43f0c047ee18033ab7e7cb4f7699bc4506713ecf80a795d",
+      "bytes": 1064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206097270000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/common/util/DecimalStringSplitTest.java",
+      "sha256": "0976276e47c58cbf2ad546cf24f08e20cbd28f7bf89a085ff0c136cc408bee7e",
+      "bytes": 5360,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206098714000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/common/util/UtilTest.java",
+      "sha256": "06c5838faefddb48040ec4fcc12c79d45712122edad18ea7f809f8138bb49f5b",
+      "bytes": 1571,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206098714000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/specific/HBaseAdminWrapperListTableTest.java",
+      "sha256": "865ae73b772cab7de968a1816672cc7ad3f511a99eae932c8876a16842b17b58",
+      "bytes": 3699,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206099716700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/specific/HBaseAdminWrapperOnlineRegionsTest.java",
+      "sha256": "94160e23f378ec7ed6e10d9d9bccc255b9d9d2423b4b9e7b05382b7643c41ffd",
+      "bytes": 2583,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206099716700
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/java/org/apache/hadoop/hbase/zookeeper/MiniZooKeeperCluster.java",
+      "sha256": "b53414d8795ffa3f4f80e962e1601a05ee65f76d42aa4bc0b057de202dc0275f",
+      "bytes": 14722,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206100715400
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/resources/testMultiLine.args",
+      "sha256": "f1086f9ecce8d18324ea17c4a81fbd31dcaea9fd22d6d13cc79fe011d0045b0f",
+      "bytes": 40,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206101848000
+    },
+    {
+      "relative": "hbase0.98/hbase-common-0.98/src/test/resources/testSingleLine.args",
+      "sha256": "9528d77961905b5cf43e6253659a2b8230ada0995625f30dfa0123c3c52f5841",
+      "bytes": 37,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206101848000
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/pom.xml",
+      "sha256": "3514116b0ac40330bc4c128b7fc479e9f3fb74655a25a7b372b616f94a7c4e05",
+      "bytes": 3075,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206101848000
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/README.md",
+      "sha256": "5a9c90850ca3fc5b9a36499d781f365eee57db9d0d1ab511986a2ad4b1de7cb1",
+      "bytes": 1758,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206101848000
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/ManagerArgs.java",
+      "sha256": "8e94f73311865baf3746dd755fd5172d54ada3135c88b38b956bfcf6ea597562",
+      "bytes": 1908,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206103942400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/Manager.java",
+      "sha256": "ce96ffc0293251b3972e6662a6ed14f44bf043572304e2b259dc3270419331a4",
+      "bytes": 7206,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206103942400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/Assign.java",
+      "sha256": "4745d297bc5d6f4676ac9e25461f1bda10670eba2b8f346ef5b531f35080d85f",
+      "bytes": 2988,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206104942800
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/AssignAction.java",
+      "sha256": "46c5047badb29a2d4e59a5014f93ded65df1e1561c94c14550ff798e9a739c6c",
+      "bytes": 32855,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206104942800
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/Balance.java",
+      "sha256": "66409e7ff8135b0842023ded3ea0e8cfae377798aff63921348dea23ce45aca7",
+      "bytes": 9692,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206104942800
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/BalanceFactor.java",
+      "sha256": "b44a0506e2a5d214976051c07ed8f0980b758c54b805d5d22521372b5163be79",
+      "bytes": 4981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206105941800
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/BalanceRule.java",
+      "sha256": "4657bb5da1156ea7d85043e5a4548126c7a4f97d81fc1471226d6f8f0cbb2cf9",
+      "bytes": 5688,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206105941800
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/Command.java",
+      "sha256": "b3ef18f55e97bdfc4699a9f1395c3783231cb58787fdf68443b911e6cfb4a007",
+      "bytes": 727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206105941800
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/Common.java",
+      "sha256": "033ee38ec57a6c9488f6ecb85331264ecd84cf8f3facf9f7a6325cc81f8d306c",
+      "bytes": 5667,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206106941000
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/ExportKeys.java",
+      "sha256": "8b540ec410a255fdb0aa16080a876eab5bca148fe7ad965d38ed566693f01978",
+      "bytes": 5031,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206106941000
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/MC.java",
+      "sha256": "f16329b3c52374ea4282d4b4bc7c1e8b35dfa0b0698e7b980128727c8621a2aa",
+      "bytes": 13212,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206107941400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/Merge.java",
+      "sha256": "01d3e378d0b06b6a7c1079b95f67df5b76b6554c3db90ec2b5574cedbaa02179",
+      "bytes": 15971,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206107941400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/main/java/com/kakao/hbase/manager/command/Split.java",
+      "sha256": "948c6a9dd5db8ff1b0c293e58f596f5b5712196331ab78ecd4fb40ae382652f7",
+      "bytes": 10697,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206107941400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/ManagerTest.java",
+      "sha256": "ae2d8b7b21545aeca124796a5f0cdf5e977e6431f0b75d692c414e54a664c45a",
+      "bytes": 7701,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206108941800
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/AssignBalancerTest.java",
+      "sha256": "508d37be92f00f50464125bc14531bdb4e4579545d44b10c618d124e1ed42c9d",
+      "bytes": 2766,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206109941700
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/AssignEmptyTest.java",
+      "sha256": "878d6371468f11244ac2f3f47ebc21c16ef5328e855245bc5442c093855616b6",
+      "bytes": 10111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206109941700
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/AssignImportTest.java",
+      "sha256": "4eb5b784d31e43f7eb231a8cb4917ab890cabcc8002fd384a53898c92d3076eb",
+      "bytes": 6479,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206110942400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/AssignRestoreTest.java",
+      "sha256": "a1277b98776598a98f0e2db818f95e7260b34dac1fe59cd6a4e3da421dcd03a7",
+      "bytes": 17151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206110942400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/AssignTest.java",
+      "sha256": "36402bba63bc7fcd2b94128c2bb83184b2c9891cb8e0b0bdc8ecf4bafa21e943",
+      "bytes": 14294,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206110942400
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/BalanceFactorTest.java",
+      "sha256": "9f07df786abd1eb9662f88e0b22a08a6c07f961c31432da01237cb4c4db65e37",
+      "bytes": 2595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206111941600
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/BalanceRuleTest.java",
+      "sha256": "464bb88781950e2add3a2f5d2aedc537f24009aa217c1058386004f817e13e16",
+      "bytes": 12504,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206111941600
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/BalanceTest.java",
+      "sha256": "1a38569f44f9e31f324d28f744a86bf9a16c6f93203b73ab76c0af7f41042479",
+      "bytes": 9254,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206111941600
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/ExportKeysTest.java",
+      "sha256": "4b08205df80019ca9051664915135b60d644b3d2a173ad614e5850e7b2010955",
+      "bytes": 8355,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206112942700
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/MCTest.java",
+      "sha256": "9b34a41a74d49501b20c7042de73aa62c4cb58f7b1fbef55a29576e585ccae77",
+      "bytes": 12157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206112942700
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/MergeEmptyFastTest.java",
+      "sha256": "5d73c818c622597a74ff5308361da34e73e5739978e8a26485b204b04f99678e",
+      "bytes": 3367,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206112942700
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/MergeEmptyFastTest2.java",
+      "sha256": "87a07489895efdb702fdf027049079b652915195efdef447dd1512b8069987ba",
+      "bytes": 4034,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206112942700
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/MergeEmptyTest.java",
+      "sha256": "f7dd64c031115b518697f8e0f1125fd7b09259f0ad38ee381a2022689e515194",
+      "bytes": 3251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206113944300
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/MergeEmptyTest2.java",
+      "sha256": "2b05facab26c6dee038937277c6c46281faebd3680aad3157e9401acaa3713b8",
+      "bytes": 4263,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206113944300
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/MergeTestBase.java",
+      "sha256": "af31abd989e6fe1f115bb0c026413ba232c57dd64af50cdc146422f78566ceb6",
+      "bytes": 5598,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206113944300
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/SplitHexStringTest.java",
+      "sha256": "9f5f1e44cd49ed4c2f8cfa7da9d9dc7295b6cc5dd16e0e45a318de23a0205ab4",
+      "bytes": 3886,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206114943700
+    },
+    {
+      "relative": "hbase0.98/hbase-manager-0.98/src/test/java/com/kakao/hbase/manager/command/SplitTest.java",
+      "sha256": "c33ffef7d5797adb66571362d4d554e308b94809701ba204f5921919e5d47dc1",
+      "bytes": 7185,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206114943700
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/pom.xml",
+      "sha256": "006eed851d087575f883328b176f9fca6afa4a287120e5530e32ab1ae4547d35",
+      "bytes": 2836,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206115944100
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/README.md",
+      "sha256": "23200c27b757d1fb47715baf40c0357a8826e502c100f6305d501767c676b23e",
+      "bytes": 2525,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206114943700
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/main/java/com/kakao/hbase/SnapshotArgs.java",
+      "sha256": "8d86e5ad5b33a87c44e7cda39008a0b67e6e0f37471141140febb205779db61d",
+      "bytes": 5365,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206116941700
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/main/java/com/kakao/hbase/snapshot/Snapshot.java",
+      "sha256": "f15559796f26ff0ecdc30cbbce7f5c05b4cd2ca73e574b6960f87f23ad8f8a49",
+      "bytes": 14871,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206117943300
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/main/java/com/kakao/hbase/snapshot/SnapshotUtil.java",
+      "sha256": "84af207ee7f011c9cdc25d3f4b68503ff58d863d72a3952d3d5440b25cc28b52",
+      "bytes": 886,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206117943300
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/test/java/com/kakao/hbase/snapshot/SnapshotOptionAfterScriptTest.java",
+      "sha256": "8af50f192fcae3606b0be7a092b6a66ecfc6c811fa0bcfdbe08dcd22423d33ba",
+      "bytes": 3624,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206118939600
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/test/java/com/kakao/hbase/snapshot/SnapshotOptionTest.java",
+      "sha256": "6244f9327a691b8cab6d107361ba75cd37b83275c816b8fb21169ea05a437edb",
+      "bytes": 12567,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206119939800
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/test/java/com/kakao/hbase/snapshot/SnapshotTableArgTest.java",
+      "sha256": "33d6d0b8adc5e4a19fca0006f8ee5dcf294d95d50116e40684e7ab3a89baaf19",
+      "bytes": 5277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206119939800
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/test/java/com/kakao/hbase/snapshot/SnapshotTest.java",
+      "sha256": "558a5c3f6fd1e8e66e4da5fbaa856e65f9a040a452559a970a0190da2d71767d",
+      "bytes": 5121,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206120939500
+    },
+    {
+      "relative": "hbase0.98/hbase-snapshot-0.98/src/test/java/com/kakao/hbase/snapshot/SnapshotUtilTest.java",
+      "sha256": "56f3712adf615ae42a515b598e843d2fd2e0466b7466cec780ae24a8fcf1e4c8",
+      "bytes": 895,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206120939500
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/pom.xml",
+      "sha256": "0e9cbf5048cd0678e74632df6dcd2df7f2738fa59ad1a4e0dc9d557f4f612d80",
+      "bytes": 2447,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837212496427500
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/README.md",
+      "sha256": "9e48419802eda77dd6f7fe2e0b9462590bd7a5e4e0e9e3e6729692f5ad42be4f",
+      "bytes": 2647,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206121939200
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/KeyInputListener.java",
+      "sha256": "00d8061074996fdd3ee8fc0dddf6ae953436e4321f457c079c233be59d3bb7d8",
+      "bytes": 4925,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206122939000
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/StatArgs.java",
+      "sha256": "eb6f080790e98b1286840d25eaf505c93808dfabdfa3dd3c94700381e6b7e4a5",
+      "bytes": 1434,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206123941200
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/TableStat.java",
+      "sha256": "b4bbbbe74277319c766de5b6878b49c95ae759b05b9c77b1665d811be4700b93",
+      "bytes": 8808,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206123941200
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/Level.java",
+      "sha256": "c44d5571dc2cce0bbd8c8c8a66ac8ed800e8ca4f0e1689d42023fa155cdca2d4",
+      "bytes": 2671,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206124939700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/LevelClass.java",
+      "sha256": "3164fc51e6770eb6c1210c9a0b307a031552b3a6544de43c63ad28494181779c",
+      "bytes": 2344,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206124939700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/Load.java",
+      "sha256": "af7405f127af4c1e8ebd8926e476e853ba55ff69b6e5410cd6cd28fd0a71d823",
+      "bytes": 13603,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206124939700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/LoadIO.java",
+      "sha256": "87657d374ec31b215f513af7ee459f53540db076fa492f86215dd967cbd42830",
+      "bytes": 9600,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206125940300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/LoadRecord.java",
+      "sha256": "fa470e7d4f47faea74d60195f9b4edb90cb418b8c96505cc030ed57fecc32c29",
+      "bytes": 1228,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206125940300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/RegionName.java",
+      "sha256": "771497c09e609b3c76742e55ba40c4c22c4c21688c63560b909214d548229e29",
+      "bytes": 1228,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206126941000
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/SortKey.java",
+      "sha256": "eca53f6b7047769b5a8701446a67a28f875873622e2fbd7bd93ba87b14ca5044",
+      "bytes": 6797,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206126941000
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/TableInfo.java",
+      "sha256": "d7977c75a4e4554d55dfb6d37cda1db5344351d60f3a6c7d1172ecddddee014a",
+      "bytes": 8586,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206126941000
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/load/TableName.java",
+      "sha256": "e08d43fda355d80255fda0d36c81c70d5457919cdbd16424851910c6022d22ad",
+      "bytes": 1097,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206127939500
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/print/Builder.java",
+      "sha256": "1d72546a68e112a788003c2c9b47fbec7ceb7148b7055162909a5744a110a8c0",
+      "bytes": 1075,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206127939500
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/print/Color.java",
+      "sha256": "0e0c823e3847dc8d62d5c922f283aa53844cb4629dd85926a4c92a4d80e8ca9a",
+      "bytes": 5269,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206127939500
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/print/Formatter.java",
+      "sha256": "7f31f28283a39e02b024bb8950554b0273e6e2121b22830404308e9633f95879",
+      "bytes": 4029,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206129266700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/print/Length.java",
+      "sha256": "b103a558cdc6c76da42ebd9e1d7036a2c06b83151c1551592254dc1e264ff33d",
+      "bytes": 1565,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206129266700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/print/LengthMapBuilder.java",
+      "sha256": "7efade8653f516f11b9a495950da80c6b97df6294d14b9cf3a65bc5ba00ff39d",
+      "bytes": 1631,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206129266700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/print/PrintEntry.java",
+      "sha256": "aa22bad21e63b683d31025baf97e1e6c3798cdd2b958cd367bc2a022d20fda69",
+      "bytes": 4652,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206129266700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/print/PrintStringBuilder.java",
+      "sha256": "86cb1147a354857a72a20f5702b90fc80514d4110d98e9e812fbc805a0493c99",
+      "bytes": 2311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206130364700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/java/com/kakao/hbase/stat/webapp/WebApp.java",
+      "sha256": "7a72cb84b558a7a6d237d1e39b63a6c1912686323effef344a5b074c080fc4b7",
+      "bytes": 6769,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206130364700
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/resources/webapp/index.html",
+      "sha256": "176b829d7456b666457cf897f639cefc07111de7c1a78596d829dd74e845f546",
+      "bytes": 2553,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206131476000
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/main/resources/webapp/js/jquery-2.1.4.min.js",
+      "sha256": "de4b3c3d1dc2506b6693f0f98884e1dc074cda9d66cab39b7b48a115fdfc4c0f",
+      "bytes": 84349,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206132469200
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/ArgsTest.java",
+      "sha256": "8c758b23b7756de5d5a1994c6cd7a836ac15c78ed542a3f2e76d888601976c12",
+      "bytes": 2659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206133593300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/StatTestBase.java",
+      "sha256": "64596a8ad0fe86c005b490b4b918f73a30d42e081eae8db9cdbebea2b109d755",
+      "bytes": 1647,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206134592300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/TableStatOptionTest.java",
+      "sha256": "2d6b6829598f1375495d7581b9978088171f382368f15b9a6a9d6e68fbd52338",
+      "bytes": 5334,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206134592300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/TableStatRegexTest.java",
+      "sha256": "9f9457abecdda7273b55a905306dbdeafdc86ddd4a069f94f1b2bda0efe43043",
+      "bytes": 2759,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206134592300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/TableStatRegionOptionTest.java",
+      "sha256": "410c433adf13a78de82305e91cb477b62116fb6bbec32375c211db39b9b7a967",
+      "bytes": 8288,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206134592300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/TableStatRsRegexTest.java",
+      "sha256": "d75a9d8107672e0eb3c87e299c0c78f03b58589fa55398f128eb359791377b84",
+      "bytes": 8448,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206135592200
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/TableStatRsTest.java",
+      "sha256": "9d59c2584d3989e4dd7275ece3757492e282847483376206621ced55b9a009fa",
+      "bytes": 11364,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206135592200
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/TableStatTableArgTest.java",
+      "sha256": "7cb69cb441e814ea2d082d1aa67f9ac418cbf981f565bb3d10520d73841e7742",
+      "bytes": 6833,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206135592200
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/TableStatTest.java",
+      "sha256": "90a4a299c3be7ff6b748e9285d7e136b1a4190479b18165ea4a72427433454d7",
+      "bytes": 7669,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206136592400
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/load/LoadIOTest.java",
+      "sha256": "73c13c2e6ad8b0177dc48bc81474a4c676bbf4463de045d13dad7aa85abbdd4f",
+      "bytes": 13271,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206136592400
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/load/LoadIO_RBL4_2ca68fd5Test.java",
+      "sha256": "c259ed518c0bb137b21f8764be2ff60ce8c596b722521f4321bf5152aff44ee2",
+      "bytes": 82,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784837212490437800
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/load/SortKeyTest.java",
+      "sha256": "1476e7bbd0cea06fab4cf80b1bd50693f7820b75715b939281c8a7e50aa173fe",
+      "bytes": 1818,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206137592300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/print/ColorTest.java",
+      "sha256": "8d5b84a479be289bfc9cdb2aea8cdd09b5928543264ffdda7a3f55698552aabd",
+      "bytes": 1291,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206137592300
+    },
+    {
+      "relative": "hbase0.98/hbase-table-stat-0.98/src/test/java/com/kakao/hbase/stat/print/FormatterTest.java",
+      "sha256": "3875a5d961304e0572e38f43dea2faecb60ff70552c00a9b6eafc836e0901e15",
+      "bytes": 44165,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206138592000
+    },
+    {
+      "relative": "hbase1.0/pom.xml",
+      "sha256": "7a40e88917aa0506a9e7e234d7bfc3ce66a72ee0b380b18888e3dfd859a1b91e",
+      "bytes": 6277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206158725500
+    },
+    {
+      "relative": "hbase1.0/README.md",
+      "sha256": "75a8c037837cc32dffcf47da1005e4b52c4399e2364cec29b8f13150723875fa",
+      "bytes": 22,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206138592000
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/pom.xml",
+      "sha256": "ac820ce20245fcb250972f4e419b3504aec97315631b3b288614dd1e8b9dc4df",
+      "bytes": 1731,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206139592400
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/README.md",
+      "sha256": "14daa995de94e889443ac1ca96f6162b6c39d8c0106d8d5c2cf2866538ce2154",
+      "bytes": 43,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206139592400
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/main/java/com/kakao/hbase/common",
+      "sha256": "b6f857c7c1856fc72b3ee51b8c5aa463bd3717f677fbe466d7b91316bc4eee96",
+      "bytes": 89,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206140591600
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/main/java/com/kakao/hbase/specific/CommandAdapter.java",
+      "sha256": "6be3afed7ace1d37d23cf639b558c823d17cd404adbfbe9038002b68fd44d171",
+      "bytes": 14359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206141591800
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/main/java/com/kakao/hbase/specific/HBaseAdminWrapper.java",
+      "sha256": "fa6b473a1a7e58f0d1cbbae9ac1c89251a11c5b972125ac3c41de1c99cf7eec1",
+      "bytes": 3946,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206141591800
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/main/java/com/kakao/hbase/specific/RegionLoadAdapter.java",
+      "sha256": "b11f25fc5057513d9f28d6c9dff3d21d92128073b3fff3d00e7364120d11c065",
+      "bytes": 116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206142655400
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/main/java/com/kakao/hbase/specific/RegionLoadDelegator.java",
+      "sha256": "ccb3ef3c6b5b9f96d55227129cbbd263b638b9effdbc024236a1c4f5a67fed95",
+      "bytes": 1907,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206142655400
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/main/java/com/kakao/hbase/specific/RegionLocationCleaner.java",
+      "sha256": "4dbbcd6b0ac046dba6a535ed53d71fed7272e6112b1d9c71bbb069fa6f3ce809",
+      "bytes": 120,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206142655400
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/main/java/com/kakao/hbase/specific/SnapshotAdapter.java",
+      "sha256": "d69ae511b4cb6b39a8a6bd9aee52956cb4c7395652f3d0b12c0f0be6027335ea",
+      "bytes": 114,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206142655400
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/test/resources",
+      "sha256": "30ca0496d558a4fab672c7620802b2985428d44f9a0de032042d16522dc18f76",
+      "bytes": 59,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206145047200
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/test/java/com",
+      "sha256": "acb8f59858fa46fe273dffe1725b2cbd7ad38f4b0c961d19a3c89a5b5c9b7e32",
+      "bytes": 61,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206143964500
+    },
+    {
+      "relative": "hbase1.0/hbase-common-1.0/src/test/java/org/apache/hadoop/hbase/zookeeper/MiniZooKeeperCluster.java",
+      "sha256": "ec0687c198068dbc3ff4464cda5b45087f0fc2d59e5890fee9adbe8f3109a406",
+      "bytes": 13490,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206145047200
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/pom.xml",
+      "sha256": "9dffa5e2476cec13fb4e6a8743d584d902332333fd7cf8c96c63669701d4a356",
+      "bytes": 3070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206146047400
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/README.md",
+      "sha256": "b1b92fc56fb083479d5854b3d6df76dacaaeba2ec6c876cb5ae5155a958e2555",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206146047400
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/main",
+      "sha256": "a7e68dd69c23b068d9087e0b32ffe1d0c09fb3e96992abea90b9c1206f441805",
+      "bytes": 47,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206146047400
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/AssignEmptyTest.java",
+      "sha256": "6fae00965ed8fc0e76da3409869dfea6c4e848a79ad9eb6acea8391dc933d6e7",
+      "bytes": 125,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206147717500
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/AssignRestoreTest.java",
+      "sha256": "239745c85a42e9e91d17565f50b0ddb55fd0cecdc9ca7761cc4f9a7101882c63",
+      "bytes": 127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206148723800
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/AssignTest.java",
+      "sha256": "87ddb23682d4f4d3ceb2ee5a6f42c64475c78172ad3386ed52cf033df8be2522",
+      "bytes": 120,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206148723800
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/MCTest.java",
+      "sha256": "3682972db747c9f8fe4dab7c67e2cad2600ab5a667a9b0db780251c88c19f033",
+      "bytes": 9237,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206148723800
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/MergeEmptyFastTest.java",
+      "sha256": "a4c711b821648e242bd3a2c617c01795b5e1e1941b0e64a1a1db0dcb973f01e2",
+      "bytes": 128,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206149725000
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/MergeEmptyFastTest2.java",
+      "sha256": "18832683353503b520bde23bace36ed62eb71234f48d9bc74ec350f1bbbd3c8c",
+      "bytes": 129,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206149725000
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/MergeEmptyTest.java",
+      "sha256": "37ee7f72b20169e4d945277c03d4f2c7ec7107bcbe66c8928580a93dc2fc472f",
+      "bytes": 124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206149725000
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/MergeEmptyTest2.java",
+      "sha256": "e2ec7ae1382eb5f858ee01dc33f5a5e0c0d3d761e7ccbcd73f5c58e8b9cfca04",
+      "bytes": 125,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206150724600
+    },
+    {
+      "relative": "hbase1.0/hbase-manager-1.0/src/test/java/com/kakao/hbase/manager/command/MergeTestBase.java",
+      "sha256": "b51475ac90f744d0dd89c199b8cb02905e86f26d71c7a2c48a6df41286c3f2bd",
+      "bytes": 123,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206150724600
+    },
+    {
+      "relative": "hbase1.0/hbase-snapshot-1.0/pom.xml",
+      "sha256": "7277633d518ff6b879492fda271ef71b0c9ff1f8947a704ffef23594b124c28b",
+      "bytes": 2832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206151725300
+    },
+    {
+      "relative": "hbase1.0/hbase-snapshot-1.0/README.md",
+      "sha256": "28a0cc8d01e190a2403998fd06d04cf15fb4c1645d6b92d79e11c1681b480dae",
+      "bytes": 45,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206150724600
+    },
+    {
+      "relative": "hbase1.0/hbase-snapshot-1.0/src/main",
+      "sha256": "871f8878800c93382be3b2e8ae0bcb4942cf849c42dd0ca3f8e2ac9e2b86ce40",
+      "bytes": 48,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206151725300
+    },
+    {
+      "relative": "hbase1.0/hbase-snapshot-1.0/src/test",
+      "sha256": "bba292b601f6b19fb89fa30c13c00e9f13c91f10197bf66e94a7e39aef329d33",
+      "bytes": 48,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206151725300
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/pom.xml",
+      "sha256": "f231927f30a3e370c069af38e6ddcb3ea4eecbf6741a8e8d1c98fe8a2a6f9ef5",
+      "bytes": 3170,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206152725200
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/README.md",
+      "sha256": "d94cf2c5ffc624ac4416c962f5911658c4caa5ab4a96f08b9c52da758b767f7e",
+      "bytes": 47,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206152725200
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/main",
+      "sha256": "96c8713e7cfc29f06ca931a915c2ecf4a70cd78f6cba39d316ef61cbd3925b4f",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206153725000
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/ArgsTest.java",
+      "sha256": "f1ed2f756779997e28d356eaa47de519be3badd2ddb3ed165dcbccadeb24e6da",
+      "bytes": 107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206154724800
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/StatTestBase.java",
+      "sha256": "ed10bb0369cb31c6dd78751396e342de136ac895b23a61a294688a2b4121c577",
+      "bytes": 111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206154724800
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/TableStatOptionTest.java",
+      "sha256": "da49a40b062f8a610ca0a8daaddca57e30b558531547d5a1df4334026db1767a",
+      "bytes": 118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206154724800
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/TableStatRegexTest.java",
+      "sha256": "5dd37bdb677636811a3fd48721638f48df18e70c8ed10222f15669406451377b",
+      "bytes": 117,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206155724300
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/TableStatRegionOptionTest.java",
+      "sha256": "61057fc5190e8e85e5b4d79bae23978719f5f5b9b5666f2b5d019be1ec6aaae1",
+      "bytes": 124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206155724300
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/TableStatRsRegexTest.java",
+      "sha256": "b0265d14f3e33c124afe20f7289ec84549390f38856f4fbe31d4688bc71223b8",
+      "bytes": 119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206155724300
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/TableStatRsTest.java",
+      "sha256": "81e8e72ca2ee3119badee7daf352f28e8a17b0e91a902272d68b2f39b3a58962",
+      "bytes": 114,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206156724200
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/TableStatTableArgTest.java",
+      "sha256": "1265539ff07a995b83296ba5ba8074697469aaf101e690b3bbdfd79238488e0f",
+      "bytes": 120,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206156724200
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/TableStatTest.java",
+      "sha256": "e45edb151bad20c37bce0f7d72471ab04d722da38aa80df5ccf36f18baaa6087",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206156724200
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/load/LoadIOTest.java",
+      "sha256": "fa05738e910fc3b307eb08f2bc49d740a4e8b87c01ddf7fe0b407212149ebf32",
+      "bytes": 7553,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206157725800
+    },
+    {
+      "relative": "hbase1.0/hbase-table-stat-1.0/src/test/java/com/kakao/hbase/stat/print/FormatterTest.java",
+      "sha256": "22b105d8cd5d9cd14c571519b12bf1eaed8b3a9d26c8fa59861fc0cab10b7e0d",
+      "bytes": 8199,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206157725800
+    },
+    {
+      "relative": "hbase1.2/pom.xml",
+      "sha256": "c54198f472aaa13a4210558c587d4e27f5a41bf4e854d1e48bb34d3f7f0910ab",
+      "bytes": 6277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206175725700
+    },
+    {
+      "relative": "hbase1.2/README.md",
+      "sha256": "399a502e848bdc39998a49316983a6a306f310d37a0531102ec36af01173c999",
+      "bytes": 21,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206158725500
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/pom.xml",
+      "sha256": "9e6c89981d7e42af9972a301f622353b111dffea4c09df5b20acc37306737d5c",
+      "bytes": 1731,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206159726000
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/README.md",
+      "sha256": "b753891a4aaa3150474ebb8793b87f3d0841ece548e6f9664476eef32fca6fb5",
+      "bytes": 41,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206159726000
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/main/java/com/kakao/hbase/common",
+      "sha256": "39be48272a82d0c3c04f77865366d95767e587b2e157faa7d82c11756c22cf70",
+      "bytes": 87,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206161726200
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/main/java/com/kakao/hbase/specific/CommandAdapter.java",
+      "sha256": "6be3afed7ace1d37d23cf639b558c823d17cd404adbfbe9038002b68fd44d171",
+      "bytes": 14359,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206161726200
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/main/java/com/kakao/hbase/specific/HBaseAdminWrapper.java",
+      "sha256": "fa6b473a1a7e58f0d1cbbae9ac1c89251a11c5b972125ac3c41de1c99cf7eec1",
+      "bytes": 3946,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206162724500
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/main/java/com/kakao/hbase/specific/RegionLoadAdapter.java",
+      "sha256": "7d4d4e97ae5d21b2020d66337cb6b1002a0ec0e3a5079f1ebf0d9b4841bc333d",
+      "bytes": 114,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206162724500
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/main/java/com/kakao/hbase/specific/RegionLoadDelegator.java",
+      "sha256": "ccb3ef3c6b5b9f96d55227129cbbd263b638b9effdbc024236a1c4f5a67fed95",
+      "bytes": 1907,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206162724500
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/main/java/com/kakao/hbase/specific/RegionLocationCleaner.java",
+      "sha256": "ae65ea256718e3087682a1c0c95ce43ecaa42e4aaaf80f12621383736c322ec7",
+      "bytes": 118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206163725000
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/main/java/com/kakao/hbase/specific/SnapshotAdapter.java",
+      "sha256": "930e912898db92e611e700e164d935bbf8d3720006ea1651957557e630a0f2d6",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206163725000
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/test/resources",
+      "sha256": "f9101ceb2980d90843b8e0e92d80a3c0c675142192daa21d05470a51a92cfa6c",
+      "bytes": 57,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206165726200
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/test/java/com",
+      "sha256": "5f4284288b7e1ed04c2cd7f6d9994993433e3ee76c1f8484ac9926987a41626f",
+      "bytes": 59,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206164724600
+    },
+    {
+      "relative": "hbase1.2/hbase-common-1.2/src/test/java/org/apache/hadoop/hbase/zookeeper/MiniZooKeeperCluster.java",
+      "sha256": "aec202df5906c24dd7ce3de4b82a2ddebe4786053044290534b49993a1374f68",
+      "bytes": 15938,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206165726200
+    },
+    {
+      "relative": "hbase1.2/hbase-manager-1.2/pom.xml",
+      "sha256": "5f896646d2123a5f605417116ca1efef873b3a231d27262deb9d52b643507f27",
+      "bytes": 3070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206166725600
+    },
+    {
+      "relative": "hbase1.2/hbase-manager-1.2/README.md",
+      "sha256": "2e8f494cdd44e71bf777f027180930daf3533c716d89c78dbaf62ef0b19004f4",
+      "bytes": 42,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206166725600
+    },
+    {
+      "relative": "hbase1.2/hbase-manager-1.2/src/main",
+      "sha256": "0891bdeeadb74d5075228c2cc2ac755440711f2f4dc3461f41a7017fa2f867c8",
+      "bytes": 45,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206167725800
+    },
+    {
+      "relative": "hbase1.2/hbase-manager-1.2/src/test/java/com/kakao/hbase/manager/command",
+      "sha256": "41eab40e06c59ad59da8cbcdbaaf5422f360eade62c387240795c9348f42bfb5",
+      "bytes": 100,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206168725000
+    },
+    {
+      "relative": "hbase1.2/hbase-snapshot-1.2/pom.xml",
+      "sha256": "923c389028a207863d223d4d8b216e99821c71f7d596a3b0a27fb9676cc4764f",
+      "bytes": 2832,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206168725000
+    },
+    {
+      "relative": "hbase1.2/hbase-snapshot-1.2/README.md",
+      "sha256": "ca2eb7873b8338aa34a1911202129770e6182c504810d203ae929b3d516c1548",
+      "bytes": 43,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206168725000
+    },
+    {
+      "relative": "hbase1.2/hbase-snapshot-1.2/src/main",
+      "sha256": "bd9626af6a2578c3b08e67961f9a65f4f55c65d131416150da16330f3e764be7",
+      "bytes": 46,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206169726400
+    },
+    {
+      "relative": "hbase1.2/hbase-snapshot-1.2/src/test",
+      "sha256": "925f9ab4f405919301c42a04820e3591803215f4cabeda1356d67de3cff3e902",
+      "bytes": 46,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206169726400
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/pom.xml",
+      "sha256": "3e73637f1ac28c57810a9e5e26af0980a9ff267de1b46069231bef239522a04a",
+      "bytes": 3170,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206170725600
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/README.md",
+      "sha256": "7f4458b4d365d64c3e862717729ad2378a7c4bf1818abb7e8aff679ce47ab41b",
+      "bytes": 45,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206169726400
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/main",
+      "sha256": "561151e6b11f0c1201279275f29e4ed7f4becf282d18e9c68a79d9abe2102930",
+      "bytes": 48,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206170725600
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/ArgsTest.java",
+      "sha256": "745e98492415c52ae56373cdd3aff616ec898c34030b8cce3ba20f3922035462",
+      "bytes": 105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206171726200
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/StatTestBase.java",
+      "sha256": "474a95ef876d3d4925809fdf225393e5bda1c3fac6f813e6f6f5369da2da4fd4",
+      "bytes": 109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206172725700
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/TableStatOptionTest.java",
+      "sha256": "31a665ec6354f4cee6fdbc18967f219b8f8d45bc58a6d3c4b12632d1e9a8b706",
+      "bytes": 116,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206172725700
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/TableStatRegexTest.java",
+      "sha256": "bee9b35ab4380a2bfb1d3c36f23c444b50ee3a67269e49b0813382238beffc95",
+      "bytes": 115,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206172725700
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/TableStatRegionOptionTest.java",
+      "sha256": "71fbb6f82f29e0a78290eb6507af249d46cbb2a52c3e0f38263c6c36c24df70e",
+      "bytes": 122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206173726000
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/TableStatRsRegexTest.java",
+      "sha256": "bbdd4a49c80fd6509cb26defe4d3e7f9a4c750135b027a6caa7afb7b4f3ff61f",
+      "bytes": 117,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206173726000
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/TableStatRsTest.java",
+      "sha256": "970250ff475e0d2a4fb6ed6129a53bda8016c3d1d2db29f6601069374b016871",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206173726000
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/TableStatTableArgTest.java",
+      "sha256": "bf3edfee13638191fd76310cc1b0cf3173c29b89b6942af84fa26e0625c347be",
+      "bytes": 118,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206174726700
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/TableStatTest.java",
+      "sha256": "b422cf2f8b23ff3e2381ca8914b36298b40e0e3d1051407a1465398cb3ecd976",
+      "bytes": 110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206174726700
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/load/LoadIOTest.java",
+      "sha256": "67aa363ffa1ac52665f7d81d35042d87e32996b353bcc4953aff84e895222fa8",
+      "bytes": 115,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206174726700
+    },
+    {
+      "relative": "hbase1.2/hbase-table-stat-1.2/src/test/java/com/kakao/hbase/stat/print/FormatterTest.java",
+      "sha256": "44bc83aeeeea5ae33963a7fddc1b4bd41128fce93e6cb51018eece1b3410d978",
+      "bytes": 119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206175725700
+    },
+    {
+      "relative": "resource/hbase-table-stat.gif",
+      "sha256": "89c079c9a1a798381741e954acb75e15de83854243499bb6fa0f6fdbad2126e3",
+      "bytes": 1332900,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784771206185724700
+    }
+  ],
+  "excluded": [
+    "hbase0.98/hbase-common-0.98/target",
+    "hbase0.98/hbase-table-stat-0.98/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\069_46396068_2ca68fd5\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:46:58.802119+00:00"
+}

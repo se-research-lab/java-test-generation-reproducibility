@@ -1,0 +1,59 @@
+{
+  "job_index": 25,
+  "class_key": "60578004:elastic-jobx-core/src/main/java/com/dangdang/ddframe/job/internal/config/configurationnode.java",
+  "repo_id": "60578004",
+  "G0_archived_mutation_percent": "0.0",
+  "E0_archived_mutation_percent": "0.0",
+  "E1_archived_mutation_percent": "50.0",
+  "seed": 20261058,
+  "archived_E1_generation_success": true,
+  "generation_attempts": 0,
+  "generation_calls": 0,
+  "reused_E1_generated_tests": true,
+  "generated_bytes_unchanged": true,
+  "GPT_API_calls": 0,
+  "configuration": "frozen_E1_suite_compatibility_measurement",
+  "command_returncode": 0,
+  "legacy_process_build": 1,
+  "selected_test_fqcn": "com.dangdang.ddframe.job.internal.config.ConfigurationNode_ESTest",
+  "surefire_suites": [
+    {
+      "name": "com.dangdang.ddframe.job.internal.config.ConfigurationNode_ESTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "only_selected_suite_executed": true,
+  "suite_pass": true,
+  "pit_report_present": true,
+  "module_mutants": 975,
+  "focal_mutants": 14,
+  "killed_mutants": 7,
+  "focal_mutant_qualified_classes": [
+    "com.dangdang.ddframe.job.internal.config.ConfigurationNode"
+  ],
+  "mutation_score_percent": 50.0,
+  "legacy_strict_mutation_percent": 50.0,
+  "jacoco_focal_rows": [
+    {
+      "GROUP": "elastic-jobx-core",
+      "PACKAGE": "com.dangdang.ddframe.job.internal.config",
+      "CLASS": "ConfigurationNode",
+      "INSTRUCTION_MISSED": "0",
+      "INSTRUCTION_COVERED": "58",
+      "BRANCH_MISSED": "0",
+      "BRANCH_COVERED": "0",
+      "LINE_MISSED": "0",
+      "LINE_COVERED": "10",
+      "COMPLEXITY_MISSED": "0",
+      "COMPLEXITY_COVERED": "8",
+      "METHOD_MISSED": "0",
+      "METHOD_COVERED": "8"
+    }
+  ],
+  "measurement_evidence_complete": true,
+  "strict_suite_evidence": true,
+  "strict_measurement_evidence": true
+}

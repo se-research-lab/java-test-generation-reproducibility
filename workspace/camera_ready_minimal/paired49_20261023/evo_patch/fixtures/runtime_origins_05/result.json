@@ -1,0 +1,27 @@
+[
+  {
+    "name": "compile",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\javac.exe",
+      "-cp",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\runtime_origins_05;D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\testclasses;D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\classes;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar;C:\\Users\\admin\\.m2\\repository\\junit\\junit\\4.13.2\\junit-4.13.2.jar;C:\\Users\\admin\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar;C:\\Program Files\\Java\\jdk1.8.0_172\\lib\\tools.jar",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\runtime_origins_05\\RuntimeOrigins.java"
+    ],
+    "returncode": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "probe",
+    "argv": [
+      "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\java.exe",
+      "-javaagent:D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar",
+      "-cp",
+      "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\runtime_origins_05;D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\testclasses;D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\assertions_runtime_01\\classes;D:\\A_ThucNghiem\\scripts_v2\\evosuite-standalone-runtime-1.2.0.jar;C:\\Users\\admin\\.m2\\repository\\junit\\junit\\4.13.2\\junit-4.13.2.jar;C:\\Users\\admin\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar;C:\\Program Files\\Java\\jdk1.8.0_172\\lib\\tools.jar",
+      "RuntimeOrigins"
+    ],
+    "returncode": 1,
+    "stdout_sha256": "29db4b204e0a564c77276736715e80d3a5843583cacc2deef5dd070f7c6b193c",
+    "stderr_sha256": "c90ce778719835881a9ef59cb18b3fb06633070ea100f61da2f299e415c38582"
+  }
+]

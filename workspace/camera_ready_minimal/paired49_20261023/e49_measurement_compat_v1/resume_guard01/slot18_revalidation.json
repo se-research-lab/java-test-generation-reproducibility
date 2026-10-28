@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "unique_completed_measurements": 1,
+  "repeated_measurement_calls": 0,
+  "retained_files": 3973,
+  "source_original_GPT_guards": "PASS",
+  "raw_analyzer_revalidation": "PASS"
+}

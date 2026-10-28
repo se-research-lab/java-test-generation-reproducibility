@@ -1,0 +1,17 @@
+{
+  "n": 251,
+  "build_tools": {
+    "gradle": 40,
+    "maven": 211
+  },
+  "concern_counts": {
+    "project_runtime_config_requires_review": 58,
+    "TestNG_project_native_JUnit4_discovery_unqualified": 48,
+    "JUnit5_project_native_JUnit4_discovery_unqualified": 20
+  },
+  "no_flagged_static_concern": 145,
+  "source_manifests_verified": 251,
+  "context_manifest_sha256": "fae8b2e94843e4ee15d4de868c5326784d7228de3a03694499959d80b297479e",
+  "scope": "static readiness only; no automatic skip or terminal failure classification",
+  "new_experiment_calls": 0
+}

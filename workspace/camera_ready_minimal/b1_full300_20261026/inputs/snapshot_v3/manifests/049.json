@@ -1,0 +1,2739 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\018_39195736_e39f864d\\compiledrepos\\39195736",
+  "class_indices": [
+    60
+  ],
+  "files": [
+    {
+      "relative": ".gitignore",
+      "sha256": "a29f33bb29143f6daa616ab2059baa0ddff6984643bcb34bad5890bc3a101bde",
+      "bytes": 414,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621950235000
+    },
+    {
+      "relative": ".travis.yml",
+      "sha256": "6c089b5eda34c1ced336857cac710c7eb0ea6d7144232a3bd44142dac9417b65",
+      "bytes": 1610,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621951522000
+    },
+    {
+      "relative": "appveyor.yml",
+      "sha256": "c7dfb255dcaa66bfe385ab07f786b5d3e1bbc50e4810b6f4d10db6f927cca5d7",
+      "bytes": 648,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621952965500
+    },
+    {
+      "relative": "CONTRIBUTING.md",
+      "sha256": "d67ad4561590e7e8ca6ac7de66ec7f41e7c09cfc78983f8c26068a85ed4ab415",
+      "bytes": 1004,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621951522000
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "85636a2d2a8303f042828cbb99f9d1c54c61ab38835adacbbc27bb7a0954825e",
+      "bytes": 7797,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621951522000
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "5bf4fcee78455e3da09323f22d559daf0027a206a408b8ae377af1aa4255c851",
+      "bytes": 10593,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622081895600
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "a3bd17ed9174013ae86dbb425ecaf1aa2efdbac5b1bebe329c362367c7ac97b3",
+      "bytes": 8622,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835298129352000
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "44ff4c51c3e5f1935ef27a8f69b794ce20a82f1e321e9abae74e97b5cd006909",
+      "bytes": 12481,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835298015274900
+    },
+    {
+      "relative": "README.md",
+      "sha256": "cbff5972fd8f0341277331f9c5d352248bdf974304f5465335fd4d890326aca7",
+      "bytes": 4189,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621951522000
+    },
+    {
+      "relative": "travis.sh",
+      "sha256": "c869f3c860e8a7a6c0f4b6e62c329ca9830006d49ca05fc2278e14477e025975",
+      "bytes": 822,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622091529600
+    },
+    {
+      "relative": "its/pom.xml",
+      "sha256": "ce7b8feb0f71551bdf58a15572b2cead02bbb019edd79807095b35c9ec8e46a5",
+      "bytes": 1392,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621966727500
+    },
+    {
+      "relative": "its/plugin/pom.xml",
+      "sha256": "24aa0f4da9c371c7f3031029574ee107d7eb4b8dfdd4a83336ed9c8350322336",
+      "bytes": 733,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621958424300
+    },
+    {
+      "relative": "its/plugin/plugins/pom.xml",
+      "sha256": "3ac07b0be848ae55e204985f506b6e9f8fd3b9b8f21994aad6401779a204d36c",
+      "bytes": 755,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621958424300
+    },
+    {
+      "relative": "its/plugin/plugins/jproperties-custom-rules-plugin/pom.xml",
+      "sha256": "65dbfd4a12d8bd33bd2a26a1c81f71c1eabe59b63df48517b868597256a396d2",
+      "bytes": 1899,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621953976200
+    },
+    {
+      "relative": "its/plugin/plugins/jproperties-custom-rules-plugin/src/main/java/org/sonar/jproperties/its/MyJavaPropertiesCustomRulesDefinition.java",
+      "sha256": "93a15f0d30ac6652b5fe17bb77ec9aadbdd2029a26df758f4d2bd9bcb7716f4a",
+      "bytes": 1812,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621954976800
+    },
+    {
+      "relative": "its/plugin/plugins/jproperties-custom-rules-plugin/src/main/java/org/sonar/jproperties/its/MyJavaPropertiesCustomRulesPlugin.java",
+      "sha256": "e72351c0b23f9707343d4ce50558baf4d9a045f013b694e84f1beec64bcb1dc2",
+      "bytes": 1297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621954976800
+    },
+    {
+      "relative": "its/plugin/plugins/jproperties-custom-rules-plugin/src/main/java/org/sonar/jproperties/its/checks/ForbiddenKeysCheck.java",
+      "sha256": "09ff923a01e08a4be39cbf87e5fe5c61ecfce7dcaece583ebc6da7b5236fadec",
+      "bytes": 1943,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621956018400
+    },
+    {
+      "relative": "its/plugin/plugins/jproperties-custom-rules-plugin/src/main/java/org/sonar/jproperties/its/checks/ForbiddenStringCheck.java",
+      "sha256": "1f6e56c6ee5395f40f3512ee4f90c66e4f1aae74a4185c5873c0593d0ed72a74",
+      "bytes": 1976,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621956018400
+    },
+    {
+      "relative": "its/plugin/plugins/jproperties-custom-rules-plugin/src/main/resources/org/sonar/l10n/jproperties/rules/custom-jproperties/forbidden-keys.html",
+      "sha256": "34522cced1e9de1e95723a38953996cef37652a69da1bd74481cb668209c8a25",
+      "bytes": 104,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621958424300
+    },
+    {
+      "relative": "its/plugin/plugins/jproperties-custom-rules-plugin/src/main/resources/org/sonar/l10n/jproperties/rules/custom-jproperties/forbidden-string.html",
+      "sha256": "09be233d2148ea0075ff35ae8c970d9a4dafed10cd587aae6aca7ab52a17b28d",
+      "bytes": 59,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621958424300
+    },
+    {
+      "relative": "its/plugin/projects/custom-rules/src/forbiddenKeys.properties",
+      "sha256": "ef8b3ce5ad4e54818539e68cd99e7fa61563ecbc125a3067de401689d59d7cca",
+      "bytes": 37,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621959426000
+    },
+    {
+      "relative": "its/plugin/projects/custom-rules/src/forbiddenString.properties",
+      "sha256": "cab44376ee402f64256a80bd9446a4dc1734894334616cf30f8cfbd8fa5c4ceb",
+      "bytes": 48,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621959426000
+    },
+    {
+      "relative": "its/plugin/projects/issues/src/file1.properties",
+      "sha256": "96b2efa40c7e01551e452d096b936bc24cf8e05656ed5cc78fe4392c64a13738",
+      "bytes": 35,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621961424000
+    },
+    {
+      "relative": "its/plugin/projects/issues/src/dir/file2.properties",
+      "sha256": "96b2efa40c7e01551e452d096b936bc24cf8e05656ed5cc78fe4392c64a13738",
+      "bytes": 35,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621960424200
+    },
+    {
+      "relative": "its/plugin/projects/metrics/src/file1.properties",
+      "sha256": "ffa4b08d5d12b5177b2bb4632d02c959462d46b8673a7d9f8c78d5372d07c1ed",
+      "bytes": 130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621962424300
+    },
+    {
+      "relative": "its/plugin/projects/metrics/src/dir/file2.properties",
+      "sha256": "fbcbf6fc2f3638bd6c971ac71492ee8c13f1312779a089cf294f48856b71ff8d",
+      "bytes": 98,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621962424300
+    },
+    {
+      "relative": "its/plugin/tests/pom.xml",
+      "sha256": "c304abcd97edf2e263a32cd273515f915359435c6344d7fdab0e334f27ed86bf",
+      "bytes": 1894,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621962424300
+    },
+    {
+      "relative": "its/plugin/tests/src/test/java/org/sonar/jproperties/its/CustomRulesTest.java",
+      "sha256": "4fe71576c78b34f7c78f15c7b7d685c63d023474c1ff43c2b554b768ae9b4d45",
+      "bytes": 3086,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621963428000
+    },
+    {
+      "relative": "its/plugin/tests/src/test/java/org/sonar/jproperties/its/IssuesTest.java",
+      "sha256": "7242bf11fd665a94f38de37b5c5fff70897bca9bb229e30c610df2620ad2a5c1",
+      "bytes": 2508,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621964425000
+    },
+    {
+      "relative": "its/plugin/tests/src/test/java/org/sonar/jproperties/its/MetricsTest.java",
+      "sha256": "b949df83bde4c88c15685c27645ec7b43827d966ba53111c3cb07b4eeb7ff6d2",
+      "bytes": 7112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621964425000
+    },
+    {
+      "relative": "its/plugin/tests/src/test/java/org/sonar/jproperties/its/Tests.java",
+      "sha256": "a11939341f229cce71118c6d02c66a354f216df6631104f8f58d40c30b9aab82",
+      "bytes": 3790,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621964425000
+    },
+    {
+      "relative": "its/plugin/tests/src/test/resources/org/sonar/jproperties/its/profiles/empty-profile.xml",
+      "sha256": "b4b60cfe0d8e434a5d8d031582590a2dec884f2579911395e4b19019406a4991",
+      "bytes": 141,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621965424300
+    },
+    {
+      "relative": "its/plugin/tests/src/test/resources/org/sonar/jproperties/its/profiles/hard-coded-credentials-only-profile.xml",
+      "sha256": "bc10b86f06b4b7f1a08c2ccd52f59387560784a575a0918a379561d4cbde0f11",
+      "bytes": 331,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621965424300
+    },
+    {
+      "relative": "its/plugin/tests/src/test/resources/org/sonar/jproperties/its/profiles/jproperties-custom-rules-profile.xml",
+      "sha256": "467da1ba5feabbd769abe9b3a244e12a1afc7b0796b5c12ec73bab6a5ab172d2",
+      "bytes": 516,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621966727500
+    },
+    {
+      "relative": "its/ruling/pom.xml",
+      "sha256": "f3f7af7624be5acd3fd3e49b354a56705140054a9f81046451df608b3a6f5343",
+      "bytes": 703,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621966727500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/commentedOutCode.properties",
+      "sha256": "a2c0baa674fd55c1e6ffc5a971396a93e6f7fc1b1cb7edaeac0c84107b74fb97",
+      "bytes": 856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621969725800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/commentRegularExpression.properties",
+      "sha256": "5fb507d6b7bd87b84530fe656a090b825fbb58ed3e4cb16d79aff7f4682d4e4d",
+      "bytes": 55,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621968726400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicatedKeys.properties",
+      "sha256": "c252514bb44f13741299094762ec17c1a9e0644a9e5f52788039c0159e8a4a9c",
+      "bytes": 417,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621971726000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicatedValues.properties",
+      "sha256": "7b9aa3126398860fc516aeaaf0c7d06c75cfd38440779761c5d5635a864df90e",
+      "bytes": 1077,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621972726600
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicatedValuesCustom1.properties",
+      "sha256": "e162d3e14bdaef45f064049051447971722d2cef39e67d08c1c2843334d91c8c",
+      "bytes": 1197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621972726600
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicatedValuesCustom2.properties",
+      "sha256": "2f83d4f6552cd326f7ba2507f77f30e9367da79f9ec18e6d1d7614c0d462ec31",
+      "bytes": 958,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621972726600
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/emptyElement.properties",
+      "sha256": "9a949bb707934318597784b4302285c19888a6c11a49e0f9a9774a972f815ec7",
+      "bytes": 233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621972726600
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/endLineCharacters.properties",
+      "sha256": "7214193c9d26d6e42b09ab01c0a4cf9eec8a533c93a8a72f4b4de512532dc684",
+      "bytes": 30,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621973725800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/fixme.properties",
+      "sha256": "ec398109e3542939cdfe9630bd39ea3f25d36f501fe2fe062b1b2ddbef583dfe",
+      "bytes": 564,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621974727000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/keyNamingConvention.properties",
+      "sha256": "00fdb42da5cb07471fe27e822d40b00f51c6b805e392362f6c1d6ab033ef174f",
+      "bytes": 591,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621975725400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/keyNamingConventionCustom.properties",
+      "sha256": "da76466db88a62733b648d0ec04b343ddf0419b37e80950d75af85be0c1c7960",
+      "bytes": 613,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621976726300
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/keyRegularExpression.properties",
+      "sha256": "d19e3cdf8a41d158224e8cedb72a90ca198b8f327141c37a7867b68323b36e85",
+      "bytes": 197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621976726300
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/keyRegularExpressionNoMatch.properties",
+      "sha256": "da18d8aa8b1c7c681cb503ea7e469b3bd1434dec2c39bdce40a0a670739b6109",
+      "bytes": 52,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621976726300
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/lineLength.properties",
+      "sha256": "c95525c351c4b57ddaedffa6b771480e51bb0f2eae30e826d3364f6445a78408",
+      "bytes": 214,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621976726300
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/newLineEndOfFile.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621981724500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/noNewLineEndOfFile.properties",
+      "sha256": "ad29e34596deae39f8b75fb42a41a78f29130d2cdb5799de13e3ab8f192a4aed",
+      "bytes": 7,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621982726800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/noParsingError.properties",
+      "sha256": "0c1ebbd67202aaae4a3d7baffb682c063ec097faf9bc54d9ccc3ef54268f13f5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621982726800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/noTabCharacter.properties",
+      "sha256": "5df42d6c757060c9e334d4f2e184c2dd5625cd7d16e7086b8bb27da6be7e3d03",
+      "bytes": 18,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621982726800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/parsingError.properties",
+      "sha256": "a6609b48d326b851165c8129b8857af437886c0095b1324a1320b95d48b4ac10",
+      "bytes": 49,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621983726500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/separatorConventionColon.properties",
+      "sha256": "6faa6fd972256c07171e5c2c5988af45bad62e92b1e375059b7f598003937eec",
+      "bytes": 675,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621983726500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/separatorConventionEquals.properties",
+      "sha256": "991da81399076c17104ab63d43bbe53705e7dba3e3f256147035a65fb7702c7f",
+      "bytes": 463,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621983726500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/tabCharacter.properties",
+      "sha256": "0d8a5814474ecab32f4cb0cf34e82ee3c6048a6c0ad48f35e1202fd030898a46",
+      "bytes": 34,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621983726500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/todo.properties",
+      "sha256": "4215236966e30ecaf04deb2551d09bad2ac0edc2c499887ad38310cf1d4f24d5",
+      "bytes": 193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621984727100
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/tooManyKeys30.properties",
+      "sha256": "6581791aa5cbeb014a66e2f90950853bec13a5b526521faab99cddf43989e0a3",
+      "bytes": 660,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621984727100
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/tooManyKeys50.properties",
+      "sha256": "310e64dce1eb0ef42d1321866be084d8b2e1c6db773a35ea51cc07304c3dab67",
+      "bytes": 800,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621984727100
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/valueRegularExpression.properties",
+      "sha256": "98657056de660c34e0ab9a9789164766a3039adf56cba84deea3f3756f083574",
+      "bytes": 223,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621984727100
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/valueRegularExpressionNoMatch.properties",
+      "sha256": "660b7bf4f8bc535133314b466cabb5dd50a69301c89f60e7190b6cdfc6d4b0bf",
+      "bytes": 61,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621985727000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/comment-convention/commentsExclamationMarkAndHash.properties",
+      "sha256": "04b7b385523ad72e3da401dfc807f3e18d3fb6d0df28a6a9403ad8c254121db4",
+      "bytes": 187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621967725500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/comment-convention/commentsExclamationMarkMissingWhitespace.properties",
+      "sha256": "d50b2cb47cacddcf4769cb2b88bfc40241e8b48fda6918b9783ff41ce34655d0",
+      "bytes": 29,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621967725500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/comment-convention/commentsExclamationMarkOnly.properties",
+      "sha256": "9851c569fb1a5e07cc52d86fec61e13becb2d40d515e9ba069a4963279f516b4",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621967725500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/comment-convention/commentsHashAndExclamationMark.properties",
+      "sha256": "98c84393f87cd089746786b79b2459ebe34860ef24ccd5eec110c0082cdac561",
+      "bytes": 187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621968726400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/comment-convention/commentsHashMissingWhitespace.properties",
+      "sha256": "322d23cf115670cd145a26b26cd9ef753e271c383fb21aee9d6a9c16303e22a7",
+      "bytes": 29,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621968726400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/comment-convention/commentsHashOnly.properties",
+      "sha256": "c7b01aa43c5e1bebdcdddcef4fb9cd328037fbab163f5c823d3af90a9cc388e3",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621968726400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/cross-file-duplicated-keys/crossFileDuplicatedKeys1.properties",
+      "sha256": "2ef0e8b3d0594586344ad95f4fbd686538846bfc428bbe0e1f020280cdfadd5f",
+      "bytes": 40,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621969725800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/cross-file-duplicated-keys/crossFileDuplicatedKeys2.properties",
+      "sha256": "8dca0ff54a0e71733c8b63e333f1b54d4dca852f06290315eab831014ddf2796",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621969725800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicated-keys-across-files/keys.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621970729600
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicated-keys-across-files/keys2.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621970729600
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicated-keys-across-files/keys_fr.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621971726000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/duplicated-keys-across-files/keys_fr_FR.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621971726000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/file-name/fileNameOK.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621973725800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/file-name/file_name.ko.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621973725800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/file-name/file_name.kocustom.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621974727000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/file-name/file_name.ok.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621974727000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/hard-coded-credentials/hardCodedCredentials.properties",
+      "sha256": "957d70a3b3f340ae47e32d3447e88317a19b9994aed4b5877b4c53afabc58daa",
+      "bytes": 410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621974727000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/hard-coded-credentials/hardCodedCredentialsValuesToIgnore.properties",
+      "sha256": "ead2ce7271de08aad1ec46abbff978ea25261c3e21f7fd233bc67d195a9281bf",
+      "bytes": 134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621975725400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/indentation/indentation.properties",
+      "sha256": "efc16d8a61c0a9ea6b7fd971a052988571dcfd596b6a68756da6ef26051afeb5",
+      "bytes": 589,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621975725400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/indentation/indentationIssueFirstLine.properties",
+      "sha256": "b79925ccef2de424e9a9f9075534ca229fc8d3ceb855980f183707a24074cfd9",
+      "bytes": 302,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621975725400
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations/abc.properties",
+      "sha256": "b7bd2a324dedba47514fc4df3d5b425161b9df649a461edc83a2580f4a204f21",
+      "bytes": 51,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621979728000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations/message.properties",
+      "sha256": "feca9a8f5c4a6b5bbdb8078433b1ad7e4c1216146128caea94563384a49301b0",
+      "bytes": 68,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621979728000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations/message_en.properties",
+      "sha256": "feca9a8f5c4a6b5bbdb8078433b1ad7e4c1216146128caea94563384a49301b0",
+      "bytes": 68,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621980726700
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations/message_es.properties",
+      "sha256": "9dd4b097e9c798e03976ba96ba1c6a356983b08e586f2fb22c561b341ced30b1",
+      "bytes": 17,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621980726700
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations/message_fr.properties",
+      "sha256": "85a4200a0e66b30c4f05b75aedaea4aa04234e254d84dc5eef6f482203a278b0",
+      "bytes": 34,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621980726700
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations/message_fr_FR.properties",
+      "sha256": "85a4200a0e66b30c4f05b75aedaea4aa04234e254d84dc5eef6f482203a278b0",
+      "bytes": 34,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621980726700
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations/test_fr_FR.properties",
+      "sha256": "5cf6d84d86fc6c070230a2af6accee4f045d5e465a620f54ae3a0eab534ef48f",
+      "bytes": 105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621981724500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations-in-default/abc.properties",
+      "sha256": "d0910c012006541b801178eb2acadcdd6a07e13690ccb50ea2d258a10fd27a0e",
+      "bytes": 18,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621976726300
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations-in-default/message.properties",
+      "sha256": "c6a6c30afa082584160ab92101d3a420e8fea7d509dae3e01d7256c979c0eb5a",
+      "bytes": 75,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621977724800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations-in-default/message_en.properties",
+      "sha256": "7da880bdf836c34a94c213448bb589fa083341b2a91a46b352ffcad704865141",
+      "bytes": 140,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621977724800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations-in-default/message_es.properties",
+      "sha256": "9f7d8e5fb4ec12fe26e17ab5bb024dee2e7330e0a4d326a223f676ed910b666a",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621977724800
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations-in-default/message_fr.properties",
+      "sha256": "bd7c4226a637c4bd657d5599e1639b5d3d164a72eadbbc7e966472bf33086563",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621978734700
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations-in-default/message_fr_FR.properties",
+      "sha256": "7abf2d140d448f1b2007ab8b16c3e99d1d9f040269fd87953bba1cf12074f424",
+      "bytes": 31,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621978734700
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/missing-translations-in-default/test_fr_FR.properties",
+      "sha256": "49878d26853e5c74462ba7e1f090a8e286243ed4c5b5d5a0fa2fb2115871d4aa",
+      "bytes": 27,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621979728000
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/no-properties/noProperties.properties",
+      "sha256": "15141ab6434f16ad30b2d56ea32828fb92025105a5d8941e272d67c3bcd316cb",
+      "bytes": 11,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621981724500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-jproperties/no-properties/someProperties.properties",
+      "sha256": "aa1eea27e4dac72fbbd89a135af23174dbca401e3ce9072fc29b1ae51d863bf1",
+      "bytes": 16,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621981724500
+    },
+    {
+      "relative": "its/ruling/projects/iso8859-sonarscanner/sonarscanner/deprecatedProperties.properties",
+      "sha256": "92b923b771a8bf0e6aa8d0b95a2e330200441344587e3e79ae2956994589174f",
+      "bytes": 465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621985727000
+    },
+    {
+      "relative": "its/ruling/tests/pom.xml",
+      "sha256": "62143d92454b3bd8cff5ac597cb6a0114e26181b3bf0150fe76f040e22617665",
+      "bytes": 1772,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621986727500
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-comment-convention.json",
+      "sha256": "678baab0a0b929fe90b9249410a72fff5621b8da343b3ba95700f2555bd28302",
+      "bytes": 1070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621988727600
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-commented-out-code.json",
+      "sha256": "1c8952c4c44c4b77df556e28d2ebdfdad0f5a32148e057ec3dffeacf462eb1b3",
+      "bytes": 253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621988727600
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-duplicated-keys-across-files.json",
+      "sha256": "fa37077b8e2c79eef986e148669d5bc3d89c6231b6d01f5cff11e195da9b295a",
+      "bytes": 1040,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621989727500
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-duplicated-keys.json",
+      "sha256": "8092726b6830403ec3a90a62ff21fdb594c1e37c1ebfdd024cc2f0513457cd41",
+      "bytes": 736,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621989727500
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-duplicated-values.json",
+      "sha256": "8aba8c0921a776e772bf87f30365ee9b95ffbeee310753e0c62ef72122b1a6da",
+      "bytes": 1373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621989727500
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-empty-element.json",
+      "sha256": "222ba640c1fcc067cb29f163c264371a8189aed553c6eb47d80a07daca3f2737",
+      "bytes": 433,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621990727700
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-empty-line-end-of-file.json",
+      "sha256": "f5741d0dc1373d36557d4291b50f718aa8f2d66a749b7639d003b356600efd4e",
+      "bytes": 140,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621990727700
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-indentation.json",
+      "sha256": "16cca874d082dfe36313c706b7f2f4100efed294aae730c77b56413996d8947a",
+      "bytes": 1248,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621990727700
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-key-naming-convention.json",
+      "sha256": "bb0b14b7fb3587ef2c847b41898cf1981a7b454421349d4f5960915a2679340b",
+      "bytes": 451,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621990727700
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-line-length.json",
+      "sha256": "ae85c2435192b1d2904dcdb52208d48d695be64c9206f5f89cd02ad13bed738d",
+      "bytes": 264,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621991727000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-maximum-number-keys.json",
+      "sha256": "d0be569195b3b5bb1ae9ec9d0dc771f35355950d57926a1cd038ec10b486e92e",
+      "bytes": 64,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621991727000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-missing-translations-in-default.json",
+      "sha256": "e2394815f82f3ccfb19a25d5d3820039fe64603d54d7b701c2199d8e76ba6cc4",
+      "bytes": 179,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621991727000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-missing-translations.json",
+      "sha256": "cd794cc1594b9718ab25d54df67bfe93513b39c4e84f2dbba41b87f0631e9cc3",
+      "bytes": 327,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621991727000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-no-properties.json",
+      "sha256": "42c271a317d7f8b5d77f4b0404ea21f54a3e7b19b72c88a22686b0bfcfadeef6",
+      "bytes": 373,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621991727000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-S1134.json",
+      "sha256": "f1ead1751b264237b47cc448834c495c99ca6d445cfc0a4dcef99bd29aab4a2f",
+      "bytes": 151,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621986727500
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-S1135.json",
+      "sha256": "d3c556d8c27e768a0e2701d6b5497a8a14e804fe24e9086e3ffe8577ba6fc1be",
+      "bytes": 150,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621987727400
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-S1578.json",
+      "sha256": "6d12b45dcba2ed64682a4b845150080d0b99cb51370fadbc1621d600e204062e",
+      "bytes": 213,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621987727400
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-S2068.json",
+      "sha256": "c6bc5a210ef064dec093f7c89ac5193b8ed31476634b4c972c35ac7bc8119466",
+      "bytes": 112,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621987727400
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-S2260.json",
+      "sha256": "1390f2b80ef76dba55eb12d5ad70b5ed9f93dcd51b563e61762d14ffa15c7659",
+      "bytes": 63,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621987727400
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-separator-convention.json",
+      "sha256": "b09f6aeaf631263628a67a0c9e54b48b725e895d1de5b42af8d618a1abfcf5af",
+      "bytes": 440,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621992952000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-jproperties/jproperties-tab-character.json",
+      "sha256": "8e449e6460e1af5dc093eb85a3aa7ce47fe66086a9dd273741736ba47b89d34a",
+      "bytes": 63,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621992952000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/expected/iso8859-sonarscanner/sonarscanner-sonar-scanner-deprecated-properties.json",
+      "sha256": "4b81ab3f21b05a3984dddc1bac9de3b173641449caba5d4cbbccd8145e4a8ace",
+      "bytes": 104,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621992952000
+    },
+    {
+      "relative": "its/ruling/tests/src/test/java/org/sonar/jproperties/its/JavaPropertiesRulingTest.java",
+      "sha256": "8ffd11d7176c6359715d0661da9fd3a7f8cbab29c85900548bb24eb1a8fbec89",
+      "bytes": 4349,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621993952500
+    },
+    {
+      "relative": "jproperties-checks/pom.xml",
+      "sha256": "400dc26927d95f6048ae63ff687a4ff7417b338f83ed51db40ca48979edd3a7c",
+      "bytes": 1924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835360682337000
+    },
+    {
+      "relative": "jproperties-checks/evosuite-report/statistics.csv",
+      "sha256": "f701363b75659da3519cc9d7ef4f32e6e2398f0ed01c4270bfae77043acbbeb5",
+      "bytes": 135,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835322383191000
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/CheckUtils.java",
+      "sha256": "17d717e6b06a5beacdb9ccc2810017a2b26e8e8605c50cc5fa9f7801271e0463",
+      "bytes": 1557,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621999397300
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/LocaleUtils.java",
+      "sha256": "fd5f918c211f280fc98f5f2b2ba5f94dfb61eae20a261c8f2e625022dda87088",
+      "bytes": 2115,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621999397300
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/package-info.java",
+      "sha256": "fbc00a9d13c34964add4b035596da85c2ec6f2d97b7d97c75606707ab10f8f91",
+      "bytes": 1006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622012508000
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/Tags.java",
+      "sha256": "4ff965897f62a0512dbe620983f209409ddc50f99ac4a89a44c42f5c6bce22d8",
+      "bytes": 1582,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622000411500
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/BOMCheck.java",
+      "sha256": "4860968e2220c00e0ebe49a08d4bc37ec4cb974188fc308d1e6706ffbdf69563",
+      "bytes": 2122,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622000411500
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/CommentContainsPatternChecker.java",
+      "sha256": "19208ffa109e491b0b1bfc964af6470b110076614ee8a22d346c2c949eb50c9f",
+      "bytes": 2064,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622000411500
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/CommentConventionCheck.java",
+      "sha256": "ce453d5a54f1261a8a53ffde2f37d7a7b3381f6b0dfde56d97a85f14a1907d90",
+      "bytes": 3426,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622001410500
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/CommentedOutCodeCheck.java",
+      "sha256": "96fbd3f74195c9c64418855c330312a218ead6d27152726303423d6145545822",
+      "bytes": 2617,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622001410500
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/CommentRegularExpressionCheck.java",
+      "sha256": "818d7367baddf30e2c0bf12995b627b8a9868b3e9c6806208a20d0e87255e6a7",
+      "bytes": 2873,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622001410500
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/DuplicatedKeysAcrossFilesCheck.java",
+      "sha256": "ea3f6d83ecf5a120431cc2500561c61792b91e0259bffe64a79dd11095093eae",
+      "bytes": 2827,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622002563700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/DuplicatedKeysCheck.java",
+      "sha256": "88ca7be3425ce14f6182224a1fad4528e93b1bd9a0256802c8280718f3c6f8bb",
+      "bytes": 2722,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622002563700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/DuplicatedValuesCheck.java",
+      "sha256": "f0541c8e3be96676bdc9a862a87b6ff696e691877929342121346c751e6b4b41",
+      "bytes": 4896,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622002563700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/EmptyElementCheck.java",
+      "sha256": "f5ef652ac64c308700e09d67c6ee7bf7a55b2d3ca80d1ef26f25a1164a0f27fa",
+      "bytes": 1801,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622003748700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/EndLineCharactersCheck.java",
+      "sha256": "ec81b88c881096b32e20dc8213ffc8f9951e400652239378e3a55f455d10820d",
+      "bytes": 3788,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622003748700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/FileKeyTree.java",
+      "sha256": "8f86a09ab5237f2f7f938f9372a4d063327a8c6d4670fc428a951187c9e4462b",
+      "bytes": 1308,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622003748700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/FileNameCheck.java",
+      "sha256": "a3a351926bd2163a4ec9304b6614b7b894e2866da1a1db3b0d3c944c3c8854b1",
+      "bytes": 2863,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622003748700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/FixmeTagPresenceCheck.java",
+      "sha256": "8e50c0cd30cbf8773ac1c5932b5afc2476ee6249558731b117d337bf30e1b60a",
+      "bytes": 1495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622003748700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/HardCodedCredentialsCheck.java",
+      "sha256": "a4211aaf799fd3d514a7607b6a1298923b8176feb91b04c191283e35c8a02d5a",
+      "bytes": 4220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622004984600
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/IndentationCheck.java",
+      "sha256": "b0837f76250198ea93a251802ff669ad802b5d94aaaaecc9c5f8f4485f5d2192",
+      "bytes": 2065,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622006347400
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/KeyNamingConventionCheck.java",
+      "sha256": "71d276e6e773455cf8735106609f84d0735457fcb622ed32f888141e032cabc5",
+      "bytes": 2940,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622006347400
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/KeyRegularExpressionCheck.java",
+      "sha256": "43b87fb80fc0db37c36413b6975b49267e160d1a3e11e27b4d1a1ecaab00cd8c",
+      "bytes": 2831,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622007752200
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/LineLengthCheck.java",
+      "sha256": "3141e4ac5d298dd677b6d893d2965ef797339356035890819303001b68b05301",
+      "bytes": 3527,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622007752200
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/MissingNewlineAtEndOfFileCheck.java",
+      "sha256": "e79e8add453ded67f5e07acf994e51abe67ee27e593623506ea725970a14ba55",
+      "bytes": 2664,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622007752200
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/MissingTranslationsCheck.java",
+      "sha256": "b16aa238729b8ace8953866f3f5d0780ebe078d8564510b2ced6338e2e6dc4c8",
+      "bytes": 2250,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622008980000
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/MissingTranslationsInDefaultCheck.java",
+      "sha256": "f4e2aed54d448d9aa74ff0c8e9cdd72db880fd32b84408ec489c369ad2793fdf",
+      "bytes": 2270,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622008980000
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/NoPropertiesCheck.java",
+      "sha256": "0e0c7694c49fc80513b7b9339f6eb0ea685c4b1b88d4b5b0112d742e00fbc4d0",
+      "bytes": 2030,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622008980000
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/package-info.java",
+      "sha256": "980a444c22f35fd7c4a2e44477b42f8f4c10f858e05afdee9645954d6a7fa9bd",
+      "bytes": 1014,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622012508000
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/ParsingErrorCheck.java",
+      "sha256": "3909c5f654a80187b85ca705d012028f2396a926ea7dc42c38b7d1ec176904cf",
+      "bytes": 1495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622008980000
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/SeparatorConventionCheck.java",
+      "sha256": "a4fb0b83fcc41b93544153e2287525d34bd48afda7fa681896d13abf2532c4c2",
+      "bytes": 4074,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622010089400
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/TabCharacterCheck.java",
+      "sha256": "0cc4667d1f6f47b176663df42017a1df07adee050d2fdfd557de03b2da75a673",
+      "bytes": 2549,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622010089400
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/TodoTagPresenceCheck.java",
+      "sha256": "93e06f6381de863217adea57fc7a42428ff7a88f492273d2ff71e50dae403e50",
+      "bytes": 1473,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622011312700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/TooManyKeysCheck.java",
+      "sha256": "0a010dacb6d5b10395fc13334c5f91fbda98489f33a9792a4ca4589630e5fbbe",
+      "bytes": 2928,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622011312700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/generic/ValueRegularExpressionCheck.java",
+      "sha256": "ced17ff4e09e3719f4917bf64330cfce5a2a36f78239d327a2225c0b44799ea4",
+      "bytes": 2847,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622011312700
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/sonarscanner/package-info.java",
+      "sha256": "f53ae20ce5d68d2c2b2d295b71bbda7ffbaf26bbc906591820e06e836e359b45",
+      "bytes": 1019,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622013761800
+    },
+    {
+      "relative": "jproperties-checks/src/main/java/org/sonar/jproperties/checks/sonarscanner/SonarScannerDeprecatedPropertiesCheck.java",
+      "sha256": "fa7362900655a444550b27939593924f7b97a021295af7a40cb68b8642b4cf12",
+      "bytes": 2236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622012508000
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/bom-utf8-files.html",
+      "sha256": "f17247b48cf9b1bf0d8025c6178d875323ea6e81b9657ff18f0f2d086b88735c",
+      "bytes": 318,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622016274500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/comment-convention.html",
+      "sha256": "d987216af3636edf08c9a9275585ffbe5ccf106695c31f3504a414163300b65e",
+      "bytes": 476,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622017272200
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/comment-regular-expression.html",
+      "sha256": "a2a7a9e7d9eefdfdf82d48878c00bc48c5159ba854dc9deaa96d6b96f88c6469",
+      "bytes": 638,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622017272200
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/commented-out-code.html",
+      "sha256": "c2f4f290b4c6fdc3aceb00ce49e8ed2a57bad33994cd377deb4998fb6b6dab54",
+      "bytes": 195,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622017272200
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/duplicated-keys-across-files.html",
+      "sha256": "996326058ad8e6d1926c50fafe52243247b6ce8bba59b23247de0de0c42df064",
+      "bytes": 292,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622017272200
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/duplicated-keys.html",
+      "sha256": "8f693cca62d92d884e58d1932a1ebf731eb0814dd9ff231300cf1e9376ec82d4",
+      "bytes": 298,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622017272200
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/duplicated-values.html",
+      "sha256": "1b722b8098e2117e37d9014633319ec81ef453ceaff6f52074339edcea1892a3",
+      "bytes": 1085,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622018694000
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/empty-element.html",
+      "sha256": "d38993e37c5d30936b3cc6310ec7732c8bde25acd66083218a451f5c86c5d761",
+      "bytes": 233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622018694000
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/empty-line-end-of-file.html",
+      "sha256": "fdb69b8916ab3f7b326ae04dccb254973c31b71d7538d3302d691ecba12862b8",
+      "bytes": 301,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622018694000
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/end-line-characters.html",
+      "sha256": "c0c0614d8be6643a613b6542085ec665de62d026ea15dfe6e4d4befd8f12747a",
+      "bytes": 115,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622018694000
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/indentation.html",
+      "sha256": "246bded906e81ce006d800fcc0504ede94353eb63d3d288965a0622925976c85",
+      "bytes": 332,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622018694000
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/key-naming-convention.html",
+      "sha256": "c3940ca5e090ffab0c34065f7392273f71fbe6baa6b96013d3432a6824f141ae",
+      "bytes": 1285,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622019710500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/key-regular-expression.html",
+      "sha256": "925904fd3fe4b67253c89954a8ff257e1e3de6898915c1fde8015b7ad8e8b84a",
+      "bytes": 472,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622019710500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/line-length.html",
+      "sha256": "c1aa1da4b3970d88a8857e5d933eae4b3a83c110f4c102a64adcdefbe6d85573",
+      "bytes": 446,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622019710500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/maximum-number-keys.html",
+      "sha256": "d6f0ce3ea1c9ffdfa542d2c3fd8e251d2652f4d388f5d0a2289212a490a6a016",
+      "bytes": 255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622020709500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/missing-translations-in-default.html",
+      "sha256": "60653ccd735d542f2de0e37ee0cf2faf6d72f10ee0b63ee33d9d9fcd1a94bef9",
+      "bytes": 802,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622020709500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/missing-translations.html",
+      "sha256": "a492358721ec181a394406ddffe9ea6c3f46599365ce3373da7f231ca4bdc884",
+      "bytes": 760,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622020709500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/no-properties.html",
+      "sha256": "a9d64ed4399fc6a66eaf350305ab67469accb7ef9368e12011f9f6d25bf1cd5f",
+      "bytes": 85,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622020709500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/S1134.html",
+      "sha256": "3cef2896e6a19c0cfa0cf27df6758b37530545003e00e14dbb83ba76148b8d3f",
+      "bytes": 440,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622015281200
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/S1135.html",
+      "sha256": "d06a4ac3b1e45d83f397583f26cde1d404426df789e59c1e9c9cbd0d6bb8ba3d",
+      "bytes": 445,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622015281200
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/S1578.html",
+      "sha256": "74d028e26f268637d869a77c4aab490b37c9dd43c55e35a2b5a25e4bedbf6697",
+      "bytes": 924,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622016274500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/S2068.html",
+      "sha256": "1f61ad9f0991c05e5a8ba7f362f6f6dadcc59e0179accf231b0d880f6cdf0a9a",
+      "bytes": 1595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622016274500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/S2260.html",
+      "sha256": "0850df7256a53df1c3abe5b4787bbd221fd27730b04622e65ffa0eb949abaec9",
+      "bytes": 238,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622016274500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/separator-convention.html",
+      "sha256": "5a7f8b8610af2c75ec0773666af3ee5505cb6f1165f1baec55560dfc74a4559e",
+      "bytes": 584,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622021708500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/tab-character.html",
+      "sha256": "5548660948547e0a7977216edea499bc4c4f8b5f01ea120e54c7eff2db072271",
+      "bytes": 187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622021708500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/jproperties/value-regular-expression.html",
+      "sha256": "cd2108e2a5ba98848b1e1f3e045295d6ae85f0efc1dfca8dda0bc298bc540b0e",
+      "bytes": 478,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622021708500
+    },
+    {
+      "relative": "jproperties-checks/src/main/resources/org/sonar/l10n/jproperties/rules/sonarscanner/sonar-scanner-deprecated-properties.html",
+      "sha256": "1450406039a48816c2ae8142b1a05c12d777b73100101e08f8fab9f6f135c025",
+      "bytes": 1147,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622021708500
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/CheckTestUtils.java",
+      "sha256": "986852ba02178e7212fdf891818d5a985062b28136a096b1ef0e8ef4132814f0",
+      "bytes": 1144,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622023906700
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/BOMCheckTest.java",
+      "sha256": "b97c682de06864dbb5ad61450ef36e4ceb5cb1b965c5e5a6fb9f95954b22c5c5",
+      "bytes": 2086,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622023906700
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/CommentConventionCheckTest.java",
+      "sha256": "e84b6cd15170d3004f5490a04717438b2bb96b4700ea242020c048edd0f6cb90",
+      "bytes": 3936,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622024914700
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/CommentedOutCodeCheckTest.java",
+      "sha256": "668225e95eb9639fcd298fec40c246e10247b23b1896fd6fbb7ef2c6edc80cdd",
+      "bytes": 2605,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622024914700
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/CommentRegularExpressionCheckTest.java",
+      "sha256": "b4a1f450c5ae1ea53475a6681d84a51543a6074008670a4df9864e11dfa31907",
+      "bytes": 2680,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622024914700
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/DuplicatedKeysAcrossFilesCheckTest.java",
+      "sha256": "bd1c517516fa27a933c6ea7869e034e4a08bbc5bb5ebb103076ec891a6fbf5d8",
+      "bytes": 10150,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622026116600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/DuplicatedKeysCheckTest.java",
+      "sha256": "4cad3647ca3f45bb0305ad61158ef86555f302973f4a2c9c6c8aaf97ee0ccf03",
+      "bytes": 1655,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622026116600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/DuplicatedValuesCheckTest.java",
+      "sha256": "bbb1d1526672bf38464571409436d39770750fd50e0d8da8251afb0272924dd0",
+      "bytes": 2612,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622026116600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/EmptyElementCheckTest.java",
+      "sha256": "aac7845778d94472b3c9cd12d88ea18bbe7eea91ecd62ec1b8c8c90f91473d70",
+      "bytes": 1326,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622026116600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/EndLineCharactersCheckTest.java",
+      "sha256": "4738216cb7e94267806f91f93febb6fd622547e45fd2bac15ea5f71bf7c70a7e",
+      "bytes": 5835,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622027125800
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/FileNameCheckTest.java",
+      "sha256": "1f719ce04ff417995d34d75b275aae4ea72e90b727efb0c67b342fa577a11f94",
+      "bytes": 3020,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622027125800
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/FixmeTagPresenceCheckTest.java",
+      "sha256": "3c0f222a0e0ff753091c532307f563a3de8f9d85686c406924eb5c7c13eafa9f",
+      "bytes": 1321,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622027125800
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/HardCodedCredentialsCheckTest.java",
+      "sha256": "a2adf9839efa175056617eec72f4a04c86d8ca15e093c56c45061260e07fa0c2",
+      "bytes": 2539,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622027125800
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/IndentationCheckTest.java",
+      "sha256": "e36ab9d147566dbb822eb459ba3b614ed63046e36779fc7599f31304c0789c73",
+      "bytes": 2226,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622028128900
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/KeyNamingConventionCheckTest.java",
+      "sha256": "8f91724801115c29ddefe436ca6c8f8560a93c0c144e7a860f0bb1243f0f29b2",
+      "bytes": 2303,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622028128900
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/KeyNamingConventionCheck_RBL4_e39f864dTest.java",
+      "sha256": "dffb842c418268bfc773fd9602847b1987ea7884d282c4f0d0d5baa80fe8029c",
+      "bytes": 111,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784835360675338300
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/KeyRegularExpressionCheckTest.java",
+      "sha256": "ca730eaf0b25230d3bcd157f4544bf21e3ac4bfce792bd209a9211cf5c85e43c",
+      "bytes": 2438,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622028128900
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/LineLengthCheckTest.java",
+      "sha256": "0326a9c5b26d0974ad54aa7a9272fc9ef0c97b5f223325f11091dd74aa5aaf27",
+      "bytes": 1865,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622029127400
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/MissingNewlineAtEndOfFileCheckTest.java",
+      "sha256": "52b0b89cb4b7550463ace88db65193987e2f8111bb17a9c5d92cf1f6d8854a64",
+      "bytes": 1749,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622029127400
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/MissingTranslationsCheckTest.java",
+      "sha256": "c810291b0f021a1f319cc4e682f33df7fb07c420b7ddbe87c7832f1ca17bd334",
+      "bytes": 2393,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622029127400
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/NoPropertiesCheckTest.java",
+      "sha256": "d111610b9b0938f8f3441d94f8b5691d76134c59afd4e61ebc657edf22343499",
+      "bytes": 1719,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622029127400
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/SeparatorConventionCheckTest.java",
+      "sha256": "5bddd3c4fe98a27394d1ee4bdd0eb8c9a3865900182b3c891340504c1daec8af",
+      "bytes": 2280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622029127400
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/TabCharacterCheckTest.java",
+      "sha256": "b72912051281c5a7e2530abf74938644edfc91d33c7a64b3c4345a85b98560a0",
+      "bytes": 1668,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622030470600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/TodoTagPresenceCheckTest.java",
+      "sha256": "0aeb437d84057ef41486576f0d747a0226bd74fb932e3b91f1c1c0485d2d1145",
+      "bytes": 1280,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622030470600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/TooManyKeysCheckTest.java",
+      "sha256": "f4126f528902c6a65cd791121bf503abc89fefec5b067250b1175251f1f42df3",
+      "bytes": 1823,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622030470600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/generic/ValueRegularExpressionCheckTest.java",
+      "sha256": "a8b420fd4563ec051f6719821e72672e331613e9a41684797616ffd5ca0859f2",
+      "bytes": 2468,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622030470600
+    },
+    {
+      "relative": "jproperties-checks/src/test/java/org/sonar/jproperties/checks/sonarscanner/SonarScannerDeprecatedPropertiesCheckTest.java",
+      "sha256": "951cf25311e623130b41c97b157212714c9e809b4096a4dd15ae90268476c902",
+      "bytes": 1419,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622031470000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/commentedOutCode.properties",
+      "sha256": "a2c0baa674fd55c1e6ffc5a971396a93e6f7fc1b1cb7edaeac0c84107b74fb97",
+      "bytes": 856,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622034472000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/commentRegularExpression.properties",
+      "sha256": "5fb507d6b7bd87b84530fe656a090b825fbb58ed3e4cb16d79aff7f4682d4e4d",
+      "bytes": 55,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622034472000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicatedKeys.properties",
+      "sha256": "c252514bb44f13741299094762ec17c1a9e0644a9e5f52788039c0159e8a4a9c",
+      "bytes": 417,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622037367800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicatedKeysUTF8WithBOM.properties",
+      "sha256": "e044085f42e74d3d3a097c1eb6c9121cef0263b066553c2d249d1977a12ef937",
+      "bytes": 140,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622037367800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicatedValues.properties",
+      "sha256": "7b9aa3126398860fc516aeaaf0c7d06c75cfd38440779761c5d5635a864df90e",
+      "bytes": 1077,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622037367800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicatedValuesCustom1.properties",
+      "sha256": "e162d3e14bdaef45f064049051447971722d2cef39e67d08c1c2843334d91c8c",
+      "bytes": 1197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622037367800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicatedValuesCustom2.properties",
+      "sha256": "2f83d4f6552cd326f7ba2507f77f30e9367da79f9ec18e6d1d7614c0d462ec31",
+      "bytes": 958,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622038377800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/emptyElement.properties",
+      "sha256": "9a949bb707934318597784b4302285c19888a6c11a49e0f9a9774a972f815ec7",
+      "bytes": 233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622038377800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/endLineCharacters.properties",
+      "sha256": "7214193c9d26d6e42b09ab01c0a4cf9eec8a533c93a8a72f4b4de512532dc684",
+      "bytes": 30,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622038377800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/fixme.properties",
+      "sha256": "ec398109e3542939cdfe9630bd39ea3f25d36f501fe2fe062b1b2ddbef583dfe",
+      "bytes": 564,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622040378000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/keyNamingConvention.properties",
+      "sha256": "00fdb42da5cb07471fe27e822d40b00f51c6b805e392362f6c1d6ab033ef174f",
+      "bytes": 591,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622042518000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/keyNamingConventionCustom.properties",
+      "sha256": "da76466db88a62733b648d0ec04b343ddf0419b37e80950d75af85be0c1c7960",
+      "bytes": 613,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622042518000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/keyRegularExpression.properties",
+      "sha256": "d19e3cdf8a41d158224e8cedb72a90ca198b8f327141c37a7867b68323b36e85",
+      "bytes": 197,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622042518000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/keyRegularExpressionNoMatch.properties",
+      "sha256": "da18d8aa8b1c7c681cb503ea7e469b3bd1434dec2c39bdce40a0a670739b6109",
+      "bytes": 52,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622042518000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/lineLength.properties",
+      "sha256": "c95525c351c4b57ddaedffa6b771480e51bb0f2eae30e826d3364f6445a78408",
+      "bytes": 214,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622043520500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/newLineEndOfFile.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622046977800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/noNewLineEndOfFile.properties",
+      "sha256": "ad29e34596deae39f8b75fb42a41a78f29130d2cdb5799de13e3ab8f192a4aed",
+      "bytes": 7,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622048975200
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/noParsingError.properties",
+      "sha256": "0c1ebbd67202aaae4a3d7baffb682c063ec097faf9bc54d9ccc3ef54268f13f5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622048975200
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/noTabCharacter.properties",
+      "sha256": "5df42d6c757060c9e334d4f2e184c2dd5625cd7d16e7086b8bb27da6be7e3d03",
+      "bytes": 18,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622048975200
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/parsingError.properties",
+      "sha256": "a6609b48d326b851165c8129b8857af437886c0095b1324a1320b95d48b4ac10",
+      "bytes": 49,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622049976600
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/separatorConventionColon.properties",
+      "sha256": "6faa6fd972256c07171e5c2c5988af45bad62e92b1e375059b7f598003937eec",
+      "bytes": 675,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622049976600
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/separatorConventionEquals.properties",
+      "sha256": "991da81399076c17104ab63d43bbe53705e7dba3e3f256147035a65fb7702c7f",
+      "bytes": 463,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622049976600
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/tabCharacter.properties",
+      "sha256": "0d8a5814474ecab32f4cb0cf34e82ee3c6048a6c0ad48f35e1202fd030898a46",
+      "bytes": 34,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622050977000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/todo.properties",
+      "sha256": "4215236966e30ecaf04deb2551d09bad2ac0edc2c499887ad38310cf1d4f24d5",
+      "bytes": 193,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622050977000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/tooManyKeys30.properties",
+      "sha256": "6581791aa5cbeb014a66e2f90950853bec13a5b526521faab99cddf43989e0a3",
+      "bytes": 660,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622051978600
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/tooManyKeys50.properties",
+      "sha256": "310e64dce1eb0ef42d1321866be084d8b2e1c6db773a35ea51cc07304c3dab67",
+      "bytes": 800,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622051978600
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/valueRegularExpression.properties",
+      "sha256": "98657056de660c34e0ab9a9789164766a3039adf56cba84deea3f3756f083574",
+      "bytes": 223,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622051978600
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/valueRegularExpressionNoMatch.properties",
+      "sha256": "660b7bf4f8bc535133314b466cabb5dd50a69301c89f60e7190b6cdfc6d4b0bf",
+      "bytes": 61,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622051978600
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/bom/utf16BE.properties",
+      "sha256": "7674a2012ffe2bd20fdbb209cb39887a6b45092c5151fe78c98a7fd8d53e12ef",
+      "bytes": 30,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622031470000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/bom/utf16LE.properties",
+      "sha256": "57a4c42d4c5f505744b363a7d60c21cfae8e2407e32aba047d8a2395af12eef2",
+      "bytes": 32,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622032473300
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/bom/utf8.properties",
+      "sha256": "aa1eea27e4dac72fbbd89a135af23174dbca401e3ce9072fc29b1ae51d863bf1",
+      "bytes": 16,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622032473300
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/bom/utf8WithBOM.properties",
+      "sha256": "75f03604249f03e8e1ba924357d228a392196fe557e5c20854e1cdc646ef209f",
+      "bytes": 82,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622032473300
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/comment-convention/commentsExclamationMarkAndHash.properties",
+      "sha256": "04b7b385523ad72e3da401dfc807f3e18d3fb6d0df28a6a9403ad8c254121db4",
+      "bytes": 187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622033472500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/comment-convention/commentsExclamationMarkMissingWhitespace.properties",
+      "sha256": "d50b2cb47cacddcf4769cb2b88bfc40241e8b48fda6918b9783ff41ce34655d0",
+      "bytes": 29,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622033472500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/comment-convention/commentsExclamationMarkOnly.properties",
+      "sha256": "9851c569fb1a5e07cc52d86fec61e13becb2d40d515e9ba069a4963279f516b4",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622033472500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/comment-convention/commentsHashAndExclamationMark.properties",
+      "sha256": "98c84393f87cd089746786b79b2459ebe34860ef24ccd5eec110c0082cdac561",
+      "bytes": 187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622033472500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/comment-convention/commentsHashMissingWhitespace.properties",
+      "sha256": "322d23cf115670cd145a26b26cd9ef753e271c383fb21aee9d6a9c16303e22a7",
+      "bytes": 29,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622034472000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/comment-convention/commentsHashOnly.properties",
+      "sha256": "c7b01aa43c5e1bebdcdddcef4fb9cd328037fbab163f5c823d3af90a9cc388e3",
+      "bytes": 44,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622034472000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/cross-file-duplicated-keys/crossFileDuplicatedKeys1.properties",
+      "sha256": "2ef0e8b3d0594586344ad95f4fbd686538846bfc428bbe0e1f020280cdfadd5f",
+      "bytes": 40,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622034472000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/cross-file-duplicated-keys/crossFileDuplicatedKeys2.properties",
+      "sha256": "8dca0ff54a0e71733c8b63e333f1b54d4dca852f06290315eab831014ddf2796",
+      "bytes": 50,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622035922800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicated-keys-across-files/keys.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622035922800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicated-keys-across-files/keys2.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622035922800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicated-keys-across-files/keys_fr.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622035922800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/duplicated-keys-across-files/keys_fr_FR.properties",
+      "sha256": "c5d79c562f18830d25f40f4f337d8d314b314446a9cf9068b6b712f4e5c99bca",
+      "bytes": 54,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622035922800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/file-name/fileNameOK.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622039376500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/file-name/file_name.ko.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622039376500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/file-name/file_name.kocustom.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622039376500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/file-name/file_name.ok.properties",
+      "sha256": "6d6eb88f2a09cc7adf14c3e0ac67ea6257d2cfd68c42b64f882def1cdbdb9fb5",
+      "bytes": 9,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622040378000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/hard-coded-credentials/hardCodedCredentials.properties",
+      "sha256": "957d70a3b3f340ae47e32d3447e88317a19b9994aed4b5877b4c53afabc58daa",
+      "bytes": 410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622040378000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/hard-coded-credentials/hardCodedCredentialsValuesToIgnore.properties",
+      "sha256": "ead2ce7271de08aad1ec46abbff978ea25261c3e21f7fd233bc67d195a9281bf",
+      "bytes": 134,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622040378000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/indentation/indentation.properties",
+      "sha256": "efc16d8a61c0a9ea6b7fd971a052988571dcfd596b6a68756da6ef26051afeb5",
+      "bytes": 589,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622041509900
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/indentation/indentationIssueFirstLine.properties",
+      "sha256": "b79925ccef2de424e9a9f9075534ca229fc8d3ceb855980f183707a24074cfd9",
+      "bytes": 302,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622041509900
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/indentation/indentationUTF8WithBOM.properties",
+      "sha256": "651d4e0f7d3c4d11a21127a9e43d54dba305d5e065019038459d95573b01cb40",
+      "bytes": 224,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622041509900
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/indentation/indentationUTF8WithBOMIssueFirstLine.properties",
+      "sha256": "1565cb4ddc2a8bf554cbeb051fb005b5f69b2d2a53a3b5ea199a7d5f81debee2",
+      "bytes": 305,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622042518000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations/abc.properties",
+      "sha256": "b7bd2a324dedba47514fc4df3d5b425161b9df649a461edc83a2580f4a204f21",
+      "bytes": 51,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622045960200
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations/message.properties",
+      "sha256": "feca9a8f5c4a6b5bbdb8078433b1ad7e4c1216146128caea94563384a49301b0",
+      "bytes": 68,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622045960200
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations/message_en.properties",
+      "sha256": "feca9a8f5c4a6b5bbdb8078433b1ad7e4c1216146128caea94563384a49301b0",
+      "bytes": 68,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622045960200
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations/message_es.properties",
+      "sha256": "9dd4b097e9c798e03976ba96ba1c6a356983b08e586f2fb22c561b341ced30b1",
+      "bytes": 17,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622045960200
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations/message_fr.properties",
+      "sha256": "85a4200a0e66b30c4f05b75aedaea4aa04234e254d84dc5eef6f482203a278b0",
+      "bytes": 34,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622046977800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations/message_fr_FR.properties",
+      "sha256": "85a4200a0e66b30c4f05b75aedaea4aa04234e254d84dc5eef6f482203a278b0",
+      "bytes": 34,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622046977800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations/test_fr_FR.properties",
+      "sha256": "5cf6d84d86fc6c070230a2af6accee4f045d5e465a620f54ae3a0eab534ef48f",
+      "bytes": 105,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622046977800
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations-in-default/abc.properties",
+      "sha256": "d0910c012006541b801178eb2acadcdd6a07e13690ccb50ea2d258a10fd27a0e",
+      "bytes": 18,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622043520500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations-in-default/message.properties",
+      "sha256": "c6a6c30afa082584160ab92101d3a420e8fea7d509dae3e01d7256c979c0eb5a",
+      "bytes": 75,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622043520500
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations-in-default/message_en.properties",
+      "sha256": "7da880bdf836c34a94c213448bb589fa083341b2a91a46b352ffcad704865141",
+      "bytes": 140,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622044519700
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations-in-default/message_es.properties",
+      "sha256": "3cd436a4f48279f94e53a3727a4b5ff5b4d0eee553578172d88b7871a196e959",
+      "bytes": 110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622044519700
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations-in-default/message_fr.properties",
+      "sha256": "bb330a7cf064a67256b51856c486d49a41a0e3f26097876bafe123864ec13692",
+      "bytes": 110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622044519700
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations-in-default/message_fr_FR.properties",
+      "sha256": "7abf2d140d448f1b2007ab8b16c3e99d1d9f040269fd87953bba1cf12074f424",
+      "bytes": 31,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622044519700
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/missing-translations-in-default/test_fr_FR.properties",
+      "sha256": "49878d26853e5c74462ba7e1f090a8e286243ed4c5b5d5a0fa2fb2115871d4aa",
+      "bytes": 27,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622044519700
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/no-properties/noProperties.properties",
+      "sha256": "15141ab6434f16ad30b2d56ea32828fb92025105a5d8941e272d67c3bcd316cb",
+      "bytes": 11,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622047977000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/no-properties/someProperties.properties",
+      "sha256": "aa1eea27e4dac72fbbd89a135af23174dbca401e3ce9072fc29b1ae51d863bf1",
+      "bytes": 16,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622047977000
+    },
+    {
+      "relative": "jproperties-checks/src/test/resources/checks/sonarscanner/deprecatedProperties.properties",
+      "sha256": "92b923b771a8bf0e6aa8d0b95a2e330200441344587e3e79ae2956994589174f",
+      "bytes": 465,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622050977000
+    },
+    {
+      "relative": "jproperties-checks-testkit/pom.xml",
+      "sha256": "ae5d6aa925b1f55875b8fdb022e45901a4ab5e6b006ad4ca6d22c09382bdc86c",
+      "bytes": 1594,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621994951700
+    },
+    {
+      "relative": "jproperties-checks-testkit/src/main/java/org/sonar/jproperties/checks/verifier/JavaPropertiesCheckVerifier.java",
+      "sha256": "affd3f6adadd47183b307a884ef1375bf1a5196472a93fef2fee2cdb767c9ad0",
+      "bytes": 12689,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621996044900
+    },
+    {
+      "relative": "jproperties-checks-testkit/src/main/java/org/sonar/jproperties/checks/verifier/package-info.java",
+      "sha256": "74c91f685e56a33abc590931bf54e3b9e075134267c7b8dd233b63cf9bb43940",
+      "bytes": 1042,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621997253700
+    },
+    {
+      "relative": "jproperties-checks-testkit/src/main/java/org/sonar/jproperties/checks/verifier/TestIssue.java",
+      "sha256": "546482181372e0f42fcc265f2ef1cd5ac0d9ee58293bd918c7c8308bf42a1f61",
+      "bytes": 2841,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621996044900
+    },
+    {
+      "relative": "jproperties-checks-testkit/src/main/java/org/sonar/jproperties/checks/verifier/TreeCheckTest.java",
+      "sha256": "8860a7ede484727e7bee2b3ba6ede76b33e59725b45efd585c7503b6bb09586d",
+      "bytes": 3245,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762621997253700
+    },
+    {
+      "relative": "jproperties-frontend/pom.xml",
+      "sha256": "4219f0a451a27bf14da5f3ddd7bef9aa2897974f61a90435616d7125f6d2dcd4",
+      "bytes": 2157,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622053150400
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/parser/JavaPropertiesGrammar.java",
+      "sha256": "950892a1beb01657495a580db04a44b34aa404391752a4eb007df0db847fbb09",
+      "bytes": 2525,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622054159000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/parser/JavaPropertiesLexicalGrammar.java",
+      "sha256": "a6474675681422ee67c12068b5e726a68a8c6aa45ae68791f89c5090449aeb0a",
+      "bytes": 2418,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622055164600
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/parser/JavaPropertiesNodeBuilder.java",
+      "sha256": "cf60092eeeecb1c2e600d3a03c4a6c41e2fb75159481bd38013d585c581518c2",
+      "bytes": 3959,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622055164600
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/parser/JavaPropertiesParserBuilder.java",
+      "sha256": "93989aea018bc1bad91eb7b87d969c31f38d1d5fa981eb3120ef09349d783c2a",
+      "bytes": 1901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622056185200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/parser/package-info.java",
+      "sha256": "1830a54fe9cb8d281bf8c4b244c7c7e363b9250cea1777ad35c7620b9efa89fb",
+      "bytes": 1006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622056185200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/parser/TreeFactory.java",
+      "sha256": "3f19cb8ac979859a14d7094989ea239508bd5d1a1ec09cafc2d74b064ccb41d7",
+      "bytes": 1797,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622056185200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/InternalSyntaxSpacing.java",
+      "sha256": "6ca26d64e6d9113f0a246b923ac52e82374d9159da93829e5e2e5ed14eea3a67",
+      "bytes": 2214,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622057185000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/InternalSyntaxToken.java",
+      "sha256": "cc196f0c83bec75fdbcb396d85edb352cbe533c9050091cdebc603b0ba6c08b7",
+      "bytes": 3181,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622058182000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/InternalSyntaxTrivia.java",
+      "sha256": "80c8444e645fd502165716afd475692298735c631e7dee3411be92d053420bc1",
+      "bytes": 3145,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622058182000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/JavaPropertiesTree.java",
+      "sha256": "e957c8507af703545576fcec3a0dad17169c9ea80f6a3b0220c3304037e4b2d3",
+      "bytes": 2692,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622058182000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/KeyTreeImpl.java",
+      "sha256": "84730a199492ad0d37ca967d479530ac6b2a79eb0f88be1dc82350bde0d06735",
+      "bytes": 1429,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622059179800
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/LiteralTreeImpl.java",
+      "sha256": "31654812148f65848391e649cee1ab0d2195d724db2a67cd948da90b33219a05",
+      "bytes": 1687,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622059179800
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/package-info.java",
+      "sha256": "d5d3af357534605381e4480cbec939d120a3a30caadd19477f9b7a62dab497ac",
+      "bytes": 1009,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622060179500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/PropertiesTreeImpl.java",
+      "sha256": "e5cb6e7e5048f4fd333129223f03fad9c5141f6fdccdcaef5d67d32f393d749b",
+      "bytes": 2532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622059179800
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/PropertyTreeImpl.java",
+      "sha256": "5c25d20a34bfa7d37cd18d9dde6d189dad95deb2e7f9df1b34c48cd41646196b",
+      "bytes": 2062,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622059179800
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/SeparatorTreeImpl.java",
+      "sha256": "af220d5c4733d3920549a0fe90c7f8f31b231f303277a31a47a742863636a7bc",
+      "bytes": 2220,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622060179500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/tree/impl/ValueTreeImpl.java",
+      "sha256": "0ca8cc2888a38ca0156afba14b2e6058774de600e0ad3007e866818279d20edc",
+      "bytes": 1441,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622060179500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/CharsetAwareVisitor.java",
+      "sha256": "6c441f6ba418c158b2bcd9264a1ae5d7a1638ddc0dda988e7825e5b6dd638d47",
+      "bytes": 1060,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622061182500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/Issues.java",
+      "sha256": "4f64e3865e9e68528c5ad3a48d576ba559db7bc71216e8edb3bea01f0a383e70",
+      "bytes": 2451,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622061182500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/JavaPropertiesVisitorContext.java",
+      "sha256": "fed233b16bc7164c8bc5eb81f0e811af46e266ddac2d1d073c6906d0d9c2c141",
+      "bytes": 1495,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622061182500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/package-info.java",
+      "sha256": "f9049bf034a118039451eabf92346687b0a87355dc4c6f54eabfbe680ec6aa51",
+      "bytes": 1008,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622064502200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/SyntaxHighlighterVisitor.java",
+      "sha256": "5f284a736547ae803d1cb345c123e3b1ed78c93d2863c2a0f66cf8baa8c277d1",
+      "bytes": 3158,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622061182500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/CommentLinesVisitor.java",
+      "sha256": "ca505e4b4faf7b85eb4a0687a93d5e746e37c66cea97e415156a7f41711edcf0",
+      "bytes": 1972,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622062181700
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/JavaPropertiesCommentAnalyser.java",
+      "sha256": "a8b32ff80d1f1b78c2a129dffdfe6ddb79f1655afad4a96fd4be2220540ed8b3",
+      "bytes": 1521,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622062181700
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/LinesOfCodeVisitor.java",
+      "sha256": "a1741ab18817027d25aac358b632f0f55785dc277074381ab45945b497bc9d84",
+      "bytes": 1874,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622062181700
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/MetricsVisitor.java",
+      "sha256": "f9980da896550813986e93ef7cb06af90d0944b6b0af34d008db99c65def6cd1",
+      "bytes": 2760,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622062181700
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/package-info.java",
+      "sha256": "b88f9b25419a6c1cd6964a89879bd4305faeca8e1b5d17114a5c3f61301533e7",
+      "bytes": 1016,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622063446800
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/StatementsVisitor.java",
+      "sha256": "260cf5595e61588c0c4db817aded7ccbadc4e4e078573031007a1e8375e423eb",
+      "bytes": 1575,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622063446800
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/CustomJavaPropertiesRulesDefinition.java",
+      "sha256": "ef079fcdc29cece04f0beb113a2ee0abdf25a2ec3d888a0ac241f83902a3deb1",
+      "bytes": 2200,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622064502200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/JavaPropertiesCheck.java",
+      "sha256": "70baf3db45aae0dc8c2f01a14d4d0ff9be40d9b6cf1b82d359753210be28f6a8",
+      "bytes": 1799,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622064502200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/package-info.java",
+      "sha256": "bfc53d09a455d6cbf4b28ec3ad5f27dae400b92ea5c7f2897cb53ee582836363",
+      "bytes": 1011,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622064502200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/KeyTree.java",
+      "sha256": "1b66fe0248762fafe13e5d7d9ca2929a16b9a4553247964436c77b7f5252a67d",
+      "bytes": 977,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622065826000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/LiteralTree.java",
+      "sha256": "c42082c467f812e7ad7dced34395ddba1c8fb7922c46168cce3e333e675f8fc2",
+      "bytes": 1022,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622065826000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/package-info.java",
+      "sha256": "187f9ac2655417427127ce06399f49417183592cb199ab279a6e17dedbbd7da0",
+      "bytes": 1016,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622069090600
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/PropertiesTree.java",
+      "sha256": "a3fe31e29ed9d5c54dc3758c770b2c7715f3a2b6cbb0b6044f6f58e70f43521d",
+      "bytes": 1076,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622066914000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/PropertyTree.java",
+      "sha256": "e08ea8786f85e27b65e4c47996ef2b48008f6d70d75c0834865d82b5124a9621",
+      "bytes": 1053,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622066914000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/SeparatorTree.java",
+      "sha256": "db7d709cf7e5d51f9e35e271af56ff7c55ed703ac9240280ac4d5f5a0c2609d1",
+      "bytes": 1281,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622066914000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/SyntaxSpacing.java",
+      "sha256": "5599adc514e6069442fb4d82915b866f80d3a734a90bfcdbaa288432dcb433fc",
+      "bytes": 1137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622067986500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/SyntaxToken.java",
+      "sha256": "a890b2d37a1248bc70c735a9e409f34f251001cfd9d1f9fe1447f6d3cd0b772a",
+      "bytes": 1135,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622067986500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/SyntaxTrivia.java",
+      "sha256": "4a9d75b2b8e1e84e8afe0ca776ff22c7e73a6f40aae22669ae2a8b51f93d8eab",
+      "bytes": 982,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622067986500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/Tree.java",
+      "sha256": "39a22cae136f15d3e4eda0a574b47c717271a5d883572410b2f4037c4d3b9301",
+      "bytes": 1761,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622067986500
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/tree/ValueTree.java",
+      "sha256": "e00443bda04dca6750e5b21cb1763ad5a93f62b5c930d2817aee60069a859c29",
+      "bytes": 979,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622069090600
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/DoubleDispatchVisitor.java",
+      "sha256": "462c4077a231e9d3492f05a5b282547778d1c3e053ce2ba44095a52b7dcdcf62",
+      "bytes": 2820,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622069090600
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/DoubleDispatchVisitorCheck.java",
+      "sha256": "25ff5101a2128c162023bee548640285be8b2ca86d3eed8c7c08f9133bcf7744",
+      "bytes": 2576,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622070103200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/package-info.java",
+      "sha256": "fce1b0016aa3de647862ebf4f5434490a9a02ed6e391b527bf598afd8960df00",
+      "bytes": 1020,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622073542400
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/SubscriptionVisitor.java",
+      "sha256": "0c77b57164f468da861d319930bab6b852895ebba31dcac727d39915be7d7d6c",
+      "bytes": 2993,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622070103200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/SubscriptionVisitorCheck.java",
+      "sha256": "26a1b61267fc9d652a844f666cf9ac780ae0ab88da42fdcb4ce480cd90c25126",
+      "bytes": 2572,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622070103200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/TreeVisitor.java",
+      "sha256": "499c9c670dab72023dc1e2e54642be803da3904c41f4e5ac608299c875c3c8e8",
+      "bytes": 1053,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622070103200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/TreeVisitorContext.java",
+      "sha256": "080d24cffa31512e45c5dcca371d3f56b6c83bc8f5bf0d9c7ee262ef5e8a237c",
+      "bytes": 1249,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622070103200
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/issue/FileIssue.java",
+      "sha256": "b9943c99fa1f2fcfaa64e052e11231bbfb4ad94c736c7773ba6aca6e57da6516",
+      "bytes": 2403,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622071529000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/issue/Issue.java",
+      "sha256": "afa4cdd09c0833aae2bb543a5b8c0045a0f6bc82feb4c36472f83231e8d18838",
+      "bytes": 1166,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622071529000
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/issue/IssueLocation.java",
+      "sha256": "9795e049ac80e0179529c009feb399dd5bcb0de046ef5b8e2cc8daacafd756c0",
+      "bytes": 2713,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622072541700
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/issue/LineIssue.java",
+      "sha256": "71def2b3c32a854a7d0208000dddc0f7cd3f40ede92ae80aac90aebece0e3cd0",
+      "bytes": 1979,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622072541700
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/issue/package-info.java",
+      "sha256": "d272fad14a8e36ad4a6ee70426a60980321ade9b555ecc4cd7446b3d499b345f",
+      "bytes": 1026,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622073542400
+    },
+    {
+      "relative": "jproperties-frontend/src/main/java/org/sonar/plugins/jproperties/api/visitors/issue/PreciseIssue.java",
+      "sha256": "63fafb4870ba66f54543db91f7c0c408b0b53f7c40227d9dc5d9c75a718a6ba2",
+      "bytes": 2380,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622072541700
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/parser/JavaPropertiesGrammarTest.java",
+      "sha256": "c840ea7e1c0f5f1c379770dfa674c8838a01625181b05031cad8c237ed13aeec",
+      "bytes": 1327,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622074540900
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/parser/KeyTreeTest.java",
+      "sha256": "349be3a785a8f89d24dab12bd5cefdfe0bed8241a33e01da00fb50af0f5d70eb",
+      "bytes": 2068,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622075540500
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/parser/PropertiesTreeTest.java",
+      "sha256": "60cc31228449fa4c95818df681c0b0a8842632ebe00b0847484882f72992db1a",
+      "bytes": 3225,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622075540500
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/parser/PropertyTreeTest.java",
+      "sha256": "69c8fcbb81022f8ae29beab0f907b31da214011491e11f59f00f57a4fcbdd82d",
+      "bytes": 29859,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622075540500
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/parser/SeparatorTreeTest.java",
+      "sha256": "bfb80c153797f88851e16e315636a8c3b3e7b7822972763018221d826083c401",
+      "bytes": 2050,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622076540000
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/parser/ValueTreeTest.java",
+      "sha256": "ac0b4387edc6d31b8ca3b16b0c1cd71ee6b7634e6d67c8c393443f5434341c58",
+      "bytes": 2006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622076540000
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/visitors/SyntaxHighlighterVisitorTest.java",
+      "sha256": "c9ba501c107dc7e26fe927a203481c89068c204a15ff7c101cd6be7eb7c00e1d",
+      "bytes": 5681,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622076540000
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/visitors/metrics/JavaPropertiesCommentAnalyserTest.java",
+      "sha256": "99f60b6166b6216dcb38f46d42744edc3c21dcc3c99123ae5eb0c14b3e2f42a7",
+      "bytes": 1767,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622077874200
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/visitors/metrics/MetricsTest.java",
+      "sha256": "15e02dfe2e1de873b0b56f7688b1475510f0505a444c500918386ae6d598e1bc",
+      "bytes": 2210,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622077874200
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/jproperties/visitors/metrics/MetricsVisitorTest.java",
+      "sha256": "b9b99675b4cd8f58d95c0962975e16feedcf2ae29e6a06d4088a4e40663a808e",
+      "bytes": 2810,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622078894000
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/plugins/jproperties/api/CustomJavaPropertiesRulesDefinitionTest.java",
+      "sha256": "d052e29764b4182204ac36210cfeb8d76dbe4f80161f3286dfdbd465891fe82b",
+      "bytes": 3258,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622078894000
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/plugins/jproperties/api/visitors/IssueLocationTest.java",
+      "sha256": "19f1f27073af1dc1f4f10aeb9bfe7c49e136a94ad6f47a2ff54807b5c25e2296",
+      "bytes": 2184,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622079896000
+    },
+    {
+      "relative": "jproperties-frontend/src/test/java/org/sonar/plugins/jproperties/api/visitors/IssueTest.java",
+      "sha256": "b1a4d3ebb8fcdc87f6c19d14b52339e1bdf1fce137fb759af3db68861c5c4049",
+      "bytes": 4844,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622079896000
+    },
+    {
+      "relative": "jproperties-frontend/src/test/resources/metrics/metrics.properties",
+      "sha256": "ffa4b08d5d12b5177b2bb4632d02c959462d46b8673a7d9f8c78d5372d07c1ed",
+      "bytes": 130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622080896100
+    },
+    {
+      "relative": "jproperties-frontend/src/test/resources/metrics/metricsUtf8WithBom.properties",
+      "sha256": "8d2a79d7244de1a505440de3f2e9888de3d85cf269246bcf78d8c5648780b098",
+      "bytes": 135,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622080896100
+    },
+    {
+      "relative": "jproperties-frontend/src/test/resources/parser/complex.properties",
+      "sha256": "dce3f01341e496780500a00b183ecba437ca2008b8cb3d32c1c6f9af0691b0c3",
+      "bytes": 342,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622080896100
+    },
+    {
+      "relative": "sonar-jproperties-plugin/pom.xml",
+      "sha256": "57bec737cc9f5889afd7ad099cdd956f520181b58b33da7fdbbed59fda06c86f",
+      "bytes": 4033,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622081895600
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/GenericJavaPropertiesRulesDefinition.java",
+      "sha256": "243160d253dc10e350b5eeefe45ffd1b79bdf69d1025cb7990921feea9e53ae4",
+      "bytes": 2825,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622082894000
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/JavaPropertiesChecks.java",
+      "sha256": "702b52616f0ce36342567df4187296f939e9b53ec69add4dee9d9845a10e329a",
+      "bytes": 3372,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622083895400
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/JavaPropertiesLanguage.java",
+      "sha256": "1570526484c7225dbb9de4d07f713c9f43443df0da5c19ea331339776fb9fbd1",
+      "bytes": 1271,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622083895400
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/JavaPropertiesPlugin.java",
+      "sha256": "f1f71e8288f66e07808c10232826a82f310e8861338af9731175265f82c69324",
+      "bytes": 1319,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622083895400
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/JavaPropertiesProfile.java",
+      "sha256": "c0c0d19d1a736aaaa5959770e99c3890e16c5189b8abc6a058590703578268c6",
+      "bytes": 1926,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622083895400
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/JavaPropertiesSquidSensor.java",
+      "sha256": "32cdc8167e3dd2f107f0761ddc7dd6a9af3f7b460caa9866bfcd91270dcc01f9",
+      "bytes": 8683,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622085298500
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/package-info.java",
+      "sha256": "df2921d59d79cae36f12922898c4bbb5ab310926bfabc90021c4669df2016af5",
+      "bytes": 1007,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622087830500
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/SonarScannerJavaPropertiesRulesDefinition.java",
+      "sha256": "732d72cf2420b8c20fbdb37117de2c574262c75aa08975f19fcbfb76872e1810",
+      "bytes": 2013,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622085298500
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/CrossFileChecksIssueSaver.java",
+      "sha256": "75c3e813a0f04d3fc01de39d2d5397d7fb623fb146510b88ec26984d71d2f65e",
+      "bytes": 2434,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622085298500
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/IssueSaver.java",
+      "sha256": "a046034fa2218f36badd3eb81928b6c0aa17f690ce0be43044bce808f4bcae8d",
+      "bytes": 5446,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622086373800
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/package-info.java",
+      "sha256": "4778e82ee6d8ea66b0b94fe61e2adae59123bb3c1aa8b79a105eba56ae57ac1a",
+      "bytes": 1018,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622087830500
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/crossfile/CrossFileCheckIssueSaver.java",
+      "sha256": "68bf2c87f30a8a199c0c0e5488c97731a02bf4be772f5dd302e97b9ae76214cf",
+      "bytes": 1304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622086373800
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/crossfile/DuplicatedKeysAcrossFilesCheckIssueSaver.java",
+      "sha256": "598ec1891fa6be0533c9ab9221f44907e487bb861e3fa024d999e6cde325330c",
+      "bytes": 2945,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622086373800
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/crossfile/MissingTranslationsCheckIssueSaver.java",
+      "sha256": "f958978452c4449b86ab7fea5146a1394e0a3a37ac55ab41fb4ddc2e8c3d4ac0",
+      "bytes": 3222,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622086373800
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/crossfile/MissingTranslationsInDefaultCheckIssueSaver.java",
+      "sha256": "2387a2fdb9df1441522fd993f3a6444b5aa9729a046fd82aed574417b17e018d",
+      "bytes": 3722,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622086373800
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/main/java/org/sonar/plugins/jproperties/issuesaver/crossfile/package-info.java",
+      "sha256": "6cc2a424b0131b777c705e0ddd67619f60e406e5b0f639da4476ffe1a54edd13",
+      "bytes": 1028,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622087830500
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/java/org/sonar/plugins/jproperties/GenericJavaPropertiesRulesDefinitionTest.java",
+      "sha256": "371375187c29241420fc921ba0b37befcf1d7577d6252cc3bcc97348c3b6213a",
+      "bytes": 1983,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622088873000
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/java/org/sonar/plugins/jproperties/JavaPropertiesLanguageTest.java",
+      "sha256": "8a836edb8e189e4c286ee52bb75bb1154fa09bd7b43ac1e994666fa88f0eaff3",
+      "bytes": 1584,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622088873000
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/java/org/sonar/plugins/jproperties/JavaPropertiesPluginTest.java",
+      "sha256": "0c9e7816807ccd2cb7ea2152812c758f5281de964f782bb3399113abb99af14b",
+      "bytes": 1690,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622090108200
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/java/org/sonar/plugins/jproperties/JavaPropertiesProfileTest.java",
+      "sha256": "1284442f19f363052cc87faa7a4406920d173984d625734588c3a10960d999f9",
+      "bytes": 2435,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622090108200
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/java/org/sonar/plugins/jproperties/JavaPropertiesSquidSensorTest.java",
+      "sha256": "c107fd838ed8d25c12e9365193ff7392d7ad35828eaa48e9d2e59abf13bb4b31",
+      "bytes": 6109,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622090108200
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/java/org/sonar/plugins/jproperties/SonarScannerJavaPropertiesRulesDefinitionTest.java",
+      "sha256": "d1117bde2fb66e582257f19ebb25161d525749e489a7aa1f57ab5b69a45b2387",
+      "bytes": 2107,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622090108200
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/resources/myProperties.properties",
+      "sha256": "f314de7b0a3aea6c5d715b17fae9709e62708005566be57a823488804ea04ce2",
+      "bytes": 402,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622091529600
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/resources/myPropertiesUTF8WithBOM.properties",
+      "sha256": "2d52c8199e25fafa5d3fccf6780d7c9c9d3f7935381e80330256555e8a110669",
+      "bytes": 286,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622091529600
+    },
+    {
+      "relative": "sonar-jproperties-plugin/src/test/resources/parsingError.properties",
+      "sha256": "313af040ea0c0b1d0d89356bb2b8da490db3fbcf062589a095a1694f8d607ae6",
+      "bytes": 23,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762622091529600
+    }
+  ],
+  "excluded": [
+    "target",
+    "jproperties-checks/target",
+    "jproperties-checks-testkit/target",
+    "jproperties-frontend/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\018_39195736_e39f864d\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:33:10.417549+00:00"
+}

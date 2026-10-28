@@ -1,0 +1,2127 @@
+{
+  "source_repo": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\171_77481567_047e84e6\\compiledrepos\\77481567",
+  "class_indices": [
+    67
+  ],
+  "files": [
+    {
+      "relative": ".gitattributes",
+      "sha256": "63a02d5c93821cbde366c0e9efacc952bffa5e98816254c2a7edc964dbcd8b2c",
+      "bytes": 74,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768647189100
+    },
+    {
+      "relative": ".gitignore",
+      "sha256": "93d96c2e37c52d74ac4031c0a7c2c5cd7b4ba5a497e8b04e9548301327d8d5b3",
+      "bytes": 63,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768648188600
+    },
+    {
+      "relative": "LICENSE.md",
+      "sha256": "d862a07a760132dd5853505df3f74481af83abb220296e29f219840a56fd40e8",
+      "bytes": 35587,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768648188600
+    },
+    {
+      "relative": "pom.xml",
+      "sha256": "3f83a6cfb8429abb24fd4bc56a2fbe2b182eaf714b42df97d4c56465c3eeec2f",
+      "bytes": 10902,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768730096800
+    },
+    {
+      "relative": "project_dependencies.json",
+      "sha256": "a2f8b3db4f636f43c0e959d21208eac6ee8685446a6360d469ed7ca08b5831ff",
+      "bytes": 4608,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784841704886623900
+    },
+    {
+      "relative": "project_structure.json",
+      "sha256": "ba947fe1bd78b955f559aa28b1852ea9decdc7bc54b3f8ff2ac263a3312b9aa1",
+      "bytes": 16568,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784841704833619900
+    },
+    {
+      "relative": "README.md",
+      "sha256": "0ab99a488bd0a76d23c8a31b2c4d288469849378027071d2281e5142bf03e852",
+      "bytes": 2659,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768648188600
+    },
+    {
+      "relative": "client-metatrader/pom.xml",
+      "sha256": "ccec4b655fb57347f01346e523747e6a834349ea0c339a15eeb2f1d5aa84d759",
+      "bytes": 5761,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768649191400
+    },
+    {
+      "relative": "client-metatrader/src/main/assembly/metatrader.xml",
+      "sha256": "f32f440860a883bd71cfa02aec34ba8b796378f8014b53e2ad0f410e12ed3a9e",
+      "bytes": 1070,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768650188700
+    },
+    {
+      "relative": "client-metatrader/src/main/c/winsock2.c",
+      "sha256": "61566a13838c0141e165f78ac8e432b99b4ccb989dc4978a88132a4629f9bc84",
+      "bytes": 10279,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768650188700
+    },
+    {
+      "relative": "client-metatrader/src/main/mq4/Experts/Trading4jRemoteExpertAdvisor.mq4",
+      "sha256": "771f03ab232a2c9dcfc651c1584ceefb58b59f65ef6fe71eb4f7f12cc72de553",
+      "bytes": 658,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768651188400
+    },
+    {
+      "relative": "client-metatrader/src/main/mq4/Indicators/Trading4jRemoteIndicator.mq4",
+      "sha256": "d7224d958f559afa13c83b018fb715e6fe1a7990e77540a7c2e05c008dab8731",
+      "bytes": 1430,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768651188400
+    },
+    {
+      "relative": "client-metatrader/src/main/mq4/Trading4j/Commission.mqh",
+      "sha256": "99d96e5867395c9dc8f593d9d81ba5d3f845c9bcdf866f2ea8516c28c2901a6a",
+      "bytes": 917,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768651188400
+    },
+    {
+      "relative": "client-metatrader/src/main/mq4/Trading4j/MessageHandling.mqh",
+      "sha256": "c7609497ff3af1890592c0ffac96b4abf32483c6306519a1a2c652566f9e118d",
+      "bytes": 14216,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768652644200
+    },
+    {
+      "relative": "client-metatrader/src/main/mq4/Trading4j/RemoteExpertAdvisor.mqh",
+      "sha256": "da03f695eadbe480341650f81f2e12861097ed2b3672165d4346633c47870540",
+      "bytes": 13351,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768652644200
+    },
+    {
+      "relative": "client-metatrader/src/main/mq4/Trading4j/RemoteIndicator.mqh",
+      "sha256": "d7e2936ea3826b936dc47b914d4ca9051bfb2af61977d478d98a897ea207f098",
+      "bytes": 2904,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768652644200
+    },
+    {
+      "relative": "core/pom.xml",
+      "sha256": "2f1824b77122bcee6babe16e87183db05d8335db4d9ae2f6f335a7f06e8a06cc",
+      "bytes": 1694,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784841844551376800
+    },
+    {
+      "relative": "core/evosuite-report/statistics.csv",
+      "sha256": "2c47f872100f51ac0bca6c2a19a96083576c71707825e9ffe36f7d1be07256cc",
+      "bytes": 144,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784841789058547100
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/AccountBalanceManager.java",
+      "sha256": "69663a020af6c9a05db59bfd943cacbb8459f51f407ab320f8ea5cefd84d0323",
+      "bytes": 1090,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768654645000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/BasicExpertAdvisorFactory.java",
+      "sha256": "1018b7425e6a0d89e1c91adc12799dc5d789951a355792ae3d95e6050c3adc10",
+      "bytes": 2211,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768655646600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/Broker.java",
+      "sha256": "a9be7c3178f67f7c7337bc3dfe088428f04f97f02993385b86e53f8aa162749d",
+      "bytes": 901,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768655646600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/ExpertAdvisor.java",
+      "sha256": "e752aa44e2f9cae4a51dbd60ee6099d7888bd732c715dc288a122572a099ccd1",
+      "bytes": 390,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768655646600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/ExpertAdvisorFactory.java",
+      "sha256": "8ed6f3bf6a7a017e0b962b7ed6f01f0071f52a42556f953be4a3144717b6a3b2",
+      "bytes": 2299,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768655646600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/Failed.java",
+      "sha256": "2384ab4c19497aee8d296eea71da1611214e94ee70cedce6b237f886a33f57d2",
+      "bytes": 1741,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768656722500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/Indicator.java",
+      "sha256": "91b827b09cf392effa8659ff60be3dd887ac53cb49b90a9d98974df3024897b9",
+      "bytes": 1459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768656722500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/MarketDataListener.java",
+      "sha256": "0eb8fdf7cf88a8280e23a70d9e06b41cdbcb4fc354f696ec62a242646d752931",
+      "bytes": 534,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768656722500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/MoneyManagement.java",
+      "sha256": "9a0664cad6786e31fee7c9a8123402617a10f3d40d771af00d881c0cefe7af17",
+      "bytes": 355,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768656722500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/OrderEventListener.java",
+      "sha256": "199632ccd8cad438bfa143ba6b21e6bf18a072e496da4ff29257ec708a599e1e",
+      "bytes": 1702,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768657854000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/OrderFilter.java",
+      "sha256": "b7879f3f9d7b46af6a429e6993fbeede3f646eba59f02ff8cc9fcb420cd05f43",
+      "bytes": 1455,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768657854000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/OrderManagement.java",
+      "sha256": "7951fd5edb72044ab9db7ea5efa1a2a6c61aaae425d07c6dd58554ce4273b5b2",
+      "bytes": 1089,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768657854000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/TraderNotifier.java",
+      "sha256": "225b0f0dcb00ae9c33c032cd88d89562cd6874f8cbf066975bcc27ef51ac3ca7",
+      "bytes": 447,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768657854000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/TrendIndicatorFactory.java",
+      "sha256": "7271f3a862c780be8a48aa1a4c5b188172df8e483863d51e625748dd2f611f6a",
+      "bytes": 828,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768658854500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/UsedVolumeManagement.java",
+      "sha256": "d5a83d3deef6821917bd371336e3e00ffc0a4ffaefe073e26278efa7847c7e13",
+      "bytes": 532,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768658854500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/api/VolumeLender.java",
+      "sha256": "f5053e279a3564c8b3e1273c9e882034ed72caafb7a538f46185479cf51e1bb8",
+      "bytes": 1665,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768658854500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/ForexSymbol.java",
+      "sha256": "5722b5196a0fe3b3d883cb606e6e53b869e30f13de852f545d4bff76c9a8c890",
+      "bytes": 3120,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768659853700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/MarketCondition.java",
+      "sha256": "5ddd12d4618ee964ba1b71740c7f242d2265a7042dfe9e7ee9b8d767daae597a",
+      "bytes": 505,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768659853700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/MarketDirection.java",
+      "sha256": "60cdf6f1d82bfa751e3b08b41f2e20df04c4098f9db88ceffe4bb5cb754f1b3b",
+      "bytes": 1281,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768659853700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/Ratio.java",
+      "sha256": "7e9a405dfd546a42793e3d2074680f6f1186a831591db6599c5bfa6342f5e5a7",
+      "bytes": 3439,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768659853700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/RatioUnit.java",
+      "sha256": "8a7360bf6e6aea52af1caf1b9932227de620d2b4ad79d95a5378f3e7441747bf",
+      "bytes": 1108,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768659853700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/Volume.java",
+      "sha256": "5a579a43144788c07e07cf526efa113c30ed69241f68b1ef83e8102280098f8b",
+      "bytes": 2428,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768659853700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/VolumeUnit.java",
+      "sha256": "f0215cef67229f3befde715745523e897d26758be08ef2fa8735f9adf62ef00e",
+      "bytes": 1654,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768661334800
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/environment/AccountInformation.java",
+      "sha256": "efbd38cb21d4a459a454dcde0cace6e7194d4d7640af19522fe65c3f271790e6",
+      "bytes": 1747,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768661334800
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/environment/SpecialFeesInformation.java",
+      "sha256": "7c4a6d8226f5bbf314f6e582dd7a42bca65abe7fdefa103af2e769b882dba94c",
+      "bytes": 1559,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768661334800
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/environment/TradingEnvironmentInformation.java",
+      "sha256": "0cac90193dc6dff90e8b91afc06aab8408d21e6290f9ab27d5021281e853c1f2",
+      "bytes": 4233,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768661334800
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/environment/VolumeConstraints.java",
+      "sha256": "a33df190f723cdcf1159e4e803f4de3d143332aea85ac6d53276b4621f4c26c2",
+      "bytes": 1911,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768661334800
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/MarketData.java",
+      "sha256": "9bdf373197ab861cda12fd853b9438bdd27387f77de910bd2b201ea70cc845fb",
+      "bytes": 1787,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768662838200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/WithOhlc.java",
+      "sha256": "cf25d4291fe259ee2a9658e24720e03f987edf4b0fb7e068941bbb6249dd8cb3",
+      "bytes": 2410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768662838200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/WithSpread.java",
+      "sha256": "b1f2d409d271e6684f32f01a4df1952c56b8028032797aa5383a4bb136556347",
+      "bytes": 938,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768662838200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/WithTickCount.java",
+      "sha256": "16cfc4d6d1005c6def98b0eaaad450001852124483f68f5eac8135cabf5f127d",
+      "bytes": 484,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768662838200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/WithTime.java",
+      "sha256": "d4932b71bdc7f300df918f962c91e8f74b4a261e5bbfa3a855950ac87d2bfe4f",
+      "bytes": 407,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768664224600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/WithTimeFrame.java",
+      "sha256": "f52ea96d31d32781fdb7ef77d1a20eb76c1d49495dfb91510012a1b7c956fd52",
+      "bytes": 368,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768664224600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/WithVolume.java",
+      "sha256": "25a69664029468cbbdce3d01296abfe0fd05a1b2ec984c9da2e1ce47c3e2946c",
+      "bytes": 516,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768664224600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/impl/BasicMarketData.java",
+      "sha256": "add1515f6a2cd843f93452b36a6e5c01558a4ae0d0ac4af7f1b6bee5e4df064e",
+      "bytes": 2360,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768664224600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/impl/CandleStick.java",
+      "sha256": "004a589ca0f1c7ad63349f90f2392726ce3b1d8bf84bf5f335b578607f4f5e5c",
+      "bytes": 3875,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768665720500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/impl/DatedCandleStick.java",
+      "sha256": "ebca932811f79b8d073190c1c0aff1041c647b0a8af918e011a1123e93738d16",
+      "bytes": 3738,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768665720500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/impl/FullMarketData.java",
+      "sha256": "338bd041e91fc2658e10349838ddaa40e403154d068c4a4ec75feee25bacb14d",
+      "bytes": 4228,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768665720500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/marketdata/impl/MutableFullMarketData.java",
+      "sha256": "43524546e4ba6f761107f3c0af058a89f8152705cfd5848a6c2096ba5d858227",
+      "bytes": 11994,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768665720500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/monetary/AccuratePrice.java",
+      "sha256": "bd5c2e64c72191c7f92291b12d25c30ba24d91406c50599665d776abc4cf6340",
+      "bytes": 1760,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768666720000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/monetary/Money.java",
+      "sha256": "54bca96f619652c1ade26697d942c87410aeacb69b4be401bfc6f3d78642b820",
+      "bytes": 5124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768666720000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/monetary/Price.java",
+      "sha256": "1953c0c0ec1a7c0e573967f99a4b0c8ab8ab2151d11505ae9f741c8a28c05bd5",
+      "bytes": 14690,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768666720000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/monetary/PriceLevels.java",
+      "sha256": "8bbe4920a8cf3c664297addacc9b959631d997c6eca9f4a5bcc6f382585ec57b",
+      "bytes": 4332,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768667881300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/monetary/PriceUnit.java",
+      "sha256": "e71eb444688a148d7bd02157ed87bba33a590da7c1e0efec537e4845159e0c03",
+      "bytes": 1806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768667881300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/orders/BasicPendingOrder.java",
+      "sha256": "8850bcc7e28eed733f59d3b9198bc40da47db303305e2812b39159d4b09311fb",
+      "bytes": 4098,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768667881300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/orders/CloseConditions.java",
+      "sha256": "a7eab52d7c724dbc0bb1f91cfd4bba8e38a430eafdcf11ef0b8b5aba9c2afa56",
+      "bytes": 4765,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768667881300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/orders/ExecutionCondition.java",
+      "sha256": "5fe66456d0131aa2565e59db250c24bb6c8b5e468a04f9f114b5a53e71de3e48",
+      "bytes": 2331,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768668881700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/orders/MutableCloseConditions.java",
+      "sha256": "ec1afefe3be1bd44754dafaf81c9639904b508852570a5feaf0867dcd9ea8704",
+      "bytes": 4251,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768668881700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/orders/MutablePendingOrder.java",
+      "sha256": "3ea5e590b25ea58fa0f898eca93a9610fca02a306c306aefd8e54533e7ae9598",
+      "bytes": 8088,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768668881700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/orders/OrderType.java",
+      "sha256": "207e939effee675c03c0324d9c23a4d9117c3f292c7abe860acb9b577b03028e",
+      "bytes": 646,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768670140300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/orders/PendingOrder.java",
+      "sha256": "fcba4d881dac35b14a6a90e121ff8b8a85424367f9e0ab8898f8610d5f83ae61",
+      "bytes": 3007,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768670140300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/timeframe/D1.java",
+      "sha256": "cc3821ea838a08b5b6b790baed7ec00f85818fd8d0b3388106b23c910a372208",
+      "bytes": 2872,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768671283700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/timeframe/H1.java",
+      "sha256": "0ad26e6f0f315277ae575d720d1f2120e60ac59cd5a4af1271168b1593f6340f",
+      "bytes": 962,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768671283700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/timeframe/M1.java",
+      "sha256": "537cdf2fef9f351a1edb3fddc4436e40f62a185fe8b84663a9210e8603db6676",
+      "bytes": 887,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768671283700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/timeframe/M15.java",
+      "sha256": "729c02aca86abb0306e328bdc18cd0c9c2b9e0664e0b84b45cbedee03f16f19d",
+      "bytes": 1189,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768671283700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/timeframe/M30.java",
+      "sha256": "3c91e5f0ed5029124e990c8249a2d4ae0bd5f233159939b61143c64feaa9ed01",
+      "bytes": 1189,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768672283400
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/timeframe/M5.java",
+      "sha256": "6085c6515321043eb13561f9a5270f5d8e55a2d0e0016890c97e5e8db5d2e21b",
+      "bytes": 1182,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768672283400
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/timeframe/TimeFrame.java",
+      "sha256": "2c5757a29acf85c15fb93c8c3be0c597797af6c495faa0479cfbde624c5edb09",
+      "bytes": 1236,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768672283400
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/trades/BasicCompletedTrade.java",
+      "sha256": "d84aca0c8f1fe175dbf272c95146142f7187acbe68fc40fd14c87aff64648116",
+      "bytes": 5835,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768673282400
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/trades/CompletedTrade.java",
+      "sha256": "7010c82bca1339db05632ef249de290a6e0cd362017db4d6be2845e2f2f6d140",
+      "bytes": 4626,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768673282400
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/trades/TradeEvent.java",
+      "sha256": "2ec8dc2cf57e43b8eb36d6080c31c8433f5c8c4f01f84e3c2c6ce07ad51ac9cf",
+      "bytes": 8353,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768674286100
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/domain/trades/TradeEventType.java",
+      "sha256": "27c905d41e88c99e8f17332ecff7a99d21df07b6d6b267c71becf68d69167889",
+      "bytes": 720,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768674286100
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/expertadvisorfactory/DefaultExpertAdvisorFactory.java",
+      "sha256": "299fca4202d2cc739c92c7ae2165d3db68d0653d6b60d48b6bc3433b463345c6",
+      "bytes": 3379,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768675287000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/expertadvisorfactory/HistoricDataOrderFilter.java",
+      "sha256": "47161ac33851378e67acc9e4276eca19f5b692db3cdcb21cd5c101d1e28a729b",
+      "bytes": 1806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768675287000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/expertadvisorfactory/StrategyMoneyManagement.java",
+      "sha256": "62afa6118f8e7b16a10b3802a7d59215c593a19bb1c2d998c3d6b2ea5db90f6d",
+      "bytes": 6451,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768675287000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/TrendInverter.java",
+      "sha256": "86a211ac16d9853ce5d74a89c5388c07d7e085fe2b649d11de62c0d29e3dc0c4",
+      "bytes": 1263,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768675287000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/broker/DeactivateableBroker.java",
+      "sha256": "f00a0181a94515f4874780414dd84c6e5480af254d010e5835c0c72137c5cf80",
+      "bytes": 2054,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768676525600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/broker/NoOpOrderManagement.java",
+      "sha256": "595eb5dd890b646f0cda43a3ff93e1f4f5e9f62b2b6c9925cbb165f6a793ddd0",
+      "bytes": 780,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768676525600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/broker/OrderFilteringBroker.java",
+      "sha256": "305274ab6fbb7fa0c1ec0ab523ef14bd021749ac85760d4e2423cd19c08027c1",
+      "bytes": 4255,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768676525600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/broker/SingleTradeBroker.java",
+      "sha256": "58e2fd8f3f73cdaa4cc3e0df4ac7a1edd85b31e82d891c7f8f4868c89cd8205b",
+      "bytes": 3627,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768676525600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/expertadvisor/MarketDataDistributor.java",
+      "sha256": "af493a24c9138bff97ca42a2613f01c3c12f593ae30ce65b4483b3780c967cb3",
+      "bytes": 1628,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768677907700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/ExponentialMovingAveragePrice.java",
+      "sha256": "c19f987573bd6a281be40de4ed62f74d37292acfa8f67ee0bcee92df8bd74749",
+      "bytes": 2065,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768677907700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/ExponentialMovingAverageRatio.java",
+      "sha256": "d823094d92403bb361b0afa9016a03049b005320071421d12dd8cc8bdfce4ce8",
+      "bytes": 1474,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768677907700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/IndicatorSmoother.java",
+      "sha256": "c8b6bbcb4cce35a413e7b8ff9d765ca7505e5020946c89ca06e818cdb8b90e64",
+      "bytes": 1447,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768677907700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/SimpleMovingAveragePrice.java",
+      "sha256": "b7c7ed0bc97f51bb52c02c25791bef72288255870a79743d9eddd4aa76ac95b2",
+      "bytes": 1297,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768678982500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/SimpleMovingAverageRatio.java",
+      "sha256": "feec7ae10ab86c931107379d1cac6a2c504afa311311e21e8cc698e0b2a55e02",
+      "bytes": 1311,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768678982500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/SmoothedMovingAveragePrice.java",
+      "sha256": "f6ab61a274521a2f0aef487c6be4c5a2cc68ac7e9976c0c66da085952b7cb3b1",
+      "bytes": 1408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768678982500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/SmoothedPriceIndicator.java",
+      "sha256": "69c2d35d01fbd0ac77a778e0ba9155472b5b8027eafc8b283a7782ac4d43f4a1",
+      "bytes": 1077,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768680193200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/smoothers/Smoother.java",
+      "sha256": "6a518d4a678c6f077232e6ea12d5a00d230454eb112b4a381d1d0d945a1beaf0",
+      "bytes": 637,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768680193200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/ContinouseTimeFrameConvertingIndicator.java",
+      "sha256": "f081086b69671e015758c1c30f918e8f3f77ba43a090abddb15fd6eb77067062",
+      "bytes": 2328,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768680193200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/DatedCandleStickTimeFrameConverter.java",
+      "sha256": "c73871f395f9718d3f8cee91e0901026fe40e82647371eb95eed3074573dffb0",
+      "bytes": 2034,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768681333300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/DiscreteTimeFrameConvertingIndicator.java",
+      "sha256": "1e3c0367bdc855de1f49b8a225394975c5e548e7340d58525732e0e0a1948710",
+      "bytes": 2489,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768681333300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/FullMarketDataTimeFrameConverter.java",
+      "sha256": "ad4588f9cf57625950135961655c8ba75f37a25112015b0e7967db8c0194e0f4",
+      "bytes": 2922,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768681333300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/TimeFrameConverter.java",
+      "sha256": "30aae6c582fea37ef3a8c2a4fe895882c8f9e50edf48874fa8298c3e5a701025",
+      "bytes": 8677,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768682425500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/TimeFrameConvertingExpertAdvisor.java",
+      "sha256": "fe38075e35fa4edcbd4086e1cbc3c5f33ec4c74359f08a05a14f98243c7494fd",
+      "bytes": 1887,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768682425500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/functionality/timeframeconversion/TimeFrameConvertingTradeGuard.java",
+      "sha256": "68921097b4bcf8248852f2ade85eb7ee51ac98a58822e089bc4324c1f5a603c7",
+      "bytes": 2622,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768682425500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/FractalIndicator.java",
+      "sha256": "76d37b1fb2ef7c111a990fdffd01f359bf273ffbc2a58be73f604f75469bd18e",
+      "bytes": 2640,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768683645700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/MovingAverageIndicatorFactory.java",
+      "sha256": "14af7f63cc54889c95782b745fa9fc3b51d311ba9c2e365f1ce5ab899755ecef",
+      "bytes": 2387,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768683645700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/ParabolicStopAndReverse.java",
+      "sha256": "f867c9511d2db6da6b5d03b7fc86de6516d38e8232ef87d39a3f775d572454c7",
+      "bytes": 4028,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768683645700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/PivotPointsIndicator.java",
+      "sha256": "330001ee3873b6e8c5e16f69a9a9a238c9dd774ae8956fe2db9c5b6eb2b02247",
+      "bytes": 2262,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768683645700
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/RelativeStrengthIndex.java",
+      "sha256": "cf8735b1b3dd667bc27599ffc891718da341aab69d65f203a3f1664838077484",
+      "bytes": 4851,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768684646000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/adx/AverageDirectionalMovementIndexFactory.java",
+      "sha256": "7bfb004353fc01ccad558754cefb1e799916ff014e0e7af0747fbe823805fd51",
+      "bytes": 2991,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768684646000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/adx/DirectionalIndex.java",
+      "sha256": "884b83e1e188d66fe78833366bbf97533f5ae548126fcd780d03763d5f6bc7c3",
+      "bytes": 1573,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768684646000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/adx/DirectionalMovement.java",
+      "sha256": "2f5b9b96dba331a36b5db38bca02702da5396fbfa660d82c54a6672661eace79",
+      "bytes": 2327,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768684646000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/adx/DirectionalMovementIndex.java",
+      "sha256": "f4ba8794de77a282717d532dfb43e888ec1458e905770ecaa81c76ae457dff0b",
+      "bytes": 2413,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768686121000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/indicators/adx/TrueRange.java",
+      "sha256": "3ad3db6f9a0d084f71907cb5e525c3e594bcff8ade43f381f0490bcd7ed159e6",
+      "bytes": 1248,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768686121000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/NonMoneyManagement.java",
+      "sha256": "9810277c57d6c6c700bbd9675d84ee5c291e6904484e3ca64139bf0d5a22f8b0",
+      "bytes": 1797,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768686121000
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/SharedMoneyManagement.java",
+      "sha256": "b2d306e7118fdc1fba4a6779d0ac80a5bbf67808606b6631ac5b4898f98089c6",
+      "bytes": 4945,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768687203400
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/ThreadSafeMoneyManagement.java",
+      "sha256": "d129b99d902ca7672dd0a2f415f5a571aa16989be79e84ab8caa573dc6ca3ea2",
+      "bytes": 2749,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768687203400
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/DefaultMoneyManagement.java",
+      "sha256": "14705047b0c8d36b69c585e40ecf5d163e56f63e3d40b9b32f01afad32e91d99",
+      "bytes": 5246,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768688471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/ExchangeRateStore.java",
+      "sha256": "955739c7969d44be88e2d31f7f39a9b9bdc6e6985412117879a783c72519d0ad",
+      "bytes": 1981,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768688471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/FixedTradeCountAtATime.java",
+      "sha256": "7be5978747f078cb21ac812e653edfcd243697c5f5b997ca32e28f42b1197dee",
+      "bytes": 1067,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768688471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/OneTradePerCurrency.java",
+      "sha256": "4ce3835420ac876356aef56bf3005a56fbe26827c0420c6f70eb4fb3f39226c0",
+      "bytes": 1579,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768688471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/PipetteValueCalculator.java",
+      "sha256": "01b5297be0a555dd64c94efe09470d33fbd79d6f1977fff5ff0f8ec10ee123a6",
+      "bytes": 2907,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768689472200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/RiskMoneyProvider.java",
+      "sha256": "39184058fe6692f473b80d41a6794ca24f6010c064f4c976d8bb2a193ffdaa63",
+      "bytes": 1524,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768689472200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/TradeBlocker.java",
+      "sha256": "257e4e185bd9a376f9988f1c5abd49fc3b2c4daf8914142cca61a7ed1077e038",
+      "bytes": 1304,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768689472200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/VolumeCalculator.java",
+      "sha256": "16691621af6bd5f10a19f248833ddc6ee7207f026920d9437d31e458f8434ea0",
+      "bytes": 1323,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768690471600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/moneymanagement/standard/VolumeStepSizeRounder.java",
+      "sha256": "7c7e325dbfdcaf413a2f252bc027490b9dc4caec9c3d201c2817d6c717be107d",
+      "bytes": 831,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768690471600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/strategyexpertadvisor/Order.java",
+      "sha256": "63e01b209589261eb0410e356f02edb5e1282ad493eff9b2ed9231f1bf935690",
+      "bytes": 2589,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768690471600
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/strategyexpertadvisor/PendingOrderCreator.java",
+      "sha256": "0725fff02d4320a9f640313314ff4d7a7d5aef01910ec66503ac6812363d8c47",
+      "bytes": 2835,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768691471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/strategyexpertadvisor/PendingOrderManager.java",
+      "sha256": "707c2836a94e33370125788dda906c4f95daa7113bb974930eb0f0cf35b60a33",
+      "bytes": 4239,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768691471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/strategyexpertadvisor/StrategyExpertAdvisor.java",
+      "sha256": "45dfb32e849873bf6a65177f0907540bf5c2aed90d94ec3d1c3481f527d307b7",
+      "bytes": 4037,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768691471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/strategyexpertadvisor/TradeManager.java",
+      "sha256": "bb939831f1225883218b61300ce77bb3b386846294282ed841d4d05576c983de",
+      "bytes": 3818,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768691471300
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/strategyexpertadvisor/TradingStrategy.java",
+      "sha256": "073ec41067aad763c3a1815c717af09f24fe3f777e48a120804c09b4f982d4f3",
+      "bytes": 3084,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768692539200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/tradetracker/BasicCompletedTradeTracker.java",
+      "sha256": "2c39318527914f78435a47788f4be09644359da6ecf1d194e82ced66cf6db3e2",
+      "bytes": 1492,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768692539200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/tradetracker/CompletedTradeMarkDownFormater.java",
+      "sha256": "0203fbf114e15b143dd8cb3e818d5bf6026df1a0667bd358d60d3528eebc8025",
+      "bytes": 6196,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768692539200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/tradetracker/FullCompletedTradeTracker.java",
+      "sha256": "e06990e93b24bad8e70e568e03dd5229cffea51f9f52aecd2316563d3203faee",
+      "bytes": 1851,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768692539200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/tradetracker/SimulatedBroker.java",
+      "sha256": "fdf0ade0cfa646d95120b46647988fd9f60eae64c7e17e18dbf6dde90c7687e1",
+      "bytes": 5753,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768692539200
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/tradetracker/TradeEventListener.java",
+      "sha256": "8be6f4130d66efd650aaac00c9277477d76d57a8c29e40cc34b3e0536e4e5c06",
+      "bytes": 541,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768694020500
+    },
+    {
+      "relative": "core/src/main/java/de/voidnode/trading4j/tradetracker/TradeTracker.java",
+      "sha256": "638981051b42c49646baf8a744bd64c738a0fcb19a16810a9700777b84500d35",
+      "bytes": 7766,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768694020500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/api/FailedTest.java",
+      "sha256": "b61782828ea6d807e5b6519c404e515492ff0f4cf450172df376ff0373b54cc3",
+      "bytes": 1012,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768695211200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/ForexSymbolTest.java",
+      "sha256": "3fdb9bc3540f5b559b7d01ce0611dcd6c67d4000d907f84b43b7ecae5896e15b",
+      "bytes": 3006,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768695211200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/MarketDirectionTest.java",
+      "sha256": "8511607ad9e49f9303f579c68383dca2a3a27ca9d5c088ca218263d723ae79e6",
+      "bytes": 550,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768696211000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/RatioTest.java",
+      "sha256": "396b52d4bafb410105c8216ab64acba692a26e00790f4c6217a25dd0bc62ef00",
+      "bytes": 2966,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768696211000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/VolumeTest.java",
+      "sha256": "f93d7276d5f09fe8c4823319efa418e5a760a4bbf40fd6923675a193da3d33a0",
+      "bytes": 2617,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768696211000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/marketdata/WithOhlcTest.java",
+      "sha256": "4048fc2111820e382f4728bcdfab4fd7ad8946c409d63d7d5adce297f6d1ebec",
+      "bytes": 3366,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768696211000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/marketdata/impl/BasicMarketDataTest.java",
+      "sha256": "f129202b308edcb00903d6cee200ed0ed038ba3072a651ca194a92c9e43ddc33",
+      "bytes": 2516,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768697211500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/marketdata/impl/CandleStickTest.java",
+      "sha256": "1aa85b4555712259e9c6be607b56377a67a777140dd85b2028bb88ff57b166c3",
+      "bytes": 3057,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768697211500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/marketdata/impl/DatedCandleStickTest.java",
+      "sha256": "ac338f0d0317b4dd841a203567f71aba91e595f05d9e6f0afd971ca917c13707",
+      "bytes": 3936,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768697211500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/marketdata/impl/FullMarketDataTest.java",
+      "sha256": "3ea43e59d36c25c30c38887b7635478f04a99258c21f7482800d8cc313898655",
+      "bytes": 5356,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768698211700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/marketdata/impl/MutableFullMarketDataTest.java",
+      "sha256": "61237276af2db956c0246c4d9bed69578f489ef4114848fece2fc68f5feba1e0",
+      "bytes": 11187,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768698211700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/monetary/AccuratePriceTest.java",
+      "sha256": "617e073c12ce7f276a1aa81f64d1a3c9fe4cc66598398b6c9ec94ae62e953ddb",
+      "bytes": 1282,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768698211700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/monetary/MoneyTest.java",
+      "sha256": "1f4ea2eac3303413f8b58e735319a003f07707dbe841a987184bcbe62febef48",
+      "bytes": 3930,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768698211700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/monetary/PriceLevelsTest.java",
+      "sha256": "51486466584ef31b83464cbba661afc3b1885ff2a4b616954df1f81449816051",
+      "bytes": 5655,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768699666700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/monetary/PriceTest.java",
+      "sha256": "23f5d5fccf91f0b2a86aaf5241109c5e0d4ef1a094da6ae501c377845194596b",
+      "bytes": 15781,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768699666700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/orders/BasicPendingOrderTest.java",
+      "sha256": "7adabf48009dcf66d1a3bd888aaaad7f8e82b2371914e2b9f83af9a05a66175b",
+      "bytes": 2267,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768699666700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/orders/CloseConditionsTest.java",
+      "sha256": "1a2c2ff63bb8deda737e96be58533c4550ad28bb86eb67daa403d6b27857002e",
+      "bytes": 1052,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768701105400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/orders/MutableCloseConditionsTest.java",
+      "sha256": "2d76afc96c3870157030bc22baa219c8fb2b81415573e05724ef265962e74261",
+      "bytes": 3587,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768701105400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/orders/MutablePendingOrderTest.java",
+      "sha256": "ecc1a6f61cf86f65005e043229cb3dc5adb65258ae03de46b26882e287ba246f",
+      "bytes": 8290,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768701105400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/orders/PendingOrderTest.java",
+      "sha256": "3152d4c6ae5439843e7acab2c593649425a7bfacdb22b84e300114a92e7656fc",
+      "bytes": 2881,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768701105400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/timeframe/D1Test.java",
+      "sha256": "6be64ee3f8e33254ccc00b86fe5c74b42aa72f00486ac614b151fcf279eedc08",
+      "bytes": 9790,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768702428300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/timeframe/H1Test.java",
+      "sha256": "a0edb6a17a34c876178a4ba3cbb805c2d53852028862ca59400373d1f0d540ba",
+      "bytes": 4410,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768702428300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/timeframe/M15Test.java",
+      "sha256": "c80fba4e1c8e3fb405012dbc0ac050ecb0036387f4d73d2fb6c9f14c18175473",
+      "bytes": 2946,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768703429200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/timeframe/M1Test.java",
+      "sha256": "fb23d8f01f82a15602ab8cff9e32fd78eb5b1e41fe29bd27767dfa8940dc2d7a",
+      "bytes": 3155,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768703429200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/timeframe/M30Test.java",
+      "sha256": "7aa3fd869feffebf2da5d1fe023b7dae3d53e90d518c143aed00cd51f4961f3c",
+      "bytes": 4687,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768703429200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/timeframe/M5Test.java",
+      "sha256": "78c402152f18f871063dfefa7f2538b6345ce1944fcf7af94d9aac8d85cffe07",
+      "bytes": 4635,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768704458700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/trades/BasicCompletedTradeTest.java",
+      "sha256": "03b3268199743e4939bc382866e6d43151d4b7046ad4d272bca34adf4ee89f79",
+      "bytes": 7325,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768704458700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/trades/CompletedTradeTest.java",
+      "sha256": "808c2f70f13baacdab2868a737072ded3e848256eacd98d036c6a3f72670c8eb",
+      "bytes": 5374,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768704458700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/domain/trades/TradeEventTest.java",
+      "sha256": "d77f44d8356477185bf060f1950ccd2b5cc7ef0e0e33df9f7e6981d0b3c2e96f",
+      "bytes": 2758,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768705551400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/expertadvisorfactory/HistoricDataOrderFilterTest.java",
+      "sha256": "c53a2e32e20c3226fb4118f2521371040820699fade7d541b2c8fae10ecc587a",
+      "bytes": 2793,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768705551400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/expertadvisorfactory/SharedMoneyManagementTest.java",
+      "sha256": "e6b1c52b65ccd2053211da26c32df05765940e9cbfcdc2cacd68c350f4064236",
+      "bytes": 6265,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768705551400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/expertadvisorfactory/StrategyMoneyManagementTest.java",
+      "sha256": "eb22eea67fcdf882b509e6bb0ce459539769da4bb1c7e744791babe1f62b8a05",
+      "bytes": 6721,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768705551400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/TrendInverterTest.java",
+      "sha256": "f32c3b517b276151720f0a0f3d71b513f2f935f1f7fbede6b9337d00d451ede1",
+      "bytes": 2241,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768707048000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/broker/DeactivateableBrokerTest.java",
+      "sha256": "53a9063625bb8f39debeb8eebb3a2bc71e551cf9f82d944d62a0d04f0ae7e1df",
+      "bytes": 2444,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768707048000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/broker/OrderFilteringBrokerTest.java",
+      "sha256": "36ac2455ff1b43c4a7f9b1ae3743ece99707fd12ac0b22c1d0e98b0a691a8ce9",
+      "bytes": 4591,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768707048000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/broker/SingleTradeBrokerTest.java",
+      "sha256": "17b496c1efa810029de131fba1754217f0de69b652c6fde9dd21d05ca323b92c",
+      "bytes": 5294,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768708048300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/expertadvisor/MarketDataDistributorTest.java",
+      "sha256": "f12ca75f55afe34985108c7c271fb373ecc580fda56ce608eb5c537f9873f4b6",
+      "bytes": 1862,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768708048300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/smoothers/ExponentialMovingAveragePriceTest.java",
+      "sha256": "dfd0e5c08d25a8619c95a275813e9bd75b53fad29143cded7b7197b12333251f",
+      "bytes": 2858,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768708048300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/smoothers/ExponentialMovingAverageRatioTest.java",
+      "sha256": "7fdb56cd02a8aa1fdc88d1892c55709c904d397d02bd9d40edc6cf034f10861a",
+      "bytes": 2852,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768709497200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/smoothers/IndicatorSmootherTest.java",
+      "sha256": "daf411033ab658aec2d9c1c3bbdb9eaa1558b8b167e35811502f267b260b0cb8",
+      "bytes": 2523,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768709497200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/smoothers/SimpleMovingAveragePriceTest.java",
+      "sha256": "8f82a0f702d0e202384166161e48adcd4e1a8ac2b622d599a185913c31c37f7a",
+      "bytes": 2146,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768709497200
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/smoothers/SimpleMovingAverageRatioTest.java",
+      "sha256": "79ca069786a24540d0b3f491f943d0266e67054abfea4ac02ee97d93a201d530",
+      "bytes": 2315,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768710506400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/smoothers/SmoothedMovingAveragePriceTest.java",
+      "sha256": "b395ac406183ff876beeff96cab9e67b2716775ef9f1b4c41f3d518c557dd17b",
+      "bytes": 2117,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768710506400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/smoothers/SmoothedPriceIndicatorTest.java",
+      "sha256": "ef9425b7ff6ff17eaa2e6d08c2fc0f852c736bd0fba0598f362c3c54b9ceff65",
+      "bytes": 2190,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768710506400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/timeframeconversion/ContinouseTimeFrameConvertingIndicatorTest.java",
+      "sha256": "08935224807fa52ad5fa952761254bbf1ceb015d587418c34412ac3dd8eb1b7c",
+      "bytes": 3628,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768710506400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/timeframeconversion/DiscreteTimeFrameConvertingIndicatorTest.java",
+      "sha256": "d73347b40345448b00ed50d159ef1481a8c1697c4c6f30383adc60a7715ab181",
+      "bytes": 3665,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768710506400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/timeframeconversion/FullMarketDataTimeFrameConverterTest.java",
+      "sha256": "acaacbbe3164f57a99937d2e570bdf10ba3f86fab462cd35b29fce760df5b49f",
+      "bytes": 5969,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768711829400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/timeframeconversion/TimeFrameConvertingExpertAdvisorTest.java",
+      "sha256": "a675f89ae41620903a6230126b02632d7a124e6dbb051e6d1bdb28247a33a3c0",
+      "bytes": 2613,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768711829400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/timeframeconversion/TimeFrameConvertingTradeGuardTest.java",
+      "sha256": "0420e96275308f0d63588483a70057e75f7aa562fe3b4dfc57c7925670003648",
+      "bytes": 4595,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768711829400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/functionality/timeframeconversion/TimeFrameConveterTest.java",
+      "sha256": "98e9523759bd000ad35415a85f072cca61372391097f012853ec09fe6e738800",
+      "bytes": 11993,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768712829600
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/FractalIndicatorTest.java",
+      "sha256": "4529c9d82649836d0cf100f545acba0e0b83c5d892d08220a2c04666081abc09",
+      "bytes": 10036,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768712829600
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/ParabolicStopAndReverseTest.java",
+      "sha256": "2644611316d00d58529ed87b7ceb09d36ae916c3591df2e7008bb88d104ccf59",
+      "bytes": 5553,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768712829600
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/PivotPointsIndicatorTest.java",
+      "sha256": "d767a09c9f87136c2cc5504f3efc54287b10ea403d78cd6e6dd9e7d8a9e99b13",
+      "bytes": 2319,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768713831700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/RelativeStrengthIndexTest.java",
+      "sha256": "00f79cce03b621d4576f101d7fe2ca0ad569014552d1369aba9c3ccb11d5579d",
+      "bytes": 5780,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768713831700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/adx/DirectionalIndexTest.java",
+      "sha256": "6a2d8482305aeebd8314c9f57a14d53988a905963ce030f708d8b7d57b5f7804",
+      "bytes": 3686,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768713831700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/adx/DirectionalMovementIndexTest.java",
+      "sha256": "591f7832414322c9fe62b5c8a3b886037eb099219926d93060930c3569ac9ed2",
+      "bytes": 3641,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768714830400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/adx/DirectionalMovementTest.java",
+      "sha256": "5488d38ab45422d83e96813e9adabf0b2c9bdfe1c03730ff3087a670f0c1c789",
+      "bytes": 4438,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768714830400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/indicators/adx/TrueRangeTest.java",
+      "sha256": "e1f72dc0c1614cb385740f33171fa18f6a69c1f6f90562224cda3df91050fc6e",
+      "bytes": 3086,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768714830400
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/NonMoneyManagementTest.java",
+      "sha256": "c84979c3c4496118a2b095df895c87f62ceb8dcb60046b61395bf3b582883899",
+      "bytes": 1675,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768715831300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/ThreadSafeMoneyManagementIT.java",
+      "sha256": "7e6321553a8a9ee27ef426f18b23d59c9b2a7369831db9e08954f28674c9a522",
+      "bytes": 4867,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768715831300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/DefaultMoneyManagementTest.java",
+      "sha256": "751e624c07ffe26e01fe9c9cc10bb3b7460da936e7a32f5c33eb3e66c651f655",
+      "bytes": 5322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768715831300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/DefaultMoneyManagement_RBL4_047e84e6Test.java",
+      "sha256": "7958579e56f8985cbd415390576891007a245f09d8b31d5a5a733a701f361221",
+      "bytes": 119,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784841844546072700
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/ExchangeRateStoreTest.java",
+      "sha256": "eb59090939be8f9394b3862a7823ba73a3fbfa77bfd16e88e9a56dcdce3c2bc8",
+      "bytes": 1942,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768715831300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/FixedTradeCountAtATimeTest.java",
+      "sha256": "d81d4acf04eaa76ead20adcdb2e1e7b2857d2872cd09a728388fbd7de6b9f9e2",
+      "bytes": 2047,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768715831300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/OneTradePerCurrencyTest.java",
+      "sha256": "329122e5e550e935b1a8d4cc6b7e97f8ba0f9f7f2348476526227aa464a30f9f",
+      "bytes": 2188,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768717272300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/PipetteValueCalculatorTest.java",
+      "sha256": "b225cd5715004688c21721955dd6120af564d3327b268f884bc3f5d85fbbaccb",
+      "bytes": 4042,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768717272300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/RiskMoneyProviderTest.java",
+      "sha256": "d69d157e319601e1c82a06d50b30abe2911a6dc0783734bc8149a52bdca2e643",
+      "bytes": 1648,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768717272300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/VolumeCalculatorTest.java",
+      "sha256": "300bc48bafba23a18753d46a75fb84c203ec0ed9cde18a049fd735e22d30b9cb",
+      "bytes": 1313,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768718420500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/moneymanagement/standard/VolumeStepSizeRounderTest.java",
+      "sha256": "14372c386de57b832f6a94d484f3336fef6aedce4a0944711807a20db1d1e98f",
+      "bytes": 1137,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768718420500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/strategyexpertadvisor/PendingOrderCreatorTest.java",
+      "sha256": "66504941d492644723cb7915333e13eb07a7bd6bfac91b0c928e8b77328a5f71",
+      "bytes": 8883,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768718420500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/strategyexpertadvisor/PendingOrderManagerTest.java",
+      "sha256": "2658621319bcb580ee2f72e1cca8b74a9f0d1a13f1b1601924501af718e4ebcd",
+      "bytes": 9012,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768718420500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/strategyexpertadvisor/StrategyExpertAdvisorTest.java",
+      "sha256": "b191dbac7ad9132d8cd93439bda869abebfb263c0736f3bc259d7fcc7d336d68",
+      "bytes": 9320,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768719887300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/strategyexpertadvisor/TradeManagerTest.java",
+      "sha256": "6e1fbabe5099663f47532a5bdc59e9795041bc34c73d2e04dc5003afc57262c4",
+      "bytes": 6946,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768719887300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/CandleStickStreams.java",
+      "sha256": "b5f7c63f0d610525e52e16d5aa9b970f31ef80c70d12ff3097160367f9f38b63",
+      "bytes": 9477,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768719887300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/ThreadSafetyAsserter.java",
+      "sha256": "0d0b4ec06c3a9e6c5b8f77c05fc6264bdbfb6ac340853245dca283dca090850b",
+      "bytes": 2161,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768720889300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/TrendAsciiRepresentation.java",
+      "sha256": "e57bf0f1917a672c3a8756f09bd7589578a8058459cde901a91aa8bbbda09e81",
+      "bytes": 3257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768720889300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/assertions/AccuratePriceAssert.java",
+      "sha256": "cd60c6eef1a9e71e56825ce37c350e9ca4d7a2712a1a6bf30b2885c0abb9740c",
+      "bytes": 1319,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768720889300
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/assertions/Assertions.java",
+      "sha256": "b2b8c3f5021b3bf4c195d84e45e06a3ba48ca02c22d97144f78099cf05201757",
+      "bytes": 1714,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768722143000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/assertions/PriceAssert.java",
+      "sha256": "1e8f086e2791a11b7ea40a8a0ae472d90674ee654156b9126a59e30565a8c980",
+      "bytes": 1655,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768722143000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/assertions/RatioAssert.java",
+      "sha256": "03d6835f228a9e41f66d8601ed8d9284b29492979cbef3daf5c8ebc5f654b96e",
+      "bytes": 1586,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768722143000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/testutils/assertions/TrendAssert.java",
+      "sha256": "a8ac0d7a6822cd8f983b609c5af8fd8a57bbca57f282209b8a30c01b7e90c7d8",
+      "bytes": 1101,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768722143000
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/tradetracker/BasicCompletedTradeTrackerTest.java",
+      "sha256": "ea3e8a8c43777553b703d642ce37b7adb13b1ba60d8ca4616f12f7773cd2f125",
+      "bytes": 14843,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768723582500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/tradetracker/CompletedTradeMarkDownFormaterIT.java",
+      "sha256": "a27e7f7506e6fc4da2a5fba3fe6af7a9194c4a38bb45c08d06dba6cfddd6a8a4",
+      "bytes": 3623,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768723582500
+    },
+    {
+      "relative": "core/src/test/java/de/voidnode/trading4j/tradetracker/SimulatedBrokerTest.java",
+      "sha256": "ba7a0a4d7b3f8659ac137a3dc77c89d287901bc1bc70b46fed5fc3ec95315436",
+      "bytes": 12159,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768723582500
+    },
+    {
+      "relative": "core/src/test/resources/example-completed-trade1.md",
+      "sha256": "4de597bde801b66de2914e55b701f5321b900b9e7ae1989ecaf0152a241f1ee6",
+      "bytes": 949,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768723582500
+    },
+    {
+      "relative": "core/src/test/resources/Parabolic-SAR-Testdata.csv",
+      "sha256": "77ea31e02dee73180b859c3d9cf80322aabe89b85b7b845b6047a2f02f8f38fb",
+      "bytes": 6917,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768723582500
+    },
+    {
+      "relative": "examples/pom.xml",
+      "sha256": "cc7f3ce92f24a5a4624e5fe5fc47c90b75d26f421c6b2218bf3ce56de75eb6cd",
+      "bytes": 1545,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768725073000
+    },
+    {
+      "relative": "examples/README.md",
+      "sha256": "eb706cc6e78e6223a33e1b862d04ef105e5908b4164e38a58dd8d634dabd202c",
+      "bytes": 1048,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768725073000
+    },
+    {
+      "relative": "examples/src/main/java/de/voidnode/trading4j/examples/ExpertAdvisorServer.java",
+      "sha256": "083b32ca18255068cf54fab067f473ebd432498f9dcb3aa6795ebc13cbf86be8",
+      "bytes": 2719,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768727094000
+    },
+    {
+      "relative": "examples/src/main/java/de/voidnode/trading4j/examples/LowVolatilityOrderFilter.java",
+      "sha256": "34fb12417bc6f23dbb247e9e58c66bb32d61f071de55f5c68e12e0b7f807c494",
+      "bytes": 1838,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768727094000
+    },
+    {
+      "relative": "examples/src/main/java/de/voidnode/trading4j/examples/NMovingAveragesExpertAdvisor.java",
+      "sha256": "ff80471acb14df9dd8cae8f6471582f956e1e07852845370d7a015aa88d764f7",
+      "bytes": 6344,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768727094000
+    },
+    {
+      "relative": "examples/src/main/java/de/voidnode/trading4j/examples/NMovingAveragesExpertAdvisorFactory.java",
+      "sha256": "fb492679ae677a13b364c63ea0ac39b010578bee91deb144ec144ee8e1d036c2",
+      "bytes": 4769,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768728094300
+    },
+    {
+      "relative": "examples/src/test/java/de/voidnode/trading4j/examples/LowVolatilityOrderFilterTest.java",
+      "sha256": "c7306a0027fcfbd7707bcdfba465f14ad28ec830ece76de92f5edf83fe2da073",
+      "bytes": 2093,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768729094500
+    },
+    {
+      "relative": "examples/src/test/java/de/voidnode/trading4j/examples/NMovingAveragesExpertAdvisorTest.java",
+      "sha256": "aebf3e68226f404b688911516dcd43539c193132563212d021a92b5319434767",
+      "bytes": 11727,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768729094500
+    },
+    {
+      "relative": "server/pom.xml",
+      "sha256": "800398632c20bfb357155954ba9c5f9a295bed57a63b8bebefe9a86c8e71b9c4",
+      "bytes": 1694,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768730096800
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/TradeTrackingExpertAdvisorFactory.java",
+      "sha256": "92bf47851858ce21414ca51e4f2db3a14e0b9acce1f971809ef739d39a77d875",
+      "bytes": 3306,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768731095000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/TradingServerBuilder.java",
+      "sha256": "943e4a41ea4188b6002a25c237a8b79ce4f38f7cfa5871665add8efb96251478",
+      "bytes": 7379,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768732447400
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/oio/OioClientConnection.java",
+      "sha256": "2aef4ea6a01cdba09f3736bf4abd475053eaeb1b896ca4292f97220cb477804f",
+      "bytes": 5215,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768732447400
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/oio/OioServer.java",
+      "sha256": "c765fc9eaa7b646f9ec8a35a714a2bfb556adfe7334c55b2f953bf7cf1c65f59",
+      "bytes": 3889,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768732447400
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/ClientCommunicator.java",
+      "sha256": "ea2b37263838db75b1c19e0648a5d7c8c4ea1c4d676e28d4400020a819a47601",
+      "bytes": 2601,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768733685300
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/ClientConnection.java",
+      "sha256": "e05ac1697ab4b139c86363beecf31d135f7bd83428bf3892c8ab928d2abbce39",
+      "bytes": 5667,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768733685300
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/ExceptionHandler.java",
+      "sha256": "82a4cba80f7b21b629effb5fc7b6e27bd5459eb561787ec2d2d3b9fba450f4ed",
+      "bytes": 4277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768733685300
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/IndicatorProtocol.java",
+      "sha256": "f96f886447eae9a9186be9edecedc79b728d46e9c4522692e3f6a42e9fa05c77",
+      "bytes": 2763,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768734797000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/MessageBasedClientConnection.java",
+      "sha256": "0cffccdae2cc7ecd8fb36cd9bf743954d6309fb2d0278ea4ed265c299efab951",
+      "bytes": 15271,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768734797000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/ProtocolFactory.java",
+      "sha256": "34d856cf7928bbc9902c4ad960ee4856214f9313d70e612ecf7fcfc58793938a",
+      "bytes": 6576,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768734797000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/exceptions/AbnormalCloseException.java",
+      "sha256": "10d55465b43ea1da6688b052c9a0f227994b623134fa422a928a61d14748a251",
+      "bytes": 768,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768735798800
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/exceptions/CommunicationException.java",
+      "sha256": "76f1a0c18afa3283bd90f2b1e4bee24466926de114cbdcd5a20dff818532c6a0",
+      "bytes": 1330,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768735798800
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/exceptions/MessageReadException.java",
+      "sha256": "1f248baafe12528ac72b1a401ae12b51ed74e974bec2fff8b4ee3d57880b5182",
+      "bytes": 781,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768736797600
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/exceptions/NormalCloseException.java",
+      "sha256": "c3c26fd816ca298a8967291bc93999ae3ccdf0bde36ae9b848dbbfef9b4f00bf",
+      "bytes": 748,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768736797600
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/exceptions/ProtocolException.java",
+      "sha256": "decafb030de921d74adb564c59f7bd7173a6a842f41c930ef70db30a5801b928",
+      "bytes": 1084,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768736797600
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/expertadvisor/ExpertAdvisorProtocol.java",
+      "sha256": "ad917213dd5de1573fc9c40b82ed56fdf2a4a3d5a110a446f8b402453b40c17f",
+      "bytes": 3970,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768736797600
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/expertadvisor/LocalExpertAdvisor.java",
+      "sha256": "95dd9df59337608065657526be6c83e9738e18b46ac3f1981e64bdc4f856f963",
+      "bytes": 5977,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768737799200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/expertadvisor/LoopThroughCommunicationException.java",
+      "sha256": "9b29475fd69c12ac6cdb534fd1182c96253086338d3d7b8354a8a621998bc42a",
+      "bytes": 1005,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768737799200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/expertadvisor/LoopThroughIllegalStateException.java",
+      "sha256": "62851d851b93450d809163485ec92db3a736a2c2b32033e8402373a51ef22279",
+      "bytes": 925,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768737799200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/expertadvisor/MetaTraderFailure.java",
+      "sha256": "1ddac4c6ef6795948f8b60ecafa7b944e8b1d52106003a2a2004888ae90c8eaa",
+      "bytes": 3483,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768738796200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/expertadvisor/PendingOrderMapper.java",
+      "sha256": "e08f3b92437843890de6120c49da684134c48c66e85f2b8453f63b9a5dff78a9",
+      "bytes": 2897,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768738796200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/expertadvisor/RemoteBroker.java",
+      "sha256": "107173ff39de155a7bacbfab2c443662e99edd20555df2eaeaa478f941106a6f",
+      "bytes": 5459,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768738796200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/AccountCurrencyExchangeRateChangedMessage.java",
+      "sha256": "34af949f4a98511d8c40751465bd4a044bddc6696aa84e7c8240a5762a9a9ae2",
+      "bytes": 1014,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768740031700
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/BalanceChangedMessage.java",
+      "sha256": "5baea0d50d1289f4efd6c9c4347fc3a32a57095285b32d18b6882713aff58043",
+      "bytes": 863,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768740031700
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/ChangeCloseConditionsMessage.java",
+      "sha256": "a053216096bd08543b6d2201cfd8dc5f949b2ac8d7673f91f61dae8e400940c4",
+      "bytes": 1317,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768740031700
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/CloseOrCancelPendingOrderMessage.java",
+      "sha256": "e91a2313a7dd7c3feedd7dd12818449d42a05505aca05ca629f980b1333333b8",
+      "bytes": 883,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768740031700
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/EventHandlingFinishedMessage.java",
+      "sha256": "b1f4cd09327fa93ace11baf0eae3194c83d9ecb1a0e72187a8c0857b52a4e9de",
+      "bytes": 362,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768741507500
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/Message.java",
+      "sha256": "cc5bd89f36dc999db554aeb3adbb25fb8239c3c6ce99d145ed4e95be60386d0b",
+      "bytes": 198,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768741507500
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/MessageType.java",
+      "sha256": "3a2fb959a6e9a1c83b4b28a06c24c9540f1550c3ced11f9730d46f2fe1c3476b",
+      "bytes": 4742,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768741507500
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/NewMarketDataExtendedMessage.java",
+      "sha256": "e5ad39181f8240223ee7cce8781a9c5385cf00831c9fde6734bf8210bac9311c",
+      "bytes": 1124,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768741507500
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/NewMarketDataSimpleMessage.java",
+      "sha256": "547dd410df8fbb30e7d4f61ea72167225f28f9c988deda7a31dc07b39f805a74",
+      "bytes": 1130,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768742505800
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/PendingOrderConditionalyClosedMessage.java",
+      "sha256": "f6a1f7f4056530cde4d97c06bd62f7cbd1491effd53221048526236b13562a59",
+      "bytes": 1725,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768742505800
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/PendingOrderConditionalyExecutedMessage.java",
+      "sha256": "879dc84195d50bdae44178b10e5e48ea1d071f2b5b8a11ebc6ecb23b17be5654",
+      "bytes": 1658,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768742505800
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/PlacePendingOrderMessage.java",
+      "sha256": "ab62637e5a1335c1057936b33e64e7fe5b4f441abe45dc8586bb127b54accd05",
+      "bytes": 806,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768742505800
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/RequestTradingAlgorithmMessage.java",
+      "sha256": "13219f75a8d114140b219c51ba62304ca014e0a6e2af60d7e5fd87631fef6bcf",
+      "bytes": 3110,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768743506000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/ResponseChangeCloseConditionsMessage.java",
+      "sha256": "264b7eebe8fa6c98a2557ea56ed9aa89a37ad2030174fe4f86ed6b6a2d4e9847",
+      "bytes": 1449,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768743506000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/ResponsePlacePendingOrderMessage.java",
+      "sha256": "80e20a35c48e6242a85578564c2b850dbaa1647d2717e346c44dbadbeb766a63",
+      "bytes": 2071,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768743506000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/TradingEnvironmentInformationMessage.java",
+      "sha256": "0fa9a39bfcfbbe1c984669bc881c4506974d6ac33fdeffdf5228e67b8288c067",
+      "bytes": 1040,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768743506000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/protocol/messages/TrendForMarketDataMessage.java",
+      "sha256": "3b8646afad5837ebba05a0d246593aff1d0d59fb17c601f88f7f1444d0ad495c",
+      "bytes": 1039,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768743506000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/AdmininstratorNotifier.java",
+      "sha256": "a5dda4daf79fe6b334386935ff8c246457e446fe0f868a1c40e15bc5c0028251",
+      "bytes": 1322,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768744762200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/CombinedNotifier.java",
+      "sha256": "8cfea66a00ee082d5059863c6cd72cd9088e00fc081a1407cf38d8de6f0140f6",
+      "bytes": 253,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768744762200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/DeveloperNotifier.java",
+      "sha256": "834257cd4ba791e7306dcb712d621dddfde0fe0d936846c0417e292fea435ddb",
+      "bytes": 911,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768744762200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/TraderNotifier.java",
+      "sha256": "5a4e7cd8a03da4978f6bd64501975203c981e54f7e41758d0eeed328661aa2d5",
+      "bytes": 501,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768744762200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/implementations/BackgroundSerializingNotifier.java",
+      "sha256": "780ab9c607098c602e0ff0537ca3c9bb0fc8789d6e27b8a4929698278edd25f4",
+      "bytes": 4015,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768746199000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/implementations/CombiningNotifier.java",
+      "sha256": "987f2550be3d4e6c9f15e83dda86beafdfcd882e3ea64562a080bd2c4703d52b",
+      "bytes": 2973,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768746199000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/implementations/ConsoleNotifier.java",
+      "sha256": "220c4c25445e12617cb1a7bbaf6d1dc7b32228878179d23d51aeee16da3b17ac",
+      "bytes": 1702,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768746199000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/implementations/MailNotifier.java",
+      "sha256": "11b6740ca82e4eb73b56c1233f728b68faf28f2dc12aaf94af4a7ad0e3583662",
+      "bytes": 2519,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768746199000
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/implementations/MailSender.java",
+      "sha256": "af5fcf95d291175427e6fe401db19cf2685573b7187cbc9bbb1ef71a14a7ec03",
+      "bytes": 2995,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768747201200
+    },
+    {
+      "relative": "server/src/main/java/de/voidnode/trading4j/server/reporting/implementations/NotifierFactory.java",
+      "sha256": "775c15cd0198854882a894282bd6e624c57ece023f9da49865d23f3552c76197",
+      "bytes": 2257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768747201200
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/DummyIndicator.java",
+      "sha256": "d11b4f02f563d028ac6e4657cd513e2bdeb8a641054a95c5f4f9ace1d328926a",
+      "bytes": 983,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768749203700
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/OrderOnEveryTickExpertAdvisor.java",
+      "sha256": "eebcc3a2094e5d4db821652226c3f5e8dc5e52a029cc149314e891ecf8e114e9",
+      "bytes": 3295,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768749203700
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/TestServer.java",
+      "sha256": "7fea54591d24528058a5878f284fa65c338879698666925d30c34e4eb0da2bd5",
+      "bytes": 3590,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768749203700
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/TradingClient.java",
+      "sha256": "b4d47bdd5a0091c5373e281271695cf2135285cb364f182c8b1ca353368ee4b4",
+      "bytes": 14127,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768749203700
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/TradingServerAT.java",
+      "sha256": "d13d26436dd20a2c0530a61cc1d0a4fd2a8828b6d934c324ff90707cae9b8aa5",
+      "bytes": 10511,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768750381200
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/oio/OioClientConnectionIT.java",
+      "sha256": "cd08a09d4789ebb7ee8f5b09c51459a9b71b9951dc3b2bf386a93c3658731242",
+      "bytes": 9412,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768750381200
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/ClientCommunicatorTest.java",
+      "sha256": "0b26430caccb198c08c1283c9f5923a906aa343c0d83e0569ed65ee4251ca262",
+      "bytes": 6257,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768751610800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/ExceptionHandlerTest.java",
+      "sha256": "72e56300894f1d43e903323dc246e9969878222f2dd24caef81b5993d87e8c09",
+      "bytes": 9408,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768751610800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/IndicatorProtocolTest.java",
+      "sha256": "009597ab81d4912de69635537f4b94534a9c930482f70564533c799b3ba6077a",
+      "bytes": 7710,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768751610800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/MessageBasedClientConnectionTest.java",
+      "sha256": "cbf8b31e5f719b4af0910aac6d0fe16e3fc2f730a848c4082882178ad759ded0",
+      "bytes": 25016,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768752611900
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/expertadvisor/ExpertAdvisorProtocolTest.java",
+      "sha256": "63faf3379f91851c543afac2f27e64fdd5b24e6c17c70a57113d9f9988b40eb4",
+      "bytes": 10492,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768752611900
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/expertadvisor/LocalExpertAdvisorTest.java",
+      "sha256": "056ee9cd9d1e0f760cd703f230c2c4338b7b40e861f196d6163c78b3fe15951e",
+      "bytes": 10380,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768753679800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/expertadvisor/PendingOrderMapperTest.java",
+      "sha256": "d77cefdfb4c78d8432f69b02ee7fa10a51608aaaeea6c81532716904eb5c3f83",
+      "bytes": 2836,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768753679800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/expertadvisor/RemoteBrokerTest.java",
+      "sha256": "84740eaa291105b3928625207812aa1ca51233a47ecb1a4af1e7dc83544365bb",
+      "bytes": 11861,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768753679800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/protocol/messages/MessageTypeTest.java",
+      "sha256": "d720ad39b4b652027b657b0c0ed58bdd06668a9b360d6f5137b6aacd6eb0da03",
+      "bytes": 2694,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768754681800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/reporting/implementations/BackgroundSerializingNotifierIT.java",
+      "sha256": "150f62da20be099fa9e79d5f8309c11a0b6bd5fb3bdcd5eae8f7eb9940b80909",
+      "bytes": 4918,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768754681800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/reporting/implementations/CombiningNotifierTest.java",
+      "sha256": "dbb236ce8777439caa258d5ad365bc70b0de6accaa666e08faceff6f39be7e73",
+      "bytes": 3827,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768754681800
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/reporting/implementations/MailNotifierTest.java",
+      "sha256": "df27f8b976b92dfbb456278b2a63a385d6a3abe5d47a5cb85e35793934e11ca6",
+      "bytes": 3277,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768756120400
+    },
+    {
+      "relative": "server/src/test/java/de/voidnode/trading4j/server/reporting/implementations/MailSenderIT.java",
+      "sha256": "695107aa582136687e5f763b1cc88a0c38be94ce143ad5703cd1ba0617d09d99",
+      "bytes": 3477,
+      "mode": 438,
+      "mtime_ns_at_capture": 1784762768756120400
+    }
+  ],
+  "excluded": [
+    "core/target"
+  ],
+  "settings_source": "D:\\A_ThucNghiem\\scripts_v2\\workspaces\\20260724_022225_resume240\\171_77481567_047e84e6\\settings.xml",
+  "settings": {
+    "relative": "settings.xml",
+    "sha256": "fc179f110231557eb94c3dfd36f57d8c769e8b5b2593962d6ea6b207d3a6a0ad",
+    "bytes": 1357,
+    "mode": 438,
+    "mtime_ns_at_capture": 1782830148642749700
+  },
+  "captured_utc": "2026-10-25T22:33:38.430375+00:00"
+}

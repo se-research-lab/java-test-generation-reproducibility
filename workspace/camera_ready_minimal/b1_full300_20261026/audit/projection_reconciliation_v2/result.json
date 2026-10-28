@@ -1,0 +1,68 @@
+{
+  "status": "PASS_UI_RECONCILED_NO_BENCHMARK",
+  "finished_utc": "2026-10-26T00:02:34.258326+00:00",
+  "phase": "CHECKPOINT13_UI_RECONCILED_V3_PENDING",
+  "terminal_new_classes": 13,
+  "accepted49_guard": "PASS",
+  "GPT_original585_guard": "PASS",
+  "all13_archive_checks": "PASS",
+  "old_tmp_logically_matches300": true,
+  "preserved_files": [
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\manifest_projection.tmp",
+      "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\projection_reconciliation_v2\\old_manifest_projection.tmp",
+      "sha256": "6862cf60da8d0a17dbeb213dfc4cce6ee9675780b6156a28bd7efccedb17fcaa",
+      "bytes": 657453
+    },
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\status.json",
+      "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\projection_reconciliation_v2\\status_before.json",
+      "sha256": "ed05056993b3b09de3cd0e7c87d16f16d74a6420a05f6aa837faf2dc72b7d743",
+      "bytes": 2602
+    },
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\runtime\\manifest_live300.json",
+      "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\projection_reconciliation_v2\\manifest_live300_before.json",
+      "sha256": "6862cf60da8d0a17dbeb213dfc4cce6ee9675780b6156a28bd7efccedb17fcaa",
+      "bytes": 657453
+    },
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\audit\\b1_maven_v2_next10.stderr.txt",
+      "backup": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\audit\\projection_reconciliation_v2\\v2_batch_stderr.txt",
+      "sha256": "2c0bb6d3a79b19da1968b66ba136909ee587cf8ec5a740d0b89036840f303028",
+      "bytes": 1024
+    }
+  ],
+  "raw_results_unchanged": {
+    "003": "b0eb2d05f91787a62e078e5edd2fc01ab306c3ed020c846afb96766f3793568c",
+    "006": "9bf4f192b507631106f6f3680ef4c86009942f54c677f1febbe18f973cbcaf8f",
+    "008": "70c27dc056dd88bc1488abd00f3e76f3e54c84314424cd55d4b7597598b2f125",
+    "010": "55aa50a2e69946cb71b03889c44922ba3c7e02d3d69d7cd39b800a9a662615bc",
+    "012": "7c7482e405b027e33074053086afecdbe944937ef2ca71592bcc96d80883e161",
+    "016": "1b70de9c06da07146b8f35af37671c926376d908db58d7cb5d085e4dc210b1a7",
+    "017": "a4189ae892db20e915dcfd0b26735a36acc5759476060c858e65864613125eb7",
+    "018": "604a9c47001d97161b195cda445d35c21c10fac1755c2e6dce30af9f02ec15d2",
+    "019": "6474986ee0b7c1b4ce6a39573acd55410a8b00014b054ec4a60678bb2b31f4f3",
+    "022": "866906db5203d6e6ba744e726164e9ad046b716a3f0dcb47255755db554d10dd",
+    "023": "30aae298a5834a0826d8f44441266b4e3e0309434d18b15f9962d5da065f36db",
+    "025": "a2419cb2549535b8326af1b8448453f6b68a01b5e72cca100e131f6167b8aec7",
+    "027": "f3c9216570c82c7fca8213fb74d3121e5c6e43a2776a14bacd00c4d1e1bd7ec5"
+  },
+  "benchmark_generation_planned": 14,
+  "benchmark_generation_actually_started": 11,
+  "spawn_failures_before_start": [
+    12,
+    16,
+    23
+  ],
+  "fixtures_EvoSuite_calls": 2,
+  "new_API_calls": 0,
+  "benchmark_admitted_in_UI": false,
+  "global_STOP_created": false,
+  "v2_code_admission_modified": false,
+  "v2_exit_failure_classification": "UI snapshot replace sharing race after all10 invocation jobs terminal; no raw experiment data failure",
+  "automatic_v2_resume": false,
+  "Gradle_version_qualification_allowed": true,
+  "publisher_source_sha256": "a45d4bb1a4c2ed04259fd083aa40c67279e991391d071e096985852430035d5d",
+  "reconciler_source_sha256": "9d9d946e2efaabc24a3deecd2b35199319baa26aafca265da89121921d1686fb"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "index": 19,
+    "phase": "B1_V2",
+    "marker": "bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\019\\commands\\003\\plan.json"
+  },
+  {
+    "index": 29,
+    "phase": "B1_V3",
+    "marker": "bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\029\\commands\\003\\plan.json"
+  },
+  {
+    "index": 33,
+    "phase": "B1_V3",
+    "marker": "bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\033\\commands\\003\\plan.json"
+  },
+  {
+    "index": 76,
+    "phase": "B1_V6",
+    "marker": "bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\076\\commands\\003\\plan.json"
+  },
+  {
+    "index": 82,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\082\\commands\\003\\plan.json"
+  },
+  {
+    "index": 100,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\100\\commands\\003\\plan.json"
+  },
+  {
+    "index": 104,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\104\\commands\\003\\plan.json"
+  },
+  {
+    "index": 130,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\130\\commands\\003\\plan.json"
+  },
+  {
+    "index": 141,
+    "phase": "B1_V6",
+    "marker": "bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\141\\commands\\003\\plan.json"
+  },
+  {
+    "index": 151,
+    "phase": "B1_V6",
+    "marker": "bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\151\\commands\\003\\plan.json"
+  },
+  {
+    "index": 176,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\176\\commands\\003\\plan.json"
+  },
+  {
+    "index": 182,
+    "phase": "B1_V6",
+    "marker": "bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\182\\commands\\003\\plan.json"
+  },
+  {
+    "index": 189,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\189\\commands\\003\\plan.json"
+  },
+  {
+    "index": 219,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\219\\commands\\003\\plan.json"
+  },
+  {
+    "index": 244,
+    "phase": "B1_V6",
+    "marker": "displaynamegenerator;innerclasses attribute;bytebuddy",
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\jobs\\244\\commands\\003\\plan.json"
+  }
+]

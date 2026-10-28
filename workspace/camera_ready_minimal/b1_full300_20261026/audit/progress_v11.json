@@ -1,0 +1,156 @@
+{
+  "at_utc": "2026-10-26T03:41:07.351159+00:00",
+  "status": "PASS_TWO_CLOSED_V5_CHECKPOINTS",
+  "baseline_verified_new": 42,
+  "additional_verified_indices": [
+    67,
+    68
+  ],
+  "verified_new_total": 44,
+  "reused_E49": 49,
+  "verified_total": 93,
+  "unscored_deferrals": [
+    48,
+    49
+  ],
+  "new_closed_job_checks": {
+    "67": {
+      "archive": {
+        "status": "PASS",
+        "files_verified": 709,
+        "manifest_sha256": "e4b4a2021ea31b561063a72acea5b2bae394cf92f84a76f0223e317a44f7d1b4",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      },
+      "result_sha256": "ed3f51207e2710c7801f8a9be8ea131dc80898be3191d1d4b889c798bd0cde50",
+      "offline_reparse": "IDENTICAL_FOR_ALL_FIELDS",
+      "legacy_process_gate": 1,
+      "strict_percent": 33.33
+    },
+    "68": {
+      "archive": {
+        "status": "PASS",
+        "files_verified": 761,
+        "manifest_sha256": "22fec81628bcf483f0fa828220c557136403fa51ae6d8638c2378bb3d1c88f5f",
+        "post_archive_append": null,
+        "file_census": "PASS"
+      },
+      "result_sha256": "d09a3a66864d60cbaac6dc3324fd79d7b7a5dff2abdbe7acc6a5f635601a2595",
+      "offline_reparse": "IDENTICAL_FOR_ALL_FIELDS",
+      "legacy_process_gate": 1,
+      "strict_percent": 42.86
+    }
+  },
+  "runtime_observation": {
+    "phase": "MAVEN V5 / RUNNING",
+    "updated_utc": "2026-10-26T03:40:41.343540+00:00",
+    "target": 300,
+    "reused_verified": 49,
+    "new_completed": 45,
+    "running": 1,
+    "maven_pending": 166,
+    "gradle_pending": 40,
+    "new_API_calls": 0,
+    "new_EvoSuite_calls": 54,
+    "GPT_guard": "PASS",
+    "reuse49_guard": "PASS",
+    "benchmark_admitted": true,
+    "missing_focal_candidates": 0,
+    "focal_candidate_disagreements": 0,
+    "disk_free_GB": 16.26,
+    "blockers": [
+      "Maven chưa có kết quả: 166; chưa thử: 163; giữ lại chưa chấm: [48, 49]",
+      "Class giữ lại vẫn thuộc mẫu300; không gán0, không giảm denominator hoặc tuyên bố E1-full300 hoàn tất",
+      "Gradle40 chưa admit benchmark; queue fixture cũ đã SKIPPED và không tự khởi động lại",
+      "GPT/API/repeated subset và paper giữ nguyên; STOP và ngưỡng đĩa12GB vẫn áp dụng"
+    ],
+    "tasks": [
+      {
+        "id": "B1.0",
+        "name": "Khóa 300 keys và phạm vi E-only",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.1",
+        "name": "Xác minh E49 và GPT guard",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.2",
+        "name": "Maven controller và input đã nghiệm thu",
+        "status": "DONE"
+      },
+      {
+        "id": "B1.3",
+        "name": "Qualify Gradle 40 class, chỉ trong sandbox E",
+        "status": "BLOCKED"
+      },
+      {
+        "id": "B1.4",
+        "name": "Maven controller fixture PASS; Gradle chưa qualify",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "id": "B1.5",
+        "name": "Maven v5: giữ nguyên cách đo; tách class chưa hỗ trợ, không gán điểm",
+        "status": "IN_PROGRESS"
+      },
+      {
+        "id": "B1.6",
+        "name": "Audit 300 và phân tích RQ4/RQ5 riêng",
+        "status": "NOT_STARTED"
+      }
+    ],
+    "source_census": {
+      "timestamp_utc": "2026-10-25T22:12:03.458037+00:00",
+      "class_count": 251,
+      "unique_candidate_roots": 251,
+      "candidate_files": 517483,
+      "candidate_bytes": 8230643238,
+      "candidate_GB": 8.231,
+      "backup_adapter_files": 8,
+      "disk_free_GB": 28.52,
+      "scope": "metadata census, descriptor hashes and adapter backup; no complete source snapshot or execution adapter yet",
+      "new_experiment_calls": 0,
+      "recovery": "v1 metadata census completed, adapter backup stopped at wrong helper basename. v2 verified existing copies and backed up correct junit_method_inventory_v1.py; v1 script/error retained."
+    },
+    "GPT_guard_checked_utc": "2026-10-26T03:38:43.831512+00:00",
+    "source_snapshot_roots_completed": 251,
+    "source_snapshot_files": 517483,
+    "fixture_EvoSuite_calls": 3,
+    "private_cache_status": "PASS",
+    "runtime_fixture_status": "PASS",
+    "benchmark_EvoSuite_calls": 51,
+    "active_sample_index": 71,
+    "benchmark_EvoSuite_commands_planned": 54,
+    "benchmark_EvoSuite_commands_not_started": 3,
+    "benchmark_EvoSuite_not_started_sample_indices": [
+      12,
+      16,
+      23
+    ],
+    "ui_projection_health": "RECONCILED",
+    "ui_technical_hold": false,
+    "automatic_v2_resume": false,
+    "Gradle_version_qualification_allowed": true,
+    "Gradle_benchmark_admitted": false,
+    "new_policy_accepted": 45,
+    "pending_transport_recovery": [],
+    "maven_policy_pending": 166,
+    "maven_unattempted": 163,
+    "maven_deferred_unscored": 2,
+    "deferred_sample_indices": [
+      48,
+      49
+    ],
+    "full300_complete": false,
+    "automatic_resume": false,
+    "live_process_check_at_utc": "2026-10-26T03:41:07.349781+00:00",
+    "runner_liveness": "PRESENT_MATCHED_PID_AND_CREATE_TIME"
+  },
+  "live_job_archives_audited": false,
+  "new_GPT_API_calls": 0,
+  "new_Gradle_processes": 0,
+  "paper_changed": false,
+  "full300_complete": false
+}

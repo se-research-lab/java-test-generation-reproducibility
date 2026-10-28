@@ -1,0 +1,8 @@
+{
+  "prior_script_sha256": "3b60840d2c08cad47631c52b71121f5ac79a5cba098ef143d9e421e5993510e3",
+  "new_script_sha256": "9d9d946e2efaabc24a3deecd2b35199319baa26aafca265da89121921d1686fb",
+  "reason": "Raw command plans show14 planned /11 started; Win206 before start in012,016,023; class019 had two actual technical attempts",
+  "prior_preflight_no_UI_outputs": true,
+  "raw_results_modified": false,
+  "new_processes": 0
+}

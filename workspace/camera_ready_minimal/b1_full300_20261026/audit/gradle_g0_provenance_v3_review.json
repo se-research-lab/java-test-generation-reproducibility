@@ -1,0 +1,8 @@
+{
+  "prior_source_sha256": "3f02ce799fb0b39166d1efda0f35c3a164ab3ea81c476d9afd52f54b104c2811",
+  "new_source_sha256": "ad9f08a1ab24648854050f7b311b8d9ffa23d21c4524ae87adf6b11c4372f808",
+  "new_evidence": "Three archived class logs explicitly show project_df_evosuite referenced before assignment during test copying, before GPT phase and before the sole Gradle measurement",
+  "rule": "Require selected passing GPT suite, focal JaCoCo, matching PIT report, sole measurement after GPT start, completed package command and a logged E0 pre-measurement preparation failure. No quality-score selection.",
+  "G0_values_changed": false,
+  "new_measurements": 0
+}

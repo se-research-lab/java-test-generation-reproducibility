@@ -1,0 +1,200 @@
+{
+  "12": {
+    "command": "jobs/012_cpfile_v3/commands/007",
+    "stdout_sha256": "b400ddbed16a4ac6caafed033fe5dad60f38fedc541a52e66353aa862b271414",
+    "stderr_sha256": "a87d554098d90530e8b78d4dfb6b7d2229ee413d69866858d3a97218f2589aa5",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.16:check-file-header (first) on project kylo-spark-catalog-core: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "23": {
+    "command": "jobs/023_cpfile_v3/commands/007",
+    "stdout_sha256": "9c1a96bbcc4028e582ef82f4b9d27b72092900bc60ad777fc92e53db15b680fd",
+    "stderr_sha256": "a87d554098d90530e8b78d4dfb6b7d2229ee413d69866858d3a97218f2589aa5",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.16:check-file-header (first) on project kylo-spark-catalog-core: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "27": {
+    "command": "jobs/027/commands/007",
+    "stdout_sha256": "7e32b7b74635cfae8948dd51cd71c84cc7c257e23a5009a37a8f4d3862386a5a",
+    "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.9:check-file-header (check-file-header) on project flo-styx: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "61": {
+    "command": "jobs/061/commands/007",
+    "stdout_sha256": "31e595de5480092d905cca72465e1670ab15a854d2c4fb97f83dc21568733ffa",
+    "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.9:check-file-header (check-file-header) on project flo-bigquery: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "66": {
+    "command": "jobs/066/commands/007",
+    "stdout_sha256": "594ae2aa6efd90371b045d73fa7fee30baa9130fb0cc50e0bafd0ef281e5ed06",
+    "stderr_sha256": "0c3f6205e4b9be48dda0bf49667c9efcea536ac25a21da332626c674fdc4c228",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "79": {
+    "command": "jobs/079/commands/007",
+    "stdout_sha256": "67405660716b0b11594b30c0587663972ca4059ae4194eee508c615c17e61b6d",
+    "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.9:check-file-header (check-file-header) on project flo-bigquery: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "82": {
+    "command": "jobs/082/commands/008",
+    "stdout_sha256": "481d5a3f7ad88de5007e08de9490b079f7f34cb7424b5c7d69cb124933f74e57",
+    "stderr_sha256": "82c966dd1e75210766f539399d0b7a71b17dfc3133b341ad2419f18184436ad3",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "85": {
+    "command": "jobs/085/commands/007",
+    "stdout_sha256": "2c686c3ee7aca5fc1ed6c80102ac385053c0c0991246330959d7ded53c1c06f6",
+    "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.9:check-file-header (check-file-header) on project flo-styx: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "91": {
+    "command": "jobs/091/commands/007",
+    "stdout_sha256": "200c6479808390694634e562268f478be8538e2f9810aecbb2fa1329a04f2954",
+    "stderr_sha256": "94fb930f786d1bab6100502e65f9ca7719eed71627ea3dfc5d987379b77a1010",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.9:check-file-header (check-file-header) on project flo-workflow: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "100": {
+    "command": "jobs/100/commands/008",
+    "stdout_sha256": "dd9ddb968661405a687e9b13b22e5bd299a809e64b51527c76b3a4c6cf1f8e5b",
+    "stderr_sha256": "608f257971b1b0aa6ce30b60ed1a3efb4ef30fa4bab58787bce2aea130104323",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "104": {
+    "command": "jobs/104/commands/008",
+    "stdout_sha256": "1bf1ea2ced8f29e9b3e7ddab71328376552bf58485a18391c04e1faadccbc76a",
+    "stderr_sha256": "e1f83fe089c6602044c1383d263bfb1911548a74918e557f528f4c99b36306ac",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "130": {
+    "command": "jobs/130/commands/008",
+    "stdout_sha256": "fef8fa05e24d98c8f99682a70728cabb6a47b2d94129bc8b176aa2463d6ec4db",
+    "stderr_sha256": "13edd54692b1787e438cf1249ff12b18edd46be37fa63bb155979b2be1099c4a",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "154": {
+    "command": "jobs/154/commands/007",
+    "stdout_sha256": "da6852aae510f53aca3e076abd9297be3ac9181a4b6f9d9c3bc0b9fad00ca5f6",
+    "stderr_sha256": "9473e5fa05eaeaf25e0e4028febdbc986a0b694191c30a6900d1e977aafdbdf8",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "176": {
+    "command": "jobs/176/commands/008",
+    "stdout_sha256": "12d04a00afca4cca3df47a52bff9c507edbef8745e9c0616cf7cb5135ae4b740",
+    "stderr_sha256": "1120e17261bf1706acd5c2dd335e852654e6e9afdbf2e4c000e52c95ea405cae",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "189": {
+    "command": "jobs/189/commands/008",
+    "stdout_sha256": "553f21e94e700bb907008d602cf5e366f2cfa8613b659cf6eb5cde1a4bcefd39",
+    "stderr_sha256": "7716f4a6d8bc16a8968e82508de125001e8328b67629e666f6d12d58bd1b5311",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "219": {
+    "command": "jobs/219/commands/008",
+    "stdout_sha256": "b1ee744cf48a56626e4b0468916baa65a6ba84196fdf6b0a502a7bd38ac20ae9",
+    "stderr_sha256": "cc6a2b4dbb9acaf7470f1fb3563ec2875ac92b03835b60035614f1ca0666b252",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "236": {
+    "command": "jobs/236/commands/007",
+    "stdout_sha256": "57c1849c6fe1c7a67273451a42b2f09e3e68f2dfc557189430a4a742199e49ba",
+    "stderr_sha256": "a87d554098d90530e8b78d4dfb6b7d2229ee413d69866858d3a97218f2589aa5",
+    "returncode": 1,
+    "failure_kind": "LICENSE_HEADER_PLUGIN",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.codehaus.mojo:license-maven-plugin:1.16:check-file-header (first) on project kylo-spark-catalog-core: There are 2 file(s) with no header :"
+    ],
+    "compilation_error_marker_present": false
+  },
+  "244": {
+    "command": "jobs/244/commands/008",
+    "stdout_sha256": "62506a5422de9245e8f640871829a9475d25ecc6d86ec4ac5d3ac1a1e7d7b3d8",
+    "stderr_sha256": "bcec147e719ad5739ad3238f64c7efeda351741f2bc952f5974098fb642ada0e",
+    "returncode": 1,
+    "failure_kind": "PIT_COVERAGE_MINION_UNKNOWN_ERROR",
+    "failed_goal_lines": [
+      "[ERROR] Failed to execute goal org.pitest:pitest-maven:1.16.0:mutationCoverage (default-cli) on project injector: Execution default-cli of goal org.pitest:pitest-maven:1.16.0:mutationCoverage failed: Coverage generation minion exited abnormally! (UNKNOWN_ERROR)"
+    ],
+    "compilation_error_marker_present": false
+  }
+}

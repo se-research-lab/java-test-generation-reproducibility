@@ -1,0 +1,64 @@
+{
+  "status": "PASS_RECORDED_ARGV_RETRY_AND_NATIVE_SOURCE_HASH_AUDIT",
+  "at_utc": "2026-10-26T12:40:23.926300+00:00",
+  "counts": {
+    "classes": 300,
+    "command_or_preflight_records": 1932,
+    "E49_generation_processes": 49,
+    "B1_generation_processes": 216,
+    "V6_generation_processes": 165,
+    "V6_subjects_with_technical_retry": 12,
+    "V6_measurement_lifecycles": 125,
+    "native_source_hash_checks": 610,
+    "V6_native_source_files_checked": 266,
+    "V6_missing_JUnit_addition_indices": [
+      183,
+      187,
+      278
+    ],
+    "V6_JUnit4_upgrade_indices": [
+      107,
+      186,
+      193,
+      209,
+      217,
+      234,
+      238,
+      253,
+      256,
+      258,
+      270,
+      291,
+      296,
+      297
+    ],
+    "V6_selector_change_indices": [
+      77,
+      99,
+      157,
+      226,
+      232,
+      259,
+      289
+    ],
+    "E49_gate_changed_after_replay_indices": [],
+    "E49_saved_score_changed_after_replay_indices": [
+      131,
+      230,
+      233,
+      237,
+      281
+    ]
+  },
+  "V6_profile_seed_budget_argv_checks": "PASS_FOR_ALL_RECORDED_GENERATIONS",
+  "V6_same_seed_exact_sanitized_CP_retry_checks": "PASS",
+  "V6_source_bytes_vs_attempt_archive": "PASS_FOR_GENERATED_FILES",
+  "V6_one_measurement_lifecycle_per_class": "PASS",
+  "V6_scoring_input_used_for_retry": "NO; markers and exact CP sanitizer only",
+  "all_E1_configuration_invariant_from_beginning": "FALSE; explicit post-outcome amendments and suite-only replays exist",
+  "manual_edits_invisible_between_archives_can_be_ruled_out_absolutely": false,
+  "scope_limit": "Observed saved argv, code pins, end-to-end native-source hashes and linked diagnostics; not a reconstruction of every abandoned draft/G0/E0 historical attempt",
+  "new_experiment_calls": 0,
+  "GPT_API_calls": 0,
+  "raw_evidence_or_selected_maps_changed": false
+}

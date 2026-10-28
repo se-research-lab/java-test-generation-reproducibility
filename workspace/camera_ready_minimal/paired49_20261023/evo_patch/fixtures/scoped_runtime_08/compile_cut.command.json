@@ -1,0 +1,18 @@
+{
+  "name": "compile_cut",
+  "argv": [
+    "C:\\Program Files\\Java\\jdk1.8.0_172\\bin\\javac.exe",
+    "-source",
+    "8",
+    "-target",
+    "8",
+    "-d",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\classes",
+    "D:\\A_ThucNghiem\\camera_ready_minimal\\paired49_20261023\\evo_patch\\fixtures\\scoped_runtime_08\\src\\fixture\\BranchFixture.java"
+  ],
+  "returncode": 0,
+  "expected": 0,
+  "seconds": 0.2809999999990396,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "9a57c79ce1c0c4aed92dceb441c2983d886c9179c998814245544d1e83a47328"
+}

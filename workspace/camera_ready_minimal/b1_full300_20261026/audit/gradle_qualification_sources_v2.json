@@ -1,0 +1,28 @@
+{
+  "scope": "source copies/static syntax only; no Java/Gradle/runtime execution",
+  "files": [
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_command_policy_v1.py",
+      "source_sha256": "1bd1b1849c4ea887bae3e2c5c29bce7fc199746dcd32f52ff6886cd0d0d4ed51",
+      "new_file": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_command_policy_v2.py",
+      "new_sha256": "1d1fd240b4beaa16ff24888bdb4e2f80be18d3da89b70c8a06c28b4a7ef0f375"
+    },
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v1.py",
+      "source_sha256": "83a95f234d25fcbe5fd71b612c267547dd5207baa600f2e54993d508f367ec4c",
+      "new_file": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\gradle_process_supervisor_v2.py",
+      "new_sha256": "de2b5d8b94d21224793beaab1b396014a3895511f6d9f5d4598370c52ce1808a"
+    },
+    {
+      "source": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\validate_gradle_command_policy_v1.py",
+      "source_sha256": "5e20b6fe2515e3fb09c8f822e473150b25375b4120ef684987490a8c55db2a16",
+      "new_file": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\validate_gradle_command_policy_v2.py",
+      "new_sha256": "19ad9eb50c6bb4d2feda3cc89c4b57b3880171131bc8e70a66a85b18bad64496"
+    }
+  ],
+  "runner_prepared_not_executed": {
+    "path": "D:\\A_ThucNghiem\\camera_ready_minimal\\b1_full300_20261026\\src\\run_gradle_versions_qualification_v1.py",
+    "sha256": "b06efdfbb3fb43988f42a964444cf01519a346ef93033c5060ec7c2b36c2c3d7"
+  },
+  "new_experiment_calls": 0
+}

@@ -1,0 +1,13 @@
+{
+  "n": 49,
+  "sandboxes_found": 49,
+  "logs_found": 49,
+  "E_before_G_logs": 49,
+  "classes_with_surefire": 49,
+  "classes_with_remaining_PIT": 49,
+  "classes_with_remaining_XML_failure_or_error": 23,
+  "raw_both_arm_validity_certified": 0,
+  "files_archived": 294,
+  "conclusion": "Remaining target reports cannot certify both arm-specific executions. No eligibility/score modified.",
+  "limits": "Inventory anchored to49 historical sandboxes; not an exhaustive search of all archives; PIT counts unassigned to arm."
+}
