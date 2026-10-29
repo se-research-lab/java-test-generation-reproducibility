@@ -6,7 +6,7 @@
 - GPT RQ1/RQ2/RQ3 cohorts: 61 / 45 / 300, unchanged.
 - Fixed49: original 49 common process-gate passes, 15 Maven repositories; not a newly selected E1 intersection.
 - E1: 221 valid observed PIT scores + 58 policy failure zeros + 21 unresolved = 300 rows.
-- E1 native gate: 222 pass + 58 fail + 20 unresolved. The additional score-unknown case has a passing gate but zero focal mutants.
+- E1 recorded process gate: 222 pass + 58 fail + 20 unresolved. The additional score-unknown case has a passing gate but zero focal mutants.
 - 279 determinate mutation pairs include 58 policy zeros. They are not 279 observed PIT reports.
 
 ## Formula and uncertainty
@@ -21,7 +21,7 @@ The initial attempt generated a suite but failed due to missing org.junit. A lat
 
 ## Source/policy navigation
 
-Read the E1 top-level `EXPERIMENT_CONFIGURATION_FREEZE_20261026.json`, `MAVEN_NATIVE_JUNIT_AMENDMENT_V2.md`, `measurement_result_map_v2.json`/v3, admissions v1–v6, Gradle protocol, and `completion_amendment_v1/` annexes. The accepted E1 audit folder provides class/attempt histories. Do not infer current policy from an early README/protocol status string alone.
+Read the E1 top-level `EXPERIMENT_CONFIGURATION_FREEZE_20261026.json`, versioned admissions/result-map JSON, adapters/controllers and completion source. The already-published E1 execution-audit tables retain class/attempt histories. Earlier Markdown policy files removed from `workspace/` are not restored; do not rely on dead links to them.
 
 ## Scientific limits
 
@@ -29,4 +29,8 @@ RQ4's historical NI is E0-specific; E1 does not establish general generator supe
 
 ## Bundle scope
 
-Frozen summary data and source are present; full raw jobs/logs/generated suites remain local and are referenced by unchanged manifests. This folder is not the full evidence release described in the earlier GitHub artifact plan. Public licensing, redaction review and actual artifact URL remain author decisions.
+Frozen primary results and source, Data V3 provenance/readiness evidence, benchmark snapshots and manuscript are present. Full raw jobs/logs/generated suites remain local. Additional post-review diagnostic code/evidence remains local; this is not a complete full-evidence release. Repository URL: https://github.com/se-research-lab/java-test-generation-reproducibility . The paper pins source/data snapshot 86799597262e; no new license or paper DOI is asserted.
+
+## Fixed49 report evidence
+
+The revised Table 5 separates valid focal PIT reports from native execution. G0 and E1 each have 49/49 attributable nonempty focal PIT reports. E1 has 48/49 native passes, including an empty placeholder among the passes; the other suite has native errors. Native-suite pass remains uncertified for historical G0/E0, and E0 report ownership is not independently reverified. None of these editorial evidence labels changes the fixed49 mutation scores.

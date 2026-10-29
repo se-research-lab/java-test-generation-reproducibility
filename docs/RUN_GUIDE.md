@@ -89,10 +89,19 @@ Before an intentional new E1 run: map existing local tools and source snapshots;
 
 ## 7 Optional local interfaces
 
-Original backend source is in `workspace/scripts_v2/experiment_tool/`; frontend in `react-ui/`; E1 monitor in `.../b1_full300_20261026/monitor/`. Their existing README/source describes the local ports and commands. This folder includes source and declarations but not node_modules/dist. No web server was started during packaging. Some experimental backend endpoints can launch runs; the read-only monitor has a different purpose.
+Original backend source is in `workspace/scripts_v2/experiment_tool/`; frontend in `react-ui/`; E1 monitor in `.../b1_full300_20261026/monitor/`. Their source and package declarations describe the local ports and commands. This folder includes source and declarations but not node_modules/dist. No web server was started during packaging. Some experimental backend endpoints can launch runs; the read-only monitor has a different purpose.
 
 ## 8 Outputs and limits
 
 Generation, compile, native execution, JaCoCo, PIT and process gate are separate stages. See `RESULTS_AND_POLICIES.md` before interpreting failures. Native JUnit support or selectors differ between historical policies; source versions must not be presented as one uniform experiment. Repeated-subset source is archived, but no unfinished repeated output is part of the paper results.
 
 Only the copied bundle integrity check is self-contained. Full raw-evidence verification/replay uses assets that remain in the original workspace. No full generation/measurement was validated from a fresh checkout in this copying task.
+
+
+## Data V3 and benchmark source
+
+The published input/provenance tree is under `data/`: final main/backup manifests and readiness evidence in `dataset_result/`, historical frozen pipeline in `dataset_result/frozen_source/`, working/portable source in `research_pipeline_v3/`, thirty snapshots in `compiledrepos/`, and build replay source in `v3_build_handoff/`. Read their README/configuration before an intentional new run. The complete upstream CLASSES2TEST dump and private local inputs are not bundled. Baseline Data V3 logs are not generated-test/PIT evidence.
+
+## Build the manuscript
+
+`paper/camera_ready/README_BUILD.md` describes building `main.tex` with a compatible existing LaTeX installation. This is separate from running Java experiments. The updated paper distinguishes49/49 G0 focal PIT reports from unknown native-suite success. Additional post-review diagnostic code/evidence remains local; the public source package does not certify full regeneration of every supplementary diagnostic.

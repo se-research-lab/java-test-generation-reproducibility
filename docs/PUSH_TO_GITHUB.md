@@ -1,35 +1,22 @@
-# Push this folder in stages
+# Review and push the prepared documentation and paper
 
-No Git repository or remote was initialized during packaging. Choose your own GitHub repository. Commands below are manual examples; `<REMOTE_URL>` is a placeholder, not an existing artifact URL.
+This checkout already has Git history and a configured remote. No reinitialization is needed. Its source/data baseline is commit `86799597262e21749ef92fd0253c08a24619978d`. The agent prepared local file changes only; the author performs commit/push.
 
-## Suggested commits
-
-1. README, current docs, `.gitignore`, `.gitattributes` and `tools/`.
-2. Original historical runner, AgoneTest, data_new and optional UI source.
-3. E49 source, exact helper snapshots and policy metadata.
-4. E1 src/adapters/config/admission/completion policies.
-5. Frozen analysis tables, source/provenance index and manifests.
-
-Do not add the original D:/A_ThucNghiem folder as a whole. This source bundle omits real environment files/settings, dependency binaries and caches. Review the staged files and the file list again before making a repository public. Copied archived code includes unused/older versions and machine-bound paths; docs explain their role.
-
-Example from this folder:
+From `D:/A_ThucNghiem/FISAT2026_GITHUB_SOURCE`:
 
 ```powershell
-git init -b main
-git add README.md docs tools .gitignore .gitattributes
-git commit -m "Document experiment source and run guide"
-git add workspace/scripts_v2
-git commit -m "Add historical GPT and EvoSuite pipeline source"
-git add workspace/camera_ready_minimal/paired49_20261023
-git commit -m "Add fixed49 source and configuration history"
-git add workspace/camera_ready_minimal/b1_full300_20261026 workspace/review_reports workspace/output
-git commit -m "Add E1 source policies and frozen analysis tables"
-git add manifests
-git commit -m "Add source copy map and checksums"
-git remote add origin <REMOTE_URL>
-git push -u origin main
+python tools/verify_bundle.py
+git status --short
+git diff -- README.md docs manifests
+git add -- README.md docs manifests paper/camera_ready
+git diff --cached --stat
+git diff --cached --name-only
+git commit -m "Align camera-ready paper and artifact documentation"
+git push origin main
 ```
 
-Run `python tools/verify_bundle.py` before a reviewed push. If you intentionally edit a copied file, its original-copy checksum will change; record the change in Git and retain the original source provenance. Do not reuse a historical result hash for modified bytes.
+Review the staged filenames before committing. This update does not add new 29 October audit scripts/reports, verbatim API payloads, caches, raw execution archives or secrets. Do not copy the older github_additions ZIP into this checkout: it was prepared with a broader scope and includes diagnostic files the author now wants to retain locally.
 
-No license is invented by this bundle. Determine licenses/third-party notices before public release. An actual, accessible repository/release can later be cited in the manuscript; no public availability statement should be made solely because this local folder exists.
+Only the manuscript PDF/LaTeX/build README is added under `paper/camera_ready/`. The checklist DOCX, source ZIP and local validation/audit receipts remain outside this repository. Historical published source/data are preserved. File hashes are refreshed for the documentation/manuscript package; original experimental copy-map hashes remain unchanged.
+
+The paper cites an actual frozen source/data snapshot; it does not guess the future hash of this documentation commit. A later tag/release can be chosen by the author. No upload to Confy+, payment or license signing is performed by these commands.
