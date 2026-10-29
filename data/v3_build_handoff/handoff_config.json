@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "data_root": "../data_v3",
+  "pipeline_root": "../research_pipeline_v3",
+  "repository_manifest": "successful_repos_manifest.csv",
+  "final_sample_manifest": "class_sampling_manifest_final_seed42.csv",
+  "backup_manifest": "class_backup_manifest_seed42.csv",
+  "portable_recipes": "build_recipes_portable.csv",
+  "repository_storage_root": "repos/successful",
+  "work_root": "../build_work",
+  "result_root": "../build_replay_results",
+  "default_jobs": 1,
+  "build_timeout_seconds": 900,
+  "required_java_major": 8,
+  "required_maven_version": "3.9.15"
+}
