@@ -1,0 +1,49 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\60578004\elastic-jobx-core\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\60578004
+DECLARED_JAVA: 6
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 10.244
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.dangdang:elastic-jobx-core >-------------------
+[INFO] Building elastic-jobx-core 1.0.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ elastic-jobx-core ---
+[INFO] 
+[INFO] --- enforcer:1.4:enforce (enforce-banned-dependencies) @ elastic-jobx-core ---
+[INFO] 
+[INFO] --- resources:2.7:resources (default-resources) @ elastic-jobx-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\60578004\elastic-jobx-core\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ elastic-jobx-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 106 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\60578004\elastic-jobx-core\target\classes
+[INFO] 
+[INFO] --- resources:2.7:testResources (default-testResources) @ elastic-jobx-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ elastic-jobx-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 127 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\60578004\elastic-jobx-core\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.086 s
+[INFO] Finished at: 2026-07-23T06:53:31+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

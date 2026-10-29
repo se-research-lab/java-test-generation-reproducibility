@@ -1,0 +1,54 @@
+RECIPE: global_fallback_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\97822421\infrastructure\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\97822421
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 5.599
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.pchudzik.springmock:springmock-infrastructure >----------
+[INFO] Building springmock-infrastructure 3.1.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ springmock-infrastructure ---
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (prepare-agent) @ springmock-infrastructure ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\97822421\\infrastructure\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ springmock-infrastructure ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\97822421\infrastructure\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ springmock-infrastructure ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 35 source files with javac [debug target 1.8] to target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/97822421/infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinition.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\97822421\infrastructure\src\main\java\com\pchudzik\springmock\infrastructure\definition\DoubleDefinition.java uses or overrides a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/97822421/infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinition.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/97822421/infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinition.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/97822421/infrastructure/src/main/java/com/pchudzik/springmock/infrastructure/definition/DoubleDefinition.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ springmock-infrastructure ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\97822421\infrastructure\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ springmock-infrastructure ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 63 source files with javac [debug target 1.8] to target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/97822421/infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleConfigurationResolverTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/97822421/infrastructure/src/test/java/com/pchudzik/springmock/infrastructure/definition/registry/DoubleConfigurationResolverTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.470 s
+[INFO] Finished at: 2026-07-23T08:00:50+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

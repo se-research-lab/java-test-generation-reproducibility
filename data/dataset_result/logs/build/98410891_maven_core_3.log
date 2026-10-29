@@ -1,0 +1,242 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\pom.xml" -pl core -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 13.312
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Comms Router                                                       [pom]
+[INFO] Comms Router Exceptions                                            [jar]
+[INFO] Comms Router Common DB                                             [jar]
+[INFO] Comms Router Core Interface                                        [jar]
+[INFO] Comms Router Common                                                [jar]
+[INFO] Comms Router Core                                                  [jar]
+[INFO] 
+[INFO] -----------< com.softavail.comms-router:comms-router-master >-----------
+[INFO] Building Comms Router 0.10.2-SNAPSHOT                              [1/6]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ comms-router-master ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ comms-router-master ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ comms-router-master ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766950701
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ comms-router-master ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\target\\jacoco.exec"
+[INFO] 
+[INFO] ------------< com.softavail.comms-router:common-exceptions >------------
+[INFO] Building Comms Router Exceptions 0.10.2-SNAPSHOT                   [2/6]
+[INFO]   from common-exceptions\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ common-exceptions ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ common-exceptions ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ common-exceptions ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766951895
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ common-exceptions ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\common-exceptions\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ common-exceptions ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ common-exceptions ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ common-exceptions ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ common-exceptions ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ----------------< com.softavail.comms-router:common-db >----------------
+[INFO] Building Comms Router Common DB 0.10.2-SNAPSHOT                    [3/6]
+[INFO]   from common-db\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ common-db ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ common-db ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ common-db ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-db
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766955186
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ common-db ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\common-db\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ common-db ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-db\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ common-db ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-db\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ common-db ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-db\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ common-db ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -------< com.softavail.comms-router:comms-router-core-interface >-------
+[INFO] Building Comms Router Core Interface 0.10.2-SNAPSHOT               [4/6]
+[INFO]   from core-interface\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ comms-router-core-interface ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ comms-router-core-interface ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ comms-router-core-interface ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766956193
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ comms-router-core-interface ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\core-interface\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ comms-router-core-interface ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ comms-router-core-interface ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ comms-router-core-interface ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ comms-router-core-interface ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\target\test-classes
+[INFO] 
+[INFO] -----------< com.softavail.comms-router:comms-router-common >-----------
+[INFO] Building Comms Router Common 0.10.2-SNAPSHOT                       [5/6]
+[INFO]   from common\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ comms-router-common ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ comms-router-common ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ comms-router-common ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766957368
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ comms-router-common ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\common\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ comms-router-common ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ comms-router-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ comms-router-common ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ comms-router-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common\target\test-classes
+[INFO] 
+[INFO] ------------< com.softavail.comms-router:comms-router-core >------------
+[INFO] Building Comms Router Core 0.10.2-SNAPSHOT                         [6/6]
+[INFO]   from core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ comms-router-core ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ comms-router-core ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ comms-router-core ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766958955
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ comms-router-core ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\core\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ comms-router-core ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ comms-router-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 79 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core\target\classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/98410891/core/src/main/java/com/softavail/commsrouter/api/service/FilterHelper.java:[81,17] unchecked generic array creation for varargs parameter of type T[]
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/98410891/core/src/main/java/com/softavail/commsrouter/api/service/FilterHelper.java:[190,22] unchecked method invocation: method like in interface javax.persistence.criteria.CriteriaBuilder is applied to given types
+  required: javax.persistence.criteria.Expression<java.lang.String>,java.lang.String
+  found: javax.persistence.criteria.Path,java.lang.String
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/98410891/core/src/main/java/com/softavail/commsrouter/api/service/FilterHelper.java:[190,23] unchecked conversion
+  required: javax.persistence.criteria.Expression<java.lang.String>
+  found:    javax.persistence.criteria.Path
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/98410891/core/src/main/java/com/softavail/commsrouter/api/service/FilterHelper.java:[196,29] unchecked call to in(java.util.Collection<?>) as a member of the raw type javax.persistence.criteria.Expression
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ comms-router-core ---
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ comms-router-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Comms Router 0.10.2-SNAPSHOT:
+[INFO] 
+[INFO] Comms Router ....................................... SUCCESS [  1.834 s]
+[INFO] Comms Router Exceptions ............................ SUCCESS [  1.506 s]
+[INFO] Comms Router Common DB ............................. SUCCESS [  2.908 s]
+[INFO] Comms Router Core Interface ........................ SUCCESS [  1.537 s]
+[INFO] Comms Router Common ................................ SUCCESS [  0.955 s]
+[INFO] Comms Router Core .................................. SUCCESS [  3.300 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.162 s
+[INFO] Finished at: 2026-07-23T07:36:01+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

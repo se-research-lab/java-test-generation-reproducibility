@@ -1,0 +1,44 @@
+{
+  "completed_at": "2026-07-23T04:36:03+00:00",
+  "config_sha256": "a05265fe992df1165865c9619b35f6e4f9f5fb90f3ccfb642962c3bb5d7813b5",
+  "details": {
+    "classes_in_qualified_frame": 678,
+    "effective_java_runtime": 8,
+    "execution_mode": "resume",
+    "qualified_repositories": 30,
+    "qualified_repositories_retained_in_working": 0,
+    "restart_archive": "",
+    "source_amendment": "D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\state\\source_amendments\\step002_to_step003_5eb8beb7c838.json",
+    "source_or_dependency_modification_allowed": false
+  },
+  "outputs": [
+    {
+      "path": "repo_processing_order_seed42.csv",
+      "sha256": "6ea910e8b4b68828c60861af5bb14e8f26a885e1cd5e075a49b9bd8edb92a727",
+      "size": 372792
+    },
+    {
+      "path": "successful_repos_manifest.csv",
+      "sha256": "483ac2c6a74198116f237b285f18e0a55ea2cb412c4085d2615ff4acb15a9456",
+      "size": 7987
+    },
+    {
+      "path": "class_metrics_all.csv",
+      "sha256": "634fc4094a89e4739b19b9367331e78d80e320a3f0405e024b9781a1c7436779",
+      "size": 905788
+    },
+    {
+      "path": "build_recipes.jsonl",
+      "sha256": "20ffee50a1bc6b5aaf585cf78de4e773187ce07f90f2139403ac0a27775c0133",
+      "size": 50388
+    },
+    {
+      "path": "excluded_classes_log.csv",
+      "sha256": "a2e967ee0ffde0126b78f2fac6bc45c96a6bcd86ab05b5e42dc6c91a4b2103bd",
+      "size": 434526
+    }
+  ],
+  "pipeline_version": "3.1.0-pre-experiment",
+  "source_inventory_sha256": "5eb8beb7c838a08d8b6cace07d1f01f1edbcc7c30aae5b655b7a0920907435a5",
+  "step": "step003"
+}

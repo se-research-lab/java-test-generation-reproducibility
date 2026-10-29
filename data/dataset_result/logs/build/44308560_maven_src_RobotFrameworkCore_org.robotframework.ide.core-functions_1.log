@@ -1,0 +1,65 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\44308560\src\RobotFrameworkCore\org.robotframework.ide.core-functions\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\44308560\src\RobotFrameworkCore\org.robotframework.ide.core-functions
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 35.454
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< org.robotframework.ide:org.robotframework.ide.core-functions >----
+[INFO] Building Robotframework IDE Core Functions 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ org.robotframework.ide.core-functions ---
+[INFO] 
+[INFO] --- dependency:3.1.1:copy (default) @ org.robotframework.ide.core-functions ---
+[INFO] 
+[INFO] --- jacoco:0.8.5:prepare-agent (jacoco-initialize) @ org.robotframework.ide.core-functions ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.5\\org.jacoco.agent-0.8.5-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\44308560\\src\\RobotFrameworkCore\\org.robotframework.ide.core-functions\\target\\coverage-reports\\jacoco-unit.exec"
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ org.robotframework.ide.core-functions ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] Copying 21 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ org.robotframework.ide.core-functions ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 604 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\44308560\src\RobotFrameworkCore\org.robotframework.ide.core-functions\target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/44308560/src/RobotFrameworkCore/org.robotframework.ide.core-functions/src/main/java/org/rf/ide/core/testdata/model/table/LocalSetting.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/44308560/src/RobotFrameworkCore/org.robotframework.ide.core-functions/src/main/java/org/rf/ide/core/testdata/model/table/LocalSetting.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.1.0:copy-resources (copy-resources) @ org.robotframework.ide.core-functions ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 21 resources
+[INFO] Copying 99 resources
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ org.robotframework.ide.core-functions ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 780 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ org.robotframework.ide.core-functions ---
+[WARNING]  Parameter 'compilerArguments' is deprecated: use {@link #compilerArgs} instead.
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 332 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\44308560\src\RobotFrameworkCore\org.robotframework.ide.core-functions\target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/44308560/src/RobotFrameworkCore/org.robotframework.ide.core-functions/src/test/java/org/rf/ide/core/testdata/text/write/tables/keywords/creation/CreationOfKeywordExecutableThreeStepsTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/44308560/src/RobotFrameworkCore/org.robotframework.ide.core-functions/src/test/java/org/rf/ide/core/testdata/text/write/tables/keywords/creation/CreationOfKeywordExecutableThreeStepsTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.685 s
+[INFO] Finished at: 2026-07-23T05:29:01+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

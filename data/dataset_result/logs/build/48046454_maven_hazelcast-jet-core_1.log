@@ -1,0 +1,87 @@
+RECIPE: repository_wrapper_maven_module
+COMMAND: "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454\mvnw.cmd" -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454\hazelcast-jet-core\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\Users\quyt2\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 80.956
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the MultiThreadedBuilder implementation with a thread count of 8
+[INFO] 
+[INFO] ----------------< com.hazelcast.jet:hazelcast-jet-core >----------------
+[INFO] Building hazelcast-jet-core 4.6-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hazelcast-jet-core ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454\hazelcast-jet-core\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven) @ hazelcast-jet-core ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:checkstyle (default) @ hazelcast-jet-core ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.1.10:revision (default) @ hazelcast-jet-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ hazelcast-jet-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 21 resources
+[INFO] Copying 1 resource
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ hazelcast-jet-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 475 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454\hazelcast-jet-core\target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/Edge.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/main/java/com/hazelcast/jet/core/Edge.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/main/java/com/hazelcast/jet/impl/util/ImdgUtil.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/main/java/com/hazelcast/jet/impl/util/ImdgUtil.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] >>> spotbugs-maven-plugin:4.1.3:check (default) > :spotbugs @ hazelcast-jet-core >>>
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.1.3:spotbugs (spotbugs) @ hazelcast-jet-core ---
+[INFO] Fork Value is true
+[INFO] Done SpotBugs Analysis....
+[INFO] 
+[INFO] <<< spotbugs-maven-plugin:4.1.3:check (default) < :spotbugs @ hazelcast-jet-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.1.3:check (default) @ hazelcast-jet-core ---
+[INFO] BugInstance size is 0
+[INFO] Error size is 0
+[INFO] No errors/warnings found
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ hazelcast-jet-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 38 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ hazelcast-jet-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 281 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454\hazelcast-jet-core\target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/test/java/com/hazelcast/jet/config/AbstractJetConfigWithSystemPropertyTest.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/test/java/com/hazelcast/jet/config/AbstractJetConfigWithSystemPropertyTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/test/java/com/hazelcast/jet/impl/connector/ReadFilesPTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/48046454/hazelcast-jet-core/src/test/java/com/hazelcast/jet/impl/connector/ReadFilesPTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- kotlin-maven-plugin:1.3.61:test-compile (test-compile) @ hazelcast-jet-core ---
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454\hazelcast-jet-core\src\test\kotlin\com\hazelcast\jet\impl\util\KotlinReflectionUtilsTest.kt: (16, 9) 'assertThat(T!, Matcher<in T!>!): Unit' is deprecated. Deprecated in Java
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\48046454\hazelcast-jet-core\src\test\kotlin\com\hazelcast\jet\impl\util\KotlinReflectionUtilsTest.kt: (17, 9) 'assertThat(T!, Matcher<in T!>!): Unit' is deprecated. Deprecated in Java
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:18 min (Wall Clock)
+[INFO] Finished at: 2026-07-23T10:51:07+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

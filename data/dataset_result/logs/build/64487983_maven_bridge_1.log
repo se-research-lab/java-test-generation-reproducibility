@@ -1,0 +1,63 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\64487983\bridge\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\64487983
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 5.116
+STDOUT:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.iluwatar:bridge:jar:1.12.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.jacoco:jacoco-maven-plugin @ com.iluwatar:java-design-patterns:1.12.0-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\64487983\pom.xml, line 338, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com.iluwatar:bridge >-------------------------
+[INFO] Building bridge 1.12.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ bridge ---
+[INFO] 
+[INFO] --- checkstyle:2.17:check (validate) @ bridge ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (prepare-agent) @ bridge ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.5.201505241946\\org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\64487983\\bridge\\target\\jacoco.exec,excludes=domainapp/dom/modules/simple/QSimpleObject.class"
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (default) @ bridge ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.5.201505241946\\org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\64487983\\bridge\\target\\jacoco.exec,excludes=domainapp/dom/modules/simple/QSimpleObject.class"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ bridge ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\64487983\bridge\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ bridge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\64487983\bridge\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ bridge ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\64487983\bridge\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ bridge ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\64487983\bridge\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.912 s
+[INFO] Finished at: 2026-07-23T07:30:56+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

@@ -1,0 +1,125 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\pom.xml" -pl hbase-manager-0.98 -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 10.474
+STDOUT:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.kakao.hbase:hbase-common-0.98:jar:1.6.0
+[WARNING] 'version' contains an expression but should be a constant. @ com.kakao.hbase:hbase-tools-0.98:${version.unified}, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\pom.xml, line 25, column 14
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.kakao.hbase:hbase-tools-0.98:pom:1.6.0
+[WARNING] 'version' contains an expression but should be a constant. @ com.kakao.hbase:hbase-tools-0.98:${version.unified}, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\pom.xml, line 25, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] hbase-tools-0.98                                                   [pom]
+[INFO] hbase-common-0.98                                                  [jar]
+[INFO] hbase-table-stat-0.98                                              [jar]
+[INFO] hbase-manager-0.98                                                 [jar]
+[INFO] 
+[INFO] ------------------< com.kakao.hbase:hbase-tools-0.98 >------------------
+[INFO] Building hbase-tools-0.98 1.6.0                                    [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hbase-tools-0.98 ---
+[INFO] 
+[INFO] -----------------< com.kakao.hbase:hbase-common-0.98 >------------------
+[INFO] Building hbase-common-0.98 1.6.0                                   [2/4]
+[INFO]   from hbase-common-0.98\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hbase-common-0.98 ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ hbase-common-0.98 ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-common-0.98\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ hbase-common-0.98 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-common-0.98\target\classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46396068/hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/HBaseClient.java:[29,25] sun.security.krb5.Config is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46396068/hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/HBaseClient.java:[181,9] sun.security.krb5.Config is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46396068/hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/HBaseClient.java:[181,28] sun.security.krb5.Config is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46396068/hbase0.98/hbase-common-0.98/src/main/java/com/kakao/hbase/common/HBaseClient.java:[187,13] sun.security.krb5.Config is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ hbase-common-0.98 ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ hbase-common-0.98 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-common-0.98\target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46396068/hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/specific/HBaseAdminWrapperListTableTest.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-common-0.98\src\test\java\com\kakao\hbase\specific\HBaseAdminWrapperListTableTest.java uses unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46396068/hbase0.98/hbase-common-0.98/src/test/java/com/kakao/hbase/specific/HBaseAdminWrapperListTableTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] ---------------< com.kakao.hbase:hbase-table-stat-0.98 >----------------
+[INFO] Building hbase-table-stat-0.98 1.6.0                               [3/4]
+[INFO]   from hbase-table-stat-0.98\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hbase-table-stat-0.98 ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ hbase-table-stat-0.98 ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ hbase-table-stat-0.98 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-table-stat-0.98\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ hbase-table-stat-0.98 ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-table-stat-0.98\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ hbase-table-stat-0.98 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-table-stat-0.98\target\test-classes
+[INFO] 
+[INFO] -----------------< com.kakao.hbase:hbase-manager-0.98 >-----------------
+[INFO] Building hbase-manager-0.98 1.6.0                                  [4/4]
+[INFO]   from hbase-manager-0.98\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hbase-manager-0.98 ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ hbase-manager-0.98 ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-manager-0.98\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.2:compile (default-compile) @ hbase-manager-0.98 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-manager-0.98\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ hbase-manager-0.98 ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-manager-0.98\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.2:testCompile (default-testCompile) @ hbase-manager-0.98 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46396068\hbase0.98\hbase-manager-0.98\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for hbase-tools-0.98 1.6.0:
+[INFO] 
+[INFO] hbase-tools-0.98 ................................... SUCCESS [  0.194 s]
+[INFO] hbase-common-0.98 .................................. SUCCESS [  2.754 s]
+[INFO] hbase-table-stat-0.98 .............................. SUCCESS [  5.235 s]
+[INFO] hbase-manager-0.98 ................................. SUCCESS [  1.056 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.338 s
+[INFO] Finished at: 2026-07-23T08:48:13+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

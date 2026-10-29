@@ -1,0 +1,90 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445\pom.xml" -pl minnal-jaxrs/minnal-instrumentation-jaxrs -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445
+DECLARED_JAVA: 7
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 18.516
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Minnal Framework                                                   [pom]
+[INFO] minnal-utils                                                       [jar]
+[INFO] Minnal Jaxrs module                                                [pom]
+[INFO] Minnal instrumentation jaxrs module                                [jar]
+[INFO] 
+[INFO] -------------------------< org.minnal:minnal >--------------------------
+[INFO] Building Minnal Framework 2.0.2-SNAPSHOT                           [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ minnal ---
+[INFO] 
+[INFO] ----------------------< org.minnal:minnal-utils >-----------------------
+[INFO] Building minnal-utils 2.0.2-SNAPSHOT                               [2/4]
+[INFO]   from minnal-utils\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ minnal-utils ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ minnal-utils ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445\minnal-utils\src\main\resources
+[INFO] 
+[INFO] --- compiler:2.1:compile (default-compile) @ minnal-utils ---
+[INFO] Compiling 19 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445\minnal-utils\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ minnal-utils ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445\minnal-utils\src\test\resources
+[INFO] 
+[INFO] --- compiler:2.1:testCompile (default-testCompile) @ minnal-utils ---
+[INFO] Compiling 3 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445\minnal-utils\target\test-classes
+[INFO] 
+[INFO] ----------------------< org.minnal:minnal-jaxrs >-----------------------
+[INFO] Building Minnal Jaxrs module 2.0.2-SNAPSHOT                        [3/4]
+[INFO]   from minnal-jaxrs\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ minnal-jaxrs ---
+[INFO] 
+[INFO] --------------< org.minnal:minnal-instrumentation-jaxrs >---------------
+[INFO] Building Minnal instrumentation jaxrs module 2.0.2-SNAPSHOT        [4/4]
+[INFO]   from minnal-jaxrs\minnal-instrumentation-jaxrs\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ minnal-instrumentation-jaxrs ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ minnal-instrumentation-jaxrs ---
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:2.1:compile (default-compile) @ minnal-instrumentation-jaxrs ---
+[INFO] Compiling 68 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445\minnal-jaxrs\minnal-instrumentation-jaxrs\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ minnal-instrumentation-jaxrs ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:2.1:testCompile (default-testCompile) @ minnal-instrumentation-jaxrs ---
+[INFO] Compiling 33 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9884445\minnal-jaxrs\minnal-instrumentation-jaxrs\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Minnal Framework 2.0.2-SNAPSHOT:
+[INFO] 
+[INFO] Minnal Framework ................................... SUCCESS [  0.249 s]
+[INFO] minnal-utils ....................................... SUCCESS [ 15.095 s]
+[INFO] Minnal Jaxrs module ................................ SUCCESS [  0.002 s]
+[INFO] Minnal instrumentation jaxrs module ................ SUCCESS [  1.921 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.421 s
+[INFO] Finished at: 2026-07-23T07:10:22+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

@@ -1,0 +1,231 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\pom.xml" -pl applications/demo -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 13.087
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Comms Router                                                       [pom]
+[INFO] Comms Router Exceptions                                            [jar]
+[INFO] Comms Router Core Interface                                        [jar]
+[INFO] Comms Router Client                                                [jar]
+[INFO] Demo Application                                                   [war]
+[INFO] 
+[INFO] -----------< com.softavail.comms-router:comms-router-master >-----------
+[INFO] Building Comms Router 0.10.2-SNAPSHOT                              [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ comms-router-master ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ comms-router-master ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ comms-router-master ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766982542
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ comms-router-master ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\target\\jacoco.exec"
+[INFO] 
+[INFO] ------------< com.softavail.comms-router:common-exceptions >------------
+[INFO] Building Comms Router Exceptions 0.10.2-SNAPSHOT                   [2/5]
+[INFO]   from common-exceptions\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ common-exceptions ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions\target
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ common-exceptions ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ common-exceptions ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766983703
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ common-exceptions ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\common-exceptions\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ common-exceptions ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ common-exceptions ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ common-exceptions ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\common-exceptions\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ common-exceptions ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -------< com.softavail.comms-router:comms-router-core-interface >-------
+[INFO] Building Comms Router Core Interface 0.10.2-SNAPSHOT               [3/5]
+[INFO]   from core-interface\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ comms-router-core-interface ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\target
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ comms-router-core-interface ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ comms-router-core-interface ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766985157
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ comms-router-core-interface ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\core-interface\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ comms-router-core-interface ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ comms-router-core-interface ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 67 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ comms-router-core-interface ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ comms-router-core-interface ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\core-interface\target\test-classes
+[INFO] 
+[INFO] -----------< com.softavail.comms-router:comms-router-client >-----------
+[INFO] Building Comms Router Client 0.10.2-SNAPSHOT                       [4/5]
+[INFO]   from client\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ comms-router-client ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ comms-router-client ---
+[INFO] Starting audit...
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:24: warning: 'javax.ws.rs.core.Response.Status.Family' should be separated from previous import group.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:25: warning: Import statement for 'org.apache.logging.log4j.LogManager' is in the wrong order. Should be in the 'THIRD_PARTY_PACKAGE' group, expecting not assigned imports on this line.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:26: warning: Import statement for 'org.apache.logging.log4j.Logger' is in the wrong order. Should be in the 'THIRD_PARTY_PACKAGE' group, expecting not assigned imports on this line.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:28: warning: Wrong lexicographical order for 'java.lang.reflect.ParameterizedType' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:29: warning: Wrong lexicographical order for 'java.lang.reflect.Type' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:30: warning: Wrong lexicographical order for 'java.net.URI' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:31: warning: Wrong lexicographical order for 'java.util.List' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:32: warning: Wrong lexicographical order for 'java.util.Optional' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:33: warning: Wrong lexicographical order for 'java.util.stream.IntStream' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:34: warning: Wrong lexicographical order for 'javax.ws.rs.client.Client' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:35: warning: Wrong lexicographical order for 'javax.ws.rs.client.Entity' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:36: warning: Wrong lexicographical order for 'javax.ws.rs.core.GenericType' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:37: warning: Wrong lexicographical order for 'javax.ws.rs.core.HttpHeaders' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:38: warning: Wrong lexicographical order for 'javax.ws.rs.core.MediaType' import. Should be before 'javax.ws.rs.core.Response.Status.Family'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:153:7: warning: Local variable name 't' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\java\com\softavail\commsrouter\client\ServiceClientBase.java:170:7: warning: Local variable name 't' must match pattern '^[a-z][a-z0-9][a-zA-Z0-9]*$'.
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ comms-router-client ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766990138
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ comms-router-client ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\client\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ comms-router-client ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ comms-router-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ comms-router-client ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ comms-router-client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\client\target\test-classes
+[INFO] 
+[INFO] ------------< com.softavail.comms-router:demo-application >-------------
+[INFO] Building Demo Application 0.10.2-SNAPSHOT                          [5/5]
+[INFO]   from applications\demo\pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ demo-application ---
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (validate) @ demo-application ---
+[INFO] Starting audit...
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\api\NexMoEventOutResource.java:133:26: warning: Empty if block.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\api\NexMoEventOutResource.java:185:26: warning: Empty if block.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:42: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:43: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:63: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:64: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:70: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:71: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:77: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:78: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:84: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\demo\application\services\ConversationService.java:85: warning: At-clause should have a non-empty description.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\nexmo\ivr\IvrStrategyWithSimpleFlow.java:229: warning: Distance between variable 'eventUrl' declaration and its first usage is 4, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value).
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\nexmo\ivr\IvrStrategyWithSimpleFlow.java:271: warning: Distance between variable 'eventUrl' declaration and its first usage is 4, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value).
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\src\main\java\com\softavail\comms\nexmo\ncco\NccoFactory.java:145: warning: Distance between variable 'talk' declaration and its first usage is 4, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value).
+Audit done.
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ demo-application ---
+[INFO] ShortRevision tag detected. The value is '7'.
+[INFO] Executing: cmd.exe /X /C "git rev-parse --verify --short=7 HEAD"
+[INFO] Working directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo
+[INFO] Storing buildNumber: 4e5656d at timestamp: 1784766991609
+[INFO] Storing buildScmBranch: main
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (default-prepare-agent) @ demo-application ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\98410891\\applications\\demo\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ demo-application ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.6.2:compile (default-compile) @ demo-application ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 48 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ demo-application ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.6.2:testCompile (default-testCompile) @ demo-application ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\98410891\applications\demo\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Comms Router 0.10.2-SNAPSHOT:
+[INFO] 
+[INFO] Comms Router ....................................... SUCCESS [  1.729 s]
+[INFO] Comms Router Exceptions ............................ SUCCESS [  1.502 s]
+[INFO] Comms Router Core Interface ........................ SUCCESS [  1.772 s]
+[INFO] Comms Router Client ................................ SUCCESS [  4.915 s]
+[INFO] Demo Application ................................... SUCCESS [  1.929 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.972 s
+[INFO] Finished at: 2026-07-23T07:36:33+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

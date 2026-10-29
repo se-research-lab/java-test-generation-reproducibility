@@ -1,0 +1,269 @@
+RECIPE: repository_wrapper_gradle_module
+COMMAND: "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\gradlew.bat" --no-daemon --console=plain --stacktrace :d2:clean :d2:testClasses -x test
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+------------------------------------------------------------
+Gradle 6.9.4
+------------------------------------------------------------
+
+Build time:   2023-02-22 08:43:12 UTC
+Revision:     7f9380f27d6dc6a1ee6dfc466b834b0408d0b0c4
+
+Kotlin:       1.4.20
+Groovy:       2.5.12
+Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+JVM:          1.8.0_172 (Oracle Corporation 25.172-b11)
+OS:           Windows 10 10.0 amd64
+EXIT_CODE: 0
+DURATION: 103.258
+STDOUT:
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.9.4/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Task :buildSrc:compileJava
+
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources
+> Task :buildSrc:classes
+> Task :buildSrc:jar
+> Task :buildSrc:assemble
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build
+Configuration on demand is an incubating feature.
+> Task :d2:cleanGeneratedDir
+> Task :d2:cleanTestGeneratedDir
+> Task :d2:clean
+> Task :r2-core:processResources NO-SOURCE
+> Task :d2-test-api:processResources NO-SOURCE
+> Task :r2-filter-compression:processResources NO-SOURCE
+> Task :data-transform:processResources NO-SOURCE
+> Task :li-protobuf:generateGrammarSource NO-SOURCE
+> Task :r2-netty:processResources NO-SOURCE
+> Task :degrader:processResources NO-SOURCE
+> Task :r2-jetty:processResources NO-SOURCE
+> Task :r2-disruptor:processResources NO-SOURCE
+> Task :d2-schemas:processResources NO-SOURCE
+> Task :entity-stream:processResources NO-SOURCE
+> Task :test-util:processResources NO-SOURCE
+> Task :generator:processResources
+> Task :d2:extractProto
+> Task :d2:processResources
+> Task :d2:extractTestProto
+> Task :d2:processTestResources
+> Task :li-protobuf:compileJava
+> Task :li-protobuf:processResources NO-SOURCE
+> Task :li-protobuf:classes
+> Task :pegasus-common:compileJava
+> Task :pegasus-common:processResources NO-SOURCE
+> Task :pegasus-common:classes
+> Task :li-jersey-uri:compileJava
+> Task :li-jersey-uri:processResources NO-SOURCE
+> Task :li-jersey-uri:classes
+> Task :li-protobuf:jar
+> Task :li-jersey-uri:jar
+> Task :entity-stream:compileJava
+> Task :entity-stream:classes
+> Task :test-util:compileJava
+> Task :test-util:classes
+> Task :pegasus-common:jar
+> Task :degrader:compileJava
+> Task :degrader:classes
+> Task :test-util:jar
+> Task :entity-stream:jar
+> Task :degrader:jar
+> Task :data:generateGrammarSource
+> Task :data:compileJava
+> Task :data:processResources NO-SOURCE
+> Task :data:classes
+> Task :data:jar
+> Task :data-transform:compileJava
+> Task :data-transform:classes
+> Task :data-transform:jar
+> Task :r2-core:compileJava
+> Task :r2-core:classes
+> Task :r2-core:jar
+> Task :r2-disruptor:compileJava
+> Task :r2-disruptor:classes
+> Task :r2-jetty:compileJava
+> Task :r2-jetty:classes
+> Task :r2-disruptor:jar
+> Task :r2-filter-compression:compileJava
+> Task :r2-filter-compression:classes
+> Task :r2-jetty:jar
+> Task :generator:compileJava
+> Task :generator:classes
+> Task :r2-filter-compression:jar
+
+> Task :d2-schemas:mainGenerateDataTemplate
+
+> Task :r2-netty:compileJava
+
+> Task :r2-netty:classes
+> Task :r2-netty:jar
+> Task :d2-schemas:mainCompileDataTemplate
+> Task :d2-schemas:compileJava
+> Task :d2-schemas:classes
+> Task :d2-schemas:jar
+> Task :d2:extractIncludeProto
+> Task :d2:generateProto
+
+> Task :d2:compileJava
+
+> Task :d2:classes
+> Task :d2:jar
+> Task :d2-test-api:compileJava
+> Task :d2-test-api:classes
+> Task :d2-test-api:jar
+> Task :d2:extractIncludeTestProto
+> Task :d2:generateTestProto
+
+> Task :d2:compileTestJava
+
+> Task :d2:testClasses
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.9.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 42s
+49 actionable tasks: 49 executed
+
+STDERR:
+Note: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\gradle-plugins\src\main\java\com\linkedin\pegasus\gradle\PegasusPlugin.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\buildSrc\src\main\java\com\linkedin\pegasus\gradle\PegasusPluginLoader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\r2-netty\src\main\java\com\linkedin\r2\netty\handler\http2\Http2ProtocolUpgradeHandler.java:81: error: unmappable character for encoding Cp1258
+    // For an upgrade request, clients should use an OPTIONS request for path “*�? or a HEAD request for “/�?.
+                                                                                    ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\r2-netty\src\main\java\com\linkedin\r2\netty\handler\http2\Http2ProtocolUpgradeHandler.java:81: error: unmappable character for encoding Cp1258
+    // For an upgrade request, clients should use an OPTIONS request for path “*�? or a HEAD request for “/�?.
+                                                                                                                  ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\main\java\com\linkedin\d2\xds\balancer\DualReadZkAndXdsLoadBalancerFactory.java:19: warning: [deprecation] com.linkedin.d2.balancer.ZKFSLoadBalancerWithFacilitiesFactory in com.linkedin.d2.balancer has been deprecated
+import com.linkedin.d2.balancer.ZKFSLoadBalancerWithFacilitiesFactory;
+                               ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\main\java\com\linkedin\d2\xds\balancer\DualReadZkAndXdsLoadBalancerFactory.java:20: warning: [deprecation] com.linkedin.d2.balancer.dualread.DualReadLoadBalancer in com.linkedin.d2.balancer.dualread has been deprecated
+import com.linkedin.d2.balancer.dualread.DualReadLoadBalancer;
+                                        ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\main\java\com\linkedin\d2\balancer\D2ClientBuilder.java:651: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+  public D2ClientBuilder setWarmUpTimeoutSeconds(int warmUpTimeoutSeconds)
+                         ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\main\java\com\linkedin\d2\xds\balancer\XdsLoadBalancerWithFacilitiesFactory.java:59: warning: [deprecation] <T>defaultIfNull(T,T) in org.apache.commons.lang3.ObjectUtils has been deprecated
+    ScheduledExecutorService executorService = ObjectUtils.defaultIfNull(config.xdsExecutorService,
+                                                          ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\main\java\com\linkedin\d2\xds\balancer\XdsLoadBalancerWithFacilitiesFactory.java:61: warning: [deprecation] <T>defaultIfNull(T,T) in org.apache.commons.lang3.ObjectUtils has been deprecated
+    long xdsStreamReadyTimeout = ObjectUtils.defaultIfNull(config.xdsStreamReadyTimeout,
+                                            ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\main\java\com\linkedin\d2\xds\balancer\XdsLoadBalancerWithFacilitiesFactory.java:90: warning: [deprecation] d2ServicePath in com.linkedin.d2.balancer.D2ClientConfig has been deprecated
+            config.clientFactories, config.loadBalancerStrategyFactories, config.d2ServicePath, config.sslContext,
+                                                                                ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\main\java\com\linkedin\d2\xds\balancer\XdsLoadBalancerWithFacilitiesFactory.java:107: warning: [deprecation] d2ServicePath in com.linkedin.d2.balancer.D2ClientConfig has been deprecated
+          config.d2ServicePath, downstreamServicesFetcher, config.indisWarmUpTimeoutSeconds, config.indisWarmUpConcurrentRequests,
+                ^
+7 warnings
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\discovery\stores\zk\SharedZkConnectionProviderTest.java:26: warning: [deprecation] com.linkedin.d2.balancer.LastSeenBalancerWithFacilitiesFactory in com.linkedin.d2.balancer has been deprecated
+import com.linkedin.d2.balancer.LastSeenBalancerWithFacilitiesFactory;
+                               ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\jmx\D2LoadBalancerJmxTest.java:23: warning: [deprecation] com.linkedin.d2.balancer.LastSeenBalancerWithFacilitiesFactory in com.linkedin.d2.balancer has been deprecated
+import com.linkedin.d2.balancer.LastSeenBalancerWithFacilitiesFactory;
+                               ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\jmx\D2LoadBalancerJmxTest.java:25: warning: [deprecation] com.linkedin.d2.balancer.ZKFSLoadBalancerWithFacilitiesFactory in com.linkedin.d2.balancer has been deprecated
+import com.linkedin.d2.balancer.ZKFSLoadBalancerWithFacilitiesFactory;
+                               ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\D2ClientBuilderTest.java:46: warning: [deprecation] setD2ServicePath(java.lang.String) in com.linkedin.d2.balancer.D2ClientBuilder has been deprecated
+    d2ClientBuilder.setD2ServicePath(d2ServicePath);
+                   ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\D2ClientBuilderTest.java:49: warning: [deprecation] d2ServicePath in com.linkedin.d2.balancer.D2ClientConfig has been deprecated
+      Assert.assertEquals(config.d2ServicePath, expectedD2ServicePath);
+                                ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\simple\PotentialClientsCacheTest.java:230: warning: [unchecked] unchecked conversion
+          return Mockito.mock(ZooKeeperPermanentStore.class);
+                             ^
+  required: com.linkedin.d2.discovery.stores.zk.ZooKeeperPermanentStore<T>
+  found:    com.linkedin.d2.discovery.stores.zk.ZooKeeperPermanentStore
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\simple\PotentialClientsCacheTest.java:239: warning: [unchecked] unchecked conversion
+          return Mockito.mock(ZooKeeperEphemeralStore.class);
+                             ^
+  required: com.linkedin.d2.discovery.stores.zk.ZooKeeperEphemeralStore<T>
+  found:    com.linkedin.d2.discovery.stores.zk.ZooKeeperEphemeralStore
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\strategies\relative\RelativeLoadBalancerStrategyTest.java:60: warning: [unchecked] unchecked conversion
+      Ring<URI> ring = Mockito.mock(Ring.class);
+                                   ^
+  required: com.linkedin.d2.balancer.util.hashing.Ring<java.net.URI>
+  found:    com.linkedin.d2.balancer.util.hashing.Ring
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\strategies\relative\RelativeLoadBalancerStrategyTest.java:141: warning: [rawtypes] found raw type: java.util.Collection
+    ArgumentCaptor<Collection> captor = ArgumentCaptor.forClass(Collection.class);
+                   ^
+  missing type arguments for generic class java.util.Collection<E>
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\util\downstreams\TestIndisBasedDownstreamServicesFetcher.java:101: warning: [unchecked] unchecked cast
+      SuccessCallback<List<String>> callback = (SuccessCallback<List<String>>) invocation.getArguments()[3];
+                                                                                                        ^
+  required: com.linkedin.common.callback.SuccessCallback<java.util.List<java.lang.String>>
+  found:    java.lang.Object
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\util\downstreams\TestIndisBasedDownstreamServicesFetcher.java:134: warning: [unchecked] unchecked cast
+      SuccessCallback<List<String>> callback = (SuccessCallback<List<String>>) invocation.getArguments()[3];
+                                                                                                        ^
+  required: com.linkedin.common.callback.SuccessCallback<java.util.List<java.lang.String>>
+  found:    java.lang.Object
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\util\downstreams\TestIndisBasedDownstreamServicesFetcher.java:164: warning: [unchecked] unchecked cast
+      SuccessCallback<List<String>> callback = (SuccessCallback<List<String>>) invocation.getArguments()[3];
+                                                                                                        ^
+  required: com.linkedin.common.callback.SuccessCallback<java.util.List<java.lang.String>>
+  found:    java.lang.Object
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\util\downstreams\TestIndisBasedDownstreamServicesFetcher.java:223: warning: [unchecked] unchecked cast
+      SuccessCallback<List<String>> callback = (SuccessCallback<List<String>>) invocation.getArguments()[3];
+                                                                                                        ^
+  required: com.linkedin.common.callback.SuccessCallback<java.util.List<java.lang.String>>
+  found:    java.lang.Object
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\balancer\util\downstreams\TestIndisBasedDownstreamServicesFetcher.java:344: warning: [unchecked] unchecked conversion
+    SuccessCallback<List<String>> callback = mock(SuccessCallback.class);
+                                                 ^
+  required: com.linkedin.common.callback.SuccessCallback<java.util.List<java.lang.String>>
+  found:    com.linkedin.common.callback.SuccessCallback
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\discovery\stores\zk\SharedZkConnectionProviderTest.java:187: warning: [deprecation] ZooKeeperAnnouncer(com.linkedin.d2.balancer.servers.ZooKeeperServer,boolean) in com.linkedin.d2.balancer.servers.ZooKeeperAnnouncer has been deprecated
+      ZooKeeperAnnouncer announcer = new ZooKeeperAnnouncer(server, true);
+                                     ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\discovery\stores\zk\SharedZkConnectionProviderTest.java:282: warning: [deprecation] com.linkedin.d2.balancer.LastSeenBalancerWithFacilitiesFactory in com.linkedin.d2.balancer has been deprecated
+        .setLoadBalancerWithFacilitiesFactory(new LastSeenBalancerWithFacilitiesFactory())
+                                                  ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\discovery\stores\zk\SharedZkConnectionProviderTest.java:279: warning: [deprecation] setZkHosts(java.lang.String) in com.linkedin.d2.balancer.D2ClientBuilder has been deprecated
+    d2ClientBuilder.setZkHosts("localhost:" + ZK_PORT)
+                   ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\discovery\stores\zk\SharedZkConnectionProviderTest.java:280: warning: [deprecation] setZkSessionTimeout(long,java.util.concurrent.TimeUnit) in com.linkedin.d2.balancer.D2ClientBuilder has been deprecated
+        .setZkSessionTimeout(ZK_TIMEOUT, TimeUnit.MILLISECONDS)
+        ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\discovery\stores\zk\SharedZkConnectionProviderTest.java:281: warning: [deprecation] setZKConnectionForloadBalancer(com.linkedin.d2.discovery.stores.zk.ZKPersistentConnection) in com.linkedin.d2.balancer.D2ClientBuilder has been deprecated
+        .setZKConnectionForloadBalancer(zkConnectionToUse)
+        ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\discovery\util\TestD2Utils.java:59: warning: [unchecked] unchecked conversion
+    Map<String, String> env = mock(Map.class);
+                                  ^
+  required: java.util.Map<java.lang.String,java.lang.String>
+  found:    java.util.Map
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\jmx\D2LoadBalancerJmxTest.java:60: warning: [deprecation] com.linkedin.d2.balancer.LastSeenBalancerWithFacilitiesFactory in com.linkedin.d2.balancer has been deprecated
+    return new Object[][]{{new LastSeenBalancerWithFacilitiesFactory()}, {new ZKFSLoadBalancerWithFacilitiesFactory()}};
+                               ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\jmx\D2LoadBalancerJmxTest.java:60: warning: [deprecation] com.linkedin.d2.balancer.ZKFSLoadBalancerWithFacilitiesFactory in com.linkedin.d2.balancer has been deprecated
+    return new Object[][]{{new LastSeenBalancerWithFacilitiesFactory()}, {new ZKFSLoadBalancerWithFacilitiesFactory()}};
+                                                                              ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\jmx\D2LoadBalancerJmxTest.java:102: warning: [deprecation] setZkHosts(java.lang.String) in com.linkedin.d2.balancer.D2ClientBuilder has been deprecated
+                   .setZkHosts("localhost:" + ZK_PORT)
+                   ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\jmx\D2LoadBalancerJmxTest.java:103: warning: [deprecation] setZkSessionTimeout(long,java.util.concurrent.TimeUnit) in com.linkedin.d2.balancer.D2ClientBuilder has been deprecated
+                   .setZkSessionTimeout(ZK_TIMEOUT, TimeUnit.MILLISECONDS)
+                   ^
+D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6944525\d2\src\test\java\com\linkedin\d2\xds\XdsToD2SampleClient.java:106: warning: [deprecation] XdsClientImpl(com.linkedin.d2.xds.Node,io.grpc.ManagedChannel,java.util.concurrent.ScheduledExecutorService,long,boolean,com.linkedin.d2.jmx.XdsServerMetricsProvider,boolean) in com.linkedin.d2.xds.XdsClientImpl has been deprecated
+    XdsClient xdsClient = new XdsClientImpl(node, xdsChannelFactory.createChannel(),
+                          ^
+25 warnings
+

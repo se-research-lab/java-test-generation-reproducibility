@@ -1,0 +1,148 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\pom.xml" -pl flo-workflow -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575
+DECLARED_JAVA: unknown
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 8.980
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Flo                                                                [pom]
+[INFO] Flo API Generator                                                  [jar]
+[INFO] Flo Workflow Definition                                            [jar]
+[INFO] 
+[INFO] --------------------------< com.spotify:flo >---------------------------
+[INFO] Building Flo 0.6.4-SNAPSHOT                                        [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ flo ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ flo ---
+[INFO] 
+[INFO] --- license:1.9:check-file-header (check-file-header) @ flo ---
+[WARNING] No file to scan.
+[INFO] 
+[INFO] 
+[INFO] -------------------< com.spotify:flo-api-generator >--------------------
+[INFO] Building Flo API Generator 0.6.4-SNAPSHOT                          [2/3]
+[INFO]   from flo-api-generator\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ flo-api-generator ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ flo-api-generator ---
+[INFO] 
+[INFO] --- license:1.9:check-file-header (check-file-header) @ flo-api-generator ---
+[INFO] Will search files to update from root D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-api-generator\src\main\java
+[INFO] Scan 2 files header done in 15.374ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ flo-api-generator ---
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ flo-api-generator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-api-generator\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ flo-api-generator ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-api-generator\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ flo-api-generator ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ----------------------< com.spotify:flo-workflow >----------------------
+[INFO] Building Flo Workflow Definition 0.6.4-SNAPSHOT                    [3/3]
+[INFO]   from flo-workflow\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ flo-workflow ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce) @ flo-workflow ---
+[INFO] 
+[INFO] --- license:1.9:check-file-header (check-file-header) @ flo-workflow ---
+[INFO] Will search files to update from root D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-workflow\src\main\java
+[INFO] Will search files to update from root D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-workflow\src\test\java
+[INFO] Scan 61 files header done in 89.67ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ flo-workflow ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-workflow\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ flo-workflow ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 37 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-workflow\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ flo-workflow ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-workflow\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ flo-workflow ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\46450575\flo-workflow\target\test-classes
+07:19:10.793 [main] DEBUG org.trimou.engine.resolver.ReflectionResolver - Initialized [memberCacheMaxSize: 10000]
+07:19:10.797 [main] INFO org.trimou.engine.locator.PathTemplateLocator - ClassPathTemplateLocator initialized [virtualPathSeparator: /, defaultFileEncoding: UTF-8]
+07:19:10.800 [main] INFO org.trimou.engine.MustacheEngineBuilder - Engine built 2.0.1.Final (2016-05-19)
+07:19:10.800 [main] DEBUG org.trimou.engine.MustacheEngineBuilder - Engine configuration: 
+[Template locators]
+org.trimou.engine.locator.ClassPathTemplateLocator [priority: 1, suffix: mustache, rootPath: null]
+----------
+[Resolvers]
+org.trimou.engine.resolver.MapResolver [priority: 17]
+org.trimou.engine.resolver.ReflectionResolver [priority: 11]
+----------
+[Properties]
+org.trimou.engine.config.templateRecursiveInvocationLimit=10
+org.trimou.engine.config.templateCacheExpirationTimeout=0
+org.trimou.engine.config.removeStandaloneLines=true
+org.trimou.engine.config.resolverHintsEnabled=true
+org.trimou.engine.config.startDelimiter={{
+org.trimou.engine.locator.PathTemplateLocator.virtualPathSeparator=/
+org.trimou.engine.config.skipValueEscaping=false
+org.trimou.engine.config.endDelimiter=}}
+org.trimou.engine.config.cacheSectionLiteralBlock=false
+org.trimou.engine.config.reuseLineSeparatorSegments=true
+org.trimou.engine.config.defaultFileEncoding=UTF-8
+org.trimou.engine.config.removeUnnecessarySegments=true
+org.trimou.engine.config.noValueIndicatesProblem=false
+org.trimou.engine.config.nestedTemplateSupportEnabled=true
+org.trimou.engine.config.templateCacheEnabled=true
+org.trimou.engine.resolver.ReflectionResolver.memberCacheMaxSize=10000
+org.trimou.engine.config.precompileAllTemplates=false
+org.trimou.engine.config.debugMode=false
+org.trimou.engine.config.handlebarsSupportEnabled=true
+org.trimou.engine.config.iterationMetadataAlias=iter
+----------
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46450575/flo-workflow/src/test/java/com/spotify/flo/context/ForwardingEvalContextTest.java:[26,26] org.mockito.Matchers in org.mockito has been deprecated
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46450575/flo-workflow/src/test/java/com/spotify/flo/context/ForwardingEvalContextTest.java:[26,26] org.mockito.Matchers in org.mockito has been deprecated
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46450575/flo-workflow/src/test/java/com/spotify/flo/context/ForwardingEvalContextTest.java:[26,26] org.mockito.Matchers in org.mockito has been deprecated
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46450575/flo-workflow/src/test/java/com/spotify/flo/context/ForwardingEvalContextTest.java:[26,26] org.mockito.Matchers in org.mockito has been deprecated
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/46450575/flo-workflow/src/test/java/com/spotify/flo/ControlledBlockingContext.java:[165,73] unchecked cast
+  required: com.spotify.flo.ControlledBlockingContext.Interceptor<T>
+  found:    com.spotify.flo.ControlledBlockingContext.Interceptor<capture#1 of ?>
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Flo 0.6.4-SNAPSHOT:
+[INFO] 
+[INFO] Flo ................................................ SUCCESS [  1.419 s]
+[INFO] Flo API Generator .................................. SUCCESS [  3.464 s]
+[INFO] Flo Workflow Definition ............................ SUCCESS [  2.801 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.839 s
+[INFO] Finished at: 2026-07-23T07:19:11+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+

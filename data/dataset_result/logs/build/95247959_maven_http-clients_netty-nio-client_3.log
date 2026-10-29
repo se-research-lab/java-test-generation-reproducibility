@@ -1,0 +1,523 @@
+RECIPE: repository_wrapper_maven_reactor
+COMMAND: "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\mvnw.cmd" -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\pom.xml" -pl http-clients/netty-nio-client -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.5 (57804ffe001d7215b5e7bcb531cf83df38f93546)
+Maven home: C:\Users\quyt2\.m2\wrapper\dists\apache-maven-3.9.5-bin\32db9c34\apache-maven-3.9.5
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 19.929
+STDOUT:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for software.amazon.awssdk:sqs:jar:2.49.2-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.assertj:assertj-core:jar -> version ${assertj.version} vs (?) @ line 104, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for software.amazon.awssdk:apache-client:jar:2.49.2-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.junit.jupiter:junit-jupiter:jar -> duplicate declaration of version (?) @ line 124, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for software.amazon.awssdk:apache5-client:jar:2.49.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ software.amazon.awssdk:apache5-client:${awsjavasdk.version}, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\apache5-client\pom.xml, line 29, column 14
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for software.amazon.awssdk:v2-migration:jar:2.49.2-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ software.amazon.awssdk:v2-migration:${awsjavasdk.version}, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\v2-migration\pom.xml, line 29, column 14
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.amazonaws:aws-java-sdk-sns:jar -> duplicate declaration of version (?) @ software.amazon.awssdk:v2-migration:${awsjavasdk.version}, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\v2-migration\pom.xml, line 170, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for software.amazon.awssdk:protocol-tests:jar:2.49.2-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: software.amazon.eventstream:eventstream:jar -> duplicate declaration of version (?) @ line 299, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for software.amazon.awssdk:codegen-generated-classes-test:jar:2.49.2-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: software.amazon.awssdk:netty-nio-client:jar -> duplicate declaration of version ${awsjavasdk.version} @ line 254, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] AWS Java SDK :: Build Tools                                        [jar]
+[INFO] AWS Java SDK :: Parent                                             [pom]
+[INFO] AWS Java SDK :: Core                                               [pom]
+[INFO] AWS Java SDK :: Annotations                                        [jar]
+[INFO] AWS Java SDK :: Utilities                                          [jar]
+[INFO] AWS Java SDK :: Test :: Test Utils                                 [jar]
+[INFO] AWS Java SDK :: Metrics SPI                                        [jar]
+[INFO] AWS Java SDK :: HTTP Client Interface                              [jar]
+[INFO] AWS Java SDK :: Test :: HTTP Client Tests                          [jar]
+[INFO] AWS Java SDK :: HTTP Clients                                       [pom]
+[INFO] AWS Java SDK :: HTTP Clients :: Netty Non-Blocking I/O             [jar]
+[INFO] 
+[INFO] -----------------< software.amazon.awssdk:build-tools >-----------------
+[INFO] Building AWS Java SDK :: Build Tools 1.0                          [1/11]
+[INFO]   from build-tools\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ build-tools ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\build-tools\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ build-tools ---
+[WARNING] Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ build-tools ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1258, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\build-tools\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ build-tools ---
+[WARNING] Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\build-tools\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ build-tools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------< software.amazon.awssdk:aws-sdk-java-pom >---------------
+[INFO] Building AWS Java SDK :: Parent 2.49.2-SNAPSHOT                   [2/11]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ aws-sdk-java-pom ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ aws-sdk-java-pom ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ aws-sdk-java-pom ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ aws-sdk-java-pom ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ aws-sdk-java-pom ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ aws-sdk-java-pom ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ aws-sdk-java-pom ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ aws-sdk-java-pom ---
+[INFO] 
+[INFO] --------------------< software.amazon.awssdk:core >---------------------
+[INFO] Building AWS Java SDK :: Core 2.49.2-SNAPSHOT                     [3/11]
+[INFO]   from core\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ core ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ core ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ core ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\core\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ core ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ core ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ core ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ core ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ core ---
+[INFO] 
+[INFO] -----------------< software.amazon.awssdk:annotations >-----------------
+[INFO] Building AWS Java SDK :: Annotations 2.49.2-SNAPSHOT              [4/11]
+[INFO]   from core\annotations\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ annotations ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\annotations\target
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ annotations ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ annotations ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\core\\annotations\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ annotations ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\annotations\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ annotations ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ annotations ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\annotations\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ annotations ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ annotations ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ annotations ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\annotations\src\main\resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\annotations\target\generated-resources\sdk-resources
+[INFO] Copying 2 resources from ..\.. to target\classes\META-INF
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ annotations ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 13 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ annotations ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\annotations\src\test\resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\annotations\src\it\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ annotations ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] No sources to compile
+[INFO] 
+[INFO] --------------------< software.amazon.awssdk:utils >--------------------
+[INFO] Building AWS Java SDK :: Utilities 2.49.2-SNAPSHOT                [5/11]
+[INFO]   from utils\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ utils ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\utils\target
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ utils ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ utils ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\utils\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ utils ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\utils\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ utils ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ utils ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\utils\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ utils ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ utils ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ utils ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\utils\src\main\resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\utils\target\generated-resources\sdk-resources
+[INFO] Copying 2 resources from .. to target\classes\META-INF
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ utils ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 95 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ utils ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\utils\src\it\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ utils ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 64 source files with javac [debug target 1.8] to target\test-classes
+[INFO] 
+[INFO] -----------------< software.amazon.awssdk:test-utils >------------------
+[INFO] Building AWS Java SDK :: Test :: Test Utils 2.49.2-SNAPSHOT       [6/11]
+[INFO]   from test\test-utils\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ test-utils ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\test-utils\target
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ test-utils ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ test-utils ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\test\\test-utils\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ test-utils ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\test-utils\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ test-utils ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ test-utils ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\test-utils\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ test-utils ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ test-utils ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ test-utils ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\test-utils\src\main\resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\test-utils\target\generated-resources\sdk-resources
+[INFO] Copying 2 resources from ..\.. to target\classes\META-INF
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ test-utils ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 41 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ test-utils ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\test-utils\src\it\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ test-utils ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 12 source files with javac [debug target 1.8] to target\test-classes
+[INFO] 
+[INFO] -----------------< software.amazon.awssdk:metrics-spi >-----------------
+[INFO] Building AWS Java SDK :: Metrics SPI 2.49.2-SNAPSHOT              [7/11]
+[INFO]   from core\metrics-spi\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ metrics-spi ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\metrics-spi\target
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ metrics-spi ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ metrics-spi ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\core\\metrics-spi\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ metrics-spi ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\metrics-spi\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ metrics-spi ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ metrics-spi ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\metrics-spi\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ metrics-spi ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ metrics-spi ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ metrics-spi ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\metrics-spi\src\main\resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\metrics-spi\target\generated-resources\sdk-resources
+[INFO] Copying 2 resources from ..\.. to target\classes\META-INF
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ metrics-spi ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 14 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ metrics-spi ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\metrics-spi\src\it\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ metrics-spi ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 6 source files with javac [debug target 1.8] to target\test-classes
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\core\metrics-spi\src\test\java\software\amazon\awssdk\metrics\internal\DefaultSdkMetricTest.java:[68,88] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to MetricCategory for a varargs call
+  cast to MetricCategory[] for a non-varargs call and to suppress this warning
+[INFO] 
+[INFO] ---------------< software.amazon.awssdk:http-client-spi >---------------
+[INFO] Building AWS Java SDK :: HTTP Client Interface 2.49.2-SNAPSHOT    [8/11]
+[INFO]   from http-client-spi\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ http-client-spi ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-client-spi\target
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ http-client-spi ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ http-client-spi ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\http-client-spi\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ http-client-spi ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-client-spi\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ http-client-spi ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ http-client-spi ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-client-spi\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ http-client-spi ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ http-client-spi ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ http-client-spi ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-client-spi\src\main\resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-client-spi\target\generated-resources\sdk-resources
+[INFO] Copying 2 resources from .. to target\classes\META-INF
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ http-client-spi ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 43 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ http-client-spi ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-client-spi\src\it\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ http-client-spi ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 10 source files with javac [debug target 1.8] to target\test-classes
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-client-spi\src\test\java\software\amazon\awssdk\http\HttpStatusFamilyTest.java:[36,55] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to HttpStatusFamily for a varargs call
+  cast to HttpStatusFamily[] for a non-varargs call and to suppress this warning
+[INFO] 
+[INFO] --------------< software.amazon.awssdk:http-client-tests >--------------
+[INFO] Building AWS Java SDK :: Test :: HTTP Client Tests 2.49.2-SNAPSHOT [9/11]
+[INFO]   from test\http-client-tests\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ http-client-tests ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\target
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ http-client-tests ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ http-client-tests ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\test\\http-client-tests\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ http-client-tests ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ http-client-tests ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ http-client-tests ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ http-client-tests ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ http-client-tests ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ http-client-tests ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\target\generated-resources\sdk-resources
+[INFO] Copying 2 resources from ..\.. to target\classes\META-INF
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ http-client-tests ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 23 source files with javac [debug target 1.8] to target\classes
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\src\main\java\software\amazon\awssdk\http\proxy\ProxyConfigCommonTestData.java:[212,62] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to String for a varargs call
+  cast to String[] for a non-varargs call and to suppress this warning
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\src\main\java\software\amazon\awssdk\http\proxy\ProxyConfigCommonTestData.java:[225,62] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to String for a varargs call
+  cast to String[] for a non-varargs call and to suppress this warning
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\src\main\java\software\amazon\awssdk\http\proxy\ProxyConfigCommonTestData.java:[239,98] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to String for a varargs call
+  cast to String[] for a non-varargs call and to suppress this warning
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ http-client-tests ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\src\test\resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\test\http-client-tests\src\it\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ http-client-tests ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] No sources to compile
+[INFO] 
+[INFO] ----------------< software.amazon.awssdk:http-clients >-----------------
+[INFO] Building AWS Java SDK :: HTTP Clients 2.49.2-SNAPSHOT            [10/11]
+[INFO]   from http-clients\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ http-clients ---
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ http-clients ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ http-clients ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\http-clients\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ http-clients ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ http-clients ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ http-clients ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ http-clients ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ http-clients ---
+[INFO] 
+[INFO] --------------< software.amazon.awssdk:netty-nio-client >---------------
+[INFO] Building AWS Java SDK :: HTTP Clients :: Netty Non-Blocking I/O 2.49.2-SNAPSHOT [11/11]
+[INFO]   from http-clients\netty-nio-client\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ netty-nio-client ---
+[INFO] Deleting D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\netty-nio-client\target
+[INFO] 
+[INFO] --- checkstyle:3.1.2:check (checkstyle) @ netty-nio-client ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.13:prepare-agent (default-prepare-agent) @ netty-nio-client ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.13\\org.jacoco.agent-0.8.13-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\95247959\\http-clients\\netty-nio-client\\target\\jacoco.exec,excludes=software/amazon/awssdk/modulepath/tests/**/*.class:software/amazon/awssdk/nativeimagetest/**/*.class:software/amazon/awssdk/testutils/service/**/*.class:**/*Benchmark.class"
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-source (add-integ-sources) @ netty-nio-client ---
+[INFO] Test Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\netty-nio-client\src\it\java added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-test-resource (add-integ-resources) @ netty-nio-client ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-source (add-generated-sources) @ netty-nio-client ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\netty-nio-client\target\generated-sources\sdk added.
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-generated-resources) @ netty-nio-client ---
+[INFO] 
+[INFO] --- build-helper:3.3.0:add-resource (add-license-notice) @ netty-nio-client ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ netty-nio-client ---
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\netty-nio-client\target\generated-resources\sdk-resources
+[INFO] Copying 2 resources from ..\.. to target\classes\META-INF
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ netty-nio-client ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 91 source files with javac [debug target 1.8] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ netty-nio-client ---
+[INFO] Copying 5 resources from src\test\resources to target\test-classes
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\95247959\http-clients\netty-nio-client\src\it\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ netty-nio-client ---
+[WARNING]  Parameter 'forceJavacCompilerUse' (user property 'maven.compiler.forceJavacCompilerUse') is deprecated: Use forceLegacyJavacApi instead
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 94 source files with javac [debug target 1.8] to target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] AWS Java SDK :: Build Tools 1.0 .................... SUCCESS [  1.759 s]
+[INFO] AWS Java SDK :: Parent 2.49.2-SNAPSHOT ............. SUCCESS [  1.236 s]
+[INFO] AWS Java SDK :: Core 2.49.2-SNAPSHOT ............... SUCCESS [  0.084 s]
+[INFO] AWS Java SDK :: Annotations 2.49.2-SNAPSHOT ........ SUCCESS [  0.784 s]
+[INFO] AWS Java SDK :: Utilities 2.49.2-SNAPSHOT .......... SUCCESS [  5.629 s]
+[INFO] AWS Java SDK :: Test :: Test Utils 2.49.2-SNAPSHOT . SUCCESS [  1.080 s]
+[INFO] AWS Java SDK :: Metrics SPI 2.49.2-SNAPSHOT ........ SUCCESS [  0.517 s]
+[INFO] AWS Java SDK :: HTTP Client Interface 2.49.2-SNAPSHOT SUCCESS [  1.037 s]
+[INFO] AWS Java SDK :: Test :: HTTP Client Tests 2.49.2-SNAPSHOT SUCCESS [  0.910 s]
+[INFO] AWS Java SDK :: HTTP Clients 2.49.2-SNAPSHOT ....... SUCCESS [  0.049 s]
+[INFO] AWS Java SDK :: HTTP Clients :: Netty Non-Blocking I/O 2.49.2-SNAPSHOT SUCCESS [  3.928 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.726 s
+[INFO] Finished at: 2026-07-23T08:13:35+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

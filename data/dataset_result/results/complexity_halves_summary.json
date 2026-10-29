@@ -1,0 +1,23 @@
+{
+  "algorithm": "relative_halves_maxcc_sumcc_v1",
+  "boundary_tie_on_max_cc": true,
+  "higher": {
+    "count": 150,
+    "max": 37.0,
+    "mean": 8.62,
+    "median": 7.0,
+    "min": 4.0,
+    "q1": 5.0,
+    "q3": 10.0
+  },
+  "labels_are_relative_not_absolute": true,
+  "lower": {
+    "count": 150,
+    "max": 4.0,
+    "mean": 2.42,
+    "median": 2.0,
+    "min": 1.0,
+    "q1": 1.0,
+    "q3": 3.0
+  }
+}

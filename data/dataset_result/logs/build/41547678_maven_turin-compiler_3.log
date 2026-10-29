@@ -1,0 +1,197 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\pom.xml" -pl turin-compiler -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 12.509
+STDOUT:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.tomassetti:turin-compiler:jar:0.0.3-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.easymock:easymock:jar -> version 3.3.1 vs 3.4 @ line 79, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] turin-parent                                                       [pom]
+[INFO] bytecode-generation                                                [jar]
+[INFO] turin-programming-language                                         [jar]
+[INFO] turin-standard-library                                             [jar]
+[INFO] turin-compiler                                                     [jar]
+[INFO] 
+[INFO] ---------------------< me.tomassetti:turin-parent >---------------------
+[INFO] Building turin-parent 0.0.3-SNAPSHOT                               [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ turin-parent ---
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ turin-parent ---
+[INFO] 
+[INFO] -----------------< me.tomassetti:bytecode-generation >------------------
+[INFO] Building bytecode-generation 0.1.1-SNAPSHOT                        [2/5]
+[INFO]   from bytecode-generation\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ bytecode-generation ---
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ bytecode-generation ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ bytecode-generation ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\bytecode-generation\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ bytecode-generation ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\bytecode-generation\target\classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[3,35] sun.reflect.generics.parser.SignatureParser is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[33,9] sun.reflect.generics.tree.MethodTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[33,51] sun.reflect.generics.parser.SignatureParser is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[34,9] sun.reflect.generics.tree.TypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[42,31] sun.reflect.generics.tree.TypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[43,38] sun.reflect.generics.tree.LongSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[45,45] sun.reflect.generics.tree.IntSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[47,45] sun.reflect.generics.tree.BooleanSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[49,45] sun.reflect.generics.tree.CharSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[51,45] sun.reflect.generics.tree.ByteSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[53,45] sun.reflect.generics.tree.ShortSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[55,45] sun.reflect.generics.tree.FloatSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[57,45] sun.reflect.generics.tree.DoubleSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[59,45] sun.reflect.generics.tree.SimpleClassTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[60,13] sun.reflect.generics.tree.SimpleClassTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[60,66] sun.reflect.generics.tree.SimpleClassTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[63,45] sun.reflect.generics.tree.ClassTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[64,13] sun.reflect.generics.tree.ClassTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[64,54] sun.reflect.generics.tree.ClassTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[69,45] sun.reflect.generics.tree.ArrayTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[70,13] sun.reflect.generics.tree.ArrayTypeSignature is internal proprietary API and may be removed in a future release
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/bytecode-generation/src/main/java/me/tomassetti/jvm/JvmInvokableDefinition.java:[70,54] sun.reflect.generics.tree.ArrayTypeSignature is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ bytecode-generation ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\bytecode-generation\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ bytecode-generation ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\bytecode-generation\target\test-classes
+[INFO] 
+[INFO] ---------------------< me.tomassetti:turin-parser >---------------------
+[INFO] Building turin-programming-language 0.0.3-SNAPSHOT                 [3/5]
+[INFO]   from turin-parser\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ turin-parser ---
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ turin-parser ---
+[INFO] 
+[INFO] --- antlr4:4.5.1-1:antlr4 (antlr) @ turin-parser ---
+[INFO] ANTLR 4: Processing source directory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-parser\src\main\antlr4
+[INFO] Processing grammar: me\tomassetti\parser\antlr\TurinLexer.g4
+[WARNING] warning(155): me\tomassetti\parser\antlr\TurinLexer.g4:130:47: rule WS contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\me\tomassetti\parser\antlr\TurinLexer.g4 [130:47]: rule WS contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[WARNING] warning(155): me\tomassetti\parser\antlr\TurinLexer.g4:133:47: rule COMMENT contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\me\tomassetti\parser\antlr\TurinLexer.g4 [133:47]: rule COMMENT contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[WARNING] warning(155): me\tomassetti\parser\antlr\TurinLexer.g4:135:47: rule LINE_COMMENT contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\me\tomassetti\parser\antlr\TurinLexer.g4 [135:47]: rule LINE_COMMENT contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[WARNING] warning(155): me\tomassetti\parser\antlr\TurinLexer.g4:196:57: rule I_WS contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\me\tomassetti\parser\antlr\TurinLexer.g4 [196:57]: rule I_WS contains a lexer command with an unrecognized constant value; lexer interpreters may produce incorrect output
+[INFO] Processing grammar: me\tomassetti\parser\antlr\TurinParser.g4
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ turin-parser ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-parser\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ turin-parser ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-parser\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ turin-parser ---
+[INFO] Copying 17 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ turin-parser ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-parser\target\test-classes
+[INFO] 
+[INFO] ----------------< me.tomassetti:turin-standard-library >----------------
+[INFO] Building turin-standard-library 0.0.3-SNAPSHOT                     [4/5]
+[INFO]   from turin-standard-library\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ turin-standard-library ---
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ turin-standard-library ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ turin-standard-library ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-standard-library\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ turin-standard-library ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-standard-library\target\classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-standard-library/src/main/java/turin/relations/ManyToManyRelation.java: Some input files use unchecked or unsafe operations.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-standard-library/src/main/java/turin/relations/ManyToManyRelation.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ turin-standard-library ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-standard-library\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ turin-standard-library ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-standard-library\target\test-classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-standard-library/src/test/java/turin/relations/Teaching.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-standard-library\src\test\java\turin\relations\Teaching.java uses unchecked or unsafe operations.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-standard-library/src/test/java/turin/relations/Teaching.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --------------------< me.tomassetti:turin-compiler >--------------------
+[INFO] Building turin-compiler 0.0.3-SNAPSHOT                             [5/5]
+[INFO]   from turin-compiler\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ turin-compiler ---
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ turin-compiler ---
+[INFO] 
+[INFO] --- jacoco:0.7.5.201505241946:prepare-agent (default-prepare-agent) @ turin-compiler ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.5.201505241946\\org.jacoco.agent-0.7.5.201505241946-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\41547678\\turin-compiler\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ turin-compiler ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-compiler\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.0:compile (default-compile) @ turin-compiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 157 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-compiler\target\classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-compiler/src/main/java/me/tomassetti/turin/compiler/Compilation.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-compiler\src\main\java\me\tomassetti\turin\compiler\Compilation.java uses or overrides a deprecated API.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-compiler/src/main/java/me/tomassetti/turin/compiler/Compilation.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-compiler/src/main/java/me/tomassetti/turin/util/Either.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-compiler\src\main\java\me\tomassetti\turin\util\Either.java uses unchecked or unsafe operations.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-compiler/src/main/java/me/tomassetti/turin/util/Either.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ turin-compiler ---
+[INFO] Copying 89 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.0:testCompile (default-testCompile) @ turin-compiler ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 50 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41547678\turin-compiler\target\test-classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-compiler/src/test/java/me/tomassetti/turin/compiler/AbstractCompilerTest.java: Some input files use unchecked or unsafe operations.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/41547678/turin-compiler/src/test/java/me/tomassetti/turin/compiler/AbstractCompilerTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] turin-parent 0.0.3-SNAPSHOT ........................ SUCCESS [  0.773 s]
+[INFO] bytecode-generation 0.1.1-SNAPSHOT ................. SUCCESS [  1.739 s]
+[INFO] turin-programming-language 0.0.3-SNAPSHOT .......... SUCCESS [  2.387 s]
+[INFO] turin-standard-library 0.0.3-SNAPSHOT .............. SUCCESS [  0.353 s]
+[INFO] turin-compiler 0.0.3-SNAPSHOT ...................... SUCCESS [  5.423 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.859 s
+[INFO] Finished at: 2026-07-23T05:27:17+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

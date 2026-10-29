@@ -1,0 +1,63 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9619226\spring-data-simpledb-impl\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9619226
+DECLARED_JAVA: 6
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 18.287
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< com.3pillarglobal.labs:spring-data-simpledb >-------------
+[INFO] Building Spring Data SimpleDB Implementation 1.0.1
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] Artifact org.codehaus.jackson:jackson-core-asl:pom:1.8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.codehaus.jackson:jackson-core-asl:pom:1.8.0 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ spring-data-simpledb ---
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ spring-data-simpledb ---
+[INFO] 
+[INFO] --- checkstyle:2.10:check (default) @ spring-data-simpledb ---
+[INFO] Starting audit...
+Audit done.
+
+[INFO] 
+[INFO] >>> pmd:2.7.1:check (default) > :pmd @ spring-data-simpledb >>>
+[INFO] 
+[INFO] --- pmd:2.7.1:pmd (pmd) @ spring-data-simpledb ---
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] <<< pmd:2.7.1:check (default) < :pmd @ spring-data-simpledb <<<
+[INFO] 
+[INFO] 
+[INFO] --- pmd:2.7.1:check (default) @ spring-data-simpledb ---
+[INFO] 
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ spring-data-simpledb ---
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:2.3.2:compile (default-compile) @ spring-data-simpledb ---
+[INFO] Compiling 70 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9619226\spring-data-simpledb-impl\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ spring-data-simpledb ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9619226\spring-data-simpledb-impl\src\test\resources
+[INFO] 
+[INFO] --- compiler:2.3.2:testCompile (default-testCompile) @ spring-data-simpledb ---
+[INFO] Compiling 41 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\9619226\spring-data-simpledb-impl\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.133 s
+[INFO] Finished at: 2026-07-23T08:13:58+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

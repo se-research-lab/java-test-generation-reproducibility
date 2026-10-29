@@ -1,0 +1,69 @@
+{
+  "amended_script_inventory": [
+    {
+      "path": "config_v3.yaml",
+      "sha256": "a05265fe992df1165865c9619b35f6e4f9f5fb90f3ccfb642962c3bb5d7813b5",
+      "size": 3079
+    },
+    {
+      "path": "requirements-v3.txt",
+      "sha256": "c69f530315f395db103bab5ac30d07d0f5ca597fd4fc83079e02db7e856a8867",
+      "size": 29
+    },
+    {
+      "path": "maven-settings-v3.xml",
+      "sha256": "8a09df90f653dfa0266ce80e8709eb70d1987bcf95494e5add35f62026b27342",
+      "size": 1971
+    },
+    {
+      "path": "gradle-init-v3.gradle",
+      "sha256": "887b68029318a3e030306b9cc15a40be90f1f72f132a256819c5465b6abc14e0",
+      "size": 867
+    },
+    {
+      "path": "000_preflight_and_backup.py",
+      "sha256": "5cf0d8a68fcf8e6a2384281b9fcdbcca4d9ae8db9dc9dd7e9eef4c2304ed846d",
+      "size": 896
+    },
+    {
+      "path": "001_reconstruct_unique_frame.py",
+      "sha256": "b10db179fb41b43f3305baecd56086d0ef5733470bb6d0f731a73891c41f93fa",
+      "size": 709
+    },
+    {
+      "path": "002_create_repo_queue.py",
+      "sha256": "9790a4630ec1938560a0e50cb46e7bcd4448d1918e6e55312acb424a1de00063",
+      "size": 657
+    },
+    {
+      "path": "003_screen_and_build_repositories.py",
+      "sha256": "e240a5503231db39ee2329f6213a742a47745f9d9593566fc4c904b32aa2db8d",
+      "size": 1746
+    },
+    {
+      "path": "004_sample_classes.py",
+      "sha256": "fb3331b4e74cd2decd3e34eaff96054c272df2bd93b7087d22d9958230bd04cb",
+      "size": 683
+    },
+    {
+      "path": "005_validate_and_report.py",
+      "sha256": "f0cca74ef4fc33c382781f4f3e784d3037c9aab0b4cf420d83342f3250aa89b8",
+      "size": 680
+    },
+    {
+      "path": "pipeline_v3.py",
+      "sha256": "6eb3b695e0514636b1bdc9ea43b495b2e6607e42aaea4a82d20faf2e3d026924",
+      "size": 106176
+    },
+    {
+      "path": "v3_core.py",
+      "sha256": "7484b66cf488da88fe91825f4a612f741fd14285f5e480788b63fd60cfc338c0",
+      "size": 104215
+    }
+  ],
+  "amended_source_inventory_sha256": "5eb8beb7c838a08d8b6cace07d1f01f1edbcc7c30aae5b655b7a0920907435a5",
+  "prior_source_inventory_sha256": "c318a5fb2d9b824e59c89f79cb58a59060c227886da10235070df9b9f0c98c67",
+  "prior_step": "step002",
+  "reason": "windows_generated_tree_cleanup_and_promotion_v2",
+  "recorded_at": "2026-07-23T03:48:24+00:00"
+}
