@@ -1,0 +1,40 @@
+# 
+# Copyright 2017 SoftAvail Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# 
+
+# Shows more data in the console
+verbose=true
+
+# JDBC driver
+driver=com.mysql.jdbc.Driver
+# Database Url
+url=jdbc:mysql://localhost:3306/comms_router_core
+# Database username
+username=
+# Database password
+password=
+
+# Changelog file location
+changeLogFile=src/main/resources/db/changelog.yaml
+
+# Location of the generateChangeLog output
+outputChangeLogFile=src/main/resources/db/changelog_gen.yaml
+
+# Diff
+referenceDriver=com.mysql.jdbc.Driver
+referenceUrl=jdbc:mysql://localhost:3306/comms_router_core
+referenceUsername=
+referencePassword=
+diffChangeLogFile=src/main/resources/db/migrations/changelog-next.yaml

@@ -1,0 +1,51 @@
+package com.vaadin.tests.components.table;
+
+import com.vaadin.tests.components.TestBase;
+import com.vaadin.ui.Button;
+import com.vaadin.ui.VerticalLayout;
+import com.vaadin.v7.ui.Table;
+
+public class SetCurrentPageFirstItemId extends TestBase {
+    int index = 0;
+
+    private final Table table = new Table();
+
+    @Override
+    public void setup() {
+
+        VerticalLayout mainLayout = new VerticalLayout();
+        mainLayout.setHeight("100%");
+        mainLayout.setMargin(true);
+
+        getMainWindow().setContent(mainLayout);
+
+        mainLayout.addComponent(table);
+        table.setSizeFull();
+        table.addContainerProperty("rowID", Integer.class, null);
+        for (int i = 0; i < 20; i++) {
+            addRow();
+        }
+
+        Button addrowButton = new Button("Add row");
+        addrowButton.addClickListener(event -> {
+            Object id = addRow();
+            table.setCurrentPageFirstItemId(id);
+        });
+
+        mainLayout.addComponent(addrowButton);
+    }
+
+    private Object addRow() {
+        return table.addItem(new Object[] { index++ }, null);
+    }
+
+    @Override
+    protected String getDescription() {
+        return "Table.setCurrentPageFirstItemId doesn't always work with full sized Table";
+    }
+
+    @Override
+    protected Integer getTicketNumber() {
+        return 7607;
+    }
+}

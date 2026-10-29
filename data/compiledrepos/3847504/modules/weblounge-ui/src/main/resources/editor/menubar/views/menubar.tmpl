@@ -1,0 +1,67 @@
+<a name="designer" class="wbl-tab wbl-designer wbl-active" href="#wbl-designer">Designer</a>
+<a name="pages" class="wbl-tab wbl-pages" href="#wbl-pages">Pages</a>
+<a name="media" class="wbl-tab wbl-media" href="#wbl-media">Media</a>
+
+<img src="${runtime.getRootPath()}/editor/menubar/images/page-settings.png" class="wbl-pageSettings" alt="Pageproperties" />
+
+<span class="wbl-editmode">
+	<input type="checkbox" value="editmode" id="wbl-editmode" />
+	<span class="wbl-editmodeText">Editiermodus</span>
+</span>
+
+<button class="wbl-editorSelectionOK" type="button">Ausw&auml;hlen</button>
+<button class="wbl-editorSelectionCancel" type="button">Abbrechen</button>
+
+{{if runtime.getLanguages().length>1}}
+<span class="wbl-language">
+	<img src='${runtime.getRootPath()}/editor/resources/flags/${current}.png' title='${current}'/>
+</span>
+<span class="wbl-languageMenu">
+	{{each runtime.getLanguages()}}
+		<img src="${runtime.getRootPath()}/editor/resources/flags/${$value.language}.png" alt="${$value.language}" title="${$value.language}" />
+    {{/each}}
+</span>
+{{/if}}
+
+<span class="wbl-right">
+	<span class="wbl-profileMenu">
+	    <!--
+		<img src="${runtime.getRootPath()}/editor/menubar/images/user.png" class="wbl-user" alt="" />
+		-->
+		<!-- <span id="wbl-user">${runtime.getFirstName()}</span> -->
+		<img src="${runtime.getRootPath()}/editor/menubar/images/logout.png" class="wbl-logout" alt="Logout" />
+	</span>
+</span>
+
+<!--
+<div id="wbl-addMenu" class="wbl-menu">
+	<span class="wbl-triangleUp"></span>
+	<ul>
+		<li class="wbl-newPage">Neue Seite erstellen</li>
+		<li class="wbl-newUpload">Neues Medium hochladen</li>
+		<li class="wbl-newNote">Neue Notiz erstellen</li>
+		<li class="wbl-newPagelet">Pagelet Toolbar</li>
+	</ul>
+</div>
+
+<div id="wbl-moreMenu" class="wbl-menu">
+	<span class="wbl-triangleUp"></span>
+	<ul>
+		<li class="wbl-pageSettings">Seiten-Eigenschaften</li>
+		<li>Als Favorit kennzeichnen</li>
+		<li>Seite duplizieren</li>
+		<li class="wbl-publish">Publizieren...</li>
+		<li>Zugriff einschr&auml;nken</li>
+		<li>Verherige Versionen...</li>
+	</ul>
+</div>
+
+<div id="wbl-profileMenu" class="wbl-menu">
+	<span class="wbl-triangleUp"></span>
+	<ul>
+		<li class="wbl-userSettings">Einstellungen</li>
+		<li class="wbl-notification">Nachrichten</li>
+		<li class="wbl-logout">Logout</li>
+	</ul>
+</div> 
+-->

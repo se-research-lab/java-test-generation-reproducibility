@@ -1,0 +1,44 @@
+dependencies {
+  compile project(':data')
+  compile project(':data-transform')
+  compile project(':pegasus-common')
+  compile project(':d2')
+  compile project(':r2-core')
+  compile project(':restli-common')
+  compile project(':restli-disruptor')
+  compile project(':li-jersey-uri')
+  compile project(':multipart-mime')
+  compile externalDependency.parseq
+  compile externalDependency.parseq_restClient
+  compile externalDependency.mail
+  implementation externalDependency.caffeine
+  testCompile project(path: ':restli-common', configuration: 'testArtifacts')
+  testCompile project(path: ':restli-internal-testutils', configuration: 'testArtifacts')
+  testCompile project(path: ':multipart-mime', configuration: 'testArtifacts')
+  testCompile project(':test-util')
+  testCompile externalDependency.guava
+  testCompile externalDependency.testng
+  testCompile externalDependency.junit
+  testCompile externalDependency.easymock
+  testCompile externalDependency.commonsHttpClient
+  testCompile externalDependency.mockito
+  testCompile externalDependency.parseq_testApi
+  testRuntime externalDependency.objenesis
+}
+
+apply from: "${buildScriptDirPath}/dataTemplate.gradle"
+testCompileDataTemplate.options.compilerArgs += '-Xlint:-deprecation'
+compileTestJava.options.compilerArgs += '-Xlint:-deprecation'
+
+test {
+  systemProperties['test.projectDir'] = projectDir.toString()
+}
+
+// generate pdsc files under "unionPegasus" directory with explicit ordering
+project.sourceSets.all { SourceSet sourceSet ->
+  final Task dataTemplateGenerateTask = rootProject.ext.build.dataTemplateGenerateTasks[sourceSet]
+  if (dataTemplateGenerateTask != null)
+  {
+    dataTemplateGenerateTask.systemProperties(['generator.generate.field.mask': "true"])
+  }
+}

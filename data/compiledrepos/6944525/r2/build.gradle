@@ -1,0 +1,4 @@
+dependencies {
+  compile project(':r2-core')
+  compile project(':r2-netty')
+}

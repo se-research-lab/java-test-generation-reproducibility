@@ -1,0 +1,80 @@
+{
+  "models" : [ {
+    "type" : "record",
+    "name" : "Greeting",
+    "namespace" : "com.linkedin.restli.examples.greetings.api",
+    "doc" : "A greeting",
+    "fields" : [ {
+      "name" : "id",
+      "type" : "long"
+    }, {
+      "name" : "message",
+      "type" : "string"
+    }, {
+      "name" : "tone",
+      "type" : {
+        "type" : "enum",
+        "name" : "Tone",
+        "symbols" : [ "FRIENDLY", "SINCERE", "INSULTING" ]
+      },
+      "doc" : "tone"
+    }, {
+      "name" : "senders",
+      "type" : {
+        "type" : "array",
+        "items" : "string"
+      },
+      "doc" : "Sender(s) of the message",
+      "optional" : true
+    } ]
+  }, "com.linkedin.restli.examples.greetings.api.Tone" ],
+  "schema" : {
+    "name" : "exceptions",
+    "namespace" : "com.linkedin.restli.examples.greetings.client",
+    "path" : "/exceptions",
+    "schema" : "com.linkedin.restli.examples.greetings.api.Greeting",
+    "doc" : "generated from: com.linkedin.restli.examples.greetings.server.ExceptionsResource",
+    "resourceClass" : "com.linkedin.restli.examples.greetings.server.ExceptionsResource",
+    "collection" : {
+      "identifier" : {
+        "name" : "exceptionsId",
+        "type" : "long"
+      },
+      "supports" : [ "batch_create", "create", "get" ],
+      "methods" : [ {
+        "method" : "create",
+        "javaMethodName" : "create",
+        "doc" : "Responds with an error for requests to create insulting greetings, responds\n with 201 created for all other requests."
+      }, {
+        "method" : "get",
+        "javaMethodName" : "get"
+      }, {
+        "method" : "batch_create",
+        "javaMethodName" : "batchCreate",
+        "doc" : "For a batch create request, responds with an error for requests to create insulting greetings, responds\n with 201 created for all other requests."
+      } ],
+      "actions" : [ {
+        "name" : "errorResponseFormatMessageAndDetails",
+        "javaMethodName" : "errorResponseFormatMessageAndDetails"
+      }, {
+        "name" : "errorResponseFormatMessageAndServiceCode",
+        "javaMethodName" : "errorResponseFormatMessageAndServiceCode"
+      }, {
+        "name" : "errorResponseFormatMessageAndServiceCodeAndExceptionClass",
+        "javaMethodName" : "errorResponseFormatMessageAndServiceCodeAndExceptionClass"
+      }, {
+        "name" : "errorResponseFormatMessageOnly",
+        "javaMethodName" : "errorResponseFormatMessageOnly"
+      }, {
+        "name" : "errorResponseFormatMinimal",
+        "javaMethodName" : "errorResponseFormatMinimal"
+      }, {
+        "name" : "errorWithEmptyStatus",
+        "javaMethodName" : "errorWithEmptyStatus"
+      } ],
+      "entity" : {
+        "path" : "/exceptions/{exceptionsId}"
+      }
+    }
+  }
+}

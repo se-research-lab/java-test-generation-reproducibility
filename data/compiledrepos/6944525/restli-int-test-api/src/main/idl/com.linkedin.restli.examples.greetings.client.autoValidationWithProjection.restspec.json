@@ -1,0 +1,52 @@
+{
+  "annotations" : {
+    "createOnly" : {
+      "value" : [ "stringB", "intB", "UnionFieldWithInlineRecord/com.linkedin.restli.examples.greetings.api.myRecord/foo2", "MapWithTyperefs/*/id", "ArrayWithInlineRecord/*/bar3" ]
+    },
+    "readOnly" : {
+      "value" : [ "stringA", "intA", "UnionFieldWithInlineRecord/com.linkedin.restli.examples.greetings.api.myRecord/foo1", "ArrayWithInlineRecord/*/bar1", "validationDemoNext/stringB", "validationDemoNext/UnionFieldWithInlineRecord" ]
+    }
+  },
+  "name" : "autoValidationWithProjection",
+  "namespace" : "com.linkedin.restli.examples.greetings.client",
+  "path" : "/autoValidationWithProjection",
+  "schema" : "com.linkedin.restli.examples.greetings.api.ValidationDemo",
+  "doc" : "A simplied resource for testing Rest.li data automatic validation with automatic projection.\n\ngenerated from: com.linkedin.restli.examples.greetings.server.AutomaticValidationWithProjectionResource",
+  "resourceClass" : "com.linkedin.restli.examples.greetings.server.AutomaticValidationWithProjectionResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "autoValidationWithProjectionId",
+      "type" : "int"
+    },
+    "supports" : [ "batch_create", "batch_get", "create", "get", "get_all" ],
+    "methods" : [ {
+      "annotations" : {
+        "returnEntity" : { }
+      },
+      "method" : "create",
+      "javaMethodName" : "create"
+    }, {
+      "method" : "get",
+      "javaMethodName" : "get"
+    }, {
+      "annotations" : {
+        "returnEntity" : { }
+      },
+      "method" : "batch_create",
+      "javaMethodName" : "batchCreate"
+    }, {
+      "method" : "batch_get",
+      "javaMethodName" : "batchGet"
+    }, {
+      "method" : "get_all",
+      "javaMethodName" : "getAll"
+    } ],
+    "finders" : [ {
+      "name" : "searchWithProjection",
+      "javaMethodName" : "searchWithProjection"
+    } ],
+    "entity" : {
+      "path" : "/autoValidationWithProjection/{autoValidationWithProjectionId}"
+    }
+  }
+}

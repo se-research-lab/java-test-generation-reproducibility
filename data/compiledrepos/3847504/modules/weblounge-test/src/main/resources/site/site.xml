@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<site id="weblounge-test" xmlns="http://www.entwinemedia.com/weblounge/3.2/site" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.entwinemedia.com/weblounge/3.2/site http://www.entwinemedia.com/xsd/weblounge/3.2/site.xsd">
+  <autostart>true</autostart>
+  <class>ch.entwine.weblounge.test.site.TestSite</class>
+  <name>Weblounge Test Site</name>
+  <languages>
+    <language default="true">de</language>
+    <language>fr</language>
+    <language>en</language>
+  </languages>
+  <domains>
+    <url environment="production" default="true">http://test:8080</url>
+    <url environment="production">http://localhost:8080</url>
+    <url environment="production">http://127.0.0.1:8080</url>
+    <url environment="staging" default="true">http://127.0.0.1:8080</url>
+    <url environment="staging">http://localhost:8080</url>
+    <url environment="staging">http://test:8080</url>
+    <url environment="development" default="true">http://localhost:8080</url>
+    <url environment="development">http://127.0.0.1:8080</url>
+    <url environment="development">http://test:8080</url>
+    <url environment="development">http://test</url>
+  </domains>
+  <security>
+    <digest>md5</digest>
+    <administrator>
+      <login>testadmin</login>
+      <password type="plain">secret</password>
+      <name>Web Office</name>
+      <email>weboffice@nowhere.com</email>
+    </administrator>
+  </security>
+  <templates>
+    <template id="default" composeable="true" default="true">
+      <name>Default template</name>
+      <renderer>file://${site.root}/templates/default.jsp</renderer>
+      <stage>main</stage>
+      <recheck>1d10M</recheck>
+      <valid>1w1d1H1M</valid>
+    </template>
+    <template id="alternate" composeable="true">
+      <name>Default template</name>
+      <renderer>file://${site.root}/templates/alternate.jsp</renderer>
+      <stage>main</stage>
+    </template>
+    <template id="ghost" composeable="false">
+      <name>Ghost template</name>
+      <renderer>file://${site.root}/templates/ghost.jsp</renderer>
+      <stage>main</stage>
+    </template>
+    <template id="welcome" composeable="false">
+      <name>Welcome page</name>
+      <renderer>file://${site.root}/templates/welcome.jsp</renderer>
+      <stage>main</stage>
+      <recheck>1d10M</recheck>
+      <valid>1w1d1H1M</valid>
+    </template>
+    <template id="search" composeable="false">
+      <name>Search template</name>
+      <renderer>file://${site.root}/templates/search.jsp</renderer>
+      <stage>main</stage>
+      <recheck>10M</recheck>
+      <valid>1H</valid>
+    </template>
+  </templates>
+  <options>
+  	<option>
+  		<name>contentrepository.type</name>
+  		<value>ch.entwine.weblounge.contentrepository.impl.bundle.WritableBundleContentRepository</value>
+  	</option>
+  </options>
+</site>

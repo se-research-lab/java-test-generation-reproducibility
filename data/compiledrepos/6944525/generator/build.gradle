@@ -1,0 +1,19 @@
+dependencies {
+  compile project(':data')
+  compile project(':data-transform')
+  compile project(':r2-core')
+  compile project(':pegasus-common')
+  compile externalDependency.commonsCli
+  compile externalDependency.commonsIo
+  compile externalDependency.codemodel
+  compile externalDependency.jsr305
+  compile externalDependency.javaxAnnotation
+
+  testCompile externalDependency.testng
+  testCompile externalDependency.mockito
+}
+
+// Pass in a path to the test .json files for all test tasks (test, asyncTests, testsWithoutAssertion...)
+tasks.matching { it instanceof Test }.each {
+  it.systemProperties['testDir'] = file("src/test").absolutePath
+}

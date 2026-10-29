@@ -1,0 +1,83 @@
+{
+  "name" : "complexKeys",
+  "namespace" : "com.linkedin.restli.examples.greetings.client",
+  "path" : "/complexKeys",
+  "schema" : "com.linkedin.restli.examples.greetings.api.Message",
+  "doc" : "Demonstrates a resource with a complex key.\n\ngenerated from: com.linkedin.restli.examples.greetings.server.ComplexKeysResource",
+  "resourceClass" : "com.linkedin.restli.examples.greetings.server.ComplexKeysResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "keys",
+      "type" : "com.linkedin.restli.examples.greetings.api.TwoPartKey",
+      "params" : "com.linkedin.restli.examples.greetings.api.TwoPartKey"
+    },
+    "supports" : [ "batch_create", "batch_delete", "batch_get", "batch_partial_update", "batch_update", "create", "get", "get_all", "partial_update" ],
+    "methods" : [ {
+      "method" : "create",
+      "javaMethodName" : "create"
+    }, {
+      "method" : "get",
+      "javaMethodName" : "get"
+    }, {
+      "method" : "partial_update",
+      "javaMethodName" : "update"
+    }, {
+      "method" : "batch_create",
+      "javaMethodName" : "batchCreate"
+    }, {
+      "method" : "batch_get",
+      "javaMethodName" : "batchGet"
+    }, {
+      "method" : "batch_update",
+      "javaMethodName" : "batchUpdate"
+    }, {
+      "method" : "batch_partial_update",
+      "javaMethodName" : "batchUpdate"
+    }, {
+      "method" : "batch_delete",
+      "javaMethodName" : "batchDelete"
+    }, {
+      "method" : "get_all",
+      "javaMethodName" : "getAll",
+      "pagingSupported" : true
+    } ],
+    "finders" : [ {
+      "name" : "prefix",
+      "javaMethodName" : "prefix",
+      "parameters" : [ {
+        "name" : "prefix",
+        "type" : "string"
+      } ]
+    } ],
+    "entity" : {
+      "path" : "/complexKeys/{keys}",
+      "actions" : [ {
+        "name" : "entityAction",
+        "javaMethodName" : "entityAction",
+        "returns" : "int"
+      } ],
+      "subresources" : [ {
+        "name" : "complexKeysSub",
+        "namespace" : "com.linkedin.restli.examples.greetings.client",
+        "path" : "/complexKeys/{keys}/complexKeysSub",
+        "schema" : "com.linkedin.restli.examples.greetings.api.TwoPartKey",
+        "doc" : "generated from: com.linkedin.restli.examples.greetings.server.ComplexKeysSubResource",
+        "resourceClass" : "com.linkedin.restli.examples.greetings.server.ComplexKeysSubResource",
+        "collection" : {
+          "identifier" : {
+            "name" : "subKey",
+            "type" : "string"
+          },
+          "supports" : [ "get" ],
+          "methods" : [ {
+            "method" : "get",
+            "javaMethodName" : "get"
+          } ],
+          "entity" : {
+            "path" : "/complexKeys/{keys}/complexKeysSub/{subKey}"
+          }
+        }
+      } ]
+    }
+  }
+}

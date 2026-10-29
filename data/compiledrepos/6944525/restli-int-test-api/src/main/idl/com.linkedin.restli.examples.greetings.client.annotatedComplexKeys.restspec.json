@@ -1,0 +1,55 @@
+{
+  "name" : "annotatedComplexKeys",
+  "namespace" : "com.linkedin.restli.examples.greetings.client",
+  "path" : "/annotatedComplexKeys",
+  "schema" : "com.linkedin.restli.examples.greetings.api.Message",
+  "doc" : "generated from: com.linkedin.restli.examples.greetings.server.AnnotatedComplexKeysResource",
+  "resourceClass" : "com.linkedin.restli.examples.greetings.server.AnnotatedComplexKeysResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "annotatedComplexKeyId",
+      "type" : "com.linkedin.restli.examples.greetings.api.TwoPartKey",
+      "params" : "com.linkedin.restli.examples.greetings.api.TwoPartKey"
+    },
+    "supports" : [ "batch_delete", "batch_get", "batch_partial_update", "batch_update", "create", "get", "partial_update" ],
+    "methods" : [ {
+      "method" : "create",
+      "javaMethodName" : "create"
+    }, {
+      "method" : "get",
+      "javaMethodName" : "get"
+    }, {
+      "method" : "partial_update",
+      "javaMethodName" : "update"
+    }, {
+      "method" : "batch_get",
+      "javaMethodName" : "batchGet"
+    }, {
+      "method" : "batch_update",
+      "javaMethodName" : "batchUpdate"
+    }, {
+      "method" : "batch_partial_update",
+      "javaMethodName" : "batchUpdate"
+    }, {
+      "method" : "batch_delete",
+      "javaMethodName" : "batchDelete"
+    } ],
+    "finders" : [ {
+      "annotations" : {
+        "testMethod" : {
+          "doc" : "For integration tests only."
+        }
+      },
+      "name" : "prefix",
+      "javaMethodName" : "prefix",
+      "doc" : "Example javadoc",
+      "parameters" : [ {
+        "name" : "prefix",
+        "type" : "string"
+      } ]
+    } ],
+    "entity" : {
+      "path" : "/annotatedComplexKeys/{annotatedComplexKeyId}"
+    }
+  }
+}

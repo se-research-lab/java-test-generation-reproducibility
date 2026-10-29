@@ -1,0 +1,26 @@
+{
+  "type" : "record",
+  "name" : "InlineSchemaTyperef",
+  "namespace" : "com.linkedin.greetings.api",
+  "include" : [
+    "com.linkedin.common.GreetingCommon"
+  ],
+  "fields" : [
+    {
+      "name" : "NamespaceWithReservedKeyword",
+      "type" : {
+        "type" : "array",
+        "items" : {
+          "type" : "typeref",
+          "name" : "ItemWithNamespace",
+          "namespace" : "com.linkedin.greetings.api.typeref",
+          "ref" : "string"
+        }
+      }
+    },
+    {
+      "name" : "IncludeType",
+      "type" : "com.linkedin.common.GreetingCommon"
+    }
+  ]
+}

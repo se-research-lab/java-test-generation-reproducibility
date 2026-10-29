@@ -1,0 +1,4 @@
+record WithoutResolverExamplePdl {
+  inlineRecord: record InlineRecord {}
+  reference: InlineRecord
+}

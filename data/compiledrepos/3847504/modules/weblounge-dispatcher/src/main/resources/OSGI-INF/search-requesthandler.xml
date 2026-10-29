@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+  immediate="true"
+  name="Weblounge Search Request Handler">
+
+  <implementation class="ch.entwine.weblounge.dispatcher.impl.handler.SearchRequestHandlerImpl" />
+  <property name="service.description" value="Weblounge Search Request Handler" />
+  <service>
+    <provide interface="ch.entwine.weblounge.dispatcher.RequestHandler" />
+  </service>
+
+  <reference name="serializer" interface="ch.entwine.weblounge.common.repository.ResourceSerializerService" cardinality="1..1" policy="static" bind="setResourceSerializer" />
+
+</scr:component>

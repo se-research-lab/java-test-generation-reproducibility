@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/shiro/login"/>
+        <property name="successUrl" value="/dashboard/index"/>
+        <property name="unauthorizedUrl" value="/error/403"/>
+        <property name="filterChainDefinitions">
+            <value>
+                /css/** = anon
+                /font-awesome/** = anon
+                /images/** = anon
+                /img/** = anon
+                /job/** = anon
+                /js/** = anon
+                /shiro/login = sessionAuth
+                /shiro/logout = logout
+                /** = user
+            </value>
+        </property>
+    </bean>
+
+    <bean id="sessionAuth" class="com.zuoxiaolong.niubi.job.console.shiro.SessionFormAuthenticationFilter"/>
+
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="hibernateRealm" />
+    </bean>
+
+    <bean id="hibernateRealm" class="com.zuoxiaolong.niubi.job.persistent.shiro.HibernateRealm">
+        <property name="credentialsMatcher">
+            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+                <property name="hashAlgorithmName" value="MD5"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+</beans>
+

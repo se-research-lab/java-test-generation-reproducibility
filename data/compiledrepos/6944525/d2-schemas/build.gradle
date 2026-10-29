@@ -1,0 +1,7 @@
+dependencies {
+  compile project(':data')
+  compile externalDependency.javaxAnnotation
+  testCompile externalDependency.testng
+}
+
+apply from: "${buildScriptDirPath}/dataTemplate.gradle"

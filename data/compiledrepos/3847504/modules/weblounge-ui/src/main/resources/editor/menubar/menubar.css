@@ -1,0 +1,134 @@
+.editor_menubar {
+	background-color: #242F37;
+	background-image: -moz-linear-gradient(0% 0 90deg, #4D585E, #242F37); 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#4D585E), to(#242F37), color-stop(0.5, #242F37), color-stop(0.5, #242F37));
+	color: #FFFFFF;
+	height: 35px;
+	line-height: 35px;
+	position: fixed; /* needed for tabs 'pages' and 'media' */
+	width: 100%;
+	padding-left: 20px;
+	overflow: hidden;
+	z-index: 420;
+}
+
+#wbl-pageletcreator {
+	z-index: 400;
+}
+
+.editor_menubar img {
+    vertical-align: inherit; /* needed to override user-sites-styles */
+}
+
+.editor_menubar img.wbl-pageSettings {
+ 	height: 21px;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+ }
+
+.editor_menubar a.wbl-tab {
+   border-left: 1px solid transparent;
+   border-right: 1px solid transparent;
+   color: #FFFFFF;
+   padding: 15px 15px;
+   font-size: 12px;
+   text-decoration: none;
+}
+
+.editor_menubar button.wbl-editorSelectionCancel, .editor_menubar button.wbl-editorSelectionOK {
+	display: none;
+	float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.editor_menubar a.wbl-tab.wbl-active,
+.editor_menubar a.wbl-tab:hover {
+    background-color: #2C2C2D;
+    background-image: -moz-linear-gradient(left center , #323232 0%, #454444 50%, #323232 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#454444), color-stop(0.5, #454444), color-stop(0.5, #454444));
+    border-left: 1px solid #464647;
+    border-right: 1px solid #464647;
+}
+
+.editor_menubar input[type="search"], nav.wbl-icons input[type="text"] {
+    border-left: 0 none;
+    background: #000 url('images/lupe.png') no-repeat 3px right;
+    border-radius: 6px 6px 6px 6px;
+    border-top: 0 none;
+    color: #999999;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.editor_menubar input[type="checkbox"] {
+	margin: 5px;
+    vertical-align: inherit;
+}
+
+.editor_menubar .wbl-right {
+    float: right;
+    margin-right: 10px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.editor_menubar .wbl-profileMenu {
+	margin-right: 30px;
+}
+
+.editor_menubar img,
+.editor_menubar .wbl-language,
+div.wbl-overlayIcons span.wbl-more {
+	cursor: pointer;
+}
+
+.editor_menubar img.wbl-user {
+	cursor: default;
+	padding: 2px 8px;
+	width: 35px;
+	height: 35px;
+	position: relative;
+	top: -2px;
+}
+
+.editor_menubar img.wbl-logout {
+	cursor: pointer;
+	position: relative;
+}
+
+
+.editor_menubar #wbl-user {
+	position: relative;
+    top: -16px;
+}
+
+.editor_menubar .wbl-language {
+	position: absolute;
+	top: 10px;
+	right: 500px;
+}
+
+.editor_menubar .wbl-languageMenu {
+	position: absolute;
+	right: 400px;
+	display: none;
+}
+
+.editor_menubar .wbl-alignLeft {
+	float: left;
+}
+
+.editor_menubar .wbl-alignCenter {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.editor_menubar .wbl-alignRight {
+	float: right;
+}
+
+.editor_menubar button:hover {
+	color: #000
+}

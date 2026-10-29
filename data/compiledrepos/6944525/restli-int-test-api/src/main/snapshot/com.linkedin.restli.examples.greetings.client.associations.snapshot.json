@@ -1,0 +1,193 @@
+{
+  "models" : [ {
+    "type" : "record",
+    "name" : "Empty",
+    "namespace" : "com.linkedin.restli.examples.greetings.api",
+    "fields" : [ ]
+  }, {
+    "type" : "record",
+    "name" : "Message",
+    "namespace" : "com.linkedin.restli.examples.greetings.api",
+    "doc" : "A message",
+    "fields" : [ {
+      "name" : "id",
+      "type" : "string"
+    }, {
+      "name" : "message",
+      "type" : "string"
+    }, {
+      "name" : "tone",
+      "type" : {
+        "type" : "enum",
+        "name" : "Tone",
+        "symbols" : [ "FRIENDLY", "SINCERE", "INSULTING" ]
+      },
+      "doc" : "tone"
+    } ]
+  }, {
+    "type" : "record",
+    "name" : "MessageCriteria",
+    "namespace" : "com.linkedin.restli.examples.greetings.api",
+    "doc" : "A search criteria to filter messages.",
+    "fields" : [ {
+      "name" : "message",
+      "type" : "string"
+    }, {
+      "name" : "tone",
+      "type" : "Tone",
+      "doc" : "Message tone to filter on"
+    } ]
+  }, "com.linkedin.restli.examples.greetings.api.Tone" ],
+  "schema" : {
+    "name" : "associations",
+    "namespace" : "com.linkedin.restli.examples.greetings.client",
+    "path" : "/associations",
+    "schema" : "com.linkedin.restli.examples.greetings.api.Message",
+    "doc" : "Demonstrates an assocation resource keyed by string.\n\ngenerated from: com.linkedin.restli.examples.greetings.server.AssociationsResource",
+    "resourceClass" : "com.linkedin.restli.examples.greetings.server.AssociationsResource",
+    "association" : {
+      "identifier" : "associationsId",
+      "assocKeys" : [ {
+        "name" : "dest",
+        "type" : "string"
+      }, {
+        "name" : "src",
+        "type" : "string"
+      } ],
+      "supports" : [ "batch_get", "batch_partial_update", "batch_update", "create", "get" ],
+      "methods" : [ {
+        "method" : "create",
+        "javaMethodName" : "create"
+      }, {
+        "method" : "get",
+        "javaMethodName" : "get"
+      }, {
+        "method" : "batch_get",
+        "javaMethodName" : "batchGet"
+      }, {
+        "method" : "batch_update",
+        "javaMethodName" : "batchUpdate"
+      }, {
+        "method" : "batch_partial_update",
+        "javaMethodName" : "batchUpdate"
+      } ],
+      "finders" : [ {
+        "name" : "assocKeyFinder",
+        "javaMethodName" : "assocKeyFinder",
+        "assocKeys" : [ "src" ]
+      }, {
+        "name" : "assocKeyFinderOpt",
+        "javaMethodName" : "assocKeyFinderOpt",
+        "assocKeys" : [ "src" ]
+      } ],
+      "batchFinders" : [ {
+        "name" : "searchMessages",
+        "javaMethodName" : "searchMessages",
+        "parameters" : [ {
+          "name" : "criteria",
+          "type" : "{ \"type\" : \"array\", \"items\" : \"com.linkedin.restli.examples.greetings.api.MessageCriteria\" }"
+        } ],
+        "metadata" : {
+          "type" : "com.linkedin.restli.examples.greetings.api.Empty"
+        },
+        "assocKeys" : [ "src" ],
+        "pagingSupported" : true,
+        "batchParam" : "criteria"
+      } ],
+      "entity" : {
+        "path" : "/associations/{associationsId}",
+        "actions" : [ {
+          "name" : "testAction",
+          "javaMethodName" : "testAction",
+          "returns" : "string"
+        } ],
+        "subresources" : [ {
+          "name" : "associationsAssociations",
+          "namespace" : "com.linkedin.restli.examples.greetings.client",
+          "path" : "/associations/{associationsId}/associationsAssociations",
+          "schema" : "com.linkedin.restli.examples.greetings.api.Message",
+          "doc" : "Association resource under a parent association resource\n\ngenerated from: com.linkedin.restli.examples.greetings.server.AssociationsAssociationsResource",
+          "resourceClass" : "com.linkedin.restli.examples.greetings.server.AssociationsAssociationsResource",
+          "association" : {
+            "identifier" : "associationsAssociationsId",
+            "assocKeys" : [ {
+              "name" : "anotherDest",
+              "type" : "string"
+            }, {
+              "name" : "anotherSrc",
+              "type" : "string"
+            } ],
+            "supports" : [ ],
+            "entity" : {
+              "path" : "/associations/{associationsId}/associationsAssociations/{associationsAssociationsId}",
+              "subresources" : [ {
+                "name" : "associationsAssociationsSub",
+                "namespace" : "com.linkedin.restli.examples.greetings.client",
+                "path" : "/associations/{associationsId}/associationsAssociations/{associationsAssociationsId}/associationsAssociationsSub",
+                "schema" : "com.linkedin.restli.examples.greetings.api.Message",
+                "doc" : "Collection resource under an association resource which is also under an association resource\n\ngenerated from: com.linkedin.restli.examples.greetings.server.AssociationsAssociationsSubResource",
+                "resourceClass" : "com.linkedin.restli.examples.greetings.server.AssociationsAssociationsSubResource",
+                "collection" : {
+                  "identifier" : {
+                    "name" : "subKey",
+                    "type" : "string"
+                  },
+                  "supports" : [ "get" ],
+                  "methods" : [ {
+                    "method" : "get",
+                    "javaMethodName" : "get"
+                  } ],
+                  "entity" : {
+                    "path" : "/associations/{associationsId}/associationsAssociations/{associationsAssociationsId}/associationsAssociationsSub/{subKey}"
+                  }
+                }
+              } ]
+            }
+          }
+        }, {
+          "name" : "associationsSub",
+          "namespace" : "com.linkedin.restli.examples.greetings.client",
+          "path" : "/associations/{associationsId}/associationsSub",
+          "schema" : "com.linkedin.restli.examples.greetings.api.Message",
+          "doc" : "generated from: com.linkedin.restli.examples.greetings.server.AssociationsSubResource",
+          "resourceClass" : "com.linkedin.restli.examples.greetings.server.AssociationsSubResource",
+          "collection" : {
+            "identifier" : {
+              "name" : "subKey",
+              "type" : "string"
+            },
+            "supports" : [ "get" ],
+            "methods" : [ {
+              "method" : "get",
+              "javaMethodName" : "get"
+            } ],
+            "finders" : [ {
+              "name" : "tone",
+              "javaMethodName" : "findByTone",
+              "parameters" : [ {
+                "name" : "tone",
+                "type" : "com.linkedin.restli.examples.greetings.api.Tone"
+              } ]
+            } ],
+            "actions" : [ {
+              "name" : "action",
+              "javaMethodName" : "action",
+              "returns" : "int"
+            }, {
+              "name" : "concatenateStrings",
+              "javaMethodName" : "thingAction",
+              "returns" : "string"
+            }, {
+              "name" : "getSource",
+              "javaMethodName" : "srcAction",
+              "returns" : "string"
+            } ],
+            "entity" : {
+              "path" : "/associations/{associationsId}/associationsSub/{subKey}"
+            }
+          }
+        } ]
+      }
+    }
+  }
+}

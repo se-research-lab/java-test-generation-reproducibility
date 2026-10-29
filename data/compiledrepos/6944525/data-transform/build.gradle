@@ -1,0 +1,8 @@
+dependencies {
+  compile project (':data')
+  testCompile externalDependency.testng
+  testCompile project(path: ':data', configuration: 'testArtifacts')
+  testCompile project(path: ':generator-test', configuration: 'testArtifacts')
+}
+
+apply from: "${buildScriptDirPath}/dataTemplate.gradle"

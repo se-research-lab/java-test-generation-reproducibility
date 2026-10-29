@@ -1,0 +1,47 @@
+apply plugin: 'antlr'
+
+dependencies {
+  compile project(':entity-stream')
+  compile project(':li-protobuf')
+  compile project(':pegasus-common')
+  compile externalDependency.antlrRuntime
+  compile externalDependency.caffeine
+  compile externalDependency.commonsText
+  compile externalDependency.jacksonCore
+  compile externalDependency.jacksonSmile
+  runtime externalDependency.javaxAnnotation
+
+  testCompile project(':data-testutils')
+  testCompile externalDependency.commonsIo
+  testCompile externalDependency.testng
+  testCompile externalDependency.junit
+  testCompile externalDependency.mockito
+
+  antlr externalDependency.antlr
+}
+
+test {
+  maxHeapSize = '4g'
+
+  forkEvery = 1
+  maxParallelForks = 4
+}
+
+def generatedAntlrDir = file("src/mainGeneratedAntlr")
+def generatedAntlrJavaDir = file("${generatedAntlrDir}/java")
+
+generateGrammarSource {
+  outputDirectory = file("${generatedAntlrJavaDir}/com/linkedin/data/schema/grammar")
+}
+
+sourceSets.main.java {
+  srcDir generatedAntlrJavaDir
+}
+
+idea.module {
+  generatedSourceDirs += generatedAntlrJavaDir
+}
+
+clean {
+  delete generatedAntlrDir
+}

@@ -1,0 +1,128 @@
+{
+  "name" : "statusesParams",
+  "path" : "/statusesParams",
+  "schema" : "com.linkedin.restli.tools.twitter.Status",
+  "doc" : "CollectionResource containing all statuses\n\ngenerated from: com.linkedin.restli.tools.twitter.StatusWithParamsCollectionResource",
+  "resourceClass" : "com.linkedin.restli.tools.twitter.StatusWithParamsCollectionResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "statusID",
+      "type" : "long"
+    },
+    "supports" : [ "batch_get", "create", "delete", "get", "get_all", "partial_update" ],
+    "methods" : [ {
+      "method" : "create",
+      "javaMethodName" : "create",
+      "doc" : "Creates a new Status",
+      "parameters" : [ {
+        "name" : "locale",
+        "type" : "string",
+        "default" : "en_US",
+        "doc" : "query parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "query parameter has different name from method parameter"
+      } ]
+    }, {
+      "method" : "get",
+      "javaMethodName" : "get",
+      "doc" : "Gets a single status resource",
+      "parameters" : [ {
+        "name" : "locale",
+        "type" : "string",
+        "default" : "en_US",
+        "doc" : "query parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "query parameter has different name from method parameter"
+      } ]
+    }, {
+      "method" : "partial_update",
+      "javaMethodName" : "update",
+      "doc" : "Updates a single status resource",
+      "parameters" : [ {
+        "name" : "locale",
+        "type" : "string",
+        "default" : "en_US",
+        "doc" : "query parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "query parameter has different name from method parameter"
+      } ]
+    }, {
+      "method" : "delete",
+      "javaMethodName" : "delete",
+      "doc" : "Deletes a status resource",
+      "parameters" : [ {
+        "name" : "locale",
+        "type" : "string",
+        "default" : "en_US",
+        "doc" : "query parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "query parameter has different name from method parameter"
+      } ]
+    }, {
+      "method" : "batch_get",
+      "javaMethodName" : "batchGet",
+      "doc" : "Gets a batch of statuses",
+      "parameters" : [ {
+        "name" : "locale",
+        "type" : "string",
+        "default" : "en_US",
+        "doc" : "query parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "query parameter has different name from method parameter"
+      } ]
+    }, {
+      "method" : "get_all",
+      "javaMethodName" : "getAll",
+      "parameters" : [ {
+        "name" : "locale",
+        "type" : "string",
+        "default" : "en_US",
+        "doc" : "query parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "query parameter has different name from method parameter"
+      } ]
+    } ],
+    "finders" : [ {
+      "name" : "criteria",
+      "javaMethodName" : "findByCriteria",
+      "parameters" : [ {
+        "name" : "locale",
+        "type" : "string",
+        "default" : "en_US",
+        "doc" : "query parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "query parameter has different name from method parameter"
+      } ]
+    } ],
+    "actions" : [ {
+      "name" : "forward",
+      "javaMethodName" : "forward",
+      "parameters" : [ {
+        "name" : "to",
+        "type" : "long",
+        "doc" : "action parameter has same name as method parameter"
+      }, {
+        "name" : "auth",
+        "type" : "long",
+        "doc" : "action parameter has different name from method parameter"
+      } ]
+    } ],
+    "entity" : {
+      "path" : "/statusesParams/{statusID}"
+    }
+  }
+}

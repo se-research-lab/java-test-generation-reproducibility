@@ -1,0 +1,20 @@
+plugins {
+  id 'me.champeau.gradle.jmh' version '0.4.8'
+}
+
+jmh {
+  include = '.*ConsistentHashRingBenchmark.*'
+  include = '.*URIMapperVSKeyMapperBenchmark.*'
+  include = '.*LoadBalancerStrategyBenchmark.*'
+  zip64 = true
+}
+
+
+dependencies {
+  testCompile project(path: ':d2', configuration: 'testArtifacts')
+  jmh project(':d2')
+  jmh externalDependency.jmhCore
+  jmh externalDependency.jmhAnnotations
+}
+
+tasks.getByPath(':d2-benchmark:compileJmhJava').dependsOn(':d2:compileTestJava')

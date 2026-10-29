@@ -1,0 +1,113 @@
+/*
+ * Copyright 2000-2022 Vaadin Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+package com.vaadin.client.ui.dd;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import com.vaadin.client.ComponentConnector;
+import com.vaadin.client.extensions.DragSourceExtensionConnector;
+import com.vaadin.event.dd.DragSource;
+
+/**
+ * Client side counterpart for Transferable in com.vaadin.event.Transferable.
+ *
+ * @author Vaadin Ltd
+ * @deprecated Replaced in 8.1 with {@link DragSourceExtensionConnector}
+ */
+@Deprecated
+public class VTransferable {
+
+    private ComponentConnector component;
+
+    private final Map<String, Object> variables = new HashMap<>();
+
+    /**
+     * Returns the component from which the transferable is created (e.g. a tree
+     * which node is dragged).
+     *
+     * @return the component
+     */
+    public ComponentConnector getDragSource() {
+        return component;
+    }
+
+    /**
+     * Sets the component currently being dragged or from which the transferable
+     * is created (e.g. a tree which node is dragged).
+     * <p>
+     * The server side counterpart of the component may implement
+     * {@link DragSource} interface if it wants to translate or complement the
+     * server side instance of this Transferable.
+     *
+     * @param component
+     *            the component to set
+     */
+    public void setDragSource(ComponentConnector component) {
+        this.component = component;
+    }
+
+    /**
+     * Returns previously saved data that is referred to by the given
+     * identifier.
+     *
+     * @param dataFlavor
+     *            the identifier for the data object
+     * @return the data object, or {@code null} if not found
+     *
+     * @see #setData(String, Object)
+     */
+    public Object getData(String dataFlavor) {
+        return variables.get(dataFlavor);
+    }
+
+    /**
+     * Stores any type of named data that can be useful during the DnD
+     * operation.
+     *
+     * @param dataFlavor
+     *            the identifier for the data object, should not be {@code null}
+     * @param value
+     *            the data to store, should not be {@code null}
+     */
+    public void setData(String dataFlavor, Object value) {
+        variables.put(dataFlavor, value);
+    }
+
+    /**
+     * Returns a collection of stored identifiers that each correspond with one
+     * stored data object.
+     *
+     * @return the collection of identifiers, can be empty if no data has been
+     *         stored yet
+     *
+     * @see #setData(String, Object)
+     */
+    public Collection<String> getDataFlavors() {
+        return variables.keySet();
+    }
+
+    /**
+     * This helper method should only be called by {@link VDragAndDropManager}.
+     *
+     * @return data in this Transferable that needs to be moved to server.
+     */
+    Map<String, Object> getVariableMap() {
+        return variables;
+    }
+
+}

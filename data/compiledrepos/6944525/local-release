@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# TODO: delete this eventually
+echo 'This script has been moved to ./scripts/local-release'
+exit 2

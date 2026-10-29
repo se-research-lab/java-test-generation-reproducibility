@@ -1,0 +1,62 @@
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+// add Rest.li's gradle plugins so they can be used throughout project
+buildscript {
+  repositories {
+    mavenLocal()
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'com.linkedin.pegasus:gradle-plugins:27.7.18'
+  }
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '4.6'
+}
+
+final String pegasusVersion = '27.7.18'
+ext.spec = [
+  'product' : [
+    'pegasus' : [
+      'data' : 'com.linkedin.pegasus:data:'+pegasusVersion,
+      'generator' : 'com.linkedin.pegasus:generator:'+pegasusVersion,
+      'r2Netty' : 'com.linkedin.pegasus:r2-netty:'+pegasusVersion,
+      'restliClient' : 'com.linkedin.pegasus:restli-client:'+pegasusVersion,
+      'restliServer' : 'com.linkedin.pegasus:restli-server:'+pegasusVersion,
+      'restliTools' : 'com.linkedin.pegasus:restli-tools:'+pegasusVersion,
+      'gradlePlugins' : 'com.linkedin.pegasus:gradle-plugins:'+pegasusVersion,
+      'restliNettyStandalone' : 'com.linkedin.pegasus:restli-netty-standalone:'+pegasusVersion,
+      'restliServerStandalone' : 'com.linkedin.pegasus:restli-server-standalone:'+pegasusVersion,
+      'restliSpringBridge' : 'com.linkedin.pegasus:restli-spring-bridge:'+pegasusVersion
+    ]
+  ]
+]
+
+ext.externalDependency = [
+  'logbackClassic': 'ch.qos.logback:logback-classic:1.0.13',
+  'logbackCore': 'ch.qos.logback:logback-core:1.0.13'
+]
+
+subprojects {
+  apply plugin: 'eclipse'
+  apply plugin: 'maven'
+  apply plugin: 'idea'
+  apply plugin: 'eclipse'
+
+  afterEvaluate {
+    // add the standard pegasus dependencies wherever the plugin is used
+    if (project.plugins.hasPlugin('pegasus')) {
+      dependencies {
+        dataTemplateCompile spec.product.pegasus.data
+        restClientCompile spec.product.pegasus.restliClient
+      }
+    }
+  }
+
+  repositories {
+    mavenLocal()
+    mavenCentral()
+  }
+}

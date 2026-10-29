@@ -1,0 +1,14 @@
+dependencies {
+  compile project(':data')
+  compile project(':data-transform')
+  compile project(':r2-core')
+  compile project(':li-jersey-uri')
+  compile project(':pegasus-common')
+  compile project(':restli-common')
+  compile project(':restli-server')
+  compile project(':restli-client')
+  compile externalDependency.jacksonCore
+  compile externalDependency.velocity
+
+  testCompile externalDependency.testng
+}

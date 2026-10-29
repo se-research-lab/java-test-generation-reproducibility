@@ -1,0 +1,82 @@
+plugins {
+    id "com.google.protobuf" version "0.8.10"
+}
+
+dependencies {
+  compile project(':degrader')
+  compile project(':r2-core')
+  compile project(':r2-netty')
+  compile project(':d2-schemas')
+  compile project(':data')
+  compile project(':pegasus-common')
+  compile project(':li-jersey-uri')
+  compile externalDependency.commonsCodec
+  compile externalDependency.commonsIo
+  compile externalDependency.commonsCli
+  compile externalDependency.commonsHttpClient
+  compile externalDependency.httpclient
+  compile externalDependency.httpcore
+  compile externalDependency.hdrhistogram
+  compile externalDependency.zookeeper
+  compile externalDependency.jacksonCore
+  compile externalDependency.jacksonDataBind
+  compile externalDependency.zero_allocation_hashing
+  compile externalDependency.xchart
+  compileOnly externalDependency.findbugs
+  testCompile externalDependency.metricsCore
+  testCompile externalDependency.xerialSnappy
+  testCompile externalDependency.testng
+  testCompile externalDependency.junit
+  testCompile externalDependency.commonsIo
+  testCompile externalDependency.easymock
+  testCompile externalDependency.mockito
+  testCompile externalDependency.guava
+  testCompile project(':r2-jetty')
+  testCompile project(':test-util')
+  testCompile project(':d2-test-api')
+  testCompileOnly externalDependency.findbugs
+
+  compile externalDependency.grpcNettyShaded
+  compile externalDependency.grpcProtobuf
+  compile externalDependency.grpcStub
+  compile externalDependency.grpcServices
+  compile externalDependency.protobufJava
+  compile externalDependency.protobufJavaUtil
+  compile externalDependency.envoyApi
+}
+
+sourceSets.main.java {
+    srcDir 'build/generated/source/proto/main/java'
+}
+
+protobuf {
+    protoc {
+        artifact = externalDependency.protoc
+    }
+}
+
+task packup(dependsOn: configurations.default.allArtifacts, type: Copy) {
+    into "$buildDir/package"
+    from configurations.default
+    from { configurations.default.allArtifacts.files }
+    from 'src/main/sh'
+    from 'src/main/resources'
+    description = "Packages all main jars, scripts, etc into a \"packages\" folder under the build directory."
+    doLast {
+        exec {
+            executable = 'chmod'
+            args = [ '+x', fileTree(dir: "$buildDir/package", include: '*.sh') as Object[] ].flatten()
+        }
+    }
+}
+
+task scripts(dependsOn: packup, type: Zip) {
+    from "$buildDir/package"
+    baseName = 'lb-tool'
+    description = "Zip a package up with all scripts, log4js, and jars."
+}
+
+configurations {
+  // exclude slf4j-log4j12 which is pulled in from zookeeper
+  all*.exclude group: 'org.slf4j', module: 'slf4j-log4j12'
+}

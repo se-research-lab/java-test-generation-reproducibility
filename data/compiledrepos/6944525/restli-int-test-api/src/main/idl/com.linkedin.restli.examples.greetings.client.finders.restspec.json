@@ -1,0 +1,34 @@
+{
+  "name" : "finders",
+  "namespace" : "com.linkedin.restli.examples.greetings.client",
+  "path" : "/finders",
+  "schema" : "com.linkedin.restli.examples.greetings.api.Greeting",
+  "doc" : "generated from: com.linkedin.restli.examples.greetings.server.FindersResource",
+  "resourceClass" : "com.linkedin.restli.examples.greetings.server.FindersResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "findersId",
+      "type" : "long"
+    },
+    "supports" : [ ],
+    "finders" : [ {
+      "name" : "basicSearch",
+      "javaMethodName" : "basicSearch"
+    }, {
+      "name" : "predefinedSearch",
+      "javaMethodName" : "predefinedSearch"
+    }, {
+      "name" : "searchWithMetadata",
+      "javaMethodName" : "searchWithMetadata",
+      "metadata" : {
+        "type" : "com.linkedin.restli.examples.greetings.api.SearchMetadata"
+      }
+    }, {
+      "name" : "searchWithoutMetadata",
+      "javaMethodName" : "search"
+    } ],
+    "entity" : {
+      "path" : "/finders/{findersId}"
+    }
+  }
+}

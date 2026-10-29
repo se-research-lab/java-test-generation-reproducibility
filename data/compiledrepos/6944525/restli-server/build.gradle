@@ -1,0 +1,64 @@
+apply plugin: 'antlr'
+
+dependencies {
+  compile project(':data')
+  compile project(':data-testutils')
+  compile project(':data-transform')
+  compile project(':r2-core')
+  compile project(':li-jersey-uri')
+  compile project(':restli-common')
+  compile project(':pegasus-common')
+  compile project(':multipart-mime')
+  compile externalDependency.caffeine
+  compile externalDependency.javaxInject
+  compile externalDependency.mail
+  compile externalDependency.commonsIo
+  compile externalDependency.jacksonCore
+  compile externalDependency.parseq
+  compile externalDependency.servletApi
+  compile externalDependency.antlrRuntime
+  compile externalDependency.classgraph
+
+  antlr externalDependency.antlr
+
+  testCompile project(path: ':generator-test', configuration: 'testArtifacts')
+  testCompile project(path: ':restli-common', configuration: 'testArtifacts')
+  testCompile project(path: ':restli-client')
+  testCompile project(path: ':restli-internal-testutils', configuration: 'testArtifacts')
+  testCompile project(':restli-server-testutils')
+  testCompile project(path: ':multipart-mime', configuration: 'testArtifacts')
+  testCompile externalDependency.guava
+  testCompile externalDependency.testng
+  testCompile externalDependency.junit
+  testCompile externalDependency.easymock
+  testCompile externalDependency.mockito
+  testCompile externalDependency.commonsHttpClient
+  testRuntime externalDependency.objenesis
+}
+
+def generatedAntlrDir = file("src/mainGeneratedAntlr")
+def generatedAntlrJavaDir = file("${generatedAntlrDir}/java")
+
+generateGrammarSource {
+  outputDirectory = file("${generatedAntlrJavaDir}")
+}
+
+sourceSets.main.java {
+  srcDir generatedAntlrJavaDir
+}
+
+idea.module {
+  generatedSourceDirs += generatedAntlrJavaDir
+}
+
+clean {
+  delete generatedAntlrDir
+}
+
+apply from: "${buildScriptDirPath}/dataTemplate.gradle"
+
+test {
+  systemProperties['test.projectDir'] = projectDir.toString()
+}
+
+

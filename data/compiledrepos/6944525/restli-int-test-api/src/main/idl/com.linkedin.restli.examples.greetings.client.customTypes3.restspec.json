@@ -1,0 +1,34 @@
+{
+  "name" : "customTypes3",
+  "namespace" : "com.linkedin.restli.examples.greetings.client",
+  "path" : "/customTypes3",
+  "schema" : "com.linkedin.restli.examples.greetings.api.Greeting",
+  "doc" : "generated from: com.linkedin.restli.examples.greetings.server.CustomTypesResource3",
+  "resourceClass" : "com.linkedin.restli.examples.greetings.server.CustomTypesResource3",
+  "association" : {
+    "identifier" : "customTypes3Id",
+    "assocKeys" : [ {
+      "name" : "dateId",
+      "type" : "com.linkedin.restli.examples.typeref.api.DateRef"
+    }, {
+      "name" : "longId",
+      "type" : "com.linkedin.restli.examples.typeref.api.CustomLongRef"
+    } ],
+    "supports" : [ "batch_update", "get" ],
+    "methods" : [ {
+      "method" : "get",
+      "javaMethodName" : "get"
+    }, {
+      "method" : "batch_update",
+      "javaMethodName" : "batchUpdate"
+    } ],
+    "finders" : [ {
+      "name" : "dateOnly",
+      "javaMethodName" : "dateOnly",
+      "assocKeys" : [ "dateId" ]
+    } ],
+    "entity" : {
+      "path" : "/customTypes3/{customTypes3Id}"
+    }
+  }
+}

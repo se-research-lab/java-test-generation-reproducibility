@@ -1,0 +1,140 @@
+{
+  "name" : "albumEntry",
+  "namespace" : "com.linkedin.restli.example.photos",
+  "path" : "/albumEntry",
+  "schema" : "com.linkedin.restli.example.AlbumEntry",
+  "doc" : "Many-many association between photos and albums.\n\n <pre>\n   new AlbumEntryBuilders().findBySearch()\n     .albumIdParam(5)\n     .photoIdParam(100)\n     .build();\n </pre>\n\ngenerated from: com.linkedin.restli.example.impl.AlbumEntryResource",
+  "resourceClass" : "com.linkedin.restli.example.impl.AlbumEntryResource",
+  "association" : {
+    "serviceErrors" : [ {
+      "status" : 422,
+      "code" : "BAD_REQUEST",
+      "message" : "Input failed validation",
+      "errorDetailType" : "com.linkedin.restli.example.AlbumError"
+    } ],
+    "identifier" : "albumEntryId",
+    "assocKeys" : [ {
+      "name" : "albumId",
+      "type" : "long"
+    }, {
+      "name" : "photoId",
+      "type" : "long"
+    } ],
+    "supports" : [ "batch_get", "delete", "get", "update" ],
+    "methods" : [ {
+      "serviceErrors" : [ {
+        "status" : 451,
+        "code" : "ILLEGAL_ALBUM",
+        "message" : "This album is unavailable in your country",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError"
+      }, {
+        "status" : 422,
+        "code" : "INVALID_ID",
+        "message" : "Id cannot be less than 0",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError",
+        "parameters" : [ "albumEntryId" ]
+      } ],
+      "success" : [ 200 ],
+      "method" : "get",
+      "javaMethodName" : "get",
+      "doc" : "Retrieve the photo's album entry"
+    }, {
+      "serviceErrors" : [ {
+        "status" : 403,
+        "code" : "INVALID_PERMISSIONS",
+        "message" : "User does not have valid permissions",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError"
+      }, {
+        "status" : 422,
+        "code" : "INVALID_ID",
+        "message" : "Id cannot be less than 0",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError",
+        "parameters" : [ "albumEntryId" ]
+      } ],
+      "success" : [ 204 ],
+      "method" : "update",
+      "javaMethodName" : "update",
+      "doc" : "Add the specified photo to the specified album.\n If a matching pair of IDs already exists, this changes the add date."
+    }, {
+      "serviceErrors" : [ {
+        "status" : 403,
+        "code" : "INVALID_PERMISSIONS",
+        "message" : "User does not have valid permissions",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError"
+      }, {
+        "status" : 422,
+        "code" : "INVALID_ID",
+        "message" : "Id cannot be less than 0",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError",
+        "parameters" : [ "albumEntryId" ]
+      } ],
+      "success" : [ 204, 200 ],
+      "method" : "delete",
+      "javaMethodName" : "delete",
+      "doc" : "Remove the specified photo from the specified album"
+    }, {
+      "method" : "batch_get",
+      "javaMethodName" : "batchGet"
+    } ],
+    "finders" : [ {
+      "serviceErrors" : [ {
+        "status" : 422,
+        "code" : "INVALID_ID",
+        "message" : "Id cannot be less than 0",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError",
+        "parameters" : [ "albumId", "photoId" ]
+      }, {
+        "status" : 422,
+        "code" : "UNSEARCHABLE_ALBUM_ID",
+        "message" : "Search cannot be performed on this album id",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError",
+        "parameters" : [ "albumId" ]
+      } ],
+      "success" : [ 200 ],
+      "name" : "search",
+      "javaMethodName" : "search",
+      "doc" : "Find all entries matching the given album and photo IDs. <code>null</code> is treated\n as a wildcard.",
+      "parameters" : [ {
+        "name" : "albumId",
+        "type" : "long",
+        "optional" : true,
+        "doc" : "provides the id to match for albums to match, if not provided, it is treated as a wildcard"
+      }, {
+        "name" : "photoId",
+        "type" : "long",
+        "optional" : true,
+        "doc" : "provides the id to match for photos to match, if not provided, it is treated as a wildcard"
+      } ]
+    } ],
+    "actions" : [ {
+      "serviceErrors" : [ {
+        "status" : 403,
+        "code" : "INVALID_PERMISSIONS",
+        "message" : "User does not have valid permissions",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError"
+      }, {
+        "status" : 422,
+        "code" : "INVALID_ID",
+        "message" : "Id cannot be less than 0",
+        "errorDetailType" : "com.linkedin.restli.example.AlbumError",
+        "parameters" : [ "albumId", "photoId" ]
+      } ],
+      "name" : "purge",
+      "javaMethodName" : "purge",
+      "doc" : "Delete all entries in the db with matching album/photo IDs. If either albumId or photoId\n params are not supplied they are treated as a wildcard.",
+      "parameters" : [ {
+        "name" : "albumId",
+        "type" : "long",
+        "optional" : true
+      }, {
+        "name" : "photoId",
+        "type" : "long",
+        "optional" : true
+      } ],
+      "returns" : "int"
+    } ],
+    "entity" : {
+      "path" : "/albumEntry/{albumEntryId}"
+    }
+  }
+}

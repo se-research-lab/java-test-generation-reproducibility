@@ -1,0 +1,40 @@
+apply plugin: 'pegasus'
+
+dependencies {
+  compile project(':data')
+  compile project(':restli-common')
+  compile project(':restli-client')
+  compile externalDependency.parseq
+  compile externalDependency.parseq_restClient
+  restClientCompile project(project.path)
+  testCompile externalDependency.testng
+  testCompile project(path: project.path, configuration: 'restClient')
+}
+
+sourceSets.mainGeneratedDataTemplate.java.srcDirs('src/main/java/')
+tasks.withType(com.linkedin.pegasus.gradle.tasks.GenerateRestClientTask) {
+  generateFluentApi = true
+}
+
+tasks.withType(com.linkedin.pegasus.gradle.tasks.GenerateDataTemplateTask) {
+  generateFieldMask = true
+}
+
+test {
+  systemProperties['test.projectDir'] = project.projectDir.path
+}
+
+task fatjar(type: Jar) {
+  description 'Creating a fat jar from 3 sources: src/main, src/mainGeneratedTemplate, src/mainGeneratedRest.'
+  classifier = 'with-generated'
+  from sourceSets.main.output
+  from sourceSets.mainGeneratedDataTemplate.output
+  from sourceSets.mainGeneratedRest.output
+  manifest {
+    attributes 'Implementation-Title': 'Restli Integration Test API'
+  }
+}
+
+artifacts {
+  archives fatjar
+}

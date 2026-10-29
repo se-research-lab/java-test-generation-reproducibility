@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Vaadin Framework @version@</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+<style type="text/css">
+.nested-list ol {
+	counter-reset: item
+}
+
+.nested-list li {
+	display: block
+}
+
+.nested-list li:before {
+	content: counters(item, ".") ". ";
+	counter-increment: item
+}
+</style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>Vaadin &ndash; Fight For Simplicity</h1>
+        <div id="version">
+            <strong>Version @version@</strong>
+        </div>
+    </div>
+    <!-- /header -->
+
+    <div id="content">
+        <p>Version @version@ built on @builddate@.</p>
+
+        <h2 id="tableofcontents">Release Notes for Vaadin Framework
+            @version@</h2>
+        <ul>
+            <li><a href="#overview">Overview of Vaadin Framework
+                    @version@ release</a></li>
+            <li><a href="#changelog">Change Log for Vaadin Framework
+                    @version@</a></li>
+            <li><a href="#enhancements">Enhancements in Vaadin Framework
+                    @version-minor@</a></li>
+            <li><a href="#incompatible">Incompatible or Behavior-altering Changes in
+                    @version-minor@</a></li>
+            <li><a href="#knownissues">Known Issues and Limitations</a></li>
+            <li><a href="#starting">Getting started with Vaadin Framework</a></li>
+            <li><a href="#package">Package Contents</a></li>
+            <li><a href="#migrating">Migrating from Vaadin 7.7</a></li>
+            <li><a href="#dependencies">Vaadin Framework @version@
+                    dependencies</a></li>
+            <li><a href="#supportedversions">Supported
+                    Technologies</a></li>
+            <li><a href="#vaadinontheweb">Vaadin Framework on the Web</a></li>
+        </ul>
+
+        <h2 id="overview">Overview of Vaadin Framework @version@ Release</h2>
+
+        <p>
+            Vaadin Framework @version@ is a
+<!--            maintenance release that includes a number of bug fixes, as listed in the <a href="#changelog">change log</a> below. -->
+<!--            feature release that includes -->
+                pre-release for evaluating
+                a number of new features and bug fixes, as listed in the <a
+                href="#enhancements">list of enhancements</a> and <a
+                href="#changelog">change log</a> below.
+		The API in this alpha version is not considered final and may change based on your feedback.
+	</p>
+
+        <!-- ================================================================ -->
+        <h3 id="changelog">Change Log for Vaadin Framework @version@</h3>
+	<!-- @release-notes-changelog@ -->
+        <p>
+            You can find the full list of all changes <a
+                href="https://github.com/vaadin/framework/releases/tag/@version@">in
+                GitHub</a>.
+        </p>
+
+        <h2 id="enhancements">Enhancements in Vaadin Framework @version-minor@</h2>
+
+        <p>Vaadin Framework @version-minor@ includes many major and minor
+            enhancements. Below is a list of the most notable changes:</p>
+
+        <ul>
+		<li></li>
+       </ul>
+
+        </p>
+
+        <p>
+            For enhancements introduced in Vaadin Framework 8.14, see the <a
+                href="http://vaadin.com/download/release/8.14/8.14.0/release-notes.html">Release
+                Notes for Vaadin Framework 8.14.0</a>.
+            For migrating from previous framework versions, see <a href="#incompatible">the list of incompatible changes</a> and <a href="#migrating">how to migrate
+            to Vaadin Framework 8</a>.
+        </p>
+
+        <h2 id="incompatible">Incompatible or Behavior-altering Changes in @version-minor@</h2>
+
+        <ul>
+            <li></li>
+        </ul>
+
+        <h2>For incompatible or behavior-altering changes in 8.14, please see <a href="https://vaadin.com/download/release/8.14/8.14.0/release-notes.html#incompatible">8.14 release notes</a></h2>
+
+        <h3 id="knownissues">Known Issues and Limitations</h3>
+        <ul>
+            <li><tt>@PushStateNavigation</tt> can cause browser to load resources from wrong URLs
+                (<a href="https://github.com/vaadin/framework/issues/10329">#10329</a>)
+            </li>
+            <li>Drag'n'drop in a Table doesn't work on touch devices running
+                Internet Explorer (Windows Phone, Surface)
+                (<a href="https://github.com/vaadin/framework/issues/5170">#5170</a>)
+            </li>
+            <li>Payload based drop criteria do not work on IE11 - use criteria scripts if IE11 support of drop validation is required</li>
+            <li>Specifying layout sizes using <tt>em</tt> is currently discouraged, because it results in fractional
+            components sizes in many cases, which might cause unwanted 1px gaps between components.
+            </li>
+            <li>Up-to-date information about configuration needed for push and compatibility issues are available in
+            <a href="https://vaadin.com/wiki/-/wiki/Main/Configuring+push+for+your+environment">this wiki page.</a>
+            <br />
+            The most prominent limitations are:
+            <ul>
+                <li>Push is currently not supported in portals (See <a
+                    href="https://github.com/vaadin/framework/issues/3741">#3741</a>)
+                </li>
+                <li>Transport mode WEBSOCKET does not support invalidating the session on Tomcat 7,
+                     nor setting cookies for the session. The new transport mode WEBSOCKET_XHR can be
+                     used to bypass these limitations.
+                     <br />
+                     See tickets <a href="https://github.com/vaadin/framework/issues/3911">#3911</a> and
+                     <a href="https://github.com/vaadin/framework/issues/3861">#3861</a>
+                </li>
+            </ul>
+            </li>
+            <li>The Maven GWT compilation for <tt>Vaadin7WidgetSet</tt> requires at least 1G of memory, when using the <tt>vaadin-client-compatibility</tt> package. If compiled inside Eclipse, possibly even more.</li>
+        </ul>
+
+
+        <h2 id="starting">Getting started with Vaadin Framework</h2>
+
+        <p>
+            <b>Vaadin Framework</b> is a Java framework for building modern web
+            applications that look great, perform well and make you and
+            your users happy. <b>The Framework</b> is available under the
+            Apache License, Version 2.0 (see the
+            <tt>license.html</tt>
+            in the Vaadin Framework ZIP package).
+        </p>
+
+        <p>
+            The easiest ways to start using <b>Vaadin Framework</b> are:
+        </p>
+
+        <ul>
+            <li><strong>Maven dependency.</strong>If using Maven, define it as a dependency or use
+                any of the available archetypes to create a new project. More information at
+                <a href="https://vaadin.com/maven">https://vaadin.com/maven</a>
+            </li>
+
+            <li><strong>IDE Plugins.</strong>If using Eclipse, use the
+                <a href="http://vaadin.com/eclipse">Vaadin Plugin for Eclipse</a>, which automatically
+                downloads the Framework libraries. For NetBeans 8.0 and 7.4, use the
+                <a href="http://plugins.netbeans.org/plugin/50531/vaadin-plug-in-for-netbeans">official Vaadin plugin</a>
+                that provides Maven based wizards and code completion support for Vaadin Framework based development.
+            </li>
+        </ul>
+
+        <p>
+            Vaadin Framework is also available as a ZIP package downloadable from <a
+                href="http://vaadin.com/download">Vaadin Download
+                page</a>.
+        </p>
+
+        <h3 id="package">Package Contents</h3>
+
+        <p>Inside the ZIP installation package you will find:</p>
+
+        <ul>
+            <li>Separate server-side (<tt>vaadin-server</tt>) and
+                client-side (<tt>vaadin-client</tt>, <tt>vaadin-client-compiler</tt>)
+                development libraries
+            </li>
+            <li>Precompiled widget set (<tt>vaadin-client-compiled</tt>)
+                for server-side development
+            </li>
+            <li>Shared library (<tt>vaadin-shared</tt>) for both
+                server- and client-side libraries
+            </li>
+            <li>Valo theme (the only inbuilt theme) (<tt>vaadin-themes</tt>)
+            </li>
+            <li>Dependency libraries provided under the <tt>lib/</tt>
+                folder
+            </li>
+            <li>Vaadin 7 compatible classes for server-side (<tt>vaadin-compatibility-server</tt>,
+                <tt>vaadin-compatibility-shared</tt>), client-side (<tt>vaadin-compatibility-client</tt>) and themes (<tt>vaadin-compatibility-themes</tt>)
+            </li>
+        </ul>
+
+        <p>
+            See the
+            <tt>README.TXT</tt>
+            in the installation package for detailed information about
+            the package contents.
+        </p>
+
+        <p>
+            For server-side development, copy the
+            <tt>vaadin-server</tt>
+            ,
+            <tt>vaadin-client-compiled</tt>
+            ,
+            <tt>vaadin-shared</tt>
+            , and
+            <tt>vaadin-themes</tt>
+            from the main folder and the dependencies from the
+            <tt>lib</tt>
+            folder to the
+            <tt>WEB-INF/lib</tt>
+            folder of your Vaadin project. (The
+            <tt>vaadin-client-compiled</tt>
+            is necessary if you do not wish to compile the widget set by
+            your own, which you need to do if you use almost any add-on
+            components.)
+        </p>
+
+        <h2 id="migrating">Migrating from Vaadin Framework 7.7</h2>
+
+        <p>
+            Most Vaadin Framework 7 applications need some changes when migrating
+            to Vaadin Framework 8. In addition to updating dependencies, all references to
+            Framework 7 style data binding and components using it need to be
+            updated either to use new Framework 8 style data binding or to use the
+            compatibility versions in separate packages.
+        </p>
+
+        <p>
+            Vaadin Framework 7 compatible versions of the old data binding API and
+            components (with the exception of Form) are available in the package
+            com.vaadin.v7 in modules vaadin-compatibility-server,
+            vaadin-compatibility-shared etc. that can be used instead of
+            vaadin-server, vaadin-shared etc. The package
+            vaadin-compatibility-client-compiled contains the widgetset
+            <tt>com.vaadin.v7.Vaadin7WidgetSet</tt> which can be used instead of
+            <tt>DefaultWidgetSet</tt>. Please note that the rename to com.vaadin.v7
+            has only been applied to classes that are only relevant for the
+            compatibility modules. Some classes have also been renamed while still
+            being part of the non-compatibility modules.
+        </p>
+        <p>
+        All applications using either <tt>Reindeer</tt>, <tt>Runo</tt>, <tt>Chameleon</tt> or <tt>Base</tt> theme must include the <tt>vaadin-compatibility-themes</tt> package.
+        </p>
+
+        <p>
+            There is a <a href="https://github.com/vaadin/framework8-migration-tool/">
+            migration tool</a> which helps with some of the migration steps.
+        </p>
+
+        <p>
+            Some Vaadin Framework 7 add-ons do not work in version 8 - please check the add-ons in <a
+                href="http://vaadin.com/directory/">Vaadin Directory</a>
+            for Framework version 8 support.
+        </p>
+
+        <h3 id="upgrading">Common Upgrade Steps</h3>
+
+        <p>Always when upgrading from an earlier Vaadin Framework version, you
+            must:</p>
+
+        <ul>
+            <li>Recompile your classes using the new Framework
+                version. Binary compatibility is only guaranteed for
+                maintenance releases of Framework.</li>
+
+            <li>Unless using the precompiled widget set, recompile
+                your widget set using the new Framework version.</li>
+        </ul>
+
+        <p>Remember also to refresh the project in your IDE to
+            ensure that the new version of everything is in use.</p>
+
+        <p>
+            By using the "
+            <tt>?debug</tt>
+            " URL parameter, you can verify that the version of the
+            servlet, the theme, and the widget set all match.
+        </p>
+
+        <p>
+            <b>Eclipse</b> users should always check if there is a new
+            version of the Eclipse Plug-in available.
+        </p>
+
+        <p>
+            <b>Maven</b> users should update the Vaadin Framework dependency
+            version in the
+            <tt>pom.xml</tt>
+            .
+        </p>
+
+        <h2 id="dependencies">Vaadin Framework @version@ Dependencies</h2>
+
+        <p>When using Maven, Ivy, Gradle, or other dependency
+            management system, all Framework dependencies are downloaded
+            automatically. This is also the case when using the Vaadin
+            Plugin for Eclipse.</p>
+
+        <p>
+            The Vaadin Framework ZIP installation package includes the
+            dependencies in the
+            <tt>lib</tt>
+            subfolder. These need to be copied to the
+            <tt>WEB-INF/lib</tt>
+            folder of the web application that uses Vaadin Framework.
+        </p>
+
+        <p>
+            The dependencies are listed in the <a href="license.html">Licensing
+                description</a>. Some are explicit dependencies packaged and
+            distributed as separate JARs, while some are included inside
+            other libraries.
+        </p>
+
+        <h3>Bean Validation</h3>
+
+        <p>
+            If you use the bean validation feature, you need
+            a Bean Validation API implementation. You need to install
+            the implementation JAR in the
+            <tt>WEB-INF/lib</tt>
+            directory of the web application that uses validation.
+        </p>
+
+        <h2 id="supportedversions">Supported Technologies</h2>
+
+        <p>
+           The server-side Vaadin Framework 8 is compatible with <b>Java 8 and 11</b>. Note, that the client-side Java code, compiled using GWT to be run as JS on the browser side, only supports language features up to Java 9 and a subset of JDK libraries. 
+	Vaadin Framework 8 is developed and tested with Oracle JDK, but other
+		compliant Java distributions should work as well. More about Java support in <a href="https://vaadin.com/faq">
+            FAQ</a>. Vaadin Framework
+            8 is especially supported on the following <b>operating
+                systems</b>:
+        </p>
+
+        <ul>
+            <li>Windows</li>
+            <li>Linux</li>
+            <li>Mac OS X</li>
+        </ul>
+
+        <p>
+            Vaadin Framework 8 requires <b>Java Servlet API 3.0</b> but also
+            supports later versions and should work with any Java
+            application server that conforms to the standard. The
+            following <b>application servers</b> are supported:
+        </p>
+
+        <ul id="supportedservers">
+            <li>Apache Tomcat 7-9</li>
+            <li>Apache TomEE 1.7 and 7.0</li>
+            <li>Oracle WebLogic Server 12.2</li>
+            <li>IBM WebSphere Application Server 9</li>
+            <li>JBoss EAP 6</li>
+            <li>Wildfly 8-13</li>
+            <li>Jetty 8-9</li>
+            <li>Glassfish 4</li>
+            <li>Payara Server 164</li>
+        </ul>
+
+        <p>
+            Vaadin Framework 8 supports the JSR-286 Portlet specification and all
+            portals that implement the specification should work provided
+            they support Java 8 and Servlet 3.0. The following <b>portals</b>
+            are supported:
+        </p>
+
+        <ul>
+            <li>Liferay Portal 6.2</li>
+            <li>Liferay Portal 7.0</li>
+        </ul>
+
+        <p>
+            Vaadin Framework @version@ supports the following <b>desktop browsers</b>:
+        </p>
+
+        <ul>
+            <li>Mozilla Firefox 54+</li>
+            <li>Mozilla Firefox ESR 52+</li>
+            <li>Internet Explorer 11, Edge (latest version)</li>
+            <li>Safari 9+</li>
+            <li>Google Chrome 59+</li>
+        </ul>
+
+        <p>
+            Additionally, Vaadin Framework supports the built-in browsers in the
+            following <b>mobile operating systems</b>:
+        </p>
+
+        <ul>
+            <li>iOS 9+</li>
+            <li>Android 4+ with Chrome 42+</li>
+        </ul>
+
+        <h2 id="vaadinontheweb">Vaadin on the Web</h2>
+
+        <ul>
+            <li><a href="https://vaadin.com">vaadin.com - The
+                    developer portal containing everything you need to
+                    know about Vaadin</a></li>
+            <li><a href="https://vaadin.com/framework/demos">vaadin.com/framework/demos
+                    - A collection of demos for Vaadin Framework</a></li>
+            <li><a href="https://vaadin.com/docs/v8/framework/tutorial.html">vaadin.com/docs/v8/framework/tutorial.html
+                    - Getting started with Vaadin Framework</a></li>
+            <li><a href="https://vaadin.com/forum">vaadin.com/forum
+                    - Forums for Vaadin Framework related discussions</a></li>
+            <li><a href="https://vaadin.com/docs/v8/">vaadin.com/docs/v8
+                    - Vaadin Docs - complete reference manual for all Vaadin products</a></li>
+            <li><a href="https://vaadin.com/api">vaadin.com/api
+                    - Online javadocs</a></li>
+            <li><a href="https://vaadin.com/directory">vaadin.com/directory
+                    - Add-ons for Vaadin Framework</a></li>
+
+<!--TODO change to something reasonable or remove
+            <li><a href="http://vaadin.com/pro-tools">vaadin.com/pro-tools
+                    - Commercial tools for Vaadin Framework</a></li>
+-->
+            <li><a href="https://vaadin.com/support">vaadin.com/support
+                    - Commercial support for Vaadin Framework</a></li>
+            <li><a href="https://vaadin.com/consulting">vaadin.com/consulting
+                    - Expert services for Vaadin Framework users</a></li>
+            <li><a href="https://vaadin.com/company">vaadin.com/company
+                    - Information about the company behind Vaadin Framework</a></li>
+            <li><a href="https://vaadin.com/contribute">vaadin.com/contribute - Contribution quide</a></li>
+            <li><a href="https://github.com/vaadin/framework/issues">github.com/vaadin/framework - Github repository</a></li>
+        </ul>
+
+    </div>
+    <!-- /content-->
+
+    <div id="footer">
+        <span class="slogan"><strong>vaadin <em>}></em>
+        </strong> Fight For Simplicity</span> <a href="#top">&uarr; Back
+                    to top</a>
+    </div>
+    <!-- /footer -->
+</body>
+</html>
+
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: xml
+sgml-omittag:nil
+sgml-shorttag:nil
+sgml-namecase-general:nil
+sgml-general-insert-case:lower
+sgml-minimize-attributes:nil
+sgml-always-quote-attributes:t
+sgml-indent-step:2
+sgml-indent-data:t
+sgml-parent-document:nil
+sgml-exposed-tags:nil
+sgml-local-catalogs:("/etc/sgml/catalog" "/usr/share/xemacs21/xemacs-packages/etc/psgml-dtds/CATALOG")
+sgml-local-ecat-files:("ECAT" "~/sgml/ECAT" "/usr/share/sgml/ECAT" "/usr/local/share/sgml/ECAT" "/usr/local/lib/sgml/ECAT")
+End:
+-->

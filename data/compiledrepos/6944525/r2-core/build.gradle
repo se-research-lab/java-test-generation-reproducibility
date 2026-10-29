@@ -1,0 +1,15 @@
+dependencies {
+  compile project(':entity-stream')
+  compile project(':data')
+  compile project(':pegasus-common')
+  compile externalDependency.servletApi
+  compile externalDependency.mail
+  compile externalDependency.javaxActivation
+  compile externalDependency.netty
+  testCompile project(':r2-testutils')
+  testCompile project(':test-util')
+  testCompile externalDependency.testng
+  testCompile externalDependency.junit
+  testCompile externalDependency.easymock
+  testCompile externalDependency.mockito
+}

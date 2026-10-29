@@ -1,0 +1,33 @@
+dependencies {
+  compile project(':data')
+  compile project(':data-transform')
+  compile project(':li-jersey-uri')
+  compile project(':pegasus-common')
+  compile project(':r2-core')
+  compile project(':multipart-mime')
+  compile externalDependency.jacksonCore
+  compile externalDependency.javaxAnnotation
+  testCompile project(path: ':data', configuration: 'testArtifacts')
+  testCompile project(':generator')
+  testCompile project(path: ':generator-test', configuration: 'testArtifacts')
+  testCompile project(path: ':restli-internal-testutils', configuration: 'testArtifacts')
+  testCompile project(path: ':multipart-mime', configuration: 'testArtifacts')
+  testCompile project(':li-jersey-uri')
+  testCompile externalDependency.testng
+  testCompile externalDependency.junit
+  testCompile externalDependency.mockito
+}
+
+apply from: "${buildScriptDirPath}/dataTemplate.gradle"
+// Enable generation of new projection mask APIs.
+project.sourceSets.all { SourceSet sourceSet ->
+  final Task dataTemplateGenerateTask = rootProject.ext.build.dataTemplateGenerateTasks[sourceSet]
+  if (dataTemplateGenerateTask != null)
+  {
+    dataTemplateGenerateTask.systemProperties(['generator.generate.field.mask': "true"])
+  }
+}
+
+testCompileDataTemplate.options.compilerArgs += '-Xlint:-deprecation'
+compileTestJava.options.compilerArgs += '-Xlint:-deprecation'
+

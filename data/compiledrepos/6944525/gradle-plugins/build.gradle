@@ -1,0 +1,42 @@
+// Setup integTests
+apply from: "${buildScriptDirPath}/integTest.gradle"
+
+configurations {
+  dataTemplateForTesting
+  pegasusPluginForTesting
+}
+
+dependencies {
+  implementation localGroovy()
+  implementation gradleApi()
+
+  testImplementation externalDependency.testng
+  testImplementation externalDependency.junit
+
+  integTestImplementation gradleTestKit()
+
+  dataTemplateForTesting project(':data')
+  pegasusPluginForTesting project(':data')
+  pegasusPluginForTesting project(':data-avro-generator')
+  pegasusPluginForTesting project(':generator')
+  pegasusPluginForTesting project(':restli-tools')
+}
+
+gradlePlugin {
+  testSourceSets sourceSets.integTest
+}
+
+// This is done so that the plugin can know which version of restli should be used when creating the pegasus configuration.
+processResources {
+  filter(org.apache.tools.ant.filters.ReplaceTokens, tokens: ['version': project.version as String])
+}
+
+integTest {
+  dependsOn configurations.dataTemplateForTesting, configurations.pegasusPluginForTesting
+  systemProperty 'integTest.dataTemplateCompileDependencies', "'${configurations.dataTemplateForTesting.join("', '")}'"
+  systemProperty 'integTest.pegasusPluginDependencies', "'${configurations.pegasusPluginForTesting.join("', '")}'"
+}
+
+validateTaskProperties {
+  failOnWarning = true
+}

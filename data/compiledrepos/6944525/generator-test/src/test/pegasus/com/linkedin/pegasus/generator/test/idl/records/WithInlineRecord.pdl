@@ -1,0 +1,10 @@
+namespace com.linkedin.pegasus.generator.test.idl.records
+
+record WithInlineRecord {
+  inline: record InlineRecord {
+    value: int
+  }
+  inlineOptional: optional record InlineOptionalRecord {
+    value: string
+  }
+}

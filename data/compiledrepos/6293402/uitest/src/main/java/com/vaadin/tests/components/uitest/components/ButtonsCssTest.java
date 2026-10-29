@@ -1,0 +1,113 @@
+package com.vaadin.tests.components.uitest.components;
+
+import com.vaadin.server.ExternalResource;
+import com.vaadin.server.ThemeResource;
+import com.vaadin.tests.components.uitest.TestSampler;
+import com.vaadin.ui.Button;
+import com.vaadin.ui.CheckBox;
+import com.vaadin.ui.Component;
+import com.vaadin.ui.GridLayout;
+import com.vaadin.ui.Link;
+import com.vaadin.v7.ui.themes.BaseTheme;
+import com.vaadin.v7.ui.themes.ChameleonTheme;
+import com.vaadin.v7.ui.themes.Reindeer;
+import com.vaadin.v7.ui.themes.Runo;
+
+@SuppressWarnings("deprecation")
+public class ButtonsCssTest extends GridLayout {
+
+    private TestSampler parent;
+    private int debugIdCounter = 0;
+
+    public ButtonsCssTest(TestSampler parent) {
+        this.parent = parent;
+        setSpacing(true);
+        setWidth("100%");
+        setColumns(6);
+
+        Button b = new Button("Default button");
+        b.setId("button" + debugIdCounter++);
+        addComponent(b);
+
+        b = new Button("Button with icon");
+        b.setIcon(new ThemeResource(TestSampler.ICON_URL));
+        b.setId("button" + debugIdCounter++);
+        addComponent(b);
+
+        b = new Button("Button with tooltip");
+        b.setDescription("The tooltip");
+        b.setId("button" + debugIdCounter++);
+        addComponent(b);
+
+        b = new Button("Link button");
+        b.setStyleName(BaseTheme.BUTTON_LINK);
+        b.setId("button" + debugIdCounter++);
+        addComponent(b);
+
+        b = new Button("Disabled on click button");
+        b.setDisableOnClick(true);
+        b.setId("button" + debugIdCounter++);
+        addComponent(b);
+
+        CheckBox cb1 = new CheckBox("Checkbox");
+        cb1.setId("button" + debugIdCounter++);
+        addComponent(cb1);
+
+        CheckBox cb2 = new CheckBox("Checkbox with icon");
+        cb2.setIcon(new ThemeResource(TestSampler.ICON_URL));
+        cb2.setId("button" + debugIdCounter++);
+        addComponent(cb2);
+
+        Link l = new Link("A link", new ExternalResource(""));
+        l.setId("button" + debugIdCounter++);
+        addComponent(l);
+
+        createButtonWith("Primary", Reindeer.BUTTON_DEFAULT, null);
+        createButtonWith("Small", Reindeer.BUTTON_SMALL, null);
+        createButtonWith("Default", Runo.BUTTON_DEFAULT, null);
+        createButtonWith("Big", Runo.BUTTON_BIG, null);
+        createButtonWith("Wide", ChameleonTheme.BUTTON_WIDE, null);
+        createButtonWith("Tall", ChameleonTheme.BUTTON_TALL, null);
+        createButtonWith("Borderless", ChameleonTheme.BUTTON_BORDERLESS, null);
+        createButtonWith("Icn top", ChameleonTheme.BUTTON_ICON_ON_TOP,
+                TestSampler.ICON_URL);
+        createButtonWith("Icn right", ChameleonTheme.BUTTON_ICON_ON_RIGHT,
+                TestSampler.ICON_URL);
+        createButtonWith("Icon only", ChameleonTheme.BUTTON_ICON_ONLY,
+                TestSampler.ICON_URL);
+        createButtonWith("Down", ChameleonTheme.BUTTON_DOWN, null);
+
+        parent.addReadOnlyChangeListener(event -> {
+            cb1.setReadOnly(!cb1.isReadOnly());
+            cb2.setReadOnly(!cb2.isReadOnly());
+        });
+    }
+
+    private void createButtonWith(String caption, String primaryStyleName,
+            String iconUrl) {
+        Button b = new Button();
+        b.setId("button" + debugIdCounter++);
+
+        if (caption != null) {
+            b.setCaption(caption);
+        }
+
+        if (primaryStyleName != null) {
+            b.addStyleName(primaryStyleName);
+        }
+
+        if (iconUrl != null) {
+            b.setIcon(new ThemeResource(iconUrl));
+        }
+
+        addComponent(b);
+
+    }
+
+    @Override
+    public void addComponent(Component component) {
+        parent.registerComponent(component);
+        super.addComponent(component);
+    }
+
+}

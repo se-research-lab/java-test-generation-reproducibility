@@ -1,0 +1,39 @@
+language: java
+jdk:
+  - oraclejdk8
+
+# Anything after trusty doesn't have Java 8
+dist: trusty
+
+# Below skips the installation step completely (https://docs.travis-ci.com/user/customizing-the-build/#Skipping-the-Installation-Step)
+# If we don't skip it Travis runs unnecessary Gradle tasks like './gradlew assemble'
+install: true
+
+# Build commits to master, PRs to master, and release tags
+script: ./scripts/travis/build.sh
+branches:
+  only:
+    - master
+    - /^v\d+\.\d+\.\d+(-rc\.\d+)?$/
+
+# Set environment variables (includes JFrog credentials)
+env:
+  global:
+    - secure: "sMIfGOKzDPr/url21YuRe4/F9DWh1ptTuVfqKfYHsX79urzfHYk2/Xgt0ohynxt9xqKzNnij28oOi67q0CswGjFx+wfZMQzmlTh/p7EsdKKjA0dy2JtBpvYUrSJ6PIfXLTkh8jAdBKEdk5ymDTYBWmNj3Kqyoi6ErWzNG2K8MDS8n84c000peiWWmQ5bTOz2tHq+cAuU7cqvSyvkvGmvcvY1H5mBpEQybRRZKwco6iBw96Rk69lv4+DSxncmXlasvKFZ3A+XNjtsFCfYMFUHs9WCSp4ysveTzRlj0oe2voHamCaT6YfVd/xmd5z/PGcFkDO4HDwX759hpL0As7oANUsvha1Zay/cK5yWijCZUV7Nm2ulMOztMPaDOULARnw8Ih+zHyvsi/kqAZl9l5Ja7Ud/fJe248HsiYHcQP2/eFmJ3bzKURYpzut+mBiSTyi/aH53KGXsvJr2onIUxq7H2u0jKYEg+i4PAODc7t/mdhRYHd5u1msOON91OYeQnTeKGGYwbJBstt5yw+I6NWRXp8zjm0AlJoBh8ITnL0X0vjBiIkM/P1miRIx6JvNbLgGVHHtMbEZW8nbFMEdjw84DN53lcgsK2/v5t+IKHy4136hgpMXQKFhRoMdsz0xPTyM8WSGT7AqQ7lRfLjTGu+fQAWtAkgh1Rb4zN+Ku3M04CeE="
+    - secure: "uK365tOg5x6mCn+B7HiNrsI5gjInMOQh1MtfZevMolWXkbWFqJrbZ4WTEEQbW89nTmmQsmOt/bQCjZmkchqP7rEiMeF0S8xprK2fVM44twgHJBo4OGck/HEAe/AVcZ1TvUlsAlS+3sH+rBNShBKnHoi89nxnHUN1xsBzz4x0xv+xmlhBmoflyzAyIWW4YSvQ6hGTA0+7LzNcvi6mmrWnqpKA8KReUJCp10QlTsZnW8Pd1VPneMfEn+A73GspmjuE7Yrr8pP3vRGu+ml1kM5wP/ANhQkXp+11S44OWNuEyMR5j2h+bx3SlnJKJSVSaZVjsfKZut/I86p8lI1tz+alXHG7tPtpa1Yriimcn3Z1IqEOsHjA7sKL8/b+yp1bBjZ7uKioQB0oaoJf+aAHbdOCvXIWZDAf8JOVzccoRj6p6T3M25OTg8zXiJhJ+2YcZxA9nErOHiq8mog6K96pvK9LosZ51Nu1hnQkVpMJ0AOLrKcwlr+iO9pGZjYm1WI4M7nF2BoNsAjo3pSMb/kpbanfn0FZFIzWA2C/BkTUez/sfGww4WO5fFcntC7BpXlXlM0jecqXhgPXkyrhjWTGlWuOMlC1HaDvJeOQF3BZdw36oefsjuVI8CXulimpWniaqLqorD3Bm47zwcG2+5g9rQUwY7poIB6uXPwzdmil2t2HuH4="
+
+# Publish a new version on tag push
+deploy:
+  provider: script
+  script: scripts/travis/publish-tag.sh
+  on:
+    tags: true
+  # Without this, build artifacts will be cleaned up before deployment
+  skip_cleanup: true
+
+# Send email notifications to the user associated with a tag deployment
+notifications:
+  email:
+    if: tag IS present
+    on_failure: always
+    on_success: always

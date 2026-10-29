@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+  immediate="true"
+  activate="activate"
+  name="Weblounge Content Repository Service Factory">
+
+  <implementation class="ch.entwine.weblounge.contentrepository.impl.ContentRepositoryServiceFactory" />
+  <property name="service.description" value="Weblounge Content Repository Service Factory" />
+  <property name="service.pid" value="ch.entwine.weblounge.contentrepository.factory"/>
+  <service>
+    <provide interface="org.osgi.service.cm.ManagedServiceFactory" />
+    <provide interface="org.osgi.service.cm.ManagedService" />
+  </service>
+  
+  <reference name="environment" interface="ch.entwine.weblounge.common.site.Environment" cardinality="1..1" policy="static" bind="setEnvironment" />
+  <reference name="serializer" interface="ch.entwine.weblounge.common.repository.ResourceSerializerService" cardinality="1..1" policy="static" bind="setResourceSerializer" />
+  <reference name="searchindex" interface="ch.entwine.weblounge.common.search.SearchIndex" cardinality="1..1" policy="static" bind="setSearchIndex" />
+
+</scr:component>

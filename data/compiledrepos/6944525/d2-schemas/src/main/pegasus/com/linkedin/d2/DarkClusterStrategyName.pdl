@@ -1,0 +1,36 @@
+namespace com.linkedin.d2
+
+/**
+ * There are 2 types of strategy: RELATIVE_TRAFFIC, CONSTANT_QPS. These can be specified in prioritized order and
+ * will be picked in that order depending on availability.
+ * A strategy may not be available when a new strategy is introduced but the client has not upgraded to a code version
+ * that supports that strategy.
+ */
+enum DarkClusterStrategyName {
+
+  /**
+   * This strategy aims to maintain a proportional amount of incoming QPS at the host level between the source and dark clusters.
+   * Configured with "multiplier". For example a multiplier of 1 would mean the average incoming QPS for a source host equals that
+   * of a dark host. A multiplier of 2 means on average a dark host will receive 2x more traffic than a source host.
+   */
+  RELATIVE_TRAFFIC
+
+  /**
+   * This strategy will maintain a certain number of queries per second to the entire dark cluster. It does so by adding every inbound
+   * request to a circular buffer which is consumed asynchronously by a rate-limited event loop. Configured with:
+   *   "dispatcherOutboundTargetRate": the target rate which each dark cluster host should receive.
+   *   "dispatcherMaxRequestsToBuffer": the number of requests to store in the circular buffer.
+   *   "dispatcherBufferedRequestExpiryInSeconds": time in seconds that a request is eligible for dispatch
+   *                                               once it is added to the circular buffer.
+   */
+  CONSTANT_QPS
+
+  /**
+   * This strategy aims to send identical traffic across all the dark clusters configured with this strategy. For eg: if
+   * there are 3 dark clusters configured with this strategy with a multiplier of 1, all 3 dark clusters would receive
+   * exactly same requests from the source clusters. This strategy can be used in scenarios where users want to do performance
+   * analysis across dark clusters in which case having exactly similar traffic coming into all the clusters would help
+   * make a fair comparison
+   */
+  IDENTICAL_TRAFFIC
+}

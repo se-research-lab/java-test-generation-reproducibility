@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>niubi-job-parent</artifactId>
+        <groupId>com.zuoxiaolong</groupId>
+        <!-- 以下两个配置仅做示例使用 -->
+        <version>0.9.6.1-SNAPSHOT</version>
+        <relativePath>../../niubi-job-parent/pom.xml</relativePath>
+        <!-- 实际开发时应使用如下配置 -->
+        <!-- <version>0.9.5.1.2</version> -->
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>niubi-job-sample-common</artifactId>
+    <name>${project.groupId}:${project.artifactId}</name>
+
+    <!-- 该配置根据自己的需求可选择性保留或删除 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
