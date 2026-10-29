@@ -14,7 +14,6 @@ Frozen experimental source/data snapshot: `86799597262e21749ef92fd0253c08a246199
 | E1 configuration/integration, section 3.5 | [E1 source](../workspace/camera_ready_minimal/b1_full300_20261026/src/), [adapters](../workspace/camera_ready_minimal/b1_full300_20261026/adapters/), [configuration freeze](../workspace/camera_ready_minimal/b1_full300_20261026/EXPERIMENT_CONFIGURATION_FREEZE_20261026.json), [manifest300](../workspace/camera_ready_minimal/b1_full300_20261026/manifest300.json) |
 | E1 canonical outcomes, Table 6 and section 4.6 | [final300 ledger and statistics](../workspace/camera_ready_minimal/b1_full300_20261026/completion_amendment_v1/final300_offline_v1/) |
 | Existing attempt/error history | [previously published execution tables](../workspace/camera_ready_minimal/b1_full300_20261026/audit_e1_execution_20261028_v2/) |
-| Current manuscript | [PDF](../paper/camera_ready/FISAT2026_camera_ready.pdf), [LaTeX main](../paper/camera_ready/main.tex), [build guide](../paper/camera_ready/README_BUILD.md) |
 
 ## Scope and missing evidence
 
