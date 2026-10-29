@@ -36,15 +36,6 @@ java-test-generation-reproducibility/
       b1_full300_20261026/        # E1 policies, adapters, controllers and final300 tables
     review_reports/              # Previously published guards and legacy analysis source
     output/camera_ready_review/  # Previously published offline analysis files
-  paper/camera_ready/
-    FISAT2026_camera_ready.pdf
-    main.tex
-    sections/
-    references.tex
-    references.bib
-    llncs.cls
-    splncs04.bst
-    README_BUILD.md
   docs/
   manifests/
   tools/verify_bundle.py
