@@ -1,0 +1,49 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\558963\httpcache4j-api\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\558963
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 4.501
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< org.codehaus.httpcache4j:httpcache4j-api >--------------
+[INFO] Building Java HTTP cache :: API 5.2.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ httpcache4j-api ---
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ httpcache4j-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ httpcache4j-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 92 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\558963\httpcache4j-api\target\classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ httpcache4j-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ httpcache4j-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\558963\httpcache4j-api\target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/558963/httpcache4j-api/src/test/java/org/codehaus/httpcache4j/auth/ProxyAuthenticatorTest.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/558963/httpcache4j-api/src/test/java/org/codehaus/httpcache4j/auth/ProxyAuthenticatorTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.396 s
+[INFO] Finished at: 2026-07-23T07:18:46+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

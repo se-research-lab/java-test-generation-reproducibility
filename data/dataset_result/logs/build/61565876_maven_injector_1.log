@@ -1,0 +1,65 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\61565876\injector\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\61565876
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 5.520
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< ch.jalu:injector >--------------------------
+[INFO] Building injector 1.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ injector ---
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (prepare-agent) @ injector ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.14\\org.jacoco.agent-0.8.14-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\61565876\\injector\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ injector ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\61565876\injector\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ injector ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 46 source files with javac [debug target 1.8] to target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/main/java/ch/jalu/injector/testing/DelayedInjectionExtension.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/main/java/ch/jalu/injector/testing/DelayedInjectionExtension.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/main/java/ch/jalu/injector/InjectorImpl.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/main/java/ch/jalu/injector/InjectorImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ injector ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\61565876\injector\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ injector ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 91 source files with javac [debug target 1.8] to target\test-classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/test/java/ch/jalu/injector/utils/InjectorUtilsTest.java:[159,59] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/test/java/ch/jalu/injector/utils/InjectorUtilsTest.java:[160,59] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/test/java/ch/jalu/injector/utils/InjectorUtilsTest.java:[161,59] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to java.lang.Object for a varargs call
+  cast to java.lang.Object[] for a non-varargs call and to suppress this warning
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/test/java/ch/jalu/injector/testing/runner/MockDependencyHandlerTest.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/test/java/ch/jalu/injector/testing/runner/MockDependencyHandlerTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/test/java/ch/jalu/injector/InjectorImplTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/61565876/injector/src/test/java/ch/jalu/injector/InjectorImplTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.394 s
+[INFO] Finished at: 2026-07-23T08:46:44+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

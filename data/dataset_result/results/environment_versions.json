@@ -1,0 +1,95 @@
+{
+  "captured_at": "2026-07-22T20:40:34+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\quyt2\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "scripts": [
+    {
+      "path": "config_v3.yaml",
+      "sha256": "a05265fe992df1165865c9619b35f6e4f9f5fb90f3ccfb642962c3bb5d7813b5",
+      "size": 3079
+    },
+    {
+      "path": "requirements-v3.txt",
+      "sha256": "c69f530315f395db103bab5ac30d07d0f5ca597fd4fc83079e02db7e856a8867",
+      "size": 29
+    },
+    {
+      "path": "maven-settings-v3.xml",
+      "sha256": "8a09df90f653dfa0266ce80e8709eb70d1987bcf95494e5add35f62026b27342",
+      "size": 1971
+    },
+    {
+      "path": "gradle-init-v3.gradle",
+      "sha256": "887b68029318a3e030306b9cc15a40be90f1f72f132a256819c5465b6abc14e0",
+      "size": 867
+    },
+    {
+      "path": "000_preflight_and_backup.py",
+      "sha256": "5cf0d8a68fcf8e6a2384281b9fcdbcca4d9ae8db9dc9dd7e9eef4c2304ed846d",
+      "size": 896
+    },
+    {
+      "path": "001_reconstruct_unique_frame.py",
+      "sha256": "b10db179fb41b43f3305baecd56086d0ef5733470bb6d0f731a73891c41f93fa",
+      "size": 709
+    },
+    {
+      "path": "002_create_repo_queue.py",
+      "sha256": "9790a4630ec1938560a0e50cb46e7bcd4448d1918e6e55312acb424a1de00063",
+      "size": 657
+    },
+    {
+      "path": "003_screen_and_build_repositories.py",
+      "sha256": "f9ebea936a2d107e518f870bea35dcbd9a5318b4eb6778082cd588dbb2121ce1",
+      "size": 946
+    },
+    {
+      "path": "004_sample_classes.py",
+      "sha256": "fb3331b4e74cd2decd3e34eaff96054c272df2bd93b7087d22d9958230bd04cb",
+      "size": 683
+    },
+    {
+      "path": "005_validate_and_report.py",
+      "sha256": "f0cca74ef4fc33c382781f4f3e784d3037c9aab0b4cf420d83342f3250aa89b8",
+      "size": 680
+    },
+    {
+      "path": "pipeline_v3.py",
+      "sha256": "6eb3b695e0514636b1bdc9ea43b495b2e6607e42aaea4a82d20faf2e3d026924",
+      "size": 106176
+    },
+    {
+      "path": "v3_core.py",
+      "sha256": "f8446b777a1b2398d76559d241c6d757a11c21a619ce6a914657401506c7871e",
+      "size": 86848
+    }
+  ],
+  "tools": {
+    "git": {
+      "duration_seconds": 0.03579378128051758,
+      "exit_code": 0,
+      "output": "git version 2.54.0.windows.1"
+    },
+    "gradle": {
+      "duration_seconds": 1.0976252555847168,
+      "exit_code": 0,
+      "output": "------------------------------------------------------------\nGradle 7.5.1\n------------------------------------------------------------\n\nBuild time:   2022-08-05 21:17:56 UTC\nRevision:     d1daa0cbf1a0103000b71484e1dbfe096e095918\n\nKotlin:       1.6.21\nGroovy:       3.0.10\nAnt:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021\nJVM:          1.8.0_172 (Oracle Corporation 25.172-b11)\nOS:           Windows 10 10.0 amd64"
+    },
+    "java": {
+      "duration_seconds": 0.13204050064086914,
+      "exit_code": 0,
+      "output": "java version \"1.8.0_172\"\nJava(TM) SE Runtime Environment (build 1.8.0_172-b11)\nJava HotSpot(TM) 64-Bit Server VM (build 25.172-b11, mixed mode)"
+    },
+    "javac": {
+      "duration_seconds": 0.2899937629699707,
+      "exit_code": 0,
+      "output": "javac 1.8.0_172"
+    },
+    "maven": {
+      "duration_seconds": 0.590613603591919,
+      "exit_code": 0,
+      "output": "Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)\nMaven home: C:\\Program Files\\apache-maven-3.9.15\nJava version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\\Program Files\\Java\\jdk1.8.0_172\\jre\nDefault locale: en_US, platform encoding: Cp1258\nOS name: \"windows 10\", version: \"10.0\", arch: \"amd64\", family: \"windows\""
+    }
+  }
+}

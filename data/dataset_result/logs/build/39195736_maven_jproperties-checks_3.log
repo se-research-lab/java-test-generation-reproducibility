@@ -1,0 +1,192 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\pom.xml" -pl jproperties-checks -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 10.005
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 4 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 4 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] SonarQube Java Properties Analyzer                                 [pom]
+[INFO] SonarQube Java Properties Analyzer :: Frontend                     [jar]
+[INFO] SonarQube Java Properties Analyzer :: Check Test Toolkit           [jar]
+[INFO] SonarQube Java Properties Analyzer :: Checks                       [jar]
+[INFO] 
+[INFO] ---------< org.codehaus.sonar-plugins.jproperties:jproperties >---------
+[INFO] Building SonarQube Java Properties Analyzer 2.7-SNAPSHOT           [1/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.0.0:clean (default-clean) @ jproperties ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ jproperties ---
+[WARNING] Cannot get the revision information from the scm repository, proceeding with revision of 0 : 
+No such provider: 'git@github.com'.
+[INFO] Storing buildNumber: 0 at timestamp: 1784762634478
+[WARNING] Cannot get the branch information from the git repository: 
+No such provider: 'git@github.com'.
+[WARNING] Cannot get the branch information from the scm repository, proceeding with UNKNOWN_BRANCH : 
+No such provider: 'git@github.com'.
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce) @ jproperties ---
+[INFO] 
+[INFO] --- license:3.0:check (enforce-license-headers) @ jproperties ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (agent) @ jproperties ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\39195736\\..\\target\\jacoco.exec,append=true"
+[INFO] 
+[INFO] --- bsh:1.4:run (compute-artifact-display-version) @ jproperties ---
+[INFO] Executing Script
+[INFO] file class java.lang.Object
+[INFO] script class java.lang.String
+[INFO] evaluating script if (! "2.7-SNAPSHOT".endsWith("-SNAPSHOT")) { [+ 15 omitted line(s)]
+[INFO] 
+[INFO] ----< org.codehaus.sonar-plugins.jproperties:jproperties-frontend >-----
+[INFO] Building SonarQube Java Properties Analyzer :: Frontend 2.7-SNAPSHOT [2/4]
+[INFO]   from jproperties-frontend\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.0.0:clean (default-clean) @ jproperties-frontend ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ jproperties-frontend ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce) @ jproperties-frontend ---
+[INFO] 
+[INFO] --- license:3.0:check (enforce-license-headers) @ jproperties-frontend ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (agent) @ jproperties-frontend ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\39195736\\jproperties-frontend\\..\\target\\jacoco.exec,append=true"
+[INFO] 
+[INFO] --- bsh:1.4:run (compute-artifact-display-version) @ jproperties-frontend ---
+[INFO] Executing Script
+[INFO] file class java.lang.Object
+[INFO] script class java.lang.String
+[INFO] evaluating script if (! "2.7-SNAPSHOT".endsWith("-SNAPSHOT")) { [+ 15 omitted line(s)]
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ jproperties-frontend ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-frontend\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ jproperties-frontend ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 55 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-frontend\target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/39195736/jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/MetricsVisitor.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-frontend\src\main\java\org\sonar\jproperties\visitors\metrics\MetricsVisitor.java uses unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/39195736/jproperties-frontend/src/main/java/org/sonar/jproperties/visitors/metrics/MetricsVisitor.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ jproperties-frontend ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ jproperties-frontend ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-frontend\target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/39195736/jproperties-frontend/src/test/java/org/sonar/jproperties/parser/PropertiesTreeTest.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/39195736/jproperties-frontend/src/test/java/org/sonar/jproperties/parser/PropertiesTreeTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --< org.codehaus.sonar-plugins.jproperties:jproperties-checks-testkit >--
+[INFO] Building SonarQube Java Properties Analyzer :: Check Test Toolkit 2.7-SNAPSHOT [3/4]
+[INFO]   from jproperties-checks-testkit\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.0.0:clean (default-clean) @ jproperties-checks-testkit ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ jproperties-checks-testkit ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce) @ jproperties-checks-testkit ---
+[INFO] 
+[INFO] --- license:3.0:check (enforce-license-headers) @ jproperties-checks-testkit ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (agent) @ jproperties-checks-testkit ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\39195736\\jproperties-checks-testkit\\..\\target\\jacoco.exec,append=true"
+[INFO] 
+[INFO] --- bsh:1.4:run (compute-artifact-display-version) @ jproperties-checks-testkit ---
+[INFO] Executing Script
+[INFO] file class java.lang.Object
+[INFO] script class java.lang.String
+[INFO] evaluating script if (! "2.7-SNAPSHOT".endsWith("-SNAPSHOT")) { [+ 15 omitted line(s)]
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ jproperties-checks-testkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-checks-testkit\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ jproperties-checks-testkit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-checks-testkit\target\classes
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ jproperties-checks-testkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-checks-testkit\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ jproperties-checks-testkit ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----< org.codehaus.sonar-plugins.jproperties:jproperties-checks >------
+[INFO] Building SonarQube Java Properties Analyzer :: Checks 2.7-SNAPSHOT [4/4]
+[INFO]   from jproperties-checks\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.0.0:clean (default-clean) @ jproperties-checks ---
+[INFO] 
+[INFO] --- buildnumber:1.4:create (default) @ jproperties-checks ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M1:enforce (enforce) @ jproperties-checks ---
+[INFO] 
+[INFO] --- license:3.0:check (enforce-license-headers) @ jproperties-checks ---
+[INFO] Checking licenses...
+[INFO] 
+[INFO] --- jacoco:0.7.9:prepare-agent (agent) @ jproperties-checks ---
+[INFO] argLine set to "-javaagent:C:\\Users\\quyt2\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.7.9\\org.jacoco.agent-0.7.9-runtime.jar=destfile=D:\\material\\SWT301\\rsbln\\New folder\\data_v3\\repos\\working\\39195736\\jproperties-checks\\..\\target\\jacoco.exec,append=true"
+[INFO] 
+[INFO] --- bsh:1.4:run (compute-artifact-display-version) @ jproperties-checks ---
+[INFO] Executing Script
+[INFO] file class java.lang.Object
+[INFO] script class java.lang.String
+[INFO] evaluating script if (! "2.7-SNAPSHOT".endsWith("-SNAPSHOT")) { [+ 15 omitted line(s)]
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ jproperties-checks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 27 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:compile (default-compile) @ jproperties-checks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 35 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-checks\target\classes
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ jproperties-checks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 71 resources
+[INFO] 
+[INFO] --- compiler:3.7.0:testCompile (default-testCompile) @ jproperties-checks ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 26 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\39195736\jproperties-checks\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SonarQube Java Properties Analyzer 2.7-SNAPSHOT:
+[INFO] 
+[INFO] SonarQube Java Properties Analyzer ................. SUCCESS [  2.304 s]
+[INFO] SonarQube Java Properties Analyzer :: Frontend ..... SUCCESS [  2.272 s]
+[INFO] SonarQube Java Properties Analyzer :: Check Test Toolkit SUCCESS [  0.415 s]
+[INFO] SonarQube Java Properties Analyzer :: Checks ....... SUCCESS [  2.132 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.711 s
+[INFO] Finished at: 2026-07-23T06:24:00+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

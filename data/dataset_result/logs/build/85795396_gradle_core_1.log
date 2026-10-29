@@ -1,0 +1,80 @@
+RECIPE: repository_wrapper_gradle_module
+COMMAND: "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\85795396\gradlew.bat" --no-daemon --console=plain --stacktrace :core:clean :core:testClasses -x test
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\85795396
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Downloading https://services.gradle.org/distributions/gradle-8.14.4-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%..............100%
+
+Welcome to Gradle 8.14.4!
+
+Here are the highlights of this release:
+ - Java 24 support
+ - GraalVM Native Image toolchain selection
+ - Enhancements to test reporting
+ - Build Authoring improvements
+
+For more details see https://docs.gradle.org/8.14.4/release-notes.html
+
+
+------------------------------------------------------------
+Gradle 8.14.4
+------------------------------------------------------------
+
+Build time:    2026-01-23 16:30:23 UTC
+Revision:      ad5ff774b4b0e9a8a0cf1a14ca70d7230003c3ad
+
+Kotlin:        2.0.21
+Groovy:        3.0.25
+Ant:           Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+Launcher JVM:  1.8.0_172 (Oracle Corporation 25.172-b11)
+Daemon JVM:    C:\Program Files\Java\jdk1.8.0_172 (no JDK specified, using current Java home)
+OS:            Windows 10 10.0 amd64
+EXIT_CODE: 0
+DURATION: 157.825
+STDOUT:
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Building Apache Calcite Avatica 1.29.0-SNAPSHOT
+
+> Task :core:clean UP-TO-DATE
+> Task :core:filterJava
+> Task :core:extractProto
+> Task :core:processResources
+> Task :core:extractTestProto
+> Task :core:processTestResources NO-SOURCE
+> Task :metrics:compileJava
+> Task :metrics:processResources NO-SOURCE
+> Task :core:extractIncludeProto
+> Task :core:generateProto
+
+> Task :core:compileJava
+
+> Task :core:classes
+> Task :core:extractIncludeTestProto
+> Task :core:generateTestProto NO-SOURCE
+
+> Task :core:compileTestJava
+
+> Task :core:testClasses
+
+[Incubating] Problems report is available at: file:///D:/material/SWT301/rsbln/New%20folder/data_v3/repos/working/85795396/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 37s
+11 actionable tasks: 10 executed, 1 up-to-date
+
+STDERR:
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+

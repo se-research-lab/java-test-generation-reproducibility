@@ -1,0 +1,187 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\pom.xml" -pl niubi-job-framework/niubi-job-service -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 25.153
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] com.zuoxiaolong:niubi-job                                          [pom]
+[INFO] com.zuoxiaolong:niubi-job-test                                     [jar]
+[INFO] com.zuoxiaolong:niubi-job-framework                                [pom]
+[INFO] com.zuoxiaolong:niubi-job-core                                     [jar]
+[INFO] com.zuoxiaolong:niubi-job-api                                      [jar]
+[INFO] com.zuoxiaolong:niubi-job-scanner                                  [jar]
+[INFO] com.zuoxiaolong:niubi-job-persistent                               [jar]
+[INFO] com.zuoxiaolong:niubi-job-service                                  [jar]
+[INFO] 
+[INFO] ---------------------< com.zuoxiaolong:niubi-job >----------------------
+[INFO] Building com.zuoxiaolong:niubi-job 0.9.6.1-SNAPSHOT                [1/8]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job ---
+[INFO] 
+[INFO] -------------------< com.zuoxiaolong:niubi-job-test >-------------------
+[INFO] Building com.zuoxiaolong:niubi-job-test 0.9.6.1-SNAPSHOT           [2/8]
+[INFO]   from niubi-job-test\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job-test ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ niubi-job-test ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-test\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ niubi-job-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-test\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ niubi-job-test ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-test\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ niubi-job-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ----------------< com.zuoxiaolong:niubi-job-framework >-----------------
+[INFO] Building com.zuoxiaolong:niubi-job-framework 0.9.6.1-SNAPSHOT      [3/8]
+[INFO]   from niubi-job-framework\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job-framework ---
+[INFO] 
+[INFO] -------------------< com.zuoxiaolong:niubi-job-core >-------------------
+[INFO] Building com.zuoxiaolong:niubi-job-core 0.9.6.1-SNAPSHOT           [4/8]
+[INFO]   from niubi-job-framework\niubi-job-core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job-core ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ niubi-job-core ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-core\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ niubi-job-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-core\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ niubi-job-core ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-core\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ niubi-job-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-core\target\test-classes
+[INFO] 
+[INFO] -------------------< com.zuoxiaolong:niubi-job-api >--------------------
+[INFO] Building com.zuoxiaolong:niubi-job-api 0.9.6.1-SNAPSHOT            [5/8]
+[INFO]   from niubi-job-framework\niubi-job-api\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job-api ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ niubi-job-api ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-api\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ niubi-job-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-api\target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/49384652/niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/AbstractGenericData.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-api\src\main\java\com\zuoxiaolong\niubi\job\api\data\AbstractGenericData.java uses unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/49384652/niubi-job-framework/niubi-job-api/src/main/java/com/zuoxiaolong/niubi/job/api/data/AbstractGenericData.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ niubi-job-api ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ niubi-job-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-api\target\test-classes
+[INFO] 
+[INFO] -----------------< com.zuoxiaolong:niubi-job-scanner >------------------
+[INFO] Building com.zuoxiaolong:niubi-job-scanner 0.9.6.1-SNAPSHOT        [6/8]
+[INFO]   from niubi-job-framework\niubi-job-scanner\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job-scanner ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ niubi-job-scanner ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-scanner\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ niubi-job-scanner ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-scanner\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ niubi-job-scanner ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-scanner\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ niubi-job-scanner ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-scanner\target\test-classes
+[INFO] 
+[INFO] ----------------< com.zuoxiaolong:niubi-job-persistent >----------------
+[INFO] Building com.zuoxiaolong:niubi-job-persistent 0.9.6.1-SNAPSHOT     [7/8]
+[INFO]   from niubi-job-framework\niubi-job-persistent\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job-persistent ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ niubi-job-persistent ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ niubi-job-persistent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-persistent\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ niubi-job-persistent ---
+[INFO] Copying 3 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ niubi-job-persistent ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-persistent\target\test-classes
+[INFO] 
+[INFO] -----------------< com.zuoxiaolong:niubi-job-service >------------------
+[INFO] Building com.zuoxiaolong:niubi-job-service 0.9.6.1-SNAPSHOT        [8/8]
+[INFO]   from niubi-job-framework\niubi-job-service\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ niubi-job-service ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ niubi-job-service ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.3:compile (default-compile) @ niubi-job-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 29 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-service\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ niubi-job-service ---
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.3:testCompile (default-testCompile) @ niubi-job-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\49384652\niubi-job-framework\niubi-job-service\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for com.zuoxiaolong:niubi-job 0.9.6.1-SNAPSHOT:
+[INFO] 
+[INFO] com.zuoxiaolong:niubi-job .......................... SUCCESS [  0.340 s]
+[INFO] com.zuoxiaolong:niubi-job-test ..................... SUCCESS [  7.861 s]
+[INFO] com.zuoxiaolong:niubi-job-framework ................ SUCCESS [  0.004 s]
+[INFO] com.zuoxiaolong:niubi-job-core ..................... SUCCESS [  2.428 s]
+[INFO] com.zuoxiaolong:niubi-job-api ...................... SUCCESS [  1.948 s]
+[INFO] com.zuoxiaolong:niubi-job-scanner .................. SUCCESS [  1.175 s]
+[INFO] com.zuoxiaolong:niubi-job-persistent ............... SUCCESS [  4.765 s]
+[INFO] com.zuoxiaolong:niubi-job-service .................. SUCCESS [  4.415 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.205 s
+[INFO] Finished at: 2026-07-23T11:34:57+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

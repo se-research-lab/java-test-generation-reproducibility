@@ -1,0 +1,35 @@
+RECIPE: repository_wrapper_gradle_module
+COMMAND: "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41627638\leetcode\battleships-in-a-board\gradlew.bat" --no-daemon --console=plain --stacktrace clean testClasses -x test
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\41627638\leetcode\battleships-in-a-board
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+------------------------------------------------------------
+Gradle 2.13
+------------------------------------------------------------
+
+Build time:   2016-04-25 04:10:10 UTC
+Build number: none
+Revision:     3b427b1481e46232107303c90be7b05079b05b1c
+
+Groovy:       2.4.4
+Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+JVM:          1.8.0_172 (Oracle Corporation 25.172-b11)
+OS:           Windows 10 10.0 amd64
+EXIT_CODE: 0
+DURATION: 5.636
+STDOUT:
+:clean UP-TO-DATE
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources
+:testClasses
+
+BUILD SUCCESSFUL
+
+Total time: 5.015 secs
+
+STDERR:
+

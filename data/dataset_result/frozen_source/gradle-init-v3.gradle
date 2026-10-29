@@ -1,0 +1,21 @@
+// Pre-registered environment-only fallback derived from V2 repair evidence.
+allprojects {
+    buildscript {
+        repositories {
+            mavenCentral()
+            maven { url 'https://maven.restlet.talend.com/' }
+            maven { url 'https://packages.confluent.io/maven/' }
+            maven { url 'https://repository.jboss.org/nexus/content/groups/public/' }
+            maven { url 'https://repo.grails.org/grails/core' }
+            maven { url 'https://maven.google.com/' }
+        }
+    }
+    repositories {
+        mavenCentral()
+        maven { url 'https://maven.restlet.talend.com/' }
+        maven { url 'https://packages.confluent.io/maven/' }
+        maven { url 'https://repository.jboss.org/nexus/content/groups/public/' }
+        maven { url 'https://repo.grails.org/grails/core' }
+        maven { url 'https://maven.google.com/' }
+    }
+}

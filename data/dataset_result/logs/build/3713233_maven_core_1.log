@@ -1,0 +1,71 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3713233\core\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3713233\core
+DECLARED_JAVA: 6
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 7.205
+STDOUT:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.junithelper:junithelper-core:jar:1.12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-gpg-plugin is missing. @ line 58, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 85, column 21
+[WARNING] 'build.plugins.plugin.version' for org.junithelper:maven-junithelper-plugin is missing. @ line 132, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 76, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 93, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 111, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-resources-plugin is missing. @ line 105, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------< org.junithelper:junithelper-core >------------------
+[INFO] Building junithelper-core 1.12
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-source-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Java version 17 is not met by current version: 1.8.0_172
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.15
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-source-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-source-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-source-plugin:3.4.0
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ junithelper-core ---
+[INFO] 
+[INFO] --- enforcer:1.0:enforce (enforce-maven) @ junithelper-core ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ junithelper-core ---
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] The encoding used to copy filtered properties files has not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ junithelper-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 84 source files with javac [debug target 1.6] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ junithelper-core ---
+[INFO] Copying 29 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ junithelper-core ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 77 source files with javac [debug target 1.6] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.6
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.007 s
+[INFO] Finished at: 2026-07-23T07:31:18+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

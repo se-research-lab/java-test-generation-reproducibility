@@ -1,0 +1,50 @@
+RECIPE: repository_wrapper_gradle_module
+COMMAND: "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\85795396\gradlew.bat" --no-daemon --console=plain --stacktrace :metrics-dropwizardmetrics:clean :metrics-dropwizardmetrics:testClasses -x test
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\85795396
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+------------------------------------------------------------
+Gradle 8.14.4
+------------------------------------------------------------
+
+Build time:    2026-01-23 16:30:23 UTC
+Revision:      ad5ff774b4b0e9a8a0cf1a14ca70d7230003c3ad
+
+Kotlin:        2.0.21
+Groovy:        3.0.25
+Ant:           Apache Ant(TM) version 1.10.15 compiled on August 25 2024
+Launcher JVM:  1.8.0_172 (Oracle Corporation 25.172-b11)
+Daemon JVM:    C:\Program Files\Java\jdk1.8.0_172 (no JDK specified, using current Java home)
+OS:            Windows 10 10.0 amd64
+EXIT_CODE: 0
+DURATION: 16.047
+STDOUT:
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Building Apache Calcite Avatica 1.29.0-SNAPSHOT
+
+> Task :metrics-dropwizardmetrics:clean UP-TO-DATE
+> Task :metrics:compileJava UP-TO-DATE
+> Task :metrics-dropwizardmetrics:processResources
+> Task :metrics-dropwizardmetrics:compileJava
+> Task :metrics-dropwizardmetrics:classes
+> Task :metrics-dropwizardmetrics:compileTestJava
+> Task :metrics-dropwizardmetrics:processTestResources NO-SOURCE
+> Task :metrics-dropwizardmetrics:testClasses
+
+[Incubating] Problems report is available at: file:///D:/material/SWT301/rsbln/New%20folder/data_v3/repos/working/85795396/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.4/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 15s
+5 actionable tasks: 3 executed, 2 up-to-date
+
+STDERR:
+

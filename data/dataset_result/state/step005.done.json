@@ -1,0 +1,52 @@
+{
+  "completed_at": "2026-07-23T05:54:52+00:00",
+  "config_sha256": "a05265fe992df1165865c9619b35f6e4f9f5fb90f3ccfb642962c3bb5d7813b5",
+  "details": {
+    "backup": 60,
+    "errors": [],
+    "higher": 150,
+    "lower": 150,
+    "main": 300,
+    "status": "PASS"
+  },
+  "outputs": [
+    {
+      "path": "class_sampling_manifest_final_seed42.csv",
+      "sha256": "904a53dc6ed7741c91765cd2ca3d38929a10f8b34d10d6019b8175b5f514af3b",
+      "size": 175928
+    },
+    {
+      "path": "results/SHA256SUMS.csv",
+      "sha256": "7c7cb556623c81ab166468240a659d7ab87aa611032d7d4d54c5394e9a63e98c",
+      "size": 1760
+    },
+    {
+      "path": "results/validation_report.md",
+      "sha256": "06fe01f17d775c9c2a5d9e0f4dd8a996847f54c369279c036fbce69056093e25",
+      "size": 3222
+    },
+    {
+      "path": "results/complexity_halves_summary.json",
+      "sha256": "86ee76d42f7a1bddd2a3ad5a8456f1e0899c69487ad12695c3ce22fb952ff49c",
+      "size": 401
+    },
+    {
+      "path": "results/sampling_methodology.md",
+      "sha256": "985c32750b401d8fce1454f486e14d379dd07652ce3ac4affefec19d444f9a6a",
+      "size": 1006
+    },
+    {
+      "path": "results/data_integrity_report.md",
+      "sha256": "8cde525fc15abf256561b2619f343e962ec0917e67f6f03127a59ac5b1b03ae0",
+      "size": 631
+    },
+    {
+      "path": "results/RUN_READY",
+      "sha256": "0075a42b14e3ce95a2e4692c6bd76d7c99b56d77210b8e23d98aee0e892fe7fd",
+      "size": 298
+    }
+  ],
+  "pipeline_version": "3.1.0-pre-experiment",
+  "source_inventory_sha256": "5eb8beb7c838a08d8b6cace07d1f01f1edbcc7c30aae5b655b7a0920907435a5",
+  "step": "step005"
+}

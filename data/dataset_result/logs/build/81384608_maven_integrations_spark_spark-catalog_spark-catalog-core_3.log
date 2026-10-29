@@ -1,0 +1,1068 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\pom.xml" -pl integrations/spark/spark-catalog/spark-catalog-core -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 42.226
+STDOUT:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-commons-spark-livy:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ line 88, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-ui-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-ui:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\ui\pom.xml, line 29, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-swagger-ui:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-ui:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\ui\pom.xml, line 29, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-ui-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-ui:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\ui\pom.xml, line 29, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-ui-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-ui:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\ui\pom.xml, line 29, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-ui:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ line 29, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-service-app-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-field-policy-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-field-policy-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-field-policy-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-field-policy-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-jms-service-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-jms-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-spark-shell-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-spark-shell-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-spark-shell-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-spark-shell-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-spark-shell-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-scheduler-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-scheduler-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-scheduler-quartz:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-scheduler-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-scheduler-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-scheduler:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-job-repository-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-job-repository-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-job-repository-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-service-monitor-service-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-service-monitor-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-service-monitor-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-thrift-proxy-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-thrift-proxy-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-thrift-proxy:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-service-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-nifi-cache-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-precondition-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-precondition-policy:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.thinkbiganalytics.kylo.integrations:kylo-nifi-savepoint-message-api:jar -> duplicate declaration of version ${project.version} @ line 216, column 17
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-feed-manager-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-security-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-security-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-security-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-schema-discovery-model2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-schema-discovery-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-schema-discovery-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-operational-metadata-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-operational-metadata-integration-service:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-operational-metadata-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-audit-logging-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-audit-logging-jpa:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-audit-logging-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-audit-logging-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-audit-logging-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-audit-logging-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-service-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-alerts-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-alerts-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-alerts-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-metadata-rest-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-metadata-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-metadata-jms:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-metadata-rest-client-spring:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-metadata-service-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-metadata-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-upgrade-service:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-controller:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-credential-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-credential-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-credential-client:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-credential:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-catalog-service:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-repository-service:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-services:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\pom.xml, line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-services:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ line 39, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-jira-rest-client:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-jira:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-savepoint-message-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-savepoint:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-flow-visitor-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-common-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-common-util:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-client-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-client-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-client-v1.1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-client-v1.2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest-client:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-rest:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service-api-v1.2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-service-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-standard-services-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-standard-services-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service-v1.2:jar:0.10.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service-api-v1.2:jar -> duplicate declaration of version ${project.version} @ line 40, column 17
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.thinkbiganalytics.kylo.integrations:kylo-nifi-savepoint-message-api:jar -> duplicate declaration of version ${project.version} @ line 83, column 17
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-service-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-service:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-service-v1-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-service-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-service-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-service-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-service:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-service-v1-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-service-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-service-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-standard-services:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-provenance-repo:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-provenance-repo-v1.2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-provenance-repo-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-provenance-repo-v1-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-provenance-repo-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-provenance-repo-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-processors:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-v1-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-properties-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-properties-v1.2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-hadoop-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-processors:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-v1-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-spark-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-elasticsearch-processors:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-elasticsearch-v1-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-elasticsearch-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-processors:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-merge-table-processor-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-merge-table-processor-v1.2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-savepoint-processor-v1.2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-v1-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-v1.2-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-core-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-teradata-tdch-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-teradata-tdch-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-teradata-tdch-nar:nar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-teradata-tdch-bundle:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-nar-bundles:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-security-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-security-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-security:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-framework-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-framework-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi-framework:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-nifi:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-interpreter-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-interpreter-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-spark-v1:jar -> duplicate declaration of version ${project.version} @ line 41, column 17
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-interpreter-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-spark-v2:jar -> duplicate declaration of version ${project.version} @ line 45, column 17
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-interpreter:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler-tests:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-profiler:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-shell-client-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-shell-client-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-shell-client-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.spark:spark-mllib_${scala.binary.version}:jar -> version ${spark.version} vs (?) @ line 228, column 17
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-shell-client:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-file-metadata-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-file-metadata-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.spark:spark-hive_${scala.binary.version}:jar -> duplicate declaration of version ${spark.version} @ line 59, column 17
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.spark:spark-sql_${scala.binary.version}:jar -> duplicate declaration of version ${spark.version} @ line 66, column 17
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-file-metadata-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.spark:spark-hive_${scala.binary.version}:jar -> duplicate declaration of version ${spark.version} @ line 63, column 17
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.spark:spark-sql_${scala.binary.version}:jar -> duplicate declaration of version ${spark.version} @ line 70, column 17
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-file-metadata-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-file-metadata:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-validate-cleanse-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-validate-cleanse-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-validate-cleanse-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-validate-cleanse-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-validate-cleanse-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-validate-cleanse-model:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-validate-cleanse:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-merge-table-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-merge-table-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-merge-table-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-merge-table-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-merge-table-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-merge-table:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-dataquality-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-dataquality-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-dataquality-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-dataquality:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-cleanup-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-cleanup-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-cleanup-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-job-cleanup:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-core:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-ingest-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-ingest-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-ingest-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-ingest:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-multi-exec-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-multi-exec-spark-v1:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-multi-exec-spark-v2:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark-multi-exec:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-spark:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-input-format-omniture:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-input-format:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-modeshape-elasticsearch-index-provider:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-modeshape:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-provenance-api:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-provenance-jms:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-provenance-kafka:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-provenance-rest:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-provenance:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo.integrations:kylo-integrations:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\pom.xml, line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo.integrations:kylo-integrations:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ line 27, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-install-tar:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-install:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\install\pom.xml, line 23, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-install-rpm:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-install:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\install\pom.xml, line 23, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-install-debian:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-install:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\install\pom.xml, line 23, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-install:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ line 23, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-docs:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ line 114, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.plugin:example-auth-custom:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.plugin:example-ui-get-file-processor-template:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.plugin:example-ui-feed-stepper-plugin:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.plugin:example-module-services:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.plugin:example-module-ui:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.plugin:example-module:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-samples-plugins:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.spark:kylo-spark-provenance-app:jar:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example.kylo.spark:kylo-provenance-samples:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ com.thinkbiganalytics.kylo:kylo-samples:0.10.1-SNAPSHOT, D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\samples\pom.xml, line 24, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.thinkbiganalytics.kylo:kylo-samples:pom:0.10.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.sonatype.plugins:nexus-staging-maven-plugin is missing. @ line 24, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] kylo                                                               [pom]
+[INFO] kylo-commons                                                       [pom]
+[INFO] kylo-commons-rest-model                                            [jar]
+[INFO] kylo-commons-jdbc                                                  [jar]
+[INFO] kylo-integrations                                                  [pom]
+[INFO] Kylo Spark Parent                                                  [pom]
+[INFO] Kylo Catalog Parent                                                [pom]
+[INFO] Kylo Catalog API                                                   [jar]
+[INFO] kylo-core                                                          [pom]
+[INFO] kylo-services                                                      [pom]
+[INFO] kylo-schema-discovery                                              [pom]
+[INFO] kylo-schema-discovery-api                                          [jar]
+[INFO] kylo-security-service                                              [pom]
+[INFO] kylo-security-rest-model                                           [jar]
+[INFO] kylo-catalog-service                                               [pom]
+[INFO] kylo-catalog-model                                                 [jar]
+[INFO] Kylo Common Hadoop Utilities                                       [jar]
+[INFO] Kylo Catalog Core                                                  [jar]
+[INFO] 
+[INFO] ------------------< com.thinkbiganalytics.kylo:kylo >-------------------
+[INFO] Building kylo 0.10.1-SNAPSHOT                                     [1/18]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo ---
+[INFO] 
+[INFO] --------------< com.thinkbiganalytics.kylo:kylo-commons >---------------
+[INFO] Building kylo-commons 0.10.1-SNAPSHOT                             [2/18]
+[INFO]   from commons\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-commons ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-commons ---
+[INFO] 
+[INFO] ---------< com.thinkbiganalytics.kylo:kylo-commons-rest-model >---------
+[INFO] Building kylo-commons-rest-model 0.10.1-SNAPSHOT                  [3/18]
+[INFO]   from commons\commons-rest-model\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-commons-rest-model ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-commons-rest-model ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-commons-rest-model ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-rest-model\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-commons-rest-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-rest-model\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-commons-rest-model ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-rest-model\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-commons-rest-model ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ------------< com.thinkbiganalytics.kylo:kylo-commons-jdbc >------------
+[INFO] Building kylo-commons-jdbc 0.10.1-SNAPSHOT                        [4/18]
+[INFO]   from commons\commons-jdbc\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-commons-jdbc ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-commons-jdbc ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-commons-jdbc ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-jdbc\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-commons-jdbc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-jdbc\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-commons-jdbc ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-commons-jdbc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-jdbc\target\test-classes
+[INFO] 
+[INFO] -----< com.thinkbiganalytics.kylo.integrations:kylo-integrations >------
+[INFO] Building kylo-integrations 0.10.1-SNAPSHOT                        [5/18]
+[INFO]   from integrations\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-integrations ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-integrations ---
+[INFO] 
+[INFO] ---------< com.thinkbiganalytics.kylo.integrations:kylo-spark >---------
+[INFO] Building Kylo Spark Parent 0.10.1-SNAPSHOT                        [6/18]
+[INFO]   from integrations\spark\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-spark ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-spark ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforceV7) @ kylo-spark ---
+[INFO] 
+[INFO] -----< com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog >-----
+[INFO] Building Kylo Catalog Parent 0.10.1-SNAPSHOT                      [7/18]
+[INFO]   from integrations\spark\spark-catalog\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-spark-catalog ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-spark-catalog ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforceV7) @ kylo-spark-catalog ---
+[INFO] 
+[INFO] ---< com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-api >---
+[INFO] Building Kylo Catalog API 0.10.1-SNAPSHOT                         [8/18]
+[INFO]   from integrations\spark\spark-catalog\spark-catalog-api\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.scala-lang:scala-library:jar:2.10.4 is invalid, transitive dependencies (if any) will not be available: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM C:\Users\quyt2\.m2\repository\org\scala-lang\scala-library\2.10.4\scala-library-2.10.4.pom: expected = after attribute name (position: TEXT seen ...\ue39\ue1f\ue48\ue32\ue40\ue1a\ue17 \ue2d\ue31\ue19\ue14\ue31\ue1a 1 \ue23\ue31\ue1a\ue27\ue2d\ue40\ue25\ue17 \ue44\ue21\ue48\ue21\ue35\ue02\ue31\ue49\ue19\ue15\ue48\ue33</title>\n<link crossorigin d... @6:20)  @ line 6, column 20
+
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-spark-catalog-api ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-spark-catalog-api ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforceV7) @ kylo-spark-catalog-api ---
+[WARNING] Invalid POM for org.scala-lang:scala-library:jar:2.10.4, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] Invalid POM for org.scala-lang:scala-library:jar:2.10.4, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] Invalid POM for org.scala-lang:scala-library:jar:2.10.4, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-spark-catalog-api ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\spark\spark-catalog\spark-catalog-api\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-spark-catalog-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\spark\spark-catalog\spark-catalog-api\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-spark-catalog-api ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\spark\spark-catalog\spark-catalog-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-spark-catalog-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ----------------< com.thinkbiganalytics.kylo:kylo-core >----------------
+[INFO] Building kylo-core 0.10.1-SNAPSHOT                                [9/18]
+[INFO]   from core\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-core ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-core ---
+[INFO] 
+[INFO] --------------< com.thinkbiganalytics.kylo:kylo-services >--------------
+[INFO] Building kylo-services 0.10.1-SNAPSHOT                           [10/18]
+[INFO]   from services\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-services ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-services ---
+[INFO] 
+[INFO] ----------< com.thinkbiganalytics.kylo:kylo-schema-discovery >----------
+[INFO] Building kylo-schema-discovery 0.10.1-SNAPSHOT                   [11/18]
+[INFO]   from core\schema-discovery\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-schema-discovery ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-schema-discovery ---
+[INFO] 
+[INFO] --------< com.thinkbiganalytics.kylo:kylo-schema-discovery-api >--------
+[INFO] Building kylo-schema-discovery-api 0.10.1-SNAPSHOT               [12/18]
+[INFO]   from core\schema-discovery\schema-discovery-api\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-schema-discovery-api ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-schema-discovery-api ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-schema-discovery-api ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\core\schema-discovery\schema-discovery-api\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-schema-discovery-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\core\schema-discovery\schema-discovery-api\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-schema-discovery-api ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\core\schema-discovery\schema-discovery-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-schema-discovery-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\core\schema-discovery\schema-discovery-api\target\test-classes
+[INFO] 
+[INFO] ----------< com.thinkbiganalytics.kylo:kylo-security-service >----------
+[INFO] Building kylo-security-service 0.10.1-SNAPSHOT                   [13/18]
+[INFO]   from services\security-service\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-security-service ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-security-service ---
+[INFO] 
+[INFO] --------< com.thinkbiganalytics.kylo:kylo-security-rest-model >---------
+[INFO] Building kylo-security-rest-model 0.10.1-SNAPSHOT                [14/18]
+[INFO]   from services\security-service\security-rest-model\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-security-rest-model ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-security-rest-model ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-security-rest-model ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\security-service\security-rest-model\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-security-rest-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\security-service\security-rest-model\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-security-rest-model ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\security-service\security-rest-model\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-security-rest-model ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] ----------< com.thinkbiganalytics.kylo:kylo-catalog-service >-----------
+[INFO] Building kylo-catalog-service 0.10.1-SNAPSHOT                    [15/18]
+[INFO]   from services\catalog-service\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-catalog-service ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-catalog-service ---
+[INFO] 
+[INFO] -----------< com.thinkbiganalytics.kylo:kylo-catalog-model >------------
+[INFO] Building kylo-catalog-model 0.10.1-SNAPSHOT                      [16/18]
+[INFO]   from services\catalog-service\catalog-model\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-catalog-model ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-catalog-model ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-catalog-model ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\catalog-service\catalog-model\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-catalog-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\catalog-service\catalog-model\target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/81384608/services/catalog-service/catalog-model/src/main/java/com/thinkbiganalytics/kylo/catalog/rest/model/ConnectorPluginNiFiControllerService.java: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\catalog-service\catalog-model\src\main\java\com\thinkbiganalytics\kylo\catalog\rest\model\ConnectorPluginNiFiControllerService.java uses unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/81384608/services/catalog-service/catalog-model/src/main/java/com/thinkbiganalytics/kylo/catalog/rest/model/ConnectorPluginNiFiControllerService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-catalog-model ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\services\catalog-service\catalog-model\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-catalog-model ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] -----------< com.thinkbiganalytics.kylo:kylo-commons-hadoop >-----------
+[INFO] Building Kylo Common Hadoop Utilities 0.10.1-SNAPSHOT            [17/18]
+[INFO]   from commons\commons-hadoop\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-commons-hadoop ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-commons-hadoop ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-commons-hadoop ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-hadoop\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-commons-hadoop ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-hadoop\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-commons-hadoop ---
+[INFO] Copying 3 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-commons-hadoop ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\commons\commons-hadoop\target\test-classes
+[INFO] 
+[INFO] --< com.thinkbiganalytics.kylo.integrations:kylo-spark-catalog-core >---
+[INFO] Building Kylo Catalog Core 0.10.1-SNAPSHOT                       [18/18]
+[INFO]   from integrations\spark\spark-catalog\spark-catalog-core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ kylo-spark-catalog-core ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforce-maven) @ kylo-spark-catalog-core ---
+[INFO] 
+[INFO] --- enforcer:1.4.1:enforce (enforceV7) @ kylo-spark-catalog-core ---
+[WARNING] Invalid POM for org.scala-lang:scala-library:jar:2.10.4, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] Invalid POM for org.scala-lang:scala-library:jar:2.10.4, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] Invalid POM for org.scala-lang:scala-library:jar:2.10.4, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ kylo-spark-catalog-core ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\spark\spark-catalog\spark-catalog-core\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ kylo-spark-catalog-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\spark\spark-catalog\spark-catalog-core\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ kylo-spark-catalog-core ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ kylo-spark-catalog-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\81384608\integrations\spark\spark-catalog\spark-catalog-core\target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/81384608/integrations/spark/spark-catalog/spark-catalog-core/src/test/java/com/thinkbiganalytics/kylo/catalog/spark/sources/jdbc/JdbcHighWaterMarkTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/81384608/integrations/spark/spark-catalog/spark-catalog-core/src/test/java/com/thinkbiganalytics/kylo/catalog/spark/sources/jdbc/JdbcHighWaterMarkTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for kylo 0.10.1-SNAPSHOT:
+[INFO] 
+[INFO] kylo ............................................... SUCCESS [  0.467 s]
+[INFO] kylo-commons ....................................... SUCCESS [  0.007 s]
+[INFO] kylo-commons-rest-model ............................ SUCCESS [  2.076 s]
+[INFO] kylo-commons-jdbc .................................. SUCCESS [  7.198 s]
+[INFO] kylo-integrations .................................. SUCCESS [  0.027 s]
+[INFO] Kylo Spark Parent .................................. SUCCESS [  1.004 s]
+[INFO] Kylo Catalog Parent ................................ SUCCESS [  0.013 s]
+[INFO] Kylo Catalog API ................................... SUCCESS [  3.763 s]
+[INFO] kylo-core .......................................... SUCCESS [  0.004 s]
+[INFO] kylo-services ...................................... SUCCESS [  0.005 s]
+[INFO] kylo-schema-discovery .............................. SUCCESS [  0.003 s]
+[INFO] kylo-schema-discovery-api .......................... SUCCESS [  2.127 s]
+[INFO] kylo-security-service .............................. SUCCESS [  0.002 s]
+[INFO] kylo-security-rest-model ........................... SUCCESS [  0.944 s]
+[INFO] kylo-catalog-service ............................... SUCCESS [  0.003 s]
+[INFO] kylo-catalog-model ................................. SUCCESS [  0.308 s]
+[INFO] Kylo Common Hadoop Utilities ....................... SUCCESS [  1.376 s]
+[INFO] Kylo Catalog Core .................................. SUCCESS [  7.647 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.792 s
+[INFO] Finished at: 2026-07-23T06:06:23+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

@@ -1,0 +1,31 @@
+{
+  "completed_at": "2026-07-23T05:54:20+00:00",
+  "config_sha256": "a05265fe992df1165865c9619b35f6e4f9f5fb90f3ccfb642962c3bb5d7813b5",
+  "details": {
+    "backup_classes": 60,
+    "complexity_used_for_selection": false,
+    "main_classes": 300,
+    "repositories": 30,
+    "selection_algorithm": "sha256_repo_balanced_v3_1"
+  },
+  "outputs": [
+    {
+      "path": "class_sampling_manifest_seed42.csv",
+      "sha256": "896d05400c2ff3478b4001eadd8c457ac54fc1ef5bfb047a1b5309c85cabe907",
+      "size": 168370
+    },
+    {
+      "path": "class_backup_manifest_seed42.csv",
+      "sha256": "1c8197732865bb21c57b0a5ad28767cf7480f864c99d9ee563d5902cf7b13025",
+      "size": 34074
+    },
+    {
+      "path": "repo_sampling_summary.csv",
+      "sha256": "d8a5e99a0bcd33b4814323a9ba410fe70b1b696ab418546f12aa576a082f8fe0",
+      "size": 595
+    }
+  ],
+  "pipeline_version": "3.1.0-pre-experiment",
+  "source_inventory_sha256": "5eb8beb7c838a08d8b6cace07d1f01f1edbcc7c30aae5b655b7a0920907435a5",
+  "step": "step004"
+}

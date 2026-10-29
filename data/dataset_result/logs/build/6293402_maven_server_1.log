@@ -1,0 +1,83 @@
+RECIPE: global_environment_maven_module
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402\server\pom.xml" clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402
+DECLARED_JAVA: 8
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 44.426
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.vaadin:vaadin-server >----------------------
+[INFO] Building vaadin-server 8.14-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'overWrite' is unknown for plugin 'maven-dependency-plugin:3.0.1:unpack-dependencies (copy-font-icons)'
+[INFO] 
+[INFO] --- clean:3.0.0:clean (default-clean) @ vaadin-server ---
+[INFO] 
+[INFO] --- flatten:1.4.1:clean (flatten-clean) @ vaadin-server ---
+[INFO] 
+[INFO] --- build-helper:1.10:parse-version (parse-version) @ vaadin-server ---
+[INFO] 
+[INFO] --- dependency:3.0.1:unpack-dependencies (copy-font-icons) @ vaadin-server ---
+[INFO] Unpacking C:\Users\quyt2\.m2\repository\com\vaadin\vaadin-icons\3.0.2\vaadin-icons-3.0.2.jar to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402\server\target\vaadin-icons with includes "com/vaadin/icons/VaadinIcons.java" and excludes ""
+[INFO] 
+[INFO] --- build-helper:1.10:add-source (add-source) @ vaadin-server ---
+[INFO] Source directory: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402\server\target\vaadin-icons added.
+[INFO] 
+[INFO] --- checkstyle:2.17:checkstyle (default) @ vaadin-server ---
+[INFO] 
+[INFO] --- build-helper:1.10:add-resource (add-dependency-resources) @ vaadin-server ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ vaadin-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402\server\target\dependency-unpack
+[INFO] 
+[INFO] --- flatten:1.4.1:flatten (flatten) @ vaadin-server ---
+[INFO] Generating flattened POM of project com.vaadin:vaadin-server:jar:8.14-SNAPSHOT...
+[INFO] 
+[INFO] --- resources:2.6:copy-resources (copy-sources) @ vaadin-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 554 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.5.1:compile (default-compile) @ vaadin-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 555 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402\server\target\classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/main/java/com/vaadin/ui/Component.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/main/java/com/vaadin/ui/Component.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/main/java/com/vaadin/server/AbstractClientConnector.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/main/java/com/vaadin/server/AbstractClientConnector.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- bnd:3.5.0:bnd-process (default) @ vaadin-server ---
+[WARNING] D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402\server\bnd.bnd [0:0]: Invalid package name: 'com.vaadin.ui.doc-files'
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ vaadin-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- compiler:3.5.1:testCompile (default-testCompile) @ vaadin-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 406 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6293402\server\target\test-classes
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/test/java/com/vaadin/ui/UIInitRefreshTest.java: Some input files use or override a deprecated API.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/test/java/com/vaadin/ui/UIInitRefreshTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/test/java/com/vaadin/tests/design/DeclarativeTestBaseBase.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/6293402/server/src/test/java/com/vaadin/tests/design/DeclarativeTestBaseBase.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.340 s
+[INFO] Finished at: 2026-07-23T11:33:59+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

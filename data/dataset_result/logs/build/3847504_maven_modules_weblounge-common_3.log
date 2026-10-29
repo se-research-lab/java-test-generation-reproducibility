@@ -1,0 +1,155 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3847504\pom.xml" -pl modules/weblounge-common -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3847504
+DECLARED_JAVA: 7
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 8.206
+STDOUT:
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-cache-api:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-cache:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-common-api:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-common:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-contentrepository-api:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-contentrepository:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-dispatcher-api:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-dispatcher:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-kernel:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-preview:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-runtime:pom:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-security-sql:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-system:jar:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-taglib:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-test:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-ui:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-workbench:bundle:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ch.entwine.weblounge:weblounge-base:pom:4.0.0-SNAPSHOT
+[WARNING] Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 545, column 26
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[WARNING] The project ch.entwine.weblounge:weblounge-base:pom:4.0.0-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Weblounge                                                          [pom]
+[INFO] Weblounge Common API                                            [bundle]
+[INFO] Weblounge Common                                                [bundle]
+[INFO] 
+[INFO] ----------------< ch.entwine.weblounge:weblounge-base >-----------------
+[INFO] Building Weblounge 4.0.0-SNAPSHOT                                  [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ weblounge-base ---
+[INFO] 
+[INFO] -------------< ch.entwine.weblounge:weblounge-common-api >--------------
+[INFO] Building Weblounge Common API 4.0.0-SNAPSHOT                       [2/3]
+[INFO]   from modules\weblounge-common-api\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ weblounge-common-api ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ weblounge-common-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ weblounge-common-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 147 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3847504\modules\weblounge-common-api\target\classes
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ weblounge-common-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3847504\modules\weblounge-common-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ weblounge-common-api ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3847504\modules\weblounge-common-api\target\test-classes
+[INFO] 
+[INFO] ---------------< ch.entwine.weblounge:weblounge-common >----------------
+[INFO] Building Weblounge Common 4.0.0-SNAPSHOT                           [3/3]
+[INFO]   from modules\weblounge-common\pom.xml
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ weblounge-common ---
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ weblounge-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ weblounge-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 185 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3847504\modules\weblounge-common\target\classes
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/3847504/modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/testing/MockHttpSession.java: Some input files use or override a deprecated API.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/3847504/modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/testing/MockHttpSession.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/3847504/modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/testing/MockHttpSession.java: Some input files use unchecked or unsafe operations.
+[WARNING] /D:/material/SWT301/rsbln/New folder/data_v3/repos/working/3847504/modules/weblounge-common/src/main/java/ch/entwine/weblounge/common/impl/testing/MockHttpSession.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ weblounge-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 39 resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ weblounge-common ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 97 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\3847504\modules\weblounge-common\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Weblounge 4.0.0-SNAPSHOT:
+[INFO] 
+[INFO] Weblounge .......................................... SUCCESS [  0.093 s]
+[INFO] Weblounge Common API ............................... SUCCESS [  2.500 s]
+[INFO] Weblounge Common ................................... SUCCESS [  3.626 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.063 s
+[INFO] Finished at: 2026-07-23T08:00:40+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+

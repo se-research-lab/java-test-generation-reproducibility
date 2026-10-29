@@ -1,0 +1,91 @@
+RECIPE: global_environment_maven_reactor
+COMMAND: mvn -B -ntp -DskipTests -DskipITs -f "D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\pom.xml" -pl enav-model -am clean test-compile
+CWD: D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134
+DECLARED_JAVA: unknown
+EFFECTIVE_JAVA: 8
+TOOL_RUNTIME:
+Apache Maven 3.9.15 (98b2cdbfdb5f1ac8781f537ea9acccaed7922349)
+Maven home: C:\Program Files\apache-maven-3.9.15
+Java version: 1.8.0_172, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_172\jre
+Default locale: en_US, platform encoding: Cp1258
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+EXIT_CODE: 0
+DURATION: 6.311
+STDOUT:
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] eNav Parent                                                        [pom]
+[INFO] eNav Util                                                          [jar]
+[INFO] eNav Model                                                         [jar]
+[INFO] 
+[INFO] ----------------------< dk.dma.enav:enav-parent >-----------------------
+[INFO] Building eNav Parent 0.6-SNAPSHOT                                  [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ enav-parent ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ enav-parent ---
+[INFO] 
+[INFO] -----------------------< dk.dma.enav:enav-util >------------------------
+[INFO] Building eNav Util 0.6-SNAPSHOT                                    [2/3]
+[INFO]   from enav-util\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ enav-util ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ enav-util ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ enav-util ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\enav-util\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ enav-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\enav-util\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ enav-util ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\enav-util\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ enav-util ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\enav-util\target\test-classes
+[INFO] 
+[INFO] -----------------------< dk.dma.enav:enav-model >-----------------------
+[INFO] Building eNav Model 0.6-SNAPSHOT                                   [3/3]
+[INFO]   from enav-model\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:2.5:clean (default-clean) @ enav-model ---
+[INFO] 
+[INFO] --- enforcer:3.0.0-M2:enforce (enforce-maven) @ enav-model ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ enav-model ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ enav-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\enav-model\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ enav-model ---
+[INFO] skip non existing resourceDirectory D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\enav-model\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ enav-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to D:\material\SWT301\rsbln\New folder\data_v3\repos\working\6437134\enav-model\target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for eNav Parent 0.6-SNAPSHOT:
+[INFO] 
+[INFO] eNav Parent ........................................ SUCCESS [  0.819 s]
+[INFO] eNav Util .......................................... SUCCESS [  1.730 s]
+[INFO] eNav Model ......................................... SUCCESS [  1.219 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.314 s
+[INFO] Finished at: 2026-07-23T11:35:36+07:00
+[INFO] ------------------------------------------------------------------------
+
+STDERR:
+
