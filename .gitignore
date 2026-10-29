@@ -19,5 +19,10 @@ node_modules/
 *.exec
 /reproduction_out/
 /local_runtime/
+/data/build_work/
+/data/build_replay_results/
+/data/build_cache/
+/data/v3_build_handoff/output/*
+!/data/v3_build_handoff/output/.gitkeep
 .DS_Store
 Thumbs.db

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <!-- Pre-registered environment-only fallback derived from V2 repair evidence. -->
+  <profiles>
+    <profile>
+      <id>classes2test-v3-repository-fallback</id>
+      <repositories>
+        <repository><id>central</id><url>https://repo.maven.apache.org/maven2</url></repository>
+        <repository><id>restlet</id><url>https://maven.restlet.talend.com/</url></repository>
+        <repository><id>confluent</id><url>https://packages.confluent.io/maven/</url></repository>
+        <repository><id>jboss-public</id><url>https://repository.jboss.org/nexus/content/groups/public/</url></repository>
+        <repository><id>grails-core</id><url>https://repo.grails.org/grails/core</url></repository>
+        <repository><id>google-maven</id><url>https://maven.google.com/</url></repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository><id>central</id><url>https://repo.maven.apache.org/maven2</url></pluginRepository>
+        <pluginRepository><id>restlet</id><url>https://maven.restlet.talend.com/</url></pluginRepository>
+        <pluginRepository><id>confluent</id><url>https://packages.confluent.io/maven/</url></pluginRepository>
+        <pluginRepository><id>jboss-public</id><url>https://repository.jboss.org/nexus/content/groups/public/</url></pluginRepository>
+        <pluginRepository><id>grails-core</id><url>https://repo.grails.org/grails/core</url></pluginRepository>
+        <pluginRepository><id>google-maven</id><url>https://maven.google.com/</url></pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>classes2test-v3-repository-fallback</activeProfile>
+  </activeProfiles>
+</settings>

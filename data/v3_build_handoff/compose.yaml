@@ -1,0 +1,31 @@
+services:
+  build-handoff:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BASE_IMAGE: ${V2_BASE_IMAGE:-minhquy266/classes2test-pipeline:pilot-v1}
+        MAVEN_VERSION: "3.9.15"
+    image: ${V3_HANDOFF_IMAGE:-classes2test-v3-build-handoff:1.0}
+    working_dir: /handoff
+    environment:
+      TZ: Asia/Ho_Chi_Minh
+      MAVEN_CONFIG: /cache/m2
+      MAVEN_OPTS: -Dmaven.repo.local=/cache/m2/repository
+      GRADLE_USER_HOME: /cache/gradle
+    volumes:
+      - ../data_v3:/data_v3:ro
+      - ../research_pipeline_v3:/research_pipeline_v3:ro
+      - ../build_work:/build_work
+      - ../build_replay_results:/build_replay_results
+      - ../build_cache/m2:/cache/m2
+      - ../build_cache/gradle:/cache/gradle
+    init: true
+    stdin_open: true
+    tty: true
+    command:
+      - python3
+      - scripts/replay_builds.py
+      - --config
+      - handoff_config.json
+      - --check-only
